@@ -1,0 +1,2679 @@
+{
+  "question_metadata": {
+    "question_id": "28",
+    "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+    "total_articles": 67,
+    "articles_with_response": 64,
+    "articles_without_response": 3
+  },
+  "responses_by_article": [
+    {
+      "article_id": "190638760",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "Metric": "Global SaaS market size",
+          "Value": "12.1",
+          "Unit": "billion USD",
+          "Period": "by 2014",
+          "Method": "Gartner study forecast",
+          "Source": "Gartner"
+        },
+        {
+          "Metric": "SaaS market compound annual growth rate",
+          "Value": "26",
+          "Unit": "%",
+          "Period": "forecast period",
+          "Method": "Gartner study",
+          "Source": "Gartner"
+        },
+        {
+          "Metric": "Vendors preferring compact licensing (C1)",
+          "Value": "57",
+          "Unit": "%",
+          "Period": "2012 study",
+          "Method": "Cluster analysis of 353 vendors",
+          "Source": "Study results"
+        },
+        {
+          "Metric": "Vendors in C1 using ≤2 pricing components",
+          "Value": "63",
+          "Unit": "%",
+          "Period": "2012 study",
+          "Method": "Cluster analysis",
+          "Source": "Study results"
+        },
+        {
+          "Metric": "Vendors in C1 using ≤3 pricing components",
+          "Value": "91",
+          "Unit": "%",
+          "Period": "2012 study",
+          "Method": "Cluster analysis",
+          "Source": "Study results"
+        },
+        {
+          "Metric": "Vendors preferring value-based pricing (C2)",
+          "Value": "28",
+          "Unit": "%",
+          "Period": "2012 study",
+          "Method": "Cluster analysis",
+          "Source": "Study results"
+        },
+        {
+          "Metric": "Vendors preferring cost-based pricing (C3)",
+          "Value": "15",
+          "Unit": "%",
+          "Period": "2012 study",
+          "Method": "Cluster analysis",
+          "Source": "Study results"
+        },
+        {
+          "Metric": "Vendors using single payment frequency",
+          "Value": "67.2",
+          "Unit": "%",
+          "Period": "2012 study",
+          "Method": "Content analysis",
+          "Source": "Study results"
+        },
+        {
+          "Metric": "Vendors using multiple payment frequencies with bulk discount",
+          "Value": "30",
+          "Unit": "%",
+          "Period": "2012 study",
+          "Method": "Content analysis",
+          "Source": "Study results"
+        },
+        {
+          "Metric": "Vendors <10 years old",
+          "Value": "65",
+          "Unit": "%",
+          "Period": "2012 sample",
+          "Method": "Descriptive statistics",
+          "Source": "353 vendor sample"
+        },
+        {
+          "Metric": "Vendors from USA",
+          "Value": "63.2",
+          "Unit": "%",
+          "Period": "2012 sample",
+          "Method": "Descriptive statistics",
+          "Source": "353 vendor sample"
+        },
+        {
+          "Metric": "Vendors using function-based pricing (in C2 product cluster)",
+          "Value": "100",
+          "Unit": "%",
+          "Period": "2012 study",
+          "Method": "Cluster analysis",
+          "Source": "Study results"
+        },
+        {
+          "Metric": "Vendors preferring user-based pricing",
+          "Value": "67",
+          "Unit": "%",
+          "Period": "2012 study",
+          "Method": "Cluster analysis",
+          "Source": "Study results"
+        }
+      ],
+      "synonyms_found": [
+        "market size",
+        "growth rate",
+        "percentage",
+        "statistics",
+        "metrics"
+      ],
+      "source_citation": "Page 1: 'According to a study by Gartner, the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' | Page 4: 'The largest cluster (C1) makes up 57% of our sample...in C1 63% vendors considered no more than two components and 91% vendors considered no more than three' | Page 4: 'Cluster two (C2) makes up 28% of our sample' | Page 4: 'Cluster three (C3) makes up 15% of our sample' | Page 5: '67.2% of the vendors used single payment frequency, while 30% used multiple payment frequency options and complementary bulk payment discount incentive' | Page 3, Table II: 'Age of vendors <10 65' | Page 3, Table II: 'USA 63.2' | Page 5: '100% of the vendors adopted the function-based pricing component' | Page 5: 'Vendors from cluster one, making up 67% of our sample, prefer the user-based pricing component'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638781",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "Metric": "Number of case firms studied",
+          "Value": "4",
+          "Unit": "firms",
+          "Period": "Study period",
+          "Method": "Multiple case study",
+          "Source": "Research methodology"
+        },
+        {
+          "Metric": "Total interviews conducted",
+          "Value": "32",
+          "Unit": "interviews",
+          "Period": "Study period",
+          "Method": "Semi-structured open-ended interviews",
+          "Source": "Data collection"
+        },
+        {
+          "Metric": "Interviews per firm",
+          "Value": "6-10",
+          "Unit": "interviews",
+          "Period": "Study period",
+          "Method": "In-depth interviews",
+          "Source": "Data collection"
+        },
+        {
+          "Metric": "Interview duration",
+          "Value": "45-90",
+          "Unit": "minutes",
+          "Period": "Per interview",
+          "Method": "Face-to-face interviews",
+          "Source": "Data collection"
+        },
+        {
+          "Metric": "Revenue sharing ratio (Firm B example)",
+          "Value": "2:2:1",
+          "Unit": "dollar ratio (portal:content owner:provider)",
+          "Period": "Per $5 content",
+          "Method": "Business model",
+          "Source": "Firm B case"
+        },
+        {
+          "Metric": "Customer preference for cloud (Firm D)",
+          "Value": "90",
+          "Unit": "percent",
+          "Period": "First six months",
+          "Method": "Customer adoption data",
+          "Source": "Firm D case"
+        },
+        {
+          "Metric": "Minimum rental agreement (Firm A)",
+          "Value": "3",
+          "Unit": "months",
+          "Period": "Minimum contract",
+          "Method": "Pricing policy",
+          "Source": "Firm A case"
+        },
+        {
+          "Metric": "Initial rental agreement (Firm D)",
+          "Value": "3",
+          "Unit": "years",
+          "Period": "Initial contract",
+          "Method": "Pricing policy",
+          "Source": "Firm D case"
+        }
+      ],
+      "synonyms_found": [
+        "interviews",
+        "firms",
+        "customers",
+        "revenue sharing",
+        "percent",
+        "agreement length"
+      ],
+      "source_citation": "Page 2: 'Altogether, 6–10 interviews per firm were conducted, each lasting 45–90 minutes. Thus, altogether 32 semi-structured open-ended interviews were carried out for this study' | Page 3-4: 'It is based on revenue sharing between three players, the content owner, a portal, and ourselves –all sharing the content revenue. If the content is [equivalent to] five dollars, we share it so that there are two dollars for the portal, and two dollars for the content owner, and one for us' | Page 4: 'It became clear that 90 percent of our customers wanted to use this through a public cloud' | Page 3: 'Agreements were commonly made for at least three months' | Page 4: 'The initial rental agreement was for three years'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638871",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "metric": "Corporate IT spending on cloud computing growth",
+          "value": "42",
+          "unit": "percent",
+          "period": "2015",
+          "method": "Industrial report",
+          "source": "Page 1, Introduction"
+        },
+        {
+          "metric": "Companies with at least half software/infrastructure in cloud",
+          "value": "60",
+          "unit": "percent",
+          "period": "by 2018",
+          "method": "Industrial report forecast",
+          "source": "Page 1, Introduction"
+        },
+        {
+          "metric": "Number of employees",
+          "value": "3000",
+          "unit": "employees",
+          "period": "2006",
+          "method": "Case study data",
+          "source": "Page 4, Section 4.2"
+        },
+        {
+          "metric": "Acquisition value",
+          "value": "4.3",
+          "unit": "billion (currency not specified)",
+          "period": "2006",
+          "method": "Case study data",
+          "source": "Page 4, Section 4.2"
+        },
+        {
+          "metric": "Acquisition value",
+          "value": "1.3",
+          "unit": "billion Euros",
+          "period": "2010",
+          "method": "Case study data",
+          "source": "Page 4, Section 4.2"
+        },
+        {
+          "metric": "Acquisition value",
+          "value": "2.5",
+          "unit": "billion Euros",
+          "period": "2014",
+          "method": "Case study data",
+          "source": "Page 4, Section 4.2"
+        },
+        {
+          "metric": "Number of employees",
+          "value": "6000",
+          "unit": "employees",
+          "period": "2014",
+          "method": "Case study data",
+          "source": "Page 4, Section 4.2"
+        },
+        {
+          "metric": "Revenue",
+          "value": "800",
+          "unit": "million NOK",
+          "period": "2014",
+          "method": "Case study data",
+          "source": "Page 4, Section 4.2"
+        },
+        {
+          "metric": "Partner share of license fees",
+          "value": "50",
+          "unit": "percent",
+          "period": "Before transition (up to)",
+          "method": "Case study data",
+          "source": "Page 5, Section 5.1"
+        },
+        {
+          "metric": "R&D allocation to SaaS",
+          "value": "80",
+          "unit": "percent",
+          "period": "2011-2013",
+          "method": "Case study data",
+          "source": "Page 6, Section 5.2.1"
+        },
+        {
+          "metric": "R&D allocation to on-premise",
+          "value": "20",
+          "unit": "percent",
+          "period": "2011-2013",
+          "method": "Case study data",
+          "source": "Page 6, Section 5.2.1"
+        },
+        {
+          "metric": "R&D allocation to SaaS",
+          "value": "50",
+          "unit": "percent",
+          "period": "From 2014",
+          "method": "Case study data",
+          "source": "Page 6, Section 5.2.2"
+        },
+        {
+          "metric": "R&D allocation to on-premise",
+          "value": "50",
+          "unit": "percent",
+          "period": "From 2014",
+          "method": "Case study data",
+          "source": "Page 6, Section 5.2.2"
+        },
+        {
+          "metric": "Pilot SaaS implementations",
+          "value": "50",
+          "unit": "implementations",
+          "period": "2014",
+          "method": "Case study data",
+          "source": "Page 6, Section 5.2.2"
+        }
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1, Section 1: 'corporate IT spending on cloud computing will increase by 42% in 2015, and by year 2018, more than 60% of the companies will have at least half their software and infrastructure in cloud' | Page 4, Section 4.2: 'In 2006, ERP Co has grown to a company with 3000 employees... In 2006, a financial buyer acquired ERP CO for 4.3 billion... In 2010 and 2014, ERP Co experienced another two rounds of acquisition by financial buyers, for 1.3 billion Euros and 2.5 billion Euros respectively. In 2014, ERP Co has 6,000 employees, and achieved 800 million NOK in revenue.' | Page 5, Section 5.1: 'up to 50% of the initial ERP Co license fees do go to VAR' | Page 6, Section 5.2.1: 'ERP Co adjusted their research and development resources to 80% in SaaS and 20% in on-premise' | Page 6, Section 5.2.2: 'The distribution of R&D resources was adjusted to 50% each for SaaS products and on-premise products... ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638976",
+      "article_title": "Managing a Software Business",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "metric": "Mobile app download rate (never or hardly ever downloaded)",
+          "value": ">66.67",
+          "unit": "percent",
+          "period": "Not specified",
+          "method": "General market observation",
+          "source": "Page 1, Section 'Your Business Model and Strategy'"
+        }
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1, Section 'Your Business Model and Strategy': 'entering a mass market is hard; for example, more than two-thirds of the millions of mobile phone apps are never or hardly ever downloaded.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653396",
+      "article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "metric": "Number of start-ups analyzed",
+          "value": "31",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Case sample from Crunchbase",
+          "source": "Page 1, Abstract and throughout"
+        },
+        {
+          "metric": "Initial sample size",
+          "value": "50",
+          "unit": "companies",
+          "period": "Before exclusions",
+          "method": "Sample collection from Crunchbase",
+          "source": "Page 7, Section 3.2"
+        },
+        {
+          "metric": "Start-ups with digital offering - Physical product with embedded technology",
+          "value": "13",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Taxonomy classification",
+          "source": "Page 10, Table 2"
+        },
+        {
+          "metric": "Start-ups with digital offering - Physical product and digital complement",
+          "value": "16",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Taxonomy classification",
+          "source": "Page 10, Table 2"
+        },
+        {
+          "metric": "Start-ups with digital offering - Digital product and physical complement",
+          "value": "4",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Taxonomy classification",
+          "source": "Page 10, Table 2"
+        },
+        {
+          "metric": "Start-ups with digital offering - Digital product",
+          "value": "10",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Taxonomy classification",
+          "source": "Page 10, Table 2"
+        },
+        {
+          "metric": "Sustainable Software Solution archetype",
+          "value": "6",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Archetype classification",
+          "source": "Page 11, Table 3"
+        },
+        {
+          "metric": "Sustainable Product-Service System archetype",
+          "value": "13",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Archetype classification",
+          "source": "Page 11, Table 3"
+        },
+        {
+          "metric": "Sustainability Intelligence archetype",
+          "value": "8",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Archetype classification",
+          "source": "Page 11, Table 3"
+        },
+        {
+          "metric": "Digital Sustainable Platform archetype",
+          "value": "4",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Archetype classification",
+          "source": "Page 11, Table 3"
+        },
+        {
+          "metric": "Companies following customer centricity strategy",
+          "value": "27",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Taxonomy classification",
+          "source": "Page 10, Table 2"
+        },
+        {
+          "metric": "Companies following breakthrough strategy",
+          "value": "22",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Taxonomy classification",
+          "source": "Page 10, Table 2"
+        },
+        {
+          "metric": "Companies with recurring revenue model",
+          "value": "14",
+          "unit": "companies",
+          "period": "Final sample",
+          "method": "Taxonomy classification",
+          "source": "Page 10, Table 2"
+        },
+        {
+          "metric": "Literature review papers analyzed",
+          "value": "73",
+          "unit": "papers",
+          "period": "First iteration of taxonomy",
+          "method": "Literature review",
+          "source": "Page 8, Section 3.3"
+        },
+        {
+          "metric": "Taxonomy development iterations",
+          "value": "7",
+          "unit": "iterations",
+          "period": "Taxonomy development process",
+          "method": "Nickerson et al. (2017) method",
+          "source": "Page 8, Section 3.3"
+        },
+        {
+          "metric": "Start-up valuation (unicorns in sample)",
+          "value": ">1",
+          "unit": "billion US dollars",
+          "period": "Sample period",
+          "method": "Market valuation",
+          "source": "Page 19, Section 5.3"
+        }
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 10, Table 2 provides all quantitative distributions | Page 11, Table 3 shows archetype counts | Page 7-8, Sections 3.2-3.3 detail sample and methodology numbers",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653434",
+      "article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "metric": "Share of freemium apps on Apple App Store",
+          "value": "25",
+          "unit": "percent",
+          "period": "2009",
+          "method": "App Store data",
+          "source": "Page 1, Introduction"
+        },
+        {
+          "metric": "Share of freemium apps on Apple App Store",
+          "value": "80",
+          "unit": "percent (over)",
+          "period": "2022",
+          "method": "App Store data",
+          "source": "Page 1, Introduction"
+        },
+        {
+          "metric": "App Store subscriptions",
+          "value": "745",
+          "unit": "million",
+          "period": "2021",
+          "method": "App Store data",
+          "source": "Page 1, Introduction"
+        },
+        {
+          "metric": "App Store subscriptions",
+          "value": "900",
+          "unit": "million",
+          "period": "2022",
+          "method": "App Store data",
+          "source": "Page 1, Introduction"
+        },
+        {
+          "metric": "Sample size",
+          "value": "45",
+          "unit": "app firms",
+          "period": "Study period",
+          "method": "Selected from top 500 free apps",
+          "source": "Page 1, Abstract and Page 5"
+        },
+        {
+          "metric": "Cronbach's alpha - Bundled freemium business model",
+          "value": "0.850",
+          "unit": "coefficient",
+          "period": "Study period",
+          "method": "Reliability test",
+          "source": "Page 7, Table 3"
+        },
+        {
+          "metric": "Cronbach's alpha - Fragmented freemium business model",
+          "value": "0.911",
+          "unit": "coefficient",
+          "period": "Study period",
+          "method": "Reliability test",
+          "source": "Page 7, Table 3"
+        },
+        {
+          "metric": "AVE - Bundled freemium business model",
+          "value": "0.815",
+          "unit": "coefficient",
+          "period": "Study period",
+          "method": "Validity test",
+          "source": "Page 7, Table 3"
+        },
+        {
+          "metric": "AVE - Fragmented freemium business model",
+          "value": "0.753",
+          "unit": "coefficient",
+          "period": "Study period",
+          "method": "Validity test",
+          "source": "Page 7, Table 3"
+        },
+        {
+          "metric": "Configuration H1 raw coverage (high performance)",
+          "value": "0.345",
+          "unit": "proportion",
+          "period": "Study period",
+          "method": "fsQCA analysis",
+          "source": "Page 9, Table 6"
+        },
+        {
+          "metric": "Configuration H1 consistency (high performance)",
+          "value": "0.857",
+          "unit": "coefficient",
+          "period": "Study period",
+          "method": "fsQCA analysis",
+          "source": "Page 9, Table 6"
+        },
+        {
+          "metric": "Overall solution consistency (high performance)",
+          "value": "0.825",
+          "unit": "coefficient",
+          "period": "Study period",
+          "method": "fsQCA analysis",
+          "source": "Page 9, Table 6"
+        },
+        {
+          "metric": "Overall solution coverage (high performance)",
+          "value": "0.440",
+          "unit": "proportion",
+          "period": "Study period",
+          "method": "fsQCA analysis",
+          "source": "Page 9, Table 6"
+        }
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1, Introduction provides market statistics | Page 7, Table 3 provides reliability and validity metrics | Page 9, Table 6 provides fsQCA configuration metrics",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653582",
+      "article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Metric; Value; Unit; Period; Method; Source\nRevenue; 1.31; billion; Q4 2015; Financial reporting; Adobe quarterly results\nAnnual Revenue; 4.8; billion; 2015; Financial reporting; Adobe annual report\nRecurring Revenue %; 74; %; 2015; Business model; Adobe financials\nNew Subscriptions; 833,000; subscriptions; Q4 2015; Customer acquisition; Adobe quarterly results\nMarket Share; 53; %; 2009; Market analysis; Industry data\nEmployee Count; 26,000+; employees; 2021; Company data; Adobe corporate info\nGeographic Presence; 25+; countries; 2021; Business operations; Adobe corporate info",
+      "synonyms_found": [
+        "metrics",
+        "quantitative results",
+        "performance indicators"
+      ],
+      "source_citation": "Page 6, Results: 'Adobe reported a record $1.31 billion in revenue for the fourth quarter of 2015, a 22% year-over-year increase. It disclosed a record annual revenue of $4.8 billion in 2015. The recurring revenue from subscriptions represented 74% of Adobe's business.' | Page 3, Competitive landscape: 'Adobe continued to dominate the market for a long time, with 53% share in 2009' | Page 6, Results: 'Adobe has a presence in more than 25 countries and employs over 26,000 employees.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653589",
+      "article_title": "Navigating the paradox of global scaling",
+      "extraction_date": "2025-01-22",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Growth rate; 20% per annum; Over 3 years; Standard operational measure; Industry standard; Past research",
+        "Hypergrowth rate; 40%; Compound annual growth rate; Global scaling period; Industry measure; World Economic Forum",
+        "Employee growth; 100%-2000%; International employees; Global scaling period; Company data; Study sample",
+        "Cloud software revenue; $46 billion; 2017; Annual; Market estimate; Gartner",
+        "Cloud software growth; 20%; Per year; 2017; Annual growth rate; Gartner"
+      ],
+      "synonyms_found": [
+        "20% growth",
+        "40% hypergrowth",
+        "employee growth",
+        "$46 billion",
+        "20% annual growth"
+      ],
+      "source_citation": "Page 4: 'This is normally operationalized as growth exceeding 20% per year over 3 years' | Page 4: 'global scaling firms to exhibit hypergrowth with a compound annual growth rate exceeding 40%' | Page 8: 'they had increased between 100% and 2,000% during the global scaling period' | Page 8: 'Total worldwide revenue for cloud-based software was estimated to be roughly $46 billion in 2017, growing at almost 20% a year'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653595",
+      "article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Metric: Daily ratings increase; Value: 8.9%; Unit: Percentage; Period: After free version launch; Method: Difference-in-difference analysis; Source: App Store data",
+      "synonyms_found": [
+        "spillover effect",
+        "demand increase"
+      ],
+      "source_citation": "Page 137: 'Under the main specification, if the daily number of ratings before the free version's launch is at the mean, then all else equal, the launch of the free version leads to an 8.9% increase in the daily number of ratings.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653734",
+      "article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Market Size; USD 206.85 billion; 2022; Market analysis; Grand View Research",
+        "Projected Market Size; USD 567.19 billion; 2030; CAGR 13.8%; Grand View Research",
+        "User Retention; 3%; 30 days; User behavior analysis; Bothma study",
+        "WhatsApp Users; 2.5 billion; 2022; User statistics; Business of Apps"
+      ],
+      "synonyms_found": [
+        "market size",
+        "user retention",
+        "users",
+        "revenue"
+      ],
+      "source_citation": "Page 1: 'According to a Grand View Research analysis, the worldwide mobile market is expected to increase at a 13.8% compound annual growth rate (CAGR) between 2023 and 2030, reaching a value of USD 206.85 billion in 2022' and Page 1: 'As pointed out by Bothma, a mere 3% of users continue using an application after 30 days'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653772",
+      "article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "295; Number of transit agencies; Total; 2021; Survey; APTA member list",
+        "240; Number of agencies with transit apps; Total; 2021; Survey; Agency websites and app stores",
+        "115; Number of agencies with branded apps; Total; 2021; Survey; Agency websites and app stores",
+        "15-50; Percentage of tickets sold via apps; Range; 2021; Interview; Transit agency reports",
+        "100000-500000; Annual app costs in USD; Range; 2021; Interview; Transit agency contracts"
+      ],
+      "synonyms_found": [
+        "statistics",
+        "data",
+        "numbers"
+      ],
+      "source_citation": "Page 2: 'we reviewed transit apps provided by these 295 transit agencies' | Page 2: 'About half of the transit agencies (N=115) developed or endorsed branded transit apps' | Page 4: 'The ongoing costs could be an annual lump sum (ranging from $100,000 to $500,000)' | Page 4: 'about 15–50% of their tickets were sold via transit apps'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653856",
+      "article_title": "Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market valuation?",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "SaaS Index growth; 354%; Percentage; 3 years; Index calculation; Yahoo Finance | S&P 500 growth; 136%; Percentage; 3 years; Index calculation; Yahoo Finance | Sharpe ratio; 4.269; Ratio; 3 years; Risk-adjusted return; Calculated | EV/Revenue correlation; 0.71; R-squared; 3 years; Linear regression; Calculated",
+      "synonyms_found": [
+        "SaaS Index",
+        "Sharpe ratio",
+        "EV/Revenue",
+        "growth rates"
+      ],
+      "source_citation": "Page 2: 'The S&P 500 grew 136% in the three years while the SaaS companies grew on average 354% over the same period' | Page 3: 'The Sharpe ratio of the SaaS Index over the observed period is 4.269' | Page 7: 'The R-Squared value of .71 demonstrates a strong relationship'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653872",
+      "article_title": "Managing Software-as-a-Service: Pricing and operations",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Revenue growth rate; $145 billion by 2022; USD; Projected for 2022; Gartner prediction; Gartner (2021)",
+        "Compound annual growth rate; 18.9%; Percentage; Since 2020; Industry forecast; Gartner (2021)",
+        "World's stored data in clouds; 46%; Percentage; By 2025; IDC prediction; IDC (2018)",
+        "Netflix subscribers; 158 million; Users; 2019; Company data; Netflix Inc. (2019)",
+        "Zoom user growth; 300 million from 10 million; Users; During COVID-19 pandemic months; Company data; Allyn (2020)",
+        "NetEase Cloud Music users; 800 million registered users and 160,000 independent musicians; Users; 2020; Company data; NetEase Inc. (2020)",
+        "SaaS companies with usage-based pricing; 38%; Percentage; Not specified; Survey data; Poyar (2020)",
+        "Netflix churn reduction savings; $1 billion annually; USD per year; Annual; Recommendation system impact; Gomez-Uribe & Hunt (2016)",
+        "Small/medium businesses downtime cost; More than $40,001 per hour for 23%; USD per hour; Survey period; Survey; Help Net Security (2020)",
+        "Cost reduction from overcommitting; 1.5% to 17%; Percentage; Not specified; Algorithm optimization; Cohen et al. (2019)",
+        "AES 256-bit encryption computing overhead; 40% more than AES 128-bit; Percentage; Not specified; Technical measurement; Cyclonis Ltd. (2018)"
+      ],
+      "synonyms_found": [
+        "metrics",
+        "indicators",
+        "results",
+        "data",
+        "statistics"
+      ],
+      "source_citation": "Page 1, lines 39-42: 'Gartner (2021) predicts the revenue of worldwide software-as-a-service (SaaS) services reaching $145 billion by 2022 at a compound annual growth rate of 18.9% since 2020' | Page 1, lines 42-44: 'IDC (2018) predicts that by 2025, 46% of the world's stored data will reside in clouds' | Page 12, lines 1158-1159: 'Netflix now has successfully amassed roughly 158 million users' | Page 13, lines 1308-1310: 'There was incredible growth for Zoom during the COVID-19 pandemic, expanding to 300 million users from about 10 million in months' | Page 15, lines 1406-1408: 'NetEase Cloud Music (NCM), one of the most popular music streaming services in China with over 800 million registered users and 160,000 independent musicians' | Page 7, lines 674-676: 'The data set in Poyar (2020) indicates that 38% of SaaS companies adopt pricing plans based on usage' | Page 17, lines 1678-1680: 'Netflix's recommendation system saves the company $1 billion annually through reduced churn'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653882",
+      "article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Sample size: 12,297 prospective customers; Conversion rate: 734 conversions from 12,297 users; Average conversion time: 23 days; Median conversion time: 9 days; Free trial period: 30 days; Data collection period: 60 days; Projected market size: $172 billion by 2022",
+      "synonyms_found": [
+        "sample size",
+        "conversion rate",
+        "conversion time",
+        "market size"
+      ],
+      "source_citation": "Page 5: 'The remaining sample contains 12,297 prospective customers' | Page 5: 'Purchase 0 1 734' | Page 5: 'On average, free-trial users convert to paid subscribers in 23 days, with a median of 9 days' | Page 5: 'All new consumers are provided with a free trial for the first 30 days' | Page 1: 'a projected $172 billion global market by 2022'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653942",
+      "article_title": "Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Sample size: 268,126 apps (72,017 paid, 196,019 free); Method: Statistical analysis; Source: Apple App Store data",
+        "Study period: 18 months (May 2016 to October 2017); Method: Longitudinal analysis; Source: App Store data",
+        "App Store revenue: $200 billion cumulative; Method: Platform data; Source: Apple reports",
+        "Free apps with privacy statements: 2.5%; Method: Content analysis; Source: App descriptions",
+        "Free apps using freemium: 14%; Method: Feature analysis; Source: App data"
+      ],
+      "synonyms_found": [
+        "268,126 apps",
+        "18 months",
+        "$200 billion",
+        "2.5%",
+        "14%"
+      ],
+      "source_citation": "Page 12: 'This left us with a sample of 268,126 apps: 72,017 paid and 196,019 free' | Page 12: 'over a period of 18 months from May 2016 to October 2017' | Page 12: 'cumulative revenue in excess of $200 billion' | Page 17: 'roughly 2.5% of the free apps in our sample have a privacy statement' | Page 17: '14% utilize freemium'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653950",
+      "article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+      "extraction_date": "2025-01-22",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Sample size: 9,700 digital games; Value: 2011-2016; Unit: games; Period: study period; Method: Steam platform data; Source: Steam Spy and Valve API",
+        "Superstar probability difference: 49 percentage points; Value: large installed base; Unit: percentage points; Period: conditional; Method: statistical analysis; Source: regression results",
+        "Conversion rate: 2-5%; Value: freemium players; Unit: percentage; Period: ongoing; Method: industry data; Source: video game industry reports"
+      ],
+      "synonyms_found": [
+        "sample size",
+        "percentage points",
+        "conversion rate"
+      ],
+      "source_citation": "Page 6: 'When the platform's installed base is large, free-to-play games with many social features have a 49 percentage points higher probability of becoming a superstar' and 'between two and 5% of a freemium game's player base spends money on in-app purchases'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653984",
+      "article_title": "Toward Building Specialized Information Systems as Software Platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653993",
+      "article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Computation time: 4 hours; hours; Single case (4M elements); Benchmarking; Source: Author | Computation time: 14 hours; hours; Single case (8M elements); Benchmarking; Source: Author | Speed-up ratio: 2.0; ratio; 2 computers; Benchmarking; Source: Author | Speed-up ratio: 3.0; ratio; 4 computers; Benchmarking; Source: Author | Simulation cost: 17 euros; euros; Per component; Interview; Source: Dr. Jerry Hsu | Simulation cost: 850 euros; euros; Complete simulation; Interview; Source: Eric Chao | Simulation cost: 250-500 euros; euros; Simulation report; Interview; Source: Colin Lou",
+      "synonyms_found": [
+        "computation time",
+        "speed-up ratio",
+        "simulation cost"
+      ],
+      "source_citation": "Page 8: 'it takes 4 h to complete a flow analysis with a mesh size of around 4 million, but it remarkably needs 14 h to get this analysis work done when its mesh size is double' | Page 8: 'the speed-up ratio achieves 2 times when 2 computers are clustered, but it achieves 3 times with 4 computers' | Page 12: 'they spent approximately 17 euros per component for running a flow simulation'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654058",
+      "article_title": "MintM: the start-up transforming businesses real-time",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Team size: 14 people in 2016, less than 20 members",
+        "Screens deployed: 500 screens across India",
+        "Revenue growth: Tripled after expansion",
+        "Funding raised: 750 USD K in various funding rounds",
+        "Geographic presence: 7 countries (Brazil, India, Ireland, Malaysia, Singapore, UAE, USA)",
+        "Client base: Leading brands including Abbott, ITC, Nestlé, Nivea, Pepsico, Reliance, Tata Group"
+      ],
+      "synonyms_found": [
+        "14 people",
+        "500 screens",
+        "tripled",
+        "750 USD K",
+        "7 countries"
+      ],
+      "source_citation": "Page 4: 'In 2016, MintM had fourteen people on its payroll' | Page 8: 'MintM was able to expand to 500 screens all over India' | Page 8: 'revenues tripled soon thereafter' | Page 22: 'Successfully raising 750 USD K in various funding rounds' | Page 22: 'geographical presence in Brazil, India, Ireland, Malaysia, Singapore, UAE, and USA' | Page 6: 'formidable brands such as Abbbot, ITC, Nestlé, Nivea, Pepsico, Reliance, Tata Group etc.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654085",
+      "article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Sample size: 294; Unit: mobile app users; Period: study period; Method: PLS-SEM analysis; Source: Italian mobile users survey | R² values: Adoption Intention 0.920, Attitude 0.793, Perceived Control 0.729, Subjective Norms 0.684, Reasons For 0.515, Reasons Against 0.439; Unit: variance explained; Period: study period; Method: PLS-SEM; Source: structural model analysis | Market size: 935 billion USD; Unit: expected global market; Period: 2023; Method: Statista projection; Source: Statista 2019 | App count: 2 million (Google Play), 1.83 million (Apple AppStore); Unit: number of apps; Period: 2019; Method: store data; Source: store statistics | User base: 6.3 billion; Unit: users; Period: 2021; Method: EPRS data; Source: EPRS 2018",
+      "synonyms_found": [
+        "metrics",
+        "quantitative results",
+        "statistics"
+      ],
+      "source_citation": "Page 1: 'we employ a PLS-SEM approach to study the data gathered on a sample of 294 mobile apps users in Italy' | Page 5: 'For the Adoption Intention and the Attitude we have found an R2 higher than 0.75 (respectively 0.920 and 0.793)' | Page 1: 'an expected global market bigger than 935 billion U.S. dollars in 2023 (Statista, 2019)' | Page 1: 'more than 2 million apps in the Google's Play store and 1.83 million apps in Apple's AppStore in 2019' | Page 1: 'more than 6.3 billion users in 2021 (EPRS, 2018)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654186",
+      "article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654465",
+      "article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Active Users; 92,729; users; Month 32; Model simulation; Base scenario",
+        "App Profitability; -£3,143; GBP per month; Month 60; Model simulation; Base scenario",
+        "Active Users; 403,252; users; Month 60; Model simulation; All scenario",
+        "App Profitability; £139,736; GBP per month; Month 60; Model simulation; All scenario",
+        "Market Reach; 2%; percentage; First month; Actual data; Social media",
+        "Total Population; 500,000; users; Initial; Model assumption; West Yorkshire"
+      ],
+      "synonyms_found": [
+        "active users",
+        "app profitability",
+        "market reach",
+        "total population"
+      ],
+      "source_citation": "Page 7: 'Active Users rose to a maximum of 92k (from a max c. 500k) by month 30' | Page 7: 'App Profitability is in fact more than £3k/month by month 60' | Page 7: 'over 200k active users were achieved and just over 400k in the 'All' scenario' | Page 7: 'monthly profit of between £14.5k and £140k in month 60' | Page 13: 'Social Media Reach of 2% of the total market' | Page 2: 'Total population to 500,000 to roughly represent the potential application area in West Yorkshire'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654531",
+      "article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Metric: Business model decisions; Value: 89; Unit: decisions; Period: not specified; Method: domain model creation; Source: existing business domain model",
+        "Metric: Competitor business model decisions; Value: 47-60; Unit: decisions; Period: not specified; Method: competitor analysis; Source: Microsoft ToDo (47), Wunderlist (60), Any.do (57), Todoist (57)",
+        "Metric: Feature model features; Value: 152; Unit: features; Period: not specified; Method: feature model abstraction; Source: business model decisions analysis",
+        "Metric: Niche decisions; Value: 31; Unit: decisions; Period: not specified; Method: niche analysis; Source: competitor weakness analysis"
+      ],
+      "synonyms_found": [
+        "89 variation points",
+        "47 business model decisions",
+        "152 features",
+        "31 decisions"
+      ],
+      "source_citation": "Page 4: 'It was created for mobile applications and consists of 89 variation points of different business model decisions' | Page 5: 'we analyzed the to-do apps named Microsoft ToDo (which consists of 47 business model decisions), Wunderlist (60 decisions), Any.do (57 decisions) and Todoist (57 decisions)' | Page 5: 'we used the business model decisions to abstract a feature model with 152 features' | Page 5: 'we found different niches (31 decisions), which are currently not implemented by the analyzed competitors'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654542",
+      "article_title": "E-business evolution: an analysis of mobile applications' business models",
+      "extraction_date": "2025-10-06",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Content apps percentage; 80%; Percentage of free apps; Data collection period Nov 2017-Jan 2018; Sample analysis; Author. Content apps percentage; 91.6%; Percentage of pay per download apps; Data collection period Nov 2017-Jan 2018; Sample analysis; Author. Mixed value capture in pay per download; 69%; Percentage of apps (777 out of 1125); Data collection period Nov 2017-Jan 2018; Sample analysis; Author. Total apps analyzed; 2250; Number of apps; Data collection period Nov 2017-Jan 2018; Sample analysis; Author. User comments analyzed; 67,500; Total comments collected; Data collection period Nov 2017-Jan 2018; User review analysis; Google Play Store. Codeable comments; 9%; Percentage of total comments (6045 out of 67,500); Data collection period Nov 2017-Jan 2018; Thematic analysis; Author. App design importance; 57.8%; Percentage of coded comments (3496 out of 6045); Data collection period Nov 2017-Jan 2018; Thematic analysis; Author. Model predictive power; 77%; R² adjusted (0.755); Regression analysis period; Multiple regression; Author. Android market share; 85%; Global market share percentage; 2018; Industry data; Statista 2018b. Google Play Store apps available; 2.8 million; Total number of apps; 2018; Industry data; Statista 2018a. Kappa statistic for coding agreement; 0.81; Agreement level; Data collection period; Inter-rater reliability; Author.",
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'the content category accounts for 80% (901 out of 1125) and 91.6% (1031 out of 1125), respectively, for the 'free' and 'pay per download' mobile apps' categories' | Page 7: 'about 69% of pay per download apps (777 out of 1125) are based on mixed value capture mechanisms' | Page 7: '67,500 comments have been collected. However, only from 6045 comments (9%) has it been possible to detect codes' | Page 10: 'app design received the vast majority of comments (i.e. 57.8%)' | Page 10: 'F(8, 2241) = 7.268, p< 0.0005, R2= 0.777, adjusted R2= 0.755; the model accounts for 77% of the variance in positive reviews' | Page 5: 'According to Statista (2018b), Android is the main operating system with 85% of the market share; moreover, within the Google Play Store, the Android marketplace, are currently available 2.8 million apps' | Page 6: 'Kappa statistic for comparing codes was 0.81'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654598",
+      "article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+      "extraction_date": "2025-10-06",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Number of registered services; 65; services; January 2020; Survey; KT Cloud marketplace",
+        "Number of registered services; 96; services; January 2020; Survey; NAVER Cloud marketplace",
+        "Number of registered services; 858; services; January 2020; Survey; CEART marketplace",
+        "Number of partnership companies; 221; companies; January 2020; Survey; CEART marketplace",
+        "Number of registered exhibition services; 360; services; January 2020; Survey; CEART marketplace",
+        "Number of public institutions; 1,381; institutions; January 2020; Survey; CEART marketplace",
+        "Number of registered services; 7213; services; not specified; Survey; AWS marketplace",
+        "Number of registered services; 621; products (applications); January 2020; Survey; Oracle Cloud Marketplace",
+        "CSP discount rate; less than 30; percent; not specified; Case study; KT Cloud",
+        "Payment installment options; 12 or 24; months; not specified; Case study; ZConverter KT Cloud"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'As of January 2020, it has 65 registered services' | Page 4-5: 'Total 96' (NAVER) | Page 6: 'Total 858' (CEART), '221 partnership companies (360 registered exhibition services)', '1,381 public institutions' | Page 6: 'A total of 7213 services are registered' (AWS) | Page 7: 'As of January 2020, there are two categories — \"applications\" and \"services.\" In \"applications,\" there are 621 products' | Page 4: 'KT provides the product by applying a discount rate of less than 30 percent' | Page 8: 'It can be paid in installments for 12 or 24 months.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654601",
+      "article_title": "Software as a service: Lessons from the video game industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Video game revenues; USD 17.5 billion; USD; 2010; Secondary data; Entertainment Software Association",
+        "Video game revenues; USD 29.1 billion; USD; 2017; Secondary data; Entertainment Software Association",
+        "Survey responses; 217; responses; June 2019; Online survey; Authors",
+        "GaaS players currently active; 68%; percentage; June 2019; Online survey; Authors",
+        "Former GaaS players; 22%; percentage; June 2019; Online survey; Authors",
+        "Never played GaaS; 10%; percentage; June 2019; Online survey; Authors",
+        "Games played in 6 months (1-2 games); 53%; percentage; June 2019; Online survey; Authors",
+        "Willing to pay up to USD 50; 54%; percentage; June 2019; Online survey; Authors",
+        "Willing to pay up to USD 100; 24%; percentage; June 2019; Online survey; Authors",
+        "Only play free games; 11%; percentage; June 2019; Online survey; Authors",
+        "Never spent extra money; 26%; percentage; June 2019; Online survey; Authors",
+        "Play because like particular game; 63%; percentage; June 2019; Online survey; Authors",
+        "Cost as reason to stop; 62%; percentage; June 2019; Online survey; Authors",
+        "Lack of time as reason to stop; 61%; percentage; June 2019; Online survey; Authors",
+        "Average rating of GaaS; 5.32; score out of 10; June 2019; Online survey; Authors",
+        "Super gamer classification; 54%; percentage; June 2019; Online survey; Authors",
+        "Familiarity with microtransactions; 85%; percentage; June 2019; Online survey; Authors",
+        "Familiarity with season passes; 80%; percentage; June 2019; Online survey; Authors",
+        "Familiarity with subscriptions; 79%; percentage; June 2019; Online survey; Authors"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Video game revenues in the United States have nearly doubled, from USD 17.5 billion in 2010 to USD 29.1 billion in 2017' | Page 4-5: 'A survey designed to get deeper insights from gamers about the GaaS business model was administered online in June 2019. The invitation to participate was posted on gamer community pages. Some were specifically related to GaaS communities, while others were social networks concerned with games and gaming. A total of 217 responses were received.' | Additional metrics from pages 5-7 with specific percentages from survey results and exhibits",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654605",
+      "article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+      "extraction_date": "2025-10-06",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "Metric": "SaaS market revenue",
+          "Value": "117.1",
+          "Unit": "billion USD",
+          "Period": "forecast for 2021",
+          "Method": "Industry forecast",
+          "Source": "Gartner 2018"
+        },
+        {
+          "Metric": "SaaS market growth rate",
+          "Value": "16",
+          "Unit": "percent annual",
+          "Period": "ongoing",
+          "Method": "Industry forecast",
+          "Source": "Gartner 2018"
+        },
+        {
+          "Metric": "Product size reduction",
+          "Value": "80",
+          "Unit": "percent smaller",
+          "Period": "not specified",
+          "Method": "Case comparison",
+          "Source": "CA9 interview"
+        },
+        {
+          "Metric": "Product speed improvement",
+          "Value": "20",
+          "Unit": "times faster",
+          "Period": "not specified",
+          "Method": "Case comparison",
+          "Source": "CA9 interview"
+        },
+        {
+          "Metric": "Provisioning speed for new customers",
+          "Value": "1",
+          "Unit": "hour",
+          "Period": "per customer environment",
+          "Method": "Case observation",
+          "Source": "CA4 interview"
+        },
+        {
+          "Metric": "Company size",
+          "Value": ">10,000",
+          "Unit": "employees",
+          "Period": "current",
+          "Method": "Case description",
+          "Source": "Table 3.2"
+        },
+        {
+          "Metric": "SaaS provision experience",
+          "Value": "6",
+          "Unit": "years",
+          "Period": "as of study date",
+          "Method": "Case description",
+          "Source": "Page 6"
+        },
+        {
+          "Metric": "Business transformation period",
+          "Value": "since 2015",
+          "Unit": "year started",
+          "Period": "ongoing",
+          "Method": "Case observation",
+          "Source": "Page 7"
+        },
+        {
+          "Metric": "Interview participants",
+          "Value": "20",
+          "Unit": "interviews",
+          "Period": "study period",
+          "Method": "Primary data collection",
+          "Source": "Table 3.2"
+        }
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2-3: 'SaaS accounts for the majority of the entire cloud market and it is forecast to reach $117.1 billion in revenues by 2021 with an annual growth rate of 16 percent (Gartner 2018)' | Page 9: 'SaaS has enabled us to create a virtualised product which is 80% smaller, roughly 20 times faster' | Page 10: 'we can automatically provision new servers and create working environments for them within an hour' | Page 6: 'They are large (>10,000 employees) multi-national incumbent IT service providers who have been at the forefront of the advancement and provision of SaaS technologies for the past six years'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654664",
+      "article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Impact values for market objectives: INT variables on VAR = 7.69 total, VAR variables on INT = 7.15 total; Impact values for operating process objectives: INT on VAR = 5.61 total, VAR on INT = 5.51 total; Number of variables analyzed: 40 per business model; Sample size: 10 VAR companies and 5 INT companies; Variable weights: 50% corresponds to sum of determinants and relay variables; Synergy potential assessment: High (80-100%) for market objectives with resources component, Average (60-80%) for operating processes, Low (below 60%) for development area",
+      "synonyms_found": [],
+      "source_citation": "Page 13, Table 5: specific impact values listed (e.g., '2.17' for objective 1.1.1, '2.32' for another objective) | Page 8: 'limited the maximum number of variables for each model to 40' | Page 9: 'selection criteria were best met by 10 (VAR) companies and 5 (INT) companies' | Page 10: 'weights of the variables were determined using the heuristic method' with '50% corresponds to the sum of the determinants and relay variables' | Page 18: 'high synergy potential only in the market objective area', 'average synergy potential concerns operating processes', 'relatively low synergy potential is in the development area'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654709",
+      "article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Market size: USD 16.17 billion in 2017; Expected value: USD 88.69 billion by 2023; CAGR: 32.81%; Sample size: 80 companies analyzed; Case studies: 6 companies interviewed",
+      "synonyms_found": [
+        "market size",
+        "CAGR",
+        "sample size"
+      ],
+      "source_citation": "Page 1: 'The global affective computing market was valued at USD 16.17 billion in 2017, and is expected to reach a value of USD 88.69 billion by 2023 at a CAGR of 32.81%' | Page 2: 'We designed the business model canvas for emotion recognition (ER) solutions based on analysis of 80 companies from secondary sources, as well as six case studies'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654717",
+      "article_title": "Economics of open source library software: evidences from Indian libraries",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Metric; Value; Unit; Period; Method; Source\nAdoption rate ILS; 18.4; per cent; Study period; Survey; 38 INI libraries\nAdoption rate digital repository; 95.2; per cent; Study period; Survey; 38 INI libraries\nAdoption rate library website; 34.5; per cent; Study period; Survey; 29 libraries with websites\nPotential savings; 417; million INR; Projected; Calculation; All university libraries in India\nCost comparison ILS; 0-1.5; million INR; Current; Market analysis; OSS vs proprietary software\nCost comparison digital repository; 0-1.0; million INR; Current; Market analysis; OSS vs proprietary software\nCost comparison CMS; 0-0.5; million INR; Current; Market analysis; OSS vs proprietary software",
+      "synonyms_found": [
+        "adoption rates",
+        "cost savings",
+        "cost comparisons",
+        "survey results"
+      ],
+      "source_citation": "Page 1: 'The findings of the study reveal that the libraries of INIs adopt and use OSS in integrated library system (ILS) (18.4 per cent), digital repository (95.2 per cent) and library website (65.5 per cent)' | Page 8: 'The results of the study show that university libraries of India could save an estimated Rs 417m by adopting open source ILS such as Koha, Evergreen, NewGenLib and ABCD' | Page 11: 'Software OSS cost PS cost (in INR) ILS 0 0.05-1.5m digital repository 0 0.05-1.0m CMS 0 0.05-0.5m LMS 0 0.05-2.0m'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654720",
+      "article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "Metric": "Fog services compound annual growth rate",
+          "Value": "119",
+          "Unit": "%",
+          "Period": "2018-2022",
+          "Method": "Market forecast",
+          "Source": "[13]"
+        },
+        {
+          "Metric": "Fog services market share increase",
+          "Value": "15.7 to 20.4",
+          "Unit": "%",
+          "Period": "2018-2022",
+          "Method": "Market forecast",
+          "Source": "[13]"
+        },
+        {
+          "Metric": "Fog computing market size",
+          "Value": ">18",
+          "Unit": "billion dollars",
+          "Period": "by 2022",
+          "Method": "Market forecast",
+          "Source": "[13]"
+        },
+        {
+          "Metric": "Global market growth outlook",
+          "Value": "2.9",
+          "Unit": "%",
+          "Period": "2019",
+          "Method": "Market analysis",
+          "Source": "J.P. Morgan [55]"
+        },
+        {
+          "Metric": "Unemployment rate US",
+          "Value": "4",
+          "Unit": "%",
+          "Period": "2019",
+          "Method": "Economic data",
+          "Source": "Article text"
+        },
+        {
+          "Metric": "Unemployment rate EU",
+          "Value": "6.8",
+          "Unit": "%",
+          "Period": "2019",
+          "Method": "Economic data",
+          "Source": "Article text"
+        },
+        {
+          "Metric": "Entry salary top US developers",
+          "Value": "80-140",
+          "Unit": "k USD/year",
+          "Period": "recent years",
+          "Method": "Survey",
+          "Source": "Forbes [60]"
+        },
+        {
+          "Metric": "Entry salary next tier US developers",
+          "Value": "60-80",
+          "Unit": "k USD/year",
+          "Period": "recent years",
+          "Method": "Survey",
+          "Source": "Forbes [60]"
+        },
+        {
+          "Metric": "Developer salary Germany/UK",
+          "Value": "60",
+          "Unit": "k USD/year",
+          "Period": "current",
+          "Method": "Survey",
+          "Source": "Article text"
+        },
+        {
+          "Metric": "Developer salary France/Italy",
+          "Value": "40",
+          "Unit": "k USD/year",
+          "Period": "current",
+          "Method": "Survey",
+          "Source": "Article text"
+        },
+        {
+          "Metric": "Connected devices by 2030",
+          "Value": "500",
+          "Unit": "billion devices",
+          "Period": "by 2030",
+          "Method": "CISCO forecast",
+          "Source": "CISCO [19]"
+        },
+        {
+          "Metric": "Internet users worldwide",
+          "Value": "51",
+          "Unit": "% of population",
+          "Period": "June 2017",
+          "Method": "Statistics",
+          "Source": "Article text"
+        },
+        {
+          "Metric": "Internet connected people",
+          "Value": "3.2",
+          "Unit": "billion people",
+          "Period": "2015",
+          "Method": "ITU estimate",
+          "Source": "ITU [38]"
+        },
+        {
+          "Metric": "US Internet connection speed increase",
+          "Value": "3.65 to 18.75",
+          "Unit": "Mbps",
+          "Period": "2007-2017",
+          "Method": "Statistics",
+          "Source": "[39]"
+        },
+        {
+          "Metric": "Raspberry Pi 2 price",
+          "Value": "40",
+          "Unit": "USD",
+          "Period": "current",
+          "Method": "Market price",
+          "Source": "Article text"
+        },
+        {
+          "Metric": "Containers on Raspberry Pi 2 record",
+          "Value": "2334",
+          "Unit": "containerised web-servers",
+          "Period": "current",
+          "Method": "Docker challenge",
+          "Source": "[42]"
+        }
+      ],
+      "synonyms_found": [
+        "growth rate",
+        "market share",
+        "market size",
+        "salary",
+        "devices",
+        "users",
+        "speed",
+        "price"
+      ],
+      "source_citation": "Page 1: 'New Fog services are expected to undergo a compound annual growth rate of around 119% in the years 2018–2022 (with a consistent market share increase from 15:7% to 20:4%)[13]' | Page 5: 'Fog computing...is expected to potentially reach a market of more than $18 billion dollars worldwide by 2022 [13]' | Page 6: 'the global market outlook for 2019 is characterised by an overall growth of 2:9%' | Page 6: 'Current unemployment rates go from the 4% in the United States up to the 6:8% in the European Union' | Page 6: 'Forbes reports that in the last ten years there has been a major increase in junior and super-talented developers worldwide [60]. In its survey, Forbes claims that the top students from the top U.S. colleges have seen the highest gains, e.g., entry salaries for the top people go from $80k to $140k in just a few years. Whereas some of the next tier students may have seen their salaries increase from $60-$80k. In Germany and in the United Kingdom, a developer salary amounts to $60k per year while in other countries such as France and Italy is relatively lower ($40k per year)' | Page 2: 'CISCO envisions 500 billion devices to be connected to the Internet by 2030 [19]' | Page 5: 'as of June 2017, 51% of the world's population has Internet access, and in 2015, the International Telecommunication Union estimated about 3.2 billion people can get connected [38]' | Page 5: 'the Internet connection speed in the United States, on average, raised from 3.65 to 18.75 Mbps in the years 2007–2017 [39]' | Page 5: 'Docker [40] has called a challenge to maximise the number of containers that can be deployed to a Raspberry Pi 2 [41] that currently costs about 40$. Currently, the record corresponds to running 2334 containerised web-servers on the same piece of hardware [42]'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654834",
+      "article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Metric: Commission rate (Uber); Value: 20; Unit: %; Period: not specified; Method: Literature review; Source: Cohen & Kietzmann, 2014; Gao & Zhang, 2016; Wu, 2016",
+        "Metric: Commission rate (BlaBlaCar); Value: ~17; Unit: %; Period: not specified; Method: Company data; Source: BlaBlaCar, 2016",
+        "Metric: Commission rate (P2P carsharing platforms); Value: up to 25; Unit: %; Period: not specified; Method: Literature review; Source: Wu, 2016 (Turo example)",
+        "Metric: User motivation - convenience; Value: 49; Unit: %; Period: Study period; Method: Survey; Source: Primary research - interviews",
+        "Metric: User motivation - price; Value: 23; Unit: %; Period: Study period; Method: Survey; Source: Primary research - interviews",
+        "Metric: User motivation - testing; Value: 14; Unit: %; Period: Study period; Method: Survey; Source: Primary research - interviews",
+        "Metric: Vehicle idle time; Value: >90; Unit: %; Period: General; Method: Literature review; Source: Zhang et al., 2015",
+        "Metric: Services reviewed; Value: 19; Unit: services; Period: July 2017 - December 2018; Method: Website review; Source: Primary research",
+        "Metric: User interviews conducted; Value: 30; Unit: interviews; Period: Study period; Method: Face-to-face interviews; Source: Primary research",
+        "Metric: Driver interviews conducted; Value: 7; Unit: interviews; Period: Study period; Method: Face-to-face interviews; Source: Primary research"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'In P2P services, the platform charges a commission per trip, which in the case of Uber is 20%' | Page 7: 'BlaBlaCar's commission is around 17% of the cost of the trip' | Page 8: 'The carsharing platform functions as an agent that collects payment for each rental and keeps a commission for each transaction, which could be up to 25%, as in the case of Turo' | Page 10: 'the main reason to use these services according to our surveyed users was the convenience (49%), the price (23%), and to test it (14%)' | Page 2: 'vehicles [...] spend more than 90% of their lives parked on the streets' | Page 4: 'we inspected the websites of 19 outstanding services' | Page 4: 'conducted 30 semi-structured face-to-face interviews with users and 7 with drivers'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654956",
+      "article_title": "Open source ERP business model framework",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Metric: Downloads (OpenBravo); Value: 970,000; Unit: downloads; Period: 3 years; Method: Platform tracking; Source: SourceForge.net",
+        "Metric: Downloads (Compiere); Value: 1,200,000; Unit: downloads; Period: not specified; Method: Platform tracking; Source: Company data",
+        "Metric: Contributors (OpenBravo); Value: 82; Unit: participants; Period: 3 years; Method: Platform tracking; Source: SourceForge.net",
+        "Metric: Partners (Compiere); Value: 100+; Unit: partners; Period: not specified; Method: Company data; Source: Company data",
+        "Metric: Geographic coverage (Compiere); Value: 25; Unit: countries; Period: not specified; Method: Company data; Source: Company data",
+        "Metric: OSS projects on SourceForge; Value: 348,000; Unit: projects; Period: February 2009; Method: Platform tracking; Source: SourceForge.net",
+        "Metric: ERP projects on SourceForge; Value: 1,000+; Unit: projects; Period: May 2009; Method: Platform tracking; Source: SourceForge.net",
+        "Metric: ERP products listed; Value: 56; Unit: products; Period: 2015; Method: Platform tracking; Source: SourceForge.net",
+        "Metric: Implementation cost reduction; Value: 1/6 to 1/3; Unit: ratio vs proprietary; Period: not specified; Method: Literature comparison; Source: Multiple sources",
+        "Metric: Survey sample (Italian firms); Value: 146; Unit: firms; Period: not specified; Method: Survey; Source: Bonaccorsi et al."
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'OpenBravo is an example of successful enterprise OSS, which has been developed by 82 participants over three years with more than 970,000 downloads recorded' | Page 6: 'Compiere recorded more than 1.2 million downloads of its software and has more than 100 partners in 25 countries' | Page 3: 'listing approximately 348,000 open-source projects including enterprise software, such as ERP, business intelligence (BI), CRM, and so on (as of February 2009). There were over 1000 on-going ERP projects on SourceForge.net as of May 7, 2009' | Page 3: 'In 2015, there were 56 ERP products listed' | Page 4: 'OSS ERPs' average implementation costs are at between one-sixth and one-third of the costs for typical proprietary ERPs'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655012",
+      "article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Metric: Alibaba sales volume; Value: 1.1 trillion; Unit: yuan ($170 billion); Period: 2012; Method: Company data; Source: Jung et al. 2015",
+        "Metric: Alibaba IPO market value; Value: 231; Unit: billion USD; Period: September 19, 2014; Method: IPO valuation; Source: Article",
+        "Metric: Tencent QQ active accounts; Value: 848; Unit: million accounts; Period: August 2014; Method: Company data; Source: Lee and Phang 2015",
+        "Metric: Profit rate increase (α=20, β=5); Value: 8.16; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 2",
+        "Metric: Customer welfare increase (α=20, β=5); Value: 4.91; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 2",
+        "Metric: Social welfare increase (α=20, β=5); Value: 5.36; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 2",
+        "Metric: Profit decrease when network weak (μ=0.1); Value: -5.56; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 4",
+        "Metric: Customer welfare increase when network weak (μ=0.1); Value: 14.39; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 4",
+        "Metric: Maximum customer uncertainty γmax (α=20); Value: 0.390; Unit: ratio; Period: Simulation; Method: Numerical analysis; Source: Table 3"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1-2: 'in 2012, Alibaba handled 1.1 trillion yuan ($170 billion) in sales [...] Alibaba's market value was measured as $231 billion and made it the largest IPO in history' | Page 2: 'As of August 2014, it had 848 million active QQ accounts' | Page 13: Table 2 shows various profit, customer welfare and social welfare comparisons | Page 14: Table 4 shows network effect impacts | Page 14: Table 3 shows maximum γ values",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655172",
+      "article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Sample size; 470; Apps; 2013-2015; Survey; Primary data | App abandonment rate; 95%; Percentage; Within one month; Industry statistics; Chen, 2015 | Average value retention score; 3.365; Scale 1-5; 18 months after launch; Survey; Primary data | Venture capital to equity ratio; 12%; Percentage; 2015; Survey; Primary data | IoT connections in China; 74 million; Connections; 2014; Industry report; GSMA, 2015 | Consumer Apps growth; 2.9 to 13 billion; Connected objects; 2015-2020; Industry forecast; Gartner, 2014 | VC investment in US IoT; $300 million; USD; 2010-2014; Industry report; TechCrunch, 2014 | VC funding for top 100 IoT startups; $6.19 billion; USD; 2015; Industry report; Forbes, 2015 | China VC investment; $37 billion; USD; 2015; Industry report; Bloomberg, 2016 | R-squared Model 1; 32.6%; Percentage; N/A; Regression analysis; Study results | R-squared Model 2; 34.4%; Percentage; N/A; Regression analysis; Study results",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'We have collected data from 470 start-ups in China' | Page 2: 'Statistics show that 95% of mobile Apps are abandoned by users within one month' | Page 6: 'the average value retention score is 3.365' | 'The average percentage of venture capital investments to total shareholder equity is 12%' | Page 5: 'China is by far world's largest IoT market with 74 million connections as of 2014' | Page 2: 'consumer Apps that are estimated to grow from 2.9 Billion in 2015 to 13 Billion connected objects in 2020' | Page 8: 'R-squared 0.326' and 'R-squared 0.344'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655181",
+      "article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Supplier openness rate Apple; 0.5; Scale 0-1; 2015; Interview; Six interviewee firms | Supplier openness rate Android; 0.9; Scale 0-1; 2015; Interview; Six interviewee firms | Customer openness rate Apple; 0.5; Scale 0-1; 2015; Interview; Six interviewee firms | Customer openness rate Android; 0.9; Scale 0-1; 2015; Interview; Six interviewee firms | Supplier openness Hotels.com; 0.9; Scale 0-1; 2015; Interview; Four big hotels | Supplier openness Booking.com; 0.1; Scale 0-1; 2015; Interview; Four big hotels | Customer openness Hotels.com; 0.5; Scale 0-1; 2015; Interview; Six hotels | Customer openness Booking.com; 0.9; Scale 0-1; 2015; Interview; Six hotels | Technological capability Apple; 0.9; Scale 0-1; 2015; Interview; Daegu market | Technological capability Android; 0.5; Scale 0-1; 2015; Interview; Daegu market | User trust Hotels.com; 0.9; Scale 0-1; 2015; Interview; Daegu market | User trust Booking.com; 0.5; Scale 0-1; 2015; Interview; Daegu market | Number of SW firms in Daegu clusters; 6 clusters; Count; 2015-2016; Observation; Regional analysis | Number of hotel categories in Daegu; 4 groups; Count; 2016; Booking.com search; 27 May 2016 | Hotels in D group; 16; Count; 2016; Booking.com; Small hotels < 5 years",
+      "synonyms_found": [],
+      "source_citation": "Page 11: 'the supplier's OI level is 0.5 for Apple, while it is 0.9 for Google...the customer's OI is only 0.5...the OBM, that is, customer OI level, is 0.9' | Page 12: 'the supplier's OI is 0.9 for Hotels.com, while it is 0.1 for Booking.com...customer OI, is 0.5 for the former and 0.9 for the latter' | Page 13: 'the technological capability level of the Apple app platform business model is high (0.9) in the Korea Daegu market, while it is still 0.5 for Android' | Page 17: 'The number of hotels which belong to D group is 16'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655186",
+      "article_title": "Developing enterprise social software in China: insights from Mingdao",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Sales revenue 2013; RMB 2 million; CNY; 2013; Company records; Primary data | Sales revenue 2014 target; RMB 20 million; CNY; 2014; Company projection; Primary data | Advanced account renewal rate; 90%; Percentage; 2014; Company records; Primary data | Free to paid conversion rate; 5%; Percentage; 2014; Company records; Primary data | Referral rate; 50%; Percentage; 2014; Word-of-mouth; Primary data | Advanced account price; RMB 3,600; CNY per year; 2014; Pricing model; Primary data | Team size target; 50-200; People; NA; Platform design; Primary data | Private cloud initial fee; US$20,000; USD per year; NA; Pricing model; Primary data | Private cloud profit per customer; US$30,000+; USD; NA; Estimated; Primary data | Angel investment; RMB 20 million; CNY; 2013; Investment round; Primary data | MeiHua investment; RMB 8 million; CNY; 2013; Investment round; Primary data | Private cloud deployments; 7; Count; By 2013; Company records; Primary data | Sales teams; 13; Cities; NA; Operations; Primary data | Sales consultants; 100+; People; NA; Operations; Primary data | China SMEs with cloud systems by 2015; 7 million; Enterprises; 2015 projection; IDC research; Secondary data | Baidu searches for enterprise apps; 1 million; Per day; NA; Market analysis; Secondary data | Enterprise software bidders; 100+; Companies; NA; Market analysis; Secondary data | Slack funding; US$43 million; USD; 3 months after founding; Industry report; Secondary data | Microsoft Yammer acquisition; US$1.2 billion; USD; June 26, 2012; Industry report; Secondary data",
+      "synonyms_found": [],
+      "source_citation": "Page 11: 'Sales revenue reached RMB2 million (US$285,700) and more than 90% of advanced account users renewed their account in 2014. Mingdao therefore expected to increase its 2014 sales revenue by 10 times – up to RMB20 million' | 'In 2014, about 5% of Mingdao's free accounts were upgraded to advanced accounts, each of which costed RMB3,600' | 'almost half of the new customers were referred from current customers' | Page 5: 'Mingdao can make more than US$30,000 in profit from a single large enterprise customer'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655190",
+      "article_title": "Open source - Is it an alternative to intellectual property?",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655198",
+      "article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "metric": "Registered users",
+          "value": "300 to 3700",
+          "unit": "users",
+          "period": "Growth period in Satakunta region",
+          "method": "Platform usage data",
+          "source": "Satakunta Hospital District"
+        },
+        {
+          "metric": "Connected EHR systems",
+          "value": "15",
+          "unit": "systems",
+          "period": "End of 2011 - Satakunta",
+          "method": "Platform configuration data",
+          "source": "Satakunta Hospital District"
+        },
+        {
+          "metric": "Data items stored",
+          "value": "18,000,000",
+          "unit": "items",
+          "period": "End of 2011 - Satakunta",
+          "method": "Platform data count",
+          "source": "Satakunta Hospital District"
+        },
+        {
+          "metric": "Data items accessed",
+          "value": "16,000",
+          "unit": "items per month",
+          "period": "End of 2011 - Satakunta",
+          "method": "Platform usage logs",
+          "source": "Satakunta Hospital District"
+        },
+        {
+          "metric": "Registered users",
+          "value": "6000+",
+          "unit": "users",
+          "period": "End of 2011 - Varsinais-Suomi",
+          "method": "Platform usage data",
+          "source": "Regional data"
+        },
+        {
+          "metric": "Connected systems",
+          "value": "12",
+          "unit": "systems",
+          "period": "End of 2011 - Varsinais-Suomi",
+          "method": "Platform configuration",
+          "source": "Regional data"
+        },
+        {
+          "metric": "Data items stored",
+          "value": "10,000,000",
+          "unit": "items",
+          "period": "End of 2011 - Varsinais-Suomi",
+          "method": "Platform data count",
+          "source": "Regional data"
+        },
+        {
+          "metric": "Data items accessed",
+          "value": "16,000",
+          "unit": "items per month",
+          "period": "End of 2011 - Varsinais-Suomi",
+          "method": "Platform usage logs",
+          "source": "Regional data"
+        },
+        {
+          "metric": "Region population",
+          "value": "275,000",
+          "unit": "residents",
+          "period": "Satakunta region",
+          "method": "Population statistics",
+          "source": "Regional statistics"
+        },
+        {
+          "metric": "Region population",
+          "value": "470,000",
+          "unit": "residents",
+          "period": "Varsinais-Suomi region",
+          "method": "Population statistics",
+          "source": "Regional statistics"
+        },
+        {
+          "metric": "Region population",
+          "value": "500,000",
+          "unit": "residents",
+          "period": "Pirkanmaa region",
+          "method": "Population statistics",
+          "source": "Regional statistics"
+        },
+        {
+          "metric": "Customers acquired",
+          "value": "2",
+          "unit": "regions out of 20 total",
+          "period": "Overall market penetration",
+          "method": "Sales data",
+          "source": "RHIS provider"
+        },
+        {
+          "metric": "Patient data access rate",
+          "value": "10%",
+          "unit": "percentage of primary care patients",
+          "period": "General operation",
+          "method": "Usage analysis",
+          "source": "Healthcare system knowledge"
+        },
+        {
+          "metric": "Expensive patient concentration",
+          "value": "20% of patients cause 80% of costs",
+          "unit": "percentage",
+          "period": "Public healthcare general",
+          "method": "Healthcare statistics",
+          "source": "Reference [28]"
+        }
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 5-6: 'The number of users in Satakunta region (population around 275 000 residents) grew from about 300 up to 3700 when almost all potential users had become registered users. In the end of 2011 there were 15 EHR and other patient data providing systems providing patient data into the RHIS. The number of data items in the RHIS was about 18 000 000 out of which about 16 000 items per month were accessed. Varsinais-Suomi region (population around 470 000 residents) followed the Satakunta example when later starting the use of the RHIS. In the end of 2011 there were more than 6000 registered users and 12 systems providing patient data. The number of data items in the RHIS was about 10 000 000 out of which about 16 000 items per month were accessed. Pirkanmaa region (population around 500 000 residents) had a different start' | Page 6: 'From the RHIS provider point of view, only 2 regions out of total 20 regions in Finland became customers' | Page 4: 'It is known that about 20% of the patients cause about 80% of the costs of public healthcare. But we do not know in advance who these expensive patients are or will be' | Page 5: 'Only about 10% of patients visiting primary care would ever have their data accessed using RHIS'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655206",
+      "article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "Metric": "Total invoices in Europe",
+          "Value": "35 billion+",
+          "Unit": "invoices",
+          "Period": "per year",
+          "Method": "Industry estimation",
+          "Source": "Billentis consultant Bruno Koch"
+        },
+        {
+          "Metric": "B2B invoice volume",
+          "Value": "50",
+          "Unit": "percent of total",
+          "Period": "annual",
+          "Method": "Market estimation",
+          "Source": "Billentis"
+        },
+        {
+          "Metric": "Cost savings potential (invoice issuer)",
+          "Value": "57",
+          "Unit": "percent per invoice",
+          "Period": "not specified",
+          "Method": "Industry estimation",
+          "Source": "Bruno Koch from Billentis"
+        },
+        {
+          "Metric": "Cost savings as percentage of turnover",
+          "Value": "1-2",
+          "Unit": "percent of total turnover",
+          "Period": "not specified",
+          "Method": "Industry estimation",
+          "Source": "Article discussion"
+        },
+        {
+          "Metric": "Overall invoicing cost savings",
+          "Value": "80",
+          "Unit": "percent",
+          "Period": "not specified",
+          "Method": "Industry estimation",
+          "Source": "EEI-3.2, 2007"
+        },
+        {
+          "Metric": "Saving potential (invoice receiver)",
+          "Value": "62",
+          "Unit": "percent per invoice",
+          "Period": "not specified",
+          "Method": "Industry estimation",
+          "Source": "Bruno Koch from Billentis"
+        },
+        {
+          "Metric": "Active trading partners (Tieto)",
+          "Value": "200,000",
+          "Unit": "trading partners",
+          "Period": "current",
+          "Method": "Company data",
+          "Source": "Case company profile"
+        },
+        {
+          "Metric": "Tieto personnel count",
+          "Value": "13,000",
+          "Unit": "employees",
+          "Period": "current",
+          "Method": "Company data",
+          "Source": "Case company profile"
+        },
+        {
+          "Metric": "Environmental savings",
+          "Value": "12 million",
+          "Unit": "trees saved yearly",
+          "Period": "annual in Europe",
+          "Method": "Environmental estimation",
+          "Source": "DB Research, 2010"
+        },
+        {
+          "Metric": "Service providers preferring four-corner model",
+          "Value": "50+",
+          "Unit": "percent of banks",
+          "Period": "2008",
+          "Method": "Survey",
+          "Source": "SWIFT, 2008"
+        }
+      ],
+      "synonyms_found": [
+        "cost savings",
+        "trading partners",
+        "personnel",
+        "trees saved"
+      ],
+      "source_citation": "Page 2: 'the total number of invoices in Europe is estimated to have already surpassed 35 billion per year. Approximately half of those invoices are exchanged between businesses' | Page 5: 'e-invoicing enables cost savings of as high as 57% per invoice... implementing e-invoicing can result in savings between 1 and 2% of total turnover' | Page 5: 'Even savings of up to 80% in invoicing have been estimated (EEI-3.2, 2007)' | Page 5: 'the saving potential in these processes that can reach even 62% per invoice' | Page 7-8: 'Tieto has established a network of over 200,000 active trading partners... Its global personnel count is around 13,000' | Page 6: 'this has been estimated to save 12 million trees yearly from getting cut down (DB Research, 2010)' | Page 5: 'Slightly over half of banks favor four-corner model over the three-corner model in both B2B and B2C areas (SWIFT, 2008)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655218",
+      "article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "Metric": "HIE operational rate",
+          "Value": "25-30",
+          "Unit": "percent",
+          "Period": "2009-2012",
+          "Method": "Industry reports",
+          "Source": "eHealth Initiative 2012"
+        },
+        {
+          "Metric": "HIE financial viability rate",
+          "Value": "26",
+          "Unit": "percent (less than)",
+          "Period": "2012",
+          "Method": "Industry reports",
+          "Source": "eHealth Initiative 2012"
+        },
+        {
+          "Metric": "Operational HIEs",
+          "Value": "106",
+          "Unit": "organizations",
+          "Period": "2014",
+          "Method": "Survey",
+          "Source": "Adler-Milstein et al. 2016"
+        },
+        {
+          "Metric": "Financially viable HIEs (of operational)",
+          "Value": "50",
+          "Unit": "percent",
+          "Period": "2014",
+          "Method": "Survey",
+          "Source": "Adler-Milstein et al. 2016"
+        },
+        {
+          "Metric": "New business venture operational success rate",
+          "Value": "30-50",
+          "Unit": "percent",
+          "Period": "General",
+          "Method": "Industry estimates",
+          "Source": "Literature"
+        },
+        {
+          "Metric": "Financial breakeven rate (study sample)",
+          "Value": "50",
+          "Unit": "percent",
+          "Period": "2008-2010",
+          "Method": "Survey data",
+          "Source": "eHealth Initiative survey"
+        },
+        {
+          "Metric": "Average operational maturity stage",
+          "Value": "5.85",
+          "Unit": "scale 1-7",
+          "Period": "2008-2010",
+          "Method": "Survey data",
+          "Source": "eHealth Initiative survey"
+        },
+        {
+          "Metric": "Average number of service offerings",
+          "Value": "2.86",
+          "Unit": "services (out of 5)",
+          "Period": "2008-2010",
+          "Method": "Survey data",
+          "Source": "eHealth Initiative survey"
+        },
+        {
+          "Metric": "Average HIE age",
+          "Value": "5.52",
+          "Unit": "years",
+          "Period": "2008-2010",
+          "Method": "Survey data",
+          "Source": "eHealth Initiative survey"
+        },
+        {
+          "Metric": "Average HIE size",
+          "Value": "2330",
+          "Unit": "participating physicians",
+          "Period": "2008-2010",
+          "Method": "Survey data",
+          "Source": "eHealth Initiative survey"
+        },
+        {
+          "Metric": "IHIE hospital participation",
+          "Value": "106",
+          "Unit": "hospitals (out of 126 in state)",
+          "Period": "2014",
+          "Method": "Case study",
+          "Source": "AHRQ 2014b"
+        },
+        {
+          "Metric": "IHIE physician participation",
+          "Value": "14000",
+          "Unit": "physicians",
+          "Period": "2014",
+          "Method": "Case study",
+          "Source": "AHRQ 2014b"
+        },
+        {
+          "Metric": "HealthBridge cost savings",
+          "Value": "0.41",
+          "Unit": "USD per report",
+          "Period": "2011",
+          "Method": "Case study",
+          "Source": "NASCIO 2011"
+        },
+        {
+          "Metric": "HealthBridge subscription revenue",
+          "Value": "85",
+          "Unit": "percent of operational revenue",
+          "Period": "Recent years",
+          "Method": "Case study",
+          "Source": "Weaver 2012"
+        },
+        {
+          "Metric": "HealthBridge premium services revenue",
+          "Value": "15",
+          "Unit": "percent of operational revenue",
+          "Period": "Recent years",
+          "Method": "Case study",
+          "Source": "Weaver 2012"
+        },
+        {
+          "Metric": "DHIN clinical results delivered",
+          "Value": "10",
+          "Unit": "million annually",
+          "Period": "Current",
+          "Method": "Case study",
+          "Source": "The DHIN Dialogue 2014"
+        },
+        {
+          "Metric": "DHIN provider participation",
+          "Value": "97",
+          "Unit": "percent of state providers",
+          "Period": "Current",
+          "Method": "Case study",
+          "Source": "The DHIN Dialogue 2014"
+        },
+        {
+          "Metric": "DHIN population coverage",
+          "Value": "90",
+          "Unit": "percent of state population",
+          "Period": "Current",
+          "Method": "Case study",
+          "Source": "The DHIN Dialogue 2014"
+        },
+        {
+          "Metric": "CORHIO hospital participation",
+          "Value": "40",
+          "Unit": "hospitals",
+          "Period": "Current",
+          "Method": "Case study",
+          "Source": "www.corhio.org"
+        },
+        {
+          "Metric": "CORHIO physician participation",
+          "Value": "2200",
+          "Unit": "doctors",
+          "Period": "Current",
+          "Method": "Case study",
+          "Source": "www.corhio.org"
+        },
+        {
+          "Metric": "CORHIO growth rate (users and data)",
+          "Value": "111-118",
+          "Unit": "percent",
+          "Period": "2014",
+          "Method": "Company report",
+          "Source": "CORHIO press release"
+        }
+      ],
+      "synonyms_found": [
+        "metrics",
+        "results",
+        "performance indicators",
+        "statistics"
+      ],
+      "source_citation": "Multiple citations from pages 2, 8, 10-11 as detailed in the table above",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655219",
+      "article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "metric": "Mobile ticket market share",
+          "value": "3%",
+          "unit": "percentage of all sales",
+          "period": "2016",
+          "method": "Sales data",
+          "source": "SL (Stockholm)"
+        },
+        {
+          "metric": "Mobile ticket market share",
+          "value": "5%",
+          "unit": "percentage of all sales",
+          "period": "2016",
+          "method": "Sales data",
+          "source": "Skånetrafiken"
+        },
+        {
+          "metric": "Mobile ticket market share",
+          "value": "7%",
+          "unit": "percentage of all sales",
+          "period": "2016",
+          "method": "Sales data",
+          "source": "Västtrafik"
+        },
+        {
+          "metric": "Mobile ticket market share",
+          "value": "3%",
+          "unit": "percentage",
+          "period": "Not specified",
+          "method": "Sales data",
+          "source": "mTicket Lithuania"
+        },
+        {
+          "metric": "Mobile ticket market share",
+          "value": ">40%",
+          "unit": "percentage",
+          "period": "Ongoing, constantly growing",
+          "method": "Sales data",
+          "source": "Ruter (Oslo)"
+        },
+        {
+          "metric": "Mobile ticket market share",
+          "value": "<10%",
+          "unit": "percentage",
+          "period": "General",
+          "method": "Market observation",
+          "source": "Most Northern European countries"
+        },
+        {
+          "metric": "Mobile operator service fee",
+          "value": "15-30%",
+          "unit": "percentage",
+          "period": "SMS ticketing period",
+          "method": "Business arrangements",
+          "source": "Interview data"
+        },
+        {
+          "metric": "Single ticket price (card)",
+          "value": "30",
+          "unit": "SEK",
+          "period": "Current",
+          "method": "Pricing data",
+          "source": "Stockholm/SL"
+        },
+        {
+          "metric": "Single ticket price (mobile)",
+          "value": "43",
+          "unit": "SEK",
+          "period": "Current",
+          "method": "Pricing data",
+          "source": "Stockholm/SL"
+        },
+        {
+          "metric": "Discount for card payment",
+          "value": "20%",
+          "unit": "percentage",
+          "period": "Current",
+          "method": "Pricing policy",
+          "source": "Blekingetrafiken, Länstrafiken Kronaberg"
+        },
+        {
+          "metric": "Discount for card payment",
+          "value": "10%",
+          "unit": "percentage",
+          "period": "Current",
+          "method": "Pricing policy",
+          "source": "Skånetrafiken"
+        },
+        {
+          "metric": "Discount for 10-trip card",
+          "value": "~40%",
+          "unit": "percentage",
+          "period": "Current",
+          "method": "Pricing policy",
+          "source": "Copenhagen"
+        },
+        {
+          "metric": "Transaction fee for single ticket",
+          "value": "7-8%",
+          "unit": "percentage of 10-30 SEK",
+          "period": "Current",
+          "method": "Banking fees",
+          "source": "Interview data"
+        },
+        {
+          "metric": "NFC validation speed",
+          "value": "400",
+          "unit": "milliseconds",
+          "period": "Technical requirement",
+          "method": "Technical specification",
+          "source": "Industry standard"
+        },
+        {
+          "metric": "Adoption likelihood",
+          "value": "26%",
+          "unit": "percentage of customers",
+          "period": "Study period",
+          "method": "Research study",
+          "source": "Boston commuter rail study [13]"
+        },
+        {
+          "metric": "Battery concern as barrier",
+          "value": "19%",
+          "unit": "percentage",
+          "period": "Survey period",
+          "method": "Customer survey",
+          "source": "Ruter's survey"
+        },
+        {
+          "metric": "Interviews conducted",
+          "value": ">30",
+          "unit": "interviews",
+          "period": "2010-2013",
+          "method": "Qualitative research",
+          "source": "Sweden focus phase"
+        },
+        {
+          "metric": "Interviews conducted",
+          "value": ">20",
+          "unit": "interviews",
+          "period": "2015-2016",
+          "method": "Qualitative research",
+          "source": "Multi-country expansion phase"
+        }
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 5: 'In Sweden, after not successful experience of \"new\" SMS ticketing, the share of mobile ticketing remains rather low, for example, 3% of all sales at SL, 5% at Skånetrafiken, 7% at Västtrafik (in 2016). Due to limited payment options, the market share of mTicket in Lithuania is 3%' | Page 7: 'Ruter is extremely successful with mobile ticketing in Oslo. The share of mobile tickets is more than 40%, and it is constantly growing' | Page 5: 'The mobile operators' service fee is considered as quite high (about 15–30%)' | Page 6: 'single ticket in Stockholm bought with a card costs 30 SEK, and 43 SEK with mobile app' | Page 5: 'NFC-enabled travel cards can ensure this speed (it is about 400 milliseconds)' | Page 5: 'This is a reason preventing some people from using in-app mobile ticketing (19% according to Ruter's survey)' | Page 3: 'During these years, more than 30 interviews were carried out' and 'More than 20 interviews were conducted'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655247",
+      "article_title": "The effect of free sampling strategies on freemium conversion rates",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "Metric": "Premium user conversion rate (typical)",
+          "Value": "3-5",
+          "Unit": "percent of total users",
+          "Period": "General industry",
+          "Method": "Industry observation",
+          "Source": "Literature"
+        },
+        {
+          "Metric": "Overall conversion rate (experimental study)",
+          "Value": "86",
+          "Unit": "percent",
+          "Period": "Experimental period",
+          "Method": "Online experiment",
+          "Source": "Study data"
+        },
+        {
+          "Metric": "Conversion rate - Freefirst low discrepancy",
+          "Value": "50",
+          "Unit": "percent",
+          "Period": "Experimental period",
+          "Method": "Online experiment",
+          "Source": "Study data"
+        },
+        {
+          "Metric": "Conversion rate - Premiumfirst low discrepancy",
+          "Value": "91",
+          "Unit": "percent",
+          "Period": "Experimental period",
+          "Method": "Online experiment",
+          "Source": "Study data"
+        },
+        {
+          "Metric": "Conversion rate - Freefirst high discrepancy",
+          "Value": "90",
+          "Unit": "percent",
+          "Period": "Experimental period",
+          "Method": "Online experiment",
+          "Source": "Study data"
+        },
+        {
+          "Metric": "Conversion rate - Premiumfirst high discrepancy",
+          "Value": "93",
+          "Unit": "percent",
+          "Period": "Experimental period",
+          "Method": "Online experiment",
+          "Source": "Study data"
+        },
+        {
+          "Metric": "Odds ratio Premiumfirst vs Freefirst",
+          "Value": "6.053",
+          "Unit": "times",
+          "Period": "Experimental analysis",
+          "Method": "Logistic regression",
+          "Source": "Study analysis"
+        },
+        {
+          "Metric": "Odds ratio high vs low discrepancy",
+          "Value": "5.868",
+          "Unit": "times",
+          "Period": "Experimental analysis",
+          "Method": "Logistic regression",
+          "Source": "Study analysis"
+        },
+        {
+          "Metric": "Dropbox free storage",
+          "Value": "2",
+          "Unit": "gigabytes",
+          "Period": "At time of article",
+          "Method": "Product example",
+          "Source": "Dropbox case"
+        },
+        {
+          "Metric": "Dropbox paid storage",
+          "Value": "1",
+          "Unit": "terabyte",
+          "Period": "At time of article",
+          "Method": "Product example",
+          "Source": "Dropbox case"
+        },
+        {
+          "Metric": "Experimental sample size",
+          "Value": "225",
+          "Unit": "subjects",
+          "Period": "Study period",
+          "Method": "Online experiment",
+          "Source": "Study methodology"
+        },
+        {
+          "Metric": "Survey response rate",
+          "Value": "74",
+          "Unit": "percent",
+          "Period": "Study recruitment",
+          "Method": "Email invitation",
+          "Source": "Study methodology"
+        }
+      ],
+      "synonyms_found": [
+        "conversion rate",
+        "premium users",
+        "odds ratio",
+        "percentages"
+      ],
+      "source_citation": "Page 1: 'Premium users typically account for 3–5 % of total users' | Page 8: 'the odds ratio suggests that the odds of converting in Premiumfirst are 6.053 times the odds of converting in Freefirst' | Page 8: 'participants in the high discrepancy condition were 5.868 times more likely to convert to the premium version than those in the low discrepancy condition' | Page 8: Table 2 with conversion percentages | Page 3: 'Dropbox for example offers users two gigabytes of online storage space for free; paying customers can use up to 1 terabyte' | Page 7: '240 answered our invitation e-mail (response rate: 74 %). Fifteen participants were removed from the sample... Hence, we used a sample of 225 subjects'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655350",
+      "article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "metric": "Facebook monthly active users",
+          "value": "1.7 billion",
+          "unit": "users",
+          "period": "September 2016",
+          "method": "Platform statistics",
+          "source": "Statista 2016a"
+        },
+        {
+          "metric": "Smartphone users worldwide",
+          "value": "2.16 billion",
+          "unit": "people",
+          "period": "End of 2016",
+          "method": "Market projection",
+          "source": "Statista 2016b"
+        },
+        {
+          "metric": "iOS free apps percentage",
+          "value": "90%",
+          "unit": "percentage",
+          "period": "2013",
+          "method": "Market analysis",
+          "source": "Perez 2013"
+        },
+        {
+          "metric": "Health & fitness app market value",
+          "value": "$4 billion",
+          "unit": "USD",
+          "period": "2014",
+          "method": "Market estimation",
+          "source": "Boxall 2014"
+        },
+        {
+          "metric": "Health & fitness app projected market",
+          "value": "$26 billion",
+          "unit": "USD",
+          "period": "2017",
+          "method": "Market projection",
+          "source": "Boxall 2014"
+        },
+        {
+          "metric": "Twitter data revenue percentage",
+          "value": "~10%",
+          "unit": "percentage of revenues",
+          "period": "Q3 2015",
+          "method": "Financial reporting",
+          "source": "Twitter 2015"
+        },
+        {
+          "metric": "Apps with advertising in sample",
+          "value": "4",
+          "unit": "apps (28.6%)",
+          "period": "Study sample",
+          "method": "Case study analysis",
+          "source": "Study data"
+        },
+        {
+          "metric": "Apps with premium offerings",
+          "value": "10",
+          "unit": "apps",
+          "period": "Study sample",
+          "method": "Case study analysis",
+          "source": "Study data"
+        },
+        {
+          "metric": "Apps with in-app sales",
+          "value": "2",
+          "unit": "apps",
+          "period": "Study sample",
+          "method": "Case study analysis",
+          "source": "Study data"
+        },
+        {
+          "metric": "Apps with cross-selling",
+          "value": "2",
+          "unit": "apps",
+          "period": "Study sample",
+          "method": "Case study analysis",
+          "source": "Study data"
+        },
+        {
+          "metric": "Study sample size",
+          "value": "14",
+          "unit": "apps",
+          "period": "2016",
+          "method": "Case study selection",
+          "source": "Study methodology"
+        },
+        {
+          "metric": "Initial search results",
+          "value": "149",
+          "unit": "mobile apps",
+          "period": "January 27, 2016",
+          "method": "Appcrawlr search",
+          "source": "Study methodology"
+        },
+        {
+          "metric": "Minimum downloads threshold",
+          "value": "5 million",
+          "unit": "downloads",
+          "period": "Study selection criteria",
+          "method": "Selection filter",
+          "source": "Study methodology"
+        },
+        {
+          "metric": "Apps with enhanced advertising capability",
+          "value": "6",
+          "unit": "apps",
+          "period": "Study sample",
+          "method": "Privacy policy analysis",
+          "source": "Study data"
+        },
+        {
+          "metric": "Apps with e-ethnography capability",
+          "value": "3",
+          "unit": "apps (Nike, Adidas, Noom, Sports Tracker)",
+          "period": "Study sample",
+          "method": "Privacy policy analysis",
+          "source": "Study data"
+        },
+        {
+          "metric": "Apps with data trading provisions",
+          "value": "10",
+          "unit": "apps",
+          "period": "Study sample",
+          "method": "Privacy policy analysis",
+          "source": "Study data"
+        },
+        {
+          "metric": "Strava data selling price",
+          "value": "$20,000",
+          "unit": "USD per year",
+          "period": "Starting September 2013",
+          "method": "Contract terms",
+          "source": "Davies 2014, Wired"
+        },
+        {
+          "metric": "Under Armour app portfolio",
+          "value": "3",
+          "unit": "apps (of 14 in sample)",
+          "period": "Study period",
+          "method": "Market observation",
+          "source": "Marr 2016"
+        },
+        {
+          "metric": "Average weekly run distance (men late 30s)",
+          "value": "37.8",
+          "unit": "km/week",
+          "period": "Nike Running data",
+          "method": "User data aggregation",
+          "source": "Nike app data"
+        },
+        {
+          "metric": "Average single run distance",
+          "value": "6.2",
+          "unit": "km",
+          "period": "Nike Running data",
+          "method": "User data aggregation",
+          "source": "Nike app data"
+        },
+        {
+          "metric": "Average running pace",
+          "value": "6:56",
+          "unit": "minutes per mile",
+          "period": "Nike Running data",
+          "method": "User data aggregation",
+          "source": "Nike app data"
+        }
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Facebook, for instance, had more than 1.7 billion monthly active users in September 2016' | Page 5: 'By the end of 2016, 2.16 billion people will have smartphones' | Page 5: '90 percent of iOS apps are offered for free' | Page 5: 'This category of apps had an estimated market value of $4 billion in 2014, a number expected to increase to $26 billion by 2017' | Page 3: 'The Twitter Political Index... one that accounted for almost 10 percent of revenues in the third quarter of 2015' | Page 5: 'Table 1. Study sample... Total 4 10 2 2' showing revenue types | Page 5: 'a list of 149 mobile apps that met our criteria... the final sample is composed of 14 apps' | Page 7: 'for a fee of $20,000 per year, the department can see where bikers speed up or slow down' | Page 6-7: 'men in their late thirties run an average of 37.8 km/week, with an average single run distance of 6.2 km at an average pace of 6:56 per mile' | Page 6: 'Six companies in the sample have privacy policy provisions that allow them to use data to create enhanced advertising' | Page 7: 'A total of 10 apps have similar provisions, allowing them to sell or exchange the data they gather'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655362",
+      "article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Conversion rate (free to paying users); 3.3% (Data set 1), 6.1% (Data set 2), 4.8% (Data set 3); percentage; 2009-2012; observational study; Table 2",
+        "Revenue concentration; Top 1% users contribute 84.6% (data set 1), 60.5% (data set 2), 53.6% (data set 3) of total revenue; percentage; 2009-2012; observational study; Page 4",
+        "Average CLV per paying user; €47.01 (data set 1), €31.01 (data set 2), €55.25 (data set 3); EUR; 365 days (sets 1-2), 180 days (set 3); observational study; Table 2",
+        "Credit purchases per paying user; Mean 3.78 (data set 1), 3.20 (data set 2), 1.46 (data set 3); count; 365 days (sets 1-2), 180 days (set 3); observational study; Table 2",
+        "Average purchase amount; €12.45 all purchases (data set 1), €9.68 (data set 2), €37.96 (data set 3); EUR; per transaction; observational study; Table 2",
+        "User churn; 40-55% of newly registered users log in only once and never return; percentage; not specified; observational study; Page 3",
+        "Long-term retention; 1-2% of all users still generate revenue more than year after registration; percentage; 1+ year; observational study; Page 3",
+        "CPC inflation; $0.38 (2005) to $0.92 (2013), 11.7% average annual increase; USD; 2005-2013; secondary data; Page 2",
+        "Purchase amount increase; 42.9% (data set 1), 9.7% (data set 2), 28.9% (data set 3) higher in subsequent vs initial purchases; percentage; per transaction; observational study; Page 6"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 4, Table 2: Complete descriptive statistics including CLV metrics, conversion rates, purchase frequencies | Page 4: 'the top 1% of users contribute up to 84.6% (data set 1), 60.5% (data 2), and 53.6% (data set 3) of total revenue' | Page 2: 'Hochman (2015) mentions an average CPC (cost per click) increase from $0.38 in 2005 to $0.92 in 2013 (i.e., an average annual increase of 11.7%)' | Page 3: 'between 40 and 55% of newly registered users log in only once and then never return, and only 1–2% of all users still generate revenue more than a year after their registration'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655382",
+      "article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Market share of SaaS in cloud computing; 15%; percentage; not specified; secondary data; Page 2",
+        "Cloud turnover share by case companies; 10-20% (typical), 20% (multiple companies); percentage; 2012; case study data; Table 4",
+        "Total sales; $20bn (AlphaCo), $2.1bn (BetaCo), $71bn (GammaCo), $31m (DeltaCo), $1.3bn (ZetaCo); USD; 2012; case study data; Table 4",
+        "Number of employees; 245-94,000 (range across cases); count; 2012; case study data; Table 4",
+        "Inter-coder reliability; κ=0.866; Cohen's kappa; not specified; coding analysis; Page 17",
+        "Number of case studies; 6; count; not specified; multiple case study; Page 1",
+        "Number of interviews; 26 total (3-6 per company); count; 14 years data collection period; case study; Page 13-16",
+        "Interview length; 48-97 minutes, median 68 minutes; minutes; not specified; case study; Page 13"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Around 15% of the global cloud-computing market comprises Software as a Service (SaaS)' | Page 16, Table 4: 'Cloud-turnover share: n/a, 20%, 20%, 10–20%, <20%, 20%' and 'Total Sales (US-$ in 2012): 20bn, 2.1bn, 71bn, 31m, n/a, 1.3bn' | Page 17: 'We assessed inter-coder reliability with Cohen's kappa (κ= 0.866), indicating a satisfactory level of inter-coder reliability' | Page 13: 'The interview length ranged from 48 to 97 min (median: 68 min)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655386",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Employees; 3,000 (2006), 6,000 (2014); count; 2006, 2014; case study data; Page 4",
+        "Revenue; 800 million NOK; NOK; 2014; case study data; Page 4",
+        "Acquisition values; 80 million Euro (2000 marine division sale), 4.3 billion (2006), 1.3 billion Euros (2010), 2.5 billion Euros (2014); Euro; 2000-2014; case study data; Page 4",
+        "R&D allocation during rushed transition; 80% SaaS, 20% on-premise; percentage; 2011-2013; case study data; Page 6",
+        "R&D allocation in hybrid model; 50% SaaS, 50% on-premise; percentage; from 2014; case study data; Page 6",
+        "Partner commission from initial license fees; up to 50%; percentage; not specified; case study data; Page 5",
+        "Pilot implementation size; 50 SaaS products to approved customers; count; 2014; case study data; Page 6",
+        "Corporate IT spending increase on cloud; 42%; percentage; 2015 projection; industry report; Page 1",
+        "Companies with half software/infrastructure in cloud; >60%; percentage; 2018 projection; industry report; Page 1",
+        "Cloud computing market share of SaaS; 15%; percentage; not specified; industry report; Page 2"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 4: 'In 2006, ERP Co has grown to a company with 3000 employees... In 2014, ERP Co has 6,000 employees, and achieved 800 million NOK in revenue' | Page 6: 'ERP Co adjusted their research and development resources to 80% in SaaS and 20% in on-premise... adjusted to 50% each' | Page 1: 'corporate IT spending on cloud computing will increase by 42% in 2015, and by year 2018, more than 60% of the companies will have at least half their software and infrastructure in cloud'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655389",
+      "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Number of interviews; 19 total; count; 2005-2014; case study; Table 1",
+        "Interview length; 45-90 minutes, median 68 minutes; minutes; not specified; case study; Page 7",
+        "Data collection period; 14 years (2000-2014); years; 2000-2014; case study; Page 6",
+        "Establishment year; 2000; year; 2000; case study; Page 9",
+        "Mobile phone lifecycle; approximately 6 months (new models); months; circa 2000; case study observation; Page 9",
+        "Funding received; Multiple rounds from Broadmedia (2005), SBI Investment (2008), Intel Capital (2011), SFR Development (2012), NTT (2013), Orange (2014); not specified; 2005-2014; case study; Page 23",
+        "Business model evolution stages; 4 major business models over 15 years; count; 2000, 2005, 2010, 2014; case study; Figures 1-4",
+        "Years ahead of market; Over 10 years; years; retrospective assessment; case study; Page 17"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Table 1, Page 7: '19 interviews... lasting 45–90 min (median: 68 min)' | Page 6: 'data collection for this study incorporated several types of empirical material covering the entire history of the case firm, from 2000 to 2014' | Page 9: 'life cycle of mobile phones was becoming very short, with new models appearing in the market approximately every six months' | Page 23: 'G-cluster received funding from Broadmedia Corporation in 2005, SBI Investment in 2008, Intel Capital in 2011, SFR Development in 2012, NTT in 2013 and Orange in 2014'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655397",
+      "article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+      "extraction_date": "2025-10-08",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "App market size; $10 billion (2011); USD; Annual; Industry report; Venturebeat | App market size; $70 billion (estimated); USD; 2017; Industry forecast; Venturebeat | Global mobile market; $150 billion (estimated); USD; End of 2015; Industry forecast; Ghose and Han 2014 | Market share; 90%; Percentage; Current; Industry data; Gartner 2013 | Revenue sharing; 70% to developer, 30% to platform; Percentage; Per transaction; Standard practice; Article data | Downloads comparison; 60% more; Percentage; Current; Industry data; Wallenstein 2015 | Free app downloads; 90%; Percentage; Current; Industry data; Gartner 2013 | Google Play downloads advantage; 70% more; Percentage; Current; Industry data; Sims 2015 | Apple revenue advantage; 70% higher; Percentage; Current; Industry data; Sims 2015 | Sample size; 2177 observations; Count; 20 weeks; Empirical study; Authors | Number of apps studied; 110 apps; Count; Study period; Empirical study; Authors | Observation period; 20 weeks; Duration; Oct 2012 - Mar 2013; Empirical study; Authors | Average revenue rank; 240; Rank position; Study period; Empirical study; Authors | Free apps percentage; 53.88%; Percentage; Study period; Sample data; Authors | Paid apps percentage; 27.38%; Percentage; Study period; Sample data; Authors | Freemium apps percentage; 18.74%; Percentage; Study period; Sample data; Authors | In-app purchase usage; 69.59%; Percentage; Study period; Sample data; Authors | Games category; 57.74%; Percentage; Study period; Sample data; Authors",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'the app market has shown an astonishing growth stepping from less than $10 billion annual revenue in 2011 up to estimated $70 billion by 2017' | Page 1: 'the global mobile market will reach $150 billion by the end of 2015' | Page 2: 'Apple's App Store and Google Play, which have become by far the most popular stores, retaining together almost 90% of the market' | Table 3 shows detailed percentages for revenue models and categories",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655417",
+      "article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+      "extraction_date": "2025-10-08",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Number of partners; 6 independent companies; Count; Project duration; Case study; Authors | SMEs involved; 3; Count; Project duration; Case study; Authors | Universities involved; 1; Count; Project duration; Case study; Authors | Research centres involved; 2; Count; Project duration; Case study; Authors | Software components; 6; Count; Final solution; Case study; Authors | Project duration; 41 months; Duration; October 2011 - March 2015; Case study; Authors | Post-project commitment; 24 months; Duration; After project end; Agreement; Authors | Papers analyzed; 88; Count; Literature review; Systematic review; Authors | Product variants; 3 distinct products; Count; Market segmentation; Design phase; Authors | Literature sources on VN; Few publications; Qualitative; Historical; Literature analysis; Authors",
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'The chosen FP7 ICT collaborative research project started in October 2011 and ended in March 2015' | Page 3: 'Overall, there were six independent companies participating in the final composite software solution: three SMEs, one university, and two applied research centres' | Page 5: 'A systematic literature analysis was conducted related to the topic of SECO design. In total, 88 papers were considered' | Page 9: 'keep his SaaS component available and running on his own cost for additional 24 months after the end of the research project'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655425",
+      "article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+      "extraction_date": "2025-10-08",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Revenue split renting vs. licensing; 70/30; Percentage; Time of interviews; Case data; Firm A | Revenue split renting vs. licensing; 100/0; Percentage; Time of interviews; Case data; Firm B | Revenue split renting vs. licensing; 55/45; Percentage; Time of interviews; Case data; Firm C | Revenue split renting vs. licensing; 20/80; Percentage; Time of interviews; Case data; Firm D | Revenue split renting vs. licensing; 100/0; Percentage; Time of interviews; Case data; Firm E | Number of employees; 30; Count; Time of interviews; Case data; Firm A | Number of employees; 25; Count; Time of interviews; Case data; Firm B | Number of employees; 20; Count; Time of interviews; Case data; Firm C | Number of employees; 12; Count; Time of interviews; Case data; Firm D | Number of employees; 30; Count; Time of interviews; Case data; Firm E | Total interviews; 37; Count; Study period; Research method; Authors | Interview duration; 45-90 minutes; Duration; Study period; Research method; Authors | Hidden IT costs increase; 80%; Percentage; Traditional licensing context; Industry data; Waters 2005",
+      "synonyms_found": [],
+      "source_citation": "Table 2 shows: 'Percentage of revenue: renting vs. licensing at the time of interviews' - Firm A: 70/30, Firm B: 100/0, Firm C: 55/45, Firm D: 20/80, Firm E: 100/0 | Table 2 shows number of employees for each firm | Page 4: 'Altogether, 5–10 interviews per firm were conducted, each lasting 45–90 min. Thus, altogether 37 semi-structured open-ended interviews were carried out' | Page 3: 'reduces the hidden costs that may increase a firm's IT spending by as much as 80% in the case of traditional software licensing'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655440",
+      "article_title": "Designing business models for cloud platforms",
+      "extraction_date": "2025-10-08",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Revenue share; 15%; Percentage; After BMI initiative; Business model redesign; Alpha HCP case | Revenue share; 30%; Percentage; Before BMI initiative; Business model redesign; Alpha HCP case | BMI ideas generated; 200+; Count; January-April 2013; Ideation workshop; ADR study | BMI options developed; 9; Count; January-April 2013; Business model innovation process; ADR study | Expert evaluations; 13; Count; 2013; Qualitative and quantitative evaluation; ADR study | ADR workshops; 4; Count; January-April 2013; Building intervention and evaluation cycles; ADR study | Meetings conducted; 23; Count; 12-month period; Action design research; ADR study | Study duration; 12; Months; December 2012 to December 2013; Action design research; ADR study | Design principles; 6; Count; Final design theory; Design theory formalization | Meta-requirements; 4; Count; Final design theory; Design theory formalization | Testable propositions; 13; Count; Final design theory; Design theory formalization | Customer segments identified; 5; Count; Design principle development; Business model design | PaaS competitors analyzed; 25; Count; Problem formulation stage; Market analysis",
+      "synonyms_found": [
+        "revenue share",
+        "BMI",
+        "ADR",
+        "workshops",
+        "experts"
+      ],
+      "source_citation": "Page 23: 'revenue share (now 15%, instead of 30% before)' | Page 13: 'more than 200 BMI ideas' | Page 13: 'developing nine ideas further' | Page 13: 'A total of 13 experts evaluated all nine BMI options' | Page 11: 'minutes from the 23 meetings, the findings of the four 1-day workshops' | Page 3: '12-month action design research (ADR) study' | Page 14: 'four MRs as well as six DPs' | Page 14: 'We derived 13 TPs' | Page 18: 'at least five possible customer segments' | Page 11: 'Analysis of the PaaS market and 25 PaaS competitors' business models'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655451",
+      "article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+      "extraction_date": "2025-10-08",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Stakeholder companies involved; 24; Count; Business model development process; CloudSME project | Business models developed; 5; Count; MSaaS implementation; CloudSME project | Stakeholder groups; 4; Count; CloudSME ecosystem; Project structure | IaaS cloud providers; 5; Count; Multi-cloud support; CSSP platform | Industrial domains covered; 8; Count; Project scope; CloudSME project | M&S application areas; 4; Count; Technical focus; Project specification | Contract complexity; 5+; Count; Stakeholder relationships; Business model analysis | Business model options per use case; 2; Count; Cloud extension scenarios; Desktop/web-based packages",
+      "synonyms_found": [
+        "24 companies",
+        "5 business models",
+        "4 stakeholder groups",
+        "5 IaaS providers"
+      ],
+      "source_citation": "Page 6: 'In the CloudSME project MSaaS business models were developed iteratively using the input received from all stakeholders (24 companies)' | Page 6: 'During the discussions, five uses were identified each of which then served as the basis of a business model. These business models are as follows: 1. Specialized one-stop-shop for a specific industry 2. Specialized one-stop-shop for a specific company 3. Cloud extension to a desktop simulation package or a web-based simulation solution 4. Direct execution of the simulation software from the CloudSME AppCenter 5. The business model of the PaaS provider' | Page 5: 'Within the CloudSME project there are four stakeholder groups' | Page 4: 'The CSSP uses multiple IaaS clouds provided by MT A SZT AKI (Hungary), BIFI (Spain), University of Westminster (UK), CloudSigma (Switzerland) and Amazon'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655528",
+      "article_title": "A Study on a Decentralized SaaS Business Model",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Strategy; Total Revenue; Server; Average Revenue; Fixed; 361438; S1-S5; 21726-15154; Poor move; 355285; S1-S5; 23748-11814; Rich move; 315727; S1-S5; 19689-16221; Poor request-rate move; 357261; S1-S5; 23554-11042; Satisfaction Rate; 69.54-100.00; Various strategies; Percentage; 100 cycles",
+      "synonyms_found": [
+        "total revenue",
+        "average revenue",
+        "satisfaction rate",
+        "costs"
+      ],
+      "source_citation": "Page 4, Table I: 'EXPERIMENTAL RESULT' showing revenue data for different strategies | Page 4, Table II: 'EXPERIMENTAL RESULTS FOR VARIOUS INITIAL CONDITIONS' showing satisfaction rates | Page 3, Section IV: 'The simulation runs for 100 requesting cycles (a hypothetical time period)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655555",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Study participants; 32; Interviews; 4 firms; Interview duration; 45-90; Minutes; Per interview; Data collection method; Semi-structured interviews; 6-10; Interviews per firm; Research method; Multiple case study",
+      "synonyms_found": [
+        "32 interviews",
+        "4 firms",
+        "45-90 minutes",
+        "6-10 interviews per firm"
+      ],
+      "source_citation": "Page 1, Abstract: 'Based on 32 interviews with software professionals from four case firms' | Page 3, Section III: 'Altogether, 6–10 interviews per firm were conducted, each lasting 45–90 minutes. Thus, altogether 32 semi-structured open-ended interviews were carried out for this study'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655589",
+      "article_title": "Service-Centric Business Model in Cloud Environment",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Study method; Deductive reasoning; Research approach; Case studies; Number of cases; 3; Companies studied; Webank, Haier, Suning; Industries; Financial, Manufacturing, Retail; Framework validation; Ontological framework; Research period; 2015",
+      "synonyms_found": [
+        "deductive reasoning",
+        "case studies",
+        "3 companies",
+        "Webank",
+        "Haier",
+        "Suning"
+      ],
+      "source_citation": "Page 1, Abstract: 'following a review of existing works and a series of case studies from several typical industries, employs a deductive reasoning method' | Page 7, Section V: 'companies from different industries in china are selected as the cases to be studied. First one is Webank, the internet banking for individuals and small medium enterprise (SME) with the online process of application, Identification, credit assessment, and loan based on cloud. Second is Haier, one of the biggest electronics product manufacturers, is providing specialized one-stop services and commercial manufacturing solutions recently. Last, Suning, which used to be one of the biggest electronics products retailers, has adapted its traditional BM in the cloud.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655614",
+      "article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Survey sample size: 197; Respondents; December 2014; Survey; Netherlands",
+        "Age range: 17-29; Years; Average 20.6; Survey; Netherlands",
+        "Gender distribution: 53%; Male; Survey; Netherlands",
+        "City trips frequency: 2.3; Trips per year; Average; Survey; Netherlands",
+        "App market freemium: 90%; Apps; Current; Market research; Not specified",
+        "Model fit GoF: 0.359; Tenenhaus GoF; Survey; WarpPLS analysis",
+        "Multicollinearity VIF: 1.215; Average block VIF; Survey; WarpPLS analysis"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Página 7: '197 valid responses were received' | Página 7: 'Age varies between 17 and 29, with average 20.6 years old. Gender was balanced with 53% male' | Página 7: 'Respondents make 2.3 city trips per year' | Página 6: 'The app market is dominated by the freemium model as over 90% of all apps are for free' | Página 8: 'Tenenhaus GoF = .359' | Página 8: 'Average block VIF = 1.215'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655631",
+      "article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Market Share; 72.40%; Percentage; Q3-2012; Gartner Research; Gartner press releases | App Downloads; 35 billion; Units; September 2012; App Store; Apple | App Downloads; 25 billion; Units; September 2012; Google Play; Google | Developer Usage; 76%; Percentage; 2012; VisionMobile Survey; VisionMobile | Mobile Advertising Revenue; $3.18 billion; USD; 2012; Gartner Research; Gartner",
+      "synonyms_found": [
+        "metrics",
+        "statistics",
+        "data",
+        "numbers"
+      ],
+      "source_citation": "Page 5: 'By Q1-2011 Android had become the leading operating system in the world market with a 35.99 percent share of all units sold' | Page 8: 'By September 2012 about 700,000 apps were available on Apple's App Store and users had made roughly 35 billion app downloads. But Google Play was catching up — it had 675,000 apps available and 25 billion app downloads' | Page 9: 'Mobile advertising revenues reached $3.18 billion in the U.S. in 2012'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655648",
+      "article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Revenue; US$1.8 billion; USD; 2013; Financial statements; King Digital Entertainment\nPlayer conversion rate; 3%; Percentage; 2013; Financial statements; King Digital Entertainment\nMarketing spend; US$455 million; USD; 2014; Financial statements; King Digital Entertainment\nPlayer acquisition cost; US$0.50-US$12; USD; 2014; Industry interviews; Interviewees\nUser base; 300+ million; Players; 2013; Financial statements; King Digital Entertainment",
+      "synonyms_found": [
+        "metrics",
+        "results",
+        "data"
+      ],
+      "source_citation": "Page 1: 'In a matter of 2 years, the company's revenue grew from US$63 million in 2011 to US$1.8 billion in 2013, and the developer turned a million dollar loss in 2011 into a US$567 million profit in 2013.' | Page 1: 'A mere 3% of its player network of over 300+ million consisted of payers (King Digital Entertainment, 2014a, p. 5).' | Page 8: 'In 2014, King spent US$455 million on marketing and sales.' | Page 8: 'Interviewees noted that over the course of 2014, the price tag for individual players ranged between USD0.50 up to US$12 in competitive Western markets.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655698",
+      "article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Sample size: 711 ranked mobile apps; Data collection period: 2 months; Method: Panel data analysis",
+        "65.1% of paid apps offered free versions; 37.2% of free apps made it to Top Free ranking list",
+        "Prices ranged from $0.99 to $39.95; Average rating: 4.04 (paid), 4.17 (free)",
+        "1,567 paid apps, 1,740 free apps, 704 top-grossing apps in sample"
+      ],
+      "synonyms_found": [
+        "downloads",
+        "ratings",
+        "rankings",
+        "prices"
+      ],
+      "source_citation": "Page 441: 'we collected data from Google Play and focused on its Android apps store' | Page 467: 'Of the 1,567 ranked paid applications, 1,020 (65.1 percent) offered a free version on Google Play' | Page 474: 'prices ranging from $0.99 to $39.95' | Page 635: 'RatingPaid i,t 4.04 0.67 3.71 5' | Page 636: 'RatingFree i,t 4.17 0.52 3.9 4.8'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655702",
+      "article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "63.79% of 918 firms indicated incompatible proprietary solutions as top obstacle; 70% of 235 start-ups consider incompatible solutions as main barrier; 48.28% of start-ups view OS as independence strategy; 91 software start-ups in sample; 41% probability increase for EXTERNALITY variable; 58% probability increase for ADVANTAGE variable",
+      "synonyms_found": [
+        "63.79%",
+        "70%",
+        "48.28%",
+        "91 start-ups",
+        "41%",
+        "58%"
+      ],
+      "source_citation": "Page 6: 'The large majority (63.79 %) of the 918 firms answering the ELISS II survey' | Page 6: 'Above 70 % of them consider the diffusion of incompatible proprietary solutions as the main barrier' | Page 6: '48.28 % if we consider only the sub-sample composed by start-ups, view the offering of OS solutions as a way to be independent' | Page 19: 'The final sample was thus composed of 91 software start-ups' | Page 21: 'produces ceteris paribus a corresponding increase in the probability for a software start-up to fall into that class of +41 %' | Page 21: 'leads to an increase in the same probability of +58 %'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655721",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Market size: 12.1 billion USD by 2014; Growth rate: 26% CAGR; Sample size: 353 SaaS vendors; Geographic distribution: USA 63.2%, Canada 7.1%, UK 6.8%; Company age: <10 years 65%, 11-20 years 30%",
+      "synonyms_found": [
+        "market size",
+        "growth rate",
+        "sample size"
+      ],
+      "source_citation": "Page 1: 'According to a study by Gartner, the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' and Page 4: 'We were eventually left with 353 data points in our final sample'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655747",
+      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Number of interviewed companies; 14; companies; 2012; Semi-structured interviews; Study data",
+        "Number of informants; 16; people; 2012; Semi-structured interviews; Study data",
+        "Number of industries covered; 7; industries; 2012; Semi-structured interviews; Study data"
+      ],
+      "synonyms_found": [
+        "metrics",
+        "quantitative",
+        "results"
+      ],
+      "source_citation": "Page 3: 'The data of customer needs for the study was gathered by conducting semi-structured interviews in 14 logistic-intensive companies all around Finland. Together 16 informants were interviewed and 5 informants answered literally to the interview questions' | Page 3: 'The interviews were conducted in seven different industries'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655750",
+      "article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Tobin's Q; Various values; Ratio; 2003-2009; Statistical analysis; Financial databases | OSS Portfolio; Cumulative count; Products; 1999-2009; 15% discount rate; PROMT database | Software Patents; Cumulative count; Patents; 1999-2009; 15% discount rate; USPTO database | Software Trademarks; Cumulative count; Trademarks; 1999-2009; 15% discount rate; USPTO database",
+      "synonyms_found": [
+        "performance metrics",
+        "quantitative results"
+      ],
+      "source_citation": "Page 8: 'Tobin's q serves as the dependent variable, which offers a forward-looking proxy for firm value' | Page 8: 'I computed the cumulative number of OSS product announcements to proxy for a firm's OSS product portfolio' | Page 9: '490 firm-year (70 firms × 7 years) observations'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655785",
+      "article_title": "The relationship between Open Innovation and Strategy: data-driven analysis of the Mobile Value Services Industry",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Metric: Number of firms interviewed; Value: 15; Unit: firms; Period: 2012; Method: Qualitative interviews; Source: Primary research | Metric: Number of interviews conducted; Value: 45; Unit: interviews; Period: June-December 2012; Method: Face-to-face semi-structured interviews; Source: Primary research | Metric: Number of partners in Ericsson collaboration; Value: 41; Unit: partners; Period: not specified; Method: Case study; Source: Primary research",
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'fifteen firms involved in OI initiatives were selected' | Page 3: 'forty-five face-to-face semi-structured interviews were held' | Page 6: 'very large and ambitious open collaboration with 41 partners'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655819",
+      "article_title": "Open-Source Software Entrepreneurial Business Modelling",
+      "extraction_date": "2024-12-19",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Study participants: 20; Unit: Finnish Startups; Period: 2012; Method: Study involving startups; Source: Proceedings of International Conference on Engineering Education 2012",
+      "synonyms_found": [
+        "20 Finnish Startups"
+      ],
+      "source_citation": "Page 2: 'A Study Involving 20 Finnish Startups. In: Proceedings of the International Conference on Engineering Education 2012'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655845",
+      "article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+      "extraction_date": "2025-01-27",
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "24 PaaS providers investigated; 2 proof of concept studies conducted; 6 feedback loops identified; 5 customer segments identified; 5 classification criteria developed",
+      "synonyms_found": [
+        "24 case studies",
+        "2 proof of concept studies",
+        "6 feedback loops",
+        "5 customer segments"
+      ],
+      "source_citation": "Page 1, Section 1.1: 'we identified the main design elements of PaaS business models as well as their relationships by investigating 24 PaaS providers' and Page 7, Section 7: 'the developed qualitative system dynamics model has been evaluated only in two proof of concept studies' and Page 3, Section 4.1: 'we propose the following criteria: (1) customer segment, (2) core value proposition, (3) governance model, (4) technical scope, and (5) revenue stream'",
+      "confidence_level": "high"
+    }
+  ]
+}

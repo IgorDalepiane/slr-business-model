@@ -1,0 +1,1455 @@
+{
+  "question_metadata": {
+    "question_id": "20",
+    "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+    "total_articles": 67,
+    "articles_with_response": 63,
+    "articles_without_response": 4
+  },
+  "responses_by_article": [
+    {
+      "article_id": "190638760",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Single-versioned software with supplementary delivery and maintenance services, faster consumption of innovation, elimination of version management complexity",
+        "Customer Segment: Small and medium enterprises (most aggressive adopters), large corporations, diverse industries with varied usage patterns",
+        "Revenue Streams: Recurring subscription fees (pay-as-you-go), usage fees, service fees (helpdesk, backup, security, setup/training, configuration/integration)",
+        "Key Resources: Single-versioned multi-tenant software architecture, hosting infrastructure",
+        "Key Activities: Hosting and maintaining software, provision of supplementary services (backup, security), functionality enhancements and service innovations",
+        "Cost Structure: Hosting and maintenance costs, provision of supplementary services, significant variable costs from remote hosting"
+      ],
+      "synonyms_found": [
+        "value",
+        "clients",
+        "revenue",
+        "costs",
+        "services"
+      ],
+      "source_citation": "Page 1: 'By hosting single-versioned software coupled with supplementary delivery and maintenance services, SaaS vendors can effectively differentiate their product offerings from that of traditional on-premise software (TOPS)' | Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated, thereby freeing up resources to focus on functionality enhancements and service innovations' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand' | Page 1-2: 'clients are charged through recurring subscription fees on a pay-as-you-go basis...For SaaS licenses to be sustainable, software vendors would have to take into account not only the costs of hosting and maintaining the software, but also the costs associated with the provision of supplementary services (e.g., backup and security)' | Page 3: 'Cost-based pricing makes sense for SaaS because the remote hosting of software services culminates in significant variable costs for vendors'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638781",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Software delivered via cloud with multi-tenant/multi-instance architecture enabling easy access, flexible pricing, lower initial costs, faster implementation, and cost-effective maintenance compared to traditional licensing",
+        "Customer Segment: B2B organizations including telecom operators, network operators, financial institutions, government organizations, furniture manufacturers/retailers, and game players; ranging from small-medium businesses to large enterprises with varying IT capabilities",
+        "Revenue Streams: Software renting (subscription-based per user per month), traditional perpetual licensing, revenue sharing with partners in value chain",
+        "Key Resources: Cloud infrastructure (public cloud, multi-tenant/multi-instance architecture), software applications, technical features for updates and maintenance",
+        "Key Activities: Software development, hosting and maintenance, implementation and installation, after-sales support, updates delivery to all customers simultaneously",
+        "Key Partnerships: Network operators (for game delivery), content owners (game developers), portals, IT infrastructure providers",
+        "Cost Structure: Production costs (traveling costs for installation, implementation, maintenance, after-sales support), operating costs for service and system capacity, data storage and computing power costs"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customers",
+        "revenue model",
+        "pricing model",
+        "production costs",
+        "partnerships"
+      ],
+      "source_citation": "Page 3: 'by the pure-SaaS model, all the participants in a project gained easy and instant access to the software wherever they were located physically' | Page 3: 'Firm A prefers software renting on the grounds that it brings cost savings by decreasing production costs. These cost savings are related in particular to the traveling costs for installation, implementation, maintenance, and after-sales support' | Page 3-4: 'the final revenue is shared with the partners in the value chain... It is based on revenue sharing between three players, the content owner, a portal, and ourselves' | Page 5: 'The rental model through the public cloud decreased the production costs of case firms... the case firms were able to bring updates that were visible to all their customers immediately'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638871",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Standardized ERP, CRM, HRM, payment systems with need-to-have functionality (external accounting, tax reporting, payroll); cloud-based delivery provides cost efficiency, pay-as-you-go mode, great flexibility and scalability, decreased demand for IT skills",
+        "Customer Segment: Three categories - micro size business (out-of-box standardized products), small and medium size business with less than 1000 employees (customized through partners), bigger SMB requiring intensive consulting",
+        "Channels: Direct sales to micro business; Value-added-Resellers (platinum partners, gold partners, smaller partners/resellers) for small-medium business segment",
+        "Relationship: Partners who develop customized products and services; online product training and helpdesk for micro business; close collaboration with partners; user community for value co-creation",
+        "Revenue Streams: Transition from upfront perpetual license fees to periodic subscription fees; partners receive up to 50% of initial license fees",
+        "Key Resources: In-house product development; standardized products; R&D resources distributed between SaaS and on-premise products",
+        "Key Activities: Product development and maintenance of standardized products; transition management from on-premise to cloud; partner support and ecosystem management",
+        "Key Partnerships: Value-added-Resellers (platinum, gold, and smaller partners); suppliers include ERP Co IT and Microsoft; BPO partners",
+        "Cost Structure: R&D allocation between SaaS and on-premise products; partner compensation for SaaS sales; controlled transition costs"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1, Section 2: 'low/minimal entry costs, pay-as-you-go mode, and great flexibility and scalability' | Page 4, Section 4.2: 'software that supports external accounting, tax reporting, and payroll became the new focus of ERP Co' | Page 5, Section 5.1: 'The customer segments can be further divided into three categories. First, we have micro size business, which out of box standardized products are directly sold to... The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners' | Page 5: 'up to 50% of the initial ERP Co license fees do go to VAR' | Page 5: 'their major providers include ERP Co IT (a company owned by ERP Co) and Microsoft' | Page 2, Section 2: 'instead of relying on upfront license fee, IT vendors are now collecting periodic subscription fee' | Page 7, Section 5.2.2: 'ERP Co is looking to compensate some of the partners (especially the ones that solely rely on ERP Co) for the initial years for the sales of SaaS products (higher percentages of subscription fees will go to the partners, for instance).'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638976",
+      "article_title": "Managing a Software Business",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Pure software product, software-hardware combination, or service; low marginal distribution cost; global scale distribution; network effects; platform/ecosystem offering",
+        "Customer Segment: Enterprises or individuals; specialized product or mass market; broad area or niche focus; market leader or complementary offering",
+        "Channels: Internet and cloud computing enable service delivery; global scale distribution; low marginal distribution cost",
+        "Revenue Streams: Recurring revenue through service component",
+        "Key Resources: Developers as strategic asset with high productivity differences; organization structures that let developers write great software; engineering talent; open source components",
+        "Key Activities: Product/service management balancing features vs. quality attributes (usability, security, maintainability, reliability, efficiency); software development; operations management; constant investment in software to avoid obsolescence",
+        "Key Partnerships: Platform/ecosystem partners that depend on the business; volunteer community for crowdsourcing; outsourcing relationships",
+        "Cost Structure: Low marginal distribution cost; licensing costs; operations investment for service delivery; risk of shrunk revenue and profit margins in transitions; investment in tools and hardware for developers"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Will that be a pure software product, such as Microsoft Windows; a software–hardware combination (consider the iPhone); or a service, such as eBay? Having a service component in your offering lets you secure recurring revenue.' | Page 1: 'You can target enterprises or individuals, you can create a specialized product or appeal to the masses, you can cover a broad area or focus on a niche, and you can lead the market or complement an existing offering.' | Page 1: 'The low marginal distribution cost (the cost of adding another user) means that additional sales can often directly translate into pure profit.' | Page 2: 'offering a platform or an ecosystem in which your business can grow together with others that depend on yours' | Page 2: 'given the big productivity differences among developers, your engineers will likely be a strategic asset rather than just a cog in your operations' machinery' | Page 1: 'It might involve painful redundancies and adjustments for shrunk revenue and profit margins.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653396",
+      "article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Four archetypes - Sustainable Software Solutions (software to optimize resource consumption), Sustainable Product-Service Systems (physical products with digital complements for sustainability), Sustainability Intelligence (data analytics for sustainability assessment and decision-making), Digital Sustainable Platforms (multi-sided markets for circular economy)",
+        "Customer Segment: Companies seeking ecological sustainability, individuals seeking sustainable consumption, investors, restaurants/supermarkets/hotels, municipalities, complementors in circular economy",
+        "Channels: Digital platforms, mobile apps, software platforms, IoT sensors, multi-sided markets",
+        "Revenue Streams: Recurring revenue/subscription (14 cases), One-time sales (9), Commission (6), Freemium/Add-on (8), Advertising (1)",
+        "Key Resources: Digital technologies (software, data analytics, IoT, blockchain, AI, machine learning), sustainability science knowledge, sensor networks, digital platforms",
+        "Key Activities: Data analytics, software optimization, resource optimization, sustainability assessment, marketplace orchestration, value co-creation enablement",
+        "Key Partnerships: Complementors, value network partners, suppliers, customers, municipalities, restaurants/supermarkets/hotels",
+        "Cost Structure: not detailed in article"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 10, Table 2 - Taxonomy: Shows all BM dimensions including value proposition (digital offering, eco-dimension, differentiation strategy), value creation and delivery (role of IT, sustainability patterns, role in value creation), and revenue model | Page 11, Table 3: Definitions of four archetypes with examples | Page 15, Table 4: Shows ecological value, economic value, and digital value for each archetype",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653434",
+      "article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Two types - Bundled freemium (adds value through premium sales with bundled features, new product/service combinations, interrelated reinforcing characteristics) and Fragmented freemium (creates value with free products then adds value with many fragmented upsell products that can be sold separately, modular customization based on customer interests)",
+        "Customer Segment: Free users and paid/premium users; users willing to try free products; users who upgrade based on interests and willingness to pay",
+        "Channels: Apple App Store and digital platforms; free app charts; direct digital distribution",
+        "Relationship: Network effects to increase user base; conversion from free to paid users; advertising relationships; user retention",
+        "Revenue Streams: Premium upgrades from freemium users; subscription revenue from paying subscribers; advertising sponsorship revenue from basic subscribers; separately priced features/services",
+        "Key Resources: User base; free product offering; premium features/modules; digital platform infrastructure; data for analytics",
+        "Key Activities: Enhancing network effects; converting free users to paid users; increasing user retention; business model innovation; value creation and value capture; modular product development",
+        "Key Partnerships: Advertisers (for ad-sponsored revenue); platform providers (Apple App Store)",
+        "Cost Structure: not detailed in article"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3, Section 2.1 describes value proposition and revenue models | Page 7, Table 3 details specific value proposition characteristics for bundled and fragmented models | Page 3 describes customer segments and relationships | Page 5 describes channels through App Store",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653582",
+      "article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Professional design tools with cloud-based collaboration and workflow",
+        "Customer Segment: Creative professionals, enterprises, amateur users",
+        "Channels: Direct sales, resellers, retailers, digital marketing",
+        "Revenue Streams: Subscription-based recurring revenue",
+        "Key Activities: Software development, cloud infrastructure management, customer support",
+        "Key Partnerships: AWS, Azure, complementary software makers",
+        "Cost Structure: R&D, cloud infrastructure, customer acquisition",
+        "Key Resources: Skilled engineers and designers, patents, customer base"
+      ],
+      "synonyms_found": [
+        "business model canvas",
+        "business model elements"
+      ],
+      "source_citation": "Page 5, Key activities: 'Managing cloud infrastructure, data security and privacy issues became the primary activities.' | Page 5, Adobe's strategic assets: 'Adobe's key resources are skilled engineers and designers, sales and marketing staff and customer service staff. Adobe has hundreds of patents filed every year.' | Page 6, Associates: 'Adobe entered into long-term agreements and partnerships with Amazon for AWS and Microsoft for Azure'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190653589",
+      "article_title": "Navigating the paradox of global scaling",
+      "extraction_date": "2025-01-22",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Cloud-based software access with continuous improvements and service excellence",
+        "Customer Segment: Enterprise business customers requiring complex functionality",
+        "Key Activities: Sales, R&D, and support activities distributed globally",
+        "Key Resources: Digital products, technological knowledge, experienced management team",
+        "Revenue Streams: Subscription-based recurring revenue model"
+      ],
+      "synonyms_found": [
+        "business model",
+        "value proposition",
+        "customer segment",
+        "key activities",
+        "revenue streams"
+      ],
+      "source_citation": "Page 5: 'A business model refers to the system of interdependent organizational activities centered on a focal firm that creates and delivers value to its customers. It involves the focal firm's value proposition to customers, the activity system of actors and resources that create and deliver this value, and its revenue and cost structures' | Page 8: 'SaaS firms are knowledge-intensive, with a high degree of proprietary technological knowledge' | Page 8: 'The recurrent revenue model of SaaS firms provides a steady cash flow'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653595",
+      "article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Basic service level free, advanced features paid",
+        "Customer Segment: Mobile app users, particularly game app users",
+        "Revenue Streams: Paid version sales",
+        "Key Activities: App development and freemium strategy implementation"
+      ],
+      "synonyms_found": [
+        "freemium strategy",
+        "app development"
+      ],
+      "source_citation": "Page 72: 'For firms selling digital products, \"freemium,\" providing a basic service level for free but charging consumers for using their \"premium\" version' and Page 359: 'We focus on game apps as it is the most popular category in App Store'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190653734",
+      "article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Free version with restricted functionality and premium version with enhanced features",
+        "Customer Segment: Mobile app users, both free and paying users",
+        "Revenue Streams: In-app purchases, in-app advertising, subscription models, one-time purchases",
+        "Key Activities: App development, monetization strategy implementation, user retention optimization"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue streams",
+        "key activities"
+      ],
+      "source_citation": "Page 3: 'The phrase \"freemium\" refers to two different versions of a product: a free version with restricted functionality and a complete version that costs money but has more features and capabilities' and Page 3: 'implementing one-time purchases and subscription-based models are common practices'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190653772",
+      "article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Cost-effective strategy to enhance transit user experience, account-based mobile fare payment, efficient two-way communications",
+        "Customer Segment: Transit agencies, public transportation passengers",
+        "Key Activities: App development, fare payment processing, real-time information provision, trip planning",
+        "Key Partnerships: Third-party vendors, private sector developers",
+        "Cost Structure: Upfront development costs, ongoing operational costs, vendor management costs"
+      ],
+      "synonyms_found": [
+        "business model elements",
+        "transit app components"
+      ],
+      "source_citation": "Page 1: 'smartphone transit apps have emerged as a cost-effective strategy to enhance the transit user experience' | Page 1: 'enabling account-based mobile fare payment and efficient two-way communications' | Page 4: 'transit agencies often partner with private-sector vendors' | Page 4: 'The upfront and operational costs would be minimal'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653856",
+      "article_title": "Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market valuation?",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653872",
+      "article_title": "Managing Software-as-a-Service: Pricing and operations",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Software applications delivered via Internet with multitenancy, no geographical constraint, ease of monitoring user behavior, analytics and improvements based on user-generated data, scalability and rapid elasticity",
+        "Customer Segment: Businesses and consumers, heterogeneous clients, IT executives, enterprise customers, individual users",
+        "Channels: Internet delivery, platforms, social networks, user devices, direct sales, demos, free trials",
+        "Revenue Streams: Subscription fees, usage-based pricing, two-part tariff, three-part tariff, transaction fees, advertising",
+        "Key Resources: Cloud infrastructure (private, public, hybrid), data centers, computing capacity, user-generated data",
+        "Key Activities: Service delivery, capacity management, quality of service management, security and privacy protection, usage analytics, customer support",
+        "Key Partnerships: Cloud computing providers (AWS, Azure), platform partnerships (Salesforce, SAP), third-party developers",
+        "Cost Structure: Infrastructure costs, service costs, capacity costs, usage costs, variable costs"
+      ],
+      "synonyms_found": [
+        "business model",
+        "pricing",
+        "operations",
+        "customer value proposition",
+        "profit formula"
+      ],
+      "source_citation": "Page 2, lines 110-117: 'Johnson et al. (2008) define a business model as interlocking elements that create and deliver value together: customer value proposition, profit formula, key resources, and key processes' | Page 1-2, lines 64-91: unique features and business characteristics include 'Internet delivery', 'multitenancy', 'variety of pricing options', 'integration with platforms', 'analytics and improvements based on user-generated data', 'scalability, rapid elasticity' | Page 2, lines 118-124 and Figure 2: 'pricing and operations characterize the provider's profit formula (revenue and cost) by utilizing key resources and implementing key processes'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653882",
+      "article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Full-featured software access during free trial",
+        "Customer Segment: Prospective consumers and free-trial users",
+        "Channels: Display ads, email marketing, search ads",
+        "Revenue Streams: Subscription fees",
+        "Key Activities: Software hosting and maintenance",
+        "Cost Structure: Cloud-based hardware and maintenance"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "channels",
+        "revenue streams",
+        "key activities",
+        "cost structure"
+      ],
+      "source_citation": "Page 1: 'providing free access to full-fledged service during a limited time window' | Page 1: 'prospective consumers to explore the service' | Page 2: 'display ads and emails, and organic and paid search clicks' | Page 1: 'customers pay a monthly or annual subscription fee' | Page 5: 'software maintenance and updates are continuously and instantaneously performed on the cloud' | Page 1: 'SaaS vendors offer the software remotely on cloud-based hardware'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190653942",
+      "article_title": "Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Basic features provided free with premium upgrades available",
+        "Customer Segment: Mobile app users, particularly those concerned about privacy",
+        "Channels: iOS App Store marketplace",
+        "Revenue Streams: In-app purchases and premium versions",
+        "Cost Structure: not reported"
+      ],
+      "synonyms_found": [
+        "business model",
+        "revenue model",
+        "monetization approach"
+      ],
+      "source_citation": "Page 11: 'A free product with a premium option (i.e., freemium) allows customers to access basic features of a product or service for free and then charges for upgrades to this basic version' | Page 12: 'menu of upgrades available for in-app purchase' | Page 9: 'customers' privacy concerns'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190653950",
+      "article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+      "extraction_date": "2025-01-22",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Free base product with optional premium features",
+        "Customer Segment: Digital platform users seeking free entertainment",
+        "Revenue Streams: In-app purchases and premium upgrades",
+        "Key Activities: Product development, user engagement, data analytics",
+        "Cost Structure: Development costs, platform fees"
+      ],
+      "synonyms_found": [
+        "business model",
+        "freemium model"
+      ],
+      "source_citation": "Page 4: 'freemium products offer users a menu of paid items in the form of in-app purchases' and 'Firms operating the freemium model must therefore develop distinct capabilities in such areas as user engagement, data analytics, price menu design, and product life cycle management'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190653984",
+      "article_title": "Toward Building Specialized Information Systems as Software Platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: All-in-one solution, reduced costs, ease of use, flexibility, scalability",
+        "Customer Segment: Businesses and organizations with specialized information system needs",
+        "Key Resources: Data layer, semantic layer, presentation layer",
+        "Key Activities: Building ecosystem, enabling third-party development",
+        "Key Partnerships: App developers, external parties"
+      ],
+      "synonyms_found": [
+        "ecosystem",
+        "platform",
+        "developers"
+      ],
+      "source_citation": "Page 1: 'platforms provide an all-in-one solution for businesses' | Page 1: 'platforms are often less expensive than buying and integrating several specialized software applications' | Page 1: 'platforms are designed to be user-friendly and easy to use' | Page 1: 'platforms are flexible and can be customized to meet the specific needs of a business' | Page 1: 'platforms can be easily scaled to accommodate the growing needs of a business' | Page 1: 'The ecosystem is made up of three types of organizations: platform providers, app developers, and users'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653993",
+      "article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: High-performance computation with robust network security",
+        "Customer Segment: Heavy simulation users and tool builders requiring data protection",
+        "Revenue Streams: Multiple licensing models including perpetual, leased, token-based, and pay-for-use",
+        "Key Resources: Integrated software and hardware systems",
+        "Key Activities: Simulation services and consulting",
+        "Cost Structure: Hardware manufacturing and maintenance costs"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue streams",
+        "key resources",
+        "key activities",
+        "cost structure"
+      ],
+      "source_citation": "Page 5: 'The main target is to satisfy existing users who require higher computing performance with robust network security' | Page 5: 'diversify this service with various license types such as perpetual license, leased license, prepaid tokens, or a pay-for-use contract' | Page 5: 'This system is a service-oriented product and involves consulting services'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190654058",
+      "article_title": "MintM: the start-up transforming businesses real-time",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Simultaneous last mile advertising connectivity and customer analysis",
+        "Customer Segment: Brands and retailers in FMCG sector",
+        "Revenue Streams: Pay-per-view model, later changed to per tab/per deployment license",
+        "Key Resources: Proprietary software, lean team, investor support",
+        "Key Activities: Software development, customer analytics, content management",
+        "Cost Structure: Lean operations, minimal infrastructural investment"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue model",
+        "key resources",
+        "key activities",
+        "cost structure"
+      ],
+      "source_citation": "Page 2: 'offering the unique value proposition of simultaneous last mile advertising connectivity and customer analysis' | Page 4: 'target brands and retailers' | Page 8: 'The pricing or revenue model was also unique, where brands were charged on the number of views' | Page 11: 'lean start-up with less than 20 member team' | Page 7: 'proprietary technology offering centralized content management, visual merchandising, and innovative customer analytics'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654085",
+      "article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654186",
+      "article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Professional services and management tools for enterprise software",
+        "Customer Segment: Enterprise customers requiring software integration services",
+        "Revenue Streams: Service revenue from professional services",
+        "Key Activities: Software development, service provision, strategic contributions",
+        "Key Resources: Intimate knowledge of software code, development expertise",
+        "Cost Structure: Production costs shared between originator and contributor"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue streams",
+        "key activities",
+        "key resources",
+        "cost structure"
+      ],
+      "source_citation": "Page 1: 'selling management tools and services that make it easier to run Kafka to enterprise customers' | Page 1: 'enterprise customers (Konrad 2015)' | Page 1: 'revenues stemming from a market for professional services' | Page 1: 'strategic development efforts made by these firms largely codetermine the qualities of the fully integrated software solutions' | Page 1: 'exploit their intimate knowledge of the code to provide higher-quality service' | Page 1: 'the OSS originator and contributor share production costs'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190654465",
+      "article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Integrated journey planning and ticketing across transport modes",
+        "Customer Segment: Travellers and commuters in West Yorkshire",
+        "Revenue Streams: Ticket sales, advertising, ad-free subscriptions",
+        "Key Activities: App development, marketing, ticket fulfillment",
+        "Key Partnerships: Transport operators, local authorities",
+        "Cost Structure: Development costs, marketing costs, operational costs"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue streams",
+        "key activities",
+        "partnerships",
+        "cost structure"
+      ],
+      "source_citation": "Page 1: 'combine different transport modes to seamless trips over one user interface' | Page 2: 'travellers' | Page 6: 'Revenue for app operators and transport operators' | Page 6: 'costs of operating Trav.ly' | Page 6: 'co-operation between rival private bus operators' | Page 6: 'marketing costs and costs of operating Trav.ly'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654531",
+      "article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Different value propositions for different customer segments (fitness features, work-life balance, workflow optimization)",
+        "Customer Segment: Private Users, Professional Users, fitness improver, life improver, business improver",
+        "Channels: Facebook advertisements, specialized online communities, Facebook groups",
+        "Revenue Streams: In-App Advertisements, License Subscription, License Purchase",
+        "Key Activities: Business model adaptation, hypothesis validation through experiments",
+        "Key Resources: Feature model, business domain knowledge, experimentation artifacts",
+        "Key Partnerships: not reported",
+        "Customer Relationship: Customer support mentioned for business improver segment",
+        "Cost Structure: not reported"
+      ],
+      "synonyms_found": [
+        "Business Model Canvas",
+        "BMC",
+        "building blocks"
+      ],
+      "source_citation": "Page 2: 'The BMC divides the business model into the nine building blocks of Customer Segments, Value Propositions, Channels, Customer Relationships, Key Activities, Key Resources, Key Partners, Revenue Streams, and Cost Structure' | Page 6: 'we focused on different customer segments of private users for which we proposed different value propositions' | Page 6: 'customer support as relationship and workflow tracking as value offering for business improver'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654542",
+      "article_title": "E-business evolution: an analysis of mobile applications' business models",
+      "extraction_date": "2025-10-06",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Value creation through efficiency, complementarity, lock-in, and novelty in mobile apps; value capture through various monetization mechanisms (ads, in-app purchases, subscriptions, etc.)",
+        "Customer Segment: Mobile app users who download and use apps from Google Play Store",
+        "Channels: Google Play Store marketplace for distribution",
+        "Revenue Streams: Advertising, in-app purchases, pay per download, freemium, subscription, agreements with third parties, free as a service",
+        "Key Resources: App design, developer capabilities, content quality, technological infrastructure",
+        "Key Activities: App development, content creation, user feedback integration, monetization optimization",
+        "Key Partnerships: App platforms (Google Play Store), third-party content providers, advertisers",
+        "Cost Structure: not reported in detail"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'the creation of value in virtual markets is based on: efficiency –meaning the fast transmission of data on the Internet in order to reduce interconnection and negotiation; complementarity –meaning the capacity to propose products/services that are vertically or horizontally connected; lock-in –meaning the wish of customers or business partners to repeat transactions with the same firm because of the irreplaceable overall value; novelty –meaning the creation of new value' | Page 3-4: 'the following have been identified: (i) advertising model, (ii) freemium model, (iii) promotion model (or 'teaser'), (iv) subscription' | Page 7: 'three new mechanisms emerged: (i) in-app purchase, (ii) free as a service, and (iii) agreements with third parties' | Page 10: 'app design, developer behaviour and design of app monetisation' are identified as key features",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654598",
+      "article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+      "extraction_date": "2025-10-06",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Efficiency and transparency in supporting and distributing software services, maximizing efficiency in IT resource operation management, guaranteeing expandability, stability, and security",
+        "Customer Segment: CSP customers globally, software developers, private companies, individuals, public institutions",
+        "Channels: Cloud marketplace, console screens of CSPs, online distribution",
+        "Revenue Streams: Usage-based charges, subscription fees, license fees, marketplace registration fees with discount rates",
+        "Key Resources: Cloud infrastructure, virtualized computing resources, marketplace platform",
+        "Key Activities: Software registration, distribution, technical support, billing management",
+        "Key Partnerships: Software developers, independent software vendors, CSPs, partner ecosystem",
+        "Cost Structure: Infrastructure costs reduced (no on-premise hardware/software/facility costs), support personnel costs, CSP commission (up to 30% discount rate)"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Cloud service maximizes efficiency in information technology resource operation management... Various cloud-based software registered in the marketplace provide an improved user interface and guarantee expandability, stability, and security based on the benefits of cloud technology.' | Page 4: 'KT provides the product by applying a discount rate of less than 30 percent via separate consultations.' | Page 9: 'On-premise form hardware, software, facility costs, support personnel, and essential elements of the existing package/license-based approach are not required, which can reduce the cost of input and time.'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190654601",
+      "article_title": "Software as a service: Lessons from the video game industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: The game itself, new content with updates and DLCs, bug fixes, feedback and communication mechanism between gamers and development teams",
+        "Customer Segment: Gamers who play GaaS-based games",
+        "Channels: Digital stores such as Origin (main distribution channels), physical stores (still play a part)",
+        "Relationship: Developing players' engagement through updates that take gamers' opinions into account, digital personal assistant, FAQ database, developing communities for feedback and building loyalty",
+        "Revenue Streams: Microtransactions, advergaming, subscriptions, season passes, loot boxes",
+        "Key Resources: Physical (production studios, computer game stores), intellectual (CRM, production software), human (skilled development team), financial (resources to create, design, and distribute)",
+        "Key Activities: Efficient software development, effective production (including design and marketing), suitable IT infrastructure (platforms for updates)",
+        "Key Partnerships: Publishers, development teams, game distributors, software producers, strong and sometimes exclusive partnerships",
+        "Cost Structure: New entrants, existing competitors, higher expectations by gamers, substitute business models or activities, suppliers can all lead to additional and unexpected costs"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3-4: 'Exhibit 1 presents a generic business model for GaaS using the nine building blocks of the business model canvas' followed by detailed descriptions: 'the main value proposition is the game itself, but in addition, GaaS offers new content that comes with updates and DLCs. GaaS also allows bugs to be fixed and provides a mechanism for feedback and communication between gamers and the development teams' | 'The customer segments represent all the customers for whom the GaaS creates value. In this case, the customers are gamers' | 'Distribution channels show the GaaS channels that deliver value to gamers. Digital stores, such as Origin, represent the main distribution channels' | Complete descriptions for all nine canvas elements are provided in pages 3-4",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654605",
+      "article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+      "extraction_date": "2025-10-06",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Nuanced and customisable value propositions enabled by on-demand self-service, measured service, and scalability characteristics; virtualised products with enhanced functionality, speed, and size efficiency",
+        "Customer Segment: Individual customers, small and medium enterprises, large enterprise customers across diverse industry segments including medical, pharmaceutical, biotechnology",
+        "Channels: Direct provision via indigenous websites and digital ecosystem portals, virtual value networks, partnering programs with resellers and integrators",
+        "Revenue Streams: Subscription-based pricing, trial and purchase options via credit card, purchasing order, or finance methods",
+        "Key Resources: Centralised data centres, OpenStack platforms, CPU cycles, technical architecture and automation capabilities",
+        "Key Activities: Fast software development, deployment and maintenance; centralised provisioning operations; customer support through self-service facilities",
+        "Key Partnerships: Service providers, independent developers, resellers, integrators, telecommunications companies, business partners along value network",
+        "Cost Structure: Reduced operating costs through centralisation; economies of scale from managing multiple customers in single data centres; reduced customer acquisition and administrative costs"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'The five essential characteristics (e.g. on demand self-service, measured service etc.) which underpin the SaaS model enables the case organisations to deliver nuanced and customisable value propositions to the customer' | Page 10: 'Individual customers and small and medium enterprises represent new market segments' | Page 13: 'SaaS enabled the case organisations to significantly reduce their operating costs in comparison to the traditional mode of operation'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654664",
+      "article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Value Proposition: INT - personalization of offer meeting special needs, competitive TCO; VAR - competing with industry standard solutions, personalizing offers. Customer Segment: INT - competing on value added in strategic segments, specialization in customer categories; VAR - competing with industry standard solutions, focus on license sales with added value. Channels: INT - direct/relational sales; VAR - direct sales, using key suppliers' distribution channels. Relationship: INT - building relationships based on high added value, co-creating solutions; VAR - building relationships based on best industry practices. Revenue Streams: Project revenues, service revenues, license resale revenues. Key Resources: INT - specialized competences, reputation, industry references, professional certificates; VAR - having solution recognized as industry standard, industry references, specialized competences, long-term customer contracts. Key Activities: INT - creating customer needs, providing high-quality services, project portfolio planning; VAR - developing own industry standards, standardization of implementation processes, product competence development. Key Partnerships: INT - keeping strong position with suppliers, long-term relationships with partners, building partner networks; VAR - keeping strong position with key suppliers, building solutions in cooperation with partners. Cost Structure: INT - investing in human resource development, project management efficiency; VAR - increased expenditure on human resource development, competence development",
+      "synonyms_found": [],
+      "source_citation": "Page 4-5, Table 1, Wartini-Twardowska (2014): 'Classification of generic business models due to the structure of the value of characteristic variables and interactions for key components: market segments; value proposition; relationships; distribution channels; revenue streams; key resources, key processes; partners; cost structure' | Page 11, Fig. 3 and Page 12, Fig. 4: detailed variables for both models organized by components (labeled with letters a-h representing different canvas elements)",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654709",
+      "article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Building emotional connection with clients, data-driven marketing decisions, customization, safety, health awareness",
+        "Customer Segment: B2B (healthcare, automotive, retail), B2C (entertainment), B2G (government)",
+        "Channels: Website, social networks, blogs, conferences, sales team, press, webinars, podcasts",
+        "Customer Relationship: Free demo, free trial period, customization, community, customer support",
+        "Revenue Streams: Software-as-a-Service, technology licensing, Emotion-as-a-Service API, product sales",
+        "Key Resources: Datasets, proprietary technology, human resources, intellectual property, equipment",
+        "Key Activities: R&D, software development, marketing & sales, customer support, hardware manufacturing",
+        "Key Partnerships: Investors, universities & research institutes, data providers, community, leading IT companies",
+        "Cost Structure: R&D, human resources, software development, IT infrastructure, sales & marketing"
+      ],
+      "synonyms_found": [
+        "business model canvas",
+        "building blocks",
+        "nine business model building blocks"
+      ],
+      "source_citation": "Page 5: Complete Business Model Canvas figure showing all nine blocks with detailed elements for each",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654717",
+      "article_title": "Economics of open source library software: evidences from Indian libraries",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Low cost, vendor lock-in avoidance, experimentation freedom",
+        "Customer Segment: Academic libraries, educational institutions",
+        "Revenue Streams: Service-based revenue from support, training, implementation",
+        "Key Activities: Software development, community building, service provision",
+        "Cost Structure: Community-based development reduces development costs"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue streams",
+        "key activities",
+        "cost structure"
+      ],
+      "source_citation": "Page 11: 'The most important intangible benefit of the open source library software is that it is tested and evaluated whether they meet the requirements like that of PS' | Page 12: 'The total cost of ownership (TCO) of open source library software, for example, in case of ILS software Koha or Evergreen will be quite lower than their proprietary counterpart' | Page 13: 'Earnings from service are the main source of revenue for these types of companies'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190654720",
+      "article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition (License-based): extending management platforms with predictive, QoS-aware management capabilities to bring new customers and additional profits",
+        "Value Proposition (Freemium): facilitating QoS-aware management of Fog applications for Application Operators",
+        "Customer Segment (License-based): Asset Manufacturers",
+        "Customer Segment (Freemium): Application Operators split into free and subscribing customers, plus Infrastructure Providers",
+        "Channels (both models): B2B sales division, Web site, targeted marketing campaigns",
+        "Customer Relationships (both models): Marketing for establishment/maintenance, usable API for autonomous access, on-demand support service (premium for Freemium paying customers only)",
+        "Revenue Streams (License-based): yearly license fees",
+        "Revenue Streams (Freemium): subscription from paying customers, customised advertisements from Infrastructure Providers",
+        "Key Resources (both models): reliable state-of-art predictive methodologies continuously improved and extended",
+        "Key Activities (both models): research and development of new prototype and production functionalities, marketing and sales, customer support service",
+        "Key Partnerships (Freemium): Infrastructure Providers as fundamental strategic alliance to run monitoring service and feed data to prediction engine",
+        "Cost Structure (both models): personnel costs, Web marketing costs, utility computing resources to run service and obtain predictions"
+      ],
+      "synonyms_found": [
+        "Value Proposition",
+        "Customer Segment",
+        "Channels",
+        "Customer Relationships",
+        "Revenue Streams",
+        "Key resources",
+        "Key activities",
+        "Key Partners",
+        "Cost Structure"
+      ],
+      "source_citation": "Page 6, Section III-A: 'They are expected to consider extending their management platforms with predictive, QoS-aware management capabilities, and they might consider it beneficial to save the effort and the costs involved in designing and implementing those new features' (Value Proposition) | 'Asset Manufacturers should pay yearly license fees (Revenue Streams) to access the predictive application management service and to include it in their ecosystems (Value Proposition)' | 'Asset Manufacturers represent the main Customer Segment of this scenario' | 'The predictive management service provider should then contact them through a B2B sales division and through an appealing Web site and targeted marketing campaigns (Channels)' | 'Marketing is crucial to establish and maintain the relationship with the Asset Manufacturers, along with a usable API to access the service autonomously after paying license fees, and the possibility to get on-demand support in case of problems with the running service (Customer Relationships)' | 'A set of reliable state-of-art predictive methodologies, continuously improved and extended, is key to successfully offer and deliver a competitive service (Key resources)' | 'The business we foresee should rely on skilled and expert personnel taking care of research and development of new prototype and production functionalities, marketing and sales, and customer support service (Key activities)' | 'the license fee should be carefully designed so to cover personnel and Web marketing costs, along with the utility computing resources to be purchased to actually run the service and obtain output predictions (Cost Structure)' | Page 6, Section III-B: 'directly targeting Application Operators as Customer Segment, aiming at facilitating their QoS-aware management of Fog applications' | 'We, therefore, split Application Operators into two segments, i.e. free and subscribing customers' | 'Infrastructure Providers are listed among the Key Partners. Obviously, their partnership represents a fundamental strategic alliance with non-competitors as they have to run a monitoring service on top of their infrastructures to feed data to the prediction engine' | 'they will be willing to pay and exploit the predictive management services portal, to also get customised advertisements. This further increases the Revenue Streams'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654834",
+      "article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: App-based on-demand transportation, easy booking and access, cashless payment, reduced car ownership, convenience, flexible and low cost rides, real-time information",
+        "Customer Segment: Private customers, business clients, public authorities, commuters, long-distance travellers, leisure users, students, tourists",
+        "Channels: Mobile applications, websites, MaaS platforms, email and social media marketing, parking areas, charging stations, meeting places",
+        "Relationship: Self-service interface, customer support, personal assistance, reputation system based on ratings, loyalty programs, human interaction with drivers",
+        "Revenue Streams: Pay-per-use, subscription fees, commission per trip (17-25%), dynamic pricing, membership fees, government subsidies, advertising",
+        "Key Resources: Vehicles, software (applications and technological platform), smartphones, digital payment, skilled drivers, charging infrastructure, parking spaces, insurance, capital, data",
+        "Key Activities: Platform development and optimization, fleet management, reservations and payments management, marketing, community management, customer support, big data analysis, driver recruitment",
+        "Key Partnerships: Local governments, public transit operators, ICT platform providers, payment operators, investors, insurance companies, car manufacturers, parking providers, promotion partners, fuel/charging distributors",
+        "Cost Structure: Personnel costs, software and hardware maintenance, R&D, infrastructure, vehicles and insurance, marketing, parking costs, fleet maintenance (fueling/charging, cleaning, repairs)"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 4: 'We investigated the common features and differences of the different types of app-based car mobility services by analysing their business models by means of the BMC methodology' | Pages 5-11 contain detailed analysis of all nine BMC building blocks with specific descriptions for each element",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654956",
+      "article_title": "Open source ERP business model framework",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Lower costs, increased adaptability through access to source code, decreased reliance on single supplier, avoidance of vendor lock-in, flexibility, transparency, greater functionality and reliability",
+        "Customer Segment: Small-to-medium sized enterprises (SMEs), small businesses, entrepreneurs, local governments, firms in developing countries, large organizations (for proprietary ERP)",
+        "Revenue Streams: Service fees (implementation, support, maintenance, training), subscription models, dual licensing, complementary products/extensions",
+        "Key Resources: Source code, community of developers, partners, technical staff, open source platforms (SourceForge), commodity hardware",
+        "Key Activities: Software development (community or sponsored), code distribution, implementation services, support and maintenance, training, customization, filtering and screening contributions",
+        "Key Partnerships: Partners network (100+ partners in 25 countries for Compiere), distributors, consultants, community developers, large tech companies (IBM, Red Hat)",
+        "Cost Structure: Development costs reduced through community participation, implementation costs, maintenance expenses, training costs, internal IT staff costs",
+        "Channels: SourceForge.net and OSS platforms, Web-based delivery, direct downloads, partner networks, Internet distribution"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 4: 'The benefits of applying OSS are as follows: (1) Increased adaptability: Since ERP is not plug and play [...] (2) Decreased reliance on a single supplier [...] (3) Reduced costs: Proprietary ERP licenses are expensive. OSS ERPs' average implementation costs are at between one-sixth and one-third of the costs for typical proprietary ERPs' | Page 4: 'All methods involve development cost reduction through use of open source communities, and generation of revenues through indirect sales' | Page 6: 'Compiere recorded more than 1.2 million downloads of its software and has more than 100 partners in 25 countries. They do not sell software but sell services'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655012",
+      "article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Free basic version to reduce customer uncertainty and utilize network effects; paid premium version for full functionality; convenience and low/zero upfront cost",
+        "Customer Segment: Online software users, potential buyers distributed heterogeneously, customers with varying willingness to pay, users of e-commerce, instant messaging, games, mobile apps",
+        "Revenue Streams: Premium version sales, pricing based on content amount, transaction-based revenues for virtual goods/services",
+        "Key Resources: Software product (divisible into free and premium content), network of users generating network effects, technological platform",
+        "Key Activities: Product division into free and premium versions, optimal pricing decisions, optimal free content determination, managing network effects, reducing customer uncertainty",
+        "Cost Structure: Fixed cost C to divide the product into free and premium versions, marginal cost (potentially negligible), customer fixed cost for using software",
+        "Channels: Web portals, online marketplaces (Google Play, App Store), online platforms"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'provide both a free basic version and a paid premium version [...] reduce the customer uncertainty [...] make use of network effect to improve the firm's profit' | Page 7: 'when the firm uses the freemium model then it needs a fixed cost C to divide the product' | Page 5: 'The firm will charge a price p for the remain amount 1−x of the content' | Page 1-2: Examples include Alibaba, Tencent QQ serving large customer bases",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655172",
+      "article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Value Proposition: Novel ways of conducting economic exchanges, transaction efficiency, lock-in through switching costs, complementarities in activities | Customer Segment: Consumer IoT App users, startups | Channels: App Stores and mobile platforms | Key Resources: R&D capabilities, venture capital investments, technological innovation | Key Activities: App development, data analytics, transaction facilitation | Key Partnerships: Venture capitalists, third-party data providers, complementary service providers | Cost Structure: R&D expenditure, advertising expenditure, development costs",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'novelty-centred business model referring to novel ways of conducting economic exchanges' | Page 6: 'the firm's expenditure on R&D and advertising' | Page 4: 'By integrating APIs from a third-party data provider, App developers are able to provide a bundle of various services' | Page 2: 'venture capitalists tend to actively involve themselves in the ventures they fund'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655181",
+      "article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Value Proposition: Combining internal and external innovations, connecting suppliers and customers, facilitating transactions | Customer Segment: App developers, hotels, end users/consumers | Channels: App stores, online booking platforms, direct platform access | Relationship: Open/closed supplier relationships, open/closed customer relationships, commission-based | Revenue Streams: Transaction fees, commission on sales, verified transactions | Key Resources: Platform technology, supplier base, user base, technological capability, user trust | Key Activities: Platform management, quality control, transaction facilitation, innovation support | Key Partnerships: Suppliers (developers/hotels), complementary firms, regional clusters | Cost Structure: Platform investment, system quality maintenance, technology development",
+      "synonyms_found": [],
+      "source_citation": "Page 6: 'Platform firms generally have a supplier platform, a customer platform, and industrial characteristics' | Page 9: 'The decision part includes...OI/CI decision, OBM/HBM/CBM decision, openness to suppliers and openness to customer. The supplier part includes...amounts of supplier, percentage of verified supplier, amounts of app and service and quality. The user part only includes the number of users. The revenue part has revenue collectability, amounts of total transaction, amounts of verified transaction and sales of platform. The platform part has system quality of platform, investment into platform and overall value of platform.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655186",
+      "article_title": "Developing enterprise social software in China: insights from Mingdao",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Value Proposition: Enterprise social collaboration platform for internal communication, knowledge management, project management, and team collaboration | Customer Segment: SMEs with 50-200 people, individual departments of large enterprises, knowledge-intensive companies | Channels: Direct sales teams in 13 cities, web platform access, mobile apps, free trial, word-of-mouth referrals, Mingdao Forums | Relationship: Freemium model with 30-day trial, tiered accounts (free basic and paid advanced), customer support, annual renewals | Revenue Streams: Subscription fees (5 RMB/person/month or RMB3,600/year for advanced), private cloud licensing (US$20,000+/year), potential third-party developer fees | Key Resources: R&D team with expertise in enterprise software, platform technology, API infrastructure, knowledge base, customer base | Key Activities: Platform development, customer onboarding, training and support, ecosystem management, sales and marketing | Key Partnerships: Third-party developers, MeiHua Information (parent company), angel investors, enterprise customers | Cost Structure: R&D and platform development, sales team operations, customer service, infrastructure and hosting, marketing events",
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'Mingdao will be an enterprise social collaboration platform...to achieve internal management communication, project management, team collaboration, and knowledge management' | Page 9: 'suitable for any team of 50-200 people' | Page 10: 'Our sales teams...have been established in 13 cities' | Page 10: 'free [freemium] is the best way' | Page 3: 'The Mingdao R&D team developed more than a dozen product categories. This team has expertise and experience in the enterprise software product design architecture'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655190",
+      "article_title": "Open source - Is it an alternative to intellectual property?",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Open access to source code, freedom to use/modify/share, community-driven improvements, reduced R&D costs, better quality through peer review",
+        "Customer Segment: End users (programmers, developers), companies needing professional services, community contributors at different hierarchy levels",
+        "Channels: Community platforms, online repositories, distributed production networks",
+        "Customer Relationships: Community-based governance, meritocracy hierarchy, peer review systems, reputation building",
+        "Revenue Streams: Professional services (reciprocal model), licensing fees (academic/dual models), support/maintenance/customization/consulting/training",
+        "Key Resources: Community of volunteer contributors, source code repository, peer review system, governance structure, brand/reputation",
+        "Key Activities: Managing submissions, peer review facilitation, compilation/release management, community governance, professional service delivery",
+        "Key Partnerships: Community contributors, developers at different levels, external entities for product development",
+        "Cost Structure: R&D significantly reduced through community contributions, personnel for community management, infrastructure for repositories"
+      ],
+      "synonyms_found": [
+        "value",
+        "community",
+        "contributors",
+        "revenue",
+        "services",
+        "governance",
+        "peer review"
+      ],
+      "source_citation": "Page 2: 'open source's goals...to use property as an institution to build an environment with lesser restrictions on access and use' | Page 5-6: 'community of unpaid volunteers contributes creations to a community leader, the intermediary...facilitates the inspection and compilation of individual contributions and then releases the collective creation as an improved version' | Page 10: 'revenue mainly comes from professional services like maintenance, support customization, consulting and training' | Page 8: 'Governance in open source has to do with how decisions are made about the workings of the community...hierarchy of developers centered on the concept of meritocracy' | Page 10: 'The open source model offers companies the possibility of conducting research and development with community support, thereby significantly reducing their expenditures' | Page 8: 'the peer-review process is a structured approach of generating criticism of existing versions, evaluating those criticisms and eliminating \"errors\"' | Endnote 31, Page 17: 'The distributed production process happening in open source communities offers the possibility of significantly reducing R&D expenses'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655198",
+      "article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Enable exchange of patient data across organizational boundaries, reduce friction of paper-based data exchange, support seamless flow of care services, improve continuity of care",
+        "Customer Segment: Healthcare organizations (primary care, secondary care, private clinics), healthcare professionals (doctors, nurses, caregivers)",
+        "Revenue Streams: Subscription model with fixed monthly fee per user/organization",
+        "Key Resources: Platform technology (APIs, user interface, data storage)",
+        "Cost Structure: Platform development and maintenance costs, operational costs that need to be covered by monthly fees"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 4: 'Their purpose is to enable exchange of patient data across organizational boundaries in order to support seamless flow of care services needed by the patient and to improve continuity of care' | Page 4: 'The producers and consumers of patient data are organizational actors and their employees' | Page 5: 'The chosen option was a subscription model based on a fixed monthly fee' | Page 4: 'RHIS provides APIs to organizational systems' and 'RHIS offers a user interface' | Page 6: 'the RHIS provider should be able to increase its money flow to cover the investment'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655206",
+      "article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: E-invoicing connectivity services and invoice process automation services that enable companies to produce sales invoices in electronic format and circulate purchase invoices electronically, leading to cost savings, environmental benefits, security improvements, and service quality enhancements",
+        "Customer Segment: Trading partners (buyers and suppliers) in B2B relationships, with focus on SMEs and large corporations needing e-invoicing solutions",
+        "Revenue Streams: Transaction fees per e-invoice charged to both suppliers and buyers, plus setup fees from customers",
+        "Key Resources: E-invoicing technology, XML expertise, network of over 200,000 active trading partners, established infrastructure",
+        "Key Activities: E-invoice transfer process management, translating invoice data between formats, guaranteeing legal requirements and data integrity, connectivity services provision",
+        "Key Partnerships: Interchange agreements with other service providers for four-corner model interoperability, involvement in EESPA (European E-Invoicing Service Providers Association)"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "connectivity services",
+        "trading partners",
+        "transaction fee",
+        "e-invoicing technology",
+        "interchange agreements"
+      ],
+      "source_citation": "Page 2: 'Tieto's Value Networks unit offers its customer companies e-invoicing connectivity services and invoice process automation services' | Page 7-8: 'Tieto has established a network of over 200,000 active trading partners as it has operated in the market already for two decades' | Page 7: 'The service provider charges its customer companies (both suppliers and buyers) a transaction fee for each e-invoice' | Page 5: 'In the four-corner model, an e-invoicing service provider makes contractual interoperability agreements with other service providers' | Page 2: 'the core of Tieto lies in its excellent e-invoicing technology'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655218",
+      "article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Service offerings that facilitate digital exchange and integration of health data across healthcare entities to reduce costs, improve outcomes, and enable better coordination in healthcare delivery",
+        "Customer Segment: Healthcare providers including physicians, hospitals, health systems, pharmacies, laboratories, physician offices, skilled nursing facilities, federally qualified health centers, behavioral health providers, and long-term care providers",
+        "Revenue Streams: Transaction fees per unit of data exchanged, subscription fees (per-member per-month), membership dues, premium services fees with differential pricing, hybrid revenue models combining transaction and subscription approaches",
+        "Key Resources: IT technology platforms, clinical repositories, health information exchange infrastructure, data integration capabilities, meaningful-use compliance expertise",
+        "Key Activities: Digital exchange of health data, EHR connectivity, exchange of health summaries, e-prescribing, alerts to healthcare professionals, clinical decision systems, data analytics and reporting",
+        "Key Partnerships: Collaborations with healthcare providers, health plans, accountable care organizations, hospital stakeholders, community providers, state governments (public-private partnerships)",
+        "Cost Structure: System development and maintenance costs, operational costs covered by fee-for-service models, infrastructure costs, stakeholder engagement costs"
+      ],
+      "synonyms_found": [
+        "service offerings",
+        "revenue model",
+        "customer value proposition",
+        "business model components"
+      ],
+      "source_citation": "Page 2: 'The two business elements considered in this study are (1) a service offering that helps a firm's customers perform a task to fulfill a need and (2) a revenue model that is the blueprint for how a firm creates revenue for itself while providing value to customers.' | Page 4: 'We consider five service offerings that are central to HIEs' mission... (1) connectivity to EHRs... (2) exchange of health summaries for continuity of care... (3) electronic prescribing (e-prescribing) function... (4) alerts to healthcare professionals... and (5) clinical decision systems' | Page 10: 'had a strong collaboration with health plans and accountable care organizations to help them realize the value potential of participating in the HIE' | Page 10-11: Various revenue model descriptions",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655219",
+      "article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Time and place independent service access, reduced queuing, mobility, convenience, fast ticketing avoiding queues to vending machines, combined mobility solutions",
+        "Customer Segment: Public transport passengers (all types including non-regular users, commuters, smartphone users)",
+        "Channels: Mobile apps (Android, iPhone), SMS services",
+        "Key Partnerships: SMS aggregators, ticket providers, mobile network operators, payment processors, banks, providers of ticketing solutions, technology solution providers",
+        "Revenue Streams: Transaction fees, premium SMS payments, subscription billing",
+        "Cost Structure: Service fees (15-30% for mobile operators), payment service provider fees, technical solution provider fees, infrastructure costs (optical readers), high transaction costs, credit card fraud costs"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'For mobile ticketing services, mobility \"includes time and place independent service access, reduced queuing, and substituting for other services\"' | Page 7: 'For customers, mobile ticketing means a fast and convenient way to get a ticket anytime avoiding queues to ticket vending machines' | Page 1: 'targeted non-regular public transport passengers' and 'all types of passengers' | Page 3: 'two types of actors are needed: SMS aggregators and ticket providers (e.g. Plusdial, UnWire, Mobill, and IPX in different regions of Sweden, and UnWire in Copenhagen) that provide technology solution, and mobile network operators that act as payment processors' | Page 5: 'The mobile operators' service fee is considered as quite high (about 15–30%)' | Page 6: 'the major sources of costs for in app ticketing are: (i) higher percentage of commissions; and (ii) service fees set by payment service providers and/or technical solution providers'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655247",
+      "article_title": "The effect of free sampling strategies on freemium conversion rates",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Free basic version with advanced features, functionality or less disturbance (advertising) in premium version; digital services that address experience-good characteristics through free trials",
+        "Customer Segment: Individual consumers/users of digital services, with distinction between free users (95-97%) and premium users (3-5%)",
+        "Revenue Streams: Premium subscription fees from 3-5% of users, advertising revenues from free users",
+        "Channels: App stores, online platforms, social sharing and referral mechanisms, viral marketing",
+        "Customer Relationship: Freemium model with free trials (Freefirst or Premiumfirst strategies) to convert free users to premium subscribers",
+        "Cost Structure: Marginal costs of maintaining free users (near zero for social networks/games, costly for music services with royalties and cloud storage)"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "user base",
+        "revenue streams",
+        "costs",
+        "conversion"
+      ],
+      "source_citation": "Page 1: 'Freemium describes business models where firms offer a service or a product for free, but a fee is charged for a premium version that entails advanced features, functionality or less disturbance (i.e., advertising)' | Page 1: 'Premium users typically account for 3–5 % of total users' | Page 2: 'payments from premium users often in combination with advertising revenues through free users' | Page 2: 'the marginal cost of free users in social networks or online games is almost zero, it is often very costly to maintain them in other contexts such as in the case of music services, where royalties have to be paid or in cloud storage services where storage has to be held' | Page 2: 'social sharing incentives like paying users for every new user that they bring, free users become an effective lever for rapidly growing a company's user base'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655350",
+      "article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Free digital services to consumers, data-driven insights and targeted advertising to businesses, anonymized aggregated data for research/civic purposes",
+        "Customer Segment: Two sides - (1) Individual consumers/app users and (2) Advertisers/data buyers/third parties",
+        "Revenue Streams: Advertising (traditional and enhanced), premium offerings, in-app sales, data trading/selling to third parties",
+        "Key Resources: Big data (volume, velocity, variety, value, veracity), user-generated data streams, embedded smartphone sensors, analytics capabilities",
+        "Key Activities: Data collection from sensors and user input, data aggregation and anonymization, data analysis, targeted advertising delivery, data trading",
+        "Key Partnerships: App store platforms (Google Play, Apple App Store), advertisers, data buyers (e.g., departments of transportation), sensor/device manufacturers",
+        "Cost Structure: Platform development and maintenance, data management infrastructure, analytics tools"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'companies to offer those services for free' and 'users become data providers' | Page 3: 'two-sided markets... two or more distinct groups of clients' | Page 5: 'premium offerings, in-app sales' and 'advertising to generate revenue' | Page 4: 'Big data is data characterized by five features, the \"five Vs\"—volume, velocity, and variety... as well as value and veracity' | Page 5: 'apps that collects a wide range of data, from user-entered information to data gathered from sensors' | Page 7: 'selling user data to a third party' | Page 8: 'data would be shared only in anonymized and aggregated forms'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655362",
+      "article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Free access to services with option to purchase virtual credits for additional in-app features such as extra resources for constructing cities or armies more quickly (gaming), or ability to send messages to other users (dating)",
+        "Customer Segment: Users of online games and dating platforms, with 3.3-6.1% becoming paying customers, focusing on identifying high-value customers and heavy users early",
+        "Revenue Streams: Sale of virtual credits/currency through in-app purchases, with small portion of user base generating large share of revenue (top 1% contributing 53.6-84.6% of total revenue)",
+        "Key Activities: Customer lifetime value prediction, customer relationship management, user acquisition, retention measures for high-value customers",
+        "Cost Structure: Fixed overhead costs such as development, server maintenance, and personnel (marginal costs of reproducing and distributing services over Internet are minimal)"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'They feature a shop where users can buy credits that provide them with access to additional in-app features compared to non-paying users, such as extra resources for constructing cities or armies more quickly (gaming), or the ability to send messages to other users (dating)' | Page 1: 'a large share of overall revenue derives from a small portion of the user base' | Page 4: 'the top 1% of users contribute up to 84.6% (data set 1), 60.5% (data 2), and 53.6% (data set 3) of total revenue' | Page 3: 'For digital businesses, fixed overhead costs such as development, server maintenance, and personnel are more relevant than the marginal costs of reproducing and distributing services over the Internet'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655382",
+      "article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: On-demand access to ERP functionalities through internet without need for own IT infrastructure, shifting from capital to operational expenditures, scalable and rapidly implementable services, integrated on-premise and on-demand solutions",
+        "Customer Segment: Initially low-end customers and SMEs over-served by existing ERP, then lines of business with standardised processes, later larger enterprises demanding private/hybrid cloud solutions",
+        "Channels: Internet as direct distribution channel, downloadable trial versions, reduced role of indirect distribution networks and implementation partners",
+        "Revenue Streams: Pay-per-use pricing replacing one-time license fees and annual maintenance contracts, continuous but less predictable cash flows",
+        "Key Resources: Web technologies (Ajax, HTML5), capacity management capabilities, multi-tenant architecture, agile software development competencies",
+        "Key Activities: Continuous software development and updates (shorter release cycles), managing entire software lifecycle including deployment and maintenance, capacity management",
+        "Key Partnerships: Software partners providing extensions and add-ons, implementation partners (diminished role), hosting partners, application-programming interfaces for ecosystem",
+        "Cost Structure: Upfront investments for software development and SaaS infrastructure setup, permanent overhead costs for keeping service infrastructure ready, economies of scale crucial for profitability"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 17-20: Detailed descriptions of business model components changes including 'Value proposition' section stating 'customer firms are exempted from much of the cost and effort of operating and financing their own IT infrastructure', 'Customer interface' describing target segments, 'Infrastructure management' detailing competencies needed, 'Financial aspects' explaining 'pay-per-use pricing method' and cost structures",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655386",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: On-demand access to ERP/CRM/HRM systems over Internet, low/minimal entry costs, flexibility and scalability, eliminates need for upfront capital investment and own IT infrastructure",
+        "Customer Segment: Three segments - micro businesses (standardized out-of-box products), small-medium businesses with <1000 employees (tailored systems through VAR), bigger SMBs (intensive consulting)",
+        "Channels: Direct sales to micro businesses, VAR/partner network (platinum, gold, smaller partners) for small-medium segment, online helpdesk and training",
+        "Relationship: From product-based to service-based relationship, shift to value co-creation with customers through user communities, continuous support vs one-time sale",
+        "Revenue Streams: Shift from upfront perpetual license fees to periodic subscription fees (pay-as-you-go), continuous cash flow but less predictable, 50% of initial license fees go to VAR",
+        "Key Resources: Standardized products developed in-house, SaaS platform, partner network, technical and human resources",
+        "Key Activities: In-house product development, partner relationship management, customer support and training, continuous product maintenance and updates",
+        "Key Partnerships: VAR partners (platinum exclusively with ERP Co, gold mainly with ERP Co, smaller local/micro market partners), suppliers (ERP Co IT, Microsoft), complementary relationships requiring careful ecosystem management",
+        "Cost Structure: R&D resources allocation (initially 80/20 SaaS/on-premise, later 50/50 hybrid), acquisition costs, partner compensation, continuous maintenance and support costs"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Pages 4-7 provide extensive details about all business model components including customer segments, partner model, revenue streams, transition strategy, and ecosystem relationships",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655389",
+      "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Cloud gaming platform enabling games to run on servers and stream to end-user devices, avoiding illegal copying and second-hand markets, providing more durable market for games with flexible revenue models, eliminating need for powerful client hardware",
+        "Customer Segment: Evolution from mobile game players (3G users) to PC players and IPTV users, finally to cloud console players and IPTV players with broadband connections",
+        "Channels: Telecommunication operators (3G, IPTV), portals for PC users, network operators, direct through cloud console device",
+        "Key Resources: Gaming platform technology, MPEG streaming, game servers, SDK for game developers, licensed game content, broadband infrastructure",
+        "Key Activities: Porting licensed games to platform (initially), providing SDK and quality assurance (later), platform operation and maintenance, content licensing negotiations",
+        "Key Partnerships: Game publishers (content providers), telecom/IPTV operators (distribution), video-on-demand service providers, set-top box manufacturers, middleware software providers, portals, server manufacturers",
+        "Revenue Streams: Revenue sharing model among partners (portals/IPTV operators charge end-users, divide income between partners including G-cluster and game licensors), flexible models including game rental",
+        "Cost Structure: R&D activities in Finland, platform development and maintenance, game porting costs (reduced after SDK introduction), server infrastructure"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Pages 10-17 with Figures 1-4 showing complete business model evolution including all components: product/service (gaming platform), value network (partners and customers), value delivery (distribution channels), and revenue model (revenue sharing)",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655397",
+      "article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+      "extraction_date": "2025-10-08",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Software applications that increase the utility of mobile devices through various functionalities",
+        "Customer Segment: Consumers with different willingness to pay (high-end Apple users vs. low-end Android users); different app categories attract different segments",
+        "Channels: App stores (Apple's App Store and Google Play) as distribution platforms",
+        "Revenue Streams: App sales, advertising, in-app purchase, data selling",
+        "Key Resources: Apps developed by third parties, platform infrastructure",
+        "Key Partnerships: Revenue-sharing arrangement between developers (70%) and platform owner (30%)"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'An application store is essentially an online distribution platform from which users can download software applications for mobile devices to increase the utility associated to their usage' | Page 1: 'The revenue-sharing rule adopted by Apple (and also by all major stores) implies that, for each transaction, 70% of the revenue goes to the developer, while the platform owner retains 30% of it' | Page 5: 'consumers accessing the Apple's App Store are on average more valuable than those in Google Play consumers'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655417",
+      "article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+      "extraction_date": "2025-10-08",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: End-to-end composite software solution for automated enrichment of audio-visual content with related online information for second-screen experiences",
+        "Customer Segment: Broadcasting companies, Web TV providers, digital video archives",
+        "Channels: Direct sales through coordinators with one-face-to-the-customer approach, presentations at fairs and customer sites",
+        "Revenue Streams: Service-based revenues collected by coordinators and distributed among providers according to contribution",
+        "Key Resources: Complementary software components from independent providers, APIs, SaaS infrastructure",
+        "Key Activities: Technical coordination, service coordination, market coordination, maintaining APIs and SLAs",
+        "Key Partnerships: Loose partnerships among SMEs, universities, and research centres with defined coordinator and provider roles",
+        "Cost Structure: Each partner maintains their own SaaS component on their own cost"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'developing an end-to-end composite software solution for automated enrichment of audio-visual content' | Page 4: 'broadcasting, Web TV and digital video archives' | Page 8: 'providing a \"one-face-to-the-customer\"; providing marketing and distribution' | Page 9: 'coordinators would collect the payment from the customer and distribute it among involved providers according to their contribution' | Page 9: 'keep his SaaS component available and running on his own cost'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655425",
+      "article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+      "extraction_date": "2025-10-08",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Software delivered as a service with lower initial costs, faster delivery, more cost-effective maintenance and after-sales services compared to traditional licensing",
+        "Customer Segment: Large-sized customers with IT infrastructure vs. small/medium-sized customers; customers with high security concerns vs. those without",
+        "Channels: Direct delivery via Internet/cloud, network operators as delivery channels",
+        "Revenue Streams: Monthly rental fees, license fees plus maintenance fees, user-based pricing with price discrimination",
+        "Key Resources: Software applications, cloud infrastructure, IaaS and PaaS providers",
+        "Key Activities: Software development, installation, delivery, implementation, maintenance, after-sales support, updates",
+        "Key Partnerships: IaaS and PaaS providers, network operators",
+        "Cost Structure: Development costs, installation costs, implementation costs, maintenance costs, capacity costs for data storage and computing power"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'faster and more cost-effective delivery, maintenance, and after-sales services' | Page 7: 'Software renting shifted customers' capital investment onto operational costs' | Page 7: 'costs related to the installation, delivery, implementation, maintenance, and after-sales support of the software' | Page 3: 'SaaS providers may incur significant operating costs due to the fact that they have to invest in service and system capacity'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655440",
+      "article_title": "Designing business models for cloud platforms",
+      "extraction_date": "2025-10-08",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Value Proposition: Development and execution environment for external developers; integration capabilities; matchmaking between customer segments. Customer Segment: Individual developers, ISVs, System Integrators, Platform customers, End consumers. Channels: Marketplaces, direct sales, partner channels, MOOCs. Relationship: Custom development, integration in roadmap planning, matchmaking capabilities. Revenue Streams: Platform subscriptions, revenue share from marketplace (15%). Key Resources: Development tools, SDKs, APIs, integration capabilities. Key Activities: Platform development, ecosystem management, quality assurance, certification. Key Partnerships: ISVs, System Integrators, complementors, development partners. Cost Structure: High upfront development costs, platform maintenance, ecosystem support investments.",
+      "synonyms_found": [
+        "business model canvas",
+        "BMC"
+      ],
+      "source_citation": "Page 10: 'we opted for the business model canvas as a business model representation' | Page 17: 'Leveraging business model canvas as constructs' describing 'how an organization creates, delivers and captures value' | Page 23: Multiple canvas elements described in 'Applying Design principles to the HCP business model' including customer segments, value propositions, channels, relationships, revenue streams",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655451",
+      "article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+      "extraction_date": "2025-10-08",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Value Proposition: Cloud-based simulation services without capital investment, scalable computing power, rapid elasticity, access to state-of-the-art hardware and software. Customer Segment: Manufacturing and engineering SMEs, simulation software vendors, simulation consultancies, end-users (existing and novel simulation users). Channels: AppCenter marketplace, specialized one-stop-shops, domain specific marketing channels, simulation consultancies. Relationship: Customer support for different stakeholder levels, one-stop-shop responsibility model. Revenue Streams: Pay-per-use, annual licenses, percentage-based marketplace fees, upfront payments. Key Resources: CloudSME Simulation Platform (CSSP), WS-PGRADE/gUSE, CloudBroker Platform, multi-cloud IaaS resources. Key Activities: Platform development, simulation application hosting, multi-cloud management, customer support. Key Partnerships: MTA SZTAKI, CloudBroker, BIFI, University of Westminster, simulation software vendors, IaaS providers. Cost Structure: Cloud infrastructure costs, platform development and maintenance, customer support operations.",
+      "synonyms_found": [
+        "business model",
+        "stakeholders",
+        "revenue",
+        "customer support"
+      ],
+      "source_citation": "Page 5: 'Within the CloudSME project there are four stakeholder groups...End-users: At one end of this chain, there exist the end-user companies from the manufacturing and engineering sector...Simulation software providers: There are two kinds of simulation software providers...Cloud platform providers: Next group in this chain are the cloud platform providers...Cloud resource providers: Finally, the simulation platform requires cloud-based hardware resources' | Page 6: 'The one-stop-shop provider charges the end-users and provides full customer support' | Page 7: 'The benefit to the end-user is potentially cheaper, more accessible simulation technologies'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655528",
+      "article_title": "A Study on a Decentralized SaaS Business Model",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Decentralized SaaS services to avoid single-point-of-failure and reduce investment/management issues",
+        "Customer Segment: Small to mid-size providers and end users",
+        "Revenue Streams: License fees based on users/usage",
+        "Key Resources: Local servers, HQ brand products, R&D capabilities",
+        "Key Activities: Service provision, global advertisement, training",
+        "Key Partnerships: HQ-local server relationships",
+        "Cost Structure: Connection/traffic costs, data center costs"
+      ],
+      "synonyms_found": [
+        "business model",
+        "revenue",
+        "costs",
+        "partnerships"
+      ],
+      "source_citation": "Page 1, Section I: 'To avoid either one, we propose and analyze a distributed business model, which could be an alternative here.' | Page 2, Section III: 'A benefit for HQ is it can save the connection/traffic cost, use less data center, and concentrate on its product development.' | Page 2, Section III: 'HQ may have some brand products and responsible for their global advertisement, R&D, and training.'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655555",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Flexible pricing and lower production costs through SaaS",
+        "Customer Segment: Organizations with varying IT capabilities and security requirements",
+        "Revenue Streams: Software renting, traditional licensing, subscription models",
+        "Key Resources: Software architecture, cloud infrastructure",
+        "Key Activities: Software development, implementation, maintenance",
+        "Cost Structure: Production costs, implementation costs, maintenance costs"
+      ],
+      "synonyms_found": [
+        "revenue models",
+        "pricing models",
+        "costs",
+        "customers"
+      ],
+      "source_citation": "Page 5, Section V: 'software renting enabled flexible pricing (firms A, B, and C) based on the number of users, the functionalities used, and so on' | Page 5, Section V: 'The rental model through the public cloud decreased the production costs of case firms A and C' | Page 6, Section VI: 'Software firms seem to favor renting as it brought several benefits such as flexible pricing and lower production costs.'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655589",
+      "article_title": "Service-Centric Business Model in Cloud Environment",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Standardized service delivery and value-added services",
+        "Customer Segment: Individuals/groups who can access the cloud",
+        "Channels: Uniform online and offline channel based on cloud",
+        "Relationship: Long-term interaction with the life cycle of products or services",
+        "Revenue Streams: Value-driven revenue model",
+        "Key Resources: Distributed resources and capabilities",
+        "Key Activities: Well-integrated process",
+        "Key Partnerships: Value network with efficient coordination",
+        "Cost Structure: Operational expenditure"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segments",
+        "channels",
+        "relationships",
+        "revenue streams",
+        "resources",
+        "activities",
+        "partnerships",
+        "cost structure"
+      ],
+      "source_citation": "Page 4, Table IV: 'FEATURES CHANGE ON DIFFERENT BUSINESS MODEL' showing detailed comparison between Previous BM and CBM across all nine building blocks | Page 4, Section III: 'The CBM expresses a more efficient and flexible way of doing business and can make enterprises create new revenue streams by enhancing and extending their value propositions, and improving and transforming industry value chains'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655614",
+      "article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Comprehensive travel information and booking possibilities through integrated context data",
+        "Customer Segment: City visitors (tourists and citizens), app developers",
+        "Revenue Streams: Affiliation models, advertising models, data monetization, pay-per-use",
+        "Key Resources: Clean data repository, APIs, crowdsourcing mechanism, social media mining",
+        "Key Activities: Data semantification, data reconciliation, query augmentation",
+        "Key Partnerships: App developers, advertisers, government organizations, insurance providers",
+        "Cost Structure: not reported",
+        "Channels: not reported",
+        "Customer Relationship: not reported"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Página 3: 'The platform provides a clean data repository about a city' | Página 3: 'App developers can develop applications such as city trip and accommodation planning' | Página 7: 'Affiliation models where commission fees from companies' | Página 3: 'The platform offers various data services to app developers' | Página 5: 'Several parties provide information to the platform' | Página 5: 'finance providers like insures, (local) governments'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655631",
+      "article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Superior features and capabilities",
+        "Customer Segment: Consumers, developers, handset makers, network operators",
+        "Channels: App stores, handset makers, network operators",
+        "Revenue Streams: Advertising, app store fees, support services",
+        "Key Resources: Operating system, installed base, developer ecosystem",
+        "Key Activities: Innovation in hardware and software, platform management",
+        "Key Partnerships: Handset makers, network operators, developers",
+        "Cost Structure: Development costs, marketing, platform maintenance"
+      ],
+      "synonyms_found": [
+        "business model",
+        "platform strategy",
+        "ecosystem"
+      ],
+      "source_citation": "Page 4: 'We identify five different business models that have developed historically in the mobile-operating-system market.' | Page 3: 'Apple and RIM achieved success by marketing an integrated bundle of hardware and software' | Page 7: 'At its core, an application store is an auxiliary two-sided platform vis-à-vis the core platform'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655648",
+      "article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Free-to-play games with optional virtual consumption and social connectivity",
+        "Customer Segment: Casual game players and mobile app users",
+        "Revenue Streams: In-app purchases, advertising, and user acquisition",
+        "Key Activities: Game development, data-driven optimization, and platform integration",
+        "Key Partnerships: Platform holders (Google, Apple, Facebook, Amazon)",
+        "Cost Structure: Marketing and user acquisition costs"
+      ],
+      "synonyms_found": [
+        "business model",
+        "monetization strategies",
+        "revenue model"
+      ],
+      "source_citation": "Page 1: 'Rather than drawing on the traditional paid-for or \"premium\" revenue model and charging an upfront fee per game, King derived its 2013 profits primarily via optional virtual consumption.' | Page 7: 'The free-to-play commodity form comprises three commodity types: the product commodity, the \"prosumer commodity,\" and the player commodity.' | Page 8: 'In 2014, King spent US$455 million on marketing and sales.'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655698",
+      "article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655702",
+      "article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655721",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Revenue Streams: recurring subscription fees, pay-per-use pricing, service fees",
+        "Cost Structure: hosting costs, maintenance costs, service provision costs",
+        "Value Proposition: faster innovation consumption, simplified software licensing, remote access"
+      ],
+      "synonyms_found": [
+        "revenue sources",
+        "pricing strategies",
+        "value delivery"
+      ],
+      "source_citation": "Page 2: 'Revenue sources for SaaS are different from those of on-premise software... clients are charged for only what they have utilized' and Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655747",
+      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: SaaS-based service entity for disturbance management and analysis in supply chains",
+        "Customer Segment: Cargo owners (low and high value goods) and logistic operators",
+        "not reported",
+        "not reported",
+        "not reported",
+        "not reported",
+        "not reported",
+        "not reported",
+        "not reported"
+      ],
+      "synonyms_found": [
+        "business model",
+        "value proposition",
+        "customer segments"
+      ],
+      "source_citation": "Page 5: 'The value proposition for the new solution for disturbance management and analysis, based on the NABCs [12], could be stated as in the Figure 2' | Page 4: 'three different types of customer segments for the new service for the management and analysis of transport disturbances can be identified; 1) Owners of the cargo (low value of transported goods), 2) Owners of the cargo (high value of transported goods) and 3) logistic operators'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655750",
+      "article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Open source software with commercial extensions and support",
+        "Customer Segment: Large enterprises and software corporations",
+        "Revenue Streams: Complementary proprietary products and services",
+        "Key Resources: Software patents and trademarks",
+        "Key Activities: OSS commercialization and IPR management",
+        "Cost Structure: IPR protection and patent portfolio development"
+      ],
+      "synonyms_found": [
+        "business model components",
+        "value creation"
+      ],
+      "source_citation": "Page 10: 'commercial OSS releases ensure diffusion and create a marketplace for complementary proprietary products and services' | Page 3: 'appropriating returns from commercializing OSS products depends critically on firms' stocks of software patents and trademarks'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655785",
+      "article_title": "The relationship between Open Innovation and Strategy: data-driven analysis of the Mobile Value Services Industry",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Open innovation enabling commercialization of external and internal ideas",
+        "Customer Segment: Mobile industry firms and developers",
+        "Key Partnerships: Third-party developers and external partners",
+        "Revenue Streams: Application sales, marketplace fees, revenue sharing",
+        "Key Activities: Open innovation orchestration, partner management",
+        "Key Resources: Open platforms, software development kits, partner networks"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'commercialization of both the ideas of a company as well as ideas coming from other firms' | Page 6: 'open network of independent software developers' | Page 4: 'revenues and margins from applications' | Page 6: 'open platforms and software development kits'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655819",
+      "article_title": "Open-Source Software Entrepreneurial Business Modelling",
+      "extraction_date": "2024-12-19",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Revenue Streams: revenue models mentioned as component to manage",
+        "Others: not reported"
+      ],
+      "synonyms_found": [
+        "business model components"
+      ],
+      "source_citation": "Page 3: 'Our ultimate goal is to offer technology-minded founders a useful tool for managing the wide selection of business model components, including revenue models'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655845",
+      "article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+      "extraction_date": "2025-01-27",
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Core value proposition including distribution channel, application-based integration, development platforms, and integration platforms",
+        "Customer Segment: Five customer segments - IT startups, Systems integrators, Independent Software Vendors, Platform customers, Application customers",
+        "Revenue Streams: Subscription, transaction-based, revenue sharing, additional services, open source",
+        "Key Resources: Technical scope including programming languages, development environments, frameworks, databases, APIs, and protocols",
+        "Key Activities: Platform improvements, market penetration"
+      ],
+      "synonyms_found": [
+        "customer value proposition",
+        "CVP",
+        "customer segments",
+        "revenue streams",
+        "technical scope",
+        "platform improvements"
+      ],
+      "source_citation": "Page 2, Section 2.1: 'a business model consists of four interlocking elements – customer value proposition (CVP), profit formula, key resources, and key processes' and Page 3, Section 4.2: detailed descriptions of customer segments, core value proposition, technical scope, and revenue streams",
+      "confidence_level": "high"
+    }
+  ]
+}

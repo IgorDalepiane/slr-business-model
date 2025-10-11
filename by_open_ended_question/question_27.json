@@ -1,0 +1,1424 @@
+{
+  "question_metadata": {
+    "question_id": "27",
+    "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+    "total_articles": 67,
+    "articles_with_response": 67,
+    "articles_without_response": 0
+  },
+  "responses_by_article": [
+    {
+      "article_id": "190638760",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Value-based pricing orientation → deliver more value to clients → secure sustainable revenue",
+        "Targeting broad markets → expand client base → leverage economies of scale",
+        "Usage-based pricing constructs → charge clients for what they use → align with client value perception",
+        "Flexible payment options with bulk discounts → alleviate financial pressure → encourage prepayment",
+        "Multiple pricing components across categories → accommodate diverse preferences → increase revenues",
+        "Specialized market targeting (recommended) → reduce usage variations → easier expertise accumulation → improve service quality",
+        "Fine-tuning licensing models toward varied usages → specialized market approach → extra revenues",
+        "Complementing usage-independent pricing with payment discounts → maximize revenues while offering flexibility"
+      ],
+      "synonyms_found": [
+        "practices",
+        "strategies",
+        "approaches",
+        "solutions"
+      ],
+      "source_citation": "Page 6: 'Our work indicates that the licensing practices from current SaaS vendors mainly focus on value-based orientation to deliver more value to clients, targeting at broad markets to leverage economy of scale, and charging clients for what they use by fine-tuning usage-based pricing constructs' | Page 3: 'To alleviate financial pressure, software vendors encourage clients to prepay their subscriptions. Sometimes software vendors offer some degree of discount for those bulk payment clients' | Page 5: 'Adopting pricing components from different categories could help in accommodating diverse client preferences...some SaaS vendors included pricing components from different categories in their pricing strategies might demonstrate their endeavor to collect extra revenue by targeting clients with customized requirements' | Page 6: 'We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing. Compared to the generalized market orientation, specialized market orientation implies that the usage variations among clients are less and the accumulation of expertise becomes relatively easy to achieve. This benefits vendors by supporting them to improve the quality of software services and create and deliver value-added client service. Also, specialized market orientation benefits SaaS vendors with extra revenues by allowing them to fine-tune licensing models towards varied usages of software services' | Page 6: 'when usage-independent based components were adopted, vendors usually complement them with discount options for pre-pay or bulk-pay subscribers'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638781",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Offering parallel revenue models (both SaaS rental and traditional licensing) → Address security concerns and diverse customer needs → Avoid losing customers with specific requirements",
+        "Flexible software architecture supporting both models → Maintain technical efficiency → Enable customer choice without extra development work",
+        "Time-based price discrimination for pure-SaaS → Protect against low switching costs → Higher fees for short-term contracts, lower for long-term",
+        "Labor-intensive implementation for enterprise-SaaS → Create switching costs → Offset benefits of short-term renting and improve customer retention",
+        "Concurrent user-based pricing → Align costs with capacity requirements → Protect against increasing maintenance costs",
+        "Promoting rental model through pricing (making it cheaper than licensing) → Encourage cloud adoption → Reduce production costs",
+        "Multi-instance architecture for customization needs → Enable customer-specific features → Meet enterprise requirements while maintaining efficiency"
+      ],
+      "synonyms_found": [
+        "practices",
+        "strategies",
+        "solutions",
+        "approaches"
+      ],
+      "source_citation": "Page 3: 'From the outset, the software architecture was designed to be compatible with both software renting and software licensing, depending on the customers' needs' | Page 3: 'We try to avoid traditional licensing by using a pricing model that makes the cloud model and software renting much cheaper for the customer' | Page 5: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs. Hence, the fee for a short-term rent agreement was higher than for a long-term contract' | Page 5: 'enterprise-SaaS providers (Firms C and D) seem to protect their business against low switching costs by using separate pricing for the implementation work. The implementation of their software required so much labor-intensive project work that customers' switching costs increased' | Page 4: 'The multi-instance approach makes it possible to add customers' own furniture elements to the software within the meta-data layer'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638871",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Hybrid model adoption → Addresses speed of transition challenge → Smoother transition process, more time for SaaS development, gradual customer/partner adaptation",
+        "Balanced R&D allocation (50/50) → Mitigates quality management issues → On-premise product quality restored to usual level while developing SaaS products",
+        "Controlled pilot implementation → Reduces product development risks → Gained valuable customer feedback while minimizing negative effects of functionality issues",
+        "Partner financial compensation → Addresses partner business model disruption → Higher percentages of subscription fees to partners for initial years, especially for those solely relying on ERP Co",
+        "Hand-in-hand transition approach → Maintains ecosystem stability → Joint redevelopment of partner services, shifting from technical to business process consulting",
+        "Maintaining on-premise support → Resolves customer trust concerns → Continued maintenance and support for existing on-premise systems while selling SaaS add-ons",
+        "Selective SaaS sales → Manages customer readiness challenges → Initially selling only to approved customers meeting SaaS readiness criteria",
+        "Partner sales channel expansion → Compensates for revenue model change → Partners increase quantity of sales to compensate for loss in short-term cash flow"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 6, Section 5.2.2: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms. The distribution of R&D resources was adjusted to 50% each for SaaS products and on-premise products. The direct effect of such adjustment is that the quality of on-premise products has been increased and back to the usual level.' | Page 6, Section 5.2.2: 'ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers who met the criteria for SaaS implementation (in terms of organizational readiness for SaaS)... Doing so, ERP Co has gained valuable feedback from the customers for further development and improvement of the SaaS product, while at the same time easing the customers into the transition process.' | Page 7, Section 5.2.2: 'ERP Co is looking to compensate some of the partners (especially the ones that solely rely on ERP Co) for the initial years for the sales of SaaS products (higher percentages of subscription fees will go to the partners, for instance). Second, the correspondently, the sales model of partners is also subject to change due to the change in revenue model. Now partners should look for expansion of sales channels to increase quantity of sales to compensate for loss in short-term cash flow. Third... the services offered by partners should be shifted away from technical consulting towards business process consulting.' | Page 7, Section 5.2.2: 'The strategy is to go \"hand in hand\" with partners to make the transition.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638976",
+      "article_title": "Managing a Software Business",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Make sensible choices, triage, prioritize, and handle expectations → Mitigates quality trade-off challenges → Better balance of features and quality attributes",
+        "Constant investment in software evolution → Prevents software obsolescence → Maintains competitiveness",
+        "Use motivation, empowerment, and trust → Addresses developer management challenge → Effective management of knowledge workers",
+        "Keep developers productive as number-one priority → Increases output quality → Enables great software creation",
+        "Eliminate distractions and waste for developers → Improves productivity → Better software development",
+        "Provide all tools and hardware developers need → Supports productivity → Enables efficient development",
+        "Set up organizational structures that let developers write great software → Removes barriers → Enhances development capability",
+        "Separate engineering career track → Retains stellar developers → Avoids losing talent to mediocre management roles",
+        "Adapt development process to environment → Ensures process effectiveness → Better project outcomes",
+        "Assess process effectiveness and efficiency → Identifies improvement areas → Enables continuous improvement",
+        "Bring customer close to developers in agile → Ensures alignment → Better product-market fit",
+        "Ensure frequent software delivery → Maintains customer engagement → Validates development direction",
+        "Empower teams to organize themselves → Increases team effectiveness → Better agile outcomes",
+        "Promote culture of technical excellence → Improves quality → Sustainable development practices",
+        "Focus on niche with global distribution → Addresses mass market difficulty → Profitable positioning"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'It's your job as a manager to make sensible choices, triage, prioritize, and handle expectations.' | Page 3: 'unless you constantly invest in your software, it will quickly become obsolete' | Page 4: 'As clever specialized knowledge workers, developers can't be effectively managed through command and control. The tools you'll use are motivation, empowerment, and trust. Keeping developers productive should be your number-one priority. Eliminate distractions and waste, give them all the tools and hardware they need, and set up your organization's structures in a way that lets them write great software.' | Page 4: 'Avoid promoting stellar developers to become mediocre managers, by having a separate engineering career track.' | Page 3: 'Your job also includes adapting the process to its environment, assessing its effectiveness and efficiency, and continuously improving it.' | Page 3: 'Here, you must bring the customer close to the developers, ensure the software's frequent delivery, motivate individuals, empower teams to organize themselves, and promote a culture of technical excellence.' | Page 1: 'Software is also easy to distribute on a global scale. This can allow you to focus on a profitable niche.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653396",
+      "article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Combine digital and sustainable transformation simultaneously → Mitigates dual transformation challenge → Reduces effort and costs compared to two separate transformations; creates new value proposition",
+        "Learn from start-up examples → Addresses BM change difficulty → Prime examples and sources of inspiration ease organizational change challenge",
+        "Use BM archetypes as design guidelines → Guides transformation approach → Presents BM configurations for companies with similar value creation to leverage digital technologies",
+        "Integrate sustainable software solutions into value creation → Enables non-software companies to transform → Companies can use external solutions rather than developing everything internally",
+        "Add digital complement to physical products → Creates sustainable PSS → Does not interfere with core value while enabling more sustainable usage",
+        "Implement sustainability intelligence in value-creation process → Optimizes for efficient value creation → Gains information about ecological and economic inefficiencies for process innovation",
+        "Join digital sustainable platforms → Enables ecosystem transformation → Integrates value creation into platform BMs to benefit from services and network effects",
+        "Use data-driven decision-making processes → Supports sustainability optimization → Combines with sustainability intelligence for sustainable efficient value creation",
+        "Follow customer-centric strategy → Enables specific sustainable solutions → Provides functionality and decision-making specific to individual customer needs"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'as most companies are currently transitioning towards a digital BM (Vial, 2019), they can integrate ecological sustainability into their BMs as part of the same transformation, creating a new value proposition and reducing effort and costs compared to two separate transformations.' | Page 20, Section 6: 'Taking them as examples hopefully creates a more sustainable economy' | Page 19, Table 5: Shows how archetypes help to approach sustainability challenges | Page 16, Figure 3: 'How digital sustainable BMs enable digital ecological transformations' showing four pathways | Page 17: 'Integrating the value proposition of these sustainability intelligence providers into their value creation and operational activities (#3 in Figure 3), companies gain information and knowledge about ecological and economic inefficiencies'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653434",
+      "article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Develop high sensing capability → Mitigates opportunity identification challenge → Perceives new opportunities, customer needs changes, competitor behavior for high performance",
+        "Develop high seizing capability → Addresses resource acquisition challenge → Obtains high-quality resources at lower cost, clear roles in acquiring knowledge for high performance",
+        "Develop high reconfiguring capability → Mitigates environmental change challenge → Adjusts resource mix according to changes, enables high performance under uncertainty",
+        "Enhance network effects → Addresses user base and conversion challenges → Amplifies leader's advantage, increases conversion rates and user retention",
+        "Use bundled + fragmented combination → Mitigates single model limitations → Complementary relationship creates multiple value creation and capture mechanisms",
+        "Modular product design → Addresses customization challenge → Allows users to choose upsells based on interests and willingness to pay",
+        "Focus on sensing for bundled models → Critical for bundled freemium success → Enables discovery of new opportunities and business model innovations",
+        "Focus on all three capabilities for fragmented models under uncertainty → Addresses environmental dynamism → High sensing, seizing, reconfiguring capabilities enable adaptation",
+        "Data-driven learning → Addresses uncertainty challenge → Analyze large data to identify behavior patterns and improve offering accuracy",
+        "Free trial strategy → Mitigates digital product uncertainty → Allows users to try products and alleviate uncertainty before committing"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'companies use techniques such as machine learning to analyze large amounts of data to identify patterns of past behavior modes to predict and improve the accuracy of their offerings' | Page 3: 'Freemium models increase a company's user retention rate and alleviate the uncertainty of digital products for users' | Page 11, Section 5.1: 'For companies with bundled and fragmented freemium business models, high sensing and seizing capabilities are critical to achieving high performance' | 'Under high environmental uncertainty, offering fragmented freemium business models with or without a bundled freemium business model will lead to high performance if they have high sensing, seizing, and reconfiguring capabilities' | Page 12: 'The bundled freemium business model and the fragmented freemium business model are complementary rather than substitutes'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653582",
+      "article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Student discounts → User base creation",
+        "Gradual feature delivery → Stability maintenance",
+        "Cloud infrastructure partnerships → Performance assurance",
+        "Digital-first marketing approach → Customer education",
+        "Value-add distributor transformation → Channel partner support"
+      ],
+      "synonyms_found": [
+        "mitigation strategies",
+        "solutions",
+        "practices"
+      ],
+      "source_citation": "Page 5, Channels: 'Adobe spent heavily on giving discounts to students to create their user base while they were fresh.' | Page 6, Associates: 'Adobe entered into long-term agreements and partnerships with Amazon for AWS and Microsoft for Azure and other cloud-based services.' | Page 6, Channels: 'Adobe adopted a 'digital-first' approach to marketing'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190653589",
+      "article_title": "Navigating the paradox of global scaling",
+      "extraction_date": "2025-01-22",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Top-down replication mechanism → Mitigates chaos and maintains consistency → Enables rapid scaling",
+        "Bottom-up entrepreneurial orientation → Mitigates loss of innovation capability → Sustains competitiveness",
+        "Replicable innovation generation → Mitigates replication vs innovation tension → Balances both demands",
+        "Hiring experienced senior executives → Mitigates lack of global scaling knowledge → Accelerates learning",
+        "Uniform organization culture → Mitigates misalignment across locations → Facilitates replication"
+      ],
+      "synonyms_found": [
+        "top-down replication",
+        "bottom-up entrepreneurial",
+        "replicable innovation",
+        "experienced executives",
+        "uniform culture"
+      ],
+      "source_citation": "Page 10: 'Informants emphasized the importance of having a generalized replication mechanism throughout the organization which enforces the global business model' | Page 11: 'companies provided job-level autonomy for junior employees so that they could be proactive in finding solutions to problems they encountered' | Page 10: 'the replicable innovation generation mechanism is an integrating mechanism that sustains interdependence between the contradictory demands'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653595",
+      "article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Focus on moderate quality apps → Optimize sampling effectiveness",
+        "Ensure substantial utility differences → Increase upgrade motivation",
+        "Leverage app discovery benefits → Enhance visibility"
+      ],
+      "synonyms_found": [
+        "quality optimization",
+        "version differentiation",
+        "discovery enhancement"
+      ],
+      "source_citation": "Page 1869: 'our results indicate that a freemium strategy would be more effective for products that prior users evaluated as moderately good' and Page 1871: 'firms need to ensure that the difference in utility for consumer between the free product and the paid product is sufficiently high to induce upgrades'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653734",
+      "article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Implementing trial versions → Mitigates user uncertainty → Increases conversion rates",
+        "Digital marketing orientation → Mitigates competition → Enhances value proposition",
+        "Focus on user comfort and usability → Mitigates low retention → Improves user engagement",
+        "Shorter contract lengths → Mitigates high termination rates → Reduces churn",
+        "Proper feature distinction → Mitigates cannibalization → Maintains revenue streams"
+      ],
+      "synonyms_found": [
+        "trial versions",
+        "digital marketing",
+        "user comfort",
+        "contract lengths",
+        "feature distinction"
+      ],
+      "source_citation": "Page 5: 'offering trial versions of premium apps has been recognized as an effective approach to stimulate sales' and Page 5: 'A shorter contract length is also fundamentally linked to a lower termination rate'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653772",
+      "article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Efficient vendor management → Reduced project delays and improved outcomes",
+        "Robust modification protocols in contracts → Better handling of product enhancements and service adjustments",
+        "Comprehensive testing and QA/QC → Higher app quality and user satisfaction",
+        "Data sharing agreements → Improved operational insights and service improvement",
+        "Multi-language support and accessibility features → Reduced equity issues"
+      ],
+      "synonyms_found": [
+        "solutions",
+        "strategies",
+        "mitigation approaches"
+      ],
+      "source_citation": "Page 5: 'The interview results highlighted the importance of efficient vendor management' | Page 5: 'when negotiating and renewing contracts with vendors, a robust modification protocol is needed' | Page 5: 'testing and QA/QC by transit agencies or pilot users is critical for the success of transit app projects'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653856",
+      "article_title": "Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market valuation?",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "New valuation models → Better price prediction",
+        "Focus on revenue growth → Higher valuations",
+        "Customer retention strategies → Lower acquisition costs"
+      ],
+      "synonyms_found": [
+        "new valuation models",
+        "revenue growth focus",
+        "customer retention"
+      ],
+      "source_citation": "Page 1: 'building a positive argument and highlighting additional possible factors including Growth, Profitability and Enterprise Value/Revenue' | Page 8: 'customers are more likely to transact on a continuous basis' | Page 8: 'focusing solely on channels of acquisition there is now the requirement to retain customers'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190653872",
+      "article_title": "Managing Software-as-a-Service: Pricing and operations",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Outstanding customer service and cost reimbursement → Strengthened commitment and reduced churn → Better customer retention",
+        "Free trials and demos → Reduced uncertainties in cost savings and quality → Facilitated purchase and migration",
+        "LAER model (Land, Adopt, Expand, Renew) → Progressive customer adoption → Market penetration and expansion",
+        "Hybrid cloud infrastructure → Managing demand uncertainty → Balanced cost and performance",
+        "SLA (service-level agreement) → Guaranteed service levels → Customer trust and compliance",
+        "Proactive customer education → Increased perceived usefulness → Increased usage and reduced churning",
+        "Security enhancements and encryption → Mitigated security vulnerabilities → User trust and adoption",
+        "Usage analytics and recommendation systems → Improved user engagement → Reduced churn (Netflix saves $1 billion annually)"
+      ],
+      "synonyms_found": [
+        "solutions",
+        "strategies",
+        "measures",
+        "approaches"
+      ],
+      "source_citation": "Page 4, lines 301-304: 'a provider could strengthen such commitments by outstanding customer service and cost reimbursement (see, for example, our third research opportunity (RO3) and Xiao et al. 2020)' | Page 3, lines 245-248: 'potential SaaS customers want to evaluate the software prior to purchase, and proving the value via demos (e.g., Zendesk) and pricing can facilitate the purchase and migration' | Page 3, lines 251-253: 'many business customers start from a basic SaaS application before moving to sophisticated SaaS applications following the LAER (Land, Adopt, Expand, Renew) model' | Page 10, lines 1036-1038: 'In practice, public cloud vendors routinely use SLAs to guarantee service levels to customers' | Page 12, lines 1176-1178: 'proactive customer education may increase perceived usefulness, and thus increase usage and reduce churning' | Page 17, lines 1678-1680: 'Netflix's recommendation system saves the company $1 billion annually through reduced churn'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653882",
+      "article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Consumer-initiated touchpoints → Enhanced conversion → Higher subscription rates",
+        "Usage frequency tracking → Better conversion prediction → Improved targeting",
+        "Message content optimization → Reduced negative interactions → Better marketing ROI"
+      ],
+      "synonyms_found": [
+        "consumer-initiated touchpoints",
+        "usage frequency",
+        "message content optimization"
+      ],
+      "source_citation": "Page 1: 'consumer-initiated touchpoints with all message content enhance conversion' | Page 1: 'more frequent free-trial usage encourages conversion' | Page 17: 'it is also worth exploring whether shifting persuasive content to customer-initiated touchpoints could mitigate the negativity due to persuasion'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653942",
+      "article_title": "Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Privacy statements → Mitigated privacy concerns → Increased customer trust",
+        "Freemium approach → Enhanced monetization transparency → Reduced legitimacy loss",
+        "Moderate distinctiveness → Balanced competition and legitimacy → Optimal performance"
+      ],
+      "synonyms_found": [
+        "privacy statements",
+        "freemium approach",
+        "moderate distinctiveness"
+      ],
+      "source_citation": "Page 11: 'privacy statements; these statements explicitly describe how the firm might use customer data to generate revenue, and these types of statements have been shown to decrease perceived privacy risks' | Page 11: 'freemium approach increases customer understanding of how the product will make money and thereby reduces concerns about potential misuse of customer information' | Page 5: 'moderately different in order to achieve optimal distinctiveness'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653950",
+      "article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+      "extraction_date": "2025-01-22",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Incorporating social features → Enhances diffusion → Increases user base and network effects",
+        "Platform selection with large installed base → Improves demand potential → Higher success probability",
+        "Product bundle decomposition → Addresses demand heterogeneity → Better user satisfaction"
+      ],
+      "synonyms_found": [
+        "social features",
+        "platform selection",
+        "bundle decomposition"
+      ],
+      "source_citation": "Page 5: 'To overcome these challenges and stimulate a product's diffusion, firms often incorporate social features into freemium products' and 'product bundle decomposition allows heterogeneous users to mix-and-match a combination of premium items'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653984",
+      "article_title": "Toward Building Specialized Information Systems as Software Platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Data processing pipeline → Reduces custom connector development → Makes federated search engine more flexible and easier to maintain",
+        "Plugin architecture → Enables modular UI elements → Allows easy extension without codebase understanding",
+        "Message bus communication → Prevents direct code access → Enables modular feature implementation",
+        "Dogfooding plugin architecture → Adopts platform patterns internally → Ensures consistent development approach",
+        "Developer documentation → Provides guidance for third parties → Enables external development",
+        "Semantic layer abstraction → Provides consistent data view → Allows developers to focus on business logic",
+        "Unified interface exposure → Simplifies external integration → Reduces engineering resource requirements"
+      ],
+      "synonyms_found": [
+        "solutions",
+        "strategies"
+      ],
+      "source_citation": "Page 2: 'By using a data processing pipeline, the SIS author can easily add new sources to the federated search engine without having to write new code. The data processing pipeline can be configured to handle new sources automatically. This makes the federated search engine more flexible and easier to maintain' | Page 3: '1) The ability to register UI elements to appear in different parts of the application via a plugin architecture' | Page 3: '2) Force modules to speak with each other via a message bus rather than accessing code directly' | Page 3: '3) Dogfooding: adopt the plugin architecture for their own features' | Page 3: '4) Maintain a developer's documentation for third parties' | Page 3: 'For the application developer, the semantic layer provides a well-defined interface to the database. This means that the developer can focus on the business logic of the application without having to worry about the details of the database structure' | Page 2: 'By adding a data pipeline for data ingestion, and exposing only a unified interface, the SIS benefits from freed engineering resources, as authors no longer need to spend time writing custom connectors to different sources'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653993",
+      "article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Local network deployment → Mitigated network security concerns → Enhanced data protection",
+        "Integrated hardware-software system → Mitigated performance issues → Optimized computation",
+        "Functional verification → Mitigated integration problems → Reliable performance",
+        "Flexible licensing models → Mitigated cost concerns → Market accessibility"
+      ],
+      "synonyms_found": [
+        "local network deployment",
+        "integrated system",
+        "functional verification",
+        "flexible licensing"
+      ],
+      "source_citation": "Page 5: 'The proposed system is employed locally and therefore network security could be protected' | Page 5: 'The new product would need to systematically integrate the software and hardware' | Page 6: 'This issue will be solved as the proposed system implements functional verification'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654058",
+      "article_title": "MintM: the start-up transforming businesses real-time",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Revenue model change from pay-per-view to per tab/per deployment license → Reduced dependency on store footfall → More predictable revenue streams",
+        "Remote software deployment and maintenance → Eliminated need for physical tab maintenance → Reduced operational overhead",
+        "Client responsibility for tab maintenance → Transferred operational burden to clients → Enabled focus on core software development",
+        "Business model redesign → Addressed operational challenges → Enabled aggressive growth strategy"
+      ],
+      "synonyms_found": [
+        "revenue model change",
+        "remote deployment",
+        "client responsibility",
+        "business model redesign"
+      ],
+      "source_citation": "Page 22: 'MintM changed into a per tab or per deployment license model from the earlier per view revenue model' | Page 22: 'The software is deployed and maintained remotely by the same lean operations team' | Page 22: 'The onus of maintenance of medium (i.e. tab/television/display mode) rested on the client i.e. the shop owner and/or the retailer brand' | Page 22: 'Since the operational challenge was completely reduced or negated, MintM could expand its business further'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654085",
+      "article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Broad developer engagement → Mitigates limited catalogue → Provides diverse app selection",
+        "Policies to ease user fears → Mitigates app removal concerns → Increases perceived control",
+        "Customized subscription plans → Mitigates user resistance → Better user experience"
+      ],
+      "synonyms_found": [
+        "practices",
+        "strategies",
+        "solutions"
+      ],
+      "source_citation": "Page 12: 'managers should try to leverage these new subscription-based plans in their strategies engaging a broad set of app-developers in order to offer a broad catalogue to help users in choosing freely which ones they want to try without having to pay for each of them and without having their experience interrupted by ads' | Page 12: 'The results hint that managers should implement policies to ease the users fear to be unable to access the apps they normally use as some of them may not be included in the catalogue or, they may be excluded at some later moment in time' | Page 12: 'These results will help mangers to design their strategies and increase the use of subscription-based plans more customized and useful for users' needs'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654186",
+      "article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Strategic licensing choices → Mitigate incentive conflicts → Improve collaborative outcomes",
+        "Quality investment coordination → Address competitive dynamics → Enhance market position",
+        "Service expertise development → Overcome revenue limitations → Create competitive advantage"
+      ],
+      "synonyms_found": [
+        "practices",
+        "mitigation",
+        "strategies",
+        "solutions"
+      ],
+      "source_citation": "Page 1: 'market conditions under which permissive and restrictive licenses each, respectively, help improve consumer surplus associated with deployed software solutions' | Page 1: 'how quality investments and prices are endogenously determined in equilibrium' | Page 1: 'exploit their intimate knowledge of the code to provide higher-quality service than could potential competing service providers'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190654465",
+      "article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Targeted marketing → Improved user acquisition",
+        "Reward schemes → Increased user engagement",
+        "Operator cooperation → Expanded service coverage",
+        "Revenue diversification → Improved profitability",
+        "Model validation → Better business planning"
+      ],
+      "synonyms_found": [
+        "targeted marketing",
+        "reward schemes",
+        "operator cooperation",
+        "revenue diversification",
+        "model validation"
+      ],
+      "source_citation": "Page 1: 'direct targeted marketing to ensure mass market adoption' | Page 6: 'The provision of rewards through sponsors (which in turn feeds into the functionality and user satisfaction as discussed previously) is a reinforcing feedback loop' | Page 6: 'Additional operators increase the market share of trips for which tickets can be purchased' | Page 8: 'revenue-generating functions (such as user reward schemes, advertising, and payment for ad-free versions)' | Page 13: 'compare the model results against early uptake data'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654531",
+      "article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Starting with coarser granularity and refining when required → Mitigates modeling granularity issues → Reduces time increase in scoping process",
+        "Reactive approach to extend feature model incrementally → Mitigates upfront investment challenge → Allows adaptation to new requirements",
+        "Thinking about which artifacts are reusable and which can be evolved → Mitigates artifact specificity challenge → Speeds up business model adaptation"
+      ],
+      "synonyms_found": [
+        "coarser granularity",
+        "reactive approach",
+        "reusable artifacts"
+      ],
+      "source_citation": "Page 7: 'we propose starting with a coarser granularity to model the main variation points of different business model decisions and refine this granularity when it is required' | Page 4: 'we adopt the idea of Alves et al. to build an extractive feature model of business model decisions that is extended in a reactively by analyzing customer needs' | Page 7: 'we see it as an advantage for business developers to think about which artifacts are reuseable and which former artifacts can be evolved for reusing'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654542",
+      "article_title": "E-business evolution: an analysis of mobile applications' business models",
+      "extraction_date": "2025-10-06",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Mixed value capture mechanisms → Mitigates single revenue source risk → 69% of pay per download apps use mixed mechanisms. Continuous app updates → Mitigates technical issues and maintains competitiveness → Identified as developer behaviour factor. Responsive technical support → Mitigates user dissatisfaction → Identified as developer behaviour element. User feedback integration → Mitigates misalignment with user needs → Developers answer user comments in Google Play Store. Focus on content-based apps with emphasis on design → Mitigates survival risk → Content apps represent 80-91.6% of successful apps. Adding complementary monetization mechanisms (in-app purchases alongside ads) → Mitigates revenue limitations → Statistically significant predictor of success.",
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'about 69% of pay per download apps (777 out of 1125) are based on mixed value capture mechanisms' | Page 10: 'Updates Frequency of updates by the app's developer 144 (2.4%) Developer behaviour. Support Responsiveness of the developer for technical assistance 208 (3.4%)' | Page 13: 'app designers and developers may start interacting with app users and app platforms in order to know what the e-business model's elements are that are preferred/fit requirements (e.g. answering users' comments in the Google Play Store)' | Page 14: 'content apps, whose value is driven by their efficiency, lock-in, design, and ability to add complementary monetisation mechanisms (i.e. In-App purchases) beside the ads value capture schema'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654598",
+      "article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+      "extraction_date": "2025-10-06",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Leverage competitive software advantages to register in multiple marketplaces → Overcome single marketplace limitations → Generate additional revenue",
+        "Premium strategies with quality and service, not price, with technical support and best practices → Address customer needs concerns → Differentiation from competitors",
+        "Prepare alternative and bypass measures for domestic regulations and restrictions → Overcome regulatory barriers → Enable market entry",
+        "Plan specialized products and services for regional niche markets → Address local requirements → Market penetration",
+        "Cost reduction method through technical support and maintenance within the software price → Reduce customer costs → Improve adoption",
+        "Maintain always-on computing resources at a certain level → Prevent performance degradation → Ensure service quality"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 10: 'Leverage the advantages of competitive software to register in multiple marketplaces to generate additional revenue. By securing excellent global customer cases, emphasizing the differences from other software, premium strategies are required with quality and service, not price, with technical support and best practices. Prepare alternative and bypass measures for domestic regulations and restrictions and to plan specialized products and services for regional niche markets. Cost reduction method through technical support and maintenance within the software price' | Page 10: 'always-on computing resources must be maintained at a certain level to prevent performance degradation'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654601",
+      "article_title": "Software as a service: Lessons from the video game industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Building minimum viable service (MVS) → Avoiding loss of users' goodwill → Satisfying enough customers to justify future development",
+        "Transparent cost structure → Maintaining existing customers → Clear understanding of investment needed",
+        "Using CRM systems → Managing player behavior and approving transactions → Better user segmentation and engagement",
+        "Taking gamers' opinions into account in updates → Developing player engagement → Building loyalty",
+        "Developing communities → Feedback conduit and loyalty building → Improved games and sustained engagement",
+        "Offering exclusive items for season pass holders → Retaining engagement → Rewarding loyalty"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 9: 'a software service needs to provide satisfaction for its users if it is to be used. The key point here concerns building a minimum viable service (MVS) —that is, a service with enough features to satisfy enough customers to justify its future service development' and 'When a games company first launches an \"unfinished\" service, it needs to reach its MVS quickly to avoid losing users' goodwill' | 'For SaaS to work, there needs to be a transparent cost structure that clearly states the level of investment needed to fully benefit from the software' | Page 3: 'In addition to guaranteeing access to new DLCs, publishers usually also offer exclusive in-game items that are available only to gamers who have purchased a season pass. This is another way to retain gamers' engagement and reward their loyalty.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654605",
+      "article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+      "extraction_date": "2025-10-06",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Pivoting to agile methodologies → Addressed agility gaps → Effective value creation from SaaS",
+        "Large scale internal restructuring of teams, practices and tools → Enhanced business agility → Improved collaboration and response to market changes",
+        "Establishing new growth strategies (SaaS leader roles, marketing teams, digital ecosystems) → Extended market reach → Strong presence in new segments",
+        "Developing OpenStack collaborating platforms → Expanded value networks → Access to customers favouring open source",
+        "Providing open tools and self-service capabilities to customers → Reduced administrative overhead → Simplified customer management",
+        "Regular networking events with customers → Face-to-face feedback → Better products brought to market faster"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'Both case organisations are pivoting rapidly towards agile methodologies in order to effectively create value from provisioning SaaS technologies' | Page 10: 'both companies have established new growth strategies (e.g. new SaaS leader roles, SaaS marketing teams, digital ecosystems) within these new market segments' | Page 12: 'Both case organisations have recently developed indigenous OpenStack collaborating network platforms' | Page 13: 'Both case organisations provide customers with open tools and services...organisations hold regular networking events at which customers can give them face-to-face feedback'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654664",
+      "article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Structural analysis using cross-impact method → identifies significant links between business model variables; Multi-criteria decision analysis (FSAW method) → reconciles expert opinions and assesses variable impacts; Balanced Scorecard approach → systematic assessment of opportunities and risks across market, operations, and development; Parameterization and quantification of business model variables → enables formal methods and better understanding; Identification of determinants and relay variables → focuses on high-impact elements; Synergy roadmap creation → guides actions to exploit synergy potential",
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'In this analysis, the most difficult element is always the rationale for choosing the value of the criteria weights and the strength of the mutual interactions. Considering the inaccuracies in estimating weights and the expert opinions allows this problem to be largely solved' | Page 8: 'we applied the simple additive weighting (SAW) method', 'we changed the SAW method to the fuzzy simple additive weighting (FSAW) method' | Page 15-16: 'The analysis of variables based on the two proposed criteria allows us to describe the business model to better understand the significance of individual variables' | Page 19, Table 8: 'Synergy roadmap - reference VAR - INT group'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654709",
+      "article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Free demos and trials → Customer education and technology understanding → Increased adoption",
+        "Community building → Dataset collection and co-creation → Technology development acceleration",
+        "Partnerships with investors and academia → Financial resources and research access → Reduced development risks",
+        "Customization and customer support → Customer relationship building → Higher retention and satisfaction",
+        "Regulatory compliance → Ethical data handling → Legal and reputational risk mitigation"
+      ],
+      "synonyms_found": [
+        "free demos",
+        "community building",
+        "partnerships",
+        "customization",
+        "compliance"
+      ],
+      "source_citation": "Page 3: 'showcasing their products for free. These strategies include free demo and free trial periods' | Page 3: 'Community unites both end users and developers and companies, as group dynamics allow for co-creation' | Page 4: 'Key partnerships need to be established to specialized investors' | Page 6: 'Businesses need to comply with local regulations thoroughly'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654717",
+      "article_title": "Economics of open source library software: evidences from Indian libraries",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Institutional OSS adoption policies → Addresses cultural resistance and provides organizational support",
+        "Service provider ecosystem → Provides technical expertise and implementation support",
+        "Training programs → Builds human development and technical capabilities",
+        "Community-based development → Ensures quality and sustainability",
+        "Bundled service offerings → Addresses revenue sustainability for providers"
+      ],
+      "synonyms_found": [
+        "institutional policies",
+        "service providers",
+        "training programs",
+        "community development",
+        "bundled services"
+      ],
+      "source_citation": "Page 10: 'To increase the adoption of OSS in the library, the institute should consider having OSS adoption policy' | Page 13: 'There are many third-party service providers to facilitate the OSS to the library' | Page 11: 'OSS encourages LIS professionals to experiment with new software in the library, acquire new knowledge and create new services'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190654720",
+      "article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Forming partnerships with existing Infrastructure Providers → avoid being copied/overwhelmed → tailored solutions sold independently or through IP platforms",
+        "Selling to highest bidder after strong branding and product tuning → avoid being copied/overwhelmed → business exit strategy",
+        "Relying on strong R&D human resources → address infancy of predictive methodologies → develop competitive methodologies",
+        "Inaugurating partnerships with Infrastructure Providers for data collection → obtain crucial data → execute high-quality predictive experiments",
+        "Considering acquisition of predictive management company → Asset Manufacturers/IPs obtain know-how → integrate capabilities",
+        "Splitting Application Operators into free and subscribing customers → cover costs of non-paying customers → sustainable freemium model",
+        "Infrastructure Providers pay for customised advertisements → increase revenue streams → further sustainability",
+        "Acting as third-party intermediary → gain trust of large companies → avoid data disclosure concerns between competitors"
+      ],
+      "synonyms_found": [
+        "partnerships",
+        "branding",
+        "R&D",
+        "acquisition",
+        "split customers",
+        "intermediary"
+      ],
+      "source_citation": "Page 3: 'We currently envision two main possibilities: (i) forming partnerships with existing Infrastructure Providers and taking care of tailoring the predictive methodologies to their needs, whilst selling them either independently or through the Infrastructure Provider platforms, or (ii) selling the predictive solutions to the highest bidder, after completing a strong branding process and product tuning' | Page 5: 'Since the predictive methodologies are still in their infancy, we foresee the crucial need for the business to rely on strong R&D human resources' | Page 4: 'As it is crucial to obtain such data, we foresee the possibility of inaugurating partnerships or, as for Asset Manufacturers, of considering to acquire the know-how of the provider of the predictive application management service' | Page 6: 'We, therefore, split Application Operators into two segments, i.e. free and subscribing customers. Paying customers will have access to the complete version of the considered predictive application management service and to premium customer support' | Page 6: 'From Infrastructure Providers being key partners, it is possible to envision that they will be willing to pay and exploit the predictive management services portal, to also get customised advertisements. This further increases the Revenue Streams, thus making the business model more sustainable in the long run' | Page 4: 'a third-party provider for predictive application management can base its analyses on data collected from different hardware or infrastructures and produce more accurate (and satisfying) results. Large established companies might trust more such new provider as an intermediary, with respect to disclosing data to their direct competitors'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654834",
+      "article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Offering services in aggregated form → Share resources and activities → Increased profitability and reduced costs",
+        "Sharing vehicle fleet across multiple services → Higher vehicle utilization → Optimized fleet size and costs",
+        "Outsourcing key activities to third parties → Reduced operational costs → Improved cost structure",
+        "Establishing partnerships to share resources with other providers → Shared parking spots and unused vehicles → Cost optimization",
+        "Dynamic pricing (surge pricing) → Match supply with demand → Revenue optimization",
+        "Optimal fleet prepositioning and relocation algorithms → Maximize fleet efficiency → Revenue maximization",
+        "Loyalty programs and gamification → Customer retention → Reduced churn",
+        "Reputation systems based on ratings → Build trust and safety → Enhanced user confidence",
+        "Integration with public transport → First/last mile solution → Increased service value",
+        "Subsidies and incentives from governments and partners → Service viability → Market expansion"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'the aim of this paper is to find synergies between the different app-based car-related shared mobility services that foster the development of new business models, to increase the profitability of these services' | Page 11: 'higher utilisation of the vehicles, since it targets different uses. This integration would enable providers to size and optimise the fleet dedicated to one or another service depending on the predicted demand' | Page 11: 'optimisation of the technological platform and related development activities, as well as fleet management and marketing activities' | Page 11: 'outsource some key activities to third parties, who could offer the same service to other providers, reducing the cost of these activities' | Page 7: 'Uber uses dynamic pricing to match the supply with the demand' | Page 11: 'the optimal prepositioning and relocation of vehicles is the key to optimise the fleet size and maximise the revenues'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654956",
+      "article_title": "Open source ERP business model framework",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Corporate distribution model → Provide support services → Easier adoption for business users who have difficulty interacting directly with open source developers",
+        "Partner network development → Implementation and support services → Better service coverage and local expertise",
+        "Training partners in business model → Quality code contributions → Maintained high quality standards",
+        "Hybrid models (OSSg2) → Provide complementary services → Sustainable revenue generation",
+        "Service-oriented architecture adoption → Easier integration → Facilitated add-ons and customization",
+        "Limited production and filtering processes → Guarantee quality → High quality final products and services",
+        "Community source model → Joint development by end users → Shared costs and risks among participants",
+        "Dual licensing approach → Flexibility in distribution → Multiple revenue streams",
+        "Support from large organizations (IBM, Red Hat) → Professional support availability → Increased reliability perception"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'Most business users would have difficulty interacting directly with open source developers. Thus an industry has developed including firms such as Red Hat that create value and collect fees by providing support to those firms that would like to adopt open source software products. These firms identify best-of-breed open source products, improve distribution, and offer complementary services such as maintenance support' | Page 4: 'Second-Generation Open Source (OSSg2) is a hybrid between corporate distribution and sponsored open source. Companies generate revenue by providing complementary services, while providing most of the development' | Page 5: 'Model 1: Limited production process, limited filtering process [...] This guarantees high quality of final products and services after the F process' | Page 6: 'They do not allow just anyone to contribute code –the majority of code contributors are trained partners who understand company's business model'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655012",
+      "article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Optimal free content decision based on mathematical optimization → Maximizes profit while balancing effects",
+        "Setting free content less than threshold value x̄ → Prevents excessive cannibalization",
+        "Ensuring free version attracts users by itself (Case 1 equilibrium) → Maintains positive network effect",
+        "Decreasing free content as true value α increases → Reduces cannibalization loss",
+        "Providing quality free app → Boosts paid app sales",
+        "Strong functional fit between free and premium → Increases conversion rates",
+        "Choosing freemium only when true value is high and customer underestimation is significant → Ensures profitability conditions"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 9: 'the optimal decisions of the freemium model must not be in the case 2 of customer choice equilibrium' meaning 'the optimal free content and price decisions of freemium model should ensure that all users of the free version can obtain a non-negative net utility' | Page 13: 'if the firm chooses the freemium model then its optimal free content decision should be less than a threshold value x̄' | Page 11: 'the firm should reduce the free content to maximize profit when α is increased' | Page 2: 'offering a quality free app is important in boosting sales of the paid app' | Page 3: 'providing a strong functional fit between their free and premium services' increases conversion",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655172",
+      "article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Venture capital investment for novelty models → Provides financial resources and strategic guidance → Improves value retention for innovative projects | Avoiding excessive VC involvement for efficiency models → Maintains fast adaptability → Better value retention | Focus on efficiency-centred design → Reduces transaction costs → Improves market acceptance | Complementarity through API integration → Creates bundled value → Increases customer retention | R&D and advertising expenditure → Improves market position → Enhances value retention | Avoiding lock-in strategy → Maintains open approach → Better consumer acceptance",
+      "synonyms_found": [
+        "venture capital",
+        "efficiency",
+        "complementarity",
+        "R&D"
+      ],
+      "source_citation": "Page 9: 'The venture capitalists' experiences in strategy planning, formation, and risk-management may significantly improve the effect of novelty centred e-business model on value retention' | 'efficiency-centred e-business model is positively related to value retention when venture capital investment intensity is low' | Page 8: 'the expenditure on R&D and that on Advertising are positively associated with value retention' | Page 9: 'IoT start-ups should use more complementary designs to retain value over time'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655181",
+      "article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Adjusting customer openness to improve revenue collectability → Android reducing openness from 0.9 to 0.7 → Increased profit | Hotels.com adopting payment-on-arrival model → Matching Booking.com's customer openness (0.9) → Maintaining competitiveness | Promotion and advertising to build user trust → Hotels.com offering free nights → User retention improvement | Quality control through preliminary assessment → Apple's 2-3 week app review → Higher quality apps | Balancing supplier and customer openness → Optimizing overall platform value | Regional cluster restructuring → From hierarchical to network structure → Better adaptation to market changes",
+      "synonyms_found": [
+        "practices",
+        "strategies",
+        "solutions",
+        "new sales strategy"
+      ],
+      "source_citation": "Page 13: 'The above is a simulation wherein the Android platform business directly receives the revenue made by the applications...in order to reduce the customer OI rate of Android. The customer's openness rate of Android Platform was accordingly reduced from 0.9 to 0.7...the Android app store may take over Apple's App Store for revenue collectability' | Page 14: 'Hotels.com is introducing a new sales strategy to substantially reduce the commission if existing or new hotel customers...decide to receive a room charge upon the users' arrival' | Page 14: 'Hotels.com is making more advertisements and reinforcing promotion, including one free night for those who reserve over 10 nights'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655186",
+      "article_title": "Developing enterprise social software in China: insights from Mingdao",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Pivoting platform focus from external to internal information sharing → Aligned with actual enterprise needs → Successful platform revival | Starting with private cloud deployments → Generated quick profits from few big clients → Provided funding for public cloud development | Freemium model with 30-day trial → Allows customers to try before buying → Increases adoption | Testing platform internally first → Understanding employee satisfaction and needs → Better product-market fit | Defining clear usage norms (3-5 simple rules) → Helps teams develop collaboration habits → Faster adoption | Management participation and encouragement → Full participation at all levels → Cultural change success | Rewarding active users publicly → Motivates engagement → Increases platform utilization | Creating flexible cross-functional groups → Enables project-based collaboration → Better communication | Word-of-mouth marketing strategy → Reduces advertising costs, 50% of customers from referrals → Cost-effective growth | Building sales teams in 13 cities → Direct customer access and support → Better customer acquisition | Open API platform strategy → Attracts third-party developers → Expands ecosystem and functionality | Continuous platform upgrades → Improves user interface and features → Maintains competitiveness | Mobile app development → Enables work on the move → Increases accessibility",
+      "synonyms_found": [
+        "practices",
+        "strategies",
+        "solutions",
+        "approaches"
+      ],
+      "source_citation": "Page 2: 'The objective of Mingdao needs to be changed...about the internal information sharing and collaboration. [The internal] is more important' | Page 5: 'if we develop Mingdao based on private cloud first, we can quickly get profit from a few [big] clients and this strategy is very important for our team' | Page 6: 'deploying Mingdao was more like optimizing an internal communication system, fostering a sharing and collaborative culture, cultivating better work habits' | Page 7: 'Only three to five similar norms can help the team quickly develop the habit'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655190",
+      "article_title": "Open source - Is it an alternative to intellectual property?",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Formalized governance with meritocracy → elevate community members based on ability → maintain motivation while retaining control",
+        "Invisible control through governance structure → avoid demotivating contributors → sustained participation",
+        "Setting priority areas as tasks/challenges → direct creativity → align with business needs",
+        "Rewarding work on priority areas with advancement → incentivize desired contributions → business-aligned innovation",
+        "Contributor license agreements with IP assignment → ensure company control → enable dual licensing",
+        "Public relations programs and business strategies → nurture communities → maintain positive image despite commercial model",
+        "Professional services revenue model → avoid licensing conflicts → sustainable while maintaining free access",
+        "Dual licensing strategy → offer choice → serve different customer segments while controlling IP",
+        "Partnership formation with external entities → product development → regulated through contracts with price control"
+      ],
+      "synonyms_found": [
+        "practices",
+        "strategies",
+        "solutions",
+        "mechanisms",
+        "approaches"
+      ],
+      "source_citation": "Page 8: 'companies have to develop a cover-up in the form of a formalized procedure by which community members are elevated to different levels of the governance structure, based on their proven ability. Then, the company's control will be invisible and unnoticed. At the same time, the company will retain its control over community creation through the licensing system' | Page 8-9: 'The role of the leadership group is to identify priority areas and direct participants' creativity toward those areas. The leadership group will set these priority areas as tasks to which individual contributors or small user groups can collaborate and contribute. Participants working on these priority areas will be rewarded more and will have a greater chance of climbing the ladder' | Page 10: 'The prerequisite of \"dual licensing\" is that the company must have intellectual property control over the entire software. This means that even though the software has been developed by a community of contributors, the company must have the intellectual property rights assigned from them. This is usually done through the mandatory requirement of accepting a \"contributors license agreement\"' | Page 10: 'the company can often protect and reclaim its image through public relation programs and the adoption of business strategies to nurture communities' | Page 14: 'licensing actually enables the licensor to exercise all sorts of control over the final creation. This control allows the licensor to enter into product development partnerships with external entities'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655198",
+      "article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Starting with secondary care data first → Solved initial chicken-and-egg problem → Created immediate value for primary care consumers",
+        "Loading historical records at launch → Increased initial data volume → Enhanced value proposition from start",
+        "Administrative decision for regional adoption → Bypassed individual user adoption challenges → Reached critical mass",
+        "Subscription model instead of usage-based → Encouraged platform usage → More transactions reduce cost per transaction",
+        "Healthcare district as intermediary payer → Simplified payment structure → Consolidated billing"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 5-6: 'Satakunta region started with connecting their secondary care EHR system to the RHIS so that all primary care doctors would have the opportunity to consume the data of their patients when the patients are discharged from secondary care. Also historical EHR records from secondary care were batch loaded to the RHIS to increase the value of accessing RHIS' | Page 5: 'The chosen option was a subscription model based on a fixed monthly fee. Each participating organization would pay their share of the total cost. It was considered to encourage the use of the platform: the more transactions, the smaller would be the cost per transaction' | Page 6: 'Within Satakunta and Varsinais-Suomi regions practically all potential users had become registered users. Network effects did not influence this to happen, because the organizations in the region had already made an administrative decision to use RHIS'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655206",
+      "article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Developing clear onboarding and partnering strategy → Address customer acquisition urgency → Enable timely action in blue ocean market",
+        "Pursuing interchange agreements with other platforms → Overcome platform lock-in → Make market more efficient and increase customer preference",
+        "Offering quick implementation solutions (WebEDI) for SMEs → Reduce adoption barriers → Enable e-invoicing use within hours of decision",
+        "Active involvement in EESPA → Promote interoperable ecosystem → Foster industry standards and collaboration",
+        "Seeking external consultancy → Address complex strategic decisions → Bring valuable insights balancing IT and business"
+      ],
+      "synonyms_found": [
+        "strategy development",
+        "interoperability",
+        "quick solutions",
+        "industry collaboration",
+        "external expertise"
+      ],
+      "source_citation": "Page 2: 'Mr. Poteri feels that something must be done. He thinks that Tieto should review several different options for onboarding business customers onto their e-invoicing platform' | Page 5: 'Mr. Poteri feels that interchange agreements can make the market more efficient and companies receiving or issuing invoices prefer to have only one platform contact' | Page 4: 'SMEs tend to choose quicker solutions using, e.g., WebEDI. This way e-invoicing can be in use within hours from making the decision to implement' | Page 5: 'Tieto is actively involved in EESPA' | Page 2: 'feeling the need for external consultancy on the matter, Mr. Poteri has scheduled a meeting with you'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655218",
+      "article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Service evolution strategy - starting with foundational services then progressively offering advanced services → Addresses evolving customer needs → Achieves viability at different stages",
+        "Hybrid revenue model adoption - combining transaction and subscription fees with differential pricing → Overcomes limitations of single revenue approach → Enables financial sustainability",
+        "Stakeholder engagement and buy-in focus → Addresses participation challenges → Ensures customers willing to pay for services",
+        "Learning from other HIEs' experiences → Reduces time to maturity → Enables better strategic decisions and faster evolution",
+        "Service bundling and structuring for different customer segments → Meets diverse needs effectively → Improves revenue generation",
+        "Clear value proposition development and communication → Overcomes willingness to pay barriers → Increases participation rates",
+        "Public-private partnership models → Secures initial funding → Enables operational launch and development",
+        "Low-cost straightforward implementation approach → Reduces adoption barriers → Facilitates customer onboarding",
+        "Phased service rollout (clinical messaging first, then longitudinal records) → Ensures data volume before advanced features → Builds sustainable foundation"
+      ],
+      "synonyms_found": [
+        "strategies",
+        "solutions",
+        "approaches",
+        "practices",
+        "mitigation"
+      ],
+      "source_citation": "Page 10: 'The sustainability strategy of IHIE was based on the principle \"to support the concept of service evolution and operational maturity\"' | Page 10: 'HealthBridge has evolved to offer a hybrid approach... has designed a mix of subscription-based and transaction-based revenue models to achieve sustainability' | Page 10-11: 'In addition, a collaboration plan with providers across Indiana provided IHIE enough stakeholder buy-in to pay for its services and achieve financial viability' | Page 11: 'CORHIO, drawing on the experiences of and learning from other HIEs, has evolved quickly' | Page 11: 'HIEs need to provide a mix of service offerings with tiered structures (e.g., like DHIN) or a hybrid revenue model with differential pricing to different customers based on participation and volume of data exchanged (e.g., HealthBridge)' | Page 10: 'HealthBridge was founded in 1997... evolved to become one of the nation's largest and most successful self-funded HIEs by combining different strategies, such as a low-cost, straightforward implementation' | Page 11: 'CORHIO's services were rolled out to each defined community in phases —first establishing clinical messaging and results delivery to ensure a significant volume of data was flowing through the HIE and among providers before deploying longitudinal community health records'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655219",
+      "article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Installing optical readers → Enables period tickets in apps and provides travel statistics → Expanded ticket assortment",
+        "Introducing passenger counting systems → Addresses lack of travel data → Improved route planning data",
+        "Offering charging on-board → Mitigates battery discharge problem → Attempted but phones charge too slowly",
+        "Providing portable chargers to inspectors → Helps passengers with dead batteries → Not successful due to slow charging",
+        "Running pilot tests (BIBO systems) → Tests new solutions before full deployment → Learning and optimization",
+        "Contracting through procurement process → Ensures clear actor roles and responsibilities → Defined relationships",
+        "Offering multiple payment options → Increases accessibility → Broader customer reach",
+        "Price policy directing to plastic cards → Manages costs and fraud risks → 10-40% discounts for card users"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 5: 'With installation of mobile ticket readers, recently updated apps of some companies (Karlstadbuss, Skånetrafiken, and Västtrafik) started offering longer period tickets' | Page 5: 'installation of mobile ticket readers will improve the situation. Another option is introduction of buses with passengers' counting systems' | Page 5: 'in order to help their customers, in some cases ticket control inspectors have portable charges, but their experience shows that the phones are charging too slow and this practice is not successful. One way to solve this problem is to have the opportunity to charge phones on-board' | Page 4: 'Ruter runs a pilot tests on one of bus lines in Oslo, and Jiffi pilots are running in Tallinn and Tartu' | Page 6: 'With the help of price policy, most of public transport companies in Sweden direct the customer choice towards use of pre-paid smart cards (e.g. single ticket in Stockholm bought with a card costs 30 SEK, and 43 SEK with mobile app, Blekingetrafiken and Länstrafiken Kronaberg offer 20% and Skånetrafiken offers 10% discount if buying single tickets with pre-paid card)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655247",
+      "article_title": "The effect of free sampling strategies on freemium conversion rates",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Free trial strategies (Freefirst or Premiumfirst) → Overcome experience-good characteristics → Improve premium conversion rates",
+        "Premiumfirst strategy implementation → Leverage loss aversion effect → Increase conversion propensity (6x odds improvement)",
+        "Optimizing product value discrepancy → Balance user acquisition with conversion motivation → Maximize profitability",
+        "Social sharing incentives → Reward users for referrals → Rapidly grow user base at lower cost",
+        "Advertising in free version → Generate additional revenue stream → Help subsidize free users",
+        "Adding advanced features to premium over time → Increase value contrast → Improve conversion rates",
+        "App store optimization → Improve rankings → Create virtuous loop of visibility and user growth",
+        "Tweaking value discrepancy throughout product lifecycle → Adapt to changing objectives → Optimize for current stage"
+      ],
+      "synonyms_found": [
+        "free trials",
+        "Premiumfirst",
+        "value discrepancy optimization",
+        "social sharing",
+        "advertising"
+      ],
+      "source_citation": "Page 1: 'many firms such as Dropbox or Evernote are using free trials to counter the experience-good characteristics of their digital services and thus attempt to improve premium conversion rates' | Page 8: 'the odds ratio suggests that the odds of converting in Premiumfirst are 6.053 times the odds of converting in Freefirst' | Page 2: 'when paired with social sharing incentives like paying users for every new user that they bring, free users become an effective lever for rapidly growing a company's user base' | Page 3: 'Over time the firm has continuously increased the contrast between the free and premium version by adding advanced features such as an offline listening mode for premium users, which demonstrates that companies also change their strategy throughout a product's lifecycle' | Page 3: 'companies may need to tweak product value discrepancy throughout different stages of a product's life cycle to realign it with their objectives'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655350",
+      "article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Anonymizing and aggregating data → Addresses privacy concerns → Enables ethical data trading while protecting individuals",
+        "Transparent privacy policies → Builds user trust → Specifies exactly how data will be used",
+        "Multiple revenue streams (ads + premium + data) → Reduces dependency on single source → More sustainable model",
+        "Enhanced advertising instead of generic ads → Better user experience → Makes ads feel like answers to user needs",
+        "Using data internally first (e-ethnography) → Improves core products → Strengthens primary business before external data sales",
+        "Building large user bases before monetizing → Reaches big data threshold → Ensures sufficient data value",
+        "Strategic acquisitions to consolidate data → Creates larger databases → Increases data value and freedom to use"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'All of the privacy policies we analyzed addressed these concerns by specifying that data would be shared only in anonymized and aggregated forms' | Page 5: 'the privacy policies were analyzed to understand how companies might employ user-sourced data' | Page 5: 'Even these typically rely on some revenue from users, in the form of premium offerings, in-app sales, or cross-selling of physical products' | Page 6: 'Ads that don't feel like ads. Based on the unique goals of your brand, we'll reach the right audience at the right time... highly contextualized advertising messages and links to advertisers that make ads look like the answer to users' needs' | Page 7: 'Nike uses its Nike Running customers to understand how people use its core product—shoes' | Page 7: 'companies like Under Armour, which now owns 3 of the 14 apps in our sample (Endomondo, MyFitnessPal, and MapMyRun) and seems to be building a suite of services for athletes... FitnessKeeper (the provider of RunKeeper), which created the Health Graph to gather data from partners as well. These two examples show how companies are seeking ways to build large databases and maintaining the freedom to use these data to create value'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655362",
+      "article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Constructing forecasting models using initial purchase information → identify potential heavy users early → enables special retention measures suited to their needs",
+        "Using CLV prediction at initial purchase → segment customer base by forecasted CLV → execute appropriate CRM measures and evaluate effectiveness",
+        "Treating 'best' customers with special care (VIP-like retention programs with dedicated services) → reduce churn risk → retain high-value customers",
+        "Aligning acquisition costs with CLV forecasts → assess whether customer group will generate enough future revenue → avoid acquiring unprofitable customers",
+        "Applying differentiated monetization strategies for up- and cross-selling → take payers to next highest spender bracket → increase revenue per customer",
+        "Using past purchase behavior as input for CLV models → more meaningful for segmenting customer base than demographic information → better predict future value"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Companies operating in these and similar businesses are increasingly constructing forecasting models with which to identify potential heavy users as early as possible and create special retention measures to suit those users' needs' | Page 9: 'An appropriate CLV prediction can support freemium businesses' acquisition, retention, and monetization strategies' | Page 9: 'identified high potential-value customers should be treated with special care – for example, with a (VIP-like) retention program with dedicated services (such as guaranteed response time to service tickets or unique platform content) to reduce their churn risk' | Page 9: 'it is important that they align these costs with their CLV forecasts to assess whether a certain customer group is likely to generate enough future revenues to be proﬁtable'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655382",
+      "article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Creating global centralised specialist teams to sense emerging trends and disseminate them → identify worthwhile acquisition targets and swiftly acquire external knowledge",
+        "Acquiring companies to quickly increase manpower and internal knowledge → decrease time to market and put higher emphasis on exploration",
+        "Setting up small interdisciplinary teams for innovation projects (design thinking approach) → foster assimilation of diverse external and internal knowledge across departments",
+        "Extensive use of collaborative IT (social networks, wikis, instant messaging, bulletin boards) → quickly spread knowledge and receive feedback on ideas",
+        "Establishing structurally separated units for SaaS → avoid exploratory activities constrained by exploitative needs and allow freedom to experiment",
+        "Recruiting university graduates with new knowledge → compensate for knowledge deficits in web and cloud technologies",
+        "Adopting agile software development methods (Scrum) → adapt to faster release cycles and changing business requirements",
+        "Building on synergies with existing technologies (service-oriented architectures) → leverage foundation for new products",
+        "Dynamic shifting between exploitation and exploration modes → respond to external and internal conditions appropriately",
+        "Promoting organizational cultures of risk and entrepreneurship → encourage experimentation and openness to new ideas"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 21: 'AlphaCo and GammaCo created global centralised specialist teams whose aim is to sense emerging trends and disseminate them into the organisation. An important task of these teams is to identify worthwhile acquisition targets, which helped both firms to swiftly acquire external knowledge' | Page 22: 'AlphaCo sets up small interdisciplinary teams for almost any new innovation project to foster the assimilation of diverse external and internal knowledge across corporate departments' | Page 22-23: 'AlphaCo and GammaCo make extensive use of IT, especially cooperative work and organisational memory systems such as corporate social networks, blogging, wikis, instant messaging or bulletin boards' | Page 23: 'the more exploratory firms established structurally separated units for SaaS to avoid that exploratory activities are constrained by exploitative needs'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655386",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Adopting hybrid model (50/50 R&D allocation to SaaS and on-premise) → increased on-premise quality back to usual level, provided adaptation time for stakeholders",
+        "Controlled transition with pilot implementation (50 approved customers) → minimized negative effects, gained valuable feedback, eased customers into process",
+        "Hand-in-hand partnership strategy → worked closely especially with platinum partners to develop new services, maintained ecosystem relationships",
+        "Partner compensation mechanisms → higher percentages of subscription fees to partners initially, especially those solely relying on vendor",
+        "Continued on-premise support and maintenance → maintained trust, provided SaaS-based add-ons for existing customers, kept supporting existing systems",
+        "Shifting partner services from technical to business process consulting → redefined value proposition for partners in SaaS environment",
+        "Expanding partner sales channels → compensating for short-term cash flow loss through increased quantity of sales",
+        "Adjusting KPIs to align with transition goals → ensured organizational motivation and proper incentives throughout value chain",
+        "Acquiring US-based SaaS provider → accelerated technical knowledge and capabilities (though faced localization challenges)",
+        "Phased approach - starting with new customers first → planned to sell SaaS to all new customers starting 2015, especially micro businesses",
+        "Recognizing and slowing down rushed transition → fell back on on-premise model in 2014, took things slowly instead of overnight change"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 6: 'A solution arrived in 2014 when the management recognized the issues in rushing towards cloud and making transitions overnight, and hence fell back on the on-premise model and started to take things slowly. The resulting strategy is to pursue the so-called hybrid model' | Page 6-7: Detailed description of controlled transition, pilot implementation, partner compensation, and service shift strategies | Page 7: 'the strategy is to go \"hand in hand\" with partners to make the transition'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655389",
+      "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Business model reassessment phase → evaluated different courses of action based on technology changes and market conditions, pivoted from 3G to IPTV/PC",
+        "Business model development phase → evolved model toward prevailing market needs based on means available rather than fixed goals",
+        "Trial-and-error learning process → tested reactions of market, adjusted based on feedback",
+        "Finding alternative infrastructure technologies → switched to IPTV and Internet when 3G proved inadequate",
+        "Revenue sharing model → shared risks and profits with partners, avoided need for upfront investments in difficult times",
+        "Demonstrating benefits to all partners → showed game publishers anti-piracy value, showed operators portfolio extension value",
+        "Building strategic partnerships → cooperated with video-on-demand providers, set-top box manufacturers, middleware providers to access operators",
+        "Product development to reduce dependencies → integrated component technologies, provided SDK to reduce need for porting",
+        "Leveraging partner resources → gained content, marketing channels, invoicing systems, credibility from partners",
+        "Establishing credible reference customers → built reputation with well-known IPTV operators to facilitate future negotiations",
+        "Expanding product to new segments → introduced cloud console to overcome IPTV-only limitation",
+        "Patience and persistence → maintained vision over 14 years despite being ahead of market",
+        "Using entrepreneur's abilities, knowledge, imagination and social networks → co-founders leveraged backgrounds in videoconferencing and game physics"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 19: 'In the business model reassessment phase, entrepreneurs evaluate different courses of action based on changes in technology, market conditions' | Page 19: 'In the business model development phase, the business model is developed further... may require additional development of the product to match technological evolution, with changes in market strategy' | Page 12: 'revenue sharing was a way to share the risks and profits evenly with partners... not possible for us to offer any up-front investments' | Page 13-14: Detailed practices for demonstrating value to partners | Page 15-16: Product development to integrate technologies and provide SDK",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655397",
+      "article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+      "extraction_date": "2025-10-08",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Adopting payment-based models in high willingness-to-pay platforms → Avoiding reliance on declining advertising revenues → Better monetization in Apple's App Store; Using free model in low willingness-to-pay environments → Matching consumer preferences → Adequate revenue generation in Google Play; Implementing in-app purchase in Apple's App Store → Enabling price discrimination → Higher revenue performance; Avoiding freemium in Google Play → Preventing product cannibalization → Better revenue outcomes; Matching revenue model to app category → Addressing category-specific needs → Improved performance",
+      "synonyms_found": [],
+      "source_citation": "Page 16: 'developers in the Apple's App Store should consider following the general tendency illustrated by numerous recent studies on online content provision and take advantage of the demonstrated Apple users' high willingness to pay by adopting payment-based revenue models' | Page 16: 'developers in Google Play should avoid adopting this hybrid model and rather opt for either free or paid ones'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655417",
+      "article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+      "extraction_date": "2025-10-08",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Applying design science methodology → Structured approach to business model development → Rigorous and relevant solutions; Using design procedure (DP) and design options (DO) → Systematic decision sequence → Clear business model architecture; Defining clear roles (coordinator vs. provider) → Task allocation clarity → Reduced coordination complexity; Establishing governance frameworks (technical, service, financial) → Rule-based cooperation → Predictable interactions; Using APIs and SLAs for technical governance → Standardized interfaces → Interoperability assurance; Adopting SaaS delivery model → Flexible service provision → Reduced deployment complexity; One-face-to-customer coordination → Simplified customer interaction → Enhanced market presence; Revenue sharing based on contribution → Fair value distribution → Partner motivation alignment",
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'By applying the design science approach, two design artefacts (i.e. guidelines) are provided: a design procedure (DP) suggesting a sequence of design decisions that need to be undertaken in the process of business model design, and an overview of detailed design options (DOs)' | Page 6: 'Defining the roles can help the creation of templates for specific business relationships, by formalizing expected commitments and tasks' | Page 9: 'All partners committed themselves to provide an operating SaaS version of their component with predefined APIs and SLA'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655425",
+      "article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+      "extraction_date": "2025-10-08",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Using concurrent user-based pricing → Protects against increasing maintenance costs → Aligns costs with usage; Applying time-based price discrimination → Protects against low switching costs → Makes short-term higher priced; Offering both renting and licensing models → Addresses customer preferences → Serves customers with security concerns; Charging separately for implementation → Increases switching costs → Offsets short-term renting benefits; Using mixed revenue models → Responds to competitive forces → Flexible market positioning; Planning software architecture for cloud compatibility → Enables flexible deployment → Supports both cloud and on-premise options",
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'In firms A, C, D, and E the pricing was based on concurrent user assessment, taking into account the need to protect their business against increasing maintenance costs' | Page 7: 'Firm A and Firm B used time-based price discrimination to protect their business against low switching costs. Hence, the fee for a short-term rental agreement was higher than for a long-term contract' | Page 8: 'firms D and E protected their business against rivalry and substitutes by using separate pricing for the implementation work' | Page 10: 'all the case firms had planned their software architecture to be compatible with both the cloud environment and stand-alone implementations'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655440",
+      "article_title": "Designing business models for cloud platforms",
+      "extraction_date": "2025-10-08",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Free developer accounts → Lowers entry barriers → Stimulates platform usage and developer adoption. MOOCs and certification programs → Invests in developer capabilities → Builds skilled developer community. Developer competitions and university events → Actively engages developers → Creates ecosystem momentum. Test-drive capabilities for C&A → Reduces adoption friction → Increases application trial and consumption. Lower revenue share (15% instead of 30%) → Subsidizes development partners → Incentivizes complementor participation. Custom development for existing customers → Strengthens installed base relationships → Builds trust and demonstrates value. Integration into roadmap planning → Involves complementors in strategy → Ensures alignment and commitment. Marketplace reengineering → Improves distribution capabilities → Facilitates C&A transactions. Quality assurance and certification → Ensures ecosystem quality → Increases consumer confidence. Organizational consolidation of platform teams → Aligns similar goals under one executive → Reduces internal conflicts. In-house utilization of platform → Proves technology viability → Builds credibility with external customers.",
+      "synonyms_found": [
+        "free accounts",
+        "subsidize",
+        "MOOCs",
+        "test-drive",
+        "custom development",
+        "marketplace"
+      ],
+      "source_citation": "Page 13: 'offering developers free accounts to stimulate them to use the platforms; (2) a series of free MOOCs for developers, including certification; and (3) the idea of test-drive capabilities for C&A' | Page 23: 'lower prices for developers (subsidize development partners) as well as its revenue share (now 15%, instead of 30% before); free trial accounts, MOOCs, developer competitions and events at universities; (re)launch of a dedicated marketplace for HCP that also provides test-drive capabilities; quality assurance and certification processes' | Page 23: 'Alpha has begun to integrate complementors into its road map planning for HCP and offers custom development on HCP for existing customers' | Page 23: 'Reorganization to consolidate all teams working on HCP; Enforcing the use of HCP for extending cloud offerings as well as custom development projects (in-house utilization of PaaS)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655451",
+      "article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+      "extraction_date": "2025-10-08",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "One-stop-shop portals → Simplifies customer interface and charging → Enables user identification and single point of payment. AppCenter marketplace → Provides unified access point → Reduces complexity for both providers and end-users. Single legal entity for platform stakeholders → Consolidates multiple contracts → Simplifies commercial relationships. Revenue distribution mechanisms → Ensures fair stakeholder compensation → Maintains platform sustainability. Technology abstraction → Hides cloud complexity from end-users → Improves user experience. Flexible business model options → Accommodates different stakeholder needs → Enables market segmentation. Customer support at appropriate levels → Maintains service quality → Ensures user satisfaction. Multi-cloud support → Provides redundancy and cost optimization → Reduces vendor lock-in risks.",
+      "synonyms_found": [
+        "one-stop-shop",
+        "AppCenter",
+        "single legal entity",
+        "revenue distribution"
+      ],
+      "source_citation": "Page 8: 'This partially motivated the development of the one-stop-shop application specific portals and the general AppCenter. Users register at a one-stop-shop and use the software' | Page 8: 'Instead, a simpler model was adopted that brought the stakeholders that provided and supported the platform together into a single legal entity. A single contract could then be issued between the platform company and the software vendor' | Page 8: 'this both simplifies charging mechanisms and enables end-users to be presented with a single point of charging rather than point-to-point relationships with the many stakeholders' | Page 8: 'Many of the MSaaS solutions that have been developed place the decision at the software vendor level and hide these details from the end-user (to simplify cloud use and maximize benefit)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655528",
+      "article_title": "A Study on a Decentralized SaaS Business Model",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Decentralized business model → Mitigates single-point-of-failure → Improved system reliability",
+        "Service selection strategies → Optimizes load balancing → Better QoS and revenue",
+        "Demand factor calculation → Predicts future demand → Better service allocation",
+        "Fixed strategy → Maximizes revenue → Highest satisfaction rate"
+      ],
+      "synonyms_found": [
+        "decentralized model",
+        "service selection",
+        "demand factor",
+        "Fixed strategy"
+      ],
+      "source_citation": "Page 1, Section I: 'To avoid either one, we propose and analyze a distributed business model, which could be an alternative here.' | Page 4, Section IV: 'Fixed strategy is found to be the best method to earn the highest total revenue for all five servers, with the highest satisfaction rate too.' | Page 3, Section IV: 'Eq. (1) represents the service load history in the market. Here, the application having the highest value of d is the one that clients may request the most in the future.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655555",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Dual revenue models → Addresses security and IT infrastructure concerns",
+        "Flexible pricing → Accommodates different customer needs",
+        "Time-based price discrimination → Protects against low switching costs",
+        "Implementation work pricing → Increases switching costs",
+        "Customer-focused approach → Aligns with market demands"
+      ],
+      "synonyms_found": [
+        "dual revenue models",
+        "flexible pricing",
+        "time-based price discrimination",
+        "implementation work",
+        "customer-focused"
+      ],
+      "source_citation": "Page 3, Section IV: 'We have different ways to offer the product to customers. We can sell it as SaaS, using software renting. The second option is to sell it via a traditional software license, if someone prefers that.' | Page 5, Section V: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655589",
+      "article_title": "Service-Centric Business Model in Cloud Environment",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Ontological framework → Comprehensive understanding of business logic",
+        "Service-centric approach → Better service delivery and value creation",
+        "Value network formation → Efficient coordination and collaboration",
+        "Resource virtualization → Optimized resource utilization",
+        "Service standardization → Consistent service delivery",
+        "Systematic review → Better understanding of BM evolution"
+      ],
+      "synonyms_found": [
+        "ontological framework",
+        "service-centric approach",
+        "value network",
+        "resource virtualization",
+        "service standardization",
+        "systematic review"
+      ],
+      "source_citation": "Page 4, Section IV: 'The conceptualization of the CBM will make organizations to successfully understand value, service, and relative operation elements by detailing how it delivers products and services profitably and how it plans to do so in the long term.' | Page 1, Section I: 'Hence, a systematic review on the evolution of BM and the BMIs in cloud environment can help to further analyze element of new BM and conceptualize it with a comprehensible framework.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655614",
+      "article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Shared and trusted data platforms → Mitigates privacy concerns → Enables data aggregation",
+        "Multiple revenue models → Mitigates low willingness to pay → Provides alternative monetization",
+        "Freemium model → Mitigates payment resistance → Enables user adoption",
+        "Data monetization → Mitigates direct payment needs → Generates revenue from third parties"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Página 1: 'These issues could be circumvented by instantiating shared and trusted data platforms that aggregate user data' | Página 6: 'different revenue models, i.e. bundling, pay-per-use, affiliation, advertisement, subsidy and sponsoring' | Página 6: 'The app market is dominated by the freemium model as over 90% of all apps are for free' | Página 10: 'premium-pricing as well as data-monetization strategies can both be viable'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655631",
+      "article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Open source strategy → Reduced development costs → Faster adoption",
+        "Free licensing → Handset maker attraction → Market penetration",
+        "App store creation → Developer attraction → User engagement",
+        "Multi-carrier partnerships → Network coverage → User satisfaction"
+      ],
+      "synonyms_found": [
+        "practices",
+        "strategies",
+        "solutions",
+        "approaches"
+      ],
+      "source_citation": "Page 4: 'Google developed an operating system and licensed it to any and all handset makers. The key difference between Google's Android and Microsoft's DOS and Windows was that Android was open-source and cost the handset manufacturers nothing.' | Page 7: 'Apple launched the App Store, which featured applications for both the iPhone and the iPod touch' | Page 3: 'Google chose to attract consumers indirectly by first attracting handset manufacturers and network operators'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655648",
+      "article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Data-driven optimization → Improved player engagement and retention",
+        "Viral mechanics and social features → Reduced user acquisition costs",
+        "Cross-platform development → Reduced dependency on single platform",
+        "Iterative development approach → Faster validation and adaptation"
+      ],
+      "synonyms_found": [
+        "practices",
+        "strategies",
+        "solutions"
+      ],
+      "source_citation": "Page 6: 'This low conversion rate of players into payers favors economies of scale and requires game studios to use a data-driven approach to game development and circulation in order to optimize, what industry insiders call \"player monetization.\"' | Page 7: 'The ask-for-help feature to gain access to additional episodes is one example of how the connective affordances of Facebook are implemented in the core design of the Saga template. By doing so, King repurposes seemingly social gestures, such as gifting, to generate \"organic growth\" (Burroughs, 2014).' | Page 5: 'King uses \"a well-practiced, low-cost, low-risk process for game development where we have typically developed a new game IP with a team of three people in 20 weeks\" (King Digital Entertainment, 2014a, p. 51).'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655698",
+      "article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Offering high-quality free version → Mitigates quality concerns → Increases paid version sales",
+        "Focusing on user experience and satisfaction → Reduces reliance on reviews → Builds consumer confidence",
+        "Competitive positioning through free trials → Mitigates market competition → Attracts new customers"
+      ],
+      "synonyms_found": [
+        "quality focus",
+        "user experience",
+        "competitive positioning"
+      ],
+      "source_citation": "Page 52: 'offering a quality free app is more important in boosting sales of the paid app' | Page 932: 'With the opportunity to try out an app for free, the mobile app market has technically created a virtual fitting room and provides consumers with a shopping experience highly similar to the one found in a traditional department store'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655702",
+      "article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Choosing optimal degree of openness → Balancing proprietary and OS solutions",
+        "Leveraging network externalities → Increasing market adoption",
+        "Targeting advanced users → Reducing compatibility concerns"
+      ],
+      "synonyms_found": [
+        "optimal degree of openness",
+        "leveraging network externalities",
+        "targeting advanced users"
+      ],
+      "source_citation": "Page 3: 'we focus on a single, but crucial dimension of a start-up's degree of openness: the share of OS software solutions that a new entrant chooses to offer out of its total solutions' | Page 3: 'OS users are skilled in computer science (e.g., system administrators or software developers)'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655721",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Value-based pricing → Addresses client value perception → Higher satisfaction",
+        "Usage-based pricing → Accommodates varied usage → Fair billing",
+        "Specialized market targeting → Reduces complexity → Better service quality"
+      ],
+      "synonyms_found": [
+        "value-based pricing",
+        "usage-based pricing",
+        "market specialization"
+      ],
+      "source_citation": "Page 6: 'We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing. Compared to the generalized market orientation, specialized market orientation implies that the usage variations among clients are less and the accumulation of expertise becomes relatively easy to achieve'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655747",
+      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Customer needs analysis → Understanding market requirements",
+        "Segment-specific value propositions → Addressing different customer types",
+        "SaaS characteristics (low price, high volume) → Competitive positioning",
+        "Comprehensive benefit communication → Market education"
+      ],
+      "synonyms_found": [
+        "practices",
+        "mitigation",
+        "strategies"
+      ],
+      "source_citation": "Page 3: 'The customer needs were collected by conducting semi-structured interviews in 14 companies' | Page 5: 'The value proposition will vary depending on the customer segment and their products to which the new solution will be provided' | Page 3: 'Also other SaaS business characteristics (e.g. easy to deploy and deliver, online purchase and support, low price, high volume, common business processes, transferrable risk, and low budgetary expense) have an influence on the development of a business model'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655750",
+      "article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Software patent portfolio → Litigation protection → Competitive advantage",
+        "Strategic IPR alignment → Value appropriation → Higher firm value",
+        "Community engagement → Innovation input → Product development",
+        "Complementary asset investment → Revenue streams → Business sustainability"
+      ],
+      "synonyms_found": [
+        "mitigation strategies",
+        "solutions",
+        "practices"
+      ],
+      "source_citation": "Page 4: 'large stocks operate as strategic tools to sell complementary products/services' | Page 4: 'they allow the firm to avoid holdups and litigation threats by technology suppliers' | Page 6: 'firms that adopt the open innovation model integrate these external sources'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655785",
+      "article_title": "The relationship between Open Innovation and Strategy: data-driven analysis of the Mobile Value Services Industry",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Revenue sharing agreements → Partner motivation → Sustained collaboration",
+        "Open organizational culture → Change management → Better adaptation",
+        "Strategic integration → OI-Strategy alignment → Consistent performance",
+        "Absorptive capacity development → Knowledge integration → Innovation capability"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 6: 'incentivizing revenue sharing agreements' | Page 8: 'internal culture of change' | Page 2: 'insufficient linkage between the OI endeavor and the firm's internal strengths and weaknesses' | Page 8: 'Absorptive capacity and the integration of the acquired external knowledge are essential'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655819",
+      "article_title": "Open-Source Software Entrepreneurial Business Modelling",
+      "extraction_date": "2024-12-19",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "University course introduction → Framework education and awareness",
+        "Business incubator presentations → Practical application exposure",
+        "Workshops and consultation → Hands-on guidance and support",
+        "Action research studies → Framework improvement through real-world testing"
+      ],
+      "synonyms_found": [
+        "university course",
+        "workshops",
+        "consultation",
+        "action research studies"
+      ],
+      "source_citation": "Page 2: 'Earlier versions of the OSS_EBM framework were introduced in an e-commerce university course targeting both master and doctoral students. Moreover, this framework was presented at two events of early-stage startup business incubators. Four workshops and free consultation were conducted' | Page 3: 'In particular, more thorough action research studies are on the way; guiding and observing focal startups in the use of this tool.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655845",
+      "article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+      "extraction_date": "2025-01-27",
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Platform provider investments → Platform improvements → Enhanced CVP",
+        "Open source developer incentives → Platform improvements → Better platform capabilities",
+        "Value proposition enhancement → Application customer attraction → Cross-sided network effects",
+        "Proof of concept studies → Model validation → Improved generalizability"
+      ],
+      "synonyms_found": [
+        "platform improvements",
+        "open source developers",
+        "value proposition",
+        "proof of concept"
+      ],
+      "source_citation": "Page 6, Section 6: '4CaaSt needs to ensure platform improvements. This could on the one hand be accomplished by the platform providers themselves, or 4CaaSt could also create incentives for open source developers. Second, 4CaaSt should definitely improve its value proposition to application customers to utilize critical cross-sided network effects'",
+      "confidence_level": "high"
+    }
+  ]
+}

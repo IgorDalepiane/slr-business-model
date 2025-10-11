@@ -1,0 +1,1565 @@
+{
+  "question_metadata": {
+    "question_id": "31",
+    "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+    "total_articles": 67,
+    "articles_with_response": 64,
+    "articles_without_response": 3
+  },
+  "responses_by_article": [
+    {
+      "article_id": "190638760",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "New Cloud Computing Showplace (www.saas-showplace.com) → Vendor-independent resource center providing comprehensive SaaS vendor list, source of 353 vendor sample",
+        "Generic application categories cited: CRM (8.8%), Collaboration (8.5%), Project Management (6.2%), Marketing (5.3%), Accounting/Financial (4.9%), Document Management (4.9%), BPM (4.6%), others",
+        "Generic industry examples: Professional Services (9.8%), Technology (9.7%), Software (9.2%), Banking/Financial Services (7.3%), Healthcare (5.8%), Government (4.8%), others"
+      ],
+      "synonyms_found": [
+        "SaaS vendors",
+        "Cloud Computing Showplace",
+        "application types",
+        "industry types"
+      ],
+      "source_citation": "Page 3: 'The pricing data source is obtained through our examination of each SaaS vendor's website according to the vendor list provided by the New Cloud Computing Showplace website (http://www.saas-showplace.com). Based on our knowledge, we tend to believe the SaaS vendor list presented by the prior website is the most comprehensive one. Besides, this website is regarded as the vendor-independent, resource center of industrial best practices in SaaS market' | Page 3, Table II: 'Application Types (No. of application types: 45) CRM 8.8, Collaboration 8.5, Project Management 6.2, Marketing 5.3, Accounting/Financial 4.9, Document Management 4.9, BPM 4.6, Productivity 3.6, Content Management 3.3, Business Intelligence 2.9, IT/Application Management 2.8, Others 44.2' | Page 3, Table II: 'Industry Types (No. of industry types: 32) Professional Services 9.8, Technology 9.7, Software 9.2, Banking/Financial Services 7.3, Healthcare 5.8, Government 4.8, Entertainment/Media 4.7, Legal 4.5, Manufacturing 4.3, Education 4.0, Non-Profit 3.4, Others 32.5'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190638781",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Firm A → Anonymous telecom planning and optimization software provider, established 1998, offers both SaaS rental and traditional licensing with multi-instance architecture",
+        "Firm B → Anonymous interactive gaming platform provider, established 2000, provides games-on-demand with multi-tenant architecture using revenue sharing model",
+        "Firm C → Anonymous enterprise-SaaS provider for access rights management, launched 2008 as spin-off, serves financial institutions and government with both rental and licensing options",
+        "Firm D → Anonymous 3D modeling software provider for furniture industry, established 2006 as spin-off, uses pure rental model with multi-instance architecture, 90% customers prefer cloud"
+      ],
+      "synonyms_found": [
+        "Firm A",
+        "Firm B",
+        "Firm C",
+        "Firm D",
+        "case firms"
+      ],
+      "source_citation": "Page 3: 'Firm A develops planning and optimization software for telecom operators. The firm, established in 1998, acted purely as a service firm until 2009' | Page 3: 'Firm B, established in 2000, provides interactive gaming platforms and games-on-demand services, using multi-tenant software architecture' | Page 4: 'Firm C was launched in 2008 as a spin-off from a software service firm that provides consulting services related to identity management. Currently, Firm C develops enterprise-SaaS for access rights management' | Page 4: 'Firm D was established in 2006 as a spin-off from a larger software firm. It develops 3D modeling software for furniture manufacturers and furniture retailers as enterprise-SaaS'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638871",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Salesforce.com → Example of new player introducing cloud business models and obtaining first-mover advantages; cloud-based CRM software delivered over Internet as SaaS example",
+        "Amazon → Example of new player with first-mover advantage in cloud; Amazon Web Service provides IaaS offering remote computing services",
+        "Microsoft → Example of traditional vendor making transition to cloud with 'cloud-first design' strategy focusing on SaaS, PaaS and IaaS",
+        "SAP → Example of incumbent managing shift to cloud through buying and partnering with other vendors; provides applications and enterprise systems",
+        "Google → Example of new player in cloud market; Google's App Engine as PaaS example for application development and hosting",
+        "EMC → Provider of raw computing and data storage services at IaaS level",
+        "AT&T → Provider of raw computing and data storage services at IaaS level",
+        "IBM → Provider of platform services at PaaS level",
+        "ERP Co → Main case study subject - Nordic ERP vendor transitioning from on-premise to cloud-based SaaS business model for SME market"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1, Section 1: 'Over the recent years, we have seen new players, such as Salesforce.com and Amazon, introducing the new business models and obtaining first-mover advantages. In parallel, traditional software vendors, such as Microsoft and SAP, are also making the transition to cloud-based business models' | Page 1, Section 1: 'software-as-a service (SaaS) (e.g. Salesforce.com cloud-based customer relationship management software delivered over the Internet), platform-as-a-service (PaaS) (e.g. Google's App Engine upon which various application can be developed, distributed and hosted), and infrastructure-as-a-service (IaaS) (e.g. Amazon Web Service that offers remote computing services)' | Page 1, Section 1: 'with a comprehensive strategy focusing on \"cloud-first design,\" Microsoft is going full force with the transition to cloud on SaaS, PaaS and IaaS levels; whereas SAP managed the shift towards offering their software on cloud through buying and partnering with other vendors at other levels' | Page 2, Section 2: 'Amazon, EMC, and AT&T in providing raw computing and data storage services, IBM, Google, and Microsoft in providing platform services, and finally Salesforce.com and SAP in providing applications and enterprise systems'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638976",
+      "article_title": "Managing a Software Business",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Microsoft Windows → Example of pure software product business model",
+        "iPhone → Example of software-hardware combination business model",
+        "eBay → Example of service-based business model",
+        "Netflix → Example of business model transition from posted DVDs to video streaming"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1, Section 'Your Business Model and Strategy': 'Will that be a pure software product, such as Microsoft Windows; a software–hardware combination (consider the iPhone); or a service, such as eBay?' | Page 1: 'If your business model aims to supplant an existing one (think of Netflix moving from posted DVDs to video streaming), you must also plan and manage the transition and its upheaval.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653396",
+      "article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "LettUs Grow → Example of Sustainable Product-Service System; digitally controlled vertical farms that optimise resource usage through data analytics",
+        "Tado → Example of Sustainable Software Solution; digital automation service to ensure sustainable heating",
+        "Octopus Energy → Example of Digital Sustainable Platform; uses digital platform to make sustainable energy cheaper",
+        "Beryl → Example of Sustainable Software Solution; develops software backend for micro-mobility sharing services like bike-sharing",
+        "Rocsole → Example of Sustainable Software Solution mentioned in archetype definition",
+        "Zola Electric → Example of Sustainable Product-Service System mentioned in archetype definition",
+        "Sono Motors → Example of Sustainable Product-Service System; provides mobile app complementing solar-powered cars enabling car sharing, ride shares, power shares",
+        "Arabesque → Example of Sustainability Intelligence; data analytics platform calculating sustainability metrics, carbon footprint, UN Global Impact Principles, ESG scores",
+        "Plan A → Example of Sustainability Intelligence mentioned in archetype definition",
+        "Reactive Technologies → Example of Sustainability Intelligence; combines real-time monitoring and predictive analytics to manage renewable energy power grids",
+        "Tise → Example of Digital Sustainable Platform; digital platform for used clothing mixing classifieds with social networking elements",
+        "Too Good To Go → Example of Digital Sustainable Platform; offers platform for restaurants/supermarkets/hotels to sell surplus food at reduced prices",
+        "ClimatePartner → Example of Digital Sustainable Platform mentioned in archetype definition",
+        "PHENIX → Example of Digital Sustainable Platform; offers digital platforms for surplus food sales",
+        "Climatetrade → Example of Digital Sustainable Platform; marketplace for carbon offsetting projects using blockchain technology",
+        "Enerbrain → Example of Sustainable Software Solution; analyses sensor data in buildings to optimise ecological sustainability",
+        "Planet A → Example of Sustainability Intelligence; analyses clients' carbon data and recommends decarbonization strategies",
+        "SAP → Example of incumbent company adopting Sustainability Intelligence archetype with Product Footprint Management"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'LettUs Grow has digitally controlled farms that optimise resource usage through data analytics. Tado offers a digital automation service to ensure sustainable heating, and Octopus Energy uses a digital platform to make sustainable energy cheaper.' | Page 11, Table 3: Lists examples for each archetype | Page 11: 'Beryl develops the software backend for micro-mobility sharing services' | Page 12: 'Sono Motors provides a mobile app complementing its solar-powered cars' | Page 12: 'Arabesque offers a data analytics platform' | Page 13: 'PHENIX and Too Good To Go, for example, offer digital platforms' | Page 20, footnote 7: 'SAP, as a global company, adopted a new digital sustainable BM that can be located within our sustainability intelligence archetype'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653434",
+      "article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Renren → Example of app with strong performance contrast in freemium model",
+        "Shrimp Music → Example of app with strong performance contrast",
+        "QQ Farm → Example of app with strong performance contrast",
+        "WeChat → Example of successful freemium app",
+        "NetEase Cloud → Example of app showing performance contrast",
+        "Arena of Valor → Example of MOBA game app with fragmented freemium model; allows players to purchase props and coupons based on interests",
+        "Tencent Conference → Example of bundled freemium business model app whose functional modules are bundled and sold; customers pay for membership to purchase bundled function modules",
+        "Tencent meeting → In sample; focuses on sensing and seizing capability",
+        "Pinduoduo → In sample (major e-commerce platform)",
+        "Meituan → In sample (major platform)",
+        "Taobao → In sample (Alibaba e-commerce)",
+        "Alipay → In sample (Alibaba payment)",
+        "QQ → In sample (Tencent messaging)",
+        "DingTalk → In sample (Alibaba enterprise communication)",
+        "Jingdong → In sample (major e-commerce)",
+        "Xiaohongshu → In sample (social commerce)",
+        "Bilibili → In sample (video platform)"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1, Introduction: 'Renren, Shrimp Music, QQ Farm and WeChat, NetEase Cloud, Arena of Valor, and other apps show strong contrasts in performances' | Page 2: 'Arena of Valor is a multiplayer online battle royale (MOBA) game app. Arena of Valor allows players to purchase props and coupons based on their interests. Tencent Conference has a bundled freemium business model app, whose functional modules are bundled and sold' | Page 5, Table 1: Complete list of 45 case apps | Page 10: 'Tencent Meeting, an app, focuses more on improving sensing and seizing capability' | Page 11: 'Arena of Valor brings high value-added revenue to the company due to its fragmented freemium model'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653582",
+      "article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Adobe → Main case study company transitioning to subscription model | Canva → Emerging competitor with browser-based creative software | Figma → Competitor in user experience design | Microsoft → Competitor with Creator's Update | Avid Technology → Traditional competitor in DMS market | Autodesk → Leading player in DMS market | Affinity (Serif) → Competitor with redesigned creative software",
+      "synonyms_found": [
+        "companies",
+        "products",
+        "competitors",
+        "examples"
+      ],
+      "source_citation": "Page 1, Introduction: 'Adobe, Avid Technology, Autodesk, Affinity (Serif) and Canva are among the leading players in this market.' | Page 3, Competitive landscape: 'Microsoft has been touting their 'Creators Update'' | Page 7, What lies ahead: 'Adobe faces stiff competition from disruptors such as Figma, Canva, Google photos and InVision.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653589",
+      "article_title": "Navigating the paradox of global scaling",
+      "extraction_date": "2025-01-22",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Alder, Birch, Elm, Hazel, Maple, Oak, Pine, Willow → Anonymous SaaS firms studied in the research",
+        "Dropbox → Well-known example of SaaS firm",
+        "HubSpot → Well-known example of SaaS firm",
+        "Qualtrics → Example of firm that started global scaling at age 12",
+        "Netflix → Example of firm that started global scaling at age 13",
+        "IKEA → Comparison case for flexible replication strategy",
+        "Salesforce → Source of experienced executives hired by study firms"
+      ],
+      "synonyms_found": [
+        "Alder",
+        "Birch",
+        "Elm",
+        "Hazel",
+        "Maple",
+        "Oak",
+        "Pine",
+        "Willow",
+        "Dropbox",
+        "HubSpot",
+        "Qualtrics",
+        "Netflix",
+        "IKEA",
+        "Salesforce"
+      ],
+      "source_citation": "Page 7: 'Our sample consists of eight firms, which we refer to as Alder, Birch, Elm, Hazel, Maple, Oak, Pine, and Willow to protect their anonymity' | Page 8: 'Well-known examples of SaaS firms include Dropbox and HubSpot' | Page 4: 'Qualtrics and Netflix were 12 and 13 years old, respectively, before they started to scale globally' | Page 5: 'IKEA permitted certain aspects of their retail operations to be locally determined'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653595",
+      "article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Dropbox → Freemium examples",
+        "Evernote → Freemium examples",
+        "LinkedIn → Freemium examples",
+        "Spotify → Freemium examples",
+        "Fruit Ninja → Game app with free and paid versions"
+      ],
+      "synonyms_found": [
+        "well-known examples"
+      ],
+      "source_citation": "Page 76: 'Well-known examples include Dropbox, Evernote, LinkedIn, and Spotify. Freemium is a prevalent pricing model for mobile apps' and Page 86: 'For example, the game Fruit Ninja is available for free with a separate paid version for a price of $1.99.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653734",
+      "article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Vine → Example of failure due to lack of proper monetization strategy",
+        "Amazon → Freemium model with ads and in-app purchases",
+        "Facebook → Freemium model with advertising",
+        "Instagram → Freemium model with advertising",
+        "Messenger → Freemium model with ads and in-app purchases",
+        "Netflix → Premium subscription model",
+        "Snapchat → Freemium model with advertising",
+        "Spotify → Freemium model with ads and subscription",
+        "TikTok → Freemium model with ads and in-app purchases",
+        "WhatsApp → Free model (no monetization)"
+      ],
+      "synonyms_found": [
+        "Vine",
+        "Amazon",
+        "Facebook",
+        "Instagram",
+        "Messenger",
+        "Netflix",
+        "Snapchat",
+        "Spotify",
+        "TikTok",
+        "WhatsApp"
+      ],
+      "source_citation": "Page 1: 'Take the case of Vine, a once popular social media platform, which is said to have failed in part due to its lack of a proper monetization plan' and Page 6: 'Our key findings reveal that 7 out of the top 9 apps fall within the freemium spectrum'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653772",
+      "article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Transit App → Private sector shared app example",
+        "Token Transit → Private sector shared app example",
+        "MTA eTix → White-label app with minor customization example",
+        "CATS Pass → White-label app with minor customization example",
+        "CharmPass → White-label app with major customization example",
+        "Muni-Mobile → White-label app with major customization example",
+        "GoPass → In-house design vendor development example",
+        "SEPTA → In-house design vendor development example",
+        "TAP LA → In-house development example"
+      ],
+      "synonyms_found": [
+        "transit apps",
+        "mobile apps",
+        "applications"
+      ],
+      "source_citation": "Page 4: 'five business models were identified: (1) private sector shared app (e.g., Transit App, Token Transit); (2) white-label app with minor customization (e.g., MTA eTix, CATS Pass); (3) white-label app with major customization (e.g., CharmPass, Muni-Mobile); (4) in-house design vendor development (e.g., GoPass, SEPTA); and (5) in-house development (e.g., TAP LA)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653856",
+      "article_title": "Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market valuation?",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Salesforce → CRM platform example | Blackbaud → Nonprofit software | New Relic → Application performance monitoring | Nutanix → Cloud infrastructure | Talend → Data integration | Yext → Location data management | Healthstream → Healthcare workforce development | RingCentral → Communication platform | Appian → Low-code platform | ServiceNow → IT service management | Paycom → HR and payroll | Veeva → Life sciences cloud | HubSpot → Marketing and sales platform | Benefitfocus → Benefits administration | Atlassian → Development tools | ZenDesk → Customer service | Zix → Email security | MongoDB → Database platform | Blackline → Accounting automation | Coupa → Business spend management",
+      "synonyms_found": [
+        "Salesforce",
+        "Blackbaud",
+        "New Relic",
+        "Nutanix",
+        "Talend",
+        "Yext",
+        "Healthstream",
+        "RingCentral",
+        "Appian",
+        "ServiceNow",
+        "Paycom",
+        "Veeva",
+        "HubSpot",
+        "Benefitfocus",
+        "Atlassian",
+        "ZenDesk",
+        "Zix",
+        "MongoDB",
+        "Blackline",
+        "Coupa"
+      ],
+      "source_citation": "Page 2: 'SaaS Index: Based on the outlined criteria, our SaaS Index consists of the following companies: Salesforce, Blackbaud, New Relic, Nutanix, Talend, Yext, Healthstream, RingCentral, Appian, ServiceNow, Paycom, Veeva, Hubspot, Benefitfocus, Atlassian, ZenDesk, Zix, MongoDB, Blackline and Coupa'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653872",
+      "article_title": "Managing Software-as-a-Service: Pricing and operations",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Apple Inc. / Apple Music / iTunes → Music streaming and digital music distribution examples for pricing and bundling strategies",
+        "Netflix → Example of subscription pricing, recommendation systems, churn reduction, and network effects",
+        "ServiceNow → Example of customer service automation SaaS, hybrid cloud infrastructure, and operational excellence",
+        "Salesforce.com → Platform business model, CRM, third-party app ecosystem",
+        "Microsoft / Microsoft Office 365 / Azure → Cloud services, enterprise applications, bundling strategy, infrastructure provider",
+        "Adobe Systems Inc. / Adobe Creative Cloud → Transformation from OTS to SaaS, bundling strategy",
+        "Zoom → Security and privacy challenges during rapid growth",
+        "Noodle.ai → AI-as-a-service for supply chain management, customer support practices",
+        "ZJ Technology → Hotel management SaaS with multitenant architecture",
+        "NetEase Cloud Music (NCM) → Music streaming with social features and user engagement",
+        "Spotify → Music streaming with network effects",
+        "Amazon Web Services (AWS) / Amazon EC2 → Cloud infrastructure provider, spot pricing",
+        "Dropbox → Cloud storage and platform integration",
+        "Box Inc. → Cloud storage bundled with enterprise applications",
+        "Twilio → Multiple pricing options (pay-per-use and subscription)",
+        "Zendesk → Demos and sales approach",
+        "Facebook → Privacy challenges and third-party app hosting",
+        "Google / Google Cloud / Google Trends → Cloud services and analytics",
+        "Stripe → Developer-friendly API for online payments",
+        "Braintree → Online payments with transparency and data portability",
+        "Prophet → Supply chain planning SaaS with dynamic pricing",
+        "Tableau → Integration with Salesforce platform",
+        "SAP → Platform integration partner"
+      ],
+      "synonyms_found": [
+        "providers",
+        "companies",
+        "vendors",
+        "services"
+      ],
+      "source_citation": "Multiple citations throughout the article including: Page 3, lines 210-220 (Apple Music/iTunes) | Page 12, lines 1150-1159 (Netflix) | Page 9, lines 866-887 (ServiceNow) | Page 15, lines 1497-1510 (Salesforce.com) | Page 4, lines 288-291 (Adobe) | Page 13-14, lines 1308-1332 (Zoom) | Page 8, lines 745-760 (Noodle.ai) | Page 2, lines 169-176 (ZJ Technology) | Page 15, lines 1406-1418 (NetEase Cloud Music)",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653882",
+      "article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Microsoft → SaaS model adoption example",
+        "Salesforce → SaaS model adoption example",
+        "Spotify → Similar subscription-based model comparison",
+        "Netflix → Similar subscription-based model comparison"
+      ],
+      "synonyms_found": [
+        "Microsoft",
+        "Salesforce",
+        "Spotify",
+        "Netflix"
+      ],
+      "source_citation": "Page 1: 'Many software companies such as Microsoft and Salesforce have adopted the SaaS model' | Page 5: 'The SaaS model is also similar to content streaming services, such as Spotify and Netflix, in subscription-based recurring payment, time-locked free trial, and continuous maintenance and updates'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653942",
+      "article_title": "Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Zoom → Video conferencing software with free and paid versions",
+        "Clash of Clans → Mobile video game with freemium model",
+        "Mobref → Small business referral management app with privacy statement"
+      ],
+      "synonyms_found": [
+        "Zoom",
+        "Clash of Clans",
+        "Mobref"
+      ],
+      "source_citation": "Page 12: 'The video conferencing software Zoom, for example, offers a free version that lets users host a video conference call constrained to a limited duration for a limited number of participants. Paid versions permit more participants and longer calls' | Page 12: 'The mobile video game Clash of Clans offers a variety of upgrades and add-on features that users can purchase to augment the free version' | Page 15: 'Mobref, an app for small business owners to manage referrals from the Utilities app store division'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653950",
+      "article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+      "extraction_date": "2025-01-22",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Skype → Telecommunications program with free base service and paid calling credits",
+        "Tinder → Online dating application with free base service and paid Super Likes",
+        "Fortnite → Video game with free base game and paid cosmetic items",
+        "Dota 2 → Free-to-play game that became most downloaded on Steam",
+        "Paladins → Popular free-to-play game on Steam",
+        "Heroes and Generals → Free-to-play game generating revenues from in-game purchases"
+      ],
+      "synonyms_found": [
+        "Skype",
+        "Tinder",
+        "Fortnite",
+        "Dota 2",
+        "Paladins",
+        "Heroes and Generals"
+      ],
+      "source_citation": "Page 1: 'including the telecommunications program Skype and the online dating application Tinder. Users can download and use these products free of charge and have the option to make in-app purchases, including Skype's credit for making calls to mobile phones and landlines and Tinder's Super Likes'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653984",
+      "article_title": "Toward Building Specialized Information Systems as Software Platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Salesforce → Example of successful software platform transformation and ecosystem building",
+        "SAP → Example of UI customization capabilities and platform success",
+        "Amazon → Example of platform thinking and team organization (2 pizza rule)",
+        "Google → Referenced for platform design principles",
+        "HubSpot → Foundation for platform vs enclosed system distinction"
+      ],
+      "synonyms_found": [
+        "companies",
+        "examples"
+      ],
+      "source_citation": "Page 1: 'We distill the best practice of building a successful software platform by learning from the history of Salesforce, SAP, and Amazon' | Page 2: 'using an SIS as a software platform like Salesforce enables us to build custom applications' | Page 3: 'A pioneer and the leader in this space is SAP. SAP's ability to customize UI's for specific customers have been critical to SAP's success' | Page 2: 'We found one of the most inspiring works that talks about the best practices of software platforms was Stevey's Google Platforms Rant' | Page 2: 'A work by Hubspot lays out a foundation of a good distinction between a software platform versus an enclosed system' | Page 2: 'They say that the entire success of Amazon was b/c of the right way to build teams. They built a platform by forcing each team to use a product of another team, instead of sharing common services. They call this approach the 2 pizza rule'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653993",
+      "article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Moldex3D → Primary software provider implementing the service-dominant business model",
+        "Autodesk Moldflow → Public cloud service provider for comparison",
+        "SIGMASOFT → Mentioned as not having public cloud services",
+        "ASUS → Customer example using CAE reports",
+        "Acer → Customer example using CAE reports"
+      ],
+      "synonyms_found": [
+        "Moldex3D",
+        "Autodesk Moldflow",
+        "SIGMASOFT",
+        "ASUS",
+        "Acer"
+      ],
+      "source_citation": "Page 2: 'Autodesk Moldflow and Moldex3D have both introduced public cloud services to the market' | Page 2: 'Except for SIGMASOFT, Autodesk Moldflow and Moldex3D have both introduced public cloud services' | Page 1: 'Sian-Jhang Jiang pointed out that his team has been providing CAE reports to Taiwanese customers such as ASUS and Acer since 2005'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654058",
+      "article_title": "MintM: the start-up transforming businesses real-time",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "MintM → Main case study company implementing the digital signage software business model",
+        "Magnet → MintM's cloud-based smart signage solution product",
+        "Abbott, ITC, Nestlé, Nivea, Pepsico, Reliance, Tata Group → Client brands using MintM's services",
+        "Reckitt Benckiser → Noteworthy client for multiple successful campaigns including new product launches",
+        "Leading watch retailer → Client seeking data and analytics for brick and mortar shop chains",
+        "Leading Digital Out-Of-Home (DOOH) company → Client wanting customer engagement matrices"
+      ],
+      "synonyms_found": [
+        "MintM",
+        "Magnet",
+        "Abbott",
+        "ITC",
+        "Nestlé",
+        "Nivea",
+        "Pepsico",
+        "Reliance",
+        "Tata Group",
+        "Reckitt Benckiser"
+      ],
+      "source_citation": "Page 2: 'MintM: the start-up transforming businesses real-time' | Page 6: 'MintM's cloud based smart signage solution product is termed 'Magnet'' | Page 6: 'formidable brands such as Abbbot, ITC, Nestlé, Nivea, Pepsico, Reliance, Tata Group etc.' | Page 7: 'Reckitt Benckiser group was one of the noteworthy clients for whom MintM ran multiple successful campaigns'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654085",
+      "article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Google Play Pass → Example of existing subscription plan for mobile apps",
+        "Apple Arcade → Example of existing subscription plan for mobile apps",
+        "Google Play Store → Platform hosting subscription-based app catalogue",
+        "Apple AppStore → Platform hosting subscription-based app catalogue"
+      ],
+      "synonyms_found": [
+        "Google Play Pass",
+        "Apple Arcade",
+        "Google Play Store",
+        "Apple AppStore"
+      ],
+      "source_citation": "Page 3: 'The meeting was started presenting them the main characteristics of the existing subscription plans (Google Play Pass, and Apple Arcade)' | Page 1: 'more than 2 million apps in the Google's Play store and 1.83 million apps in Apple's AppStore in 2019'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654186",
+      "article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Confluent → Built business on Apache Kafka services",
+        "JBoss → Enterprise Java application server product",
+        "Apache Kafka → Open-source platform for real-time data streams",
+        "Salesforce → Proprietary CRM software",
+        "SugarCRM → OSS originator in CRM market",
+        "Synolia → OSS contributor in CRM market"
+      ],
+      "synonyms_found": [
+        "Confluent",
+        "JBoss",
+        "Apache Kafka",
+        "Salesforce",
+        "SugarCRM",
+        "Synolia"
+      ],
+      "source_citation": "Page 1: 'The cofounders of Apache Kafka, an open-source platform for handling real-time data streams, are also the cofounders of Confluent, a firm that has built a business based on selling management tools and services that make it easier to run Kafka to enterprise customers' | Page 1: 'JBoss, which in 1999 successfully built a company on top of open-source software (OSS), driven purely by the provision of services for its enterprise Java application server product' | Page 1: 'one can think of Salesforce as the proprietor, SugarCRM as the OSS originator, and Synolia as the OSS contributor'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654465",
+      "article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Trav.ly → Main case study app developed for West Yorkshire",
+        "Whim → Finnish MaaS app example",
+        "Skedgo → Australian MaaS app example"
+      ],
+      "synonyms_found": [
+        "Trav.ly",
+        "Whim",
+        "Skedgo"
+      ],
+      "source_citation": "Page 2: 'The app was developed for the region of West Yorkshire (UK) and named 'Trav.ly'' | Page 1: 'for example Whim (Finland) and Skedgo (Australia)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654531",
+      "article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Microsoft ToDo → Analyzed as competitor with 47 business model decisions",
+        "Wunderlist → Analyzed as competitor with 60 business model decisions",
+        "Any.do → Analyzed as competitor with 57 business model decisions",
+        "Todoist → Analyzed as competitor with 57 business model decisions",
+        "Apple's iOS → On-board applications with 27 business model decisions",
+        "Google's Android → On-board applications with 26 business model decisions",
+        "BMDL Feature Modeler → Tool implementation of the BMDL approach"
+      ],
+      "synonyms_found": [
+        "Microsoft ToDo",
+        "Wunderlist",
+        "Any.do",
+        "Todoist",
+        "Apple's iOS",
+        "Google's Android",
+        "BMDL Feature Modeler"
+      ],
+      "source_citation": "Page 5: 'we analyzed the to-do apps named Microsoft ToDo (which consists of 47 business model decisions), Wunderlist (60 decisions), Any.do (57 decisions) and Todoist (57 decisions), together with the on-board applications of Apple's iOS (27 decisions) and Google's Android (26 decisions)' | Page 6: 'We implemented our solution in a web-based tool called BMDL Feature Modeler'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654542",
+      "article_title": "E-business evolution: an analysis of mobile applications' business models",
+      "extraction_date": "2025-10-06",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Spotify → Example of revolution in music sector through free-based business model. The Economist online → Example of content-oriented e-business model. eBay → Example of commerce-oriented e-business model. Yahoo → Example of context-oriented e-business model. Facebook → Example of connection-oriented e-business model.",
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'such as the revolution made by Spotify within the music sector' | Page 3: '(i) content-oriented, focused on the production and provision of online content through user-friendly platforms (e.g. The Economist online)' | Page 3: '(ii) commerce-oriented, focused on the trading aspects of online transactions using online media (e.g. eBay)' | Page 3: '(iii) context-oriented, focused on structuring already existent information in order to help Internet users find the service that satisfies their needs (e.g. Yahoo)' | Page 3: '(iv) connection-oriented, focused on offering virtual spaces that enable participants to join online networks (e.g. Facebook)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654598",
+      "article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+      "extraction_date": "2025-10-06",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "KT Cloud → Domestic cloud provider with marketplace holding 65 registered services",
+        "NAVER Cloud → Local cloud provider with marketplace",
+        "CEART (Cloud Ecosystem Application maRT) → Specialized cloud service store in Korea",
+        "Amazon Web Services (AWS) → Global public CSP with largest market share, AWS Marketplace with 7213 services",
+        "Oracle Cloud Infrastructure → Global CSP, relational database software provider with Oracle Cloud Marketplace",
+        "Daou Technology / Daou Office → Korean company that registered groupware on AWS Marketplace in BYOL form",
+        "Hancom / Hancom Space → Korean company that introduced subscription-type licensing and registered on AWS Marketplace",
+        "TMAX / TIBERO → Local database service registered in NAVER Cloud Platform Marketplace",
+        "ZConverter Cloud Migration → Registered on KT Cloud Marketplace for cloud migration services"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'KT Cloud is a domestic cloud provider that holds a \"cloud marketplace.\" As of January 2020, it has 65 registered services' | Page 6: 'AWS is a global public CSP with the largest market share' | Page 7-8: 'In the second half of 2019, Korea's Daou Technology registered its own groupware \"Daou Office\" products on AWS Marketplace... Hancom company introduced \"Hancom Space\"... TMAX's TIBERO is a local database service... ZConverter Cloud Migration's cloud image migration technology'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654601",
+      "article_title": "Software as a service: Lessons from the video game industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Microsoft Office 365 → Example of SaaS",
+        "Google Apps → Example of SaaS",
+        "Dropbox → Example of SaaS and cloud-based file storage",
+        "Amazon Web Services → Example of SaaS",
+        "World of Warcraft (Activision Blizzard) → One of the first GaaS video games released in 2004, multiplayer online role-playing game with subscription",
+        "Origin (Electronic Arts) → Game platform with subscription service (Origin Access)",
+        "Battlefront II (EA) → Example of false claims about free-to-play (impossible to play entire game for free)",
+        "Google Maps, Google Play, Hangouts → Examples of apps with multiple revenue streams"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Some prominent examples of SaaS are Microsoft Office 365, Google Apps, Dropbox, and Amazon Web Services' and 'One of the first GaaS video games, World of Warcraft, was released in 2004' | Page 3: 'Subscription services —A subscription to a game platform, such as Origin by Electronic Arts (EA), or to a multiplayer online role-playing game, such as World of Warcraft by Activision Blizzard' | Page 8-9: 'it was impossible to play EA's entire Battlefront II game for free' | Page 9: 'Google Apps, such as Google Maps, Google Play, and Hangouts, are well known for the way in which they are able to generate revenue'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654605",
+      "article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+      "extraction_date": "2025-10-06",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Gmail → Example of personal use SaaS",
+        "Skype → Example of personal use SaaS",
+        "Dropbox → Example of personal use SaaS",
+        "Salesforce CRM → Example of business-centric SaaS",
+        "SAP Analytics Cloud → Example of business-centric SaaS",
+        "Oracle Enterprise Resource Planning Cloud → Example of business-centric SaaS",
+        "Dell → Example of IT stalwart experiencing struggles with SaaS business model payoffs",
+        "Intel → Example of IT stalwart experiencing struggles with SaaS business model payoffs",
+        "IBM → Example of IT stalwart experiencing struggles with SaaS business model payoffs",
+        "Hewlett Packard (HP) → Example of IT stalwart experiencing struggles with SaaS business model payoffs",
+        "Case A → Anonymous incumbent IT service provider successfully provisioning SaaS (cognitive analytics system mentioned)",
+        "Case B → Anonymous incumbent IT service provider successfully provisioning SaaS"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Examples of personal use SaaS include, for example, Gmail, Skype, and Dropbox. Salesforce customer relationship management (CRM), SAP Analytics Cloud, and Oracle Enterprise Resource Planning Cloud are examples of business-centric SaaS' | Page 3: 'This is evidenced by IT stalwarts such as Dell, Intel, IBM and Hewlett Packard (HP) whose struggles pertaining to how to best leverage the payoffs have been well documented' | Page 9: 'one of their most successful products which is currently receiving global recognition for its cognitive capacity'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654664",
+      "article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "The article discusses generic business models INT and VAR based on 15 Polish SME companies (10 VAR, 5 INT) but does not name specific companies or products",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654709",
+      "article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Amazon → Large corporation in affective computing race",
+        "Google → Large corporation in affective computing race",
+        "Facebook → Large corporation in affective computing race",
+        "Apple → Large corporation in affective computing race",
+        "Affectiva → Domain-specific startup in emotion recognition",
+        "Crowdemotion → Domain-specific startup in emotion recognition",
+        "Nviso → Case study company from Switzerland",
+        "Neurodata Lab → Case study company from Russia",
+        "Noldus Information Technology → Case study company from Netherlands",
+        "AGT → Case study company from Germany",
+        "Swiss telekom → Case study company from Switzerland",
+        "Speech Technology Centre → Case study company from Russia"
+      ],
+      "synonyms_found": [
+        "Amazon",
+        "Google",
+        "Facebook",
+        "Apple",
+        "Affectiva",
+        "Crowdemotion"
+      ],
+      "source_citation": "Page 1: 'Large corporations like Amazon, Google, Facebook, and Apple along with domain-specific startups, such as Affectiva and Crowdemotion, race to decode their users' affective states' | Table II: Lists of case study companies including Nviso, Neurodata Lab, Noldus Information Technology, AGT, Swiss telekom, Speech Technology Centre",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654717",
+      "article_title": "Economics of open source library software: evidences from Indian libraries",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Koha → Open source ILS mentioned as most favored",
+        "DSpace → Digital repository software with 95.2% adoption",
+        "Drupal → CMS used for library websites",
+        "Joomla! → CMS used for library websites",
+        "ByWater Solutions → Service provider for Koha",
+        "LibLime → Service provider for Koha",
+        "Informatics → Indian service provider",
+        "Red Hat → Example of service-based revenue model"
+      ],
+      "synonyms_found": [
+        "Koha",
+        "DSpace",
+        "Drupal",
+        "Joomla",
+        "ByWater Solutions",
+        "LibLime",
+        "Informatics",
+        "Red Hat"
+      ],
+      "source_citation": "Page 1: 'Koha, DSpace, Drupal and Joomla! are the most favoured OSS among the libraries of INIs' | Page 13: 'Amongst them, LibLime, Bywater Solutions, Equinox Software and Media Flex are popular service providers in open source ILS' | Page 13: 'Earnings from service are the main source of revenue for these types of companies such as Red Hat, who earns its revenue by facilitating technical supports and services'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654720",
+      "article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "CISCO → Asset Manufacturer producing hardware components for Fog infrastructures, providing Fog Director for application management",
+        "Dell → Asset Manufacturer producing hardware components and IaaS solutions",
+        "Amazon → Cloud Infrastructure Provider expected to be joined by Fog computing entrants",
+        "Google → Cloud Infrastructure Provider expected to be joined by Fog computing entrants",
+        "Vodafone → Telecommunication provider owning pervasive Edge infrastructures",
+        "Nebbiolo Technologies → Smaller start-up pioneering Fog-tailored hardware and QoS-aware resource management",
+        "Philips Hue → Application Operator producing customised hardware for their application",
+        "Ikea Tradfri → Application Operator producing customised hardware for their application",
+        "OpenFog Consortium → Technology Influencer accelerating Fog computing adoption",
+        "Google Home → Big player device creating competitive advantage in homes",
+        "Amazon Dot → Big player device creating competitive advantage in homes",
+        "Android Car → Big player platform creating competitive advantage in cars"
+      ],
+      "synonyms_found": [
+        "CISCO",
+        "Dell",
+        "Amazon",
+        "Google",
+        "Vodafone",
+        "Nebbiolo",
+        "Philips",
+        "Ikea",
+        "OpenFog"
+      ],
+      "source_citation": "Page 2: 'Asset Manufacturers (AMs) which are producing hardware components and systems (e.g., access points, routers, switches) to build Fog infrastructures (e.g., CISCO [15] and Dell [16])' | Page 3: 'CISCO, among others, is already providing some tooling to manage applications over their infrastructures. For instance, CISCO Fog Director [12] enables the programmatic management of large-scale production deployments of Fog applications' | Page 3: 'besides established Asset Manufacturers (e.g., CISCO [15], Dell [16]), smaller start-up companies (e.g., Nebbiolo Technologies [32]) are pioneering the manufacturing market to produce their Fog-tailored hardware and platforms, and to provide QoS-aware resource management in support of real-time IoT applications' | Page 3: 'traditional Cloud Infrastructure Providers (e.g., Amazon, Google) will be joined by new Fog computing entrants as well as by telecommunication providers (e.g., Vodafone) that already own and manage pervasive Edge infrastructures' | Page 3: 'Among them, those which are also producing customised hardware to run part of their application (e.g., Philips Hue, Ikea Tradfri), represent a particularly interesting segment' | Page 4-5: 'Technology Influencers, such as the OpenFog Consortium [20], that might accelerate the adoption of Fog computing' | Page 5: 'threats to predictive management can be mainly identified in the presence of devices produced or managed by Asset Manufacturers and Infrastructure Providers in our homes (e.g., Google Home, Amazon Dot) and cars (e.g., Android Car)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654834",
+      "article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Uber → Ride-hailing service example, P2P model, dynamic pricing, commission structure",
+        "Lyft → Ride-hailing service combining singular and shared options",
+        "Via → Shared ride-hailing targeting commuters",
+        "Cabify → Premium ride-hailing with luxury options and child seats",
+        "car2go → B2C carsharing service by Daimler, one-way model",
+        "Zipcar → B2C carsharing with subscription plans",
+        "BlaBlaCar → Ridesharing with 17% commission",
+        "Waze Carpool → Ridesharing targeting commuters",
+        "DriveNow → B2C carsharing by BMW",
+        "Daimler → Automaker creating mobility ecosystem with multiple services",
+        "BMW → Automaker partnering with Daimler for mobility services",
+        "ReachNow → Integrated carsharing and ride-hailing using same fleet",
+        "Amovens → Combined ridesharing and P2P carsharing",
+        "Drivy → P2P carsharing",
+        "mytaxi → Taxi-hailing acquired by Daimler",
+        "Didi Chuxing → Chinese ride-hailing service",
+        "CleverShuttle → Shared ride-hailing",
+        "Respiro → B2C carsharing with subscription plans",
+        "Wible → B2C carsharing with hybrid pricing model"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 4: Table 1 lists all reviewed services | Page 3: 'Daimler launched the carsharing services of car2go and Croove, in addition to the mobility platform moovel; acquired the taxi-hailing services mytaxi and Hailo, set up a joint venture with the shared ride-hailing Via' | Page 11: 'Uber and Lyft combine the offers of singular and shared ride-hailing; Amovens provides a combined offer of ridesharing and P2P carsharing' | Page 11: 'we only found ReachNow in United States, which offered, until July 2019, carsharing and ride-hailing using the same vehicle fleet'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654956",
+      "article_title": "Open source ERP business model framework",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Compiere → FOS-ERP example with 1.2M downloads and 100+ partners in 25 countries, limited P/limited F model",
+        "OpenBravo → Successful enterprise OSS with 82 participants, 970,000 downloads over 3 years",
+        "OpenMFG → Hybrid collaboration model allowing community contributions with vendor filtering",
+        "ERP5 → FOS-ERP development example",
+        "SQL Ledger → Company sponsored FOS-ERP",
+        "GNU Enterprise → Openly developed under open license, extreme open source model",
+        "Red Hat → Corporate distribution model for Linux, providing support services",
+        "Linux → Open source operating system example used by Dell, Compaq, IBM",
+        "MySQL → Open source database, dual licensing model example",
+        "JBoss → Distribution without charge, relying on support contracts",
+        "SugarCRM → Freemium model with basic free and paid proprietary versions",
+        "SAP → Proprietary ERP vendor, high-end market leader",
+        "Oracle → Proprietary ERP vendor, large organization market",
+        "Microsoft Dynamics GP (Great Plains) → Medium-sized organization proprietary ERP",
+        "TinyERP (now ODOO) → OSS ERP product",
+        "OfBiz → OSS ERP product",
+        "Nexedi → FOS-ERP vendor",
+        "IBM → Sponsor of open source, contributor to Apache"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 6: 'Compiere recorded more than 1.2 million downloads of its software and has more than 100 partners in 25 countries. They do not sell software but sell services' | Page 3: 'OpenBravo is an example of successful enterprise OSS, which has been developed by 82 participants over three years with more than 970,000 downloads' | Page 5: Table 1 lists Compiere, Nexedi, Openbravo, Fisterra under Model 1; OpenMFG under Model 2 | Page 4: Multiple business model examples including JBoss, SugarCRM, MySQL, RedHat | Page 3: 'Proprietary ERP refers to systems with closely held intellectual property rights, such as the leading market products by SAP and Oracle'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655012",
+      "article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Alibaba / Taobao.com → E-commerce platform with free shop opening, paid decoration features (1.1 trillion yuan sales 2012, $231B IPO)",
+        "Tencent QQ → Instant messaging with freemium services (848 million active accounts August 2014)",
+        "Disney Club Penguin → Successful freemium example",
+        "Evernote → Successful freemium example",
+        "Skype → Successful freemium example",
+        "Google Play → Android app marketplace with freemium apps",
+        "Apple App Store → Mobile app marketplace with freemium products",
+        "Crossfire → Online game example with free and premium (props purchase) versions",
+        "SugarSync → Online network disk provider using freemium then charge-for-everything"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1-2: 'the most famous product of Alibaba, a Chinese e-commerce company, is sold in a format of ''consumer-to-consumer sales'' via a web portal Taobao.com [...] in 2012, Alibaba handled 1.1 trillion yuan ($170 billion) in sales [...] Alibaba's market value was measured as $231 billion' | Page 2: 'Tencent QQ which is an instant messaging Chinese software [...] As of August 2014, it had 848 million active QQ accounts' | Page 2: 'A lot of other successful examples of the freemium model include Disney Club Penguin, Evernote, Skype, etc.' | Page 6: 'in the online game crossfire, the customers of the premium version who buy the props' | Page 20: 'Online network disk provider SugarSync'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655172",
+      "article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Hydration App with smart cup → Example of novelty-centred IoT mobile App monitoring water intake | Sensor-enabled basketball App → Example of novelty providing virtual coaching and statistics tracking | Vehicle fleet tracking App with On-Board Diagnostic systems → Example of efficiency-centred App for maintenance planning | Smart App connected to water cooler → Example of efficiency-centred App for automatic ordering | Sports tracker App → Example of complementarity-centred App sharing APIs with health insurers",
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'a hydration App connected with a smart cup monitors people's daily water intake. A sensor enabled basketball tracks player's basketball throw statistics, analyses the data and provides virtual coaching to improve skills' | 'a vehicle fleet tracking App that connects to a vehicle's On-Board Diagnostic systems can help firms to estimate wear and tear and plan maintenance materials accordingly. A smart App that connects to a water cooler not only reminds users to drink water but also automatically orders new filters' | Page 4: 'the APIs of a sports tracker App allows health insurers to make these decisions based on aggregate insightful customer profiles that include heart rate, stress levels, activity levels as well as gender and age'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655181",
+      "article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Google Play (Android market) → Main case study of open platform approach in app stores | Apple App Store → Main case study of more closed platform approach in app stores | Hotels.com → Case study of hotel platform with high supplier openness and medium customer openness | Booking.com → Case study of hotel platform with low supplier openness and high customer openness | Busang Systems → App development firm interviewed in Daegu | Neuron Works → App development firm interviewed in Daegu | AR Media Works → App development firm interviewed in Daegu | Daegu Grand Hotel → Hotel interviewed using platforms | IBIS Seoul Myeongdong → Hotel interviewed using platforms | Bayern Innovative, EcoPlus, Marche → Regional innovation platforms mentioned",
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'The authors analysed two platforms –Google Play (Android market) and Apple's App Store...We also analysed two firms –Hotels.com and Booking.com' | Page 23: 'Interview date 2015.05.06 Busang Systems...2015.05.13 Neuron Works...2015.05.13 AR Media Works...2015.04.29 Daegu Grand Hotel...2015.05.19 IBIS Seoul Myeongdong' | Page 6: 'Several regional innovation platforms such as Bayern Innovative, EcoPlus, Marche were analysed'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655186",
+      "article_title": "Developing enterprise social software in China: insights from Mingdao",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Mingdao → Main case study company providing ESS via SaaS in China | MeiHua Information → Parent company providing marketing intelligence, founded by Ren in 2002 | Yammer → US Enterprise 2.0 platform, acquired by Microsoft for $1.2B in 2012 | Slack → US competitor that raised $43M in 3 months | IBM and Microsoft → Big competitors with ESS solutions | Yunzhijia → Chinese ESS provider competitor | Tita → Chinese ESS provider competitor | QQ and Wechat → Examples of high-utilization communication tools by Tencent | Skype → Communication tool and freemium model example | Gmail → SaaS email example | Facebook → Comparison for internal social network concept | Twitter → Pattern inspiration for Mingdao features | Baidu → Search engine and open platform example | Tencent → Open platform example | Android → Platform model comparison | iResearch → Marketing research firm, predecessor founded by Ren | NetSuite ERP, IBM Watson Analytics, Microsoft PowerBI, Salesforce → SaaS examples mentioned",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'we introduce the case of a leading firm in China called Mingdao' | Page 2: 'In 2011, in America, some companies (e.g., Yammer) developed an Enterprise 2.0 software platform' | Page 10: 'In America, one company, named Slack' | 'In China, around this time, Yunzhijia and Tita also emerged as leading ESS providers' | Page 10: 'Some big names, such as IBM and Microsoft' | Page 3: 'similar to 'the internal' version of Facebook' | Page 13: 'NetSuite ERP, IBM Watson Analytics, Microsoft PowerBI or Salesforce are good examples of SaaS'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655190",
+      "article_title": "Open source - Is it an alternative to intellectual property?",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Linux (Linux Torvalds' style) → Example of bazaar-style open source development, community resembling differing agendas producing coherent system",
+        "JBoss → Reciprocal business model offering support services and tools for application server",
+        "10X Software → Reciprocal model providing corporate integration consulting for GPL software",
+        "Red Hat → Reciprocal model with revenue from Linux maintenance and consulting",
+        "Canonical → Reciprocal model providing commercial support for Ubuntu-Linux project",
+        "Google Android → Dual licensing example with contributor license agreements mentioned",
+        "Microsoft → Example of proprietary software with employment contract clauses cited",
+        "GNU GPL → Copyleft/reciprocal license example",
+        "Apache License → Academic/permissive license example",
+        "BSD License → Academic/permissive license example",
+        "Mozilla Public License → Permissive license example"
+      ],
+      "synonyms_found": [
+        "Linux",
+        "JBoss",
+        "Red Hat",
+        "Canonical",
+        "Android",
+        "Microsoft",
+        "GPL",
+        "Apache",
+        "BSD",
+        "Mozilla"
+      ],
+      "source_citation": "Page 8: 'Raymond (2001) says, Linux overturned his belief that softwares needed to be carefully built like cathedrals because of the critical complexity involved...Speaking of \"Linux Trovald's style\", Raymond notes that the norm was to delegate everything possible and Linux community seemed to resemble a bazaar of differing agendas and approaches' | Endnote 21, Page 16: 'They are: JBoss, which offers a wide range of support services and tools for its application server; 10X Software, which provides corporate integration consulting for several popular GPL software; and Red Hat, whose revenue comes from Linux maintenance and consulting; Canonical, which provides commercial support (Custom engineering, certification, training and ISV services) for Ubuntu-Linux project' | Endnote 13, Page 16: 'Google android projects' \"contributors license agreement\"' | Endnote 8, Page 15: 'See \"Microsoft Corporation Employee Agreement\"' | Multiple references to GPL, Apache, BSD, Mozilla licenses in endnotes 14-15, 20, 22",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655198",
+      "article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "RHIS (Regional Healthcare Information System) → Main case study subject, platform for health data exchange in Finland",
+        "Alibaba → Example of successful platform connecting manufacturers and resellers",
+        "NASDAQ → Example of electronic exchange platform connecting sellers and buyers",
+        "OpenTable → Example of early digital business platform connecting restaurants and customers",
+        "Uber → Example of platform connecting drivers and passengers",
+        "YouTube → Example of content platform connecting video producers, advertisers, and viewers",
+        "Facebook → Example of platform connecting people and advertisers",
+        "Active Life Home → Portal platform mentioned as connecting personal device vendors and care providers",
+        "Philips, Apple, Google → Mentioned as providing digital platforms in healthcare",
+        "KanTa → National EHR archive in Finland mentioned as competing solution"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Examples of well known and often referenced successful platforms are: Alibaba, which connects the manufacturers and resellers of goods; NASDAQ and other electronic exchanges, which connect sellers and buyers of financial instruments; OpenTable, one of the first digital business platforms, which connects restaurants and those who need to make a reservation; Uber, which connects the drivers and those in need of a ride; YouTube, which connects video clip producers, advertisers and those who watch video clips and advertisements; Facebook, which started with people who want to interact with each other and extended to include the advertisers' | Page 1: 'Portals, like Active Life Home, are platforms connecting personal device vendors and care providers' | Page 2: 'For example, Philips, Apple and Google are providing digital platforms in healthcare' | Page 6: 'Also the implementation of the national EHR archive (KanTa) started around 2005'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655206",
+      "article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Tieto → Main case company, large international e-invoicing service provider with 200,000 active trading partners operating for two decades",
+        "Nokia → Historical reference for competitive environment lessons (former occupant of Tieto's building, example of rise and fall)",
+        "Billentis → Switzerland-based e-invoicing consultancy company providing market reports and expertise",
+        "EESPA (European E-Invoicing Service Providers Association) → Trade association where Tieto is actively involved",
+        "SPIOS A → Fictional small regional service provider profile with 120 clients, entered market in 1999",
+        "SPIOS B → Fictional small start-up e-invoicing platform, founded at start of year with 5 employees"
+      ],
+      "synonyms_found": [
+        "Tieto",
+        "Nokia",
+        "Billentis",
+        "EESPA",
+        "SPIOS A",
+        "SPIOS B"
+      ],
+      "source_citation": "Page 1-2: 'Tieto (www.tieto.com)... The company has only recently moved to this location and is now operating in the very same facilities that used to be occupied by the former Finnish mobile phone giant, Nokia' | Page 1: 'Having had numerous encounters and discussions with the e-invoicing consultant Bruno Koch from the Switzerland-based consultancy company Billentis' | Page 5: 'Tieto is actively involved in EESPA, and Mr. Poteri's colleague, Mr. Tapani Turunen represents Tieto on the executive committee of the association' | Page 7: 'three profiles to choose from: (1) Tieto – a large international service provider, (2) SPIOS A – a small regional service provider, and (3) SPIOS B – a small start-up service provider'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655218",
+      "article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Indiana Health Information Exchange (IHIE) → Successful HIE founded 2004, grew from 12 hospitals to 106 hospitals and 14,000+ physicians, evolved from foundational to advanced value-added services with subscription-based model",
+        "HealthBridge (Cincinnati, OH) → Founded 1997 as non-profit, became self-funded using hybrid revenue model (85% subscription, 15% premium services), saved $0.41 per report",
+        "Delaware Health Information Network (DHIN) → Initiated 1997, first operational statewide HIE (2007), serves 97% of providers and 90% of state population with tiered pricing structure",
+        "Colorado Regional Health Information Organization (CORHIO) → Established 2007, achieved triple-digit growth (111-118% in 2014), serves 40+ hospitals and 2200+ doctors with hybrid fee model",
+        "Santa Barbara County Care Data Exchange (CA) → Failed HIE cited as example of lack of compelling value proposition",
+        "Scranton, PA HIE → Mentioned as notable failure",
+        "Seattle, WA HIE → Mentioned as notable failure",
+        "Washington DC HIE (DC RHIO) → Mentioned as notable failure",
+        "Cleveland, OH HIE → Mentioned as notable failure",
+        "Chesapeake Regional Information System for our Patients (CRISP) → Serves Maryland and DC, offers advanced services like prescription drug monitoring"
+      ],
+      "synonyms_found": [
+        "IHIE",
+        "HealthBridge",
+        "DHIN",
+        "CORHIO",
+        "Santa Barbara",
+        "DC RHIO",
+        "CRISP"
+      ],
+      "source_citation": "Page 2: 'some particularly notable and widely discussed failures, such as HIEs in Santa Barbara, CA, Scranton, PA, Seattle, WA, Washington DC, and Cleveland, OH' | Page 9-11: Detailed case descriptions of IHIE, HealthBridge, DHIN, and CORHIO | Page 13: 'HIEs today such as the Chesapeake Regional Information System for our Patients (CRISP) that serves Maryland and the District of Columbia offer advanced services such as a prescription drug monitoring program'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655219",
+      "article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "SL (Stockholm public transport) → Multiple mentions as case example, 3% mobile ticket share",
+        "UL (Uppsala public transport) → Swedish public transport case",
+        "Östgötatrafiken → Swedish public transport case",
+        "Skånetrafiken → Swedish public transport case, 5% mobile share",
+        "Västtrafik (Gothenburg) → Swedish public transport case, 7% mobile share, digital ticket sharing feature",
+        "Blekingetrafiken → Swedish public transport case",
+        "Länstrafiken Kronoberg → Swedish public transport case",
+        "Karlstadbuss → Swedish public transport case",
+        "Ruter (Oslo) → Norwegian success case with >40% mobile ticketing share",
+        "Skyss (Bergen) → Norwegian public transport case",
+        "Copenhagen Metro → Danish case using SMS and in-app ticketing",
+        "Movia → Danish public transport authority",
+        "Jiffi → Estonian BIBO technology provider running pilots",
+        "Ridango → Estonian ticketing solution provider",
+        "Susisiekimo Paslaugos → Lithuanian public transport with mTicket app, 3% share",
+        "Telia, Tre → Mobile network operators involved in SMS ticketing",
+        "Bite Lietuva → Lithuanian mobile operator",
+        "Accumulate, Payair, Nets, PayEx, Seamless, WyWallet → Payment processors",
+        "4T Sweden → Joint venture providing WyWallet mobile payment",
+        "Plusdial, UnWire, Mobill, IPX → SMS aggregators and ticket technology providers",
+        "Samtrafiken → Ticketing solution provider",
+        "Swedbank, DNB, Danske Bank → Banks providing payment services",
+        "DOT Mobilbilletter, Mobilperiodekort → Danish ticketing apps"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'Swedish major regional public transport companies (SL, UL, Östgötatrafiken, Skånetrafiken, Västtrafik); (3) payment processors (Accumulate, Payair, Nets, PayEx, Seamless, WyWallet); (4) a bank (Swedbank); and (5) providers of mobile ticket technology solutions (UnWire, Mobill, and Samtrafiken)' | Page 3-4: 'public transport companies operating in Sweden: SL, UL, Östgötatrafiken, Skånetrafiken, Västtrafik... Norway: Ruter and Skyss... Copenhagen Metro and Movia... Estonia: Jiffi and Ridango... Lithuania: Susisiekimo Paslaugos' | Page 7: 'Ruter is extremely successful with mobile ticketing in Oslo. The share of mobile tickets is more than 40%'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655247",
+      "article_title": "The effect of free sampling strategies on freemium conversion rates",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Dropbox → Cloud storage provider using freemium (2GB free, 1TB paid); uses free trials to improve conversions",
+        "Candy Crush → Game using freemium model",
+        "Spotify → Music streaming service (free with ads, premium ad-free with offline mode); example of increasing value discrepancy over time",
+        "Evernote → Uses free trials to counter experience-good characteristics",
+        "Blankcanvas.io → Adopts Premiumfirst strategy",
+        "Yahoo → Freemail provider using freemium",
+        "Skype → Telecommunication provider demonstrating same-side network effects",
+        "iCalculator → Self-developed experimental product used in study to test freemium strategies"
+      ],
+      "synonyms_found": [
+        "Dropbox",
+        "Spotify",
+        "Candy Crush",
+        "Evernote",
+        "Skype",
+        "Yahoo",
+        "Blankcanvas.io"
+      ],
+      "source_citation": "Page 1: 'including software, games, and web services such as Dropbox, Candy Crush or Spotify' | Page 1: 'many firms such as Dropbox or Evernote are using free trials' | Page 1: 'firms such as Blankcanvas.io are adopting a Premiumfirst strategy' | Page 2: 'Freemium has been adopted by many established companies as well as nascent ventures ranging from Freemail providers like Yahoo, telecommunication providers like Skype over Music as a Service providers like Spotify to cloud storage providers like Dropbox' | Page 2: 'The music streaming service Spotify for example offers a free version where users can access unlimited songs as long as they are connected to the internet and are willing to bear disturbing audio ads which cannot be skipped. In the paid premium version, users are not only spared from the disturbing ads, but they may also access their songs offline from anywhere.' | Page 3: 'Dropbox for example offers users two gigabytes of online storage space for free; paying customers can use up to 1 terabyte' | Page 5: 'users had the chance to test a free and premium online calculator called iCalculator'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655350",
+      "article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Facebook → Example of free service with 1.7 billion users, revenue from advertising",
+        "Google (Maps, Street View, Translator, Scholar, Waze) → Examples of free services funded by advertising and data",
+        "Twitter (Firehose) → Example of data trading, selling tweet database access, ~10% of Q3 2015 revenue",
+        "TomTom and Garmin → Counter-examples, failed to sell paid GPS apps due to free competition",
+        "Fitbit → Example of cross-selling physical product with companion app",
+        "Adidas Train & Run → Case study app using e-ethnography strategy",
+        "Calories Counter (Fat Secret) → Case study app",
+        "Endomondo (Under Armour) → Case study app with ads and premium offerings",
+        "Lose It! (FitNow) → Case study app with premium offerings",
+        "MapMyRun (Under Armour) → Case study app with ads and premium",
+        "MyFitnessPal (Under Armour) → Case study app with premium offerings",
+        "Nike Running (Nike) → Main e-ethnography example, no direct revenue sources, used to understand shoe usage",
+        "Noom Cardio Trainer → Case study app using data for weight loss coaching",
+        "RunKeeper (FitnessKeeper) → Example of enhanced advertising and Health Graph data platform",
+        "Runtastic (Runtastic GMBH) → Example with enhanced advertising provisions",
+        "Sports Tracker (Amer Sports) → Case study with e-ethnography capability",
+        "Strava → Leading data trading example, selling cycling data to transportation departments for $20k/year",
+        "Virtuagym Fitness → Case study app",
+        "Under Armour → Example of strategic acquisition (owns 3 apps: Endomondo, MyFitnessPal, MapMyRun)",
+        "Oregon Department of Transportation → Data buyer from Strava",
+        "London, Glasgow, Orlando DOTs → Data buyers from Strava",
+        "John Deere → Example of e-ethnography in manufacturing, added sensors to products",
+        "Apple (Health app) → Mentioned platform provider (excluded from study)",
+        "Google (My Track) → Mentioned platform provider (excluded from study)"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Facebook, for instance, had more than 1.7 billion monthly active users' | Page 2: 'Google and all its services, from the search engine to Street View, from Translator to Google Scholar' | Page 3: 'Twitter started selling expanded access to its database... accounted for almost 10 percent of revenues in the third quarter of 2015' | Page 3: 'TomTom and Garmin, both manufacturers of popular GPS units, attempted to sell navigation apps for smartphones—and were shut out of the market by free navigation services like Google Maps and Waze' | Page 5: 'Table 1. Study sample' lists all 14 apps | Page 6-7: 'Nike uses its Nike Running customers to understand how people use its core product—shoes' | Page 7: 'Strava, which offers a mobile ride-tracking app for bicyclists, has sold data to the Oregon Department of Transportation (DOT)... for a fee of $20,000 per year' | Page 7: 'Strava has engaged in similar partnerships with departments of transportation in London, England; Glasgow, Scotland; Orlando, Florida' | Page 7: 'companies like Under Armour, which now owns 3 of the 14 apps in our sample (Endomondo, MyFitnessPal, and MapMyRun)' | Page 9: 'John Deere added sensors to its products to support new features'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655362",
+      "article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Three anonymous European digital businesses (two online real-time strategy games and one dating platform) → Main case studies analyzed, data confidentiality agreement prevents disclosure of names",
+        "Top-grossing iPhone apps in US, Japan, Germany AppStore → Examples showing 94% free apps with 97% offering in-app purchases"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'For our empirical study, we use customer and purchase data from three European digital businesses that sell a virtual currency in a non-contractual freemium model. A data confidentiality agreement with the companies prevents us from disclosing their names' | Page 3: 'The three data sets come from two online real-time strategy games (data sets 1 and 2), and an online dating platform (data set 3)' | Page 3, Table 1: 'Top-grossing iPhone apps in Apple's AppStore – 4 January 2015' showing breakdown by country and genre",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655382",
+      "article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Six anonymous incumbent ERP vendors (AlphaCo, BetaCo, GammaCo, DeltaCo, EpsilonCo, ZetaCo) → Main case studies, detailed business model changes from on-premise to SaaS",
+        "Salesforce → Example of successful single ERP function cloud solution provider",
+        "Intel's Centrino chip set, IBM's personal computer, Charles Schwab's online trading → Examples of incumbents introducing disruptive innovations",
+        "Lufthansa's low-cost airline, Allianz's online direct insurance, BMW's car-sharing service → Examples of parallel disruptive business models",
+        "SAP → Mentioned in literature review table",
+        "Microsoft → Mentioned regarding threats to business model in operating systems market"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 15-16, Table 4: Detailed case descriptions of six companies with pseudonyms (AlphaCo through ZetaCo) including their business model change timeline | Page 17: 'Customers rather wanted a cloud solution for single ERP functions. That was why firms such as Salesforce were successful and we were not. (Interviewee AlphaCo#4)' | Page 5: 'numerous examples exist of incumbents that have either introduced disruptive innovations themselves (e.g. Intel's Centrino chip set, IBM's personal computer and Charles Schwab's online trading) or continue to offer their established business model in parallel to a disruptive one (e.g. Lufthansa's low-cost airline, Allianz's online direct insurance and BMW's car-sharing service)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655386",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "ERP Co (pseudonym) → Main case study subject, Nordic ERP vendor for SMEs transitioning from on-premise to SaaS, 6000 employees, 800M NOK revenue",
+        "Salesforce.com → Example of cloud-based CRM SaaS provider, mentioned as new player with first-mover advantage",
+        "Amazon → Example of new player in IaaS (Amazon Web Service), providing raw computing and data storage services",
+        "Microsoft → Traditional software vendor making transition to cloud with 'cloud-first design' strategy, also mentioned as supplier/competitor to ERP Co, operates at all three levels (SaaS, PaaS, IaaS)",
+        "SAP → Traditional software vendor transitioning through acquisition and partnerships, provides applications and enterprise systems in cloud",
+        "Google → Provides PaaS (Google's App Engine) and platform services",
+        "IBM → Provides platform services at PaaS level",
+        "EMC → Provides raw computing and data storage services at IaaS level",
+        "AT&T → Provides infrastructure services at IaaS level"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1-2: 'Salesforce.com cloud-based customer relationship management software', 'new players, such as Salesforce.com and Amazon, introducing the new business models', 'traditional software vendors, such as Microsoft and SAP, are also making the transition' | Page 2: 'Amazon, EMC, and AT&T in providing raw computing and data storage services, IBM, Google, and Microsoft in providing platform services, and finally Salesforce.com and SAP in providing applications and enterprise systems' | Page 4: Description of ERP Co as main case",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655389",
+      "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "G-cluster → Main case study subject, Finnish cloud gaming platform company established 2000, developed games-on-demand services over 15 years",
+        "Apple → Example of successful opportunity creation leading to market leadership",
+        "Starbucks → Example of successful opportunity creation",
+        "Investors: Broadmedia Corporation (2005), SBI Investment (2008), Intel Capital (2011), SFR Development (2012), NTT (2013), Orange (2014) → Funding partners",
+        "Game publisher partners: Disney, Ubisoft, Warner Bros, Konami, Electronic Arts → Content providers with licensing contracts",
+        "Delivery partners: Broadmedia, SFR, Orange, NTT, FlarePlay → Distribution contracts"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 9: 'The case firm, G-cluster, develops interactive cloud gaming platforms and games-on-demand services... G-cluster was established in Finland in 2000' | Page 23: 'G-cluster received funding from Broadmedia Corporation in 2005, SBI Investment in 2008, Intel Capital in 2011, SFR Development in 2012, NTT in 2013 and Orange in 2014. G-cluster's contracts with game publishers include many well-known brands, including Disney, Ubisoft, Warner Bros, Konami and Electronic Arts. In addition, G-cluster currently has delivery contracts with Broadmedia, SFR, Orange, NTT and FlarePlay' | Page 23: 'one can see in the cases of Apple and Starbucks'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655397",
+      "article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+      "extraction_date": "2025-10-08",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Apple | Platform owner and top developer; Disney | Top developer identified in sample; Electronic Arts | Top developer identified in sample; Gameloft | Top developer identified in sample; Popcap | Top developer identified in sample; Rockstar Games | Top developer identified in sample; Sega | Top developer identified in sample; Ubisoft | Top developer identified in sample; Zynga | Top developer identified in sample; Google | Platform owner (Google Play); RIM | Mobile device maker that launched app store; Samsung | Mobile device maker that launched app store; Garmin | Developer with huge popularity included in sample; Marvel Entertainment | Developer with huge popularity included in sample; Norton by Symantec | Developer with huge popularity included in sample; TomTom | Developer with huge popularity included in sample",
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'numerous mobile device makers, such as RIM, Samsung, etc, have followed Apple's move' | Page 8: 'Based on revenue information and worldwide recognition, we identify 9 top developers in our sample, i.e., Apple, Disney, Electronic Arts, Gameloft, Popcap, Rockstar Games, Sega, Ubisoft, and Zynga. We also include Garmin, Marvel Entertainment, Norton by Symantec and TomTom due to their huge popularity'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655417",
+      "article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+      "extraction_date": "2025-10-08",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Condat AG | Co-author affiliation, involved in research; University of St. Gallen (MCM) | Co-author affiliation, scientific project management and spin-off creation; Anonymous FP7 project consortium | Six partners (3 SMEs, 1 university, 2 research centres) providing video enrichment solution for second-screen applications; European Commission Framework Programs | Funding organization for collaborative ICT research projects",
+      "synonyms_found": [
+        "EC",
+        "FP",
+        "FP7"
+      ],
+      "source_citation": "Page 1: 'MCM University of St. Gallen... Condat AG' | Page 3: 'Overall, there were six independent companies participating in the final composite software solution: three SMEs, one university, and two applied research centres. In addition, one university was responsible for the scientific project management' | Page 8: 'A third partner, a university providing the scientific manager, created a spin-off that provides the market coordination for P3 specifically in Austria'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655425",
+      "article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+      "extraction_date": "2025-10-08",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Five anonymous case firms: Firm A (telecom planning/optimization software), Firm B (gaming platform), Firm C (financial risk management software), Firm D (access rights management software), Firm E (interactive 3D sales software for furniture industry); Microsoft mentioned as example of powerful supplier; CAD-based programs mentioned as competitor example",
+      "synonyms_found": [],
+      "source_citation": "Table 2 describes five case firms with their products | Page 4: 'Porter (2008) uses Microsoft as an example of a powerful supplier in the computer hardware industry' | Page 7: 'The most notable difference between us and our competitors is that they use CAD-based programs that have to be licensed for a workstation'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190655440",
+      "article_title": "Designing business models for cloud platforms",
+      "extraction_date": "2025-10-08",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Salesforce.com/Force.com → Application-centric PaaS platform example, allows ISVs to develop extensions. Heroku → PaaS start-up acquired by Salesforce. Google Cloud Platform → Comprehensive PaaS solution by established vendor. Microsoft Azure → Comprehensive PaaS solution by established vendor. IBM Bluemix → Comprehensive PaaS solution by established vendor. CloudBees RUN@Cloud → Development-oriented platform example. NetSuite/SuiteCloud → SaaS extended with cloud platform. Workday → Transformed into cloud platform. Dell Boomi → Integration-oriented PaaS example. Google Apps Marketplace → Distribution channel-based platform. Amazon Web Services → Provider with mixed PaaS experiences. SAP → Provider with mixed PaaS experiences; SAP Business ByDesign no longer advertised as PaaS. Bungee Connect → Early PaaS solution no longer advertised. LongJump → PaaS start-up acquired by Software AG. Facebook → Platform with app developers ecosystem. Apple iPhone platform → Platform with boundary resources for third-party development. Intel, Microsoft, Cisco → Platform leadership case studies.",
+      "synonyms_found": [
+        "Salesforce",
+        "Force.com",
+        "Heroku",
+        "Google",
+        "Microsoft",
+        "Azure",
+        "IBM",
+        "Bluemix",
+        "SAP",
+        "Amazon",
+        "AWS"
+      ],
+      "source_citation": "Page 1-2: 'SuiteCloud platform is an extension of NetSuite, and Workday has been transformed into a cloud platform...Google Cloud Platform, Microsoft Azure and IBM Bluemix...Heroku joined Salesforce.com, and LongJump now belongs to Software AG...IBM, SAP and Amazon Web Services, report mixed experiences...Bungee Connect and SAP Business ByDesign, are no longer advertised as PaaS' | Page 3: 'CloudBees RUN@Cloud...Salesforce Force.com allow ISVs to develop extensions...Dell Boomi...Google Apps Marketplace' | Page 5: 'Case studies investigating platforms of Intel, Microsoft and Cisco...Apple's iPhone platform...Facebook apps'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655451",
+      "article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+      "extraction_date": "2025-10-08",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "EUROBIOS → French company specializing in industrial complexity analysis, uses ASCOMP's TransAT software. ASCOMP → Provides TransAT Computational Fluid Dynamic software deployed on CSSP. CloudBroker → Developed CloudBroker Platform (CBP) for multi-cloud management. MTA SZTAKI → Provides WS-PGRADE/gUSE and IaaS cloud resources. University of Westminster → Project coordinator and IaaS provider. Brunel University London → Coordinates industrial use cases. BIFI (Spain) → IaaS cloud provider. CloudSigma (Switzerland) → IaaS cloud provider. Amazon → IaaS cloud provider (Amazon Elastic Compute Cloud EC2). SIMUL8 → Discrete-event simulation software mentioned as COTS example. TransAT → ASCOMP's computational fluid dynamics software. WS-PGRADE/gUSE → Grid User Support Environment developed by MTA SZTAKI.",
+      "synonyms_found": [
+        "EUROBIOS",
+        "ASCOMP",
+        "CloudBroker",
+        "MTA SZTAKI",
+        "Amazon",
+        "SIMUL8",
+        "TransAT"
+      ],
+      "source_citation": "Page 6: 'EUROBIOS is a French-based company specializing in industrial complexity analysis in a variety of application areas (www.eurobios.com). They are using ASCOMP's TransAT Computational Fluid Dynamic software deployed on different clouds via the CSSP' | Page 4: 'The CSSP uses multiple IaaS clouds provided by MT A SZT AKI (Hungary), BIFI (Spain), University of Westminster (UK), CloudSigma (Switzerland) and Amazon' | Page 4: 'WS-PGRADE/gUSE (Grid User Support Environment) developed by MTA SZTAKI (guse. hu)' | Page 3: 'A user application could be a COTS Simulation Package such as the discrete-event simulation software SIMUL8 or the ASCOMP's computational fluid dynamics software TransAT'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655528",
+      "article_title": "A Study on a Decentralized SaaS Business Model",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Amazon AWS → Example of server emergency incident in centralized model"
+      ],
+      "synonyms_found": [
+        "Amazon AWS"
+      ],
+      "source_citation": "Page 1, Section I: 'when a provider suffers from a server emergency, such as the incident happened in Amazon AWS [2]'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655555",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Firm A → Planning and optimization software for telecom operators",
+        "Firm B → Interactive gaming platforms and games-on-demand services",
+        "Firm C → Enterprise-SaaS for access rights management",
+        "Firm D → 3D modeling software for furniture manufacturers"
+      ],
+      "synonyms_found": [
+        "Firm A",
+        "Firm B",
+        "Firm C",
+        "Firm D"
+      ],
+      "source_citation": "Page 3, Section IV: 'Firm A develops planning and optimization software for telecom operators' | Page 3, Section IV: 'Firm B provides interactive gaming platforms and games-on-demand services' | Page 3, Section IV: 'Firm C develops enterprise-SaaS for access rights management' | Page 4, Section IV: 'Firm D develops 3D modeling software for furniture manufacturers and furniture retailers'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655589",
+      "article_title": "Service-Centric Business Model in Cloud Environment",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Webank → Internet banking for individuals and SMEs with online application, identification, credit assessment, and loan based on cloud",
+        "Haier → Electronics product manufacturer providing specialized one-stop services and commercial manufacturing solutions",
+        "Suning → Electronics products retailer that adapted its traditional business model in the cloud, now engaging in sale of electronic products, supply of services and commercial solutions"
+      ],
+      "synonyms_found": [
+        "Webank",
+        "Haier",
+        "Suning"
+      ],
+      "source_citation": "Page 7, Section V: 'First one is Webank, the internet banking for individuals and small medium enterprise (SME) with the online process of application, Identification, credit assessment, and loan based on cloud. It represents a newly emerging BM in the field of financial world.' | Page 7, Section V: 'Second is Haier, one of the biggest electronics product manufacturers, is providing specialized one-stop services and commercial manufacturing solutions recently.' | Page 7, Section V: 'Last, Suning, which used to be one of the biggest electronics products retailers, has adapted its traditional BM in the cloud. Now, Suning professionally engages in the sale of electronic products, the supply of services and commercial solutions.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655614",
+      "article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "3cixty → Data platform case study for mobile context-aware travel applications",
+        "Facebook → Social media platform for survey distribution and data sharing"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Página 2: 'We outline different revenue models and subsequently analyze user acceptance of such revenue models by analyzing the results of a survey among 197 early adopters in the Netherlands' | Página 7: 'Invitations to participate in the survey were posted on the Facebook page of various students'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655631",
+      "article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Apple iOS → iPhone platform success",
+        "Google Android → Open source platform strategy",
+        "Research in Motion (RIM) BlackBerry → Enterprise email focus",
+        "Microsoft Windows Mobile → Licensed platform model",
+        "Symbian → Consortium-based platform",
+        "Palm OS → Early smartphone pioneer"
+      ],
+      "synonyms_found": [
+        "companies",
+        "products",
+        "examples",
+        "platforms"
+      ],
+      "source_citation": "Page 1: 'We interpret mobile operating systems such as iOS and Android as multi-sided platforms' | Page 3: 'The smartphone market changed radically with the arrival of Apple's iPhone in June 2007' | Page 3: 'In September 2008 T-Mobile released the first smartphone running on Android, the operating system developed by Google' | Page 3: 'RIM's first smartphone, the BlackBerry 5810, reached the market in 2002'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655648",
+      "article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "King Digital Entertainment → Primary case study company implementing free-to-play model",
+        "Candy Crush Saga → Main game example with 78% of King's revenue",
+        "Zynga → Early social game developer with FarmVille and CityVille",
+        "Rovio Entertainment → Angry Birds developer that transitioned to free-to-play",
+        "PopCap Games → Bejeweled developer that pioneered casual games"
+      ],
+      "synonyms_found": [
+        "companies",
+        "examples",
+        "case studies"
+      ],
+      "source_citation": "Page 1: '78% of the 2013 fourth quarter revenue derived from one single game launched the year before: Candy Crush Saga (King Digital Entertainment, 2012).' | Page 4: 'The American game developer Zynga, founded in 2007, was among the first to not only acquire a substantial amount of players, but also to instrument their games to commoditize the connective affordances of Facebook.' | Page 5: 'It took a while before influential studios, such as Angry Birds' (Rovio Entertainment, 2009) developer Rovio, but also incumbents such as game publisher Electronic Arts, considered the free-to-play model as a viable, let alone the default revenue model for its mobile games.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655698",
+      "article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Google Play → Primary marketplace platform studied",
+        "Apple App Store → Comparative marketplace platform",
+        "BlackBerry App World → Marketplace platform mentioned",
+        "Windows Marketplace for Mobile → Marketplace platform mentioned"
+      ],
+      "synonyms_found": [
+        "Google Play",
+        "Apple App Store",
+        "BlackBerry App World",
+        "Windows Marketplace"
+      ],
+      "source_citation": "Page 86: 'For the Android consumers, Google Play (https://play.google.com) is such a one-stop shop for thousands of Android apps' | Page 108: 'Today, the freemium strategy is observed in virtually all mobile app markets —including Apple App Store, BlackBerry App World, Google Play, and Windows Marketplace for Mobile.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655702",
+      "article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Linux operating system → OS product example",
+        "Apache Web server → OS product example",
+        "IBM → Large incumbent embracing OS",
+        "Oracle → Large incumbent embracing OS",
+        "Sun Microsystem → Large incumbent embracing OS"
+      ],
+      "synonyms_found": [
+        "Linux",
+        "Apache",
+        "IBM",
+        "Oracle",
+        "Sun Microsystem"
+      ],
+      "source_citation": "Page 3: 'several OS products (such as the Linux operating system or the Apache Web server) are currently adopted by numerous private and commercial users' | Page 7: 'even some large incumbents, like IBM, Oracle and Sun Microsystem, have embraced open source and promoted it'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655721",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655747",
+      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Company Alfa → Solution provider developing disturbance management service",
+        "ERP systems → Competing solutions mentioned as alternatives"
+      ],
+      "synonyms_found": [
+        "Company Alfa",
+        "ERP systems"
+      ],
+      "source_citation": "Page 3: 'Our research takes the perspective of a solution provider, a company Alfa, which develops and offers a service entity to logistic-intensive companies' | Page 5: 'The Competition in this kind of SaaS based service solutions was found to be rather low, although companies' own ERP systems and other applications are competing with the new solution of the company Alfa'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655750",
+      "article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Linux → Exemplary OSS project",
+        "Apache → Well-known OSS success",
+        "Debian → Community-managed project",
+        "Microsoft → Major software producer",
+        "Adobe → Major software producer",
+        "Novell → Major software producer",
+        "Autodesk → Major software producer",
+        "Intuit → Major software producer",
+        "Symantec → Major software producer"
+      ],
+      "synonyms_found": [
+        "examples",
+        "case studies"
+      ],
+      "source_citation": "Page 1: 'following the enormous success of well-known OSS projects such as Linux and Apache' | Page 5: 'Linux, Apache and Debian have all trademarked their names' | Page 8: 'six major U.S. software producers (1995 revenues; Microsoft, Adobe, Novell, Autodesk, Intuit, and Symantec)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655785",
+      "article_title": "The relationship between Open Innovation and Strategy: data-driven analysis of the Mobile Value Services Industry",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Apple → App Store open application model",
+        "Google (Android) → Open platform and ecosystem approach",
+        "Vodafone → Open partnering with third parties for content and services",
+        "Getjar → Open network of independent software developers",
+        "Nokia → Open innovation through Nokia Ventures Organization",
+        "Ericsson → Open collaboration with 41 partners for network solutions",
+        "Wind → iMode open ecosystem adoption (failed case)",
+        "TIM → Open business model for TIM Store initiatives"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 4: 'Apple. The open approach towards applications developers favored both the iPhone device uptake and the increase of revenues and margins from applications sold on the App Store' | Page 4: 'Google (Android). The open approach towards application developers and device manufacturers enabled the quick diffusion of the Android platform' | Page 4: 'Vodafone. The increasingly open approach towards partnering third parties' | Page 4: 'Getjar. The creation of an open network of independent software developers'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655819",
+      "article_title": "Open-Source Software Entrepreneurial Business Modelling",
+      "extraction_date": "2024-12-19",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655845",
+      "article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+      "extraction_date": "2025-01-27",
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "4CaaSt → EU-funded research project creating advanced PaaS cloud platform",
+        "AWS Elastic Beanstalk → PaaS provider example",
+        "Google App Engine → PaaS provider example",
+        "Microsoft Windows Azure → PaaS provider example",
+        "Salesforce.com Force.com → PaaS provider example",
+        "VMware Cloud Foundry → PaaS provider example"
+      ],
+      "synonyms_found": [
+        "4CaaSt",
+        "AWS Elastic Beanstalk",
+        "Google App Engine",
+        "Microsoft Windows Azure",
+        "Salesforce.com Force.com",
+        "VMware Cloud Foundry"
+      ],
+      "source_citation": "Page 6, Section 6: 'The EU-funded research project 4CaaSt aims to create an advanced PaaS cloud platform which supports the optimized and flexible hosting of Internet-scale multi-tier applications' and Page 9, Table 1: Lists 24 PaaS providers including AWS Elastic Beanstalk, Google App Engine, Microsoft Windows Azure, Salesforce.com Force.com, VMware Cloud Foundry",
+      "confidence_level": "high"
+    }
+  ]
+}

@@ -1,0 +1,1366 @@
+{
+  "question_metadata": {
+    "question_id": "32",
+    "question_text": "Are there variations or subtypes of the software business model described in the article?",
+    "total_articles": 67,
+    "articles_with_response": 67,
+    "articles_without_response": 0
+  },
+  "responses_by_article": [
+    {
+      "article_id": "190638760",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Value-based orientation models → Client-dictated pricing based on business value assessment (includes payment-based, product-based, usage-dependent categories)",
+        "Cost-based orientation models → Vendor-dictated pricing based on cost accounting (includes usage-independent, service-based categories)",
+        "Compact licensing models (57% of vendors) → Use few pricing components for simplicity",
+        "Value-focused models (28% of vendors) → Prefer value-based over cost-based components",
+        "Cost-focused models (15% of vendors) → Prefer cost-based over value-based components",
+        "Payment-focus models (47% of vendors) → Emphasize payment-based and usage-independent pricing",
+        "Usage-dependent models (33% of vendors) → Focus on usage-dependent pricing",
+        "Service-based models (20% of vendors) → Emphasize service-based pricing with complex licenses"
+      ],
+      "synonyms_found": [
+        "orientation",
+        "categories",
+        "clusters",
+        "models",
+        "pricing strategies"
+      ],
+      "source_citation": "Page 3: 'Layer 1 of our pricing framework consists of two types of pricing orientations, namely cost-based and value-based. Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting...cost-based pricing is dictated by SaaS vendors rather than clients. Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value to be extracted from such software services. Value-based pricing is thus in sharp contrast to cost-based pricing in that it is dictated by clients rather than SaaS vendors' | Page 4: 'The largest cluster (C1) makes up 57% of our sample...most SaaS vendors prefer compact licensing models' | Page 4: 'Cluster two (C2) makes up 28% of our sample...vendors in C2 attach more importance on value-based rather than cost-based orientation' | Page 4: 'Cluster three (C3) makes up 15% of our sample...vendors in C3 attach more importance on cost-based rather than value-based orientation' | Page 4-5: 'Cluster one (C1) that makes up 47% of the sample represent vendors that attached more importance on pricing components from the payment-based and usage-independent based categories' | Page 5: 'Vendors in Cluster two (C2) that make up 33% of the sample attach more importance on pricing components from the usage-dependent based category' | Page 5: 'Vendors in Cluster three (C3) that makes up 20% of the sample attach more importance on pricing components from the service-based category'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638781",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Pure-SaaS → Software that is simple to use with low/no customization requirements and lower strategic significance in customer business processes (e.g., office systems); uses time-based price discrimination for switching cost protection",
+        "Enterprise-SaaS → Complex software requiring support and integration with customer IT systems; higher strategic significance; uses labor-intensive implementation to create switching costs",
+        "Software Renting (Subscription) → Temporary usage rights with monthly/periodic fees; various pricing bases (user-based, usage-dependent, time-based, version-based, quantity-based)",
+        "Traditional Software Licensing → Perpetual license with full ownership rights for internal data center deployment; one-time purchase or concern license for unlimited internal use",
+        "Hybrid Model → Offering both rental and licensing options from same software architecture based on customer needs",
+        "Multi-tenant Architecture → Single instance serving multiple customers (tenants) on shared server",
+        "Multi-instance Architecture → Separate instances for each customer within shared hardware; enables customization in meta-data layer"
+      ],
+      "synonyms_found": [
+        "pure-SaaS",
+        "enterprise-SaaS",
+        "software renting",
+        "traditional licensing",
+        "multi-tenant",
+        "multi-instance"
+      ],
+      "source_citation": "Page 2: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes. Pure SaaS refers to software that is simple to use and has low or no requirements for customization... pure-SaaS products also have lower strategic significance in a customer's business processes compared to enterprise-SaaS products... Enterprise-SaaS, on the other hand, refers to software which is more complex and which may require support, involving integration with customers' existing IT systems' | Page 2: 'SaaS has multi-tenant or multi-instance architecture; the former refers to the situation in which a vendor hosts a single instance on a server that serves multiple customers (tenants), whereas the latter is related to the model in which a vendor hosts separate instances for each customer within shared hardware' | Page 5: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs... enterprise-SaaS providers (Firms C and D) seem to protect their business against low switching costs by using separate pricing for the implementation work'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638871",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Pure cloud/SaaS model → Initial approach focusing heavily (80%) on SaaS development with minimal on-premise maintenance; rapid transition strategy",
+        "Hybrid model → Balanced approach with 50/50 R&D allocation between SaaS and on-premise products; controlled transition allowing gradual adaptation",
+        "Three cloud delivery model levels → SaaS (software applications), PaaS (platform for development), IaaS (infrastructure and computing resources)"
+      ],
+      "synonyms_found": [
+        "hybrid model",
+        "controlled transition",
+        "SaaS",
+        "PaaS",
+        "IaaS"
+      ],
+      "source_citation": "Page 1, Section 1: 'There are three commonly recognized delivery models of cloud computing, namely software-as-a service (SaaS)... platform-as-a-service (PaaS)... and infrastructure-as-a-service (IaaS)' | Page 6, Section 5.2.1: 'ERP Co adjusted their research and development resources to 80% in SaaS and 20% in on-premise, as an attempt to facilitate the development of the SaaS products' | Page 6, Section 5.2.2: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms. The distribution of R&D resources was adjusted to 50% each for SaaS products and on-premise products.' | Page 6, Section 5.2.2: 'The hybrid strategy led to so-called \"controlled transition\" towards cloud'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190638976",
+      "article_title": "Managing a Software Business",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Pure software product → Software-only offering like Microsoft Windows",
+        "Software-hardware combination → Integrated hardware and software offering like iPhone",
+        "Service-based model → Service offering like eBay with recurring revenue",
+        "Platform/ecosystem model → Platform where business grows together with others that depend on it; hub positioning in winner-takes-all field",
+        "Complementary offering → Market complement rather than leader position",
+        "Specialized vs. mass market → Can create specialized product or appeal to masses",
+        "Broad area vs. niche focus → Can cover broad area or focus on profitable niche with global distribution"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Will that be a pure software product, such as Microsoft Windows; a software–hardware combination (consider the iPhone); or a service, such as eBay?' | Page 2: 'A related strategy involves offering a platform or an ecosystem in which your business can grow together with others that depend on yours.' | Page 2: 'Positioning yourself as a hub in a winner-takes-all field can be remarkably rewarding.' | Page 1: 'you can create a specialized product or appeal to the masses, you can cover a broad area or focus on a niche, and you can lead the market or complement an existing offering.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653396",
+      "article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Sustainable Software Solution (n=6) → Software platforms or layers to optimize ecological sustainability impact on customers' resource consumption and CO2 production; IT as outcome; eco-efficient or enabling",
+        "Sustainable Product-Service System (n=13) → Physical products enhanced by digital complements (mobile apps, IoT) to optimize ecological sustainability of product use; IT-mediated or IT-bearing; uses renewable energy and closed loops",
+        "Sustainability Intelligence (n=8) → Data analytics combined with sustainability science for transparency and sustainable decision-making; purely digital; IT ubiquitous; B2B only",
+        "Digital Sustainable Platform (n=4) → Multi-sided markets facilitating ecological sustainable value co-creation with complementors; purely digital; enables circularity, sufficiency, inclusive value creation; IT ubiquitous",
+        "IT role variations → Mediator (5), Outcome (16), Ubiquity (10) - based on Steininger (2019) classification",
+        "Eco-dimension variations → Efficient (7), Effective (12), Enabling (12)",
+        "Sustainability pattern variations → Resource optimization (19), Servitization (12), Closed loop (10), Renewables (15), Stewardship (24), Sufficiency (18), Inclusive value (12)",
+        "Differentiation strategy variations → Aikido (16), Breakthrough (22), Customer centricity (27), Open BM (14), Value network (12)"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 9, Section 4.2: 'we identified four archetypal patterns of digital sustainable BMs: Sustainable Software Solution, Sustainable Product-Service System, Sustainability Intelligence, and Digital Sustainable Platform' | Page 10, Table 2: Complete taxonomy showing all dimensions and characteristics with counts | Page 11, Table 3: Definitions of four archetypes with counts",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653434",
+      "article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Bundled Freemium Business Model → Business adds value through premium sales with bundled features; new product/service combinations; interrelated and reinforcing characteristics; difficult to separate high-quality functions; users often combine use of hypermodularity",
+        "Fragmented Freemium Business Model → Creates value with free products then adds many fragmented upsell products; diverse product features sold separately; users choose upsells by interests and willingness to pay; purchased products depleted after use; free products are complex and support modular purchases",
+        "Configuration H1 → Bundled + Fragmented + High Sensing + High Seizing (without Reconfiguring)",
+        "Configuration H2 → Bundled + Fragmented + High Sensing + High Seizing + Environmental Uncertainty (without Reconfiguring)",
+        "Configuration H3 → Fragmented + High Sensing + High Seizing + High Reconfiguring + Environmental Uncertainty (without/with Bundled)",
+        "Configuration H4 → Bundled + High Sensing (without Fragmented and Seizing)"
+      ],
+      "synonyms_found": [
+        "bundled freemium",
+        "fragmented freemium",
+        "BBMI",
+        "FMBI"
+      ],
+      "source_citation": "Page 2, Section 1: 'We divide the freemium business model into bundled and fragmented business models' | Page 7, Table 3: Detailed definitions of bundled and fragmented characteristics | Page 9, Table 6: Shows four configurations (H1-H4) for achieving high performance with different combinations",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653582",
+      "article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Traditional perpetual licensing → One-time purchase with lifetime use | Cloud-based subscription → Recurring payment for cloud access | Hybrid approach → Combination of perpetual and subscription models for different customer segments",
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "models",
+        "approaches"
+      ],
+      "source_citation": "Page 1, Introduction: 'transitioning from the time-tested perpetual licence price model to a cloud and subscription-based pricing model' | Page 6, Business model changes: 'the transition from licenced software to a cloud-based deployment model' | Page 4, Customers: 'Historically, Adobe's enterprise customers and individual users have paid a perpetual licence price to use Adobe software for decades.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653589",
+      "article_title": "Navigating the paradox of global scaling",
+      "extraction_date": "2025-01-22",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Flexible replication → Allows certain local adaptations while maintaining core business model",
+        "Transnational solution → Involves subsidiary strategic roles and shared decision-making",
+        "Traditional replication → Emphasizes precise replication without local modifications"
+      ],
+      "synonyms_found": [
+        "flexible replication",
+        "transnational solution",
+        "traditional replication"
+      ],
+      "source_citation": "Page 5: 'As a variant of a replication strategy labeled flexible replication, this strategy was effective for IKEA' | Page 7: 'The replicable innovation strategy can be contrasted with the transnational solution' | Page 5: 'precise replication of the established business model, compared with localization, is associated with lower failure of a new location'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653595",
+      "article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "In-app purchases → Free app with paid features within same app",
+        "Separate versions → Free and paid versions as different apps"
+      ],
+      "synonyms_found": [
+        "in-app purchases",
+        "separate versions"
+      ],
+      "source_citation": "Page 347: 'In recent years, a different variant of freemium pricing, in-app purchases, has become popular. Although App Store started allowing for in-app purchase microtransactions in 2009, these were not yet common during the period of our data.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653734",
+      "article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Level 5 - Premium → All-inclusive payment model with trial period",
+        "Level 4 - Semi-premium → Partially-inclusive payment with additional paid features",
+        "Level 3 - In-app advertising & in-app purchases → Free app with ads encouraging payments",
+        "Level 2 - Sample & premium → Two separate applications with intentional quality difference",
+        "Level 1 - In-app advertising → Single version relying solely on advertising revenue",
+        "Level 0 - Free → No monetization strategy, benefits from personal data"
+      ],
+      "synonyms_found": [
+        "premium",
+        "semi-premium",
+        "in-app advertising",
+        "sample & premium",
+        "free"
+      ],
+      "source_citation": "Page 5: 'In Fig. 2, the authors have illustrated six levels of monetization strategies. These levels represent varying degrees of strategical importance, ranging from 5, where users are required to fully pay for the application, to 0, indicating that users do not need to spend any money'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653772",
+      "article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Private sector shared app → Minimal features, little branding, serves multiple agencies globally",
+        "White-label app with minor customization → Basic rebranding, color schemes, route information changes",
+        "White-label app with major customization → New functionalities, system integration, complex fare structures",
+        "In-house design vendor development → Agency-led product management with vendor development",
+        "In-house development → Complete agency control, cutting-edge technologies, highest customization"
+      ],
+      "synonyms_found": [
+        "business model variations",
+        "development approaches",
+        "implementation types"
+      ],
+      "source_citation": "Page 4: 'five business models were identified' with detailed descriptions of each model's characteristics, costs, and level of control",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653856",
+      "article_title": "Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market valuation?",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Best of breed applications → Single software solutions | SaaS suites → Multiple integrated products",
+      "synonyms_found": [
+        "best of breed",
+        "SaaS suites",
+        "single applications",
+        "integrated platforms"
+      ],
+      "source_citation": "Page 5: 'One possible distinction which could be made to serve this purpose, is the separation between 'best of breed' applications and SaaS suites. The former, represent companies providing singular pieces of software and are more akin to the growth stocks in Fama and French's conceptual framework. Suites typically contain a multitude of SaaS products or tools'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653872",
+      "article_title": "Managing Software-as-a-Service: Pricing and operations",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription-based SaaS → Fixed monthly/yearly fee for unlimited access",
+        "Usage-based SaaS → Pay-per-use, metered pricing based on consumption (transactions, storage, computing)",
+        "Freemium SaaS → Free basic service with paid premium features",
+        "Tiered/Plans SaaS → Multiple service levels with different features and pricing",
+        "Platform-based SaaS → Hosting third-party applications and developer ecosystems",
+        "AI-as-a-Service → Machine learning and analytics services (Noodle.ai example)",
+        "Hybrid model → Combining subscription with usage-based components"
+      ],
+      "synonyms_found": [
+        "pricing schemes",
+        "tariff schemes",
+        "business model variations"
+      ],
+      "source_citation": "Page 3, lines 309-324: 'subscription pricing (a.k.a., flat-fee), two-part tariff (2PT), and three-part tariff (3PT) are ubiquitous choices' and 'tiered (nonlinear) pricing and pay-per-use pricing' | Page 7, lines 674-676: '38% of SaaS companies adopt pricing plans based on usage (transactions, storage, computing, servers)' | Page 17, lines 1667-1674: 'Despite the attractiveness of freemium' and 'tiered pricing combines tariff and bundling' | Page 8, lines 745-746: 'Noodle.ai offers AI-as-a-service' | Page 15, lines 1497-1503: 'Salesforce.com transformed itself into a platform of enterprise business applications'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653882",
+      "article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium model → Quality-locked free version with unlimited time",
+        "Content streaming services → Paying for content access rather than software functionality"
+      ],
+      "synonyms_found": [
+        "freemium model",
+        "content streaming services"
+      ],
+      "source_citation": "Page 5: 'It is noted that the freemium model is also widely adopted by firms to attract prospects by providing access to free products and services' | Page 5: 'The free version in the freemium model is quality-locked, and the free trial in the SaaS model is time-locked' | Page 5: 'The SaaS model is also similar to content streaming services, such as Spotify and Netflix'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653942",
+      "article_title": "Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Paid products → Direct purchase model with moderate distinctiveness optimal",
+        "Free products → U-shaped distinctiveness-performance relationship",
+        "Freemium with privacy statements → Flattened U-shaped relationship",
+        "Freemium without privacy statements → Standard U-shaped relationship"
+      ],
+      "synonyms_found": [
+        "paid products",
+        "free products",
+        "freemium"
+      ],
+      "source_citation": "Page 8: 'we theorize the relationship is inverted U-shaped for paid products but U-shaped for free products' | Page 11: 'free products that adopt a privacy statement or a freemium revenue approach, making moderate levels of differentiation more viable'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653950",
+      "article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+      "extraction_date": "2025-01-22",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Free-to-play with social features → Enhanced network effects and user engagement",
+        "Free-to-play without social features → Standalone functionality focus"
+      ],
+      "synonyms_found": [
+        "social features",
+        "standalone functionality"
+      ],
+      "source_citation": "Page 6: 'free-to-play games with many social features have a 49 percentage points higher probability of becoming a superstar than free-to-play games without any social features'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190653984",
+      "article_title": "Toward Building Specialized Information Systems as Software Platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Web Platform → Consists of web server, web application server, and web browser with semantic layer extension",
+        "Traditional SIS → Built for specific needs without extensibility from outside",
+        "Platform-based SIS → Transformed SIS with ecosystem capabilities"
+      ],
+      "synonyms_found": [
+        "variations",
+        "types"
+      ],
+      "source_citation": "Page 2: 'The most common software platform used for building SIS is the web platform. The web platform consists of a web server, a web application server, and a web browser' | Page 2: 'Building a traditional SIS is good when you have no plans of extending it in the future' | Page 1: 'what we see nowadays, is businesses are choosing platform-based SISs'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190653993",
+      "article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "License-oriented sales → Software-only sales without hardware consideration",
+        "Bundling sales → Package solution including license and hardware system",
+        "Public cloud services → Cloud-based simulation services",
+        "Private cloud platform → Local network-based secure services"
+      ],
+      "synonyms_found": [
+        "license-oriented sales",
+        "bundling sales",
+        "public cloud services",
+        "private cloud platform"
+      ],
+      "source_citation": "Page 4: 'License-oriented sales mean salespeople do not consider computer hardware in any kind when they deal with potential buyers' | Page 4: 'Bundling sales means salespeople promote a package solution including license and a reliable hardware system' | Page 5: 'the new product could be recognized as a molding simulation system or a private cloud platform'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654058",
+      "article_title": "MintM: the start-up transforming businesses real-time",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Pay-per-view model → Revenue based on number of advertisement views",
+        "Per tab/per deployment license model → Revenue based on software licenses sold",
+        "Inventory creation and maintenance product → New product line for inventory management",
+        "Footfall counting and analysis product → New product line for customer counting and analysis"
+      ],
+      "synonyms_found": [
+        "pay-per-view model",
+        "per tab model",
+        "per deployment license",
+        "inventory creation",
+        "footfall counting"
+      ],
+      "source_citation": "Page 8: 'The pricing or revenue model was also unique, where brands were charged on the number of views' | Page 22: 'MintM changed into a per tab or per deployment license model' | Page 22: 'two new products were launched; one on inventory creation and maintenance while the other dealt with footfall counting and analysis'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654085",
+      "article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Premium model → App is paid to install on mobile device",
+        "Freemium model → Users get app for free but pay for new features or service tiers",
+        "Advertising model → Display advertising within the app",
+        "In-App Purchases → Generate revenue through in-app transactions"
+      ],
+      "synonyms_found": [
+        "premium",
+        "freemium",
+        "advertising",
+        "in-app purchases"
+      ],
+      "source_citation": "Page 1: 'the main business models are premium - i.e., when the app is paid in order to install it on the mobile device – and freemium – i.e., when users can get the app for free, but they have to pay to get new features or to access new tiers of service' | Page 1: 'Mobile Apps developers, also, may monetize their services (Scholz, 2017) displaying advertising within the app, or generating In-App Purchases'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654186",
+      "article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Permissive licensing model → Minimal restrictions on software use and extension",
+        "Restrictive licensing model → Significant restrictions on contributor activities",
+        "Dual licensing scheme → Different licensing terms for different use cases"
+      ],
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "models",
+        "schemes"
+      ],
+      "source_citation": "Page 1: 'the GNU General Public License (GPL) is a widely employed open-source license that is considered to be quite restrictive with regard to what a contributor can do with the software. On the other end of the spectrum lies the Berkeley Software Distribution (BSD) license, which imposes minimal restrictions on anyone who uses or extends BSD-licensed software' | Page 1: 'OSS is offered under either a dual licensing scheme or a support model'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654465",
+      "article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Basic version → Limited ticket availability (P&R and MCard Day only)",
+        "All Tickets version → Full range of bus tickets available",
+        "All Functions version → Additional functionality (rewards, advertising, ad-free)",
+        "All version → Combined full tickets and functions"
+      ],
+      "synonyms_found": [
+        "basic version",
+        "all tickets",
+        "all functions",
+        "all version"
+      ],
+      "source_citation": "Page 7: 'Under the base scenario conditions, with limited ticket availability and functionality' | Page 7: 'the inclusion of all ticket types (e.g., for any journey type with each operator) available in West Yorkshire for sale on the app' | Page 7: 'the addition of additional functionality (rewards, advertising, and ad-free version)' | Page 7: 'both of these together'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654531",
+      "article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Standard Subscription → Basic subscription tier",
+        "Premium Subscription → Advanced subscription tier",
+        "Free For All → Freemium model with in-app advertisements",
+        "License Subscription → Paid subscription model"
+      ],
+      "synonyms_found": [
+        "Standard Subscription",
+        "Premium Subscription",
+        "Free For All",
+        "License Subscription"
+      ],
+      "source_citation": "Page 1: 'which is Free For All (FA) by using In-App Ads (IA)' | Page 5: 'License Subscription could be refined to Standard Subscription and Premium Subscription' | Page 1: 'As a result, they add License Subscription (LS) as an additional revenue stream'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654542",
+      "article_title": "E-business evolution: an analysis of mobile applications' business models",
+      "extraction_date": "2025-10-06",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Free apps vs Pay per download apps → Free apps rely on ads, in-app purchases, subscriptions, or third-party agreements; pay per download apps charge upfront and often use mixed monetization (69% use mixed mechanisms including freemium). Content-oriented → Production and provision of online content, relying on advertising or premium fees (80-91.6% of apps). Commerce-oriented → Trading aspects of online transactions, relying on commissions and third-party agreements. Context-oriented → Structuring existing information to help users find services, relying on advertising. Connection-oriented → Offering virtual spaces for online networks, relying on subscriptions or free as a service model.",
+      "synonyms_found": [
+        "typologies",
+        "four general typologies of business model"
+      ],
+      "source_citation": "Page 3: 'Wirtz, Schilke, and Ullrich (2010), in recognising the new challenges and opportunities of the new digital era seminally defined four general typologies of business model in terms of value creation: (i) content-oriented, (ii) commerce-oriented, (iii) context-oriented, (iv) connection-oriented' | Page 5: '25 pay per download apps (i.e. a payment is needed to download the app) and 25 free apps (i.e. payment is not needed)' | Page 7: 'about 69% of pay per download apps (777 out of 1125) are based on mixed value capture mechanisms' | Page 7: 'within the content typology there is a significantly higher presence of the capture value scheme called ads and in-app-purchases'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654598",
+      "article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+      "extraction_date": "2025-10-06",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Image Upload Method → Software is converted into machine image format suitable for marketplace product policy and registered in marketplace portal with different versions to meet users' needs",
+        "SaaS Registration Method → Products are built on computing resources of CSPs and grant access to services with time unit charges and service usage charges, requiring development of predictable metering and billing methods",
+        "BYOL (Bring-Your-Own-License) → Users purchase license separately and install product in marketplace by registering the license",
+        "Subscription-based model → Cloud-based service with monthly or annual subscriptions supporting continuous functional improvements"
+      ],
+      "synonyms_found": [
+        "Image Upload",
+        "SaaS Registration",
+        "BYOL",
+        "subscription-type"
+      ],
+      "source_citation": "Page 7: 'There are two marketplace registration methods—image upload and SaaS registration. The registration method depends on the software distribution and function enhancement method of the software. Marketplace can register different versions of software to meet users' needs. Software has to be converted into a machine image format... SaaS-type products are built on computing resources of CSPs and grant access to those services. Time unit charges and service usage charges depending on the payment method have to be determined.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654601",
+      "article_title": "Software as a service: Lessons from the video game industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Free-to-play / Freemium → Games that are free to start but offer paid microtransactions",
+        "Subscription-based → Monthly fee for platform or game access",
+        "Season pass model → Upfront payment for year's worth of DLCs at discounted price",
+        "Hybrid models → Combining multiple monetization approaches (subscription + microtransactions)"
+      ],
+      "synonyms_found": [
+        "free-to-play",
+        "freemium",
+        "free-to-start"
+      ],
+      "source_citation": "Page 2-3: 'free-to-play games are rarely entirely free and might more accurately be called freemium or free-to-start games' | 'A purely subscription-based game does not require the user to make any other purchase to download or play it; nevertheless, gamers can use microtransactions to purchase items not included in the subscription' | Page 2: 'games developers and publishers realize, however, that gamers will continue to play the game and remain loyal only for as long as their expectations are met' and 'Games developers have implemented several different monetization methods and, as their colleagues in other industries have done, often incorporate more than one technique into a single approach.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654605",
+      "article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+      "extraction_date": "2025-10-06",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Personal use SaaS → Characterized by individual consumer applications like Gmail, Skype, Dropbox",
+        "Business-centric SaaS → Characterized by enterprise applications like Salesforce CRM, SAP Analytics Cloud, Oracle ERP Cloud",
+        "Multi-tenant SaaS → Multiple customers served from shared infrastructure",
+        "Hybrid, open, and interoperable SaaS services → Focus on open source compatibility and hardware agnosticism"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Examples of personal use SaaS include, for example, Gmail, Skype, and Dropbox. Salesforce customer relationship management (CRM), SAP Analytics Cloud, and Oracle Enterprise Resource Planning Cloud are examples of business-centric SaaS' | Page 10: 'With our particular SaaS products, we are able to distribute it to multiple customers in a multi-tenant environment' | Page 8: 'the orientation of the SaaS market towards hybrid, open, and interoperable SaaS services'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654664",
+      "article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+      "extraction_date": "2025-10-06",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "The article presents two distinct model types (INT and VAR) and references broader classification frameworks: (1) Five-element value chain classification (Design, Production, Distribution, Implementation, Maintenance) with 15 generic models; (2) Classification based on product strategy (customized vs. standard); (3) Classification based on degree of customer involvement and offering homogeneity",
+      "synonyms_found": [],
+      "source_citation": "Page 4-5, Table 1, Wartini-Twardowska 2014: 'Five generic business models were obtained for each value-added strategy: Design (1.1 Independent IT advisor; 1.2 Auditor; 1.3 Business consultant); Production (2.1 Independent software vendor; 2.2 Software development company; 2.3 IT Lab); Distribution (3.1 Value-added reseller; 3.2 Distributor; 3.3 Challenger); Implementation (4.1 Integrator; 4.2 Freelancer; 4.3 Software house); Maintenance (5.1 Help Desk; 5.2 IT on demand; 5.3 Service provider)' | Page 5, Table 2: Different classification dimensions showing variations in 'Product strategy', 'Revenue logic', 'Distribution model', 'Service and implementation model'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654709",
+      "article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Emotion-as-a-Service API → Payment for number of images/videos processed",
+        "Technology licensing variations → Final product vs intermediary technology (APIs and SDKs)",
+        "Product sales → One-time sale of software and hardware"
+      ],
+      "synonyms_found": [
+        "Emotion-as-a-Service API",
+        "technology licensing",
+        "product sales"
+      ],
+      "source_citation": "Page 4: 'Within technology licensing ER sector differentiates between provision of the final product, as well as intermediary technology, such as APIs and SDKs' | Page 4: 'Emotion-as-a-Service API business model, which refers to payment for a number of images/videos processed' | Page 4: 'Product sale refers to one-time sale of both software and hardware'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654717",
+      "article_title": "Economics of open source library software: evidences from Indian libraries",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "OSS 2.0 → More mainstream and commercially viable form with bazaar metaphor shifted to product delivery and support process",
+        "Service-based OSS model → Companies providing support, training, and implementation services",
+        "Community-driven OSS model → Traditional collaborative development approach"
+      ],
+      "synonyms_found": [
+        "OSS 2.0",
+        "service-based model",
+        "community-driven model",
+        "commercial OSS"
+      ],
+      "source_citation": "Page 3: 'OSS phenomenon has metamorphosed into a more mainstream and commercially viable form, which Fitzgerald (2006) labels as OSS 2.0. He discusses how the bazaar metaphor, which is up to now has been associated with the OSS development process, has been actually shifted to become a metaphor better suited to the OSS 2.0 product delivery and support process' | Page 13: 'There are many third-party service providers to facilitate the OSS to the library'",
+      "confidence_level": "medium"
+    },
+    {
+      "article_id": "190654720",
+      "article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "License-based Business Model → Targets Asset Manufacturers; yearly license fees; integration into AM ecosystems; B2B sales focus",
+        "Freemium Business Model → Targets Application Operators; free and paid tiers; Infrastructure Providers as key partners for data; includes advertising revenue from IPs"
+      ],
+      "synonyms_found": [
+        "License-based",
+        "Freemium",
+        "prototype business models",
+        "variations"
+      ],
+      "source_citation": "Page 1: 'it discusses two prototype business models for such company' | Page 6, Section III-A: 'The business model canvas of Figure 1 foresees the possibility that Asset Manufacturers outsource the management...Asset Manufacturers represent the main Customer Segment of this scenario. They are expected to consider extending their management platforms with predictive, QoS-aware management capabilities...Asset Manufacturers should pay yearly license fees (Revenue Streams) to access the predictive application management service' | Page 6, Section III-B: 'The business model canvas of Figure 2 instead foresees the possibility of directly targeting Application Operators as Customer Segment, aiming at facilitating their QoS-aware management of Fog applications. Whilst the canvas remains unaltered for what concerns Channels, Customer Relationships, Key Activities, Key Resources and Cost Structure, it substantially changes in all other parts. Indeed, freemium models require the costs of non-paying customers to be covered by another part of the business model'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654834",
+      "article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Ride-hailing singular B2C → Private chauffeur driven vehicles (VTC services)",
+        "Ride-hailing singular P2P → People using their own cars as drivers for economic remuneration",
+        "Ride-hailing shared B2C → Shared rides with employed drivers",
+        "Ride-hailing shared P2P → Shared rides with freelance drivers using own cars",
+        "Ridesharing organization-based → For-profit platforms connecting drivers and passengers sharing costs",
+        "Carsharing B2C one-way station-based → Return vehicles at specific points near destination",
+        "Carsharing B2C one-way free-floating → Return vehicles directly on streets",
+        "Carsharing B2C round-trip → Return vehicles to pick-up location",
+        "Carsharing P2P → Car owners renting their vehicles through platform",
+        "Carsharing corporate → For corporate employees",
+        "Carsharing target-oriented → Cooperatives, municipally owned, private communities"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2-3: Figure 1 and accompanying text describe complete classification: 'ride-hailing is divided into private B2C (chauffeur driven vehicles commonly called VTC services), private P2P, where people seek economic remuneration by working as drivers and using their cars to carry passengers to their destinations, and shared B2C and P2P models' | 'carsharing business models are classified into four business types: B2C, P2P, corporate carsharing and target-oriented' | 'B2C carsharing services can be found that use either round-trip or one-way modes. The one-way (or point-to-point) type allows users to return the vehicles near their destinations at specific points (station-based) or directly on the streets (free-floating or flexible)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190654956",
+      "article_title": "Open source ERP business model framework",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Model 1: Limited Production/Limited Filtering → Free software with no user participation, all activities by employees/members, high quality guaranteed (Examples: Compiere, Nexedi, Openbravo, Fisterra)",
+        "Model 2: Open Production/Limited Filtering → Hybrid collaboration, production by users and filtering by professionals (Example: OpenMFG, Linux)",
+        "Model 3: Limited Production/Open Filtering → Competition model, production by professionals and filtering by public users (Internal knowledge management)",
+        "Model 4: Open Production/Open Filtering → Complete user participation in production and filtering (External knowledge management)",
+        "Community-based FOS-ERP → Developed by open-source community",
+        "Sponsored FOS-ERP → Sponsored by organization (can be by for-profit or foundation)",
+        "Second-Generation Open Source (OSSg2) → Hybrid between corporate distribution and sponsored open source",
+        "Corporate Distribution → Companies provide support for open source products developed by others",
+        "Proprietary development with free distribution → Internal development with no-charge distribution",
+        "Open development with commercial distribution → Community developed but commercially sold",
+        "Dual licensing model → Offering both open source and proprietary licenses"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 5: Table 1 'Clusters of the P–F Model in OSS ERP' describes four models with their characteristics | Page 1: 'FOS-ERP can be community based, or sponsored by some organization' | Page 3: 'A more recent variant, Second-Generation Open Source (OSSg2) is a hybrid between corporate distribution and sponsored open source' | Page 4: 'three variants: 1. Proprietorial development, free distribution [...] 2. Open development, commercial distribution [...] 3. Open development, open distribution' | Page 4: Raymond [14] gave nine basic open source business models including cost sharing, risk spreading, loss leader, widget frosting, give away recipe/open restaurant, accessorize, free software/sell present, free software/sell brand, free software/sell content",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655012",
+      "article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Time-limited freemium → Free for limited time then charge, requires time dimension consideration (mentioned but not analyzed in detail)",
+        "Freemium with Case 1 customer equilibrium → Free version attracts users by itself, all free users obtain non-negative utility",
+        "Freemium with Case 2 customer equilibrium → Some customers use free version only to access premium version",
+        "Seeding model → Alternative to freemium mentioned for comparison",
+        "Freemium with marginal cost consideration → Extension considering non-zero marginal costs",
+        "Freemium with customer learning behavior → Customers update estimate values after using free version"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'It should be noted that there may exist another way that the firm provides product for free in a time limit then charge for it, which may also be called freemium. This paper does not discuss ''free-time'' situation because it needs to consider the time dimension' | Page 6-7: 'the customer's choice behavior results in one of two cases' - Case 1 and Case 2 described | Page 3: 'Niculescu and Wu (2014) compare the optimal profit and social welfare for the freemium model, charge-for-everything model, and seeding model' | Page 17: 'we will discuss the problem that when the customer has customer learning behavior'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655172",
+      "article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Four distinct types with different characteristics: Novelty-centred → Creates value through innovation, novel transactions, new market participants, requires high R&D investment, benefits from high VC involvement | Efficiency-centred → Focuses on transaction efficiency, cost reduction, fast transactions, easily imitable, benefits from low VC involvement | Lock-in-centred → Creates switching costs through customization, personalization, dominant design, network effects, high implementation costs | Complementarity-centred → Bundles complementary services, integrates APIs, creates platform effects, benefits from strategic alliances",
+      "synonyms_found": [
+        "novelty-centred",
+        "efficiency-centred",
+        "lock-in-centred",
+        "complementarity-centred"
+      ],
+      "source_citation": "Page 1: 'Four different themes in e-business models are classified by Amit and Zott (2001): novelty-centred business model...efficiency-centred business model...lock-in-centred business model...complementarity-centred business model' | Page 9: 'findings provide new empirical evidences on how different e-business model selections affect IoT mobile Apps' value retention'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655181",
+      "article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Open Innovation (OI) platform → High openness to suppliers (0.9), many suppliers but lower quality control | Closed Innovation (CI) platform → Low openness to suppliers (0.1-0.5), fewer suppliers but higher quality | Open Business Model (OBM) platform → High openness to customers (0.9), more users but lower revenue collectability | Half-open Business Model (HBM) platform → Medium openness to customers (0.5), balanced approach | Closed Business Model (CBM) platform → Low openness to customers (0.1), higher revenue control but fewer users | Industry-specific variations → Hardware platforms emphasize technological capability, Service platforms emphasize user trust, Software platforms balance both",
+      "synonyms_found": [
+        "OI",
+        "CI",
+        "OBM",
+        "HBM",
+        "CBM",
+        "open innovation",
+        "closed innovation"
+      ],
+      "source_citation": "Page 7: 'Apple: closed innovation (CI)...Android: OI' | Page 8: 'Booking.com: OBM...Hotels.com: HBM' | Page 9: 'The decision part includes the following: (a) OI/closed innovation (CI) decision, (b) OBM/HBM/CBM decision' | Page 11: 'The sequencing of the importance of technological capability among industries is as follows: Hardware > SW (App Market etc.) > Service (Hotel Reservation etc.)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655186",
+      "article_title": "Developing enterprise social software in China: insights from Mingdao",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Public Cloud SaaS → Free basic account and paid advanced account tiers → For SMEs and individual departments, scalable model | Private Cloud SaaS → Customized deployment with annual licensing → For large enterprises (3,000+ employees) with strong IT capabilities, high-touch model | Free Basic Account → Limited features, unlimited users → Suitable for SMEs to try | Advanced Account (Gold/Silver tiers) → Unlimited storage, personalized interface, management controls, many applications → For paying customers at RMB 3,600/year or 5 RMB/person/month",
+      "synonyms_found": [
+        "public cloud",
+        "private cloud",
+        "free account",
+        "advanced account",
+        "basic",
+        "Gold",
+        "Silver"
+      ],
+      "source_citation": "Page 5: 'we [may] deploy two: the public and private cloud. Public cloud can be free or low-cost...we can also provide a private cloud service by developing a customized Mingdao platform' | Page 4: 'Free module: Free trial mode: suitable for SMEs...Advanced mode: SME enterprises can use Mingdao with unlimited storage, personalized interface, management and control functions' | Page 10: 'Our categories [of customers] can also be divided into 'Gold' and 'Silver''",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655190",
+      "article_title": "Open source - Is it an alternative to intellectual property?",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Reciprocal/Copyleft License Model → Service-oriented business, revenue from professional services (maintenance, support, customization, consulting, training), requires derivative works under same license (e.g., GPL)",
+        "Academic/Permissive License Model → Revenue from both licensing and services, allows proprietary derivatives, no obligation to redistribute under same terms (e.g., Apache, BSD, Mozilla)",
+        "Dual Business Model → Offers both open source and proprietary/commercial licenses, revenue mainly from license fees, proprietary version not viral, requires IP control over entire software"
+      ],
+      "synonyms_found": [
+        "reciprocal licenses",
+        "copyleft",
+        "academic licenses",
+        "permissive licenses",
+        "dual licensing",
+        "dual business model",
+        "variations",
+        "models"
+      ],
+      "source_citation": "Page 10: 'Companies that rely on \"reciprocal licenses\", based on copyleft will have their revenues coming from professional services. A \"copyleft license\" limits the commercial utilization of software. It requires the derivative works to also be distributed under the same license terms...a reciprocal license model will be largely service oriented, where the revenue mainly comes from professional services like maintenance, support customization, consulting and training' | Page 10: '\"Academic licenses\", on the other hand, enable companies to generate revenue from both licensing and professional services. These licenses allow companies to use the code in proprietary software, with or without modifications and contain no obligation to redistribute the derivative work under same license terms...anyone can improve or build upon the software distributed under an academic license and then redistribute it as proprietary software' | Page 10: 'The \"Dual Business model\" allows companies to give customers the choice of two licensing models: open source or proprietary/commercial...Companies adopting the \"dual business model\", are not dissimilar to proprietary software companies and base their revenue mainly on license fees...The most important difference between the open source license and the proprietary license in this model is that the latter license is not viral'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655198",
+      "article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Exchange platform → Transaction happens directly between producer and consumer (e.g., ordering taxi, making reservation), platform matches right consumer with right producer using data",
+        "Content platform → Producer creates content consumed by several consumers (e.g., YouTube), platform collects data and offers search functions for consumers to find content. RHIS is categorized as this type"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'One category of platforms is an exchange platform, where the transaction happens directly between the producer and the consumer, like in ordering a taxi or making a reservation. The platform uses its data to match the right consumer with the right producer. Another platform category is a content platform like Youtube, where the producer creates a piece of content which then can be consumed by several consumers. The platform collects the data and offers various search functions for the consumers to find the right content' | Page 4: 'The category of RHIS is a content platform where the producer creates a piece of content which then can be consumed by several consumers'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655206",
+      "article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Supplier Direct Model → One-to-many relationship where supplier distributes e-invoices to multiple buyers using different channels (EDI, PDF, XML via email/web portal), commonly applied by high-volume senders and small/micro companies",
+        "Buyer Direct Model → Many-to-one relationship where buyer provides invoicing interface for many suppliers, mostly implemented by large organizations with competing suppliers",
+        "Service Provider Model (Three-corner) → Service provider enrolls all trading partners to single platform with separate contractual relationships, businesses can only reach partners contracted with same platform",
+        "Service Provider Model (Four-corner) → Service providers make interoperability agreements enabling interchange between platforms, allowing supplier to choose any platform with interchange agreement to buyer's platform"
+      ],
+      "synonyms_found": [
+        "supplier direct model",
+        "buyer direct model",
+        "three-corner model",
+        "four-corner model",
+        "service provider model"
+      ],
+      "source_citation": "Page 3-4: 'several models of e-invoicing can be distinguished based on the manner in which e-invoices are transferred between organizations... Depending on the size of the organization and the nature of the partnerships, an organization can manage the invoicing in-house (supplier/buyer direct model) or to use a professional third party service (service provider model)' | Page 3: 'In supplier direct model, a supplier embraces an e-invoicing solution using different channels... This model fathoms a one-to-many relationship' | Page 3: 'Buyer direct model works in a similar way but from the buyer perspective... The model comprises a many-to-one relationship' | Page 5: 'the two different types of configurations that exist for these third party-operated many-to-many models: the three-corner model and the four-corner model'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655218",
+      "article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Foundational Services Model → Focuses on basic EHR connectivity and health summaries exchange; suitable for early stages; attracts diverse customer segments; lower implementation complexity",
+        "Advanced Services Model → Includes e-prescribing, alerts to providers, clinical decision systems; requires deeper investments and workflow changes; appropriate for mature HIEs with evolved customer needs",
+        "Transaction-Based Revenue Model → Charges per unit of data/information exchanged (e.g., fee per laboratory report); suitable for early stages when service offerings are minimal; 'pay for what you get' approach",
+        "Subscription-Based Revenue Model → Levies recurring fee for specified volume of transactions per period (per-member per-month); ensures constant revenue stream; appropriate for established HIEs with higher transaction volumes",
+        "Hybrid Revenue Model → Combines transaction and subscription fees with differential pricing for different customer segments and service tiers; used by successful mature HIEs like HealthBridge (85% subscription, 15% premium services)",
+        "Grant-Funded Model → Relies on government grants and seed funding for initial operations; not sustainable long-term",
+        "Public-Private Partnership Model → Combines public funding with private sector participation; examples include DHIN and CORHIO"
+      ],
+      "synonyms_found": [
+        "foundational services",
+        "advanced services",
+        "transaction-based",
+        "subscription-based",
+        "hybrid model",
+        "fee-for-service"
+      ],
+      "source_citation": "Page 6: 'We explore the effect of this disaggregated notion of services for HIEs with qualitative examples from four HIEs, using a broad classification of foundational and advanced services. Because the primary function of an HIE is to provide capabilities related to digital data exchange... we classify EHR connectivity and health summaries as foundational services. Advanced services are those that require the HIE to make deeper investments and may necessitate substantial workflow changes, such as e-prescribing, alerts to providers, and clinical decision systems.' | Page 6: 'an HIE can monetize its services through two primary revenue models: (1) a transaction-based model, which involves charging a fee for a unit of data or information exchanged (e.g., a fee per laboratory report), and (2) a subscription-based model that levies a recurring fee for a specified volume of transactions per period.' | Page 10: 'HealthBridge has evolved to offer a hybrid approach... Currently, it does not charge any fees for clinician access to data and has designed a mix of subscription-based and transaction-based revenue models to achieve sustainability... HealthBridge earned approximately 85% of its operational revenues from subscription fees charged to health systems using the exchange, with the remaining 15% obtained from fees paid by users for premium electronic HIE services'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655219",
+      "article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "SMS ticketing (Premium SMS) → First generation: single tickets purchased via premium SMS, payment through mobile operator billing, simple but limited assortment",
+        "'New' SMS ticketing (Sweden post-2012) → Second generation: required customer registration and account with payment providers due to regulatory changes, led to dramatic decrease in usage",
+        "In-app mobile ticketing → Third generation: smartphone applications for Android/iPhone, initially single tickets then expanded to period tickets, multiple payment options (cards, invoices, mobile billing, bank links)",
+        "BIBO (Be-In Be-Out) ticketing → Fourth generation/emerging: automated fare collection using BLE beacons and micro-location, seamlessly starts/stops tickets based on vehicle entry/exit, pay-as-you-use model, currently in pilot phase"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Mobile ticketing started as premium SMS services for single tickets. With wider smartphone penetration mobile ticketing applications were introduced... Notable trends in mobile ticketing are introduction of \"Be-In Be-Out\" (BIBO) seamless ticketing solutions' | Page 3-4: 'we specified three types of mobile ticketing services: SMS, in-app, and BIBO' | Page 4: 'The major change related to \"new\" SMS ticketing solutions was a need for customer to register and open an account with payment service providers. Service users accepted this negatively and volumes of SMS ticket sales dramatically decreased' | Page 4: 'This is as innovative approach to ticketing. It represents an automated fare collection system based on BLE beacons and micro-location technology. This technology detects when passengers enter and exit the public transit vehicle and seamlessly starts the ticket on the ticketing app, and stops when the customer leaves the bus'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655247",
+      "article_title": "The effect of free sampling strategies on freemium conversion rates",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freefirst Strategy → Users start with free (ad-based/feature-limited) version, then opt into time-limited premium trial; traditional approach where users may ignore premium offer",
+        "Premiumfirst Strategy → Users start with time-limited ad-free/fully-featured premium trial upon registration, then downgraded to free version; results in more informed decisions and higher conversions",
+        "Low Value Discrepancy Freemium → Premium differs minimally from free (e.g., only ad removal); attracts more free users but lower conversion without Premiumfirst",
+        "High Value Discrepancy Freemium → Premium has significantly more features than free version; naturally drives higher conversions regardless of trial strategy",
+        "Ad-supported Freemium → Free version funded by advertising (e.g., Spotify with audio ads)",
+        "Feature-limited Freemium → Free version has fewer features/functionality (e.g., Dropbox storage limits)",
+        "Hybrid Freemium → Combination of advertising in free version plus feature limitations"
+      ],
+      "synonyms_found": [
+        "Freefirst",
+        "Premiumfirst",
+        "low discrepancy",
+        "high discrepancy",
+        "ad-based",
+        "feature-limited"
+      ],
+      "source_citation": "Page 1: 'Freefirst, where consumers start in the free and then opt into a trial of the premium version and Premiumfirst, where things are experienced in reverse order' | Page 1: 'free (i.e., ad-based and/or feature-limited) version' | Page 1-2: 'Premiumfirst strategy for their products. Here, users start off with a time-limited, ad-free and fully featured free-trial of the premium version upon registration and then are downgraded to the free (i.e., ad-based and/or feature-limited) version before making an active, informed subscription decision' | Page 3: 'a product where the free version has very few features compared to the full (commercial) product creates high value discrepancy. On the other hand, a product where the free version contains many features that the full (commercial) product has creates low value discrepancy'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655350",
+      "article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Strategy 1: Enhanced Advertising → Uses customer data to target advertising messages contextually, making ads feel like answers to user needs rather than just selling eyeballs. Users still primarily targets for revenue.",
+        "Strategy 2: e-Ethnography → Uses user data internally to improve core products/services and understand customer behavior. Data is valuable by-product, not direct revenue source. Users become insight sources. Common in companies with physical products (Nike, Adidas).",
+        "Strategy 3: Data Trading → Directly sells anonymized aggregated user data to third parties (e.g., governments, researchers). Data itself is revenue-generating asset. Users are data sources and revenue sources. Available to fully digital companies and startups.",
+        "Transaction vs Nontransaction Markets → Transaction markets enable direct transactions between sides (e.g., eBay, Airbnb). Nontransaction markets offer product to one side and sell access to other (e.g., newspapers, Google ads).",
+        "Freemium Model → Mix of free basic services with paid premium features.",
+        "In-app Purchase Model → Free basic app with paid add-ons to enrich experience.",
+        "Cross-selling Model → Free service supporting physical product sales (e.g., Fitbit app with tracker)"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 5: 'Our analysis suggested three possible strategies for leveraging big data, which we've called enhanced advertising, e-ethnography, and data trading. These strategies may be seen as representing an evolution in the approach to big data' | Page 5-6: 'In enhanced advertising, users are still primarily eyeballs to be sold; the data simply make the advertising more targeted. Users are a target for revenue-generating activity... In the e-ethnography model, user data is still not a direct source of revenue, but it is used to support activities that generate revenues... In data trading, the data becomes a direct source of revenues, and users have moved from being a target of revenue-generating activity to a source of the data that generate revenues' | Page 3: 'In transaction markets, such as credit card payment systems, eBay, and Airbnb, the intermediary platform enables a transaction between the two sides. In nontransaction markets, the intermediary platform offers its core product or service to one group and then sells access to that group to the other side' | Page 3: 'freemium models, which mix free basic services with paid premium ones... in-app purchase models, which give the basic app away but offer users opportunities to enrich their experience with it through paid add-ons... cross-selling models, in which a company offers a free service that supports a physical product'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655362",
+      "article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Gaming freemium → Competitive environment where successful gamers keep playing longer, users motivated to attain in-game status/high scores, competitive dynamics increase willingness to pay",
+        "Dating freemium → Successful daters likely to quit service after finding partner, different user objectives compared to gaming but similar CLV patterns observed"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 4: 'Despite operating similar business models, freemium gaming and dating platforms are quite distinct from a user perspective. For example, whereas a 'successful' gamer is likely to keep playing (Choi and Kim 2004), a 'successful' dater is likely to quit the service after finding a partner. It will be interesting to see if these conflicting user objectives affect CLV or if we find consistent results for both businesses.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655382",
+      "article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Stage 1: Stand-alone single ERP functionalities → Widely standardised applications providing individual functions, attracting low-end customers and SMEs",
+        "Stage 2: Reworked on-premise software offered via internet → Existing ERP installed in central data center without true cloud architecture, incremental adaptation",
+        "Stage 3: Integrated on-premise and on-demand solutions → Private/hybrid cloud with single-tenant customisable solutions for larger enterprises, symbiotic amalgamation",
+        "Multi-tenant public cloud → Shared code base and data structures for economies of scale",
+        "Single-tenant private cloud → Dedicated resources that are individually configurable and controllable for larger enterprises",
+        "Hybrid cloud → Combination of private cloud with public cloud resources for operational elasticity"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 17-18, Figure 2: 'The temporal evolution of SaaS business models that emerge from our data can be categorised into three stages' | Page 17: 'most providers – such as ZetaCo's SaaS, launched in 2002 – offered stand-alone applications providing single ERP functionalities widely standardised across industries' | Page 18: 'the progress in virtualisation techniques, which enabled single-tenant, customisable private or hybrid cloud solutions, which are specifically demanded by larger enterprises. In a private cloud, the software runs on dedicated resources... In a hybrid cloud solution, resources of the public cloud are used in addition to the private cloud'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655386",
+      "article_title": "Transition to the Cloud: A Vendor Perspective",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Hybrid model → Balanced approach maintaining both SaaS-based and on-premise products in equal terms (50/50 R&D allocation), allows gradual transition while supporting existing customer base",
+        "Pure SaaS model → Full transition to cloud-based delivery, initially attempted with 80/20 R&D allocation favoring SaaS",
+        "SaaS-based add-ons model → Offering cloud-based additional functionalities to customers with on-premise core systems",
+        "Three delivery models by customer segment → 1) Direct standardized out-of-box SaaS to micro businesses, 2) VAR-mediated tailored SaaS for small-medium businesses, 3) Intensive consulting-based for bigger SMBs",
+        "Controlled transition approach → Pilot implementation with limited approved customers (50) to minimize risks before full rollout"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 6: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms. The distribution of R&D resources was adjusted to 50% each for SaaS products and on-premise products' | Page 6: 'As for other customers who have on-premise core systems, ERP Co will on the one hand keep maintaining and supporting the on-premise product, and one the other hand selling SaaS-based add-ons' | Page 6: 'ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655389",
+      "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+      "extraction_date": "2025-10-07",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Model 1 (2000): Platform for 3G mobile operators → Gaming platform for 3G networks, targeting mobile game players, revenue sharing with operators and game publishers",
+        "Model 2 (2005): Platform for PC and IPTV → Expanded to Internet portals for PC players and IPTV operators, added multiple intermediary partners (video-on-demand, set-top box manufacturers, middleware), complex value network",
+        "Model 3 (2010): Focused IPTV platform → Solely focused on IPTV users, integrated component technologies in-house, provided SDK to game developers, simplified partner network with server manufacturer, reduced dependency on third parties",
+        "Model 4 (2014): Cloud console + IPTV platform → Introduced physical cloud game console device enabling access without IPTV, expanded to any wireless network with adequate broadband, maintained IPTV relationships while adding network operators, removed server manufacturer partnership"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'the data were divided into the following categories... (1) business model creation and the first business model (1999–2000), (2) the second business model (2001–2005), (3) the third business model (2006–2010) and (4) the fourth business model (2011–2014)' | Figures 1-4 on pages 11, 12, 15, 17 show complete evolution with detailed descriptions of each model's components",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655397",
+      "article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+      "extraction_date": "2025-10-08",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "In-app purchase as variation → Can be combined with any revenue model (free, paid, or freemium) to enable purchase of additional features; Free with time-expiring version → Limited trial period before requiring upgrade; Free with limited functionalities → Restricted features requiring payment for full access; Free with advertising → Monetization through ads with option to remove ads via payment",
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'Under this model, a low valuable version, which may include ads and has limited or time-expiring functionalities/features, is offered for free' | Page 6: 'in-app purchase does not necessarily coincide with the freemium revenue model... Rather, it is an additional strategy that can be pursued by developers' | Page 6: 'it can be well the case that only the paid version has been released for the app (for instance at a price equal to $0.99) and in-app purchases are offered to add additional features at incremental prices'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655417",
+      "article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+      "extraction_date": "2025-10-08",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Foundation variations → Platform-based (requires strong platform provider), Open source-based (requires developer community), Common market-based (based on VN), Composite product-based (based on VN); Role distribution variations → Single coordinator vs. Multiple coordinators (different partners coordinate different product variants); Governance formalization levels → Constitutional documents (memorandum of understanding, manifesto) vs. Informal arrangements; Product bundling variations → P1 (end-to-end video enrichment solution), P2 (end-user application with multi-screen toolkit), P3 (P1+P2 with distribution representation)",
+      "synonyms_found": [],
+      "source_citation": "Page 6: 'There are different foundations on the basis of which VN and SECOs either emerge or are being built. These foundations can be set by software platforms; open source software; a common market; or VN' | Page 8: 'according to geographical and customer segmentation of potential markets, three distinct products that the network would be possible to offer were identified: product 1 (P1) is the end to end video enrichment solution... product 2 (P2) is a specific end-user application developed with the multi-screen toolkit... product 3 (P3) consists of P1 and P2'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655425",
+      "article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+      "extraction_date": "2025-10-08",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Mixed revenue models combining renting and licensing → Used by Firms A, C, D to serve different customer segments; Assessment base pricing variations → Usage-dependent pricing vs. user-based pricing; Price discrimination variations → First-degree (ability to pay), Second-degree (quantity/time/version/segmentation), Third-degree (occupation/location/age); Price bundling → Combining products/services for fixed price; Hybrid pricing mechanisms → Combining multiple pricing approaches simultaneously",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Depending on the competitive situation in the market, firms apply mixed revenue models, or else a hybrid pricing mechanism' | Page 3: 'In assessment base pricing, a firm charges customers using usage-dependent pricing, user-based pricing, or a combination of the two' | Page 3: 'Price discrimination refers to a pricing model in which software is rented to different customers at different prices... can be divided into first-degree, second-degree, and third-degree price discrimination' | Page 3: 'software firms may combine price discrimination models, applying different degrees or proportions of each'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655440",
+      "article_title": "Designing business models for cloud platforms",
+      "extraction_date": "2025-10-08",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Development-focused platforms → Primary value proposition is providing environment for developers to develop, test and deploy applications easily (e.g., CloudBees RUN@Cloud). Application-centric platforms → Allow ISVs to develop extensions or add-ons for core application, third-party software only makes sense as add-on (e.g., Salesforce Force.com). Integration-oriented platforms → Focus on integration capabilities and connectivity (SOAP, HTTP, XML) to connect different systems (e.g., Dell Boomi). Distribution channel-based platforms → Cultivate online user communities and marketplaces where developers share, buy and sell (e.g., Google Apps Marketplace).",
+      "synonyms_found": [
+        "development-oriented",
+        "application-based",
+        "integration-focused",
+        "distribution channel"
+      ],
+      "source_citation": "Page 3-4: 'four forms of PaaS solutions can be distinguished according to the core value proposition...First, development-oriented platforms such as CloudBees RUN@Cloud provide an environment for developers to develop, test and deploy their application easily...Second, application-centric platforms such as Salesforce Force.com allow ISVs to develop extensions or add-ons for the software firm's core application...The third form of PaaS focuses on the integration capabilities...Thus, integration-oriented PaaS such as Dell Boomi must have a variety of connectivity capabilities...PaaS solutions that offer strong distribution capabilities form the fourth form of PaaS; these platforms cultivate online user communities and marketplaces (e.g. Google Apps Marketplace)'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655451",
+      "article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+      "extraction_date": "2025-10-08",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Specialized one-stop-shop for a specific industry → Target well-defined industry with template-based applications, full customer support responsibility. Specialized one-stop-shop for a specific company → Restricted version for one targeted company only, may be financially viable for heavy end-users. Cloud extension to desktop/web-based simulation package → Extends existing simulation products with built-in cloud access via CSSP. Direct execution from CloudSME AppCenter → Uses AppCenter marketplace directly, quicker setup with fewer resources but less customization. PaaS provider business model → Platform provider model facilitating wide range of MSaaS business models for customers.",
+      "synonyms_found": [
+        "specialized one-stop-shop",
+        "cloud extension",
+        "AppCenter",
+        "PaaS provider"
+      ],
+      "source_citation": "Page 6: 'During the discussions, five uses were identified each of which then served as the basis of a business model. These business models are as follows: 1. Specialized one-stop-shop for a specific industry 2. Specialized one-stop-shop for a specific company 3. Cloud extension to a desktop simulation package or a web-based simulation solution 4. Direct execution of the simulation software from the CloudSME AppCenter 5. The business model of the PaaS provider' | Page 6: 'In this model the CloudSME simulation platform customer, typically a simulation software vendor or a simulation consultancy, offers a specialized one-stop-shop MSaaS solution for simulation end-users' | Page 6: 'This model can be regarded as a special restricted and closed version of the first model, specialized one-stop-shop for a specific industry' | Page 7: 'In this scenario, the CSSP customer is a simulation software vendor who extends its desktop or web services simulation product with built-in cloud access via the CSSP'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655528",
+      "article_title": "A Study on a Decentralized SaaS Business Model",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Fixed strategy → Servers maintain same applications throughout",
+        "Poor move strategy → Servers with low revenue move to high-demand applications",
+        "Rich move strategy → Capable servers move to highly demanded applications",
+        "Poor request-rate move strategy → Servers with low request rate move to high-demand applications",
+        "All move strategy → All servers move based on demand"
+      ],
+      "synonyms_found": [
+        "Fixed strategy",
+        "Poor move",
+        "Rich move",
+        "Poor request-rate move",
+        "All move"
+      ],
+      "source_citation": "Page 3, Section IV: 'five different strategies that may be adopted by servers have been studied, they are: Fixed, All move, Rich move, Poor move, and Poor request-rate move' | Page 3, Section IV: 'In this move, those servers whose request rate is less than the average request rate are defined as poor.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655555",
+      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Pure-SaaS → Simple to use, low customization requirements, lower strategic significance",
+        "Enterprise-SaaS → More complex, requires support and integration, higher strategic significance",
+        "Software renting → Flexible pricing, lower initial costs",
+        "Traditional licensing → Perpetual license, higher initial costs",
+        "Dual revenue models → Both renting and licensing options available"
+      ],
+      "synonyms_found": [
+        "Pure-SaaS",
+        "Enterprise-SaaS",
+        "software renting",
+        "traditional licensing",
+        "dual revenue models"
+      ],
+      "source_citation": "Page 2, Section II: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes [14]. Pure SaaS refers to software that is simple to use and has low or no requirements for customization [15].' | Page 2, Section II: 'Enterprise-SaaS, on the other hand, refers to software which is more complex and which may require support, involving integration with customers' existing IT systems [15].'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655589",
+      "article_title": "Service-Centric Business Model in Cloud Environment",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Cloud Manufacturing Platform → Manufacturing services through cloud",
+        "Cloud Supply Chain → Supply chain services through cloud",
+        "Cloud Business Intelligence → Business intelligence services through cloud",
+        "Service-Centric BM → Focus on service delivery and value creation",
+        "Value-Oriented BM → Focus on value creation and capture",
+        "Customer-Based BM → Focus on customer-centric approach"
+      ],
+      "synonyms_found": [
+        "cloud manufacturing platform",
+        "cloud supply chain",
+        "cloud business intelligence",
+        "service-centric BM",
+        "value-oriented BM",
+        "customer-based BM"
+      ],
+      "source_citation": "Page 1, Section I: 'Many studies have demonstrated convenient service-oriented BM of cloud service platforms (such as cloud manufacturing [11], cloud supply chain [12] and cloud business intelligent [13])' | Page 3, Section II: 'The aforementioned discusses indicate that the firm's product-centric BM is transforming into a service-centric, value-oriented, and customer-based BM along with the BM evolution in trends of the cloud and servitization application.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655614",
+      "article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Closed platform model → Used internally by app developer, not accessible to third parties",
+        "Open platform model → Offered as-a-service to third party app developers",
+        "Profit vs. non-profit approach → Different organizational structures",
+        "Open source model → Software made available without platform provider"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Página 6: 'it should be decided whether the platform is offered in a profit or non-profit approach. Second, it should be decided whether the platform is open or closed to third party app developers' | Página 6: 'In the closed model the platform is used internally as a service platform and in the open model the platform is offered 'as-a-service' to 3rd parties' | Página 6: 'One may also consider a situation in which there is no platform provider at all, but where (some of) the developed 3cixty software is made available as open source'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655631",
+      "article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Integrated model → Owner is also handset maker (Apple, RIM)",
+        "Licensed model → Closed-source OS licensed to handset makers (Microsoft)",
+        "Consortium model → Joint venture of handset makers (Symbian)",
+        "Open source model → Free OS with alliance partners (Google)",
+        "Foundation model → Non-profit organization (Symbian Foundation)"
+      ],
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "models",
+        "approaches"
+      ],
+      "source_citation": "Page 4: 'We identify five different business models that have developed historically in the mobile-operating-system market. The first model is one in which the mobile operating system is closed-source, and its owner is a corporation that functions also as the handset maker. This is the approach adopted by RIM for BlackBerry OS, Palm, and Apple for iOS.' | Page 4: 'The second model — adopted by Microsoft for Windows Mobile — is one in which the mobile operating system is closed-source, and its owner is a corporation that licenses it to handset makers for a price.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655648",
+      "article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium → Free app with option to buy full premium version",
+        "Saga envelope → King's specific template combining level progression, social features, viral mechanics, and virtual items"
+      ],
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "variants"
+      ],
+      "source_citation": "Page 6: 'The freemium and free-to-play categories are often used interchangeably. Throughout this article, the free-to-play notion is used for free games that offer IAPs whereas freemium is understood as buying the full, premium version of a previously free, dressed-down version of the same app.' | Page 7: 'The format encompasses \"a path through hundreds of game levels, social features that allow interactions with others, viral mechanics, and a variety of virtual items available for purchase\" (King Digital Entertainment, 2014a, p. 86). The Saga envelope structures all of King's games.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655698",
+      "article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Free apps with ads → Contains advertisements in free version",
+        "Free apps with reduced functionality → Limited features compared to paid version",
+        "In-app purchase model → Additional content/services within free app",
+        "Upgrade to paid version → Full-featured ad-free version"
+      ],
+      "synonyms_found": [
+        "free with ads",
+        "reduced functionality",
+        "in-app purchase",
+        "upgrade"
+      ],
+      "source_citation": "Page 105: 'freemium apps are free to download but typically include offers to upgrade to the paid version, which is ad free or has richer features, to buy additional content or services within the app (i.e., in-app purchase), or to unlock additional levels of game stages' | Page 204: 'many app developers provide free apps with similar quality to their paid version albeit containing ads or with reduced functionality'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655702",
+      "article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Price-setter entrant → Competes on price with incumbent",
+        "Price-taker entrant → Mimics incumbent's price",
+        "Maximal openness → Pure OS firm",
+        "Partial openness → Hybrid business model",
+        "Minimal openness → Mostly proprietary with some OS"
+      ],
+      "synonyms_found": [
+        "price-setter",
+        "price-taker",
+        "maximal openness",
+        "partial openness",
+        "minimal openness"
+      ],
+      "source_citation": "Page 3: 'the entrant is price-setter, and competes with the incumbent on prices' | Page 3: 'the entrant mimics the price set by the incumbent, thus being a price-taker' | Page 13: 'maximal openness' | Page 13: 'partial openness (hybrid business model)' | Page 13: 'minimal openness'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655721",
+      "article_title": "A Pricing Framework for Software-as-a-Service",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Value-based pricing → Client-dictated pricing based on business value",
+        "Cost-based pricing → Vendor-dictated pricing based on cost accounting",
+        "Usage-dependent pricing → Pricing based on actual usage intensity",
+        "Usage-independent pricing → Pricing based on fixed metrics like user count"
+      ],
+      "synonyms_found": [
+        "value-based",
+        "cost-based",
+        "usage-dependent",
+        "usage-independent"
+      ],
+      "source_citation": "Page 3: 'Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting... Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655747",
+      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Segment-specific value propositions → Different approaches for cargo owners vs logistic operators",
+        "Industry-specific implementations → Variations based on transported goods value"
+      ],
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "segments"
+      ],
+      "source_citation": "Page 5: 'The value proposition will vary depending on the customer segment and their products to which the new solution will be provided' | Page 4: 'According to our study, the customer needs related to the analysis and management of disturbances vary between different industries, because they have different characteristics and thus the vulnerability to disturbances varies'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655750",
+      "article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Low OSS Portfolio → Limited commercialization approach",
+        "High OSS Portfolio → Extensive commercialization strategy",
+        "Private-collective model → Mixed open/proprietary approach"
+      ],
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "implementations"
+      ],
+      "source_citation": "Page 9: 'I split the data for firms that commercialize OSS into two, as LowOssPortfolio and HighOssPortfolio' | Page 4: 'private-collective model of innovation' | Page 432: 'Hybrid Business Models in the Open Source Software Industry'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655785",
+      "article_title": "The relationship between Open Innovation and Strategy: data-driven analysis of the Mobile Value Services Industry",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Open but closed model → Apple's approach with controlled App Store",
+        "Fully open approach → Google's Android ecosystem",
+        "Open partnering model → Vodafone's third-party collaboration",
+        "Open network model → Getjar's developer network",
+        "Co-opetitive model → Nokia's relationship with mobile operators"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'Apple's \"open but closed model\"' | Page 6: 'Google adopts a fully open approach in all the business it covers' | Page 4: 'Vodafone. The increasingly open approach towards partnering third parties' | Page 4: 'Getjar. The creation of an open network of independent software developers' | Page 7: 'Nokia finds itself in a co-opetitive condition with reference to Mobile Network Operators'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655819",
+      "article_title": "Open-Source Software Entrepreneurial Business Modelling",
+      "extraction_date": "2024-12-19",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Earlier versions → Initial framework iterations",
+        "Modified versions → Updated framework based on feedback"
+      ],
+      "synonyms_found": [
+        "earlier versions",
+        "modifying the tool"
+      ],
+      "source_citation": "Page 2: 'Earlier versions of the OSS_EBM framework were introduced in an e-commerce university course' | Page 3: 'leading to some changes on the OSS_EBM framework till date. Modifying the tool further is currently underway.'",
+      "confidence_level": "high"
+    },
+    {
+      "article_id": "190655845",
+      "article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+      "extraction_date": "2025-01-27",
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Distribution Channel → Company opens ecosystem including customer base to external stakeholders",
+        "Application-based Integration → Platforms provide features to extend SaaS solutions",
+        "Development Platforms → Support entire application or service development process",
+        "Integration Platforms → Integrate combination of on-premise and on-demand applications and systems"
+      ],
+      "synonyms_found": [
+        "distribution channel",
+        "application-based integration",
+        "development platforms",
+        "integration platforms"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'The criterion core value proposition is used to describe the main platform offer. In addition to the three characteristics already identified by [33], we added fourth characteristic: (1) Distribution channel describes the case of a company opening its ecosystem including the customer base to external stakeholders. These stakeholders in turn will provide additional features to the ecosystem's existing customer base. (2) Application-based integration platforms provide features so as to extend SaaS solutions. (3) Platforms dedicated to supporting the entire application or service development process – including developing, testing, debugging, deploying, and versioning – are denoted simply as development platforms. (4) And finally, integration platforms integrate any combination of on-premise and on-demand applications as well as systems, and facilitate for instance the management of complex supply chains'",
+      "confidence_level": "high"
+    }
+  ]
+}
