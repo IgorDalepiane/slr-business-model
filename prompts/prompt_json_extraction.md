@@ -32,7 +32,7 @@ AT THE END OF THIS PROMPT
 #### 4) What is the target customer type of the software business model presented in the article?
 - **Description**: Classify the main target audience of the software business model according to the size and nature of the customer this model intends to serve
 - **Scope**: Identify the customer type most emphasized in the article as the primary target of the software business model
-- **Format**: Single selection [B2C, B2B SMB, Mid-market, Enterprise, Developers/Dev-tools, Government, Others]
+- **Format**: Single selection [B2C, B2B SMB, B2B, Mid-market, Enterprise, Developers/Dev-tools, Government, Others]
 
 #### 5) What is the typical size of offering companies that adopt this software business model as described in the article?
 - **Description**: Characterize the typical organizational size of companies that implement this software business model (startups, SMEs, large corporations)
@@ -127,7 +127,7 @@ AT THE END OF THIS PROMPT
 #### 19) Does the software business model presented in the article use cloud marketplaces or platforms?
 - **Description**: Verify if there is presence in specific distribution platforms as mentioned in the software business model presented in the article
 - **Scope**: Marketplace or cloud platforms explicitly mentioned in the article about the software business model
-- **Format**: Yes/No + List [AWS Marketplace, Azure Marketplace, Google Cloud Marketplace, Atlassian Marketplace, Salesforce AppExchange, Others]
+- **Format**: Yes/No + List [AWS Marketplace, Azure Marketplace, Google Cloud Marketplace, Atlassian Marketplace, Salesforce AppExchange, Apple App Store, Google Play Store, Steam, Others]
 
 ---
 
