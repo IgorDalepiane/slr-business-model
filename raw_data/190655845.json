@@ -1,0 +1,545 @@
+{
+  "extraction_metadata": {
+    "article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+    "extraction_date": "2025-01-27"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Platform as a Service (PaaS) - Software platforms that have primarily been discussed in the context of cloud computing, representing the middle layer connecting IaaS and SaaS cloud layers, facilitating the development, testing, and management of software components, as well as knowledge exchange between developers",
+      "synonyms_found": [
+        "PaaS",
+        "Platform as a Service"
+      ],
+      "source_citation": "Page 2, Section 2.2: 'Platform as a Service. Platforms in the software industry are defined as \"… the extensible codebase of a software-based system that provides core functionality shared by the modules that interoperate with it and the interfaces through which they interoperate\" [1]. PaaS refers to software platforms that have primarily been discussed in the context of cloud computing. According to the most cited architectural concepts of cloud computing, PaaS represents the middle layer, connecting the IaaS and SaaS cloud layers [20], [21], [22]. Based on a systematic literature review, [23] describe PaaS as an execution environment in which external developers deploy and run their complementary components and applications. PaaS facilitates the development, testing, and management of software components, as well as knowledge exchange between developers.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "PaaS",
+        "Platform as a Service",
+        "software platforms",
+        "cloud platforms",
+        "PaaS solutions",
+        "PaaS providers",
+        "PaaS business models"
+      ],
+      "synonyms_found": [
+        "PaaS",
+        "Platform as a Service",
+        "software platforms",
+        "cloud platforms",
+        "PaaS solutions",
+        "PaaS providers",
+        "PaaS business models"
+      ],
+      "source_citation": "Throughout the article: 'Platform as a Service (PaaS) solutions' (Page 1), 'PaaS providers' (Page 1), 'PaaS business models' (Page 1), 'software platforms' (Page 2), 'cloud platforms' (Page 2)",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Cloud Computing",
+      "synonyms_found": [
+        "cloud computing",
+        "cloud platforms",
+        "cloud-based"
+      ],
+      "source_citation": "Page 2, Section 2.2: 'PaaS refers to software platforms that have primarily been discussed in the context of cloud computing. According to the most cited architectural concepts of cloud computing, PaaS represents the middle layer, connecting the IaaS and SaaS cloud layers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2B SMB",
+      "synonyms_found": [
+        "IT startups",
+        "small and medium-sized enterprises",
+        "SME",
+        "platform customers"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'IT startups are dynamic in their early stages and thus will use new technologies and products compared to companies established before them' and 'platform customers, are mainly upper small and medium-sized enterprises (SME) or large enterprises using the platform internally'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Various sizes from startups to large technology corporations",
+      "synonyms_found": [
+        "IT startups",
+        "small and medium-sized enterprises",
+        "large enterprises",
+        "established companies"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'IT startups are dynamic in their early stages' and 'platform customers, are mainly upper small and medium-sized enterprises (SME) or large enterprises using the platform internally'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Europe",
+      "synonyms_found": [
+        "European Union",
+        "EU-funded"
+      ],
+      "source_citation": "Page 7, Section 8: 'The research leading to these results has partially received funding from the 4CaaSt project (http://www.4caast.eu) part of the European Union's Seventh Framework Programme (FP7/2007-2013)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "IT startups and Independent Software Vendors (ISVs)",
+      "synonyms_found": [
+        "IT startups",
+        "ISV",
+        "Independent Software Vendors",
+        "complementors"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'IT startups are dynamic in their early stages and thus will use new technologies and products compared to companies established before them. Thereby, these early adaptors will help to place the platform within the market' and 'Platform modules [1] – applications, services, components, add-ons, extensions, and custom developments – are provided by independent software vendors (ISV)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Platform",
+        "API",
+        "Managed Service"
+      ],
+      "synonyms_found": [
+        "platform",
+        "execution environment",
+        "APIs",
+        "managed services"
+      ],
+      "source_citation": "Page 2, Section 2.2: 'PaaS as an execution environment in which external developers deploy and run their complementary components and applications' and Page 3, Section 4.2: 'The technical scope – for instance programming languages, development environments, frameworks, databases, APIs, and protocols'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Multi-tenant SaaS"
+      ],
+      "synonyms_found": [
+        "cloud",
+        "cloud-based",
+        "on-demand"
+      ],
+      "source_citation": "Page 2, Section 2.2: 'PaaS refers to software platforms that have primarily been discussed in the context of cloud computing' and 'integration platforms integrate any combination of on-premise and on-demand applications'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Open Source",
+      "synonyms_found": [
+        "open source",
+        "open governance model"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'Another revenue stream which seems to be present within the PaaS ecosystem is open source software. Even though this revenue stream is mainly non-monetary, there are some open source platforms available on the market' and Page 6, Section 6: 'Large parts of the platform are available under open source licenses, hence 4CaaSt pursue an open governance model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Open source licensing → Revenue generation limitations",
+        "Governance model restrictions → Platform extensibility"
+      ],
+      "synonyms_found": [
+        "open source",
+        "governance model",
+        "licensing"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'Even though this revenue stream is mainly non-monetary, there are some open source platforms available on the market. In most cases, the promoting company behind such open source platforms also offers additional services, designed for those platforms which carry a fee' and Page 3, Section 4.2: 'The investigated PaaS platforms differ noticeably in the governance model they support'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription",
+        "Usage/consumption",
+        "Support",
+        "Open core"
+      ],
+      "synonyms_found": [
+        "subscription",
+        "transaction-based",
+        "revenue sharing",
+        "additional services",
+        "open source"
+      ],
+      "source_citation": "Page 3, Section 4.2: '(1) In case of subscription, the customer pays a regular subscription fee – commonly a monthly charge – and in return gains the right to use the product for the paid period. (2) Transaction-based pricing models are usage-dependent, for instance time or processing units, but nonetheless paid on a regular basis. (3) Third-party applications and services are charged by the platform provider or the service provider. However, in both cases the revenue is shared between these two parties. (4) A considerable amount of PaaS providers offer additional services at a charge. These services include among other things trainings, certifications, advertisements, advisor services, and onboarding packages. (5) Another revenue stream which seems to be present within the PaaS ecosystem is open source software'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Computing time",
+      "synonyms_found": [
+        "time",
+        "processing units",
+        "usage-dependent"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'Transaction-based pricing models are usage-dependent, for instance time or processing units, but nonetheless paid on a regular basis'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Tiers/Plans",
+        "Pay-as-you-go"
+      ],
+      "synonyms_found": [
+        "subscription",
+        "transaction-based",
+        "usage-dependent"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'In case of subscription, the customer pays a regular subscription fee – commonly a monthly charge' and 'Transaction-based pricing models are usage-dependent, for instance time or processing units, but nonetheless paid on a regular basis'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Monthly",
+      "synonyms_found": [
+        "monthly charge",
+        "regular basis"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'In case of subscription, the customer pays a regular subscription fee – commonly a monthly charge – and in return gains the right to use the product for the paid period'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Two-sided platform",
+      "synonyms_found": [
+        "platform",
+        "two-sided",
+        "multi-sided"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'PaaS business models are at least two-sided or even multi-sided business models [35] and hence, address several customer segments'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Cross-sided",
+      "synonyms_found": [
+        "cross-sided network effects",
+        "same-sided network effects"
+      ],
+      "source_citation": "Page 5, Section 5.4: 'Network effects – same- as well as cross-sided – are inherent within the PaaS domain and produce increased adoption rates [35], [37]. Especially the cross-sided network effects are of particular importance for PaaS business models'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Product-led Growth",
+        "Partners/channels"
+      ],
+      "synonyms_found": [
+        "word of mouth",
+        "ecosystem",
+        "platform modules"
+      ],
+      "source_citation": "Page 4, Section 5.2: 'The value of the favorable word of mouth variable will increase in correlation with an increase in the <customer segment> population. Similarly, an increase in the value of the word of mouth variable will lead to an increase in the value of the adoption rate <customer segment>' and Page 3, Section 4.2: 'Systems integrators (SI) provide complementary services, for instance consulting services'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes",
+      "synonyms_found": [
+        "marketplace",
+        "electronic marketplace"
+      ],
+      "source_citation": "Page 6, Section 6: 'Although 4CaaSt provides an electronic marketplace for cloud-based services, the potential customer segment of application customers is not in direct focus of 4CaaSt'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Core value proposition including distribution channel, application-based integration, development platforms, and integration platforms",
+        "Customer Segment: Five customer segments - IT startups, Systems integrators, Independent Software Vendors, Platform customers, Application customers",
+        "Revenue Streams: Subscription, transaction-based, revenue sharing, additional services, open source",
+        "Key Resources: Technical scope including programming languages, development environments, frameworks, databases, APIs, and protocols",
+        "Key Activities: Platform improvements, market penetration"
+      ],
+      "synonyms_found": [
+        "customer value proposition",
+        "CVP",
+        "customer segments",
+        "revenue streams",
+        "technical scope",
+        "platform improvements"
+      ],
+      "source_citation": "Page 2, Section 2.1: 'a business model consists of four interlocking elements – customer value proposition (CVP), profit formula, key resources, and key processes' and Page 3, Section 4.2: detailed descriptions of customer segments, core value proposition, technical scope, and revenue streams",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "IT Startups | Early adopters and platform module developers | Provide new technologies and help place platform in market | Interact with other customer segments through platform modules | Systems Integrators | Provide complementary services like consulting | Support implementation projects for application and platform customers | Interact with platform customers and application customers | Independent Software Vendors | Develop and provide platform modules (applications, services, components) | Create value for application and platform customers | Interact with IT startups as complementors | Platform Customers | Use platform internally to develop applications | Purchase and use platform modules | Interact with ISVs and IT startups | Application Customers | Purchase ready-to-use applications | Use platform modules developed by ISVs and IT startups | Interact with complementors through platform modules",
+      "synonyms_found": [
+        "IT startups",
+        "Systems integrators",
+        "ISV",
+        "Independent Software Vendors",
+        "platform customers",
+        "application customers",
+        "complementors"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'IT startups are dynamic in their early stages and thus will use new technologies and products compared to companies established before them. Thereby, these early adaptors will help to place the platform within the market. (2) Systems integrators (SI) provide complementary services, for instance consulting services. (3) Platform modules [1] – applications, services, components, add-ons, extensions, and custom developments – are provided by independent software vendors (ISV). (4) Platform customers using the platform internally to develop new applications for services upon it. The last customer segment, (5) application customers, are purchasing ready to use applications built upon the platform'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Value co-creation through complementary components and applications",
+        "Facilitation of development, testing, and management of software components",
+        "Knowledge exchange between developers",
+        "Access to emerging ecosystems of third-party developers"
+      ],
+      "synonyms_found": [
+        "value co-creation",
+        "complementary components",
+        "development facilitation",
+        "knowledge exchange",
+        "ecosystems"
+      ],
+      "source_citation": "Page 1, Section 1.1: 'Unlike Software as a Service (SaaS) or Infrastructure as a Service (IaaS), PaaS allows for value co-creation by offering complementary components and applications that are developed in emerging ecosystems of third-party developers [1]' and Page 2, Section 2.2: 'PaaS facilitates the development, testing, and management of software components, as well as knowledge exchange between developers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Core value proposition → Direct impact on CVP",
+        "Governance model → Affects CVP attractiveness",
+        "Technical scope → Influences CVP positively",
+        "Additional services → Strengthens CVP over time",
+        "Platform improvements → Enhances CVP through new capabilities",
+        "Market penetration → Supports CVP through brand image and reputation"
+      ],
+      "synonyms_found": [
+        "core value proposition",
+        "governance model",
+        "technical scope",
+        "additional services",
+        "platform improvements",
+        "market penetration"
+      ],
+      "source_citation": "Page 4, Section 5.3: 'We identified six factors influencing the CVP positively: (1.) PaaS offers differ notably in their core value proposition which has a direct impact on the corresponding CVP. (2.) Which governance model a PaaS provider is using affects the CVP. For instance, presumably an open governance model is more attractive for potential customers. The next two features (3.) technical scope and (4.) additional services both influence the CVP positively and will gain strength over time through platform improvements. (5.) the platform improvements itself improve the CVP, through capabilities not considered in other influence factors. And finally (6.), the market penetration in the form of a company's brand image and reputation supports the CVP'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Extensible codebase → Core platform functionality",
+        "Interfaces for module interoperability → Platform extensibility",
+        "Execution environment → External developer deployment",
+        "Technical capabilities → Programming languages, frameworks, databases, APIs"
+      ],
+      "synonyms_found": [
+        "extensible codebase",
+        "interfaces",
+        "execution environment",
+        "technical capabilities"
+      ],
+      "source_citation": "Page 2, Section 2.2: 'Platforms in the software industry are defined as \"… the extensible codebase of a software-based system that provides core functionality shared by the modules that interoperate with it and the interfaces through which they interoperate\" [1]' and 'PaaS as an execution environment in which external developers deploy and run their complementary components and applications'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Open source revenue limitations → Non-monetary revenue stream",
+        "Governance model restrictions → Limited platform extensibility",
+        "Technical scope limitations → Reduced platform capabilities"
+      ],
+      "synonyms_found": [
+        "open source",
+        "governance model",
+        "technical scope",
+        "limitations"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'Another revenue stream which seems to be present within the PaaS ecosystem is open source software. Even though this revenue stream is mainly non-monetary, there are some open source platforms available on the market' and 'The investigated PaaS platforms differ noticeably in the governance model they support'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Limited generalizability of qualitative system dynamics model",
+        "Need for platform improvements to ensure business model success",
+        "Requirement to improve value proposition to application customers",
+        "Weak self-reinforcing feedback loops in certain scenarios"
+      ],
+      "synonyms_found": [
+        "generalizability",
+        "platform improvements",
+        "value proposition",
+        "feedback loops"
+      ],
+      "source_citation": "Page 7, Section 7: 'even though the classification schema has been evaluated in 24 case studies, the developed qualitative system dynamics model has been evaluated only in two proof of concept studies. This number is sufficient to assure rigor and relevant results, but might limit the generalizability of the CLD' and Page 6, Section 6: '4CaaSt needs to ensure platform improvements' and '4CaaSt should definitely improve its value proposition to application customers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Platform provider investments → Platform improvements → Enhanced CVP",
+        "Open source developer incentives → Platform improvements → Better platform capabilities",
+        "Value proposition enhancement → Application customer attraction → Cross-sided network effects",
+        "Proof of concept studies → Model validation → Improved generalizability"
+      ],
+      "synonyms_found": [
+        "platform improvements",
+        "open source developers",
+        "value proposition",
+        "proof of concept"
+      ],
+      "source_citation": "Page 6, Section 6: '4CaaSt needs to ensure platform improvements. This could on the one hand be accomplished by the platform providers themselves, or 4CaaSt could also create incentives for open source developers. Second, 4CaaSt should definitely improve its value proposition to application customers to utilize critical cross-sided network effects'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "24 PaaS providers investigated; 2 proof of concept studies conducted; 6 feedback loops identified; 5 customer segments identified; 5 classification criteria developed",
+      "synonyms_found": [
+        "24 case studies",
+        "2 proof of concept studies",
+        "6 feedback loops",
+        "5 customer segments"
+      ],
+      "source_citation": "Page 1, Section 1.1: 'we identified the main design elements of PaaS business models as well as their relationships by investigating 24 PaaS providers' and Page 7, Section 7: 'the developed qualitative system dynamics model has been evaluated only in two proof of concept studies' and Page 3, Section 4.1: 'we propose the following criteria: (1) customer segment, (2) core value proposition, (3) governance model, (4) technical scope, and (5) revenue stream'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2014 - Growing",
+      "synonyms_found": [
+        "2014",
+        "growing",
+        "emerging"
+      ],
+      "source_citation": "Page 1: '2014 47th Hawaii International Conference on System Science' and Page 1, Section 1.1: 'Platform as a Service (PaaS) solutions are changing the way software is produced, distributed, used, and priced'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases",
+      "synonyms_found": [
+        "24 case studies",
+        "multiple case studies",
+        "cross-case pattern search"
+      ],
+      "source_citation": "Page 1, Section 1.1: 'we identified the main design elements of PaaS business models as well as their relationships by investigating 24 PaaS providers' and Page 3, Section 4.1: 'Based on 24 explorative case studies according to [9] and [10]'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "4CaaSt → EU-funded research project creating advanced PaaS cloud platform",
+        "AWS Elastic Beanstalk → PaaS provider example",
+        "Google App Engine → PaaS provider example",
+        "Microsoft Windows Azure → PaaS provider example",
+        "Salesforce.com Force.com → PaaS provider example",
+        "VMware Cloud Foundry → PaaS provider example"
+      ],
+      "synonyms_found": [
+        "4CaaSt",
+        "AWS Elastic Beanstalk",
+        "Google App Engine",
+        "Microsoft Windows Azure",
+        "Salesforce.com Force.com",
+        "VMware Cloud Foundry"
+      ],
+      "source_citation": "Page 6, Section 6: 'The EU-funded research project 4CaaSt aims to create an advanced PaaS cloud platform which supports the optimized and flexible hosting of Internet-scale multi-tier applications' and Page 9, Table 1: Lists 24 PaaS providers including AWS Elastic Beanstalk, Google App Engine, Microsoft Windows Azure, Salesforce.com Force.com, VMware Cloud Foundry",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Distribution Channel → Company opens ecosystem including customer base to external stakeholders",
+        "Application-based Integration → Platforms provide features to extend SaaS solutions",
+        "Development Platforms → Support entire application or service development process",
+        "Integration Platforms → Integrate combination of on-premise and on-demand applications and systems"
+      ],
+      "synonyms_found": [
+        "distribution channel",
+        "application-based integration",
+        "development platforms",
+        "integration platforms"
+      ],
+      "source_citation": "Page 3, Section 4.2: 'The criterion core value proposition is used to describe the main platform offer. In addition to the three characteristics already identified by [33], we added fourth characteristic: (1) Distribution channel describes the case of a company opening its ecosystem including the customer base to external stakeholders. These stakeholders in turn will provide additional features to the ecosystem's existing customer base. (2) Application-based integration platforms provide features so as to extend SaaS solutions. (3) Platforms dedicated to supporting the entire application or service development process – including developing, testing, debugging, deploying, and versioning – are denoted simply as development platforms. (4) And finally, integration platforms integrate any combination of on-premise and on-demand applications as well as systems, and facilitate for instance the management of complex supply chains'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Transformation of CLD into quantitative model (stock and flow diagram)",
+        "Simulation of PaaS business model dynamics",
+        "Identification of detailed high-leverage interventions and policies",
+        "Further evaluation and manifestation of insights through quantitative modeling"
+      ],
+      "synonyms_found": [
+        "quantitative model",
+        "stock and flow diagram",
+        "simulation",
+        "high-leverage interventions"
+      ],
+      "source_citation": "Page 7, Section 7: 'Within this paper the dynamics of PaaS business models has been exhibited and illustrated in form of a CLD (qualitative model). Future research might include transforming this CLD into a quantitative model –a stock and flow diagram – where the insights gained so far could be further evaluated and manifested. Moreover, such stock and flow models enable the simulation of the PaaS business model dynamics and thereby the identification of detailed high-leverage interventions and policies. Thus, simulation of business models based on the gained knowledge would be interesting further research'",
+      "confidence_level": "high"
+    }
+  ]
+}

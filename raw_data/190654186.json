@@ -1,0 +1,509 @@
+{
+  "extraction_metadata": {
+    "article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+    "extraction_date": "2025-01-27"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "OSSg2 (Second-generation open-source) - A professional open-source business model where profit-motivated firms are driven by revenues stemming from a market for professional services, characterized by firms that typically generate the bulk of their revenues by providing complementary services around their products and own or tightly control the software code to exploit their intimate knowledge of the code to provide higher-quality service than could potential competing service providers.",
+      "synonyms_found": [
+        "professional open-source business model",
+        "second-generation open-source",
+        "OSSg2",
+        "services-based business models built on open-source software"
+      ],
+      "source_citation": "Page 1: 'This professional open-source business model, where profit-motivated firms are driven by revenues stemming from a market for professional services, is not a new one... Watson et al. (2008, p.43) refer to this type of OSS business model as second-generation open-source or OSSg2, characterized by firms that typically generate the bulk of their revenues by providing complementary services around their products and own or tightly control the software code and can exploit their intimate knowledge of the code to provide higher-quality service than could potential competing service providers.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "professional open-source business model",
+        "second-generation open-source",
+        "OSSg2",
+        "services-based business models built on open-source software"
+      ],
+      "synonyms_found": [
+        "professional open-source business model",
+        "second-generation open-source",
+        "OSSg2",
+        "services-based business models built on open-source software"
+      ],
+      "source_citation": "Page 1: 'This professional open-source business model... Watson et al. (2008, p.43) refer to this type of OSS business model as second-generation open-source or OSSg2' | Page 1: 'firms are increasingly using services-based business models built on open-source software (OSS)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Enterprise Software",
+      "synonyms_found": [
+        "enterprise software markets",
+        "enterprise software",
+        "enterprise customers"
+      ],
+      "source_citation": "Page 1: 'In enterprise software markets, firms are increasingly using services-based business models built on open-source software (OSS) to compete with established, proprietary software firms' | Page 1: 'enterprise customers (Konrad 2015)' | Page 1: 'In this paper, we focus on enterprise software markets where OSSg2 business models are viable'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Enterprise",
+      "synonyms_found": [
+        "enterprise customers",
+        "enterprise software market"
+      ],
+      "source_citation": "Page 1: 'enterprise customers (Konrad 2015)' | Page 1: 'In enterprise software markets, firms are increasingly using services-based business models built on open-source software (OSS)' | Page 1: 'In this paper, we focus on enterprise software markets where OSSg2 business models are viable'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Mixed - includes both established firms and startups, with examples ranging from large corporations like Salesforce to smaller specialized firms like Confluent and JBoss",
+      "synonyms_found": [
+        "established firms",
+        "proprietary software firms",
+        "cofounders",
+        "company"
+      ],
+      "source_citation": "Page 1: 'firms are increasingly using services-based business models built on open-source software (OSS) to compete with established, proprietary software firms' | Page 1: 'The cofounders of Apache Kafka... are also the cofounders of Confluent, a firm that has built a business' | Page 1: 'JBoss, which in 1999 successfully built a company on top of open-source software (OSS)'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Enterprise customers requiring professional services for software integration and management",
+      "synonyms_found": [
+        "enterprise customers",
+        "consumers",
+        "service-oriented firms"
+      ],
+      "source_citation": "Page 1: 'enterprise customers (Konrad 2015)' | Page 1: 'selling management tools and services that make it easier to run Kafka to enterprise customers' | Page 1: 'we study the complex interactions that arise among service-oriented firms competing in a services market'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform",
+        "Managed Service"
+      ],
+      "synonyms_found": [
+        "software",
+        "platform",
+        "services",
+        "management tools",
+        "enterprise software",
+        "professional services"
+      ],
+      "source_citation": "Page 1: 'selling management tools and services that make it easier to run Kafka' | Page 1: 'Apache Kafka, an open-source platform for handling real-time data streams' | Page 1: 'the provision of services for its enterprise Java application server product' | Page 1: 'providing complementary services around their products'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "On-premises",
+        "Multi-tenant SaaS"
+      ],
+      "synonyms_found": [
+        "install",
+        "integrate",
+        "deploy",
+        "cloud",
+        "services"
+      ],
+      "source_citation": "Page 1: 'in order to derive value from the enterprise software, a consumer must install it, integrate it with existing business systems and processes, and acquire services' | Page 1: 'services-based business models built on open-source software'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Permissive Open Source",
+      "synonyms_found": [
+        "open-source",
+        "OSS",
+        "open source",
+        "permissive",
+        "restrictive"
+      ],
+      "source_citation": "Page 1: 'For example, the GNU General Public License (GPL) is a widely employed open-source license that is considered to be quite restrictive with regard to what a contributor can do with the software. On the other end of the spectrum lies the Berkeley Software Distribution (BSD) license, which imposes minimal restrictions on anyone who uses or extends BSD-licensed software'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "GPL restrictions → Contributor development effort",
+        "BSD minimal restrictions → Software use and extension",
+        "License restrictiveness → Quality investments and competitive dynamics"
+      ],
+      "synonyms_found": [
+        "restrictions",
+        "restrictive",
+        "permissive",
+        "compatibility"
+      ],
+      "source_citation": "Page 1: 'the GNU General Public License (GPL) is a widely employed open-source license that is considered to be quite restrictive with regard to what a contributor can do with the software' | Page 1: 'the Berkeley Software Distribution (BSD) license, which imposes minimal restrictions on anyone who uses or extends BSD-licensed software' | Page 1: 'how license restrictiveness impacts equilibrium investments and the quality of offerings'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Support",
+        "Others"
+      ],
+      "synonyms_found": [
+        "service revenue",
+        "professional services",
+        "services",
+        "support",
+        "complementary services"
+      ],
+      "source_citation": "Page 1: 'firms are driven by revenues stemming from a market for professional services' | Page 1: 'typically generate the bulk of their revenues by providing complementary services around their products' | Page 1: 'the provision of services for its enterprise Java application server product'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product",
+      "synonyms_found": [
+        "originator",
+        "contributor",
+        "proprietor",
+        "service provider"
+      ],
+      "source_citation": "Page 1: 'we study three-way competition among a proprietary firm (proprietor), an OSS originating firm (originator), and an OSS contributing firm (contributor)' | Page 1: 'They collaborate on the development and management of enterprise OSS but then compete against each other in the services market'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Professional services and management tools for enterprise software",
+        "Customer Segment: Enterprise customers requiring software integration services",
+        "Revenue Streams: Service revenue from professional services",
+        "Key Activities: Software development, service provision, strategic contributions",
+        "Key Resources: Intimate knowledge of software code, development expertise",
+        "Cost Structure: Production costs shared between originator and contributor"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue streams",
+        "key activities",
+        "key resources",
+        "cost structure"
+      ],
+      "source_citation": "Page 1: 'selling management tools and services that make it easier to run Kafka to enterprise customers' | Page 1: 'enterprise customers (Konrad 2015)' | Page 1: 'revenues stemming from a market for professional services' | Page 1: 'strategic development efforts made by these firms largely codetermine the qualities of the fully integrated software solutions' | Page 1: 'exploit their intimate knowledge of the code to provide higher-quality service' | Page 1: 'the OSS originator and contributor share production costs'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Proprietor | Sole service provider for proprietary software | Competes with OSS providers | Charges for product itself | OSS Originator | Develops and manages OSS | Collaborates with contributor on development | Competes with contributor for services | OSS Contributor | Strategically contributes to OSS | Collaborates with originator on development | Competes with originator for services",
+      "synonyms_found": [
+        "proprietor",
+        "originator",
+        "contributor",
+        "service provider",
+        "firm"
+      ],
+      "source_citation": "Page 1: 'we study three-way competition among a proprietary firm (proprietor), an OSS originating firm (originator), and an OSS contributing firm (contributor)' | Page 1: 'They collaborate on the development and management of enterprise OSS but then compete against each other in the services market' | Page 1: 'the proprietor solely incurs production costs but then retains significant pricing power because it can charge for the product itself' | Page 1: 'the OSS originator and contributor share production costs, cannot charge for an open-source product, and must compete for service revenues'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Service revenue generation",
+        "Competitive advantage through intimate code knowledge",
+        "Ability to provide higher-quality services than competitors",
+        "Profit motivation from professional services market"
+      ],
+      "synonyms_found": [
+        "revenue",
+        "profit",
+        "competitive advantage",
+        "service quality",
+        "motivation"
+      ],
+      "source_citation": "Page 1: 'profit-motivated firms are driven by revenues stemming from a market for professional services' | Page 1: 'own or tightly control the software code and can exploit their intimate knowledge of the code to provide higher-quality service than could potential competing service providers' | Page 1: 'the economic incentives underlying these business models are commonly related to service revenue generation'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Intimate knowledge of software code → Higher-quality service provision",
+        "Strategic development efforts → Better integrated software solutions",
+        "License restrictiveness → Influences competitive dynamics and quality investments",
+        "Service expertise → Competitive advantage in services market"
+      ],
+      "synonyms_found": [
+        "success",
+        "quality",
+        "expertise",
+        "knowledge",
+        "effort"
+      ],
+      "source_citation": "Page 1: 'exploit their intimate knowledge of the code to provide higher-quality service than could potential competing service providers' | Page 1: 'the strategic development efforts made by these firms largely codetermine the qualities of the fully integrated software solutions that emerge' | Page 1: 'how license restrictiveness impacts equilibrium investments and the quality of offerings'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Open-source software foundation → Enables collaborative development",
+        "Service market demand → Drives revenue generation",
+        "Development expertise → Enables quality service provision",
+        "Strategic contribution capability → Allows competitive positioning"
+      ],
+      "synonyms_found": [
+        "prerequisites",
+        "conditions",
+        "requirements",
+        "foundation"
+      ],
+      "source_citation": "Page 1: 'services-based business models built on open-source software (OSS)' | Page 1: 'revenues stemming from a market for professional services' | Page 1: 'exploit their intimate knowledge of the code to provide higher-quality service' | Page 1: 'third-party firms can also strategically contribute to OSS and compete in the services market'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Cannot charge for open-source product → Must rely on service revenues",
+        "License restrictiveness → Can exacerbate incentive conflicts between originator and contributor",
+        "Production cost sharing → Reduces individual pricing power"
+      ],
+      "synonyms_found": [
+        "restrictions",
+        "incompatibilities",
+        "conflicts",
+        "limitations"
+      ],
+      "source_citation": "Page 1: 'For all practical purposes, OSS-based business models typically preclude charging for the software alone' | Page 1: 'it is not always in the best interest of the originator for the contributor to invest greater development effort, such licensing can actually be detrimental to both consumer surplus and social welfare when it exacerbates this incentive conflict' | Page 1: 'the OSS originator and contributor share production costs, cannot charge for an open-source product, and must compete for service revenues'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Incentive conflicts between originator and contributor",
+        "Complex competitive dynamics with proprietary firms",
+        "License restrictiveness affecting collaborative efforts",
+        "Balancing collaboration and competition in services market"
+      ],
+      "synonyms_found": [
+        "challenges",
+        "conflicts",
+        "complexity",
+        "difficulties"
+      ],
+      "source_citation": "Page 1: 'it is not always in the best interest of the originator for the contributor to invest greater development effort, such licensing can actually be detrimental to both consumer surplus and social welfare when it exacerbates this incentive conflict' | Page 1: 'the nature of competition between OSS constituents and proprietary software firms can be complex' | Page 1: 'They collaborate on the development and management of enterprise OSS but then compete against each other in the services market'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Strategic licensing choices → Mitigate incentive conflicts → Improve collaborative outcomes",
+        "Quality investment coordination → Address competitive dynamics → Enhance market position",
+        "Service expertise development → Overcome revenue limitations → Create competitive advantage"
+      ],
+      "synonyms_found": [
+        "practices",
+        "mitigation",
+        "strategies",
+        "solutions"
+      ],
+      "source_citation": "Page 1: 'market conditions under which permissive and restrictive licenses each, respectively, help improve consumer surplus associated with deployed software solutions' | Page 1: 'how quality investments and prices are endogenously determined in equilibrium' | Page 1: 'exploit their intimate knowledge of the code to provide higher-quality service than could potential competing service providers'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2016-2020 observed period + Growing maturity status",
+      "synonyms_found": [
+        "temporal",
+        "period",
+        "maturity",
+        "emerging",
+        "growing"
+      ],
+      "source_citation": "Page 1: 'Received: August 16, 2016' | Page 1: 'Accepted: February 29, 2020' | Page 1: 'Published Online in Articles in Advance: October 5, 2020' | Page 1: 'firms are increasingly using services-based business models built on open-source software (OSS)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases",
+      "synonyms_found": [
+        "evidence",
+        "study",
+        "analysis",
+        "cases"
+      ],
+      "source_citation": "Page 1: 'We study a three-player game and examine how open-source licensing affects competition among an open-source originator, an open-source contributor, and a proprietor competing in an enterprise software market' | Page 1: 'The cofounders of Apache Kafka... are also the cofounders of Confluent' | Page 1: 'JBoss, which in 1999 successfully built a company on top of open-source software (OSS)'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Confluent → Built business on Apache Kafka services",
+        "JBoss → Enterprise Java application server product",
+        "Apache Kafka → Open-source platform for real-time data streams",
+        "Salesforce → Proprietary CRM software",
+        "SugarCRM → OSS originator in CRM market",
+        "Synolia → OSS contributor in CRM market"
+      ],
+      "synonyms_found": [
+        "Confluent",
+        "JBoss",
+        "Apache Kafka",
+        "Salesforce",
+        "SugarCRM",
+        "Synolia"
+      ],
+      "source_citation": "Page 1: 'The cofounders of Apache Kafka, an open-source platform for handling real-time data streams, are also the cofounders of Confluent, a firm that has built a business based on selling management tools and services that make it easier to run Kafka to enterprise customers' | Page 1: 'JBoss, which in 1999 successfully built a company on top of open-source software (OSS), driven purely by the provision of services for its enterprise Java application server product' | Page 1: 'one can think of Salesforce as the proprietor, SugarCRM as the OSS originator, and Synolia as the OSS contributor'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Permissive licensing model → Minimal restrictions on software use and extension",
+        "Restrictive licensing model → Significant restrictions on contributor activities",
+        "Dual licensing scheme → Different licensing terms for different use cases"
+      ],
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "models",
+        "schemes"
+      ],
+      "source_citation": "Page 1: 'the GNU General Public License (GPL) is a widely employed open-source license that is considered to be quite restrictive with regard to what a contributor can do with the software. On the other end of the spectrum lies the Berkeley Software Distribution (BSD) license, which imposes minimal restrictions on anyone who uses or extends BSD-licensed software' | Page 1: 'OSS is offered under either a dual licensing scheme or a support model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Increasing adoption of services-based business models built on open-source software",
+        "Growing complexity of competition between OSS constituents and proprietary software firms",
+        "Evolving role of licensing in strategic contributions and competitive dynamics"
+      ],
+      "synonyms_found": [
+        "future",
+        "trends",
+        "evolution",
+        "increasing",
+        "growing"
+      ],
+      "source_citation": "Page 1: 'firms are increasingly using services-based business models built on open-source software (OSS) to compete with established, proprietary software firms' | Page 1: 'the nature of competition between OSS constituents and proprietary software firms can be complex' | Page 1: 'their incentives are likely influenced by the licensing schemes that govern OSS'",
+      "confidence_level": "medium"
+    }
+  ]
+}

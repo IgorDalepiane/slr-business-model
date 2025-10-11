@@ -1,0 +1,351 @@
+{
+  "extraction_metadata": {
+    "article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+    "extraction_date": "2025-10-06",
+    "note": "This article presents TWO distinct software business models (Integrator/INT and Value-Added Reseller/VAR) and their combination, rather than a single model. Extraction focuses on both models as presented."
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Two models are presented: (1) Integrator (INT): A business model focused on system integration projects with close cooperation with customers offering tailor-made solutions; (2) Value-Added Reseller (VAR): A business model focused on distribution and implementation of software with added value, using standard IT platforms for building customer solutions",
+      "synonyms_found": [
+        "INT",
+        "Integrator",
+        "VAR",
+        "Value-Added Reseller",
+        "Reseller with Added Value"
+      ],
+      "source_citation": "Page 2, Section 1: 'Based on interviews with company representatives, as well as consultations with Polish software industry experts, we have found 40 key variables which are characteristic for business models of resellers and integrators.' | Page 5, Table 2: 'Generic Model: INT' and 'Generic Model: VAR' | Page 8: 'We selected two business models for further work, calling them, INT and VAR, respectively' | Page 3: 'parameterization of the business models from the software industry (Integrator and of Reseller with Added Value)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": "INT, Integrator; VAR, Value-Added Reseller, Reseller with Added Value",
+      "synonyms_found": [
+        "INT",
+        "Integrator",
+        "VAR",
+        "Value-Added Reseller",
+        "Reseller with Added Value"
+      ],
+      "source_citation": "Page 3: 'parameterization of the business models from the software industry (Integrator and of Reseller with Added Value)' | Page 8: 'We selected two business models for further work, calling them, INT and VAR, respectively'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Software industry, specifically IT companies providing implementation, distribution, and maintenance services",
+      "synonyms_found": [
+        "software industry",
+        "IT business models",
+        "information technology (IT) business models",
+        "Polish software industry"
+      ],
+      "source_citation": "Page 1: 'Based on interviews with company representatives, as well as consultations with Polish software industry experts' | Page 2: 'business models, their classifications, and the synergy' in context of 'literature on business models' | Page 3: 'software industry environment' | Page 9: 'selected companies from the software industry'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "INT: Enterprise (Large Organizations); VAR: B2B (All Organizations including SMB, Mid-market, and Enterprise)",
+      "synonyms_found": [],
+      "source_citation": "Page 5, Table 3: 'Target Customer: Large Organizations' for INT model and 'Target Customer: All Organizations' for VAR model",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "SMEs (Small and Medium Enterprises) operating in Poland",
+      "synonyms_found": [
+        "SME sector",
+        "SMEs"
+      ],
+      "source_citation": "Page 9: 'The companies selected for the research were SMEs operating in one country in the software industry. Ultimately, the selection criteria were best met by 10 (VAR) companies and 5 (INT) companies.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Poland",
+      "synonyms_found": [
+        "Polish software industry"
+      ],
+      "source_citation": "Page 1: 'Based on interviews with company representatives, as well as consultations with Polish software industry experts' | Page 9: 'The companies selected for the research were SMEs operating in one country in the software industry' | Page 10: 'the most popular business models of the Polish IT companies - the INT and the VAR'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "INT: Large organizations requiring system integration projects with high value-added services; VAR: Organizations requiring software deployment and implementation with standardized support",
+      "synonyms_found": [
+        "strategic customer segments",
+        "strategic customers"
+      ],
+      "source_citation": "Page 5, Table 3: 'Target Customer: Large Organizations' for INT and 'All Organizations' for VAR | Page 11: 'Competing on the value added for the customer in strategic segments' and 'Increasing/maintaining strategic segments' | Page 13: 'The increase in the share in the segments and orders of strategic customers'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "INT: Application (customized solutions), Managed Service (system integration projects, consulting); VAR: Application (software platform), Managed Service (software deployment, maintenance, support)",
+      "synonyms_found": [],
+      "source_citation": "Page 4-5, Table 1: 'Product strategy: Customized product/solution' for INT and 'Product platform' for VAR | 'Service and implementation model: System integration projects' for INT and 'Software deployment' for VAR | Page 5, Table 3: 'Software Stack Layer: All' for INT and 'Application Software' for VAR",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "INT: Direct sales/commission from integration projects, services; VAR: Direct sales, revenue sharing, license resale, services revenue, resale of foreign licenses",
+      "synonyms_found": [],
+      "source_citation": "Page 5, Table 2: 'Revenue logic: Effort-, cost-, or value-based pricing' for INT and 'Revenue sharing, license resale' for VAR | Table 3: 'Revenue Source: Direct/Commission' for INT and 'Direct' for VAR | Page 11, Fig. 3: 'h2 Increasing / maintaining revenues from new projects', 'h3 Increase / maintain sales from services and resale', 'h4 Increase / maintain revenue from the sale of foreign licenses' for VAR",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "INT: Project-based (effort, cost, or value-based); VAR: License-based with revenue sharing arrangements",
+      "synonyms_found": [],
+      "source_citation": "Page 5, Table 2: 'Revenue logic: Effort-, cost-, or value-based pricing' for INT model and 'Revenue sharing, license resale' for VAR model",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "INT: Standalone product/service provider with strong partner networks acting as system integrator; VAR: OEM component/distributor serving as intermediary between technology providers and customers",
+      "synonyms_found": [
+        "distributor",
+        "integrator"
+      ],
+      "source_citation": "Page 5, Table 2: 'The business model archetype: Distributor' for both INT and VAR | Page 4, Table 1: 'Distribution model: direct contact with customers' for both models, with INT doing 'System integration projects' and VAR doing 'Software deployment' | Page 5, Table 3: 'Degree of Vertical Integration: High' for INT and 'Low' for VAR",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "INT: Direct sales, Partners/channels; VAR: Direct sales, Partners/channels, Sales agents, Telesales",
+      "synonyms_found": [],
+      "source_citation": "Page 4-5, Table 2: 'Distribution model: Direct contact with customers' for both INT and VAR | Page 5, Table 3: 'Channels: Sales Agents, Events' for INT and 'Sales Agents; Telesales' for VAR | Page 12, Fig. 4: 'c1 Focus on direct / relational sales (customer supervisor)' for INT | Page 11, Fig. 3: 'c1 Focus on direct sales' for VAR",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Value Proposition: INT - personalization of offer meeting special needs, competitive TCO; VAR - competing with industry standard solutions, personalizing offers. Customer Segment: INT - competing on value added in strategic segments, specialization in customer categories; VAR - competing with industry standard solutions, focus on license sales with added value. Channels: INT - direct/relational sales; VAR - direct sales, using key suppliers' distribution channels. Relationship: INT - building relationships based on high added value, co-creating solutions; VAR - building relationships based on best industry practices. Revenue Streams: Project revenues, service revenues, license resale revenues. Key Resources: INT - specialized competences, reputation, industry references, professional certificates; VAR - having solution recognized as industry standard, industry references, specialized competences, long-term customer contracts. Key Activities: INT - creating customer needs, providing high-quality services, project portfolio planning; VAR - developing own industry standards, standardization of implementation processes, product competence development. Key Partnerships: INT - keeping strong position with suppliers, long-term relationships with partners, building partner networks; VAR - keeping strong position with key suppliers, building solutions in cooperation with partners. Cost Structure: INT - investing in human resource development, project management efficiency; VAR - increased expenditure on human resource development, competence development",
+      "synonyms_found": [],
+      "source_citation": "Page 4-5, Table 1, Wartini-Twardowska (2014): 'Classification of generic business models due to the structure of the value of characteristic variables and interactions for key components: market segments; value proposition; relationships; distribution channels; revenue streams; key resources, key processes; partners; cost structure' | Page 11, Fig. 3 and Page 12, Fig. 4: detailed variables for both models organized by components (labeled with letters a-h representing different canvas elements)",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Key actors include: (1) Technology providers/suppliers - provide software platforms and licenses, interact with both INT and VAR as upstream partners; (2) Subcontractors/partners - support INT in project delivery, VAR maintains relationships for solution building; (3) Customers (Large Organizations for INT, All Organizations for VAR) - receive customized integration services from INT or standardized deployments from VAR; (4) The combination creates interaction where INT can distribute VAR solutions and VAR becomes technological base for INT projects",
+      "synonyms_found": [
+        "suppliers",
+        "key suppliers",
+        "technology providers",
+        "subcontractors",
+        "partners",
+        "customers"
+      ],
+      "source_citation": "Page 11, Fig. 3: 'g1 Keeping a strong position in relation to key suppliers', 'g2 Building solutions in cooperation with partners (subcontracting)' for VAR | Page 12, Fig. 4: 'g1 Keeping a strong bargaining position towards key suppliers', 'g5 Ensuring high-quality cooperation with suppliers (subcontractors)', 'g2 Keeping long-term relationships with partners' for INT | Page 13-14: 'The INT becomes a specific distribution channel for solutions of the VAR' and 'providing a strong technological base in the form of VAR subcontractors'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Creating synergy through combination of heterogeneous business models; accessing new market segments; leveraging complementary resources and capabilities; achieving economies of scale and scope; strengthening competitive position through resource sharing; expanding value propositions",
+      "synonyms_found": [
+        "synergy effects",
+        "synergy potential",
+        "value creation"
+      ],
+      "source_citation": "Page 1: 'The authors propose a universal methodology for measuring and assessing the synergy potential when combining companies into a group, using the business model perspective' | Page 2: 'synergy will result primarily from the creation of a unique business architecture and through continuous improvement of the operational/capital structure' | Page 3: 'Larsson and Finkelstein (1999), may be an underappreciated source of value creation in M&As. Each of these arguments underlines that outlining the image of true synergies and their sources cannot be overestimated'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Strong resources (industry standards, references, specialized competences) → high synergy potential for market objectives; Relay variables (creating customer needs, building relationships, competitive segmentation) → support all strategic objectives; Close integration with customers → increased market share; Standardization of processes → improved operational efficiency; Strong position with suppliers → maintaining bargaining power; Building relationships based on best practices → improved after-sales service",
+      "synonyms_found": [
+        "success factors",
+        "critical success factors"
+      ],
+      "source_citation": "Page 10-11: 'The determinants of the VAR come primarily from the key resources area' and 'The relay variables of the VAR determine the competitive strategy of this model' | Page 14, Table 6: detailed opportunities showing access to markets, creating distribution channels, and using key competences | Page 18, Fig. 10: 'The high synergy potential of the examinated combination is made by resources'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Similar or complementary market segments → faster market share increase; Professional competences and certifications → ability to serve target markets; Long-term contracts and customer databases → business continuity; Strong relationships with technology providers → access to products/platforms; Adequate human resources and investment capacity → capability to deliver services",
+      "synonyms_found": [],
+      "source_citation": "Page 13: 'The increase in the market segment share, through combination with the INT, is the fastest if both companies support the same or very similar segments' | Page 11, Fig. 3: 'e4 Long-term contracts with customers, a database of loyal customers' and 'e6 Professional certificates, product references' as determinant/auxiliary variables",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "VAR dependence on INT distribution channels → potential vulnerability; Specialized INT competences may be obstacle to mass VAR distribution → channel conflict; High switching costs with technology providers → vendor lock-in; Requirements for deep personalization → incompatibility with standardization strategy; Different quality management approaches → integration difficulties; Focus on high value-added customers → reduced competition in standard segments",
+      "synonyms_found": [],
+      "source_citation": "Page 14, Table 6 Threats: 'The sales process of the INT offer may not be adjusted to the sales specifics of the VAR product', 'Specialized commercial competences of the INT may be an obstacle to the mass distribution of the VAR offer', 'Very strong dependence of the VAR on distribution channels of the INT' | Page 16, Table 7 Threats: 'There may be big differences in the approach to quality management between VAR and INT', 'The high cost of changing the main technology provider results from the developed VAR competences'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Measuring and assessing synergy potential between heterogeneous business models; Identifying true synergies versus overestimated synergies; Managing integration of different organizational cultures; Coordinating different business model variables and strategic objectives; Balancing standardization with customization requirements; Managing dependencies on technology providers; Avoiding the synergy trap in M&A processes",
+      "synonyms_found": [
+        "synergy pitfalls",
+        "challenges"
+      ],
+      "source_citation": "Page 2: 'One may partially concede that if there are no true synergies between the merging firms in the first place, then even to high quality, low-cost implementation of the merger may lead to only negligible benefits' | Page 2: 'Nevertheless, these techniques have limitations: They do not allow us to understand how heterogeneous business models and their variables stimulate the synergy effects' | Page 1-2: 'Too high acquisition premiums and mistakes in the integrating value chains of combined companies or different organizational cultures contribute to the loss of synergy effects'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Structural analysis using cross-impact method → identifies significant links between business model variables; Multi-criteria decision analysis (FSAW method) → reconciles expert opinions and assesses variable impacts; Balanced Scorecard approach → systematic assessment of opportunities and risks across market, operations, and development; Parameterization and quantification of business model variables → enables formal methods and better understanding; Identification of determinants and relay variables → focuses on high-impact elements; Synergy roadmap creation → guides actions to exploit synergy potential",
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'In this analysis, the most difficult element is always the rationale for choosing the value of the criteria weights and the strength of the mutual interactions. Considering the inaccuracies in estimating weights and the expert opinions allows this problem to be largely solved' | Page 8: 'we applied the simple additive weighting (SAW) method', 'we changed the SAW method to the fuzzy simple additive weighting (FSAW) method' | Page 15-16: 'The analysis of variables based on the two proposed criteria allows us to describe the business model to better understand the significance of individual variables' | Page 19, Table 8: 'Synergy roadmap - reference VAR - INT group'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Impact values for market objectives: INT variables on VAR = 7.69 total, VAR variables on INT = 7.15 total; Impact values for operating process objectives: INT on VAR = 5.61 total, VAR on INT = 5.51 total; Number of variables analyzed: 40 per business model; Sample size: 10 VAR companies and 5 INT companies; Variable weights: 50% corresponds to sum of determinants and relay variables; Synergy potential assessment: High (80-100%) for market objectives with resources component, Average (60-80%) for operating processes, Low (below 60%) for development area",
+      "synonyms_found": [],
+      "source_citation": "Page 13, Table 5: specific impact values listed (e.g., '2.17' for objective 1.1.1, '2.32' for another objective) | Page 8: 'limited the maximum number of variables for each model to 40' | Page 9: 'selection criteria were best met by 10 (VAR) companies and 5 (INT) companies' | Page 10: 'weights of the variables were determined using the heuristic method' with '50% corresponds to the sum of the determinants and relay variables' | Page 18: 'high synergy potential only in the market objective area', 'average synergy potential concerns operating processes', 'relatively low synergy potential is in the development area'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Study conducted and published in 2019; Business models observed in Polish software industry SMEs at time of research; Maturity status: Consolidated - these are established, typical business models already operating in the software industry",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Received 15 August 2018; Received in revised form 7 March 2019; Accepted 14 June 2019' and 'Heliyon 5 (2019) e01970' | Page 9: 'Based on previous experience related to the classification of business models for the software industry' | Page 10: 'the most popular business models of the Polish IT companies - the INT and the VAR'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases - Study of 10 VAR companies and 5 INT companies combined with expert consultation methodology",
+      "synonyms_found": [],
+      "source_citation": "Page 9: 'The basic source of data was direct interviews with representatives of companies and experts from the software industry, preceded by the analysis of websites selected for the survey of companies' | Page 9: 'Ultimately, the selection criteria were best met by 10 (VAR) companies and 5 (INT) companies. The results of the questionnaire were examined by both experts and the representatives of selected companies' | Page 9: 'Experts assessed the interactions between variables based on professional experience and knowledge of the companies representing the business models under study'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "The article discusses generic business models INT and VAR based on 15 Polish SME companies (10 VAR, 5 INT) but does not name specific companies or products",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "The article presents two distinct model types (INT and VAR) and references broader classification frameworks: (1) Five-element value chain classification (Design, Production, Distribution, Implementation, Maintenance) with 15 generic models; (2) Classification based on product strategy (customized vs. standard); (3) Classification based on degree of customer involvement and offering homogeneity",
+      "synonyms_found": [],
+      "source_citation": "Page 4-5, Table 1, Wartini-Twardowska 2014: 'Five generic business models were obtained for each value-added strategy: Design (1.1 Independent IT advisor; 1.2 Auditor; 1.3 Business consultant); Production (2.1 Independent software vendor; 2.2 Software development company; 2.3 IT Lab); Distribution (3.1 Value-added reseller; 3.2 Distributor; 3.3 Challenger); Implementation (4.1 Integrator; 4.2 Freelancer; 4.3 Software house); Maintenance (5.1 Help Desk; 5.2 IT on demand; 5.3 Service provider)' | Page 5, Table 2: Different classification dimensions showing variations in 'Product strategy', 'Revenue logic', 'Distribution model', 'Service and implementation model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Progressive concentration of the software industry through M&As; Increased importance of service model as opposed to product model; Growing importance of shared service centers, outsourcing of IT services, and cloud computing; Mobile access to information for real-time decision making; Open source software development; Evolution toward unique business architectures through model combinations; Multiple merger scenarios for timing of synergies",
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'The context of business architecture design in the software industry can be described as follows: (1) progressive concentration of the industry—significant M&As among companies; (2) new technologies—the implementation of an ERP system, even the most advanced one, is no longer a source of competitive advantage; (3) increased importance of the service model as opposed to the product model; (4) the growing importance of shared service centers, outsourcing of IT services, and cloud computing; (5) mobile access to information—the possibility of making decisions in real time; (6) open source software development' | Page 2: 'Our methodology allows us to address all the factors of Garzella and Fiorentino (2014) model, including the last one (i.e., timing of synergies), by developing multiple merger scenarios'",
+      "confidence_level": "high"
+    }
+  ]
+}

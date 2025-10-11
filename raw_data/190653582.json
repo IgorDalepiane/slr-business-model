@@ -1,0 +1,517 @@
+{
+  "extraction_metadata": {
+    "article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Cloud and subscription-based pricing model - A business model where customers pay recurring amounts at set times to access software products or services delivered through cloud infrastructure, replacing traditional perpetual licensing where customers purchased software for lifetime use.",
+      "synonyms_found": [
+        "subscription-based model",
+        "cloud-based deployment model",
+        "cloud and subscription-based pricing model",
+        "subscription business model"
+      ],
+      "source_citation": "Page 1, Abstract: 'Why Adobe made an important yet risky strategic decision to transition from the time-tested perpetual licence price model to a cloud and subscription-based pricing model is the primary focus of this case.' | Page 6, Business model changes: 'In 2012, Adobe went from a perpetual licence-based business strategy to a monthly subscription business model' | Page 6, Revenue stream: 'Customers pay a certain amount of money at set times to access the company's product or service in the subscription business model.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "subscription-based model",
+        "cloud-based deployment model",
+        "cloud and subscription-based pricing model",
+        "subscription business model",
+        "cloud services model",
+        "cloud-based subscription model"
+      ],
+      "synonyms_found": [
+        "subscription-based model",
+        "cloud-based deployment model",
+        "cloud and subscription-based pricing model",
+        "subscription business model",
+        "cloud services model",
+        "cloud-based subscription model"
+      ],
+      "source_citation": "Page 1, Abstract: 'cloud and subscription-based pricing model' | Page 6, Business model changes: 'monthly subscription business model' | Page 6, Revenue stream: 'subscription business model' | Page 5, Channels: 'cloud-based subscription model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Digital Media Software (DMS)",
+      "synonyms_found": [
+        "digital media software industry",
+        "DMS industry",
+        "digital media market",
+        "creative software industry"
+      ],
+      "source_citation": "Page 1, Introduction: 'The digital media software industry (DMS) consists of products, solutions, and services, enabling enterprises, teams, and individuals to design, develop graphics and videos and improve their productivity through collaboration.' | Page 1, Title: 'Strategy and business model evolution at Adobe: Competing in digital media software industry'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2B Enterprise",
+      "synonyms_found": [
+        "enterprise customers",
+        "business customers",
+        "professional users"
+      ],
+      "source_citation": "Page 4, Customers: 'Historically, Adobe's enterprise customers and individual users have paid a perpetual licence price to use Adobe software for decades.' | Page 4, Customers: 'The DMS industry consists of two primary user groups: Amateur and Professionals. The professional category includes animators, editors and video recording/mixing professionals who use software applications to derive their primary income directly.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Large technology corporations with market leadership positions",
+      "synonyms_found": [
+        "market leaders",
+        "leading players",
+        "large corporations"
+      ],
+      "source_citation": "Page 1, Introduction: 'Adobe, Avid Technology, Autodesk, Affinity (Serif) and Canva are among the leading players in this market.' | Page 3, Competitive landscape: 'Adobe continued to dominate the market for a long time, with 53% share in 2009' | Page 6, Results: 'Adobe has a presence in more than 25 countries and employs over 26,000 employees.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Global (with specific mention of US market and international expansion)",
+      "synonyms_found": [
+        "worldwide",
+        "global",
+        "international"
+      ],
+      "source_citation": "Page 6, Results: 'Adobe has a presence in more than 25 countries' | Page 3, Adobe's growth story: 'Next on Adobe's agenda was international expansion. The company signed an agreement with Canon Inc. of Japan' | Page 3, Social: 'In 2020, the US had 232 million digital viewers, accounting for 83.8% of the population.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Creative professionals including animators, editors, and video recording/mixing professionals",
+      "synonyms_found": [
+        "creative professionals",
+        "professional category",
+        "creative users"
+      ],
+      "source_citation": "Page 4, Customers: 'The professional category includes animators, editors and video recording/mixing professionals who use software applications to derive their primary income directly.' | Page 6, Results: 'Over 90% of the world's creative professionals use Adobe Photoshop'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform"
+      ],
+      "synonyms_found": [
+        "creative software",
+        "creative applications",
+        "creative suite",
+        "creative cloud platform"
+      ],
+      "source_citation": "Page 1, Introduction: 'The main software segments of DMS include desktop publishing, graphic and digital imaging, document readers and viewers, digital video editing and DVD authoring.' | Page 4, Adobe's key business segments: 'Creative Cloud' | Page 5, Key activities: 'Creative Suite of products'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Multi-tenant SaaS",
+        "Desktop"
+      ],
+      "synonyms_found": [
+        "cloud-based",
+        "cloud delivery",
+        "desktop software",
+        "cloud services"
+      ],
+      "source_citation": "Page 6, Business model changes: 'Adobe went from a perpetual licence-based business strategy to a monthly subscription business model' | Page 5, Key activities: 'Many companies began selling software as a subscription service in the cloud rather than selling licences and CDs.' | Page 5, Key activities: 'Moving to the cloud reduced the effort required to check piracy'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Proprietary",
+      "synonyms_found": [
+        "proprietary software",
+        "licensed software"
+      ],
+      "source_citation": "Page 5, Key activities: 'Adobe has competed as a licence-based corporation for more than two decades. They have built a strong reputation as providers of high-quality professional and consumer design tools for which customers are willing to pay a premium upfront.' | Page 3, Legal: 'Software piracy has become a significant concern in the IT industry'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "License compliance violations → Protection through cloud tracking",
+        "Software piracy → Revenue losses and tracking difficulties"
+      ],
+      "synonyms_found": [
+        "piracy",
+        "license compliance",
+        "software licensing"
+      ],
+      "source_citation": "Page 5, Key activities: 'Moving to the cloud reduced the effort required to check piracy, as Adobe could now easily track their product usage.' | Page 5, Key activities: 'This provided the added benefit of protection against licence compliance violations.' | Page 3, Legal: 'Software piracy has become a significant concern in the IT industry'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription"
+      ],
+      "synonyms_found": [
+        "subscription revenue",
+        "recurring revenue",
+        "monthly subscription"
+      ],
+      "source_citation": "Page 6, Revenue stream: 'Customers pay a certain amount of money at set times to access the company's product or service in the subscription business model.' | Page 6, Results: 'The recurring revenue from subscriptions represented 74% of Adobe's business.' | Page 6, Results: 'The company added $350 million in recurring revenue in the fourth quarter alone.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "User/seat",
+      "synonyms_found": [
+        "per user",
+        "per subscriber",
+        "per seat"
+      ],
+      "source_citation": "Page 5, Channels: 'Subscribers could now pay $49.99/month for a 1-year commitment.' | Page 4, Customers: 'It costs approximately $1800 per user upfront to purchase the licenced software.' | Page 6, Results: '833,000 new individual and team Creative Cloud subscriptions'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Tiers/Plans",
+        "Annual contract"
+      ],
+      "synonyms_found": [
+        "subscription plans",
+        "annual commitment",
+        "monthly subscription"
+      ],
+      "source_citation": "Page 5, Channels: 'Subscribers could now pay $49.99/month for a 1-year commitment.' | Page 6, Business model changes: 'monthly subscription business model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "USD, monthly",
+      "synonyms_found": [
+        "dollar",
+        "monthly billing"
+      ],
+      "source_citation": "Page 5, Channels: 'Subscribers could now pay $49.99/month for a 1-year commitment.' | Page 6, Results: 'Adobe reported a record $1.31 billion in revenue for the fourth quarter of 2015'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product",
+      "synonyms_found": [
+        "market leader",
+        "dominant player",
+        "standalone software provider"
+      ],
+      "source_citation": "Page 3, Competitive landscape: 'Adobe continued to dominate the market for a long time, with 53% share in 2009' | Page 3, Competitive landscape: 'Adobe is firmly positioned within the digital media market. Almost all its products in this segment are market leaders.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Data",
+      "synonyms_found": [
+        "learning curve trap",
+        "switching costs",
+        "standard file formats"
+      ],
+      "source_citation": "Page 5, Adobe's strategic assets: 'Adobe has been able to lock in consumers and outcompete competitors due to high switching costs. To keep clients hooked on their goods, Adobe employs the 'learning curve trap,'' in which some users become certified experts in their programme. Files produced by Adobe products such as Photoshop or Acrobat have become standard in the industry.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Direct sales",
+        "Digital marketing",
+        "Partners/channels"
+      ],
+      "synonyms_found": [
+        "direct sales",
+        "digital marketing",
+        "resellers",
+        "retailers",
+        "partnerships"
+      ],
+      "source_citation": "Page 6, Associates: 'In the traditional desktop-based perpetual licence model, Adobe was accustomed to selling its creative products through resellers and retailers such as staples.' | Page 6, Channels: 'Adobe primarily used three channels, resale, direct sales, retail and online' | Page 6, Channels: 'Adobe spends 75% of its marketing budget on digital channels.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes - AWS, Azure",
+      "synonyms_found": [
+        "cloud infrastructure",
+        "cloud services",
+        "cloud platforms"
+      ],
+      "source_citation": "Page 6, Associates: 'Adobe entered into long-term agreements and partnerships with Amazon for AWS and Microsoft for Azure and other cloud-based services.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Professional design tools with cloud-based collaboration and workflow",
+        "Customer Segment: Creative professionals, enterprises, amateur users",
+        "Channels: Direct sales, resellers, retailers, digital marketing",
+        "Revenue Streams: Subscription-based recurring revenue",
+        "Key Activities: Software development, cloud infrastructure management, customer support",
+        "Key Partnerships: AWS, Azure, complementary software makers",
+        "Cost Structure: R&D, cloud infrastructure, customer acquisition",
+        "Key Resources: Skilled engineers and designers, patents, customer base"
+      ],
+      "synonyms_found": [
+        "business model canvas",
+        "business model elements"
+      ],
+      "source_citation": "Page 5, Key activities: 'Managing cloud infrastructure, data security and privacy issues became the primary activities.' | Page 5, Adobe's strategic assets: 'Adobe's key resources are skilled engineers and designers, sales and marketing staff and customer service staff. Adobe has hundreds of patents filed every year.' | Page 6, Associates: 'Adobe entered into long-term agreements and partnerships with Amazon for AWS and Microsoft for Azure'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Adobe | Software provider | Provides Creative Cloud platform | Partners with AWS/Azure for infrastructure | Customers | End users | Subscribe to Adobe services | Use Adobe file formats as industry standard | Resellers/Retailers | Distribution partners | Sell Adobe products | Transition to value-add distributors | Competitors | Alternative providers | Compete for market share | Include Canva, Figma, Microsoft",
+      "synonyms_found": [
+        "ecosystem actors",
+        "market participants",
+        "business partners"
+      ],
+      "source_citation": "Page 6, Associates: 'Adobe entered into long-term agreements and partnerships with Amazon for AWS and Microsoft for Azure and other cloud-based services.' | Page 3, Competitive landscape: 'Many smaller mobile developers and operating system software developers have developed competing products' | Page 7, What lies ahead: 'Adobe faces stiff competition from disruptors such as Figma, Canva, Google photos and InVision.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Revenue stability and predictability",
+        "Reduced piracy and license compliance issues",
+        "Lower customer acquisition costs",
+        "Faster product updates and feature delivery",
+        "Expanded market reach to entry-level customers"
+      ],
+      "synonyms_found": [
+        "motivations",
+        "reasons",
+        "drivers"
+      ],
+      "source_citation": "Page 6, Revenue stream: 'However, subscription revenue was more stable and could be maintained or grown over time, ensuring financial stability.' | Page 5, Key activities: 'Moving to the cloud reduced the effort required to check piracy, as Adobe could now easily track their product usage.' | Page 6, Cost structure: 'The subscription model also allowed Adobe to cut the cost of customer acquisition, as it was much cheaper to renew an existing customer than to acquire a new customer.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "High switching costs → Customer lock-in",
+        "Industry standard file formats → Network effects",
+        "Continuous product updates → Customer satisfaction",
+        "Strong market position → Pricing power",
+        "Cloud infrastructure partnerships → Scalability"
+      ],
+      "synonyms_found": [
+        "success factors",
+        "competitive advantages",
+        "key strengths"
+      ],
+      "source_citation": "Page 5, Adobe's strategic assets: 'Adobe has been able to lock in consumers and outcompete competitors due to high switching costs.' | Page 5, Adobe's strategic assets: 'Files produced by Adobe products such as Photoshop or Acrobat have become standard in the industry.' | Page 5, Channels: 'Adobe's creative cloud has pricing power, as there are no serious product alternatives.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Cloud infrastructure partnerships → Scalable delivery",
+        "High-speed internet connectivity → Cloud service access",
+        "Customer trust in cloud security → Adoption",
+        "Technical expertise in cloud development → Product quality",
+        "Strong market position → Pricing power"
+      ],
+      "synonyms_found": [
+        "prerequisites",
+        "requirements",
+        "conditions"
+      ],
+      "source_citation": "Page 6, Associates: 'Adobe needed new partners who could provide the required cloud infrastructure so that Adobe's continuously growing customer base does not face any performance issues.' | Page 2, Technology: 'worldwide internet bandwidth increased from 0.4 to 1.2 million Mbits/second' | Page 7, Challenges faced: 'Concerns included the privacy and security of creative assets stored in the creative cloud'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Data sovereignty concerns → Geographic limitations",
+        "Customer perception of higher costs → Adoption resistance",
+        "Internet dependency → Service availability",
+        "Feature saturation risk → Product stability"
+      ],
+      "synonyms_found": [
+        "restrictions",
+        "limitations",
+        "challenges",
+        "incompatibilities"
+      ],
+      "source_citation": "Page 7, Challenges faced: 'There were structural impediments to public cloud adoption, such as data sovereignty concerns. This includes the legal mandate restricting cloud storage outside the user's home country.' | Page 1, Introduction: 'First, customers perceived the new business model as costlier than the previous one.' | Page 6, Key activities: 'The risks of feature saturation and instability in the installed base were harmful byproducts of constantly changing software.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Customer perception of higher costs",
+        "Security and privacy concerns",
+        "Data sovereignty restrictions",
+        "Channel partner role changes",
+        "Feature saturation and instability risks",
+        "Revenue and profitability concerns during transition"
+      ],
+      "synonyms_found": [
+        "challenges",
+        "problems",
+        "difficulties"
+      ],
+      "source_citation": "Page 1, Introduction: 'First, customers perceived the new business model as costlier than the previous one.' | Page 7, Challenges faced: 'Concerns included the privacy and security of creative assets stored in the creative cloud' | Page 7, Challenges faced: 'The most significant risk faced by Adobe was with its channel partners. Adobe had an extensive network of distributors. After the transition, their roles will change dramatically.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Student discounts → User base creation",
+        "Gradual feature delivery → Stability maintenance",
+        "Cloud infrastructure partnerships → Performance assurance",
+        "Digital-first marketing approach → Customer education",
+        "Value-add distributor transformation → Channel partner support"
+      ],
+      "synonyms_found": [
+        "mitigation strategies",
+        "solutions",
+        "practices"
+      ],
+      "source_citation": "Page 5, Channels: 'Adobe spent heavily on giving discounts to students to create their user base while they were fresh.' | Page 6, Associates: 'Adobe entered into long-term agreements and partnerships with Amazon for AWS and Microsoft for Azure and other cloud-based services.' | Page 6, Channels: 'Adobe adopted a 'digital-first' approach to marketing'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Metric; Value; Unit; Period; Method; Source\nRevenue; 1.31; billion; Q4 2015; Financial reporting; Adobe quarterly results\nAnnual Revenue; 4.8; billion; 2015; Financial reporting; Adobe annual report\nRecurring Revenue %; 74; %; 2015; Business model; Adobe financials\nNew Subscriptions; 833,000; subscriptions; Q4 2015; Customer acquisition; Adobe quarterly results\nMarket Share; 53; %; 2009; Market analysis; Industry data\nEmployee Count; 26,000+; employees; 2021; Company data; Adobe corporate info\nGeographic Presence; 25+; countries; 2021; Business operations; Adobe corporate info",
+      "synonyms_found": [
+        "metrics",
+        "quantitative results",
+        "performance indicators"
+      ],
+      "source_citation": "Page 6, Results: 'Adobe reported a record $1.31 billion in revenue for the fourth quarter of 2015, a 22% year-over-year increase. It disclosed a record annual revenue of $4.8 billion in 2015. The recurring revenue from subscriptions represented 74% of Adobe's business.' | Page 3, Competitive landscape: 'Adobe continued to dominate the market for a long time, with 53% share in 2009' | Page 6, Results: 'Adobe has a presence in more than 25 countries and employs over 26,000 employees.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2012-2021, Consolidated",
+      "synonyms_found": [
+        "transition period",
+        "evolution",
+        "maturity"
+      ],
+      "source_citation": "Page 6, Business model changes: 'In 2012, Adobe went from a perpetual licence-based business strategy to a monthly subscription business model' | Page 6, Results: 'In the financial year 2021, Adobe earned a total revenue of over $15.79 billion' | Page 6, Business model changes: 'It accounted for 75% of the company's revenue, valued at almost $3 billion, three years after its inception.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Single case study",
+      "synonyms_found": [
+        "case study",
+        "teaching case",
+        "single company analysis"
+      ],
+      "source_citation": "Page 1, Title: 'Teaching Case' | Page 1, Abstract: 'Using Adobe as an exemplar, this case highlights the evolution of the DMS industry' | Page 8, Author's note: 'This case was prepared by Prof. Krishna, Jitendra, Rajesh, and Sagnika from published sources. This case is developed solely for the purpose of class-discussion.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Adobe → Main case study company transitioning to subscription model | Canva → Emerging competitor with browser-based creative software | Figma → Competitor in user experience design | Microsoft → Competitor with Creator's Update | Avid Technology → Traditional competitor in DMS market | Autodesk → Leading player in DMS market | Affinity (Serif) → Competitor with redesigned creative software",
+      "synonyms_found": [
+        "companies",
+        "products",
+        "competitors",
+        "examples"
+      ],
+      "source_citation": "Page 1, Introduction: 'Adobe, Avid Technology, Autodesk, Affinity (Serif) and Canva are among the leading players in this market.' | Page 3, Competitive landscape: 'Microsoft has been touting their 'Creators Update'' | Page 7, What lies ahead: 'Adobe faces stiff competition from disruptors such as Figma, Canva, Google photos and InVision.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Traditional perpetual licensing → One-time purchase with lifetime use | Cloud-based subscription → Recurring payment for cloud access | Hybrid approach → Combination of perpetual and subscription models for different customer segments",
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "models",
+        "approaches"
+      ],
+      "source_citation": "Page 1, Introduction: 'transitioning from the time-tested perpetual licence price model to a cloud and subscription-based pricing model' | Page 6, Business model changes: 'the transition from licenced software to a cloud-based deployment model' | Page 4, Customers: 'Historically, Adobe's enterprise customers and individual users have paid a perpetual licence price to use Adobe software for decades.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Browser-based software development for accessibility | Integration of video and photo editing features | Third-party application integration | Marketing and revenue share partnerships | Competition from emerging disruptors in consumer segment",
+      "synonyms_found": [
+        "future trends",
+        "evolutions",
+        "developments",
+        "projections"
+      ],
+      "source_citation": "Page 1, Introduction: 'Will Adobe be able to develop more affordable and user-friendly (browser-based) versions of its creative software to capture this new user category and compete with emerging competitors such as Canva in the consumer business segment?' | Page 7, What lies ahead: 'Matching competitors to incorporate video and photo editing features into its apps, integrating these features with third-party applications and establishing marketing and revenue share partnerships also requires deliberation.'",
+      "confidence_level": "medium"
+    }
+  ]
+}

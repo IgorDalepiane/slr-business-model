@@ -1,0 +1,504 @@
+{
+  "extraction_metadata": {
+    "article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Software-as-a-Service (SaaS) - A business model that centrally hosts and licenses software on a subscription basis, where customers pay a monthly or annual subscription fee that is usually less expensive than the price of a perpetual license, and consumers can access the software via the Internet while SaaS vendors offer the software remotely on cloud-based hardware.",
+      "synonyms_found": [
+        "SaaS",
+        "software-as-a-service",
+        "subscription-based model"
+      ],
+      "source_citation": "Page 1: 'Software-as-a-service (SaaS) is a popular business model that centrally hosts and licenses software on a subscription basis. Many software companies such as Microsoft and Salesforce have adopted the SaaS model. Under the SaaS model, customers pay a monthly or annual subscription fee that is usually less expensive than the price of a perpetual license. Consumers can access the software via the Internet, while the SaaS vendors offer the software remotely on cloud-based hardware.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "SaaS",
+        "software-as-a-service",
+        "subscription-based model",
+        "contractual software service"
+      ],
+      "synonyms_found": [
+        "SaaS",
+        "software-as-a-service",
+        "subscription-based model",
+        "contractual software service"
+      ],
+      "source_citation": "Page 1: 'Software-as-a-service (SaaS) is a popular business model' | Page 7: 'SaaS contractual software service' | Page 1: 'subscription-based recurring payment'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Computer software applications focused on creating and publishing content",
+      "synonyms_found": [
+        "computer software",
+        "content creation",
+        "content publishing"
+      ],
+      "source_citation": "Page 5: 'It offers a collection of more than 20 software applications focused on creating and publishing content in the format of text, graphics, animation, video, etc.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2C",
+      "synonyms_found": [
+        "consumers",
+        "prospective consumers",
+        "individual consumers"
+      ],
+      "source_citation": "Page 1: 'prospective consumers to explore the service at no charge' | Page 5: 'The dataset is a 10% random sample of all users who created accounts by signing up their emails at the focal firm'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Large established technology corporations",
+      "synonyms_found": [
+        "leading SaaS firm",
+        "well established",
+        "multinational computer software company"
+      ],
+      "source_citation": "Page 1: 'This study utilizes the granular data from a leading SaaS firm' | Page 5: 'To this end, this research collects data from a U.S.-based multinational computer software company that uses the SaaS business model' | Page 5: 'the focal firm is well established in its product category and well-known worldwide'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "United States",
+      "synonyms_found": [
+        "U.S.-based",
+        "U.S."
+      ],
+      "source_citation": "Page 5: 'To this end, this research collects data from a U.S.-based multinational computer software company that uses the SaaS business model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Free-trial users who are prospective customers",
+      "synonyms_found": [
+        "free-trial users",
+        "prospective customers",
+        "prospects"
+      ],
+      "source_citation": "Page 1: 'free-trial acquisition, which allows prospective consumers to explore the service at no charge' | Page 5: 'The remaining sample contains 12,297 prospective customers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application"
+      ],
+      "synonyms_found": [
+        "software applications",
+        "desktop applications",
+        "tablet apps",
+        "browser-based access"
+      ],
+      "source_citation": "Page 5: 'It offers a collection of more than 20 software applications focused on creating and publishing content in the format of text, graphics, animation, video, etc. The firm's software is mainly used through desktop applications, while tablet apps and browser-based access are also available for a subset of software on limited functions.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Desktop",
+        "Mobile",
+        "Multi-tenant SaaS"
+      ],
+      "synonyms_found": [
+        "desktop applications",
+        "tablet apps",
+        "browser-based access",
+        "cloud-based"
+      ],
+      "source_citation": "Page 5: 'The firm's software is mainly used through desktop applications, while tablet apps and browser-based access are also available for a subset of software on limited functions' | Page 1: 'SaaS vendors offer the software remotely on cloud-based hardware'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Proprietary",
+      "synonyms_found": [
+        "proprietary",
+        "subscription-based licensing"
+      ],
+      "source_citation": "Page 1: 'Software-as-a-service (SaaS) is a popular business model that centrally hosts and licenses software on a subscription basis' | Page 5: 'Since 2013, the firm has stopped selling any perpetual software license by itself or through any retailer'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Time-locked access → Free trial period limitation",
+        "Subscription requirement → Continued usage after trial"
+      ],
+      "synonyms_found": [
+        "time-locked",
+        "subscription requirement"
+      ],
+      "source_citation": "Page 5: 'All new consumers are provided with a free trial for the first 30 days' | Page 5: 'Once the free trial expires, all downloaded software is suspended for further usage. To continue using the firm's software, the customer must subscribe'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription"
+      ],
+      "synonyms_found": [
+        "subscription fee",
+        "monthly subscription",
+        "annual subscription"
+      ],
+      "source_citation": "Page 1: 'Under the SaaS model, customers pay a monthly or annual subscription fee that is usually less expensive than the price of a perpetual license' | Page 5: 'To continue using the firm's software, the customer must subscribe'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Others",
+      "synonyms_found": [
+        "subscription-based",
+        "time-based"
+      ],
+      "source_citation": "Page 1: 'customers pay a monthly or annual subscription fee' | Page 5: 'consumers can subscribe to different software, for example, one for processing text and the other for images'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Trial",
+        "Annual contract"
+      ],
+      "synonyms_found": [
+        "free trial",
+        "subscription",
+        "monthly",
+        "annual"
+      ],
+      "source_citation": "Page 1: 'free-trial acquisition, which allows prospective consumers to explore the service at no charge' | Page 1: 'customers pay a monthly or annual subscription fee'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Monthly and annual billing periods",
+      "synonyms_found": [
+        "monthly",
+        "annual"
+      ],
+      "source_citation": "Page 1: 'customers pay a monthly or annual subscription fee'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product",
+      "synonyms_found": [
+        "SaaS vendor",
+        "software provider"
+      ],
+      "source_citation": "Page 1: 'SaaS vendors offer the software remotely on cloud-based hardware' | Page 5: 'It offers a collection of more than 20 software applications'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "None",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Digital marketing",
+        "Product-led Growth"
+      ],
+      "synonyms_found": [
+        "display ads",
+        "email marketing",
+        "search ads",
+        "free trials"
+      ],
+      "source_citation": "Page 1: 'SaaS companies widely use free trials to acquire new customers by providing free access to full-fledged service during a limited time window' | Page 2: 'display ads and emails, and organic and paid search clicks'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "No",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Full-featured software access during free trial",
+        "Customer Segment: Prospective consumers and free-trial users",
+        "Channels: Display ads, email marketing, search ads",
+        "Revenue Streams: Subscription fees",
+        "Key Activities: Software hosting and maintenance",
+        "Cost Structure: Cloud-based hardware and maintenance"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "channels",
+        "revenue streams",
+        "key activities",
+        "cost structure"
+      ],
+      "source_citation": "Page 1: 'providing free access to full-fledged service during a limited time window' | Page 1: 'prospective consumers to explore the service' | Page 2: 'display ads and emails, and organic and paid search clicks' | Page 1: 'customers pay a monthly or annual subscription fee' | Page 5: 'software maintenance and updates are continuously and instantaneously performed on the cloud' | Page 1: 'SaaS vendors offer the software remotely on cloud-based hardware'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "SaaS Firm | Software Provider | Provides software access and marketing | Interacts with consumers through free trials and subscriptions | Consumers | End Users | Use free trials and subscribe to services | Interact with firm through usage and marketing responses",
+      "synonyms_found": [
+        "SaaS firm",
+        "consumers",
+        "prospects",
+        "users"
+      ],
+      "source_citation": "Page 1: 'SaaS companies widely use free trials to acquire new customers' | Page 1: 'prospects can sign up for free trials, usually by providing emails and/or other contact information and explore the software before subscribing' | Page 5: 'Consumers can subscribe to different software'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Cost effectiveness compared to perpetual licenses",
+        "Access to full-featured software during free trial",
+        "Cloud-based convenience and accessibility"
+      ],
+      "synonyms_found": [
+        "less expensive",
+        "full-fledged service",
+        "cloud-based"
+      ],
+      "source_citation": "Page 1: 'customers pay a monthly or annual subscription fee that is usually less expensive than the price of a perpetual license' | Page 1: 'providing free access to full-fledged service during a limited time window' | Page 1: 'Consumers can access the software via the Internet, while the SaaS vendors offer the software remotely on cloud-based hardware'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Marketing touchpoint effectiveness → Higher conversion rates",
+        "Usage frequency → Positive impact on conversion",
+        "Consumer-initiated touchpoints → Enhanced conversion",
+        "Message content optimization → Improved marketing effectiveness"
+      ],
+      "synonyms_found": [
+        "conversion",
+        "usage frequency",
+        "marketing touchpoints",
+        "message content"
+      ],
+      "source_citation": "Page 1: 'consumer-initiated touchpoints with all message content enhance conversion' | Page 1: 'more frequent free-trial usage encourages conversion' | Page 1: 'the cumulative impact of usage frequency is positive'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Internet connectivity → Software access",
+        "Email registration → Account creation and tracking",
+        "Cloud-based infrastructure → Software hosting and delivery"
+      ],
+      "synonyms_found": [
+        "Internet",
+        "email",
+        "cloud-based"
+      ],
+      "source_citation": "Page 1: 'Consumers can access the software via the Internet' | Page 1: 'prospects can sign up for free trials, usually by providing emails and/or other contact information' | Page 1: 'SaaS vendors offer the software remotely on cloud-based hardware'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Usage variety → Negative impact on conversion",
+        "Firm-initiated persuasive messages → Discourage conversion",
+        "Time limitation → Free trial expiration affects access"
+      ],
+      "synonyms_found": [
+        "usage variety",
+        "persuasive messages",
+        "time limitation"
+      ],
+      "source_citation": "Page 1: 'exploring a greater variety of software leads to a lower conversion rate' | Page 1: 'the firm-initiated touchpoints conveying persuasive messages discourage conversion' | Page 5: 'Once the free trial expires, all downloaded software is suspended for further usage'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Low conversion rate from free trials to paid subscriptions",
+        "Marketing communication effectiveness varies by touchpoint type",
+        "Usage variety negatively impacts conversion",
+        "Firm-initiated persuasive messages can discourage conversion"
+      ],
+      "synonyms_found": [
+        "low conversion rate",
+        "marketing effectiveness",
+        "usage variety",
+        "persuasive messages"
+      ],
+      "source_citation": "Page 1: 'Many SaaS firms are concerned with the low conversion rate at the end of a free trial' | Page 1: 'the firm-initiated touchpoints conveying persuasive messages discourage conversion' | Page 1: 'exploring a greater variety of software leads to a lower conversion rate'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Consumer-initiated touchpoints → Enhanced conversion → Higher subscription rates",
+        "Usage frequency tracking → Better conversion prediction → Improved targeting",
+        "Message content optimization → Reduced negative interactions → Better marketing ROI"
+      ],
+      "synonyms_found": [
+        "consumer-initiated touchpoints",
+        "usage frequency",
+        "message content optimization"
+      ],
+      "source_citation": "Page 1: 'consumer-initiated touchpoints with all message content enhance conversion' | Page 1: 'more frequent free-trial usage encourages conversion' | Page 17: 'it is also worth exploring whether shifting persuasive content to customer-initiated touchpoints could mitigate the negativity due to persuasion'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Sample size: 12,297 prospective customers; Conversion rate: 734 conversions from 12,297 users; Average conversion time: 23 days; Median conversion time: 9 days; Free trial period: 30 days; Data collection period: 60 days; Projected market size: $172 billion by 2022",
+      "synonyms_found": [
+        "sample size",
+        "conversion rate",
+        "conversion time",
+        "market size"
+      ],
+      "source_citation": "Page 5: 'The remaining sample contains 12,297 prospective customers' | Page 5: 'Purchase 0 1 734' | Page 5: 'On average, free-trial users convert to paid subscribers in 23 days, with a median of 9 days' | Page 5: 'All new consumers are provided with a free trial for the first 30 days' | Page 1: 'a projected $172 billion global market by 2022'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Observed period: September 2015 data collection, 60-day analysis window + Maturity status: Consolidated",
+      "synonyms_found": [
+        "September 2015",
+        "60-day window",
+        "consolidated"
+      ],
+      "source_citation": "Page 5: 'The dataset is a 10% random sample of all users who created accounts by signing up their emails at the focal firm in September 2015' | Page 5: 'Within this sample, the first 60 days from the account creation are used for analyses' | Page 5: 'the focal firm is well established in its product category and well-known worldwide'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Secondary data analysis",
+      "synonyms_found": [
+        "empirical study",
+        "granular data",
+        "dataset"
+      ],
+      "source_citation": "Page 1: 'This study utilizes the granular data from a leading SaaS firm' | Page 5: 'The dataset is a 10% random sample of all users who created accounts'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Microsoft → SaaS model adoption example",
+        "Salesforce → SaaS model adoption example",
+        "Spotify → Similar subscription-based model comparison",
+        "Netflix → Similar subscription-based model comparison"
+      ],
+      "synonyms_found": [
+        "Microsoft",
+        "Salesforce",
+        "Spotify",
+        "Netflix"
+      ],
+      "source_citation": "Page 1: 'Many software companies such as Microsoft and Salesforce have adopted the SaaS model' | Page 5: 'The SaaS model is also similar to content streaming services, such as Spotify and Netflix, in subscription-based recurring payment, time-locked free trial, and continuous maintenance and updates'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium model → Quality-locked free version with unlimited time",
+        "Content streaming services → Paying for content access rather than software functionality"
+      ],
+      "synonyms_found": [
+        "freemium model",
+        "content streaming services"
+      ],
+      "source_citation": "Page 5: 'It is noted that the freemium model is also widely adopted by firms to attract prospects by providing access to free products and services' | Page 5: 'The free version in the freemium model is quality-locked, and the free trial in the SaaS model is time-locked' | Page 5: 'The SaaS model is also similar to content streaming services, such as Spotify and Netflix'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Market growth projection to $172 billion by 2022",
+        "Continued focus on free-trial optimization",
+        "Enhanced marketing communication strategies",
+        "Improved usage tracking and conversion prediction"
+      ],
+      "synonyms_found": [
+        "market growth",
+        "free-trial optimization",
+        "marketing strategies",
+        "conversion prediction"
+      ],
+      "source_citation": "Page 1: 'a projected $172 billion global market by 2022' | Page 17: 'This research provides guidance to SaaS managers on the impact of advertising, free-trial usage, and the interplay between both on conversion, which facilitates decisions on marketing strategies and resource allocations' | Page 17: 'the firm could develop trackers of consumers' usage frequency and variety to better forecast their conversion propensity'",
+      "confidence_level": "medium"
+    }
+  ]
+}

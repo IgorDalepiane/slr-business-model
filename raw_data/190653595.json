@@ -1,0 +1,463 @@
+{
+  "extraction_metadata": {
+    "article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Freemium - A business model whereby a basic service level is provided free of charge but consumers are charged for more advanced features",
+      "synonyms_found": [
+        "freemium pricing",
+        "freemium strategy"
+      ],
+      "source_citation": "Page 48: 'Freemium,' whereby a basic service level is provided free of charge but consumers are charged for more advanced features, has become a popular business model for firms selling digital goods.",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "freemium pricing",
+        "freemium strategy",
+        "free version",
+        "paid version"
+      ],
+      "synonyms_found": [
+        "freemium pricing",
+        "freemium strategy",
+        "free version",
+        "paid version"
+      ],
+      "source_citation": "Page 72: 'For firms selling digital products, \"freemium,\" providing a basic service level for free but charging consumers for using their \"premium\" version, has in recent years become an increasingly popular business model.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Mobile App Market",
+      "synonyms_found": [
+        "mobile apps",
+        "App Store",
+        "game apps"
+      ],
+      "source_citation": "Page 54: 'We use a comprehensive data set on game apps from Apple's App Store that tracks the launch of both the paid and the free versions of individual apps on a daily level'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2C",
+      "synonyms_found": [
+        "consumers",
+        "users"
+      ],
+      "source_citation": "Page 360: 'We focus on game apps as it is the most popular category in App Store and purchases tend to be for personal use instead of business purposes.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Small independent developers",
+      "synonyms_found": [
+        "small developers",
+        "independent developers"
+      ],
+      "source_citation": "Page 328: 'Each platform offers a wide range of different apps developed by a large number of independently operating developers, the vast majority of which are small.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "United States",
+      "synonyms_found": [
+        "U.S. App Store"
+      ],
+      "source_citation": "Page 356: 'The company scraped the U.S. App Store on a daily basis and each day collected all data that were publicly available.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Game app users",
+      "synonyms_found": [
+        "game app consumers",
+        "mobile game users"
+      ],
+      "source_citation": "Page 359: 'We focus on game apps as it is the most popular category in App Store and purchases tend to be for personal use instead of business purposes.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application"
+      ],
+      "synonyms_found": [
+        "mobile apps",
+        "game apps"
+      ],
+      "source_citation": "Page 54: 'We use a comprehensive data set on game apps from Apple's App Store'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Mobile"
+      ],
+      "synonyms_found": [
+        "mobile apps",
+        "mobile devices"
+      ],
+      "source_citation": "Page 422: 'App name shown on mobile devices'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Proprietary",
+      "synonyms_found": [
+        "paid apps",
+        "commercial apps"
+      ],
+      "source_citation": "Page 366: 'In total, the data cover 197,884 mobile game apps, of which 95,990 (48.5%) are paid apps and the remaining are free apps.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription",
+        "Perpetual license"
+      ],
+      "synonyms_found": [
+        "paid version",
+        "freemium pricing"
+      ],
+      "source_citation": "Page 72: 'For firms selling digital products, \"freemium,\" providing a basic service level for free but charging consumers for using their \"premium\" version'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "User/seat",
+      "synonyms_found": [
+        "per app",
+        "per download"
+      ],
+      "source_citation": "Page 426: 'App price App price in U.S. dollars'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium",
+        "Tiers/Plans"
+      ],
+      "synonyms_found": [
+        "free version",
+        "paid version"
+      ],
+      "source_citation": "Page 72: 'For firms selling digital products, \"freemium,\" providing a basic service level for free but charging consumers for using their \"premium\" version'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "USD, one-time",
+      "synonyms_found": [
+        "U.S. dollars"
+      ],
+      "source_citation": "Page 426: 'App price App price in U.S. dollars' and Page 86: 'Fruit Ninja is available for free with a separate paid version for a price of $1.99.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product",
+      "synonyms_found": [
+        "app developers",
+        "independent developers"
+      ],
+      "source_citation": "Page 328: 'Each platform offers a wide range of different apps developed by a large number of independently operating developers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "None",
+      "synonyms_found": [],
+      "source_citation": "Page 1666: 'At the time of our data, App Store offered close to 200,000 game apps, most of which were by small independent developers.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Marketplaces"
+      ],
+      "synonyms_found": [
+        "App Store",
+        "app discovery"
+      ],
+      "source_citation": "Page 1666: 'At the time of our data, App Store offered close to 200,000 game apps' and Page 1680: 'the availability of a free version may increase a consumer's probability of discovering the paid version'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes - App Store",
+      "synonyms_found": [
+        "Apple App Store"
+      ],
+      "source_citation": "Page 54: 'We use a comprehensive data set on game apps from Apple's App Store'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Basic service level free, advanced features paid",
+        "Customer Segment: Mobile app users, particularly game app users",
+        "Revenue Streams: Paid version sales",
+        "Key Activities: App development and freemium strategy implementation"
+      ],
+      "synonyms_found": [
+        "freemium strategy",
+        "app development"
+      ],
+      "source_citation": "Page 72: 'For firms selling digital products, \"freemium,\" providing a basic service level for free but charging consumers for using their \"premium\" version' and Page 359: 'We focus on game apps as it is the most popular category in App Store'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "App developers | Create and maintain apps | Submit to App Store | Compete with other developers; App Store/Apple | Platform provider | Review and approve apps | Provide distribution channel; Consumers | Download and use apps | Purchase paid versions | Rate and review apps",
+      "synonyms_found": [
+        "developers",
+        "platform",
+        "users"
+      ],
+      "source_citation": "Page 328: 'Each platform offers a wide range of different apps developed by a large number of independently operating developers' and Page 732: 'Apple first reviews and approves each individual app before making it available'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Increase demand for paid version",
+        "Allow consumers to sample before purchasing",
+        "Enhance app discovery and visibility"
+      ],
+      "synonyms_found": [
+        "sampling",
+        "discovery",
+        "spillover effects"
+      ],
+      "source_citation": "Page 89: 'Understanding whether and when offering a free version alongside a paid version is an effective strategy is important: The free version may allow consumers to sample the product before making a purchase decision and therefore ultimately increase demand of the paid version.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Moderate app quality → Higher conversion rates",
+        "Substantial utility difference between free and paid versions → Increased upgrades",
+        "Enhanced app visibility → Greater discovery"
+      ],
+      "synonyms_found": [
+        "star rating",
+        "version differences",
+        "app discovery"
+      ],
+      "source_citation": "Page 1512: 'sampling is more beneficial for apps that have a moderate star rating' and Page 1571: 'the paid version may provide sufficiently greater utility for consumers to upgrade'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "App Store approval process → App availability",
+        "Moderate app quality → Effective sampling",
+        "Sufficient utility difference between versions → Upgrade motivation"
+      ],
+      "synonyms_found": [
+        "review process",
+        "quality threshold",
+        "version differentiation"
+      ],
+      "source_citation": "Page 732: 'Apple first reviews and approves each individual app before making it available' and Page 1512: 'sampling is more beneficial for apps that have a moderate star rating'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Low app quality → Reduced sampling effectiveness",
+        "High app quality → Direct purchase without sampling",
+        "Ad-supported free version → Reduced upgrade motivation"
+      ],
+      "synonyms_found": [
+        "quality constraints",
+        "cannibalization risk"
+      ],
+      "source_citation": "Page 1488: 'If a product is of low quality, opportunity cost associated with the free version may prevent consumers from sampling' and Page 1608: 'the negative moderating effect of \"ad free\" suggests that for the average consumer, the negative utility associated with advertising significantly reduces the potential benefit'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Cannibalization of paid version demand",
+        "App discovery in crowded marketplace",
+        "Uncertainty in Apple's review timing",
+        "Designing appropriate version differentiation"
+      ],
+      "synonyms_found": [
+        "cannibalization",
+        "discovery problem",
+        "review uncertainty"
+      ],
+      "source_citation": "Page 92: 'However, the free version may also cannibalize demand of the paid version if consumers who otherwise would have paid instead opt for the free version.' and Page 1662: 'making app discovery a problem as it is difficult for any individual app to be discovered by a consumer'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Focus on moderate quality apps → Optimize sampling effectiveness",
+        "Ensure substantial utility differences → Increase upgrade motivation",
+        "Leverage app discovery benefits → Enhance visibility"
+      ],
+      "synonyms_found": [
+        "quality optimization",
+        "version differentiation",
+        "discovery enhancement"
+      ],
+      "source_citation": "Page 1869: 'our results indicate that a freemium strategy would be more effective for products that prior users evaluated as moderately good' and Page 1871: 'firms need to ensure that the difference in utility for consumer between the free product and the paid product is sufficiently high to induce upgrades'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Metric: Daily ratings increase; Value: 8.9%; Unit: Percentage; Period: After free version launch; Method: Difference-in-difference analysis; Source: App Store data",
+      "synonyms_found": [
+        "spillover effect",
+        "demand increase"
+      ],
+      "source_citation": "Page 137: 'Under the main specification, if the daily number of ratings before the free version's launch is at the mean, then all else equal, the launch of the free version leads to an 8.9% increase in the daily number of ratings.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Observed period: September 2011 to October 2013 + Maturity status: Growing",
+      "synonyms_found": [
+        "2011-2013",
+        "emerging market"
+      ],
+      "source_citation": "Page 352: 'We use a comprehensive data set that was collected from App Store between September 2011 and October 2013.' and Page 72: 'has in recent years become an increasingly popular business model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases",
+      "synonyms_found": [
+        "empirical study",
+        "large-scale analysis"
+      ],
+      "source_citation": "Page 127: 'We use daily data on individual game apps from App Store. We focus the analysis on apps that have both a paid version and a free counterpart and construct a group of control apps for each freemium app.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Dropbox → Freemium examples",
+        "Evernote → Freemium examples",
+        "LinkedIn → Freemium examples",
+        "Spotify → Freemium examples",
+        "Fruit Ninja → Game app with free and paid versions"
+      ],
+      "synonyms_found": [
+        "well-known examples"
+      ],
+      "source_citation": "Page 76: 'Well-known examples include Dropbox, Evernote, LinkedIn, and Spotify. Freemium is a prevalent pricing model for mobile apps' and Page 86: 'For example, the game Fruit Ninja is available for free with a separate paid version for a price of $1.99.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "In-app purchases → Free app with paid features within same app",
+        "Separate versions → Free and paid versions as different apps"
+      ],
+      "synonyms_found": [
+        "in-app purchases",
+        "separate versions"
+      ],
+      "source_citation": "Page 347: 'In recent years, a different variant of freemium pricing, in-app purchases, has become popular. Although App Store started allowing for in-app purchase microtransactions in 2009, these were not yet common during the period of our data.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Shift towards in-app purchases within single apps",
+        "Continued growth in mobile app market",
+        "Evolution from separate versions to integrated freemium models"
+      ],
+      "synonyms_found": [
+        "in-app purchases",
+        "market growth"
+      ],
+      "source_citation": "Page 1884: 'we expect that many of our results on consumers' decisions to first access a free version and then a paid version translate to other forms of freemium pricing, such as when in-app purchases can be made within a free app.'",
+      "confidence_level": "high"
+    }
+  ]
+}

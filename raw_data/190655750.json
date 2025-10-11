@@ -1,0 +1,488 @@
+{
+  "extraction_metadata": {
+    "article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Open Source Software (OSS) Commercialization - A business model where firms commercialize open source software products through complementary proprietary products/services while leveraging IPR protection mechanisms",
+      "synonyms_found": [
+        "OSS commercialization",
+        "commercializing OSS",
+        "open source software commercialization",
+        "commercial OSS products"
+      ],
+      "source_citation": "Page 2: 'Vendors of proprietary software products are increasingly moving to business models inspired by open source software (OSS). This study investigates sources of heterogeneity in value appropriation associated with commercializing OSS.' | Page 6: 'Firms that adopt the open innovation model integrate these external sources...OSS, which is freely available to all parties that accept the licensing terms of the software, is the outcome of such an open innovation model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "open business model",
+        "commercial OSS strategy",
+        "OSS-based strategy",
+        "private-collective model of innovation",
+        "hybrid business model"
+      ],
+      "synonyms_found": [
+        "open business model",
+        "commercial OSS strategy",
+        "OSS-based strategy",
+        "private-collective model",
+        "hybrid business model"
+      ],
+      "source_citation": "Page 7: 'relying solely on an open business model remains too risky in competitive markets' | Page 4: 'private-collective model of innovation' | Page 432: 'Hybrid Business Models in the Open Source Software Industry'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Software industry",
+      "synonyms_found": [
+        "software-related industries",
+        "software sector"
+      ],
+      "source_citation": "Page 7: 'companies operating in software-related industries from the Fortune Global 500 list' | Page 8: 'reports of product introductions that included the phrases \"open source\" or \"Linux\" indicated possible OSS product introductions'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Enterprise",
+      "synonyms_found": [
+        "enterprises",
+        "large corporations"
+      ],
+      "source_citation": "Page 7: 'companies operating in software-related industries from the Fortune Global 500 list' | Page 6: 'firms that aim to develop a commercial product jointly with a community do so mainly to receive design help from their potential future customers'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Large technology corporations from Fortune Global 500",
+      "synonyms_found": [
+        "Fortune Global 500 companies",
+        "large technology corporations"
+      ],
+      "source_citation": "Page 7: 'companies operating in software-related industries from the Fortune Global 500 list' | Page 9: '28 introduced at least one OSS product to the market during the 7-year period'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "United States",
+      "synonyms_found": [
+        "US",
+        "U.S."
+      ],
+      "source_citation": "Page 8: 'The information on patents and trademarks comes from the U.S. Patent and Trademark Office database' | Page 8: 'I searched for all patents granted to a given firm in each year (1999–2009)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Large software corporations seeking to commercialize OSS products",
+      "synonyms_found": [
+        "for-profit firms",
+        "software corporations"
+      ],
+      "source_citation": "Page 2: 'for-profit firms collaborating with OSS communities' | Page 6: 'firms that aim to develop a commercial product jointly with a community do so mainly to receive design help from their potential future customers'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform"
+      ],
+      "synonyms_found": [
+        "software products",
+        "commercial OSS products",
+        "complementary products/services"
+      ],
+      "source_citation": "Page 2: 'commercializing OSS' | Page 10: 'commercial OSS releases ensure diffusion and create a marketplace for complementary proprietary products and services'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "On-premises",
+        "Multi-tenant SaaS"
+      ],
+      "synonyms_found": [
+        "freely available",
+        "open source"
+      ],
+      "source_citation": "Page 6: 'OSS, which is freely available to all parties that accept the licensing terms of the software' | Page 10: 'Open source solutions, which require skills for usage and maintenance'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Dual License",
+      "synonyms_found": [
+        "dual licensing",
+        "mixed licensing"
+      ],
+      "source_citation": "Page 7: 'appropriate choices of intellectual property endowments can help firms capture the value created through open innovation models' | Page 2: 'the intellectual property right (IPR) protection mechanisms firms use to ensure their returns from open business models'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Software patents → Strategic protection mechanisms",
+        "Software trademarks → Brand protection but negative impact on OSS commercialization"
+      ],
+      "synonyms_found": [
+        "IPR protection mechanisms",
+        "appropriability mechanisms"
+      ],
+      "source_citation": "Page 9: 'OSS portfolio × SoftwarePatents is significantly positive' | Page 9: 'OSS portfolio × SoftwareTrademarks is significantly negative'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription",
+        "Support",
+        "Open core"
+      ],
+      "synonyms_found": [
+        "complementary products/services",
+        "proprietary segments"
+      ],
+      "source_citation": "Page 10: 'commercial OSS releases ensure diffusion and create a marketplace for complementary proprietary products and services' | Page 3: 'appropriating returns from commercializing OSS products depends critically on firms' stocks of software patents and trademarks'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium"
+      ],
+      "synonyms_found": [
+        "open source with commercial extensions"
+      ],
+      "source_citation": "Page 6: 'OSS, which is freely available to all parties that accept the licensing terms of the software' | Page 10: 'complementary proprietary products and services'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Two-sided platform",
+      "synonyms_found": [
+        "platform provider",
+        "ecosystem orchestrator"
+      ],
+      "source_citation": "Page 6: 'firms that adopt the open innovation model integrate these external sources (e.g., customers, suppliers, competitors and universities) into their internal innovation processes' | Page 10: 'create a marketplace for complementary proprietary products and services'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Data",
+      "synonyms_found": [
+        "community effects",
+        "collaborative development"
+      ],
+      "source_citation": "Page 6: 'companies collaborate with communities of volunteer developers' | Page 6: 'firms that aim to develop a commercial product jointly with a community do so mainly to receive design help from their potential future customers'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Product-led Growth",
+        "Direct sales"
+      ],
+      "synonyms_found": [
+        "community participation",
+        "marketplace creation"
+      ],
+      "source_citation": "Page 10: 'commercial OSS releases ensure diffusion and create a marketplace for complementary proprietary products and services' | Page 6: 'firms that aim to develop a commercial product jointly with a community'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "No",
+      "synonyms_found": [],
+      "source_citation": "Page 10: 'create a marketplace for complementary proprietary products and services' - refers to conceptual marketplace, not cloud marketplaces",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Open source software with commercial extensions and support",
+        "Customer Segment: Large enterprises and software corporations",
+        "Revenue Streams: Complementary proprietary products and services",
+        "Key Resources: Software patents and trademarks",
+        "Key Activities: OSS commercialization and IPR management",
+        "Cost Structure: IPR protection and patent portfolio development"
+      ],
+      "synonyms_found": [
+        "business model components",
+        "value creation"
+      ],
+      "source_citation": "Page 10: 'commercial OSS releases ensure diffusion and create a marketplace for complementary proprietary products and services' | Page 3: 'appropriating returns from commercializing OSS products depends critically on firms' stocks of software patents and trademarks'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Firms | Commercial OSS providers | Develop and release OSS products | Collaborate with communities | Communities | Volunteer developers | Contribute code and feedback | Interact with firms | Customers | End users | Purchase complementary products | Receive support from firms | Patent holders | Technology suppliers | Provide patent protection | May threaten litigation",
+      "synonyms_found": [
+        "ecosystem participants",
+        "stakeholders"
+      ],
+      "source_citation": "Page 6: 'companies collaborate with communities of volunteer developers' | Page 4: 'firms that cannot secure access to the underlying technology because of strong patenting activity and the high threat of litigation' | Page 6: 'customers, suppliers, competitors and universities'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Access to external innovation",
+        "Cost reduction in R&D",
+        "Market expansion through open source",
+        "Strategic positioning against competitors",
+        "Building ecosystem around products"
+      ],
+      "synonyms_found": [
+        "motivations",
+        "drivers",
+        "reasons"
+      ],
+      "source_citation": "Page 6: 'identifying, exploiting and integrating external knowledge into internal research-and-development activities' | Page 4: 'potential complementarity between the patented software and commercial OSS products' | Page 2: 'OSS releases is usually a strategic move (e.g., to weaken a competitor)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Large software patent stocks → Higher firm value",
+        "Strategic IPR portfolio alignment → Better returns",
+        "Complementary proprietary offerings → Revenue generation",
+        "Community engagement → Innovation and feedback"
+      ],
+      "synonyms_found": [
+        "success factors",
+        "performance drivers"
+      ],
+      "source_citation": "Page 9: 'software patent stocks positively affect the relationship between a firm's OSS product portfolio and its value' | Page 10: 'commercial OSS releases ensure diffusion and create a marketplace for complementary proprietary products and services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Software patent portfolio → IPR protection",
+        "Technical expertise → OSS development",
+        "Community management capabilities → Developer engagement",
+        "Complementary asset investments → Revenue generation"
+      ],
+      "synonyms_found": [
+        "prerequisites",
+        "conditions",
+        "requirements"
+      ],
+      "source_citation": "Page 3: 'appropriating returns from commercializing OSS products depends critically on firms' stocks of software patents and trademarks' | Page 6: 'firms that adopt the open innovation model integrate these external sources'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Software trademarks → Negative impact on OSS commercialization",
+        "Patent thickets → Transaction costs and commercialization barriers",
+        "Community resistance → Reduced volunteer participation",
+        "Brand investments → Conflict with open source values"
+      ],
+      "synonyms_found": [
+        "restrictions",
+        "incompatibilities",
+        "conflicts"
+      ],
+      "source_citation": "Page 9: 'software trademark stocks have a negative effect on this relationship' | Page 4: 'patent thickets create transaction costs and reduce the demand for the new technology' | Page 4: 'tight control of IPR discourages participation in OSS projects'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Value appropriation from open source",
+        "Balancing open and proprietary elements",
+        "Managing community relationships",
+        "Patent litigation threats",
+        "Brand reputation conflicts"
+      ],
+      "synonyms_found": [
+        "challenges",
+        "problems",
+        "difficulties"
+      ],
+      "source_citation": "Page 7: 'relying solely on an open business model remains too risky in competitive markets' | Page 4: 'the main challenge of reaping the benefits from it' | Page 4: 'credible holdup threats'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Software patent portfolio → Litigation protection → Competitive advantage",
+        "Strategic IPR alignment → Value appropriation → Higher firm value",
+        "Community engagement → Innovation input → Product development",
+        "Complementary asset investment → Revenue streams → Business sustainability"
+      ],
+      "synonyms_found": [
+        "mitigation strategies",
+        "solutions",
+        "practices"
+      ],
+      "source_citation": "Page 4: 'large stocks operate as strategic tools to sell complementary products/services' | Page 4: 'they allow the firm to avoid holdups and litigation threats by technology suppliers' | Page 6: 'firms that adopt the open innovation model integrate these external sources'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Tobin's Q; Various values; Ratio; 2003-2009; Statistical analysis; Financial databases | OSS Portfolio; Cumulative count; Products; 1999-2009; 15% discount rate; PROMT database | Software Patents; Cumulative count; Patents; 1999-2009; 15% discount rate; USPTO database | Software Trademarks; Cumulative count; Trademarks; 1999-2009; 15% discount rate; USPTO database",
+      "synonyms_found": [
+        "performance metrics",
+        "quantitative results"
+      ],
+      "source_citation": "Page 8: 'Tobin's q serves as the dependent variable, which offers a forward-looking proxy for firm value' | Page 8: 'I computed the cumulative number of OSS product announcements to proxy for a firm's OSS product portfolio' | Page 9: '490 firm-year (70 firms × 7 years) observations'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2003-2009 + Growing",
+      "synonyms_found": [
+        "study period",
+        "analysis period"
+      ],
+      "source_citation": "Page 7: 'panel data of 70 companies covering a seven year period from 2003 to 2009' | Page 2: 'Vendors of proprietary software products are increasingly moving to business models inspired by open source software (OSS)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Secondary data analysis",
+      "synonyms_found": [
+        "empirical analysis",
+        "panel data analysis"
+      ],
+      "source_citation": "Page 7: 'I undertake an empirical analysis with a novel data-set' | Page 8: 'I extracted financial data from the COMPUSTAT database' | Page 8: 'The information on patents and trademarks comes from the U.S. Patent and Trademark Office database'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Linux → Exemplary OSS project",
+        "Apache → Well-known OSS success",
+        "Debian → Community-managed project",
+        "Microsoft → Major software producer",
+        "Adobe → Major software producer",
+        "Novell → Major software producer",
+        "Autodesk → Major software producer",
+        "Intuit → Major software producer",
+        "Symantec → Major software producer"
+      ],
+      "synonyms_found": [
+        "examples",
+        "case studies"
+      ],
+      "source_citation": "Page 1: 'following the enormous success of well-known OSS projects such as Linux and Apache' | Page 5: 'Linux, Apache and Debian have all trademarked their names' | Page 8: 'six major U.S. software producers (1995 revenues; Microsoft, Adobe, Novell, Autodesk, Intuit, and Symantec)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Low OSS Portfolio → Limited commercialization approach",
+        "High OSS Portfolio → Extensive commercialization strategy",
+        "Private-collective model → Mixed open/proprietary approach"
+      ],
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "implementations"
+      ],
+      "source_citation": "Page 9: 'I split the data for firms that commercialize OSS into two, as LowOssPortfolio and HighOssPortfolio' | Page 4: 'private-collective model of innovation' | Page 432: 'Hybrid Business Models in the Open Source Software Industry'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Increasing adoption by proprietary software vendors",
+        "Growing importance of IPR protection mechanisms",
+        "Evolution toward hybrid business models"
+      ],
+      "synonyms_found": [
+        "future trends",
+        "evolutions",
+        "developments"
+      ],
+      "source_citation": "Page 2: 'Vendors of proprietary software products are increasingly moving to business models inspired by open source software (OSS)' | Page 7: 'commercialization of OSS is a rising trend' | Page 395: 'The transformation of OSS into a commercial strategy has obliged firms to reconsider their current business models'",
+      "confidence_level": "high"
+    }
+  ]
+}

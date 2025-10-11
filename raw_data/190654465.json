@@ -1,0 +1,554 @@
+{
+  "extraction_metadata": {
+    "article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Mobility-as-a-Service (MaaS) - A business model that combines different transport modes to seamless trips over one user interface, offering both journey planning and ticketing across all available transport modes through mobile phone applications",
+      "synonyms_found": [
+        "MaaS",
+        "mobility as a service",
+        "integrated multi-modal travel solution app",
+        "journey planning and ticketing mobile phone application"
+      ],
+      "source_citation": "Page 1: 'mobility as a service' (MaaS), which 'aims to combine different transport modes to seamless trips over one user interface' | Page 1: 'mobile phone applications that offer both journey planning and ticketing across all the available transport modes'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "MaaS",
+        "mobility as a service",
+        "integrated multi-modal travel solution app",
+        "journey planning and ticketing mobile phone application",
+        "smarter travel solution app"
+      ],
+      "synonyms_found": [
+        "MaaS",
+        "mobility as a service",
+        "integrated multi-modal travel solution app",
+        "journey planning and ticketing mobile phone application",
+        "smarter travel solution app"
+      ],
+      "source_citation": "Page 1: 'Mobility-as-a-Service' (MaaS) | Page 1: 'mobility as a service' (MaaS) | Page 2: 'integrated multi-modal travel solution app' | Page 1: 'journey planning and ticketing mobile phone application' | Page 2: 'smarter travel solution app'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Transportation/Mobility",
+      "synonyms_found": [
+        "transport",
+        "mobility",
+        "public transport",
+        "transportation systems"
+      ],
+      "source_citation": "Page 1: 'transformative to our transport systems' | Page 1: 'public transport information provision' | Page 1: 'transport planning and policy practises'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2C",
+      "synonyms_found": [
+        "travellers",
+        "users",
+        "public",
+        "consumers"
+      ],
+      "source_citation": "Page 1: 'on-the-go public transport information provision to the public' | Page 2: 'travellers' | Page 2: 'users'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Not explicitly specified, but mentions collaboration with transport operators and local authorities",
+      "synonyms_found": [
+        "transport operators",
+        "local authorities",
+        "bus companies",
+        "rail services"
+      ],
+      "source_citation": "Page 3: 'Local Combined Authorities' | Page 3: 'approximately 30 bus companies in operation' | Page 3: 'Local and national rail services are also privatised and run by multiple operators'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "West Yorkshire, UK",
+      "synonyms_found": [
+        "West Yorkshire",
+        "UK",
+        "United Kingdom",
+        "North of England"
+      ],
+      "source_citation": "Page 2: 'The app was developed for the region of West Yorkshire (UK)' | Page 2: 'The metropolitan county of West Yorkshire, which is in the North of England'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Park and Ride (P&R) customers and commuters",
+      "synonyms_found": [
+        "P&R customers",
+        "commuters",
+        "P&R users"
+      ],
+      "source_citation": "Page 13: 'direct marketing to P&R customers at P&R sites' | Page 2: 'around 70% of commuting trips by car' | Page 13: 'P&R users'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform"
+      ],
+      "synonyms_found": [
+        "mobile phone application",
+        "app",
+        "platform",
+        "user interface"
+      ],
+      "source_citation": "Page 1: 'mobile phone applications that offer both journey planning and ticketing' | Page 1: 'one user interface' | Page 2: 'Trav.ly app'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Mobile"
+      ],
+      "synonyms_found": [
+        "mobile phone application",
+        "smartphone application",
+        "mobile app"
+      ],
+      "source_citation": "Page 1: 'mobile phone applications' | Page 1: 'smartphone applications' | Page 2: 'Trav.ly app'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Transaction",
+        "Advertising",
+        "Subscription"
+      ],
+      "synonyms_found": [
+        "ticket sales",
+        "advertising",
+        "ad-free version",
+        "commission",
+        "revenue-generating functions"
+      ],
+      "source_citation": "Page 6: 'Revenue for app operators and transport operators from its provision' | Page 6: 'Ticket Purchases (how many tickets are sold through the app per month)' | Page 8: 'advertising' | Page 8: 'ad-free version' | Page 9: 'Commission rate'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Transactions",
+      "synonyms_found": [
+        "ticket sales",
+        "tickets sold",
+        "commission per ticket"
+      ],
+      "source_citation": "Page 6: 'Ticket Purchases (how many tickets are sold through the app per month)' | Page 9: 'Commission rate' | Page 9: 'Fulfilment cost per ticket'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Tiers/Plans",
+        "Pay-as-you-go"
+      ],
+      "synonyms_found": [
+        "bundle",
+        "single ticket",
+        "day ticket",
+        "bundle of tickets"
+      ],
+      "source_citation": "Page 2: 'West Yorkshire Day Ticket' (MCard Day) | Page 2: 'Park and Ride' (P&R) Tickets' | Page 13: 'bundles of tickets at a discount to the single ticket price' | Page 13: 'equal shares of each bundle were purchased'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "GBP, monthly",
+      "synonyms_found": [
+        "£",
+        "pounds",
+        "monthly",
+        "per month"
+      ],
+      "source_citation": "Page 6: 'monthly operating profitability' | Page 6: 'Monthly app profitability' | Page 7: 'App Profitability (per month)' | Page 6: 'initial development costs of £100k'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Two-sided platform",
+      "synonyms_found": [
+        "platform",
+        "intermediary",
+        "ecosystem"
+      ],
+      "source_citation": "Page 6: 'Additional operators increase the market share of trips for which tickets can be purchased, which in turn increases the users' satisfaction with ticketing and subsequently their use of app as well as ticket purchases through the app. The resulting revenue increase will then incentivise more operators to join the scheme'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Cross-sided (distinct groups benefit)",
+      "synonyms_found": [
+        "network effect",
+        "cross-sided",
+        "operators and users"
+      ],
+      "source_citation": "Page 6: 'Additional operators increase the market share of trips for which tickets can be purchased, which in turn increases the users' satisfaction with ticketing and subsequently their use of app as well as ticket purchases through the app. The resulting revenue increase will then incentivise more operators to join the scheme'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Direct sales",
+        "Digital marketing",
+        "Referral"
+      ],
+      "synonyms_found": [
+        "advertising",
+        "word of mouth",
+        "social media",
+        "direct marketing",
+        "marketing campaigns"
+      ],
+      "source_citation": "Page 2: 'Advertising effectiveness was set to 1.5% of the population per month of advertising campaign' | Page 2: 'word of mouth' | Page 13: 'limited to social media networks and direct marketing to P&R customers' | Page 13: 'Social Media Reach of 2% of the total market'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Integrated journey planning and ticketing across transport modes",
+        "Customer Segment: Travellers and commuters in West Yorkshire",
+        "Revenue Streams: Ticket sales, advertising, ad-free subscriptions",
+        "Key Activities: App development, marketing, ticket fulfillment",
+        "Key Partnerships: Transport operators, local authorities",
+        "Cost Structure: Development costs, marketing costs, operational costs"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue streams",
+        "key activities",
+        "partnerships",
+        "cost structure"
+      ],
+      "source_citation": "Page 1: 'combine different transport modes to seamless trips over one user interface' | Page 2: 'travellers' | Page 6: 'Revenue for app operators and transport operators' | Page 6: 'costs of operating Trav.ly' | Page 6: 'co-operation between rival private bus operators' | Page 6: 'marketing costs and costs of operating Trav.ly'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": [
+        "App Provider | Platform operator | Provides integrated service | Coordinates with transport operators",
+        "Transport Operators | Service providers | Join platform for ticket sales | Compete with each other",
+        "Users/Travellers | End customers | Use app for planning and ticketing | Benefit from integrated service",
+        "Local Authorities | Regulators | Regulate transport services | Support app development",
+        "Sponsors | Reward providers | Offer incentives to users | Target app users as customers"
+      ],
+      "synonyms_found": [
+        "app provider",
+        "transport operators",
+        "users",
+        "travellers",
+        "local authorities",
+        "sponsors"
+      ],
+      "source_citation": "Page 6: 'Additional operators increase the market share of trips for which tickets can be purchased, which in turn increases the users' satisfaction with ticketing and subsequently their use of app as well as ticket purchases through the app. The resulting revenue increase will then incentivise more operators to join the scheme' | Page 6: 'sponsors (which in turn feeds into the functionality and user satisfaction as discussed previously) is a reinforcing feedback loop' | Page 3: 'Local Combined Authorities'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Transform transport systems for sustainability",
+        "Provide seamless multi-modal travel experience",
+        "Enable better access to environmentally friendly transport modes",
+        "Support sustainable cities development",
+        "Improve public transport information provision"
+      ],
+      "synonyms_found": [
+        "sustainability",
+        "seamless",
+        "environmentally friendly",
+        "sustainable cities",
+        "public transport"
+      ],
+      "source_citation": "Page 1: 'transformative to our transport systems and critical for achieving sustainable cities' | Page 1: 'combine different transport modes to seamless trips over one user interface' | Page 2: 'more sustainable transport systems by integrating and providing easier access to environmentally friendly modes' | Page 1: 'on-the-go public transport information provision to the public'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Effective marketing → Higher user adoption",
+        "Ticket availability → Increased user satisfaction",
+        "User engagement → Sustained usage",
+        "Operator cooperation → Expanded service coverage",
+        "Revenue-generating functions → Profitability"
+      ],
+      "synonyms_found": [
+        "marketing",
+        "ticket availability",
+        "user engagement",
+        "operator cooperation",
+        "revenue-generating functions"
+      ],
+      "source_citation": "Page 8: 'Highly tailored and targeted marketing schemes are essential to capture and retain the majority of the maximum addressable market' | Page 6: 'Additional operators increase the market share of trips for which tickets can be purchased, which in turn increases the users' satisfaction with ticketing' | Page 8: 'Revenue generating functions were not tested in Trav.ly, but clearly our simulation results suggest they could be critical to profitability'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Transport operator cooperation → Service availability",
+        "Mobile phone penetration → User accessibility",
+        "Real-time data access → Journey planning functionality",
+        "Payment processing infrastructure → Ticketing capability",
+        "Marketing investment → User acquisition"
+      ],
+      "synonyms_found": [
+        "cooperation",
+        "mobile phone",
+        "real-time data",
+        "payment processing",
+        "marketing"
+      ],
+      "source_citation": "Page 1: 'co-operation of the many businesses and operators with interests in the transport domain' | Page 1: 'widespread penetration of mobile phone technologies' | Page 2: 'real-time journey planning' | Page 6: 'cost of payment processing' | Page 2: 'Advertising effectiveness was set to 1.5% of the population per month of advertising campaign'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Competing commercial interests → Limited operator cooperation",
+        "Limited ticket availability → Reduced user satisfaction",
+        "High operational costs → Profitability challenges",
+        "Competition from other apps → Market share limitations"
+      ],
+      "synonyms_found": [
+        "competing interests",
+        "limited availability",
+        "operational costs",
+        "competition"
+      ],
+      "source_citation": "Page 8: 'ensuring the co-operation and collaboration between rival private bus operators with competing commercial interests' | Page 8: 'limited ticket availability and lack of other revenue-generating functionality' | Page 8: 'costs related to ticket sales, which may vary greatly between providers and modes' | Page 8: 'awareness of competing apps—the existence of one or more apps offering the same services and quality could also lead to market failure'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Market failure without stronger marketing",
+        "Lack of funding and collaboration between transport operators",
+        "High uncertainty in market conditions",
+        "Competition from individual operator apps",
+        "Seasonal impacts on usage patterns"
+      ],
+      "synonyms_found": [
+        "market failure",
+        "lack of funding",
+        "uncertainty",
+        "competition",
+        "seasonal impacts"
+      ],
+      "source_citation": "Page 1: 'would suggest market failure by month 12 without stronger marketing' | Page 2: 'due to a lack of funding and collaboration between transport operators, further development has not been supported' | Page 8: 'high uncertainty that exists in this market' | Page 8: 'bus companies, who have chosen to release their own ticketing apps that apply only to their services' | Page 13: 'seasonal impact not accounted for within the diffusion model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Targeted marketing → Improved user acquisition",
+        "Reward schemes → Increased user engagement",
+        "Operator cooperation → Expanded service coverage",
+        "Revenue diversification → Improved profitability",
+        "Model validation → Better business planning"
+      ],
+      "synonyms_found": [
+        "targeted marketing",
+        "reward schemes",
+        "operator cooperation",
+        "revenue diversification",
+        "model validation"
+      ],
+      "source_citation": "Page 1: 'direct targeted marketing to ensure mass market adoption' | Page 6: 'The provision of rewards through sponsors (which in turn feeds into the functionality and user satisfaction as discussed previously) is a reinforcing feedback loop' | Page 6: 'Additional operators increase the market share of trips for which tickets can be purchased' | Page 8: 'revenue-generating functions (such as user reward schemes, advertising, and payment for ad-free versions)' | Page 13: 'compare the model results against early uptake data'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Active Users; 92,729; users; Month 32; Model simulation; Base scenario",
+        "App Profitability; -£3,143; GBP per month; Month 60; Model simulation; Base scenario",
+        "Active Users; 403,252; users; Month 60; Model simulation; All scenario",
+        "App Profitability; £139,736; GBP per month; Month 60; Model simulation; All scenario",
+        "Market Reach; 2%; percentage; First month; Actual data; Social media",
+        "Total Population; 500,000; users; Initial; Model assumption; West Yorkshire"
+      ],
+      "synonyms_found": [
+        "active users",
+        "app profitability",
+        "market reach",
+        "total population"
+      ],
+      "source_citation": "Page 7: 'Active Users rose to a maximum of 92k (from a max c. 500k) by month 30' | Page 7: 'App Profitability is in fact more than £3k/month by month 60' | Page 7: 'over 200k active users were achieved and just over 400k in the 'All' scenario' | Page 7: 'monthly profit of between £14.5k and £140k in month 60' | Page 13: 'Social Media Reach of 2% of the total market' | Page 2: 'Total population to 500,000 to roughly represent the potential application area in West Yorkshire'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2018-2020, Emerging",
+      "synonyms_found": [
+        "infancy",
+        "pilot phases",
+        "emerging",
+        "early stages"
+      ],
+      "source_citation": "Page 1: 'these are in their infancy, with little understanding of the correct approach to business models and governance' | Page 1: 'even the most advanced MaaS systems remain in their infancy or pilot phases' | Page 2: 'commercial release in summer 2018' | Page 1: 'Published: 13 May 2020'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Single case study",
+      "synonyms_found": [
+        "case study",
+        "Trav.ly",
+        "West Yorkshire",
+        "single app"
+      ],
+      "source_citation": "Page 2: 'The app was developed for the region of West Yorkshire (UK) and named 'Trav.ly'' | Page 2: 'based on one developed and released in West Yorkshire, UK' | Page 13: 'compare the model results against early uptake data'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Trav.ly → Main case study app developed for West Yorkshire",
+        "Whim → Finnish MaaS app example",
+        "Skedgo → Australian MaaS app example"
+      ],
+      "synonyms_found": [
+        "Trav.ly",
+        "Whim",
+        "Skedgo"
+      ],
+      "source_citation": "Page 2: 'The app was developed for the region of West Yorkshire (UK) and named 'Trav.ly'' | Page 1: 'for example Whim (Finland) and Skedgo (Australia)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Basic version → Limited ticket availability (P&R and MCard Day only)",
+        "All Tickets version → Full range of bus tickets available",
+        "All Functions version → Additional functionality (rewards, advertising, ad-free)",
+        "All version → Combined full tickets and functions"
+      ],
+      "synonyms_found": [
+        "basic version",
+        "all tickets",
+        "all functions",
+        "all version"
+      ],
+      "source_citation": "Page 7: 'Under the base scenario conditions, with limited ticket availability and functionality' | Page 7: 'the inclusion of all ticket types (e.g., for any journey type with each operator) available in West Yorkshire for sale on the app' | Page 7: 'the addition of additional functionality (rewards, advertising, and ad-free version)' | Page 7: 'both of these together'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Integration of flexible on-demand transport offerings",
+        "Inclusion of car-sharing possibilities",
+        "Enhanced real-time traffic information",
+        "Gamification and competitive gaming functions",
+        "Behavioral change support features"
+      ],
+      "synonyms_found": [
+        "on-demand transport",
+        "car-sharing",
+        "real-time traffic",
+        "gamification",
+        "behavioral change"
+      ],
+      "source_citation": "Page 2: 'This can be further enhanced by the inclusion of flexible on-demand transport offerings and car-sharing possibilities' | Page 2: 'real-time traffic information, or a reward functionality, e.g., free tickets for continued use or a competitive gaming function' | Page 8: 'The inclusion of behavioral change support features in the app could provide further incentives for behavior change'",
+      "confidence_level": "high"
+    }
+  ]
+}

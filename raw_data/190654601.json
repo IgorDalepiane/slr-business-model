@@ -1,0 +1,512 @@
+{
+  "extraction_metadata": {
+    "article_title": "Software as a service: Lessons from the video game industry",
+    "extraction_date": "2025-10-06"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Games-as-a-Service (GaaS): A business model where all the software needed to play the game is located on an external server, essentially a variant of SaaS. The model allows developers to update games on the fly and continually add new content, keeping games evolving rather than finished products.",
+      "synonyms_found": [
+        "GaaS",
+        "games-as-a-service",
+        "gaming as a service"
+      ],
+      "source_citation": "Page 1: 'The provision of multiplayer and standalone games via the internet —essentially a variant of SaaS —has led to the growth of a distinct games-as-a-service (GaaS) business model, where all the software needed to play the game is located on an external server' | Page 2: 'With the GaaS model, they can update a game on the fly —that is, release as many updates as they want, whenever they want —allowing all players to receive them as soon as they connect to the server. With GaaS-based games, players never really finish a game because it keeps evolving.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "GaaS",
+        "games-as-a-service",
+        "gaming as a service"
+      ],
+      "synonyms_found": [
+        "GaaS",
+        "games-as-a-service",
+        "gaming as a service"
+      ],
+      "source_citation": "Page 1: 'games-as-a-service (GaaS)' | Page 4: 'EXHIBIT 1 Gaming as a service: Generic business model canvas'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Video game industry / Computer games industry / Gaming",
+      "synonyms_found": [
+        "video game industry",
+        "computer games industry",
+        "games industry",
+        "gaming"
+      ],
+      "source_citation": "Page 1: 'business models based on SaaS have been adopted by several industries —most notably, companies that develop and publish computer games' | Page 8: 'THE IMPACT OF GAAS ON THE GAMES INDUSTRY. GaaS has revolutionized the games industry for developers, publishers, and players alike.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2C",
+      "synonyms_found": [
+        "gamers",
+        "players",
+        "customers"
+      ],
+      "source_citation": "Page 3-4: 'The customer segments represent all the customers for whom the GaaS creates value. In this case, the customers are gamers who play GaaS-based games.' | Page 5: 'survey designed to get deeper insights from gamers about the GaaS business model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Game developers and publishers, ranging from development teams to large publishers",
+      "synonyms_found": [
+        "developers",
+        "publishers",
+        "development teams",
+        "game developers"
+      ],
+      "source_citation": "Page 4: 'GaaS partnerships can be established between publishers, development teams, game distributors, and software producers.' | Page 8: 'It is clearly a useful model for developers, as they can launch an unfinished game and, if it is well received, improve on it later using updates and DLCs.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "United States (for market data) and international (for survey)",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Video game revenues in the United States have nearly doubled, from USD 17.5 billion in 2010 to USD 29.1 billion in 2017.' | Page 4-5: 'A survey designed to get deeper insights from gamers about the GaaS business model was administered online in June 2019. The invitation to participate was posted on gamer community pages.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Active gamers who play GaaS video games, categorized into: super gamer (54%), console warrior (11%), transitional gamer (14%), daily dabbler (19%), and incidental player (2%)",
+      "synonyms_found": [
+        "super gamer",
+        "console warrior",
+        "transitional gamer",
+        "daily dabbler",
+        "incidental player"
+      ],
+      "source_citation": "Page 7: 'The last question of this section, What kind of gamer are you? used classifications from previous studies (Exhibit 10). The results were super gamer (54%), console warrior (11%), transitional gamer (14%), daily dabbler (19%), and incidental player (2%).'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application"
+      ],
+      "synonyms_found": [
+        "video games",
+        "games",
+        "multiplayer games",
+        "standalone games"
+      ],
+      "source_citation": "Page 1: 'The provision of multiplayer and standalone games via the internet —essentially a variant of SaaS —has led to the growth of a distinct games-as-a-service (GaaS) business model' | Page 3-4: 'the main value proposition is the game itself'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Multi-tenant SaaS",
+        "Desktop",
+        "Mobile"
+      ],
+      "synonyms_found": [
+        "digital delivery",
+        "online",
+        "external server",
+        "internet server",
+        "centralized server"
+      ],
+      "source_citation": "Page 1: 'Software-as-a-service (SaaS) is a method used by service providers to distribute software-based services to clients via a single server' and 'all the software needed to play the game is located on an external server' | Page 2: 'Freemium games may also generate income through advertising. For example, after reaching a certain level, players will be shown an advertisement. Often these advertisements will be used to promote a microtransaction, such as blocking further advertisements or gaining advantages in the game. This practice is particularly popular in mobile games.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Transaction (microtransactions)",
+        "Subscription",
+        "Advertising",
+        "Others (season passes, loot boxes, DLCs)"
+      ],
+      "synonyms_found": [
+        "microtransactions",
+        "subscriptions",
+        "advergaming",
+        "season passes",
+        "loot boxes",
+        "DLCs",
+        "downloadable content"
+      ],
+      "source_citation": "Page 2: 'Games developers have implemented several different monetization methods' including 'Microtransactions —These are micropayments made online to purchase virtual goods in a game' | 'Freemium and advergaming' | 'Subscription services —A subscription to a game platform' | 'Season pass —This gives the purchaser access to all new DLCs for a predetermined period' | 'Loot boxes —These contain items that players might use to customize their game'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Multiple units: Transactions (for microtransactions), User/seat (for subscriptions), Others (for DLCs and season passes)",
+      "synonyms_found": [],
+      "source_citation": "Page 2-3: 'Microtransactions —These are micropayments made online to purchase virtual goods in a game' | 'Subscription services —A subscription to a game platform, such as Origin by Electronic Arts (EA), or to a multiplayer online role-playing game, such as World of Warcraft by Activision Blizzard, gives gamers full access to a game for as long as the subscription is active. By paying a monthly fee, gamers will be given access to all the games the platform has to offer.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium",
+        "Tiers/Plans",
+        "Custom negotiation (for DLCs)",
+        "Prepaid credits (season pass)"
+      ],
+      "synonyms_found": [
+        "free-to-play",
+        "free-to-start",
+        "freemium"
+      ],
+      "source_citation": "Page 2-3: 'free-to-play games are rarely entirely free and might more accurately be called freemium or free-to-start games' | 'Season pass —This gives the purchaser access to all new DLCs for a predetermined period, usually a year. Instead of purchasing each DLC separately, gamers pay upfront for a year's worth of DLCs at a discounted price.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "USD, monthly (for subscriptions) and one-time/recurring (for microtransactions and DLCs)",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Video game revenues in the United States have nearly doubled, from USD 17.5 billion in 2010 to USD 29.1 billion in 2017' | Page 3: 'By paying a monthly fee, gamers will be given access to all the games the platform has to offer' | Page 5-6: 'Of the 195 responses in this section, 105 (54%) were willing to pay up to USD 50'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Two-sided platform",
+      "synonyms_found": [
+        "platform",
+        "game platform",
+        "digital stores"
+      ],
+      "source_citation": "Page 3: 'Subscription services —A subscription to a game platform, such as Origin by Electronic Arts (EA)' and 'Origin has Origin Access, a subscription program that allows gamers to play any EA game' | Page 3-4: 'Distribution channels show the GaaS channels that deliver value to gamers. Digital stores, such as Origin, represent the main distribution channels'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Direct (more users = more value) and Data (more data = better product)",
+      "synonyms_found": [
+        "communities",
+        "engagement",
+        "feedback"
+      ],
+      "source_citation": "Page 3-4: 'Developing communities is extremely important for GaaS business models, as they act as a conduit for feedback to the game producers and play a vital part in building the players' loyalty.' | Page 8: 'Additionally, gamers who become immersed in one game tend to build communities that grow and to share their common experiences, fostering a sense of belonging and loyalty to the product.' | Page 8: 'The GaaS model not only improves the game by bringing in new ideas from the users'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Product-led Growth",
+        "Digital marketing",
+        "Direct sales"
+      ],
+      "synonyms_found": [
+        "digital stores",
+        "physical stores",
+        "online",
+        "digital delivery"
+      ],
+      "source_citation": "Page 2: 'The instant availability of digitally delivered games meant that players began to move away from traditional boxed products toward online versions' | Page 3-4: 'Distribution channels show the GaaS channels that deliver value to gamers. Digital stores, such as Origin, represent the main distribution channels, but physical stores still play a part as some gamers find them valuable.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes: Origin by Electronic Arts (EA), platform-based subscription services",
+      "synonyms_found": [
+        "Origin",
+        "Origin Access",
+        "digital stores"
+      ],
+      "source_citation": "Page 3: 'Subscription services —A subscription to a game platform, such as Origin by Electronic Arts (EA), or to a multiplayer online role-playing game, such as World of Warcraft by Activision Blizzard' and 'Origin has Origin Access, a subscription program that allows gamers to play any EA game'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: The game itself, new content with updates and DLCs, bug fixes, feedback and communication mechanism between gamers and development teams",
+        "Customer Segment: Gamers who play GaaS-based games",
+        "Channels: Digital stores such as Origin (main distribution channels), physical stores (still play a part)",
+        "Relationship: Developing players' engagement through updates that take gamers' opinions into account, digital personal assistant, FAQ database, developing communities for feedback and building loyalty",
+        "Revenue Streams: Microtransactions, advergaming, subscriptions, season passes, loot boxes",
+        "Key Resources: Physical (production studios, computer game stores), intellectual (CRM, production software), human (skilled development team), financial (resources to create, design, and distribute)",
+        "Key Activities: Efficient software development, effective production (including design and marketing), suitable IT infrastructure (platforms for updates)",
+        "Key Partnerships: Publishers, development teams, game distributors, software producers, strong and sometimes exclusive partnerships",
+        "Cost Structure: New entrants, existing competitors, higher expectations by gamers, substitute business models or activities, suppliers can all lead to additional and unexpected costs"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3-4: 'Exhibit 1 presents a generic business model for GaaS using the nine building blocks of the business model canvas' followed by detailed descriptions: 'the main value proposition is the game itself, but in addition, GaaS offers new content that comes with updates and DLCs. GaaS also allows bugs to be fixed and provides a mechanism for feedback and communication between gamers and the development teams' | 'The customer segments represent all the customers for whom the GaaS creates value. In this case, the customers are gamers' | 'Distribution channels show the GaaS channels that deliver value to gamers. Digital stores, such as Origin, represent the main distribution channels' | Complete descriptions for all nine canvas elements are provided in pages 3-4",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": [
+        "Publishers | Publishing and distribution | Partner with development teams and distributors | Collaborate with development teams, game distributors, software producers",
+        "Development teams | Game creation and updates | Develop games for publishers, receive feedback from gamers | Partner with publishers, software producers",
+        "Game distributors | Distribution and sales | Distribute games | Partner with publishers and development teams",
+        "Software producers | Provide production tools | Supply production software | Partner with development teams",
+        "Gamers/Players | End users, feedback providers | Play games, provide feedback, make purchases | Interact with development teams through communities, provide feedback",
+        "Third-party server providers | Infrastructure | May own servers | Provide infrastructure for service delivery"
+      ],
+      "synonyms_found": [
+        "developers",
+        "publishers",
+        "players",
+        "gamers",
+        "distributors"
+      ],
+      "source_citation": "Page 1: 'service providers to distribute software-based services to clients via a single server, which may or may not be owned by a third party' | Page 3-4: 'Developing communities is extremely important for GaaS business models, as they act as a conduit for feedback to the game producers' | Page 4: 'The key partnerships section includes all those who participate in the business model. GaaS partnerships can be established between publishers, development teams, game distributors, and software producers.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Lower production costs compared to creating new games",
+        "Ability to launch games and improve them later based on feedback",
+        "Less expensive upfront investment in communication and marketing",
+        "Creation of steady revenue streams through updates and microtransactions",
+        "Easier to listen to community feedback and adapt accordingly",
+        "Ability to keep games alive for years with ongoing updates"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'It is clearly a useful model for developers, as they can launch an unfinished game and, if it is well received, improve on it later using updates and DLCs. They do not need to make a large upfront investment in communication and marketing to make a game a success. Once the game is launched, the CRM systems that form part of the GaaS approach make it easier to listen to the community for feedback, and adapt updates accordingly' | 'Financially, it is less expensive to create updates than a new game. The GaaS model not only improves the game by bringing in new ideas from the users, but it also lowers production costs, since it is concerned only with updates to an already functioning game. Additionally, the regular deployment of patches and updates can create a steady revenue stream for developers and publishers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Player engagement → Long-term play and loyalty",
+        "Meeting player expectations → Continued gameplay",
+        "Community development → Feedback and loyalty building",
+        "Regular content updates → Keeping players engaged",
+        "Effective CRM systems → User segmentation and transaction management",
+        "Timing of microtransactions → Earnings (poor timing leads to loss of earnings)",
+        "Transparent cost structure → Customer retention",
+        "Minimum viable service → User goodwill and retention"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Game developers and publishers realize, however, that gamers will continue to play the game and remain loyal only for as long as their expectations are met' | Page 2: 'The timing of such microtransactions in the game is critical, however: If they interrupt the gaming process, they can lead to a loss of earnings' | Page 2: 'Most GaaS business models rely on powerful customer relationship management (CRM) systems to segment users and to follow up on gamers' behavior' | Page 9: 'a software service needs to provide satisfaction for its users if it is to be used. The key point here concerns building a minimum viable service (MVS) —that is, a service with enough features to satisfy enough customers to justify its future service development'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Powerful CRM systems → User segmentation and transaction management",
+        "Skilled development team → Game production",
+        "Production software → Video game creation",
+        "IT infrastructure platforms → Update delivery",
+        "Financial resources → Game creation, design, and distribution",
+        "Production studios → Game production",
+        "Internet connectivity → Game delivery and updates",
+        "Adequate storage space and connection speed → Full gaming experience"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Most GaaS business models rely on powerful customer relationship management (CRM) systems to segment users and to follow up on gamers' behavior' | Page 4: 'To be able to handle the players' data and activity, a powerful CRM is needed; to produce video games, sophisticated production software is needed. None of the GaaS video games would be possible without a skilled development team. Finally, financial resources are needed to create, design, and distribute GaaS games.' | Page 7: 'Previous research has found that gamers with low-speed connections and not enough storage space were not able to enjoy the full gaming experience'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Low-speed internet connections → Inability to enjoy full gaming experience",
+        "Insufficient storage space → Updates taking too much space, inability to enjoy full experience",
+        "Price limits → Players have spending limits affecting revenue potential",
+        "Time constraints → Players cite lack of time as reason to stop playing"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'Previous research has found that gamers with low-speed connections and not enough storage space were not able to enjoy the full gaming experience' and 'cost was the most frequently cited reason (62%), followed by lack of time for it (61%), inability to finish the game (21%), and updates taking too much space on their machines (12%)' | Page 5-6: 'more than half the respondents want to have the whole gaming experience for USD 50 or less'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Managing player expectations for more content and better experience for less money",
+        "Risk of losing player goodwill by launching unfinished services",
+        "Perceived exploitation through pay-to-win mechanics",
+        "Lack of transparency in pricing and what players receive for their money",
+        "Player frustration with forced purchases in 'free' games",
+        "Loot boxes perceived as gambling that can manipulate behavior",
+        "Players feeling cheated by false claims about free-to-play games",
+        "Balancing freemium services with need to generate steady income"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8-9: 'With the emergence of this new business model, players' expectations have risen: They now want more content and a better gaming experience for less money.' | 'This has encouraged some developers and publishers to push boundaries and make what could be perceived as false claims for their games. For example, it was impossible to play EA's entire Battlefront II game for free; to enjoy all its features, it was necessary to pay at some point.' | Page 7: 'several said they had stopped because playing was becoming a question of "grind or pay,
+      " and they felt that being required to buy something for a supposedly free game was unethical' | Page 9: 'It has been shown that loot boxes have the capacity to manipulate players' behavior and can result in a significant outlay of time and money'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Building minimum viable service (MVS) → Avoiding loss of users' goodwill → Satisfying enough customers to justify future development",
+        "Transparent cost structure → Maintaining existing customers → Clear understanding of investment needed",
+        "Using CRM systems → Managing player behavior and approving transactions → Better user segmentation and engagement",
+        "Taking gamers' opinions into account in updates → Developing player engagement → Building loyalty",
+        "Developing communities → Feedback conduit and loyalty building → Improved games and sustained engagement",
+        "Offering exclusive items for season pass holders → Retaining engagement → Rewarding loyalty"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 9: 'a software service needs to provide satisfaction for its users if it is to be used. The key point here concerns building a minimum viable service (MVS) —that is, a service with enough features to satisfy enough customers to justify its future service development' and 'When a games company first launches an "unfinished" service, it needs to reach its MVS quickly to avoid losing users' goodwill' | 'For SaaS to work, there needs to be a transparent cost structure that clearly states the level of investment needed to fully benefit from the software' | Page 3: 'In addition to guaranteeing access to new DLCs, publishers usually also offer exclusive in-game items that are available only to gamers who have purchased a season pass. This is another way to retain gamers' engagement and reward their loyalty.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Video game revenues; USD 17.5 billion; USD; 2010; Secondary data; Entertainment Software Association",
+        "Video game revenues; USD 29.1 billion; USD; 2017; Secondary data; Entertainment Software Association",
+        "Survey responses; 217; responses; June 2019; Online survey; Authors",
+        "GaaS players currently active; 68%; percentage; June 2019; Online survey; Authors",
+        "Former GaaS players; 22%; percentage; June 2019; Online survey; Authors",
+        "Never played GaaS; 10%; percentage; June 2019; Online survey; Authors",
+        "Games played in 6 months (1-2 games); 53%; percentage; June 2019; Online survey; Authors",
+        "Willing to pay up to USD 50; 54%; percentage; June 2019; Online survey; Authors",
+        "Willing to pay up to USD 100; 24%; percentage; June 2019; Online survey; Authors",
+        "Only play free games; 11%; percentage; June 2019; Online survey; Authors",
+        "Never spent extra money; 26%; percentage; June 2019; Online survey; Authors",
+        "Play because like particular game; 63%; percentage; June 2019; Online survey; Authors",
+        "Cost as reason to stop; 62%; percentage; June 2019; Online survey; Authors",
+        "Lack of time as reason to stop; 61%; percentage; June 2019; Online survey; Authors",
+        "Average rating of GaaS; 5.32; score out of 10; June 2019; Online survey; Authors",
+        "Super gamer classification; 54%; percentage; June 2019; Online survey; Authors",
+        "Familiarity with microtransactions; 85%; percentage; June 2019; Online survey; Authors",
+        "Familiarity with season passes; 80%; percentage; June 2019; Online survey; Authors",
+        "Familiarity with subscriptions; 79%; percentage; June 2019; Online survey; Authors"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Video game revenues in the United States have nearly doubled, from USD 17.5 billion in 2010 to USD 29.1 billion in 2017' | Page 4-5: 'A survey designed to get deeper insights from gamers about the GaaS business model was administered online in June 2019. The invitation to participate was posted on gamer community pages. Some were specifically related to GaaS communities, while others were social networks concerned with games and gaming. A total of 217 responses were received.' | Additional metrics from pages 5-7 with specific percentages from survey results and exhibits",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Observed period: 2004-2019 (World of Warcraft released 2004, survey conducted June 2019, article published 2020). Maturity status: Consolidated",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'One of the first GaaS video games, World of Warcraft, was released in 2004. GaaS-based video games became very popular in the following years, and sales have continued to grow.' | Page 1: 'Compared to the sales of physical media, digital sales —including subscriptions, full digital games, downloadable content, mobile apps, and social network games —have more than doubled. Gaming software delivered via physical media, which accounted for two-thirds of sales in 2010, has now largely been replaced by digital delivery' | Page 4-5: 'A survey designed to get deeper insights from gamers about the GaaS business model was administered online in June 2019'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Survey",
+      "synonyms_found": [
+        "questionnaire",
+        "online survey"
+      ],
+      "source_citation": "Page 4-5: 'A survey designed to get deeper insights from gamers about the GaaS business model was administered online in June 2019. The invitation to participate was posted on gamer community pages. Some were specifically related to GaaS communities, while others were social networks concerned with games and gaming. A total of 217 responses were received. Divided into three sections, the questionnaire was inspired by findings from previous studies.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Microsoft Office 365 → Example of SaaS",
+        "Google Apps → Example of SaaS",
+        "Dropbox → Example of SaaS and cloud-based file storage",
+        "Amazon Web Services → Example of SaaS",
+        "World of Warcraft (Activision Blizzard) → One of the first GaaS video games released in 2004, multiplayer online role-playing game with subscription",
+        "Origin (Electronic Arts) → Game platform with subscription service (Origin Access)",
+        "Battlefront II (EA) → Example of false claims about free-to-play (impossible to play entire game for free)",
+        "Google Maps, Google Play, Hangouts → Examples of apps with multiple revenue streams"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Some prominent examples of SaaS are Microsoft Office 365, Google Apps, Dropbox, and Amazon Web Services' and 'One of the first GaaS video games, World of Warcraft, was released in 2004' | Page 3: 'Subscription services —A subscription to a game platform, such as Origin by Electronic Arts (EA), or to a multiplayer online role-playing game, such as World of Warcraft by Activision Blizzard' | Page 8-9: 'it was impossible to play EA's entire Battlefront II game for free' | Page 9: 'Google Apps, such as Google Maps, Google Play, and Hangouts, are well known for the way in which they are able to generate revenue'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Free-to-play / Freemium → Games that are free to start but offer paid microtransactions",
+        "Subscription-based → Monthly fee for platform or game access",
+        "Season pass model → Upfront payment for year's worth of DLCs at discounted price",
+        "Hybrid models → Combining multiple monetization approaches (subscription + microtransactions)"
+      ],
+      "synonyms_found": [
+        "free-to-play",
+        "freemium",
+        "free-to-start"
+      ],
+      "source_citation": "Page 2-3: 'free-to-play games are rarely entirely free and might more accurately be called freemium or free-to-start games' | 'A purely subscription-based game does not require the user to make any other purchase to download or play it; nevertheless, gamers can use microtransactions to purchase items not included in the subscription' | Page 2: 'games developers and publishers realize, however, that gamers will continue to play the game and remain loyal only for as long as their expectations are met' and 'Games developers have implemented several different monetization methods and, as their colleagues in other industries have done, often incorporate more than one technique into a single approach.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Industry may need to change business model as players want whole gaming experience for USD 50 or less, while current model adds costs through DLCs, microtransactions, and subscriptions",
+        "Three key implications for SaaS beyond gaming: 1) Offer minimum viable service to foster goodwill, 2) Ensure transparent cost structures to maintain existing customers, 3) Combine monetization practices for profitability",
+        "Growing debate about loot boxes as gambling requiring potential regulation"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 5-6: 'These findings show that more than half the respondents want to have the whole gaming experience for USD 50 or less; therefore, the games industry may have to change its business model at some point. The average price for a video game is currently about USD 50, but adding DLCs, microtransactions, and/or a subscription can add substantially to that sum —which means that players may become ever less inclined to spend additional money on their games.' | Page 9: 'Looking at the experiences of the gaming industry, arguments can be made both for and against GaaS. Extrapolating beyond gaming, there are three key implications for other business models based on SaaS' followed by detailed discussion of MVS, transparent cost structures, and combined monetization | Page 9: 'Related to these concerns is the debate concerning whether opting for loot boxes should be considered gambling'",
+      "confidence_level": "high"
+    }
+  ]
+}

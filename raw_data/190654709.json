@@ -1,0 +1,544 @@
+{
+  "extraction_metadata": {
+    "article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Emotion Recognition (ER) Business Model - A disruptive business model for emerging affective computing technologies that focuses on emotion recognition solutions delivered through various channels including SaaS, technology licensing, and APIs.",
+      "synonyms_found": [
+        "ER-based business model",
+        "affective computing business model",
+        "emotion recognition solutions business model",
+        "disruptive business model for emerging technologies"
+      ],
+      "source_citation": "Page 1: 'This paper explores the key features of disruptive business models in the affective computing industry' | Page 2: 'ER is regarded as a disruptive technology for which the academic literature has not yet investigated the design and specifics of ER-based business models'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "ER-based business model",
+        "affective computing business model",
+        "emotion recognition solutions business model",
+        "disruptive business model for emerging technologies",
+        "Emotion-as-a-Service API business model"
+      ],
+      "synonyms_found": [
+        "ER-based business model",
+        "affective computing business model",
+        "emotion recognition solutions business model",
+        "disruptive business model",
+        "Emotion-as-a-Service API business model"
+      ],
+      "source_citation": "Page 2: 'ER-based business models' | Page 4: 'Emotion-as-a-Service API business model' | Page 1: 'disruptive business models in the affective computing industry'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Affective Computing / Artificial Intelligence",
+      "synonyms_found": [
+        "affective computing",
+        "AI",
+        "artificial intelligence",
+        "emotion recognition"
+      ],
+      "source_citation": "Page 1: 'disruptive business models in the affective computing industry' | Page 2: 'affective computing industry serves as a suitable context to study the development of a disruptive business model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2B",
+      "synonyms_found": [
+        "business customers",
+        "B2B customer segment"
+      ],
+      "source_citation": "Page 3: 'The data shows that business customers (B2B) is the largest customer segment for ER solutions'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Startups and new ventures in emerging technology",
+      "synonyms_found": [
+        "startups",
+        "new ventures",
+        "emerging tech companies",
+        "technology pioneers"
+      ],
+      "source_citation": "Page 2: 'new ventures appear to have an advantage in this regard. Recently founded startups have much to gain from disrupting the established order' | Page 5: 'emerging tech companies and, in particular, ER providers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Global (multiple countries including USA, Switzerland, Russia, Netherlands, Germany)",
+      "synonyms_found": [
+        "global",
+        "international",
+        "multiple countries"
+      ],
+      "source_citation": "Table I and Table II: Companies from USA, Switzerland, Russia, Netherlands, Germany | Page 1: 'Large corporations like Amazon, Google, Facebook, and Apple along with domain-specific startups, such as Affectiva and Crowdemotion'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Healthcare, automotive and retail industries",
+      "synonyms_found": [
+        "healthcare",
+        "automotive",
+        "retail"
+      ],
+      "source_citation": "Page 3: 'business customers (B2B) is the largest customer segment for ER solutions with healthcare, automotive and retail industries leading the way'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "API",
+        "Platform",
+        "Managed Service"
+      ],
+      "synonyms_found": [
+        "emotion recognition solutions",
+        "ER solutions",
+        "APIs",
+        "SDKs",
+        "Software-as-a-Service"
+      ],
+      "source_citation": "Page 4: 'technology licensing ER sector differentiates between provision of the final product, as well as intermediary technology, such as APIs and SDKs' | Page 4: 'Software-as-a-Service with its variations'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Multi-tenant SaaS",
+        "API",
+        "On-premises"
+      ],
+      "synonyms_found": [
+        "Software-as-a-Service",
+        "SaaS",
+        "technology licensing",
+        "APIs",
+        "on-premises"
+      ],
+      "source_citation": "Page 4: 'Software-as-a-Service with its variations, which was a major business model innovation in tech industries' | Page 4: 'technology licensing and product sales' | Page 4: 'APIs and SDKs'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Proprietary",
+      "synonyms_found": [
+        "proprietary technology",
+        "intellectual property",
+        "IP"
+      ],
+      "source_citation": "Page 4: 'proprietary technology remains an important resource' | Page 4: 'Intellectual property (IP) was referred as one of the key resources, including brand name, patents and copyright'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription",
+        "Usage/consumption",
+        "Support"
+      ],
+      "synonyms_found": [
+        "Software-as-a-Service",
+        "technology licensing",
+        "product sales",
+        "Emotion-as-a-Service API"
+      ],
+      "source_citation": "Page 4: 'the leading revenue stream types are Software-as-a-Service, technology licensing and product sales' | Page 4: 'Emotion-as-a-Service API business model, which refers to payment for a number of images/videos processed'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "API calls",
+      "synonyms_found": [
+        "images/videos processed",
+        "API calls"
+      ],
+      "source_citation": "Page 4: 'Emotion-as-a-Service API business model, which refers to payment for a number of images/videos processed'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium",
+        "Trial",
+        "Pay-as-you-go"
+      ],
+      "synonyms_found": [
+        "free demo",
+        "free trial",
+        "pay-per-use",
+        "subscription"
+      ],
+      "source_citation": "Page 3: 'free demo and free trial periods for users' | Page 4: 'payment for a number of images/videos processed'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product",
+      "synonyms_found": [
+        "ER providers",
+        "technology providers",
+        "solution providers"
+      ],
+      "source_citation": "Page 3: 'ER providers use a great variety of possible channels' | Page 4: 'ER providers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Data",
+      "synonyms_found": [
+        "emotion datasets",
+        "data collection",
+        "community"
+      ],
+      "source_citation": "Page 4: 'emotion datasets, on which the machine learning algorithms are trained' | Page 3: 'Community unites both end users and developers and companies, as group dynamics allow for co-creation'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Direct sales",
+        "Digital marketing",
+        "Partners/channels"
+      ],
+      "synonyms_found": [
+        "websites",
+        "social networks",
+        "blogs",
+        "conferences",
+        "sales team",
+        "press",
+        "webinars",
+        "podcasts"
+      ],
+      "source_citation": "Page 3: 'the following channels are used for marketing and/or sales: websites. social networks, blogs, conferences, sales team, press, webinars, podcasts'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Building emotional connection with clients, data-driven marketing decisions, customization, safety, health awareness",
+        "Customer Segment: B2B (healthcare, automotive, retail), B2C (entertainment), B2G (government)",
+        "Channels: Website, social networks, blogs, conferences, sales team, press, webinars, podcasts",
+        "Customer Relationship: Free demo, free trial period, customization, community, customer support",
+        "Revenue Streams: Software-as-a-Service, technology licensing, Emotion-as-a-Service API, product sales",
+        "Key Resources: Datasets, proprietary technology, human resources, intellectual property, equipment",
+        "Key Activities: R&D, software development, marketing & sales, customer support, hardware manufacturing",
+        "Key Partnerships: Investors, universities & research institutes, data providers, community, leading IT companies",
+        "Cost Structure: R&D, human resources, software development, IT infrastructure, sales & marketing"
+      ],
+      "synonyms_found": [
+        "business model canvas",
+        "building blocks",
+        "nine business model building blocks"
+      ],
+      "source_citation": "Page 5: Complete Business Model Canvas figure showing all nine blocks with detailed elements for each",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Investors | Financial support and value addition | With offering company: Provide funding and strategic guidance | With other actors: Connect with large datasets and industry networks | Universities & Research Institutes | Research collaboration | With offering company: Conduct frontier research | With other actors: Share academic knowledge | Data Providers | Supply emotion datasets | With offering company: Provide training data | With other actors: Not specified | Community | Co-creation and feedback | With offering company: Participate in development | With other actors: Share experiences and use cases | Leading IT Companies | Technology partnerships | With offering company: Provide platforms and infrastructure | With other actors: Not specified",
+      "synonyms_found": [
+        "key partners",
+        "ecosystem actors",
+        "stakeholders"
+      ],
+      "source_citation": "Page 4: 'Key partnerships need to be established to specialized investors that increase the value of a company beyond financial investments e.g. with large dataset' | Page 4: 'Academic partners, such as universities and research institutes, are important partners for ER providers, as they carry out research on the frontier' | Page 3: 'Community unites both end users and developers and companies, as group dynamics allow for co-creation'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Greater personalisation and empathy with users",
+        "Ability to deliver enhanced user experience",
+        "Popularity of virtual personal assistants and conversational AI systems",
+        "Potential for customer experience scenarios in education, gaming, healthcare",
+        "Competitive advantage through innovative technology"
+      ],
+      "synonyms_found": [
+        "personalisation",
+        "empathy",
+        "user experience",
+        "competitive advantage"
+      ],
+      "source_citation": "Page 1: 'The emerging potential of the affective computing industry, as an emotional enhancement for current IT systems, is derived from its ability to deliver greater personalisation and empathy with the user' | Page 1: 'The current wave of emotion AI systems is being driven by the popularity of virtual personal assistants (VPAs) and other conversational AI-based systems'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Emotion datasets → Competitive differentiation and algorithm training",
+        "Talent (data scientists and engineers) → Technology development and innovation",
+        "Free demos and trials → Customer education and adoption",
+        "R&D investment → Technology advancement and market leadership",
+        "Community building → Co-creation and dataset collection"
+      ],
+      "synonyms_found": [
+        "datasets",
+        "talent",
+        "R&D",
+        "community"
+      ],
+      "source_citation": "Page 4: 'emotion datasets, on which the machine learning algorithms are trained... the set of labeled data and its appropriateness for the target market is what sets a company apart from the competition' | Page 4: 'talent, including data scientists and engineers, is indeed the most important resource for ER providers' | Page 3: 'free demo and free trial periods for users'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Large labeled emotion datasets → Algorithm training and accuracy",
+        "Specialized talent (data scientists, engineers) → Technology development",
+        "Financial resources → R&D and operations",
+        "Customer education → Technology adoption and understanding",
+        "Regulatory compliance → Ethical data collection and processing"
+      ],
+      "synonyms_found": [
+        "datasets",
+        "talent",
+        "financial resources",
+        "customer education",
+        "regulatory compliance"
+      ],
+      "source_citation": "Page 4: 'emotion datasets, on which the machine learning algorithms are trained' | Page 4: 'talent, including data scientists and engineers, is indeed the most important resource' | Page 4: 'ER startups often struggle with challenges of financial resources and data access' | Page 6: 'Businesses need to comply with local regulations thoroughly before beginning research and development with human participants'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Technology not fully understood by customers → Value proposition communication challenges",
+        "Proprietary technology becoming commodity → Competitive differentiation difficulties",
+        "Ethical data collection requirements → Business model implementation constraints",
+        "High R&D costs → Financial sustainability challenges"
+      ],
+      "synonyms_found": [
+        "technology not understood",
+        "commodity",
+        "ethical requirements",
+        "high costs"
+      ],
+      "source_citation": "Page 3: 'Since the technology is not fully understood by the customers' | Page 4: 'the easy availability of ER APIs rather makes the algorithm a commodity' | Page 6: 'Ethical issues connected with affective computing are also worth discussing, as they are threatening the overall ability of the technology to provide value' | Page 4: 'R&D, which is often long and expensive for AI solutions'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Financial chasm or 'death valley' risk",
+        "Risk of failing to put together a complete new value network on time",
+        "Risk of rapid technological or business-model obsolescence",
+        "Customer lack of understanding of business value of technology",
+        "Ethical issues with data collection and privacy"
+      ],
+      "synonyms_found": [
+        "death valley",
+        "value network",
+        "obsolescence",
+        "customer understanding",
+        "ethical issues"
+      ],
+      "source_citation": "Page 1: 'early pioneers in affective computing face three major risks: the risk of having to endure a financial chasm or 'death valley', the risk of failing to put together a complete new value network on time, and the risk of rapid technological or business-model obsolescence' | Page 6: 'Ethical issues connected with affective computing are also worth discussing, as they are threatening the overall ability of the technology to provide value'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Free demos and trials → Customer education and technology understanding → Increased adoption",
+        "Community building → Dataset collection and co-creation → Technology development acceleration",
+        "Partnerships with investors and academia → Financial resources and research access → Reduced development risks",
+        "Customization and customer support → Customer relationship building → Higher retention and satisfaction",
+        "Regulatory compliance → Ethical data handling → Legal and reputational risk mitigation"
+      ],
+      "synonyms_found": [
+        "free demos",
+        "community building",
+        "partnerships",
+        "customization",
+        "compliance"
+      ],
+      "source_citation": "Page 3: 'showcasing their products for free. These strategies include free demo and free trial periods' | Page 3: 'Community unites both end users and developers and companies, as group dynamics allow for co-creation' | Page 4: 'Key partnerships need to be established to specialized investors' | Page 6: 'Businesses need to comply with local regulations thoroughly'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Market size: USD 16.17 billion in 2017; Expected value: USD 88.69 billion by 2023; CAGR: 32.81%; Sample size: 80 companies analyzed; Case studies: 6 companies interviewed",
+      "synonyms_found": [
+        "market size",
+        "CAGR",
+        "sample size"
+      ],
+      "source_citation": "Page 1: 'The global affective computing market was valued at USD 16.17 billion in 2017, and is expected to reach a value of USD 88.69 billion by 2023 at a CAGR of 32.81%' | Page 2: 'We designed the business model canvas for emotion recognition (ER) solutions based on analysis of 80 companies from secondary sources, as well as six case studies'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2017-2023 period + Emerging",
+      "synonyms_found": [
+        "emerging",
+        "early pioneers",
+        "not fully defined"
+      ],
+      "source_citation": "Page 1: 'The global affective computing market was valued at USD 16.17 billion in 2017, and is expected to reach a value of USD 88.69 billion by 2023' | Page 1: 'early pioneers in affective computing' | Page 6: 'affective computing technologies are far from being fully defined'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases",
+      "synonyms_found": [
+        "multiple case study",
+        "case studies",
+        "triangulation"
+      ],
+      "source_citation": "Page 2: 'six case studies that we conducted ourselves' | Page 2: 'we apply the method of data triangulation' | Page 2: 'multiple case study approach, gathering data via semi-structured interviews with six companies'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Amazon → Large corporation in affective computing race",
+        "Google → Large corporation in affective computing race",
+        "Facebook → Large corporation in affective computing race",
+        "Apple → Large corporation in affective computing race",
+        "Affectiva → Domain-specific startup in emotion recognition",
+        "Crowdemotion → Domain-specific startup in emotion recognition",
+        "Nviso → Case study company from Switzerland",
+        "Neurodata Lab → Case study company from Russia",
+        "Noldus Information Technology → Case study company from Netherlands",
+        "AGT → Case study company from Germany",
+        "Swiss telekom → Case study company from Switzerland",
+        "Speech Technology Centre → Case study company from Russia"
+      ],
+      "synonyms_found": [
+        "Amazon",
+        "Google",
+        "Facebook",
+        "Apple",
+        "Affectiva",
+        "Crowdemotion"
+      ],
+      "source_citation": "Page 1: 'Large corporations like Amazon, Google, Facebook, and Apple along with domain-specific startups, such as Affectiva and Crowdemotion, race to decode their users' affective states' | Table II: Lists of case study companies including Nviso, Neurodata Lab, Noldus Information Technology, AGT, Swiss telekom, Speech Technology Centre",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Emotion-as-a-Service API → Payment for number of images/videos processed",
+        "Technology licensing variations → Final product vs intermediary technology (APIs and SDKs)",
+        "Product sales → One-time sale of software and hardware"
+      ],
+      "synonyms_found": [
+        "Emotion-as-a-Service API",
+        "technology licensing",
+        "product sales"
+      ],
+      "source_citation": "Page 4: 'Within technology licensing ER sector differentiates between provision of the final product, as well as intermediary technology, such as APIs and SDKs' | Page 4: 'Emotion-as-a-Service API business model, which refers to payment for a number of images/videos processed' | Page 4: 'Product sale refers to one-time sale of both software and hardware'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Focus on customer experience scenarios in educational software, video games, diagnostic software, athletic and health performance, and autonomous cars",
+        "Unexpected novel business solutions stemming from R&D discoveries",
+        "Significant changes in business model configuration as technology evolves"
+      ],
+      "synonyms_found": [
+        "customer experience scenarios",
+        "novel business solutions",
+        "technology evolution"
+      ],
+      "source_citation": "Page 1: 'As a second wave, AI technology is predicted to focus on customer experience scenarios, including educational software, video games, diagnostic software, athletic and health performance, and the autonomous car' | Page 6: 'Within the next years we might see unexpected novel business solutions, stemming from R&D discoveries' | Page 6: 'the future configuration of business models in use can change significantly as the technology evolves'",
+      "confidence_level": "high"
+    }
+  ]
+}

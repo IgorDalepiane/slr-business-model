@@ -1,0 +1,522 @@
+{
+  "extraction_metadata": {
+    "article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Transit App Business Models - Five distinct business models for developing and operating smartphone transit applications that serve public transportation agencies and their passengers",
+      "synonyms_found": [
+        "transit app business models",
+        "mobile fare payment business models",
+        "transit app development models"
+      ],
+      "source_citation": "Page 4: 'Based on interviewees' descriptions of how their transit apps were developed and maintained, five business models were identified'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "mobile fare payment applications",
+        "transit app development models",
+        "smartphone transit apps",
+        "transit information technology platform"
+      ],
+      "synonyms_found": [
+        "mobile fare payment applications",
+        "transit app development models",
+        "smartphone transit apps",
+        "transit information technology platform"
+      ],
+      "source_citation": "Page 1: 'smartphone transit apps have emerged as a cost-effective strategy' | Page 2: 'mobile fare payment practices via apps' | Page 4: 'five business models were identified'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Public Transportation",
+      "synonyms_found": [
+        "transit",
+        "public transit",
+        "transit agencies",
+        "public transportation"
+      ],
+      "source_citation": "Page 1: 'Public transportation plays a critical role' | Page 1: 'transit agencies and private sector developers providing access to fare payment, trip planning, and real-time vehicle information'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Government",
+      "synonyms_found": [
+        "transit agencies",
+        "public transit agencies",
+        "transit operators"
+      ],
+      "source_citation": "Page 1: 'transit agencies and private sector developers' | Page 2: 'transit agencies that provide and manage official branded apps'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Varied from small to large transit agencies, with large agencies more likely to develop branded apps",
+      "synonyms_found": [
+        "small- to medium-sized transit agencies",
+        "large transit agencies",
+        "transit operators"
+      ],
+      "source_citation": "Page 4: 'Many small- to medium-sized transit agencies with limited resources found that the shared app is the best fit' | Page 4: 'an increasing number of medium and large transit agencies have chosen the white-label app model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "United States",
+      "synonyms_found": [
+        "US",
+        "US transit agencies"
+      ],
+      "source_citation": "Page 1: 'transit apps used in 295 US transit agencies' | Page 2: 'major US transit agencies for fixed-route bus services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Transit agencies that developed and operated official branded transit apps",
+      "synonyms_found": [
+        "transit agencies with officially branded apps",
+        "agencies that developed their own apps"
+      ],
+      "source_citation": "Page 2: 'transit agencies that have developed and operated an official transit app that serves their bus riders' | Page 2: 'agencies that developed their own apps have more extensive experience'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform"
+      ],
+      "synonyms_found": [
+        "transit apps",
+        "smartphone apps",
+        "mobile applications",
+        "transit information technology platform"
+      ],
+      "source_citation": "Page 1: 'smartphone transit apps' | Page 1: 'transit apps have been published by transit agencies and private sector developers' | Page 1: 'transit apps emerged as an essential channel'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Mobile"
+      ],
+      "synonyms_found": [
+        "smartphone apps",
+        "mobile apps",
+        "mobile applications"
+      ],
+      "source_citation": "Page 1: 'smartphone transit apps' | Page 1: 'providing access to fare payment, trip planning, and real-time vehicle information on smartphones'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Transaction",
+        "Subscription"
+      ],
+      "synonyms_found": [
+        "transaction fees",
+        "annual lump sum",
+        "charge per transaction"
+      ],
+      "source_citation": "Page 4: 'The ongoing costs could be an annual lump sum (ranging from $100,000 to $500,000) or a charge per transaction (if it had fare payment functions)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Transactions",
+      "synonyms_found": [
+        "transaction",
+        "per transaction"
+      ],
+      "source_citation": "Page 4: 'a charge per transaction (if it had fare payment functions)' | Page 4: 'charges a percentage of transactions after sales (if the app allows fare payment)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Annual contract",
+        "Pay-as-you-go"
+      ],
+      "synonyms_found": [
+        "annual lump sum",
+        "charge per transaction",
+        "percentage of transactions"
+      ],
+      "source_citation": "Page 4: 'The ongoing costs could be an annual lump sum (ranging from $100,000 to $500,000) or a charge per transaction'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "USD, annual and per-transaction",
+      "synonyms_found": [
+        "dollars",
+        "annual",
+        "per transaction"
+      ],
+      "source_citation": "Page 4: 'The ongoing costs could be an annual lump sum (ranging from $100,000 to $500,000) or a charge per transaction'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Two-sided platform",
+      "synonyms_found": [
+        "platform",
+        "transit information technology platform"
+      ],
+      "source_citation": "Page 1: 'transit apps emerged as an essential channel to disseminate relevant and timely transit information' | Page 1: 'transit apps as a comprehensive information technology that serves public transportation'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Data",
+      "synonyms_found": [
+        "data collection",
+        "user data",
+        "travel patterns"
+      ],
+      "source_citation": "Page 5: 'Many interviewees mentioned if transit agencies had access to people's travel patterns, they would be able to send passengers contextually relevant information' | Page 5: 'Collecting data on riders would also make it possible for transit agencies to provide contextually relevant information'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Direct sales",
+        "Partners/channels"
+      ],
+      "synonyms_found": [
+        "vendor partnerships",
+        "third-party vendors",
+        "contract negotiations"
+      ],
+      "source_citation": "Page 4: 'transit agencies often partner with private-sector vendors for different tasks' | Page 4: 'collaborating with credible and leading-edge vendors is critical for transit agencies'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes - Apple Store, Google Play",
+      "synonyms_found": [
+        "app stores",
+        "Apple Store",
+        "Google Play"
+      ],
+      "source_citation": "Page 2: 'app received more ratings than the median level on Apple Store or Google Play' | Page 3: 'most of them (N=114 out of 119) were available for both iOS and Android systems'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Cost-effective strategy to enhance transit user experience, account-based mobile fare payment, efficient two-way communications",
+        "Customer Segment: Transit agencies, public transportation passengers",
+        "Key Activities: App development, fare payment processing, real-time information provision, trip planning",
+        "Key Partnerships: Third-party vendors, private sector developers",
+        "Cost Structure: Upfront development costs, ongoing operational costs, vendor management costs"
+      ],
+      "synonyms_found": [
+        "business model elements",
+        "transit app components"
+      ],
+      "source_citation": "Page 1: 'smartphone transit apps have emerged as a cost-effective strategy to enhance the transit user experience' | Page 1: 'enabling account-based mobile fare payment and efficient two-way communications' | Page 4: 'transit agencies often partner with private-sector vendors' | Page 4: 'The upfront and operational costs would be minimal'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": [
+        "Transit Agencies | App operators and customers | Purchase and manage apps | Coordinate with vendors and passengers",
+        "Private Sector Vendors | App developers and providers | Develop and maintain apps | Serve multiple transit agencies",
+        "Passengers | End users | Use apps for transit services | Interact with transit agencies through apps",
+        "Third-party Developers | Shared app providers | Provide multi-agency apps | Serve hundreds of transit agencies globally"
+      ],
+      "synonyms_found": [
+        "ecosystem actors",
+        "stakeholders",
+        "participants"
+      ],
+      "source_citation": "Page 1: 'transit agencies and private sector developers providing access to fare payment, trip planning, and real-time vehicle information' | Page 4: 'Private sector shared apps were developed by a single vendor but serve multiple transit agencies' | Page 5: 'transit agencies often partner with private-sector vendors'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Cost-effective medium for account management and transactions",
+        "Pressure from customers to provide integrated transit app",
+        "Need for customization and control over functions and user interfaces",
+        "Limitations of existing off-the-shelf private-sector apps",
+        "Quick deployment compared to traditional fare collection systems"
+      ],
+      "synonyms_found": [
+        "reasons",
+        "drivers",
+        "benefits"
+      ],
+      "source_citation": "Page 4: 'smartphone transit apps are often viewed as a cost-effective medium for account management' | Page 4: 'transit agencies often face pressure from customers to provide one transit app that integrates all functions' | Page 4: 'the currently off-the-shelf private-sector apps could not meet all the needs of transit agencies'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Reliable underlying data → High-quality digital customer experience",
+        "Efficient vendor management → Successful app deployment and operation",
+        "Agency branding and customization → Better customer engagement",
+        "Multi-functionality → Enhanced user experience and increased transit use",
+        "Account-based fare collection → Improved revenue tracking and targeted marketing"
+      ],
+      "synonyms_found": [
+        "success factors",
+        "critical elements",
+        "key requirements"
+      ],
+      "source_citation": "Page 5: 'the reliability of underlying data is the key to a high-quality digital customer experience' | Page 5: 'The interview results highlighted the importance of efficient vendor management' | Page 4: 'Having control over the functions and user interfaces is critical for transit agencies'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "High-quality GTFS/GTFS-RT data feeds → Accurate trip planning and real-time information",
+        "Staff with data management expertise → Reliable data production and maintenance",
+        "Adequate bandwidth and onboard devices → Real-time vehicle information functionality",
+        "Cross-department collaboration → Successful app development and deployment",
+        "Leadership commitment → Project success and stakeholder alignment"
+      ],
+      "synonyms_found": [
+        "requirements",
+        "conditions",
+        "prerequisites"
+      ],
+      "source_citation": "Page 5: 'transit agencies often find it time-consuming and challenging to clean and validate GTFS/GTFS-RT feeds' | Page 5: 'Small- and medium-sized transit agencies often find it difficult to hire staff with data management and application development expertise' | Page 5: 'ineffective cross-department collaborations are common challenges'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Limited customization in shared apps → Reduced agency branding and control",
+        "Data quality issues → Inaccurate information and poor user experience",
+        "Vendor dependency → Reduced flexibility and potential delays",
+        "Resource constraints → Limited ability to develop in-house solutions",
+        "Equity issues → Digital divide affecting some passenger groups"
+      ],
+      "synonyms_found": [
+        "limitations",
+        "challenges",
+        "constraints"
+      ],
+      "source_citation": "Page 4: 'Private sector shared apps were developed by a single vendor but serve multiple transit agencies in different regions/countries. The upfront and operational costs would be minimal as these apps involve limited features and little to no branding' | Page 5: 'Inaccurate trip planning and real-time vehicle information based on the poor quality of General Transit Feed Specification (GTFS)/GTFS-RT feed often mislead passengers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Choosing and working with third-party vendors",
+        "Quality issues with underlying data for app development",
+        "Ineffective cross-department collaborations",
+        "Equity issues related to transit apps",
+        "Ensuring app development within planned time frame",
+        "Vendor management and contract negotiations"
+      ],
+      "synonyms_found": [
+        "difficulties",
+        "problems",
+        "obstacles"
+      ],
+      "source_citation": "Page 5: 'choosing and working with third-party vendors can be challenging' | Page 5: 'quality issues with underlying data for app development are common hurdles' | Page 5: 'ineffective cross-department collaborations are common challenges reported by the interviewed agencies'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Efficient vendor management → Reduced project delays and improved outcomes",
+        "Robust modification protocols in contracts → Better handling of product enhancements and service adjustments",
+        "Comprehensive testing and QA/QC → Higher app quality and user satisfaction",
+        "Data sharing agreements → Improved operational insights and service improvement",
+        "Multi-language support and accessibility features → Reduced equity issues"
+      ],
+      "synonyms_found": [
+        "solutions",
+        "strategies",
+        "mitigation approaches"
+      ],
+      "source_citation": "Page 5: 'The interview results highlighted the importance of efficient vendor management' | Page 5: 'when negotiating and renewing contracts with vendors, a robust modification protocol is needed' | Page 5: 'testing and QA/QC by transit agencies or pilot users is critical for the success of transit app projects'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "295; Number of transit agencies; Total; 2021; Survey; APTA member list",
+        "240; Number of agencies with transit apps; Total; 2021; Survey; Agency websites and app stores",
+        "115; Number of agencies with branded apps; Total; 2021; Survey; Agency websites and app stores",
+        "15-50; Percentage of tickets sold via apps; Range; 2021; Interview; Transit agency reports",
+        "100000-500000; Annual app costs in USD; Range; 2021; Interview; Transit agency contracts"
+      ],
+      "synonyms_found": [
+        "statistics",
+        "data",
+        "numbers"
+      ],
+      "source_citation": "Page 2: 'we reviewed transit apps provided by these 295 transit agencies' | Page 2: 'About half of the transit agencies (N=115) developed or endorsed branded transit apps' | Page 4: 'The ongoing costs could be an annual lump sum (ranging from $100,000 to $500,000)' | Page 4: 'about 15–50% of their tickets were sold via transit apps'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2021-2022 observed period + Growing maturity",
+      "synonyms_found": [
+        "current practices",
+        "emerging trends",
+        "recent years"
+      ],
+      "source_citation": "Page 1: 'Current practices and emerging trends of transit apps' | Page 1: 'In the past decades, smartphone transit apps have emerged' | Page 2: 'In October 2021, we reviewed transit apps'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases",
+      "synonyms_found": [
+        "case studies",
+        "interviews",
+        "survey"
+      ],
+      "source_citation": "Page 2: 'By conducting interviews with 21 transit industry leaders' | Page 2: 'we interviewed 21 professionals from 17 transit agencies' | Page 2: 'we reviewed transit apps provided by these 295 transit agencies'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Transit App → Private sector shared app example",
+        "Token Transit → Private sector shared app example",
+        "MTA eTix → White-label app with minor customization example",
+        "CATS Pass → White-label app with minor customization example",
+        "CharmPass → White-label app with major customization example",
+        "Muni-Mobile → White-label app with major customization example",
+        "GoPass → In-house design vendor development example",
+        "SEPTA → In-house design vendor development example",
+        "TAP LA → In-house development example"
+      ],
+      "synonyms_found": [
+        "transit apps",
+        "mobile apps",
+        "applications"
+      ],
+      "source_citation": "Page 4: 'five business models were identified: (1) private sector shared app (e.g., Transit App, Token Transit); (2) white-label app with minor customization (e.g., MTA eTix, CATS Pass); (3) white-label app with major customization (e.g., CharmPass, Muni-Mobile); (4) in-house design vendor development (e.g., GoPass, SEPTA); and (5) in-house development (e.g., TAP LA)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Private sector shared app → Minimal features, little branding, serves multiple agencies globally",
+        "White-label app with minor customization → Basic rebranding, color schemes, route information changes",
+        "White-label app with major customization → New functionalities, system integration, complex fare structures",
+        "In-house design vendor development → Agency-led product management with vendor development",
+        "In-house development → Complete agency control, cutting-edge technologies, highest customization"
+      ],
+      "synonyms_found": [
+        "business model variations",
+        "development approaches",
+        "implementation types"
+      ],
+      "source_citation": "Page 4: 'five business models were identified' with detailed descriptions of each model's characteristics, costs, and level of control",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Large agencies favoring all-in-one local exclusive transit apps with enhanced local passenger services",
+        "Small and medium operators preferring aggregator apps and providing data to third-party companies",
+        "Integration of multimodal transportation services as Mobility-as-a-Service applications",
+        "Use of APIs and SDKs for fare payment system integration across transportation modes",
+        "Enhanced personalization and gamification elements to promote transit use"
+      ],
+      "synonyms_found": [
+        "emerging trends",
+        "future developments",
+        "evolution"
+      ],
+      "source_citation": "Page 5: 'One emerging trend identified from the interviews was that large transit agencies usually favor all-in-one local exclusive transit apps' | Page 5: 'small and medium transit operators prefer aggregator apps and would like to provide underlying data to third-party companies' | Page 5: 'aggregator transit apps could be improved by combining public and private transportation services together as Mobility as a Service application'",
+      "confidence_level": "high"
+    }
+  ]
+}

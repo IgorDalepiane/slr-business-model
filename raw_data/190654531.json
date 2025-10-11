@@ -1,0 +1,498 @@
+{
+  "extraction_metadata": {
+    "article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+    "extraction_date": "2025-01-27"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Business Model Decision Line (BMDL) - A concept that applies the engineering process of Software Product Lines (SPLs) to the structure of the Business Model Canvas (BMC) to support the process of business model adaptation by matching business domain knowledge in the form of a feature model with customer needs to derive hypotheses about the business model together with experiments for validation.",
+      "synonyms_found": [
+        "BMDL",
+        "Business Model Decision Line"
+      ],
+      "source_citation": "Page 1: 'We call this concept a Business Model Decision Line (BMDL). The BMDL matches business domain knowledge in the form of a feature model with customer needs to derive hypotheses about the business model together with experiments for validation.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "BMDL",
+        "Business Model Decision Line"
+      ],
+      "synonyms_found": [
+        "BMDL",
+        "Business Model Decision Line"
+      ],
+      "source_citation": "Page 1: 'We call this concept a Business Model Decision Line (BMDL)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Mobile applications",
+      "synonyms_found": [
+        "mobile applications",
+        "mobile app"
+      ],
+      "source_citation": "Page 1: 'We implement our approach in a tool and illustrate the usefulness with an example of developing business models for a mobile application.' | Page 5: 'In the example, we create an adaptive business model for a to-do app in the market of mobile applications.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2C",
+      "synonyms_found": [
+        "Private Users",
+        "Professional Users"
+      ],
+      "source_citation": "Page 1: 'the company is focussing on a customer segment of Private Users (Pri) by providing an app' | Page 6: 'we focused on different customer segments of private users'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Germany",
+      "synonyms_found": [
+        "Paderborn, Germany"
+      ],
+      "source_citation": "Page 1: 'Paderborn University, Paderborn, Germany'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Private users with different specializations (fitness improver, life improver, business improver)",
+      "synonyms_found": [
+        "fitness improver",
+        "life improver",
+        "business improver",
+        "Private Users"
+      ],
+      "source_citation": "Page 6: 'we focused on different customer segments of private users for which we proposed different value propositions to solve their problems. Here, we have the fitness improver, who will get special features for meal and gym times, and life improver, who we will propose to save a work&life balance. Moreover, we have business improver, where we will use the proposition to optimize workflows to get more done at the same time.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform"
+      ],
+      "synonyms_found": [
+        "mobile application",
+        "to-do app",
+        "feature model",
+        "BMDL Feature Modeler"
+      ],
+      "source_citation": "Page 1: 'developing business models for a mobile application' | Page 6: 'We implemented our solution in a web-based tool called BMDL Feature Modeler'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Mobile",
+        "Multi-tenant SaaS"
+      ],
+      "synonyms_found": [
+        "mobile application",
+        "web-based tool"
+      ],
+      "source_citation": "Page 1: 'developing business models for a mobile application' | Page 6: 'We implemented our solution in a web-based tool called BMDL Feature Modeler'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription",
+        "Advertising"
+      ],
+      "synonyms_found": [
+        "License Subscription",
+        "In-App Advertisements",
+        "In-App Ads"
+      ],
+      "source_citation": "Page 1: 'As a result, they add License Subscription (LS) as an additional revenue stream' | Page 2: 'from which money can be generated through different revenue streams (e.g. In-App Advertisements, License Purchase, License Subscription)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium",
+        "Tiers/Plans"
+      ],
+      "synonyms_found": [
+        "Free For All",
+        "Standard Subscription",
+        "Premium Subscription"
+      ],
+      "source_citation": "Page 1: 'which is Free For All (FA) by using In-App Ads (IA)' | Page 5: 'License Subscription could be refined to Standard Subscription and Premium Subscription'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product",
+      "synonyms_found": [
+        "mobile application",
+        "to-do app"
+      ],
+      "source_citation": "Page 1: 'developing business models for a mobile application' | Page 5: 'we create an adaptive business model for a to-do app'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Digital marketing",
+        "Partners/channels"
+      ],
+      "synonyms_found": [
+        "Facebook advertisements",
+        "Facebook Ads",
+        "specialized online communities"
+      ],
+      "source_citation": "Page 6: 'we found out that a broader range of customer segments can be reached with Facebook advertisements, while dedicated customer segments can be found in specialized online communities' | Page 6: 'Example business model decisions which need to be tested are a Facebook group for customer acquisition'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": false,
+      "extracted_value": "No",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Different value propositions for different customer segments (fitness features, work-life balance, workflow optimization)",
+        "Customer Segment: Private Users, Professional Users, fitness improver, life improver, business improver",
+        "Channels: Facebook advertisements, specialized online communities, Facebook groups",
+        "Revenue Streams: In-App Advertisements, License Subscription, License Purchase",
+        "Key Activities: Business model adaptation, hypothesis validation through experiments",
+        "Key Resources: Feature model, business domain knowledge, experimentation artifacts",
+        "Key Partnerships: not reported",
+        "Customer Relationship: Customer support mentioned for business improver segment",
+        "Cost Structure: not reported"
+      ],
+      "synonyms_found": [
+        "Business Model Canvas",
+        "BMC",
+        "building blocks"
+      ],
+      "source_citation": "Page 2: 'The BMC divides the business model into the nine building blocks of Customer Segments, Value Propositions, Channels, Customer Relationships, Key Activities, Key Resources, Key Partners, Revenue Streams, and Cost Structure' | Page 6: 'we focused on different customer segments of private users for which we proposed different value propositions' | Page 6: 'customer support as relationship and workflow tracking as value offering for business improver'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": [
+        "Business Developer | Creates and adapts business models | Uses BMDL approach to derive business models | Interacts with customers through experiments",
+        "Customers | Provide feedback and validation | Participate in experiments and surveys | Provide needs and requirements",
+        "Competitors | Provide market context | Analyzed for business model decisions | Not directly interacting",
+        "Domain Experts | Provide market knowledge | Consulted during market analysis | Share expertise with business developers"
+      ],
+      "synonyms_found": [
+        "business developer",
+        "customers",
+        "competitors",
+        "domain experts"
+      ],
+      "source_citation": "Page 4: 'The business developer needs to define the range of the scope' | Page 4: 'interviews with domain experts or the analysis of market reports can be done' | Page 5: 'analyze how their competitors solve a customer problem' | Page 6: 'customer surveys or customer journeys can be performed'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Continuous innovation requirement to stay competitive",
+        "Difficulty in defining effective business models",
+        "Need to adapt to uncertain and changing customer needs",
+        "Requirement to validate business model hypotheses efficiently and effectively"
+      ],
+      "synonyms_found": [
+        "continuous innovation",
+        "stay competitive",
+        "effective business model",
+        "customer needs"
+      ],
+      "source_citation": "Page 1: 'The continuous innovation of its business models is an important task for a company to stay competitive' | Page 1: '64% of these executives have the difficulty to define an effective business model to support new ideas and make them profitable' | Page 1: 'adapting to uncertain and changing customer needs effectively and efficiently'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Comprehensive overview of possible business model adaptations → Effective discovery of multiple configurations",
+        "Separation of business model construction from experiment conduction → Efficient reuse of experimentation artifacts",
+        "Deep analysis of market, competitors, and customers → Competitive advantage through working business model decisions",
+        "Feature model development for one product as starting point → Reusability for other products"
+      ],
+      "synonyms_found": [
+        "comprehensive overview",
+        "separation",
+        "deep analysis",
+        "feature model"
+      ],
+      "source_citation": "Page 7: 'The effectiveness of our approach is supported by the derivation of business models from a common superset of possible business model adaptations' | Page 7: 'The efficiency of our approach is supported by the separation of the construction of business models from conducting experiments' | Page 7: 'we discovered in our example, that it has advantages in combining working business model decisions of competitors with our own niche decisions to gain a competitive advantage'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Business domain knowledge → Required for creating feature model",
+        "Market analysis → Affects domain scoping and feature identification",
+        "Competitor analysis → Influences business model decision identification",
+        "Customer needs analysis → Determines feature selection and business model derivation"
+      ],
+      "synonyms_found": [
+        "business domain knowledge",
+        "market analysis",
+        "competitor analysis",
+        "customer needs"
+      ],
+      "source_citation": "Page 4: 'The Domain Scoping collects the information about the target market, existing competitors, and the niche of the own product' | Page 4: 'The Domain Modeling uses this information to create a feature model' | Page 5: 'The Customer Analysis connects the knowledge of Business Analysis with the concrete needs of the customers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Professional Users require Save Privacy option → Excludes In-App Advertisements",
+        "Facebook Ads requires Private Users as customers → Limits customer acquisition channel options"
+      ],
+      "synonyms_found": [
+        "Professional Users",
+        "Save Privacy",
+        "In-App Advertisements",
+        "Facebook Ads",
+        "Private Users"
+      ],
+      "source_citation": "Page 7: 'In our example, the In-App Advertisement is excluded from Save Privacy and the Facebook Ads requires Private User[s] as customers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Time-consuming scoping process compared to direct business model development",
+        "Finding the right granularity for feature modeling",
+        "Some experimentation artifacts are too specific for efficient reuse",
+        "Upfront investment required for deep analysis and artifact identification"
+      ],
+      "synonyms_found": [
+        "scoping process",
+        "granularity",
+        "artifacts",
+        "upfront investment"
+      ],
+      "source_citation": "Page 7: 'it is comparatively time-consuming to analyze the market and competitors instead of starting directly with the development of a business model' | Page 7: 'The Modeling Granularity is a major issue both in business modeling and traditional SPL engineering' | Page 7: 'we realized that some artifacts are too specific to reuse them one-to-one for different hypotheses'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Starting with coarser granularity and refining when required → Mitigates modeling granularity issues → Reduces time increase in scoping process",
+        "Reactive approach to extend feature model incrementally → Mitigates upfront investment challenge → Allows adaptation to new requirements",
+        "Thinking about which artifacts are reusable and which can be evolved → Mitigates artifact specificity challenge → Speeds up business model adaptation"
+      ],
+      "synonyms_found": [
+        "coarser granularity",
+        "reactive approach",
+        "reusable artifacts"
+      ],
+      "source_citation": "Page 7: 'we propose starting with a coarser granularity to model the main variation points of different business model decisions and refine this granularity when it is required' | Page 4: 'we adopt the idea of Alves et al. to build an extractive feature model of business model decisions that is extended in a reactively by analyzing customer needs' | Page 7: 'we see it as an advantage for business developers to think about which artifacts are reuseable and which former artifacts can be evolved for reusing'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Metric: Business model decisions; Value: 89; Unit: decisions; Period: not specified; Method: domain model creation; Source: existing business domain model",
+        "Metric: Competitor business model decisions; Value: 47-60; Unit: decisions; Period: not specified; Method: competitor analysis; Source: Microsoft ToDo (47), Wunderlist (60), Any.do (57), Todoist (57)",
+        "Metric: Feature model features; Value: 152; Unit: features; Period: not specified; Method: feature model abstraction; Source: business model decisions analysis",
+        "Metric: Niche decisions; Value: 31; Unit: decisions; Period: not specified; Method: niche analysis; Source: competitor weakness analysis"
+      ],
+      "synonyms_found": [
+        "89 variation points",
+        "47 business model decisions",
+        "152 features",
+        "31 decisions"
+      ],
+      "source_citation": "Page 4: 'It was created for mobile applications and consists of 89 variation points of different business model decisions' | Page 5: 'we analyzed the to-do apps named Microsoft ToDo (which consists of 47 business model decisions), Wunderlist (60 decisions), Any.do (57 decisions) and Todoist (57 decisions)' | Page 5: 'we used the business model decisions to abstract a feature model with 152 features' | Page 5: 'we found different niches (31 decisions), which are currently not implemented by the analyzed competitors'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2020 + Emerging",
+      "synonyms_found": [
+        "2020",
+        "emerging"
+      ],
+      "source_citation": "Page 1: '2020 IEEE 22nd Conference on Business Informatics (CBI)' | The article presents a new approach being introduced, indicating emerging status",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Single case study",
+      "synonyms_found": [
+        "example",
+        "to-do app"
+      ],
+      "source_citation": "Page 1: 'We implement our approach in a tool and illustrate the usefulness with an example of developing business models for a mobile application' | Page 5: 'we create an adaptive business model for a to-do app in the market of mobile applications'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Microsoft ToDo → Analyzed as competitor with 47 business model decisions",
+        "Wunderlist → Analyzed as competitor with 60 business model decisions",
+        "Any.do → Analyzed as competitor with 57 business model decisions",
+        "Todoist → Analyzed as competitor with 57 business model decisions",
+        "Apple's iOS → On-board applications with 27 business model decisions",
+        "Google's Android → On-board applications with 26 business model decisions",
+        "BMDL Feature Modeler → Tool implementation of the BMDL approach"
+      ],
+      "synonyms_found": [
+        "Microsoft ToDo",
+        "Wunderlist",
+        "Any.do",
+        "Todoist",
+        "Apple's iOS",
+        "Google's Android",
+        "BMDL Feature Modeler"
+      ],
+      "source_citation": "Page 5: 'we analyzed the to-do apps named Microsoft ToDo (which consists of 47 business model decisions), Wunderlist (60 decisions), Any.do (57 decisions) and Todoist (57 decisions), together with the on-board applications of Apple's iOS (27 decisions) and Google's Android (26 decisions)' | Page 6: 'We implemented our solution in a web-based tool called BMDL Feature Modeler'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Standard Subscription → Basic subscription tier",
+        "Premium Subscription → Advanced subscription tier",
+        "Free For All → Freemium model with in-app advertisements",
+        "License Subscription → Paid subscription model"
+      ],
+      "synonyms_found": [
+        "Standard Subscription",
+        "Premium Subscription",
+        "Free For All",
+        "License Subscription"
+      ],
+      "source_citation": "Page 1: 'which is Free For All (FA) by using In-App Ads (IA)' | Page 5: 'License Subscription could be refined to Standard Subscription and Premium Subscription' | Page 1: 'As a result, they add License Subscription (LS) as an additional revenue stream'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Use questionnaire models to improve derivation of business knowledge and customer needs",
+        "Integration of business model patterns in the tool to support idea generation",
+        "User study in the form of a student seminar on lean development of mobile applications",
+        "Analysis of the evolvement of the feature model and reusability of experiments over time"
+      ],
+      "synonyms_found": [
+        "questionnaire models",
+        "business model patterns",
+        "user study",
+        "student seminar"
+      ],
+      "source_citation": "Page 8: 'First, we want to use questionnaire models to improve the derivation of business knowledge and customer needs. Moreover, we want to integrate business model patterns in our tool to support idea generation. Second, we want to evaluate the applicability of our approach by providing a user study in the form of a student seminar on the lean development of mobile applications at the university. In the seminar, our approach should be used over time to analyze the evolvement of the feature model and the reusability of the experiments.'",
+      "confidence_level": "high"
+    }
+  ]
+}

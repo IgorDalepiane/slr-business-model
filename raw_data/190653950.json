@@ -1,0 +1,494 @@
+{
+  "extraction_metadata": {
+    "article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+    "extraction_date": "2025-01-22"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Freemium - A business model where a firm offers a base product for free and users can pay for premium content and features after they have adopted the base product",
+      "synonyms_found": [
+        "free-to-play",
+        "freemium"
+      ],
+      "source_citation": "Page 1: 'The freemium business model —where a firm offers a base product for free and users can pay for premium content and features after they have adopted the base product —has gained widespread popularity on digital platforms'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "free-to-play",
+        "freemium"
+      ],
+      "synonyms_found": [
+        "free-to-play",
+        "freemium"
+      ],
+      "source_citation": "Page 1: 'Freemium —or, free-to-play —and paid games compete side-by-side on Steam'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Gaming",
+      "synonyms_found": [
+        "digital games",
+        "video games",
+        "PC games"
+      ],
+      "source_citation": "Page 1: 'We test this dynamic on a sample of 9,700 digital games on Steam' and 'Freemium has become a popular business model among firms competing on digital platforms'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2C",
+      "synonyms_found": [
+        "consumers",
+        "users",
+        "players"
+      ],
+      "source_citation": "Page 1: 'Freemium products require widespread diffusion for their success: Only a small portion of freemium users spends money on premium upgrades'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Mixed - both independent (indie) publishers and incumbent publishers",
+      "synonyms_found": [
+        "independent publishers",
+        "incumbent publishers",
+        "indie publishers"
+      ],
+      "source_citation": "Page 14: 'Independent —or indie— publishers are smaller in size, focus their development efforts on creative and innovative output, and tend to have less (financial) resources. Incumbent publishers, on the other hand, are larger, focus on exploiting established intellectual properties, and are typically flush with resources'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Global (Steam platform serves worldwide)",
+      "synonyms_found": [
+        "Steam platform",
+        "digital platforms"
+      ],
+      "source_citation": "Page 8: 'Steam, the market-leading platform for digitally distributed PC games for the Windows, Mac, and Linux operating systems'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Video game players on digital platforms",
+      "synonyms_found": [
+        "gamers",
+        "players",
+        "digital game users"
+      ],
+      "source_citation": "Page 1: 'We explore this question by analyzing a sample of 9,700 products released between 2011 and 2016 on Steam; the market-leading distribution platform for digital PC games'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform"
+      ],
+      "synonyms_found": [
+        "digital games",
+        "video games",
+        "platform"
+      ],
+      "source_citation": "Page 1: 'digital games on Steam' and 'digital platforms'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Multi-tenant SaaS"
+      ],
+      "synonyms_found": [
+        "digital distribution",
+        "Steam platform"
+      ],
+      "source_citation": "Page 8: 'Steam, the market-leading platform for digitally distributed PC games'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Proprietary",
+      "synonyms_found": [
+        "proprietary"
+      ],
+      "source_citation": "Page 8: 'Developers that wish to release their games on Steam must design their software to be compatible with Steamworks, Valve's proprietary software development kit'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Steamworks compatibility requirement → Platform distribution"
+      ],
+      "synonyms_found": [
+        "Steamworks compatibility",
+        "Steam API"
+      ],
+      "source_citation": "Page 8: 'Developers that wish to release their games on Steam must design their software to be compatible with Steamworks, Valve's proprietary software development kit'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Usage/consumption"
+      ],
+      "synonyms_found": [
+        "in-app purchases",
+        "premium upgrades",
+        "in-game purchases"
+      ],
+      "source_citation": "Page 1: 'Free-to-play games generate revenues exclusively from in-app purchases (e.g., cosmetic enhancements, additional content, etc.)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Others",
+      "synonyms_found": [
+        "in-app purchases",
+        "premium items"
+      ],
+      "source_citation": "Page 4: 'product bundle decomposition allows heterogeneous users to mix-and-match a combination of premium items that closely reflects their willingness-to-pay'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium"
+      ],
+      "synonyms_found": [
+        "freemium model",
+        "free-to-play"
+      ],
+      "source_citation": "Page 1: 'The freemium business model —where a firm offers a base product for free and users can pay for premium content and features after they have adopted the base product'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product",
+      "synonyms_found": [
+        "game developers",
+        "publishers"
+      ],
+      "source_citation": "Page 8: 'The first externally developed PC games on Steam were released in 2005, and the number of games has grown exponentially since'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Direct (more users = more value)",
+      "synonyms_found": [
+        "network effects",
+        "social features"
+      ],
+      "source_citation": "Page 5: 'Products that incorporate social features —and which also manage to attract a large user base —generate network effects' and 'a user's benefits increase with the total number of users of the same product'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Product-led Growth",
+        "Referral"
+      ],
+      "synonyms_found": [
+        "social referral",
+        "word-of-mouth",
+        "diffusion"
+      ],
+      "source_citation": "Page 5: 'freemium products enjoy stronger social referral through word-of-mouth than paid products' and 'Consumers are more inclined to recommend products that exhibit low risks to adoption, such as those products that are free to use'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes - Steam platform",
+      "synonyms_found": [
+        "Steam",
+        "Steam platform"
+      ],
+      "source_citation": "Page 8: 'Steam, the market-leading platform for digitally distributed PC games' and 'We test this dynamic on a sample of 9,700 digital games on Steam'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Free base product with optional premium features",
+        "Customer Segment: Digital platform users seeking free entertainment",
+        "Revenue Streams: In-app purchases and premium upgrades",
+        "Key Activities: Product development, user engagement, data analytics",
+        "Cost Structure: Development costs, platform fees"
+      ],
+      "synonyms_found": [
+        "business model",
+        "freemium model"
+      ],
+      "source_citation": "Page 4: 'freemium products offer users a menu of paid items in the form of in-app purchases' and 'Firms operating the freemium model must therefore develop distinct capabilities in such areas as user engagement, data analytics, price menu design, and product life cycle management'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": [
+        "Game Developers/Publishers | Product Creation | Provides games to platform | Interacts with platform provider",
+        "Platform Provider (Steam/Valve) | Distribution | Provides distribution and monetization tools | Interacts with developers and users",
+        "Users/Players | Consumption | Downloads and plays games, makes in-app purchases | Interacts with other players through social features"
+      ],
+      "synonyms_found": [
+        "developers",
+        "publishers",
+        "platform",
+        "users",
+        "players"
+      ],
+      "source_citation": "Page 8: 'Steam was created in 2003 by game publisher Valve' and 'The first externally developed PC games on Steam were released in 2005' and 'Users can download and use these products free of charge and have the option to make in-app purchases'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Widespread diffusion requirements",
+        "Low barriers to adoption",
+        "Strong social referral potential",
+        "Network effects generation"
+      ],
+      "synonyms_found": [
+        "diffusion",
+        "adoption",
+        "network effects"
+      ],
+      "source_citation": "Page 1: 'Freemium products require widespread diffusion for their success' and 'Freemium's low barriers to adoption paired with strong network effects from social features can create a virtuous cycle'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Large platform installed base → Higher probability of becoming superstar",
+        "Social features → Network effects and increased adoption",
+        "Product quality → Better performance outcomes"
+      ],
+      "synonyms_found": [
+        "platform installed base",
+        "social features",
+        "product quality"
+      ],
+      "source_citation": "Page 6: 'When the platform's installed base is large, free-to-play games with many social features have a 49 percentage points higher probability of becoming a superstar than free-to-play games without any social features'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Large platform installed base → Network effects generation",
+        "Steamworks compatibility → Platform distribution",
+        "Social features → Enhanced user engagement"
+      ],
+      "synonyms_found": [
+        "platform installed base",
+        "Steamworks",
+        "social features"
+      ],
+      "source_citation": "Page 6: 'freemium products will be more likely to benefit from incorporating social features when they are launched on a platform with a large (rather than a small) installed base' and 'Developers that wish to release their games on Steam must design their software to be compatible with Steamworks'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Small platform installed base → Reduced network effects",
+        "Limited demand potential → Decreased superstar probability"
+      ],
+      "synonyms_found": [
+        "small installed base",
+        "limited demand potential"
+      ],
+      "source_citation": "Page 6: 'when the platform's installed base is small, free-to-play games with many social features have a 26 percentage points lower probability of becoming a superstar'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Requiring widespread diffusion for success",
+        "Low conversion rates to paid users",
+        "Demand heterogeneity among users",
+        "Temporal decoupling affecting value perception"
+      ],
+      "synonyms_found": [
+        "widespread diffusion",
+        "conversion rates",
+        "demand heterogeneity"
+      ],
+      "source_citation": "Page 4: 'Freemium products require widespread diffusion for their success: Only a small portion of freemium users spends money on premium upgrades' and 'temporally decoupling a product's use from optional payments for premium content or features negatively impacts users' perception of value'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Incorporating social features → Enhances diffusion → Increases user base and network effects",
+        "Platform selection with large installed base → Improves demand potential → Higher success probability",
+        "Product bundle decomposition → Addresses demand heterogeneity → Better user satisfaction"
+      ],
+      "synonyms_found": [
+        "social features",
+        "platform selection",
+        "bundle decomposition"
+      ],
+      "source_citation": "Page 5: 'To overcome these challenges and stimulate a product's diffusion, firms often incorporate social features into freemium products' and 'product bundle decomposition allows heterogeneous users to mix-and-match a combination of premium items'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Sample size: 9,700 digital games; Value: 2011-2016; Unit: games; Period: study period; Method: Steam platform data; Source: Steam Spy and Valve API",
+        "Superstar probability difference: 49 percentage points; Value: large installed base; Unit: percentage points; Period: conditional; Method: statistical analysis; Source: regression results",
+        "Conversion rate: 2-5%; Value: freemium players; Unit: percentage; Period: ongoing; Method: industry data; Source: video game industry reports"
+      ],
+      "synonyms_found": [
+        "sample size",
+        "percentage points",
+        "conversion rate"
+      ],
+      "source_citation": "Page 6: 'When the platform's installed base is large, free-to-play games with many social features have a 49 percentage points higher probability of becoming a superstar' and 'between two and 5% of a freemium game's player base spends money on in-app purchases'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Observed period 2011-2016 + Growing maturity status",
+      "synonyms_found": [
+        "2011-2016",
+        "growing",
+        "mature"
+      ],
+      "source_citation": "Page 8: 'We start our estimation sample by considering all games released on Steam from 2011 to 2016' and 'The share of free-to-play games also grew during our study time-period from 0.05 in 2011 to 0.10 in 2016'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Secondary data analysis",
+      "synonyms_found": [
+        "archival data",
+        "Steam data",
+        "Steam Spy"
+      ],
+      "source_citation": "Page 8: 'Data were collected primarily from two sources. First, we collected game-level downloads data for every game released between 2005 and 2017 from Steam Spy' and 'Our second data source is Valve's public web-based API'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Skype → Telecommunications program with free base service and paid calling credits",
+        "Tinder → Online dating application with free base service and paid Super Likes",
+        "Fortnite → Video game with free base game and paid cosmetic items",
+        "Dota 2 → Free-to-play game that became most downloaded on Steam",
+        "Paladins → Popular free-to-play game on Steam",
+        "Heroes and Generals → Free-to-play game generating revenues from in-game purchases"
+      ],
+      "synonyms_found": [
+        "Skype",
+        "Tinder",
+        "Fortnite",
+        "Dota 2",
+        "Paladins",
+        "Heroes and Generals"
+      ],
+      "source_citation": "Page 1: 'including the telecommunications program Skype and the online dating application Tinder. Users can download and use these products free of charge and have the option to make in-app purchases, including Skype's credit for making calls to mobile phones and landlines and Tinder's Super Likes'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Free-to-play with social features → Enhanced network effects and user engagement",
+        "Free-to-play without social features → Standalone functionality focus"
+      ],
+      "synonyms_found": [
+        "social features",
+        "standalone functionality"
+      ],
+      "source_citation": "Page 6: 'free-to-play games with many social features have a 49 percentage points higher probability of becoming a superstar than free-to-play games without any social features'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Platform generational breaks affecting demand potential",
+        "Life cycle dynamics of freemium products",
+        "Value capture strategies optimization",
+        "Mobile app store expansion with higher freemium adoption"
+      ],
+      "synonyms_found": [
+        "platform generational breaks",
+        "life cycle dynamics",
+        "value capture strategies"
+      ],
+      "source_citation": "Page 22: 'A potential boundary condition of our work is the extent that a platform's life cycle is finite. Platforms tied to a specialized technology product, such as a video game console or a smartphone, are often replaced by a next-generation platform after some time' and 'We also believe it will be important to gain better understanding about the life cycle dynamics of freemium products'",
+      "confidence_level": "high"
+    }
+  ]
+}

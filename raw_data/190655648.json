@@ -1,0 +1,505 @@
+{
+  "extraction_metadata": {
+    "article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Free-to-play model - A business model where games are freely accessible and generate revenue primarily via optional virtual consumption, with only a small percentage of players becoming payers",
+      "synonyms_found": [
+        "free-to-play",
+        "freemium",
+        "Saga envelope"
+      ],
+      "source_citation": "Page 1: 'Rather than drawing on the traditional paid-for or \"premium\" revenue model and charging an upfront fee per game, King derived its 2013 profits primarily via optional virtual consumption.' | Page 7: 'The free-to-play commodity form comprises three commodity types: the product commodity, the \"prosumer commodity,\" and the player commodity.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "freemium",
+        "Saga envelope",
+        "free-to-play"
+      ],
+      "synonyms_found": [
+        "freemium",
+        "Saga envelope",
+        "free-to-play model",
+        "optional virtual consumption model"
+      ],
+      "source_citation": "Page 6: 'The freemium and free-to-play categories are often used interchangeably.' | Page 7: 'The format encompasses \"a path through hundreds of game levels, social features that allow interactions with others, viral mechanics, and a variety of virtual items available for purchase\" (King Digital Entertainment, 2014a, p. 86). The Saga envelope structures all of King's games.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Gaming/Mobile Gaming",
+      "synonyms_found": [
+        "game apps",
+        "mobile games",
+        "casual games",
+        "social games",
+        "app economy"
+      ],
+      "source_citation": "Page 1: 'The stock market launch of game studio King Digital Entertainment in March of 2014 can be regarded as a decisive moment in the nascent app economy.' | Page 5: 'The free-to-play model in particular radically altered the production, distribution, and marketing of game apps.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2C",
+      "synonyms_found": [
+        "players",
+        "consumers",
+        "users"
+      ],
+      "source_citation": "Page 1: 'A mere 3% of its player network of over 300+ million consisted of payers (King Digital Entertainment, 2014a, p. 5).' | Page 6: 'This low conversion rate of players into payers favors economies of scale.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Growing startups to large corporations",
+      "synonyms_found": [
+        "game studios",
+        "developers",
+        "game companies"
+      ],
+      "source_citation": "Page 1: 'In a matter of 2 years, the company's revenue grew from US$63 million in 2011 to US$1.8 billion in 2013, and the developer turned a million dollar loss in 2011 into a US$567 million profit in 2013.' | Page 4: 'The lower barrier to market entry for app development also made the app economy a highly competitive market.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Global/International",
+      "synonyms_found": [
+        "global",
+        "international",
+        "worldwide"
+      ],
+      "source_citation": "Page 1: 'King Digital Entertainment' (Swedish company) | Page 8: 'The revenue intake associated with the app economy ballooned since 2008 and has grown into a formidable market segment. Market researcher Newzoo projected that in 2015 the mobile segment's US$30.3 billion in global revenue will overtake the revenue generated via the sale of Triple-A console games.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Casual game players",
+      "synonyms_found": [
+        "casual gamers",
+        "casual game players",
+        "mobile game players"
+      ],
+      "source_citation": "Page 4: 'Casual games differ from the previous decades of so-called \"hard-core\" games because (1) their fiction preference tends to be positive, (2) casual games require less initial knowledge to play, and (3) they demand lower time investments (Juul, 2010, p. 54). The pick-up-and-play nature of casual gaming.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform"
+      ],
+      "synonyms_found": [
+        "games",
+        "apps",
+        "game applications"
+      ],
+      "source_citation": "Page 1: 'Rather than being available on dedicated game devices or on a self-owned web-based portal, casual games such as Candy Crush are increasingly hosted and played on smartphones, tablets, and social network sites.' | Page 5: 'King uses \"a well-practiced, low-cost, low-risk process for game development where we have typically developed a new game IP with a team of three people in 20 weeks\" (King Digital Entertainment, 2014a, p. 51).'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Multi-tenant SaaS",
+        "Mobile",
+        "Desktop"
+      ],
+      "synonyms_found": [
+        "app stores",
+        "mobile devices",
+        "social networks"
+      ],
+      "source_citation": "Page 1: 'Rather than being available on dedicated game devices or on a self-owned web-based portal, casual games such as Candy Crush are increasingly hosted and played on smartphones, tablets, and social network sites.' | Page 3: 'I played the game extensively on Facebook, an Android-powered Samsung smartphone, on Amazon's Kindle Fire, the iPad, and the iPhone.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Proprietary",
+      "synonyms_found": [
+        "proprietary",
+        "owned IP"
+      ],
+      "source_citation": "Page 4: 'The money was invested in a broader portfolio of casual games, or as game developers call it \"intellectual properties\" or \"IP's,\" many of which were used as templates for later hits.' | Page 5: 'King uses \"a well-practiced, low-cost, low-risk process for game development where we have typically developed a new game IP with a team of three people in 20 weeks\" (King Digital Entertainment, 2014a, p. 51).'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Usage/consumption",
+        "Transaction",
+        "Advertising"
+      ],
+      "synonyms_found": [
+        "virtual consumption",
+        "in-app purchases",
+        "advertising"
+      ],
+      "source_citation": "Page 1: 'King derived its 2013 profits primarily via optional virtual consumption.' | Page 7: 'The free-to-play commodity form comprises three commodity types: the product commodity, the \"prosumer commodity,\" and the player commodity.' | Page 8: 'The third monetization strategy uses advertising and concerns an industry practice that in the realm of free-to-play games is known as \"paid player acquisition\" or \"user acquisition.\"'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Virtual items/Currency",
+      "synonyms_found": [
+        "virtual currency",
+        "gold bars",
+        "virtual items"
+      ],
+      "source_citation": "Page 7: 'At any point in the game, players can buy in-game gold bars, which can be spent in three ways.' | Page 7: 'In the second half of August we transitioned Candy Crush mobile to virtual currency called King gold bars in our games\" (King Digital Entertainment, 2014c).'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium",
+        "Pay-as-you-go"
+      ],
+      "synonyms_found": [
+        "free-to-play",
+        "optional virtual consumption",
+        "in-app purchases"
+      ],
+      "source_citation": "Page 1: 'Rather than drawing on the traditional paid-for or \"premium\" revenue model and charging an upfront fee per game, King derived its 2013 profits primarily via optional virtual consumption.' | Page 6: 'The freemium and free-to-play categories are often used interchangeably.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "USD, on-demand",
+      "synonyms_found": [
+        "US dollars",
+        "virtual currency",
+        "gold bars"
+      ],
+      "source_citation": "Page 7: 'In the second half of August we transitioned Candy Crush mobile to virtual currency called King gold bars in our games\" (King Digital Entertainment, 2014c).' | Page 8: 'Interviewees noted that over the course of 2014, the price tag for individual players ranged between USD0.50 up to US$12 in competitive Western markets.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Complementor",
+      "synonyms_found": [
+        "complementor",
+        "game developer",
+        "app developer"
+      ],
+      "source_citation": "Page 2: 'Companies such as Google, Apple, Facebook, and Amazon operate as platform holders, who set the platform's technological standards and governance model, and mediate between, on the one hand \"buyers\" (e.g. players), and on the other hand suppliers (e.g. King) or \"complementors\" (Gawer, 2009).' | Page 8: 'For Facebook, companies such as King fulfill an important double role.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Direct (more users = more value)",
+      "synonyms_found": [
+        "network effects",
+        "network externalities"
+      ],
+      "source_citation": "Page 2: 'Inherent to multisided markets are network externalities—or network effects—, meaning that the value or utility of product or service (whether actual, perceived, or anticipated value) is causally related to the number of users, or anticipated users.' | Page 2: 'As a result, the more people play Candy Crush Saga, the more effective and valuable the game's connective (or \"social\") components become for both the players and for King.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Product-led Growth",
+        "Digital marketing",
+        "Referral"
+      ],
+      "synonyms_found": [
+        "organic growth",
+        "viral mechanics",
+        "user acquisition"
+      ],
+      "source_citation": "Page 7: 'The ask-for-help feature to gain access to additional episodes is one example of how the connective affordances of Facebook are implemented in the core design of the Saga template. By doing so, King repurposes seemingly social gestures, such as gifting, to generate \"organic growth\" (Burroughs, 2014).' | Page 5: 'Rather than advertising apps in traditional outlets, such as in magazines or on TV, game developers predominantly advertise in other apps through \"interstitials\" (full screen images) or short video clips, a business practice often referred to as \"user acquisition\" (Luton, 2013).'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes",
+      "synonyms_found": [
+        "app stores",
+        "platforms"
+      ],
+      "source_citation": "Page 1: 'Google, Apple, Facebook, and Amazon operate, what I call \"connective game platforms,\" constituting a range of devices (e.g. iPhone, Kindle Fire), operating systems (e.g. iOS and Android), and applications stores (e.g. Apple's App Store).' | Page 5: 'After the 2007 launch of the iPhone, Apple adopted a multisided strategy as well by opening the App Store for its iOS-powered devices in July 2008.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Free-to-play games with optional virtual consumption and social connectivity",
+        "Customer Segment: Casual game players and mobile app users",
+        "Revenue Streams: In-app purchases, advertising, and user acquisition",
+        "Key Activities: Game development, data-driven optimization, and platform integration",
+        "Key Partnerships: Platform holders (Google, Apple, Facebook, Amazon)",
+        "Cost Structure: Marketing and user acquisition costs"
+      ],
+      "synonyms_found": [
+        "business model",
+        "monetization strategies",
+        "revenue model"
+      ],
+      "source_citation": "Page 1: 'Rather than drawing on the traditional paid-for or \"premium\" revenue model and charging an upfront fee per game, King derived its 2013 profits primarily via optional virtual consumption.' | Page 7: 'The free-to-play commodity form comprises three commodity types: the product commodity, the \"prosumer commodity,\" and the player commodity.' | Page 8: 'In 2014, King spent US$455 million on marketing and sales.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Platform holders (Google, Apple, Facebook, Amazon) | Set technological standards and governance | Interface between players and developers | Control app distribution and monetization\nGame developers (King) | Create and distribute games | Generate revenue through platform | Depend on platform for distribution\nPlayers/Users | Consume games and generate data | Provide attention and engagement | May convert to paying customers\nAdvertisers | Purchase advertising space | Target specific user segments | Generate revenue for platforms and developers",
+      "synonyms_found": [
+        "platform holders",
+        "complementors",
+        "players",
+        "advertisers"
+      ],
+      "source_citation": "Page 2: 'Companies such as Google, Apple, Facebook, and Amazon operate as platform holders, who set the platform's technological standards and governance model, and mediate between, on the one hand \"buyers\" (e.g. players), and on the other hand suppliers (e.g. King) or \"complementors\" (Gawer, 2009).' | Page 8: 'For Facebook, companies such as King fulfill an important double role. On the one hand, they generate indirect network effects, adding value to the Facebook platform by offering games, such as Candy Crush Saga, directly on the Facebook website. On the other hand, app developers, such as King, spend millions on advertising, thereby enabling Facebook to commodify its connective properties.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Lower barrier to market entry compared to traditional console games",
+        "Ability to reach massive global audiences",
+        "Potential for high revenue through network effects",
+        "Integration with existing social media platforms"
+      ],
+      "synonyms_found": [
+        "motivations",
+        "reasons",
+        "drivers"
+      ],
+      "source_citation": "Page 4: 'The lower barrier to market entry for app development also made the app economy a highly competitive market.' | Page 2: 'As a result, the more people play Candy Crush Saga, the more effective and valuable the game's connective (or \"social\") components become for both the players and for King.' | Page 1: 'In a matter of 2 years, the company's revenue grew from US$63 million in 2011 to US$1.8 billion in 2013.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Network effects → Increased value with more users",
+        "Data-driven optimization → Better player engagement and monetization",
+        "Platform integration → Access to large user bases",
+        "Viral mechanics → Organic user acquisition"
+      ],
+      "synonyms_found": [
+        "success factors",
+        "key elements",
+        "critical components"
+      ],
+      "source_citation": "Page 2: 'As a result, the more people play Candy Crush Saga, the more effective and valuable the game's connective (or \"social\") components become for both the players and for King.' | Page 6: 'This particular mode of production and circulation is mutually constituted by the connective logic of social media platforms.' | Page 7: 'The ask-for-help feature to gain access to additional episodes is one example of how the connective affordances of Facebook are implemented in the core design of the Saga template. By doing so, King repurposes seemingly social gestures, such as gifting, to generate \"organic growth\" (Burroughs, 2014).'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Platform access → Distribution through app stores and social networks",
+        "Large user base → Network effects require substantial player numbers",
+        "Data analytics capabilities → Optimization of player engagement and monetization",
+        "Social connectivity → Integration with social media platforms"
+      ],
+      "synonyms_found": [
+        "prerequisites",
+        "conditions",
+        "requirements"
+      ],
+      "source_citation": "Page 1: 'Rather than being available on dedicated game devices or on a self-owned web-based portal, casual games such as Candy Crush are increasingly hosted and played on smartphones, tablets, and social network sites.' | Page 6: 'This low conversion rate of players into payers favors economies of scale and requires game studios to use a data-driven approach to game development and circulation in order to optimize, what industry insiders call \"player monetization.\"'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Platform dependency → Limited control over distribution and monetization",
+        "Low conversion rates → Only 3% of players become payers",
+        "High marketing costs → Requires significant investment in user acquisition"
+      ],
+      "synonyms_found": [
+        "restrictions",
+        "limitations",
+        "challenges"
+      ],
+      "source_citation": "Page 1: 'A mere 3% of its player network of over 300+ million consisted of payers (King Digital Entertainment, 2014a, p. 5). This low conversion rate of players into payers favors economies of scale.' | Page 8: 'In 2014, King spent US$455 million on marketing and sales.' | Page 5: 'Even though developers are not vetted beforehand and the App Store is open to all, developers are faced with strict and rather opaque set of guidelines.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Discoverability of new apps in competitive market",
+        "Low player-to-payer conversion rates",
+        "Dependency on platform holders and their policies",
+        "High user acquisition costs"
+      ],
+      "synonyms_found": [
+        "challenges",
+        "problems",
+        "difficulties"
+      ],
+      "source_citation": "Page 5: 'The lower barrier to market entry for app development also made the app economy a highly competitive market and the discoverability of new apps has become a significant challenge.' | Page 1: 'A mere 3% of its player network of over 300+ million consisted of payers.' | Page 5: 'Even though developers are not vetted beforehand and the App Store is open to all, developers are faced with strict and rather opaque set of guidelines.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Data-driven optimization → Improved player engagement and retention",
+        "Viral mechanics and social features → Reduced user acquisition costs",
+        "Cross-platform development → Reduced dependency on single platform",
+        "Iterative development approach → Faster validation and adaptation"
+      ],
+      "synonyms_found": [
+        "practices",
+        "strategies",
+        "solutions"
+      ],
+      "source_citation": "Page 6: 'This low conversion rate of players into payers favors economies of scale and requires game studios to use a data-driven approach to game development and circulation in order to optimize, what industry insiders call \"player monetization.\"' | Page 7: 'The ask-for-help feature to gain access to additional episodes is one example of how the connective affordances of Facebook are implemented in the core design of the Saga template. By doing so, King repurposes seemingly social gestures, such as gifting, to generate \"organic growth\" (Burroughs, 2014).' | Page 5: 'King uses \"a well-practiced, low-cost, low-risk process for game development where we have typically developed a new game IP with a team of three people in 20 weeks\" (King Digital Entertainment, 2014a, p. 51).'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Revenue; US$1.8 billion; USD; 2013; Financial statements; King Digital Entertainment\nPlayer conversion rate; 3%; Percentage; 2013; Financial statements; King Digital Entertainment\nMarketing spend; US$455 million; USD; 2014; Financial statements; King Digital Entertainment\nPlayer acquisition cost; US$0.50-US$12; USD; 2014; Industry interviews; Interviewees\nUser base; 300+ million; Players; 2013; Financial statements; King Digital Entertainment",
+      "synonyms_found": [
+        "metrics",
+        "results",
+        "data"
+      ],
+      "source_citation": "Page 1: 'In a matter of 2 years, the company's revenue grew from US$63 million in 2011 to US$1.8 billion in 2013, and the developer turned a million dollar loss in 2011 into a US$567 million profit in 2013.' | Page 1: 'A mere 3% of its player network of over 300+ million consisted of payers (King Digital Entertainment, 2014a, p. 5).' | Page 8: 'In 2014, King spent US$455 million on marketing and sales.' | Page 8: 'Interviewees noted that over the course of 2014, the price tag for individual players ranged between USD0.50 up to US$12 in competitive Western markets.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2011-2015, Growing",
+      "synonyms_found": [
+        "nascent",
+        "emerging",
+        "growing"
+      ],
+      "source_citation": "Page 1: 'The stock market launch of game studio King Digital Entertainment in March of 2014 can be regarded as a decisive moment in the nascent app economy.' | Page 1: 'In a matter of 2 years, the company's revenue grew from US$63 million in 2011 to US$1.8 billion in 2013.' | Page 8: 'The revenue intake associated with the app economy ballooned since 2008 and has grown into a formidable market segment.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Single case study",
+      "synonyms_found": [
+        "case study",
+        "analysis",
+        "research"
+      ],
+      "source_citation": "Page 3: 'Over the course of 2014, I played the game extensively on Facebook, an Android-powered Samsung smartphone, on Amazon's Kindle Fire, the iPad, and the iPhone. Gameplay sessions were logged by taking time-stamped screenshots at regular intervals, which served as a game journal.' | Page 3: 'Second, I engaged in financial analysis by collecting \"data derived from financial statements\" (Albarran, 2004, p. 296). A corpus of financial data was compiled, consisting of six quarterly filings by King with the Security and Exchange Commission.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "King Digital Entertainment → Primary case study company implementing free-to-play model",
+        "Candy Crush Saga → Main game example with 78% of King's revenue",
+        "Zynga → Early social game developer with FarmVille and CityVille",
+        "Rovio Entertainment → Angry Birds developer that transitioned to free-to-play",
+        "PopCap Games → Bejeweled developer that pioneered casual games"
+      ],
+      "synonyms_found": [
+        "companies",
+        "examples",
+        "case studies"
+      ],
+      "source_citation": "Page 1: '78% of the 2013 fourth quarter revenue derived from one single game launched the year before: Candy Crush Saga (King Digital Entertainment, 2012).' | Page 4: 'The American game developer Zynga, founded in 2007, was among the first to not only acquire a substantial amount of players, but also to instrument their games to commoditize the connective affordances of Facebook.' | Page 5: 'It took a while before influential studios, such as Angry Birds' (Rovio Entertainment, 2009) developer Rovio, but also incumbents such as game publisher Electronic Arts, considered the free-to-play model as a viable, let alone the default revenue model for its mobile games.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium → Free app with option to buy full premium version",
+        "Saga envelope → King's specific template combining level progression, social features, viral mechanics, and virtual items"
+      ],
+      "synonyms_found": [
+        "variations",
+        "subtypes",
+        "variants"
+      ],
+      "source_citation": "Page 6: 'The freemium and free-to-play categories are often used interchangeably. Throughout this article, the free-to-play notion is used for free games that offer IAPs whereas freemium is understood as buying the full, premium version of a previously free, dressed-down version of the same app.' | Page 7: 'The format encompasses \"a path through hundreds of game levels, social features that allow interactions with others, viral mechanics, and a variety of virtual items available for purchase\" (King Digital Entertainment, 2014a, p. 86). The Saga envelope structures all of King's games.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Continued growth of mobile gaming market → Projected to overtake console gaming revenue",
+        "Concentration of power in platform markets → Monopolistic tendencies in app economy",
+        "Sustainability challenges → Questions about long-term viability for new entrants"
+      ],
+      "synonyms_found": [
+        "future trends",
+        "evolutions",
+        "projections"
+      ],
+      "source_citation": "Page 8: 'Market researcher Newzoo projected that in 2015 the mobile segment's US$30.3 billion in global revenue will overtake the revenue generated via the sale of Triple-A console games.' | Page 8: 'I would contend that King's rapid growth can be largely ascribed to the company's capability to leverage network externalities, or better said, the monopolistic tendencies that are inherent to platform markets. This concentration logic led to King's dominant position, however temporary, within the wider ecosystem of free-to-play games.' | Page 8: 'Therefore, going forward, vital questions remain pertaining to the concentration of capital and power in the game industry, as well as the long-term sustainability of the free-to-play model and the ability for new entrants to platform markets to operate a more sustainable business model.'",
+      "confidence_level": "high"
+    }
+  ]
+}

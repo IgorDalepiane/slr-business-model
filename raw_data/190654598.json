@@ -1,0 +1,518 @@
+{
+  "extraction_metadata": {
+    "article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+    "extraction_date": "2025-10-06"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Cloud Marketplace Model - A software distribution model where Cloud Service Providers (CSPs) build marketplaces where software can be easily used by customers and software developers can achieve global sales at lower costs than conventional software distribution methods by registering their own software without a need to build separate applications and distribution services.",
+      "synonyms_found": [
+        "marketplace",
+        "cloud marketplace",
+        "cloud-based software distribution"
+      ],
+      "source_citation": "Page 2: 'Cloud service providers (CSPs) try to build a marketplace where software can be easily used for their customers and try to acquire a wide variety of software developers. Software developers can achieve global sales at lower costs than conventional software distribution methods by registering their own software in their marketplaces without a need to build separate applications and distribution services.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": "marketplace, cloud marketplace, cloud-based software, marketplace business, cloud platform based marketplace",
+      "synonyms_found": [
+        "marketplace",
+        "cloud marketplace",
+        "cloud-based software",
+        "marketplace business",
+        "cloud platform based marketplace"
+      ],
+      "source_citation": "Page 1: 'marketplace' | Page 1: 'cloud-based software' | Page 9: 'marketplace business' | Page 10: 'cloud platform based on marketplace'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Cloud Service / SaaS",
+      "synonyms_found": [
+        "SaaS",
+        "cloud service",
+        "cloud-based services"
+      ],
+      "source_citation": "Page 1: 'Each cloud service provider (CSP) secures a distribution channel using its own service, defined as \"marketplace\" for efficiency and transparency in supporting and distributing software services' | Page 2: 'the procedures, forms, and policies that software-as-a-service (SaaS) developers need for entering the marketplace'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2B SMB, Mid-market, Enterprise, Government",
+      "synonyms_found": [
+        "enterprises",
+        "private companies",
+        "public institutions",
+        "government and public",
+        "users"
+      ],
+      "source_citation": "Page 3: 'Yan et al. classified user-specific items via the analytic hierarchy process (AHP) analysis and studied requirements of specific user groups, e.g., enterprises' | Page 5: 'Users are either lay members or public members. Lay members include private companies and individuals. National institutions (government and public) are separately managed as public members.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Software developers and solution providers ranging from local/domestic companies to global technology corporations",
+      "synonyms_found": [
+        "software developers",
+        "solution providers",
+        "independent software vendor"
+      ],
+      "source_citation": "Page 2: 'Cloud service providers (CSPs) try to build a marketplace where software can be easily used for their customers and try to acquire a wide variety of software developers.' | Page 3: 'Park and Seo (2020) conducted an analysis and case study of independent software vendor's specific software on cloud platforms'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Korea (local/domestic) and Global (AWS, Oracle)",
+      "synonyms_found": [
+        "Korea",
+        "local",
+        "domestic",
+        "global"
+      ],
+      "source_citation": "Page 1: 'Departmen t of Management Engineering, Graduate School, Sangmyung Univ., Seoul, Korea' | Page 3: 'This study directly analyzes the marketplaces of major local and global CSPs.' | Page 3: 'KT Cloud is a domestic cloud provider'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Cloud service users and cloud-based software consumers who use CSP infrastructure",
+      "synonyms_found": [
+        "cloud service users",
+        "CSP customers",
+        "KT Cloud users",
+        "AWS users"
+      ],
+      "source_citation": "Page 4: 'KT Cloud users are provided a KT Cloud server (virtual machine [VM]) machine image.' | Page 5: 'Through CEART marketplace, users can search and install their cloud services through category and search function.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform",
+        "Managed Service",
+        "Infrastructure"
+      ],
+      "synonyms_found": [
+        "software services",
+        "solutions",
+        "applications",
+        "infrastructure software",
+        "business software"
+      ],
+      "source_citation": "Page 1: 'it provides various applications in the form of services' | Page 4: 'software type that is divided into two categories - \"business software\" and \"infrastructure software\"' | Page 6: 'Infrastructure Software, Business Applications, Machine Learning, Data Products'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Multi-tenant SaaS",
+        "Single-tenant cloud",
+        "On-premises"
+      ],
+      "synonyms_found": [
+        "SaaS",
+        "cloud-based",
+        "VM form",
+        "deployment"
+      ],
+      "source_citation": "Page 4: 'If cloud service is provided in a VM form' | Page 8: 'Daou Office is a groupware service with 18 major collaborative functions and is provided in both deployment and SaaS types.' | Page 9: 'Moreover, in SaaS form, it can reduce the time required to apply service enhancements'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Proprietary with BYOL (Bring-Your-Own-License)",
+      "synonyms_found": [
+        "BYOL",
+        "bring-your-own-license",
+        "license",
+        "licensing policy"
+      ],
+      "source_citation": "Page 2: 'rather than using the existing license-based distribution platform' | Page 8: 'Daou Office's Marketplace service is offered in the form of \"bring-your-own-license (BYOL).\" If you purchase a Daou Office license, you can receive services through every process from installation to operation' | Page 8: 'TIBERO is a local database service... It is registered in the NAVER Cloud Platform Marketplace in the form of BYOL'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "License must be purchased separately before using marketplace-registered software → Affects deployment and usage model; Virtual processor-based charging in BYOL model → Affects pricing structure",
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'After purchasing a license through a separate purchase page, it can be used immediately by installing the product in the marketplace and registering the license.' | Page 8: 'It is registered in the NAVER Cloud Platform Marketplace in the form of BYOL and charged per virtual processor.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription",
+        "Usage/consumption",
+        "Perpetual license (BYOL)"
+      ],
+      "synonyms_found": [
+        "subscription-type",
+        "usage-based system",
+        "license",
+        "monthly or annual subscriptions"
+      ],
+      "source_citation": "Page 1: 'Various payment methods such as usage-based system based on cloud service characteristics can be employed.' | Page 8: 'the company introduced \"Hancom Space\" and its subscription-type licensing policy' | Page 8: 'It is charged in the form of monthly or annual subscriptions'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "User/seat, Computing time, Devices (virtual servers), Storage (capacity)",
+      "synonyms_found": [
+        "virtual servers",
+        "VMs",
+        "licenses",
+        "users",
+        "capacity",
+        "virtual processor"
+      ],
+      "source_citation": "Page 4: 'The billing system for each service is applied differently depending on the number of virtual servers and services, VMs, licenses, and users, as well as capacity and operation methods.' | Page 7: 'Time unit charges and service usage charges depending on the payment method have to be determined.' | Page 8: 'charged per virtual processor'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Pay-as-you-go",
+        "Annual contract",
+        "Prepaid credits",
+        "Custom negotiation"
+      ],
+      "synonyms_found": [
+        "usage-based",
+        "monthly or annual subscriptions",
+        "one-time cost",
+        "installments",
+        "estimate"
+      ],
+      "source_citation": "Page 1: 'Various payment methods such as usage-based system based on cloud service characteristics can be employed.' | Page 8: 'It is charged in the form of monthly or annual subscriptions' | Page 8: 'Usage fee is charged based on the type and range of migration for a one-time cost and the total migration capacity. It can be paid in installments for 12 or 24 months.' | Page 5: 'The billing system is not specified on the website and for several services it consists of requesting an estimate from the registrar.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Marketplace",
+      "synonyms_found": [
+        "two-sided platform",
+        "marketplace"
+      ],
+      "source_citation": "Page 1: 'Each cloud service provider (CSP) secures a distribution channel using its own service, defined as \"marketplace\"' | Page 3: 'Menychtas presented that the latest applications... the cloud creates a marketplace where more products participate in the service providing process'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Cross-sided (distinct groups benefit)",
+      "synonyms_found": [
+        "two-sided",
+        "ecosystem"
+      ],
+      "source_citation": "Page 2: 'Cloud service providers (CSPs) try to build a marketplace where software can be easily used for their customers and try to acquire a wide variety of software developers.' | Page 3: 'the cloud creates a marketplace where more products participate in the service providing process and easily develop applications through reuse and aggregation of services and resources'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Marketplaces",
+        "Product-led Growth",
+        "Digital marketing"
+      ],
+      "synonyms_found": [
+        "marketplace",
+        "console screens",
+        "online implementation",
+        "distribution channel"
+      ],
+      "source_citation": "Page 2: 'Distribution and technology support do not require separate written contracts or requests and are efficiently provided through console screens of existing CSPs.' | Page 9: 'The advantage is that the physical limitations of business selling software can be minimized, and the online implementation of sales channels can simplify customer secure methods.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes - AWS Marketplace, Azure Marketplace, Google Cloud Marketplace, KT Cloud Marketplace, NAVER Cloud Marketplace, Oracle Cloud Marketplace, CEART",
+      "synonyms_found": [
+        "AWS Marketplace",
+        "Oracle Cloud Marketplace",
+        "KT Cloud marketplace",
+        "NAVER Cloud Platform Marketplace",
+        "CEART"
+      ],
+      "source_citation": "Page 3-7: Analysis sections covering 'Amazon Web Services', 'Oracle Cloud Infrastructure', 'Korea Telecom (KT) CLOUD', 'NAVER Cloud', 'Cloud Store Ceart' | Page 8: 'Korea's Daou Technology registered its own groupware \"Daou Office\" products on AWS Marketplace'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Efficiency and transparency in supporting and distributing software services, maximizing efficiency in IT resource operation management, guaranteeing expandability, stability, and security",
+        "Customer Segment: CSP customers globally, software developers, private companies, individuals, public institutions",
+        "Channels: Cloud marketplace, console screens of CSPs, online distribution",
+        "Revenue Streams: Usage-based charges, subscription fees, license fees, marketplace registration fees with discount rates",
+        "Key Resources: Cloud infrastructure, virtualized computing resources, marketplace platform",
+        "Key Activities: Software registration, distribution, technical support, billing management",
+        "Key Partnerships: Software developers, independent software vendors, CSPs, partner ecosystem",
+        "Cost Structure: Infrastructure costs reduced (no on-premise hardware/software/facility costs), support personnel costs, CSP commission (up to 30% discount rate)"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Cloud service maximizes efficiency in information technology resource operation management... Various cloud-based software registered in the marketplace provide an improved user interface and guarantee expandability, stability, and security based on the benefits of cloud technology.' | Page 4: 'KT provides the product by applying a discount rate of less than 30 percent via separate consultations.' | Page 9: 'On-premise form hardware, software, facility costs, support personnel, and essential elements of the existing package/license-based approach are not required, which can reduce the cost of input and time.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Cloud Service Providers (CSPs) | Platform operator | Provide infrastructure, marketplace platform, billing system, technical support to software developers and customers | Connect developers with customers; Software Developers/Solution Providers | Service provider | Register software on marketplace, develop and maintain solutions, provide services to customers | Utilize CSP infrastructure and marketplace; Customers/Users | End user | Purchase and use software through marketplace, pay fees | Interact with CSPs for infrastructure and with developers for solutions; Partner Ecosystem | Complementary service provider | Provide additional services and support | Collaborate with CSPs and developers",
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Cloud service providers (CSPs) try to build a marketplace where software can be easily used for their customers and try to acquire a wide variety of software developers. Software developers can achieve global sales at lower costs than conventional software distribution methods by registering their own software in their marketplaces' | Page 10: 'Partner ecosystem (number of registered partners)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Achieve global sales at lower costs than conventional software distribution methods",
+        "No need to build separate applications and distribution services",
+        "Efficiency in service provision - reduced processes",
+        "Flexible payment methods based on usage",
+        "Rapid cloud service construction and operation",
+        "Minimize physical limitations of business selling software",
+        "Simplify customer secure methods",
+        "Reduce time required to distribute software",
+        "Reduce financial risks and input costs",
+        "Enable service globalization"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Software developers can achieve global sales at lower costs than conventional software distribution methods by registering their own software in their marketplaces without a need to build separate applications and distribution services.' | Page 1: 'Service can be used efficiently as the processes of the existing application are reduced. Various payment methods such as usage-based system based on cloud service characteristics can be employed. The cloud marketplace guarantees rapid cloud service construction and operation' | Page 9: 'The advantage is that the physical limitations of business selling software can be minimized, and the online implementation of sales channels can simplify customer secure methods.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Abundant product/customer cases → Secure competitive position",
+        "Partner ecosystem with many registered partners → Enable broader adoption",
+        "Multiple global customer success stories → Premium strategy viability",
+        "Developer support program → Facilitate market entry",
+        "Competitive software advantages → Generate additional revenue through multiple marketplace registration",
+        "Technical support and best practices → Quality and service differentiation",
+        "Specialized products for regional niche markets → Market penetration"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 10: 'Secure abundant product/customer case (number of category registration), Partner ecosystem (number of registered partners), Multiple global customer success stories' | Page 10: 'Leverage the advantages of competitive software to register in multiple marketplaces to generate additional revenue.' | Page 10: 'By securing excellent global customer cases, emphasizing the differences from other software, premium strategies are required with quality and service, not price, with technical support and best practices'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Software must be converted into machine image format suitable for marketplace product policy → Affects registration method",
+        "Service must normally operate on the CSP platform → Affects technical architecture",
+        "Development of predictable metering and billing methods necessary → Affects monetization design",
+        "Modification and API development in the form required by the CSP → Affects software development",
+        "Must maintain always-on computing resources at a certain level → Affects infrastructure requirements"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'Software has to be converted into a machine image format suitable for marketplace product policy and then signed up in the marketplace portal' | Page 4: 'cloud service has to normally operate on the NAVER Cloud platform' | Page 7: 'the development of predictable metering and billing methods is necessary.' | Page 11: 'modification and application programming interface development are necessary in the form required by the CSP' | Page 10: 'always-on computing resources must be maintained at a certain level to prevent performance degradation'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Registration can be limited to prevent excessive competition if there are several solutions with the same function → Impacts market access",
+        "User must use a virtual server from a CSP without an infrastructure choice → Impacts deployment flexibility",
+        "Services targeted at users of a particular CSP → Impacts customer portability",
+        "Registration restrictions due to duplication and competition issues with existing marketplace products → Impacts market entry",
+        "Cannot respond to local law and specific regulations → Impacts compliance and regional operations"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 4: 'registration can be limited to prevent excessive competition if there are several solutions with the same function' | Page 11: 'the user must use a virtual server from a CSP without an infrastructure choice' | Page 11: 'with the same services targeted at users of a particular CSP' | Page 11: 'Certain CSPs have registration restrictions due to duplication and competition issues with existing marketplace products' | Page 9: 'Response to local law and specific regulations is also impossible.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Limited support for customer-tailored services",
+        "Difficult to attract users due to constraints that do not meet user needs",
+        "Separate costs can be incurred to ensure infrastructure availability",
+        "Cannot provide reliable alternative or immediate response to service failure in case of service provider failures",
+        "Impossible to respond to local law and specific regulations",
+        "Unable to respond to control or legal regulation of key information based on user's local law",
+        "Connection with existing applications and data can be difficult",
+        "Additional charge for data storage, processing methods, and data movement",
+        "Overall increase in operating costs",
+        "Service and performance issues resulting from multi-tenants employing cloud computing resources",
+        "Performance degradation due to increased network and data throughput",
+        "Cost of data loss and migration when user changes cloud service"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 9: 'software distribution through the marketplace has limited support for customer-tailored services. This limitation may be a constraint that does not meet the user's needs, making it difficult to attract users. Reliable service delivery by service providers is essential, and separate costs can be incurred to ensure infrastructure availability. Reliable alternative or immediate response to a user's service failure cannot be provided in the case of service provider failures. Response to local law and specific regulations is also impossible... Connection with existing applications and data can be difficult. This limitation can lead to an additional charge for data storage, processing methods, and data movement, resulting in an overall increase in operating costs' | Page 10: 'service and performance issues in the form of existing deployments can cause overall performance degradation. This may be an issue of transient and sustained performance degradation resulting from multi-tenants employing cloud computing resources'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Leverage competitive software advantages to register in multiple marketplaces → Overcome single marketplace limitations → Generate additional revenue",
+        "Premium strategies with quality and service, not price, with technical support and best practices → Address customer needs concerns → Differentiation from competitors",
+        "Prepare alternative and bypass measures for domestic regulations and restrictions → Overcome regulatory barriers → Enable market entry",
+        "Plan specialized products and services for regional niche markets → Address local requirements → Market penetration",
+        "Cost reduction method through technical support and maintenance within the software price → Reduce customer costs → Improve adoption",
+        "Maintain always-on computing resources at a certain level → Prevent performance degradation → Ensure service quality"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 10: 'Leverage the advantages of competitive software to register in multiple marketplaces to generate additional revenue. By securing excellent global customer cases, emphasizing the differences from other software, premium strategies are required with quality and service, not price, with technical support and best practices. Prepare alternative and bypass measures for domestic regulations and restrictions and to plan specialized products and services for regional niche markets. Cost reduction method through technical support and maintenance within the software price' | Page 10: 'always-on computing resources must be maintained at a certain level to prevent performance degradation'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Number of registered services; 65; services; January 2020; Survey; KT Cloud marketplace",
+        "Number of registered services; 96; services; January 2020; Survey; NAVER Cloud marketplace",
+        "Number of registered services; 858; services; January 2020; Survey; CEART marketplace",
+        "Number of partnership companies; 221; companies; January 2020; Survey; CEART marketplace",
+        "Number of registered exhibition services; 360; services; January 2020; Survey; CEART marketplace",
+        "Number of public institutions; 1,381; institutions; January 2020; Survey; CEART marketplace",
+        "Number of registered services; 7213; services; not specified; Survey; AWS marketplace",
+        "Number of registered services; 621; products (applications); January 2020; Survey; Oracle Cloud Marketplace",
+        "CSP discount rate; less than 30; percent; not specified; Case study; KT Cloud",
+        "Payment installment options; 12 or 24; months; not specified; Case study; ZConverter KT Cloud"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'As of January 2020, it has 65 registered services' | Page 4-5: 'Total 96' (NAVER) | Page 6: 'Total 858' (CEART), '221 partnership companies (360 registered exhibition services)', '1,381 public institutions' | Page 6: 'A total of 7213 services are registered' (AWS) | Page 7: 'As of January 2020, there are two categories — \"applications\" and \"services.\" In \"applications,\" there are 621 products' | Page 4: 'KT provides the product by applying a discount rate of less than 30 percent' | Page 8: 'It can be paid in installments for 12 or 24 months.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Observed period: 2019-2020 (study published in 2020, marketplace data as of January 2020, case studies from second half of 2019) + Maturity status: Growing",
+      "synonyms_found": [
+        "recent",
+        "latest",
+        "2020",
+        "2019"
+      ],
+      "source_citation": "Page 1: 'Vol. 7 (2020) No. 2, pp. 1-13' | Page 3: 'As of January 2020, it has 65 registered services' | Page 7: 'In the second half of 2019, Korea's Daou Technology registered' | Page 1: 'Local and global markets are expected to expand rapidly in the future, as cloud service is being activated in various fields'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases",
+      "synonyms_found": [
+        "case study",
+        "marketplace analysis",
+        "SWOT analysis"
+      ],
+      "source_citation": "Page 2: 'Table 1: Study scope and methods... Case study... CSP marketplace analysis, License method analysis, SWOT analysis' | Page 7: 'Through this case study, we discussed the procedures and methods for cloud-based software developers to register their software on a marketplace' | Multiple case examples: KT Cloud, NAVER Cloud, CEART, AWS, Oracle Cloud Infrastructure, Daou Office, Hancom Office, TMAX JEUS, ZConverter",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "KT Cloud → Domestic cloud provider with marketplace holding 65 registered services",
+        "NAVER Cloud → Local cloud provider with marketplace",
+        "CEART (Cloud Ecosystem Application maRT) → Specialized cloud service store in Korea",
+        "Amazon Web Services (AWS) → Global public CSP with largest market share, AWS Marketplace with 7213 services",
+        "Oracle Cloud Infrastructure → Global CSP, relational database software provider with Oracle Cloud Marketplace",
+        "Daou Technology / Daou Office → Korean company that registered groupware on AWS Marketplace in BYOL form",
+        "Hancom / Hancom Space → Korean company that introduced subscription-type licensing and registered on AWS Marketplace",
+        "TMAX / TIBERO → Local database service registered in NAVER Cloud Platform Marketplace",
+        "ZConverter Cloud Migration → Registered on KT Cloud Marketplace for cloud migration services"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'KT Cloud is a domestic cloud provider that holds a \"cloud marketplace.\" As of January 2020, it has 65 registered services' | Page 6: 'AWS is a global public CSP with the largest market share' | Page 7-8: 'In the second half of 2019, Korea's Daou Technology registered its own groupware \"Daou Office\" products on AWS Marketplace... Hancom company introduced \"Hancom Space\"... TMAX's TIBERO is a local database service... ZConverter Cloud Migration's cloud image migration technology'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Image Upload Method → Software is converted into machine image format suitable for marketplace product policy and registered in marketplace portal with different versions to meet users' needs",
+        "SaaS Registration Method → Products are built on computing resources of CSPs and grant access to services with time unit charges and service usage charges, requiring development of predictable metering and billing methods",
+        "BYOL (Bring-Your-Own-License) → Users purchase license separately and install product in marketplace by registering the license",
+        "Subscription-based model → Cloud-based service with monthly or annual subscriptions supporting continuous functional improvements"
+      ],
+      "synonyms_found": [
+        "Image Upload",
+        "SaaS Registration",
+        "BYOL",
+        "subscription-type"
+      ],
+      "source_citation": "Page 7: 'There are two marketplace registration methods—image upload and SaaS registration. The registration method depends on the software distribution and function enhancement method of the software. Marketplace can register different versions of software to meet users' needs. Software has to be converted into a machine image format... SaaS-type products are built on computing resources of CSPs and grant access to those services. Time unit charges and service usage charges depending on the payment method have to be determined.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Local and global cloud service markets expected to expand rapidly as cloud service is being activated in various fields",
+        "Sales will be generated in the form of direct selection and deployment in marketplaces by users rather than from choosing specific cloud services",
+        "Need for continuous functional improvements and developing software to meet marketplace registration requirements",
+        "Future research will determine final weight of assessment factors for each SWOT group using AHP technique to derive marketing strategies",
+        "Risk that developer's services and solutions may become non-competitive due to basic provision of services and solutions internalized by each CSP"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'Local and global markets are expected to expand rapidly in the future, as cloud service is being activated in various fields of on-demand and the information and communication technology industry.' | Page 11: 'At this point, we expect that sales will be generated in the form of direct selection and deployment in marketplaces by users rather than from choosing specific cloud services. Therefore, being capable of applying continuous functional improvements and developing software to meet the requirements that occur when registering on the market are crucial.' | Page 12: 'In addition, we will determine the final weight of assessment factors for each SWOT group as mention in chapter 5, such as the AHP technique.' | Page 11: 'the case where a developer's services and solutions are not competitive due to the basic provision of services and solutions internalized by each CSP should be considered'",
+      "confidence_level": "high"
+    }
+  ]
+}

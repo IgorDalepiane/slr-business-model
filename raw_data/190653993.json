@@ -1,0 +1,537 @@
+{
+  "extraction_metadata": {
+    "article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Service-dominant business model - A business model that involves integrating significant software features and hardware criteria, measuring service quality, and addressing business risks for molding simulation systems",
+      "synonyms_found": [
+        "service-dominant business model",
+        "molding simulation system",
+        "private cloud platform",
+        "service-oriented product"
+      ],
+      "source_citation": "Page 1: 'this project develops a service-dominant business model which involves how to integrate significant software features and hardware criteria, how to measure service quality, and what business risks might take place'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "molding simulation system",
+        "private cloud platform",
+        "service-oriented product",
+        "integrated hardware system"
+      ],
+      "synonyms_found": [
+        "molding simulation system",
+        "private cloud platform",
+        "service-oriented product",
+        "integrated hardware system"
+      ],
+      "source_citation": "Page 5: 'the new product could be recognized as a molding simulation system or a private cloud platform. This system is a service-oriented product' | Page 11: 'software developers provided an integrated hardware system together with license sold'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "CAE (Computer-Aided Engineering) software industry",
+      "synonyms_found": [
+        "CAE software industry",
+        "molding simulation",
+        "plastic injection molding",
+        "Computer-Aided Engineering"
+      ],
+      "source_citation": "Page 1: 'Development of service-dominant business model for CAE software industry in Greater China' | Page 2: 'The necessity of employing CAE, Computer-Aided Engineering, software throughout a project workflow of the plastic injection molding process'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2B SMB",
+      "synonyms_found": [
+        "tool builders",
+        "molding simulation users",
+        "industrial users",
+        "product developers",
+        "tool designers"
+      ],
+      "source_citation": "Page 1: 'tool builders are not willing to adopt public cloud services for molding simulation' | Page 2: 'product developers and tool designers' | Page 10: 'industrial users in Greater China'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Software providers and technology companies",
+      "synonyms_found": [
+        "molding simulation providers",
+        "software providers",
+        "CAE software developers"
+      ],
+      "source_citation": "Page 10: 'molding simulation providers implement different service models' | Page 10: 'CAE software developers to integrate its system'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Greater China",
+      "synonyms_found": [
+        "Greater China",
+        "mainland China",
+        "Taiwan",
+        "Hong Kong"
+      ],
+      "source_citation": "Page 1: 'Development of service-dominant business model for CAE software industry in Greater China' | Page 3: 'Factory employees in mainland China'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Heavy simulation users and tool builders",
+      "synonyms_found": [
+        "heavy simulation users",
+        "tool builders",
+        "heavy users"
+      ],
+      "source_citation": "Page 3: 'If heavy users require daily analysis' | Page 1: 'tool builders are not willing to adopt public cloud services' | Page 12: 'If the targeted customer is a heavy simulation user'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform",
+        "Managed Service"
+      ],
+      "synonyms_found": [
+        "molding simulation software",
+        "private cloud platform",
+        "consulting services"
+      ],
+      "source_citation": "Page 5: 'the new product could be recognized as a molding simulation system or a private cloud platform' | Page 5: 'This system is a service-oriented product and involves consulting services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "On-premises",
+        "Single-tenant cloud"
+      ],
+      "synonyms_found": [
+        "local network",
+        "private cloud",
+        "local-based"
+      ],
+      "source_citation": "Page 5: 'Because the simulation work is done in a local network, the data is secure' | Page 5: 'This new product would need to systematically integrate the software and hardware'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Proprietary",
+      "synonyms_found": [
+        "proprietary",
+        "license-oriented"
+      ],
+      "source_citation": "Page 4: 'License-oriented sales mean salespeople do not consider computer hardware in any kind when they deal with potential buyers for simulation in a local place'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Design information protection → Data security requirements",
+        "Non-disclosure agreements → Third-party data sharing restrictions"
+      ],
+      "synonyms_found": [
+        "design information protection",
+        "non-disclosure agreement",
+        "confidentiality"
+      ],
+      "source_citation": "Page 1: 'tool builders are not willing to adopt public cloud services for molding simulation when there is a concern about design information protection' | Page 3: 'design information should be kept in secrecy, and those data is not allowed to disclose in public based on a non-disclosure agreement'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Perpetual license",
+        "Subscription",
+        "Usage/consumption",
+        "Support"
+      ],
+      "synonyms_found": [
+        "perpetual license",
+        "leased license",
+        "prepaid tokens",
+        "pay-for-use contract",
+        "consulting services"
+      ],
+      "source_citation": "Page 5: 'diversify this service with various license types such as perpetual license, leased license, prepaid tokens, or a pay-for-use contract' | Page 5: 'This system is a service-oriented product and involves consulting services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Computing time",
+      "synonyms_found": [
+        "computing time",
+        "hour-based",
+        "component-based",
+        "pay-per-use"
+      ],
+      "source_citation": "Page 13: 'Cloud-based users generally are charged by the total amount of utilization in hours, which is known as pay-per-use' | Page 13: 'component-based simulation service'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Tiers/Plans",
+        "Pay-as-you-go",
+        "Prepaid credits",
+        "Annual contract"
+      ],
+      "synonyms_found": [
+        "perpetual license",
+        "leased license",
+        "prepaid tokens",
+        "pay-for-use contract"
+      ],
+      "source_citation": "Page 5: 'diversify this service with various license types such as perpetual license, leased license, prepaid tokens, or a pay-for-use contract'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Euros, per component/hour",
+      "synonyms_found": [
+        "euros",
+        "per component",
+        "per hour"
+      ],
+      "source_citation": "Page 12: 'they spent approximately 17 euros per component for running a flow simulation' | Page 13: 'Taiwanese owners were more likely to spend 850 euros for running a complete molding simulation' | Page 13: 'Chinese owners were willing to pay only 250 to 500 euros for a simulation report'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product",
+      "synonyms_found": [
+        "service provider",
+        "software provider",
+        "system provider"
+      ],
+      "source_citation": "Page 5: 'The main target is to satisfy existing users who require higher computing performance with robust network security' | Page 10: 'molding simulation providers implement different service models'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Direct sales",
+        "Partners/channels"
+      ],
+      "synonyms_found": [
+        "salespeople",
+        "sales representatives",
+        "direct sales"
+      ],
+      "source_citation": "Page 4: 'License-oriented sales mean salespeople do not consider computer hardware in any kind when they deal with potential buyers' | Page 4: 'salespeople promote a package solution including license and a reliable hardware system'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "No",
+      "synonyms_found": [],
+      "source_citation": "Page 5: 'The proposed system is employed locally and therefore network security could be protected' | Page 1: 'tool builders are not willing to adopt public cloud services for molding simulation'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: High-performance computation with robust network security",
+        "Customer Segment: Heavy simulation users and tool builders requiring data protection",
+        "Revenue Streams: Multiple licensing models including perpetual, leased, token-based, and pay-for-use",
+        "Key Resources: Integrated software and hardware systems",
+        "Key Activities: Simulation services and consulting",
+        "Cost Structure: Hardware manufacturing and maintenance costs"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue streams",
+        "key resources",
+        "key activities",
+        "cost structure"
+      ],
+      "source_citation": "Page 5: 'The main target is to satisfy existing users who require higher computing performance with robust network security' | Page 5: 'diversify this service with various license types such as perpetual license, leased license, prepaid tokens, or a pay-for-use contract' | Page 5: 'This system is a service-oriented product and involves consulting services'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Software providers | Service delivery | With customers through licensing | With hardware manufacturers for integration | Customers (tool builders) | Service consumption | With providers through contracts | With design teams for requirements | Hardware manufacturers | Component supply | With software providers for integration | With customers through bundled solutions",
+      "synonyms_found": [
+        "software providers",
+        "customers",
+        "tool builders",
+        "hardware manufacturers"
+      ],
+      "source_citation": "Page 4: 'License-oriented sales mean salespeople do not consider computer hardware in any kind when they deal with potential buyers' | Page 4: 'Bundling sales means salespeople promote a package solution including license and a reliable hardware system' | Page 11: 'software developers provided an integrated hardware system together with license sold, which also indicated a close collaboration between the provider and the buyer'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Data security and confidentiality protection",
+        "Higher computing performance",
+        "Cost reduction for heavy users",
+        "Flexible licensing options",
+        "Integration of software and hardware"
+      ],
+      "synonyms_found": [
+        "data security",
+        "confidentiality",
+        "computing performance",
+        "cost reduction",
+        "flexible licensing"
+      ],
+      "source_citation": "Page 1: 'tool builders are not willing to adopt public cloud services for molding simulation when there is a concern about design information protection' | Page 5: 'The main target is to satisfy existing users who require higher computing performance with robust network security' | Page 3: 'If heavy users require daily analysis, the cost for running public cloud computing services is not as cheaper as what they expect'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Robust data security → Customer trust and adoption",
+        "High-performance computation → Reduced simulation time",
+        "Flexible business models → Market accessibility",
+        "Integrated hardware-software → Enhanced performance",
+        "Service quality measurement → Customer satisfaction"
+      ],
+      "synonyms_found": [
+        "data security",
+        "computing performance",
+        "flexible business models",
+        "service quality"
+      ],
+      "source_citation": "Page 5: 'The main target is to satisfy existing users who require higher computing performance with robust network security' | Page 8: 'computation time is significantly reduced based on how many computer resources are allocated per a single case' | Page 5: 'diversify this service with various license types'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Local network infrastructure → Data security",
+        "Hardware-software integration → Performance optimization",
+        "Customer training → Service adoption",
+        "IT department approval → Organizational acceptance"
+      ],
+      "synonyms_found": [
+        "local network",
+        "hardware-software integration",
+        "customer training",
+        "IT department"
+      ],
+      "source_citation": "Page 5: 'Because the simulation work is done in a local network, the data is secure' | Page 5: 'The new product would need to systematically integrate the software and hardware' | Page 12: 'The Information Technology department might not accept this innovative service model'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Public cloud limitations → Data security concerns",
+        "Internet access restrictions → Geographic limitations",
+        "Taxation policies → Financial constraints",
+        "Bandwidth limitations → Performance issues"
+      ],
+      "synonyms_found": [
+        "public cloud limitations",
+        "internet access restrictions",
+        "taxation policies",
+        "bandwidth limitations"
+      ],
+      "source_citation": "Page 3: 'Factory employees in mainland China, in general, do not have permission to search the internet, and therefore the public cloud seems not a workable solution' | Page 3: 'Service-related invoice is not deductible in the Chinese taxation system' | Page 3: 'bandwidth is not guaranteed if there are more employees working in the same place'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Network security concerns for cloud-based users",
+        "Poor integration between software and hardware systems",
+        "Hardware maintenance difficulties",
+        "Lower sales margins in bundling sales",
+        "High maintenance costs",
+        "Rapid hardware replacement cycles"
+      ],
+      "synonyms_found": [
+        "network security",
+        "hardware integration",
+        "maintenance difficulties",
+        "sales margins",
+        "maintenance costs"
+      ],
+      "source_citation": "Page 4: 'While network security is not a matter to local-based users, it is a big concern to cloud-based users' | Page 4: 'poor integration between software and hardware system might happen which will jeopardize computation performance' | Page 4: 'The maintenance fee of the Boxcluster is too expensive'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Local network deployment → Mitigated network security concerns → Enhanced data protection",
+        "Integrated hardware-software system → Mitigated performance issues → Optimized computation",
+        "Functional verification → Mitigated integration problems → Reliable performance",
+        "Flexible licensing models → Mitigated cost concerns → Market accessibility"
+      ],
+      "synonyms_found": [
+        "local network deployment",
+        "integrated system",
+        "functional verification",
+        "flexible licensing"
+      ],
+      "source_citation": "Page 5: 'The proposed system is employed locally and therefore network security could be protected' | Page 5: 'The new product would need to systematically integrate the software and hardware' | Page 6: 'This issue will be solved as the proposed system implements functional verification'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Computation time: 4 hours; hours; Single case (4M elements); Benchmarking; Source: Author | Computation time: 14 hours; hours; Single case (8M elements); Benchmarking; Source: Author | Speed-up ratio: 2.0; ratio; 2 computers; Benchmarking; Source: Author | Speed-up ratio: 3.0; ratio; 4 computers; Benchmarking; Source: Author | Simulation cost: 17 euros; euros; Per component; Interview; Source: Dr. Jerry Hsu | Simulation cost: 850 euros; euros; Complete simulation; Interview; Source: Eric Chao | Simulation cost: 250-500 euros; euros; Simulation report; Interview; Source: Colin Lou",
+      "synonyms_found": [
+        "computation time",
+        "speed-up ratio",
+        "simulation cost"
+      ],
+      "source_citation": "Page 8: 'it takes 4 h to complete a flow analysis with a mesh size of around 4 million, but it remarkably needs 14 h to get this analysis work done when its mesh size is double' | Page 8: 'the speed-up ratio achieves 2 times when 2 computers are clustered, but it achieves 3 times with 4 computers' | Page 12: 'they spent approximately 17 euros per component for running a flow simulation'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2017-2018 + Emerging",
+      "synonyms_found": [
+        "2017-2018",
+        "emerging",
+        "new service model"
+      ],
+      "source_citation": "Page 1: 'Received: 12 March 2020 / Accepted: 15 April 2021 / Published online: 23 May 2021' | Page 5: 'This new product would need to systematically integrate the software and hardware' | Page 10: 'it is meaningful for this project to propose a service-dominant business model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases",
+      "synonyms_found": [
+        "case study",
+        "multiple cases",
+        "interviews"
+      ],
+      "source_citation": "Page 1: 'Development of service-dominant business model for CAE software industry in Greater China: a case study' | Page 2: 'Case study' | Multiple interview citations throughout the article with various industry professionals",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Moldex3D → Primary software provider implementing the service-dominant business model",
+        "Autodesk Moldflow → Public cloud service provider for comparison",
+        "SIGMASOFT → Mentioned as not having public cloud services",
+        "ASUS → Customer example using CAE reports",
+        "Acer → Customer example using CAE reports"
+      ],
+      "synonyms_found": [
+        "Moldex3D",
+        "Autodesk Moldflow",
+        "SIGMASOFT",
+        "ASUS",
+        "Acer"
+      ],
+      "source_citation": "Page 2: 'Autodesk Moldflow and Moldex3D have both introduced public cloud services to the market' | Page 2: 'Except for SIGMASOFT, Autodesk Moldflow and Moldex3D have both introduced public cloud services' | Page 1: 'Sian-Jhang Jiang pointed out that his team has been providing CAE reports to Taiwanese customers such as ASUS and Acer since 2005'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "License-oriented sales → Software-only sales without hardware consideration",
+        "Bundling sales → Package solution including license and hardware system",
+        "Public cloud services → Cloud-based simulation services",
+        "Private cloud platform → Local network-based secure services"
+      ],
+      "synonyms_found": [
+        "license-oriented sales",
+        "bundling sales",
+        "public cloud services",
+        "private cloud platform"
+      ],
+      "source_citation": "Page 4: 'License-oriented sales mean salespeople do not consider computer hardware in any kind when they deal with potential buyers' | Page 4: 'Bundling sales means salespeople promote a package solution including license and a reliable hardware system' | Page 5: 'the new product could be recognized as a molding simulation system or a private cloud platform'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Software developers might terminate perpetual license model to remove financial entry barriers",
+        "Alternative service models innovation including leasing contracts, token-based models, hour-based models, component-based models, computing performance-based models, and consulting-based models",
+        "Focus on service model innovation for substantial growth"
+      ],
+      "synonyms_found": [
+        "perpetual license termination",
+        "alternative service models",
+        "service model innovation"
+      ],
+      "source_citation": "Page 10: 'As investment cost on a perpetual license is comparatively higher, the author anticipates that software developers might terminate this service model to remove the entry barrier caused by financial issues' | Page 10: 'alternative service models are innovated giving rise to flexibility in the way CAE users are served and charged. These service models are a leasing contract, a token-based model, an hour-based model, a component-based model, a computing performance-based model, or a consulting-based model'",
+      "confidence_level": "high"
+    }
+  ]
+}

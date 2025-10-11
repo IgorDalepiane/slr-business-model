@@ -1,0 +1,488 @@
+{
+  "extraction_metadata": {
+    "article_title": "A Pricing Framework for Software-as-a-Service",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Software-as-a-Service (SaaS) - software deployed as a hosted service and accessed over the Internet",
+      "synonyms_found": [
+        "SaaS",
+        "software-as-a-service",
+        "hosted service"
+      ],
+      "source_citation": "Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet,\" is an emerging business model that is expected to grow rapidly'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "SaaS",
+        "software-as-a-service",
+        "hosted service",
+        "remotely hosted software services",
+        "outsourced software"
+      ],
+      "synonyms_found": [
+        "SaaS",
+        "software-as-a-service",
+        "hosted service",
+        "remotely hosted software services",
+        "outsourced software",
+        "single-versioned software"
+      ],
+      "source_citation": "Page 1: 'SaaS differs from traditional off-the-shelf software in three aspects. First, SaaS is outsourced software... Second, SaaS is remotely hosted, meaning that software are deployed as hosted services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Technology and Professional Services",
+      "synonyms_found": [
+        "Technology",
+        "Professional Services",
+        "CRM",
+        "Collaboration",
+        "Project Management",
+        "Marketing"
+      ],
+      "source_citation": "Page 4: 'Application Types (No. of application types: 45) CRM 8.8... Collaboration 8.5... Project Management 6.2... Marketing 5.3' and 'Industry Types... Technology 9.7... Professional Services 9.8'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2B SMB",
+      "synonyms_found": [
+        "small and medium enterprises",
+        "SMEs",
+        "large corporations"
+      ],
+      "source_citation": "Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Young companies with most under 10 years old",
+      "synonyms_found": [
+        "young vendors",
+        "startups",
+        "emerging companies"
+      ],
+      "source_citation": "Page 4: 'Age of vendors <10 65%... 11-20 30%... 21-30 3%... >30 2%'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "North America (primarily USA)",
+      "synonyms_found": [
+        "USA",
+        "North America",
+        "United States"
+      ],
+      "source_citation": "Page 4: 'Country of vendors (No. of countries: 26) USA 63.2%... Canada 7.1%'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Small and medium enterprises (SMEs)",
+      "synonyms_found": [
+        "small and medium enterprises",
+        "SMEs"
+      ],
+      "source_citation": "Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform",
+        "Managed Service"
+      ],
+      "synonyms_found": [
+        "software applications",
+        "hosted services",
+        "software services"
+      ],
+      "source_citation": "Page 1: 'By hosting single-versioned software coupled with supplementary delivery and maintenance services, SaaS vendors can effectively differentiate their product offerings'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Multi-tenant SaaS"
+      ],
+      "synonyms_found": [
+        "hosted service",
+        "remotely hosted",
+        "multi-tenant architecture"
+      ],
+      "source_citation": "Page 1: 'SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations... The multi-tenant architecture of SaaS benefits both clients and vendors alike'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Proprietary",
+      "synonyms_found": [
+        "proprietary licensing",
+        "software licensing"
+      ],
+      "source_citation": "Page 2: 'Traditionally, software license refers to an agreement granting a licensee the rights to utilize packaged software or components of that software'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription",
+        "Usage/consumption",
+        "Support"
+      ],
+      "synonyms_found": [
+        "recurring subscription fees",
+        "pay-as-you-go",
+        "service fees"
+      ],
+      "source_citation": "Page 2: 'Revenue sources for SaaS are different from those of on-premise software in that the 'perpetual' usage license fee is no longer applicable and clients are charged for only what they have utilized, usually on a periodic basis'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "User/seat",
+      "synonyms_found": [
+        "users",
+        "concurrent users",
+        "named users"
+      ],
+      "source_citation": "Page 3: 'Usage-independent based... User based. Does pricing refer to certain number of users (e.g., named or concurrent users)?'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription",
+        "Pay-as-you-go",
+        "Tiers/Plans"
+      ],
+      "synonyms_found": [
+        "recurring usage fee",
+        "pay-per-use",
+        "pricing plans",
+        "bundle options"
+      ],
+      "source_citation": "Page 2: 'Nowadays, a SaaS vendor typically charges his clients who subscribe hosted services a recurring usage fee' and Page 3: 'Product-based... Function based. Does pricing refer to different functionality configurations?'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "USD, monthly/annual",
+      "synonyms_found": [
+        "monthly",
+        "annual",
+        "periodic basis"
+      ],
+      "source_citation": "Page 3: 'Payment-based. Monthly subscription fees are the most popular pricing model nowadays... software vendors encourage clients to prepay their subscriptions'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product",
+      "synonyms_found": [
+        "software vendors",
+        "SaaS vendors"
+      ],
+      "source_citation": "Page 1: 'SaaS vendors can effectively differentiate their product offerings from that of traditional on-premise software'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "None",
+      "synonyms_found": [],
+      "source_citation": "Page 1: 'The multi-tenant architecture of SaaS benefits both clients and vendors alike. For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Direct sales"
+      ],
+      "synonyms_found": [
+        "website",
+        "vendor websites"
+      ],
+      "source_citation": "Page 3: 'The pricing data source is obtained through our examination of each SaaS vendor's website according to the vendor list provided by the New Cloud Computing Showplace website'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes - New Cloud Computing Showplace",
+      "synonyms_found": [
+        "SaaS Showplace",
+        "cloud computing showplace"
+      ],
+      "source_citation": "Page 3: 'The pricing data source is obtained through our examination of each SaaS vendor's website according to the vendor list provided by the New Cloud Computing Showplace website (http://www.saas-showplace.com)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Revenue Streams: recurring subscription fees, pay-per-use pricing, service fees",
+        "Cost Structure: hosting costs, maintenance costs, service provision costs",
+        "Value Proposition: faster innovation consumption, simplified software licensing, remote access"
+      ],
+      "synonyms_found": [
+        "revenue sources",
+        "pricing strategies",
+        "value delivery"
+      ],
+      "source_citation": "Page 2: 'Revenue sources for SaaS are different from those of on-premise software... clients are charged for only what they have utilized' and Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "SaaS vendors | Service provider | Provide hosted software services | Clients subscribe and pay for services",
+      "synonyms_found": [
+        "SaaS vendors",
+        "clients",
+        "software vendors"
+      ],
+      "source_citation": "Page 1: 'SaaS vendors can effectively differentiate their product offerings from that of traditional on-premise software' and Page 2: 'Nowadays, a SaaS vendor typically charges his clients who subscribe hosted services a recurring usage fee'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Elimination of upfront licensing costs",
+        "Simplified software management",
+        "Faster access to innovation",
+        "Reduced maintenance responsibilities"
+      ],
+      "synonyms_found": [
+        "cost reduction",
+        "simplified licensing",
+        "innovation access"
+      ],
+      "source_citation": "Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Value-based pricing → Higher client satisfaction and sustainable revenue",
+        "Economy of scale → Reduced costs per client",
+        "Service quality → Client retention"
+      ],
+      "synonyms_found": [
+        "value-based orientation",
+        "economy of scale",
+        "service quality"
+      ],
+      "source_citation": "Page 5: 'Value is what clients really want to pay for. For SaaS vendors, the focus on value-based orientation in software pricing will help them in securing sustainable revenue through the offering of high quality SaaS software'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Internet connectivity → Software access",
+        "Multi-tenant architecture → Cost efficiency",
+        "Hosting infrastructure → Service delivery"
+      ],
+      "synonyms_found": [
+        "internet access",
+        "multi-tenant architecture",
+        "hosting infrastructure"
+      ],
+      "source_citation": "Page 1: 'SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations' and 'The multi-tenant architecture of SaaS benefits both clients and vendors alike'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Client switching costs → Reduced vendor lock-in",
+        "Revenue model changes → Financial pressure on vendors",
+        "Single version constraint → Limited customization"
+      ],
+      "synonyms_found": [
+        "switching costs",
+        "revenue pressure",
+        "version constraints"
+      ],
+      "source_citation": "Page 2: 'given the nature of SaaS as remotely hosted software services, switching is neither expensive nor tedious for clients' and 'Loss of revenue from up-front and maintenance payments therefore place greater financial pressure on SaaS vendors'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Higher demand for service quality",
+        "Diverse client requirements",
+        "Varied usage patterns",
+        "Sustainable licensing model creation"
+      ],
+      "synonyms_found": [
+        "service quality demands",
+        "client diversity",
+        "usage variation"
+      ],
+      "source_citation": "Page 2: 'The first challenge stems from clients' expectations for better service quality... The second challenge comes from the diversity of SaaS clients... The third challenge resides in clients' varied usage of software services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Value-based pricing → Addresses client value perception → Higher satisfaction",
+        "Usage-based pricing → Accommodates varied usage → Fair billing",
+        "Specialized market targeting → Reduces complexity → Better service quality"
+      ],
+      "synonyms_found": [
+        "value-based pricing",
+        "usage-based pricing",
+        "market specialization"
+      ],
+      "source_citation": "Page 6: 'We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing. Compared to the generalized market orientation, specialized market orientation implies that the usage variations among clients are less and the accumulation of expertise becomes relatively easy to achieve'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Market size: 12.1 billion USD by 2014; Growth rate: 26% CAGR; Sample size: 353 SaaS vendors; Geographic distribution: USA 63.2%, Canada 7.1%, UK 6.8%; Company age: <10 years 65%, 11-20 years 30%",
+      "synonyms_found": [
+        "market size",
+        "growth rate",
+        "sample size"
+      ],
+      "source_citation": "Page 1: 'According to a study by Gartner, the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' and Page 4: 'We were eventually left with 353 data points in our final sample'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2012-2014, Growing",
+      "synonyms_found": [
+        "emerging",
+        "growing",
+        "proliferating"
+      ],
+      "source_citation": "Page 1: 'As an emerging business model, software-as-a-service (SaaS) has proliferated over the past decade and there are signs to suggest that this growth is likely to continue or even accelerate in the near future'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Secondary data analysis",
+      "synonyms_found": [
+        "content analysis",
+        "website examination"
+      ],
+      "source_citation": "Page 3: 'To gain insights into pricing strategies of SaaS vendors, we conducted content analysis to investigate the software licensing practices for SaaS. The pricing data source is obtained through our examination of each SaaS vendor's website'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Value-based pricing → Client-dictated pricing based on business value",
+        "Cost-based pricing → Vendor-dictated pricing based on cost accounting",
+        "Usage-dependent pricing → Pricing based on actual usage intensity",
+        "Usage-independent pricing → Pricing based on fixed metrics like user count"
+      ],
+      "synonyms_found": [
+        "value-based",
+        "cost-based",
+        "usage-dependent",
+        "usage-independent"
+      ],
+      "source_citation": "Page 3: 'Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting... Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Continued growth and acceleration of SaaS market",
+        "Move toward specialized market targeting",
+        "Increased focus on value-based pricing strategies"
+      ],
+      "synonyms_found": [
+        "market growth",
+        "specialization",
+        "value orientation"
+      ],
+      "source_citation": "Page 1: 'there are signs to suggest that this growth is likely to continue or even accelerate in the near future' and Page 6: 'We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing'",
+      "confidence_level": "high"
+    }
+  ]
+}

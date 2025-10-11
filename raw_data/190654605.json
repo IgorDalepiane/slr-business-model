@@ -1,0 +1,587 @@
+{
+  "extraction_metadata": {
+    "article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+    "extraction_date": "2025-10-06"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Software-as-a-Service (SaaS). SaaS is a cloud computing service model where IT service providers provision virtualised software-based solutions from centralised locations with the capability to automatically scale-up and down dynamically based on demand for computational resources, delivered to customers typically through multi-tenant environments.",
+      "synonyms_found": [
+        "SaaS",
+        "Software-as-a-Service",
+        "cloud computing",
+        "SaaS technologies",
+        "SaaS-based solutions"
+      ],
+      "source_citation": "Page 1: 'Creating and capturing value with new digital technologies such as cloud computing...the impact of Software-as-a-Service (SaaS) on incumbent IT supply-side organisations' | Page 7: 'SaaS has facilitated (1) the provision of virtualised SaaS-based solutions from a centralised location which possess the capability to automatically scale-up and down dynamically based on the demand for computational resources'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": "SaaS, Software-as-a-Service, cloud computing, SaaS technologies, SaaS-based solutions, SaaS services, SaaS model, SaaS computing",
+      "synonyms_found": [
+        "SaaS",
+        "Software-as-a-Service",
+        "cloud computing",
+        "SaaS technologies",
+        "SaaS-based solutions",
+        "SaaS services",
+        "SaaS model",
+        "SaaS computing"
+      ],
+      "source_citation": "Page 1: 'Software-as-a-Service (SaaS)' | Page 2: 'SaaS accounts for the majority of the entire cloud market' | Page 8: 'The five essential characteristics (e.g. on demand self-service, measured service etc.) which underpin the SaaS model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Enterprise IT services, with applications across multiple sectors including medical, pharmaceutical, biotechnology, and sporting events",
+      "synonyms_found": [
+        "IT services",
+        "enterprise IT",
+        "business-centric SaaS"
+      ],
+      "source_citation": "Page 2: 'Examples of business-centric SaaS. Salesforce customer relationship management (CRM), SAP Analytics Cloud, and Oracle Enterprise Resource Planning Cloud' | Page 9: 'The new system, which encompasses state of the art real time big data analytics functionality, is currently being used extensively in medical, pharmaceutical and biotechnology industry sectors'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2B Enterprise, B2B SMB, and B2C (Individual customers)",
+      "synonyms_found": [],
+      "source_citation": "Page 10: 'Individual customers and small and medium enterprises represent new market segments which both case organisations are attempting to establish a strong presence' | Page 6: 'two case firms...are large (>10,000 employees) multi-national incumbent IT service providers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Large multi-national incumbent IT service providers (>10,000 employees)",
+      "synonyms_found": [
+        "large ITSP",
+        "mature",
+        "incumbent IT service providers"
+      ],
+      "source_citation": "Page 6: 'They are large (>10,000 employees) multi-national incumbent IT service providers who have been at the forefront of the advancement and provision of SaaS technologies for the past six years'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Global operations with specific mentions of EMEA (Europe, Middle East, and Africa) region",
+      "synonyms_found": [
+        "EMEA",
+        "global"
+      ],
+      "source_citation": "Page 6: 'CA9 SaaS EMEA Leader' and 'CB4 EMEA SaaS Leader' | Page 13: 'centralisation of provisioning operations from key global locations'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Individual customers and small and medium enterprises (SMEs) as emerging target segments, alongside existing large enterprise customers",
+      "synonyms_found": [
+        "SME",
+        "small and medium enterprises",
+        "individual customers"
+      ],
+      "source_citation": "Page 10: 'Individual customers and small and medium enterprises represent new market segments which both case organisations are attempting to establish a strong presence'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform",
+        "Managed Service"
+      ],
+      "synonyms_found": [
+        "SaaS products",
+        "SaaS services",
+        "IT services",
+        "software services"
+      ],
+      "source_citation": "Page 2: 'Salesforce customer relationship management (CRM), SAP Analytics Cloud, and Oracle Enterprise Resource Planning Cloud are examples of business-centric SaaS' | Page 9: 'state of the art real time big data analytics functionality' | Page 12: 'OpenStack collaborating network platforms which enables service providers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Multi-tenant SaaS",
+        "Single-tenant cloud"
+      ],
+      "synonyms_found": [
+        "multi-tenant environment",
+        "centralised data centre",
+        "virtualised"
+      ],
+      "source_citation": "Page 10: 'With our particular SaaS products, we are able to distribute it to multiple customers in a multi-tenant environment' | Page 7: 'provision of virtualised SaaS-based solutions from a centralised location'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Open Core and Proprietary (hybrid approach with open source and proprietary elements)",
+      "synonyms_found": [
+        "open source",
+        "OpenStack",
+        "open",
+        "interoperable",
+        "hardware agnostic"
+      ],
+      "source_citation": "Page 12: 'Both case organisations have recently developed indigenous OpenStack collaborating network platforms' | Page 12: 'customers on a global scale who favour open source, interoperable and hardware agnostic SaaS services'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Subscription",
+        "Usage/consumption",
+        "Support"
+      ],
+      "synonyms_found": [
+        "subscription-based pricing model"
+      ],
+      "source_citation": "Page 1: 'cloud and subscription-based pricing model' | Page 13: 'flexibility inherent to the SaaS-enabled economic models, whereby customers can now trial or purchase SaaS solutions via credit card, purchasing order, or finance methods'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Usage/consumption and Computing time",
+      "synonyms_found": [
+        "CPU cycles",
+        "computational resources",
+        "capacity"
+      ],
+      "source_citation": "Page 11: 'Our CPU cycles are being repurposed constantly' | Page 7: 'capability to automatically scale-up and down dynamically based on the demand for computational resources'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Trial",
+        "Custom negotiation"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 13: 'The flexibility inherent to the SaaS-enabled economic models, whereby customers can now trial or purchase SaaS solutions via credit card, purchasing order, or finance methods'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Two-sided platform and Marketplace",
+      "synonyms_found": [
+        "digital ecosystem portals",
+        "OpenStack collaborating network platforms",
+        "value networks"
+      ],
+      "source_citation": "Page 10: 'provision SaaS services directly from their indigenous website and digital ecosystem portals' | Page 12: 'Both case organisations have recently developed indigenous OpenStack collaborating network platforms which enables service providers, independent developers, resellers, integrators and telecommunications companies to resell both case organisation's SaaS products and services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Data (more data = better product) and Cross-sided (distinct groups benefit)",
+      "synonyms_found": [],
+      "source_citation": "Page 9: 'state of the art real time big data analytics functionality...The system then automates additional headroom on the capacity to cater for this spike' | Page 12: 'OpenStack collaborating network platforms which enables service providers, independent developers, resellers, integrators and telecommunications companies to resell both case organisation's SaaS products and services'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Product-led Growth",
+        "Direct sales",
+        "Partners/channels",
+        "Marketplaces",
+        "Digital marketing"
+      ],
+      "synonyms_found": [
+        "digital ecosystem portals",
+        "indigenous website",
+        "partnering programs"
+      ],
+      "source_citation": "Page 10: 'provision SaaS services directly from their indigenous website and digital ecosystem portals but also configure new virtual value networks in order to access new customers' | Page 12: 'These newly formed partnering programs enable them to enhance their ability to target customers on a global scale'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes - OpenStack-based marketplace platforms",
+      "synonyms_found": [
+        "OpenStack",
+        "digital ecosystem portals"
+      ],
+      "source_citation": "Page 12: 'Both case organisations have recently developed indigenous OpenStack collaborating network platforms which enables service providers, independent developers, resellers, integrators and telecommunications companies to resell both case organisation's SaaS products and services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Nuanced and customisable value propositions enabled by on-demand self-service, measured service, and scalability characteristics; virtualised products with enhanced functionality, speed, and size efficiency",
+        "Customer Segment: Individual customers, small and medium enterprises, large enterprise customers across diverse industry segments including medical, pharmaceutical, biotechnology",
+        "Channels: Direct provision via indigenous websites and digital ecosystem portals, virtual value networks, partnering programs with resellers and integrators",
+        "Revenue Streams: Subscription-based pricing, trial and purchase options via credit card, purchasing order, or finance methods",
+        "Key Resources: Centralised data centres, OpenStack platforms, CPU cycles, technical architecture and automation capabilities",
+        "Key Activities: Fast software development, deployment and maintenance; centralised provisioning operations; customer support through self-service facilities",
+        "Key Partnerships: Service providers, independent developers, resellers, integrators, telecommunications companies, business partners along value network",
+        "Cost Structure: Reduced operating costs through centralisation; economies of scale from managing multiple customers in single data centres; reduced customer acquisition and administrative costs"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'The five essential characteristics (e.g. on demand self-service, measured service etc.) which underpin the SaaS model enables the case organisations to deliver nuanced and customisable value propositions to the customer' | Page 10: 'Individual customers and small and medium enterprises represent new market segments' | Page 13: 'SaaS enabled the case organisations to significantly reduce their operating costs in comparison to the traditional mode of operation'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "Actor": "Service providers",
+          "Role": "Resell SaaS products and services",
+          "Interaction_with_offering_company": "Participate in OpenStack collaborating network platforms and partnering programs",
+          "Interaction_with_other_actors": "Collaborate with developers, resellers, integrators"
+        },
+        {
+          "Actor": "Independent developers",
+          "Role": "Resell and customize SaaS solutions",
+          "Interaction_with_offering_company": "Use OpenStack platforms and open tools to transform standardised products",
+          "Interaction_with_other_actors": "Work within the digital ecosystem with other partners"
+        },
+        {
+          "Actor": "Resellers",
+          "Role": "Distribute SaaS products to end customers",
+          "Interaction_with_offering_company": "Demo SaaS solutions to customers through simplified processes",
+          "Interaction_with_other_actors": "Collaborate with integrators and service providers"
+        },
+        {
+          "Actor": "Integrators",
+          "Role": "Integrate SaaS solutions into customer environments",
+          "Interaction_with_offering_company": "Part of partnering programs and value network",
+          "Interaction_with_other_actors": "Work with resellers and developers"
+        },
+        {
+          "Actor": "Telecommunications companies",
+          "Role": "Resell SaaS products and provide connectivity",
+          "Interaction_with_offering_company": "Participate in OpenStack collaborating platforms",
+          "Interaction_with_other_actors": "Collaborate with other ecosystem partners"
+        },
+        {
+          "Actor": "Customers",
+          "Role": "End users who consume SaaS services and provide feedback",
+          "Interaction_with_offering_company": "Independently configure and manage services; provide face-to-face feedback at networking events",
+          "Interaction_with_other_actors": "Interact with resellers, integrators, and service providers"
+        }
+      ],
+      "synonyms_found": [
+        "business partners",
+        "actors",
+        "value network"
+      ],
+      "source_citation": "Page 12: 'Both case organisations have recently developed indigenous OpenStack collaborating network platforms which enables service providers, independent developers, resellers, integrators and telecommunications companies to resell both case organisation's SaaS products and services' | Page 13: 'customers are increasingly playing a more prominent role within their SaaS value networks...organisations hold regular networking events at which customers can give them face-to-face feedback'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Creating and capturing value with new digital technologies",
+        "Digital transformation of business models",
+        "Reduced need for up-front investments in IT infrastructure, IT software and IT skills",
+        "Reduced costs and enhanced flexibility",
+        "Addressing agility gaps to respond to rapidly changing technological landscape",
+        "Leveraging nascent technological advancements",
+        "Focusing on provisioning best of breed SaaS IT services"
+      ],
+      "synonyms_found": [
+        "digital transformation",
+        "leverage payoffs"
+      ],
+      "source_citation": "Page 1: 'Creating and capturing value with new digital technologies such as cloud computing' | Page 2-3: 'Often mentioned benefits include the reduced need for up-front investments in IT infrastructure, IT software and IT skills, reduced costs and enhanced flexibility' | Page 7: 'Since 2015, both companies have prioritised the realignment and restructuring of their traditional IT business activities to focus solely on the provisioning of best of breed SaaS IT services' | Page 11: 'it was a deliberate strategy for both organisations to address the serious agility gaps which were curtailing their abilities to respond effectively to a rapidly changing technological landscape'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Centralised data centres → Reduced operating costs and faster deployment",
+        "Automation and scalability capabilities → Fast software development, deployment and maintenance",
+        "Multi-tenant architecture → Ability to serve multiple customers from single infrastructure",
+        "Enhanced business agility → Effective response to evolving technological landscape and customer needs",
+        "Expanded value networks → Access to new customers and market segments",
+        "Open and interoperable platforms → Attracting customers who favour open source solutions",
+        "Self-service capabilities → Reduced administrative overheads and improved customer experience",
+        "Large scale internal restructuring → Enhanced business agility and improved collaboration"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'Centralised data centres and advancements in automation and scalability have transformed the manner with which both case organisations develop, deploy and maintain IT services' | Page 12: 'Enhanced agility not only enabled both case organisations to deal effectively with a continually evolving and increasingly uncertain technological landscape, but also resulted in improved internal collaboration practices' | Page 7: 'both case organisations have experienced substantial success in the market'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Centralised data centres → Service provisioning and delivery",
+        "Automation capabilities → Fast development and deployment",
+        "Technical architecture for multi-tenancy → Customer scalability",
+        "Agile methodologies and practices → Effective value creation",
+        "Restructured teams and departments → SaaS developmental strategies",
+        "OpenStack or similar platforms → Ecosystem and partner collaboration",
+        "Large scale internal restructuring → Enhanced business agility"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'Centralised data centres and advancements in automation and scalability have transformed the manner with which both case organisations develop, deploy and maintain IT services' | Page 8: 'Both case organisations are pivoting rapidly towards agile methodologies in order to effectively create value from provisioning SaaS technologies' | Page 11: 'The companies are also carrying out an internal restructuring of all of their existing teams, developmental practices and collaborative tools in line with their SaaS developmental strategies'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Traditional rigid and closed partner networks → Limited market reach and customer access",
+        "High costs in traditional model → Barriers to expanding market reach",
+        "Long project implementation periods → Barriers to market expansion",
+        "Organizational constraints → Inhibited ability to effectively leverage SaaS payoffs"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 9-10: 'The case informants described how high costs, long project implementation periods and rigid partner networks encompassed within their traditional business models represented salient barriers to expanding their market reach' | Page 15: 'both case organisations also experienced specific constraints (organisational and SaaS technology level) which inhibited both case organisations' ability to effectively leverage the payoffs of SaaS-based business models'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Substantial difficulties in leveraging business model payoffs of provisioning SaaS (evidenced by struggles of Dell, Intel, IBM, HP)",
+        "Serious agility gaps curtailing abilities to respond to rapidly changing technological landscape",
+        "Need to transform from traditional cargo boat mentality to racing yacht agility",
+        "Requirement for large scale internal and external transformation",
+        "Restructuring traditional static and rigid value networks to open and flexible ones",
+        "Organizational and SaaS technology level constraints"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'there is anecdotal evidence to suggest that incumbent IT service providers are experiencing substantial difficulties in their endeavours to leverage the business model payoffs of provisioning SaaS. This is evidenced by IT stalwarts such as Dell, Intel, IBM and Hewlett Packard (HP) whose struggles pertaining to how to best leverage the payoffs have been well documented' | Page 11: 'it was a deliberate strategy for both organisations to address the serious agility gaps which were curtailing their abilities to respond effectively to a rapidly changing technological landscape' | Page 15: 'both case organisations also experienced specific constraints (organisational and SaaS technology level) which inhibited both case organisations' ability to effectively leverage the payoffs of SaaS-based business models'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Pivoting to agile methodologies → Addressed agility gaps → Effective value creation from SaaS",
+        "Large scale internal restructuring of teams, practices and tools → Enhanced business agility → Improved collaboration and response to market changes",
+        "Establishing new growth strategies (SaaS leader roles, marketing teams, digital ecosystems) → Extended market reach → Strong presence in new segments",
+        "Developing OpenStack collaborating platforms → Expanded value networks → Access to customers favouring open source",
+        "Providing open tools and self-service capabilities to customers → Reduced administrative overhead → Simplified customer management",
+        "Regular networking events with customers → Face-to-face feedback → Better products brought to market faster"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 8: 'Both case organisations are pivoting rapidly towards agile methodologies in order to effectively create value from provisioning SaaS technologies' | Page 10: 'both companies have established new growth strategies (e.g. new SaaS leader roles, SaaS marketing teams, digital ecosystems) within these new market segments' | Page 12: 'Both case organisations have recently developed indigenous OpenStack collaborating network platforms' | Page 13: 'Both case organisations provide customers with open tools and services...organisations hold regular networking events at which customers can give them face-to-face feedback'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        {
+          "Metric": "SaaS market revenue",
+          "Value": "117.1",
+          "Unit": "billion USD",
+          "Period": "forecast for 2021",
+          "Method": "Industry forecast",
+          "Source": "Gartner 2018"
+        },
+        {
+          "Metric": "SaaS market growth rate",
+          "Value": "16",
+          "Unit": "percent annual",
+          "Period": "ongoing",
+          "Method": "Industry forecast",
+          "Source": "Gartner 2018"
+        },
+        {
+          "Metric": "Product size reduction",
+          "Value": "80",
+          "Unit": "percent smaller",
+          "Period": "not specified",
+          "Method": "Case comparison",
+          "Source": "CA9 interview"
+        },
+        {
+          "Metric": "Product speed improvement",
+          "Value": "20",
+          "Unit": "times faster",
+          "Period": "not specified",
+          "Method": "Case comparison",
+          "Source": "CA9 interview"
+        },
+        {
+          "Metric": "Provisioning speed for new customers",
+          "Value": "1",
+          "Unit": "hour",
+          "Period": "per customer environment",
+          "Method": "Case observation",
+          "Source": "CA4 interview"
+        },
+        {
+          "Metric": "Company size",
+          "Value": ">10,000",
+          "Unit": "employees",
+          "Period": "current",
+          "Method": "Case description",
+          "Source": "Table 3.2"
+        },
+        {
+          "Metric": "SaaS provision experience",
+          "Value": "6",
+          "Unit": "years",
+          "Period": "as of study date",
+          "Method": "Case description",
+          "Source": "Page 6"
+        },
+        {
+          "Metric": "Business transformation period",
+          "Value": "since 2015",
+          "Unit": "year started",
+          "Period": "ongoing",
+          "Method": "Case observation",
+          "Source": "Page 7"
+        },
+        {
+          "Metric": "Interview participants",
+          "Value": "20",
+          "Unit": "interviews",
+          "Period": "study period",
+          "Method": "Primary data collection",
+          "Source": "Table 3.2"
+        }
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2-3: 'SaaS accounts for the majority of the entire cloud market and it is forecast to reach $117.1 billion in revenues by 2021 with an annual growth rate of 16 percent (Gartner 2018)' | Page 9: 'SaaS has enabled us to create a virtualised product which is 80% smaller, roughly 20 times faster' | Page 10: 'we can automatically provision new servers and create working environments for them within an hour' | Page 6: 'They are large (>10,000 employees) multi-national incumbent IT service providers who have been at the forefront of the advancement and provision of SaaS technologies for the past six years'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Observed period: 2015-2018 (study conducted around 2018). Maturity status: Consolidated - the SaaS model is described as established with substantial market presence, though the case organizations are in a transformation phase from traditional to SaaS-based operations",
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'Since 2015, both companies have prioritised the realignment and restructuring of their traditional IT business activities to focus solely on the provisioning of best of breed SaaS IT services' | Page 2-3: 'SaaS accounts for the majority of the entire cloud market and it is forecast to reach $117.1 billion in revenues by 2021' | Page 6: 'who have been at the forefront of the advancement and provision of SaaS technologies for the past six years' | Page 11: 'In the last five years, SaaS has become pervasive across all of our business units'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases (cross-case study analysis)",
+      "synonyms_found": [
+        "case study",
+        "comparative case study",
+        "multi-method case study"
+      ],
+      "source_citation": "Page 1: 'The empirical findings from a cross-case study analysis of two incumbent IT service providers' | Page 5: 'A multi-method, comparative case study research design was selected for the study' | Page 6: 'Table 3.2 provides an overview of the primary data sources (i.e. respondent interviews) and the secondary data sources'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Gmail → Example of personal use SaaS",
+        "Skype → Example of personal use SaaS",
+        "Dropbox → Example of personal use SaaS",
+        "Salesforce CRM → Example of business-centric SaaS",
+        "SAP Analytics Cloud → Example of business-centric SaaS",
+        "Oracle Enterprise Resource Planning Cloud → Example of business-centric SaaS",
+        "Dell → Example of IT stalwart experiencing struggles with SaaS business model payoffs",
+        "Intel → Example of IT stalwart experiencing struggles with SaaS business model payoffs",
+        "IBM → Example of IT stalwart experiencing struggles with SaaS business model payoffs",
+        "Hewlett Packard (HP) → Example of IT stalwart experiencing struggles with SaaS business model payoffs",
+        "Case A → Anonymous incumbent IT service provider successfully provisioning SaaS (cognitive analytics system mentioned)",
+        "Case B → Anonymous incumbent IT service provider successfully provisioning SaaS"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Examples of personal use SaaS include, for example, Gmail, Skype, and Dropbox. Salesforce customer relationship management (CRM), SAP Analytics Cloud, and Oracle Enterprise Resource Planning Cloud are examples of business-centric SaaS' | Page 3: 'This is evidenced by IT stalwarts such as Dell, Intel, IBM and Hewlett Packard (HP) whose struggles pertaining to how to best leverage the payoffs have been well documented' | Page 9: 'one of their most successful products which is currently receiving global recognition for its cognitive capacity'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Personal use SaaS → Characterized by individual consumer applications like Gmail, Skype, Dropbox",
+        "Business-centric SaaS → Characterized by enterprise applications like Salesforce CRM, SAP Analytics Cloud, Oracle ERP Cloud",
+        "Multi-tenant SaaS → Multiple customers served from shared infrastructure",
+        "Hybrid, open, and interoperable SaaS services → Focus on open source compatibility and hardware agnosticism"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 2: 'Examples of personal use SaaS include, for example, Gmail, Skype, and Dropbox. Salesforce customer relationship management (CRM), SAP Analytics Cloud, and Oracle Enterprise Resource Planning Cloud are examples of business-centric SaaS' | Page 10: 'With our particular SaaS products, we are able to distribute it to multiple customers in a multi-tenant environment' | Page 8: 'the orientation of the SaaS market towards hybrid, open, and interoperable SaaS services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Concentration of compute resources in fewer but larger data centres",
+        "Increasing pervasiveness of SaaS across all business units",
+        "Evolution toward 'SaaS native' operations where everything is cloud-based",
+        "Continued growth in SaaS market (forecast $117.1 billion by 2021 with 16% annual growth)",
+        "Reinvestment of cost savings into new strategic technological priorities (Big Data, security, analytics, mobility)",
+        "Customers playing increasingly prominent roles within SaaS value networks",
+        "Shift from traditional IT model to fast repurposing and continuous automation"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 14: 'Over time we envisage more and more compute resources being concentrated in fewer but larger data centres' | Page 11-12: 'In the last five years, SaaS has become pervasive across all of our business units...everything we do has to be SaaS native' | Page 2-3: 'it is forecast to reach $117.1 billion in revenues by 2021 with an annual growth rate of 16 percent' | Page 14: 'The cost savings derived from provisioning SaaS services are being reinvested into developing new skillsets and new strategic technological priorities and growth areas such as Big Data, security, analytics and mobility' | Page 13: 'customers are increasingly playing a more prominent role within their SaaS value networks'",
+      "confidence_level": "high"
+    }
+  ]
+}

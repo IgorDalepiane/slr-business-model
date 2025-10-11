@@ -1,0 +1,568 @@
+{
+  "extraction_metadata": {
+    "article_title": "Economics of open source library software: evidences from Indian libraries",
+    "extraction_date": "2024-12-19"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Open Source Software (OSS) business model - A collaborative software development model where software is developed by users and for users, primarily based on altruism and collaborative development without proprietary rights, following a 'bazaar' style of development.",
+      "synonyms_found": [
+        "Free and Open Source Software",
+        "FOSS",
+        "FLOSS",
+        "open source",
+        "OSS 2.0"
+      ],
+      "source_citation": "Page 1: 'Open-source software (OSS) is a new way of developing software, which is primarily developed by the users and for the users.' | Page 3: 'OSS espouses a philosophy where collaborative development and sharing are inextricably intertwined.' | Page 3: 'First, the OSS movement took off through the activity of a community that did not follow profit motivations, but it is based on altruism. Second, a hierarchical coordination emerged sans proprietary rights, i.e. bazaar style of development.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Free and Open Source Software",
+        "FOSS",
+        "FLOSS",
+        "open source",
+        "OSS 2.0",
+        "free software",
+        "public good"
+      ],
+      "synonyms_found": [
+        "Free and Open Source Software",
+        "FOSS",
+        "FLOSS",
+        "open source",
+        "OSS 2.0",
+        "free software",
+        "public good"
+      ],
+      "source_citation": "Page 1: 'Open-source software (OSS)' | Page 3: 'OSS phenomenon has metamorphosed into a more mainstream and commercially viable form, which Fitzgerald (2006) labels as OSS 2.0.' | Page 2: 'OSS is viewed as: /C15technology meant for a common cause; /C15a powerful force for good; /C15a public good'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Academic libraries and educational institutions",
+      "synonyms_found": [
+        "libraries",
+        "academic libraries",
+        "educational institutions",
+        "Institutions of National Importance",
+        "INIs",
+        "university libraries"
+      ],
+      "source_citation": "Page 1: 'The purpose of this paper is to study the adoption and use of open source software (OSS) in the libraries of Institutions of National Importance (INIs) in India' | Page 1: 'This paper is the first of its kind that explores the economic impact of OSS on the adopting libraries'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Government",
+      "synonyms_found": [
+        "Institutions of National Importance",
+        "INIs",
+        "government institutions",
+        "public institutions"
+      ],
+      "source_citation": "Page 1: 'Institutions of National Importance (INIs) in India' | Page 8: 'The results of the study show that university libraries of India could save an estimated Rs 417m by adopting open source ILS'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Mixed size organizations - from small service providers to large established companies",
+      "synonyms_found": [
+        "service providers",
+        "companies",
+        "organizations",
+        "established companies"
+      ],
+      "source_citation": "Page 13: 'There are many companies that are floated around these products, namely, ByWater Solutions, LibLime for Koha and Red Hat for Red Hat Linux have large developer communities to support them. Besides, many companies such as Informatics, OSS Labs and OpenLX increase their profits through cost savings'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "India",
+      "synonyms_found": [
+        "India",
+        "Indian libraries",
+        "Indian institutions"
+      ],
+      "source_citation": "Page 1: 'Economics of open source library software: evidences from Indian libraries' | Page 1: 'The purpose of this paper is to study the adoption and use of open source software (OSS) in the libraries of Institutions of National Importance (INIs) in India'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Indian Institute of Technology (IITs) and National Institute of Technology (NITs) libraries",
+      "synonyms_found": [
+        "IITs",
+        "NITs",
+        "Indian Institute of Technology",
+        "National Institute of Technology",
+        "technical institutions"
+      ],
+      "source_citation": "Page 6: 'This study presents a holistic picture of the 38 libraries of IITs and National Institute of Technology (NIT). Out of 38 libraries, 42.1 per cent (n= 16) were from IITs and 57.9 per cent (n= 22) from NITs'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Application",
+        "Platform",
+        "Managed Service"
+      ],
+      "synonyms_found": [
+        "integrated library system",
+        "ILS",
+        "digital repository",
+        "content management system",
+        "CMS",
+        "library website",
+        "learning management system",
+        "LMS"
+      ],
+      "source_citation": "Page 1: 'The findings of the study reveal that the libraries of INIs adopt and use OSS in integrated library system (ILS) (18.4 per cent), digital repository (95.2 per cent) and library website (65.5 per cent)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "On-premises",
+        "Single-tenant cloud"
+      ],
+      "synonyms_found": [
+        "freely downloadable",
+        "installation services",
+        "hosting services",
+        "on-premises deployment"
+      ],
+      "source_citation": "Page 11: 'As the OSS is available for freely downloadable, there is low product risk for the library. It can be downloaded and have a trial run in the library' | Page 13: 'They provide installation services, conversion services, configuration and customisation, training and technical support'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Permissive Open Source",
+      "synonyms_found": [
+        "open source",
+        "free software",
+        "collaborative development"
+      ],
+      "source_citation": "Page 1: 'Open-source software (OSS) is a new way of developing software, which is primarily developed by the users and for the users' | Page 3: 'OSS espouses a philosophy where collaborative development and sharing are inextricably intertwined'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "No licensing restrictions mentioned - software is freely downloadable and usable",
+      "synonyms_found": [
+        "freely downloadable",
+        "no restrictions",
+        "open access"
+      ],
+      "source_citation": "Page 11: 'As the OSS is available for freely downloadable, there is low product risk for the library. It can be downloaded and have a trial run in the library, besides evaluating all the features'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Support",
+        "Others"
+      ],
+      "synonyms_found": [
+        "service charges",
+        "installation services",
+        "technical support",
+        "training",
+        "consultation",
+        "development services"
+      ],
+      "source_citation": "Page 13: 'Earnings from service are the main source of revenue for these types of companies such as Red Hat, who earns its revenue by facilitating technical supports and services' | Page 13: 'They provide installation services, conversion services, configuration and customisation, training and technical support. They earn their revenue from service only'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Others",
+      "synonyms_found": [
+        "service-based pricing",
+        "project-based pricing"
+      ],
+      "source_citation": "Page 13: 'They earn their revenue from service only and their business model is illustrated in Figure 2' | Page 13: 'As selling of OSS cannot sustain a business, these companies make a bundle of library products and services and up-sell it to existing major libraries'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium",
+        "Custom negotiation"
+      ],
+      "synonyms_found": [
+        "free software",
+        "freely downloadable",
+        "service charges",
+        "custom services"
+      ],
+      "source_citation": "Page 11: 'As the OSS is available for freely downloadable' | Page 13: 'As selling of OSS cannot sustain a business, these companies make a bundle of library products and services and up-sell it to existing major libraries'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Plugin/Complement",
+      "synonyms_found": [
+        "service providers",
+        "support providers",
+        "third-party providers"
+      ],
+      "source_citation": "Page 13: 'There are many third-party service providers to facilitate the OSS to the library' | Page 13: 'There are many companies who support and provide services on open source library software around the world'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Direct (more users = more value)",
+      "synonyms_found": [
+        "collaborative development",
+        "community development",
+        "peer review"
+      ],
+      "source_citation": "Page 3: 'OSS espouses a philosophy where collaborative development and sharing are inextricably intertwined. Thousands of top-notched programmers and hackers freely produce highly qualified software' | Page 2: 'OSS development model produces better and cheaper software than proprietary development model, and these are of high quality and sustainable software'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Product-led Growth",
+        "Partners/channels"
+      ],
+      "synonyms_found": [
+        "direct adoption",
+        "service providers",
+        "third-party providers"
+      ],
+      "source_citation": "Page 11: 'It can be downloaded and have a trial run in the library, besides evaluating all the features. If it deems fit, then it can be adopted in the library' | Page 13: 'There are many third-party service providers to facilitate the OSS to the library'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Low cost, vendor lock-in avoidance, experimentation freedom",
+        "Customer Segment: Academic libraries, educational institutions",
+        "Revenue Streams: Service-based revenue from support, training, implementation",
+        "Key Activities: Software development, community building, service provision",
+        "Cost Structure: Community-based development reduces development costs"
+      ],
+      "synonyms_found": [
+        "value proposition",
+        "customer segment",
+        "revenue streams",
+        "key activities",
+        "cost structure"
+      ],
+      "source_citation": "Page 11: 'The most important intangible benefit of the open source library software is that it is tested and evaluated whether they meet the requirements like that of PS' | Page 12: 'The total cost of ownership (TCO) of open source library software, for example, in case of ILS software Koha or Evergreen will be quite lower than their proprietary counterpart' | Page 13: 'Earnings from service are the main source of revenue for these types of companies'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Producers of Open Source Library Software (e.g. Koha.org, Dspace) | Software Development | Provides free software to libraries | Collaborates with service providers\nLibraries | End Users | Adopts free software, pays for services | Receives support from service providers\nService Providers (e.g. Bywater Solutions, LibLime, Informatics) | Support Services | Provides paid services to libraries | Partners with software producers",
+      "synonyms_found": [
+        "producers",
+        "libraries",
+        "service providers",
+        "OSS community",
+        "developers"
+      ],
+      "source_citation": "Page 14: 'Producers of Open Source Library Software (e.g. Koha.org, Dspace) → Libraries (Free) → Service Providers (e.g. Bywater Solutions, LibLime, Informatics) (Free Service Charges)' | Page 13: 'There are many third-party service providers to facilitate the OSS to the library. In the context of library, they provide installation services, conversion services, configuration and customisation, training and technical support'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Cost savings and low TCO",
+        "Avoiding vendor lock-in",
+        "Freedom to experiment",
+        "Quality and sustainability",
+        "No licensing costs",
+        "Customization flexibility"
+      ],
+      "synonyms_found": [
+        "cost savings",
+        "vendor lock-in",
+        "experimentation",
+        "quality",
+        "sustainability",
+        "licensing costs",
+        "customization"
+      ],
+      "source_citation": "Page 2: 'OSS offers a viable and strong alternative to proprietary software (PS) and has larger economic implication when it is adopted in any enterprises including libraries' | Page 11: 'OSS encourages LIS professionals to experiment with new software in the library, acquire new knowledge and create new services' | Page 12: 'The total cost of ownership (TCO) of open source library software will be quite lower than their proprietary counterpart'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Institutional policy on OSS adoption → Higher adoption rates",
+        "Favoring OSS by institutions → Increased implementation",
+        "Technical staff availability → Successful deployment",
+        "Community support → Quality software development",
+        "Service provider ecosystem → Implementation support"
+      ],
+      "synonyms_found": [
+        "institutional policy",
+        "favoring OSS",
+        "technical staff",
+        "community support",
+        "service provider ecosystem"
+      ],
+      "source_citation": "Page 10: 'The results of Pearson chi-square also indicate that there is a statistically significant association between the institutions having OSS adoption policy and preferred type ILS used' | Page 3: 'Thousands of top-notched programmers and hackers freely produce highly qualified software' | Page 13: 'To have a high-quality service, the library should have internal technical staff or seek service from different companies/individual experts'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Technical staff or external service providers → Implementation and maintenance",
+        "Institutional OSS adoption policy → Organizational support",
+        "Internet connectivity → Software download and updates",
+        "Training programs → Staff capability building",
+        "Budget for services → Ongoing support"
+      ],
+      "synonyms_found": [
+        "technical staff",
+        "service providers",
+        "institutional policy",
+        "internet connectivity",
+        "training",
+        "budget"
+      ],
+      "source_citation": "Page 13: 'To have a high-quality service, the library should have internal technical staff or seek service from different companies/individual experts' | Page 10: 'To increase the adoption of OSS in the library, the institute should consider having OSS adoption policy' | Page 11: 'OSS encourages LIS professionals to experiment with new software in the library, acquire new knowledge'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Selling OSS cannot sustain a business → Revenue model limitations",
+        "Need for technical expertise → Implementation barriers",
+        "Cultural resistance to OSS → Adoption challenges",
+        "Digital divide → Access limitations"
+      ],
+      "synonyms_found": [
+        "selling restrictions",
+        "technical expertise",
+        "cultural resistance",
+        "digital divide"
+      ],
+      "source_citation": "Page 13: 'As selling of OSS cannot sustain a business, these companies make a bundle of library products and services and up-sell it to existing major libraries' | Page 4: 'Although there are certain bottlenecks of adopting OSS in libraries, these are social (cultural) disparity, conceptual confusions, digital divide and lack of technological, financial and human development'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Social and cultural resistance to OSS adoption",
+        "Conceptual confusions about open source",
+        "Digital divide affecting access",
+        "Lack of technological, financial and human development",
+        "Need for technical expertise for implementation",
+        "Revenue sustainability challenges for service providers"
+      ],
+      "synonyms_found": [
+        "cultural resistance",
+        "conceptual confusions",
+        "digital divide",
+        "technological development",
+        "financial development",
+        "human development",
+        "technical expertise",
+        "revenue sustainability"
+      ],
+      "source_citation": "Page 4: 'Although there are certain bottlenecks of adopting OSS in libraries, these are social (cultural) disparity, conceptual confusions, digital divide and lack of technological, financial and human development' | Page 13: 'As selling of OSS cannot sustain a business, these companies make a bundle of library products and services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Institutional OSS adoption policies → Addresses cultural resistance and provides organizational support",
+        "Service provider ecosystem → Provides technical expertise and implementation support",
+        "Training programs → Builds human development and technical capabilities",
+        "Community-based development → Ensures quality and sustainability",
+        "Bundled service offerings → Addresses revenue sustainability for providers"
+      ],
+      "synonyms_found": [
+        "institutional policies",
+        "service providers",
+        "training programs",
+        "community development",
+        "bundled services"
+      ],
+      "source_citation": "Page 10: 'To increase the adoption of OSS in the library, the institute should consider having OSS adoption policy' | Page 13: 'There are many third-party service providers to facilitate the OSS to the library' | Page 11: 'OSS encourages LIS professionals to experiment with new software in the library, acquire new knowledge and create new services'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Metric; Value; Unit; Period; Method; Source\nAdoption rate ILS; 18.4; per cent; Study period; Survey; 38 INI libraries\nAdoption rate digital repository; 95.2; per cent; Study period; Survey; 38 INI libraries\nAdoption rate library website; 34.5; per cent; Study period; Survey; 29 libraries with websites\nPotential savings; 417; million INR; Projected; Calculation; All university libraries in India\nCost comparison ILS; 0-1.5; million INR; Current; Market analysis; OSS vs proprietary software\nCost comparison digital repository; 0-1.0; million INR; Current; Market analysis; OSS vs proprietary software\nCost comparison CMS; 0-0.5; million INR; Current; Market analysis; OSS vs proprietary software",
+      "synonyms_found": [
+        "adoption rates",
+        "cost savings",
+        "cost comparisons",
+        "survey results"
+      ],
+      "source_citation": "Page 1: 'The findings of the study reveal that the libraries of INIs adopt and use OSS in integrated library system (ILS) (18.4 per cent), digital repository (95.2 per cent) and library website (65.5 per cent)' | Page 8: 'The results of the study show that university libraries of India could save an estimated Rs 417m by adopting open source ILS such as Koha, Evergreen, NewGenLib and ABCD' | Page 11: 'Software OSS cost PS cost (in INR) ILS 0 0.05-1.5m digital repository 0 0.05-1.0m CMS 0 0.05-0.5m LMS 0 0.05-2.0m'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "2018 study period + Growing",
+      "synonyms_found": [
+        "growing",
+        "increasing adoption",
+        "emerging trend"
+      ],
+      "source_citation": "Page 1: 'Received 21 April 2018, Revised 19 November 2018, Accepted 29 November 2018' | Page 8: 'The result shows that the use and adoption of OSS in libraries is an increasing trend' | Page 3: 'OSS phenomenon has metamorphosed into a more mainstream and commercially viable form, which Fitzgerald (2006) labels as OSS 2.0'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Survey",
+      "synonyms_found": [
+        "online survey",
+        "questionnaire",
+        "descriptive statistics",
+        "chi-square test"
+      ],
+      "source_citation": "Page 5: 'To study the adoption and use of OSS, an online survey method was used as the population is widely distributed geographically around all INIs in India' | Page 5: 'Descriptive statistics and Pearson's chi-square are used in this study'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Koha → Open source ILS mentioned as most favored",
+        "DSpace → Digital repository software with 95.2% adoption",
+        "Drupal → CMS used for library websites",
+        "Joomla! → CMS used for library websites",
+        "ByWater Solutions → Service provider for Koha",
+        "LibLime → Service provider for Koha",
+        "Informatics → Indian service provider",
+        "Red Hat → Example of service-based revenue model"
+      ],
+      "synonyms_found": [
+        "Koha",
+        "DSpace",
+        "Drupal",
+        "Joomla",
+        "ByWater Solutions",
+        "LibLime",
+        "Informatics",
+        "Red Hat"
+      ],
+      "source_citation": "Page 1: 'Koha, DSpace, Drupal and Joomla! are the most favoured OSS among the libraries of INIs' | Page 13: 'Amongst them, LibLime, Bywater Solutions, Equinox Software and Media Flex are popular service providers in open source ILS' | Page 13: 'Earnings from service are the main source of revenue for these types of companies such as Red Hat, who earns its revenue by facilitating technical supports and services'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "OSS 2.0 → More mainstream and commercially viable form with bazaar metaphor shifted to product delivery and support process",
+        "Service-based OSS model → Companies providing support, training, and implementation services",
+        "Community-driven OSS model → Traditional collaborative development approach"
+      ],
+      "synonyms_found": [
+        "OSS 2.0",
+        "service-based model",
+        "community-driven model",
+        "commercial OSS"
+      ],
+      "source_citation": "Page 3: 'OSS phenomenon has metamorphosed into a more mainstream and commercially viable form, which Fitzgerald (2006) labels as OSS 2.0. He discusses how the bazaar metaphor, which is up to now has been associated with the OSS development process, has been actually shifted to become a metaphor better suited to the OSS 2.0 product delivery and support process' | Page 13: 'There are many third-party service providers to facilitate the OSS to the library'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Continued growth in OSS adoption in libraries",
+        "Government policy formulation for OSS adoption",
+        "Expansion of service provider ecosystem",
+        "Increased mainstream acceptance of OSS",
+        "Shift towards OSS 2.0 commercial viability"
+      ],
+      "synonyms_found": [
+        "growth",
+        "government policy",
+        "service provider expansion",
+        "mainstream acceptance",
+        "commercial viability"
+      ],
+      "source_citation": "Page 8: 'The result shows that the use and adoption of OSS in libraries is an increasing trend' | Page 10: 'In addition, the government should also formulate national policy on OSS adoption' | Page 3: 'The emergence of OSS accentuates the fundamental alteration of the basic ground rules in the software landscape, signifying the end of the proprietary-driven model that has prevailed for the past 20 years'",
+      "confidence_level": "medium"
+    }
+  ]
+}

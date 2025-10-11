@@ -1,0 +1,423 @@
+{
+  "extraction_metadata": {
+    "article_title": "E-business evolution: an analysis of mobile applications' business models",
+    "extraction_date": "2025-10-06"
+  },
+  "extracted_data": [
+    {
+      "question_id": "1",
+      "question_text": "What is the name and definition of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Mobile applications business models. The article defines business model as how a company creates and captures value, specifically studying mobile applications (mobile software accessible by mobile devices that allow access to products/services from anywhere, cutting spatial and timely barriers to value delivery). The study identifies four typologies: content-oriented (production and provision of online content through user-friendly platforms), commerce-oriented (trading aspects of online transactions), context-oriented (structuring existing information to help users find services), and connection-oriented (offering virtual spaces for online networks).",
+      "synonyms_found": [
+        "e-business model",
+        "apps business models",
+        "mobile apps business models",
+        "business model"
+      ],
+      "source_citation": "Page 2: 'The business model of a company mainly depicts how it creates and captures value' | Page 2: 'mobile applications, i.e. softwares accessible by mobile devices that allow access to a series of products/services from anywhere and by anyone, cutting the spatial and timely barriers to the delivery of value for customers' | Page 3: 'Wirtz, Schilke, and Ullrich (2010), in recognising the new challenges and opportunities of the new digital era seminally defined four general typologies of business model in terms of value creation: (i) content-oriented, focused on the production and provision of online content through user-friendly platforms (e.g. The Economist online) almost relying on advertising or premium fees as revenue streams; (ii) commerce-oriented, focused on the trading aspects of online transactions using online media (e.g. eBay), so they rely on commissions as revenue streams; (iii) context-oriented, focused on structuring already existent information in order to help Internet users find the service that satisfies their needs (e.g. Yahoo), those almost rely on advertising as revenue streams; (iv) connection-oriented, focused on offering virtual spaces that enable participants to join online networks (e.g. Facebook) that usually pay a subscription for those.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "2",
+      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+      "response_found": true,
+      "extracted_value": "e-business model, mobile apps business models, apps business models, business model, e-businesses",
+      "synonyms_found": [
+        "e-business model",
+        "mobile apps business models",
+        "apps business models",
+        "business model",
+        "e-businesses"
+      ],
+      "source_citation": "Throughout article: references to 'business model', 'e-business model', 'mobile apps business models', 'apps business models', 'e-businesses' are used interchangeably",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "3",
+      "question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+      "response_found": true,
+      "extracted_value": "Mobile applications across multiple categories from Google Play Store (50 categories analyzed). The study covers diverse industries including content, commerce, context, and connection apps, with content apps representing 80-91.6% of the sample.",
+      "synonyms_found": [
+        "mobile apps",
+        "mobile applications",
+        "apps"
+      ],
+      "source_citation": "Page 5: 'For this work data were collected from 25 pay per download apps (i.e. a payment is needed to download the app) and 25 free apps (i.e. payment is not needed) for each category of the Google Play Store (i.e. 50)' | Page 7: 'the content category accounts for 80% (901 out of 1125) and 91.6% (1031 out of 1125), respectively, for the 'free' and 'pay per download' mobile apps' categories'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "4",
+      "question_text": "What is the target customer type of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "B2C - The article focuses on mobile apps targeting end users/consumers who download and use apps from the Google Play Store.",
+      "synonyms_found": [
+        "users",
+        "customers",
+        "app users"
+      ],
+      "source_citation": "Page 5: 'mobile apps are mobile software specifically designed by developers according to the operating system of the device they would like to be run. However, for different operating systems there exist different virtual marketplaces from which users can download apps' | Page 13: 'app users, as emerged from the thematic analysis, have, instead, different concerns about the value sources of the e-business model'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "5",
+      "question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "6",
+      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+      "response_found": true,
+      "extracted_value": "Global - The study analyzed apps from Google Play Store which operates globally. Android operating system has 85% global market share.",
+      "synonyms_found": [],
+      "source_citation": "Page 5: 'According to Statista (2018b), Android is the main operating system with 85% of the market share; moreover, within the Google Play Store, the Android marketplace, are currently available 2.8 million apps.'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "7",
+      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+      "response_found": true,
+      "extracted_value": "Mobile app users who download and rate apps from Google Play Store. The study analyzed user comments and reviews to understand value preferences.",
+      "synonyms_found": [
+        "users",
+        "app users",
+        "customers"
+      ],
+      "source_citation": "Page 6: '30 users' comments for each app have been randomically collected and later thematically analysed' | Page 7: 'for each app in the scope the quantitative value assigned from users to the app in terms of 'stars' (from one to five stars, thus from the lowest satisfaction to the highest satisfaction) was first collected'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "8",
+      "question_text": "What is the type of product or service offered by the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Application - The study focuses exclusively on mobile applications as software products.",
+      "synonyms_found": [
+        "mobile apps",
+        "mobile applications",
+        "apps",
+        "mobile software"
+      ],
+      "source_citation": "Page 2: 'The main mobile data technology that is driven this revolution is mobile applications, i.e. softwares accessible by mobile devices that allow access to a series of products/services from anywhere and by anyone' | Page 5: 'mobile apps are mobile software specifically designed by developers'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "9",
+      "question_text": "How is the software delivered or deployed in the business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Mobile - Apps are delivered through mobile devices via the Google Play Store marketplace. Users download apps to their mobile devices running Android operating system.",
+      "synonyms_found": [
+        "mobile devices",
+        "mobile"
+      ],
+      "source_citation": "Page 2: 'mobile applications, i.e. softwares accessible by mobile devices' | Page 5: 'mobile apps are mobile software specifically designed by developers according to the operating system of the device they would like to be run. However, for different operating systems there exist different virtual marketplaces from which users can download apps.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "10",
+      "question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "11",
+      "question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "12",
+      "question_text": "What are the revenue sources of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Advertising (Ads)",
+        "In-app purchases",
+        "Pay per download (one-time payment)",
+        "Freemium",
+        "Subscription",
+        "Teaser/Promotion",
+        "Free as a service",
+        "Agreements with third parties"
+      ],
+      "synonyms_found": [
+        "ads",
+        "advertising model",
+        "freemium model",
+        "promotion model",
+        "teaser",
+        "subscription",
+        "In-App purchase",
+        "free as a service",
+        "agreements with third parties"
+      ],
+      "source_citation": "Page 3-4: 'the following have been identified: (i) advertising model, (ii) freemium model, some parts of the product or service are given for free while additional services or the rest of the product or services are paid for; (iii) promotion model (or 'teaser'), something is given at a low cost or for free in order to promote other different products or services; (iv) subscription, service given for free, but to take full advantage of their contents a subscription is required' | Page 7: 'three new mechanisms emerged: (i) in-app purchase, the application is free but it contains extensions, or additional content, which can be purchased directly within the application itself. This differs from the freemium model because the latter offers two versions of the same service; (ii) free as a service, these are free apps that constitute an additional access for users of a service (e.g. mobile apps of telco services); and (iii) agreements with third parties, these are apps that require the contributions of other business players to exist.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "13",
+      "question_text": "What is the base unit for pricing of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "The article mentions multiple pricing bases: per download (one-time payment), per subscription period, per in-app purchase transaction, per advertisement view/interaction, and revenue sharing with third parties. No single predominant unit is specified.",
+      "synonyms_found": [],
+      "source_citation": "Page 5: 'data were collected from 25 pay per download apps (i.e. a payment is needed to download the app)' | Page 7: 'in-app purchase, the application is free but it contains extensions, or additional content, which can be purchased directly within the application itself' | Page 3: 'subscription, service given for free, but to take full advantage of their contents a subscription is required' | Page 3: 'advertising model'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "14",
+      "question_text": "What is the price presentation structure of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Freemium",
+        "Pay-as-you-go (for in-app purchases)",
+        "One-time payment (pay per download)",
+        "Subscription",
+        "Free with ads",
+        "Mixed (combination of multiple structures)"
+      ],
+      "synonyms_found": [
+        "freemium",
+        "pay per download",
+        "free",
+        "subscription",
+        "mixed"
+      ],
+      "source_citation": "Page 3-4: 'freemium model, some parts of the product or service are given for free while additional services or the rest of the product or services are paid for' | Page 5: '25 pay per download apps (i.e. a payment is needed to download the app) and 25 free apps (i.e. payment is not needed)' | Page 7: 'about 69% of pay per download apps (777 out of 1125) are based on mixed value capture mechanisms' | Page 7: 'where none of those elements was present, the app was initially considered as free. The value capture variable was treated as categorical, but the presence of a value capture mechanism was not seen as exclusive because others may be contemporarily present in the same app. In these cases, the value capture mechanism was considered as mixed.'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "15",
+      "question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "16",
+      "question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Standalone product and Two-sided platform. Mobile apps function as standalone products delivered through platform marketplaces (Google Play Store), which acts as a two-sided platform connecting app developers with users.",
+      "synonyms_found": [
+        "app platforms",
+        "virtual marketplaces",
+        "Google Play Store",
+        "marketplace"
+      ],
+      "source_citation": "Page 5: 'for different operating systems there exist different virtual marketplaces from which users can download apps. According to Statista (2018a), Android is the main operating system with 85% of the market share; moreover, within the Google Play Store, the Android marketplace, are currently available 2.8 million apps' | Page 12: 'app platforms may ask for different fees to be paid, which influence the value source 'design of added monetization' and (as a consequence) value capture schemes'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "17",
+      "question_text": "What type of network effect is present in the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Data (more data = better product). The article mentions that user interactions and feedback influence app evolution and improvements.",
+      "synonyms_found": [],
+      "source_citation": "Page 13-14: 'app users may also exchange opinions with platforms about their preferences, influencing each other's behaviour (see the 'Google Play Help Forum')' | Page 13: 'app users, as emerged from the thematic analysis, have, instead, different concerns about the value sources of the e-business model, influencing the allocation of resources from the e-business'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "18",
+      "question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": [
+        "Marketplaces (Google Play Store ranking and visibility)",
+        "Product-led Growth (users discovering and downloading directly from store)"
+      ],
+      "synonyms_found": [
+        "Google Play Store",
+        "virtual marketplaces",
+        "ranking"
+      ],
+      "source_citation": "Page 5: 'data were collected from 25 pay per download apps (i.e. a payment is needed to download the app) and 25 free apps (i.e. payment is not needed) for each category of the Google Play Store (i.e. 50). The data collection was done between November 2017 and January 2018 and took into account the first 25 pay per download and 25 free apps ranked in the top 50 over the data collection period' | Page 7: 'companies recognise the benefit of the greater visibility paying fees to the developer'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "19",
+      "question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+      "response_found": true,
+      "extracted_value": "Yes - Google Play Store (Android marketplace)",
+      "synonyms_found": [
+        "Google Play Store",
+        "Android marketplace",
+        "virtual marketplace",
+        "app platforms"
+      ],
+      "source_citation": "Page 3: 'the business models of 2250 mobile apps present on the Google Play Store –the largest virtual marketplace for mobile apps (Statista 2018a)' | Page 5: 'within the Google Play Store, the Android marketplace, are currently available 2.8 million apps'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "20",
+      "question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": [
+        "Value Proposition: Value creation through efficiency, complementarity, lock-in, and novelty in mobile apps; value capture through various monetization mechanisms (ads, in-app purchases, subscriptions, etc.)",
+        "Customer Segment: Mobile app users who download and use apps from Google Play Store",
+        "Channels: Google Play Store marketplace for distribution",
+        "Revenue Streams: Advertising, in-app purchases, pay per download, freemium, subscription, agreements with third parties, free as a service",
+        "Key Resources: App design, developer capabilities, content quality, technological infrastructure",
+        "Key Activities: App development, content creation, user feedback integration, monetization optimization",
+        "Key Partnerships: App platforms (Google Play Store), third-party content providers, advertisers",
+        "Cost Structure: not reported in detail"
+      ],
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'the creation of value in virtual markets is based on: efficiency –meaning the fast transmission of data on the Internet in order to reduce interconnection and negotiation; complementarity –meaning the capacity to propose products/services that are vertically or horizontally connected; lock-in –meaning the wish of customers or business partners to repeat transactions with the same firm because of the irreplaceable overall value; novelty –meaning the creation of new value' | Page 3-4: 'the following have been identified: (i) advertising model, (ii) freemium model, (iii) promotion model (or 'teaser'), (iv) subscription' | Page 7: 'three new mechanisms emerged: (i) in-app purchase, (ii) free as a service, and (iii) agreements with third parties' | Page 10: 'app design, developer behaviour and design of app monetisation' are identified as key features",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "21",
+      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+      "response_found": true,
+      "extracted_value": "Entrepreneur/Strategist | Conceives and defines the e-business model | Shares conception with developers/designers and investors; responds to app users and platform requirements | Influences variation and selection of business model elements. App Designers and Developers | Design and implement mobile apps | Receive direction from entrepreneur; interact with users through app features and support; comply with platform requirements | Modify e-business model elements based on feedback. Active Investors | Provide funding | Influence business model decisions through investment requirements | Shape value capture mechanisms. App Users | Download, use, and review apps | Rate apps, provide feedback through comments and reviews; may exchange opinions with platforms | Select successful apps through usage and ratings; influence resource allocation. App Platforms (Google Play Store) | Provide marketplace and distribution infrastructure | Set technical requirements and fees; facilitate user-developer connection | Influence monetization design and value capture schemes.",
+      "synonyms_found": [
+        "interactors",
+        "organisational interactors",
+        "external interactors"
+      ],
+      "source_citation": "Page 12: 'replicators may not be entirely transmitted; some of them are selected out or modified due to their relationships with interactors, which in this case are: entrepreneur/strategist, app designers and developers, active investors, app users, and app platforms' | Page 12: 'In order to realise the e-business and find the necessary funds for it, he/she has to share the e-business model conception (through communication and involvement in the e-business model practice) with other organisational interactors. By reflecting on them, organisational interactors act as modifiers of the replicators and vary their characteristics' | Page 13: 'app platforms may ask for different fees to be paid, which influence the value source 'design of added monetization' and (as a consequence) value capture schemes' | Page 13: 'App users, as emerged from the thematic analysis, have, instead, different concerns about the value sources of the e-business model, influencing the allocation of resources from the e-business'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "22",
+      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+      "response_found": true,
+      "extracted_value": "Adapting to digital transformation and mobile data technology revolution; surviving digital Darwinism by keeping pace with technological changes; finding the right business model to create and capture value in the new digital era; cutting spatial and timely barriers to value delivery for customers.",
+      "synonyms_found": [
+        "digital transformation",
+        "digital Darwinism",
+        "digital revolution",
+        "mobile data technology"
+      ],
+      "source_citation": "Page 2: 'New and established entrepreneurs and strategists feel under pressure in adapting their firms to this change, among which, also finding the right business model, thus how to create and capture value (Amit and Zott 2001; Zott, Amit, and Massa 2011), seems another important challenge in order to survive the digital transformation and to crack open markets' | Page 2: 'today's firms are pushed, within the competitive phase of their business life cycle, to keep pace with the digital revolution driven by mobile data technologies –the so-called digital Darwinism by which firms who survive and continue competing are the ones that have been able to best adapt themselves to digital changes –and, relatedly, to adapt their business model according to an evolutionary dynamic'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "23",
+      "question_text": "What factors contribute to the success of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Efficiency (fast, bug-free performance) → Higher positive reviews. Lock-in (fun, user interaction) → Higher positive reviews. App design (graphics, controls, ease of use, content quality) → Higher positive reviews (57.8% of comments, most significant factor). Design of app monetization (quality of in-app purchases, non-intrusive ads) → Higher positive reviews. Content-based app typology → 80-91.6% of successful apps. Mixed value capture mechanisms → 69% of pay per download apps.",
+      "synonyms_found": [
+        "apps' success",
+        "positive reviews",
+        "success"
+      ],
+      "source_citation": "Page 10: 'Among all the seven sources of value, complementarities (p= 0.67), novelty (p= 0.95) and developer behaviour (p= 0.12) are not statistically significant, while efficiency, lock-in, design, and the design of app monetisation are statistically significant (p< 0.05); these are the significant predictors for positive reviews' | Page 10: 'app design received the vast majority of comments (i.e. 57.8%) among all sources of value; more in depth, the ease of use and the quality and quantity of contents have been the two major codes detected –respectively with 19.7% and 25.9%' | Page 14: 'content apps, whose value is driven by their efficiency, lock-in, design, and ability to add complementary monetisation mechanisms (i.e. In-App purchases) beside the ads value capture schema (or 'mixed' for 'pay per download' apps), are the ones that can survive digital Darwinism'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "24",
+      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Mobile device infrastructure → Required for app deployment and usage. Operating system compatibility (Android) → Required for app functionality. App platform presence (Google Play Store) → Required for distribution and customer access. Developer technical capabilities → Required for app design and implementation.",
+      "synonyms_found": [],
+      "source_citation": "Page 5: 'mobile apps are mobile software specifically designed by developers according to the operating system of the device they would like to be run. However, for different operating systems there exist different virtual marketplaces from which users can download apps' | Page 12: 'app platforms may ask for different fees to be paid, which influence the value source 'design of added monetization' and (as a consequence) value capture schemes'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "25",
+      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Platform fees → Impact monetization design and value capture schemes. Operating system specificity → Apps must be designed for specific OS (Android), limiting cross-platform deployment. Platform technical requirements → Restrict design choices and implementation options.",
+      "synonyms_found": [],
+      "source_citation": "Page 5: 'mobile apps are mobile software specifically designed by developers according to the operating system of the device they would like to be run' | Page 13: 'app platforms may ask for different fees to be paid, which influence the value source 'design of added monetization' and (as a consequence) value capture schemes (Whallalabs.com 2016)' | Page 12: 'app platforms may influence the variation of replicators'",
+      "confidence_level": "medium"
+    },
+    {
+      "question_id": "26",
+      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Surviving digital Darwinism - adapting to rapid technological changes; Finding the right business model that creates and captures value effectively; Balancing multiple value capture mechanisms without degrading user experience; Managing technical issues (bugs, crashes, lags) that impact app efficiency; Responding to diverse and sometimes divergent user preferences; Coordinating among multiple interactors (entrepreneurs, developers, investors, users, platforms) with potentially conflicting interests; Maintaining app design quality including graphics, controls, and content while managing monetization.",
+      "synonyms_found": [
+        "digital Darwinism",
+        "digital transformation"
+      ],
+      "source_citation": "Page 2: 'New and established entrepreneurs and strategists feel under pressure in adapting their firms to this change, among which, also finding the right business model, thus how to create and capture value (Amit and Zott 2001; Zott, Amit, and Massa 2011), seems another important challenge in order to survive the digital transformation' | Page 10: 'Bugs/Crashes Programming errors and unexpected crashes 750 (12.4%)' | Page 13: 'the different points of view of the interactors, despite influencing each other's reasoning in a co-evolutionary manner (Cristofaro 2019) exert forces that can be divergent' | Page 13-14: 'app users may uninstall an app due to its non-user-friendliness or because of unnecessary notifications (Forbes 2013)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "27",
+      "question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+      "response_found": true,
+      "extracted_value": "Mixed value capture mechanisms → Mitigates single revenue source risk → 69% of pay per download apps use mixed mechanisms. Continuous app updates → Mitigates technical issues and maintains competitiveness → Identified as developer behaviour factor. Responsive technical support → Mitigates user dissatisfaction → Identified as developer behaviour element. User feedback integration → Mitigates misalignment with user needs → Developers answer user comments in Google Play Store. Focus on content-based apps with emphasis on design → Mitigates survival risk → Content apps represent 80-91.6% of successful apps. Adding complementary monetization mechanisms (in-app purchases alongside ads) → Mitigates revenue limitations → Statistically significant predictor of success.",
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'about 69% of pay per download apps (777 out of 1125) are based on mixed value capture mechanisms' | Page 10: 'Updates Frequency of updates by the app's developer 144 (2.4%) Developer behaviour. Support Responsiveness of the developer for technical assistance 208 (3.4%)' | Page 13: 'app designers and developers may start interacting with app users and app platforms in order to know what the e-business model's elements are that are preferred/fit requirements (e.g. answering users' comments in the Google Play Store)' | Page 14: 'content apps, whose value is driven by their efficiency, lock-in, design, and ability to add complementary monetisation mechanisms (i.e. In-App purchases) beside the ads value capture schema'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "28",
+      "question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Content apps percentage; 80%; Percentage of free apps; Data collection period Nov 2017-Jan 2018; Sample analysis; Author. Content apps percentage; 91.6%; Percentage of pay per download apps; Data collection period Nov 2017-Jan 2018; Sample analysis; Author. Mixed value capture in pay per download; 69%; Percentage of apps (777 out of 1125); Data collection period Nov 2017-Jan 2018; Sample analysis; Author. Total apps analyzed; 2250; Number of apps; Data collection period Nov 2017-Jan 2018; Sample analysis; Author. User comments analyzed; 67,500; Total comments collected; Data collection period Nov 2017-Jan 2018; User review analysis; Google Play Store. Codeable comments; 9%; Percentage of total comments (6045 out of 67,500); Data collection period Nov 2017-Jan 2018; Thematic analysis; Author. App design importance; 57.8%; Percentage of coded comments (3496 out of 6045); Data collection period Nov 2017-Jan 2018; Thematic analysis; Author. Model predictive power; 77%; R² adjusted (0.755); Regression analysis period; Multiple regression; Author. Android market share; 85%; Global market share percentage; 2018; Industry data; Statista 2018b. Google Play Store apps available; 2.8 million; Total number of apps; 2018; Industry data; Statista 2018a. Kappa statistic for coding agreement; 0.81; Agreement level; Data collection period; Inter-rater reliability; Author.",
+      "synonyms_found": [],
+      "source_citation": "Page 7: 'the content category accounts for 80% (901 out of 1125) and 91.6% (1031 out of 1125), respectively, for the 'free' and 'pay per download' mobile apps' categories' | Page 7: 'about 69% of pay per download apps (777 out of 1125) are based on mixed value capture mechanisms' | Page 7: '67,500 comments have been collected. However, only from 6045 comments (9%) has it been possible to detect codes' | Page 10: 'app design received the vast majority of comments (i.e. 57.8%)' | Page 10: 'F(8, 2241) = 7.268, p< 0.0005, R2= 0.777, adjusted R2= 0.755; the model accounts for 77% of the variance in positive reviews' | Page 5: 'According to Statista (2018b), Android is the main operating system with 85% of the market share; moreover, within the Google Play Store, the Android marketplace, are currently available 2.8 million apps' | Page 6: 'Kappa statistic for comparing codes was 0.81'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "29",
+      "question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+      "response_found": true,
+      "extracted_value": "Observed period: November 2017 to January 2018 (data collection). Historical context: Article published in 2020, studying the 'second wave of e-businesses' following the dot-com era, approximately 10 years after mobile data technology introduction. Maturity status: Consolidated - Mobile apps represent an established business model evolution from website-based e-businesses, with 2.8 million apps available in Google Play Store.",
+      "synonyms_found": [
+        "new digital era",
+        "second wave of e-businesses"
+      ],
+      "source_citation": "Page 2: 'Within the last 10 years, the business environment has drastically changed due to the advent of a series of technological innovations, among which the introduction of mobile data technology is considered as the key turning point from where thousands of new disruptive e-businesses have been set. In practice, a second wave of e-businesses (after the dot-com one) has arrived' | Page 5: 'The data collection was done between November 2017 and January 2018' | Page 5: 'within the Google Play Store, the Android marketplace, are currently available 2.8 million apps'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "30",
+      "question_text": "What is the type of evidence presented in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Multiple cases - Analysis of 2250 mobile applications from Google Play Store using mixed qualitative-quantitative methodology, including thematic analysis of 67,500 user comments and statistical analysis (Chi-square tests, multiple regression).",
+      "synonyms_found": [
+        "mixed qualitative-quantitative business model analysis",
+        "mixed methodological approach"
+      ],
+      "source_citation": "Page 2: 'A mixed qualitative-quantitative business model analysis of 2250 mobile applications of the Google Play Store is proposed' | Page 3: 'through a mixed methodological approach, the business models of 2250 mobile apps present on the Google Play Store –the largest virtual marketplace for mobile apps (Statista 2018a)– have been collected and analysed' | Page 7: '67,500 comments have been collected' | Page 6: 'a Chi square analysis has been conducted' | Page 10: 'a multiple regression has been conducted'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "31",
+      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
+      "response_found": true,
+      "extracted_value": "Spotify → Example of revolution in music sector through free-based business model. The Economist online → Example of content-oriented e-business model. eBay → Example of commerce-oriented e-business model. Yahoo → Example of context-oriented e-business model. Facebook → Example of connection-oriented e-business model.",
+      "synonyms_found": [],
+      "source_citation": "Page 3: 'such as the revolution made by Spotify within the music sector' | Page 3: '(i) content-oriented, focused on the production and provision of online content through user-friendly platforms (e.g. The Economist online)' | Page 3: '(ii) commerce-oriented, focused on the trading aspects of online transactions using online media (e.g. eBay)' | Page 3: '(iii) context-oriented, focused on structuring already existent information in order to help Internet users find the service that satisfies their needs (e.g. Yahoo)' | Page 3: '(iv) connection-oriented, focused on offering virtual spaces that enable participants to join online networks (e.g. Facebook)'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "32",
+      "question_text": "Are there variations or subtypes of the software business model described in the article?",
+      "response_found": true,
+      "extracted_value": "Free apps vs Pay per download apps → Free apps rely on ads, in-app purchases, subscriptions, or third-party agreements; pay per download apps charge upfront and often use mixed monetization (69% use mixed mechanisms including freemium). Content-oriented → Production and provision of online content, relying on advertising or premium fees (80-91.6% of apps). Commerce-oriented → Trading aspects of online transactions, relying on commissions and third-party agreements. Context-oriented → Structuring existing information to help users find services, relying on advertising. Connection-oriented → Offering virtual spaces for online networks, relying on subscriptions or free as a service model.",
+      "synonyms_found": [
+        "typologies",
+        "four general typologies of business model"
+      ],
+      "source_citation": "Page 3: 'Wirtz, Schilke, and Ullrich (2010), in recognising the new challenges and opportunities of the new digital era seminally defined four general typologies of business model in terms of value creation: (i) content-oriented, (ii) commerce-oriented, (iii) context-oriented, (iv) connection-oriented' | Page 5: '25 pay per download apps (i.e. a payment is needed to download the app) and 25 free apps (i.e. payment is not needed)' | Page 7: 'about 69% of pay per download apps (777 out of 1125) are based on mixed value capture mechanisms' | Page 7: 'within the content typology there is a significantly higher presence of the capture value scheme called ads and in-app-purchases'",
+      "confidence_level": "high"
+    },
+    {
+      "question_id": "33",
+      "question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+      "response_found": true,
+      "extracted_value": "Business models should be continuously re-evaluated over time according to environment modifications - successful features will differ in next digital revolution. E-business models will continue evolving through replicator-interactor dynamics in co-evolutionary manner. Multi-level environmental changes will drive further business model adaptations. Entrepreneurs must understand that current successful features (content apps with efficiency, lock-in, design, and complementary monetization) cannot be assumed permanent for future digital transformations.",
+      "synonyms_found": [
+        "evolution",
+        "evolutionary processes",
+        "co-evolution"
+      ],
+      "source_citation": "Page 2: 'E-business models and their innovations are the products of evolutionary processes; from that, e-business models should be evaluated and re-evaluated over time according to the modifications of the multi-level environment' | Page 14: 'by definition, replications are not static (Aldrich et al. 2008), but they have evolved over time: the successful features that e-businesses should incorporate in order to survive the pressures of the environment are different from those of the past. Business models should therefore be investigated considering their evolution' | Page 15: 'entrepreneurs or e-business strategists in charge of defining the e-business model, should consider that the successful features in the current digital era cannot be the same for the next digital revolution; and from that, the analysis of the value sources, typologies, and value capture schemes should continue over time'",
+      "confidence_level": "high"
+    }
+  ]
+}
