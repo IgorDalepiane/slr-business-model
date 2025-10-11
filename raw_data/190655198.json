@@ -1,0 +1,519 @@
+{
+	"extraction_metadata": {
+		"article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Digital Business Platform (or Multi-sided Platform/Multi-sided Business Platform). Definition: A business model pattern where platforms bring together two or more distinct but interdependent groups of customers and create value by facilitating interactions between the different groups, specifically by enabling value exchange between producing peers and consuming peers through transactions.",
+			"synonyms_found": [
+				"Digital Business Platform",
+				"Multi-sided Platform",
+				"Multi-sided Business Platform",
+				"Digital Platform"
+			],
+			"source_citation": "Page 2: 'For evaluation of the viability of the cross-organizational integration platform we look at the platform as a business model pattern: multi-sided business platform. Multi-sided platforms bring together two or more distinct but interdependent groups of customers and create value by facilitating interactions between the different groups' | Page 2: 'The purpose of Digital Business Platforms is to create value by enabling value exchange between two groups, the producing peers and the consuming peers, resulting in a business transaction'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Multi-sided Platform",
+				"Multi-sided Business Platform",
+				"Digital Platform",
+				"Multisided Platform"
+			],
+			"synonyms_found": [
+				"Digital Business Platform",
+				"Multi-sided Platform",
+				"Multi-sided Business Platform",
+				"Digital Platform",
+				"Multisided Platform"
+			],
+			"source_citation": "Page 2: 'Multi-sided platforms bring together two or more distinct but interdependent groups' | Page 2: 'multisided platforms create value by reducing frictions' | Page 1: 'digital business platforms' | Page 2: 'Digital Business Platforms'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Healthcare / Health Data Exchange",
+			"synonyms_found": ["Healthcare", "Health Data", "Health Care"],
+			"source_citation": "Page 1: 'Digital Business Platforms for Health Data' | Page 1: 'Regional healthcare information systems (RHIS)' | Page 1: 'Cross-organizational platforms with a purpose to enable the exchange of data about their patients'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B (specifically public and private healthcare organizations)",
+			"synonyms_found": ["B2B", "business to business"],
+			"source_citation": "Page 2: 'These examples represent both business to business (B2B) and business to consumers (B2C) models' | Page 4: 'The producers and consumers of patient data are organizational actors and their employees' | Page 1: 'the ecosystem consists of both public and private organizations'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Private company (RHIS provider as platform provider), serving both public healthcare organizations (hospitals, healthcare districts) and private clinics",
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'The provider of the RHIS is a private company whose goal is to make money, now and in future' | Page 4: 'The producers and consumers of patient data are organizational actors' including 'Specialized Care', 'Primary Care', 'Social Care', 'Private clinic'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Finland (specifically Satakunta, Pirkanmaa, and Varsinais-Suomi healthcare regions)",
+			"synonyms_found": ["Finland", "Finnish"],
+			"source_citation": "Page 4: 'Its prototype was built in Satakunta Macro Pilot Project 2000-2002 and then commercialized and put into production and used in Pirkanmaa, Satakunta and Varsinais-Suomi healthcare regions' | Page 4: 'RHIS was introduced in Finland in the beginning of 2000' | Page 6: 'only 2 regions out of total 20 regions in Finland became customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Public healthcare organizations (primary care health centers and secondary care hospitals) within regional healthcare districts",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'The producers and consumers of patient data are organizational actors and their employees. Each organization can play either role' | Page 5: 'Satakunta region started with connecting their secondary care EHR system to the RHIS so that all primary care doctors would have the opportunity to consume the data' | Page 5: 'The organizations have been from public sector only'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Platform", "Data"],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'The platforms like RHIS are used to collect, store, share and manage patient´s health data' | Page 4: 'RHIS provides APIs to organizational systems like electronic health records, laboratories, imaging and others which are the producers of patient data to the RHIS' | Page 4: 'The category of RHIS is a content platform where the producer creates a piece of content which then can be consumed by several consumers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Multi-tenant SaaS (web-based platform with user interface accessed via standard web browser)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'RHIS offers a user interface which is used to consume the patient data using standard web browser' | Page 4: 'RHIS provides APIs to organizational systems like electronic health records, laboratories, imaging and others'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Subscription"],
+			"synonyms_found": ["subscription model", "fixed monthly fee"],
+			"source_citation": "Page 5: 'The chosen option was a subscription model based on a fixed monthly fee. Each participating organization would pay their share of the total cost' | Page 5: 'it was agreed that the healthcare district would pay the monthly cost to the platform provider and reimburse the cost from the municipalities in the service fees'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "User/seat",
+			"synonyms_found": ["monthly fee per user"],
+			"source_citation": "Page 6: 'because the usage fee was a monthly fee per user and the potential to expand the user base was already limited the investment would not have resulted into increased revenues'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Custom negotiation (subscription with fixed monthly fee per organization/user)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'The chosen option was a subscription model based on a fixed monthly fee. Each participating organization would pay their share of the total cost' | Page 5: 'First option was to charge the consumer of data per usage of data. However, this option was rejected' | Page 5: 'Another option was to charge the producer of data per each unit of patient data they would create. However, also this option was rejected'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Monthly billing periodicity (currency not specified)",
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'The chosen option was a subscription model based on a fixed monthly fee' | Page 6: 'the monthly fee per user'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": ["multi-sided platform", "multisided platform"],
+			"source_citation": "Page 2: 'Multi-sided platforms bring together two or more distinct but interdependent groups of customers and create value by facilitating interactions between the different groups' | Page 2: 'The purpose of Digital Business Platforms is to create value by enabling value exchange between two groups, the producing peers and the consuming peers' | Page 2: 'Youtube and Facebook represent these types and are categorized as two-sided or multi-sided platforms'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cross-sided (distinct groups benefit: more producers connected = more value for consumers of data)",
+			"synonyms_found": ["network effects", "cross-side"],
+			"source_citation": "Page 2: 'the successful digital business platform has to Create network effects: to scale the platform value along with increasing user population' | Page 3: 'which can be cross-side or same-side' | Page 6: 'The network effects were seen: the platform became more valuable to the consumers of data, the more providers were connected to the platform'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Direct sales (to healthcare regions/districts)"],
+			"synonyms_found": [],
+			"source_citation": "Page 6: 'From the RHIS provider point of view, only 2 regions out of total 20 regions in Finland became customers' | Page 6: 'Within Satakunta and Varsinais-Suomi regions practically all potential users had become registered users. Network effects did not influence this to happen, because the organizations in the region had already made an administrative decision to use RHIS'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Enable exchange of patient data across organizational boundaries, reduce friction of paper-based data exchange, support seamless flow of care services, improve continuity of care",
+				"Customer Segment: Healthcare organizations (primary care, secondary care, private clinics), healthcare professionals (doctors, nurses, caregivers)",
+				"Revenue Streams: Subscription model with fixed monthly fee per user/organization",
+				"Key Resources: Platform technology (APIs, user interface, data storage)",
+				"Cost Structure: Platform development and maintenance costs, operational costs that need to be covered by monthly fees"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'Their purpose is to enable exchange of patient data across organizational boundaries in order to support seamless flow of care services needed by the patient and to improve continuity of care' | Page 4: 'The producers and consumers of patient data are organizational actors and their employees' | Page 5: 'The chosen option was a subscription model based on a fixed monthly fee' | Page 4: 'RHIS provides APIs to organizational systems' and 'RHIS offers a user interface' | Page 6: 'the RHIS provider should be able to increase its money flow to cover the investment'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"Platform Provider (RHIS vendor) | Private company providing platform | Charges monthly fees to healthcare district | Provides technology infrastructure to all users",
+				"Healthcare Organizations (Primary Care) | Producers and consumers of patient data | Pay fees via healthcare district, create and consume patient data | Exchange data with secondary care",
+				"Healthcare Organizations (Secondary Care) | Producers and consumers of patient data | Pay fees via healthcare district, create and consume patient data | Exchange data with primary care",
+				"Private Clinics | Producers and consumers of patient data | Pay fees, create and consume patient data | Exchange data with other organizations",
+				"Healthcare Professionals | End users (doctors, nurses, caregivers) | Use platform to access patient data | Create and consume data for patient care",
+				"Patients | Beneficiaries | Give consent for data exchange | Receive improved care continuity",
+				"Home Municipalities | Payers of care | Pay for patient care | Indirect stakeholders in cost management",
+				"Healthcare District | Administrative intermediary | Pays platform provider, reimburses from municipalities | Manages platform adoption"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'The producers and consumers of patient data are organizational actors and their employees. Each organization can play either role' | Page 4: 'Other stakeholders in the ecosystem are the patients and the home municipalities of the patients' | Page 4: 'The patients are the potential beneficiaries of the exchange of their medical data' | Page 4: 'The home municipalities are those who pay for the care of the patient in Finnish public healthcare' | Page 5: 'The provider of the RHIS is a private company' | Page 5: 'it was agreed that the healthcare district would pay the monthly cost to the platform provider and reimburse the cost from the municipalities'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Enable seamless service chains across organizational boundaries",
+				"Reduce barriers for exchange of patient data between service providers",
+				"Avoid duplication of activities (laboratory and radiology examinations)",
+				"Eliminate unnecessary exchange of paper-based health records",
+				"Reduce delays in flow of information",
+				"Reduce risks due to lack of information (medication errors, faulty diagnosis)",
+				"Reduce unnecessary costs",
+				"Improve patient and employee satisfaction",
+				"Improve continuity of care"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'RHIS was introduced in Finland in the beginning of 2000 as integration platforms to support seamless service chains. The problem the RHIS is trying to solve is that in healthcare organizational boundaries and electronic healthcare systems in silos create barriers for exchange of patient data between service providers' | Page 4: 'Not sharing patient data at all or manually exchanging data may end up in duplication of activities like laboratory and radiology examinations and diagnosis, unnecessary exchange of paper based health records, delays in flow of information, risks due to lack of information causing medication errors and faulty diagnosis, unnecessary costs and dissatisfaction of patients and employees'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Starting with secondary care connection → Immediate value for primary care doctors to consume data",
+				"Loading historical EHR records → Increased value of accessing RHIS from the start",
+				"Gradual connection of primary care → Building producer base after establishing consumer base",
+				"Administrative decision to adopt → Reaching critical mass of users within region",
+				"Many-to-one model → Many primary care centers served by one secondary care organization",
+				"Network effects → Platform became more valuable as more providers connected"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5-6: 'Satakunta region started with connecting their secondary care EHR system to the RHIS so that all primary care doctors would have the opportunity to consume the data of their patients when the patients are discharged from secondary care. Also historical EHR records from secondary care were batch loaded to the RHIS to increase the value of accessing RHIS. Gradually also primary care organizations started to produce the data to the RHIS' | Page 5: 'This is also a many-to-one model within the region where many primary care health centers are served by one secondary care organization' | Page 6: 'The network effects were seen: the platform became more valuable to the consumers of data, the more providers were connected to the platform'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Patient consent → Required for data exchange (Connect and Consume steps)",
+				"Connected EHR and patient data systems → Required for data production (Create step)",
+				"Enough initial producers and consumers → Solving chicken-and-egg problem",
+				"Critical mass of users → Platform ignition and value creation",
+				"Clear need to exchange data between organizations → Business case justification",
+				"Working technical connections → Platform functionality"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'they need to give their consent to use the data to the producer and consumer of the data' | Page 5: 'When a patient visits a doctor in an organization which is connected to the RHIS, the doctor will ask if the patient has been treated in another connected organization, and then asks for the consent to access the data' | Page 2: 'the successful digital business platform has to Solve the initial chicken-and-egg problem: to reach the critical mass of producers and consumers' | Page 6: 'There were problems in connecting the patient data providing systems into the RHIS so paper based data exchange remained in use and the acceptance of RHIS did not reach the critical mass'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Subscription per user fee → Limited revenue expansion when user base reaches full potential",
+				"Public sector budget constraints → Cannot increase monthly fees even when needed for improvements",
+				"Misalignment of goals (private provider vs public users) → Deadlock in platform improvement incentives",
+				"Regional boundaries → Little need to exchange data between regions, limiting market expansion",
+				"Usage-based pricing rejected → Would discourage data consumption, making expensive patients even more costly",
+				"Production-based pricing rejected → Only 10% of patient data accessed, unfair to charge for all data created"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5-6: 'First option was to charge the consumer of data per usage of data. However, this option was rejected, because it was considered to be discouraging for the consumers to consume the data. An unintended consequence would be that, the most costly patients with lots of data made available in RHIS would become even more costly if each access to their data would be charged' | Page 5: 'Another option was to charge the producer of data per each unit of patient data they would create. However, also this option was rejected. Only about 10% of patients visiting primary care would ever have their data accessed using RHIS so why would primary care have to pay for creating data for all their patients?' | Page 6: 'because the usage fee was a monthly fee per user and the potential to expand the user base was already limited the investment would not have resulted into increased revenues. Also the option of increasing the monthly fee per user was not possible, because it was already considered to be too much from the customers point of view' | Page 6: 'this deadlock, ultimately caused by misalignment of goals of private and public organizations'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Chicken-and-egg problem: Getting enough initial producers and consumers",
+				"Technical connectivity problems: Connecting patient data systems to platform",
+				"Usability issues: Platform too difficult to use",
+				"Cost perception: Platform considered too expensive by customers",
+				"Continuity of care coordination: Platform did not improve flow of services (papers also coordinated patient service chain)",
+				"Revenue model deadlock: Cannot increase fees or user base to fund improvements",
+				"Goal misalignment: Private provider profit motive vs public sector budget constraints",
+				"Limited market expansion: Only 2 of 20 regions became customers",
+				"Lack of clear performance metrics: Difficult to measure ecosystem goal achievement"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5-6: 'Pirkanmaa region (population around 500 000 residents) had a different start. They used RHIS from 2004 until February 2006 when it was discontinued. There were problems in connecting the patient data providing systems into the RHIS so paper based data exchange remained in use and the acceptance of RHIS did not reach the critical mass' | Page 6: 'Satakunta Region took the decision to discontinue using the RHIS on 2014. The reasons behind the decision were that the RHIS was too difficult to use and it was too expensive' | Page 5: 'according to [29] continuity of care, based on collaboration of organizations had some problems. Previously the flow of papers also coordinated the actions in the patients service chain. Without papers the patient himself/herself was responsible to coordinate the flow of services' | Page 5: 'there is no clear measure for the goal of the ecosystem' | Page 6: 'There was no simple solution to overcome this deadlock, ultimately caused by misalignment of goals of private and public organizations'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Starting with secondary care data first → Solved initial chicken-and-egg problem → Created immediate value for primary care consumers",
+				"Loading historical records at launch → Increased initial data volume → Enhanced value proposition from start",
+				"Administrative decision for regional adoption → Bypassed individual user adoption challenges → Reached critical mass",
+				"Subscription model instead of usage-based → Encouraged platform usage → More transactions reduce cost per transaction",
+				"Healthcare district as intermediary payer → Simplified payment structure → Consolidated billing"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5-6: 'Satakunta region started with connecting their secondary care EHR system to the RHIS so that all primary care doctors would have the opportunity to consume the data of their patients when the patients are discharged from secondary care. Also historical EHR records from secondary care were batch loaded to the RHIS to increase the value of accessing RHIS' | Page 5: 'The chosen option was a subscription model based on a fixed monthly fee. Each participating organization would pay their share of the total cost. It was considered to encourage the use of the platform: the more transactions, the smaller would be the cost per transaction' | Page 6: 'Within Satakunta and Varsinais-Suomi regions practically all potential users had become registered users. Network effects did not influence this to happen, because the organizations in the region had already made an administrative decision to use RHIS'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"metric": "Registered users",
+					"value": "300 to 3700",
+					"unit": "users",
+					"period": "Growth period in Satakunta region",
+					"method": "Platform usage data",
+					"source": "Satakunta Hospital District"
+				},
+				{
+					"metric": "Connected EHR systems",
+					"value": "15",
+					"unit": "systems",
+					"period": "End of 2011 - Satakunta",
+					"method": "Platform configuration data",
+					"source": "Satakunta Hospital District"
+				},
+				{
+					"metric": "Data items stored",
+					"value": "18,000,000",
+					"unit": "items",
+					"period": "End of 2011 - Satakunta",
+					"method": "Platform data count",
+					"source": "Satakunta Hospital District"
+				},
+				{
+					"metric": "Data items accessed",
+					"value": "16,000",
+					"unit": "items per month",
+					"period": "End of 2011 - Satakunta",
+					"method": "Platform usage logs",
+					"source": "Satakunta Hospital District"
+				},
+				{
+					"metric": "Registered users",
+					"value": "6000+",
+					"unit": "users",
+					"period": "End of 2011 - Varsinais-Suomi",
+					"method": "Platform usage data",
+					"source": "Regional data"
+				},
+				{
+					"metric": "Connected systems",
+					"value": "12",
+					"unit": "systems",
+					"period": "End of 2011 - Varsinais-Suomi",
+					"method": "Platform configuration",
+					"source": "Regional data"
+				},
+				{
+					"metric": "Data items stored",
+					"value": "10,000,000",
+					"unit": "items",
+					"period": "End of 2011 - Varsinais-Suomi",
+					"method": "Platform data count",
+					"source": "Regional data"
+				},
+				{
+					"metric": "Data items accessed",
+					"value": "16,000",
+					"unit": "items per month",
+					"period": "End of 2011 - Varsinais-Suomi",
+					"method": "Platform usage logs",
+					"source": "Regional data"
+				},
+				{
+					"metric": "Region population",
+					"value": "275,000",
+					"unit": "residents",
+					"period": "Satakunta region",
+					"method": "Population statistics",
+					"source": "Regional statistics"
+				},
+				{
+					"metric": "Region population",
+					"value": "470,000",
+					"unit": "residents",
+					"period": "Varsinais-Suomi region",
+					"method": "Population statistics",
+					"source": "Regional statistics"
+				},
+				{
+					"metric": "Region population",
+					"value": "500,000",
+					"unit": "residents",
+					"period": "Pirkanmaa region",
+					"method": "Population statistics",
+					"source": "Regional statistics"
+				},
+				{
+					"metric": "Customers acquired",
+					"value": "2",
+					"unit": "regions out of 20 total",
+					"period": "Overall market penetration",
+					"method": "Sales data",
+					"source": "RHIS provider"
+				},
+				{
+					"metric": "Patient data access rate",
+					"value": "10%",
+					"unit": "percentage of primary care patients",
+					"period": "General operation",
+					"method": "Usage analysis",
+					"source": "Healthcare system knowledge"
+				},
+				{
+					"metric": "Expensive patient concentration",
+					"value": "20% of patients cause 80% of costs",
+					"unit": "percentage",
+					"period": "Public healthcare general",
+					"method": "Healthcare statistics",
+					"source": "Reference [28]"
+				}
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5-6: 'The number of users in Satakunta region (population around 275 000 residents) grew from about 300 up to 3700 when almost all potential users had become registered users. In the end of 2011 there were 15 EHR and other patient data providing systems providing patient data into the RHIS. The number of data items in the RHIS was about 18 000 000 out of which about 16 000 items per month were accessed. Varsinais-Suomi region (population around 470 000 residents) followed the Satakunta example when later starting the use of the RHIS. In the end of 2011 there were more than 6000 registered users and 12 systems providing patient data. The number of data items in the RHIS was about 10 000 000 out of which about 16 000 items per month were accessed. Pirkanmaa region (population around 500 000 residents) had a different start' | Page 6: 'From the RHIS provider point of view, only 2 regions out of total 20 regions in Finland became customers' | Page 4: 'It is known that about 20% of the patients cause about 80% of the costs of public healthcare. But we do not know in advance who these expensive patients are or will be' | Page 5: 'Only about 10% of patients visiting primary care would ever have their data accessed using RHIS'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2000-2017 (prototype 2000-2002, production 2004-2014 in Satakunta, 2004-2006 in Pirkanmaa, 2006-ongoing in Varsinais-Suomi). Maturity status: Declining (one region discontinued, another at risk, limited market expansion)",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'Its prototype was built in Satakunta Macro Pilot Project 2000-2002 and then commercialized and put into production and used in Pirkanmaa, Satakunta and Varsinais-Suomi healthcare regions' | Page 5: 'Pirkanmaa used it from February 2004 until February 2007. Satakunta used it from 2004 until 2014 and Varsinais-Suomi began in February 2006 and is still using it' | Page 6: 'Satakunta Region took the decision to discontinue using the RHIS on 2014' | Page 6: 'Varsinais-Suomi region is still using the RHIS but also having discussions whether to continue or not' | Page 1: 'Accessed 1 May 2017' indicates article written around 2017",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Single case study (with multiple implementation sites within the case)",
+			"synonyms_found": ["case study", "demonstration"],
+			"source_citation": "Page 4: 'We evaluate the utility of EEF by demonstrating its usage for assessing RHIS ecosystem (Fig. 2). The first author of this paper was in charge of the design of the technical architecture of the RHIS used in the case study. Research data has been collected by interviews with various representatives of the participating organizations in Satakunta Macropilot project and later from various research reports and papers analysing the experiences of using RHIS'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"RHIS (Regional Healthcare Information System) → Main case study subject, platform for health data exchange in Finland",
+				"Alibaba → Example of successful platform connecting manufacturers and resellers",
+				"NASDAQ → Example of electronic exchange platform connecting sellers and buyers",
+				"OpenTable → Example of early digital business platform connecting restaurants and customers",
+				"Uber → Example of platform connecting drivers and passengers",
+				"YouTube → Example of content platform connecting video producers, advertisers, and viewers",
+				"Facebook → Example of platform connecting people and advertisers",
+				"Active Life Home → Portal platform mentioned as connecting personal device vendors and care providers",
+				"Philips, Apple, Google → Mentioned as providing digital platforms in healthcare",
+				"KanTa → National EHR archive in Finland mentioned as competing solution"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'Examples of well known and often referenced successful platforms are: Alibaba, which connects the manufacturers and resellers of goods; NASDAQ and other electronic exchanges, which connect sellers and buyers of financial instruments; OpenTable, one of the first digital business platforms, which connects restaurants and those who need to make a reservation; Uber, which connects the drivers and those in need of a ride; YouTube, which connects video clip producers, advertisers and those who watch video clips and advertisements; Facebook, which started with people who want to interact with each other and extended to include the advertisers' | Page 1: 'Portals, like Active Life Home, are platforms connecting personal device vendors and care providers' | Page 2: 'For example, Philips, Apple and Google are providing digital platforms in healthcare' | Page 6: 'Also the implementation of the national EHR archive (KanTa) started around 2005'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Exchange platform → Transaction happens directly between producer and consumer (e.g., ordering taxi, making reservation), platform matches right consumer with right producer using data",
+				"Content platform → Producer creates content consumed by several consumers (e.g., YouTube), platform collects data and offers search functions for consumers to find content. RHIS is categorized as this type"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'One category of platforms is an exchange platform, where the transaction happens directly between the producer and the consumer, like in ordering a taxi or making a reservation. The platform uses its data to match the right consumer with the right producer. Another platform category is a content platform like Youtube, where the producer creates a piece of content which then can be consumed by several consumers. The platform collects the data and offers various search functions for the consumers to find the right content' | Page 4: 'The category of RHIS is a content platform where the producer creates a piece of content which then can be consumed by several consumers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"EEF can predict viability problems in proposed platforms before implementation → Foundation: avoid poor investments by testing business model viability early",
+				"Need to address alignment of goals between public and private organizations → Foundation: demonstrated mismatch leads to ecosystem failure",
+				"Recent upsurge of digital platforms promised to change healthcare delivery → Foundation: platforms from Philips, Apple, Google entering healthcare",
+				"EEF helps address ecosystem problems early on → Foundation: framework enables preventive action rather than post-mortem analysis only"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'In the future EEF helps to address these problems early on' | Page 1: 'EEF is also useful if it can predict possible problems in a proposed platform. A lot of time and effort can be saved instead of building and implementing the platform just to see that its business model is broken' | Page 2: 'Recent upsurge of digital platforms are promised to change the ways how health care is provided and delivered to patients. For example, Philips, Apple and Google are providing digital platforms in healthcare' | Page 7: 'This finding leads also to more serious question of how to align goals of public organizations and private companies in ecosystems involving both types. Clearly expressing the goals of each stakeholder and having an agreement of how they can be best achieved could improve the viability of these types of ecosystems'",
+			"confidence_level": "medium"
+		}
+	]
+}

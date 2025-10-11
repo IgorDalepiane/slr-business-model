@@ -1,0 +1,677 @@
+{
+	"extraction_metadata": {
+		"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Digital Sustainable Business Model. Definition: Business models where digital technologies fundamentally change the features of the business model to integrate ecological sustainability into the core logic of the organization, encompassing value proposition (creating ecological sustainable value), value creation and delivery, and value capture while being both ecologically and economically sustainable.",
+			"synonyms_found": [
+				"digital sustainable BM",
+				"digital sustainable business model",
+				"ecological digital BM",
+				"sustainable BM",
+				"digital BM"
+			],
+			"source_citation": "Page 1, Abstract: 'digital sustainable BMs (Bocken et al., 2014; Schaltegger et al., 2016), including the value proposition, value delivery, and value capture (Ritter & Lettl, 2018; Teece, 2010), those start-ups do not curb to environmental damage reactively but use digital technologies proactively to tackle global warming as an integral part of their BM.' | Page 2: 'we go beyond using digital technology to optimise production or logistics or enable remote work and implement ecological sustainability as a core logic of the organisation and its identity' | Page 4: 'The resulting digital BMs (DBMs) are defined as BMs where digital technologies fundamentally change the features of the BM and enable resource optimization'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"digital sustainable BM",
+				"digital sustainable business model",
+				"DBM",
+				"digital BM",
+				"sustainable BM",
+				"ecological digital BM",
+				"ecologically sustainable BM"
+			],
+			"synonyms_found": [
+				"digital sustainable BM",
+				"digital sustainable business model",
+				"DBM",
+				"digital BM",
+				"sustainable BM",
+				"ecological digital BM",
+				"ecologically sustainable BM"
+			],
+			"source_citation": "Throughout the article, these terms are used interchangeably, including in the title and abstract.",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Multiple industries with ecological sustainability focus - energy, agriculture, mobility, food waste, fashion/circular economy, carbon management, IoT infrastructure",
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'LettUs Grow has digitally controlled farms that optimise resource usage through data analytics. Tado offers a digital automation service to ensure sustainable heating, and Octopus Energy uses a digital platform to make sustainable energy cheaper.' | Page 11: 'LettUs Grow produces vertical farms' | 'Sono Motors provides a mobile app complementing its solar-powered cars' | Page 13: 'Too Good To Go, for example, offer digital platforms for their partners, such as restaurants, supermarkets, or hotels, to sell surplus food' | 'Tise is a digital platform for used clothing and other items.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others",
+			"synonyms_found": [
+				"B2B",
+				"B2C",
+				"business-to-business",
+				"individuals",
+				"companies",
+				"customers"
+			],
+			"source_citation": "Page 12: 'It is exclusively a business-to-business BMs that creates transparency for different stakeholders' (for Sustainability Intelligence archetype) | Page 13: 'digital platforms for their partners, such as restaurants, supermarkets, or hotels, to sell surplus food that would otherwise go to waste to individuals at reduced prices' | Page 5: 'small and medium sized enterprises (SME)' mentioned as market context",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Start-ups between 4 and 10 years old, ranging from recently founded companies to unicorns valued at more than 1 billion US dollars",
+			"synonyms_found": [
+				"start-ups",
+				"sustainable start-ups",
+				"ecological sustainable start-ups"
+			],
+			"source_citation": "Page 7, Section 3.2: 'We only included start-ups with ecological sustainable value propositions that are between 4 and 10 years old to ensure that they have solidified their BM (Innocenti & Zampi, 2019) and that they can still be considered start-ups (Kollmann et al., 2020).' | Page 19, Section 5.3: 'The sample contains recently founded companies and start-ups valued at more than 1 billion US dollars, demonstrating that a lasting and successful establishment in the market is possible for digital sustainable BMs.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Europe",
+			"synonyms_found": ["Europe", "European"],
+			"source_citation": "Page 7, Section 3.2: 'The sample only includes start-ups headquartered in Europe to allow comparability regarding funding opportunities and governmental support.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Companies seeking ecological sustainability transformation and individuals seeking sustainable consumption options",
+			"synonyms_found": [
+				"customers",
+				"complementors",
+				"investors",
+				"companies"
+			],
+			"source_citation": "Page 12: 'The information provided by the platform enables investors to make ecological investment decisions, but Arabesque also helps rated companies analyse their performance relative to their peers.' | Page 13: 'the BMs serve as intermediaries or matchmakers in a value network' | Page 13: 'digital platforms for their partners, such as restaurants, supermarkets, or hotels, to sell surplus food that would otherwise go to waste to individuals at reduced prices'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform", "Data", "Managed Service"],
+			"synonyms_found": [
+				"software solution",
+				"software platforms",
+				"digital platform",
+				"data analytics platform",
+				"product-service system",
+				"PSS",
+				"digital product",
+				"physical product with embedded digital technology"
+			],
+			"source_citation": "Page 11, Table 3: 'Sustainable software solutions are software platforms or layers to optimise the impact of ecological sustainability' | 'Sustainable Product-Service Systems are physical products enhanced by a digital complement, such as mobile apps' | 'Sustainability Intelligence BMs combine data analytics with sustainability science' | 'Digital Sustainable platforms create multi-sided markets that facilitate ecological sustainable value co-creation'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS", "On-premises", "Mobile"],
+			"synonyms_found": [
+				"digital",
+				"cloud",
+				"Internet",
+				"mobile apps",
+				"IoT",
+				"digital platforms"
+			],
+			"source_citation": "Page 1: 'LettUs Grow has digitally controlled farms' | Page 11: 'physical products enhanced by a digital complement, such as mobile apps' | 'The farms are equipped with sensors and actuators controlled by proprietary software' | Page 12: 'Sono Motors provides a mobile app complementing its solar-powered cars' | Page 13: 'digital platforms'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Proprietary",
+			"synonyms_found": ["proprietary software"],
+			"source_citation": "Page 11, Section 4.2.2: 'The farms are equipped with sensors and actuators controlled by proprietary software.'",
+			"confidence_level": "low"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Subscription",
+				"One-time sales",
+				"Commission",
+				"Advertising",
+				"Freemium"
+			],
+			"synonyms_found": [
+				"recurring revenue",
+				"one-time sales",
+				"commission",
+				"advertising",
+				"freemium",
+				"add-on"
+			],
+			"source_citation": "Page 10, Table 2, Revenue model dimension: 'One-time sales (9), Recurring revenue (14), Commission (6), Advertising (1), Freemium / Add-on (8)' | Page 11, Section 4.2.1: 'Value is captured almost exclusively through subscription models, which have proven successful for software BMs.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Transactions",
+			"synonyms_found": [
+				"transactions",
+				"commission for each successful transaction"
+			],
+			"source_citation": "Page 13, Section 4.2.4: 'By creating a digital platform, the BMs serve as intermediaries or matchmakers in a value network who receive a commission for each successful transaction on their platform.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Freemium"],
+			"synonyms_found": ["freemium", "add-on"],
+			"source_citation": "Page 10, Table 2, Revenue model dimension: 'Freemium / Add-on (8)'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": [
+				"multi-sided markets",
+				"platform",
+				"digital platform",
+				"intermediary",
+				"matchmaker",
+				"orchestrator",
+				"integrator"
+			],
+			"source_citation": "Page 10, Table 2, Role in value creation dimension: 'Integrator (11), Orchestrator (4), Intermediary (6), Service & Support (10)' | Page 13, Section 4.2.4: 'Digital sustainable platforms are purely digital BMs that leverage multi-sided markets' | 'the BMs serve as intermediaries or matchmakers in a value network' | Page 13: 'digital sustainable platforms orchestrate multi-sided markets and connect complementors and customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cross-sided (distinct groups benefit)",
+			"synonyms_found": [
+				"network effects",
+				"cross-side network effects",
+				"same-side network effects"
+			],
+			"source_citation": "Page 13, Section 4.2.4: 'Tise mixes classifieds with social networking elements that connect sustainably-minded users, thus leveraging cross-side and same-side network effects.' | 'Such network effects that postulate sustainable behaviour across multiple actors' | Page 15: 'Gaining access to large customer bases profiting from network effects'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Product-led Growth",
+				"Marketplaces",
+				"Partners/channels"
+			],
+			"synonyms_found": [
+				"digital platform",
+				"marketplace",
+				"value network",
+				"complementors"
+			],
+			"source_citation": "Page 13: 'Digital sustainable platforms orchestrate multi-sided markets and connect complementors and customers' | 'the BMs serve as intermediaries or matchmakers in a value network' | Page 13: 'Through the network effects in their ecosystems, the enablement of new sustainable BMs scales'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Four archetypes - Sustainable Software Solutions (software to optimize resource consumption), Sustainable Product-Service Systems (physical products with digital complements for sustainability), Sustainability Intelligence (data analytics for sustainability assessment and decision-making), Digital Sustainable Platforms (multi-sided markets for circular economy)",
+				"Customer Segment: Companies seeking ecological sustainability, individuals seeking sustainable consumption, investors, restaurants/supermarkets/hotels, municipalities, complementors in circular economy",
+				"Channels: Digital platforms, mobile apps, software platforms, IoT sensors, multi-sided markets",
+				"Revenue Streams: Recurring revenue/subscription (14 cases), One-time sales (9), Commission (6), Freemium/Add-on (8), Advertising (1)",
+				"Key Resources: Digital technologies (software, data analytics, IoT, blockchain, AI, machine learning), sustainability science knowledge, sensor networks, digital platforms",
+				"Key Activities: Data analytics, software optimization, resource optimization, sustainability assessment, marketplace orchestration, value co-creation enablement",
+				"Key Partnerships: Complementors, value network partners, suppliers, customers, municipalities, restaurants/supermarkets/hotels",
+				"Cost Structure: not detailed in article"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 10, Table 2 - Taxonomy: Shows all BM dimensions including value proposition (digital offering, eco-dimension, differentiation strategy), value creation and delivery (role of IT, sustainability patterns, role in value creation), and revenue model | Page 11, Table 3: Definitions of four archetypes with examples | Page 15, Table 4: Shows ecological value, economic value, and digital value for each archetype",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"actor": "Complementors",
+					"role": "Partners who participate in the platform ecosystem to co-create sustainable value",
+					"interaction_with_offering_company": "Use platform services; contribute to value creation; receive economic value from transactions and network effects",
+					"interaction_with_other_actors": "Connect with customers through platform; engage in circular economy activities; benefit from multi-sided market"
+				},
+				{
+					"actor": "Customers (B2B)",
+					"role": "Companies seeking to improve ecological sustainability of their business models and operations",
+					"interaction_with_offering_company": "Purchase software solutions, sustainability intelligence services, or product-service systems; integrate digital sustainable solutions into their value creation",
+					"interaction_with_other_actors": "Enabled to become more sustainable through solutions"
+				},
+				{
+					"actor": "Customers (B2C - Individuals)",
+					"role": "End consumers seeking sustainable consumption options",
+					"interaction_with_offering_company": "Use digital platforms to buy sustainable products, second-hand items, or surplus food at reduced prices; earn rewards for sustainable behavior",
+					"interaction_with_other_actors": "Connect with complementors (restaurants, hotels, sellers) through platform; participate in circular economy"
+				},
+				{
+					"actor": "Investors",
+					"role": "Financial stakeholders making ecological investment decisions",
+					"interaction_with_offering_company": "Use sustainability intelligence platforms to assess companies' sustainability performance",
+					"interaction_with_other_actors": "Evaluate companies based on sustainability metrics provided"
+				},
+				{
+					"actor": "Municipalities",
+					"role": "Government entities implementing sustainable infrastructure",
+					"interaction_with_offering_company": "Purchase sustainable software solutions to establish sustainable services (e.g., bike-sharing)",
+					"interaction_with_other_actors": "Provide sustainable mobility options to citizens"
+				},
+				{
+					"actor": "Value Network Partners",
+					"role": "Ecosystem participants in sustainable value creation",
+					"interaction_with_offering_company": "Collaborate in value-creating networks; follow aikido or value network differentiation strategies",
+					"interaction_with_other_actors": "Co-create sustainable value across the ecosystem"
+				}
+			],
+			"synonyms_found": [
+				"complementors",
+				"customers",
+				"investors",
+				"municipalities",
+				"partners",
+				"value network"
+			],
+			"source_citation": "Page 13, Section 4.2.4: 'the BMs serve as intermediaries or matchmakers in a value network' | 'digital platforms for their partners, such as restaurants, supermarkets, or hotels, to sell surplus food that would otherwise go to waste to individuals at reduced prices' | Page 11: 'municipalities that want to establish sustainable micro-mobility concepts' | Page 12: 'The information provided by the platform enables investors to make ecological investment decisions' | Page 9: 'These cases also leverage a value-creating network' | Page 13: 'Digital sustainable platforms orchestrate multi-sided markets and connect complementors and customers to make their respective BMs more sustainable'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Ecological sustainability imperative - addressing global warming and climate change as urgent challenge",
+				"Economic and ecological complementarity - achieving both ecological and economic sustainability simultaneously",
+				"Combining two necessary transformations - digital and sustainable transformation together more efficient than separately",
+				"Creating competitive advantage through sustainability",
+				"Cost reduction through reduced resource usage",
+				"Legal compliance and increasing sustainability requirements",
+				"Addressing customer demand for sustainable products and services",
+				"Opportunity to be part of the solution rather than the problem of global warming"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'When confronted with the latest statistics on global warming (Pörtner et al., 2022), it becomes evident that incumbents can no longer compromise on ecological sustainability' | Page 2: 'These start-ups illustrate that ecological and economic sustainability are complementary and can be integral to a company's BM' | Page 2: 'as most companies are currently transitioning towards a digital BM (Vial, 2019), they can integrate ecological sustainability into their BMs as part of the same transformation, creating a new value proposition and reducing effort and costs compared to two separate transformations' | Page 15, Table 4: 'Cost-reduction through reduced resource usage' | 'Alternative solutions' | Page 2: 'the value proposition can go beyond cost efficiency and legal compliance'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Integration of ecological sustainability as core logic of organization → Creates both ecological and economic value",
+				"Digital technology enablement → Optimizes resources, creates knowledge, enables circularity, facilitates delivery and diffusion",
+				"Network effects → Attracts more customers, scales sustainable impact through ecosystem",
+				"Customer centricity strategy → Enables sustainable decision-making specific to individual customer needs",
+				"Breakthrough strategy → Offers sustainable alternatives to market-dominant products",
+				"Open BM strategy → Facilitates collaboration and value co-creation",
+				"Data analytics capabilities → Creates transparency and knowledge about sustainability performance",
+				"Multi-sided market orchestration → Enables value co-creation with complementors",
+				"Solidified business model → Start-ups between 4-10 years old with proven market establishment"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 10, Table 2: 'Customer centricity (27), Breakthrough (22), Open BM (14), Value network (12)' as differentiation strategies | Page 9: 'we found that the open BM strategy is used in approximately half of BMs with ubiquitous IT use' | Page 15, Table 4: Shows role of digital technology for each archetype | Page 13: 'Through the network effects in their ecosystems, the enablement of new sustainable BMs scales' | Page 19: 'start-ups valued at more than 1 billion US dollars, demonstrating that a lasting and successful establishment in the market is possible'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Digital technology integration → Mediator, outcome, or ubiquity role of IT in BM (excludes facilitator role)",
+				"Ecological sustainable value proposition → Must address efficiency or effectiveness (equity excluded from scope)",
+				"Economic viability → Must be profit-driven and financially viable",
+				"Solidified business model → 4-10 years old to ensure BM stability",
+				"Data analytics capabilities → For sustainability intelligence and optimization",
+				"IoT infrastructure → For sensor networks and real-time monitoring",
+				"Sustainability science knowledge → To combine with data analytics for intelligence provision",
+				"Customer readiness for sustainable solutions → Market demand for ecological sustainability"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 7, Section 3.1: 'our analysis only includes start-ups that employ digital technologies as a fundamental part of their BM... we exclude BMs using digital technology as a facilitator for value creation' | 'we focus the scope of the sustainability dimension on efficiency and effectiveness (Chen et al., 2008). We exclude equity' | 'we look for financially viable BMs that are designed to be profit-driven to ensure that BMs are economically relevant' | Page 7, Section 3.2: 'We only included start-ups with ecological sustainable value propositions that are between 4 and 10 years old to ensure that they have solidified their BM'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Equity dimension excluded from research scope → Incomplete perspective on triple bottom line sustainability (ecological, economic, social)",
+				"Geographic limitation to Europe → Limits comparability to other regions with different funding and governmental support",
+				"Age restriction (4-10 years) → May miss newer BM designs based on AI, blockchain, Web3",
+				"Facilitator-level IT integration excluded → BMs using IT only for efficiency enhancement not included",
+				"E-commerce-only excluded → Little differential value from basic online stores",
+				"Perfect sustainability unachievable → None of sampled BMs is 100% sustainable in all aspects",
+				"BM transformation complexity for incumbents → Difficult to change established successful BM compared to start-ups designing from scratch"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 19, Section 5.4: 'The exclusion of eco-equity from our research scope results in an incomplete perspective on sustainability as defined by the triple bottom line (Elkington, 1998)' | Page 7: 'The sample only includes start-ups headquartered in Europe' | Page 19: 'Since we excluded start-ups founded in the last 4 years, our sample could also be missing newer BM designs, such as those based on AI, blockchain, and Web3' | Page 8: 'We excluded start-ups that only facilitate and support the use of IT because digital technologies are not an essential part of their BM. In addition, IT-mediating BMs that only implement IT in their customer channel for e-Commerce activities such as online stores or online configurators were excluded' | Page 19: 'none of the sampled BMs is perfectly sustainable in all aspects of value creation'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Dual transformation complexity - incumbents need to undergo both digital and ecological BM transformation in parallel, each fundamentally affecting how they do business",
+				"Organizational identity change - transformations affect how organizations identify themselves",
+				"Reluctance to engage in ecological transformations - incumbents focus on digital transformation for competitiveness while being reluctant on ecological transformation",
+				"BM transformation difficulty for incumbents - changing established successful BM more challenging than designing sustainable BM from scratch (as start-ups do)",
+				"Limited population of suitable companies - digital ecology only emerging topic limits available cases",
+				"Complex value creation changes - profound changes in value-creation activities and organizational logics when adding ecological sustainable and digital value",
+				"Balancing economic growth with sustainability impact - policymakers need to balance prospering economy with emission reduction",
+				"Achieving eco-equity - fair distribution of resources across time (future generations) and space (global inequalities) exceeds typical BM scope"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2, Section 1: 'incumbents often need to undergo two challenging transformations in parallel: digital and ecological BM transformation (Vial, 2019; Watson & Kranz, 2021). Each transformation fundamentally affects how they do business (Teece, 2010) and how they identify as an organisation (Wessel et al., 2021). This conundrum reveals why incumbents are reluctant to engage in ecological transformations and focus on digital transformation to ensure competitiveness' | Page 19, Section 5.4: 'Digital ecology is only an emerging topic in both research and practice. The population of companies suitable for our analysis is, therefore, limited.' | Page 15: 'Transforming the BM towards sustainable software solutions will be complex for non-software companies (Steininger, 2019). The changes in value-creation activities are profound and change organisational logics' | Page 20: 'For start-ups, it is easier to make the BM sustainable from the beginning than to change an established BM that has been running successfully for many years'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Combine digital and sustainable transformation simultaneously → Mitigates dual transformation challenge → Reduces effort and costs compared to two separate transformations; creates new value proposition",
+				"Learn from start-up examples → Addresses BM change difficulty → Prime examples and sources of inspiration ease organizational change challenge",
+				"Use BM archetypes as design guidelines → Guides transformation approach → Presents BM configurations for companies with similar value creation to leverage digital technologies",
+				"Integrate sustainable software solutions into value creation → Enables non-software companies to transform → Companies can use external solutions rather than developing everything internally",
+				"Add digital complement to physical products → Creates sustainable PSS → Does not interfere with core value while enabling more sustainable usage",
+				"Implement sustainability intelligence in value-creation process → Optimizes for efficient value creation → Gains information about ecological and economic inefficiencies for process innovation",
+				"Join digital sustainable platforms → Enables ecosystem transformation → Integrates value creation into platform BMs to benefit from services and network effects",
+				"Use data-driven decision-making processes → Supports sustainability optimization → Combines with sustainability intelligence for sustainable efficient value creation",
+				"Follow customer-centric strategy → Enables specific sustainable solutions → Provides functionality and decision-making specific to individual customer needs"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'as most companies are currently transitioning towards a digital BM (Vial, 2019), they can integrate ecological sustainability into their BMs as part of the same transformation, creating a new value proposition and reducing effort and costs compared to two separate transformations.' | Page 20, Section 6: 'Taking them as examples hopefully creates a more sustainable economy' | Page 19, Table 5: Shows how archetypes help to approach sustainability challenges | Page 16, Figure 3: 'How digital sustainable BMs enable digital ecological transformations' showing four pathways | Page 17: 'Integrating the value proposition of these sustainability intelligence providers into their value creation and operational activities (#3 in Figure 3), companies gain information and knowledge about ecological and economic inefficiencies'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"metric": "Number of start-ups analyzed",
+					"value": "31",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Case sample from Crunchbase",
+					"source": "Page 1, Abstract and throughout"
+				},
+				{
+					"metric": "Initial sample size",
+					"value": "50",
+					"unit": "companies",
+					"period": "Before exclusions",
+					"method": "Sample collection from Crunchbase",
+					"source": "Page 7, Section 3.2"
+				},
+				{
+					"metric": "Start-ups with digital offering - Physical product with embedded technology",
+					"value": "13",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Taxonomy classification",
+					"source": "Page 10, Table 2"
+				},
+				{
+					"metric": "Start-ups with digital offering - Physical product and digital complement",
+					"value": "16",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Taxonomy classification",
+					"source": "Page 10, Table 2"
+				},
+				{
+					"metric": "Start-ups with digital offering - Digital product and physical complement",
+					"value": "4",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Taxonomy classification",
+					"source": "Page 10, Table 2"
+				},
+				{
+					"metric": "Start-ups with digital offering - Digital product",
+					"value": "10",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Taxonomy classification",
+					"source": "Page 10, Table 2"
+				},
+				{
+					"metric": "Sustainable Software Solution archetype",
+					"value": "6",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Archetype classification",
+					"source": "Page 11, Table 3"
+				},
+				{
+					"metric": "Sustainable Product-Service System archetype",
+					"value": "13",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Archetype classification",
+					"source": "Page 11, Table 3"
+				},
+				{
+					"metric": "Sustainability Intelligence archetype",
+					"value": "8",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Archetype classification",
+					"source": "Page 11, Table 3"
+				},
+				{
+					"metric": "Digital Sustainable Platform archetype",
+					"value": "4",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Archetype classification",
+					"source": "Page 11, Table 3"
+				},
+				{
+					"metric": "Companies following customer centricity strategy",
+					"value": "27",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Taxonomy classification",
+					"source": "Page 10, Table 2"
+				},
+				{
+					"metric": "Companies following breakthrough strategy",
+					"value": "22",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Taxonomy classification",
+					"source": "Page 10, Table 2"
+				},
+				{
+					"metric": "Companies with recurring revenue model",
+					"value": "14",
+					"unit": "companies",
+					"period": "Final sample",
+					"method": "Taxonomy classification",
+					"source": "Page 10, Table 2"
+				},
+				{
+					"metric": "Literature review papers analyzed",
+					"value": "73",
+					"unit": "papers",
+					"period": "First iteration of taxonomy",
+					"method": "Literature review",
+					"source": "Page 8, Section 3.3"
+				},
+				{
+					"metric": "Taxonomy development iterations",
+					"value": "7",
+					"unit": "iterations",
+					"period": "Taxonomy development process",
+					"method": "Nickerson et al. (2017) method",
+					"source": "Page 8, Section 3.3"
+				},
+				{
+					"metric": "Start-up valuation (unicorns in sample)",
+					"value": ">1",
+					"unit": "billion US dollars",
+					"period": "Sample period",
+					"method": "Market valuation",
+					"source": "Page 19, Section 5.3"
+				}
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 10, Table 2 provides all quantitative distributions | Page 11, Table 3 shows archetype counts | Page 7-8, Sections 3.2-3.3 detail sample and methodology numbers",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: Start-ups between 4-10 years old (founded approximately 2010-2018 given 2022 data collection). Maturity status: Growing - Digital sustainable BMs are emerging and establishing in the market, with some reaching unicorn status (>$1B valuation), demonstrating lasting market establishment is possible.",
+			"synonyms_found": ["emerging", "establishing", "solidified BM"],
+			"source_citation": "Page 7, Section 3.2: 'We only included start-ups with ecological sustainable value propositions that are between 4 and 10 years old to ensure that they have solidified their BM (Innocenti & Zampi, 2019) and that they can still be considered start-ups (Kollmann et al., 2020).' | Page 1, Abstract: 'Received: 31 January 2022' | Page 19, Section 5.4: 'Digital ecology is only an emerging topic in both research and practice.' | Page 19, Section 5.3: 'The sample contains recently founded companies and start-ups valued at more than 1 billion US dollars, demonstrating that a lasting and successful establishment in the market is possible for digital sustainable BMs.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Multiple cases",
+			"synonyms_found": [
+				"case sample",
+				"start-ups",
+				"qualitative cross-case analysis",
+				"variable-based cross-case analysis"
+			],
+			"source_citation": "Page 1, Abstract: 'we examined 31 start-ups to develop a taxonomy' | Page 8, Section 3.4: 'we performed a qualitative cross-case analysis (Miles et al., 2020) to identify archetypes of digital sustainable BMs' | Page 9, Section 3.4: 'We performed a variable-based cross-case analysis (Miles et al., 2020)' | Page 7, Section 3.2: 'We collected our case sample of start-ups from Crunchbase'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"LettUs Grow → Example of Sustainable Product-Service System; digitally controlled vertical farms that optimise resource usage through data analytics",
+				"Tado → Example of Sustainable Software Solution; digital automation service to ensure sustainable heating",
+				"Octopus Energy → Example of Digital Sustainable Platform; uses digital platform to make sustainable energy cheaper",
+				"Beryl → Example of Sustainable Software Solution; develops software backend for micro-mobility sharing services like bike-sharing",
+				"Rocsole → Example of Sustainable Software Solution mentioned in archetype definition",
+				"Zola Electric → Example of Sustainable Product-Service System mentioned in archetype definition",
+				"Sono Motors → Example of Sustainable Product-Service System; provides mobile app complementing solar-powered cars enabling car sharing, ride shares, power shares",
+				"Arabesque → Example of Sustainability Intelligence; data analytics platform calculating sustainability metrics, carbon footprint, UN Global Impact Principles, ESG scores",
+				"Plan A → Example of Sustainability Intelligence mentioned in archetype definition",
+				"Reactive Technologies → Example of Sustainability Intelligence; combines real-time monitoring and predictive analytics to manage renewable energy power grids",
+				"Tise → Example of Digital Sustainable Platform; digital platform for used clothing mixing classifieds with social networking elements",
+				"Too Good To Go → Example of Digital Sustainable Platform; offers platform for restaurants/supermarkets/hotels to sell surplus food at reduced prices",
+				"ClimatePartner → Example of Digital Sustainable Platform mentioned in archetype definition",
+				"PHENIX → Example of Digital Sustainable Platform; offers digital platforms for surplus food sales",
+				"Climatetrade → Example of Digital Sustainable Platform; marketplace for carbon offsetting projects using blockchain technology",
+				"Enerbrain → Example of Sustainable Software Solution; analyses sensor data in buildings to optimise ecological sustainability",
+				"Planet A → Example of Sustainability Intelligence; analyses clients' carbon data and recommends decarbonization strategies",
+				"SAP → Example of incumbent company adopting Sustainability Intelligence archetype with Product Footprint Management"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'LettUs Grow has digitally controlled farms that optimise resource usage through data analytics. Tado offers a digital automation service to ensure sustainable heating, and Octopus Energy uses a digital platform to make sustainable energy cheaper.' | Page 11, Table 3: Lists examples for each archetype | Page 11: 'Beryl develops the software backend for micro-mobility sharing services' | Page 12: 'Sono Motors provides a mobile app complementing its solar-powered cars' | Page 12: 'Arabesque offers a data analytics platform' | Page 13: 'PHENIX and Too Good To Go, for example, offer digital platforms' | Page 20, footnote 7: 'SAP, as a global company, adopted a new digital sustainable BM that can be located within our sustainability intelligence archetype'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Sustainable Software Solution (n=6) → Software platforms or layers to optimize ecological sustainability impact on customers' resource consumption and CO2 production; IT as outcome; eco-efficient or enabling",
+				"Sustainable Product-Service System (n=13) → Physical products enhanced by digital complements (mobile apps, IoT) to optimize ecological sustainability of product use; IT-mediated or IT-bearing; uses renewable energy and closed loops",
+				"Sustainability Intelligence (n=8) → Data analytics combined with sustainability science for transparency and sustainable decision-making; purely digital; IT ubiquitous; B2B only",
+				"Digital Sustainable Platform (n=4) → Multi-sided markets facilitating ecological sustainable value co-creation with complementors; purely digital; enables circularity, sufficiency, inclusive value creation; IT ubiquitous",
+				"IT role variations → Mediator (5), Outcome (16), Ubiquity (10) - based on Steininger (2019) classification",
+				"Eco-dimension variations → Efficient (7), Effective (12), Enabling (12)",
+				"Sustainability pattern variations → Resource optimization (19), Servitization (12), Closed loop (10), Renewables (15), Stewardship (24), Sufficiency (18), Inclusive value (12)",
+				"Differentiation strategy variations → Aikido (16), Breakthrough (22), Customer centricity (27), Open BM (14), Value network (12)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 9, Section 4.2: 'we identified four archetypal patterns of digital sustainable BMs: Sustainable Software Solution, Sustainable Product-Service System, Sustainability Intelligence, and Digital Sustainable Platform' | Page 10, Table 2: Complete taxonomy showing all dimensions and characteristics with counts | Page 11, Table 3: Definitions of four archetypes with counts",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Sustainability transformation of digital platform ecosystems → Digital platforms triggering waves of sustainability transformations in their ecosystems",
+				"Data-driven sustainable value creation → Increased use of IoT, blockchain, AI for transparency, emissions accounting, reduction potential identification in complex supply chains",
+				"Eco-equity focus → Using data to capture, allocate, and equitably distribute consumption of natural resources; compensating for inequalities and creating eco-equity",
+				"Integration of economic and ecological sustainability in BMs → Companies needing to integrate both aspects rather than addressing separately",
+				"Sustainability as competitive advantage → More research needed on how companies can leverage sustainability for competitive advantage",
+				"Policy implications for sustainable BMs → Research needed to support policymakers in balancing economic growth with emission reduction and sustainability regulations",
+				"Configurational perspective on digital sustainable BMs → Moving beyond variance-based analysis to investigate how characteristics are organized to form sustainable BMs",
+				"Digital sustainability transformation convergence → Combining economically necessary digital transformation with ecologically necessary sustainable transformation",
+				"Newer BM designs based on AI, blockchain, Web3 → Emerging technologies enabling new forms of digital sustainable BMs",
+				"Circular economy platform establishment → Digital sustainable platforms establishing themselves in larger circular ecosystems"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 21, Table 6: 'Summary of avenues for future research' including new BM configurations, competing with sustainability, transitioning to sustainable BM, policy implications | Page 21: 'future research is needed to investigate the effects of these platforms on their ecosystems and their role as orchestrators in the circular economy' | Page 21: 'Data can be used to capture, allocate, and equitably distribute the consumption of natural resources in the complexity of global ecosystems to compensate for inequalities in their use and negative consequences and create eco-equity' | Page 19: 'our sample could also be missing newer BM designs, such as those based on AI, blockchain, and Web3' | Page 13: 'Through the network effects in their ecosystems, the enablement of new sustainable BMs scales, and eventually, the platform establishes itself in a larger (circular) ecosystem'",
+			"confidence_level": "high"
+		}
+	]
+}

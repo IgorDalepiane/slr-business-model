@@ -1,0 +1,374 @@
+{
+	"extraction_metadata": {
+		"article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "The article presents four e-business models: (1) Novelty-centred business model: referring to novel ways of conducting economic exchanges among various participants; (2) Efficiency-centred business model: referring to means of gaining transaction efficiency among its transaction partners; (3) Lock-in-centred business model: concerning the means to retain engagement with existing transaction partners by creating switching costs or incentives; (4) Complementarity-centred business model: as the method to increase the transactions by creating greater complementarities in activities and among different partners in the market.",
+			"synonyms_found": [
+				"novelty-centred e-business model",
+				"efficiency-centred e-business model",
+				"lock-in-centred e-business model",
+				"complementarity-centred e-business model",
+				"e-business models"
+			],
+			"source_citation": "Page 1: 'Four different themes in e-business models are classified by Amit and Zott (2001): novelty-centred business model referring to novel ways of conducting economic exchanges among various participants; efficiency-centred business model referring to means of gaining transaction efficiency among its transaction partners; lock-in-centred business model concerning the means to retain engagement with existing transaction partners by creating switching costs or incentives; complementarity-centred business model as the method to increase the transactions by creating greater complementarities in activities and among different partners in the market.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": "e-business model, business model, novelty-centred design, efficiency-centred design",
+			"synonyms_found": [
+				"e-business model",
+				"business model",
+				"novelty-centred design",
+				"efficiency-centred design"
+			],
+			"source_citation": "Page 2: 'novelty-centred business model design matters most to the performance of entrepreneurial firms. Further, their study argues that combining both efficiency- and novelty-centred design elements into business models could be counterproductive.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Internet of Things (IoT) and Mobile Applications (Apps) business",
+			"synonyms_found": [
+				"IoT mobile Apps",
+				"IoT mobile App business",
+				"IoT mobile technology"
+			],
+			"source_citation": "Page 2: 'Second, we study e-business models in a new, nascent and untested e-business context –the Internet of Things (IoT) and Mobile Applications (Apps) business. IoT is a novel paradigm that facilitates enhanced communication between people and smart objects through Internet-connected devices.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C",
+			"synonyms_found": ["consumers", "users", "customer"],
+			"source_citation": "Page 2: 'The major beneficiary of the IoT innovation resides in consumer Apps that are estimated to grow from 2.9 Billion in 2015 to 13 Billion connected objects in 2020' | Page 3: 'Such novel and unique product and service offerings may create special customer value and improve customer satisfaction.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Start-ups and early-stage IoT mobile businesses",
+			"synonyms_found": [
+				"start-ups",
+				"startups",
+				"entrepreneurial firms",
+				"early stage"
+			],
+			"source_citation": "Page 1: 'We have collected data from 470 start-ups in China.' | Page 2: 'Startups are amassing millions of dollars in ventures to make their way out of the conceptual future and into commercialized Apps.' | Page 5: 'Especially for any small-scale business and also for the early stage of an IoT mobile App developers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "China",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'We have collected data from 470 start-ups in China.' | Page 5: 'For this study, we chose China as our research setting for two reasons. Firstly, with the largest Internet population, highest percentage of total world Internet users, and fastest growth rate of digital audience, China provides a great opportunity for IoT mobile app development. China is by far world's largest IoT market with 74 million connections as of 2014'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Consumer IoT mobile App users with focus on health enthusiasts, technology consumers, and users of connected devices",
+			"synonyms_found": [
+				"consumers",
+				"users",
+				"health enthusiasts",
+				"tech savvy consumers"
+			],
+			"source_citation": "Page 9: 'These figures are hard to understand by non tech savvy consumers or amateur health enthusiasts, and fail to provide any valuable insights.' | Page 3: 'A hydration App connected with a smart cup monitors people's daily water intake. A sensor enabled basketball tracks player's basketball throw statistics'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Application, Platform",
+			"synonyms_found": [
+				"Apps",
+				"mobile Apps",
+				"IoT mobile Apps",
+				"mobile platform"
+			],
+			"source_citation": "Page 2: 'We define IoT mobile Apps as the Apps which run on a smart phone, provide machine-to-machine (M2M) connectivity, allow sharing of data services, and facilitate ubiquitous computing across various devices all anchored on the smart phone device' | Page 4: 'As more and more data sources are integrated, the content of a IoT mobile platform gets richer.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Mobile (smartphone applications), with multi-platform support including Android, iOS, and Windows Phone",
+			"synonyms_found": ["mobile Apps", "smart phone", "cross-platform"],
+			"source_citation": "Page 2: 'Most IoT products are linked to a smart phone via Apps' | Page 6: 'a dummy variable for the App's platform (1 for multiple platform including Android, iOS, Windows Phone; 0 for otherwise)' | Page 8: 'Cross-platform development is also negatively associated with the dependent variable, probably because high costs incurred in developing an application across multiple platforms'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Standalone product, Platform, OEM component",
+			"synonyms_found": [
+				"stand-alone application",
+				"focal product",
+				"platform"
+			],
+			"source_citation": "Page 6: 'a dummy variable for OEM-specific App (1 if the App was developed for cellphone manufacturers, telecom carriers, IoT hardware manufacturers or App Stores for the purpose of bundling with Cellphones or IoT device; 0 if the App was a stand-alone application)' | Page 9: 'A complementarity-centred App serves as focal product to integrate suppliers and complementary components seamlessly.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value), Cross-sided (distinct groups benefit)",
+			"synonyms_found": [
+				"direct network externalities",
+				"indirect network externalities",
+				"network externalities"
+			],
+			"source_citation": "Page 11: 'Does the App exhibit direct network externalities with users being able to benefit from other similar users?' | 'Does the App exhibit indirect network externalities with one group of participants (other Apps or customers) being able to benefit from other groups?' | Page 9: 'benefits of improved customer experience and network externalities on the supply side'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Marketplaces (App Stores)",
+			"synonyms_found": ["App Stores", "third-party App Stores"],
+			"source_citation": "Page 6: 'the retained value of an App was coded as 1 if the App had no value left in the market, and firm withdrew the App from major App Stores' | 'Chinese smartphone users usually download Apps from third-party App Stores, with a hundred or so such stores in the Chinese online market.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes - Google Play, iOS App Store, and Chinese third-party App Stores (MyApp.com, 91.com, Zhushou.360.cn)",
+			"synonyms_found": ["App Stores", "Google Play", "iOS App Store"],
+			"source_citation": "Page 6: 'In China, Android devices and jail-broken iPhones cannot connect to Google Play and iOS App Store respectively. Chinese smartphone users usually download Apps from third-party App Stores, with a hundred or so such stores in the Chinese online market.' | Page 7: 'based on the reports of App Annie (2014), CNNIC (2014), iResearch, (2012, 2013a, 2013b, 2014) and an in-depth analyses of similar applications available on the Top 3 App Stores in China (i.e. MyApp.com, 91.com and Zhushou.360.cn).'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Value Proposition: Novel ways of conducting economic exchanges, transaction efficiency, lock-in through switching costs, complementarities in activities | Customer Segment: Consumer IoT App users, startups | Channels: App Stores and mobile platforms | Key Resources: R&D capabilities, venture capital investments, technological innovation | Key Activities: App development, data analytics, transaction facilitation | Key Partnerships: Venture capitalists, third-party data providers, complementary service providers | Cost Structure: R&D expenditure, advertising expenditure, development costs",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'novelty-centred business model referring to novel ways of conducting economic exchanges' | Page 6: 'the firm's expenditure on R&D and advertising' | Page 4: 'By integrating APIs from a third-party data provider, App developers are able to provide a bundle of various services' | Page 2: 'venture capitalists tend to actively involve themselves in the ventures they fund'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": "Venture capitalists | Provide financial capital and strategic guidance | Monitor and coach startups, influence business model selection | Third-party data providers | Provide APIs and data services | Enable complementary value creation through integration | App developers/startups | Create and deploy IoT mobile Apps | Receive funding and guidance from VCs, integrate services from third parties | Cellphone manufacturers/Telecom carriers/IoT hardware manufacturers | Bundle Apps with devices | OEM partnerships with App developers | App Stores | Distribute Apps to consumers | Serve as distribution channel for developers | Consumers/Users | Use IoT mobile Apps | Generate data and value for the platform",
+			"synonyms_found": [
+				"venture capitalists",
+				"developers",
+				"consumers",
+				"users",
+				"third-party data provider",
+				"OEM"
+			],
+			"source_citation": "Page 4: 'venture capitalists tend to actively involve themselves in the ventures they fund through closely monitoring and controlling' | 'By integrating APIs from a third-party data provider, App developers are able to provide a bundle of various services' | Page 6: 'if the App was developed for cellphone manufacturers, telecom carriers, IoT hardware manufacturers or App Stores for the purpose of bundling'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Create competitive advantage, improve transaction efficiency, reduce transaction costs, provide novel and unique offerings, improve customer satisfaction and retention, create value through complementarities, access to venture capital funding for innovation",
+			"synonyms_found": [
+				"competitive advantage",
+				"transaction efficiency",
+				"customer satisfaction",
+				"value creation"
+			],
+			"source_citation": "Page 3: 'which may create competitive advantage and increase a customer's purchase intentions and enhance his satisfaction' | 'An efficiency-centred business model achieves business transaction efficiency by reducing transaction costs' | Page 4: 'complementarity-centred Apps offer technological and business innovation to co-create business value' | 'Capital is the lifeblood for young and growing ventures in order to enable them grow and meet their milestones'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Efficiency-centred design → Positive value retention | Complementarity-centred design → Positive value retention | Novelty with high VC investment → Positive value retention | R&D expenditure → Positive value retention | Advertising expenditure → Positive value retention | Fast adaptability → Competitive advantage for efficiency-centred models | Low venture capital involvement for efficiency models → Better value retention | High venture capital involvement for novelty models → Better value retention",
+			"synonyms_found": ["value retention", "performance"],
+			"source_citation": "Page 8: 'The main effect of efficiency-centred business model on the dependent variable is positively significant (0.024, p< 0.05) which supports H2' | 'The positive main effect of complementary-centred business model on value (0.04, p< 0.01)' | 'The interactive effect between novelty and venture capital investment intensity is significantly positive (0.021, p< 0.01)' | 'the expenditure on R&D and that on Advertising are positively associated with value retention'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Access to venture capital → Novelty-centred business model success | Low monitoring by VCs → Efficiency-centred business model success | R&D capabilities → Innovation and novelty | API economy and open frameworks → Complementarity implementation | Ubiquitous computing technology → IoT functionality | Smart phone infrastructure → App deployment",
+			"synonyms_found": [
+				"venture capital",
+				"R&D",
+				"ubiquitous computing",
+				"API"
+			],
+			"source_citation": "Page 9: 'radically innovative products usually require significant time and capital investments on R&D before the firm can reap the monopoly rents' | Page 3: 'The booming Application Program Interface (API) economy leads to a fast change in App designs' | Page 2: 'combined with the proliferation of IoT mobile devices supported by ubiquitous computing technology'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Lock-in reduces interoperability → Negative impact on customer adoption | High VC monitoring of efficiency models → Slows decision process and reduces adaptability | Cross-platform development costs → Hampers value retention | Lock-in creates switching costs → Reduces consumer welfare and purchase intention | Dominant design difficult to achieve → Limits lock-in effectiveness | Combining efficiency and novelty designs → Can be counterproductive",
+			"synonyms_found": ["lock-in", "interoperability", "switching costs"],
+			"source_citation": "Page 3: 'This reduces the interoperatability between different IoT devices, which leads to extra costs for consumers. A low level of interoperatability between devices and Apps also causes vast volumes of data to be under-utilized' | Page 4: 'Such organizational friction may slow down the decision process, miss the best timing to enter a fast changing market' | Page 2: 'combining both efficiency- and novelty-centred design elements into business models could be counterproductive' | Page 8: 'Cross-platform development is also negatively associated with the dependent variable, probably because high costs incurred'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "95% of mobile Apps are abandoned by users within one month; High cost of building lock-in centred business model especially for small-scale and early stage developers; Difficulty in creating successful novel and radical innovation; Novelty-centred IoT devices too complex for most consumers to adopt; Lack of perceived value, high price, privacy and security concerns hampering consumer adoption; Low durability in core Apps due to fast change in App designs; High cost of customization and personalization for IoT products; Difficulty forming dominant design in IoT mobile App business; Fast imitation of efficiency-centred business models",
+			"synonyms_found": ["challenges", "barriers", "difficulties"],
+			"source_citation": "Page 2: 'Statistics show that 95% of mobile Apps are abandoned by users within one month and at an average, an App loses its entire customer base within a few months' | Page 3: 'the cost of building lock-in centred business model might be higher than the return on financial value' | Page 9: 'it is difficult to create successful novel and radical innovation' | 'lack of perceived value, high price, concerns with privacy and security are the major barriers hampering consumer adoption of IoT products' | Page 4: 'The key success factor for an efficiency-centred business model is fast adaptability, because the low innovative nature of this business model makes it easily imitable'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Venture capital investment for novelty models → Provides financial resources and strategic guidance → Improves value retention for innovative projects | Avoiding excessive VC involvement for efficiency models → Maintains fast adaptability → Better value retention | Focus on efficiency-centred design → Reduces transaction costs → Improves market acceptance | Complementarity through API integration → Creates bundled value → Increases customer retention | R&D and advertising expenditure → Improves market position → Enhances value retention | Avoiding lock-in strategy → Maintains open approach → Better consumer acceptance",
+			"synonyms_found": [
+				"venture capital",
+				"efficiency",
+				"complementarity",
+				"R&D"
+			],
+			"source_citation": "Page 9: 'The venture capitalists' experiences in strategy planning, formation, and risk-management may significantly improve the effect of novelty centred e-business model on value retention' | 'efficiency-centred e-business model is positively related to value retention when venture capital investment intensity is low' | Page 8: 'the expenditure on R&D and that on Advertising are positively associated with value retention' | Page 9: 'IoT start-ups should use more complementary designs to retain value over time'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Sample size; 470; Apps; 2013-2015; Survey; Primary data | App abandonment rate; 95%; Percentage; Within one month; Industry statistics; Chen, 2015 | Average value retention score; 3.365; Scale 1-5; 18 months after launch; Survey; Primary data | Venture capital to equity ratio; 12%; Percentage; 2015; Survey; Primary data | IoT connections in China; 74 million; Connections; 2014; Industry report; GSMA, 2015 | Consumer Apps growth; 2.9 to 13 billion; Connected objects; 2015-2020; Industry forecast; Gartner, 2014 | VC investment in US IoT; $300 million; USD; 2010-2014; Industry report; TechCrunch, 2014 | VC funding for top 100 IoT startups; $6.19 billion; USD; 2015; Industry report; Forbes, 2015 | China VC investment; $37 billion; USD; 2015; Industry report; Bloomberg, 2016 | R-squared Model 1; 32.6%; Percentage; N/A; Regression analysis; Study results | R-squared Model 2; 34.4%; Percentage; N/A; Regression analysis; Study results",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'We have collected data from 470 start-ups in China' | Page 2: 'Statistics show that 95% of mobile Apps are abandoned by users within one month' | Page 6: 'the average value retention score is 3.365' | 'The average percentage of venture capital investments to total shareholder equity is 12%' | Page 5: 'China is by far world's largest IoT market with 74 million connections as of 2014' | Page 2: 'consumer Apps that are estimated to grow from 2.9 Billion in 2015 to 13 Billion connected objects in 2020' | Page 8: 'R-squared 0.326' and 'R-squared 0.344'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2013-2015 (first stage survey end of 2013, second stage summer 2015, 18-month lag design) | Maturity status: Emerging",
+			"synonyms_found": ["nascent", "early stage", "infancy stage"],
+			"source_citation": "Page 5: 'We conducted a two-stage large-scale survey in China to test our hypotheses. The first stage survey was carried out by the end of 2013' | 'We conducted the second stage study in the summer of 2015' | 'The lag of 18 months enables us to satisfy the temporal precedence condition' | Page 2: 'we study e-business models in a new, nascent and untested e-business context' | Page 10: 'given that the IoT sector is still largely in its infancy stage'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Survey",
+			"synonyms_found": [
+				"large-scale survey",
+				"two-stage survey",
+				"questionnaire"
+			],
+			"source_citation": "Page 5: 'We conducted a two-stage large-scale survey in China to test our hypotheses' | '470 application project managers agreed to take part in our study and answered our questionnaire on their IoT mobile App business under strict confidentiality'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": "Hydration App with smart cup → Example of novelty-centred IoT mobile App monitoring water intake | Sensor-enabled basketball App → Example of novelty providing virtual coaching and statistics tracking | Vehicle fleet tracking App with On-Board Diagnostic systems → Example of efficiency-centred App for maintenance planning | Smart App connected to water cooler → Example of efficiency-centred App for automatic ordering | Sports tracker App → Example of complementarity-centred App sharing APIs with health insurers",
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'a hydration App connected with a smart cup monitors people's daily water intake. A sensor enabled basketball tracks player's basketball throw statistics, analyses the data and provides virtual coaching to improve skills' | 'a vehicle fleet tracking App that connects to a vehicle's On-Board Diagnostic systems can help firms to estimate wear and tear and plan maintenance materials accordingly. A smart App that connects to a water cooler not only reminds users to drink water but also automatically orders new filters' | Page 4: 'the APIs of a sports tracker App allows health insurers to make these decisions based on aggregate insightful customer profiles that include heart rate, stress levels, activity levels as well as gender and age'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": "Four distinct types with different characteristics: Novelty-centred → Creates value through innovation, novel transactions, new market participants, requires high R&D investment, benefits from high VC involvement | Efficiency-centred → Focuses on transaction efficiency, cost reduction, fast transactions, easily imitable, benefits from low VC involvement | Lock-in-centred → Creates switching costs through customization, personalization, dominant design, network effects, high implementation costs | Complementarity-centred → Bundles complementary services, integrates APIs, creates platform effects, benefits from strategic alliances",
+			"synonyms_found": [
+				"novelty-centred",
+				"efficiency-centred",
+				"lock-in-centred",
+				"complementarity-centred"
+			],
+			"source_citation": "Page 1: 'Four different themes in e-business models are classified by Amit and Zott (2001): novelty-centred business model...efficiency-centred business model...lock-in-centred business model...complementarity-centred business model' | Page 9: 'findings provide new empirical evidences on how different e-business model selections affect IoT mobile Apps' value retention'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Continued growth of global IoT mobile market; Continued business model experimentation; Unprecedented number of firms and venture capitalists entering the IoT App business; Need for longitudinal studies to examine business model evolution; Potential for studying interactions among different business models working collectively; Growth from 2.9 billion to 13 billion connected consumer objects (2015-2020); Platform economy growth based on open API technology promoting coopetition",
+			"synonyms_found": ["future research", "growth", "evolution"],
+			"source_citation": "Page 10: 'since the global IoT mobile market continues to grow, business model experimentation will also continue. An unprecedented number of firms and venture capitalists rush into the gold App business to monetize the high-value touch points' | 'Future works should conduct longitudinal studies to examine the business model evolution of an App and its impact on long-term performance' | 'Future research should study the potential interactions among four different e-business models' | Page 2: 'consumer Apps that are estimated to grow from 2.9 Billion in 2015 to 13 Billion connected objects in 2020' | Page 4: 'The last few years have witnessed the growth of platform economy based on open API technology'",
+			"confidence_level": "high"
+		}
+	]
+}

@@ -1,0 +1,478 @@
+{
+	"extraction_metadata": {
+		"article_title": "Managing a Software Business",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Software Business Model. Definition: The idea that describes how you create value through software, which can be a pure software product, a software-hardware combination, or a service. Service components enable securing recurring revenue but require investment in and management of operations required to deliver it.",
+			"synonyms_found": [
+				"business model",
+				"software business",
+				"software-centered business model"
+			],
+			"source_citation": "Page 1, Section 'Your Business Model and Strategy': 'Start with your business model, the idea that describes how you create value. Will that be a pure software product, such as Microsoft Windows; a software–hardware combination (consider the iPhone); or a service, such as eBay? Having a service component in your offering lets you secure recurring revenue. However, you'll also need to invest in and manage the operations required to deliver it. Thanks to the Internet and cloud computing, it's now easy to include a service component into any type of software.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"business model",
+				"software business",
+				"software-centered business model",
+				"offering"
+			],
+			"synonyms_found": [
+				"business model",
+				"software business",
+				"software-centered business model",
+				"offering"
+			],
+			"source_citation": "Page 1: 'Start with your business model' | Page 1: 'a software-centered business model might not be able to deliver the comforts of an existing business model' | Page 2: 'You implement your strategy by managing the product or service you're offering.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Multiple industries - automotive, healthcare, finance, entertainment",
+			"synonyms_found": ["industries"],
+			"source_citation": "Page 1, Introduction: 'HUGE INDUSTRIES, from the automotive and healthcare industries to finance and entertainment, center increasingly on software.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others",
+			"synonyms_found": ["enterprises", "individuals", "masses", "customers"],
+			"source_citation": "Page 1, Section 'Your Business Model and Strategy': 'Then, consider your market. You can target enterprises or individuals, you can create a specialized product or appeal to the masses, you can cover a broad area or focus on a niche'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Global scale",
+			"synonyms_found": ["global scale"],
+			"source_citation": "Page 1, Section 'Your Business Model and Strategy': 'Software is also easy to distribute on a global scale. This can allow you to focus on a profitable niche.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform", "Managed Service"],
+			"synonyms_found": [
+				"pure software product",
+				"software-hardware combination",
+				"service",
+				"product",
+				"platform",
+				"ecosystem"
+			],
+			"source_citation": "Page 1, Section 'Your Business Model and Strategy': 'Will that be a pure software product, such as Microsoft Windows; a software–hardware combination (consider the iPhone); or a service, such as eBay?' | Page 2, Section 'Your Business Model and Strategy': 'A related strategy involves offering a platform or an ecosystem in which your business can grow together with others that depend on yours.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["On-premises", "Multi-tenant SaaS"],
+			"synonyms_found": ["service", "cloud computing", "Internet"],
+			"source_citation": "Page 1, Section 'Your Business Model and Strategy': 'Thanks to the Internet and cloud computing, it's now easy to include a service component into any type of software.' | Page 3, Section 'Your Processes': 'With software increasingly being offered as a service, another important thing you must manage is the operations behind the delivery.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others",
+			"synonyms_found": ["open", "proprietary", "open source"],
+			"source_citation": "Page 2, Section 'Your Business Model and Strategy': 'The choice of open or proprietary file formats, APIs, and plug-in mechanisms can make the difference between failure and success.' | Page 2: 'You might be able to minimize licensing costs by using or modifying open source components, but so can your competition.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Choice of open or proprietary file formats → Affects platform strategy and ecosystem growth",
+				"Choice of open or proprietary APIs → Affects platform strategy and ecosystem success",
+				"Choice of open or proprietary plug-in mechanisms → Can make difference between failure and success"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2, Section 'Your Business Model and Strategy': 'A related strategy involves offering a platform or an ecosystem in which your business can grow together with others that depend on yours. Technology can play an important role here. The choice of open or proprietary file formats, APIs, and plug-in mechanisms can make the difference between failure and success.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Subscription"],
+			"synonyms_found": ["recurring revenue"],
+			"source_citation": "Page 1, Section 'Your Business Model and Strategy': 'Having a service component in your offering lets you secure recurring revenue.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": ["platform", "ecosystem", "hub"],
+			"source_citation": "Page 2, Section 'Your Business Model and Strategy': 'Positioning yourself as a hub in a winner-takes-all field can be remarkably rewarding. A related strategy involves offering a platform or an ecosystem in which your business can grow together with others that depend on yours.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value)",
+			"synonyms_found": ["network effects"],
+			"source_citation": "Page 2, Section 'Your Business Model and Strategy': 'Software, and especially a service built through it, exhibits strong network effects: your offering's value increases with the number of its users. Positioning yourself as a hub in a winner-takes-all field can be remarkably rewarding.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Product-led Growth"],
+			"synonyms_found": ["distribution"],
+			"source_citation": "Page 1, Section 'Your Business Model and Strategy': 'The low marginal distribution cost (the cost of adding another user) means that additional sales can often directly translate into pure profit.' | Page 1: 'Software is also easy to distribute on a global scale.'",
+			"confidence_level": "low"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Pure software product, software-hardware combination, or service; low marginal distribution cost; global scale distribution; network effects; platform/ecosystem offering",
+				"Customer Segment: Enterprises or individuals; specialized product or mass market; broad area or niche focus; market leader or complementary offering",
+				"Channels: Internet and cloud computing enable service delivery; global scale distribution; low marginal distribution cost",
+				"Revenue Streams: Recurring revenue through service component",
+				"Key Resources: Developers as strategic asset with high productivity differences; organization structures that let developers write great software; engineering talent; open source components",
+				"Key Activities: Product/service management balancing features vs. quality attributes (usability, security, maintainability, reliability, efficiency); software development; operations management; constant investment in software to avoid obsolescence",
+				"Key Partnerships: Platform/ecosystem partners that depend on the business; volunteer community for crowdsourcing; outsourcing relationships",
+				"Cost Structure: Low marginal distribution cost; licensing costs; operations investment for service delivery; risk of shrunk revenue and profit margins in transitions; investment in tools and hardware for developers"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Will that be a pure software product, such as Microsoft Windows; a software–hardware combination (consider the iPhone); or a service, such as eBay? Having a service component in your offering lets you secure recurring revenue.' | Page 1: 'You can target enterprises or individuals, you can create a specialized product or appeal to the masses, you can cover a broad area or focus on a niche, and you can lead the market or complement an existing offering.' | Page 1: 'The low marginal distribution cost (the cost of adding another user) means that additional sales can often directly translate into pure profit.' | Page 2: 'offering a platform or an ecosystem in which your business can grow together with others that depend on yours' | Page 2: 'given the big productivity differences among developers, your engineers will likely be a strategic asset rather than just a cog in your operations' machinery' | Page 1: 'It might involve painful redundancies and adjustments for shrunk revenue and profit margins.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"actor": "Developers/Engineers",
+					"role": "Strategic asset and knowledge workers who build the software offering",
+					"interaction_with_offering_company": "Managed through motivation, empowerment, and trust rather than command and control; require tools, hardware, and organizational structures to write great software",
+					"interaction_with_other_actors": "Not specified"
+				},
+				{
+					"actor": "Customers (Existing and Potential)",
+					"role": "End users who request features and consume the software/service",
+					"interaction_with_offering_company": "Request features; provide requirements; work closely with developers in agile processes; frequent delivery recipients",
+					"interaction_with_other_actors": "Create network effects by increasing offering value with more users"
+				},
+				{
+					"actor": "Platform/Ecosystem Partners",
+					"role": "Other businesses that depend on the platform and grow together with it",
+					"interaction_with_offering_company": "Depend on the platform/ecosystem for their business growth",
+					"interaction_with_other_actors": "Grow together in ecosystem"
+				},
+				{
+					"actor": "Volunteer Community",
+					"role": "Contributors for crowdsourced software development and support",
+					"interaction_with_offering_company": "Provide crowdsourced development and support; require building and maintaining a live community",
+					"interaction_with_other_actors": "Not specified"
+				},
+				{
+					"actor": "Outsourcing Partners",
+					"role": "External parties that may handle software construction",
+					"interaction_with_offering_company": "Potential outsourcing relationship for software construction, though article questions what value company offers if construction is outsourced",
+					"interaction_with_other_actors": "Not specified"
+				},
+				{
+					"actor": "Competition",
+					"role": "Competing software businesses in the market",
+					"interaction_with_offering_company": "Competitors that become easier to build competing products each year; can also use same open source components",
+					"interaction_with_other_actors": "Compete for customers and talent"
+				}
+			],
+			"synonyms_found": [
+				"developers",
+				"engineers",
+				"customers",
+				"users",
+				"partners",
+				"volunteer community",
+				"competition"
+			],
+			"source_citation": "Page 2: 'offering a platform or an ecosystem in which your business can grow together with others that depend on yours' | Page 2: 'Software construction might appear easy to outsource, but then what value are you offering?' | Page 2: 'You can even crowdsource software development and support, but building and maintaining a live volunteer community isn't for the fainthearted.' | Page 2: 'given the big productivity differences among developers, your engineers will likely be a strategic asset' | Page 2: 'An important guide is obviously the set of features your existing or potential customers have requested.' | Page 3: 'Here, you must bring the customer close to the developers, ensure the software's frequent delivery' | Page 4: 'As clever specialized knowledge workers, developers can't be effectively managed through command and control. The tools you'll use are motivation, empowerment, and trust.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Securing recurring revenue through service component",
+				"Low marginal distribution cost enabling additional sales to translate into pure profit",
+				"Ability to distribute on global scale and focus on profitable niche",
+				"Strong network effects increasing offering value with more users",
+				"Winner-takes-all positioning as hub can be remarkably rewarding",
+				"Platform/ecosystem strategy enabling business growth together with partners",
+				"Internet and cloud computing making it easy to include service component"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Having a service component in your offering lets you secure recurring revenue.' | Page 1: 'The low marginal distribution cost (the cost of adding another user) means that additional sales can often directly translate into pure profit.' | Page 1: 'Software is also easy to distribute on a global scale. This can allow you to focus on a profitable niche.' | Page 2: 'Software, and especially a service built through it, exhibits strong network effects: your offering's value increases with the number of its users. Positioning yourself as a hub in a winner-takes-all field can be remarkably rewarding.' | Page 1: 'Thanks to the Internet and cloud computing, it's now easy to include a service component into any type of software.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Developer productivity as number-one priority → Enables great software creation",
+				"Choice of open file formats, APIs, and plug-in mechanisms → Can make difference between failure and success in platform strategy",
+				"Network effects and hub positioning → Remarkably rewarding in winner-takes-all field",
+				"Low marginal distribution cost → Additional sales translate into pure profit",
+				"Managing sensible choices and prioritization → Handles trade-offs between features and quality attributes",
+				"Constant investment in software evolution → Prevents software from becoming obsolete",
+				"Motivation, empowerment, and trust of developers → Effective management of knowledge workers",
+				"Separate engineering career track → Retains stellar developers instead of promoting them to mediocre managers",
+				"Continuous process improvement → Ensures effectiveness and efficiency"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4, Section 'Your Processes': 'Keeping developers productive should be your number-one priority. Eliminate distractions and waste, give them all the tools and hardware they need, and set up your organization's structures in a way that lets them write great software.' | Page 2: 'The choice of open or proprietary file formats, APIs, and plug-in mechanisms can make the difference between failure and success.' | Page 2: 'Positioning yourself as a hub in a winner-takes-all field can be remarkably rewarding.' | Page 3: 'It's your job as a manager to make sensible choices, triage, prioritize, and handle expectations.' | Page 3: 'unless you constantly invest in your software, it will quickly become obsolete' | Page 4: 'Avoid promoting stellar developers to become mediocre managers, by having a separate engineering career track.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Internet and cloud computing infrastructure → Enables service component delivery",
+				"Developer talent availability → Required for building the offering as strategic asset",
+				"Organizational structures that support developers → Enables developers to write great software",
+				"Live volunteer community for crowdsourcing → Required if choosing crowdsourcing strategy",
+				"Customer proximity to developers → Necessary for agile process",
+				"Culture of technical excellence → Required for agile process effectiveness"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Thanks to the Internet and cloud computing, it's now easy to include a service component into any type of software.' | Page 4: 'set up your organization's structures in a way that lets them write great software' | Page 2: 'You can even crowdsource software development and support, but building and maintaining a live volunteer community isn't for the fainthearted.' | Page 3: 'Here, you must bring the customer close to the developers' | Page 3: 'promote a culture of technical excellence'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Features vs. quality attributes → Piling features generally reduces software's other qualities (usability, security, maintainability, reliability, efficiency)",
+				"Security vs. usability → Increasing security reduces usability",
+				"Efficiency vs. maintainability and reliability → Increasing efficiency reduces maintainability and reliability",
+				"Stability vs. evolution → Users distrust stale products but enterprises value stability",
+				"Transition revenue streams → Existing revenue streams might dry up before new ones start bringing in cash during business model transitions",
+				"Open source advantage limitation → Using open source components to minimize licensing costs provides no competitive advantage as competition can do the same",
+				"Software construction outsourcing → Questions what value company offers if construction is outsourced",
+				"Mobile app market entry → More than two-thirds of millions of mobile phone apps are never or hardly ever downloaded"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'Many other things determine your offering's quality: its usability, security, maintainability, reliability, and efficiency. All these elements are at odds with each other, and all drive up costs. Piling features generally reduces the software's other qualities. Also, increasing security reduces usability, increasing efficiency reduces maintainability and reliability—the list goes on.' | Page 3: 'Users often distrust a stale product, whereas enterprises typically value stability (until they ditch you for the new kid on the block).' | Page 1: 'Existing revenue streams might dry up before new ones start bringing in cash' | Page 2: 'You might be able to minimize licensing costs by using or modifying open source components, but so can your competition.' | Page 2: 'Software construction might appear easy to outsource, but then what value are you offering?' | Page 1: 'more than two-thirds of the millions of mobile phone apps are never or hardly ever downloaded.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Business model transition upheaval - managing dry up of existing revenue streams before new ones bring cash",
+				"People management during transition - bringing in new people and retraining existing ones",
+				"Power structure and resource reallocation during transition",
+				"Organizational culture adjustment to new way of doing things",
+				"Painful redundancies and shrunk revenue/profit margins in software-centered transitions",
+				"Mass market entry difficulty - more than two-thirds of mobile apps never or hardly downloaded",
+				"Balancing trade-offs between features and quality attributes (usability, security, maintainability, reliability, efficiency)",
+				"Managing expectations around offering stability vs. evolution",
+				"Software becoming less flexible and attractive over time while competitors find it easier to build competing products",
+				"Decision point of frightening possibility of starting afresh",
+				"Managing developers as clever specialized knowledge workers who can't be managed through command and control",
+				"Attracting talent in highly competitive marketplace",
+				"Sharing organizational values among all developers",
+				"Retaining expensively acquired and trained developers",
+				"Avoiding promoting stellar developers to become mediocre managers"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'you must also plan and manage the transition and its upheaval. Existing revenue streams might dry up before new ones start bringing in cash, new people might be brought in and existing ones retrained, power structures and resources might be reallocated, and the organization's culture might need to adjust to the new way of doing things. Most dramatically, a software-centered business model might not be able to deliver the comforts of an existing business model. It might involve painful redundancies and adjustments for shrunk revenue and profit margins.' | Page 1: 'entering a mass market is hard; for example, more than two-thirds of the millions of mobile phone apps are never or hardly ever downloaded.' | Page 3: 'Cruelly, each year your competitors will find it easier to build a competing product, while your software becomes less flexible and attractive. At some point, the frightening possibility of starting afresh might be the only viable option.' | Page 4: 'As clever specialized knowledge workers, developers can't be effectively managed through command and control.' | Page 4: 'Attracting talent in a highly competitive marketplace, sharing your organization's values among all developers, and keeping the expensively acquired and trained developers in your organization are also critical tasks.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Make sensible choices, triage, prioritize, and handle expectations → Mitigates quality trade-off challenges → Better balance of features and quality attributes",
+				"Constant investment in software evolution → Prevents software obsolescence → Maintains competitiveness",
+				"Use motivation, empowerment, and trust → Addresses developer management challenge → Effective management of knowledge workers",
+				"Keep developers productive as number-one priority → Increases output quality → Enables great software creation",
+				"Eliminate distractions and waste for developers → Improves productivity → Better software development",
+				"Provide all tools and hardware developers need → Supports productivity → Enables efficient development",
+				"Set up organizational structures that let developers write great software → Removes barriers → Enhances development capability",
+				"Separate engineering career track → Retains stellar developers → Avoids losing talent to mediocre management roles",
+				"Adapt development process to environment → Ensures process effectiveness → Better project outcomes",
+				"Assess process effectiveness and efficiency → Identifies improvement areas → Enables continuous improvement",
+				"Bring customer close to developers in agile → Ensures alignment → Better product-market fit",
+				"Ensure frequent software delivery → Maintains customer engagement → Validates development direction",
+				"Empower teams to organize themselves → Increases team effectiveness → Better agile outcomes",
+				"Promote culture of technical excellence → Improves quality → Sustainable development practices",
+				"Focus on niche with global distribution → Addresses mass market difficulty → Profitable positioning"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'It's your job as a manager to make sensible choices, triage, prioritize, and handle expectations.' | Page 3: 'unless you constantly invest in your software, it will quickly become obsolete' | Page 4: 'As clever specialized knowledge workers, developers can't be effectively managed through command and control. The tools you'll use are motivation, empowerment, and trust. Keeping developers productive should be your number-one priority. Eliminate distractions and waste, give them all the tools and hardware they need, and set up your organization's structures in a way that lets them write great software.' | Page 4: 'Avoid promoting stellar developers to become mediocre managers, by having a separate engineering career track.' | Page 3: 'Your job also includes adapting the process to its environment, assessing its effectiveness and efficiency, and continuously improving it.' | Page 3: 'Here, you must bring the customer close to the developers, ensure the software's frequent delivery, motivate individuals, empower teams to organize themselves, and promote a culture of technical excellence.' | Page 1: 'Software is also easy to distribute on a global scale. This can allow you to focus on a profitable niche.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"metric": "Mobile app download rate (never or hardly ever downloaded)",
+					"value": ">66.67",
+					"unit": "percent",
+					"period": "Not specified",
+					"method": "General market observation",
+					"source": "Page 1, Section 'Your Business Model and Strategy'"
+				}
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1, Section 'Your Business Model and Strategy': 'entering a mass market is hard; for example, more than two-thirds of the millions of mobile phone apps are never or hardly ever downloaded.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: September/October 2016 publication. Maturity status: Consolidated - The article discusses software business models as established practice with Internet and cloud computing making service components easy to include.",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'SEPTEMBER/OCTOBER 2016 | IEEE SOFTWARE' | Page 1: 'Thanks to the Internet and cloud computing, it's now easy to include a service component into any type of software.' | Page 3: 'With software increasingly being offered as a service'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Expert opinion",
+			"synonyms_found": ["editorial", "FROM THE EDITOR"],
+			"source_citation": "Page 1: 'FROM THE EDITOR' | Page 1: 'Editor in Chief: Diomidis Spinellis Athens University of Economics and Business' | Page 1: 'Managing a Software Business - Diomidis Spinellis'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Microsoft Windows → Example of pure software product business model",
+				"iPhone → Example of software-hardware combination business model",
+				"eBay → Example of service-based business model",
+				"Netflix → Example of business model transition from posted DVDs to video streaming"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1, Section 'Your Business Model and Strategy': 'Will that be a pure software product, such as Microsoft Windows; a software–hardware combination (consider the iPhone); or a service, such as eBay?' | Page 1: 'If your business model aims to supplant an existing one (think of Netflix moving from posted DVDs to video streaming), you must also plan and manage the transition and its upheaval.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Pure software product → Software-only offering like Microsoft Windows",
+				"Software-hardware combination → Integrated hardware and software offering like iPhone",
+				"Service-based model → Service offering like eBay with recurring revenue",
+				"Platform/ecosystem model → Platform where business grows together with others that depend on it; hub positioning in winner-takes-all field",
+				"Complementary offering → Market complement rather than leader position",
+				"Specialized vs. mass market → Can create specialized product or appeal to masses",
+				"Broad area vs. niche focus → Can cover broad area or focus on profitable niche with global distribution"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Will that be a pure software product, such as Microsoft Windows; a software–hardware combination (consider the iPhone); or a service, such as eBay?' | Page 2: 'A related strategy involves offering a platform or an ecosystem in which your business can grow together with others that depend on yours.' | Page 2: 'Positioning yourself as a hub in a winner-takes-all field can be remarkably rewarding.' | Page 1: 'you can create a specialized product or appeal to the masses, you can cover a broad area or focus on a niche, and you can lead the market or complement an existing offering.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Software increasingly being offered as a service → Trend toward service-based models requiring operations management",
+				"Internet and cloud computing making service components easy to include → Enabling more service-oriented business models",
+				"Swift technology advances and software evolution → Guarantees software will quickly become obsolete without constant investment",
+				"Competitors finding it easier each year to build competing products → Lowering barriers to competition",
+				"Software becoming less flexible and attractive over time → Eventually requiring frightening possibility of starting afresh"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3, Section 'Your Processes': 'With software increasingly being offered as a service, another important thing you must manage is the operations behind the delivery.' | Page 1: 'Thanks to the Internet and cloud computing, it's now easy to include a service component into any type of software.' | Page 3: 'Swift technology advances and Lehman's laws of software evolution guarantee that, unless you constantly invest in your software, it will quickly become obsolete. Cruelly, each year your competitors will find it easier to build a competing product, while your software becomes less flexible and attractive. At some point, the frightening possibility of starting afresh might be the only viable option.'",
+			"confidence_level": "high"
+		}
+	]
+}

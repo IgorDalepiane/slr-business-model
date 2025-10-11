@@ -1,0 +1,430 @@
+{
+	"extraction_metadata": {
+		"article_title": "Designing business models for cloud platforms",
+		"extraction_date": "2025-10-08"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Platform as a Service (PaaS) business model. Definition: A development and execution environment delivered on demand as a multisided platform where external developers deploy and run their complementary components and applications, enabling value co-creation between platform providers, developers, and customers.",
+			"synonyms_found": [
+				"PaaS",
+				"cloud platform",
+				"cloud platform business model"
+			],
+			"source_citation": "Page 1: 'Platform as a service (PaaS) has become a strategic option for software vendors who expect to benefit from value co-creation with partners by developing complementary components and applications' | Page 3: 'PaaS as a development and execution environment in which external developers deploy and run their complementary C&A' | Page 2: 'PaaS is a specific type of multisided platform (MSP) delivered on demand'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": "Cloud platforms, PaaS solutions, multisided platform (MSP), software platform, platform business",
+			"synonyms_found": [
+				"cloud platforms",
+				"PaaS solutions",
+				"multisided platform",
+				"MSP",
+				"software platform",
+				"platform business"
+			],
+			"source_citation": "Page 1: 'Cloud platforms, also referred to as platform as a service (PaaS) solutions' | Page 1: 'the software industry increasingly evolves into a platform business' | Page 2: 'PaaS is a specific type of multisided platform (MSP) delivered on demand'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Enterprise software and cloud computing industry, particularly for companies providing ERP, data warehouse solutions, and complementary business applications",
+			"synonyms_found": [
+				"enterprise software",
+				"cloud computing",
+				"IT industry"
+			],
+			"source_citation": "Page 9: 'Alpha's primary products are enterprise resource planning (ERP) and enterprise data warehouse solutions, but in recent years the company has also entered the cloud market' | Page 3: 'cloud platforms are an emerging model for developing and consuming on-demand components and applications (C&A) with the potential to disrupt the prevailing business models in the information technology (IT) industry'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Multiple customer types: B2B (Independent Software Vendors, System Integrators, Platform customers/Enterprises), Developers/Dev-tools (individual developers)",
+			"synonyms_found": [
+				"ISVs",
+				"SIs",
+				"platform customers",
+				"individual developers",
+				"enterprises"
+			],
+			"source_citation": "Page 18: 'PaaS providers have the options to address at least five possible customer segments: (1) individual developers who have not yet built commercial solutions (such as student groups or start-ups); (2) ISVs who develop and consume C&A on the platform; (3) system integrators (SIs) such as IT consultancies, who do this for their customers; (4) platform customers as a possible customer segment that refers to enterprises that use PaaS solutions as a private cloud'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Large established software vendors and technology corporations, including the largest global software companies. Also includes PaaS start-ups that are acquired by larger companies.",
+			"synonyms_found": [
+				"established software vendors",
+				"large enterprise software corporation",
+				"largest global software companies",
+				"PaaS start-ups"
+			],
+			"source_citation": "Page 2: 'established software vendors have made significant investments in developing comprehensive PaaS solutions such as Google Cloud Platform, Microsoft Azure and IBM Bluemix. A third group has decided to acquire successful PaaS start-ups' | Page 3: 'a 12-month action design research (ADR) study at one of the largest global software companies (here called Alpha)' | Page 9: 'Alpha, one of the largest global software companies'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Global markets with specific mention of Asia-Pacific region including Japan, and North America",
+			"synonyms_found": ["Asia-Pacific", "Japan", "North American"],
+			"source_citation": "Page 13: 'business development cloud; product management; solution management; chief product owner; ecosystem and channels (× 2); business development; sales head of Asia–Pacific, including Japan; custom development; North American cloud sales; sales management and head of cloud integration'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Independent Software Vendors (ISVs) and individual developers/start-ups, with particular focus on external developers who deploy and run complementary components and applications on the platform",
+			"synonyms_found": [
+				"ISVs",
+				"independent software vendors",
+				"individual developers",
+				"external developers",
+				"third-party developers",
+				"complementors"
+			],
+			"source_citation": "Page 1: 'it allows external developers to deploy and run their complementary software components' | Page 3: 'application-centric platforms such as Salesforce Force.com allow ISVs [independent software vendors] to develop extensions' | Page 18: 'individual developers who have not yet built commercial solutions (such as student groups or start-ups); (2) ISVs who develop and consume C&A on the platform'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Platform (development and execution environment), Infrastructure (cloud-based), SDK (software development kits), API (application program interfaces)",
+			"synonyms_found": [
+				"platform",
+				"development environment",
+				"execution environment",
+				"SDKs",
+				"APIs"
+			],
+			"source_citation": "Page 3: 'PaaS as a development and execution environment in which external developers deploy and run their complementary C&A. PaaS facilitates the development, testing and management of software components' | Page 5: 'Resourcing as the process by which a platform's scope and diversity is enhanced, e.g. providing SDKs, APIs and a distribution channel'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Multi-tenant SaaS (cloud-based on-demand delivery), with options for private cloud deployment for enterprise customers",
+			"synonyms_found": ["cloud", "on-demand", "SaaS", "private cloud"],
+			"source_citation": "Page 1: 'Platform as a service (PaaS)' with 'cloud platforms' | Page 2: 'PaaS is a specific type of multisided platform (MSP) delivered on demand' | Page 18: 'platform customers as a possible customer segment that refers to enterprises that use PaaS solutions as a private cloud'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Mixed regime: Proprietary platform with considerations for complementor intellectual property rights (IPR). The article discusses IPR regulations and copyrights as design options without specifying a single definitive regime.",
+			"synonyms_found": [
+				"IPR",
+				"intellectual property rights",
+				"copyrights",
+				"intellectual property protection"
+			],
+			"source_citation": "Page 20: 'DP5 platform governance: relationships with complementors rely on well-defined rules, IPR regulations, and collaboration models' | Page 6: 'Stronger IPRs or stronger downstream capabilities by an ISV are associated with a greater likelihood of joining' | Page 23: 'The final decision on the strategy regarding IPRs and copyrights is still outstanding'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Exclusive rights consideration → affects complementor willingness to join platform; IPR protection requirements → influences partnership formation decisions; White space protection → impacts developer investment decisions",
+			"synonyms_found": ["exclusive rights", "white space protection"],
+			"source_citation": "Page 21: 'at one end of the continuum, platforms grant complementors exclusive rights; i.e. the PaaS provider does not authorize competing C&A, so that those who are licensed are able to make a sufficient return on their investments' | Page 23: 'development partners would appreciate white space protection (exclusive rights for C&A providers)' | Page 6: 'intellectual property protection and downstream capabilities act as substitutes for one another when influencing partnership formation'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Subscription (for platform access), Marketplace fees (revenue share from complementary applications), Usage/consumption (implied from on-demand model)",
+			"synonyms_found": ["revenue share", "platform fees"],
+			"source_citation": "Page 23: 'lower prices for developers (subsidize development partners) as well as its revenue share (now 15%, instead of 30% before)' | Page 4: 'Eurich et al. (2011), as well as Martens et al. (2012), studied PaaS revenue models'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": "Freemium (free developer accounts), Trial (free trial accounts), Tiers/Plans (implied from different customer segments)",
+			"synonyms_found": ["free accounts", "subsidized", "lower prices"],
+			"source_citation": "Page 13: 'offering developers free accounts to stimulate them to use the platforms' | Page 23: 'free trial accounts, MOOCs, developer competitions and events at universities (actively invest in developers)' | Page 23: 'lower prices for developers (subsidize development partners)'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform (connecting developers and consumers), with marketplace capabilities for distribution of complementary components and applications",
+			"synonyms_found": [
+				"two-sided platform",
+				"multisided platform",
+				"MSP",
+				"marketplace"
+			],
+			"source_citation": "Page 6: 'In line with Boudreau & Lakhani (2009), cloud platforms fall in the two-sided business model category, because external innovators and customers are free to transact directly with one another as long as they also affiliate with the platform's owner' | Page 1: 'PaaS shares two key characteristics of a multisided platform [MSP]' | Page 3: 'platforms cultivate online user communities and marketplaces (e.g. Google Apps Marketplace) where developers can share, buy, and sell their codes, products, and services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cross-sided (developers benefit from more consumers, consumers benefit from more applications), Same-side (more developers attract more developers), Data (more usage creates better platform)",
+			"synonyms_found": [
+				"cross-side effect",
+				"same-side effect",
+				"positive network effects"
+			],
+			"source_citation": "Page 7: 'Two positive network effect types: same-side effect (increasing the number of users on one side makes it more valuable to users on the same side); a cross-side effect (increasing the number of users on one side makes it more valuable to the users on the other side)' | Page 16: 'MR3 seeks to leverage cross-sided, as well as same-sided, positive network effects' | Page 16: 'the more C&A available on the platform, the more PaaS consumers will value the platform. The platform value increases for developers with the number of consumers in the installed base'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Product-led Growth (free accounts, test-drive capabilities), Direct sales (dedicated sales force), Partners/channels (ecosystem and partner channels), Digital marketing (MOOCs, developer competitions, university events)",
+			"synonyms_found": [
+				"free trial accounts",
+				"MOOCs",
+				"developer competitions",
+				"sales force",
+				"partner channels"
+			],
+			"source_citation": "Page 13: 'offering developers free accounts to stimulate them to use the platforms; (2) a series of free MOOCs for developers, including certification; and (3) the idea of test-drive capabilities for C&A' | Page 23: 'free trial accounts, MOOCs, developer competitions and events at universities' | Page 13: 'qualitative (open questions) and quantitative evaluation' with '13 experts: business development cloud; product management; solution management; ecosystem and channels'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes. Google Apps Marketplace, and proprietary marketplaces for distributing components and applications with test-drive capabilities.",
+			"synonyms_found": [
+				"marketplace",
+				"Google Apps Marketplace",
+				"distribution channel"
+			],
+			"source_citation": "Page 3: 'platforms cultivate online user communities and marketplaces (e.g. Google Apps Marketplace) where developers can share, buy, and sell their codes, products, and services' | Page 13-14: 'This BMI ultimately resulted in a reengineering of HCP's marketplace capabilities' | Page 23: '(re)launch of a dedicated marketplace for HCP that also provides test-drive capabilities and thus facilitates distribution of C&A'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Value Proposition: Development and execution environment for external developers; integration capabilities; matchmaking between customer segments. Customer Segment: Individual developers, ISVs, System Integrators, Platform customers, End consumers. Channels: Marketplaces, direct sales, partner channels, MOOCs. Relationship: Custom development, integration in roadmap planning, matchmaking capabilities. Revenue Streams: Platform subscriptions, revenue share from marketplace (15%). Key Resources: Development tools, SDKs, APIs, integration capabilities. Key Activities: Platform development, ecosystem management, quality assurance, certification. Key Partnerships: ISVs, System Integrators, complementors, development partners. Cost Structure: High upfront development costs, platform maintenance, ecosystem support investments.",
+			"synonyms_found": ["business model canvas", "BMC"],
+			"source_citation": "Page 10: 'we opted for the business model canvas as a business model representation' | Page 17: 'Leveraging business model canvas as constructs' describing 'how an organization creates, delivers and captures value' | Page 23: Multiple canvas elements described in 'Applying Design principles to the HCP business model' including customer segments, value propositions, channels, relationships, revenue streams",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": "Individual Developers | Create components and applications | Join platform, use development tools, distribute via marketplace | Compete and collaborate with other developers. ISVs (Independent Software Vendors) | Develop and consume C&A commercially | License platform access, integrate with platform services, sell via marketplace | Partner with SIs, compete with other ISVs. System Integrators | Implement solutions for enterprise customers | Use platform for custom development, integrate client systems | Partner with platform provider and ISVs. Platform Customers/Enterprises | Use platform for private cloud | Deploy internal applications, custom development | Contract with SIs, consume ISV applications. End Consumers | Use applications built on platform | Access via marketplace, provide usage data | Generate demand for developers. Complementors | Provide additional value through extensions | Collaborate under IPR agreements, exclusive or non-exclusive rights | Co-create value with platform provider.",
+			"synonyms_found": [
+				"developers",
+				"ISVs",
+				"SIs",
+				"complementors",
+				"partners",
+				"consumers",
+				"platform customers"
+			],
+			"source_citation": "Page 18: 'five possible customer segments: (1) individual developers...student groups or start-ups; (2) ISVs who develop and consume C&A on the platform; (3) system integrators (SIs) such as IT consultancies, who do this for their customers; (4) platform customers...enterprises that use PaaS solutions as a private cloud; and (5) the actual end user, meaning consumers of C&A' | Page 6: 'Complementors' perspectives have received attention' | Page 21: 'relationships with complementors rely on well-defined rules, IPR regulations, and collaboration models'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Benefit from value co-creation with partners; Tap into external expertise and ingenuity at unprecedented scale; Access to complementary innovations without internal development; Leverage network effects and platform dynamics; Reduce distribution, transaction, and search costs; Create winning ecosystem for platform, developers, and customers; Respond to competitive pressures in cloud market; Transform traditional software business to cloud-based model.",
+			"synonyms_found": [
+				"value co-creation",
+				"external expertise",
+				"platform ecosystem",
+				"competitive pressures"
+			],
+			"source_citation": "Page 1: 'software vendors who expect to benefit from value co-creation with partners by developing complementary components and applications' | Page 1: 'PaaS enables software providers to tap into the benefits of value co-creation and to harness outside expertise and ingenuity on an unprecedented scale' | Page 2: 'align them with existing business models, customer expectations and competitive pressures' | Page 5: 'bringing together two or more distinct groups of customers, building an infrastructure that creates value by reducing distribution, transaction, and search costs'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Critical mass of complementary C&A → convinces more developers and customers to join. Positive network effects → increases platform value for all sides. Strong value proposition per customer segment → higher customer acceptance and adoption. Quality and variety of applications → increases user value and retention. Low entry barriers for developers → faster ecosystem growth. Clear IPR and governance rules → solid collaboration basis and profitability. Internal organizational alignment → credible external positioning and sales effectiveness. Active developer investment (MOOCs, events, competitions) → stimulates ecosystem participation. Installed base relationships → builds trust and retention. Platform control and external contribution balance → maintains ecosystem health.",
+			"synonyms_found": [
+				"critical mass",
+				"network effects",
+				"value proposition",
+				"governance",
+				"ecosystem"
+			],
+			"source_citation": "Page 19: 'TP3.2: having complementary C&A available will convince developing partners and individual developers to join the platform and to build more C&A. TP3.3: a PaaS solution providing a variety of high-quality C&A increases the value for users and thereby creates positive network effects' | Page 19: 'TP4.2: strengthening relationships by close interactions with PaaS customers will build trust and will help achieve critical mass' | Page 20: 'TP6.1: an organization's processes and values should support the PaaS business model...in order to be credible to the outside and attractive to customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Initial set of complementary C&A available at launch → enables demonstration of platform value. Multisided business model design → addresses both developing and consuming parties. Development and integration capabilities (SDKs, APIs) → enables external development. Distribution channel (marketplace) → facilitates C&A transactions. Quality assurance and certification processes → ensures ecosystem quality. Internal organizational support → enables consistent messaging and sales. Existing customer base and ecosystem (for established vendors) → provides initial traction. Platform stability and reliability guarantees → attracts long-term commitments.",
+			"synonyms_found": ["C&A", "SDKs", "APIs", "marketplace", "certification"],
+			"source_citation": "Page 21: 'DP3 suggests that, from its launch onwards, PaaS should offer a set of complementary C&A' | Page 21: 'Customers rely on existing components to work efficiently on cloud platforms' | Page 5: 'Resourcing as the process by which a platform's scope and diversity is enhanced, e.g. providing SDKs, APIs and a distribution channel' | Page 16: 'Guaranteeing endurance of the platform itself, as well as complementary C&A already at an early product readiness stage, is challenging'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Trade-off between number of customer sides and complexity → more sides create larger network effects but increase complexity and conflicts of interest. Complementor exclusivity vs comprehensive platform → exclusive rights incentivize partners but limit platform comprehensiveness. Pricing structure conflicts → subsidy on one side requires revenue from other side. Short-term profitability vs long-term ecosystem development → maximizing immediate profits discourages complementor participation. Internal conflicts of interest → existing business units may compete with or undermine platform model. Customer ownership tension → direct end-customer relationships may conflict with developer partner interests. Platform services vs complementary components boundary → unclear demarcation creates competition between provider and complementors.",
+			"synonyms_found": [
+				"trade-off",
+				"conflicts of interest",
+				"channel conflicts"
+			],
+			"source_citation": "Page 18: 'choosing whether to attract more or fewer customer segments involves a trade-off: More sides lead to potentially larger cross-side network effects, a larger scale and diversity but carry the risk of creating too much complexity and even conflicts of interest' | Page 21: 'PaaS providers have to make a trade-off by either leaving enough room for complementors or providing a comprehensive cloud platform' | Page 16-17: 'Maximizing short-term profits may not encourage a global ecosystem of complementors to develop over the long term' | Page 24: 'who the customer owner is and who maintains the customer relationship remain an open issue'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Achieving critical mass when platform launches with few or no applications available (chicken-and-egg problem). Transforming mindset from partner relationships to customer relationships. Higher than planned development costs. Failing to meet planned sales figures. Convincing customers to migrate existing applications to PaaS without obvious added value. Selling platform solutions is more difficult than selling packaged software or SaaS. Managing conflicts between existing business models and new platform model. Protecting new business model from cannibalization by established products. Balancing platform control with external contribution (resourcing vs securing). Defining clear value propositions for each customer segment. Managing channel conflicts around customer ownership. Ensuring platform and complementary C&A endurance at early stage. Competing with more established PaaS providers who entered market earlier.",
+			"synonyms_found": [
+				"critical mass",
+				"chicken-and-egg",
+				"conflicts of interest",
+				"cannibalization"
+			],
+			"source_citation": "Page 10: 'At the start of our study, Alpha was struggling with its PaaS solution for the following reasons...development costs were higher than planned, and Alpha failed to meet the planned sales figures' | Page 16: 'when the platform reaches a stage in which it can be opened to customers, there are usually no, or only a few, applications and components available' | Page 16: 'Migrating/moving already existing applications to PaaS does not provide obvious added value to customers but requires much development effort' | Page 25: 'PaaS is very different from selling SaaS. A technology sale is very different kind of sale'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Free developer accounts → Lowers entry barriers → Stimulates platform usage and developer adoption. MOOCs and certification programs → Invests in developer capabilities → Builds skilled developer community. Developer competitions and university events → Actively engages developers → Creates ecosystem momentum. Test-drive capabilities for C&A → Reduces adoption friction → Increases application trial and consumption. Lower revenue share (15% instead of 30%) → Subsidizes development partners → Incentivizes complementor participation. Custom development for existing customers → Strengthens installed base relationships → Builds trust and demonstrates value. Integration into roadmap planning → Involves complementors in strategy → Ensures alignment and commitment. Marketplace reengineering → Improves distribution capabilities → Facilitates C&A transactions. Quality assurance and certification → Ensures ecosystem quality → Increases consumer confidence. Organizational consolidation of platform teams → Aligns similar goals under one executive → Reduces internal conflicts. In-house utilization of platform → Proves technology viability → Builds credibility with external customers.",
+			"synonyms_found": [
+				"free accounts",
+				"subsidize",
+				"MOOCs",
+				"test-drive",
+				"custom development",
+				"marketplace"
+			],
+			"source_citation": "Page 13: 'offering developers free accounts to stimulate them to use the platforms; (2) a series of free MOOCs for developers, including certification; and (3) the idea of test-drive capabilities for C&A' | Page 23: 'lower prices for developers (subsidize development partners) as well as its revenue share (now 15%, instead of 30% before); free trial accounts, MOOCs, developer competitions and events at universities; (re)launch of a dedicated marketplace for HCP that also provides test-drive capabilities; quality assurance and certification processes' | Page 23: 'Alpha has begun to integrate complementors into its road map planning for HCP and offers custom development on HCP for existing customers' | Page 23: 'Reorganization to consolidate all teams working on HCP; Enforcing the use of HCP for extending cloud offerings as well as custom development projects (in-house utilization of PaaS)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Revenue share; 15%; Percentage; After BMI initiative; Business model redesign; Alpha HCP case | Revenue share; 30%; Percentage; Before BMI initiative; Business model redesign; Alpha HCP case | BMI ideas generated; 200+; Count; January-April 2013; Ideation workshop; ADR study | BMI options developed; 9; Count; January-April 2013; Business model innovation process; ADR study | Expert evaluations; 13; Count; 2013; Qualitative and quantitative evaluation; ADR study | ADR workshops; 4; Count; January-April 2013; Building intervention and evaluation cycles; ADR study | Meetings conducted; 23; Count; 12-month period; Action design research; ADR study | Study duration; 12; Months; December 2012 to December 2013; Action design research; ADR study | Design principles; 6; Count; Final design theory; Design theory formalization | Meta-requirements; 4; Count; Final design theory; Design theory formalization | Testable propositions; 13; Count; Final design theory; Design theory formalization | Customer segments identified; 5; Count; Design principle development; Business model design | PaaS competitors analyzed; 25; Count; Problem formulation stage; Market analysis",
+			"synonyms_found": ["revenue share", "BMI", "ADR", "workshops", "experts"],
+			"source_citation": "Page 23: 'revenue share (now 15%, instead of 30% before)' | Page 13: 'more than 200 BMI ideas' | Page 13: 'developing nine ideas further' | Page 13: 'A total of 13 experts evaluated all nine BMI options' | Page 11: 'minutes from the 23 meetings, the findings of the four 1-day workshops' | Page 3: '12-month action design research (ADR) study' | Page 14: 'four MRs as well as six DPs' | Page 14: 'We derived 13 TPs' | Page 18: 'at least five possible customer segments' | Page 11: 'Analysis of the PaaS market and 25 PaaS competitors' business models'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: December 2012 to December 2013 (ADR study), with broader PaaS market observation for 5 years. Maturity status: Emerging to Growing. The PaaS market is described as nascent and emerging, with the studied platform being in transformation phase.",
+			"synonyms_found": ["emerging", "nascent", "growing"],
+			"source_citation": "Page 9: 'Our ADR project started in December 2012...reached its first complete state in December 2013' | Page 10: 'observing the PaaS market for 5 years' | Page 2: 'The academic discourse on PaaS is still nascent' | Page 3: 'Cloud platforms are an emerging model' | Page 16: 'the PaaS market is still emerging' | Page 26: 'Our theory is built in, and for, the emerging PaaS market'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Single case study (in-depth Action Design Research with Alpha company), complemented by multiple cases analysis (25 PaaS competitors' business models) and expert opinion (13 expert evaluations, 7 evaluation experts)",
+			"synonyms_found": [
+				"action design research",
+				"ADR",
+				"case study",
+				"expert evaluation"
+			],
+			"source_citation": "Page 3: 'a 12-month action design research (ADR) study at one of the largest global software companies (here called Alpha)' | Page 8: 'We use ADR as a research method for generating prescriptive design knowledge through building and evaluating ensemble IT artifacts in an organizational setting' | Page 11: 'Analysis of the PaaS market and 25 PaaS competitors' business models' | Page 13: 'A total of 13 experts evaluated all nine BMI options' | Page 14: 'Evaluation of the design theory by seven experts'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": "Salesforce.com/Force.com → Application-centric PaaS platform example, allows ISVs to develop extensions. Heroku → PaaS start-up acquired by Salesforce. Google Cloud Platform → Comprehensive PaaS solution by established vendor. Microsoft Azure → Comprehensive PaaS solution by established vendor. IBM Bluemix → Comprehensive PaaS solution by established vendor. CloudBees RUN@Cloud → Development-oriented platform example. NetSuite/SuiteCloud → SaaS extended with cloud platform. Workday → Transformed into cloud platform. Dell Boomi → Integration-oriented PaaS example. Google Apps Marketplace → Distribution channel-based platform. Amazon Web Services → Provider with mixed PaaS experiences. SAP → Provider with mixed PaaS experiences; SAP Business ByDesign no longer advertised as PaaS. Bungee Connect → Early PaaS solution no longer advertised. LongJump → PaaS start-up acquired by Software AG. Facebook → Platform with app developers ecosystem. Apple iPhone platform → Platform with boundary resources for third-party development. Intel, Microsoft, Cisco → Platform leadership case studies.",
+			"synonyms_found": [
+				"Salesforce",
+				"Force.com",
+				"Heroku",
+				"Google",
+				"Microsoft",
+				"Azure",
+				"IBM",
+				"Bluemix",
+				"SAP",
+				"Amazon",
+				"AWS"
+			],
+			"source_citation": "Page 1-2: 'SuiteCloud platform is an extension of NetSuite, and Workday has been transformed into a cloud platform...Google Cloud Platform, Microsoft Azure and IBM Bluemix...Heroku joined Salesforce.com, and LongJump now belongs to Software AG...IBM, SAP and Amazon Web Services, report mixed experiences...Bungee Connect and SAP Business ByDesign, are no longer advertised as PaaS' | Page 3: 'CloudBees RUN@Cloud...Salesforce Force.com allow ISVs to develop extensions...Dell Boomi...Google Apps Marketplace' | Page 5: 'Case studies investigating platforms of Intel, Microsoft and Cisco...Apple's iPhone platform...Facebook apps'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": "Development-focused platforms → Primary value proposition is providing environment for developers to develop, test and deploy applications easily (e.g., CloudBees RUN@Cloud). Application-centric platforms → Allow ISVs to develop extensions or add-ons for core application, third-party software only makes sense as add-on (e.g., Salesforce Force.com). Integration-oriented platforms → Focus on integration capabilities and connectivity (SOAP, HTTP, XML) to connect different systems (e.g., Dell Boomi). Distribution channel-based platforms → Cultivate online user communities and marketplaces where developers share, buy and sell (e.g., Google Apps Marketplace).",
+			"synonyms_found": [
+				"development-oriented",
+				"application-based",
+				"integration-focused",
+				"distribution channel"
+			],
+			"source_citation": "Page 3-4: 'four forms of PaaS solutions can be distinguished according to the core value proposition...First, development-oriented platforms such as CloudBees RUN@Cloud provide an environment for developers to develop, test and deploy their application easily...Second, application-centric platforms such as Salesforce Force.com allow ISVs to develop extensions or add-ons for the software firm's core application...The third form of PaaS focuses on the integration capabilities...Thus, integration-oriented PaaS such as Dell Boomi must have a variety of connectivity capabilities...PaaS solutions that offer strong distribution capabilities form the fourth form of PaaS; these platforms cultivate online user communities and marketplaces (e.g. Google Apps Marketplace)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Market consolidation → PaaS market is largely fragmented and might be consolidated in the future, based on current market dynamics. Evolution of business models over time → Longitudinal dynamics and evolution of PaaS business models as platforms reach different maturity levels, requiring continuous management and development. Increased sophistication in ecosystem governance → More research needed on complex relationships, dependencies, tensions and sustainability of governance mechanisms for flourishing software ecosystems. Customer ownership models evolution → Future research needed on managing trade-offs between intermediate and direct customer relations. Platform business dominance → Software industry increasingly evolving into platform business model as standard approach.",
+			"synonyms_found": [
+				"consolidation",
+				"evolution",
+				"maturity",
+				"ecosystem governance"
+			],
+			"source_citation": "Page 27: 'the PaaS market is still growing swiftly but is largely fragmented and might be consolidated in the future. Current PaaS offerings have reached different maturity levels, which offers opportunities to study the dynamics and evolution of PaaS business models' | Page 27: 'future research could address the longitudinal process component introduced by Hedman & Kalling (2003) to examine the dynamics and evolution of business models over time' | Page 27: 'more research is needed to study the complex relationships in software ecosystems and their implications for business model design...Future research could be dedicated to studying the dependences, tensions and sustainability of governance mechanisms' | Page 1: 'the software industry increasingly evolves into a platform business'",
+			"confidence_level": "medium"
+		}
+	]
+}

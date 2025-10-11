@@ -1,0 +1,624 @@
+{
+	"extraction_metadata": {
+		"article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Freemium Business Model. Definition: An emerging business model that combines 'free' and 'premium,' offering a free basic version of the product and a fully paid version. It creates value with free products and then adds more value through premium sales or fragmented upsell products. Two main types: Bundled freemium (business adds value through premium sales with interrelated features bundled together) and Fragmented freemium (creates value with free products then adds value with many fragmented upsell products that can be sold separately).",
+			"synonyms_found": [
+				"freemium",
+				"freemium business model",
+				"bundled freemium business model",
+				"fragmented freemium business model",
+				"freemium model",
+				"freemium strategy"
+			],
+			"source_citation": "Page 3, Section 2.1: 'As an emerging business model, the freemium business model has received considerable attention from business research in recent years. Freemium combines \"free\" and \"premium,\" i.e., offering a free basic version of the product and a fully paid version.' | Page 7, Table 3: 'The business adds more value through one (or several) premium sales (from which it gets value)' (bundled) | 'The company creates value with free products and then adds more value with many \"fragmented\" upsell products' (fragmented)",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"freemium",
+				"freemium business model",
+				"bundled freemium business model",
+				"fragmented freemium business model",
+				"freemium model",
+				"freemium strategy",
+				"freemium offerings"
+			],
+			"synonyms_found": [
+				"freemium",
+				"freemium business model",
+				"bundled freemium business model",
+				"fragmented freemium business model",
+				"freemium model",
+				"freemium strategy",
+				"freemium offerings"
+			],
+			"source_citation": "Throughout the article, these terms are used interchangeably, including Page 3 'freemium strategy', Page 3 'freemium offerings', etc.",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Mobile applications - including meeting apps, e-commerce, video, music, gaming, social media, navigation, and digital services",
+			"synonyms_found": [
+				"mobile app stores",
+				"digital platform",
+				"digital gaming market",
+				"Apple App Store"
+			],
+			"source_citation": "Page 1, Abstract: 'data from 45 freemium business model apps' | Page 3, Section 2.1: 'Freemium business models are popular among digital platform companies in categories including mobile app stores and video games' | Page 5, Table 1: Lists apps including 'Tencent meeting, Pinduoduo, Meituan, Taobao, NetEase Cloud Music, Arena of Valor, Bilibili' covering various categories",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C",
+			"synonyms_found": [
+				"users",
+				"consumers",
+				"free users",
+				"paid users",
+				"paying subscribers",
+				"basic subscribers"
+			],
+			"source_citation": "Page 1, Introduction: 'The success mode of the freemium business model lies in a small percentage of freemium users spending money on premium upgrades, and there are significant differences in the amount of money spent by freemium users' | Page 3, Section 2.1: 'firms traded off between increasing the number of paying subscribers to gain subscription revenue and increasing the number of basic subscribers to gain advertising sponsorship revenue' | Page 3: 'users are more willing to try free products'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Wide range from large technology companies to apps of various sizes - sample includes major Chinese tech companies (Tencent, Alibaba, Baidu, Meituan) and various app developers",
+			"synonyms_found": ["companies", "firms", "enterprises", "app firms"],
+			"source_citation": "Page 5, Table 1: Sample includes major companies like 'Tencent meeting, Pinduoduo (major e-commerce), Meituan (major platform), Taobao (Alibaba), Alipay (Alibaba), WeChat (Tencent), QQ (Tencent), DingTalk (Alibaba), Jingdong (major e-commerce)' | Page 5, Section 3.2: '45 app firms with freemium business models were selected in the top 500 free apps charts of the App Store'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "China",
+			"synonyms_found": ["China", "Chinese"],
+			"source_citation": "Page 1, Introduction: 'Renren, Shrimp Music, QQ Farm and WeChat, NetEase Cloud, Arena of Valor, and other apps show strong contrasts in performances' (Chinese apps) | Page 5, Table 1: All listed apps are Chinese apps including 'Tencent meeting, Pinduoduo, Meituan, Taobao, Alipay, WeChat, QQ, DingTalk, etc.' | Page 1: Authors affiliated with 'Xi'an University of Technology, China' and 'Nanjing University of Information Science and Technology, China'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Free users and their conversion to paid/premium users - specifically focusing on users who try free products and selectively upgrade based on interests and willingness to pay",
+			"synonyms_found": [
+				"free users",
+				"paid users",
+				"freemium users",
+				"paying subscribers",
+				"basic subscribers"
+			],
+			"source_citation": "Page 1, Introduction: 'The success mode of the freemium business model lies in a small percentage of freemium users spending money on premium upgrades, and there are significant differences in the amount of money spent by freemium users' | Page 3, Section 2.1: 'it increases the conversion rate of free users to paid users by enhancing network effects' | Page 3: 'firms traded off between increasing the number of paying subscribers to gain subscription revenue and increasing the number of basic subscribers to gain advertising sponsorship revenue'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application"],
+			"synonyms_found": [
+				"app",
+				"mobile app",
+				"digital products",
+				"digital services",
+				"software"
+			],
+			"source_citation": "Page 1, Abstract: '45 freemium business model apps' | Page 1, Introduction: 'the share of freemium apps on the Apple App Store' | Page 5, Section 3.2: 'Forty-five randomly sampled data points from the free list in the App Store are used as samples, where each app is used as a sample point' | Page 5, Table 1 lists various types of apps including meeting software, e-commerce, video, music, games, navigation",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS", "Mobile"],
+			"synonyms_found": [
+				"over the Internet",
+				"digital platform",
+				"Apple App Store",
+				"mobile app"
+			],
+			"source_citation": "Page 1, Introduction: 'the share of freemium apps on the Apple App Store rose from 25 % in 2009 to over 80 % in 2022' | Page 5, Section 3.2: 'The Apple App provides an environment where paid and free apps coexist' | Page 5: 'Forty-five randomly sampled data points from the free list in the App Store' | Examples like 'Tencent meeting' indicate cloud-based delivery",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Subscription", "Advertising", "Transaction"],
+			"synonyms_found": [
+				"premium upgrades",
+				"subscription revenue",
+				"advertising sponsorship revenue",
+				"subscription fee",
+				"premium sales",
+				"upsell products"
+			],
+			"source_citation": "Page 1, Introduction: 'The success mode of the freemium business model lies in a small percentage of freemium users spending money on premium upgrades' | Page 1: 'App Store subscriptions increased from 745 million in 2021 to 900 million in 2022' | Page 3, Section 2.1: 'firms traded off between increasing the number of paying subscribers to gain subscription revenue and increasing the number of basic subscribers to gain advertising sponsorship revenue' | Page 3: 'freemium offerings are often broken down into separately priced features or services in the form of advertising as supplemental revenue'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others",
+			"synonyms_found": [
+				"per feature",
+				"per module",
+				"per function",
+				"per item"
+			],
+			"source_citation": "Page 3: 'freemium offerings are often broken down into separately priced features or services' | Page 7, Table 3: 'The company's diverse product features can be sold separately' | 'The business user can choose to upsell according to their interests and willingness to pay' | Page 10: 'Customers need to pay for membership to purchase bundled function modules and get several functions such as meeting length, number of participants, recording and playback functions'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Freemium"],
+			"synonyms_found": [
+				"freemium",
+				"free basic version",
+				"paid version",
+				"premium",
+				"upsell"
+			],
+			"source_citation": "Page 3, Section 2.1: 'Freemium combines \"free\" and \"premium,\" i.e., offering a free basic version of the product and a fully paid version.' | Page 7, Table 3: 'The company offers free modules and specific paid modules to customers' | 'The company offers free modules and optional paid modules to customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Standalone product",
+			"synonyms_found": ["app", "digital platform", "freemium app"],
+			"source_citation": "Page 5, Section 3.2: 'The Apple App provides an environment where paid and free apps coexist, competing with each other for the same user resources and attention' | Page 1: Apps are individual offerings that compete for users",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value)",
+			"synonyms_found": ["network effects", "network externalities"],
+			"source_citation": "Page 3, Section 2.1: 'It is often used by companies that are trying to increase the size of their user base and benefit from network effects' | 'it increases the conversion rate of free users to paid users by enhancing network effects' | 'In the App Store study, enhanced network effects amplify the leader's advantage over followers, increasing the user base and increasing conversion rates' | 'it benefits advertisers by increasing the free user base through enhanced network effects'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Product-led Growth", "Marketplaces"],
+			"synonyms_found": ["App Store", "free trial", "try free products"],
+			"source_citation": "Page 3, Section 2.1: 'As more and more digital services are made available to users through various channels, users are more willing to try free products to alleviate the uncertainty associated with digital products.' | Page 5, Section 3.2: 'The Apple App provides an environment where paid and free apps coexist' | '45 app firms with freemium business models were selected in the top 500 free apps charts of the App Store'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes",
+			"synonyms_found": [],
+			"source_citation": "Page 5, Section 3.2: 'The Apple App provides an environment where paid and free apps coexist, competing with each other for the same user resources and attention' | '45 app firms with freemium business models were selected in the top 500 free apps charts of the App Store' | Page 1: 'the share of freemium apps on the Apple App Store'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Two types - Bundled freemium (adds value through premium sales with bundled features, new product/service combinations, interrelated reinforcing characteristics) and Fragmented freemium (creates value with free products then adds value with many fragmented upsell products that can be sold separately, modular customization based on customer interests)",
+				"Customer Segment: Free users and paid/premium users; users willing to try free products; users who upgrade based on interests and willingness to pay",
+				"Channels: Apple App Store and digital platforms; free app charts; direct digital distribution",
+				"Relationship: Network effects to increase user base; conversion from free to paid users; advertising relationships; user retention",
+				"Revenue Streams: Premium upgrades from freemium users; subscription revenue from paying subscribers; advertising sponsorship revenue from basic subscribers; separately priced features/services",
+				"Key Resources: User base; free product offering; premium features/modules; digital platform infrastructure; data for analytics",
+				"Key Activities: Enhancing network effects; converting free users to paid users; increasing user retention; business model innovation; value creation and value capture; modular product development",
+				"Key Partnerships: Advertisers (for ad-sponsored revenue); platform providers (Apple App Store)",
+				"Cost Structure: not detailed in article"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3, Section 2.1 describes value proposition and revenue models | Page 7, Table 3 details specific value proposition characteristics for bundled and fragmented models | Page 3 describes customer segments and relationships | Page 5 describes channels through App Store",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"actor": "Free Users",
+					"role": "Base users who adopt free product version and benefit from network effects",
+					"interaction_with_offering_company": "Try free products to alleviate uncertainty; may convert to paid users; provide user base for network effects",
+					"interaction_with_other_actors": "Contribute to network effects that benefit all users; exposed to advertising"
+				},
+				{
+					"actor": "Paid/Premium Users",
+					"role": "Users who upgrade to premium features through subscription or purchases",
+					"interaction_with_offering_company": "Pay for premium upgrades, subscription fees, or separately priced features based on interests and willingness to pay; generate primary revenue",
+					"interaction_with_other_actors": "Benefit from larger user base created by free users"
+				},
+				{
+					"actor": "Advertisers",
+					"role": "Third-party companies seeking to reach the user base",
+					"interaction_with_offering_company": "Pay advertising sponsorship revenue to reach basic subscribers; benefit from enhanced network effects that increase user size",
+					"interaction_with_other_actors": "Advertise to free users"
+				},
+				{
+					"actor": "Platform Provider (Apple App Store)",
+					"role": "Marketplace and distribution platform for apps",
+					"interaction_with_offering_company": "Provides environment where apps coexist and compete; enables distribution through free and paid charts",
+					"interaction_with_other_actors": "Connects app companies with users"
+				}
+			],
+			"synonyms_found": [
+				"users",
+				"consumers",
+				"free users",
+				"paid users",
+				"advertisers",
+				"App Store"
+			],
+			"source_citation": "Page 3, Section 2.1: 'firms traded off between increasing the number of paying subscribers to gain subscription revenue and increasing the number of basic subscribers to gain advertising sponsorship revenue' | 'it increases the conversion rate of free users to paid users by enhancing network effects' | 'it benefits advertisers by increasing the free user base through enhanced network effects' | Page 5: 'The Apple App provides an environment where paid and free apps coexist, competing with each other for the same user resources and attention'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Increase size of user base and benefit from network effects",
+				"Alleviate uncertainty associated with digital products for users",
+				"Increase user retention rate",
+				"Generate revenue from both subscription and advertising",
+				"Lower entry barriers for users (free trial)",
+				"Combat piracy by offering free legal alternative",
+				"Benefit from data-driven learning and user behavior analysis",
+				"Create multiple revenue streams (paid users and advertisers)",
+				"Achieve high performance and competitive advantage"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3, Section 2.1: 'It is often used by companies that are trying to increase the size of their user base and benefit from network effects' | 'users are more willing to try free products to alleviate the uncertainty associated with digital products. Freemium models increase a company's user retention rate and alleviate the uncertainty of digital products for users' | 'firms traded off between increasing the number of paying subscribers to gain subscription revenue and increasing the number of basic subscribers to gain advertising sponsorship revenue' | Page 3: 'scholars have examined its effectiveness in the context of piracy'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"High sensing capability → Perceives new opportunities, customer needs changes, competitor behavior → Achieves high performance",
+				"High seizing capability → Clear roles in acquiring resources/knowledge, learning from mistakes, obtaining quality resources at lower cost → Achieves high performance",
+				"High reconfiguring capability → Adjusts resource mix according to environmental changes, effective departmental collaboration, designs feasible solutions → Achieves high performance under uncertainty",
+				"Bundled freemium model + sensing capability → Critical combination even without other factors → Achieves high performance",
+				"Fragmented freemium model + all three dynamic capabilities → Under high environmental uncertainty → Achieves high performance",
+				"Network effects enhancement → Amplifies leader's advantage, increases user base and conversion rates → Higher profitability",
+				"Combination of bundled and fragmented models → Complementary relationship rather than substitution → Higher performance",
+				"Modular customization based on customer interests → Allows flexible upsells → Better value capture"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 11, Section 5.1: 'For companies with bundled and fragmented freemium business models, high sensing and seizing capabilities are critical to achieving high performance' | 'A high bundled freemium business model, high sensing capability, and a lack of fragmented freemium business models and seizing capability can lead to high performance, regardless of reconfiguration capabilities and environmental uncertainty' | 'Under high environmental uncertainty, offering fragmented freemium business models with or without a bundled freemium business model will lead to high performance if they have high sensing, seizing, and reconfiguring capabilities' | Page 3: 'enhanced network effects amplify the leader's advantage over followers, increasing the user base and increasing conversion rates'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Dynamic capabilities → Sensing, seizing, and/or reconfiguring capabilities required for freemium models to lead to high performance",
+				"User base of sufficient size → Freemium products must attract disproportionately large user base to generate revenue",
+				"Network effects potential → Ability to benefit from increased user base",
+				"Free product offering → Must provide valuable free version to attract users",
+				"Premium features/modules → Must have differentiated paid features worth upgrading to",
+				"Digital platform infrastructure → Ability to deliver and distribute digitally",
+				"Ability to enhance network effects → Critical for conversion and user retention",
+				"Organizational readiness for innovation → Required for business model innovation"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2, Section 1: 'Compared to paid products, freemium products must attract a disproportionately large user base to generate revenue and capture value' | Page 2: 'Freemium business models require dynamic capabilities and hypothesizes that higher performance can be achieved when freemium business models, dynamic capabilities, and environmental uncertainty interact' | Page 11: 'Bundled and fragmented freemium business models are a fundamental driver of enterprise performance and are necessary to bring about high enterprise performance, but they can only work in combination with dynamic capabilities and environmental uncertainty'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Privacy concerns → Consumers perceive digital-intelligent technologies make privacy riskier and doubt privacy security of free products → Detrimental to performance",
+				"Bundled model difficulty → Difficult for company to separate high-quality functions and sell them separately (characteristic of bundled model)",
+				"Fragmented model complexity → Free products are complex and require modular purchase capability; purchased products are depleted after use",
+				"Resource requirements → Bundled models require providing new combinations of products/services and novel incentives which is challenging under high environmental uncertainty",
+				"Conversion challenge → Only small percentage of freemium users spend money on premium upgrades",
+				"User base size requirement → Must attract disproportionately large user base compared to paid products",
+				"Environmental uncertainty trade-off → Fragmented models perform better under high uncertainty while bundled models face challenges balancing efficiency and novelty",
+				"Lack of dynamic capabilities → Without high sensing, seizing capabilities, even bundled and fragmented models lead to non-high performance"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2, Section 1: 'research has shown that consumers perceive that digital-intelligent technologies make privacy riskier and doubt the privacy security of free products, which in turn is detrimental to performance' | 'Compared to paid products, freemium products must attract a disproportionately large user base to generate revenue and capture value' | Page 7, Table 3: 'It is difficult for the company to separate high-quality functions and sell them separately' | 'The purchased products offered by the business are depleted after use' | Page 12: 'bundled freemium business models require firms to provide new combinations of products and services, new value propositions, and novel incentives to transaction participants, which makes it challenging for firms to balance efficiency and novelty enhancement under high environmental uncertainty'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Understanding when freemium leads to high performance - unclear whether influence is greater in volatile market or technological environments",
+				"Achieving sufficient conversion rate - small percentage of freemium users actually spend money on premium upgrades with significant differences in spending amounts",
+				"Balancing two revenue streams - trade-off between increasing paying subscribers for subscription revenue vs. increasing basic subscribers for advertising revenue",
+				"Privacy concerns - consumers doubt privacy security of free products which harms performance",
+				"Differentiated performance outcomes - most apps use freemium but show strong contrasts in performance (success vs. failure)",
+				"Attracting disproportionately large user base - requirement to generate sufficient revenue compared to paid products",
+				"Managing complexity - understanding how freemium business models, dynamic capabilities, and environmental uncertainty interact",
+				"Avoiding non-high performance - lack of high sensing and seizing capabilities can lead to non-high performance even with freemium models",
+				"Balancing efficiency and novelty under uncertainty - bundled models face challenges providing new combinations while maintaining efficiency in dynamic environments",
+				"Preventing user perception issues - managing uncertainty associated with digital products"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1, Introduction: 'Most apps use freemium business models... Renren, Shrimp Music, QQ Farm and WeChat, NetEase Cloud, Arena of Valor, and other apps show strong contrasts in performances' | 'The success mode of the freemium business model lies in a small percentage of freemium users spending money on premium upgrades, and there are significant differences in the amount of money spent by freemium users' | Page 2: 'research has shown that consumers perceive that digital-intelligent technologies make privacy riskier and doubt the privacy security of free products, which in turn is detrimental to performance' | 'It is unclear whether the influence of the freemium business model on high performance is greater in volatile market environments or technological environments' | Page 3: 'firms traded off between increasing the number of paying subscribers to gain subscription revenue and increasing the number of basic subscribers to gain advertising sponsorship revenue'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Develop high sensing capability → Mitigates opportunity identification challenge → Perceives new opportunities, customer needs changes, competitor behavior for high performance",
+				"Develop high seizing capability → Addresses resource acquisition challenge → Obtains high-quality resources at lower cost, clear roles in acquiring knowledge for high performance",
+				"Develop high reconfiguring capability → Mitigates environmental change challenge → Adjusts resource mix according to changes, enables high performance under uncertainty",
+				"Enhance network effects → Addresses user base and conversion challenges → Amplifies leader's advantage, increases conversion rates and user retention",
+				"Use bundled + fragmented combination → Mitigates single model limitations → Complementary relationship creates multiple value creation and capture mechanisms",
+				"Modular product design → Addresses customization challenge → Allows users to choose upsells based on interests and willingness to pay",
+				"Focus on sensing for bundled models → Critical for bundled freemium success → Enables discovery of new opportunities and business model innovations",
+				"Focus on all three capabilities for fragmented models under uncertainty → Addresses environmental dynamism → High sensing, seizing, reconfiguring capabilities enable adaptation",
+				"Data-driven learning → Addresses uncertainty challenge → Analyze large data to identify behavior patterns and improve offering accuracy",
+				"Free trial strategy → Mitigates digital product uncertainty → Allows users to try products and alleviate uncertainty before committing"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'companies use techniques such as machine learning to analyze large amounts of data to identify patterns of past behavior modes to predict and improve the accuracy of their offerings' | Page 3: 'Freemium models increase a company's user retention rate and alleviate the uncertainty of digital products for users' | Page 11, Section 5.1: 'For companies with bundled and fragmented freemium business models, high sensing and seizing capabilities are critical to achieving high performance' | 'Under high environmental uncertainty, offering fragmented freemium business models with or without a bundled freemium business model will lead to high performance if they have high sensing, seizing, and reconfiguring capabilities' | Page 12: 'The bundled freemium business model and the fragmented freemium business model are complementary rather than substitutes'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"metric": "Share of freemium apps on Apple App Store",
+					"value": "25",
+					"unit": "percent",
+					"period": "2009",
+					"method": "App Store data",
+					"source": "Page 1, Introduction"
+				},
+				{
+					"metric": "Share of freemium apps on Apple App Store",
+					"value": "80",
+					"unit": "percent (over)",
+					"period": "2022",
+					"method": "App Store data",
+					"source": "Page 1, Introduction"
+				},
+				{
+					"metric": "App Store subscriptions",
+					"value": "745",
+					"unit": "million",
+					"period": "2021",
+					"method": "App Store data",
+					"source": "Page 1, Introduction"
+				},
+				{
+					"metric": "App Store subscriptions",
+					"value": "900",
+					"unit": "million",
+					"period": "2022",
+					"method": "App Store data",
+					"source": "Page 1, Introduction"
+				},
+				{
+					"metric": "Sample size",
+					"value": "45",
+					"unit": "app firms",
+					"period": "Study period",
+					"method": "Selected from top 500 free apps",
+					"source": "Page 1, Abstract and Page 5"
+				},
+				{
+					"metric": "Cronbach's alpha - Bundled freemium business model",
+					"value": "0.850",
+					"unit": "coefficient",
+					"period": "Study period",
+					"method": "Reliability test",
+					"source": "Page 7, Table 3"
+				},
+				{
+					"metric": "Cronbach's alpha - Fragmented freemium business model",
+					"value": "0.911",
+					"unit": "coefficient",
+					"period": "Study period",
+					"method": "Reliability test",
+					"source": "Page 7, Table 3"
+				},
+				{
+					"metric": "AVE - Bundled freemium business model",
+					"value": "0.815",
+					"unit": "coefficient",
+					"period": "Study period",
+					"method": "Validity test",
+					"source": "Page 7, Table 3"
+				},
+				{
+					"metric": "AVE - Fragmented freemium business model",
+					"value": "0.753",
+					"unit": "coefficient",
+					"period": "Study period",
+					"method": "Validity test",
+					"source": "Page 7, Table 3"
+				},
+				{
+					"metric": "Configuration H1 raw coverage (high performance)",
+					"value": "0.345",
+					"unit": "proportion",
+					"period": "Study period",
+					"method": "fsQCA analysis",
+					"source": "Page 9, Table 6"
+				},
+				{
+					"metric": "Configuration H1 consistency (high performance)",
+					"value": "0.857",
+					"unit": "coefficient",
+					"period": "Study period",
+					"method": "fsQCA analysis",
+					"source": "Page 9, Table 6"
+				},
+				{
+					"metric": "Overall solution consistency (high performance)",
+					"value": "0.825",
+					"unit": "coefficient",
+					"period": "Study period",
+					"method": "fsQCA analysis",
+					"source": "Page 9, Table 6"
+				},
+				{
+					"metric": "Overall solution coverage (high performance)",
+					"value": "0.440",
+					"unit": "proportion",
+					"period": "Study period",
+					"method": "fsQCA analysis",
+					"source": "Page 9, Table 6"
+				}
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1, Introduction provides market statistics | Page 7, Table 3 provides reliability and validity metrics | Page 9, Table 6 provides fsQCA configuration metrics",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2009-2022 data collection period, with article received July 2023, accepted January 2024. Maturity status: Consolidated - Freemium model has grown from 25% of Apple App Store in 2009 to over 80% in 2022, demonstrating widespread adoption and maturity.",
+			"synonyms_found": ["emerging business model"],
+			"source_citation": "Page 1, Introduction: 'the share of freemium apps on the Apple App Store rose from 25 % in 2009 to over 80 % in 2022. Additionally, App Store subscriptions increased from 745 million in 2021 to 900 million in 2022.' | Page 3, Section 2.1: 'As an emerging business model, the freemium business model has received considerable attention from business research in recent years' | Page 1: 'Received 4 July 2023; Received in revised form 17 January 2024; Accepted 22 January 2024'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Multiple cases",
+			"synonyms_found": [
+				"case sample",
+				"45 app firms",
+				"45 cases",
+				"sample cases"
+			],
+			"source_citation": "Page 1, Abstract: 'data from 45 freemium business model apps' | Page 5, Section 3.2: 'Forty-five randomly sampled data points from the free list in the App Store are used as samples, where each app is used as a sample point, and 45 sample cases are finally determined' | 'The description of each case is about 35 pages long (300,000–500,000 words), thus providing qualitative data about freemium business models' | Page 2, Section 1: 'fuzzy set qualitative comparative analysis (fsQCA) approach was used to test the conceptual model with data from 45 freemium business model apps'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Renren → Example of app with strong performance contrast in freemium model",
+				"Shrimp Music → Example of app with strong performance contrast",
+				"QQ Farm → Example of app with strong performance contrast",
+				"WeChat → Example of successful freemium app",
+				"NetEase Cloud → Example of app showing performance contrast",
+				"Arena of Valor → Example of MOBA game app with fragmented freemium model; allows players to purchase props and coupons based on interests",
+				"Tencent Conference → Example of bundled freemium business model app whose functional modules are bundled and sold; customers pay for membership to purchase bundled function modules",
+				"Tencent meeting → In sample; focuses on sensing and seizing capability",
+				"Pinduoduo → In sample (major e-commerce platform)",
+				"Meituan → In sample (major platform)",
+				"Taobao → In sample (Alibaba e-commerce)",
+				"Alipay → In sample (Alibaba payment)",
+				"QQ → In sample (Tencent messaging)",
+				"DingTalk → In sample (Alibaba enterprise communication)",
+				"Jingdong → In sample (major e-commerce)",
+				"Xiaohongshu → In sample (social commerce)",
+				"Bilibili → In sample (video platform)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1, Introduction: 'Renren, Shrimp Music, QQ Farm and WeChat, NetEase Cloud, Arena of Valor, and other apps show strong contrasts in performances' | Page 2: 'Arena of Valor is a multiplayer online battle royale (MOBA) game app. Arena of Valor allows players to purchase props and coupons based on their interests. Tencent Conference has a bundled freemium business model app, whose functional modules are bundled and sold' | Page 5, Table 1: Complete list of 45 case apps | Page 10: 'Tencent Meeting, an app, focuses more on improving sensing and seizing capability' | Page 11: 'Arena of Valor brings high value-added revenue to the company due to its fragmented freemium model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Bundled Freemium Business Model → Business adds value through premium sales with bundled features; new product/service combinations; interrelated and reinforcing characteristics; difficult to separate high-quality functions; users often combine use of hypermodularity",
+				"Fragmented Freemium Business Model → Creates value with free products then adds many fragmented upsell products; diverse product features sold separately; users choose upsells by interests and willingness to pay; purchased products depleted after use; free products are complex and support modular purchases",
+				"Configuration H1 → Bundled + Fragmented + High Sensing + High Seizing (without Reconfiguring)",
+				"Configuration H2 → Bundled + Fragmented + High Sensing + High Seizing + Environmental Uncertainty (without Reconfiguring)",
+				"Configuration H3 → Fragmented + High Sensing + High Seizing + High Reconfiguring + Environmental Uncertainty (without/with Bundled)",
+				"Configuration H4 → Bundled + High Sensing (without Fragmented and Seizing)"
+			],
+			"synonyms_found": [
+				"bundled freemium",
+				"fragmented freemium",
+				"BBMI",
+				"FMBI"
+			],
+			"source_citation": "Page 2, Section 1: 'We divide the freemium business model into bundled and fragmented business models' | Page 7, Table 3: Detailed definitions of bundled and fragmented characteristics | Page 9, Table 6: Shows four configurations (H1-H4) for achieving high performance with different combinations",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Need for larger sample size research → Future research recommended to explore more factors and verify findings with larger samples",
+				"Incorporation of entrepreneurship configuration effects → Based on top-echelon theory, future research should explore TMT perceptions and entrepreneurship influence on performance",
+				"Control variables expansion → Future research should address lack of control variables to enable generalization to other circumstances",
+				"Investigation of other freemium contexts → Whether success paths differ for other freemium business model apps beyond studied sample needs investigation",
+				"Integration of realistic factors → TMT perceptions and entrepreneurship may influence performance and should be incorporated",
+				"Data-driven learning advancement → Companies will increasingly use machine learning to analyze large data amounts to identify patterns and improve offerings",
+				"Continued growth of freemium adoption → Based on growth from 25% to 80% of App Store, continued expansion expected"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 13, Section 6: 'Therefore, future research is recommended to have a larger sample size to explore more factors.' | 'In the future, the configuration effect of entrepreneurship can be incorporated based on the top-echelon theory.' | 'Secondly, the lack of control variables limits the possibility of summarizing the results in other circumstances.' | 'First, the case sample used in this study is 45 apps from the free list of the Apple App Store, and whether the success paths of other freemium business model apps to achieve high performance present different characteristics needs to be further investigated.' | 'Last, realistic factors such as TMT perceptions and entrepreneurship may influence performance.'",
+			"confidence_level": "high"
+		}
+	]
+}

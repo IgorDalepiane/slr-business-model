@@ -1,0 +1,420 @@
+{
+	"extraction_metadata": {
+		"article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+		"extraction_date": "2024-12-19"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Multi-sided data platform for context-aware mobile applications",
+			"synonyms_found": [
+				"multi-sided platform",
+				"data platform",
+				"shared data platforms",
+				"trusted data platforms"
+			],
+			"source_citation": "Página 1: 'Advances in data semantification and natural language querying are enabling new generations of context-aware mobile applications. Such applications would rely on platforms that integrate heterogeneous sets of user data from a range of applications and systems. Designing these platforms is challenging as they should serve multiple user groups at the same time.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Multi-sided platform",
+				"Data platform",
+				"Shared data platforms",
+				"Trusted data platforms",
+				"Service platform",
+				"Internal platform"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 1: 'shared and trusted data platforms that aggregate user data' | Página 2: 'multi-sided data platforms that enable mobile context-aware travel applications' | Página 3: 'A platform serving multiple user groups, such as buyers and sellers, is typically denoted as a multi-sided platform' | Página 6: 'service platform' | Página 6: 'internal platform'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Travel and Tourism",
+			"synonyms_found": [
+				"mobile travel applications",
+				"travel apps",
+				"city trip",
+				"accommodation planning",
+				"tourism"
+			],
+			"source_citation": "Página 1: 'One promising application area is that of travel applications' | Página 3: 'The objective of the project is to provide a data platform for apps and services for city visitors (i.e., tourists as well as citizens)' | Página 4: 'app developers can develop applications such as city trip and accommodation planning, traffic update, cultural and entertainment updates and information about the city'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C",
+			"synonyms_found": [
+				"end-users",
+				"consumers",
+				"city visitors",
+				"tourists",
+				"citizens"
+			],
+			"source_citation": "Página 3: 'The objective of the project is to provide a data platform for apps and services for city visitors (i.e., tourists as well as citizens)' | Página 5: 'Note that the 'user' is the actual person that uses the app' | Página 6: 'The app market is dominated by the freemium model as over 90% of all apps are for free, so user willingness to pay is often low'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Not explicitly specified in the article",
+			"synonyms_found": [],
+			"source_citation": "Página 6: 'Many providers use service platforms to efficiently develop and deploy their services and apps' | Página 6: 'Third parties can use part or all of the 3cixty functionality and data to develop new apps or enrich existing apps'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Netherlands",
+			"synonyms_found": ["Dutch"],
+			"source_citation": "Página 7: 'A convenience sample of Dutch students is used' | Página 7: 'Invitations to participate in the survey were posted on the Facebook page of various students of a bachelor course in December 2014' | Página 1: '1Delft University of Technology, Engineering Systems and Services, Delft, The Netherlands'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Young smartphone users who travel to cities",
+			"synonyms_found": [
+				"young people",
+				"students",
+				"city visitors",
+				"tourists"
+			],
+			"source_citation": "Página 7: 'The intended population comprises young people who have a smartphone and who have a habit of traveling to cities. A convenience sample of Dutch students is used' | Página 7: 'Age varies between 17 and 29, with average 20.6 years old' | Página 7: 'Respondents make 2.3 city trips per year'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Platform", "API", "Data"],
+			"synonyms_found": [
+				"data platform",
+				"application programming interface",
+				"clean data repository",
+				"enabling services"
+			],
+			"source_citation": "Página 3: 'The platform offers various data services to app developers, for instance a cross domain querying language, a crowdsourcing mechanism, a mobility profiling service, query augmentation and social media mining' | Página 3: 'App developers can access this clean data repository via a single application programming interface (API)' | Página 3: 'The platform provides a clean data repository about a city'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS"],
+			"synonyms_found": ["as-a-service", "platform as a service"],
+			"source_citation": "Página 6: 'In the open model the platform is offered 'as-a-service' to 3rd parties like app developers' | Página 3: 'App developers can access this clean data repository via a single application programming interface (API) which is web developer friendly'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Proprietary",
+			"synonyms_found": ["closed model", "open model"],
+			"source_citation": "Página 6: 'it should be decided whether the platform is open or closed to third party app developers' | Página 6: 'In the closed model the platform is used internally as a service platform and in the open model the platform is offered 'as-a-service' to 3rd parties' | Página 6: 'One may also consider a situation in which there is no platform provider at all, but where (some of) the developed 3cixty software is made available as open source'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Subscription",
+				"Advertising",
+				"Transaction",
+				"Support"
+			],
+			"synonyms_found": [
+				"affiliation models",
+				"advertising models",
+				"data driven model",
+				"commission fees",
+				"bundling",
+				"pay-per-use",
+				"subsidy",
+				"sponsoring"
+			],
+			"source_citation": "Página 6: 'different revenue models, i.e. bundling, pay-per-use, affiliation, advertisement, subsidy and sponsoring, open source etc.' | Página 7: 'Affiliation models where commission fees from companies that appear in the traveling app and that realize transactions, e.g. bookings, via the app. Advertising models, in which contextual advertising based on user profiles' | Página 7: 'Or data driven model: local government, tourist board or tourist trade organisation may be interested in aggregated data from user preferences and behaviour'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others",
+			"synonyms_found": ["pay-per-use", "commission fees", "affiliation"],
+			"source_citation": "Página 7: 'Affiliation models where commission fees from companies that appear in the traveling app and that realize transactions, e.g. bookings, via the app' | Página 6: 'pay-per-use'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Freemium", "Pay-as-you-go"],
+			"synonyms_found": ["free", "premium-pricing"],
+			"source_citation": "Página 6: 'The app market is dominated by the freemium model as over 90% of all apps are for free' | Página 6: 'pay-per-use' | Página 10: 'premium-pricing as well as data-monetization strategies can both be viable' | Página 10: 'a free app with monetization of shared data or a paid app without sharing of data with third parties'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": ["multi-sided platform", "platform provider"],
+			"source_citation": "Página 2: 'A platform serving multiple user groups, such as buyers and sellers, is typically denoted as a multi-sided platform' | Página 2: 'The objective of a multi-sided platform is to facilitate the transactions between different user groups, such as consumers and app developers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value)",
+			"synonyms_found": ["network externalities", "network effects"],
+			"source_citation": "Página 2: 'Such shared platforms can generate considerable network externalities, which implies that the value of the platform depends on the number of users' | Página 2: 'Network externalities are direct if the value of the product increase by others buying, connecting, or using the same platform or services provided via the platform. The utility of the platform increases with the number of other using it'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Marketplaces", "Digital marketing"],
+			"synonyms_found": ["app store", "social media"],
+			"source_citation": "Página 5: 'offer it to users directly via an app store' | Página 7: 'Invitations to participate in the survey were posted on the Facebook page of various students'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "No",
+			"synonyms_found": [],
+			"source_citation": "Página 5: 'offer it to users directly via an app store' - apenas menciona app store genérico, não especifica marketplaces de cloud",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Comprehensive travel information and booking possibilities through integrated context data",
+				"Customer Segment: City visitors (tourists and citizens), app developers",
+				"Revenue Streams: Affiliation models, advertising models, data monetization, pay-per-use",
+				"Key Resources: Clean data repository, APIs, crowdsourcing mechanism, social media mining",
+				"Key Activities: Data semantification, data reconciliation, query augmentation",
+				"Key Partnerships: App developers, advertisers, government organizations, insurance providers",
+				"Cost Structure: not reported",
+				"Channels: not reported",
+				"Customer Relationship: not reported"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 3: 'The platform provides a clean data repository about a city' | Página 3: 'App developers can develop applications such as city trip and accommodation planning' | Página 7: 'Affiliation models where commission fees from companies' | Página 3: 'The platform offers various data services to app developers' | Página 5: 'Several parties provide information to the platform' | Página 5: 'finance providers like insures, (local) governments'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"End-users | App consumers | Use mobile travel applications | Share data with platform",
+				"App developers | Service creators | Develop applications using platform APIs | Access clean data repository",
+				"Platform provider | System integrator | Provides data services and APIs | Coordinates data aggregation",
+				"Advertisers | Revenue generators | Provide contextual advertising | Target users based on profiles",
+				"Government organizations | Data consumers | Access aggregated data | Subsidize platform services",
+				"Insurance providers | Finance providers | Subsidize services | Access mobility profiling data"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 2: 'it connects multiple groups of actors (i.e., end-users and app developers)' | Página 5: 'The production of the app is a joint effort of the parties on the left hand side of the picture with the platform provider (system integrator) playing a pivotal role' | Página 5: 'Advertisement agencies could offer profile based advertisements to their customers' | Página 5: 'finance providers like insures, (local) governments or other providers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Enable smarter context-aware applications through data sharing",
+				"Provide integrated and coherent travel advice",
+				"Circumvent privacy and competitive position issues",
+				"Generate network externalities and positive feedback cycles"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 1: 'if app developers share such context information among each other, even smarter context-aware applications can be envisioned' | Página 1: 'sharing user context data between such applications would enable far more integrated and coherent travel advice' | Página 1: 'These issues could be circumvented by instantiating shared and trusted data platforms that aggregate user data' | Página 2: 'Increasing adoption levels can thus lead to a positive feedback cycle that further increases the usefulness of the technology'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"User willingness to share data → Enables data monetization",
+				"Travel frequency → Increases willingness to pay",
+				"Network externalities → Increases platform value with more users",
+				"Data quality and integration → Provides competitive advantage"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 9: 'users willing to share data with app developers are more inclined to use data-driven mobile travel apps' | Página 9: 'willingness to pay depends on how frequent a person travels' | Página 2: 'the value of the platform depends on the number of users' | Página 3: 'The data is 'semantified' (i.e. semantics of the data has been made explicit) and 'reconciled' (i.e. heterogeneous data coming from various sources has already been integrated)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Smartphone adoption → Enables mobile application usage",
+				"Data semantification technologies → Enables data integration",
+				"Natural language querying → Enables user-friendly data access",
+				"User privacy trust → Enables data sharing"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 1: 'Advances in data semantification and natural language querying are enabling new generations of context-aware mobile applications' | Página 7: 'we only include students possessing a smartphone in our sample' | Página 1: 'Sharing context information generated by a mobile application with other app developers risks violating user privacy'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Privacy concerns → Limits data sharing willingness",
+				"Low user willingness to pay → Constrains direct monetization",
+				"Competitive position risks → Limits data sharing between developers",
+				"Platform openness vs. closedness → Affects business model viability"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 1: 'Sharing context information generated by a mobile application with other app developers risks violating user privacy as well as harming competitive position of the individual app developer' | Página 6: 'user willingness to pay is often problematic' | Página 6: 'it should be decided whether the platform is open or closed to third party app developers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Designing platforms that serve multiple user groups simultaneously",
+				"Determining who should subsidize the platform",
+				"Balancing user willingness to pay vs. willingness to share data",
+				"Managing privacy concerns while enabling data sharing"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 1: 'Designing these platforms is challenging as they should serve multiple user groups at the same time' | Página 1: 'A core issue is then who should subsidize the platform, i.e. what is the source of revenues going to be' | Página 9: 'Factors that drive intention to use completely differ from factors that drive intention to pay' | Página 1: 'Sharing context information generated by a mobile application with other app developers risks violating user privacy'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Shared and trusted data platforms → Mitigates privacy concerns → Enables data aggregation",
+				"Multiple revenue models → Mitigates low willingness to pay → Provides alternative monetization",
+				"Freemium model → Mitigates payment resistance → Enables user adoption",
+				"Data monetization → Mitigates direct payment needs → Generates revenue from third parties"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 1: 'These issues could be circumvented by instantiating shared and trusted data platforms that aggregate user data' | Página 6: 'different revenue models, i.e. bundling, pay-per-use, affiliation, advertisement, subsidy and sponsoring' | Página 6: 'The app market is dominated by the freemium model as over 90% of all apps are for free' | Página 10: 'premium-pricing as well as data-monetization strategies can both be viable'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Survey sample size: 197; Respondents; December 2014; Survey; Netherlands",
+				"Age range: 17-29; Years; Average 20.6; Survey; Netherlands",
+				"Gender distribution: 53%; Male; Survey; Netherlands",
+				"City trips frequency: 2.3; Trips per year; Average; Survey; Netherlands",
+				"App market freemium: 90%; Apps; Current; Market research; Not specified",
+				"Model fit GoF: 0.359; Tenenhaus GoF; Survey; WarpPLS analysis",
+				"Multicollinearity VIF: 1.215; Average block VIF; Survey; WarpPLS analysis"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 7: '197 valid responses were received' | Página 7: 'Age varies between 17 and 29, with average 20.6 years old. Gender was balanced with 53% male' | Página 7: 'Respondents make 2.3 city trips per year' | Página 6: 'The app market is dominated by the freemium model as over 90% of all apps are for free' | Página 8: 'Tenenhaus GoF = .359' | Página 8: 'Average block VIF = 1.215'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "2014-2015 + Emerging",
+			"synonyms_found": [],
+			"source_citation": "Página 1: '©IFIP International Federation for Information Processing 2015' | Página 7: 'December 2014' | Página 1: 'Advances in data semantification and natural language querying are enabling new generations of context-aware mobile applications' - indica tecnologia emergente",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Survey",
+			"synonyms_found": ["user research", "validation"],
+			"source_citation": "Página 7: 'We test these assumptions through a survey among potential end-users for the platform and its applications' | Página 7: 'A convenience sample of Dutch students is used' | Página 7: '197 valid responses were received'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"3cixty → Data platform case study for mobile context-aware travel applications",
+				"Facebook → Social media platform for survey distribution and data sharing"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 2: 'We outline different revenue models and subsequently analyze user acceptance of such revenue models by analyzing the results of a survey among 197 early adopters in the Netherlands' | Página 7: 'Invitations to participate in the survey were posted on the Facebook page of various students'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Closed platform model → Used internally by app developer, not accessible to third parties",
+				"Open platform model → Offered as-a-service to third party app developers",
+				"Profit vs. non-profit approach → Different organizational structures",
+				"Open source model → Software made available without platform provider"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 6: 'it should be decided whether the platform is offered in a profit or non-profit approach. Second, it should be decided whether the platform is open or closed to third party app developers' | Página 6: 'In the closed model the platform is used internally as a service platform and in the open model the platform is offered 'as-a-service' to 3rd parties' | Página 6: 'One may also consider a situation in which there is no platform provider at all, but where (some of) the developed 3cixty software is made available as open source'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Need for further research on app developers' perspective → Foundation: Early workshop and informal interviews suggest willingness to pay for valuable platforms",
+				"Study of privacy compensation mechanisms → Foundation: Trade-offs between utility, price and privacy in big data era",
+				"Technology structuring improvements → Foundation: Depends on how to structure data, form APIs and prioritize technical features"
+			],
+			"synonyms_found": [],
+			"source_citation": "Página 10: 'Our next step will be studying the app developers' perspective. Earlier workshop and informal interviews with app developers suggest they may be willing to pay for data platforms if they truly add value for their business' | Página 10: 'How such compensation of privacy concerns with discounts or added value from apps works out in a big data era where consequences of disclosing personal data cannot always be foreseen warrants further research' | Página 10: 'Whether this is the case depends strongly on technological issues such as how to structure the data, how to form the APIs and which of the technical features of the data platform become available first'",
+			"confidence_level": "high"
+		}
+	]
+}

@@ -1,0 +1,503 @@
+{
+	"extraction_metadata": {
+		"article_title": "Transition to the Cloud: A Vendor Perspective",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cloud computing / Software-as-a-Service (SaaS). Definition: A model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (networks, servers, storage, applications, services) that can be rapidly provisioned and released with minimal management effort. Cloud-based customer relationship management software delivered over the Internet, with pay-as-you-go or subscription-based payment model.",
+			"synonyms_found": [
+				"cloud computing",
+				"SaaS",
+				"software-as-a-service",
+				"cloud-based business model",
+				"SaaS-based cloud model",
+				"cloud-based IT solutions"
+			],
+			"source_citation": "Page 1: 'The National Institute of Standards and Technology (NIST) defines cloud computing as \"a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (for example, networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service-provider interaction\"' | Page 1: 'software-as-a service (SaaS) (e.g. Salesforce.com cloud-based customer relationship management software delivered over the Internet)' | Page 2: 'the pay-as-you-go or subscription-based payment model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Software-as-a-Service",
+				"SaaS",
+				"cloud-based business model",
+				"SaaS-based cloud model",
+				"cloud-based IT solutions"
+			],
+			"synonyms_found": [
+				"cloud computing",
+				"SaaS",
+				"software-as-a-service",
+				"cloud-based business model",
+				"SaaS-based cloud model",
+				"cloud-based IT solutions",
+				"SaaS products",
+				"cloud-based products"
+			],
+			"source_citation": "Page 1: 'software-as-a service (SaaS)' | Page 2: 'a case study of an ERP vendor for SMB (small and medium-size business) in making a transition towards a cloud-based business model' | Page 2: 'a Nordic ERP vendor and its transition towards a SaaS-based cloud model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Enterprise Resource Planning (ERP) and enterprise systems for SMEs/SMBs",
+			"synonyms_found": [
+				"ERP",
+				"enterprise resource planning",
+				"enterprise systems",
+				"CRM",
+				"HRM",
+				"business software"
+			],
+			"source_citation": "Page 1: 'a case study of an ERP vendor for SMB (small and medium-size business)' | Page 4: 'ERP Co is a leading vendor of enterprise resource planning (ERP), customer relationship management (CRM), and human resource management (HRM) systems in the European market for small and medium sized enterprises (SME)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B SMB",
+			"synonyms_found": [
+				"SMB",
+				"SMEs",
+				"small and medium-size business",
+				"small and medium sized enterprises",
+				"micro size business",
+				"small and medium size business"
+			],
+			"source_citation": "Page 1: 'a case study of an ERP vendor for SMB (small and medium-size business)' | Page 2: 'a business-to-business (B2B) setting' | Page 4: 'ERP Co is a leading vendor of enterprise resource planning (ERP), customer relationship management (CRM), and human resource management (HRM) systems in the European market for small and medium sized enterprises (SME)' | Page 4: 'First, we have micro size business, which out of box standardized products are directly sold to... The second segment is small and medium size business with less than 1000 employees'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Large established vendors: ERP Co case has 6,000 employees and 800 million NOK revenue (2014), described as 'leading vendor'. Also mentions traditional software vendors like Microsoft and SAP transitioning.",
+			"synonyms_found": [
+				"leading vendor",
+				"traditional software vendors",
+				"incumbents",
+				"established players"
+			],
+			"source_citation": "Page 4: 'In 2014, ERP Co has 6,000 employees, and achieved 800 million NOK in revenue' | Page 4: 'ERP Co is a leading vendor of various enterprise systems in the SMEs (small and medium enterprises) market' | Page 1: 'traditional software vendors, such as Microsoft and SAP, are also making the transition to cloud-based business models' | Page 1: 'major cloud vendors are still dominated by the incumbents who managed to make the transition'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Nordic region / European market",
+			"synonyms_found": ["Nordic", "European", "Europe"],
+			"source_citation": "Page 2: 'We use a revelatory case study by focusing on a Nordic ERP vendor and its transition towards a SaaS-based cloud model' | Page 4: 'ERP Co is a leading vendor of enterprise resource planning (ERP), customer relationship management (CRM), and human resource management (HRM) systems in the European market for small and medium sized enterprises (SME)' | Page 6: 'certain financial procedures are very different in the US than in the Nordic countries'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Small and medium size businesses with less than 1000 employees, where vendor works closely with Value-Added Resellers (VAR) partners for tailored systems based on standard products",
+			"synonyms_found": [
+				"small and medium size business",
+				"SMEs",
+				"SMB",
+				"micro business"
+			],
+			"source_citation": "Page 4: 'The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners, all what they refer to as value added resellers. Here, all the sales go through ERP Co partners... Customers in this segment can obtain tailor made system based on standard ERP Co product through ERP Co partners' | Page 5: 'VAR is a critical part of ERP Co's business ecosystem, as they are in direct charge of selling to the largest customer segment, the small and medium size businesses'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application"],
+			"synonyms_found": [
+				"applications",
+				"ERP systems",
+				"CRM systems",
+				"HRM systems",
+				"enterprise systems",
+				"software",
+				"standardized products"
+			],
+			"source_citation": "Page 1: 'software-as-a service (SaaS) (e.g. Salesforce.com cloud-based customer relationship management software delivered over the Internet)' | Page 4: 'ERP Co is a leading vendor of enterprise resource planning (ERP), customer relationship management (CRM), and human resource management (HRM) systems' | Page 4: 'out of box standardized products'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS", "On-premises"],
+			"synonyms_found": [
+				"over the Internet",
+				"through the web",
+				"via web browser",
+				"on-premise",
+				"cloud-based"
+			],
+			"source_citation": "Page 1: 'cloud-based customer relationship management software delivered over the Internet' | Page 5: 'ERP Co's SaaS journey has started since early 2000 by providing some simple applications through the web' | Page 7: 'customers can access their enterprise systems through a web browser' | Page 6: 'hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Subscription"],
+			"synonyms_found": [
+				"subscription fee",
+				"periodic subscription fee",
+				"subscription-based payment",
+				"pay-as-you-go",
+				"upfront license fee"
+			],
+			"source_citation": "Page 2: 'the business model of cloud computing implies a different revenue stream: instead of relying on upfront license fee, IT vendors are now collecting periodic subscription fee' | Page 6: 'the pay-as-you-go or subscription-based pricing model associated with cloud and SaaS' | Page 6: 'the upfront perpetual licenses fees would be replaced by long-term flowing of subscription fee'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others (subscription-based, not specified per user/seat or usage metric)",
+			"synonyms_found": ["subscription fee", "subscription-based"],
+			"source_citation": "Page 2: 'IT vendors are now collecting periodic subscription fee' | Page 6: 'subscription-based pricing model' | Page 6: 'long-term flowing of subscription fee'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Pay-as-you-go"],
+			"synonyms_found": ["subscription-based", "pay-as-you-go"],
+			"source_citation": "Page 1: 'the advantages provided by this new way of consuming computing resources, such as low/minimal entry costs, pay-as-you-go mode' | Page 2: 'the pay-as-you-go or subscription-based payment model has liberated organizations from upfront capital investment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "EUR (Euro) and NOK (Norwegian Krone) mentioned, periodic subscription billing (continuous cash flow vs upfront)",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'In 2000, ERP Co sold the marine division for around 80 million Euro' | Page 4: 'achieved 800 million NOK in revenue' | Page 2: 'IT vendors are now collecting periodic subscription fee, suggesting that the key to survival under the new circumstance is to keep the cash flow going' | Page 6: 'long-term flowing of subscription fee'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Standalone product (with extensive partner/channel network)",
+			"synonyms_found": ["vendor", "software vendor", "provider"],
+			"source_citation": "Page 4-5: ERP Co develops standardized products in-house and distributes through three channels: 1) directly to micro businesses, 2) through VAR partners to small-medium businesses, 3) through partners for bigger SMB. 'ERP Co only offers standardized product, which is sold either in an out-of-box fashion to micro business, or through partners who make customizations for specific customer or market'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others (community-based, open innovation)",
+			"synonyms_found": ["user community", "open innovation"],
+			"source_citation": "Page 3: 'For instance, many of the cloud vendors mentioned above operate around a user community where open innovation is flourishing, suggesting a paradigm shift from treating customers as value exchangers to value co-creators'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Partners/channels", "Direct sales"],
+			"synonyms_found": [
+				"VAR",
+				"Value-added-Resellers",
+				"partners",
+				"resellers",
+				"platinum partners",
+				"gold partners",
+				"distribution channel"
+			],
+			"source_citation": "Page 4: 'First, we have micro size business, which out of box standardized products are directly sold to' | Page 4: 'The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners, all what they refer to as value added resellers. Here, all the sales go through ERP Co partners' | Page 5: 'VAR is a critical part of ERP Co's business ecosystem, as they are in direct charge of selling to the largest customer segment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: On-demand access to ERP/CRM/HRM systems over Internet, low/minimal entry costs, flexibility and scalability, eliminates need for upfront capital investment and own IT infrastructure",
+				"Customer Segment: Three segments - micro businesses (standardized out-of-box products), small-medium businesses with <1000 employees (tailored systems through VAR), bigger SMBs (intensive consulting)",
+				"Channels: Direct sales to micro businesses, VAR/partner network (platinum, gold, smaller partners) for small-medium segment, online helpdesk and training",
+				"Relationship: From product-based to service-based relationship, shift to value co-creation with customers through user communities, continuous support vs one-time sale",
+				"Revenue Streams: Shift from upfront perpetual license fees to periodic subscription fees (pay-as-you-go), continuous cash flow but less predictable, 50% of initial license fees go to VAR",
+				"Key Resources: Standardized products developed in-house, SaaS platform, partner network, technical and human resources",
+				"Key Activities: In-house product development, partner relationship management, customer support and training, continuous product maintenance and updates",
+				"Key Partnerships: VAR partners (platinum exclusively with ERP Co, gold mainly with ERP Co, smaller local/micro market partners), suppliers (ERP Co IT, Microsoft), complementary relationships requiring careful ecosystem management",
+				"Cost Structure: R&D resources allocation (initially 80/20 SaaS/on-premise, later 50/50 hybrid), acquisition costs, partner compensation, continuous maintenance and support costs"
+			],
+			"synonyms_found": [],
+			"source_citation": "Pages 4-7 provide extensive details about all business model components including customer segments, partner model, revenue streams, transition strategy, and ecosystem relationships",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"ERP Co (Vendor) | Software provider and ecosystem orchestrator | Develops standardized products, sells directly to micro businesses, manages partner relationships | Controls key resources, sets strategic direction, coordinates ecosystem transition",
+				"Platinum VAR Partners | Exclusive resellers and service providers | Work solely with ERP Co, build services around products, provide tailored systems | Achieve synergistic integration with vendor, co-create value, heavily dependent on ERP Co",
+				"Gold VAR Partners | Primary resellers with other engagements | Mainly work with ERP Co but engage with competitors, sell and customize products | Co-opetition relationship with vendor and other partners, moderate dependency",
+				"Smaller VAR Partners/Resellers | Local/micro market representatives | Represent ERP Co products in local markets, basic reselling | Addition/exchange type collaboration, lower dependency, co-opetition with vendor",
+				"Customers - Micro businesses | End users of standardized products | Purchase out-of-box products directly from ERP Co, use online helpdesk | Direct relationship with vendor, no partner intermediation",
+				"Customers - Small-medium businesses (<1000 employees) | Main customer segment for tailored solutions | Purchase through VAR partners, obtain customized systems | Indirect relationship mediated by VAR, largest segment",
+				"Customers - Bigger SMB | Enterprise customers requiring intensive consulting | Engage with partners for complex implementations | Currently not main focus, indirect relationship",
+				"Suppliers (ERP Co IT, Microsoft) | Technology and component providers | Provide infrastructure and development tools | Simple upstream relationship, vendor develops most in-house"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5, Figure 1 and accompanying text: 'The main stakeholders here include the three groups of customers and three types of partners' | Page 5: 'VAR is a critical part of ERP Co's business ecosystem... these partners/resellers heavily depend on ERP Co, some more so than others' | Page 7: 'The division of partners into three categories shows different types of stakeholder relationships and corresponding collaboration modes'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Cost efficiency - pay-as-you-go model liberates from upfront capital investment, significantly lowers entry barrier for smaller organizations",
+				"Low/minimal entry costs for acquiring IT resources",
+				"Great flexibility and scalability - capability to scale up and down IT resources",
+				"Productivity boost and innovation potential for all organizations",
+				"Decreased demand for IT skills or expertise as operations are outsourced",
+				"Market demands and technological maturity driving adoption",
+				"Pressure from investors to increase company value through cloud transition",
+				"Competitive pressure - need to adapt as competitors offer cloud solutions",
+				"Leveled playing field for small and medium organizations with less resources"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'The advantages provided by this new way of consuming computing resources, such as low/minimal entry costs, pay-as-you-go mode, and great flexibility and scalability, have on the one hand levelled the playing field for small and medium organizations with less resources, and on the other hand provided productivity boost, cost efficiency, and innovation potential for all organizations' | Page 2: 'the pay-as-you-go or subscription-based payment model has liberated organizations from upfront capital investment... and hence significantly lowered the entry barrier' | Page 5: 'The decision for the transition was on the one hand partially triggered by the macro environment with increasing market demands and technological maturity, and on the other hand pressured by the investor'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Organizational preparedness → ability to understand and implement decisions throughout value chain",
+				"Hybrid model (balanced approach to SaaS and on-premise) → smooth transition, maintains product quality, provides adaptation time for customers and partners",
+				"Controlled transition with pilot implementations → minimizes negative effects, gains valuable customer feedback, eases customers into change",
+				"Hand-in-hand partnership strategy → maintains ecosystem stability, supports partner adaptation, prevents ecosystem collapse",
+				"Proper ecosystem management → taking inter-dependencies among stakeholders into full consideration",
+				"Aligning KPIs with transition goals → ensures organizational motivation and proper incentives",
+				"Matched changes across business areas → revenue management, sales channels, customer support all adapted together",
+				"Partner compensation mechanisms → higher percentages of subscription fees initially to help partners adapt",
+				"Maintaining existing customer relationships → continued support for on-premise products during transition"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 8: 'I believe one of the most critical success factors are what you can call organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain' | Page 8: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms... led to smoother transition process' | Page 8: 'transition to cloud needs to be matched with and supported by changes in other parts of the business'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Technological maturity → necessary for successful cloud implementation and market readiness",
+				"Market demands and customer readiness → macro environment needs to support adoption",
+				"Organizational preparedness → deep ability to understand and implement throughout value chain",
+				"Partner network readiness → VAR partners need to be cloud-ready and willing to adapt",
+				"Product localization capabilities → ability to adjust SaaS products to local rules and contexts",
+				"Sound SaaS product development → partners won't sell unfinished products, quality is critical",
+				"New skill sets and competencies → development tools and skills needed for cloud-based services",
+				"Changes in multiple business areas → revenue management, sales channels, customer support, KPIs all need alignment",
+				"Customer trust maintenance → ensuring support for existing systems during transition"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'The decision for the transition was on the one hand partially triggered by the macro environment with increasing market demands and technological maturity' | Page 8: 'organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain' | Page 6: 'partners will not sell unfinished products, and therefore, they will not be bought in unless the SaaS product from ERP Co is fully developed' | Page 7: 'It really is a challenge to get our existing partner network cloud-ready'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Stickiness of on-premise products → customers resistant to change, fear lack of support for existing systems",
+				"Disintermediation threat to VAR partners → nature of SaaS eliminates traditional reseller and installation roles ('nothing to resell, nothing to technically install')",
+				"Revenue stream volatility → periodic subscriptions less predictable than upfront license fees, creates financial challenges",
+				"Decreased switching costs for customers → makes customer retention more difficult",
+				"Localization challenges → difficulties adjusting US-based SaaS products to Nordic local rules and contexts",
+				"Partner co-opetition tensions → gold and smaller partners also sell competing products, sensitive relationships",
+				"Short-term cash flow loss for partners → shift from upfront fees to flowing subscriptions reduces immediate revenue",
+				"KPI misalignment → metrics based on on-premise sales conflicted with cloud transition initially",
+				"Quality trade-offs during transition → allocating R&D heavily to SaaS (80/20) caused on-premise product quality drop",
+				"Partner uncertainty and resistance → fear of business model termination and loss of value proposition"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 6: 'ERP Co admitted the underestimation of the \"stickiness\" of on-premise products' | Page 6: 'a key question that has risen in every partner's mind is \"…given there is nothing to resell, nothing to technically install and no opportunity to provide any kind of logistics, what can a successful SaaS partner contribute?\"' | Page 2: 'such delivery model is considered to have significantly decreased switching costs for customers' | Page 6: 'due to the decrease in R&D allocation for on-premise software, the quality of the product became a problem'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Managing ecosystem transition and preventing collapse - changes in one entity trigger responses in others",
+				"Customer uncertainty and trust issues - concerns about support for existing on-premise systems",
+				"Partner resistance and business model disruption - VAR partners fear termination of traditional roles",
+				"Product development difficulties - underestimated efforts in localizing acquired SaaS to local contexts",
+				"Quality management during transition - allocating resources caused on-premise product quality problems",
+				"Revenue model transition - managing shift from upfront fees to continuous subscriptions for both vendor and partners",
+				"Keeping cash flow going - survival depends on customer retention in subscription model",
+				"Speed vs quality trade-off - investor pressure for fast transition vs need for sound implementation",
+				"KPI misalignment - performance indicators conflicted with transition goals initially",
+				"Partner value proposition redefinition - how VAR partners contribute when physical software eliminated",
+				"Customer and partner adoption timing - bringing stakeholders on board at right pace",
+				"Inter-organizational coordination - implementing decisions throughout entire value chain",
+				"Handling co-opetition relationships - partners also work with competitors, requires careful management"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5-6: Detailed discussion of struggles from 2011-2013 including 'ERP Co has realized the difficulties in develop a sound SaaS product', 'the quality of the product became a problem', 'customers and partners show uncertainties', 'partners fear the termination of the partnership' | Page 8: 'Constraining the scale of change within the organization might cause the collapse of the ecosystem, which in turn threatens the survival of the business itself'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Adopting hybrid model (50/50 R&D allocation to SaaS and on-premise) → increased on-premise quality back to usual level, provided adaptation time for stakeholders",
+				"Controlled transition with pilot implementation (50 approved customers) → minimized negative effects, gained valuable feedback, eased customers into process",
+				"Hand-in-hand partnership strategy → worked closely especially with platinum partners to develop new services, maintained ecosystem relationships",
+				"Partner compensation mechanisms → higher percentages of subscription fees to partners initially, especially those solely relying on vendor",
+				"Continued on-premise support and maintenance → maintained trust, provided SaaS-based add-ons for existing customers, kept supporting existing systems",
+				"Shifting partner services from technical to business process consulting → redefined value proposition for partners in SaaS environment",
+				"Expanding partner sales channels → compensating for short-term cash flow loss through increased quantity of sales",
+				"Adjusting KPIs to align with transition goals → ensured organizational motivation and proper incentives throughout value chain",
+				"Acquiring US-based SaaS provider → accelerated technical knowledge and capabilities (though faced localization challenges)",
+				"Phased approach - starting with new customers first → planned to sell SaaS to all new customers starting 2015, especially micro businesses",
+				"Recognizing and slowing down rushed transition → fell back on on-premise model in 2014, took things slowly instead of overnight change"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 6: 'A solution arrived in 2014 when the management recognized the issues in rushing towards cloud and making transitions overnight, and hence fell back on the on-premise model and started to take things slowly. The resulting strategy is to pursue the so-called hybrid model' | Page 6-7: Detailed description of controlled transition, pilot implementation, partner compensation, and service shift strategies | Page 7: 'the strategy is to go \"hand in hand\" with partners to make the transition'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Employees; 3,000 (2006), 6,000 (2014); count; 2006, 2014; case study data; Page 4",
+				"Revenue; 800 million NOK; NOK; 2014; case study data; Page 4",
+				"Acquisition values; 80 million Euro (2000 marine division sale), 4.3 billion (2006), 1.3 billion Euros (2010), 2.5 billion Euros (2014); Euro; 2000-2014; case study data; Page 4",
+				"R&D allocation during rushed transition; 80% SaaS, 20% on-premise; percentage; 2011-2013; case study data; Page 6",
+				"R&D allocation in hybrid model; 50% SaaS, 50% on-premise; percentage; from 2014; case study data; Page 6",
+				"Partner commission from initial license fees; up to 50%; percentage; not specified; case study data; Page 5",
+				"Pilot implementation size; 50 SaaS products to approved customers; count; 2014; case study data; Page 6",
+				"Corporate IT spending increase on cloud; 42%; percentage; 2015 projection; industry report; Page 1",
+				"Companies with half software/infrastructure in cloud; >60%; percentage; 2018 projection; industry report; Page 1",
+				"Cloud computing market share of SaaS; 15%; percentage; not specified; industry report; Page 2"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'In 2006, ERP Co has grown to a company with 3000 employees... In 2014, ERP Co has 6,000 employees, and achieved 800 million NOK in revenue' | Page 6: 'ERP Co adjusted their research and development resources to 80% in SaaS and 20% in on-premise... adjusted to 50% each' | Page 1: 'corporate IT spending on cloud computing will increase by 42% in 2015, and by year 2018, more than 60% of the companies will have at least half their software and infrastructure in cloud'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: Early 2000s - 2015 (ongoing). ERP Co's SaaS journey started early 2000s, official transition 2011-2015 (ongoing at time of study). Maturity status: Growing - 'cloud computing as a trend is here to stay', 'increasingly more widely accepted', market still evolving with major vendors transitioning.",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'More than just a buzzword, cloud computing as a trend is here to stay. Nowadays, it has been increasingly more widely accepted' | Page 5: 'Though ERP Co's SaaS journey has started since early 2000 by providing some simple applications through the web, the official transition towards a cloud-based business model was initiated around 2011' | Page 2: 'We investigate the (still on-going) process of which ERP Co made the shift towards a SaaS-based business model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Single case study",
+			"synonyms_found": ["revelatory case study", "case study"],
+			"source_citation": "Page 2: 'We use a revelatory case study by focusing on a Nordic ERP vendor and its transition towards a SaaS-based cloud model' | Page 4: 'We conduct a revelatory case study. A revelatory case is a case that gives the researchers the unique opportunity to investigate the phenomenon of interests' | Page 4: 'The case company for our study, ERP Co, is a leading vendor of various enterprise systems'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"ERP Co (pseudonym) → Main case study subject, Nordic ERP vendor for SMEs transitioning from on-premise to SaaS, 6000 employees, 800M NOK revenue",
+				"Salesforce.com → Example of cloud-based CRM SaaS provider, mentioned as new player with first-mover advantage",
+				"Amazon → Example of new player in IaaS (Amazon Web Service), providing raw computing and data storage services",
+				"Microsoft → Traditional software vendor making transition to cloud with 'cloud-first design' strategy, also mentioned as supplier/competitor to ERP Co, operates at all three levels (SaaS, PaaS, IaaS)",
+				"SAP → Traditional software vendor transitioning through acquisition and partnerships, provides applications and enterprise systems in cloud",
+				"Google → Provides PaaS (Google's App Engine) and platform services",
+				"IBM → Provides platform services at PaaS level",
+				"EMC → Provides raw computing and data storage services at IaaS level",
+				"AT&T → Provides infrastructure services at IaaS level"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1-2: 'Salesforce.com cloud-based customer relationship management software', 'new players, such as Salesforce.com and Amazon, introducing the new business models', 'traditional software vendors, such as Microsoft and SAP, are also making the transition' | Page 2: 'Amazon, EMC, and AT&T in providing raw computing and data storage services, IBM, Google, and Microsoft in providing platform services, and finally Salesforce.com and SAP in providing applications and enterprise systems' | Page 4: Description of ERP Co as main case",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Hybrid model → Balanced approach maintaining both SaaS-based and on-premise products in equal terms (50/50 R&D allocation), allows gradual transition while supporting existing customer base",
+				"Pure SaaS model → Full transition to cloud-based delivery, initially attempted with 80/20 R&D allocation favoring SaaS",
+				"SaaS-based add-ons model → Offering cloud-based additional functionalities to customers with on-premise core systems",
+				"Three delivery models by customer segment → 1) Direct standardized out-of-box SaaS to micro businesses, 2) VAR-mediated tailored SaaS for small-medium businesses, 3) Intensive consulting-based for bigger SMBs",
+				"Controlled transition approach → Pilot implementation with limited approved customers (50) to minimize risks before full rollout"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 6: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms. The distribution of R&D resources was adjusted to 50% each for SaaS products and on-premise products' | Page 6: 'As for other customers who have on-premise core systems, ERP Co will on the one hand keep maintaining and supporting the on-premise product, and one the other hand selling SaaS-based add-ons' | Page 6: 'ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Corporate IT spending on cloud computing projected to increase by 42% in 2015",
+				"By 2018, more than 60% of companies expected to have at least half their software and infrastructure in cloud",
+				"VAR partner role evolution - shift from technical consulting towards business process consulting due to nature of SaaS products",
+				"New types of mediators emerging - integrators or enablers who facilitate delivery, adoption, and use of cloud computing",
+				"Landscape shift of vendor market towards new delivery mode, though major vendors still dominated by incumbents who managed transition",
+				"Continued transition for ERP Co - goal to start selling SaaS products to all new customers in 2015, especially micro business segment",
+				"Partner business models need redefinition and reinvention in cloud context",
+				"Ecosystem evolution - old players going out of business, new players of various types emerging",
+				"Paradigm shift from customers as value exchangers to value co-creators through communities",
+				"Disintermediation of traditional distribution channels as cloud enables direct vendor-to-customer relationships"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'corporate IT spending on cloud computing will increase by 42% in 2015, and by year 2018, more than 60% of the companies will have at least half their software and infrastructure in cloud' | Page 3: 'the so-called integrators or enablers who provide services to \"facilitate the delivery, adoption, and use of cloud computing\"... we see old players going out of business, and new players of various types emerging to power' | Page 7: 'the services offered by partners should be shifted away from technical consulting towards business process consulting' | Page 6: 'The goal as of 2014 for ERP Co is to start selling SaaS products to all the new customers in 2015'",
+			"confidence_level": "high"
+		}
+	]
+}

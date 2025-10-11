@@ -1,0 +1,508 @@
+{
+	"extraction_metadata": {
+		"article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cloud gaming platform / Games-on-demand service. Definition: An interactive cloud gaming platform where games are run on cloud servers instead of being installed on user devices. The platform transmits game content as MPEG stream to end-user devices over broadband network, while devices display the game and transmit user commands back to game servers. This enables bringing PC and console games to players through cloud environment without requiring powerful hardware on client side.",
+			"synonyms_found": [
+				"cloud gaming",
+				"games-on-demand",
+				"cloud gaming platform",
+				"gaming platform",
+				"games-on-demand services"
+			],
+			"source_citation": "Page 9: 'The case firm, G-cluster, develops interactive cloud gaming platforms and games-on-demand services. The business concept of G-cluster was based on what was (in 2000) an entirely new way to provide PC and console games to players. Traditionally, games are installed on a computer or a game console, which runs the game. In the G-cluster business model, by contrast, games are run on a cloud platform. The platform is operated by the game servers that transmit the game content as an MPEG stream to the devices of end-users, over the broadband network. The client devices receive the stream, display the game and transmit users' commands back to the game servers.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Games-on-demand",
+				"cloud gaming",
+				"gaming platform",
+				"games-on-demand services"
+			],
+			"synonyms_found": [
+				"cloud gaming",
+				"games-on-demand",
+				"games-on-demand services",
+				"gaming platform",
+				"cloud gaming platform",
+				"cloud game console",
+				"server solutions"
+			],
+			"source_citation": "Page 9: 'G-cluster develops interactive cloud gaming platforms and games-on-demand services' | Page 17: 'when we started there were no terms such as 'cloud,' we talked about server solutions'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Gaming / Video games",
+			"synonyms_found": [
+				"games",
+				"gaming",
+				"video games",
+				"PC games",
+				"console games",
+				"mobile games"
+			],
+			"source_citation": "Page 9: 'The case firm, G-cluster, develops interactive cloud gaming platforms and games-on-demand services' | Page 9: 'an entirely new way to provide PC and console games to players' | Page 10: 'especially for games, since games are challenging'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C",
+			"synonyms_found": [
+				"end-users",
+				"players",
+				"mobile game players",
+				"PC players",
+				"IPTV players",
+				"cloud console players"
+			],
+			"source_citation": "Page 10-11, Figure 1: Shows 'Mobile game-players' as end users | Page 12, Figure 2: Shows 'PC players' and 'IPTV players' | Page 17, Figure 4: Shows 'Cloud console players' and 'IPTV players' as end customer segments",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Small software firm / Startup: G-cluster described as 'small firm' and 'small software firm' throughout the study, established in 2000 in Finland",
+			"synonyms_found": [
+				"small firm",
+				"small software firm",
+				"start-up",
+				"start-ups"
+			],
+			"source_citation": "Page 12: 'it was difficult for such a small firm to have a contract with large telecom operators' | Page 22: 'resources that would not otherwise have been available for a small firm' | Page 9: 'G-cluster was established in Finland in 2000'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Finland (headquarters initially), Japan (current headquarters and operations), USA (sales and marketing), France (content acquisition), Europe",
+			"synonyms_found": [
+				"Finland",
+				"Japan",
+				"USA",
+				"France",
+				"European",
+				"Nordic"
+			],
+			"source_citation": "Page 9: 'G-cluster was established in Finland in 2000. Currently G-cluster has its headquarters in Japan, its R&D activities in Finland, its sales and marketing subsidiary in the USA and its content acquisition activities in France' | Page 14: 'In 2005, G-cluster had its own game servers in Japan'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Evolution across segments: initially mobile game players over 3G networks, then PC players and IPTV users (small and medium broadband subscribers), finally cloud console players and IPTV players with broadband connections",
+			"synonyms_found": [
+				"mobile game players",
+				"PC players",
+				"IPTV players",
+				"IPTV users",
+				"cloud console players"
+			],
+			"source_citation": "Page 11, Figure 1: First model targeted 'Mobile game-players' over 3G | Page 12, Figure 2: Second model targeted 'PC players' and 'IPTV players' | Page 15: 'G-cluster now focused solely on IPTV users' | Page 17: 'the console worked over any wireless network... This expanded G-cluster's customer base to players without IPTV services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Platform", "Application"],
+			"synonyms_found": [
+				"platform",
+				"gaming platform",
+				"cloud gaming platform",
+				"game servers",
+				"applications",
+				"games"
+			],
+			"source_citation": "Page 9: 'G-cluster develops interactive cloud gaming platforms' | Page 10: 'the idea of developing a game platform' | Page 9: 'The platform is operated by the game servers that transmit the game content' | Page 15: 'G-cluster also started to provide its own software development kit (SDK) to game publishers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS"],
+			"synonyms_found": [
+				"over the network",
+				"over 3G network",
+				"over the Internet",
+				"through the web",
+				"over wireless network",
+				"cloud-based",
+				"MPEG stream"
+			],
+			"source_citation": "Page 9: 'The platform is operated by the game servers that transmit the game content as an MPEG stream to the devices of end-users, over the broadband network' | Page 10: 'send game content to mobile phones over the 3G network from a central computer' | Page 12: 'G-cluster started to offer games-on-demand services for PC users over the Internet' | Page 17: 'the console worked over any wireless network if the broadband connection was fast enough'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Proprietary (with licensed content from game publishers)",
+			"synonyms_found": ["licensed", "license", "source code", "binary code"],
+			"source_citation": "Page 10-11: 'The idea was that G-cluster would license game content from content providers (mainly game publishers and other firms developing video or mobile games). Thereafter, G-cluster would port the licensed source code of the game into binary code' | Page 13: 'Finally, after negotiations with several game publishers, including demonstrations of the benefits of the platform, G-cluster was able to license the source code and port it to their platform'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Usage/consumption"],
+			"synonyms_found": ["revenue sharing", "revenue", "renting"],
+			"source_citation": "Page 11: 'The model was to be based on revenue sharing between the partners' | Page 12: 'In this revenue model, the income was shared among the portals, IPTV operators, G-cluster and game licensors' | Page 13: 'Virtual game delivery made possible a variety of revenue models, such as renting the game for a certain time period'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others (revenue sharing based on end-user payments, with options for renting games for certain time periods)",
+			"synonyms_found": ["revenue sharing"],
+			"source_citation": "Page 12: 'the portals and IPTV operators charged the end-users (players) and then divided the income between the partners' | Page 13: 'Virtual game delivery made possible a variety of revenue models, such as renting the game for a certain time period, or packaging a number of games into an attractive collection'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Others (rental model, packaged collections, revenue sharing-based)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 13: 'Virtual game delivery made possible a variety of revenue models, such as renting the game for a certain time period, or packaging a number of games into an attractive collection'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": ["platform", "gaming platform"],
+			"source_citation": "Page 10-11: 'G-cluster connected content providers (game publishers) with telecom operators by providing a platform that could be used to deliver games over the wireless network' | Page 9: 'G-cluster develops interactive cloud gaming platforms... Thus, G-cluster's gaming platform makes it possible to bring games to the cloud environment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Partners/channels"],
+			"synonyms_found": [
+				"3G operators",
+				"telecom operators",
+				"IPTV operators",
+				"portals",
+				"network operators"
+			],
+			"source_citation": "Page 11: 'telecommunication operators to encode the gaming content... and to send it to end-user devices' | Page 12: 'G-cluster used portals and IPTV operators as sales channels to end-users' | Page 14: 'portals handled the marketing activities and the charging of customers' | Page 17: 'G-cluster started to cooperate with network operators'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Cloud gaming platform enabling games to run on servers and stream to end-user devices, avoiding illegal copying and second-hand markets, providing more durable market for games with flexible revenue models, eliminating need for powerful client hardware",
+				"Customer Segment: Evolution from mobile game players (3G users) to PC players and IPTV users, finally to cloud console players and IPTV players with broadband connections",
+				"Channels: Telecommunication operators (3G, IPTV), portals for PC users, network operators, direct through cloud console device",
+				"Key Resources: Gaming platform technology, MPEG streaming, game servers, SDK for game developers, licensed game content, broadband infrastructure",
+				"Key Activities: Porting licensed games to platform (initially), providing SDK and quality assurance (later), platform operation and maintenance, content licensing negotiations",
+				"Key Partnerships: Game publishers (content providers), telecom/IPTV operators (distribution), video-on-demand service providers, set-top box manufacturers, middleware software providers, portals, server manufacturers",
+				"Revenue Streams: Revenue sharing model among partners (portals/IPTV operators charge end-users, divide income between partners including G-cluster and game licensors), flexible models including game rental",
+				"Cost Structure: R&D activities in Finland, platform development and maintenance, game porting costs (reduced after SDK introduction), server infrastructure"
+			],
+			"synonyms_found": [],
+			"source_citation": "Pages 10-17 with Figures 1-4 showing complete business model evolution including all components: product/service (gaming platform), value network (partners and customers), value delivery (distribution channels), and revenue model (revenue sharing)",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"G-cluster (Platform provider) | Develops and operates gaming platform, licenses content, provides SDK | Connects game publishers with distribution channels, revenue sharing with all partners | Central orchestrator of ecosystem",
+				"Game publishers | Content providers and IP owners | Provide source code to G-cluster for licensing, receive revenue share | Supply games to platform, benefit from anti-piracy and extended market lifecycle",
+				"3G/Telecom operators (Model 1) | Infrastructure and distribution channel | Encode gaming content to MPEG stream, transmit to mobile devices, charge end-users | Replaced in later models due to technology limitations",
+				"IPTV operators (Models 2-4) | Infrastructure and distribution channel | Provide broadband network, host G-cluster platform, charge end-users, share revenue | Key partners for reaching customer base with reliable connections",
+				"Portals (Model 2) | Marketing and sales channel for PC users | Add G-cluster service to websites, handle marketing and customer charging, share revenue | Abandoned in Model 3 due to shift away from PC market",
+				"Video-on-demand service providers (Model 2) | Complementary service providers | Provide invoicing system integration, introduce G-cluster to IPTV operators | Mutual non-monetary benefits, removed in Model 3",
+				"Set-top box manufacturers (Model 2) | Hardware component providers | Integrate G-cluster functionality in devices, facilitate IPTV operator contacts | Added value proposition, removed in Model 3",
+				"Middleware software providers (Model 2) | Software infrastructure providers | Enable games-on-demand alongside other TV services | Demonstration value for operators, removed in Model 3",
+				"Server manufacturers (Model 3) | Infrastructure technology partners | Integrate G-cluster technology in servers sold to operators, provide global reach and credibility | No direct business transactions but mutual marketing benefits, removed in Model 4",
+				"Network operators (Model 4) | Distribution partners for cloud console | Market cloud console device, provide wireless network access | Enable expansion beyond IPTV-only customer base",
+				"End-users/Players | Customers consuming games | Pay for games through operators/portals, receive game streaming service | Revenue source for entire ecosystem"
+			],
+			"synonyms_found": [],
+			"source_citation": "Figures 1-4 (pages 11, 12, 15, 17) show complete ecosystem evolution with all actors and relationships. Page 13-14 describes how partners provide 'added value' to G-cluster by helping achieve contracts with operators. Page 22 describes revenue sharing: 'the income was shared among the portals, IPTV operators, G-cluster and game licensors'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Overcome limitations of mobile device hardware - low computing power and memory capacities made it difficult to develop good content for mobile phones",
+				"Address diversity of mobile operating systems and short device lifecycles (new models every 6 months)",
+				"Technological opportunity - maturation of 3G networks and color screen mobile phones enabling new delivery model",
+				"For game publishers: avoid illegal copying (game code never reaches end-users)",
+				"For game publishers: cut down second-hand markets beyond their reach",
+				"For game publishers: more durable market for games (almost free virtual shelf space vs limited physical store space)",
+				"For game publishers: flexible revenue models (renting, packaging collections)",
+				"For network operators: extend product portfolio and differentiate from competitors",
+				"For network operators: increase revenue beyond just connection speed/price competition",
+				"For partners: add new features without competing with existing services",
+				"Low-cost market entry through revenue sharing model without huge upfront investments"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 10: 'computing power and memory capacities of mobile phones would still be relatively low... several models of mobile phones using different operating systems... life cycle of mobile phones was becoming very short' | Page 13: 'illegal copying became impossible... helped to cut down second-hand markets... shelf space was almost free in G-cluster's virtual store... variety of revenue models' | Page 13-14: 'good opportunity to extend the network operators' existing product portfolio... differentiate their offering from that of competitors'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Ability to reassess and pivot business model when infrastructure technology limitations discovered → enabled survival when 3G networks proved inadequate",
+				"Finding alternative infrastructure technologies (IPTV, Internet) → expanded addressable market when original 3G plan failed",
+				"Revenue sharing model → enabled market entry without upfront investments in difficult financial times (post-IT bubble)",
+				"Demonstrating value to all partners (game publishers, operators, complementary providers) → secured participation from key ecosystem actors",
+				"Building valuable partnerships to access resources otherwise unattainable → gained content, marketing channels, credibility through partners",
+				"Product development integrating component technologies → reduced dependency on third parties, easier to sell (Model 3)",
+				"Providing SDK to game developers → enabled rapid game publication, saved porting resources",
+				"Patience and persistence → maintained original idea over 14 years despite being 'over ten years ahead of its time'",
+				"Attracting credible investors and well-known partners → received funding from Intel Capital, NTT, Orange; contracts with Disney, Ubisoft, Warner Bros",
+				"Expanding to cloud console → overcame limitation of being tied solely to IPTV infrastructure"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 11: 'they had to find an alternative way to bring the product to the market' | Page 12: 'revenue sharing was clear to us from the beginning. It was a way to share the risks and profits evenly' | Page 15-16: 'developed a capability allowing rapid publication... much easier to sell, as there is much less integration work' | Page 17: 'after the fourteen years, the original idea is still alive' | Page 23: 'received funding from Broadmedia, Intel Capital, NTT, Orange; contracts with Disney, Ubisoft, Warner Bros'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Adequate broadband network capacity → necessary for real-time MPEG streaming without latency, initially 3G then IPTV/Internet",
+				"Infrastructure technology maturity → 3G permits granted, mobile phones with color screens, IPTV deployment by operators",
+				"Sufficient screen resolution on client devices → needed for acceptable gaming experience",
+				"Licensed game content from publishers → platform needs content to provide value to end-users",
+				"Partners with existing customer base and marketing channels → essential for small firm to reach market",
+				"Fast enough data transfer speed → crucial for real-time bi-directional streaming (game video out, commands in)",
+				"Game servers infrastructure → to run games and encode to MPEG stream",
+				"Integration capabilities with partner systems → invoicing systems, set-top boxes, middleware, web portals",
+				"SDK and development tools → for game developers to code directly for platform (later models)",
+				"Credible reference customers → needed to convince operators without requiring third-party validation (Model 4)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 10: 'infrastructure technology needed for the platform would soon be ready... 3G permits were being granted... first mobile phones with color screens were coming onto the market' | Page 10: 'Would there be 3G networks? What would the cost of data transfer be? Would there be enough broadband capacity available?' | Page 13: 'broadband capacity played an important role as an enabling technology' | Page 13: 'G-cluster needed game content... it was necessary to find network operators who had a broadband network with the IPTV feature'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Infrastructure technology constraints → 3G networks not fast enough, not reliable enough to handle real-time bit-stream without latency, development slower than predicted",
+				"High cost of first 3G mobile phones → expensive for average users, limited addressable market",
+				"Difficulty for small firm to contract with large telecom operators → size and credibility barriers",
+				"Undeveloped IPTV market initially → could not reach enough customers to make business profitable",
+				"Increasing competition in PC game markets → simpler PC games increasingly free, high-end players preferred buying from stores",
+				"Dependency on third parties for component technology → required multiple partners (video-on-demand, set-top box manufacturers, middleware providers) initially",
+				"Limited market coverage when tied solely to IPTV infrastructure → only reached users with IPTV services",
+				"Uncertainty in infrastructure development → could not predict 3G speed, data transfer costs, broadband availability",
+				"Challenges of operating post-IT bubble (early 2000s) → difficult financial environment, investors leaving market, unable to make upfront investments",
+				"Long time to market → original idea 'over ten years ahead of its time'"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 11: 'preconceptions regarding the infrastructure technology – i.e. 3G networks and their capacity – were far too optimistic. The development of 3G networks was not as fast as predicted... 3G network was not reliable enough to handle the real-time bit-stream without latency... first 3G mobile phones were very expensive' | Page 12: 'IPTV market was still undeveloped... could not reach enough customers to make the business profitable' | Page 12-13: 'It was a very challenging time to do any business, at the start of 2000... after the IT bubble and all the investors were leaving the market' | Page 16: 'market coverage in the gaming markets remained relatively small'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Technology evolution uncertainty - future directions of infrastructure technology unpredictable, couldn't see end of process from beginning",
+				"Mismatch between entrepreneur's idea and objective reality/customer perceptions requiring reassessment",
+				"Operating under great uncertainty with both technology and markets uncertain and constantly changing",
+				"Developing for markets that do not yet exist - no pre-existing demand, future unknowable",
+				"Infrastructure technology development slower than predicted - 3G networks not ready as expected",
+				"Finding credible partners and successful pilot projects in difficult post-IT bubble environment",
+				"Demonstrating value to game publishers to license content despite uncertain income",
+				"Accessing large telecom operators as small firm without established relationships",
+				"Acquiring resources (content, marketing, servers) not otherwise available to small firm",
+				"Fierce competition from free PC games and established console game retailers",
+				"High dependency on multiple third parties initially for component technology",
+				"Long development cycle - took over 10 years for market to be ready for original concept",
+				"Need to continuously adapt business model components (product, network, delivery, revenue) as technology and market evolved"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'How can entrepreneurs develop business models for markets in which the technology is constantly changing – or create business models for markets that do not exist?' | Page 9-10: 'There were so many open questions related to the technology and how it would develop in the future' | Page 12-13: 'It was a very challenging time to do any business... continually looking for successful pilot projects, credible partners, and funding' | Page 5: 'an entrepreneur cannot see the end of the process from the beginning... opportunities cannot be observed or fully understood before they are enacted'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Business model reassessment phase → evaluated different courses of action based on technology changes and market conditions, pivoted from 3G to IPTV/PC",
+				"Business model development phase → evolved model toward prevailing market needs based on means available rather than fixed goals",
+				"Trial-and-error learning process → tested reactions of market, adjusted based on feedback",
+				"Finding alternative infrastructure technologies → switched to IPTV and Internet when 3G proved inadequate",
+				"Revenue sharing model → shared risks and profits with partners, avoided need for upfront investments in difficult times",
+				"Demonstrating benefits to all partners → showed game publishers anti-piracy value, showed operators portfolio extension value",
+				"Building strategic partnerships → cooperated with video-on-demand providers, set-top box manufacturers, middleware providers to access operators",
+				"Product development to reduce dependencies → integrated component technologies, provided SDK to reduce need for porting",
+				"Leveraging partner resources → gained content, marketing channels, invoicing systems, credibility from partners",
+				"Establishing credible reference customers → built reputation with well-known IPTV operators to facilitate future negotiations",
+				"Expanding product to new segments → introduced cloud console to overcome IPTV-only limitation",
+				"Patience and persistence → maintained vision over 14 years despite being ahead of market",
+				"Using entrepreneur's abilities, knowledge, imagination and social networks → co-founders leveraged backgrounds in videoconferencing and game physics"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 19: 'In the business model reassessment phase, entrepreneurs evaluate different courses of action based on changes in technology, market conditions' | Page 19: 'In the business model development phase, the business model is developed further... may require additional development of the product to match technological evolution, with changes in market strategy' | Page 12: 'revenue sharing was a way to share the risks and profits evenly with partners... not possible for us to offer any up-front investments' | Page 13-14: Detailed practices for demonstrating value to partners | Page 15-16: Product development to integrate technologies and provide SDK",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Number of interviews; 19 total; count; 2005-2014; case study; Table 1",
+				"Interview length; 45-90 minutes, median 68 minutes; minutes; not specified; case study; Page 7",
+				"Data collection period; 14 years (2000-2014); years; 2000-2014; case study; Page 6",
+				"Establishment year; 2000; year; 2000; case study; Page 9",
+				"Mobile phone lifecycle; approximately 6 months (new models); months; circa 2000; case study observation; Page 9",
+				"Funding received; Multiple rounds from Broadmedia (2005), SBI Investment (2008), Intel Capital (2011), SFR Development (2012), NTT (2013), Orange (2014); not specified; 2005-2014; case study; Page 23",
+				"Business model evolution stages; 4 major business models over 15 years; count; 2000, 2005, 2010, 2014; case study; Figures 1-4",
+				"Years ahead of market; Over 10 years; years; retrospective assessment; case study; Page 17"
+			],
+			"synonyms_found": [],
+			"source_citation": "Table 1, Page 7: '19 interviews... lasting 45–90 min (median: 68 min)' | Page 6: 'data collection for this study incorporated several types of empirical material covering the entire history of the case firm, from 2000 to 2014' | Page 9: 'life cycle of mobile phones was becoming very short, with new models appearing in the market approximately every six months' | Page 23: 'G-cluster received funding from Broadmedia Corporation in 2005, SBI Investment in 2008, Intel Capital in 2011, SFR Development in 2012, NTT in 2013 and Orange in 2014'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2000-2014 (15 years). Maturity status: Emerging to Growing - Original concept created in 1999-2000 was 'over ten years ahead of its time', went through 4 major business model iterations, still searching for 'repeatable and scalable business model' by 2014, though attracting major investors and partners.",
+			"synonyms_found": [],
+			"source_citation": "Page 6: 'The data collection for this study incorporated several types of empirical material covering the entire history of the case firm, from 2000 to 2014' | Page 17: 'after the fourteen years, the original idea is still alive and that it never died, even it was over ten years ahead of its time. And now it fits with current terminology such as 'cloud gaming'' | Page 23: 'If we use the definition by Blank (2012), to the effect that a start-up is a firm that searches for a repeatable and scalable business model, G-cluster was still in that process'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Single case study",
+			"synonyms_found": [
+				"case study",
+				"single-case method",
+				"longitudinal case study"
+			],
+			"source_citation": "Page 6: 'a case study method was selected... The single-case method is useful in providing detailed and empirically rich data' | Page 1: 'The case study presented in this paper addressed these questions, demonstrating how a small software firm developed its business model over a 15-year period' | Page 9: 'The case firm, G-cluster'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"G-cluster → Main case study subject, Finnish cloud gaming platform company established 2000, developed games-on-demand services over 15 years",
+				"Apple → Example of successful opportunity creation leading to market leadership",
+				"Starbucks → Example of successful opportunity creation",
+				"Investors: Broadmedia Corporation (2005), SBI Investment (2008), Intel Capital (2011), SFR Development (2012), NTT (2013), Orange (2014) → Funding partners",
+				"Game publisher partners: Disney, Ubisoft, Warner Bros, Konami, Electronic Arts → Content providers with licensing contracts",
+				"Delivery partners: Broadmedia, SFR, Orange, NTT, FlarePlay → Distribution contracts"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 9: 'The case firm, G-cluster, develops interactive cloud gaming platforms and games-on-demand services... G-cluster was established in Finland in 2000' | Page 23: 'G-cluster received funding from Broadmedia Corporation in 2005, SBI Investment in 2008, Intel Capital in 2011, SFR Development in 2012, NTT in 2013 and Orange in 2014. G-cluster's contracts with game publishers include many well-known brands, including Disney, Ubisoft, Warner Bros, Konami and Electronic Arts. In addition, G-cluster currently has delivery contracts with Broadmedia, SFR, Orange, NTT and FlarePlay' | Page 23: 'one can see in the cases of Apple and Starbucks'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Model 1 (2000): Platform for 3G mobile operators → Gaming platform for 3G networks, targeting mobile game players, revenue sharing with operators and game publishers",
+				"Model 2 (2005): Platform for PC and IPTV → Expanded to Internet portals for PC players and IPTV operators, added multiple intermediary partners (video-on-demand, set-top box manufacturers, middleware), complex value network",
+				"Model 3 (2010): Focused IPTV platform → Solely focused on IPTV users, integrated component technologies in-house, provided SDK to game developers, simplified partner network with server manufacturer, reduced dependency on third parties",
+				"Model 4 (2014): Cloud console + IPTV platform → Introduced physical cloud game console device enabling access without IPTV, expanded to any wireless network with adequate broadband, maintained IPTV relationships while adding network operators, removed server manufacturer partnership"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 8: 'the data were divided into the following categories... (1) business model creation and the first business model (1999–2000), (2) the second business model (2001–2005), (3) the third business model (2006–2010) and (4) the fourth business model (2011–2014)' | Figures 1-4 on pages 11, 12, 15, 17 show complete evolution with detailed descriptions of each model's components",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Terminology evolution - concept now aligns with current 'cloud gaming' terminology, originally called 'server solutions' when cloud term didn't exist",
+				"Continued search for repeatable and scalable business model - still in process as of 2014",
+				"Platform complexity and adoption may increase as infrastructure technology continues maturing",
+				"Potential for rapid large-scale adoption once infrastructure constraints are fully overcome",
+				"Evolution toward standalone console model reducing dependency on specific infrastructure providers (IPTV)",
+				"Continued role of broadband capacity as enabling technology",
+				"Importance of patience in developing business models under uncertainty - may take over 10 years for market readiness",
+				"Need for continuous business model evolution in response to technological changes",
+				"Role of constricting infrastructures in fostering creative processes leading to new business models"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 17: 'after the fourteen years, the original idea is still alive... And now it fits with current terminology such as 'cloud gaming'... when we started there were no terms such as 'cloud,' we talked about server solutions' | Page 23: 'If we use the definition by Blank (2012), to the effect that a start-up is a firm that searches for a repeatable and scalable business model, G-cluster was still in that process' | Page 20: 'even if platform technology may enable rapid and large-scale adoption, the case firm was dependent on the evolution of infrastructure technology' | Page 22: 'constricting infrastructures may also lead to new business models'",
+			"confidence_level": "high"
+		}
+	]
+}

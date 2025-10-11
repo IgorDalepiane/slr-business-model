@@ -1,0 +1,399 @@
+{
+	"extraction_metadata": {
+		"article_title": "Developing enterprise social software in China: insights from Mingdao",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "SaaS (Software as a Service) delivery model for Enterprise Social Software (ESS): A cloud-computing-enabled service model that provides enterprise social collaboration platform applications and solutions via real-time network. The platform enables internal management communication, project management, team collaboration, and knowledge management through an enterprise social network, similar to an internal version of Facebook.",
+			"synonyms_found": [
+				"SaaS",
+				"Software as a Service",
+				"Enterprise Social Software",
+				"ESS",
+				"Enterprise 2.0",
+				"enterprise social collaboration platform",
+				"cloud computing services"
+			],
+			"source_citation": "Page 3: 'according to the industry classification, Mingdao provides cloud computing services. The cloud computing service [delivery] model can be divided into SaaS (Software as a Service), PaaS (Platform as a Service), and IaaS (Infrastructure as a Service)...The new Mingdao platform will also be a standard SaaS.' | Page 3: 'Mingdao will be an enterprise social collaboration platform...to achieve internal management communication, project management, team collaboration, and knowledge management and other tasks, somewhat similar to 'the internal' version of Facebook.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": "Enterprise 2.0, Enterprise Social Network, enterprise social collaboration platform, cloud computing services, SaaS products, platform model, ESS platform",
+			"synonyms_found": [
+				"Enterprise 2.0",
+				"Enterprise Social Network",
+				"enterprise social collaboration platform",
+				"cloud computing services",
+				"SaaS products",
+				"platform model",
+				"ESS platform"
+			],
+			"source_citation": "Page 2: 'There emerged new concepts and models – Enterprise 2.0 and Enterprise Social Network' | Page 3: 'Mingdao will be an enterprise social collaboration platform' | Page 3: 'according to the industry classification, Mingdao provides cloud computing services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Enterprise Social Software and collaboration tools for organizations across multiple industries; B2B SaaS for knowledge management and internal communication",
+			"synonyms_found": [
+				"IT service industry",
+				"enterprise software",
+				"B2B market",
+				"Internet service industry"
+			],
+			"source_citation": "Page 1: 'he had become deeply engaged in the IT service industry for two decades' | Page 9: 'considering our business and operational model, Mingdao belongs to B2B' | Page 12: 'one of the leading firms in China providing Enterprise Social Software via the SaaS delivery model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B SMB, Mid-market",
+			"synonyms_found": [
+				"SMEs",
+				"small and medium enterprises",
+				"enterprises",
+				"organizations"
+			],
+			"source_citation": "Page 9: 'For SMEs, the major benefit of a SaaS public cloud is that customers don't need to spend big money on hardware. The Mingdao platform's design is suitable for any team of 50-200 people.' | Page 9: 'our target customer segments are very clear now: only small and medium enterprises or individual departments of large enterprises' | Page 5: 'we can provide our Mingdao platform to any enterprises via the Internet'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Small to medium-sized companies with teams of 50-200 people; also individual departments of large enterprises",
+			"synonyms_found": [
+				"SMEs",
+				"small and medium enterprises",
+				"team",
+				"enterprises"
+			],
+			"source_citation": "Page 9: 'The Mingdao platform's design is suitable for any team of 50-200 people' | Page 9: 'by 2015, China will have 7 million SMEs that have cloud-based enterprise management system'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "China, specifically Shanghai, Beijing, Guangzhou, Shenzhen, and Hangzhou",
+			"synonyms_found": ["China", "Shanghai", "Beijing", "Chinese"],
+			"source_citation": "Page 1: 'the cold and wet winter in Shanghai' | Page 3: 'Born in 1977 in Shanghai, China' | Page 11: 'Mingdao's platform was constantly launched into the ESS markets in five key cities such as Beijing, Shanghai, Guangzhou, Shenzhen, and Hangzhou.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Small and medium enterprises (SMEs) with 50-200 employees, particularly knowledge-intensive companies needing internal communication and collaboration solutions; also individual departments within large enterprises",
+			"synonyms_found": [
+				"SMEs",
+				"knowledge-intensive company",
+				"enterprises",
+				"organizations"
+			],
+			"source_citation": "Page 2: 'MeiHua information itself is actually a fast-growing, knowledge-intensive company' | Page 9: 'The Mingdao platform's design is suitable for any team of 50-200 people' | Page 2: 'our clients, including many small and medium enterprises, are in need of a platform with features and capability of sharing or exchanging valuable information'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Platform, Application",
+			"synonyms_found": ["platform", "application", "software", "SaaS"],
+			"source_citation": "Page 3: 'Mingdao will be an enterprise social collaboration platform' | Page 13: 'SaaS, one of the three delivery models of cloud-computing service, is any software application that a firm pays to use' | Page 4: 'Mingdao incorporates the patterns of Twitter and a mission center for instant communication and teamwork'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Multi-tenant SaaS (public cloud), Single-tenant cloud (private cloud for large enterprises), Mobile (iOS and Android apps), Desktop (web browser access)",
+			"synonyms_found": [
+				"public cloud",
+				"private cloud",
+				"SaaS",
+				"cloud computing",
+				"mobile",
+				"web browser"
+			],
+			"source_citation": "Page 5: 'Cloud computing has three types: public cloud, private cloud and hybrid cloud...we [may] deploy two: the public and private cloud. Public cloud can be free or low-cost. We can provide our Mingdao platform to any enterprises via the Internet. Additionally, we can also provide a private cloud service by developing a customized Mingdao platform' | Page 4: 'type www.mingdao.com in a web browser to access the platform' | Page 11: 'Our mobile client application has been improving well on smart phone including the iOS and Android system'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Proprietary (for core platform), with Open Core approach (provides API for third-party developers to build applications)",
+			"synonyms_found": ["open platform", "API", "third-party developers"],
+			"source_citation": "Page 4: 'Mingdao provides API entrance, which is open in public to realize open development. Accessible to other third party software' | Page 10: 'Mingdao adopted 'an open policy' for its platform and hoped that many third-party developers would share profit and customers with the company. These third-party developers would build more and more software and applications based on Mingdao platform'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Open API for third-party integration → Enables application marketplace and ecosystem development | Private cloud customization → Requires additional licensing fees and technical support | Third-party applications can be integrated → Compatible with notes connector, Sina Weibo, and other enterprise software like ERP and CRM",
+			"synonyms_found": ["API", "third-party", "integration", "compatibility"],
+			"source_citation": "Page 4: 'Mingdao provides API entrance, which is open in public to realize open development. Accessible to other third party software' | Page 5: 'Installed applications are made by a third-party and can be downloaded, such as meeting room preview, notes connector, Sina Weibo, etc.' | Page 12: 'connecting with more third-party software developers like ERP, CRM or integrating with the recent most-talked about Business Intelligence and Analytics tools'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Subscription (primary revenue source from paid accounts), with dual revenue model: (1) Direct subscription fees from enterprise users (2) Potential fees from third-party developers using the platform",
+			"synonyms_found": [
+				"subscription",
+				"fees",
+				"paid accounts",
+				"advanced accounts"
+			],
+			"source_citation": "Page 9: 'For SMEs [customers] and the subscription fee is low (no more than RMB 10,000 * US$1,570/year)' | Page 11: 'In 2014, about 5% of Mingdao's free accounts were upgraded to advanced accounts, each of which costed RMB3,600 (US$515 per year)' | Page 10: 'in addition to charging users the fees [for using our platform], we may also charge third-party developers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "User/seat (per person pricing)",
+			"synonyms_found": ["per person", "head count", "users"],
+			"source_citation": "Page 10: 'Our categories [of customers] can also be divided into 'Gold' and 'Silver,' pricing is based on head count, say, 5 RMB/person/month' | Page 5: 'private platform will be mainly provided for large enterprises, with more than 3,000 people'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": "Freemium (free basic account and paid advanced account), Trial (30-day free trial period), Tiers/Plans (Gold and Silver categories), Annual contract, Custom negotiation (for private cloud deployments)",
+			"synonyms_found": [
+				"freemium",
+				"free trial",
+				"free basic account",
+				"advanced account",
+				"paid account"
+			],
+			"source_citation": "Page 10: 'In order to attract customers, we must allow them to try our platform first. At the beginning, free [freemium] is the best way' | 'After the 30-day free trial period' | 'Our categories [of customers] can also be divided into 'Gold' and 'Silver'' | Page 11: 'In 2013, Mingdao offered two types of accounts including free basic and advanced accounts' | Page 5: 'The initial account fee may be US$20,000 per year, plus an annual license fee'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "RMB (Chinese Yuan) and USD; Monthly (5 RMB/person/month) and Annual (RMB3,600 per year for advanced accounts, US$20,000 per year for private cloud initial fee)",
+			"synonyms_found": ["RMB", "USD", "monthly", "per year", "annual"],
+			"source_citation": "Page 10: 'pricing is based on head count, say, 5 RMB/person/month' | Page 11: 'each of which costed RMB3,600 (US$515 per year)' | Page 5: 'The initial account fee may be US$20,000 per year, plus an annual license fee'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform, Marketplace",
+			"synonyms_found": ["platform", "marketplace", "two-sided"],
+			"source_citation": "Page 10: 'Mingdao is a typical platform model, in addition to charging users the fees [for using our platform], we may also charge third-party developers' | 'These third-party developers would build more and more software and applications based on Mingdao platform, which is similar to the Android platform' | Page 4: 'Applications market' feature shown in platform characteristics",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value within organization), Cross-sided (third-party developers and users benefit from each other)",
+			"synonyms_found": ["network effects", "collaboration", "sharing"],
+			"source_citation": "Page 5: 'When an application is downloaded and used, it can be shared with other people using the 'dynamic internal share' function, then other colleagues can also access this application and download it. The higher the utilization rate, the easier the collaboration between you and your colleagues becomes and more potential benefits are gained' | Page 10: 'Third-party developers, by adding Mingdao applications into their software, could have additional benefits such as strong promotional support applications, or quick access to Mingdao's customer base'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Product-led Growth (free trial and freemium model), Direct sales (Mingdao advisers in 13 cities), Referral (word-of-mouth marketing), Digital marketing (forums, events, online presence)",
+			"synonyms_found": [
+				"free trial",
+				"sales teams",
+				"referral",
+				"word-of-mouth",
+				"forum",
+				"marketing"
+			],
+			"source_citation": "Page 4: 'Mingdao has a free trial version for adopters to let them know clearly about the characteristics of the platform' | Page 10: 'Our sales teams, called Mingdao advisers, have been established in 13 cities with more than 100 professionally trained consultants' | Page 11: 'Thanks to the word-of-mouth marketing, almost half of the new customers were referred from current customers' | Page 11: 'There were a number of successful co-hosting events in the social enterprise area, such as Mingdao Forum'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes - Has its own application marketplace within the platform where third-party applications can be downloaded (similar to Android marketplace model)",
+			"synonyms_found": [
+				"application market",
+				"applications market",
+				"marketplace"
+			],
+			"source_citation": "Page 4: 'Applications market' listed in platform characteristics | Page 11: 'Mingdao enterprise application market' (Figure 9) | Page 5: 'Installed applications are made by a third-party and can be downloaded, such as meeting room preview, notes connector, Sina Weibo, etc.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Value Proposition: Enterprise social collaboration platform for internal communication, knowledge management, project management, and team collaboration | Customer Segment: SMEs with 50-200 people, individual departments of large enterprises, knowledge-intensive companies | Channels: Direct sales teams in 13 cities, web platform access, mobile apps, free trial, word-of-mouth referrals, Mingdao Forums | Relationship: Freemium model with 30-day trial, tiered accounts (free basic and paid advanced), customer support, annual renewals | Revenue Streams: Subscription fees (5 RMB/person/month or RMB3,600/year for advanced), private cloud licensing (US$20,000+/year), potential third-party developer fees | Key Resources: R&D team with expertise in enterprise software, platform technology, API infrastructure, knowledge base, customer base | Key Activities: Platform development, customer onboarding, training and support, ecosystem management, sales and marketing | Key Partnerships: Third-party developers, MeiHua Information (parent company), angel investors, enterprise customers | Cost Structure: R&D and platform development, sales team operations, customer service, infrastructure and hosting, marketing events",
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Mingdao will be an enterprise social collaboration platform...to achieve internal management communication, project management, team collaboration, and knowledge management' | Page 9: 'suitable for any team of 50-200 people' | Page 10: 'Our sales teams...have been established in 13 cities' | Page 10: 'free [freemium] is the best way' | Page 3: 'The Mingdao R&D team developed more than a dozen product categories. This team has expertise and experience in the enterprise software product design architecture'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": "Mingdao (platform provider) | Central platform operator | Provides platform, manages marketplace, charges subscription fees | Interacts with all other actors | Enterprise customers (SMEs, departments) | Platform users | Pay subscription fees, use platform for collaboration, provide feedback | Interact with Mingdao and employees | Employees/End users | Platform users | Register accounts, collaborate, share knowledge, use applications | Interact within their organizations through platform | Third-party developers | Application providers | Build apps on Mingdao API, access customer base, potentially pay fees | Integrate with Mingdao platform | Mingdao advisers/Sales teams | Customer acquisition | Provide consulting, training, and sales in 13 cities | Connect enterprises with platform | MeiHua Information | Parent company/investor | Provided initial platform, invested RMB8 million, shares resources | Strategic partnership with Mingdao | Angel investors | Funding providers | Provided RMB20 million investment | Support platform growth | Competitors (Yammer, Slack, Yunzhijia, Tita) | Market players | Provide alternative ESS solutions | Create competitive pressure",
+			"synonyms_found": [
+				"ecosystem",
+				"third-party developers",
+				"customers",
+				"users",
+				"sales teams"
+			],
+			"source_citation": "Page 10: 'Mingdao adopted 'an open policy' for its platform and hoped that many third-party developers would share profit and customers with the company' | Page 10: 'Our sales teams, called Mingdao advisers, have been established in 13 cities' | Page 5: 'one enterprise customer was very keen on the prospect and potential of Mingdao's platform project and proposed to offer Mingdao an angel investment worthy of RMB20 million' | Page 10: 'In China, around this time, Yunzhijia and Tita also emerged as leading ESS providers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Need for better internal communication and collaboration; Overcoming horizontal-level communication between departments and vertical-level communication challenges; Knowledge management requirements for knowledge-intensive companies; Sharing valuable information across organizations beyond just decision-makers; Low utilization rates of traditional OA and CRM systems; Desire for flat, open, and transparent organizational culture; Mobile and flexible work requirements; Cost savings compared to traditional enterprise software; Fast deployment without hardware investment",
+			"synonyms_found": ["motivation", "need", "demand", "requirements"],
+			"source_citation": "Page 2: 'the communication and collaboration is a big problem [for us and many others]. For instance, one issue is the horizontal-level communication between departments, and the other is the vertical-level communication within the organization' | 'our clients, including many small and medium enterprises, are in need of a platform with features and capability of sharing or exchanging valuable information and content' | Page 3: 'the rate of utilization in organizations is not that high...the traditional OA systems may not improve efficiency and even stifle innovation in enterprises'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Free trial and freemium model → Attracts users to try platform → High adoption rates | Word-of-mouth marketing → Current customers refer new ones → 50% of new customers from referrals | High renewal rates → Customer satisfaction → 90% of advanced account users renewed | User experience focus → Platform meets IT needs → Increased sales revenue and fast customer acquisition | Active user engagement → Prominent users encourage others → Platform adoption success | Mobile accessibility → Work anywhere capability → Higher utilization | Open platform with API → Third-party ecosystem → More applications and value | Management involvement → Leadership participation → Cultural adoption across organization | Simple deployment → Fast setup without training → Lower adoption barriers | Adequate funding → Angel investment + parent company investment → Platform development and operations",
+			"synonyms_found": [
+				"success factors",
+				"revenue growth",
+				"customer acquisition"
+			],
+			"source_citation": "Page 11: 'more than 90% of advanced account users renewed their account in 2014' | 'Thanks to the word-of-mouth marketing, almost half of the new customers were referred from current customers' | Page 11: 'user experience comes at the top...if our products can make users satisfied, sales revenue will be significantly increased and our customer acquisition would be very fast' | Page 7: 'within a month, the adoption of the Mingdao platform in their own organization was booming'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Good Internet connection → Enables cloud platform access | Cloud computing infrastructure maturity → Supports SaaS delivery | Mobile Internet technology (3G) and smartphones → Enables mobile office capability | Open and transparent cultural mindset among users → Facilitates platform adoption | Management support and participation → Drives organizational adoption | Training and behavioral change → Develops collaboration habits | Critical mass of users within organization → Creates network effects | Adequate funding → Supports development and operations | Technical capability for platform development → Builds and maintains system | For private cloud: IT management capabilities in client organization → Enables customization",
+			"synonyms_found": ["prerequisites", "conditions", "requirements"],
+			"source_citation": "Page 4: 'With a good Internet connection, type www.mingdao.com in a web browser to access the platform' | Page 3: 'because of the strong evolution of cloud computing, the infrastructure and services have become quite easy to build' | Page 3: 'thanks to the popularity of mobile Internet technologies [3G] smart devices now have been widely used' | Page 3: 'more and more young Chinese people have changed their minds and prefer an open, transparent culture' | Page 5: 'these [companies] should have strong IT management capabilities'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Private cloud deployment → High customization costs and difficulty to replicate → Limits scalability | Requires technical support staff for each client → Increases operational costs | Low conversion rate from free to paid → Only 5% of free accounts upgrade → Revenue generation challenge | User inertia and behavioral change needed → Requires norms and training → Adoption barriers | B2B market receives less attention than B2C → Lacks social and government support → Funding challenges | Dependence on adequate funding → Needed for operations → Sustainability risk | Competition from free offerings → Other companies offer similar products free → Market pressure",
+			"synonyms_found": [
+				"restrictions",
+				"challenges",
+				"difficulties",
+				"limitations"
+			],
+			"source_citation": "Page 5: 'private platform deployment has its own difficulties. This is the customization mode. Each client firm needs engineers [technical support] and customer service, and it is difficult to replicate' | Page 11: 'In 2014, about 5% of Mingdao's free accounts were upgraded to advanced accounts' | Page 7: 'People have inertia and need norms to constrain their behaviors' | Page 12: 'Unlike the B2C market, the B2B market in fact receives relatively little attention, and thus, B2B enterprises like Mingdao lack social and government support'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Initial platform failure due to wrong focus on external rather than internal information sharing; High competition from established players like IBM, Microsoft/Yammer, and local competitors offering free services; Converting free trial users to paid subscribers with acceptable conversion rates; Determining optimal pricing model and trial period duration; Limited funding compared to US competitors (Slack raised $43M in 3 months); Building competitive barriers in crowded market; Lack of genuine interest from non-marketing staff in early trials; Need to change staff working habits and behaviors; Balancing private cloud (profitable but not scalable) vs public cloud (scalable but slower to profit); Intense B2B market competition with small potential customer base per company; Understanding when and how to charge customers appropriately; Need for continuous platform upgrades and new features; Security and legal issues concerns",
+			"synonyms_found": ["challenges", "problems", "difficulties", "issues"],
+			"source_citation": "Page 2: 'the system trial turned out to be a failure. Apparently in MeiHua, outside the marketing staff, others had no genuine interest in using the platform' | Page 10: 'Some big names, such as IBM and Microsoft, already launched their own ESS and solutions' | Page 12: 'a number of companies in China now offer similar Enterprise 2.0 products, and even offer them free-of-charge, how could Mingdao build barriers to competition' | Page 10: 'In America, one company, named Slack, [is] doing a similar business, and it received US$43 million funding just 3 months after its establishment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Pivoting platform focus from external to internal information sharing → Aligned with actual enterprise needs → Successful platform revival | Starting with private cloud deployments → Generated quick profits from few big clients → Provided funding for public cloud development | Freemium model with 30-day trial → Allows customers to try before buying → Increases adoption | Testing platform internally first → Understanding employee satisfaction and needs → Better product-market fit | Defining clear usage norms (3-5 simple rules) → Helps teams develop collaboration habits → Faster adoption | Management participation and encouragement → Full participation at all levels → Cultural change success | Rewarding active users publicly → Motivates engagement → Increases platform utilization | Creating flexible cross-functional groups → Enables project-based collaboration → Better communication | Word-of-mouth marketing strategy → Reduces advertising costs, 50% of customers from referrals → Cost-effective growth | Building sales teams in 13 cities → Direct customer access and support → Better customer acquisition | Open API platform strategy → Attracts third-party developers → Expands ecosystem and functionality | Continuous platform upgrades → Improves user interface and features → Maintains competitiveness | Mobile app development → Enables work on the move → Increases accessibility",
+			"synonyms_found": ["practices", "strategies", "solutions", "approaches"],
+			"source_citation": "Page 2: 'The objective of Mingdao needs to be changed...about the internal information sharing and collaboration. [The internal] is more important' | Page 5: 'if we develop Mingdao based on private cloud first, we can quickly get profit from a few [big] clients and this strategy is very important for our team' | Page 6: 'deploying Mingdao was more like optimizing an internal communication system, fostering a sharing and collaborative culture, cultivating better work habits' | Page 7: 'Only three to five similar norms can help the team quickly develop the habit'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Sales revenue 2013; RMB 2 million; CNY; 2013; Company records; Primary data | Sales revenue 2014 target; RMB 20 million; CNY; 2014; Company projection; Primary data | Advanced account renewal rate; 90%; Percentage; 2014; Company records; Primary data | Free to paid conversion rate; 5%; Percentage; 2014; Company records; Primary data | Referral rate; 50%; Percentage; 2014; Word-of-mouth; Primary data | Advanced account price; RMB 3,600; CNY per year; 2014; Pricing model; Primary data | Team size target; 50-200; People; NA; Platform design; Primary data | Private cloud initial fee; US$20,000; USD per year; NA; Pricing model; Primary data | Private cloud profit per customer; US$30,000+; USD; NA; Estimated; Primary data | Angel investment; RMB 20 million; CNY; 2013; Investment round; Primary data | MeiHua investment; RMB 8 million; CNY; 2013; Investment round; Primary data | Private cloud deployments; 7; Count; By 2013; Company records; Primary data | Sales teams; 13; Cities; NA; Operations; Primary data | Sales consultants; 100+; People; NA; Operations; Primary data | China SMEs with cloud systems by 2015; 7 million; Enterprises; 2015 projection; IDC research; Secondary data | Baidu searches for enterprise apps; 1 million; Per day; NA; Market analysis; Secondary data | Enterprise software bidders; 100+; Companies; NA; Market analysis; Secondary data | Slack funding; US$43 million; USD; 3 months after founding; Industry report; Secondary data | Microsoft Yammer acquisition; US$1.2 billion; USD; June 26, 2012; Industry report; Secondary data",
+			"synonyms_found": [],
+			"source_citation": "Page 11: 'Sales revenue reached RMB2 million (US$285,700) and more than 90% of advanced account users renewed their account in 2014. Mingdao therefore expected to increase its 2014 sales revenue by 10 times – up to RMB20 million' | 'In 2014, about 5% of Mingdao's free accounts were upgraded to advanced accounts, each of which costed RMB3,600' | 'almost half of the new customers were referred from current customers' | Page 5: 'Mingdao can make more than US$30,000 in profit from a single large enterprise customer'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2009-2015 (platform first suspended 2009-2011, revived 2011-2012, formally launched January 2014, company established August 2013, case written looking at 2015 challenges) | Maturity status: Growing",
+			"synonyms_found": ["growing", "early stage", "startup", "development"],
+			"source_citation": "Page 2: 'Back in 2009, he was enthusiastically making a presentation' | 'the platform was fully built' in 'early 2011' | Page 5: 'On the 20th of August 2013, Shanghai Mingdao Software Co., Ltd. was formally established' | Page 3: 'In January 2014, the Mingdao enterprise social collaboration platform was officially launched' | Page 12: 'Late at night after a record-breaking wet summer day of 2015'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Single case study (teaching case)",
+			"synonyms_found": ["case study", "teaching case"],
+			"source_citation": "Page 1: 'Teaching Case' | 'In this paper, we introduce the case of a leading firm in China called Mingdao' | 'Our teaching case gives insights into how Mingdao experienced its platform's early tortuous design and development'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": "Mingdao → Main case study company providing ESS via SaaS in China | MeiHua Information → Parent company providing marketing intelligence, founded by Ren in 2002 | Yammer → US Enterprise 2.0 platform, acquired by Microsoft for $1.2B in 2012 | Slack → US competitor that raised $43M in 3 months | IBM and Microsoft → Big competitors with ESS solutions | Yunzhijia → Chinese ESS provider competitor | Tita → Chinese ESS provider competitor | QQ and Wechat → Examples of high-utilization communication tools by Tencent | Skype → Communication tool and freemium model example | Gmail → SaaS email example | Facebook → Comparison for internal social network concept | Twitter → Pattern inspiration for Mingdao features | Baidu → Search engine and open platform example | Tencent → Open platform example | Android → Platform model comparison | iResearch → Marketing research firm, predecessor founded by Ren | NetSuite ERP, IBM Watson Analytics, Microsoft PowerBI, Salesforce → SaaS examples mentioned",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'we introduce the case of a leading firm in China called Mingdao' | Page 2: 'In 2011, in America, some companies (e.g., Yammer) developed an Enterprise 2.0 software platform' | Page 10: 'In America, one company, named Slack' | 'In China, around this time, Yunzhijia and Tita also emerged as leading ESS providers' | Page 10: 'Some big names, such as IBM and Microsoft' | Page 3: 'similar to 'the internal' version of Facebook' | Page 13: 'NetSuite ERP, IBM Watson Analytics, Microsoft PowerBI or Salesforce are good examples of SaaS'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": "Public Cloud SaaS → Free basic account and paid advanced account tiers → For SMEs and individual departments, scalable model | Private Cloud SaaS → Customized deployment with annual licensing → For large enterprises (3,000+ employees) with strong IT capabilities, high-touch model | Free Basic Account → Limited features, unlimited users → Suitable for SMEs to try | Advanced Account (Gold/Silver tiers) → Unlimited storage, personalized interface, management controls, many applications → For paying customers at RMB 3,600/year or 5 RMB/person/month",
+			"synonyms_found": [
+				"public cloud",
+				"private cloud",
+				"free account",
+				"advanced account",
+				"basic",
+				"Gold",
+				"Silver"
+			],
+			"source_citation": "Page 5: 'we [may] deploy two: the public and private cloud. Public cloud can be free or low-cost...we can also provide a private cloud service by developing a customized Mingdao platform' | Page 4: 'Free module: Free trial mode: suitable for SMEs...Advanced mode: SME enterprises can use Mingdao with unlimited storage, personalized interface, management and control functions' | Page 10: 'Our categories [of customers] can also be divided into 'Gold' and 'Silver''",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Shift from private cloud to public cloud focus for scalability; Need for continuous platform upgrades and feature enhancements; Integration with more third-party software (ERP, CRM, Business Intelligence and Analytics tools); Addressing industry-specific requirements and customization; Increasing importance of security and legal compliance; Growth of China's cloud-based enterprise management market (7 million SMEs by 2015); Evolution of organizational structures toward flatter, more transparent cultures; Importance of mobile and flexible work arrangements; Need for better conversion strategies from free to paid users; Platform ecosystem expansion with more third-party developers; Potential for industry segment specialization",
+			"synonyms_found": [
+				"future",
+				"trends",
+				"evolution",
+				"growth",
+				"development"
+			],
+			"source_citation": "Page 9: 'our target should be SaaS based on the public cloud' | 'by 2015, China will have 7 million SMEs that have cloud-based enterprise management system' | Page 12: 'connecting with more third-party software developers like ERP, CRM or integrating with the recent most-talked about Business Intelligence and Analytics tools should be placed high on Mingdao's R&D agenda' | 'Mingdao may need to consider industry segments' particular requirements as well as security and legal issues'",
+			"confidence_level": "high"
+		}
+	]
+}

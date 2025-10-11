@@ -1,0 +1,595 @@
+{
+	"extraction_metadata": {
+		"article_title": "Managing Software-as-a-Service: Pricing and operations",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Software-as-a-Service (SaaS). The National Institute of Standards and Technology (NIST) defines SaaS as the capability provided to the consumer of using the provider's applications running on a cloud infrastructure where the applications are accessible from various client devices and interfaces and the consumer generally does not manage or control the infrastructure.",
+			"synonyms_found": ["SaaS", "Software-as-a-service"],
+			"source_citation": "Page 1, lines 54-59: 'The National Institute of Standards and Technology (NIST) defines SaaS as the capability provided to the consumer of using the provider's applications running on a cloud infrastructure where the applications are accessible from various client devices and interfaces and the consumer generally does not manage or control the infrastructure (Mell & Grance, 2011).'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"SaaS",
+				"Software-as-a-service",
+				"SaaS services",
+				"cloud services",
+				"cloud-based services"
+			],
+			"synonyms_found": [
+				"SaaS",
+				"Software-as-a-service",
+				"SaaS services",
+				"cloud services",
+				"cloud-based services"
+			],
+			"source_citation": "Page 1, lines 16-17: 'Software-as-a-service (SaaS) applications' | Page 1, line 39: 'software-as-a-service (SaaS) services' | Page 17, line 1617: 'A transformation toward cloud-based services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Multiple industries including: music streaming (Apple Music, Spotify, Netflix), hotel management (ZJ Technology), customer service automation (ServiceNow), supply chain analytics (Noodle.ai), CRM (Salesforce.com), cloud computing, enterprise applications",
+			"synonyms_found": [
+				"SaaS",
+				"cloud computing",
+				"enterprise applications",
+				"digital services"
+			],
+			"source_citation": "Page 2, lines 169-175: 'ZJ Technology, a hotel management SaaS provider' | Page 3, lines 210-218: 'Apple Music streaming service' | Page 9, lines 866-868: 'ServiceNow, a SaaS provider of customer service automation' | Page 8, lines 745-746: 'Noodle.ai offers AI-as-a-service to help firms improve their operations and supply chains' | Page 15, lines 1497-1499: 'Salesforce.com transformed itself into a platform of enterprise business applications'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["B2C", "B2B SMB", "Mid-market", "Enterprise"],
+			"synonyms_found": [
+				"consumers",
+				"business customers",
+				"enterprise clients",
+				"IT executives"
+			],
+			"source_citation": "Page 1, lines 18-19: 'day-to-day activities of businesses and consumers' | Page 3, lines 240-242: 'Benlian and Hess (2011) analyze a survey of 349 German IT executives' | Page 3, lines 219-220: 'Apple Music charged a $9.99/month subscription fee for an individual user and $14.99/month for a family' | Page 2, lines 169-176: 'most customers share the same database and tables (except for some large enterprise clients)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Companies of various sizes including startups, SMEs, and large technology corporations. Examples include large companies like Apple Inc., Microsoft, Adobe Systems Inc., Netflix, ServiceNow, and startups like Noodle.ai (founded in 2016).",
+			"synonyms_found": ["SaaS providers", "providers", "firms", "companies"],
+			"source_citation": "Page 3, lines 210-217: 'Apple Inc. has operated an iTunes Store' and 'Apple Inc. launched the Apple Music streaming service' | Page 4, lines 288-291: 'Adobe Systems Inc., stop selling boxed-software and become SaaS providers' | Page 8, lines 745-746: 'Founded in 2016, Noodle.ai offers AI-as-a-service' | Page 9, lines 846-847: 'Since many SaaS start-ups go global at their early age'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": [
+				"United States",
+				"Europe (United Kingdom, Ireland, Netherlands, Germany)",
+				"Global (over 100 countries)",
+				"China"
+			],
+			"synonyms_found": ["U.S.", "USA", "European Union", "EU", "U.K."],
+			"source_citation": "Page 3, lines 217-218: 'Apple Inc. launched the Apple Music streaming service in over 100 countries' | Page 3, lines 240-241: 'a survey of 349 German IT executives' | Page 9, lines 882-883: 'ServiceNow adds private data centers in the United Kingdom, Ireland, and the Netherlands' | Page 13, lines 1245-1248: 'General Data Protection Regulation (GDPR) in the European Union (EU) and the Children's Online Privacy Protection Act (COPPA) and the California Online Privacy Protection Act (CalOPPA) in the United States' | Page 15, lines 1406-1407: 'NetEase Cloud Music (NCM), one of the most popular music streaming services in China'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Individual consumers and business customers. For consumers: individual users, family users. For business: IT executives, enterprise clients, small and medium businesses, CPG industry leaders.",
+			"synonyms_found": ["users", "customers", "subscribers", "clients"],
+			"source_citation": "Page 3, lines 219-220: 'Apple Music charged a $9.99/month subscription fee for an individual user and $14.99/month for a family (up to six family members)' | Page 3, lines 240-242: 'Benlian and Hess (2011) analyze a survey of 349 German IT executives and find that cost advantages affect perceptions of SaaS opportunities heavily' | Page 3, lines 234-239: 'Global CPG (consumer packaged goods) leaders spent decades capturing and organizing data' | Page 10, lines 982-984: '23% of small and medium businesses surveyed said the per-hour cost of IT system-related downtime for their business was more than $40,001'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Application",
+				"Platform",
+				"API",
+				"Managed Service",
+				"Infrastructure"
+			],
+			"synonyms_found": [
+				"SaaS applications",
+				"cloud infrastructure",
+				"enterprise applications",
+				"business applications"
+			],
+			"source_citation": "Page 1, lines 16-17: 'Software-as-a-service (SaaS) applications' | Page 1, lines 68-69: 'integration with third-party application programming interface (API)' | Page 9, lines 869-872: 'ServiceNow housed its SaaS on Microsoft Azure' and 'Azure service features computing instances' | Page 15, lines 1497-1499: 'Salesforce.com transformed itself into a platform of enterprise business applications'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Multi-tenant SaaS",
+				"Private cloud",
+				"Public cloud",
+				"Hybrid cloud",
+				"Mobile",
+				"Desktop"
+			],
+			"synonyms_found": [
+				"cloud infrastructure",
+				"Internet delivery",
+				"multitenancy"
+			],
+			"source_citation": "Page 1, lines 61-64: 'key differences between SaaS and traditional software are Internet delivery and multitenancy' | Page 2, lines 169-171: 'ZJ Technology, a hotel management SaaS provider, features multitenant data architecture where most customers share the same database and tables' | Page 10, lines 905-909: 'private cloud is a cloud infrastructure for exclusive use by a single organization, public cloud is a cloud infrastructure open to the general public, and hybrid cloud is a combination of distinct cloud infrastructures (private, public, etc.)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Subscription",
+				"Usage/consumption",
+				"Transaction",
+				"Advertising"
+			],
+			"synonyms_found": [
+				"subscription fee",
+				"usage-based pricing",
+				"pay-per-use",
+				"advertisement revenue"
+			],
+			"source_citation": "Page 3, lines 218-220: 'Apple Music charged a $9.99/month subscription fee for an individual user' | Page 3, lines 309-310: 'subscription pricing (a.k.a., flat-fee), two-part tariff (2PT), and three-part tariff (3PT) are ubiquitous choices' | Page 4, lines 360-363: 'Li et al. (2020) incorporate an additional ad-supported option for digital music and find that subscription pricing (e.g., Apple Music) is preferred to a fee per song (e.g., iTunes) when usage cost and advertisement revenue are low' | Page 7, lines 674-676: 'The data set in Poyar (2020) indicates that 38% of SaaS companies adopt pricing plans based on usage (transactions, storage, computing, servers)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"User/seat",
+				"API calls",
+				"Computing time",
+				"Storage",
+				"Transactions"
+			],
+			"synonyms_found": ["per-unit usage", "usage", "number of users"],
+			"source_citation": "Page 3, lines 325-327: 'some SaaS applications charge by the number of users (e.g., Apple Music family plans) with possible quantity discounts' | Page 4, lines 312-314: 'a per-unit usage fee (denoted as u) where the service quantity (usage) is denoted as q' | Page 7, lines 674-676: 'The data set in Poyar (2020) indicates that 38% of SaaS companies adopt pricing plans based on usage (transactions, storage, computing, servers)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Freemium",
+				"Trial",
+				"Tiers/Plans",
+				"Pay-as-you-go",
+				"Prepaid credits",
+				"Annual contract"
+			],
+			"synonyms_found": [
+				"subscription pricing",
+				"two-part tariff",
+				"three-part tariff",
+				"tiered pricing",
+				"free trial"
+			],
+			"source_citation": "Page 2, line 82: 'the variety of pricing options, low prices, and free trials' | Page 3, lines 309-310: 'subscription pricing (a.k.a., flat-fee), two-part tariff (2PT), and three-part tariff (3PT) are ubiquitous choices' | Page 4, lines 321-322: 'tiered (nonlinear) pricing and pay-per-use pricing' | Page 11, lines 1012-1016: 'Ma and Kauffman (2014) consider pricing strategies and quality choices in duopoly competition of SaaS providers where customers sample (free-trial), learn their true fit' | Page 17, lines 1667-1674: 'Despite the attractiveness of freemium' and 'tiered pricing combines tariff and bundling by offering several price points with limited usage allowance and features'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "USD, monthly. Also mentioned: yearly, per billing period.",
+			"synonyms_found": [
+				"monthly",
+				"yearly",
+				"per-period",
+				"per billing period"
+			],
+			"source_citation": "Page 3, lines 218-220: 'At launch, Apple Music charged a $9.99/month subscription fee for an individual user and $14.99/month for a family' | Page 7, lines 664-666: 'Typically, the price of a core bundle of SaaS applications is for a monthly, yearly, or permanent license' | Page 3, line 269: 'revenue structure (one-time vs. usage-based per billing period)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Standalone product",
+				"Two-sided platform",
+				"Marketplace",
+				"Plugin/Complement"
+			],
+			"synonyms_found": [
+				"platform",
+				"marketplace",
+				"third-party apps",
+				"integration"
+			],
+			"source_citation": "Page 15, lines 1497-1503: 'Salesforce.com transformed itself into a platform of enterprise business applications where customers could subscribe to each service to customize their IT solution. The Salesforce platform differentiated from incumbents such as Oracle by encouraging developers to create third-party apps on the platform' | Page 2, lines 85-87: 'integration with platforms, social networks, and user devices' | Page 5, lines 441-442: 'In two-sided networks, the network externality coupling encourages unbundling and subsidizing one side to increase transactions volume'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Direct (more users = more value)",
+				"Cross-sided (distinct groups benefit)",
+				"Data (more data = better product)"
+			],
+			"synonyms_found": [
+				"network effects",
+				"network externality",
+				"user-generated data"
+			],
+			"source_citation": "Page 4, lines 294-296: 'Feng et al. (2018) show that a high-quality entrant to a SaaS market dominated by an incumbent prefers instant release of the service with high pricing under within-product and cross-product network effects' | Page 5, lines 526-530: 'Apple Music and Spotify allow listeners to learn from the tastes of each other based on social networks (Hagiu & Wright, 2020), which in turn would dynamically impact usage and willingness-to-pay (WTP) for a music streaming subscription' | Page 6, lines 613: 'f(n1) is the value of user-generated data at t2' | Page 12, lines 1155-1157: 'the data collected from subscribers enable Netflix to cater to their tastes and add new shows to leverage on network effects'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Product-led Growth",
+				"Direct sales",
+				"Partners/channels",
+				"Marketplaces",
+				"Digital marketing"
+			],
+			"synonyms_found": [
+				"free trials",
+				"demos",
+				"LAER model",
+				"Internet marketing"
+			],
+			"source_citation": "Page 2, lines 83-84: 'Internet marketing, fierce competition, and viability of specialized services' | Page 3, lines 245-248: 'potential SaaS customers want to evaluate the software prior to purchase, and proving the value via demos (e.g., Zendesk) and pricing can facilitate the purchase and migration' | Page 3, lines 249-253: 'many business customers start from a basic SaaS application before moving to sophisticated SaaS applications following the LAER (Land, Adopt, Expand, Renew) model' | Page 4, lines 261-264: 'We've been successful because we have successful customers, a rabid fan base. These guys tell their friends, these guys take us with them to their next gig'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes. AWS Marketplace, Azure Marketplace, Google Cloud Marketplace, Salesforce platform, Atlassian Marketplace.",
+			"synonyms_found": [
+				"AWS",
+				"Amazon Web Services",
+				"Microsoft Azure",
+				"Google Cloud",
+				"cloud computing providers"
+			],
+			"source_citation": "Page 8, lines 752-753: 'once trained, it is hosted on Amazon Web Services (AWS) for clients' | Page 9, lines 869-870: 'In 2019, ServiceNow housed its SaaS on Microsoft Azure' | Page 13, lines 1197-1198: 'more than 540 million records about Facebook users were publicly leaked on AWS' | Page 17, lines 1662-1666: 'Dropbox integrates with many platforms including Salesforce and SAP. As another example, Boomi's AtomShere product invests in technical capabilities to interoperate with Salesforce, SAP, and Taleo'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Software applications delivered via Internet with multitenancy, no geographical constraint, ease of monitoring user behavior, analytics and improvements based on user-generated data, scalability and rapid elasticity",
+				"Customer Segment: Businesses and consumers, heterogeneous clients, IT executives, enterprise customers, individual users",
+				"Channels: Internet delivery, platforms, social networks, user devices, direct sales, demos, free trials",
+				"Revenue Streams: Subscription fees, usage-based pricing, two-part tariff, three-part tariff, transaction fees, advertising",
+				"Key Resources: Cloud infrastructure (private, public, hybrid), data centers, computing capacity, user-generated data",
+				"Key Activities: Service delivery, capacity management, quality of service management, security and privacy protection, usage analytics, customer support",
+				"Key Partnerships: Cloud computing providers (AWS, Azure), platform partnerships (Salesforce, SAP), third-party developers",
+				"Cost Structure: Infrastructure costs, service costs, capacity costs, usage costs, variable costs"
+			],
+			"synonyms_found": [
+				"business model",
+				"pricing",
+				"operations",
+				"customer value proposition",
+				"profit formula"
+			],
+			"source_citation": "Page 2, lines 110-117: 'Johnson et al. (2008) define a business model as interlocking elements that create and deliver value together: customer value proposition, profit formula, key resources, and key processes' | Page 1-2, lines 64-91: unique features and business characteristics include 'Internet delivery', 'multitenancy', 'variety of pricing options', 'integration with platforms', 'analytics and improvements based on user-generated data', 'scalability, rapid elasticity' | Page 2, lines 118-124 and Figure 2: 'pricing and operations characterize the provider's profit formula (revenue and cost) by utilizing key resources and implementing key processes'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"SaaS Providers | Deliver applications to end users | Acquire infrastructure from cloud providers, integrate with platforms, compete with other SaaS providers",
+				"Cloud Infrastructure Providers (AWS, Azure, Google Cloud) | Provide computing resources, storage, infrastructure | Sell services to SaaS providers, compete on pricing and quality",
+				"Platform Operators (Salesforce, SAP) | Host third-party applications | Enable SaaS providers to operate on their platform, may compete with SaaS providers",
+				"End Users/Customers | Consume SaaS applications | Pay subscription fees, generate data, provide feedback",
+				"Third-party Developers | Create complementary applications | Integrate with platforms and SaaS providers",
+				"Competitors (OTS software providers) | Offer alternative solutions | Compete with SaaS providers for market share"
+			],
+			"synonyms_found": [
+				"providers",
+				"customers",
+				"users",
+				"platforms",
+				"infrastructure providers",
+				"developers"
+			],
+			"source_citation": "Page 11, lines 1076-1079: 'Anselmi et al. (2017) model a marketplace with users purchasing services from SaaS providers, which in turn acquire computing resources from infrastructure providers such as AWS' | Page 15, lines 1501-1503: 'The Salesforce platform differentiated from incumbents such as Oracle by encouraging developers to create third-party apps on the platform' | Page 4, lines 272-279: 'For many software markets, incumbents remain providers of off-the-shelf (OTS) software that is often customized for heterogeneous clients, whereas SaaS is not' and 'Ma and Seidmann (2015) examine competition between customized commercial OTS software and uncustomized SaaS'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Cost advantages and potential cost savings",
+				"No geographical constraint and ease of access",
+				"Ease of deployment and updates",
+				"Integration with platforms and third-party APIs",
+				"Analytics capabilities based on user-generated data",
+				"Scalability and rapid elasticity",
+				"Competitive pricing advantages",
+				"Creating competitive advantages through revamping pricing schemes"
+			],
+			"synonyms_found": ["opportunities", "advantages", "benefits"],
+			"source_citation": "Page 3, lines 240-243: 'Benlian and Hess (2011) analyze a survey of 349 German IT executives and find that cost advantages affect perceptions of SaaS opportunities heavily' | Page 1, lines 66-79: unique features include 'no geographical constraint', 'ease of monitoring user behavior', 'ease of deployment and updates', 'integration with third-party application programming interface (API)', 'scalability, rapid elasticity' | Page 3, lines 223-225: 'This suggests that revamping SaaS pricing schemes can create competitive advantages and lead to new research opportunities'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Customer success and satisfaction → rabid fan base and customer referrals",
+				"Outstanding customer service and cost reimbursement → strengthened commitments and reduced churn",
+				"Quality improvements and continuous updates → customer retention",
+				"High-quality usage and user engagement → increased renewals and willingness-to-pay",
+				"Network effects and user-generated data → more value and better product",
+				"Appropriate capacity management and QoS → reduced downtime and improved performance",
+				"Security and privacy protection → user adoption and trust",
+				"Recommendation systems → reduced churn and increased retention (Netflix saves $1 billion annually)"
+			],
+			"synonyms_found": [
+				"success factors",
+				"critical factors",
+				"performance indicators"
+			],
+			"source_citation": "Page 4, lines 261-264: 'We've been successful because we have successful customers, a rabid fan base. These guys tell their friends, these guys take us with them to their next gig' | Page 4, lines 301-304: 'a provider could strengthen such commitments by outstanding customer service and cost reimbursement' | Page 17, lines 1678-1680: 'Netﬂix's recommendation system saves the company $1 billion annually through reduced churn' | Page 12, lines 1176-1178: 'proactive customer education may increase perceived usefulness, and thus increase usage and reduce churning'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Cloud infrastructure (private, public, or hybrid) → Service delivery and operations",
+				"Internet connectivity → Software delivery and access",
+				"Computing capacity and resources → Meeting customer demand",
+				"Data centers and infrastructure → Hosting applications",
+				"Security and privacy measures → Customer trust and compliance",
+				"Integration capabilities → Platform and third-party connectivity",
+				"Customer data management systems → Analytics and personalization"
+			],
+			"synonyms_found": [
+				"infrastructure",
+				"requirements",
+				"conditions",
+				"prerequisites"
+			],
+			"source_citation": "Page 1, lines 54-59: 'SaaS as the capability provided to the consumer of using the provider's applications running on a cloud infrastructure where the applications are accessible from various client devices and interfaces' | Page 10, lines 902-912: 'The demand for capacity is satisfied by three different types of clouds: (i) private cloud, (ii) public cloud, and (iii) hybrid cloud' | Page 2, lines 66-72: 'those derived from Internet delivery' and 'those derived from multitenancy'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Multitenancy architecture → Limited user control on the application and security/privacy concerns",
+				"Lack-of-fit or unfit disutility → SaaS is not customized for heterogeneous clients unlike OTS software",
+				"Capacity constraints → Service quality degradation and customer utility impairment",
+				"Security enhancements → Performance penalty and increased processing time",
+				"Compliance challenges → Per-user pricing enforcement difficulties",
+				"Integration requirements → Customer business processes and IT systems compatibility issues"
+			],
+			"synonyms_found": [
+				"limitations",
+				"constraints",
+				"challenges",
+				"concerns"
+			],
+			"source_citation": "Page 1-2, lines 77-79: 'multitenancy—security and privacy concerns, ease of deployment and updates, limited user control on the application, and the possible outsourcing of infrastructure' | Page 4, lines 267-271: 'incumbents remain providers of off-the-shelf (OTS) software that is often customized for heterogeneous clients, whereas SaaS is not, meaning that an unfit disutility is attributed to SaaS' | Page 9, lines 928-933: 'When capacity addition is not instantaneous, demand (q) may overwhelm capacity and thus impair customer utility' | Page 14, lines 1333-1340: 'many security enhancements (extra verification steps, etc.) are a hassle for customers and incur additional computing tasks (network communication, encryption/decryption, etc.) that slow down the processing of customer requests. For example, AES 256-bit encryption consumes approximately 40% more in computing resources than AES 128-bit encryption does' | Page 8, lines 768-770: 'SaaS services must often integrate the customers' business processes and information technology (IT) systems, so many problems may appear and bring lack-of-fit costs'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Security and privacy issues could impact all users (multitenancy vulnerability)",
+				"Challenging customization despite scalability",
+				"Managing heterogeneous user concerns on security and privacy",
+				"Capacity management under demand fluctuations",
+				"Service quality maintenance and SLA compliance",
+				"Customer churn and retention",
+				"Competition and market entry barriers",
+				"Lack-of-fit costs and customer integration challenges",
+				"Privacy compliance issues and data collection practices disclosure",
+				"Balancing functionality with security enhancements"
+			],
+			"synonyms_found": ["problems", "difficulties", "issues", "concerns"],
+			"source_citation": "Page 2, lines 88-91: 'scalability, rapid elasticity, but challenging customization; and service quality, security, and privacy issues could impact all users' | Page 1, lines 48-53: 'what pricing and operational policies should a SaaS provider adopt under heterogeneous user concerns on security and privacy? Why would SaaS usage patterns influence pricing and quality decisions?' | Page 4, lines 297-299: 'Xiao et al. (2020) define SaaS churn as premature termination of the use of the current SaaS system and replacement of it with an alternative' | Page 13, lines 1251-1253: 'media coverage and research (e.g., Zimmeck et al., 2019) show that many apps exhibit potential privacy compliance issues such as not disclosing certain data collection practices'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Outstanding customer service and cost reimbursement → Strengthened commitment and reduced churn → Better customer retention",
+				"Free trials and demos → Reduced uncertainties in cost savings and quality → Facilitated purchase and migration",
+				"LAER model (Land, Adopt, Expand, Renew) → Progressive customer adoption → Market penetration and expansion",
+				"Hybrid cloud infrastructure → Managing demand uncertainty → Balanced cost and performance",
+				"SLA (service-level agreement) → Guaranteed service levels → Customer trust and compliance",
+				"Proactive customer education → Increased perceived usefulness → Increased usage and reduced churning",
+				"Security enhancements and encryption → Mitigated security vulnerabilities → User trust and adoption",
+				"Usage analytics and recommendation systems → Improved user engagement → Reduced churn (Netflix saves $1 billion annually)"
+			],
+			"synonyms_found": ["solutions", "strategies", "measures", "approaches"],
+			"source_citation": "Page 4, lines 301-304: 'a provider could strengthen such commitments by outstanding customer service and cost reimbursement (see, for example, our third research opportunity (RO3) and Xiao et al. 2020)' | Page 3, lines 245-248: 'potential SaaS customers want to evaluate the software prior to purchase, and proving the value via demos (e.g., Zendesk) and pricing can facilitate the purchase and migration' | Page 3, lines 251-253: 'many business customers start from a basic SaaS application before moving to sophisticated SaaS applications following the LAER (Land, Adopt, Expand, Renew) model' | Page 10, lines 1036-1038: 'In practice, public cloud vendors routinely use SLAs to guarantee service levels to customers' | Page 12, lines 1176-1178: 'proactive customer education may increase perceived usefulness, and thus increase usage and reduce churning' | Page 17, lines 1678-1680: 'Netflix's recommendation system saves the company $1 billion annually through reduced churn'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Revenue growth rate; $145 billion by 2022; USD; Projected for 2022; Gartner prediction; Gartner (2021)",
+				"Compound annual growth rate; 18.9%; Percentage; Since 2020; Industry forecast; Gartner (2021)",
+				"World's stored data in clouds; 46%; Percentage; By 2025; IDC prediction; IDC (2018)",
+				"Netflix subscribers; 158 million; Users; 2019; Company data; Netflix Inc. (2019)",
+				"Zoom user growth; 300 million from 10 million; Users; During COVID-19 pandemic months; Company data; Allyn (2020)",
+				"NetEase Cloud Music users; 800 million registered users and 160,000 independent musicians; Users; 2020; Company data; NetEase Inc. (2020)",
+				"SaaS companies with usage-based pricing; 38%; Percentage; Not specified; Survey data; Poyar (2020)",
+				"Netflix churn reduction savings; $1 billion annually; USD per year; Annual; Recommendation system impact; Gomez-Uribe & Hunt (2016)",
+				"Small/medium businesses downtime cost; More than $40,001 per hour for 23%; USD per hour; Survey period; Survey; Help Net Security (2020)",
+				"Cost reduction from overcommitting; 1.5% to 17%; Percentage; Not specified; Algorithm optimization; Cohen et al. (2019)",
+				"AES 256-bit encryption computing overhead; 40% more than AES 128-bit; Percentage; Not specified; Technical measurement; Cyclonis Ltd. (2018)"
+			],
+			"synonyms_found": [
+				"metrics",
+				"indicators",
+				"results",
+				"data",
+				"statistics"
+			],
+			"source_citation": "Page 1, lines 39-42: 'Gartner (2021) predicts the revenue of worldwide software-as-a-service (SaaS) services reaching $145 billion by 2022 at a compound annual growth rate of 18.9% since 2020' | Page 1, lines 42-44: 'IDC (2018) predicts that by 2025, 46% of the world's stored data will reside in clouds' | Page 12, lines 1158-1159: 'Netflix now has successfully amassed roughly 158 million users' | Page 13, lines 1308-1310: 'There was incredible growth for Zoom during the COVID-19 pandemic, expanding to 300 million users from about 10 million in months' | Page 15, lines 1406-1408: 'NetEase Cloud Music (NCM), one of the most popular music streaming services in China with over 800 million registered users and 160,000 independent musicians' | Page 7, lines 674-676: 'The data set in Poyar (2020) indicates that 38% of SaaS companies adopt pricing plans based on usage' | Page 17, lines 1678-1680: 'Netflix's recommendation system saves the company $1 billion annually through reduced churn'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2011-2021 (literature review), with historical examples from 2003 onwards. Maturity status: Consolidated and growing. The model has experienced a decade of explosive growth with continued expansion predicted.",
+			"synonyms_found": [
+				"decade of explosive growth",
+				"rapid growth",
+				"fast-changing industry"
+			],
+			"source_citation": "Page 1, lines 16-18: 'Software-as-a-service (SaaS) applications have experienced a decade of explosive growth' | Page 1-2, lines 94-100: 'we have conducted a literature search in leading operations management and information systems journals between January 2011 and August 2021 and found 31 relevant papers' and 'It can be seen that the number of SaaS papers increased gradually in the last decade' | Page 17, lines 1588-1590: 'In the fast-changing industry of SaaS' | Page 3, lines 210-217: 'Since 2003, Apple Inc. has operated an iTunes Store' and 'on June 30, 2015, Apple Inc. launched the Apple Music streaming service'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Literature review. The article conducts a systematic review of 31 papers from leading operations management and information systems journals, with industry examples and secondary data analysis.",
+			"synonyms_found": [
+				"literature search",
+				"literature review",
+				"review",
+				"framework"
+			],
+			"source_citation": "Page 1, lines 22-35: 'In this paper, we attempt to fill this important gap. We propose a framework of recent business research on SaaS in light of wide adoption of the SaaS business model. This framework broadly classifies SaaS research into two basic themes. For each theme, we review past work that has been instrumental in setting the direction of this line of research and discuss how emerging research opportunities can be addressed' | Page 1-2, lines 93-97: 'To identify relevant themes in SaaS research, we have conducted a literature search in leading operations management and information systems journals between January 2011 and August 2021 and found 31 relevant papers listed in Table EC.7'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Apple Inc. / Apple Music / iTunes → Music streaming and digital music distribution examples for pricing and bundling strategies",
+				"Netflix → Example of subscription pricing, recommendation systems, churn reduction, and network effects",
+				"ServiceNow → Example of customer service automation SaaS, hybrid cloud infrastructure, and operational excellence",
+				"Salesforce.com → Platform business model, CRM, third-party app ecosystem",
+				"Microsoft / Microsoft Office 365 / Azure → Cloud services, enterprise applications, bundling strategy, infrastructure provider",
+				"Adobe Systems Inc. / Adobe Creative Cloud → Transformation from OTS to SaaS, bundling strategy",
+				"Zoom → Security and privacy challenges during rapid growth",
+				"Noodle.ai → AI-as-a-service for supply chain management, customer support practices",
+				"ZJ Technology → Hotel management SaaS with multitenant architecture",
+				"NetEase Cloud Music (NCM) → Music streaming with social features and user engagement",
+				"Spotify → Music streaming with network effects",
+				"Amazon Web Services (AWS) / Amazon EC2 → Cloud infrastructure provider, spot pricing",
+				"Dropbox → Cloud storage and platform integration",
+				"Box Inc. → Cloud storage bundled with enterprise applications",
+				"Twilio → Multiple pricing options (pay-per-use and subscription)",
+				"Zendesk → Demos and sales approach",
+				"Facebook → Privacy challenges and third-party app hosting",
+				"Google / Google Cloud / Google Trends → Cloud services and analytics",
+				"Stripe → Developer-friendly API for online payments",
+				"Braintree → Online payments with transparency and data portability",
+				"Prophet → Supply chain planning SaaS with dynamic pricing",
+				"Tableau → Integration with Salesforce platform",
+				"SAP → Platform integration partner"
+			],
+			"synonyms_found": ["providers", "companies", "vendors", "services"],
+			"source_citation": "Multiple citations throughout the article including: Page 3, lines 210-220 (Apple Music/iTunes) | Page 12, lines 1150-1159 (Netflix) | Page 9, lines 866-887 (ServiceNow) | Page 15, lines 1497-1510 (Salesforce.com) | Page 4, lines 288-291 (Adobe) | Page 13-14, lines 1308-1332 (Zoom) | Page 8, lines 745-760 (Noodle.ai) | Page 2, lines 169-176 (ZJ Technology) | Page 15, lines 1406-1418 (NetEase Cloud Music)",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Subscription-based SaaS → Fixed monthly/yearly fee for unlimited access",
+				"Usage-based SaaS → Pay-per-use, metered pricing based on consumption (transactions, storage, computing)",
+				"Freemium SaaS → Free basic service with paid premium features",
+				"Tiered/Plans SaaS → Multiple service levels with different features and pricing",
+				"Platform-based SaaS → Hosting third-party applications and developer ecosystems",
+				"AI-as-a-Service → Machine learning and analytics services (Noodle.ai example)",
+				"Hybrid model → Combining subscription with usage-based components"
+			],
+			"synonyms_found": [
+				"pricing schemes",
+				"tariff schemes",
+				"business model variations"
+			],
+			"source_citation": "Page 3, lines 309-324: 'subscription pricing (a.k.a., flat-fee), two-part tariff (2PT), and three-part tariff (3PT) are ubiquitous choices' and 'tiered (nonlinear) pricing and pay-per-use pricing' | Page 7, lines 674-676: '38% of SaaS companies adopt pricing plans based on usage (transactions, storage, computing, servers)' | Page 17, lines 1667-1674: 'Despite the attractiveness of freemium' and 'tiered pricing combines tariff and bundling' | Page 8, lines 745-746: 'Noodle.ai offers AI-as-a-service' | Page 15, lines 1497-1503: 'Salesforce.com transformed itself into a platform of enterprise business applications'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Embracing new technologies: Integration of big data, artificial intelligence, IoT, edge computing, 5G, and blockchain into SaaS management",
+				"Evolving business models: Transformation toward cloud-based services, organizational changes, platform-based ecosystems",
+				"Finer understanding of customers: Advanced recommendation systems, consumer behavior analysis, user learning and decision capacity",
+				"Integration with offline businesses: Autonomous vehicles, cloud manufacturing, on-demand service platforms",
+				"Better social responsibility: Sustainability efforts, carbon footprint quantification, public health applications, antitrust considerations",
+				"Dynamic pricing adoption: Moving from static to dynamic pricing based on market and cost conditions",
+				"Enhanced security and privacy: Continued focus on data protection, compliance with regulations (GDPR, COPPA, CalOPPA)"
+			],
+			"synonyms_found": [
+				"future roadmap",
+				"emerging research opportunities",
+				"future research",
+				"promising directions"
+			],
+			"source_citation": "Page 17, Section 4, lines 1588-1724: 'FUTURE ROADMAP FOR SAAS' section describes multiple trends including: 'Embracing new technologies' (lines 1596-1615): 'pressing need to embed big data and artificial intelligence', 'IoT and edge computing', '5G', 'blockchain'; 'Evolving business models' (lines 1616-1675): 'transformation toward cloud-based services may prompt an organizational overhaul', 'Digital platforms could enable value-creating interactions'; 'Finer understanding of customers' (lines 1676-1690); 'Integrating with offline businesses' (lines 1691-1706); 'Better social responsibility' (lines 1707-1724): 'SaaS can be used to quantify carbon footprints', 'SaaS tools have been deployed to assist decision making'",
+			"confidence_level": "high"
+		}
+	]
+}

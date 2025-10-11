@@ -1,0 +1,436 @@
+{
+	"extraction_metadata": {
+		"article_title": "A Study on a Decentralized SaaS Business Model",
+		"extraction_date": "2025-01-27"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Decentralized SaaS Business Model - A distributed business model where local servers are independent business entities that compete with each other to maximize their own profit while providing similar services/applications to customers, as an alternative to centralized SaaS models to avoid single-point-of-failure problems and investment/management issues.",
+			"synonyms_found": [
+				"decentralized SaaS",
+				"distributed business model",
+				"decentralized model"
+			],
+			"source_citation": "Page 1, Abstract: 'We propose a decentralized SaaS (Software as a Service) business model and compare it with a common centralized model in cloud computing.' | Page 2, Section III: 'A decentralized business model of SaaS is illustrated in Figure 2.' | Page 2, Section III: 'In this case, local servers are competing with each other to maximize their own profit; meanwhile, they may provide similar services/applications to their customers.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"distributed business model",
+				"decentralized model",
+				"semi-cooperative SaaS market"
+			],
+			"synonyms_found": [
+				"distributed business model",
+				"decentralized model",
+				"semi-cooperative SaaS market"
+			],
+			"source_citation": "Page 2, Section III: 'A decentralized business model of SaaS is illustrated in Figure 2.' | Page 2, Section III: 'To avoid either one, we propose and analyze a distributed business model, which could be an alternative here.' | Page 5, Section V: 'various effects caused by different service selection strategies in a semi-cooperative SaaS market'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "SaaS (Software as a Service)",
+			"synonyms_found": ["SaaS", "Software as a Service", "mobile SaaS"],
+			"source_citation": "Page 1, Abstract: 'we show our study on a market model of mobile SaaS (Software as a Service) servers in a semi-cooperative environment' | Page 1, Abstract: 'We propose a decentralized SaaS (Software as a Service) business model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B SMB",
+			"synonyms_found": [
+				"small provider",
+				"mid-size provider",
+				"local servers"
+			],
+			"source_citation": "Page 1, Section I: 'However, for a small provider, it may be more beneficial for it to host its application(s) on top of other PaaS/IaaS provider(s).' | Page 1, Section I: 'when a growing mid-size provider broadening its business to global market, it may suffer from many investment and management issues'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Small to mid-size providers and local independent business entities",
+			"synonyms_found": [
+				"small provider",
+				"mid-size provider",
+				"local servers",
+				"independent business entities"
+			],
+			"source_citation": "Page 1, Section I: 'However, for a small provider, it may be more beneficial for it to host its application(s) on top of other PaaS/IaaS provider(s).' | Page 1, Section I: 'when a growing mid-size provider broadening its business to global market' | Page 2, Section III: 'local servers are belong to independent business entity'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Global market",
+			"synonyms_found": ["global market", "different geographical area"],
+			"source_citation": "Page 1, Section I: 'when a growing mid-size provider broadening its business to global market' | Page 2, Section III: 'they may have different capacities, located in different geographical area'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Local servers as independent business entities",
+			"synonyms_found": [
+				"local servers",
+				"independent business entities",
+				"servers"
+			],
+			"source_citation": "Page 2, Section III: 'local servers are belong to independent business entity' | Page 2, Section III: 'Hereafter, the term \"server\" refers to a business entity (e.g., a URL) that provides services in the context of decentralized SaaS model.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform"],
+			"synonyms_found": ["applications", "services", "software", "SaaS"],
+			"source_citation": "Page 1, Section I: 'customers connect to the service provider's server(s), use its application(s) and pay it' | Page 2, Section III: 'they may provide similar services/applications to their customers' | Page 2, Section III: 'every local server may be required to provide certain applications (e.g. the brand products)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS", "On-premises"],
+			"synonyms_found": ["SaaS", "local servers", "data centers"],
+			"source_citation": "Page 1, Abstract: 'decentralized SaaS (Software as a Service) business model' | Page 1, Section I: 'it may manage its own data center (applications and database)' | Page 1, Section I: 'Local servers, either owned by HQ or outsourced to other companies, are local data centers physically close to users.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Proprietary",
+			"synonyms_found": ["license fee", "brand products"],
+			"source_citation": "Page 2, Section III: 'local servers will get some supports from their HQ and pay license fee according to the number of users or usages' | Page 2, Section III: 'HQ may have some brand products and responsible for their global advertisement, R&D, and training'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"License fee based on users/usage → Revenue model",
+				"Brand products requirement → Service offering"
+			],
+			"synonyms_found": ["license fee", "brand products"],
+			"source_citation": "Page 2, Section III: 'local servers will get some supports from their HQ and pay license fee according to the number of users or usages' | Page 2, Section III: 'every local server may be required to provide certain applications (e.g. the brand products)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Subscription", "Usage/consumption"],
+			"synonyms_found": ["license fee", "revenue", "profit"],
+			"source_citation": "Page 2, Section III: 'local servers will get some supports from their HQ and pay license fee according to the number of users or usages' | Page 2, Section III: 'local servers are competing with each other to maximize their own profit'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "User/seat",
+			"synonyms_found": ["users", "usages"],
+			"source_citation": "Page 2, Section III: 'local servers will get some supports from their HQ and pay license fee according to the number of users or usages'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Custom negotiation"],
+			"synonyms_found": ["flexible pricing", "dynamic pricing"],
+			"source_citation": "Page 2, Section III: 'it should consider a flexible pricing of its products and the license fee it will charge' | Page 2, Section III: 'In the real free market, the pricing mechanism is dynamic and more complicated'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": ["HQ", "headquarters", "local servers"],
+			"source_citation": "Page 2, Section III: 'We assume the market as a brand-branch reseller and local servers try to maximize their own profit' | Page 2, Section III: 'HQ may have some brand products and responsible for their global advertisement, R&D, and training'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value)",
+			"synonyms_found": ["demand", "requests", "satisfaction rate"],
+			"source_citation": "Page 3, Section IV: 'if N clients request the same service, which is only provided by a server, then the queue length will be N. But if two servers could provide the same service, the queue length reduced to N/2, which means a better QoS'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Direct sales"],
+			"synonyms_found": ["direct interaction", "HQ interaction"],
+			"source_citation": "Page 1, Section I: 'as a business entity, it directly interacts with its users' | Page 1, Section I: 'users only interact with HQ without knowing whether they are accessing data center in HQ or local server(s)'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Decentralized SaaS services to avoid single-point-of-failure and reduce investment/management issues",
+				"Customer Segment: Small to mid-size providers and end users",
+				"Revenue Streams: License fees based on users/usage",
+				"Key Resources: Local servers, HQ brand products, R&D capabilities",
+				"Key Activities: Service provision, global advertisement, training",
+				"Key Partnerships: HQ-local server relationships",
+				"Cost Structure: Connection/traffic costs, data center costs"
+			],
+			"synonyms_found": ["business model", "revenue", "costs", "partnerships"],
+			"source_citation": "Page 1, Section I: 'To avoid either one, we propose and analyze a distributed business model, which could be an alternative here.' | Page 2, Section III: 'A benefit for HQ is it can save the connection/traffic cost, use less data center, and concentrate on its product development.' | Page 2, Section III: 'HQ may have some brand products and responsible for their global advertisement, R&D, and training.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": "HQ | Brand management, R&D, training | Provides brand products and support to local servers | Manages global advertisement | Local servers | Service provision | Pay license fees to HQ, compete with other servers | Serve customers directly | Customers | Service consumption | Interact with local servers | Receive services from local servers",
+			"synonyms_found": ["HQ", "local servers", "customers", "users"],
+			"source_citation": "Page 2, Section III: 'HQ may have some brand products and responsible for their global advertisement, R&D, and training' | Page 2, Section III: 'local servers will get some supports from their HQ and pay license fee according to the number of users or usages' | Page 2, Section III: 'local servers are competing with each other to maximize their own profit'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Avoid single-point-of-failure problems",
+				"Reduce investment and management issues for growing mid-size providers",
+				"Save connection/traffic costs",
+				"Use less data centers",
+				"Concentrate on product development"
+			],
+			"synonyms_found": [
+				"single-point-of-failure",
+				"investment issues",
+				"management issues",
+				"cost savings"
+			],
+			"source_citation": "Page 1, Section I: 'when a growing mid-size provider broadening its business to global market, it may suffer from many investment and management issues' | Page 1, Section I: 'when a provider suffers from a server emergency, such as the incident happened in Amazon AWS [2], or a security attack, such as DDoS, the whole chain of its market will face a serious problem, which is commonly known as the single-point-of-failure problem' | Page 2, Section III: 'A benefit for HQ is it can save the connection/traffic cost, use less data center, and concentrate on its product development.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Fixed strategy → Highest total revenue and satisfaction rate",
+				"Service selection strategies → Revenue optimization",
+				"Demand factor calculation → Better service allocation",
+				"Load balancing → Reduced response time and increased availability"
+			],
+			"synonyms_found": [
+				"Fixed strategy",
+				"service selection",
+				"demand factor",
+				"load balancing"
+			],
+			"source_citation": "Page 4, Section IV: 'Fixed strategy is found to be the best method to earn the highest total revenue for all five servers, with the highest satisfaction rate too.' | Page 3, Section IV: 'It is not only for solving load balancing issue, but also for reducing response time and increasing the availability, which have been considered as major issues in distributed computing.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Independent business entities → Local server autonomy",
+				"Brand products from HQ → Service standardization",
+				"License fee structure → Revenue model",
+				"Service switching capability → Market responsiveness"
+			],
+			"synonyms_found": [
+				"independent business entities",
+				"brand products",
+				"license fee",
+				"service switching"
+			],
+			"source_citation": "Page 2, Section III: 'local servers are belong to independent business entity' | Page 2, Section III: 'every local server may be required to provide certain applications (e.g. the brand products)' | Page 2, Section III: 'we assume that changing service (installing/uninstalling software) does not consume much time/cost.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Fixed pricing in oligopolistic model → Limited market responsiveness",
+				"Limited simulation scale → Reduced real-world applicability",
+				"Equal item prices assumption → Simplified pricing model"
+			],
+			"synonyms_found": [
+				"fixed price",
+				"oligopolistic model",
+				"simulation scale",
+				"equal prices"
+			],
+			"source_citation": "Page 2, Section III: 'But in our model, we only consider a fixed price, which may be true within a specific time period in an oligopolistic model.' | Page 4, Section IV: 'The first weakness is that the experiment scale (number of servers and clients) were limited' | Page 4, Section IV: 'in the real world, the item prices of all the applications may be different and servers may have different priorities for different applications from their business viewpoint. However, we assumed they are the same here.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Investment and management issues for growing mid-size providers",
+				"Single-point-of-failure problems in centralized models",
+				"Server emergency incidents and security attacks",
+				"Load balancing and response time optimization",
+				"Market demand prediction and service allocation"
+			],
+			"synonyms_found": [
+				"investment issues",
+				"management issues",
+				"single-point-of-failure",
+				"load balancing",
+				"demand prediction"
+			],
+			"source_citation": "Page 1, Section I: 'when a growing mid-size provider broadening its business to global market, it may suffer from many investment and management issues' | Page 1, Section I: 'when a provider suffers from a server emergency, such as the incident happened in Amazon AWS [2], or a security attack, such as DDoS, the whole chain of its market will face a serious problem, which is commonly known as the single-point-of-failure problem' | Page 3, Section IV: 'It is not only for solving load balancing issue, but also for reducing response time and increasing the availability'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Decentralized business model → Mitigates single-point-of-failure → Improved system reliability",
+				"Service selection strategies → Optimizes load balancing → Better QoS and revenue",
+				"Demand factor calculation → Predicts future demand → Better service allocation",
+				"Fixed strategy → Maximizes revenue → Highest satisfaction rate"
+			],
+			"synonyms_found": [
+				"decentralized model",
+				"service selection",
+				"demand factor",
+				"Fixed strategy"
+			],
+			"source_citation": "Page 1, Section I: 'To avoid either one, we propose and analyze a distributed business model, which could be an alternative here.' | Page 4, Section IV: 'Fixed strategy is found to be the best method to earn the highest total revenue for all five servers, with the highest satisfaction rate too.' | Page 3, Section IV: 'Eq. (1) represents the service load history in the market. Here, the application having the highest value of d is the one that clients may request the most in the future.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Strategy; Total Revenue; Server; Average Revenue; Fixed; 361438; S1-S5; 21726-15154; Poor move; 355285; S1-S5; 23748-11814; Rich move; 315727; S1-S5; 19689-16221; Poor request-rate move; 357261; S1-S5; 23554-11042; Satisfaction Rate; 69.54-100.00; Various strategies; Percentage; 100 cycles",
+			"synonyms_found": [
+				"total revenue",
+				"average revenue",
+				"satisfaction rate",
+				"costs"
+			],
+			"source_citation": "Page 4, Table I: 'EXPERIMENTAL RESULT' showing revenue data for different strategies | Page 4, Table II: 'EXPERIMENTAL RESULTS FOR VARIOUS INITIAL CONDITIONS' showing satisfaction rates | Page 3, Section IV: 'The simulation runs for 100 requesting cycles (a hypothetical time period)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "2015 + Emerging",
+			"synonyms_found": ["2015", "study", "proposal"],
+			"source_citation": "Page 1: '2015 International Conference on Network and Information Systems for Computers' | Page 1, Abstract: 'We propose a decentralized SaaS (Software as a Service) business model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Experiment",
+			"synonyms_found": ["simulation", "experiment", "analysis"],
+			"source_citation": "Page 1, Abstract: 'we simulate and analyze the revenue of decentralized servers' | Page 3, Section IV: 'SIMULATION ANALYSIS' | Page 3, Section IV: 'We apply the following method to all clients and applications (items)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Amazon AWS → Example of server emergency incident in centralized model"
+			],
+			"synonyms_found": ["Amazon AWS"],
+			"source_citation": "Page 1, Section I: 'when a provider suffers from a server emergency, such as the incident happened in Amazon AWS [2]'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Fixed strategy → Servers maintain same applications throughout",
+				"Poor move strategy → Servers with low revenue move to high-demand applications",
+				"Rich move strategy → Capable servers move to highly demanded applications",
+				"Poor request-rate move strategy → Servers with low request rate move to high-demand applications",
+				"All move strategy → All servers move based on demand"
+			],
+			"synonyms_found": [
+				"Fixed strategy",
+				"Poor move",
+				"Rich move",
+				"Poor request-rate move",
+				"All move"
+			],
+			"source_citation": "Page 3, Section IV: 'five different strategies that may be adopted by servers have been studied, they are: Fixed, All move, Rich move, Poor move, and Poor request-rate move' | Page 3, Section IV: 'In this move, those servers whose request rate is less than the average request rate are defined as poor.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Fast learning methods for recognizing periodic patterns",
+				"Auction mechanisms between servers and clients",
+				"Bundle applications instead of individual applications",
+				"Extended simulation scope with millions of clients and server clusters",
+				"Different item prices and server priorities",
+				"Client quitting behavior when waiting in queue"
+			],
+			"synonyms_found": [
+				"fast learning",
+				"auction",
+				"bundle",
+				"extended simulation",
+				"different prices",
+				"client quitting"
+			],
+			"source_citation": "Page 4, Section IV: 'To improve the server revenue (and also the satisfaction rate), a fast learning method or a method that can recognize the periodic pattern should be adopted, which are left for the future work.' | Page 4, Section IV: 'For example, if auction between servers and clients are allowed or servers can provide the applications in a bundle instead of providing them in individual applications, then they may increase clients' loyalty and the revenue.' | Page 4, Section IV: 'we also can add some assumptions such as the number of clients may decrease (quit) when they are waiting in the queue which is common in the reality.'",
+			"confidence_level": "high"
+		}
+	]
+}

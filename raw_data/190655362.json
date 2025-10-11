@@ -1,0 +1,451 @@
+{
+	"extraction_metadata": {
+		"article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Freemium (also known as 'free to play' in gaming industry). Definition: A pricing model where users can access services for free and use them as long as they like at no cost, but only a minority of users become paying customers. Companies suppress entry barriers to attract a much larger audience than paid services do.",
+			"synonyms_found": [
+				"freemium",
+				"free to play",
+				"freemium pricing model",
+				"freemium business model",
+				"digital freemium business models"
+			],
+			"source_citation": "Page 1: 'In this context, the freemium pricing model (also known as 'free to play' in the gaming industry) has gained increasing attention. In recent years, freemium has become the dominant pricing strategy for software, games, and social network apps' | Page 1: 'Users can access such services for free, and usually use them as long as they like at no cost. Wagner et al. (2014) describe the freemium business model as a promising solution for content providers to earn money from users who have a 'for free' mentality. It allows companies to suppress entry barriers and thus to attract a much larger audience than paid services do. However, only a minority of such users actually become paying customers.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": "Free to play",
+			"synonyms_found": [
+				"free to play",
+				"freemium pricing model",
+				"freemium business model",
+				"digital freemium business models",
+				"non-contractual freemium model"
+			],
+			"source_citation": "Page 1: 'In this context, the freemium pricing model (also known as 'free to play' in the gaming industry) has gained increasing attention.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Gaming and Dating/Social apps",
+			"synonyms_found": [
+				"online games",
+				"social network apps",
+				"gaming",
+				"dating",
+				"digital service applications"
+			],
+			"source_citation": "Page 1: 'In recent years, freemium has become the dominant pricing strategy for software, games, and social network apps' | Page 3: 'The three data sets come from two online real-time strategy games (data sets 1 and 2), and an online dating platform (data set 3)' | Page 3: 'The selection of the gaming and dating software industries for our study covers the most in-demand digital service applications'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C",
+			"synonyms_found": [
+				"users",
+				"customers",
+				"paying customers",
+				"paying users"
+			],
+			"source_citation": "Page 3: 'When registering for one of the two online games in the study, users must provide no more than a nickname and an email address' | Page 3: 'On the dating platform (data set 3), users usually share profile pictures, gender, age, place of residence, and other personal details' | Page 3: 'When buying credits on any of these platforms, users choose a purchase amount (e.g., €5, €10, €20) and a payment method'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Digital service providers with large user bases (data shows companies with 444,934 to 831,617 newly registered users within observation timeframes)",
+			"synonyms_found": [
+				"digital companies",
+				"digital businesses",
+				"digital service providers",
+				"companies"
+			],
+			"source_citation": "Page 2: 'For our empirical study, we use customer and purchase data from three European digital businesses that sell a virtual currency in a non-contractual freemium model' | Page 5, Table 2: 'Newly registered users within timeframe: 831,617 (Data set 1), 444,934 (Data set 2), 52,200 (Data set 3)'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Europe",
+			"synonyms_found": ["European"],
+			"source_citation": "Page 2: 'For our empirical study, we use customer and purchase data from three European digital businesses that sell a virtual currency in a non-contractual freemium model.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Paying customers who convert from free users, representing 3.3-6.1% of registered users, with focus on identifying high-value customers and heavy users",
+			"synonyms_found": [
+				"paying customers",
+				"paying users",
+				"payers",
+				"heavy users",
+				"high-value customers",
+				"potential heavy spenders"
+			],
+			"source_citation": "Page 1: 'In digital freemium business models such as those of online games or social apps, a large share of overall revenue derives from a small portion of the user base. Companies operating in these and similar businesses are increasingly constructing forecasting models with which to identify potential heavy users as early as possible' | Page 4, Table 2: 'Share of newly registered users becoming paying users: 3.3% (Data set 1), 6.1% (Data set 2), 4.8% (Data set 3)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application"],
+			"synonyms_found": [
+				"apps",
+				"online games",
+				"dating platform",
+				"services",
+				"digital services"
+			],
+			"source_citation": "Page 3: 'The services can be used via Internet browsers and dedicated mobile apps. They feature a shop where users can buy credits that provide them with access to additional in-app features compared to non-paying users, such as extra resources for constructing cities or armies more quickly (gaming), or the ability to send messages to other users (dating).'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS", "Mobile", "Desktop"],
+			"synonyms_found": [
+				"Internet browsers",
+				"mobile apps",
+				"dedicated mobile apps"
+			],
+			"source_citation": "Page 3: 'The services can be used via Internet browsers and dedicated mobile apps.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Usage/consumption"],
+			"synonyms_found": [
+				"virtual credits",
+				"credits",
+				"virtual currency",
+				"in-app purchases",
+				"IAP",
+				"credit purchases"
+			],
+			"source_citation": "Page 1: 'In our study, we observe three digital freemium companies that sell virtual credits' | Page 2: 'For our empirical study, we use customer and purchase data from three European digital businesses that sell a virtual currency in a non-contractual freemium model' | Page 3, Table 1: '97% of all apps allow in-app purchases (IAP)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others (virtual credit packages with fixed amounts)",
+			"synonyms_found": [
+				"virtual currency package",
+				"credit package",
+				"purchase amount",
+				"credits"
+			],
+			"source_citation": "Page 3: 'When buying credits on any of these platforms, users choose a purchase amount (e.g., €5, €10, €20) and a payment method' | Page 4: 'Equals the chosen virtual currency package (e.g., €10, €20, and €50) for a user's initial purchase.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Freemium"],
+			"synonyms_found": ["free", "free to download", "freemium"],
+			"source_citation": "Page 1: 'Users can access such services for free, and usually use them as long as they like at no cost' | Page 3, Table 1: 'on average, 94% of the top-grossing apps are free to download, leaving only 6% that require an upfront payment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "EUR (€), one-time purchase per transaction (non-contractual)",
+			"synonyms_found": ["€", "euro"],
+			"source_citation": "Page 2: 'Combined, they have more than 1.3 million registered users, approx. 57,000 of whom are paying customers, spending more than €3 million in more than 195,000 credit purchases' | Page 2: 'Non-contractual customer relationships, like those of freemium businesses selling virtual credits, are not governed by a membership or contract'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Standalone product",
+			"synonyms_found": ["platform", "service"],
+			"source_citation": "Page 3: 'The services can be used via Internet browsers and dedicated mobile apps. They feature a shop where users can buy credits that provide them with access to additional in-app features'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value)",
+			"synonyms_found": [
+				"network effects",
+				"positive network effects",
+				"social networks"
+			],
+			"source_citation": "Page 9: 'In addition, gaming and dating platforms are social networks that exhibit positive network effects which eventually increase users' willingness to pay (Farrell and Saloner 1985; Bapna and Umyarov 2012). The longer a customer uses the service, the more social contacts he/she may get to know, and the stronger the network effects become.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Product-led Growth",
+				"Digital marketing",
+				"Referral"
+			],
+			"synonyms_found": [
+				"acquisition channel",
+				"SEM",
+				"online ads",
+				"partner websites"
+			],
+			"source_citation": "Page 1: 'It allows companies to suppress entry barriers and thus to attract a much larger audience than paid services do' | Page 10: 'user demographics (e.g., sex, age, place of residence), and acquisition channel (e.g., SEM, online ads, partner websites)' | Page 10: 'a user may also generate extra value indirectly, for example by referring the service to other users (and thus reducing the acquisition costs for those users; Hinz et al. 2011)'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes",
+			"synonyms_found": ["AppStore", "Apple's AppStore", "iPhone apps"],
+			"source_citation": "Page 3, Table 1: 'Top-grossing iPhone apps in Apple's AppStore – 4 January 2015' | Page 3: 'A look at the top-grossing apps for iPhone (AppAnnie 2015) in the US, Japan and Germany shows that games constitute by far the most popular apps'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Free access to services with option to purchase virtual credits for additional in-app features such as extra resources for constructing cities or armies more quickly (gaming), or ability to send messages to other users (dating)",
+				"Customer Segment: Users of online games and dating platforms, with 3.3-6.1% becoming paying customers, focusing on identifying high-value customers and heavy users early",
+				"Revenue Streams: Sale of virtual credits/currency through in-app purchases, with small portion of user base generating large share of revenue (top 1% contributing 53.6-84.6% of total revenue)",
+				"Key Activities: Customer lifetime value prediction, customer relationship management, user acquisition, retention measures for high-value customers",
+				"Cost Structure: Fixed overhead costs such as development, server maintenance, and personnel (marginal costs of reproducing and distributing services over Internet are minimal)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'They feature a shop where users can buy credits that provide them with access to additional in-app features compared to non-paying users, such as extra resources for constructing cities or armies more quickly (gaming), or the ability to send messages to other users (dating)' | Page 1: 'a large share of overall revenue derives from a small portion of the user base' | Page 4: 'the top 1% of users contribute up to 84.6% (data set 1), 60.5% (data 2), and 53.6% (data set 3) of total revenue' | Page 3: 'For digital businesses, fixed overhead costs such as development, server maintenance, and personnel are more relevant than the marginal costs of reproducing and distributing services over the Internet'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"Free users | Majority of user base (93.9-96.7%) | Use service at no cost, provide network effects | Interact with paying users in social/competitive environment",
+				"Paying customers | 3.3-6.1% of users who purchase credits | Generate revenue for offering company | Compete/interact with free users and other paying users",
+				"Payment service providers | Process transactions (credit cards, PayPal, prepaid cards, SMS, etc.) | Enable credit purchases for users | Facilitate payment transactions between users and offering company",
+				"Offering company | Platform provider | Provides free service, sells virtual credits, implements CRM measures | Acquires users, converts free users to payers, retains high-value customers"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4, Table 2: 'Share of newly registered users becoming paying users: 3.3%, 6.1%, 4.8%' | Page 4: 'Time until initial purchase (in days), Initial purchase amount (in €), Payment method used for initial purchase' | Page 3: 'users choose a purchase amount (e.g., €5, €10, €20) and a payment method (e.g., credit card, PayPal, prepaid card)' | Page 9: 'gaming and dating platforms are social networks that exhibit positive network effects'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Suppress entry barriers to attract much larger audience than paid services",
+				"Earn money from users who have a 'for free' mentality",
+				"Allow users to access services without upfront payment requirement"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Wagner et al. (2014) describe the freemium business model as a promising solution for content providers to earn money from users who have a 'for free' mentality. It allows companies to suppress entry barriers and thus to attract a much larger audience than paid services do.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Early identification of high-value customers → enables differentiation and appropriate CRM measures",
+				"Customer becoming payer early after registration → higher remaining CLV",
+				"Higher initial purchase amount → higher remaining CLV",
+				"Credit card as payment method → higher CLV compared to other payment methods",
+				"CLV prediction using initial purchase information → supports acquisition, retention, and monetization strategies",
+				"Network effects from social features → increases users' willingness to pay over time",
+				"Positive user experience with credits → leads to repeated purchases and increasing purchase amounts"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'The earliest possible identification of high-value customers is a key customer relationship management (CRM) challenge' | Page 6: 'Result 1: The length of time between a user's registration and his/her initial credit purchase is negatively correlated to that user's remaining CLV' | Page 6: 'Result 2: The higher the customer's initial credit purchase, the higher his/her remaining CLV' | Page 6: 'Result 3: The payment method of the initial purchase is a significant predictor of remaining CLV. Credit card users promise higher CLVs' | Page 9: 'An appropriate CLV prediction can support freemium businesses' acquisition, retention, and monetization strategies'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Sufficient in-app features and incentives on which to spend credits → sustains repeated purchases and prevents regression to mean spending",
+				"Ability to track and analyze customer purchase data → enables CLV prediction and forecasting",
+				"Multiple payment methods available → accommodates different user preferences and payment behaviors",
+				"Network effects infrastructure (social features) → increases user engagement and willingness to pay"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 8: 'One can expect a similar effect with freemium services that do not exhibit sufficient incentives and features on which to spend credits' | Page 2: 'Developing forecasting models has been subject of extensive recent research' | Page 4: 'Payment methods are available for data sets 1 and 2' | Page 9: 'gaming and dating platforms are social networks that exhibit positive network effects which eventually increase users' willingness to pay'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Limited demographic information from users → makes predicting user's future value difficult in business with >90% free users",
+				"Selected range of credit packages offered → limits customer's ability to increase purchase amount indefinitely",
+				"High user acquisition costs without knowing if users will generate revenue → risk of acquiring unprofitable customers",
+				"Short customer lifetime cycles in online games and dating → 40-55% of newly registered users log in only once and never return, only 1-2% still generate revenue more than year after registration"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'A business with >90% free users sharing little to no demographic information makes it difficult to predict a user's future value to the company' | Page 9: 'our results are somewhat limited because the companies we investigated offered only a selected range of credit packages; this limits the customer's ability to increase his/her amount per purchase indefinitely' | Page 2: 'Companies without proper CLV-predicting models risk acquiring unprofitable customers' | Page 3: 'In online games and dating, the average user does not stay with the service for very long. In our data sets, between 40 and 55% of newly registered users log in only once and then never return, and only 1–2% of all users still generate revenue more than a year after their registration'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Identifying potential heavy users as early as possible from large user base",
+				"Very heterogeneous users with small portion generating majority of revenue (1% of users account for up to 85% of revenues)",
+				"Steep increase in user acquisition costs (CPC increased from $0.38 in 2005 to $0.92 in 2013, 11.7% annual increase)",
+				"Uncertain if given new customer will generate future revenue to cover acquisition costs",
+				"Limited and often inaccurate demographic information from non-contractual online services",
+				"Unable to observe explicit customer defection in non-contractual relationships",
+				"Purchase timing and amount are not continuous or transparent, can only be predicted probabilistically",
+				"Differentiating more profitable from less profitable customers",
+				"Users uncertain about true value of credits when buying for first time"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Companies operating in these and similar businesses are increasingly constructing forecasting models with which to identify potential heavy users as early as possible' | Page 10: 'Our data has shown that digital freemium businesses operate in an environment with very heterogeneous users: in one case, 1% of the user base accounted for almost 85% of total revenues' | Page 2: 'Several online blogs have recently reported a steep increase in user acquisition costs. For example, Hochman (2015) mentions an average CPC (cost per click) increase from $0.38 in 2005 to $0.92 in 2013 (i.e., an average annual increase of 11.7%)' | Page 2: 'Purchase timing and amount are not continuous or transparent, and can only be predicted probabilistically'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Constructing forecasting models using initial purchase information → identify potential heavy users early → enables special retention measures suited to their needs",
+				"Using CLV prediction at initial purchase → segment customer base by forecasted CLV → execute appropriate CRM measures and evaluate effectiveness",
+				"Treating 'best' customers with special care (VIP-like retention programs with dedicated services) → reduce churn risk → retain high-value customers",
+				"Aligning acquisition costs with CLV forecasts → assess whether customer group will generate enough future revenue → avoid acquiring unprofitable customers",
+				"Applying differentiated monetization strategies for up- and cross-selling → take payers to next highest spender bracket → increase revenue per customer",
+				"Using past purchase behavior as input for CLV models → more meaningful for segmenting customer base than demographic information → better predict future value"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Companies operating in these and similar businesses are increasingly constructing forecasting models with which to identify potential heavy users as early as possible and create special retention measures to suit those users' needs' | Page 9: 'An appropriate CLV prediction can support freemium businesses' acquisition, retention, and monetization strategies' | Page 9: 'identified high potential-value customers should be treated with special care – for example, with a (VIP-like) retention program with dedicated services (such as guaranteed response time to service tickets or unique platform content) to reduce their churn risk' | Page 9: 'it is important that they align these costs with their CLV forecasts to assess whether a certain customer group is likely to generate enough future revenues to be proﬁtable'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Conversion rate (free to paying users); 3.3% (Data set 1), 6.1% (Data set 2), 4.8% (Data set 3); percentage; 2009-2012; observational study; Table 2",
+				"Revenue concentration; Top 1% users contribute 84.6% (data set 1), 60.5% (data set 2), 53.6% (data set 3) of total revenue; percentage; 2009-2012; observational study; Page 4",
+				"Average CLV per paying user; €47.01 (data set 1), €31.01 (data set 2), €55.25 (data set 3); EUR; 365 days (sets 1-2), 180 days (set 3); observational study; Table 2",
+				"Credit purchases per paying user; Mean 3.78 (data set 1), 3.20 (data set 2), 1.46 (data set 3); count; 365 days (sets 1-2), 180 days (set 3); observational study; Table 2",
+				"Average purchase amount; €12.45 all purchases (data set 1), €9.68 (data set 2), €37.96 (data set 3); EUR; per transaction; observational study; Table 2",
+				"User churn; 40-55% of newly registered users log in only once and never return; percentage; not specified; observational study; Page 3",
+				"Long-term retention; 1-2% of all users still generate revenue more than year after registration; percentage; 1+ year; observational study; Page 3",
+				"CPC inflation; $0.38 (2005) to $0.92 (2013), 11.7% average annual increase; USD; 2005-2013; secondary data; Page 2",
+				"Purchase amount increase; 42.9% (data set 1), 9.7% (data set 2), 28.9% (data set 3) higher in subsequent vs initial purchases; percentage; per transaction; observational study; Page 6"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4, Table 2: Complete descriptive statistics including CLV metrics, conversion rates, purchase frequencies | Page 4: 'the top 1% of users contribute up to 84.6% (data set 1), 60.5% (data 2), and 53.6% (data set 3) of total revenue' | Page 2: 'Hochman (2015) mentions an average CPC (cost per click) increase from $0.38 in 2005 to $0.92 in 2013 (i.e., an average annual increase of 11.7%)' | Page 3: 'between 40 and 55% of newly registered users log in only once and then never return, and only 1–2% of all users still generate revenue more than a year after their registration'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2009-2012 (data collection). Maturity status: Consolidated - 'In recent years, freemium has become the dominant pricing strategy for software, games, and social network apps'",
+			"synonyms_found": [],
+			"source_citation": "Page 5, Table 2: 'Observation timeframe (for users to register): 2009-01-01 to 2010-10-31 (Data sets 1-2), 2011-09-25 to 2012-07-04 (Data set 3)' | Page 1: 'In recent years, freemium has become the dominant pricing strategy for software, games, and social network apps'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Multiple cases",
+			"synonyms_found": [
+				"three data sets",
+				"three European digital businesses",
+				"empirical study"
+			],
+			"source_citation": "Page 2: 'For our empirical study, we use customer and purchase data from three European digital businesses that sell a virtual currency in a non-contractual freemium model' | Page 2: 'The three data sets come from two online real-time strategy games (data sets 1 and 2), and an online dating platform (data set 3)' | Page 2: 'Working with multiple data sets allows us to see whether our results can be applied broadly rather than being specific to one platform'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Three anonymous European digital businesses (two online real-time strategy games and one dating platform) → Main case studies analyzed, data confidentiality agreement prevents disclosure of names",
+				"Top-grossing iPhone apps in US, Japan, Germany AppStore → Examples showing 94% free apps with 97% offering in-app purchases"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'For our empirical study, we use customer and purchase data from three European digital businesses that sell a virtual currency in a non-contractual freemium model. A data confidentiality agreement with the companies prevents us from disclosing their names' | Page 3: 'The three data sets come from two online real-time strategy games (data sets 1 and 2), and an online dating platform (data set 3)' | Page 3, Table 1: 'Top-grossing iPhone apps in Apple's AppStore – 4 January 2015' showing breakdown by country and genre",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Gaming freemium → Competitive environment where successful gamers keep playing longer, users motivated to attain in-game status/high scores, competitive dynamics increase willingness to pay",
+				"Dating freemium → Successful daters likely to quit service after finding partner, different user objectives compared to gaming but similar CLV patterns observed"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'Despite operating similar business models, freemium gaming and dating platforms are quite distinct from a user perspective. For example, whereas a 'successful' gamer is likely to keep playing (Choi and Kim 2004), a 'successful' dater is likely to quit the service after finding a partner. It will be interesting to see if these conflicting user objectives affect CLV or if we find consistent results for both businesses.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Updating CLV prediction over time (after second or third purchase) rather than only at initial purchase",
+				"Assessing CLV right after user registration using additional information (demographics, acquisition channel, on-site activity)",
+				"Developing comprehensive information systems that forecast CLV taking all key areas into account simultaneously",
+				"Expanding CLV model to include indirect value (user referrals reducing acquisition costs, network effects influencing other users' willingness to pay)",
+				"Conducting A/B field experiments to establish causal relationships (e.g., discounting credit packages for new users, testing payment method effects on CLV)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 9-10: 'A logical extension would be to update the CLV prediction over time, for example, after the second or third purchase (Borle et al. 2008), or to assess CLV right after a user's registration. This, however, requires additional information on the user such as user demographics (e.g., sex, age, place of residence), and acquisition channel (e.g., SEM, online ads, partner websites). Also, on-site activity (e.g., number of logins, time on platform in the last week) would be interesting input data to explore' | Page 10: 'Chan and Ip (2011) indicate that today no information system that forecasts CLV takes all key areas into account at the same time. If a system did so, a CLV model could create a clearly better picture' | Page 10: 'For future research, it would be fruitful to conduct A/B field experiments'",
+			"confidence_level": "high"
+		}
+	]
+}

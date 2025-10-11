@@ -1,0 +1,348 @@
+{
+	"extraction_metadata": {
+		"article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+		"extraction_date": "2025-10-08"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Three software business models are presented: (1) Free revenue model: releasing the app for free and monetizing by means of advertising and data selling; (2) Paid revenue model: marketing only paid apps and monetizing by means of app sales; (3) Freemium revenue model: offering both free and paid app versions, where a low valuable version with ads and limited/time-expiring functionalities is offered for free, and users can upgrade upon payment to the high valuable version.",
+			"synonyms_found": [
+				"free app strategy",
+				"paid app strategy",
+				"payment-based models"
+			],
+			"source_citation": "Page 3: 'We can identify at least three main models utilized by developers in the app stores. First, some developers adopt a free app strategy, releasing the app for free, and mostly aim at monetizing by means of advertising and, to less extent, through non-personally identifiable data selling. We refer to it as a free revenue model. Second, other developers market only paid apps and mostly aim at monetizing by means of app sales. We refer to this option as a paid revenue model. Finally, some other developers combine \"free\" and \"paid\" models, by offering both free and paid app versions. Under this model, a low valuable version, which may include ads and has limited or time-expiring functionalities/features, is offered for free... We refer to this option as a freemium revenue model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": "Free app strategy, paid app strategy, payment-based models (referring to paid and freemium collectively)",
+			"synonyms_found": [
+				"free app strategy",
+				"paid app strategy",
+				"payment-based models"
+			],
+			"source_citation": "Page 3: 'First, some developers adopt a free app strategy, releasing the app for free' | Page 4: 'we formulate our hypotheses comparing paid and freemium models with the free model... we aim to provide developers with insights on whether they should opt for revenue models (paid or freemium) that require payments from all or some of the users for monetization'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Mobile app market, specifically smartphone applications distributed through app stores",
+			"synonyms_found": [
+				"mobile app market",
+				"app stores",
+				"mobile commerce",
+				"application store"
+			],
+			"source_citation": "Page 1: 'An application store is essentially an online distribution platform from which users can download software applications for mobile devices to increase the utility associated to their usage. Mobile applications (apps, hereafter) are typically developed by third parties' | Page 1: 'App stores operate as online two-sided markets'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C",
+			"synonyms_found": ["consumers", "users", "app users"],
+			"source_citation": "Page 1: 'On the other hand, developers are interested in distributing their apps via app stores, because this allows them to reach a multitude of consumers worldwide' | Page 1: 'Finally, consumers derive higher utility from the presence of a higher number of developers in the app stores'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Range from individual developers to large established companies including top developers like Apple, Disney, Electronic Arts, Gameloft, Popcap, Rockstar Games, Sega, Ubisoft, and Zynga",
+			"synonyms_found": [
+				"software houses",
+				"individuals",
+				"third parties",
+				"developers",
+				"firms"
+			],
+			"source_citation": "Page 1: 'Mobile applications (apps, hereafter) are typically developed by third parties, which can be either software houses or individuals' | Page 8: 'Based on revenue information and worldwide recognition, we identify 9 top developers in our sample, i.e., Apple, Disney, Electronic Arts, Gameloft, Popcap, Rockstar Games, Sega, Ubisoft, and Zynga'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Italy (Italian version of app stores), with references to global market trends",
+			"synonyms_found": [],
+			"source_citation": "Page 7: 'In order to test our hypotheses, we collected data of apps for smartphones by weekly exploring the Italian version of the two major app stores, namely Apple's App Store and Google Play'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "The article distinguishes between high willingness-to-pay consumers (Apple App Store users) and low willingness-to-pay consumers (Google Play users), with different demographic and spending behavior characteristics",
+			"synonyms_found": [
+				"highly valuable customers",
+				"lowly valuable customers",
+				"valuable consumers",
+				"more valuable consumers"
+			],
+			"source_citation": "Page 5: 'it is widely recognized that Apple targets exclusively the high-end of the market, whereas the sales of Android devices are mostly determined by low-end segments of the market' | Page 5: 'This implies that consumers accessing the Apple's App Store are on average more valuable than those in Google Play consumers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Application",
+			"synonyms_found": [
+				"mobile applications",
+				"apps",
+				"software applications"
+			],
+			"source_citation": "Page 1: 'An application store is essentially an online distribution platform from which users can download software applications for mobile devices' | Page 1: 'Mobile applications (apps, hereafter)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Mobile (smartphone applications downloaded from app stores)",
+			"synonyms_found": ["mobile devices", "smartphones"],
+			"source_citation": "Page 1: 'An application store is essentially an online distribution platform from which users can download software applications for mobile devices' | Page 7: 'In order to test our hypotheses, we collected data of apps for smartphones'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Perpetual license",
+				"Advertising",
+				"In-app purchase",
+				"Data selling"
+			],
+			"synonyms_found": [
+				"app sales",
+				"non-personally identifiable data selling"
+			],
+			"source_citation": "Page 3: 'First, some developers adopt a free app strategy, releasing the app for free, and mostly aim at monetizing by means of advertising and, to less extent, through non-personally identifiable data selling' | Page 3: 'Second, other developers market only paid apps and mostly aim at monetizing by means of app sales' | Page 7: 'top grossing app rankings are based on the total daily (not cumulated) revenue of an app including revenue from sales, in-app purchase and advertising'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Per app download (for paid apps) and per feature/functionality (for in-app purchases)",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'under a paid app revenue model revenue mostly accrues from the price each user pays to download the app' | Page 6: 'More and more developers provide app users who have downloaded their apps at a given price (or free) with the opportunity to purchase additional features, e.g., additional levels, or credits in case of a game, directly inside the app'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Freemium", "Trial"],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Under this model, a low valuable version, which may include ads and has limited or time-expiring functionalities/features, is offered for free. As explained later, in this case the low valuable version can work as a trial offered to users to experiment with the product before committing to upgrade upon payment to the high valuable version'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform (app stores operate as platforms connecting developers with consumers)",
+			"synonyms_found": ["online two-sided markets"],
+			"source_citation": "Page 1: 'App stores operate as online two-sided markets, generating mutual advantages to all involved actors' | Page 4: 'Indeed, free apps work as two-sided markets. In our context, apps might attract not only app users, but also third parties who are interested in app users, when they are available in large numbers, for business purposes'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cross-sided (platform connecting developers and consumers, with benefits flowing between groups)",
+			"synonyms_found": ["indirect network externalities"],
+			"source_citation": "Page 1: 'By means of developers, the platform owner, e.g., Apple, can exploit indirect network externalities that increase the value of its own devices and/or operating systems (OS). In fact, the higher the number of apps running on a device, the higher the potential functionalities of such device. On the other hand, developers are interested in distributing their apps via app stores, because this allows them to reach a multitude of consumers worldwide that they might not be able to reach on their own. Finally, consumers derive higher utility from the presence of a higher number of developers in the app stores as they have larger product variety available for purchase'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Marketplaces"],
+			"synonyms_found": ["app stores", "distribution platform"],
+			"source_citation": "Page 1: 'An application store is essentially an online distribution platform from which users can download software applications for mobile devices' | Page 1: 'developers are interested in distributing their apps via app stores, because this allows them to reach a multitude of consumers worldwide'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes - Apple's App Store, Google Play",
+			"synonyms_found": ["Android Market"],
+			"source_citation": "Page 1: 'the scene is dominated by only two players: Apple's App Store and Google Play, which have become by far the most popular stores, retaining together almost 90% of the market' | Page 2: 'Google, which launched its Android mobile Operating Systems (OS) and made the Android Market (later rebranded as Google Play) available to app users in 2008'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Software applications that increase the utility of mobile devices through various functionalities",
+				"Customer Segment: Consumers with different willingness to pay (high-end Apple users vs. low-end Android users); different app categories attract different segments",
+				"Channels: App stores (Apple's App Store and Google Play) as distribution platforms",
+				"Revenue Streams: App sales, advertising, in-app purchase, data selling",
+				"Key Resources: Apps developed by third parties, platform infrastructure",
+				"Key Partnerships: Revenue-sharing arrangement between developers (70%) and platform owner (30%)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'An application store is essentially an online distribution platform from which users can download software applications for mobile devices to increase the utility associated to their usage' | Page 1: 'The revenue-sharing rule adopted by Apple (and also by all major stores) implies that, for each transaction, 70% of the revenue goes to the developer, while the platform owner retains 30% of it' | Page 5: 'consumers accessing the Apple's App Store are on average more valuable than those in Google Play consumers'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": "Platform Owner (Apple, Google) | Controls app store, provides infrastructure, retains 30% of revenue | Enables developers to reach consumers; Developers | Develop and market apps | Receive 70% of revenue from platform owner, reach consumers through platform; Consumers/Users | Download and use apps | Pay developers (directly or indirectly), provide data; Advertisers | Advertise products inside apps | Pay developers for advertising space, reach app users; Mobile Network Operators | Previously managed Mobile Portals | Displaced by app store business model",
+			"synonyms_found": ["third parties", "info seekers", "MNOs"],
+			"source_citation": "Page 1: 'App stores operate as online two-sided markets, generating mutual advantages to all involved actors. By means of developers, the platform owner, e.g., Apple, can exploit indirect network externalities... The revenue-sharing rule adopted by Apple (and also by all major stores) implies that, for each transaction, 70% of the revenue goes to the developer, while the platform owner retains 30% of it' | Page 4: 'apps might attract not only app users, but also third parties who are interested in app users, when they are available in large numbers, for business purposes. Some intuitive examples of third parties are usually firms that are interested in advertising their products inside the app, i.e., advertisers, but also those in search of consumer information for their marketing purposes, i.e., market info seekers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Developers: reach multitude of consumers worldwide, exploit various monetization options (advertising, app sales, in-app purchase); Platform owners: exploit indirect network externalities, increase device/OS value; Consumers: access larger product variety, increased device functionality",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'developers are interested in distributing their apps via app stores, because this allows them to reach a multitude of consumers worldwide that they might not be able to reach on their own. Finally, consumers derive higher utility from the presence of a higher number of developers in the app stores as they have larger product variety available for purchase' | Page 1: 'By means of developers, the platform owner, e.g., Apple, can exploit indirect network externalities that increase the value of its own devices and/or operating systems'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Matching revenue model to platform characteristics (consumer willingness to pay) → Better revenue performance; Matching revenue model to app category → Appropriate monetization strategy; Enabling in-app purchase in high willingness-to-pay environments → Increased revenue through price discrimination; High app rating → Better performance; Company fame → Better revenue ranks; Number of apps by developer → Better revenue performance; Time since market launch → Improved positioning",
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'payment-based revenue models (e.g., paid or freemium models) are more likely to be suitable in presence of consumers displaying sufficiently large willingness to pay for the product' | Page 10-11: 'Number developer apps -0.0014*** | Company fame 0.0177** | Time since Mkt launch -0.0029***' (showing statistical significance of these factors)",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "High user willingness to pay → Effectiveness of paid and freemium models; Large user base → Viability of free/advertising model; Consumer heterogeneity in valuations → Effectiveness of versioning/in-app purchase; Sufficient highly valuable customer segment → Success of price discrimination strategies; Platform choice alignment with target segment → Revenue performance",
+			"synonyms_found": ["critical mass"],
+			"source_citation": "Page 4: 'the free revenue model requires a huge amount of users (critical mass) to attract a sufficient number of interested third parties, e.g., primarily advertisers but also info seekers, able to ensure developers' profitability' | Page 6: 'versioning can be optimal in presence of consumer heterogeneity' | Page 6: 'in-app purchase as a practice of price discrimination requires heterogeneous consumers with some consumers willing to spend significantly more than others'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Low consumer willingness to pay → Ineffectiveness of paid/freemium models (especially in Google Play); Freemium model in low willingness-to-pay environment → Product cannibalization; Insufficient user base → Free model failure to generate adequate advertising revenue; Lack of valuable customer segment → In-app purchase strategy becomes detrimental; Category incompatibilities → News & Magazines apps with paid model perform poorly",
+			"synonyms_found": [],
+			"source_citation": "Page 12: 'the presence of a free version can cannibalize the paid version in this platform given that Android users on average tend to limit their spending on apps and thus they are more likely to decide to utilize the free version without upgrading to the full paid version' | Page 14: 'for News & Magazines is a category where the paid revenue model does not perform as well as the free model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Choosing appropriate revenue model for app is difficult and crucially important; Low sales due to competitive market; Product cannibalization between free and paid versions (especially in Google Play); Reaching critical mass for advertising model; Declining effectiveness of online advertising; Increased competition from search engine advertising; Cross-platform differences requiring different strategies; Category-specific suitability of revenue models",
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'the choice of the revenue model is perceived as one of the most difficult and crucially important decisions by app developers in order to succeed in the market' | Page 2: 'many developers struggle with the choice of the appropriate revenue model for their apps as the mobile app market has become very competitive and many developers suffer from low sales' | Page 4: 'the increased competition from search engine advertising and other similar forms has made advertising less and less profitable to providers of online digital content'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Adopting payment-based models in high willingness-to-pay platforms → Avoiding reliance on declining advertising revenues → Better monetization in Apple's App Store; Using free model in low willingness-to-pay environments → Matching consumer preferences → Adequate revenue generation in Google Play; Implementing in-app purchase in Apple's App Store → Enabling price discrimination → Higher revenue performance; Avoiding freemium in Google Play → Preventing product cannibalization → Better revenue outcomes; Matching revenue model to app category → Addressing category-specific needs → Improved performance",
+			"synonyms_found": [],
+			"source_citation": "Page 16: 'developers in the Apple's App Store should consider following the general tendency illustrated by numerous recent studies on online content provision and take advantage of the demonstrated Apple users' high willingness to pay by adopting payment-based revenue models' | Page 16: 'developers in Google Play should avoid adopting this hybrid model and rather opt for either free or paid ones'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "App market size; $10 billion (2011); USD; Annual; Industry report; Venturebeat | App market size; $70 billion (estimated); USD; 2017; Industry forecast; Venturebeat | Global mobile market; $150 billion (estimated); USD; End of 2015; Industry forecast; Ghose and Han 2014 | Market share; 90%; Percentage; Current; Industry data; Gartner 2013 | Revenue sharing; 70% to developer, 30% to platform; Percentage; Per transaction; Standard practice; Article data | Downloads comparison; 60% more; Percentage; Current; Industry data; Wallenstein 2015 | Free app downloads; 90%; Percentage; Current; Industry data; Gartner 2013 | Google Play downloads advantage; 70% more; Percentage; Current; Industry data; Sims 2015 | Apple revenue advantage; 70% higher; Percentage; Current; Industry data; Sims 2015 | Sample size; 2177 observations; Count; 20 weeks; Empirical study; Authors | Number of apps studied; 110 apps; Count; Study period; Empirical study; Authors | Observation period; 20 weeks; Duration; Oct 2012 - Mar 2013; Empirical study; Authors | Average revenue rank; 240; Rank position; Study period; Empirical study; Authors | Free apps percentage; 53.88%; Percentage; Study period; Sample data; Authors | Paid apps percentage; 27.38%; Percentage; Study period; Sample data; Authors | Freemium apps percentage; 18.74%; Percentage; Study period; Sample data; Authors | In-app purchase usage; 69.59%; Percentage; Study period; Sample data; Authors | Games category; 57.74%; Percentage; Study period; Sample data; Authors",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'the app market has shown an astonishing growth stepping from less than $10 billion annual revenue in 2011 up to estimated $70 billion by 2017' | Page 1: 'the global mobile market will reach $150 billion by the end of 2015' | Page 2: 'Apple's App Store and Google Play, which have become by far the most popular stores, retaining together almost 90% of the market' | Table 3 shows detailed percentages for revenue models and categories",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: October 19, 2012 to March 8, 2013 (20 weeks). Maturity status: Growing - the app store model was introduced in 2008 and was experiencing rapid growth during the study period",
+			"synonyms_found": [],
+			"source_citation": "Page 7: 'the observations utilized in the present paper are related to all Fridays in the period going from October 19th, 2012 to March 8th, 2013 (20 weeks in total)' | Page 1: 'This relatively stable context was dramatically shaken in 2008 by Apple, which, by launching the app store, introduced a new distribution paradigm in mobile commerce' | Page 1: 'the app market has shown an astonishing growth'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Secondary data analysis - empirical analysis using panel data collected from app store rankings",
+			"synonyms_found": ["empirical analysis", "panel dataset"],
+			"source_citation": "Page 2: 'The empirical investigation developed in this study contributes to fill this gap' | Page 7: 'In order to test our hypotheses, we collected data of apps for smartphones by weekly exploring the Italian version of the two major app stores, namely Apple's App Store and Google Play' | Page 7: 'Recording data from the two stores for all the 20 weeks would yield a balanced panel dataset of 2200 observations'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": "Apple | Platform owner and top developer; Disney | Top developer identified in sample; Electronic Arts | Top developer identified in sample; Gameloft | Top developer identified in sample; Popcap | Top developer identified in sample; Rockstar Games | Top developer identified in sample; Sega | Top developer identified in sample; Ubisoft | Top developer identified in sample; Zynga | Top developer identified in sample; Google | Platform owner (Google Play); RIM | Mobile device maker that launched app store; Samsung | Mobile device maker that launched app store; Garmin | Developer with huge popularity included in sample; Marvel Entertainment | Developer with huge popularity included in sample; Norton by Symantec | Developer with huge popularity included in sample; TomTom | Developer with huge popularity included in sample",
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'numerous mobile device makers, such as RIM, Samsung, etc, have followed Apple's move' | Page 8: 'Based on revenue information and worldwide recognition, we identify 9 top developers in our sample, i.e., Apple, Disney, Electronic Arts, Gameloft, Popcap, Rockstar Games, Sega, Ubisoft, and Zynga. We also include Garmin, Marvel Entertainment, Norton by Symantec and TomTom due to their huge popularity'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": "In-app purchase as variation → Can be combined with any revenue model (free, paid, or freemium) to enable purchase of additional features; Free with time-expiring version → Limited trial period before requiring upgrade; Free with limited functionalities → Restricted features requiring payment for full access; Free with advertising → Monetization through ads with option to remove ads via payment",
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Under this model, a low valuable version, which may include ads and has limited or time-expiring functionalities/features, is offered for free' | Page 6: 'in-app purchase does not necessarily coincide with the freemium revenue model... Rather, it is an additional strategy that can be pursued by developers' | Page 6: 'it can be well the case that only the paid version has been released for the app (for instance at a price equal to $0.99) and in-app purchases are offered to add additional features at incremental prices'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Continued market growth with predictions of $70 billion by 2017; Increasing importance of payment-based models over pure free models; Growing role of in-app purchase in monetization strategies; Continued dominance of Apple's App Store and Google Play duopoly; Need for developers to differentiate version design to avoid cannibalization",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'the app market has shown an astonishing growth stepping from less than $10 billion annual revenue in 2011 up to estimated $70 billion by 2017' | Page 4: 'industry statistics strongly report that paid apps generate higher revenue than free apps and are predicted to play a more prominent role also in the future' | Page 16: 'developers may rethink about their version design strategies and differentiate the two versions significantly'",
+			"confidence_level": "medium"
+		}
+	]
+}

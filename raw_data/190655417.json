@@ -1,0 +1,344 @@
+{
+	"extraction_metadata": {
+		"article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+		"extraction_date": "2025-10-08"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Inter-company business model for composite software based on loose partnerships: A business model where independent complementary software providers collaboratively offer a composite software solution based on loose market collaboration, operating as a value network (VN) or software ecosystem (SECO). The model involves autonomous units that operate together in a framework of common principles and service level agreements to deliver value to customers without requiring joint ventures, binding contracts, or license purchases among partners.",
+			"synonyms_found": [
+				"value network",
+				"software ecosystem",
+				"SECO",
+				"VN",
+				"composite software business model"
+			],
+			"source_citation": "Page 1: 'Thus, flexible business models are required that are based on loose partnerships among involved companies, but still enable a common presence on the market' | Page 4: 'the objective of the research was specified as follows: to develop generic design artefacts (i.e. guidelines) for development of inter-company business models for composite software based on loose partnerships of independent software providers' | Page 5: 'VN can be considered as a set of relatively autonomous units that can be managed independently but operate together in a framework of common principles and service level agreements (SLA) in order to deliver the value to customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": "Value network (VN), Software ecosystem (SECO), inter-organizational business model, inter-company business model, composite software business model",
+			"synonyms_found": [
+				"value network",
+				"VN",
+				"software ecosystem",
+				"SECO",
+				"inter-organizational business model",
+				"inter-company business model"
+			],
+			"source_citation": "Page 1: 'inter-company business model' | Page 2: 'inter-organizational business models' | Page 4: 'software value networks (VN); software ecosystems (SECOs)' | Page 5: 'According to [19], SECOs are defined \"….as a set of businesses functioning as a unit and interacting with a shared market for software and services, together with the relationships among them.\"'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Broadcasting, Web TV, and digital video archives industry; ICT (Information and Communication Technology) sector",
+			"synonyms_found": ["ICT", "information and communication technology"],
+			"source_citation": "Page 1: 'Multiple exemplary past projects have been conducted in the area of information and communication technology (ICT)' | Page 4: 'The involved partners see a market opportunity for the composite software product in the following industries: broadcasting, Web TV and digital video archives. Three of the involved companies had an established customer base in the broadcasting industry'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B - Enterprise (broadcasters, Web TV companies, digital video archives)",
+			"synonyms_found": ["broadcasters", "customers"],
+			"source_citation": "Page 4: 'The involved partners see a market opportunity for the composite software product in the following industries: broadcasting, Web TV and digital video archives. Three of the involved companies had an established customer base in the broadcasting industry' | Page 9: 'organized presentations at several broadcasters'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Mix of SMEs (Small and Medium Enterprises), universities, and applied research centres - independent companies with equal power, none strong enough to dominate",
+			"synonyms_found": [
+				"SMEs",
+				"small and medium enterprises",
+				"independent companies"
+			],
+			"source_citation": "Page 3: 'Overall, there were six independent companies participating in the final composite software solution: three SMEs, one university, and two applied research centres' | Page 4: 'The common composite software product (prototype) is provided by independent companies of different backgrounds: SMEs, universities, and applied research centres' | Page 5: 'Such business model approaches do not provide a solution for groups of independent complementary software providers with equal power'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Europe (European Framework Program FP7 project), with specific mention of Austria and Germany",
+			"synonyms_found": ["European Commission", "EC", "FP7"],
+			"source_citation": "Page 1: 'The framework programs (FP) of the European Commission (EC) are one important public initiative' | Page 3: 'The chosen FP7 ICT collaborative research project started in October 2011 and ended in March 2015' | Page 8: 'A third partner, a university providing the scientific manager, created a spin-off that provides the market coordination for P3 specifically in Austria'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Broadcasting companies with established customer relationships, seeking end-to-end video enrichment solutions for second-screen experiences",
+			"synonyms_found": ["broadcasters"],
+			"source_citation": "Page 3: 'The project was inspired by recent statistics about new behavioural patterns of TV audiences. It is becoming a widespread habit to consult a second screen, such as a smartphone or tablet while watching TV' | Page 4: 'Three of the involved companies had an established customer base in the broadcasting industry' | Page 9: 'organized presentations at several broadcasters'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Platform", "Managed Service", "Application"],
+			"synonyms_found": [
+				"composite software solution",
+				"end-to-end solution",
+				"SaaS"
+			],
+			"source_citation": "Page 3: 'the project was initiated with the vision of developing an end-to-end composite software solution for automated enrichment of audio-visual content with related online information' | Page 4: 'in its final version evolved towards a Software-as-a-Service (SaaS) ecosystem' | Page 9: 'All partners committed themselves to provide an operating SaaS version of their component'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS"],
+			"synonyms_found": ["Software-as-a-Service", "SaaS"],
+			"source_citation": "Page 4: 'in its final version evolved towards a Software-as-a-Service (SaaS) ecosystem' | Page 9: 'All partners committed themselves to provide an operating SaaS version of their component with predefined APIs and SLA' | Page 9: 'The resulting core of the technical design and governance were complementary software services that are provided as SaaS through the agreed APIs'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Proprietary - each partner maintains ownership of their individual software components while agreeing to maintain interfaces and provide services",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'None of the involved companies was able to buy or license the software of the others, thus prevailing solutions based on sub-contracting, joint ventures and common spin-offs were not acceptable for the involved companies' | Page 9: 'Each partner committed to maintain the agreed upon APIs developed during the project as well as to provide support for and to keep his SaaS component available and running on his own cost'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Cannot use traditional licensing models (buying licenses from partners) → Required loose partnership model with maintained component ownership; Must maintain agreed APIs → Technical interoperability requirement; Must provide SaaS availability for 24 months post-project → Service continuity requirement",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'None of the involved companies was able to buy or license the software of the others, thus prevailing solutions based on sub-contracting, joint ventures and common spin-offs were not acceptable' | Page 9: 'Each partner committed to maintain the agreed upon APIs developed during the project as well as to provide support for and to keep his SaaS component available and running on his own cost for additional 24 months after the end of the research project'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Subscription",
+				"Usage/consumption",
+				"Support",
+				"Transaction"
+			],
+			"synonyms_found": ["service based revenues"],
+			"source_citation": "Page 7: 'Financial flow governance defines how the VN or SECO generates revenues and how revenues are consequently split among partners. According to [17], multiple payment and revenue-sharing models can be distinguished, such as service based revenues, up-front license fees, subscription, advertising based revenues, transaction based revenue sharing, and giving it to customers for free' | Page 9: 'The consortium then discussed possible financial governance forms and decided that the coordinators would collect the payment from the customer and distribute it among involved providers according to their contribution to the delivered service'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Revenue sharing based on contribution to delivered service",
+			"synonyms_found": [],
+			"source_citation": "Page 9: 'The consortium then discussed possible financial governance forms and decided that the coordinators would collect the payment from the customer and distribute it among involved providers according to their contribution to the delivered service'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Custom negotiation"],
+			"synonyms_found": [],
+			"source_citation": "Page 7: 'multiple payment and revenue-sharing models can be distinguished, such as service based revenues, up-front license fees, subscription, advertising based revenues, transaction based revenue sharing, and giving it to customers for free' | Page 9: 'the coordinators would collect the payment from the customer and distribute it among involved providers'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform - operates as a value network where multiple independent providers contribute complementary components, with coordinators providing platform orchestration",
+			"synonyms_found": ["value network", "ecosystem"],
+			"source_citation": "Page 4: 'the resulting composite software solution is based on a value-network of interoperable independent software components and services' | Page 5: 'A service delivered over a VN requires the contribution of two or more network components. Thus, VN can be considered as a set of relatively autonomous units that can be managed independently but operate together' | Page 6: 'coordinator is the leading role of a SECO and performs the following tasks: Technical coordination... Service coordination... Market coordination'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cross-sided - complementary components from different providers create value together, requiring contribution of multiple network components",
+			"synonyms_found": ["complementarity"],
+			"source_citation": "Page 5: 'VN are composed of complementary nodes and links. The crucial defining feature of networks is the complementarity between the various nodes and links. A service delivered over a VN requires the contribution of two or more network components' | Page 6: 'complementary contributors to the compound product or service that the SECO or VN seek to offer' | Page 7: 'The main tasks and responsibilities of the providers are to develop and operate complementarily'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Direct sales", "Partners/channels"],
+			"synonyms_found": ["one-face-to-the-customer"],
+			"source_citation": "Page 7: 'Market coordination involves enabling a \"one-face-to-the-customer\" or a \"one-stop-shopping\" customer experience and coordinating service delivery' | Page 8: 'providing a \"one-face-to-the-customer\"; providing marketing and distribution for the composite products' | Page 9: 'the distribution spin-off created by the scientific coordinator presented the composite product at a major fair and organized presentations at several broadcasters'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: End-to-end composite software solution for automated enrichment of audio-visual content with related online information for second-screen experiences",
+				"Customer Segment: Broadcasting companies, Web TV providers, digital video archives",
+				"Channels: Direct sales through coordinators with one-face-to-the-customer approach, presentations at fairs and customer sites",
+				"Revenue Streams: Service-based revenues collected by coordinators and distributed among providers according to contribution",
+				"Key Resources: Complementary software components from independent providers, APIs, SaaS infrastructure",
+				"Key Activities: Technical coordination, service coordination, market coordination, maintaining APIs and SLAs",
+				"Key Partnerships: Loose partnerships among SMEs, universities, and research centres with defined coordinator and provider roles",
+				"Cost Structure: Each partner maintains their own SaaS component on their own cost"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'developing an end-to-end composite software solution for automated enrichment of audio-visual content' | Page 4: 'broadcasting, Web TV and digital video archives' | Page 8: 'providing a \"one-face-to-the-customer\"; providing marketing and distribution' | Page 9: 'coordinators would collect the payment from the customer and distribute it among involved providers according to their contribution' | Page 9: 'keep his SaaS component available and running on his own cost'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": "Coordinators | Lead technical, service, and market coordination; provide one-face-to-customer | Orchestrate service delivery through workflow component, collect payments and distribute to providers; Independent Software Providers (ISV) | Develop and operate complementary software components | Provide SaaS components via APIs, maintain interfaces, receive revenue share from coordinator; Customers (Broadcasters) | Purchase end-to-end solutions | Pay coordinators for composite services; Public Funders (European Commission) | Finance collaborative research projects | Provide funding for initial development through Framework Programs; Universities/Research Centers | Contribute research competencies and components | May create spin-offs for commercialization, provide scientific management",
+			"synonyms_found": [
+				"ISV",
+				"independent software providers",
+				"complementary contributors"
+			],
+			"source_citation": "Page 6-7: 'The coordinator is the leading role of a SECO and performs the following tasks: Technical coordination... Service coordination... Market coordination... Another important role is played by the remaining SECO or VN contributors. These are complementary contributors to the compound product or service... mostly referred to as software providers or independent software providers (ISV)' | Page 9: 'the coordinators would collect the payment from the customer and distribute it among involved providers according to their contribution'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Market opportunity for composite solution requiring complementary competencies that no single partner possesses; Need to commercialize collaborative research results; Inability to use traditional models (joint ventures, license purchases, subcontracting); Desire to maintain independence while achieving common market presence; Partners share common research interest and complementary competences; Public funding requirements for innovation and commercialization",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'ICT FP projects are increasingly dedicated towards innovation and commercialization of results of collaborative research' | Page 3: 'A broad market analysis and feedback from potential customers revealed that there is a market potential for the end-to-end solution resulting from the project. For that reason, the project partners decided to commercialize the common, composite software results' | Page 1: 'none of the involved companies is able to take over the responsibility for the common product based on approaches involving joined ventures, binding supplier contracts or buying of licenses'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Clear role definition (coordinator vs. provider) → Structured cooperation and task allocation; Agreed APIs and SLAs → Technical interoperability and service quality; One-face-to-the-customer coordination → Simplified customer experience; Established customer base of some partners → Market access; Complementarity of components → Complete end-to-end solution; SaaS delivery model → Flexible service provision; Transparent revenue sharing based on contribution → Fair value distribution; Commitment to maintain components post-project → Service continuity",
+			"synonyms_found": [],
+			"source_citation": "Page 7: 'enabling a \"one-face-to-the-customer\"... customer experience' | Page 9: 'Each partner committed to maintain the agreed upon APIs developed during the project as well as to provide support for and to keep his SaaS component available and running' | Page 9: 'distribute it among involved providers according to their contribution to the delivered service'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Composite product requiring complementary contributions → Necessitates multi-partner collaboration; Interoperable software components with defined interfaces → Technical foundation for integration; Partners with complementary competencies → Complete solution capability; Equal power distribution among partners → Loose partnership viability; Market opportunity for composite solution → Commercial justification; Availability of SaaS versions of components → Service delivery capability; Willingness to commit to API maintenance and SLAs → Long-term collaboration foundation",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'each partner improved and adjusted his own software components to suite the compound solution. Thus, the resulting composite software solution is based on a value-network of interoperable independent software components and services' | Page 5: 'groups of independent complementary software providers with equal power' | Page 9: 'first SaaS versions of the components had already been developed and tested during the project'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Cannot use joint ventures → Requires loose partnership approach; Cannot use license buying from partners → Each partner must maintain own component ownership; Cannot use subcontracting arrangements → Requires equal partnership structure; Product may not be mature at project end → Limits immediate commercialization options; Strong platform provider incompatible with equal power structure → Excludes PaaS-style models; Need for equal power among partners → Limits hierarchical governance options",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'In many cases none of the involved companies is able to take over the responsibility for the common product based on approaches involving joined ventures, binding supplier contracts or buying of licenses from other partners' | Page 1: 'at the end of the research projects the common product might not be mature yet' | Page 5: 'require a strong player providing the platform as well as initiating and organizing the cooperation... do not provide a solution for groups of independent complementary software providers with equal power'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Transition from collaborative project to commercial setting; Development of suitable inter-company business model; Partners rate commercialisation and monetary returns as less successful; Product maturity at project end; No single partner able to take full responsibility; Lack of binding commitment structures; Need for flexible business models based on loose partnerships; Combining interests of all parties to generate value for each; Managing boundary-spanning research activities; Coordinating autonomous units while maintaining common presence",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Issues to be targeted in this context are the shift from a project to a setting with commercial aims, and the development of inter-company business models suitable for composite software products' | Page 1: 'individual partners often rate the results of collaborative projects, in particular the commercialisation and the direct use of their results and related monetary returns, as less successful' | Page 3: 'the main concern became to master the transition from a collaborative project to a commercial setting by combining the interests of all parties involved in order to generate value for each of them'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Applying design science methodology → Structured approach to business model development → Rigorous and relevant solutions; Using design procedure (DP) and design options (DO) → Systematic decision sequence → Clear business model architecture; Defining clear roles (coordinator vs. provider) → Task allocation clarity → Reduced coordination complexity; Establishing governance frameworks (technical, service, financial) → Rule-based cooperation → Predictable interactions; Using APIs and SLAs for technical governance → Standardized interfaces → Interoperability assurance; Adopting SaaS delivery model → Flexible service provision → Reduced deployment complexity; One-face-to-customer coordination → Simplified customer interaction → Enhanced market presence; Revenue sharing based on contribution → Fair value distribution → Partner motivation alignment",
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'By applying the design science approach, two design artefacts (i.e. guidelines) are provided: a design procedure (DP) suggesting a sequence of design decisions that need to be undertaken in the process of business model design, and an overview of detailed design options (DOs)' | Page 6: 'Defining the roles can help the creation of templates for specific business relationships, by formalizing expected commitments and tasks' | Page 9: 'All partners committed themselves to provide an operating SaaS version of their component with predefined APIs and SLA'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Number of partners; 6 independent companies; Count; Project duration; Case study; Authors | SMEs involved; 3; Count; Project duration; Case study; Authors | Universities involved; 1; Count; Project duration; Case study; Authors | Research centres involved; 2; Count; Project duration; Case study; Authors | Software components; 6; Count; Final solution; Case study; Authors | Project duration; 41 months; Duration; October 2011 - March 2015; Case study; Authors | Post-project commitment; 24 months; Duration; After project end; Agreement; Authors | Papers analyzed; 88; Count; Literature review; Systematic review; Authors | Product variants; 3 distinct products; Count; Market segmentation; Design phase; Authors | Literature sources on VN; Few publications; Qualitative; Historical; Literature analysis; Authors",
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'The chosen FP7 ICT collaborative research project started in October 2011 and ended in March 2015' | Page 3: 'Overall, there were six independent companies participating in the final composite software solution: three SMEs, one university, and two applied research centres' | Page 5: 'A systematic literature analysis was conducted related to the topic of SECO design. In total, 88 papers were considered' | Page 9: 'keep his SaaS component available and running on his own cost for additional 24 months after the end of the research project'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: October 2011 - March 2015 (project execution) + first six months post-project (commercialization initiation). Maturity status: Emerging - transitioning from research prototype to commercial offering, with first market presentations but customers not yet acquired",
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'The chosen FP7 ICT collaborative research project started in October 2011 and ended in March 2015' | Page 1: 'at the end of the research projects the common product might not be mature yet' | Page 9: 'During the first six months after the project in particular the distribution spin-off created by the scientific coordinator presented the composite product at a major fair and organized presentations at several broadcasters. It can be expected that in case customers can be acquired for the common solutions the loose partnerships might evolve into stronger and more binding partnerships'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Single case study - design science research approach applied to one FP7 ICT collaborative research project, complemented by systematic literature review",
+			"synonyms_found": ["case study", "design science approach"],
+			"source_citation": "Page 2: 'Deriving from a case study of a FP7 ICT research project, the main requirements upon collaborative business models are first identified' | Page 2: 'Design science research aims at solving practical and theoretical problems by creating and evaluating information technology related artefacts (i.e. guidelines) intended to solve identified organizational problems' | Page 2: 'based on a broad literature review, and by combining components from both the concept of value networks (VN) and software ecosystems (SECO), the two design artefacts for inter-company business models for composite software have been developed'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": "Condat AG | Co-author affiliation, involved in research; University of St. Gallen (MCM) | Co-author affiliation, scientific project management and spin-off creation; Anonymous FP7 project consortium | Six partners (3 SMEs, 1 university, 2 research centres) providing video enrichment solution for second-screen applications; European Commission Framework Programs | Funding organization for collaborative ICT research projects",
+			"synonyms_found": ["EC", "FP", "FP7"],
+			"source_citation": "Page 1: 'MCM University of St. Gallen... Condat AG' | Page 3: 'Overall, there were six independent companies participating in the final composite software solution: three SMEs, one university, and two applied research centres. In addition, one university was responsible for the scientific project management' | Page 8: 'A third partner, a university providing the scientific manager, created a spin-off that provides the market coordination for P3 specifically in Austria'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": "Foundation variations → Platform-based (requires strong platform provider), Open source-based (requires developer community), Common market-based (based on VN), Composite product-based (based on VN); Role distribution variations → Single coordinator vs. Multiple coordinators (different partners coordinate different product variants); Governance formalization levels → Constitutional documents (memorandum of understanding, manifesto) vs. Informal arrangements; Product bundling variations → P1 (end-to-end video enrichment solution), P2 (end-user application with multi-screen toolkit), P3 (P1+P2 with distribution representation)",
+			"synonyms_found": [],
+			"source_citation": "Page 6: 'There are different foundations on the basis of which VN and SECOs either emerge or are being built. These foundations can be set by software platforms; open source software; a common market; or VN' | Page 8: 'according to geographical and customer segmentation of potential markets, three distinct products that the network would be possible to offer were identified: product 1 (P1) is the end to end video enrichment solution... product 2 (P2) is a specific end-user application developed with the multi-screen toolkit... product 3 (P3) consists of P1 and P2'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Evolution from loose to stronger partnerships if customers are acquired; Potential transition from prototype to mature commercial product; Evolution from research setting to sustainable commercial operations; Need for further case studies to refine design guidelines; Testing in different settings with different power distributions among partners; Increasing focus on innovation and commercialization in EU Framework Programs",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'ICT FP projects are increasingly dedicated towards innovation and commercialization of results of collaborative research' | Page 9: 'It can be expected that in case customers can be acquired for the common solutions the loose partnerships might evolve into stronger and more binding partnerships' | Page 9: 'Further case studies are required in order to refine and test the design guidelines. The DP and DO need to be tested also in other settings with different market and investment power distribution among involved partners'",
+			"confidence_level": "high"
+		}
+	]
+}

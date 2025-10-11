@@ -1,0 +1,518 @@
+{
+	"extraction_metadata": {
+		"article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "App-based car-related shared mobility services. Definition: Business models that provide on-demand transportation services through mobile applications, divided into three main types: ride-sourcing (ride-hailing and ridesharing) and vehicle sharing (carsharing), which changed urban mobility from a limited transportation offer to a scenario full of new players offering mobility-on-demand in different ways.",
+			"synonyms_found": [
+				"shared mobility services",
+				"shared transport services",
+				"mobility services",
+				"car-related shared mobility services",
+				"emerging shared mobility services"
+			],
+			"source_citation": "Page 1: 'These new mobility business models have changed the urban mobility sector from a limited transportation offer to a scenario full of new players offering mobility-on-demand in different ways.' | Page 2: 'we divide the shared mobility business models into two main areas: ride-sourcing, which refers to the services of ride-hailing and ridesharing; and vehicle sharing, which is based on renting vehicles for short periods of time.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"shared mobility services",
+				"shared transport services",
+				"mobility services",
+				"car-related shared mobility services",
+				"emerging shared mobility services",
+				"app-based on-demand shared transport initiatives"
+			],
+			"synonyms_found": [
+				"shared mobility services",
+				"shared transport services",
+				"mobility services",
+				"car-related shared mobility services",
+				"emerging shared mobility services",
+				"app-based on-demand shared transport initiatives"
+			],
+			"source_citation": "Page 1: 'shared transport services, car sharing, ride hailing, ride sharing, business model' | Page 2: 'app-based on-demand shared transport initiatives' | Page 1: 'Emerging shared mobility services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Urban mobility / Transportation services",
+			"synonyms_found": [
+				"mobility sector",
+				"urban mobility sector",
+				"passenger transport services",
+				"transportation"
+			],
+			"source_citation": "Page 2: 'These new mobility business models have changed the urban mobility sector from a limited transportation offer to a scenario full of new players offering mobility-on-demand in different ways.' | Page 3: 'These emerging shared mobility services concern and challenge the traditional passenger transport services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C",
+			"synonyms_found": [
+				"private customers",
+				"business clients",
+				"public authorities"
+			],
+			"source_citation": "Page 5: 'Car-related shared mobility services are oriented toward private customers, business clients and public authorities' | Page 2: 'private B2C (chauffeur driven vehicles commonly called VTC services)' | Page 2: 'B2C carsharing services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Ranges from startups to large automakers and technology corporations",
+			"synonyms_found": ["start-ups", "automakers", "big automakers"],
+			"source_citation": "Page 3: 'automakers are investing, acquiring and partnering these services, or even creating their own, as well as their own mobility ecosystems. For instance, Daimler launched the carsharing services of car2go and Croove [...] other big automakers such as Volkswagen, Toyota, Ford or General Motors are also building their mobility ecosystem' | Page 10: 'the authors studied the backgrounds of owners, ranging from car manufacturers, car rental companies and car dealers to rail operators and start-ups'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Spain, Germany, United States, and multiple other countries including Romania, China, Saudi Arabia, United Kingdom (London), and France (Paris Region)",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'Both the surveys and the tests were conducted in different cities of Spain, Germany and the United States.' | Page 2: 'some cities are reacting to this uncontrolled expansion, such as London, trying to ban the ride-hailing services of Uber, or New York' | Page 2: 'in countries like Saudi Arabia Uber offers reliable transportation to women'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Commuters, long-distance travellers, leisure users, city night users, university students and employees, business clients, and tourists",
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'Some ridesharing and shared ride-hailing services target specific Customer Segments, such as commuters (Waze, 2018; Via, 2018) or long-distance travellers' | Page 5: 'singular ride-hailing services mainly target leisure, city night uses, and other short trips' | Page 6: 'the neighbourhood, business and university customer segments, for being predominant market segments as well as the most profitable markets' | Page 6: 'Lesteven and Leurent (2016) also proposed a type of carsharing for tourists'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Platform", "Application", "Managed Service"],
+			"synonyms_found": [
+				"technological platform",
+				"app-based",
+				"mobility platform",
+				"internet platforms"
+			],
+			"source_citation": "Page 2: 'organisation-based model using internet platforms' | Page 3: 'Daimler launched the carsharing services of car2go and Croove, in addition to the mobility platform moovel' | Page 4: 'we analysed their business models by means of the BMC methodology' | Page 6: 'they are app-based and they can contribute to improve mobility'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Mobile"],
+			"synonyms_found": [
+				"app-based",
+				"mobile applications",
+				"applications",
+				"smartphone"
+			],
+			"source_citation": "Page 7: 'App-based mobility services mainly reach their customers through their own services' applications' | Page 5: 'The majority of them require users to be holders of a smartphone' | Page 6: 'they are app-based and offer easy booking and access to the service'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Driver licensing restrictions → affects ride-hailing key resources and operations",
+				"VTC license requirements → affects service offering and key partnerships",
+				"Regulatory restrictions by region → affects service implementation and expansion"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 8: 'skilled drivers (on some occasions they are also required to hold a taxi or a VTC license, depending on the service provider and the place where the service is offered)' | Page 11: 'regulatory issues, which differ between countries and even between regions and cities in the same country, and which could complicate the proposition and implementation of the service'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Usage/consumption (pay-per-use)",
+				"Subscription",
+				"Transaction (commission per trip)",
+				"Advertising",
+				"Support (service fees)",
+				"Government subsidies"
+			],
+			"synonyms_found": [
+				"pay-per-use",
+				"subscription fee",
+				"usage fee",
+				"commission",
+				"service fee",
+				"government subsidies and grants",
+				"sponsorship and advertising"
+			],
+			"source_citation": "Page 7: 'Emerging mobility services generally charge their customers per use; however, many B2C carsharing services, such as Zipcar and Respiro, use a combination of a subscription fee and a usage fee' | Page 7: 'In P2P services, the platform charges a commission per trip, which in the case of Uber is 20%' | Page 8: 'The continuous revenues identified by Cohen & Kietzmann (2014) and Remane et al. (2016) were membership and service fees from users, government subsidies and grants, and sponsorship and advertising'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Multiple units depending on service type: per ride/trip for ride-hailing, per minute/hour/day for carsharing, per kilometer and/or per minute for some services",
+			"synonyms_found": [],
+			"source_citation": "Page 7: 'Ride-hailing services only use the pay-per-use method, charging for each ride, but allowing for different combinations. Some apply a rate per kilometre and/or per minute' | Page 8: 'their revenue model is based on a price structure that is either determined by the duration of the rental or a combination of the duration and the distance travelled'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Pay-as-you-go",
+				"Tiers/Plans",
+				"Custom negotiation (flat rates)",
+				"Freemium"
+			],
+			"synonyms_found": [
+				"pay-per-use",
+				"subscription plans",
+				"dynamic pricing",
+				"flat rates",
+				"freemium model"
+			],
+			"source_citation": "Page 7: 'Emerging mobility services generally charge their customers per use' | Page 7: 'others offer flat rates' | Page 7: 'Uber uses dynamic pricing to match the supply with the demand' | Page 8: 'Zipcar and Respiro adapt their rates depending on their different monthly subscription plans' | Page 8: 'Other operators such as TwoGo by SAP are subscription-based or they apply a freemium model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": [
+				"platform",
+				"technological platform",
+				"online platform",
+				"internet platforms"
+			],
+			"source_citation": "Page 2: 'organisation-based model using internet platforms' | Page 7: 'In P2P services, the platform charges a commission per trip' | Page 8: 'The carsharing platform functions as an agent that collects payment for each rental and keeps a commission for each transaction' | Page 9: 'All the services explored require a technological platform as a key resource'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cross-sided (distinct groups benefit)",
+			"synonyms_found": [],
+			"source_citation": "Page 9: 'development and optimisation of the online platform that enables the service and, among other functions, connects drivers with passengers' | Page 9: 'The function of a ridesharing service is to connect drivers and riders going to the same destination' | Page 7: 'App-based mobility services mainly reach their customers through their own services' applications' indicating two-sided platform connecting supply (drivers/vehicles) and demand (passengers/renters)",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Digital marketing",
+				"Product-led Growth",
+				"Referral",
+				"Partners/channels"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 7: 'communication and advertisement of these services also use email and social media marketing, online campaigns, content marketing and multichannel Business-to-Business marketing for the corporate segment' | Page 7: 'Another common and key channel for all these services is their website, since customers usually look up information here about the services and even sign up as users' | Page 7: 'some companies encourage their employees to commute by sharing trips with other employees'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes - MaaS (Mobility as a Service) platforms",
+			"synonyms_found": ["multimodal applications", "MaaS platforms"],
+			"source_citation": "Page 7: 'App-based mobility services mainly reach their customers through their own services' applications, or through multimodal applications provided by Mobility as a Service (MaaS) platforms that include them'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: App-based on-demand transportation, easy booking and access, cashless payment, reduced car ownership, convenience, flexible and low cost rides, real-time information",
+				"Customer Segment: Private customers, business clients, public authorities, commuters, long-distance travellers, leisure users, students, tourists",
+				"Channels: Mobile applications, websites, MaaS platforms, email and social media marketing, parking areas, charging stations, meeting places",
+				"Relationship: Self-service interface, customer support, personal assistance, reputation system based on ratings, loyalty programs, human interaction with drivers",
+				"Revenue Streams: Pay-per-use, subscription fees, commission per trip (17-25%), dynamic pricing, membership fees, government subsidies, advertising",
+				"Key Resources: Vehicles, software (applications and technological platform), smartphones, digital payment, skilled drivers, charging infrastructure, parking spaces, insurance, capital, data",
+				"Key Activities: Platform development and optimization, fleet management, reservations and payments management, marketing, community management, customer support, big data analysis, driver recruitment",
+				"Key Partnerships: Local governments, public transit operators, ICT platform providers, payment operators, investors, insurance companies, car manufacturers, parking providers, promotion partners, fuel/charging distributors",
+				"Cost Structure: Personnel costs, software and hardware maintenance, R&D, infrastructure, vehicles and insurance, marketing, parking costs, fleet maintenance (fueling/charging, cleaning, repairs)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'We investigated the common features and differences of the different types of app-based car mobility services by analysing their business models by means of the BMC methodology' | Pages 5-11 contain detailed analysis of all nine BMC building blocks with specific descriptions for each element",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"Local governments | Regulatory and infrastructure provider | Define operation of services, provide parking spaces and charging stations, integrate with public transport | Interact with public transit operators",
+				"Drivers (P2P models) | Service providers/freelancers | Provide transportation service to passengers, use platform to receive requests | Interact with passengers and platform",
+				"Car owners (P2P carsharing) | Vehicle suppliers | Rent their vehicles through platform | Interact with renters through platform",
+				"Public transit operators | Transportation partners | Integration with shared mobility services | Interact with local governments and mobility platforms",
+				"Automakers | Vehicle suppliers and investors | Provide vehicles, invest in services, create own mobility ecosystems | Interact with service providers and other automakers",
+				"Insurance companies | Risk management providers | Provide insurance for services | Interact with service providers",
+				"Investors | Capital providers | Invest in services and acquire fleets/licenses | Interact with service providers",
+				"ICT platform providers | Technology partners | Provide platform and technology infrastructure | Interact with service providers",
+				"Payment operators | Financial service providers | Enable cashless payments | Interact with users and platforms",
+				"Parking operators | Infrastructure providers | Provide parking spaces for carsharing | Interact with carsharing providers"
+			],
+			"synonyms_found": [],
+			"source_citation": "Pages 9-10: 'Local governments should be involved as stakeholders in defining the operation of shared mobility services in the cities' | 'partnerships established by these services include car manufacturers or car rental companies (vehicle providers), fuel or charging distributors and promotion partners' | 'Other partnerships include investors, insurance companies and third-party partners' | 'platform providers and operators for Information and Communication Technology (ICT), public transport operators, payment operators'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Reduce car ownership",
+				"Improve urban mobility and reduce traffic congestion",
+				"Reduce greenhouse gas emissions and improve environment",
+				"Provide transportation solutions to areas with poor public transport infrastructure",
+				"Better asset utilization",
+				"New revenue opportunities for automakers facing potential sales decline",
+				"Generate additional income for car owners (P2P models)",
+				"Enable flexible job opportunities for drivers"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Emerging shared mobility services are an opportunity for cities to reduce the number of car single trips to both improve traffic congestion and the environment' | Page 2: 'ride-sourcing provides a transport solution at a low investment to peripheral neighbourhoods with inefficient access to public transport' | Page 2: 'carsharing offers cities the possibility of reducing their total number of vehicles' | Page 3: 'These emerging shared mobility services concern and challenge the traditional passenger transport services, and in particular, the automotive industry, who might see their sales fall. Therefore, automakers are investing, acquiring and partnering these services' | Page 6: 'P2P carsharing allows car owners with underused vehicles to rent them per day in exchange for an additional source of income'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"User-friendly mobile application → Customer retention and service delivery success",
+				"Convenience and ease of booking → Customer acquisition (49% of users cited convenience as main reason)",
+				"Competitive pricing → Customer acquisition (23% cited price)",
+				"Excellent customer service → User and driver satisfaction",
+				"Skilled drivers recruitment → Service quality",
+				"Good relationships with partners → Service expansion and operations",
+				"Optimal fleet prepositioning and relocation → Fleet size optimization and revenue maximization",
+				"Big data analysis → Service area optimization and offer tailoring",
+				"Building trust and safety through reputation systems → User confidence",
+				"Strategic partnerships with local governments → Service implementation and expansion"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 7: 'if the application, which is the main channel, is not user-friendly or fails, not only the delivery of the Value Proposition fails, but also there is a high risk that users stop using the service' | Page 10: 'the main reason to use these services according to our surveyed users was the convenience (49%), the price (23%), and to test it (14%)' | Page 9: 'Gao and Zhang (2016) highlighted key activities such as recruiting skilled drivers and providing excellent customer services to riders and drivers while building good relationships with partners' | Page 11: 'Kahlen, Ketter, Lee and Gupta (2017), the optimal prepositioning and relocation of vehicles is the key to optimise the fleet size and maximise the revenues'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Smartphone ownership → Service access and usage",
+				"Credit/debit card or digital payment account → Cashless payment and reservations guarantee",
+				"GPS smartphone technology and text messaging → Real-time ridesharing enablement",
+				"Digital access technology → Carsharing vehicle access",
+				"Parking infrastructure → Carsharing operations",
+				"Charging infrastructure (for electric fleets) → Electric vehicle operations",
+				"Skilled/licensed drivers → Ride-hailing service provision",
+				"Vehicle fleet or partnerships with vehicle providers → Service operations",
+				"Insurance coverage → Service provision",
+				"Regulatory approval and licenses → Legal operations"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'The majority of them require users to be holders of a smartphone and a credit card, debit card, or a digital payment account, which together guarantee the reservations and cashless payments' | Page 8: 'Raney (2010) demonstrated the importance of GPS smartphone technology and text messaging to enable real-time ridesharing' | Page 8: 'carsharing services require some additional key resources: digital access technology, which enables users to open the rented car by means of their smartphones; on-street and off-street parking spaces; insurance; and investment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Regulatory restrictions varying by region → Service implementation complexity and expansion difficulties",
+				"VTC/taxi licensing requirements → Driver availability and service operations",
+				"Parking availability restrictions → Carsharing operational limitations",
+				"City-specific regulations (e.g., London ban, New York vehicle limits) → Market access restrictions",
+				"Need for government approval for large-scale implementation → Service scalability",
+				"Incompatibility between different service types without shared resources → Inefficient resource utilization"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'Some cities are reacting to this uncontrolled expansion, such as London, trying to ban the ride-hailing services of Uber, or New York, announcing restrictions on the number of vehicles providing ride-hailing services' | Page 11: 'regulatory issues, which differ between countries and even between regions and cities in the same country, and which could complicate the proposition and implementation of the service' | Page 9: 'regulating three main issues for implementing these service on a large scale: land use as parking for carsharing services; public charging stations to charge electric fleets; and the integration with the public transport system'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Many services are unprofitable and end up closing down, moving to other cities, or changing their business model",
+				"Application problems and failures affecting service delivery",
+				"Poor customer service experiences",
+				"Fleet management complexity including cleaning, fueling/charging, and relocation",
+				"Difficulty in optimizing costly resources and activities when offering services separately",
+				"High driver costs for ride-hailing services",
+				"Service management complexity increases when offering integrated services",
+				"Real-time fleet dimensioning and relocation challenges",
+				"Regulatory issues varying across jurisdictions",
+				"Loss of differentiation when collaborating with competitors"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'many of these transport services are unprofitable, and for this reason end up closing down, moving to other cities or changing their business model' | Page 3: 'providers offering these services separately do not optimise costly resources and activities, such as the vehicles or the technology' | Page 7: 'The majority of the user complaints of the services analysed posted on App Store and Google Play were related to app problems or bad customer service experiences' | Page 11: 'the rise of the service management complexity, due to the real-time dimensioning and relocation of the fleet activities' | Page 11: 'drivers are the highest cost ride-hailing service providers sustain'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Offering services in aggregated form → Share resources and activities → Increased profitability and reduced costs",
+				"Sharing vehicle fleet across multiple services → Higher vehicle utilization → Optimized fleet size and costs",
+				"Outsourcing key activities to third parties → Reduced operational costs → Improved cost structure",
+				"Establishing partnerships to share resources with other providers → Shared parking spots and unused vehicles → Cost optimization",
+				"Dynamic pricing (surge pricing) → Match supply with demand → Revenue optimization",
+				"Optimal fleet prepositioning and relocation algorithms → Maximize fleet efficiency → Revenue maximization",
+				"Loyalty programs and gamification → Customer retention → Reduced churn",
+				"Reputation systems based on ratings → Build trust and safety → Enhanced user confidence",
+				"Integration with public transport → First/last mile solution → Increased service value",
+				"Subsidies and incentives from governments and partners → Service viability → Market expansion"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'the aim of this paper is to find synergies between the different app-based car-related shared mobility services that foster the development of new business models, to increase the profitability of these services' | Page 11: 'higher utilisation of the vehicles, since it targets different uses. This integration would enable providers to size and optimise the fleet dedicated to one or another service depending on the predicted demand' | Page 11: 'optimisation of the technological platform and related development activities, as well as fleet management and marketing activities' | Page 11: 'outsource some key activities to third parties, who could offer the same service to other providers, reducing the cost of these activities' | Page 7: 'Uber uses dynamic pricing to match the supply with the demand' | Page 11: 'the optimal prepositioning and relocation of vehicles is the key to optimise the fleet size and maximise the revenues'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Metric: Commission rate (Uber); Value: 20; Unit: %; Period: not specified; Method: Literature review; Source: Cohen & Kietzmann, 2014; Gao & Zhang, 2016; Wu, 2016",
+				"Metric: Commission rate (BlaBlaCar); Value: ~17; Unit: %; Period: not specified; Method: Company data; Source: BlaBlaCar, 2016",
+				"Metric: Commission rate (P2P carsharing platforms); Value: up to 25; Unit: %; Period: not specified; Method: Literature review; Source: Wu, 2016 (Turo example)",
+				"Metric: User motivation - convenience; Value: 49; Unit: %; Period: Study period; Method: Survey; Source: Primary research - interviews",
+				"Metric: User motivation - price; Value: 23; Unit: %; Period: Study period; Method: Survey; Source: Primary research - interviews",
+				"Metric: User motivation - testing; Value: 14; Unit: %; Period: Study period; Method: Survey; Source: Primary research - interviews",
+				"Metric: Vehicle idle time; Value: >90; Unit: %; Period: General; Method: Literature review; Source: Zhang et al., 2015",
+				"Metric: Services reviewed; Value: 19; Unit: services; Period: July 2017 - December 2018; Method: Website review; Source: Primary research",
+				"Metric: User interviews conducted; Value: 30; Unit: interviews; Period: Study period; Method: Face-to-face interviews; Source: Primary research",
+				"Metric: Driver interviews conducted; Value: 7; Unit: interviews; Period: Study period; Method: Face-to-face interviews; Source: Primary research"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 7: 'In P2P services, the platform charges a commission per trip, which in the case of Uber is 20%' | Page 7: 'BlaBlaCar's commission is around 17% of the cost of the trip' | Page 8: 'The carsharing platform functions as an agent that collects payment for each rental and keeps a commission for each transaction, which could be up to 25%, as in the case of Turo' | Page 10: 'the main reason to use these services according to our surveyed users was the convenience (49%), the price (23%), and to test it (14%)' | Page 2: 'vehicles [...] spend more than 90% of their lives parked on the streets' | Page 4: 'we inspected the websites of 19 outstanding services' | Page 4: 'conducted 30 semi-structured face-to-face interviews with users and 7 with drivers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2000-2018 (literature review from 1st January 2000 to 31st December 2018; data collection from July 2017 to December 2018). Maturity status: Growing",
+			"synonyms_found": ["emerging", "new", "growth"],
+			"source_citation": "Page 4: 'We conducted the search in the electronic databases SCOPUS and Web of Science from the 1st January 2000 until the 31st December 2018' | Page 4: 'Data was collected from July 2017 until December 2018' | Page 1: 'Emerging shared mobility services' | Page 2: 'The mobility sector has seen a growth in app-based on-demand shared transport initiatives'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Multiple cases",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'we inspected the websites of 19 outstanding services of singular and shared ride-hailing, B2C and P2P carsharing, and ridesharing' | Page 4: 'conducted 30 semi-structured face-to-face interviews with users and 7 with drivers of ride-hailing and ridesharing services' | Page 4: 'we experienced some of the services' | Page 4: 'we conducted a literature review'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Uber → Ride-hailing service example, P2P model, dynamic pricing, commission structure",
+				"Lyft → Ride-hailing service combining singular and shared options",
+				"Via → Shared ride-hailing targeting commuters",
+				"Cabify → Premium ride-hailing with luxury options and child seats",
+				"car2go → B2C carsharing service by Daimler, one-way model",
+				"Zipcar → B2C carsharing with subscription plans",
+				"BlaBlaCar → Ridesharing with 17% commission",
+				"Waze Carpool → Ridesharing targeting commuters",
+				"DriveNow → B2C carsharing by BMW",
+				"Daimler → Automaker creating mobility ecosystem with multiple services",
+				"BMW → Automaker partnering with Daimler for mobility services",
+				"ReachNow → Integrated carsharing and ride-hailing using same fleet",
+				"Amovens → Combined ridesharing and P2P carsharing",
+				"Drivy → P2P carsharing",
+				"mytaxi → Taxi-hailing acquired by Daimler",
+				"Didi Chuxing → Chinese ride-hailing service",
+				"CleverShuttle → Shared ride-hailing",
+				"Respiro → B2C carsharing with subscription plans",
+				"Wible → B2C carsharing with hybrid pricing model"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: Table 1 lists all reviewed services | Page 3: 'Daimler launched the carsharing services of car2go and Croove, in addition to the mobility platform moovel; acquired the taxi-hailing services mytaxi and Hailo, set up a joint venture with the shared ride-hailing Via' | Page 11: 'Uber and Lyft combine the offers of singular and shared ride-hailing; Amovens provides a combined offer of ridesharing and P2P carsharing' | Page 11: 'we only found ReachNow in United States, which offered, until July 2019, carsharing and ride-hailing using the same vehicle fleet'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Ride-hailing singular B2C → Private chauffeur driven vehicles (VTC services)",
+				"Ride-hailing singular P2P → People using their own cars as drivers for economic remuneration",
+				"Ride-hailing shared B2C → Shared rides with employed drivers",
+				"Ride-hailing shared P2P → Shared rides with freelance drivers using own cars",
+				"Ridesharing organization-based → For-profit platforms connecting drivers and passengers sharing costs",
+				"Carsharing B2C one-way station-based → Return vehicles at specific points near destination",
+				"Carsharing B2C one-way free-floating → Return vehicles directly on streets",
+				"Carsharing B2C round-trip → Return vehicles to pick-up location",
+				"Carsharing P2P → Car owners renting their vehicles through platform",
+				"Carsharing corporate → For corporate employees",
+				"Carsharing target-oriented → Cooperatives, municipally owned, private communities"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2-3: Figure 1 and accompanying text describe complete classification: 'ride-hailing is divided into private B2C (chauffeur driven vehicles commonly called VTC services), private P2P, where people seek economic remuneration by working as drivers and using their cars to carry passengers to their destinations, and shared B2C and P2P models' | 'carsharing business models are classified into four business types: B2C, P2P, corporate carsharing and target-oriented' | 'B2C carsharing services can be found that use either round-trip or one-way modes. The one-way (or point-to-point) type allows users to return the vehicles near their destinations at specific points (station-based) or directly on the streets (free-floating or flexible)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Autonomous vehicles will make carsharing services identical to private ride-hailing and eliminate differences between shared ride-hailing and ridesharing",
+				"Driver costs will disappear with autonomous vehicles",
+				"Consolidation of services by automakers building integrated mobility ecosystems",
+				"Evolution towards real-time ridesharing with more flexibility",
+				"Integration of multiple mobility services through single platforms and aggregated offerings",
+				"Transition from ownership to shared mobility models",
+				"Reduction in number of vehicles in cities if rides are shared",
+				"Increased integration with public transport systems",
+				"Growth of MaaS (Mobility as a Service) platforms"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 12: 'autonomous cars are predicted to make carsharing services identical to private ride-hailing, which is also expected to happen with the services of shared ride-hailing and ridesharing' | Page 11: 'the increase of the cost structure if drivers are hired for providing ride-hailing services, although this cost would disappear with autonomous vehicles' | Page 2: 'It is worth noting that this difference will disappear once these services are offered with autonomous vehicles' | Page 6: 'this service is evolving towards real-time ridesharing' | Page 3: 'at the beginning of 2019, Daimler started a cooperation with its competitor BMW, to consolidate the above-mentioned services by unifying them'",
+			"confidence_level": "high"
+		}
+	]
+}

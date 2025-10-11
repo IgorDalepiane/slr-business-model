@@ -1,0 +1,596 @@
+{
+	"extraction_metadata": {
+		"article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Mobile Ticketing Services. Definition: Services that provide digital ticketing solutions for public transport through mobile devices, evolving from SMS-based single tickets to smartphone applications and seamless 'Be-In Be-Out' (BIBO) solutions, becoming platforms for combined mobility solutions that integrate mobile ticketing, bike renting, car sharing, and parking payment services.",
+			"synonyms_found": [
+				"Mobile ticketing",
+				"Mobile ticketing services",
+				"SMS ticketing",
+				"In-app mobile ticketing",
+				"BIBO ticketing"
+			],
+			"source_citation": "Page 1: 'Started as SMS ticketing, today, mobile ticketing services become a platform for combined mobility solutions that integrate mobile ticketing, bike renting, car sharing, and parking payment services' | Page 1: 'Mobile ticketing started as premium SMS services for single tickets. With wider smartphone penetration mobile ticketing applications were introduced'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"SMS ticketing",
+				"In-app mobile ticketing",
+				"BIBO ticketing",
+				"Be-In Be-Out ticketing",
+				"Premium SMS services",
+				"Mobile ticketing applications",
+				"Mobile ticketing apps"
+			],
+			"synonyms_found": [
+				"SMS ticketing",
+				"In-app mobile ticketing",
+				"BIBO ticketing",
+				"Be-In Be-Out ticketing",
+				"Premium SMS services",
+				"Mobile ticketing applications",
+				"Mobile ticketing apps"
+			],
+			"source_citation": "Page 1: 'Started as SMS ticketing, today, mobile ticketing services' | Page 1: 'introduction of \"Be-In Be-Out\" (BIBO) seamless ticketing solutions' | Page 1: 'Mobile ticketing started as premium SMS services' | Page 1: 'mobile ticketing applications were introduced'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Public Transport / Transportation",
+			"synonyms_found": [
+				"Public transport",
+				"Public transportation",
+				"Transport"
+			],
+			"source_citation": "Page 1: 'Public transport is an important area that is highly affecting everyday life of citizens. Mobile ticketing services contribute to making public transport smarter' | Page 1: 'Mobile ticketing started as premium SMS services for single tickets... targeted non-regular public transport passengers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C (individual public transport passengers/end-users)",
+			"synonyms_found": [
+				"passengers",
+				"customers",
+				"public transport users",
+				"end-users"
+			],
+			"source_citation": "Page 1: 'targeted non-regular public transport passengers having no travel card. Now, the majority of ticketing apps offers almost a full range of available tickets for all types of passengers' | Page 3: 'The questions covered the following interview subjects... (5) general feedback from the end-users' | Page 2: 'A few studies are focused on the problem of mobile ticketing adoption by customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Large public transport companies (regional public transport authorities and operators) and various technology solution providers ranging from large mobile network operators to small technology companies",
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Swedish major regional public transport companies (SL, UL, Östgötatrafiken, Skånetrafiken, Västtrafik)' | Page 5: 'In Sweden, the unified SMS ticketing solution was provided in collaboration with national mobile network operators, which are large, established market actors. After launch of \"new\" SMS ticketing, unified solution was replaced by different scattered solutions, and mobile network operators were replaced by small technology companies'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Northern Europe (specifically Sweden, Norway, Estonia, Denmark, and Lithuania)",
+			"synonyms_found": ["Northern Europe", "Northern European countries"],
+			"source_citation": "Page 1: 'we explore obstacles and challenges associated with business model (or critical business model issues) of mobile ticketing services in five Northern European countries (Sweden, Norway, Estonia, Denmark, and Lithuania)' | Page 1: 'In some Northern Europe countries mobile ticketing solutions became available starting from 2009'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Public transport passengers in urban areas (both regular and non-regular users, including commuters and occasional travelers/tourists)",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'The first apps did offer single tickets only and targeted non-regular public transport passengers having no travel card. Now, the majority of ticketing apps offers almost a full range of available tickets for all types of passengers' | Page 4: 'SMS tickets are not available for foreigners. SMS tickets can only be bought by people having subscription with local mobile operators. People with mobile phone subscription in other countries (e.g. tourists) cannot buy these tickets'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform"],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'With wider smartphone penetration mobile ticketing applications were introduced' | Page 1: 'mobile ticketing services become a platform for combined mobility solutions that integrate mobile ticketing, bike renting, car sharing, and parking payment services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Mobile (SMS)",
+				"Mobile (smartphone applications for Android and iPhone)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Mobile ticketing started as premium SMS services for single tickets' | Page 4: 'Majority of mobile ticketing apps are created for Android and iPhone phones. The segment of Windows phone users is very small, and in the majority of cases this group of customers is not considered'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Transaction (ticket sales)",
+				"Subscription (monthly invoices)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Local mobile network operators include payments for SMS tickets in their customers' mobile phone subscription bills' | Page 4: 'Possible billing options were monthly invoices or credit/debit card payments' | Page 4: 'Available payment options are card payments, invoices (mainly in Sweden), mobile network operator billing (Norway, Denmark, and Estonia), mobile payment services (Sweden, Norway, and Denmark), and online payment solution \"Bank Link\" offered by local banks (Estonia and Lithuania)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Transaction (per ticket sold)",
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'In order to get the ticket customers need to send a premium SMS with a service code' | Page 6: 'single ticket in Stockholm bought with a card costs 30 SEK, and 43 SEK with mobile app' | Page 6: 'paying a fixed fee from each micro-transaction for single ticket (e.g. about 7–8% from 10 or 30 SEK)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Pay-as-you-go (single tickets)",
+				"Prepaid credits (period tickets)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'The first apps did offer single tickets only' | Page 4: 'the majority of apps offer partial or almost full range of period tickets' | Page 4: 'recently updated apps of some companies (Karlstadbuss, Skånetrafiken, and Västtrafik) started offering longer period tickets, for example, 24h and 72h tickets, 30- and 90-day'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "SEK (Swedish Krona) mentioned for Swedish cases; billing per transaction or monthly invoices",
+			"synonyms_found": [],
+			"source_citation": "Page 6: 'single ticket in Stockholm bought with a card costs 30 SEK, and 43 SEK with mobile app, Blekingetrafiken and Länstrafiken Kronaberg offer 20% and Skånetrafiken offers 10% discount if buying single tickets with pre-paid card' | Page 4: 'Possible billing options were monthly invoices or credit/debit card payments'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Standalone product (mobile ticketing as a channel/interface to existing public transport services)",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Mobile ticketing services contribute to making public transport smarter' | Page 4: 'The provision of mobile ticketing requires a technical solution integrated with public transport system and payment service provider'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Product-led Growth (app downloads)",
+				"Direct sales (through public transport companies)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'With wider smartphone penetration mobile ticketing applications were introduced' | Page 3: 'SMS ticketing was commercially launched by local public transport companies in Sweden and Copenhagen around 2009'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Time and place independent service access, reduced queuing, mobility, convenience, fast ticketing avoiding queues to vending machines, combined mobility solutions",
+				"Customer Segment: Public transport passengers (all types including non-regular users, commuters, smartphone users)",
+				"Channels: Mobile apps (Android, iPhone), SMS services",
+				"Key Partnerships: SMS aggregators, ticket providers, mobile network operators, payment processors, banks, providers of ticketing solutions, technology solution providers",
+				"Revenue Streams: Transaction fees, premium SMS payments, subscription billing",
+				"Cost Structure: Service fees (15-30% for mobile operators), payment service provider fees, technical solution provider fees, infrastructure costs (optical readers), high transaction costs, credit card fraud costs"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'For mobile ticketing services, mobility \"includes time and place independent service access, reduced queuing, and substituting for other services\"' | Page 7: 'For customers, mobile ticketing means a fast and convenient way to get a ticket anytime avoiding queues to ticket vending machines' | Page 1: 'targeted non-regular public transport passengers' and 'all types of passengers' | Page 3: 'two types of actors are needed: SMS aggregators and ticket providers (e.g. Plusdial, UnWire, Mobill, and IPX in different regions of Sweden, and UnWire in Copenhagen) that provide technology solution, and mobile network operators that act as payment processors' | Page 5: 'The mobile operators' service fee is considered as quite high (about 15–30%)' | Page 6: 'the major sources of costs for in app ticketing are: (i) higher percentage of commissions; and (ii) service fees set by payment service providers and/or technical solution providers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"Public Transport Companies | Service providers and platform operators | Contract with technology providers and payment processors through procurement, sell tickets to passengers | Manage relationships with all ecosystem actors",
+				"SMS Aggregators/Ticket Providers (e.g., Plusdial, UnWire, Mobill, IPX) | Technology solution providers | Provide technical solution for ticketing | Work with payment processors and public transport companies",
+				"Mobile Network Operators (e.g., Telia, Tre, Bite Lietuva) | Payment processors (SMS) and billing providers | Include SMS ticket payments in customer bills, later excluded from some markets | Interact with customers and aggregators",
+				"Payment Processors (e.g., Accumulate, Payair, Nets, PayEx, Seamless, WyWallet) | Handle payment transactions | Process card, invoice, and mobile payments | Connect customers with public transport companies",
+				"Banks (e.g., Swedbank, DNB, Danske Bank) | Payment service providers | Offer Bank Link and card payment processing | Process financial transactions",
+				"Technology Solution Providers (e.g., Jiffi, Ridango, Samtrafiken) | Ticketing system developers | Develop BIBO and in-app solutions | Integrate with transport systems",
+				"Passengers/End-users | Customers | Purchase and use mobile tickets | Pay for services through various channels",
+				"City Administration | Regulatory/oversight bodies | Coordinate public transport policies | Interact with transport companies"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'more than 30 interviews were carried out with different types of actors. This includes: (1) mobile network operators (Telia and Tre); (2) Swedish major regional public transport companies (SL, UL, Östgötatrafiken, Skånetrafiken, Västtrafik); (3) payment processors (Accumulate, Payair, Nets, PayEx, Seamless, WyWallet); (4) a bank (Swedbank); and (5) providers of mobile ticket technology solutions (UnWire, Mobill, and Samtrafiken)' | Page 3: 'For service provision, two types of actors are needed: SMS aggregators and ticket providers (e.g. Plusdial, UnWire, Mobill, and IPX in different regions of Sweden, and UnWire in Copenhagen) that provide technology solution, and mobile network operators that act as payment processors' | Page 4: 'These actors are contracted through procurement process'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Make public transport smarter",
+				"Reach wide scale penetration (many people use public transport)",
+				"Time and place independent service access",
+				"Reduced queuing for customers",
+				"Reduced amount of cash for transport companies",
+				"Convenient ticketing integrated with added value services",
+				"Cheaper to maintain in open ticketing systems (no need for infrastructure)",
+				"Fast and convenient way to get tickets avoiding queues",
+				"Integration with combined mobility solutions"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Mobile ticketing services contribute to making public transport smarter and have a potential to reach wide scale penetration, since many people use public transport' | Page 2: 'mobility \"includes time and place independent service access, reduced queuing, and substituting for other services\"' | Page 7: 'Some examples of advantages for public transport companies are reduced amount of cash, convenient ticketing integrated with added value services. In the case of open ticketing system, mobile ticketing is much cheaper to maintain since there is no need for infrastructure. For customers, mobile ticketing means a fast and convenient way to get a ticket anytime avoiding queues to ticket vending machines'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Open ticketing system (no validation infrastructure needed) → Lower costs and easier implementation",
+				"Offering full range of tickets (not just single tickets) → Serves all passenger types and increases market share",
+				"Multiple payment options → Broader customer accessibility",
+				"Simple service design (original SMS) → High popularity among passengers",
+				"Additional services integration (route planning, real-time info) → Enhanced value proposition",
+				"Strong partnerships with established actors → Better service reliability (original unified SMS solution)"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'The service is simple and highly popular among public transport passengers' | Page 7: 'In the case of open ticketing system, mobile ticketing is much cheaper to maintain since there is no need for infrastructure' | Page 4: 'Mobile ticketing allows additional services. Route planning and real-time travel information are the most common' | Page 7: 'Ruter is extremely successful with mobile ticketing in Oslo. The share of mobile tickets is more than 40%, and it is constantly growing'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Mobile phone subscription with local operator → Required for SMS ticketing services",
+				"Smartphone ownership → Required for in-app and BIBO ticketing",
+				"Payment account/registration → Required for 'new' SMS and in-app services",
+				"Technical integration with public transport systems → Required for all mobile ticketing types",
+				"Payment service provider partnership → Required for transaction processing",
+				"Optical readers infrastructure → Required for barrier systems with period tickets",
+				"Payment services license → Regulatory requirement for payment handling",
+				"Customer identity verification → Regulatory requirement to prevent money laundering"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'SMS tickets can only be bought by people having subscription with local mobile operators' | Page 5: 'Customers using feature phones cannot buy an app ticket' | Page 4: 'The major change related to \"new\" SMS ticketing solutions was a need for customer to register and open an account with payment service providers' | Page 4: 'The provision of mobile ticketing requires a technical solution integrated with public transport system and payment service provider' | Page 4: 'changes in regulation: (1) a license became mandatory in order to handle digital payments, and (2) payment service providers were required to know the identity of persons making payments to prevent \"money laundry\"'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"SMS ticketing excludes foreigners/tourists → Limited to local mobile operator subscribers",
+				"In-app ticketing excludes feature phone users → Requires smartphones",
+				"Windows phone users often excluded → Small market share, apps not developed",
+				"Regulatory requirements limit actors → License mandatory for payment handling, identity verification required",
+				"Closed ticketing systems require infrastructure investment → Cannot offer period tickets without optical readers",
+				"Smartphone characteristics not controllable → NFC in iPhones only through Apple Pay",
+				"Transaction speed limitations → Mobile payments too slow for high-volume subway gates (need ~400ms)",
+				"Battery dependency → Service unavailable when phone dies",
+				"No common BLE standard → BIBO implementation challenges"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'SMS tickets are not available for foreigners. SMS tickets can only be bought by people having subscription with local mobile operators. People with mobile phone subscription in other countries (e.g. tourists) cannot buy these tickets' | Page 5: 'Customers using feature phones cannot buy an app ticket. Majority of companies do not provide apps for Windows phone users due to small share of these phones in the market' | Page 4: 'changes in regulation: (1) a license became mandatory in order to handle digital payments, and (2) payment service providers were required to know the identity of persons making payments' | Page 5: 'The speed of payment validation is critical for transportation in large cities where big numbers of people pass through the subway gates. NFC-enabled travel cards can ensure this speed (it is about 400 milliseconds). Payments taking longer time and requiring PIN-code entering are not acceptable at gates' | Page 6: 'Smartphones are not under control of public transport companies (e.g. NFC used in iPhone's can only be used through Apple Pay system)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"SERVICE DOMAIN: Small mobile ticket assortment (mainly single tickets initially), exclusion of certain customer groups (foreigners, feature phone users, Windows users), inconvenient service (new SMS requiring registration), small market share (3-7% in most cases)",
+				"TECHNOLOGY DOMAIN: Service reliability not 100%, worse travelling statistics (no travel data), ticket security/falsification issues, transaction speed too slow for gates, need for infrastructure investment, discharging phone battery, system hacking vulnerability, smartphone characteristics not controllable, lack of common BLE standard",
+				"ORGANIZATION DOMAIN: Change of value network actors (mobile operators replaced by small companies in Sweden), weaker relationships between parties",
+				"FINANCE DOMAIN: High service costs (15-30% fees), higher commissions and service fees, credit card fraud, high transaction costs for single tickets, pricing policy favoring plastic cards over mobile tickets"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'in some Northern European countries, the share of mobile ticket sales does not exceed 10 percent' | Page 4-6: 'Small mobile ticket assortment. SMS tickets were mainly single tickets... Small market share. In Sweden, after not successful experience of \"new\" SMS ticketing, the share of mobile ticketing remains rather low, for example, 3% of all sales at SL, 5% at Skånetrafiken, 7% at Västtrafik' | Page 5: 'Worse travelling statistics. In both open and closed ticketing systems, SMS ticketing solution does not provide travel data' | Page 5: 'Ticket security issues. SMS ticket are easy to falsify' | Page 5: 'The mobile operators' service fee is considered as quite high (about 15–30%)' | Page 5: 'Change of value network actors. In Sweden, the unified SMS ticketing solution was provided in collaboration with national mobile network operators, which are large, established market actors. After launch of \"new\" SMS ticketing, unified solution was replaced by different scattered solutions, and mobile network operators were replaced by small technology companies'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Installing optical readers → Enables period tickets in apps and provides travel statistics → Expanded ticket assortment",
+				"Introducing passenger counting systems → Addresses lack of travel data → Improved route planning data",
+				"Offering charging on-board → Mitigates battery discharge problem → Attempted but phones charge too slowly",
+				"Providing portable chargers to inspectors → Helps passengers with dead batteries → Not successful due to slow charging",
+				"Running pilot tests (BIBO systems) → Tests new solutions before full deployment → Learning and optimization",
+				"Contracting through procurement process → Ensures clear actor roles and responsibilities → Defined relationships",
+				"Offering multiple payment options → Increases accessibility → Broader customer reach",
+				"Price policy directing to plastic cards → Manages costs and fraud risks → 10-40% discounts for card users"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'With installation of mobile ticket readers, recently updated apps of some companies (Karlstadbuss, Skånetrafiken, and Västtrafik) started offering longer period tickets' | Page 5: 'installation of mobile ticket readers will improve the situation. Another option is introduction of buses with passengers' counting systems' | Page 5: 'in order to help their customers, in some cases ticket control inspectors have portable charges, but their experience shows that the phones are charging too slow and this practice is not successful. One way to solve this problem is to have the opportunity to charge phones on-board' | Page 4: 'Ruter runs a pilot tests on one of bus lines in Oslo, and Jiffi pilots are running in Tallinn and Tartu' | Page 6: 'With the help of price policy, most of public transport companies in Sweden direct the customer choice towards use of pre-paid smart cards (e.g. single ticket in Stockholm bought with a card costs 30 SEK, and 43 SEK with mobile app, Blekingetrafiken and Länstrafiken Kronaberg offer 20% and Skånetrafiken offers 10% discount if buying single tickets with pre-paid card)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"metric": "Mobile ticket market share",
+					"value": "3%",
+					"unit": "percentage of all sales",
+					"period": "2016",
+					"method": "Sales data",
+					"source": "SL (Stockholm)"
+				},
+				{
+					"metric": "Mobile ticket market share",
+					"value": "5%",
+					"unit": "percentage of all sales",
+					"period": "2016",
+					"method": "Sales data",
+					"source": "Skånetrafiken"
+				},
+				{
+					"metric": "Mobile ticket market share",
+					"value": "7%",
+					"unit": "percentage of all sales",
+					"period": "2016",
+					"method": "Sales data",
+					"source": "Västtrafik"
+				},
+				{
+					"metric": "Mobile ticket market share",
+					"value": "3%",
+					"unit": "percentage",
+					"period": "Not specified",
+					"method": "Sales data",
+					"source": "mTicket Lithuania"
+				},
+				{
+					"metric": "Mobile ticket market share",
+					"value": ">40%",
+					"unit": "percentage",
+					"period": "Ongoing, constantly growing",
+					"method": "Sales data",
+					"source": "Ruter (Oslo)"
+				},
+				{
+					"metric": "Mobile ticket market share",
+					"value": "<10%",
+					"unit": "percentage",
+					"period": "General",
+					"method": "Market observation",
+					"source": "Most Northern European countries"
+				},
+				{
+					"metric": "Mobile operator service fee",
+					"value": "15-30%",
+					"unit": "percentage",
+					"period": "SMS ticketing period",
+					"method": "Business arrangements",
+					"source": "Interview data"
+				},
+				{
+					"metric": "Single ticket price (card)",
+					"value": "30",
+					"unit": "SEK",
+					"period": "Current",
+					"method": "Pricing data",
+					"source": "Stockholm/SL"
+				},
+				{
+					"metric": "Single ticket price (mobile)",
+					"value": "43",
+					"unit": "SEK",
+					"period": "Current",
+					"method": "Pricing data",
+					"source": "Stockholm/SL"
+				},
+				{
+					"metric": "Discount for card payment",
+					"value": "20%",
+					"unit": "percentage",
+					"period": "Current",
+					"method": "Pricing policy",
+					"source": "Blekingetrafiken, Länstrafiken Kronaberg"
+				},
+				{
+					"metric": "Discount for card payment",
+					"value": "10%",
+					"unit": "percentage",
+					"period": "Current",
+					"method": "Pricing policy",
+					"source": "Skånetrafiken"
+				},
+				{
+					"metric": "Discount for 10-trip card",
+					"value": "~40%",
+					"unit": "percentage",
+					"period": "Current",
+					"method": "Pricing policy",
+					"source": "Copenhagen"
+				},
+				{
+					"metric": "Transaction fee for single ticket",
+					"value": "7-8%",
+					"unit": "percentage of 10-30 SEK",
+					"period": "Current",
+					"method": "Banking fees",
+					"source": "Interview data"
+				},
+				{
+					"metric": "NFC validation speed",
+					"value": "400",
+					"unit": "milliseconds",
+					"period": "Technical requirement",
+					"method": "Technical specification",
+					"source": "Industry standard"
+				},
+				{
+					"metric": "Adoption likelihood",
+					"value": "26%",
+					"unit": "percentage of customers",
+					"period": "Study period",
+					"method": "Research study",
+					"source": "Boston commuter rail study [13]"
+				},
+				{
+					"metric": "Battery concern as barrier",
+					"value": "19%",
+					"unit": "percentage",
+					"period": "Survey period",
+					"method": "Customer survey",
+					"source": "Ruter's survey"
+				},
+				{
+					"metric": "Interviews conducted",
+					"value": ">30",
+					"unit": "interviews",
+					"period": "2010-2013",
+					"method": "Qualitative research",
+					"source": "Sweden focus phase"
+				},
+				{
+					"metric": "Interviews conducted",
+					"value": ">20",
+					"unit": "interviews",
+					"period": "2015-2016",
+					"method": "Qualitative research",
+					"source": "Multi-country expansion phase"
+				}
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'In Sweden, after not successful experience of \"new\" SMS ticketing, the share of mobile ticketing remains rather low, for example, 3% of all sales at SL, 5% at Skånetrafiken, 7% at Västtrafik (in 2016). Due to limited payment options, the market share of mTicket in Lithuania is 3%' | Page 7: 'Ruter is extremely successful with mobile ticketing in Oslo. The share of mobile tickets is more than 40%, and it is constantly growing' | Page 5: 'The mobile operators' service fee is considered as quite high (about 15–30%)' | Page 6: 'single ticket in Stockholm bought with a card costs 30 SEK, and 43 SEK with mobile app' | Page 5: 'NFC-enabled travel cards can ensure this speed (it is about 400 milliseconds)' | Page 5: 'This is a reason preventing some people from using in-app mobile ticketing (19% according to Ruter's survey)' | Page 3: 'During these years, more than 30 interviews were carried out' and 'More than 20 interviews were conducted'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2009-2017 (SMS ticketing launched 2009, apps introduced 2013-2014, BIBO in pilot phase 2015-2017). Maturity status: Growing (evolving from SMS to apps to BIBO, but facing adoption challenges with <10% penetration in most markets except Norway with >40%)",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'In some Northern Europe countries mobile ticketing solutions became available starting from 2009' | Page 3: 'SMS ticketing was commercially launched by local public transport companies in Sweden and Copenhagen around 2009' | Page 4: 'Around 2013–2014 public transport companies started introduction of mobile ticketing apps. First, only single tickets were available in these apps. Currently (by 2017), the majority of apps offer partial or almost full range of period tickets' | Page 4: 'Ruter runs a pilot tests on one of bus lines in Oslo, and Jiffi pilots are running in Tallinn and Tartu' | Page 1: 'Notable trends in mobile ticketing are introduction of \"Be-In Be-Out\" (BIBO) seamless ticketing solutions'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Multiple cases (qualitative multiple case study across five Northern European countries with >50 interviews)",
+			"synonyms_found": ["multiple case studies", "case study"],
+			"source_citation": "Page 3: 'Use of multiple case studies is more beneficial than single case study because it enables cross-case analysis and more accurate generalization of findings' | Page 3: 'In this study, we apply an exploratory approach in order to identify challenges related to business models of mobile ticketing services. The research is qualitative. Based on used technology, we specified three types of mobile ticketing services: SMS, in-app, and BIBO. Description of these services is generalised using empiric data from mobile ticketing cases in five Northern European countries' | Page 3: 'During these years, more than 30 interviews were carried out with different types of actors... More than 20 interviews were conducted'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"SL (Stockholm public transport) → Multiple mentions as case example, 3% mobile ticket share",
+				"UL (Uppsala public transport) → Swedish public transport case",
+				"Östgötatrafiken → Swedish public transport case",
+				"Skånetrafiken → Swedish public transport case, 5% mobile share",
+				"Västtrafik (Gothenburg) → Swedish public transport case, 7% mobile share, digital ticket sharing feature",
+				"Blekingetrafiken → Swedish public transport case",
+				"Länstrafiken Kronoberg → Swedish public transport case",
+				"Karlstadbuss → Swedish public transport case",
+				"Ruter (Oslo) → Norwegian success case with >40% mobile ticketing share",
+				"Skyss (Bergen) → Norwegian public transport case",
+				"Copenhagen Metro → Danish case using SMS and in-app ticketing",
+				"Movia → Danish public transport authority",
+				"Jiffi → Estonian BIBO technology provider running pilots",
+				"Ridango → Estonian ticketing solution provider",
+				"Susisiekimo Paslaugos → Lithuanian public transport with mTicket app, 3% share",
+				"Telia, Tre → Mobile network operators involved in SMS ticketing",
+				"Bite Lietuva → Lithuanian mobile operator",
+				"Accumulate, Payair, Nets, PayEx, Seamless, WyWallet → Payment processors",
+				"4T Sweden → Joint venture providing WyWallet mobile payment",
+				"Plusdial, UnWire, Mobill, IPX → SMS aggregators and ticket technology providers",
+				"Samtrafiken → Ticketing solution provider",
+				"Swedbank, DNB, Danske Bank → Banks providing payment services",
+				"DOT Mobilbilletter, Mobilperiodekort → Danish ticketing apps"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Swedish major regional public transport companies (SL, UL, Östgötatrafiken, Skånetrafiken, Västtrafik); (3) payment processors (Accumulate, Payair, Nets, PayEx, Seamless, WyWallet); (4) a bank (Swedbank); and (5) providers of mobile ticket technology solutions (UnWire, Mobill, and Samtrafiken)' | Page 3-4: 'public transport companies operating in Sweden: SL, UL, Östgötatrafiken, Skånetrafiken, Västtrafik... Norway: Ruter and Skyss... Copenhagen Metro and Movia... Estonia: Jiffi and Ridango... Lithuania: Susisiekimo Paslaugos' | Page 7: 'Ruter is extremely successful with mobile ticketing in Oslo. The share of mobile tickets is more than 40%'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"SMS ticketing (Premium SMS) → First generation: single tickets purchased via premium SMS, payment through mobile operator billing, simple but limited assortment",
+				"'New' SMS ticketing (Sweden post-2012) → Second generation: required customer registration and account with payment providers due to regulatory changes, led to dramatic decrease in usage",
+				"In-app mobile ticketing → Third generation: smartphone applications for Android/iPhone, initially single tickets then expanded to period tickets, multiple payment options (cards, invoices, mobile billing, bank links)",
+				"BIBO (Be-In Be-Out) ticketing → Fourth generation/emerging: automated fare collection using BLE beacons and micro-location, seamlessly starts/stops tickets based on vehicle entry/exit, pay-as-you-use model, currently in pilot phase"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'Mobile ticketing started as premium SMS services for single tickets. With wider smartphone penetration mobile ticketing applications were introduced... Notable trends in mobile ticketing are introduction of \"Be-In Be-Out\" (BIBO) seamless ticketing solutions' | Page 3-4: 'we specified three types of mobile ticketing services: SMS, in-app, and BIBO' | Page 4: 'The major change related to \"new\" SMS ticketing solutions was a need for customer to register and open an account with payment service providers. Service users accepted this negatively and volumes of SMS ticket sales dramatically decreased' | Page 4: 'This is as innovative approach to ticketing. It represents an automated fare collection system based on BLE beacons and micro-location technology. This technology detects when passengers enter and exit the public transit vehicle and seamlessly starts the ticket on the ticketing app, and stops when the customer leaves the bus'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Combined mobility solutions integrating multiple services (ticketing, bike renting, car sharing, parking) → Foundation: current trend showing platform evolution",
+				"BIBO next-generation ticketing with seamless entry/exit → Foundation: pilot tests running, addresses travel statistics and pricing challenges",
+				"Contactless payments integration → Foundation: mentioned as notable trend",
+				"Infrastructure investment in optical readers → Foundation: companies installing or planning to install for period tickets and statistics",
+				"Phone charging on-board vehicles → Foundation: public transport companies exploring to address battery concern",
+				"Smarter pricing based on actual usage data → Foundation: advantage of BIBO systems providing clear passenger travel data",
+				"Need for global agreements on standards and transaction costs → Foundation: identified as challenges that cannot be solved locally"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'today, mobile ticketing services become a platform for combined mobility solutions that integrate mobile ticketing, bike renting, car sharing, and parking payment services' | Page 1: 'Notable trends in mobile ticketing are introduction of \"Be-In Be-Out\" (BIBO) seamless ticketing solutions, contactless payments, and combined mobility solutions' | Page 4: 'The major advantage of such system is a clear data about passenger travels that would help to improve and optimise route planning. Another advantage is smarter pricing' | Page 5: 'Companies are installing or have plans to install optical readers in the near future' | Page 7: 'Public transport companies are looking into new transport vehicles providing phone charging opportunity on-board' | Page 7: 'Development of new generation mobile ticketing solutions (e.g. BIBO) may help to overcome some technology challenges (i.e. lack of travel statistics) and reduce the cost of ticketing service infrastructure' | Page 7: 'some challenges (e.g. high transaction cost, lack of unified standards, smartphone characteristics) cannot be solved locally and require global agreements'",
+			"confidence_level": "high"
+		}
+	]
+}

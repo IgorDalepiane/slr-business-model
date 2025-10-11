@@ -1,0 +1,511 @@
+{
+	"extraction_metadata": {
+		"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Software as a Service (SaaS) / Cloud-computing business model. Definition: An on-demand software delivery service that offers ubiquitous access to applications through the internet, sharing a pool of common resources managed by SaaS providers, provided on a pay-per-use basis. In contrast to the traditional on-premise license model where customers purchase and operate software on their own IT infrastructure.",
+			"synonyms_found": [
+				"SaaS",
+				"Software as a Service",
+				"cloud computing",
+				"cloud-based",
+				"on-demand software",
+				"on-demand software services",
+				"cloud-computing software"
+			],
+			"source_citation": "Page 2: 'Around 15% of the global cloud-computing market comprises Software as a Service (SaaS), an on-demand software delivery service that offers ubiquitous access to applications and shares a pool of common resources managed by SaaS providers' | Page 3: 'With the rise of SaaS in 2000, new business model designs have emerged, delivering single ERP functionalities on demand through the internet' | Page 3: 'Using SaaS enables companies to focus on core competencies, because they are relieved of the burden of financing, managing and maintaining their own IT infrastructures. Because services are provided on a pay-per-use basis, SaaS allows for the shifting of capital expenditures to operational expenditures.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Software as a Service",
+				"cloud computing",
+				"cloud-based",
+				"on-demand software",
+				"on-demand software services"
+			],
+			"synonyms_found": [
+				"SaaS",
+				"Software as a Service",
+				"cloud computing",
+				"cloud-based ERP system",
+				"on-demand software",
+				"on-demand software services",
+				"cloud-computing software",
+				"cloud services",
+				"cloud solutions"
+			],
+			"source_citation": "Page 2: 'Software as a Service (SaaS), an on-demand software delivery service' | Page 2: 'Cloud computing, which has been characterised as a disruptive innovation' | Page 1: 'the case of on-premise and cloud-computing software' | Page 17: 'cloud-based ERP system'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Enterprise Resource Planning (ERP) software / Business software",
+			"synonyms_found": [
+				"ERP",
+				"enterprise resource-planning software",
+				"enterprise resource-planning systems",
+				"business software",
+				"enterprise software"
+			],
+			"source_citation": "Page 1: 'Drawing on evidence from multiple case studies of six incumbent vendors of enterprise resource-planning software' | Page 2: 'This shift also applies to the market for enterprise resource-planning (ERP) systems. Owing to the increasing popularity of SaaS, incumbent ERP vendors have needed to adapt their long-established business models' | Page 13: 'We specifically focus on the market for ERP systems because it is one of the most established segments within the enterprise software market'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["B2B SMB", "Mid-market", "Enterprise"],
+			"synonyms_found": [
+				"SMEs",
+				"small and medium-sized enterprises",
+				"larger organisations",
+				"larger enterprises",
+				"business units",
+				"companies",
+				"customer firms"
+			],
+			"source_citation": "Page 3: 'ERP vendors' traditional business model consisted of selling licenses and services for on-premise software to typically larger organisations for automating enterprise-wide processes' | Page 19: 'SaaS initially attracted low-end customer segments and prior non-users of ERP systems that valued SaaS because it offered scalable, rapidly implementable and easy-to-use software services. These customers, mainly SMEs, were over-served by existing ERP systems' | Page 15, Table 4: 'The target customers are small and medium-sized enterprise (SMEs)' and also 'all sizes and kinds of businesses'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Range from medium-sized to global players: Medium-sized business software providers (280-750 employees), large international vendors (3,800-61,000 employees), with revenues ranging from $31 million to $71 billion",
+			"synonyms_found": [
+				"incumbent vendors",
+				"incumbent ERP vendors",
+				"business software vendor",
+				"global player",
+				"medium-sized business software provider"
+			],
+			"source_citation": "Page 15-16, Table 4: Case descriptions showing employees ranging from 245 (EpsilonCo) to 94,000 (GammaCo), with total sales ranging from $31m (DeltaCo) to $71bn (GammaCo). Descriptions include 'AlphaCo operates globally in the business software industry', 'DeltaCo is a medium-sized business software provider', 'EpsilonCo is a small business software firm', 'GammaCo is a global player in information technology'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Europe (Germany, Great Britain, Switzerland, Poland) with mentions of global operations including Americas and Asia",
+			"synonyms_found": [
+				"European",
+				"Europe",
+				"Germany",
+				"Great Britain",
+				"Switzerland",
+				"Poland",
+				"Western European",
+				"Eastern Europe"
+			],
+			"source_citation": "Page 15-16, Table 4: 'Headquarters: Germany (AlphaCo, DeltaCo), Great Britain (BetaCo), USA (GammaCo), Switzerland (EpsilonCo), Poland (ZetaCo)' | Page 15, Table 4: 'DeltaCo: They focus solely on the European ERP-market' | Page 15, Table 4: 'ZetaCo: Its market activities concentrate on middle and Eastern Europe, but they start doing business in the Americas and Asia' | Page 19: 'customers in emerging markets in Asia or Eastern Europe'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Small and medium-sized enterprises (SMEs) in service industries, particularly those transitioning from on-premise ERP systems or prior non-users of ERP systems seeking scalable, rapidly implementable solutions",
+			"synonyms_found": [
+				"SMEs",
+				"small and medium-sized enterprises",
+				"low-end customer segments",
+				"prior non-users of ERP systems"
+			],
+			"source_citation": "Page 19: 'SaaS initially attracted low-end customer segments and prior non-users of ERP systems that valued SaaS because it offered scalable, rapidly implementable and easy-to-use software services. These customers, mainly SMEs, were over-served by existing ERP systems' | Page 19: 'For smaller firms, ERP was a solution from an ivory tower, too complex and costly to implement' | Page 15, Table 4: 'EpsilonCo: The company focuses on the small and medium-sized enterprises in the service industries (e.g., engineering, consultancy)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform"],
+			"synonyms_found": [
+				"applications",
+				"software",
+				"ERP system",
+				"ERP functionalities",
+				"software services",
+				"stand-alone applications"
+			],
+			"source_citation": "Page 2: 'an on-demand software delivery service that offers ubiquitous access to applications' | Page 17: 'most providers – such as ZetaCo's SaaS, launched in 2002 – offered stand-alone applications providing single ERP functionalities' | Page 18: 'offered integrated on-premise and on-demand software solutions' | Page 24: 'provide application-programming interfaces to co-opetitively create value in eco-systems around their SaaS platforms'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Multi-tenant SaaS",
+				"Single-tenant cloud",
+				"On-premises"
+			],
+			"synonyms_found": [
+				"multi-tenant architecture",
+				"single-tenant",
+				"private cloud",
+				"public cloud",
+				"hybrid cloud",
+				"via the internet",
+				"through the internet",
+				"over the web"
+			],
+			"source_citation": "Page 4: 'SaaS builds on a multi-tenant architecture that permits customers to share a single code base and data structures for an application, allowing economies of scale' | Page 3: 'new business model designs have emerged, delivering single ERP functionalities on demand through the internet' | Page 18: 'the progress in virtualisation techniques, which enabled single-tenant, customisable private or hybrid cloud solutions, which are specifically demanded by larger enterprises. In a private cloud, the software runs on dedicated resources that are individually configurable and controllable'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Subscription", "Usage/consumption"],
+			"synonyms_found": [
+				"pay-per-use",
+				"pay-per-use pricing",
+				"annual fee",
+				"maintenance contracts"
+			],
+			"source_citation": "Page 3: 'Because services are provided on a pay-per-use basis, SaaS allows for the shifting of capital expenditures to operational expenditures' | Page 20: 'Regarding revenues, the single most important change for ERP vendors offering SaaS is the dominant pay-per-use pricing method, which increases revenue streams' volatility. With on-premise business, customers usually pay a one-time license fee and an annual fee for longer-term maintenance contracts. As all case companies offer SaaS on a pay-per-use basis, cash flows in continuously but less predictably.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Usage/consumption (pay-per-use)",
+			"synonyms_found": ["pay-per-use", "use"],
+			"source_citation": "Page 3: 'Because services are provided on a pay-per-use basis' | Page 20: 'the dominant pay-per-use pricing method'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Pay-as-you-go"],
+			"synonyms_found": ["pay-per-use"],
+			"source_citation": "Page 20: 'As all case companies offer SaaS on a pay-per-use basis, cash flows in continuously but less predictably'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "USD and EUR mentioned in data, continuous pay-per-use billing (non-contractual in contrast to annual maintenance contracts for on-premise)",
+			"synonyms_found": [],
+			"source_citation": "Page 16, Table 4: 'Total Sales (US-$ in 2012): 20bn, 2.1bn, 71bn, 31m, n/a, 1.3bn' | Page 20: 'As all case companies offer SaaS on a pay-per-use basis, cash flows in continuously but less predictably. With on-premise business, customers usually pay a one-time license fee and an annual fee for longer-term maintenance contracts.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": ["platform", "SaaS platforms", "eco-systems"],
+			"source_citation": "Page 24: 'Most case companies either plan to or already provide application-programming interfaces to co-opetitively create value in eco-systems around their SaaS platforms, stimulating indirect network effects.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cross-sided (distinct groups benefit) - indirect network effects",
+			"synonyms_found": ["network effects", "indirect network effects"],
+			"source_citation": "Page 24: 'Most case companies either plan to or already provide application-programming interfaces to co-opetitively create value in eco-systems around their SaaS platforms, stimulating indirect network effects.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Product-led Growth",
+				"Digital marketing",
+				"Partners/channels",
+				"Direct sales"
+			],
+			"synonyms_found": [
+				"internet",
+				"direct distribution channel",
+				"indirect distribution networks",
+				"downloadable trial versions",
+				"partners"
+			],
+			"source_citation": "Page 19: 'Software as a Service has changed the significance of distribution channels through which customers are reached. Interviewees observed that customers interested in SaaS now prefer to gather pre-purchase information on the internet and test downloadable trial versions of different providers. Thus, the internet gains weight as a direct distribution channel affecting indirect distribution networks, which many of our investigated ERP vendors rely on heavily in the on-premise ERP market.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: On-demand access to ERP functionalities through internet without need for own IT infrastructure, shifting from capital to operational expenditures, scalable and rapidly implementable services, integrated on-premise and on-demand solutions",
+				"Customer Segment: Initially low-end customers and SMEs over-served by existing ERP, then lines of business with standardised processes, later larger enterprises demanding private/hybrid cloud solutions",
+				"Channels: Internet as direct distribution channel, downloadable trial versions, reduced role of indirect distribution networks and implementation partners",
+				"Revenue Streams: Pay-per-use pricing replacing one-time license fees and annual maintenance contracts, continuous but less predictable cash flows",
+				"Key Resources: Web technologies (Ajax, HTML5), capacity management capabilities, multi-tenant architecture, agile software development competencies",
+				"Key Activities: Continuous software development and updates (shorter release cycles), managing entire software lifecycle including deployment and maintenance, capacity management",
+				"Key Partnerships: Software partners providing extensions and add-ons, implementation partners (diminished role), hosting partners, application-programming interfaces for ecosystem",
+				"Cost Structure: Upfront investments for software development and SaaS infrastructure setup, permanent overhead costs for keeping service infrastructure ready, economies of scale crucial for profitability"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 17-20: Detailed descriptions of business model components changes including 'Value proposition' section stating 'customer firms are exempted from much of the cost and effort of operating and financing their own IT infrastructure', 'Customer interface' describing target segments, 'Infrastructure management' detailing competencies needed, 'Financial aspects' explaining 'pay-per-use pricing method' and cost structures",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"Software vendors/providers | Manage and control software provision over entire lifecycle | Provide software to customers, collaborate with partners through APIs, compete and acquire each other",
+				"Software partners | Offer industry-specific extensions and general add-ons building on ERP core | Need to develop new skills to adapt to SaaS environment, collaborate through application-programming interfaces | Create value in ecosystems around SaaS platforms",
+				"Implementation partners | Support software installation and deployment | Role dramatically reduced in SaaS due to fast and easy deployment | Less relevant for SaaS business model",
+				"Hosting partners | Provide infrastructure for cloud services | Market consolidating with rising SaaS shares | Collaboration changing due to economies of scale requirements",
+				"Customer firms | Use ERP software for enterprise processes | Shift from purchasing licenses to pay-per-use, relieved from managing IT infrastructure | Business units increasingly bypass corporate IT to purchase SaaS directly"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 24: 'The new on-demand software business model significantly changes the importance of established partnerships in the ERP market depending on a partners' function. Software partners offer industry-specific extensions and general add-ons that build on the ERP's core... implementation partners in the SaaS business model drops dramatically... the collaboration with hosting partners is about to change' | Page 19: 'Business units buy software along the lines of 'this solution solves my problem, it is mobile, I like it'' | Page 24: 'provide application-programming interfaces to co-opetitively create value in eco-systems around their SaaS platforms'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Focus on core competencies by being relieved of burden of financing, managing and maintaining own IT infrastructures",
+				"Shift capital expenditures to operational expenditures",
+				"Increase strategic flexibility with lower sunk costs",
+				"Easy scalability of resources up or down in response to short contract periods",
+				"Readily available solutions reducing vendor lock-in and minimizing capital expenditures",
+				"Responding to competitive pressure and emerging customer demand",
+				"Emergence of disruptive innovation forcing business model adaptation"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Using SaaS enables companies to focus on core competencies, because they are relieved of the burden of financing, managing and maintaining their own IT infrastructures. Because services are provided on a pay-per-use basis, SaaS allows for the shifting of capital expenditures to operational expenditures. Furthermore, strategic flexibility increases, as sunk costs are lower and resources can easily be scaled up or down in response to short contract periods. Hence, the key drivers for adopting SaaS solutions are that they are readily available, reduce vendor lock-in and minimise capital expenditures' | Page 2: 'Owing to the increasing popularity of SaaS, incumbent ERP vendors have needed to adapt their long-established business models'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Balancing market-related and technology-related absorptive capacity → correct timing and extent of business model change",
+				"Dynamic ambidexterity (ability to shift between exploration and exploitation based on conditions) → more successful business model transitions and timely market entry",
+				"Broad search breadth including adjacent markets and environmental trends → early recognition of emerging customer needs and technology opportunities",
+				"Social interactions and knowledge exchange across departments → effective assimilation of diverse knowledge",
+				"Compatibility/synergies between established and new business models → more rapid and significant business model changes",
+				"Slack resources and ability to acquire companies → faster knowledge acquisition and shorter time to market",
+				"Multi-tenant architecture → economies of scale crucial for profitability",
+				"Prior experience with related technologies (service-oriented architectures, agile development) → faster adaptation"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 25-26: 'firms able to dynamically shift between exploitation and exploration, depending on external and internal conditions, are more likely to enter the market in a timely manner with a contemporary business model' | Page 25: 'the ability to balance and combine market and technology knowledge is crucial to make sense of external and internal knowledge and to draw the right conclusions on when and how to respond to emerging disruptive innovations' | Page 20: 'economies of scale are crucial for profitability in the SaaS market'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Web technologies knowledge (Ajax, HTML5) → necessary for developing SaaS applications",
+				"On-demand software delivery competencies (capacity management, pricing methods, support) → required for service provision",
+				"Agile software development methods (e.g., Scrum) → needed for continuous updates and shorter release cycles",
+				"Multi-tenant architecture capabilities → enables economies of scale",
+				"Virtualisation techniques → enables private and hybrid cloud solutions for larger enterprises",
+				"Broadband penetration → adequate infrastructure for internet-based delivery",
+				"Customer readiness to adopt cloud services → market acceptance necessary for commercialization",
+				"New competencies in managing entire software lifecycle → development, deployment, maintenance, updates"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 19-20: 'interviewees of case companies that had no experience with on-demand software mentioned that a top priority is extending internal knowledge and integrating external knowledge regarding Web technologies (e.g. Ajax and HTML5) and on-demand software delivery (e.g. capacity management, pricing methods and support)' | Page 19-20: 'all case companies but one now use agile software-development methods supporting iterative and incremental progress, such as Scrum' | Page 4: 'the business model innovation failed at the time owing to low broadband penetration and inadequate software design'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Main inhibitors for larger ERP enterprises: potential performance losses, confidentiality and security concerns, unanticipated costs, IT know-how drain → affects adoption by enterprise customers",
+				"Substantial switching costs of existing ERP customers with deeply entrenched systems → attenuates pressure to change but locks in existing customers",
+				"Negative impact on profit margins and competitiveness when maintaining collaboration with established partners → trade-off between partner relationships and profitability",
+				"Initially inferior performance and lower quality compared to on-premise solutions → limited appeal to mainstream customers initially",
+				"Cultural aspects regarding data security (especially Western European customers) → reluctance to adopt cloud software",
+				"Path dependency from prior negative experiences (e.g., failed ASP investments) → creates skepticism toward similar innovations",
+				"Resource restrictions for smaller companies → limits ability to switch to exploratory mode and develop new competencies",
+				"Substantial switching costs and legacy systems in mature markets → slower adoption compared to emerging markets"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'the main inhibitors – especially for larger ERP enterprises – are potential performance losses, confidentiality and security concerns, unanticipated costs and IT know-how drain' | Page 24: 'they try to maintain collaboration with their established partners, even though collaboration has a negative impact on profit margins and competitiveness of the SaaS products' pricing' | Page 24: 'ERP systems are deeply entrenched in customers' organisational processes. Thus, substantial switching costs of existing ERP customers attenuated the pressure on incumbents to change business models' | Page 19: 'cultural aspects regarding data security considerably influence SaaS adoption. Some interviewees noted that particularly, customers from Western European are reluctant to use cloud software because of concerns regarding data security'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Disruptive innovations fundamentally change rules of competition, often leading to incumbents' failure if they react too late or falteringly",
+				"Devaluation of prior intellectual capital and established assets and resources",
+				"Difficulty in acquiring knowledge from distant and loosely coupled domains where disruptive innovations originate",
+				"Path dependency limiting ability to acquire new knowledge beyond existing domains",
+				"Cognitive lock-ins from established beliefs and mental models about market and technology",
+				"Multiple trade-offs from simultaneously exploring new business models and exploiting existing ones",
+				"Need to unlearn deeply rooted principles such as customer segment prioritization",
+				"Massive organizational integration efforts required when moving from product to service orientation",
+				"Need to develop whole new processes, resources and know-how for customer acquisition and service delivery",
+				"Faster release cycles requiring adaptation of development procedures",
+				"Recruiting challenges to compensate for knowledge deficits",
+				"Getting existing partner network cloud-ready",
+				"Misjudging customer needs and market timing when assessment is technology-biased or market-biased"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'Disruptive innovations typically have this effect because they fundamentally change the rules of competition in established markets, often leading to the incumbents' failure as they react too late or falteringly' | Page 2: 'Disruptive innovations challenge a firm's dominant logic as embedded in established business models, routines and organisational knowledge bases' | Page 10, Table 1: 'Moving from product-oriented to service-oriented business models requires a change of mindset and creates massive organisational integration efforts' | Page 38, Appendix C: 'It really is a challenge to get our existing partner network cloud-ready'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Creating global centralised specialist teams to sense emerging trends and disseminate them → identify worthwhile acquisition targets and swiftly acquire external knowledge",
+				"Acquiring companies to quickly increase manpower and internal knowledge → decrease time to market and put higher emphasis on exploration",
+				"Setting up small interdisciplinary teams for innovation projects (design thinking approach) → foster assimilation of diverse external and internal knowledge across departments",
+				"Extensive use of collaborative IT (social networks, wikis, instant messaging, bulletin boards) → quickly spread knowledge and receive feedback on ideas",
+				"Establishing structurally separated units for SaaS → avoid exploratory activities constrained by exploitative needs and allow freedom to experiment",
+				"Recruiting university graduates with new knowledge → compensate for knowledge deficits in web and cloud technologies",
+				"Adopting agile software development methods (Scrum) → adapt to faster release cycles and changing business requirements",
+				"Building on synergies with existing technologies (service-oriented architectures) → leverage foundation for new products",
+				"Dynamic shifting between exploitation and exploration modes → respond to external and internal conditions appropriately",
+				"Promoting organizational cultures of risk and entrepreneurship → encourage experimentation and openness to new ideas"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 21: 'AlphaCo and GammaCo created global centralised specialist teams whose aim is to sense emerging trends and disseminate them into the organisation. An important task of these teams is to identify worthwhile acquisition targets, which helped both firms to swiftly acquire external knowledge' | Page 22: 'AlphaCo sets up small interdisciplinary teams for almost any new innovation project to foster the assimilation of diverse external and internal knowledge across corporate departments' | Page 22-23: 'AlphaCo and GammaCo make extensive use of IT, especially cooperative work and organisational memory systems such as corporate social networks, blogging, wikis, instant messaging or bulletin boards' | Page 23: 'the more exploratory firms established structurally separated units for SaaS to avoid that exploratory activities are constrained by exploitative needs'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Market share of SaaS in cloud computing; 15%; percentage; not specified; secondary data; Page 2",
+				"Cloud turnover share by case companies; 10-20% (typical), 20% (multiple companies); percentage; 2012; case study data; Table 4",
+				"Total sales; $20bn (AlphaCo), $2.1bn (BetaCo), $71bn (GammaCo), $31m (DeltaCo), $1.3bn (ZetaCo); USD; 2012; case study data; Table 4",
+				"Number of employees; 245-94,000 (range across cases); count; 2012; case study data; Table 4",
+				"Inter-coder reliability; κ=0.866; Cohen's kappa; not specified; coding analysis; Page 17",
+				"Number of case studies; 6; count; not specified; multiple case study; Page 1",
+				"Number of interviews; 26 total (3-6 per company); count; 14 years data collection period; case study; Page 13-16",
+				"Interview length; 48-97 minutes, median 68 minutes; minutes; not specified; case study; Page 13"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'Around 15% of the global cloud-computing market comprises Software as a Service (SaaS)' | Page 16, Table 4: 'Cloud-turnover share: n/a, 20%, 20%, 10–20%, <20%, 20%' and 'Total Sales (US-$ in 2012): 20bn, 2.1bn, 71bn, 31m, n/a, 1.3bn' | Page 17: 'We assessed inter-coder reliability with Cohen's kappa (κ= 0.866), indicating a satisfactory level of inter-coder reliability' | Page 13: 'The interview length ranged from 48 to 97 min (median: 68 min)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2000-2014 (SaaS emerged in 2000, data collection over 14 years, business model changes from 2002-2012). Maturity status: Growing - 'Although the established license model for on-premise software still dominates the market for business software, it is losing its supremacy to SaaS'",
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'With the rise of SaaS in 2000, new business model designs have emerged' | Page 2: 'Although the established license model for on-premise software still dominates the market for business software, it is losing its supremacy to SaaS' | Page 13: 'Our study relies on various data sources comprising interviews and follow-up emails with 26 informants along with internal sources (e.g. reports, blogs and presentations) and external documents (e.g. financial reports and market analyses) collected over a period of 14 years' | Page 15-16, Table 4: Business model changes ranging from 2003 (ZetaCo launch) to 2012",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Multiple cases",
+			"synonyms_found": [
+				"multiple case study",
+				"multiple-case study",
+				"multi-case design",
+				"six case studies"
+			],
+			"source_citation": "Page 1: 'Drawing on evidence from multiple case studies of six incumbent vendors of enterprise resource-planning software' | Page 13: 'We use a multiple-case study approach to investigate the complex temporal process of business model change in depth. We chose a multi-case design because it allows study of complex organisational processes' | Page 3: 'We conducted a multiple case study analysis comprising six incumbent vendors of ERP systems'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Six anonymous incumbent ERP vendors (AlphaCo, BetaCo, GammaCo, DeltaCo, EpsilonCo, ZetaCo) → Main case studies, detailed business model changes from on-premise to SaaS",
+				"Salesforce → Example of successful single ERP function cloud solution provider",
+				"Intel's Centrino chip set, IBM's personal computer, Charles Schwab's online trading → Examples of incumbents introducing disruptive innovations",
+				"Lufthansa's low-cost airline, Allianz's online direct insurance, BMW's car-sharing service → Examples of parallel disruptive business models",
+				"SAP → Mentioned in literature review table",
+				"Microsoft → Mentioned regarding threats to business model in operating systems market"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 15-16, Table 4: Detailed case descriptions of six companies with pseudonyms (AlphaCo through ZetaCo) including their business model change timeline | Page 17: 'Customers rather wanted a cloud solution for single ERP functions. That was why firms such as Salesforce were successful and we were not. (Interviewee AlphaCo#4)' | Page 5: 'numerous examples exist of incumbents that have either introduced disruptive innovations themselves (e.g. Intel's Centrino chip set, IBM's personal computer and Charles Schwab's online trading) or continue to offer their established business model in parallel to a disruptive one (e.g. Lufthansa's low-cost airline, Allianz's online direct insurance and BMW's car-sharing service)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Stage 1: Stand-alone single ERP functionalities → Widely standardised applications providing individual functions, attracting low-end customers and SMEs",
+				"Stage 2: Reworked on-premise software offered via internet → Existing ERP installed in central data center without true cloud architecture, incremental adaptation",
+				"Stage 3: Integrated on-premise and on-demand solutions → Private/hybrid cloud with single-tenant customisable solutions for larger enterprises, symbiotic amalgamation",
+				"Multi-tenant public cloud → Shared code base and data structures for economies of scale",
+				"Single-tenant private cloud → Dedicated resources that are individually configurable and controllable for larger enterprises",
+				"Hybrid cloud → Combination of private cloud with public cloud resources for operational elasticity"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 17-18, Figure 2: 'The temporal evolution of SaaS business models that emerge from our data can be categorised into three stages' | Page 17: 'most providers – such as ZetaCo's SaaS, launched in 2002 – offered stand-alone applications providing single ERP functionalities widely standardised across industries' | Page 18: 'the progress in virtualisation techniques, which enabled single-tenant, customisable private or hybrid cloud solutions, which are specifically demanded by larger enterprises. In a private cloud, the software runs on dedicated resources... In a hybrid cloud solution, resources of the public cloud are used in addition to the private cloud'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Market consolidation in hosting services as SaaS market shares continue to rise and economies of scale become more critical",
+				"Continued evolution toward integrated on-premise and on-demand software solutions as dominant value proposition",
+				"Growing importance of application-programming interfaces and ecosystem development around SaaS platforms",
+				"Increasing consumerization driven by digital natives entering workforce, spillover from consumer cloud services to enterprise context",
+				"Rising adoption enabled by mobile devices becoming popular in business contexts",
+				"Software partners need to develop new skills and adapt to new business environment",
+				"Implementation partners becoming increasingly obsolete due to fast and easy SaaS deployment",
+				"Continued shift from on-premise dominance toward SaaS, though on-premise still dominant currently"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 24: 'the profitability of offering cloud-based services depends heavily on economies of scale. Thus, many interviewees believed that the market for hosting services will consolidate considerably, with market shares of SaaS continuing to rise' | Page 18: 'the current dominant value proposition for incumbent ERP vendors is to offer integrated on-premise and on-demand software solutions' | Page 21: 'GammaCo realised that this development will eventually spill over into the market for enterprise software: Because of consumer technologies such as mobile devices popular in private contexts, cloud computing is becoming disruptive in the ERP market' | Page 24: 'established software partners will need to develop new skills and adapt to a new business environment. The importance of implementation partners in the SaaS business model drops dramatically'",
+			"confidence_level": "high"
+		}
+	]
+}

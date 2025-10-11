@@ -1,0 +1,446 @@
+{
+	"extraction_metadata": {
+		"article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Freemium model. Definition: A business model where companies provide both a free basic version and a paid premium version for a service or product to customers. The free version can reduce customer uncertainty regarding the evaluation of the commercial software and make use of network effect to improve the firm's profit.",
+			"synonyms_found": [
+				"freemium",
+				"freemium business model",
+				"freemium model"
+			],
+			"source_citation": "Page 1: 'An emerging business model increasingly used by companies in the online software market is to provide both a free basic version and a paid premium version for a service or a product to customers. Such a setting is often called freemium model. The existence of the free version can reduce the customer uncertainty regarding the evaluation of the commercial software and make use of network effect to improve the firm's profit.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"freemium",
+				"freemium model",
+				"freemium business model",
+				"free basic version and paid premium version model"
+			],
+			"synonyms_found": [
+				"freemium",
+				"freemium model",
+				"freemium business model",
+				"free basic version and paid premium version model"
+			],
+			"source_citation": "Page 1: 'Such a setting is often called freemium model' | Page 2: 'In the freemium business model, the free basic version is made available to everyone'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Online software market / Software industry",
+			"synonyms_found": [
+				"online software industry",
+				"software market",
+				"software industry"
+			],
+			"source_citation": "Page 1: 'An emerging business model increasingly used by companies in the online software market' | Page 2: 'In the online software industry, as the product is virtual, customers often underestimate or overestimate the value of the product' | Page 3: 'Seufert (2013) conducts a comprehensive survey of the freemium business model in software industry'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C",
+			"synonyms_found": ["customers", "consumers", "users", "buyers"],
+			"source_citation": "Page 1: 'provide both a free basic version and a paid premium version for a service or a product to customers' | Page 2: 'Customers can use a basic version of the online service for free' | Page 5: 'We assume a normalized mass m = 1 of consumers with types distributed uniformly in the interval [0, 1]'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Ranges from large companies to startups, with examples including major Chinese companies like Alibaba and Tencent",
+			"synonyms_found": ["companies", "firms"],
+			"source_citation": "Page 1-2: 'the most famous product of Alibaba, a Chinese e-commerce company [...] Alibaba's market value was measured as $231 billion and made it the largest IPO in history' | Page 2: 'Tencent QQ which is an instant messaging Chinese software developed by Tencent company [...] As of August 2014, it had 848 million active QQ accounts' | Page 2: 'A lot of other successful examples of the freemium model include Disney Club Penguin, Evernote, Skype, etc.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Global scope with specific examples from China (Alibaba, Tencent QQ) and international companies (Disney, Evernote, Skype, Google Play)",
+			"synonyms_found": [],
+			"source_citation": "Page 1-2: 'the most famous product of Alibaba, a Chinese e-commerce company' | Page 2: 'Tencent QQ which is an instant messaging Chinese software' | Page 2: 'Disney Club Penguin, Evernote, Skype' | Page 2: 'Google Play which is an online marketplace for Android mobile applications'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Customers of online software products, including users of e-commerce platforms, instant messaging services, online games, and mobile applications",
+			"synonyms_found": [],
+			"source_citation": "Page 1-2: 'In Taobao net, customers are free to open a shop but need to charge if they want to 'decorate' the online shop' | Page 2: 'QQ offers a variety of services such as online social games and music service' | Page 2: 'Google Play which is an online marketplace for Android mobile applications' | Page 6: 'in the online game crossfire, the customers of the premium version who buy the props will play the same game with customers of the free version'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform"],
+			"synonyms_found": [
+				"software product",
+				"online service",
+				"virtual product"
+			],
+			"source_citation": "Page 2: 'Customers can use a basic version of the online service for free, but they need to pay for the entire service' | Page 2: 'In the online software industry, as the product is virtual' | Page 1: 'Taobao.com [...] web portal' | Page 2: 'online social games and music service'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS", "Mobile"],
+			"synonyms_found": ["online service", "web", "mobile applications", "app"],
+			"source_citation": "Page 2: 'Customers can use a basic version of the online service for free' | Page 2: 'Google Play which is an online marketplace for Android mobile applications' | Page 1: 'via a web portal Taobao.com' | Page 2: 'paid mobile apps'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Usage/consumption (premium version sales)",
+				"Transaction (commissions on transactions)",
+				"Others (virtual credits, decorations, props)"
+			],
+			"synonyms_found": [
+				"premium version",
+				"paid premium version",
+				"entire service"
+			],
+			"source_citation": "Page 1-2: 'customers are free to open a shop but need to charge if they want to 'decorate' the online shop such as buying the Taobao WangPu function' | Page 2: 'Customers can use a basic version of the online service for free, but they need to pay for the entire service' | Page 3: 'three digital freemium companies which sell virtual credits' | Page 6: 'the customers of the premium version who buy the props'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others (content-based pricing)",
+			"synonyms_found": ["price", "price for premium version"],
+			"source_citation": "Page 5: 'The firm will charge a price p for the remain amount 1−x of the content. Correspondingly, we call this part of content as the premium version' | Page 1: 'the firm needs to determine the optimal content for the free version and the optimal price for the premium version'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Freemium"],
+			"synonyms_found": ["free basic version and paid premium version"],
+			"source_citation": "Page 1: 'provide both a free basic version and a paid premium version for a service or a product to customers. Such a setting is often called freemium model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Platform",
+			"synonyms_found": ["platform", "web portal"],
+			"source_citation": "Page 1: 'via a web portal Taobao.com' | Page 2: 'online marketplace for Android mobile applications'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value)",
+			"synonyms_found": [
+				"network effect",
+				"network externalities",
+				"network externality"
+			],
+			"source_citation": "Page 1: 'make use of network effect to improve the firm's profit' | Page 6: 'Assume that the product has a positive network effect, which means one user of the product has an additional positive benefit of that product to other users' | Page 6: 'the network effect intensity and reflects the increase in willingness to pay when an additional consumer joins the network'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Product-led Growth", "Digital marketing"],
+			"synonyms_found": ["free version", "free basic version"],
+			"source_citation": "Page 2: 'the free basic version is made available to everyone who may become a buyer (potential customer)' | Page 3: 'the freemium strategy is positively associated with increased sales of the paid mobile apps'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes - Google Play (Android marketplace), Apple App Store",
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'Liu et al. (2012) examines the effect of the freemium strategy on Google Play which is an online marketplace for Android mobile applications' | Page 7: 'a type of software products in Apple App Store'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Free basic version to reduce customer uncertainty and utilize network effects; paid premium version for full functionality; convenience and low/zero upfront cost",
+				"Customer Segment: Online software users, potential buyers distributed heterogeneously, customers with varying willingness to pay, users of e-commerce, instant messaging, games, mobile apps",
+				"Revenue Streams: Premium version sales, pricing based on content amount, transaction-based revenues for virtual goods/services",
+				"Key Resources: Software product (divisible into free and premium content), network of users generating network effects, technological platform",
+				"Key Activities: Product division into free and premium versions, optimal pricing decisions, optimal free content determination, managing network effects, reducing customer uncertainty",
+				"Cost Structure: Fixed cost C to divide the product into free and premium versions, marginal cost (potentially negligible), customer fixed cost for using software",
+				"Channels: Web portals, online marketplaces (Google Play, App Store), online platforms"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'provide both a free basic version and a paid premium version [...] reduce the customer uncertainty [...] make use of network effect to improve the firm's profit' | Page 7: 'when the firm uses the freemium model then it needs a fixed cost C to divide the product' | Page 5: 'The firm will charge a price p for the remain amount 1−x of the content' | Page 1-2: Examples include Alibaba, Tencent QQ serving large customer bases",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"Free version users | Basic service consumers | Use free version, generate network effects | Interact with premium users through shared platform/network",
+				"Premium version users | Paying customers | Pay for premium content, benefit from network effects of all users | Interact with free users through shared platform",
+				"Software firm/provider | Platform operator and content provider | Decides optimal free content and pricing, manages product division | Interacts with both free and premium users",
+				"Potential customers | Prospective buyers | Evaluate product through free version before purchasing | May convert to free or premium users",
+				"Online marketplace operators (Google Play, App Store) | Distribution platforms | Provide distribution channel for software | Connect software providers with customers"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'the free basic version is made available to everyone who may become a buyer (potential customer) and the premium advanced version can be sold to actual buyer at a price' | Page 6: 'The users of the premium version must use the free basic version [...] the customers of the premium version who buy the props will play the same game with customers of the free version' | Page 2: 'Google Play which is an online marketplace for Android mobile applications'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Reduce customer uncertainty about product value",
+				"Utilize network effects to increase product value and attract users",
+				"Generate higher profit compared to traditional charge-for-everything model (when conditions are favorable)",
+				"Improve customer welfare and social welfare",
+				"Convert free users to paying customers",
+				"Increase sales through freemium strategy",
+				"Attract large user base with free offering"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'The existence of the free version can reduce the customer uncertainty regarding the evaluation of the commercial software and make use of network effect to improve the firm's profit' | Page 2: 'the freemium strategy is positively associated with increased sales of the paid mobile apps' | Page 1: 'when customer underestimates the value of the software significantly and the true value of the software is high enough, the freemium model can generate higher profit, higher customer welfare, and higher social welfare'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"High true value of software → Higher profit and more likely to choose freemium model",
+				"Strong network effect → Freemium generates higher profit, customer welfare, and social welfare",
+				"Significant customer underestimation of value → Freemium outperforms charge-for-everything model",
+				"Optimal free content decision (not too much) → Avoids excessive cannibalization effect",
+				"Quality free app offering → Boosts sales of paid app",
+				"Strong functional fit between free and premium services → Increases user conversion probability",
+				"Large user base attracted by free version → Generates network effects that improve premium value"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'when customer underestimates the value of the software significantly and the true value of the software is high enough, the freemium model can generate higher profit, higher customer welfare, and higher social welfare' | Page 13: 'a higher true value parameter α leads to that the firm is more likely to choose the freemium model' | Page 2: 'offering a quality free app is important in boosting sales of the paid app' | Page 3: 'freemium model can increase the probability of user conversion by providing a strong functional fit between their free and premium services' | Page 14: 'When the network effect is stronger [...] the freemium model generates higher profit, customers' welfare, and social welfare'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Product must be divisible into free and premium content → Enables freemium structure",
+				"Positive network effect present in product → Network benefits from user base",
+				"Virtual/digital product nature → Low marginal cost, suitable for free distribution",
+				"Customer fixed cost must be manageable → Ensures users adopt the product",
+				"True value of software should be high → Makes freemium model profitable",
+				"Ability to divide product requires fixed cost C → Infrastructure for separation",
+				"Network effect should be strong enough → Overcomes cannibalization effect"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 7: 'when the firm uses the freemium model then it needs a fixed cost C to divide the product' | Page 6: 'Assume that the product has a positive network effect' | Page 6: 'Assume that the customer has a fixed cost φ when he/she uses the software product. For example, to use the software product, customer often needs the necessary hardware support to install it and the time and energy to learn how to use it' | Page 16: 'the network effect should be strong enough' to overcome cannibalization effect",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Cannibalization effect: free version reduces paying customers → Hurts profit",
+				"If free content is too much → Cannibalization exceeds network benefits",
+				"If true value of product is low → Freemium generates lower profit than charge-for-everything",
+				"If customer underestimates value insignificantly → Freemium performs worse",
+				"If network effect is weak → Firm needs more free content, reducing profit",
+				"Fixed cost C to divide product → Additional cost burden",
+				"Marginal cost existence → Worsens benefit for firm and customers"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'the freemium model may also have the cannibalization effect which can hurt the profit' | Page 13: 'if the free content is too much, the cannibalization effect would be stronger than the network effect. Hence the freemium model will generate a lower profit' | Page 13-14: 'when the true value is low, the freemium model generates lower profit, lower customers' welfare and lower social welfare than charge-for-everything model' | Page 16: 'the existence of the free version will reduce the amount of the paying customers and worsen the profit' | Page 18: 'the existence of marginal cost will worsen the benefit of the freemium model for both the firm and customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Determining optimal free content amount to balance network effect and cannibalization",
+				"Setting optimal price for premium version",
+				"Managing customer uncertainty about product value",
+				"Balancing free version attractiveness with premium version value",
+				"Avoiding excessive cannibalization of premium sales by free version",
+				"Managing cases where freemium underperforms charge-for-everything model",
+				"Complexity increases with marginal cost considerations",
+				"Customer learning behavior affecting estimate values",
+				"Deciding when freemium is appropriate versus traditional model"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'the firm needs to determine the optimal content for the free version and the optimal price for the premium version to maximize its profit' | Page 1: 'the freemium model may also have the cannibalization effect which can hurt the profit' | Page 4: 'when does the freemium model offer better profit than the traditional charge-for-everything model' | Page 16: 'the existence of the free version will produce both positive effect and negative effect on the profit of firm'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Optimal free content decision based on mathematical optimization → Maximizes profit while balancing effects",
+				"Setting free content less than threshold value x̄ → Prevents excessive cannibalization",
+				"Ensuring free version attracts users by itself (Case 1 equilibrium) → Maintains positive network effect",
+				"Decreasing free content as true value α increases → Reduces cannibalization loss",
+				"Providing quality free app → Boosts paid app sales",
+				"Strong functional fit between free and premium → Increases conversion rates",
+				"Choosing freemium only when true value is high and customer underestimation is significant → Ensures profitability conditions"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 9: 'the optimal decisions of the freemium model must not be in the case 2 of customer choice equilibrium' meaning 'the optimal free content and price decisions of freemium model should ensure that all users of the free version can obtain a non-negative net utility' | Page 13: 'if the firm chooses the freemium model then its optimal free content decision should be less than a threshold value x̄' | Page 11: 'the firm should reduce the free content to maximize profit when α is increased' | Page 2: 'offering a quality free app is important in boosting sales of the paid app' | Page 3: 'providing a strong functional fit between their free and premium services' increases conversion",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Metric: Alibaba sales volume; Value: 1.1 trillion; Unit: yuan ($170 billion); Period: 2012; Method: Company data; Source: Jung et al. 2015",
+				"Metric: Alibaba IPO market value; Value: 231; Unit: billion USD; Period: September 19, 2014; Method: IPO valuation; Source: Article",
+				"Metric: Tencent QQ active accounts; Value: 848; Unit: million accounts; Period: August 2014; Method: Company data; Source: Lee and Phang 2015",
+				"Metric: Profit rate increase (α=20, β=5); Value: 8.16; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 2",
+				"Metric: Customer welfare increase (α=20, β=5); Value: 4.91; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 2",
+				"Metric: Social welfare increase (α=20, β=5); Value: 5.36; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 2",
+				"Metric: Profit decrease when network weak (μ=0.1); Value: -5.56; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 4",
+				"Metric: Customer welfare increase when network weak (μ=0.1); Value: 14.39; Unit: %; Period: Simulation; Method: Numerical analysis; Source: Table 4",
+				"Metric: Maximum customer uncertainty γmax (α=20); Value: 0.390; Unit: ratio; Period: Simulation; Method: Numerical analysis; Source: Table 3"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1-2: 'in 2012, Alibaba handled 1.1 trillion yuan ($170 billion) in sales [...] Alibaba's market value was measured as $231 billion and made it the largest IPO in history' | Page 2: 'As of August 2014, it had 848 million active QQ accounts' | Page 13: Table 2 shows various profit, customer welfare and social welfare comparisons | Page 14: Table 4 shows network effect impacts | Page 14: Table 3 shows maximum γ values",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: Contemporary period with examples from 2012-2015 (Alibaba 2012-2014, Tencent QQ 2014, article published 2018). Maturity status: Growing",
+			"synonyms_found": [
+				"emerging business model",
+				"new business model",
+				"becoming popular"
+			],
+			"source_citation": "Page 1: 'An emerging business model increasingly used by companies in the online software market' | Page 1: 'In the online software industry, a new business model is becoming popular under the name of freemium' | Page 1-2: Examples from 2012-2014 including 'in 2012, Alibaba handled 1.1 trillion yuan' and 'As of August 2014, it had 848 million active QQ accounts'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Others (Analytical modeling with numerical simulation)",
+			"synonyms_found": [
+				"mathematical model",
+				"theoretical analysis",
+				"numerical simulation",
+				"quantitative analysis"
+			],
+			"source_citation": "Page 1: 'In this paper, first, we obtain the optimal decisions of the freemium model and their properties' using mathematical analysis | Page 3: 'In this paper, we study the suitability of freemium model in software market from the theoretical aspect' | Page 4: 'we provide a new model to describe the customer choice behavior' | Page 11: 'we provide a numerical example to demonstrate' | Page 18: 'we will use numerical simulation to analyze this case'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Alibaba / Taobao.com → E-commerce platform with free shop opening, paid decoration features (1.1 trillion yuan sales 2012, $231B IPO)",
+				"Tencent QQ → Instant messaging with freemium services (848 million active accounts August 2014)",
+				"Disney Club Penguin → Successful freemium example",
+				"Evernote → Successful freemium example",
+				"Skype → Successful freemium example",
+				"Google Play → Android app marketplace with freemium apps",
+				"Apple App Store → Mobile app marketplace with freemium products",
+				"Crossfire → Online game example with free and premium (props purchase) versions",
+				"SugarSync → Online network disk provider using freemium then charge-for-everything"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 1-2: 'the most famous product of Alibaba, a Chinese e-commerce company, is sold in a format of ''consumer-to-consumer sales'' via a web portal Taobao.com [...] in 2012, Alibaba handled 1.1 trillion yuan ($170 billion) in sales [...] Alibaba's market value was measured as $231 billion' | Page 2: 'Tencent QQ which is an instant messaging Chinese software [...] As of August 2014, it had 848 million active QQ accounts' | Page 2: 'A lot of other successful examples of the freemium model include Disney Club Penguin, Evernote, Skype, etc.' | Page 6: 'in the online game crossfire, the customers of the premium version who buy the props' | Page 20: 'Online network disk provider SugarSync'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Time-limited freemium → Free for limited time then charge, requires time dimension consideration (mentioned but not analyzed in detail)",
+				"Freemium with Case 1 customer equilibrium → Free version attracts users by itself, all free users obtain non-negative utility",
+				"Freemium with Case 2 customer equilibrium → Some customers use free version only to access premium version",
+				"Seeding model → Alternative to freemium mentioned for comparison",
+				"Freemium with marginal cost consideration → Extension considering non-zero marginal costs",
+				"Freemium with customer learning behavior → Customers update estimate values after using free version"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'It should be noted that there may exist another way that the firm provides product for free in a time limit then charge for it, which may also be called freemium. This paper does not discuss ''free-time'' situation because it needs to consider the time dimension' | Page 6-7: 'the customer's choice behavior results in one of two cases' - Case 1 and Case 2 described | Page 3: 'Niculescu and Wu (2014) compare the optimal profit and social welfare for the freemium model, charge-for-everything model, and seeding model' | Page 17: 'we will discuss the problem that when the customer has customer learning behavior'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Need for empirical studies to verify theoretical results",
+				"Study cases with heterogeneous β parameter among customers",
+				"Dynamic decisions combining freemium and charge-for-everything models over time (firms starting with freemium for marketing, then switching to charge-for-everything after gaining market share)",
+				"Investigation of optimal timing and transition strategies between business models",
+				"Further analysis of customer learning behavior impact",
+				"Extension to more complex marginal cost scenarios"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 20: 'In the future, further empirical studies are required to verify these results. Another research direction is to study the case when the parameter β is heterogeneous among customers. Finally, some firms such as Online network disk provider SugarSync often first choose the freemium model for marketing, then utilize the charge-for-everything model after the market share has been obtained. Thus, investigating the dynamic decisions of the freemium model and the charge-for-everything model would be an interesting future research topic.'",
+			"confidence_level": "high"
+		}
+	]
+}

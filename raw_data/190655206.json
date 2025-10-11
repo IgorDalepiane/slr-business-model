@@ -1,0 +1,610 @@
+{
+	"extraction_metadata": {
+		"article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "E-invoicing Service Provider Model - A business model where a professional third party (service provider or e-invoicing platform) manages the e-invoice transfer process by translating invoice data provided by the issuer into the format suitable for the recipient, guaranteeing essential legal requirements, authenticity, and data integrity.",
+			"synonyms_found": [
+				"service provider model",
+				"e-invoicing platform",
+				"professional third party service",
+				"many-to-many service provider models",
+				"XML-based invoicing systems"
+			],
+			"source_citation": "Page 4: 'The service provider model is embraced when supplier or buyer wishes to buy e-invoice issuing or receiving from a professional third party, referred to as service provider (or e-invoicing platform). The service provider manages the e-invoice transfer process by translating invoice data provided by the issuer into the format suitable for the recipient. The service provider guarantees essential legal requirements, authenticity, and data integrity.' | Page 4: 'XML-based invoicing systems provide the possibility for interoperable infrastructures enabling many-to-many service provider models instead of partner-specific point-to-point connections between suppliers and buyers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"service provider model",
+				"e-invoicing platform",
+				"professional third party service",
+				"many-to-many service provider models",
+				"third party-operated many-to-many models"
+			],
+			"synonyms_found": [
+				"service provider",
+				"e-invoicing platform",
+				"professional third party",
+				"many-to-many models"
+			],
+			"source_citation": "Page 4: 'service provider (or e-invoicing platform)' | Page 4: 'XML-based invoicing systems provide the possibility for interoperable infrastructures enabling many-to-many service provider models' | Page 5: 'different types of configurations that exist for these third party-operated many-to-many models'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Cross-industry financial processes (invoicing) - with emphasis on healthcare, retail, and public sector as highest volume industries",
+			"synonyms_found": [
+				"invoicing",
+				"financial value chain process",
+				"billing process"
+			],
+			"source_citation": "Page 2: 'the total number of invoices in Europe is estimated to have already surpassed 35 billion per year. Approximately half of those invoices are exchanged between businesses, and the other half of the volume is directed to consumers. Industries with the highest invoicing volumes are healthcare, retail, and public sector.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B SMB",
+			"synonyms_found": [
+				"SMEs",
+				"small- and micro-sized companies",
+				"businesses"
+			],
+			"source_citation": "Page 4: 'Large issuers and recipients prefer to make full e-invoicing integration into their AR and AP systems, but SMEs tend to choose quicker solutions using, e.g., WebEDI.' | Page 3: 'Supplier direct model enables direct contact with customers, opportunities for a close integration with back office environment and process automation, and gives the supplier influence on e-invoicing functionality. On the other hand, upgrading and maintenance costs of this kind of system tend to accumulate dramatically over the years.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Large international IT companies with established infrastructure (like Tieto with 13,000 employees and 200,000 active trading partners), small regional service providers (like SPIOS A with 120 clients), and small start-ups (like SPIOS B with 5 employees)",
+			"synonyms_found": [
+				"large international service provider",
+				"small regional service provider",
+				"small start-up service provider"
+			],
+			"source_citation": "Page 7-8, Appendix: 'Tieto is a large, international IT company, listed on the Helsinki Stock Exchange with a strong competence and well-established infrastructure for domestic and international e-invoicing. Its global personnel count is around 13,000' | 'SPIOS A is a small traditional service provider well familiar with the home market but with little experience in e-invoicing... having a total number of clients of only 120' | 'SPIOS B is a small start-up e-invoicing platform. The company was founded at the start of this year... The start-up employs five people'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Finland and Europe",
+			"synonyms_found": ["Finland", "European Union", "Europe"],
+			"source_citation": "Page 1: 'Tieto (www.tieto.com) sits in the open office in their headquarters located on the seashore just outside of Helsinki, Finland' | Page 2: 'Finland is a forerunner in e-invoicing with the highest penetration of structured e-invoicing among companies (b2b)' | Page 3: 'migrating from traditional paper-based invoicing to e-invoicing has become an important potential driver of competitiveness improvements in the European Union'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Trading partners (buyers and suppliers) in B2B invoicing relationships, with specific focus on companies transitioning from paper-based to electronic invoicing",
+			"synonyms_found": [
+				"trading partners",
+				"TPs",
+				"buyers and suppliers",
+				"customer companies",
+				"business partners"
+			],
+			"source_citation": "Page 5: 'In the three-corner model, the service provider enrolls all the trading partners (TPs) – buyers and suppliers – to its platform so that different counterparts have separate contractual relationships with the same platform.' | Page 6: 'Task (1) Onboarding of business partners. What kinds of strategies can be used to attract buyers and suppliers to the e-invoicing platform? Build a clear onboarding strategy and discuss the mechanisms of how to onboard business partners (buyers and suppliers).'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Platform", "Managed Service"],
+			"synonyms_found": [
+				"e-invoicing connectivity services",
+				"invoice process automation services",
+				"platform"
+			],
+			"source_citation": "Page 1: 'e-invoicing, a current form of many-to-many inter-organizational information systems' | Page 2: 'Tieto is also a platform for electronic invoicing – providing e-invoicing connectivity services so that business partners can exchange e-invoices efficiently.' | Page 2: 'Tieto's Value Networks unit offers its customer companies e-invoicing connectivity services and invoice process automation services.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS"],
+			"synonyms_found": [
+				"electronic format",
+				"Internet connection",
+				"web portal",
+				"cloud-based"
+			],
+			"source_citation": "Page 6: 'Fully structured e-invoices are sent via secure Internet connection' | Page 3: 'Smaller suppliers type in the invoice data in the buyer's web portal from where the data can be automatically processed and imported into the AP system.' | Page 4: 'SMEs tend to choose quicker solutions using, e.g., WebEDI. This way e-invoicing can be in use within hours from making the decision to implement.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Transaction", "Support"],
+			"synonyms_found": ["transaction fee", "setup fee"],
+			"source_citation": "Page 7: 'The service provider charges its customer companies (both suppliers and buyers) a transaction fee for each e-invoice. In addition, the service provider might charge a setup fee from the customer.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Transactions",
+			"synonyms_found": ["per e-invoice", "each e-invoice"],
+			"source_citation": "Page 7: 'The service provider charges its customer companies (both suppliers and buyers) a transaction fee for each e-invoice.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Pay-as-you-go", "Custom negotiation"],
+			"synonyms_found": ["transaction fee", "setup fee"],
+			"source_citation": "Page 7: 'The service provider charges its customer companies (both suppliers and buyers) a transaction fee for each e-invoice. In addition, the service provider might charge a setup fee from the customer.' | Page 7: 'Very often, a larger service provider sets a minimum limit of traffic they want to generate from a smaller service provider so to warrant the work of making the interchange agreement.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": [
+				"many-to-many platform",
+				"two-sided market",
+				"intermediary"
+			],
+			"source_citation": "Page 4: 'Recently, new XML-based standards have enabled a shift from point-to-point data exchange to development of network-based many-to-many platforms.' | Page 5: 'In the three-corner model, the service provider enrolls all the trading partners (TPs) – buyers and suppliers – to its platform so that different counterparts have separate contractual relationships with the same platform.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cross-sided (distinct groups benefit)",
+			"synonyms_found": [
+				"buyers and suppliers",
+				"trading partners",
+				"two-sided"
+			],
+			"source_citation": "Page 5: 'Businesses are able to reach several trading partners by connecting to a single platform' | Page 7: 'Obviously, the size of the network has important implications to the value proposition of Tieto.' | Page 6: 'Which side should Tieto focus on, suppliers or buyers? Can either side be used as a magnet to lure in the other side?'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Direct sales", "Partners/channels"],
+			"synonyms_found": [
+				"onboarding strategy",
+				"marketing strategy",
+				"push or pull strategy"
+			],
+			"source_citation": "Page 6: 'What kinds of strategies can be used to attract buyers and suppliers to the e-invoicing platform? Build a clear onboarding strategy and discuss the mechanisms of how to onboard business partners (buyers and suppliers).' | Page 6: 'Should Tieto use a push or pull strategy in marketing? Which side should Tieto focus on, suppliers or buyers? Can either side be used as a magnet to lure in the other side?'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: E-invoicing connectivity services and invoice process automation services that enable companies to produce sales invoices in electronic format and circulate purchase invoices electronically, leading to cost savings, environmental benefits, security improvements, and service quality enhancements",
+				"Customer Segment: Trading partners (buyers and suppliers) in B2B relationships, with focus on SMEs and large corporations needing e-invoicing solutions",
+				"Revenue Streams: Transaction fees per e-invoice charged to both suppliers and buyers, plus setup fees from customers",
+				"Key Resources: E-invoicing technology, XML expertise, network of over 200,000 active trading partners, established infrastructure",
+				"Key Activities: E-invoice transfer process management, translating invoice data between formats, guaranteeing legal requirements and data integrity, connectivity services provision",
+				"Key Partnerships: Interchange agreements with other service providers for four-corner model interoperability, involvement in EESPA (European E-Invoicing Service Providers Association)"
+			],
+			"synonyms_found": [
+				"value proposition",
+				"connectivity services",
+				"trading partners",
+				"transaction fee",
+				"e-invoicing technology",
+				"interchange agreements"
+			],
+			"source_citation": "Page 2: 'Tieto's Value Networks unit offers its customer companies e-invoicing connectivity services and invoice process automation services' | Page 7-8: 'Tieto has established a network of over 200,000 active trading partners as it has operated in the market already for two decades' | Page 7: 'The service provider charges its customer companies (both suppliers and buyers) a transaction fee for each e-invoice' | Page 5: 'In the four-corner model, an e-invoicing service provider makes contractual interoperability agreements with other service providers' | Page 2: 'the core of Tieto lies in its excellent e-invoicing technology'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"Actor": "Suppliers (Invoice issuers)",
+					"Role": "Create and send sales invoices to buyers",
+					"Interaction with offering company": "Send invoices to service provider who forwards them in proper format to buyers; pay transaction fees per invoice",
+					"Interaction with other actors": "Send invoices to buyers through the platform; may interact with buyers' service providers in four-corner model"
+				},
+				{
+					"Actor": "Buyers (Invoice recipients)",
+					"Role": "Receive, approve, and process purchase invoices",
+					"Interaction with offering company": "Receive invoices from service provider in desired format; pay transaction fees per invoice",
+					"Interaction with other actors": "Receive invoices from suppliers through the platform; may interact with suppliers' service providers in four-corner model"
+				},
+				{
+					"Actor": "Other e-invoicing service providers",
+					"Role": "Provide competing or complementary e-invoicing platforms",
+					"Interaction with offering company": "Make interchange agreements for four-corner model enabling cross-platform invoice exchange; typically do not charge each other for invoice data exchange",
+					"Interaction with other actors": "Forward invoices between their customers and other platforms' customers; convert different data formats"
+				},
+				{
+					"Actor": "EESPA (European E-Invoicing Service Providers Association)",
+					"Role": "Trade association promoting interoperable e-invoicing ecosystem",
+					"Interaction with offering company": "Tieto is actively involved; Tapani Turunen represents Tieto on executive committee",
+					"Interaction with other actors": "Promotes adoption of interoperability among service providers"
+				},
+				{
+					"Actor": "Government/European Commission",
+					"Role": "Regulatory and promotional entity",
+					"Interaction with offering company": "Actively promotes e-invoicing implementation",
+					"Interaction with other actors": "Works with businesses and governments to further interoperable e-invoicing development"
+				}
+			],
+			"synonyms_found": [
+				"trading partners",
+				"service providers",
+				"platforms",
+				"EESPA",
+				"European Commission"
+			],
+			"source_citation": "Page 4: 'The service provider model is embraced when supplier or buyer wishes to buy e-invoice issuing or receiving from a professional third party' | Page 5: 'In the four-corner model, an e-invoicing service provider makes contractual interoperability agreements with other service providers so that interchange between two platforms is enabled' | Page 7: 'Typical arrangement between platforms is that the service providers do not charge each other for the invoice data they exchange' | Page 5: 'the European E-Invoicing Service Providers Association (EESPA), a trade association representing the e-invoicing industry, strives to further promote the adoption of an interoperable e-invoicing eco-system. Tieto is actively involved in EESPA, and Mr. Poteri's colleague, Mr. Tapani Turunen represents Tieto on the executive committee' | Page 3: 'the European Commission and the member countries' governments are actively promoting its implementation'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Cost reduction in invoicing processes (up to 80% savings estimated)",
+				"Business process automation opportunities",
+				"Lower and non-escalating costs compared to in-house systems",
+				"Easy and efficient integration to single point of contact",
+				"Reduced complexity with VAT compliance and legal requirements outsourced",
+				"Environmental benefits (saving paper, reducing emissions)",
+				"Enhanced security and data quality",
+				"Ability to reach multiple trading partners through one platform"
+			],
+			"synonyms_found": [
+				"cost savings",
+				"automation",
+				"productivity gains",
+				"competitiveness improvements"
+			],
+			"source_citation": "Page 3: 'e-invoicing can lower administrative costs for companies and, thereby, result in drastic productivity gains' | Page 5: 'Even savings of up to 80% in invoicing have been estimated' | Page 4: 'Using a service provider will gain lower and non-escalating costs as system development and maintenance is taken care by the service provider, and easy and efficient integration to a single point of contact. In addition, complexity decreases as VAT compliance, as well as technical and legal requirements, can be outsourced to the service providers.' | Page 5: 'Businesses are able to reach several trading partners by connecting to a single platform'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Network size → Greater value proposition (size of network has important implications to value proposition)",
+				"Interoperability agreements → Market efficiency and customer preference for single platform contact",
+				"Strong market position and expertise → Competitive advantage",
+				"XML expertise → Enabler for modern e-invoicing solutions",
+				"Fast customer acquisition → Key to winning in blue ocean technology markets",
+				"First-mover advantage in high-penetration markets → Working advantage on multiple fronts"
+			],
+			"synonyms_found": [
+				"network effects",
+				"interchange agreements",
+				"market position",
+				"expertise",
+				"onboarding speed"
+			],
+			"source_citation": "Page 7: 'Obviously, the size of the network has important implications to the value proposition of Tieto' | Page 5: 'Mr. Poteri feels that interchange agreements can make the market more efficient and companies receiving or issuing invoices prefer to have only one platform contact instead of managing multiple separate contracts' | Page 2: 'Finland is a forerunner in e-invoicing with the highest penetration of structured e-invoicing among companies (b2b), and this fact is working for Tieto on a number of fronts' | Page 2: 'Tieto has expertise on eXtensible Markup Language (XML), which is key in modern e-invoicing solutions' | Page 6: 'he believes that in the case of a blue ocean technology like e-invoicing, fast acquisition of new customers is the key to winning'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Trading partner adoption → Platform value (both sides need to be onboarded)",
+				"Technical infrastructure for XML/EDI processing → Service delivery capability",
+				"Legal and VAT compliance capabilities → Service provider credibility",
+				"Data format conversion capabilities → Multi-format support requirement",
+				"Integration with customer AR/AP systems → Full automation benefits"
+			],
+			"synonyms_found": [
+				"infrastructure",
+				"compliance",
+				"format conversion",
+				"integration capabilities"
+			],
+			"source_citation": "Page 4: 'Large issuers and recipients prefer to make full e-invoicing integration into their AR and AP systems' | Page 4: 'The service provider manages the e-invoice transfer process by translating invoice data provided by the issuer into the format suitable for the recipient. The service provider guarantees essential legal requirements, authenticity, and data integrity.' | Page 6: 'Can either side be used as a magnet to lure in the other side?' (implies need for both sides)",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Platform lock-in without interoperability → Businesses can only reach trading partners contracted with same platform in three-corner model",
+				"Minimum traffic requirements → Smaller service providers must meet minimum volume to warrant interchange agreements with larger providers",
+				"National format variations → Each country has developed its own national formats for e-invoicing, creating compatibility challenges"
+			],
+			"synonyms_found": [
+				"limited reach",
+				"minimum limit of traffic",
+				"country-specific formats"
+			],
+			"source_citation": "Page 5: 'Businesses are able to reach several trading partners by connecting to a single platform, but they can reach only the ones that are contracted with the same platform. Thus, usually companies need to make separate contracts to multiple e-invoicing platforms.' | Page 7: 'Very often, a larger service provider sets a minimum limit of traffic they want to generate from a smaller service provider so to warrant the work of making the interchange agreement.' | Page 3: 'Typically, each country has developed its own national formats for e-invoicing.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Customer onboarding in competitive environment with emerging new innovative competitors",
+				"Economic pressures from continuously stagnating economy",
+				"Balancing between attracting buyers vs suppliers (which side to focus on)",
+				"Risk of overconfidence despite strong market position",
+				"Deciding between three-corner vs four-corner model strategies",
+				"Determining optimal pricing models and who should pay whom",
+				"Large size limiting ability to provide personalized service"
+			],
+			"synonyms_found": [
+				"onboarding challenge",
+				"competition",
+				"economic pressures",
+				"strategic decisions"
+			],
+			"source_citation": "Page 2: 'Due to the economic pressures stemming from the continuously stagnating economy on one hand, and emergence of new innovative competitors on the other, getting more customers onboard of their e-invoicing platform before the competitors reach them is becoming increasingly important' | Page 2: 'relying too much on a strong market position seems like a risk that Mr. Poteri does not want to take' | Page 6: 'Which side should Tieto focus on, suppliers or buyers?' | Page 7-8: 'However, the same factors also limit the service provider's ability to provide personalized service, as the large size accounts for stiffness'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Developing clear onboarding and partnering strategy → Address customer acquisition urgency → Enable timely action in blue ocean market",
+				"Pursuing interchange agreements with other platforms → Overcome platform lock-in → Make market more efficient and increase customer preference",
+				"Offering quick implementation solutions (WebEDI) for SMEs → Reduce adoption barriers → Enable e-invoicing use within hours of decision",
+				"Active involvement in EESPA → Promote interoperable ecosystem → Foster industry standards and collaboration",
+				"Seeking external consultancy → Address complex strategic decisions → Bring valuable insights balancing IT and business"
+			],
+			"synonyms_found": [
+				"strategy development",
+				"interoperability",
+				"quick solutions",
+				"industry collaboration",
+				"external expertise"
+			],
+			"source_citation": "Page 2: 'Mr. Poteri feels that something must be done. He thinks that Tieto should review several different options for onboarding business customers onto their e-invoicing platform' | Page 5: 'Mr. Poteri feels that interchange agreements can make the market more efficient and companies receiving or issuing invoices prefer to have only one platform contact' | Page 4: 'SMEs tend to choose quicker solutions using, e.g., WebEDI. This way e-invoicing can be in use within hours from making the decision to implement' | Page 5: 'Tieto is actively involved in EESPA' | Page 2: 'feeling the need for external consultancy on the matter, Mr. Poteri has scheduled a meeting with you'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"Metric": "Total invoices in Europe",
+					"Value": "35 billion+",
+					"Unit": "invoices",
+					"Period": "per year",
+					"Method": "Industry estimation",
+					"Source": "Billentis consultant Bruno Koch"
+				},
+				{
+					"Metric": "B2B invoice volume",
+					"Value": "50",
+					"Unit": "percent of total",
+					"Period": "annual",
+					"Method": "Market estimation",
+					"Source": "Billentis"
+				},
+				{
+					"Metric": "Cost savings potential (invoice issuer)",
+					"Value": "57",
+					"Unit": "percent per invoice",
+					"Period": "not specified",
+					"Method": "Industry estimation",
+					"Source": "Bruno Koch from Billentis"
+				},
+				{
+					"Metric": "Cost savings as percentage of turnover",
+					"Value": "1-2",
+					"Unit": "percent of total turnover",
+					"Period": "not specified",
+					"Method": "Industry estimation",
+					"Source": "Article discussion"
+				},
+				{
+					"Metric": "Overall invoicing cost savings",
+					"Value": "80",
+					"Unit": "percent",
+					"Period": "not specified",
+					"Method": "Industry estimation",
+					"Source": "EEI-3.2, 2007"
+				},
+				{
+					"Metric": "Saving potential (invoice receiver)",
+					"Value": "62",
+					"Unit": "percent per invoice",
+					"Period": "not specified",
+					"Method": "Industry estimation",
+					"Source": "Bruno Koch from Billentis"
+				},
+				{
+					"Metric": "Active trading partners (Tieto)",
+					"Value": "200,000",
+					"Unit": "trading partners",
+					"Period": "current",
+					"Method": "Company data",
+					"Source": "Case company profile"
+				},
+				{
+					"Metric": "Tieto personnel count",
+					"Value": "13,000",
+					"Unit": "employees",
+					"Period": "current",
+					"Method": "Company data",
+					"Source": "Case company profile"
+				},
+				{
+					"Metric": "Environmental savings",
+					"Value": "12 million",
+					"Unit": "trees saved yearly",
+					"Period": "annual in Europe",
+					"Method": "Environmental estimation",
+					"Source": "DB Research, 2010"
+				},
+				{
+					"Metric": "Service providers preferring four-corner model",
+					"Value": "50+",
+					"Unit": "percent of banks",
+					"Period": "2008",
+					"Method": "Survey",
+					"Source": "SWIFT, 2008"
+				}
+			],
+			"synonyms_found": [
+				"cost savings",
+				"trading partners",
+				"personnel",
+				"trees saved"
+			],
+			"source_citation": "Page 2: 'the total number of invoices in Europe is estimated to have already surpassed 35 billion per year. Approximately half of those invoices are exchanged between businesses' | Page 5: 'e-invoicing enables cost savings of as high as 57% per invoice... implementing e-invoicing can result in savings between 1 and 2% of total turnover' | Page 5: 'Even savings of up to 80% in invoicing have been estimated (EEI-3.2, 2007)' | Page 5: 'the saving potential in these processes that can reach even 62% per invoice' | Page 7-8: 'Tieto has established a network of over 200,000 active trading partners... Its global personnel count is around 13,000' | Page 6: 'this has been estimated to save 12 million trees yearly from getting cut down (DB Research, 2010)' | Page 5: 'Slightly over half of banks favor four-corner model over the three-corner model in both B2B and B2C areas (SWIFT, 2008)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Growing maturity - EDI-based e-invoicing emerged in 1970s-1980s, XML-based platforms are recent developments (contemporary to article), market is rapidly expanding globally but large part still untapped",
+			"synonyms_found": [
+				"rapidly gaining ground",
+				"spreading rapidly globally",
+				"growing trend"
+			],
+			"source_citation": "Page 3-4: 'Structured e-invoicing was already implemented in the 1970s when the development of EDI standard and EDIFACT (EDI for administration) enabled the transfer of structured data in electronic format between business partners... Recently, new XML-based standards have enabled a shift from point-to-point data exchange to development of network-based many-to-many platforms' | Page 1: 'e-invoicing is rapidly gaining ground in all industries and all geographical areas, but still a very large part of the global market is there for taking' | Page 5: 'Such interoperability agreements are a growing trend in the e-invoicing market'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Single case study",
+			"synonyms_found": ["teaching case", "case study"],
+			"source_citation": "Page 1: 'This teaching case deals with onboarding and partnering issues of electronic invoicing service providers' | Page 1: 'The student (or student case group) is given one out of three profiles of e-invoicing service providers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Tieto → Main case company, large international e-invoicing service provider with 200,000 active trading partners operating for two decades",
+				"Nokia → Historical reference for competitive environment lessons (former occupant of Tieto's building, example of rise and fall)",
+				"Billentis → Switzerland-based e-invoicing consultancy company providing market reports and expertise",
+				"EESPA (European E-Invoicing Service Providers Association) → Trade association where Tieto is actively involved",
+				"SPIOS A → Fictional small regional service provider profile with 120 clients, entered market in 1999",
+				"SPIOS B → Fictional small start-up e-invoicing platform, founded at start of year with 5 employees"
+			],
+			"synonyms_found": [
+				"Tieto",
+				"Nokia",
+				"Billentis",
+				"EESPA",
+				"SPIOS A",
+				"SPIOS B"
+			],
+			"source_citation": "Page 1-2: 'Tieto (www.tieto.com)... The company has only recently moved to this location and is now operating in the very same facilities that used to be occupied by the former Finnish mobile phone giant, Nokia' | Page 1: 'Having had numerous encounters and discussions with the e-invoicing consultant Bruno Koch from the Switzerland-based consultancy company Billentis' | Page 5: 'Tieto is actively involved in EESPA, and Mr. Poteri's colleague, Mr. Tapani Turunen represents Tieto on the executive committee of the association' | Page 7: 'three profiles to choose from: (1) Tieto – a large international service provider, (2) SPIOS A – a small regional service provider, and (3) SPIOS B – a small start-up service provider'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Supplier Direct Model → One-to-many relationship where supplier distributes e-invoices to multiple buyers using different channels (EDI, PDF, XML via email/web portal), commonly applied by high-volume senders and small/micro companies",
+				"Buyer Direct Model → Many-to-one relationship where buyer provides invoicing interface for many suppliers, mostly implemented by large organizations with competing suppliers",
+				"Service Provider Model (Three-corner) → Service provider enrolls all trading partners to single platform with separate contractual relationships, businesses can only reach partners contracted with same platform",
+				"Service Provider Model (Four-corner) → Service providers make interoperability agreements enabling interchange between platforms, allowing supplier to choose any platform with interchange agreement to buyer's platform"
+			],
+			"synonyms_found": [
+				"supplier direct model",
+				"buyer direct model",
+				"three-corner model",
+				"four-corner model",
+				"service provider model"
+			],
+			"source_citation": "Page 3-4: 'several models of e-invoicing can be distinguished based on the manner in which e-invoices are transferred between organizations... Depending on the size of the organization and the nature of the partnerships, an organization can manage the invoicing in-house (supplier/buyer direct model) or to use a professional third party service (service provider model)' | Page 3: 'In supplier direct model, a supplier embraces an e-invoicing solution using different channels... This model fathoms a one-to-many relationship' | Page 3: 'Buyer direct model works in a similar way but from the buyer perspective... The model comprises a many-to-one relationship' | Page 5: 'the two different types of configurations that exist for these third party-operated many-to-many models: the three-corner model and the four-corner model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Growing trend toward interoperability agreements between service providers (four-corner model adoption)",
+				"Rapid global expansion of e-invoicing across all industries and geographical areas",
+				"Government and EU promotion of e-invoicing implementation as competitiveness driver",
+				"Shift from point-to-point EDI connections to network-based many-to-many XML platforms",
+				"Industry push toward fully structured e-invoicing by large invoice receivers",
+				"Development of interoperable e-invoicing ecosystem promoted by EESPA and governments"
+			],
+			"synonyms_found": [
+				"growing trend",
+				"rapidly gaining ground",
+				"spreading rapidly globally",
+				"actively promoting"
+			],
+			"source_citation": "Page 5: 'Such interoperability agreements are a growing trend in the e-invoicing market, and both businesses and governments strive to further this development' | Page 1: 'e-invoicing is rapidly gaining ground in all industries and all geographical areas' | Page 3: 'migrating from traditional paper-based invoicing to e-invoicing has become an important potential driver of competitiveness improvements in the European Union... Thus, the European Commission and the member countries' governments are actively promoting its implementation' | Page 3-4: 'Recently, new XML-based standards have enabled a shift from point-to-point data exchange to development of network-based many-to-many platforms' | Page 3: 'many large invoice receivers are actively pushing through the implementation of fully structured e-invoicing' | Page 5: 'the European E-Invoicing Service Providers Association (EESPA)... strives to further promote the adoption of an interoperable e-invoicing eco-system'",
+			"confidence_level": "high"
+		}
+	]
+}

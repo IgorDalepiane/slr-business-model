@@ -1,0 +1,771 @@
+{
+	"extraction_metadata": {
+		"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+		"extraction_date": "2025-10-07",
+		"note": "This article presents TWO business models: License-based and Freemium. Extraction focuses on both models as presented."
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two business models are presented: (1) License-based Business Model: A model where Asset Manufacturers pay yearly license fees to access and integrate predictive application management services into their ecosystems. (2) Freemium Business Model: A model that directly targets Application Operators with free and paid tiers, where free customers have limitations (bounded monthly predictions, lower quality results, no support) and paying customers access complete services with premium support.",
+			"synonyms_found": [
+				"license-based",
+				"freemium models",
+				"prototype business models",
+				"business model canvases"
+			],
+			"source_citation": "Page 6, Section III-A: 'Asset Manufacturers should pay yearly license fees (Revenue Streams) to access the predictive application management service and to include it in their ecosystems (Value Proposition)' | Page 6, Section III-B: 'freemium models require the costs of non-paying customers to be covered by another part of the business model or by another Customer Segment. We, therefore, split Application Operators into two segments, i.e. free and subscribing customers. Paying customers will have access to the complete version of the considered predictive application management service and to premium customer support. On the contrary, free customers will have limitations to their accounts, e.g. bounded number of monthly predictions, lower quality results, no access to the support service.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": "License-based Business Model is also referred to as 'license-based BMC'. Freemium Business Model is also referred to as 'Freemium BMC'. Both are collectively called 'prototype business models' and 'Business Model Canvases'.",
+			"synonyms_found": [
+				"license-based BMC",
+				"Freemium BMC",
+				"prototype business models",
+				"Business Model Canvases",
+				"business models"
+			],
+			"source_citation": "Page 1: 'it discusses two prototype business models for such company' | Page 6: 'The business model canvas of Figure 1 foresees...' (License-based BMC) | Page 6: 'The business model canvas of Figure 2 instead foresees...' (Freemium BMC)",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Fog computing and IoT application management",
+			"synonyms_found": [
+				"Fog computing",
+				"IoT",
+				"Internet of Things",
+				"Fog application management",
+				"predictive Fog application management",
+				"Cloud-Edge continuum"
+			],
+			"source_citation": "Page 1, Abstract: 'Managing large, highly distributed IoT applications over heterogeneous Fog infrastructures' | Page 1: 'we describe the current business model environment and discuss two possible business models for creating value from a company provisioning predictive Fog application management services' | Page 1: 'Index Terms—predictive application management, business model environment, business models, Fog computing, IoT'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B (both Enterprise and SMB). The License-based model targets Asset Manufacturers (Enterprise), while the Freemium model targets Application Operators (mixed sizes).",
+			"synonyms_found": [
+				"Asset Manufacturers",
+				"Infrastructure Providers",
+				"Application Operators",
+				"AMs",
+				"IPs",
+				"AOs"
+			],
+			"source_citation": "Page 2: 'we will always refer to three main actors which characterise the BME for predictive Fog application management. Namely: -Asset Manufacturers (AMs) which are producing hardware components and systems...and often take care of deploying and managing their equipment for other service providers (e.g., Telco operators), -Infrastructure Providers (IPs)...are planning to invest in building a new one (e.g., new Fog providers), -Application Operators (AOs) that deploy their application services to Cloud and Fog nodes, e.g., private users, business employees' | Page 6: 'Asset Manufacturers represent the main Customer Segment of this scenario' | Page 6: 'directly targeting Application Operators as Customer Segment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Mixed sizes: established large corporations (e.g., CISCO, Dell, Amazon, Google) and smaller start-up companies (e.g., Nebbiolo Technologies) pioneering Fog-tailored hardware and platforms",
+			"synonyms_found": [
+				"established Asset Manufacturers",
+				"smaller start-up companies",
+				"established companies",
+				"large Infrastructure Providers",
+				"new entrants"
+			],
+			"source_citation": "Page 3: 'besides established Asset Manufacturers (e.g., CISCO [15], Dell [16]), smaller start-up companies (e.g., Nebbiolo Technologies [32]) are pioneering the manufacturing market to produce their Fog-tailored hardware and platforms' | Page 3: 'traditional Cloud Infrastructure Providers (e.g., Amazon, Google) will be joined by new Fog computing entrants'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Global analysis with specific mentions of Europe, United States, Italy, Germany, United Kingdom, and France",
+			"synonyms_found": [
+				"Europe",
+				"European Union",
+				"United States",
+				"Italy",
+				"Germany",
+				"United Kingdom",
+				"France",
+				"European market"
+			],
+			"source_citation": "Page 5: 'Of some interest for the European market, can be the recent EU-GDPR' | Page 5: 'the Internet connection speed in the United States, on average, raised from 3.65 to 18.75 Mbps in the years 2007–2017' | Page 6: 'Current unemployment rates go from the 4% in the United States up to the 6:8% in the European Union' | Page 6: 'In Europe, many incentives exist for people starting new businesses. For instance, Italian governments are pushing towards founding new businesses' | Page 6: 'In Germany and in the United Kingdom, a developer salary amounts to $60k per year while in other countries such as France and Italy is relatively lower ($40k per year)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Asset Manufacturers are the most detailed segment for the License-based model, specifically those producing hardware components and systems to build Fog infrastructures (e.g., CISCO, Dell) and smaller start-ups like Nebbiolo Technologies. For the Freemium model, Application Operators are most detailed, particularly those producing customized hardware (e.g., Philips Hue, Ikea Tradfri).",
+			"synonyms_found": [
+				"Asset Manufacturers",
+				"AMs",
+				"Application Operators",
+				"AOs",
+				"hardware producers"
+			],
+			"source_citation": "Page 2: 'Asset Manufacturers (AMs) which are producing hardware components and systems (e.g., access points, routers, switches) to build Fog infrastructures (e.g., CISCO [15] and Dell [16]), and often take care of deploying and managing their equipment for other service providers (e.g., Telco operators)' | Page 3: 'smaller start-up companies (e.g., Nebbiolo Technologies [32]) are pioneering the manufacturing market to produce their Fog-tailored hardware and platforms' | Page 3: 'Among them, those which are also producing customised hardware to run part of their application (e.g., Philips Hue, Ikea Tradfri), represent a particularly interesting segment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Managed Service", "Platform", "API"],
+			"synonyms_found": [
+				"predictive application management services",
+				"predictive management service",
+				"SaaS service",
+				"ecosystem of services",
+				"Management-as-a-Service",
+				"MaaS"
+			],
+			"source_citation": "Page 1: 'we will focus on a potential new business that provides an ecosystem of services to perform predictive application deployment and management and offers a tool capable of monitoring both current and historical infrastructure conditions' | Page 6: 'we describe two prototype business models derived from the Business Model Environment described in the previous section. They both aim at creating value from a SaaS service that provides automated predictive management of Fog applications' | Page 5: 'we foresee the possibility for new, highly specialised companies to provide Management-as-a-Service (MaaS) to Asset Manufacturers, Infrastructure Providers and Application Operators in Fog scenarios' | Page 6: 'along with a usable API to access the service autonomously after paying license fees'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS"],
+			"synonyms_found": ["SaaS service", "SaaS", "Software-as-a-Service"],
+			"source_citation": "Page 6, Section III: 'They both aim at creating value from a SaaS service that provides automated predictive management of Fog applications'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Subscription (yearly license fees for License-based model)",
+				"Subscription (for Freemium paying customers)",
+				"Advertising (customised advertisements from Infrastructure Providers in Freemium model)"
+			],
+			"synonyms_found": [
+				"yearly license fees",
+				"license fees",
+				"subscription",
+				"pay",
+				"customised advertisements"
+			],
+			"source_citation": "Page 6, Section III-A: 'Asset Manufacturers should pay yearly license fees (Revenue Streams) to access the predictive application management service and to include it in their ecosystems' | Page 6, Section III-B: 'We, therefore, split Application Operators into two segments, i.e. free and subscribing customers. Paying customers will have access to the complete version' | Page 6, Section III-B: 'From Infrastructure Providers being key partners, it is possible to envision that they will be willing to pay and exploit the predictive management services portal, to also get customised advertisements. This further increases the Revenue Streams'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "For License-based model: per company/organizational license. For Freemium model: bounded number of monthly predictions for free tier, unlimited for paid tier",
+			"synonyms_found": [
+				"yearly license",
+				"monthly predictions",
+				"account limitations"
+			],
+			"source_citation": "Page 6: 'Asset Manufacturers should pay yearly license fees (Revenue Streams) to access the predictive application management service' | Page 6: 'free customers will have limitations to their accounts, e.g. bounded number of monthly predictions, lower quality results, no access to the support service'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Annual contract (for License-based model)",
+				"Freemium (for Freemium model with free and paid tiers)"
+			],
+			"synonyms_found": [
+				"yearly license fees",
+				"freemium",
+				"free and subscribing customers",
+				"two segments"
+			],
+			"source_citation": "Page 6: 'Asset Manufacturers should pay yearly license fees (Revenue Streams)' | Page 6, Section III-B: 'freemium models require the costs of non-paying customers to be covered by another part of the business model or by another Customer Segment. We, therefore, split Application Operators into two segments, i.e. free and subscribing customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "USD for License-based model with yearly billing; monthly for Freemium model free tier limits",
+			"synonyms_found": ["yearly", "monthly", "dollar", "$"],
+			"source_citation": "Page 6: 'Asset Manufacturers should pay yearly license fees' | Page 6: 'free customers will have limitations to their accounts, e.g. bounded number of monthly predictions' | Page 5: 'Fog computing...is expected to potentially reach a market of more than $18 billion dollars worldwide by 2022'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Standalone product (specialized service provider offering predictive management as a service to multiple customer segments)",
+			"synonyms_found": [
+				"third-party provider",
+				"independent provider",
+				"external solution",
+				"outsourcing"
+			],
+			"source_citation": "Page 4: 'a third-party provider for predictive application management can base its analyses on data collected from different hardware or infrastructures and produce more accurate (and satisfying) results. Large established companies might trust more such new provider as an intermediary' | Page 4: 'they could also see outsourcing the predictive services as a source of time and money savings, actually easing federation with other providers that rely on the same external solution'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Data (more data from infrastructure monitoring = better predictive quality)",
+			"synonyms_found": [
+				"data collected",
+				"quality of their results",
+				"high-quality predictions",
+				"feed data"
+			],
+			"source_citation": "Page 4: 'Differently from Application Operators, they can pay for the service they use also in terms of data collected during actual application management in order for the company selling predictive solutions to increase the quality of their results' | Page 6: 'their partnership represents a fundamental strategic alliance with non-competitors as they have to run a monitoring service on top of their infrastructures to feed data to the prediction engine of the predictive management service'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Direct sales (B2B sales division)",
+				"Digital marketing (Web site and targeted marketing campaigns)"
+			],
+			"synonyms_found": [
+				"B2B sales division",
+				"Web site",
+				"marketing campaigns",
+				"targeted marketing"
+			],
+			"source_citation": "Page 6: 'The predictive management service provider should then contact them through a B2B sales division and through an appealing Web site and targeted marketing campaigns (Channels). Marketing is crucial to establish and maintain the relationship with the Asset Manufacturers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition (License-based): extending management platforms with predictive, QoS-aware management capabilities to bring new customers and additional profits",
+				"Value Proposition (Freemium): facilitating QoS-aware management of Fog applications for Application Operators",
+				"Customer Segment (License-based): Asset Manufacturers",
+				"Customer Segment (Freemium): Application Operators split into free and subscribing customers, plus Infrastructure Providers",
+				"Channels (both models): B2B sales division, Web site, targeted marketing campaigns",
+				"Customer Relationships (both models): Marketing for establishment/maintenance, usable API for autonomous access, on-demand support service (premium for Freemium paying customers only)",
+				"Revenue Streams (License-based): yearly license fees",
+				"Revenue Streams (Freemium): subscription from paying customers, customised advertisements from Infrastructure Providers",
+				"Key Resources (both models): reliable state-of-art predictive methodologies continuously improved and extended",
+				"Key Activities (both models): research and development of new prototype and production functionalities, marketing and sales, customer support service",
+				"Key Partnerships (Freemium): Infrastructure Providers as fundamental strategic alliance to run monitoring service and feed data to prediction engine",
+				"Cost Structure (both models): personnel costs, Web marketing costs, utility computing resources to run service and obtain predictions"
+			],
+			"synonyms_found": [
+				"Value Proposition",
+				"Customer Segment",
+				"Channels",
+				"Customer Relationships",
+				"Revenue Streams",
+				"Key resources",
+				"Key activities",
+				"Key Partners",
+				"Cost Structure"
+			],
+			"source_citation": "Page 6, Section III-A: 'They are expected to consider extending their management platforms with predictive, QoS-aware management capabilities, and they might consider it beneficial to save the effort and the costs involved in designing and implementing those new features' (Value Proposition) | 'Asset Manufacturers should pay yearly license fees (Revenue Streams) to access the predictive application management service and to include it in their ecosystems (Value Proposition)' | 'Asset Manufacturers represent the main Customer Segment of this scenario' | 'The predictive management service provider should then contact them through a B2B sales division and through an appealing Web site and targeted marketing campaigns (Channels)' | 'Marketing is crucial to establish and maintain the relationship with the Asset Manufacturers, along with a usable API to access the service autonomously after paying license fees, and the possibility to get on-demand support in case of problems with the running service (Customer Relationships)' | 'A set of reliable state-of-art predictive methodologies, continuously improved and extended, is key to successfully offer and deliver a competitive service (Key resources)' | 'The business we foresee should rely on skilled and expert personnel taking care of research and development of new prototype and production functionalities, marketing and sales, and customer support service (Key activities)' | 'the license fee should be carefully designed so to cover personnel and Web marketing costs, along with the utility computing resources to be purchased to actually run the service and obtain output predictions (Cost Structure)' | Page 6, Section III-B: 'directly targeting Application Operators as Customer Segment, aiming at facilitating their QoS-aware management of Fog applications' | 'We, therefore, split Application Operators into two segments, i.e. free and subscribing customers' | 'Infrastructure Providers are listed among the Key Partners. Obviously, their partnership represents a fundamental strategic alliance with non-competitors as they have to run a monitoring service on top of their infrastructures to feed data to the prediction engine' | 'they will be willing to pay and exploit the predictive management services portal, to also get customised advertisements. This further increases the Revenue Streams'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"Actor": "Asset Manufacturers (AMs)",
+					"Role": "Produce hardware components and systems for Fog infrastructures; deploy and manage equipment for service providers",
+					"Interaction_with_offering_company": "Pay yearly license fees to access and integrate predictive management service into their ecosystems; potential acquirers of the business",
+					"Interaction_with_other_actors": "Sell and maintain infrastructure equipment for Infrastructure Providers; provide platforms to Application Operators"
+				},
+				{
+					"Actor": "Infrastructure Providers (IPs)",
+					"Role": "Own and manage Fog/Cloud infrastructure or plan to build new ones",
+					"Interaction_with_offering_company": "In License-based: potential users. In Freemium: Key Partners providing monitoring data and paying for customised advertisements",
+					"Interaction_with_other_actors": "Host applications from Application Operators; use equipment from Asset Manufacturers; federate with other Infrastructure Providers"
+				},
+				{
+					"Actor": "Application Operators (AOs)",
+					"Role": "Deploy application services to Cloud and Fog nodes; manage application lifecycle",
+					"Interaction_with_offering_company": "Primary customers in Freemium model (free or paying subscribers); provide use cases",
+					"Interaction_with_other_actors": "Deploy applications on Infrastructure Providers' platforms; may use Asset Manufacturers' platforms"
+				},
+				{
+					"Actor": "Technology Influencers (e.g., OpenFog Consortium)",
+					"Role": "Accelerate adoption of Fog computing",
+					"Interaction_with_offering_company": "External stakeholders influencing market adoption",
+					"Interaction_with_other_actors": "Influence all three main actors through standards and advocacy"
+				},
+				{
+					"Actor": "National/local governments",
+					"Role": "Regulate Fog computing; create infrastructures and incentives",
+					"Interaction_with_offering_company": "External stakeholders providing regulatory environment and incentives",
+					"Interaction_with_other_actors": "Create incentives for citizens and businesses to develop IoT services"
+				},
+				{
+					"Actor": "Academic and industrial researchers",
+					"Role": "Contribute to growth of IoT, Fog computing, and predictive methodologies",
+					"Interaction_with_offering_company": "External stakeholders; potential R&D human resources",
+					"Interaction_with_other_actors": "Develop technologies and methodologies used by all actors"
+				}
+			],
+			"synonyms_found": [
+				"AMs",
+				"IPs",
+				"AOs",
+				"Asset Manufacturers",
+				"Infrastructure Providers",
+				"Application Operators",
+				"stakeholders",
+				"actors"
+			],
+			"source_citation": "Page 2: 'we will always refer to three main actors which characterise the BME for predictive Fog application management. Namely: -Asset Manufacturers (AMs) which are producing hardware components and systems (e.g., access points, routers, switches) to build Fog infrastructures (e.g., CISCO [15] and Dell [16]), and often take care of deploying and managing their equipment for other service providers (e.g., Telco operators), -Infrastructure Providers (IPs) that (i) already own and manage part of a potential Fog infrastructure (e.g., Telco or Cloud providers), (ii) are planning to invest in building a new one (e.g., new Fog providers [17]), or (iii) are willing to voluntarily share their computing capabilities in opportunistic or crowd-based Fog networks (e.g., private users/businesses [18]), -Application Operators (AOs) that deploy their application services to Cloud and Fog nodes, e.g., private users, business employees or whoever manages the life cycle of one or more applications, being responsible for guaranteeing the QoS effectiveness of the application management' | Page 4-5: 'Among the external stakeholders, besides Asset Manufacturers and Infrastructure Providers, we identified: Technology Influencers, such as the OpenFog Consortium [20], that might accelerate the adoption of Fog computing, National or local governments that could be interested in regulating Fog computing landscapes as well as in creating new infrastructures and incentives for citizens and businesses to use or develop new IoT services (e.g., smart-cities, Industry 4.0), Academic and industrial researchers that contribute to the growth of IoT, Fog computing, and naturally, predictive application management methodologies and prototypes' | Page 6: 'Infrastructure Providers are listed among the Key Partners. Obviously, their partnership represents a fundamental strategic alliance with non-competitors as they have to run a monitoring service on top of their infrastructures to feed data to the prediction engine'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Save effort and costs involved in designing and implementing predictive features (Asset Manufacturers)",
+				"Bring new customers attracted by guarantees from predictive management (Asset Manufacturers)",
+				"Generate additional profits by selling predictive functionalities as add-on service (Asset Manufacturers)",
+				"Improve QoS (uptime, availability) of application management (Infrastructure Providers)",
+				"Achieve savings in operational costs and power consumption (Infrastructure Providers)",
+				"Define new suitable Service Level Objectives for SLAs in Fog landscapes (Infrastructure Providers)",
+				"Ease federation with other providers using same external solution (Infrastructure Providers)",
+				"Improve deployment QoS at reduced costs (Application Operators)",
+				"Achieve automated management of applications (Application Operators)",
+				"Obtain larger amount of predictable performance indicators (Application Operators)",
+				"Assess beforehand management choices and determine trade-offs among metrics (Application Operators)"
+			],
+			"synonyms_found": [
+				"save effort",
+				"save costs",
+				"new customers",
+				"additional profits",
+				"improve QoS",
+				"savings",
+				"automated management"
+			],
+			"source_citation": "Page 6: 'They are expected to consider extending their management platforms with predictive, QoS-aware management capabilities, and they might consider it beneficial to save the effort and the costs involved in designing and implementing those new features' | 'Indeed, this can bring new customers (attracted by the guarantees derived from predictive management) to them and additional profits (if they decide to sell predictive functionalities as an add-on service to their customers)' | Page 3: 'Not only the adoption of predictive models that enable assessing their internal application management would lead to improved QoS (e.g., uptime, availability) but also to savings in terms of operational costs (e.g., power consumption). Last, but not least, the adoption of such techniques would lead to the definition of new and suitable Service Level Objectives (SLOs) for their Service Level Agreements (SLAs) in Fog landscapes' | Page 4: 'they could also see outsourcing the predictive services as a source of time and money savings, actually easing federation with other providers that rely on the same external solution' | Page 4: 'Finally, Application Operators will be attracted by the possibility of improving deployment QoS at reduced costs. They will be likely to pay for achieving automated management of their applications and a larger amount of predictable performance indicators' | Page 3: 'in addition to the possibility of assessing beforehand their management choices and improving them by a priori determining trade-offs among inversely correlated metrics (e.g., cost vs. QoS-assurance, security vs. response time)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Being first to market → establish strong brand recognition and customer loyalty before competitors enter",
+				"Being first to market → improve service and set market price before others do",
+				"Strong branding process → create switching costs for customers evaluating competitors",
+				"Top of the range quality services → create switching costs along with lock-in strategies",
+				"Reliable state-of-art predictive methodologies continuously improved → successfully offer competitive service",
+				"Skilled and expert R&D personnel → develop new prototype and production functionalities",
+				"Third-party independence → produce more accurate results from different hardware/infrastructures data",
+				"Third-party trusted intermediary position → large companies trust more than disclosing data to direct competitors",
+				"Data collection from Infrastructure Providers → increase quality of predictive results",
+				"Strategic partnerships with Infrastructure Providers → fundamental for monitoring and data feeding"
+			],
+			"synonyms_found": [
+				"first to market",
+				"brand recognition",
+				"customer loyalty",
+				"quality",
+				"competitive service",
+				"skilled personnel",
+				"third-party provider",
+				"intermediary"
+			],
+			"source_citation": "Page 3: 'It is therefore important for a company which aims at selling predictive Fog application management to start a consistent branding process as soon as possible, whilst providing top of the range quality for their services. This, along with suitable lock-in strategies, would create costs for customers evaluating a switch to a competitor. Usually, being among the firsts on the market enables a company to establish strong brand recognition and customer loyalty before other competitors enter the arena [35]. It also permits to improve the service and to set the market price for the new offer before others do' | Page 6: 'A set of reliable state-of-art predictive methodologies, continuously improved and extended, is key to successfully offer and deliver a competitive service (Key resources). The business we foresee should rely on skilled and expert personnel taking care of research and development of new prototype and production functionalities' | Page 4: 'a third-party provider for predictive application management can base its analyses on data collected from different hardware or infrastructures and produce more accurate (and satisfying) results. Large established companies might trust more such new provider as an intermediary, with respect to disclosing data to their direct competitors' | Page 4: 'Differently from Application Operators, they can pay for the service they use also in terms of data collected during actual application management in order for the company selling predictive solutions to increase the quality of their results' | Page 6: 'their partnership represents a fundamental strategic alliance with non-competitors as they have to run a monitoring service on top of their infrastructures to feed data to the prediction engine'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Monitoring infrastructure conditions (current and historical) → feed data to predictive engines",
+				"Infrastructure Providers partnership → enable data collection for predictions (Freemium model)",
+				"Access to end-to-end links QoS data → collect input for predictive engines",
+				"Access to available nodes and hardware resources data → collect input for predictive engines",
+				"Access to available IoT devices data → collect input for predictive engines",
+				"Skilled and expert R&D personnel → develop and maintain predictive methodologies",
+				"Utility computing resources → run the service and obtain output predictions",
+				"Heterogeneous and pervasive Fog infrastructure → provide deployment substrate for applications"
+			],
+			"synonyms_found": [
+				"monitoring",
+				"data collection",
+				"infrastructure conditions",
+				"partnership",
+				"personnel",
+				"computing resources"
+			],
+			"source_citation": "Page 1: 'we will focus on a potential new business that provides an ecosystem of services to perform predictive application deployment and management and offers a tool capable of monitoring both current and historical infrastructure conditions (i.e., end-to-end links QoS, available nodes and hardware resources, available IoT devices) to collect input data for its predictive engines' | Page 6: 'Infrastructure Providers are listed among the Key Partners. Obviously, their partnership represents a fundamental strategic alliance with non-competitors as they have to run a monitoring service on top of their infrastructures to feed data to the prediction engine of the predictive management service' | Page 6: 'Since the predictive methodologies are still in their infancy, we foresee the crucial need for the business to rely on strong R&D human resources' | Page 6: 'along with the utility computing resources to be purchased to actually run the service and obtain output predictions (Cost Structure)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Large established Infrastructure Providers could copy and overwhelm new entrants → threatens independent business viability",
+				"Established companies may only manage within their own infrastructure borders → limits QoS optimization across third-party assets",
+				"Presence of big players' devices in homes/cars (Google Home, Amazon Dot, Android Car) → competitive advantage for incumbents but limited to own infrastructure",
+				"Free customers costs must be covered by paying customers or other revenue streams → constrains freemium model financial sustainability",
+				"Account limitations for free tier (bounded predictions, lower quality, no support) → affects service accessibility"
+			],
+			"synonyms_found": [
+				"copied",
+				"overwhelmed",
+				"competitive advantage",
+				"limitations",
+				"restrictions",
+				"borders"
+			],
+			"source_citation": "Page 3: 'However, being the current Cloud scenarios dominated by large Infrastructure Providers, new entrants in the market should identify possible solutions to avoid being copied and overwhelmed by bigger players' | Page 4: 'However, they could mainly apply such advantage within the borders of their product lines or infrastructures, respectively' | Page 5: 'threats to predictive management can be mainly identified in the presence of devices produced or managed by Asset Manufacturers and Infrastructure Providers in our homes (e.g., Google Home, Amazon Dot) and cars (e.g., Android Car). They can actually translate into a consistent competitive advantage for big players that, however, are expected to be able to perform application management only on their own infrastructure (i.e., without considering third-party assets to better guarantee QoS requirements)' | Page 6: 'freemium models require the costs of non-paying customers to be covered by another part of the business model or by another Customer Segment' | Page 6: 'free customers will have limitations to their accounts, e.g. bounded number of monthly predictions, lower quality results, no access to the support service'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Taming the scale and complexity of Fog architectures and modern distributed software systems whilst guaranteeing QoS requirements",
+				"Simultaneously and optimally managing a complex system (application) on top of another complex system (infrastructure)",
+				"Bad management choices leading to unsatisfactory service QoS, waste of electrical power or money, or life losses",
+				"Avoiding being copied and overwhelmed by bigger players (large Infrastructure Providers)",
+				"Predictive methodologies still in their infancy requiring strong R&D resources",
+				"Need to collect high-quality data from Infrastructure Providers to execute predictive experiments",
+				"Covering costs of non-paying customers in freemium model"
+			],
+			"synonyms_found": [
+				"complexity",
+				"scale",
+				"challenges",
+				"issues",
+				"difficulties",
+				"intrinsically challenging"
+			],
+			"source_citation": "Page 2: 'Considering as potential customers for predictive application management the actors we introduced at the beginning of this section, the key issues they are facing relate to taming the scale and complexity of Fog architectures and of modern distributed software systems, whilst guaranteeing all of their QoS requirements' | Page 2-3: 'Overall, simultaneously and optimally managing a complex system (the application) on top of another (the infrastructure) is intrinsically challenging and requires suitable tooling [4]. Furthermore, bad or poor management choices can lead to unsatisfactory service QoS, waste of electrical power or money, and – worst of all – life losses due to bad service placement, unbalanced loading of Fog devices and service downtime, respectively' | Page 3: 'However, being the current Cloud scenarios dominated by large Infrastructure Providers, new entrants in the market should identify possible solutions to avoid being copied and overwhelmed by bigger players' | Page 5: 'Since the predictive methodologies are still in their infancy, we foresee the crucial need for the business to rely on strong R&D human resources' | Page 4: 'As it is crucial to obtain such data, we foresee the possibility of inaugurating partnerships' | Page 6: 'freemium models require the costs of non-paying customers to be covered by another part of the business model or by another Customer Segment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Forming partnerships with existing Infrastructure Providers → avoid being copied/overwhelmed → tailored solutions sold independently or through IP platforms",
+				"Selling to highest bidder after strong branding and product tuning → avoid being copied/overwhelmed → business exit strategy",
+				"Relying on strong R&D human resources → address infancy of predictive methodologies → develop competitive methodologies",
+				"Inaugurating partnerships with Infrastructure Providers for data collection → obtain crucial data → execute high-quality predictive experiments",
+				"Considering acquisition of predictive management company → Asset Manufacturers/IPs obtain know-how → integrate capabilities",
+				"Splitting Application Operators into free and subscribing customers → cover costs of non-paying customers → sustainable freemium model",
+				"Infrastructure Providers pay for customised advertisements → increase revenue streams → further sustainability",
+				"Acting as third-party intermediary → gain trust of large companies → avoid data disclosure concerns between competitors"
+			],
+			"synonyms_found": [
+				"partnerships",
+				"branding",
+				"R&D",
+				"acquisition",
+				"split customers",
+				"intermediary"
+			],
+			"source_citation": "Page 3: 'We currently envision two main possibilities: (i) forming partnerships with existing Infrastructure Providers and taking care of tailoring the predictive methodologies to their needs, whilst selling them either independently or through the Infrastructure Provider platforms, or (ii) selling the predictive solutions to the highest bidder, after completing a strong branding process and product tuning' | Page 5: 'Since the predictive methodologies are still in their infancy, we foresee the crucial need for the business to rely on strong R&D human resources' | Page 4: 'As it is crucial to obtain such data, we foresee the possibility of inaugurating partnerships or, as for Asset Manufacturers, of considering to acquire the know-how of the provider of the predictive application management service' | Page 6: 'We, therefore, split Application Operators into two segments, i.e. free and subscribing customers. Paying customers will have access to the complete version of the considered predictive application management service and to premium customer support' | Page 6: 'From Infrastructure Providers being key partners, it is possible to envision that they will be willing to pay and exploit the predictive management services portal, to also get customised advertisements. This further increases the Revenue Streams, thus making the business model more sustainable in the long run' | Page 4: 'a third-party provider for predictive application management can base its analyses on data collected from different hardware or infrastructures and produce more accurate (and satisfying) results. Large established companies might trust more such new provider as an intermediary, with respect to disclosing data to their direct competitors'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"Metric": "Fog services compound annual growth rate",
+					"Value": "119",
+					"Unit": "%",
+					"Period": "2018-2022",
+					"Method": "Market forecast",
+					"Source": "[13]"
+				},
+				{
+					"Metric": "Fog services market share increase",
+					"Value": "15.7 to 20.4",
+					"Unit": "%",
+					"Period": "2018-2022",
+					"Method": "Market forecast",
+					"Source": "[13]"
+				},
+				{
+					"Metric": "Fog computing market size",
+					"Value": ">18",
+					"Unit": "billion dollars",
+					"Period": "by 2022",
+					"Method": "Market forecast",
+					"Source": "[13]"
+				},
+				{
+					"Metric": "Global market growth outlook",
+					"Value": "2.9",
+					"Unit": "%",
+					"Period": "2019",
+					"Method": "Market analysis",
+					"Source": "J.P. Morgan [55]"
+				},
+				{
+					"Metric": "Unemployment rate US",
+					"Value": "4",
+					"Unit": "%",
+					"Period": "2019",
+					"Method": "Economic data",
+					"Source": "Article text"
+				},
+				{
+					"Metric": "Unemployment rate EU",
+					"Value": "6.8",
+					"Unit": "%",
+					"Period": "2019",
+					"Method": "Economic data",
+					"Source": "Article text"
+				},
+				{
+					"Metric": "Entry salary top US developers",
+					"Value": "80-140",
+					"Unit": "k USD/year",
+					"Period": "recent years",
+					"Method": "Survey",
+					"Source": "Forbes [60]"
+				},
+				{
+					"Metric": "Entry salary next tier US developers",
+					"Value": "60-80",
+					"Unit": "k USD/year",
+					"Period": "recent years",
+					"Method": "Survey",
+					"Source": "Forbes [60]"
+				},
+				{
+					"Metric": "Developer salary Germany/UK",
+					"Value": "60",
+					"Unit": "k USD/year",
+					"Period": "current",
+					"Method": "Survey",
+					"Source": "Article text"
+				},
+				{
+					"Metric": "Developer salary France/Italy",
+					"Value": "40",
+					"Unit": "k USD/year",
+					"Period": "current",
+					"Method": "Survey",
+					"Source": "Article text"
+				},
+				{
+					"Metric": "Connected devices by 2030",
+					"Value": "500",
+					"Unit": "billion devices",
+					"Period": "by 2030",
+					"Method": "CISCO forecast",
+					"Source": "CISCO [19]"
+				},
+				{
+					"Metric": "Internet users worldwide",
+					"Value": "51",
+					"Unit": "% of population",
+					"Period": "June 2017",
+					"Method": "Statistics",
+					"Source": "Article text"
+				},
+				{
+					"Metric": "Internet connected people",
+					"Value": "3.2",
+					"Unit": "billion people",
+					"Period": "2015",
+					"Method": "ITU estimate",
+					"Source": "ITU [38]"
+				},
+				{
+					"Metric": "US Internet connection speed increase",
+					"Value": "3.65 to 18.75",
+					"Unit": "Mbps",
+					"Period": "2007-2017",
+					"Method": "Statistics",
+					"Source": "[39]"
+				},
+				{
+					"Metric": "Raspberry Pi 2 price",
+					"Value": "40",
+					"Unit": "USD",
+					"Period": "current",
+					"Method": "Market price",
+					"Source": "Article text"
+				},
+				{
+					"Metric": "Containers on Raspberry Pi 2 record",
+					"Value": "2334",
+					"Unit": "containerised web-servers",
+					"Period": "current",
+					"Method": "Docker challenge",
+					"Source": "[42]"
+				}
+			],
+			"synonyms_found": [
+				"growth rate",
+				"market share",
+				"market size",
+				"salary",
+				"devices",
+				"users",
+				"speed",
+				"price"
+			],
+			"source_citation": "Page 1: 'New Fog services are expected to undergo a compound annual growth rate of around 119% in the years 2018–2022 (with a consistent market share increase from 15:7% to 20:4%)[13]' | Page 5: 'Fog computing...is expected to potentially reach a market of more than $18 billion dollars worldwide by 2022 [13]' | Page 6: 'the global market outlook for 2019 is characterised by an overall growth of 2:9%' | Page 6: 'Current unemployment rates go from the 4% in the United States up to the 6:8% in the European Union' | Page 6: 'Forbes reports that in the last ten years there has been a major increase in junior and super-talented developers worldwide [60]. In its survey, Forbes claims that the top students from the top U.S. colleges have seen the highest gains, e.g., entry salaries for the top people go from $80k to $140k in just a few years. Whereas some of the next tier students may have seen their salaries increase from $60-$80k. In Germany and in the United Kingdom, a developer salary amounts to $60k per year while in other countries such as France and Italy is relatively lower ($40k per year)' | Page 2: 'CISCO envisions 500 billion devices to be connected to the Internet by 2030 [19]' | Page 5: 'as of June 2017, 51% of the world's population has Internet access, and in 2015, the International Telecommunication Union estimated about 3.2 billion people can get connected [38]' | Page 5: 'the Internet connection speed in the United States, on average, raised from 3.65 to 18.75 Mbps in the years 2007–2017 [39]' | Page 5: 'Docker [40] has called a challenge to maximise the number of containers that can be deployed to a Raspberry Pi 2 [41] that currently costs about 40$. Currently, the record corresponds to running 2334 containerised web-servers on the same piece of hardware [42]'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2019 (article publication year, with analysis of 2018-2022 market forecasts and historical data from 2007-2017). Maturity status: Emerging (predictive methodologies still in infancy, no market competitors yet, prototype business models presented)",
+			"synonyms_found": [
+				"emerging",
+				"infancy",
+				"new",
+				"prototype",
+				"still",
+				"expected"
+			],
+			"source_citation": "Page 1: '2019 Fourth International Conference on Fog and Mobile Edge Computing (FMEC)' | Page 1: 'New Fog services are expected to undergo a compound annual growth rate of around 119% in the years 2018–2022' | Page 3: 'Despite much research is investigating the field of application management methodologies in Fog scenarios [5], Fog computing overall is still an emerging area and predictive application management seems to have no competitors on the market yet' | Page 5: 'Since the predictive methodologies are still in their infancy, we foresee the crucial need for the business to rely on strong R&D human resources' | Page 1: 'it discusses two prototype business models for such company'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Expert opinion and secondary data analysis (Business Model Canvas methodology applied to analyze market environment and design prototype business models, with extensive literature review and market data)",
+			"synonyms_found": [
+				"Business Model Canvas",
+				"BMC methodology",
+				"analysis",
+				"market data",
+				"literature",
+				"methodology"
+			],
+			"source_citation": "Page 1: 'To perform our analysis, we follow the Business Model Canvas (BMC) methodology by Osterwalder and Pigneur [14], which focuses on an integrated suite of tools that can be used to design new business models as well as to analyse and improve existing ones' | Page 1: 'The original contribution of this paper is two-fold. Firstly, it details the current business model environment in which a predictive Fog application management services company can try to go to market. Secondly, it discusses two prototype business models for such company' | Page 7: 'In this article we have analysed, exploiting the Business Model Canvas methodology of [14], two possible business models for marketing the provisioning of predictive application management services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"CISCO → Asset Manufacturer producing hardware components for Fog infrastructures, providing Fog Director for application management",
+				"Dell → Asset Manufacturer producing hardware components and IaaS solutions",
+				"Amazon → Cloud Infrastructure Provider expected to be joined by Fog computing entrants",
+				"Google → Cloud Infrastructure Provider expected to be joined by Fog computing entrants",
+				"Vodafone → Telecommunication provider owning pervasive Edge infrastructures",
+				"Nebbiolo Technologies → Smaller start-up pioneering Fog-tailored hardware and QoS-aware resource management",
+				"Philips Hue → Application Operator producing customised hardware for their application",
+				"Ikea Tradfri → Application Operator producing customised hardware for their application",
+				"OpenFog Consortium → Technology Influencer accelerating Fog computing adoption",
+				"Google Home → Big player device creating competitive advantage in homes",
+				"Amazon Dot → Big player device creating competitive advantage in homes",
+				"Android Car → Big player platform creating competitive advantage in cars"
+			],
+			"synonyms_found": [
+				"CISCO",
+				"Dell",
+				"Amazon",
+				"Google",
+				"Vodafone",
+				"Nebbiolo",
+				"Philips",
+				"Ikea",
+				"OpenFog"
+			],
+			"source_citation": "Page 2: 'Asset Manufacturers (AMs) which are producing hardware components and systems (e.g., access points, routers, switches) to build Fog infrastructures (e.g., CISCO [15] and Dell [16])' | Page 3: 'CISCO, among others, is already providing some tooling to manage applications over their infrastructures. For instance, CISCO Fog Director [12] enables the programmatic management of large-scale production deployments of Fog applications' | Page 3: 'besides established Asset Manufacturers (e.g., CISCO [15], Dell [16]), smaller start-up companies (e.g., Nebbiolo Technologies [32]) are pioneering the manufacturing market to produce their Fog-tailored hardware and platforms, and to provide QoS-aware resource management in support of real-time IoT applications' | Page 3: 'traditional Cloud Infrastructure Providers (e.g., Amazon, Google) will be joined by new Fog computing entrants as well as by telecommunication providers (e.g., Vodafone) that already own and manage pervasive Edge infrastructures' | Page 3: 'Among them, those which are also producing customised hardware to run part of their application (e.g., Philips Hue, Ikea Tradfri), represent a particularly interesting segment' | Page 4-5: 'Technology Influencers, such as the OpenFog Consortium [20], that might accelerate the adoption of Fog computing' | Page 5: 'threats to predictive management can be mainly identified in the presence of devices produced or managed by Asset Manufacturers and Infrastructure Providers in our homes (e.g., Google Home, Amazon Dot) and cars (e.g., Android Car)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"License-based Business Model → Targets Asset Manufacturers; yearly license fees; integration into AM ecosystems; B2B sales focus",
+				"Freemium Business Model → Targets Application Operators; free and paid tiers; Infrastructure Providers as key partners for data; includes advertising revenue from IPs"
+			],
+			"synonyms_found": [
+				"License-based",
+				"Freemium",
+				"prototype business models",
+				"variations"
+			],
+			"source_citation": "Page 1: 'it discusses two prototype business models for such company' | Page 6, Section III-A: 'The business model canvas of Figure 1 foresees the possibility that Asset Manufacturers outsource the management...Asset Manufacturers represent the main Customer Segment of this scenario. They are expected to consider extending their management platforms with predictive, QoS-aware management capabilities...Asset Manufacturers should pay yearly license fees (Revenue Streams) to access the predictive application management service' | Page 6, Section III-B: 'The business model canvas of Figure 2 instead foresees the possibility of directly targeting Application Operators as Customer Segment, aiming at facilitating their QoS-aware management of Fog applications. Whilst the canvas remains unaltered for what concerns Channels, Customer Relationships, Key Activities, Key Resources and Cost Structure, it substantially changes in all other parts. Indeed, freemium models require the costs of non-paying customers to be covered by another part of the business model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Expected Fog services compound annual growth rate of 119% (2018-2022) with market reaching $18+ billion by 2022 → indicates strong market expansion opportunity",
+				"Predictive management may lead to Asset Manufacturers/Infrastructure Providers acquiring the provider company → potential exit strategy",
+				"Everything-as-a-Service (XaaS) paradigm enables new specialized Management-as-a-Service (MaaS) companies → business model evolution",
+				"New business models will be key to pursue expected Fog computing growth → strategic importance",
+				"Possibility of including end-users as Infrastructure Providers and Application Operators → democratization of Fog ecosystem",
+				"Need for human-centred designs putting users in control loop → user empowerment trend",
+				"Shift from mass production to mass customization affecting IoT applications → personalization trend",
+				"Machines and algorithms performing >50% of job tasks by 2025 creating 133M new jobs → automation opportunity",
+				"License-based model may ultimately lead to selling business to highest bidder → consolidation strategy"
+			],
+			"synonyms_found": [
+				"expected",
+				"foresee",
+				"will be",
+				"trend",
+				"evolution",
+				"future",
+				"by 2022",
+				"by 2025",
+				"by 2030"
+			],
+			"source_citation": "Page 1: 'New Fog services are expected to undergo a compound annual growth rate of around 119% in the years 2018–2022 (with a consistent market share increase from 15:7% to 20:4%)[13]...New business models will be key to pursue this expected growth' | Page 5: 'Fog computing...is expected to potentially reach a market of more than $18 billion dollars worldwide by 2022 [13]' | Page 4: 'Overall, (ii) seems to represent the most lucrative possibility for them' (referring to acquisition) | Page 5: 'in a world where the Everything-as-a-Service (XaaS) paradigm [45] is established, we foresee the possibility for new, highly specialised companies to provide Management-as-a-Service (MaaS) to Asset Manufacturers, Infrastructure Providers and Application Operators in Fog scenarios' | Page 5: 'it could represent an occasion to include end-users in the application management process both as Infrastructure Providers (with their personal devices) and as Application Operators (offering their services to others)' | Page 5: 'This will probably require to realise new human-centred designs for computer systems so to put users in the control loop [51]' | Page 5: 'In the last decades, we are moving from the mass production era to the mass customisation era [49]. New IoT applications constitute a clear example of this phenomenon' | Page 5-6: 'The World Economic Forum [52]...reports that by 2025 more than half of all current job tasks will be performed by machines...could create 133 million new job opportunities in place of 75 million that will disappear before 2022 [53]' | Page 7: 'the license-based business model targeting Asset Manufacturers (discussed in Sect. III-A) may ultimately lead to considering the option of selling the business to the highest bidder within the Customer Segment'",
+			"confidence_level": "high"
+		}
+	]
+}

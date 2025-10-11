@@ -1,0 +1,519 @@
+{
+	"extraction_metadata": {
+		"article_title": "Open source ERP business model framework",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Free/Open Source ERP (FOS-ERP). Definition: ERP systems that utilize free distribution system for their source code, relying on various business models for corporate success, where vendors distribute the software freely (or at low cost) but generate revenue through services such as implementation, support, maintenance, training, and complementary products.",
+			"synonyms_found": [
+				"FOS-ERP",
+				"Free/Open Source ERP",
+				"Open source ERP",
+				"OSS ERP",
+				"Open-source ERP",
+				"community based ERP",
+				"sponsored open source ERP"
+			],
+			"source_citation": "Page 1: 'Some smaller vendors utilized a free distribution system (Free/Open Source ERP, FOS-ERP) for their source code, relying on various business models for corporate success.' | Page 2: 'Nomenclature [...] FOS-ERP free open source ERP software' | Page 1: 'FOS-ERP can be community based, or sponsored by some organization'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"FOS-ERP",
+				"Free/Open Source ERP",
+				"Open source ERP",
+				"OSS ERP",
+				"Open-source ERP systems",
+				"community based",
+				"sponsored open source",
+				"commercial open source ERP"
+			],
+			"synonyms_found": [
+				"FOS-ERP",
+				"Free/Open Source ERP",
+				"Open source ERP",
+				"OSS ERP",
+				"Open-source ERP systems",
+				"community based",
+				"sponsored open source",
+				"commercial open source ERP"
+			],
+			"source_citation": "Page 1: 'Free/Open Source ERP, FOS-ERP' | Page 1: 'open source ERP systems' | Page 2: 'OSS open source software' | Page 2: 'Commercial open source ERP allows modifications to source code' | Page 1: 'FOS-ERP can be community based, or sponsored by some organization'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Enterprise Resource Planning (ERP) systems / Enterprise software",
+			"synonyms_found": [
+				"ERP",
+				"Enterprise resource planning",
+				"enterprise software",
+				"enterprise computing"
+			],
+			"source_citation": "Page 1: 'Open source software has become a player in the field of enterprise resource planning (ERP) systems' | Page 3: 'open-source projects including enterprise software, such as ERP, business intelligence (BI), CRM, and so on'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B SMB",
+			"synonyms_found": [
+				"SMEs",
+				"small-to-medium sized enterprises",
+				"small businesses",
+				"small organizations",
+				"smaller companies"
+			],
+			"source_citation": "Page 1: 'Efforts to increase the market led vendors to serve not only large organizations, but also focus more on small-to-medium sized enterprises (SMEs)' | Page 2: 'Johansson and Sudzina [1] noted that open-source ERP system interest has exploded, appearing to target SMEs' | Page 2: 'SMEs are suitable candidates for open-source ERP due to their agility and flexibility'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Smaller vendors and startups, though also includes some larger organizations sponsoring open source projects",
+			"synonyms_found": [
+				"smaller vendors",
+				"smaller companies",
+				"vendor",
+				"for-profit organization"
+			],
+			"source_citation": "Page 1: 'Some smaller vendors utilized a free distribution system (Free/Open Source ERP, FOS-ERP) for their source code' | Page 3: 'Under Sponsored Open Source, Apache Software Foundation encourages development [...] IBM contributes many developers to the Apache Web server'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Global scope with specific mentions of United States, Italy, Malaysia, and China",
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Bonaccorsi et al. [16] surveyed 146 Italian software firms concerning their business models with respect to adopting open source development' | Page 4: 'Leina [25] reported a case of Compiere customization by a SME in China' | Page 4: 'Baharum et al. [26] interviewed two Malaysian SMEs about their experience with OSS ERP' | Page 6: 'Compiere recorded more than 1.2 million downloads of its software and has more than 100 partners in 25 countries'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Small-to-medium sized enterprises (SMEs), with particular focus on small enterprises, local governments, and firms in developing countries that cannot afford proprietary ERP systems",
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'small businesses or entrepreneurs often could not see how they could afford such systems mainly due to its high upfront prices and resources required to deploy and maintain the system. To attack this niche market of ERP in the SME sector' | Page 6: 'This enables ERP to be a viable option for SMEs, who simply do not have the budget for most proprietary products' | Page 6: 'Small enterprises may not be able to afford this level of expenditure. FOS-ERP offers a viable alternative for these small organizations. This is also true for local governments and for firms operating in developing countries'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform"],
+			"synonyms_found": ["ERP system", "software", "enterprise software"],
+			"source_citation": "Page 2: 'The goal of ERP is to integrate and consolidate all the systems across an organization into a one system that can meet and serve each department's unique needs and tasks' | Page 2: 'every aspect of an organization's business process need to have a unified application interface'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["On-premises", "Multi-tenant SaaS"],
+			"synonyms_found": [
+				"SaaS",
+				"software as a service",
+				"Web-based",
+				"access via the Internet"
+			],
+			"source_citation": "Page 1: 'New ways of delivering ERP software, such as software as a service (SaaS) have appeared' | Page 2: 'SaaS offers ERP as a service that clients can access via the Internet' | Page 2: 'vendors have transformed ERPs by adopting the information technologies that can reduce adoption costs, such as Web-based modules' | Page 5: 'Table 1 shows that most ERP-related open-source software uses the Web for delivery of free software'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Permissive Open Source",
+			"synonyms_found": [
+				"open source",
+				"OSS",
+				"free distribution",
+				"open code",
+				"open-source community",
+				"GNU license"
+			],
+			"source_citation": "Page 2: 'With OSS, developers and users are free to utilize and modify OSS by accessing open code' | Page 4: 'GNU Enterprise is openly developed under a license that is open' | Page 5: 'Major differences between FOS-ERP and proprietary products are the exposure of source code, meaning that the client is able to customize'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Vendor licensing arrangements to impose control → affects customization capabilities",
+				"Copyright retention by for-profit organizations → affects commercial open source distribution",
+				"Dual licensing options → affects monetization model"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'Vendors can also participate in customization, under various licensing arrangements to impose control' | Page 4: 'commercial (software owned by a for-profit organization but with source code available to user, with for-profit organization retaining copyright) categories' | Page 4: 'Another form of hybridization is exhibited by MySQL, offering dual licenses'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Support (services, implementation, maintenance)",
+				"Subscription",
+				"Dual licensing",
+				"Others (training, complementary products, compatibility validation)"
+			],
+			"synonyms_found": [
+				"services",
+				"implementation",
+				"support contracts",
+				"maintenance",
+				"training",
+				"complementary services"
+			],
+			"source_citation": "Page 3: 'Usually service, training, and maintenance packages are also available to provide OSS vendors with revenue streams' | Page 4: 'Give away the recipe, open a restaurant: Distribute the software without charge, offering associated services for a fee. Examples include JBoss's distribution of their open source products without charge, relying upon support contracts for revenue, and the subscription model used by RedHat and Linux who offer annual service agreements bundled with open source software, customer support, or software updates' | Page 5: 'most common business model of OSS is based on a simple idea –free for use, modification, resale and fee for services including implementation' | Page 6: 'They do not sell software but sell services –security and support'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Others (service contracts, implementation projects)",
+			"synonyms_found": ["service fee", "support contracts", "implementation"],
+			"source_citation": "Page 4: 'relying upon support contracts for revenue' | Page 5: 'fee for services including implementation' | Page 6: 'They do not sell software but sell services'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Freemium", "Custom negotiation"],
+			"synonyms_found": [
+				"free software",
+				"zero-cost licensing",
+				"free distribution"
+			],
+			"source_citation": "Page 3: 'Most have free download options with stronger variants available for a fee' | Page 3: 'The zero-cost licensing structure of most open source projects has opened up the acceptance of these products into a number of previously untapped markets' | Page 4: 'SugarCRM, which distributes basic open source products without charge, but offers proprietary versions or extensions for a fee'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Annual billing periodicity for service agreements",
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'RedHat and Linux who offer annual service agreements bundled with open source software, customer support, or software updates'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Platform",
+			"synonyms_found": ["platform", "service oriented architecture", "SOA"],
+			"source_citation": "Page 2: 'Strategies of ERP development include software as a service (SaaS), open-source software (OSS) and Service Oriented Architectures (SOA)' | Page 4: 'Even major ERP vendors such as SAP and Oracle have switched to service-oriented architectures'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value)",
+			"synonyms_found": ["network effects"],
+			"source_citation": "Page 5: 'Network effects (the ability to link work to other organizations, as in supply chains) make compatibility a key competitive factor. Network effects also create an intense competitive environment' | Page 5: 'If the OSS can establish itself first, the commercial firm is always better off mitigating the network effects by following the OSS lead and designing a compatible product'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Product-led Growth", "Partners/channels"],
+			"synonyms_found": [
+				"free download",
+				"SourceForge.net",
+				"community",
+				"partners"
+			],
+			"source_citation": "Page 3: 'SourceForge.net is the largest OSS on-line OSS community and it is the global technology community's hub for information exchange about OSS distribution and services' | Page 3: 'In 2015, there were 56 ERP products listed, with download links. Most have free download options' | Page 6: 'Compiere recorded more than 1.2 million downloads of its software and has more than 100 partners in 25 countries'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes - SourceForge.net and similar OSS distribution platforms",
+			"synonyms_found": ["SourceForge.net", "SourceForge.com"],
+			"source_citation": "Page 1: 'There also have been attempts to generate FOS-ERP components found on sites such as SourceForge.com' | Page 3: 'SourceForge.net is the largest OSS on-line OSS community and it is the global technology community's hub for information exchange about OSS distribution and services, listing approximately 348,000 open-source projects including enterprise software' | Page 3: 'There were over 1000 on-going ERP projects on SourceForge.net as of May 7, 2009'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Lower costs, increased adaptability through access to source code, decreased reliance on single supplier, avoidance of vendor lock-in, flexibility, transparency, greater functionality and reliability",
+				"Customer Segment: Small-to-medium sized enterprises (SMEs), small businesses, entrepreneurs, local governments, firms in developing countries, large organizations (for proprietary ERP)",
+				"Revenue Streams: Service fees (implementation, support, maintenance, training), subscription models, dual licensing, complementary products/extensions",
+				"Key Resources: Source code, community of developers, partners, technical staff, open source platforms (SourceForge), commodity hardware",
+				"Key Activities: Software development (community or sponsored), code distribution, implementation services, support and maintenance, training, customization, filtering and screening contributions",
+				"Key Partnerships: Partners network (100+ partners in 25 countries for Compiere), distributors, consultants, community developers, large tech companies (IBM, Red Hat)",
+				"Cost Structure: Development costs reduced through community participation, implementation costs, maintenance expenses, training costs, internal IT staff costs",
+				"Channels: SourceForge.net and OSS platforms, Web-based delivery, direct downloads, partner networks, Internet distribution"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'The benefits of applying OSS are as follows: (1) Increased adaptability: Since ERP is not plug and play [...] (2) Decreased reliance on a single supplier [...] (3) Reduced costs: Proprietary ERP licenses are expensive. OSS ERPs' average implementation costs are at between one-sixth and one-third of the costs for typical proprietary ERPs' | Page 4: 'All methods involve development cost reduction through use of open source communities, and generation of revenues through indirect sales' | Page 6: 'Compiere recorded more than 1.2 million downloads of its software and has more than 100 partners in 25 countries. They do not sell software but sell services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				"Community developers/volunteers | Software development contributors | Participate in code development, improvements, modifications | Interact with vendor/sponsor and other developers through open source platforms",
+				"Vendor/Sponsor organization | Software owner and distributor | Develop, filter, distribute software, provide services | Interact with customers, partners, community developers",
+				"Partners/Distributors | Implementation and support providers | Implement, customize, provide support services | Interact with vendor and end customers",
+				"Consultants | Professional services providers | Provide implementation, customization, training | Interact with end customers and potentially vendors",
+				"End customers (SMEs, organizations) | Software adopters | Download, implement, use software, pay for services | Interact with vendor, partners, consultants",
+				"Large tech companies (IBM, Red Hat, Sun) | Sponsors and supporters | Sponsor development, contribute developers, provide support infrastructure | Interact with community, vendors, customers",
+				"SourceForge.net and OSS platforms | Distribution infrastructure | Host and distribute software, facilitate community | Interact with vendors and community",
+				"Hardware vendors | Complementary product providers | Provide hardware integrated with OSS | Interact with software vendors and customers"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Corporate Distribution, where many open source products have been developed [...] Thus an industry has developed including firms such as Red Hat that create value and collect fees by providing support to those firms that would like to adopt open source software products' | Page 3: 'Sponsored Open Source, Apache Software Foundation encourages development [...] IBM contributes many developers' | Page 6: 'Compiere has more than 100 partners in 25 countries. They do not allow just anyone to contribute code –the majority of code contributors are trained partners who understand company's business model' | Page 4: 'Widget frosting: This approach targets hardware manufacturers, seeking to have them add your software to their product'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Reduced costs and affordability for SMEs",
+				"Avoidance of expensive proprietary license fees",
+				"Increased adaptability through access to source code",
+				"Decreased reliance on single vendor (avoid vendor lock-in)",
+				"Flexibility in customization to match business processes",
+				"Transparency of code",
+				"Lower upfront investment",
+				"Ability to exploit unique business processes and retain competitive advantages",
+				"Access to ERP for organizations that cannot afford proprietary systems",
+				"Cost savings through commodity hardware use",
+				"Greater functionality and reliability"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'Commercial open source ERP allows modifications to source code enabling firms to exploit their unique business processes and retain competitive advantages' | Page 2: 'small businesses or entrepreneurs often could not see how they could afford such systems mainly due to its high upfront prices' | Page 4: 'The benefits of applying OSS are as follows: (1) Increased adaptability [...] (2) Decreased reliance on a single supplier [...] (3) Reduced costs' | Page 4: 'financial benefit, but the ability to customize was also present'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Community participation in development → Higher quality and reliability of code",
+				"Independent peer review → Enhanced software reliability and quality",
+				"Open access to source code → Faster innovation and improvements",
+				"Large number of participants → Fewer defects and better testing",
+				"Partner network development → Better implementation and support coverage",
+				"Service-based revenue model → Sustainable business operations",
+				"Quality filtering by professionals → Guaranteed high quality products",
+				"Lower cost structure → Competitive advantage over proprietary alternatives",
+				"Network effects and compatibility → Market expansion",
+				"Trained partners → Better understanding of business model and quality contributions"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 2: 'The underlying philosophy of OSS is to enhance software reliability and quality through independent peer review and rapid evolution of source code' | Page 5: 'OSS projects led to more creativity, as measured by functions added over time. And OSS projects were found to have fewer defects, expected because of OSS ability to tap a large number of reviewers' | Page 6: 'Compiere recorded more than 1.2 million downloads of its software and has more than 100 partners in 25 countries [...] They do not allow just anyone to contribute code –the majority of code contributors are trained partners who understand company's business model. Therefore this belongs to limited P/limited F model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Technically versed employees → Implementation and maintenance capability",
+				"Internal IT staff → System installation and support",
+				"Internet connectivity → Access to OSS platforms and community",
+				"Commodity hardware → System deployment",
+				"Community of developers → Software development and improvement",
+				"Partner network → Implementation and support services",
+				"Service Oriented Architecture (SOA) capability → Integration and deployment",
+				"Business process reengineering capability → System customization"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 6: 'there is a great opportunity for small organizations to obtain enterprise computing at affordable prices as long as they have technically versed employees able to install and maintain such systems' | Page 4: 'There are costs in both proprietary and open ERPs for internal IT staff' | Page 2: 'Strategies of ERP development include software as a service (SaaS), open-source software (OSS) and Service Oriented Architectures (SOA)' | Page 2: 'As a reaction on proprietary software development open source software (OSS) development started as voluntary participation of individuals linked by the Internet to develop code'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Network incompatibility between OSS and proprietary systems → Market fragmentation and reduced profits",
+				"Lack of compliance with industrial standards → Adoption barriers",
+				"Relative lack of documentation → Implementation difficulties",
+				"Uncertainty about liability responsibility → Risk management challenges",
+				"Lower perceived reliability by customers → Market acceptance issues",
+				"Reduced functionality compared to proprietary systems → Feature limitations",
+				"Need for compatibility with existing complementary/supplementary products → Integration requirements"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Negative factors include a relative lack of compliance with industrial standards, documentation, maintenance, product updating, and liability responsibility' | Page 5: 'Network effects also create an intense competitive environment, driving profits down if the technologies are incompatible' | Page 5: 'In order to attract users in this market, the OSS will have to be compatible with these existing complementary/supplementary products' | Page 6: 'lower costs imply lower functionality, placing added burden on IT staffs of FOS-ERP adopting clients'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Database migration difficulties",
+				"Synchronization of software to company workflow",
+				"Developing user interfaces and user support",
+				"Integrating third-party software",
+				"High total cost of ownership despite free licensing",
+				"Uncertainty in evaluation of FOS-ERP functionality",
+				"Lower functionality compared to proprietary ERP",
+				"Need for extensive customization",
+				"Lack of same level of service as proprietary alternatives",
+				"Customer perceptions of reliability need to be overcome",
+				"Implementation costs and complexities",
+				"Training requirements for users and staff",
+				"Business process reengineering impact"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 4: 'Barriers to overcome included database migration, synchronization of software to company workflow, developing user interfaces and user support, and integrating third-party software' | Page 3: 'De Carvalho [18] demonstrated that evaluation of FOS-ERP involves high levels of uncertainty relative to evaluation of proprietary software' | Page 2: 'There are risks, in that one cannot expect the same level of service with OSS as with proprietary alternatives' | Page 4: 'However, total cost of ownership is difficult to estimate. There are costs in both proprietary and open ERPs for internal IT staff, for training users and staff, and impact on organizational operations through reengineering business processes'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Corporate distribution model → Provide support services → Easier adoption for business users who have difficulty interacting directly with open source developers",
+				"Partner network development → Implementation and support services → Better service coverage and local expertise",
+				"Training partners in business model → Quality code contributions → Maintained high quality standards",
+				"Hybrid models (OSSg2) → Provide complementary services → Sustainable revenue generation",
+				"Service-oriented architecture adoption → Easier integration → Facilitated add-ons and customization",
+				"Limited production and filtering processes → Guarantee quality → High quality final products and services",
+				"Community source model → Joint development by end users → Shared costs and risks among participants",
+				"Dual licensing approach → Flexibility in distribution → Multiple revenue streams",
+				"Support from large organizations (IBM, Red Hat) → Professional support availability → Increased reliability perception"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'Most business users would have difficulty interacting directly with open source developers. Thus an industry has developed including firms such as Red Hat that create value and collect fees by providing support to those firms that would like to adopt open source software products. These firms identify best-of-breed open source products, improve distribution, and offer complementary services such as maintenance support' | Page 4: 'Second-Generation Open Source (OSSg2) is a hybrid between corporate distribution and sponsored open source. Companies generate revenue by providing complementary services, while providing most of the development' | Page 5: 'Model 1: Limited production process, limited filtering process [...] This guarantees high quality of final products and services after the F process' | Page 6: 'They do not allow just anyone to contribute code –the majority of code contributors are trained partners who understand company's business model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Metric: Downloads (OpenBravo); Value: 970,000; Unit: downloads; Period: 3 years; Method: Platform tracking; Source: SourceForge.net",
+				"Metric: Downloads (Compiere); Value: 1,200,000; Unit: downloads; Period: not specified; Method: Platform tracking; Source: Company data",
+				"Metric: Contributors (OpenBravo); Value: 82; Unit: participants; Period: 3 years; Method: Platform tracking; Source: SourceForge.net",
+				"Metric: Partners (Compiere); Value: 100+; Unit: partners; Period: not specified; Method: Company data; Source: Company data",
+				"Metric: Geographic coverage (Compiere); Value: 25; Unit: countries; Period: not specified; Method: Company data; Source: Company data",
+				"Metric: OSS projects on SourceForge; Value: 348,000; Unit: projects; Period: February 2009; Method: Platform tracking; Source: SourceForge.net",
+				"Metric: ERP projects on SourceForge; Value: 1,000+; Unit: projects; Period: May 2009; Method: Platform tracking; Source: SourceForge.net",
+				"Metric: ERP products listed; Value: 56; Unit: products; Period: 2015; Method: Platform tracking; Source: SourceForge.net",
+				"Metric: Implementation cost reduction; Value: 1/6 to 1/3; Unit: ratio vs proprietary; Period: not specified; Method: Literature comparison; Source: Multiple sources",
+				"Metric: Survey sample (Italian firms); Value: 146; Unit: firms; Period: not specified; Method: Survey; Source: Bonaccorsi et al."
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 3: 'OpenBravo is an example of successful enterprise OSS, which has been developed by 82 participants over three years with more than 970,000 downloads recorded' | Page 6: 'Compiere recorded more than 1.2 million downloads of its software and has more than 100 partners in 25 countries' | Page 3: 'listing approximately 348,000 open-source projects including enterprise software, such as ERP, business intelligence (BI), CRM, and so on (as of February 2009). There were over 1000 on-going ERP projects on SourceForge.net as of May 7, 2009' | Page 3: 'In 2015, there were 56 ERP products listed' | Page 4: 'OSS ERPs' average implementation costs are at between one-sixth and one-third of the costs for typical proprietary ERPs'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 1990s to 2015 (ERP systems became popular with large organizations in the 1990s; 21st Century expansion; data points from 2009 and 2015 mentioned). Maturity status: Growing",
+			"synonyms_found": ["21st Century", "recent", "contemporary"],
+			"source_citation": "Page 1: 'ERP systems became popular with large organizations in the 1990s. In the 21st Century, these products were expanded' | Page 1: 'Received 21 December 2012; Received in revised form 24 March 2015; Accepted 7 September 2015' | Page 3: 'as of February 2009 [...] as of May 7, 2009 [...] In 2015, there were 56 ERP products listed' | Page 1: 'open source ERP systems have experienced increased interest' | Page 3: 'Recently, as open-source projects became more popular'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Literature review",
+			"synonyms_found": [],
+			"source_citation": "Page 1: 'In this paper we present a framework that aims at analyzing FOS-ERP business models' | Article extensively references and reviews prior research, surveys, and case studies from multiple authors | Page 7: 'References' section lists 37 academic sources",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Compiere → FOS-ERP example with 1.2M downloads and 100+ partners in 25 countries, limited P/limited F model",
+				"OpenBravo → Successful enterprise OSS with 82 participants, 970,000 downloads over 3 years",
+				"OpenMFG → Hybrid collaboration model allowing community contributions with vendor filtering",
+				"ERP5 → FOS-ERP development example",
+				"SQL Ledger → Company sponsored FOS-ERP",
+				"GNU Enterprise → Openly developed under open license, extreme open source model",
+				"Red Hat → Corporate distribution model for Linux, providing support services",
+				"Linux → Open source operating system example used by Dell, Compaq, IBM",
+				"MySQL → Open source database, dual licensing model example",
+				"JBoss → Distribution without charge, relying on support contracts",
+				"SugarCRM → Freemium model with basic free and paid proprietary versions",
+				"SAP → Proprietary ERP vendor, high-end market leader",
+				"Oracle → Proprietary ERP vendor, large organization market",
+				"Microsoft Dynamics GP (Great Plains) → Medium-sized organization proprietary ERP",
+				"TinyERP (now ODOO) → OSS ERP product",
+				"OfBiz → OSS ERP product",
+				"Nexedi → FOS-ERP vendor",
+				"IBM → Sponsor of open source, contributor to Apache"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 6: 'Compiere recorded more than 1.2 million downloads of its software and has more than 100 partners in 25 countries. They do not sell software but sell services' | Page 3: 'OpenBravo is an example of successful enterprise OSS, which has been developed by 82 participants over three years with more than 970,000 downloads' | Page 5: Table 1 lists Compiere, Nexedi, Openbravo, Fisterra under Model 1; OpenMFG under Model 2 | Page 4: Multiple business model examples including JBoss, SugarCRM, MySQL, RedHat | Page 3: 'Proprietary ERP refers to systems with closely held intellectual property rights, such as the leading market products by SAP and Oracle'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Model 1: Limited Production/Limited Filtering → Free software with no user participation, all activities by employees/members, high quality guaranteed (Examples: Compiere, Nexedi, Openbravo, Fisterra)",
+				"Model 2: Open Production/Limited Filtering → Hybrid collaboration, production by users and filtering by professionals (Example: OpenMFG, Linux)",
+				"Model 3: Limited Production/Open Filtering → Competition model, production by professionals and filtering by public users (Internal knowledge management)",
+				"Model 4: Open Production/Open Filtering → Complete user participation in production and filtering (External knowledge management)",
+				"Community-based FOS-ERP → Developed by open-source community",
+				"Sponsored FOS-ERP → Sponsored by organization (can be by for-profit or foundation)",
+				"Second-Generation Open Source (OSSg2) → Hybrid between corporate distribution and sponsored open source",
+				"Corporate Distribution → Companies provide support for open source products developed by others",
+				"Proprietary development with free distribution → Internal development with no-charge distribution",
+				"Open development with commercial distribution → Community developed but commercially sold",
+				"Dual licensing model → Offering both open source and proprietary licenses"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5: Table 1 'Clusters of the P–F Model in OSS ERP' describes four models with their characteristics | Page 1: 'FOS-ERP can be community based, or sponsored by some organization' | Page 3: 'A more recent variant, Second-Generation Open Source (OSSg2) is a hybrid between corporate distribution and sponsored open source' | Page 4: 'three variants: 1. Proprietorial development, free distribution [...] 2. Open development, commercial distribution [...] 3. Open development, open distribution' | Page 4: Raymond [14] gave nine basic open source business models including cost sharing, risk spreading, loss leader, widget frosting, give away recipe/open restaurant, accessorize, free software/sell present, free software/sell brand, free software/sell content",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Shift from product orientation to service orientation in software industry",
+				"Growth of Web 2.0 business models with crowd participation in production and filtering",
+				"Evolution from Pro-sumers to Pro-Ams creating value contributions to society and economy",
+				"Increasing adoption by SMEs as systems become more affordable",
+				"Potential development of Models 3 and 4 with more open collaborative environments",
+				"Greater integration of OSS components by proprietary vendors",
+				"Expansion into untapped markets (small enterprises, governments, NGOs, developing countries)",
+				"Movement toward service-oriented architectures (SOA) by major ERP vendors",
+				"Continued evolution of SaaS delivery models",
+				"Potential for FOS-ERP to become viable alternative to proprietary systems for more market segments"
+			],
+			"synonyms_found": [],
+			"source_citation": "Page 5: 'They stated the world was also contended to be moving to service orientation as opposed to traditional product orientation. This is an undeniable trend' | Page 5: 'In the Web 2.0 environment, information consumers are becoming information providers. Pro-sumers (producer and consumer or professional and consumer), highly skilled hobbyists before Web 2.0, are being replaced by Pro-Ams (those who are somewhere between professional and amateur) who are creating contents of value that contribute to society and the economy' | Page 5: 'So far we have not seen products fitting Models 3 and 4, but Web 2.0 development can lead to systems of value fitting these models' | Page 4: 'Even major ERP vendors such as SAP and Oracle have switched to service-oriented architectures' | Page 6: 'we think that there is a great opportunity for small organizations to obtain enterprise computing at affordable prices'",
+			"confidence_level": "high"
+		}
+	]
+}

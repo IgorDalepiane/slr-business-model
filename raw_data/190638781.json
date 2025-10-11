@@ -1,0 +1,664 @@
+{
+	"extraction_metadata": {
+		"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Software as a Service (SaaS) Business Model - A cloud computing service model that provides applications on top of PaaS and IaaS, where software is delivered via the Internet as a service with multi-tenant or multi-instance architecture, enabling software renting as an alternative to traditional perpetual licensing.",
+			"synonyms_found": [
+				"SaaS",
+				"Software as a Service",
+				"software renting",
+				"cloud computing",
+				"rental model",
+				"pure-SaaS",
+				"enterprise-SaaS"
+			],
+			"source_citation": "Page 1: 'Software as a Service (SaaS), which provides applications on top of PaaS and IaaS' | Page 1: 'When the software is sold through the software as a service (SaaS) model, it facilitates a number of revenue and pricing models.' | Page 1: 'a number of studies have suggested that software renting is becoming more frequent in the new era of computing, in which software is delivered via the SaaS model' | Page 2: 'SaaS has multi-tenant or multi-instance architecture; the former refers to the situation in which a vendor hosts a single instance on a server that serves multiple customers (tenants), whereas the latter is related to the model in which a vendor hosts separate instances for each customer within shared hardware'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"SaaS",
+				"Software as a Service",
+				"software renting",
+				"rental model",
+				"cloud model",
+				"pure-SaaS",
+				"enterprise-SaaS",
+				"multi-tenant architecture",
+				"multi-instance architecture"
+			],
+			"synonyms_found": [
+				"SaaS",
+				"software renting",
+				"rental model",
+				"cloud model"
+			],
+			"source_citation": "Page 1: 'software as a service (SaaS) model' | Page 1: 'software renting is becoming more frequent in the new era of computing, in which software is delivered via the SaaS model' | Page 2: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes' | Page 3: 'We can sell it as SaaS, using software renting' | Page 3: 'cloud model and software renting'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Cross-industry SaaS applications - including telecom (planning and optimization software), gaming (interactive gaming platforms), identity management (access rights management for financial institutions and government), and 3D modeling (furniture manufacturers and retailers)",
+			"synonyms_found": ["software", "cloud computing", "SaaS", "applications"],
+			"source_citation": "Page 3: 'Firm A develops planning and optimization software for telecom operators' | Page 3: 'Firm B, established in 2000, provides interactive gaming platforms and games-on-demand services' | Page 4: 'Firm C develops enterprise-SaaS for access rights management. The software can be used in many different types of organizations, including financial institutions and government organizations.' | Page 4: 'Firm D was established in 2006 as a spin-off from a larger software firm. It develops 3D modeling software for furniture manufacturers and furniture retailers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B SMB",
+			"synonyms_found": [
+				"customers",
+				"organizations",
+				"telecom operators",
+				"network operators",
+				"financial institutions",
+				"government organizations",
+				"furniture manufacturers",
+				"furniture retailers",
+				"small and medium-sized customers"
+			],
+			"source_citation": "Page 3: 'Firm A develops planning and optimization software for telecom operators' | Page 4: 'The software can be used in many different types of organizations, including financial institutions and government organizations' | Page 4: 'It develops 3D modeling software for furniture manufacturers and furniture retailers' | Page 5: 'Low initial costs in software renting enabled to expand the customer base from large-sized customers toward small and medium-sized customers (Firm D)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Small to medium software firms and spin-offs - Firm A established 1998 (acted as service firm until 2009), Firm B established 2000, Firm C launched 2008 as spin-off, Firm D established 2006 as spin-off from larger software firm",
+			"synonyms_found": [
+				"software firms",
+				"service firm",
+				"spin-off",
+				"SaaS providers"
+			],
+			"source_citation": "Page 3: 'Firm A develops planning and optimization software for telecom operators. The firm, established in 1998, acted purely as a service firm until 2009, when it started to develop its own software product.' | Page 3: 'Firm B, established in 2000, provides interactive gaming platforms and games-on-demand services' | Page 4: 'Firm C was launched in 2008 as a spin-off from a software service firm that provides consulting services related to identity management' | Page 4: 'Firm D was established in 2006 as a spin-off from a larger software firm'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Finland and Europe",
+			"synonyms_found": [
+				"Finland",
+				"Finnish",
+				"University of Jyväskylä",
+				"Finland funding agencies"
+			],
+			"source_citation": "Page 1: 'Arto Ojala, Department of Computer Science and Information Systems, University of Jyväskylä, Jyväskylä, Finland' | Page 6: 'The research reported here was carried out within the framework of the Digital Services research project financed by TEKES -the Finnish Founding Agency for Technology and Innovation. In addition, the Foundation for Economic Education in Finland (Liikesivistysrahasto) provided financial support for this study.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "B2B organizations with varying IT capabilities and security requirements - ranging from small-medium sized customers without IT infrastructure to large organizations with existing IT departments and internal data centers",
+			"synonyms_found": [
+				"customers",
+				"organizations",
+				"customers with IT infrastructure",
+				"customers with IT department",
+				"smaller customers"
+			],
+			"source_citation": "Page 4: 'within the first six months we realized that this does not work with smaller customers who do not have servers in the firm. It became clear that 90 percent of our customers wanted to use this through a public cloud' | Page 5: 'Low initial costs in software renting enabled to expand the customer base from large-sized customers toward small and medium-sized customers (Firm D)' | Page 5: 'customers who had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform"],
+			"synonyms_found": [
+				"software applications",
+				"software product",
+				"gaming platforms",
+				"applications"
+			],
+			"source_citation": "Page 1: 'Software as a Service (SaaS), which provides applications on top of PaaS and IaaS' | Page 3: 'Firm A develops planning and optimization software' | Page 3: 'Firm B, established in 2000, provides interactive gaming platforms and games-on-demand services' | Page 4: 'Firm C develops enterprise-SaaS for access rights management' | Page 4: 'It develops 3D modeling software'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Multi-tenant SaaS",
+				"Single-tenant cloud",
+				"On-premises"
+			],
+			"synonyms_found": [
+				"multi-tenant",
+				"multi-instance",
+				"public cloud",
+				"internal data center",
+				"in-house"
+			],
+			"source_citation": "Page 2: 'SaaS has multi-tenant or multi-instance architecture; the former refers to the situation in which a vendor hosts a single instance on a server that serves multiple customers (tenants), whereas the latter is related to the model in which a vendor hosts separate instances for each customer within shared hardware' | Page 3: 'not all customers are willing to rent the software through the public cloud, due to security concerns... For these customers, Firm A makes available a traditional licensing model, in which the customer buys a traditional license for its internal data center' | Page 4: 'if the customer says that the product cannot be allowed out of their internal data center, then we will install it there'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Proprietary",
+			"synonyms_found": [
+				"software license",
+				"traditional license",
+				"perpetual license",
+				"concern license"
+			],
+			"source_citation": "Page 1: 'The traditional way to sell the software license is to sell a perpetual software license for a single user or machine or to sell a license to use the software in a certain number of processors' | Page 4: 'a customer can buy a traditional license, which is like a concern license. By using the concern license the customer has free usage of the software within the organization'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Subscription",
+				"Perpetual license",
+				"Usage/consumption"
+			],
+			"synonyms_found": [
+				"software renting",
+				"rental model",
+				"subscription",
+				"traditional license",
+				"revenue sharing"
+			],
+			"source_citation": "Page 3: 'We can sell it as SaaS, using software renting. The second option is to sell it via a traditional software license' | Page 3: 'The revenue model is based on software renting, with a variety of payment options for consumers. These options include (i) a subscription based on named user-based pricing for a particular game for 24 hours, (ii) a monthly subscription for all the games available in the service, and (iii) a subscription for different games packages for a certain time period' | Page 3-4: 'the final revenue is shared with the partners in the value chain... It is based on revenue sharing between three players, the content owner, a portal, and ourselves'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "User/seat",
+			"synonyms_found": [
+				"concurrent user-based pricing",
+				"named user-based pricing",
+				"per user per month",
+				"number of users"
+			],
+			"source_citation": "Page 3: 'Firm A set the price for the software according to the number of users within the organization (concurrent user-based pricing)' | Page 3: 'a subscription based on named user-based pricing' | Page 4: 'We have two revenue models – SaaS where there is a price per user per month' | Page 4: 'Under the rental model, there is a monthly fee, which is dependent on the estimated number of users within the organization (concurrent user-based pricing)' | Page 4: 'In addition to concurrent user-based pricing'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Tiers/Plans",
+				"Custom negotiation",
+				"Annual contract"
+			],
+			"synonyms_found": [
+				"subscription",
+				"rental agreement",
+				"time-based",
+				"version-based",
+				"quantity-based",
+				"price bundling"
+			],
+			"source_citation": "Page 3: 'Agreements were commonly made for at least three months, but this was negotiated with each customer separately' | Page 3: 'a subscription based on named user-based pricing for a particular game for 24 hours, (ii) a monthly subscription for all the games available in the service, and (iii) a subscription for different games packages for a certain time period' | Page 4: 'The initial rental agreement was for three years, and thereafter a customer could renew it for a fixed period' | Page 4: 'the rental fee depended on the functionalities (version-based price discrimination) and the number of furniture elements included (quantity-based price discrimination)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Not specified currency, monthly billing",
+			"synonyms_found": [
+				"monthly",
+				"per month",
+				"monthly fee",
+				"monthly subscription"
+			],
+			"source_citation": "Page 4: 'SaaS where there is a price per user per month' | Page 4: 'Under the rental model, there is a monthly fee' | Page 3: 'a monthly subscription for all the games available in the service'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Standalone product",
+			"synonyms_found": [
+				"software provider",
+				"SaaS provider",
+				"vendor",
+				"service provider"
+			],
+			"source_citation": "Page 1: 'software vendors have to take these changes into the consideration and rethink how to offer their software to customers' | Page 2: 'a vendor hosts a single instance on a server that serves multiple customers' | Page 3: 'We can sell it as SaaS, using software renting'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value)",
+			"synonyms_found": [
+				"network externality",
+				"positive network externality effect",
+				"network externality effect"
+			],
+			"source_citation": "Page 2: 'Renting can also increase the positive network externality effect, owing to the lower initial costs for customers compared to purchasing. The low costs increase the number of customers, and consequently increase the information available in the market regarding the product. Overall, this decreases customers' search costs'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Direct sales", "Partners/channels"],
+			"synonyms_found": [
+				"sales",
+				"delivery channels",
+				"network operators",
+				"portal"
+			],
+			"source_citation": "Page 3-4: 'The network operators operate the platform and deliver games to players' set-top boxes or to PCs through their broadband network' | Page 3-4: 'Because the content is delivered through network operators to game players, the network operator determines the revenue model used' | Page 6: 'customers or delivery channels are the main driving force to the selection of the most appropriate pricing and revenue model in the market'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Software delivered via cloud with multi-tenant/multi-instance architecture enabling easy access, flexible pricing, lower initial costs, faster implementation, and cost-effective maintenance compared to traditional licensing",
+				"Customer Segment: B2B organizations including telecom operators, network operators, financial institutions, government organizations, furniture manufacturers/retailers, and game players; ranging from small-medium businesses to large enterprises with varying IT capabilities",
+				"Revenue Streams: Software renting (subscription-based per user per month), traditional perpetual licensing, revenue sharing with partners in value chain",
+				"Key Resources: Cloud infrastructure (public cloud, multi-tenant/multi-instance architecture), software applications, technical features for updates and maintenance",
+				"Key Activities: Software development, hosting and maintenance, implementation and installation, after-sales support, updates delivery to all customers simultaneously",
+				"Key Partnerships: Network operators (for game delivery), content owners (game developers), portals, IT infrastructure providers",
+				"Cost Structure: Production costs (traveling costs for installation, implementation, maintenance, after-sales support), operating costs for service and system capacity, data storage and computing power costs"
+			],
+			"synonyms_found": [
+				"value proposition",
+				"customers",
+				"revenue model",
+				"pricing model",
+				"production costs",
+				"partnerships"
+			],
+			"source_citation": "Page 3: 'by the pure-SaaS model, all the participants in a project gained easy and instant access to the software wherever they were located physically' | Page 3: 'Firm A prefers software renting on the grounds that it brings cost savings by decreasing production costs. These cost savings are related in particular to the traveling costs for installation, implementation, maintenance, and after-sales support' | Page 3-4: 'the final revenue is shared with the partners in the value chain... It is based on revenue sharing between three players, the content owner, a portal, and ourselves' | Page 5: 'The rental model through the public cloud decreased the production costs of case firms... the case firms were able to bring updates that were visible to all their customers immediately'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"Actor": "SaaS Providers (Software Vendors)",
+					"Role": "Develop, host, and deliver software applications via cloud",
+					"Interaction with offering company": "Not applicable - this is the offering company",
+					"Interaction with other actors": "Host software on cloud infrastructure; deliver services to customers; negotiate pricing and contracts with customers; share revenue with content owners and network operators"
+				},
+				{
+					"Actor": "Customers (Organizations)",
+					"Role": "End users of SaaS applications",
+					"Interaction with offering company": "Pay subscription fees or purchase licenses; use software via public cloud or internal data center; negotiate agreements and pricing; request customizations and support",
+					"Interaction with other actors": "May interact with network operators for service delivery (Firm B case)"
+				},
+				{
+					"Actor": "Network Operators",
+					"Role": "Infrastructure and delivery channel providers",
+					"Interaction with offering company": "Operate gaming platforms; deliver services to end users; determine revenue models used; share revenue from subscriptions",
+					"Interaction with other actors": "Deliver games to players through broadband network; collect payments from consumers"
+				},
+				{
+					"Actor": "Content Owners (Game Developers)",
+					"Role": "License content to SaaS providers",
+					"Interaction with offering company": "License game content to Firm B; receive share of revenue (e.g., $2 out of $5)",
+					"Interaction with other actors": "Provide content that is delivered through network operators to end users"
+				},
+				{
+					"Actor": "Cloud Infrastructure Providers",
+					"Role": "Provide underlying IaaS and PaaS",
+					"Interaction with offering company": "Provide computation, storage capacity, and platform services for hosting SaaS applications",
+					"Interaction with other actors": "Enable multi-tenant/multi-instance architectures for SaaS providers"
+				}
+			],
+			"synonyms_found": [
+				"customers",
+				"network operators",
+				"content owners",
+				"partners",
+				"vendors",
+				"providers"
+			],
+			"source_citation": "Page 3-4: 'The network operators operate the platform and deliver games to players' set-top boxes or to PCs through their broadband network... It is based on revenue sharing between three players, the content owner, a portal, and ourselves –all sharing the content revenue. If the content is [equivalent to] five dollars, we share it so that there are two dollars for the portal, and two dollars for the content owner, and one for us' | Page 1: 'Cloud computing can be divided roughly into three service layers... (i) Infrastructure as a Service (IaaS), which provides computation and storage capacity, (ii) Platform as a Service (PaaS), which provides software development tools plus an application execution environment, and (iii) Software as a Service (SaaS), which provides applications on top of PaaS and IaaS'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Lower production costs (decreased traveling, installation, implementation, maintenance, after-sales support costs)",
+				"Flexible pricing options for customers",
+				"Easy and instant access to software from any location",
+				"Lower initial costs for customers compared to purchasing licenses",
+				"Faster implementation process",
+				"Ability to expand customer base to small and medium-sized customers",
+				"Protection against low switching costs through pricing strategies",
+				"Cost advantages and strategic benefits for customers",
+				"Reduced price competition and differentiation from traditional software providers",
+				"Ability to deliver updates immediately to all customers"
+			],
+			"synonyms_found": [
+				"cost savings",
+				"flexibility",
+				"accessibility",
+				"lower costs",
+				"strategic benefits"
+			],
+			"source_citation": "Page 3: 'Firm A prefers software renting on the grounds that it brings cost savings by decreasing production costs. These cost savings are related in particular to the traveling costs for installation, implementation, maintenance, and after-sales support within customers' premises' | Page 3: 'the rental model also made the software attractive for the customer as it was possible to have more flexible pricing models than in software licensing' | Page 2: 'opportunities related to the cost advantages of SaaS were the strongest driver for SaaS adoption' | Page 2: 'the adoption of SaaS is more related to strategic benefits than to economic benefits' | Page 5: 'Low initial costs in software renting enabled to expand the customer base from large-sized customers toward small and medium-sized customers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Customer-driven model selection → Appropriate revenue and pricing models aligned with customer needs → Market acceptance and adoption",
+				"Flexible pricing strategies (user-based, time-based, version-based, bundling) → Increased service attractiveness → Higher customer acquisition",
+				"Lower production costs through public cloud → Cost savings in delivery and maintenance → Competitive pricing advantage",
+				"Multi-tenant/multi-instance architecture → Efficient resource utilization → Ability to serve both rental and licensing models",
+				"Protection against low switching costs (time-based pricing for pure-SaaS, labor-intensive implementation for enterprise-SaaS) → Customer retention → Sustainable revenue",
+				"Ability to offer both rental and licensing models → Meet diverse customer security and IT infrastructure needs → Avoid losing customers with specific requirements"
+			],
+			"synonyms_found": [
+				"flexible pricing",
+				"customer needs",
+				"cost savings",
+				"architecture",
+				"switching costs"
+			],
+			"source_citation": "Page 6: 'It can be concluded that customers or delivery channels are the main driving force to the selection of the most appropriate pricing and revenue model in the market' | Page 5: 'software firms can use flexible revenue and pricing strategies to make the service more attractive for customers' | Page 5: 'The rental model through the public cloud decreased the production costs of case firms... made it possible to offer the software at a lower price' | Page 5: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs... enterprise-SaaS providers (Firms C and D) seem to protect their business against low switching costs by using separate pricing for the implementation work'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Cloud infrastructure (IaaS/PaaS) → Enable SaaS delivery and multi-tenant/multi-instance architecture",
+				"Multi-tenant or multi-instance software architecture → Support both rental and licensing models with same codebase",
+				"Network connectivity → Enable access to software through public cloud",
+				"Customer readiness for cloud technology → Adoption of SaaS model",
+				"For enterprise-SaaS: labor-intensive implementation capabilities → Enable integration with customer IT systems and create switching costs",
+				"For gaming platform: partnerships with network operators and content owners → Enable revenue sharing model"
+			],
+			"synonyms_found": [
+				"architecture",
+				"infrastructure",
+				"network",
+				"partnerships",
+				"implementation"
+			],
+			"source_citation": "Page 1: 'Cloud computing can be divided roughly into three service layers... (i) Infrastructure as a Service (IaaS)... (ii) Platform as a Service (PaaS)... and (iii) Software as a Service (SaaS), which provides applications on top of PaaS and IaaS' | Page 3: 'From the outset, the software architecture was designed to be compatible with both software renting and software licensing' | Page 3: 'Another reason to sell a traditional license for internal use was a lack of network connections' | Page 3-4: 'Because the content is delivered through network operators to game players, the network operator determines the revenue model used'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Data security concerns → Some customers unwilling to use public cloud → Requires offering traditional licensing for internal data centers",
+				"Customer IT infrastructure investment → Organizations with existing IT personnel prefer traditional licensing → Limits pure SaaS adoption",
+				"IT policies restricting external installations → Some customers cannot install software outside internal data center → Must offer on-premises option",
+				"Lack of network connectivity → Prevents SaaS usage in certain scenarios (e.g., building new telecom networks) → Requires traditional licensing alternative",
+				"Customer readiness for new technologies → Low readiness limits SaaS adoption → Necessitates parallel licensing model",
+				"Network operator control → In B2B2C scenarios, network operators determine revenue model used → Limits provider's pricing flexibility"
+			],
+			"synonyms_found": [
+				"security concerns",
+				"IT policies",
+				"restrictions",
+				"limitations"
+			],
+			"source_citation": "Page 3: 'However, not all customers are willing to rent the software through the public cloud, due to security concerns or a low readiness for new technologies. For these customers, Firm A makes available a traditional licensing model' | Page 4: 'some customers had an IT policy that did not allow installation of any software outside their own internal data center' | Page 3: 'Another reason to sell a traditional license for internal use was a lack of network connections, in certain cases where a customer was in the process of building a new telecom network' | Page 5: 'customers who had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice' | Page 3-4: 'network operators have become accustomed to using rental models and that is why we have to use one too'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Balancing technical changes with business-related issues in cloud transition",
+				"Sustaining profitable revenue stream despite many technical considerations",
+				"Managing security threats as dominating risk perception factor",
+				"Incurring significant operating costs for service and system capacity to guarantee availability",
+				"Protecting business against low switching costs in SaaS model",
+				"Meeting diverse customer needs (security, IT infrastructure, policies) while maintaining profitability",
+				"Negotiation and contract monitoring costs offsetting some transaction cost advantages",
+				"Convincing customers with existing IT investments to adopt cloud model"
+			],
+			"synonyms_found": [
+				"challenges",
+				"difficult",
+				"costs",
+				"risks",
+				"concerns"
+			],
+			"source_citation": "Page 1: 'because there are many technical changes to consider, business-related issues are easily overlooked, making it difficult to sustain a profitable revenue stream' | Page 2: 'security threats were the most dominating factor in risk perception' | Page 2: 'SaaS providers may incur significant operating costs due to the fact that they have to invest in service and system capacity in order to guarantee availability of the service' | Page 5: 'in software renting, the negotiation costs and contract monitoring costs related to renting offset the benefits of other transaction cost advantages'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Offering parallel revenue models (both SaaS rental and traditional licensing) → Address security concerns and diverse customer needs → Avoid losing customers with specific requirements",
+				"Flexible software architecture supporting both models → Maintain technical efficiency → Enable customer choice without extra development work",
+				"Time-based price discrimination for pure-SaaS → Protect against low switching costs → Higher fees for short-term contracts, lower for long-term",
+				"Labor-intensive implementation for enterprise-SaaS → Create switching costs → Offset benefits of short-term renting and improve customer retention",
+				"Concurrent user-based pricing → Align costs with capacity requirements → Protect against increasing maintenance costs",
+				"Promoting rental model through pricing (making it cheaper than licensing) → Encourage cloud adoption → Reduce production costs",
+				"Multi-instance architecture for customization needs → Enable customer-specific features → Meet enterprise requirements while maintaining efficiency"
+			],
+			"synonyms_found": ["practices", "strategies", "solutions", "approaches"],
+			"source_citation": "Page 3: 'From the outset, the software architecture was designed to be compatible with both software renting and software licensing, depending on the customers' needs' | Page 3: 'We try to avoid traditional licensing by using a pricing model that makes the cloud model and software renting much cheaper for the customer' | Page 5: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs. Hence, the fee for a short-term rent agreement was higher than for a long-term contract' | Page 5: 'enterprise-SaaS providers (Firms C and D) seem to protect their business against low switching costs by using separate pricing for the implementation work. The implementation of their software required so much labor-intensive project work that customers' switching costs increased' | Page 4: 'The multi-instance approach makes it possible to add customers' own furniture elements to the software within the meta-data layer'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"Metric": "Number of case firms studied",
+					"Value": "4",
+					"Unit": "firms",
+					"Period": "Study period",
+					"Method": "Multiple case study",
+					"Source": "Research methodology"
+				},
+				{
+					"Metric": "Total interviews conducted",
+					"Value": "32",
+					"Unit": "interviews",
+					"Period": "Study period",
+					"Method": "Semi-structured open-ended interviews",
+					"Source": "Data collection"
+				},
+				{
+					"Metric": "Interviews per firm",
+					"Value": "6-10",
+					"Unit": "interviews",
+					"Period": "Study period",
+					"Method": "In-depth interviews",
+					"Source": "Data collection"
+				},
+				{
+					"Metric": "Interview duration",
+					"Value": "45-90",
+					"Unit": "minutes",
+					"Period": "Per interview",
+					"Method": "Face-to-face interviews",
+					"Source": "Data collection"
+				},
+				{
+					"Metric": "Revenue sharing ratio (Firm B example)",
+					"Value": "2:2:1",
+					"Unit": "dollar ratio (portal:content owner:provider)",
+					"Period": "Per $5 content",
+					"Method": "Business model",
+					"Source": "Firm B case"
+				},
+				{
+					"Metric": "Customer preference for cloud (Firm D)",
+					"Value": "90",
+					"Unit": "percent",
+					"Period": "First six months",
+					"Method": "Customer adoption data",
+					"Source": "Firm D case"
+				},
+				{
+					"Metric": "Minimum rental agreement (Firm A)",
+					"Value": "3",
+					"Unit": "months",
+					"Period": "Minimum contract",
+					"Method": "Pricing policy",
+					"Source": "Firm A case"
+				},
+				{
+					"Metric": "Initial rental agreement (Firm D)",
+					"Value": "3",
+					"Unit": "years",
+					"Period": "Initial contract",
+					"Method": "Pricing policy",
+					"Source": "Firm D case"
+				}
+			],
+			"synonyms_found": [
+				"interviews",
+				"firms",
+				"customers",
+				"revenue sharing",
+				"percent",
+				"agreement length"
+			],
+			"source_citation": "Page 2: 'Altogether, 6–10 interviews per firm were conducted, each lasting 45–90 minutes. Thus, altogether 32 semi-structured open-ended interviews were carried out for this study' | Page 3-4: 'It is based on revenue sharing between three players, the content owner, a portal, and ourselves –all sharing the content revenue. If the content is [equivalent to] five dollars, we share it so that there are two dollars for the portal, and two dollars for the content owner, and one for us' | Page 4: 'It became clear that 90 percent of our customers wanted to use this through a public cloud' | Page 3: 'Agreements were commonly made for at least three months' | Page 4: 'The initial rental agreement was for three years'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Growing maturity - Study published 2014, examining firms established between 1998-2008; SaaS evolved from ASP in late 1990s; market showing transition from traditional licensing to cloud-based rental models with increasing adoption",
+			"synonyms_found": [
+				"established",
+				"evolution",
+				"recent",
+				"currently",
+				"emerging"
+			],
+			"source_citation": "Page 1: '2014 IEEE 6th International Conference on Cloud Computing Technology and Science' | Page 1-2: 'The SaaS model evolved from Application Service Provisioning (ASP) in the late 1990s' | Page 3: 'Firm A... established in 1998, acted purely as a service firm until 2009, when it started to develop its own software product' | Page 3: 'Firm B, established in 2000' | Page 4: 'Firm C was launched in 2008' | Page 4: 'Firm D was established in 2006' | Page 1: 'software renting is becoming more frequent in the new era of computing'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Multiple cases",
+			"synonyms_found": [
+				"multiple case study",
+				"case study methodology",
+				"four case firms"
+			],
+			"source_citation": "Page 2: 'this study applied a multiple case study methodology similar to the approaches presented by Eisenhardt [25] and Yin [26]' | Page 2: 'The research setting for this study consisted of four software firms that acted as SaaS providers'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Firm A → Anonymous telecom planning and optimization software provider, established 1998, offers both SaaS rental and traditional licensing with multi-instance architecture",
+				"Firm B → Anonymous interactive gaming platform provider, established 2000, provides games-on-demand with multi-tenant architecture using revenue sharing model",
+				"Firm C → Anonymous enterprise-SaaS provider for access rights management, launched 2008 as spin-off, serves financial institutions and government with both rental and licensing options",
+				"Firm D → Anonymous 3D modeling software provider for furniture industry, established 2006 as spin-off, uses pure rental model with multi-instance architecture, 90% customers prefer cloud"
+			],
+			"synonyms_found": ["Firm A", "Firm B", "Firm C", "Firm D", "case firms"],
+			"source_citation": "Page 3: 'Firm A develops planning and optimization software for telecom operators. The firm, established in 1998, acted purely as a service firm until 2009' | Page 3: 'Firm B, established in 2000, provides interactive gaming platforms and games-on-demand services, using multi-tenant software architecture' | Page 4: 'Firm C was launched in 2008 as a spin-off from a software service firm that provides consulting services related to identity management. Currently, Firm C develops enterprise-SaaS for access rights management' | Page 4: 'Firm D was established in 2006 as a spin-off from a larger software firm. It develops 3D modeling software for furniture manufacturers and furniture retailers as enterprise-SaaS'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Pure-SaaS → Software that is simple to use with low/no customization requirements and lower strategic significance in customer business processes (e.g., office systems); uses time-based price discrimination for switching cost protection",
+				"Enterprise-SaaS → Complex software requiring support and integration with customer IT systems; higher strategic significance; uses labor-intensive implementation to create switching costs",
+				"Software Renting (Subscription) → Temporary usage rights with monthly/periodic fees; various pricing bases (user-based, usage-dependent, time-based, version-based, quantity-based)",
+				"Traditional Software Licensing → Perpetual license with full ownership rights for internal data center deployment; one-time purchase or concern license for unlimited internal use",
+				"Hybrid Model → Offering both rental and licensing options from same software architecture based on customer needs",
+				"Multi-tenant Architecture → Single instance serving multiple customers (tenants) on shared server",
+				"Multi-instance Architecture → Separate instances for each customer within shared hardware; enables customization in meta-data layer"
+			],
+			"synonyms_found": [
+				"pure-SaaS",
+				"enterprise-SaaS",
+				"software renting",
+				"traditional licensing",
+				"multi-tenant",
+				"multi-instance"
+			],
+			"source_citation": "Page 2: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes. Pure SaaS refers to software that is simple to use and has low or no requirements for customization... pure-SaaS products also have lower strategic significance in a customer's business processes compared to enterprise-SaaS products... Enterprise-SaaS, on the other hand, refers to software which is more complex and which may require support, involving integration with customers' existing IT systems' | Page 2: 'SaaS has multi-tenant or multi-instance architecture; the former refers to the situation in which a vendor hosts a single instance on a server that serves multiple customers (tenants), whereas the latter is related to the model in which a vendor hosts separate instances for each customer within shared hardware' | Page 5: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs... enterprise-SaaS providers (Firms C and D) seem to protect their business against low switching costs by using separate pricing for the implementation work'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Increasing adoption of software renting over traditional licensing in the cloud computing era",
+				"Movement from ASP single-tenant architecture to SaaS multi-tenant/multi-instance models",
+				"Firms transitioning toward rental models from traditional licensing (e.g., Firm C moving towards rental despite most customers initially buying licenses)",
+				"Growing importance of flexible pricing strategies to attract diverse customer segments",
+				"Shift from licensing-only to hybrid models offering both rental and licensing options",
+				"Expansion of customer base from large enterprises to small and medium-sized customers through lower initial costs"
+			],
+			"synonyms_found": [
+				"becoming more frequent",
+				"moving towards",
+				"evolution",
+				"transition"
+			],
+			"source_citation": "Page 1: 'a number of studies have suggested that software renting is becoming more frequent in the new era of computing, in which software is delivered via the SaaS model' | Page 1-2: 'The SaaS model evolved from Application Service Provisioning (ASP) in the late 1990s' | Page 4: 'although most of the customers bought the license, the firm was moving towards a rental model on the grounds that an SaaS rental model decreased production costs' | Page 5: 'Low initial costs in software renting enabled to expand the customer base from large-sized customers toward small and medium-sized customers'",
+			"confidence_level": "high"
+		}
+	]
+}

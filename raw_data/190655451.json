@@ -1,0 +1,443 @@
+{
+	"extraction_metadata": {
+		"article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+		"extraction_date": "2025-10-08"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Modeling & Simulation as a Service (MSaaS) business model. Definition: A cloud-based service delivery model that enables simulation software vendors and providers to offer simulation applications through the cloud to end-users, allowing users to consume simulation services without having to install or maintain simulation software locally, with the ability to scale up seamlessly as the number of end-users and complexity of simulation tasks increase.",
+			"synonyms_found": [
+				"MSaaS",
+				"Modeling & Simulation as a Service",
+				"cloud-based simulation services"
+			],
+			"source_citation": "Page 1: 'Modeling & Simulation as a Service (MSaaS) therefore enables simulation software vendors and providers to offer simulation applications through the cloud to their end-users. The user can consume simulation services without having to install or maintain the simulation software locally. The solution can also scale up seamlessly as the number of end-users and/or the complexity of the simulation tasks increase' | Page 3: 'Modeling & Simulation as a Service (MSaaS) is emerging as term that describes the development of cloud-based software services for M&S applications'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": "M&S as a Service, cloud-based simulation services, simulation as a service, cloud computing for simulation",
+			"synonyms_found": [
+				"M&S as a Service",
+				"cloud-based simulation services",
+				"simulation as a service",
+				"cloud computing for simulation"
+			],
+			"source_citation": "Page 3: 'M&S as a Service (MSaaS) is a means of delivering value to customers to enable or support modelling and simulation (M&S) user applications' | Page 1: 'cloud-based systems supporting M&S as a Service (MSaaS)' | Page 3: 'cloud-based software services for M&S applications'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Manufacturing and engineering industries, including oil and gas, engine design, UAV design, general purpose manufacturing, food supply chain, port logistics, shoe insole manufacturing, and inventory control",
+			"synonyms_found": [
+				"manufacturing",
+				"engineering",
+				"oil and gas",
+				"supply chain"
+			],
+			"source_citation": "Page 4: 'The project is industry-based and focuses on four key areas of M&S: Computational Fluid Dynamics, process (discrete-event) simulation, 3D modeling and data analytics...The domains covered by the project include oil and gas industries, engine design and manufacturing, UAV design, general purpose manufacturing, food supply chain, port logistics, shoe insole manufacturing, and inventory control' | Page 5: 'The manufacturing and engineering market (the focus of the CloudSME project) is a rather heterogeneous market'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B SMB (Small and Medium Enterprises in manufacturing and engineering), with specific focus on SMEs",
+			"synonyms_found": ["SMEs", "manufacturing SMEs", "engineering SMEs"],
+			"source_citation": "Page 5: 'The manufacturing and engineering market (the focus of the CloudSME project) is a rather heterogeneous market in terms of their activities and products...fabricated metal, electrical parts, minerals, food, paper, textile, furniture and others' | Page 8: 'This paper has presented business models that have been created based on experiences in the CloudSME project. The project focuses on SMEs in manufacturing and engineering who both use and provide simulation services' | Page 5: 'Note that most of the companies in the project are SMEs'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Small and Medium Enterprises (SMEs), with some larger companies like EUROBIOS (French-based company) and ASCOMP providing simulation software",
+			"synonyms_found": ["SMEs", "Small and Medium Enterprises"],
+			"source_citation": "Page 5: 'Note that most of the companies in the project are SMEs' | Page 6: 'EUROBIOS is a French-based company specializing in industrial complexity analysis' | Page 6: 'They are using ASCOMP's TransAT Computational Fluid Dynamic software'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Europe (EU FP7 project), with specific mentions of UK (University of Westminster, Brunel University), Switzerland (CloudBroker), Hungary (MTA SZTAKI), Spain (BIFI), France (EUROBIOS)",
+			"synonyms_found": [
+				"Europe",
+				"EU",
+				"UK",
+				"Switzerland",
+				"Hungary",
+				"Spain",
+				"France"
+			],
+			"source_citation": "Page 1: 'University of Westminster, London, WI W 6UW, UNITED KINGDOM' | Page 1: 'BruneI University London, Kingston Lane, Uxbridge, UB8 3PH, UNITED KINGDOM' | Page 1: 'CloudBroker GmbH, Raffelstrasse 25 CH-8045, Zurich, SWITZERLAND' | Page 4: 'The CSSP uses multiple IaaS clouds provided by MT A SZT AKI (Hungary), BIFI (Spain), University of Westminster (UK), CloudSigma (Switzerland) and Amazon' | Page 6: 'EUROBIOS is a French-based company'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "End-user companies from manufacturing and engineering sector, specifically categorized as: end-users who already utilize simulation technologies and end-users for whom simulation solutions are novel",
+			"synonyms_found": [
+				"end-users",
+				"manufacturing companies",
+				"engineering companies",
+				"simulation end-users"
+			],
+			"source_citation": "Page 5: 'At one end of this chain, there exist the end-user companies from the manufacturing and engineering sector. In the CloudSME project, these companies are represented as two distinct categories: end-users who already utilize simulation technologies and end-users for whom simulation solutions are novel' | Page 5: 'The manufacturing and engineering market (the focus of the CloudSME project) is a rather heterogeneous market'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Platform (CloudSME Simulation Platform - PaaS), Application (simulation software as SaaS), Infrastructure (IaaS cloud resources), API (application programming interfaces)",
+			"synonyms_found": [
+				"platform",
+				"PaaS",
+				"SaaS",
+				"IaaS",
+				"APIs",
+				"simulation applications"
+			],
+			"source_citation": "Page 4: 'The main technology is the CloudSME Simulation Platform (CSSP) (shown in Figure 1), a PaaS that supports service provision, High Performance Computing (HPC) and multi-cloud deployment' | Page 2: 'Cloud consumers (users) typically can access all three services via a web interface or some language supported API' | Page 4: 'Software requiring cloud deployment and/or HPC is redeveloped on the CSSP as SaaS, hosted by the CSSP PaaS and uses clouds made available through IaaS'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Multi-tenant SaaS (cloud-based on-demand delivery), with options for Private clouds, Community clouds, Public clouds, and Hybrid clouds",
+			"synonyms_found": [
+				"cloud",
+				"on-demand",
+				"SaaS",
+				"private clouds",
+				"public clouds",
+				"hybrid clouds"
+			],
+			"source_citation": "Page 2: 'These include Private clouds (accessed only by the users of a single organization via private networks), Community clouds (an extension of a private cloud accessed by more than one organization with common interests), Public clouds (accessible by the general public and supported by an infrastructure provider), and Hybrid clouds (a combination of two or all three of the above)' | Page 2: 'Users and applications can instantly access and release on-demand computational assets, storage, other service applications, etc. depending on their changing needs'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Usage/consumption (pay-per-use model), Subscription (annual license), Transaction (AppCenter takes percentage before paying application owner), Support (customer support services)",
+			"synonyms_found": [
+				"pay-per-use",
+				"annual license",
+				"percentage",
+				"customer support"
+			],
+			"source_citation": "Page 7: 'The AppCenter provider charges the end-users and takes a certain percentage before paying the application owner' | Page 8: 'end-users are charged at the point of use by the simulation software providers (or via license, for example)' | Page 8: 'to be charged on an appropriate basis (pay-per-use, annual license, etc.)' | Page 8: 'Users register at a one-stop-shop and use the software. Depending on the company, users either need to pay up front or are invoiced later for use'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Computing time (cloud resource usage), API calls (implied from cloud platform usage)",
+			"synonyms_found": [
+				"cloud resource usage",
+				"computing time",
+				"platform usage"
+			],
+			"source_citation": "Page 8: 'This in turn uses the CSSP which has internal charging mechanisms that are used to track a user's use of a given cloud infrastructure' | Page 2: 'Users and applications can instantly access and release on-demand computational assets, storage, other service applications, etc. depending on their changing needs' | Page 8: 'collect revenue based on both platform and infrastructure use'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": "Pay-as-you-go (pay-per-use), Annual contract (annual license), Prepaid credits (pay up front), Custom negotiation (invoiced later based on company)",
+			"synonyms_found": [
+				"pay-per-use",
+				"annual license",
+				"pay up front",
+				"invoiced later"
+			],
+			"source_citation": "Page 8: 'to be charged on an appropriate basis (pay-per-use, annual license, etc.)' | Page 8: 'Users register at a one-stop-shop and use the software. Depending on the company, users either need to pay up front or are invoiced later for use' | Page 8: 'end-users are charged at the point of use by the simulation software providers'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform (connecting simulation software providers with end-users), Marketplace (AppCenter for simulation applications), OEM component (CloudSME platform as PaaS infrastructure)",
+			"synonyms_found": [
+				"two-sided platform",
+				"marketplace",
+				"AppCenter",
+				"PaaS"
+			],
+			"source_citation": "Page 6: 'A simulation software provider (vendor or consultant) may decide not to develop a specialized one-stop-shop solution but rather use the CloudSME AppCenter to offer its software as a service offering directly' | Page 6: 'The SaaS solution will be directly executed from the CloudSME AppCenter' | Page 4: 'The CSSP is an example of a PaaS that facilitates access to one or more IaaS' | Page 6: 'These are being presented as one-stop-shops that the developers are using as gateways for their users to access their software'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Cross-sided (more simulation applications attract more end-users, more end-users attract more simulation providers), Data (more usage creates better platform and service quality)",
+			"synonyms_found": ["network effects", "platform usage"],
+			"source_citation": "Page 7: 'The benefit to the simulation developer is new business offerings that could give access to new markets, new products and a major competitive edge' | Page 8: 'This in turn uses the CSSP which has internal charging mechanisms that are used to track a user's use of a given cloud infrastructure' | Page 6: 'The advantage of this solution is that setting up the offering is quicker and requires much fewer resources'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Product-led Growth (AppCenter marketplace), Direct sales (specialized one-stop-shops), Partners/channels (simulation consultancies as multipliers), Digital marketing (domain specific marketing channels)",
+			"synonyms_found": [
+				"AppCenter",
+				"one-stop-shops",
+				"consultancies",
+				"marketing channels"
+			],
+			"source_citation": "Page 6: 'Can be advertised via domain specific channels, but can also be directly linked to the CloudSME marketplace' | Page 5: 'Companies that develop their simulation software as MSaaS and simulation consultancies that use these software services (i.e., simulation consultancies act as multipliers that offer the simulation solutions of various vendors)' | Page 6: 'These are being presented as one-stop-shops that the developers are using as gateways for their users to access their software'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes. CloudSME AppCenter (proprietary marketplace), and integration with multiple IaaS providers (Amazon, CloudSigma, MTA SZTAKI, BIFI, University of Westminster)",
+			"synonyms_found": [
+				"AppCenter",
+				"CloudSME marketplace",
+				"Amazon",
+				"CloudSigma"
+			],
+			"source_citation": "Page 4: 'The CSSP uses multiple IaaS clouds provided by MT A SZT AKI (Hungary), BIFI (Spain), University of Westminster (UK), CloudSigma (Switzerland) and Amazon' | Page 6: 'the CloudSME AppCenter to offer its software as a service offering directly' | Page 6: 'The SaaS solution will be directly executed from the CloudSME AppCenter' | Page 6: 'but can also be directly linked to the CloudSME marketplace'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Value Proposition: Cloud-based simulation services without capital investment, scalable computing power, rapid elasticity, access to state-of-the-art hardware and software. Customer Segment: Manufacturing and engineering SMEs, simulation software vendors, simulation consultancies, end-users (existing and novel simulation users). Channels: AppCenter marketplace, specialized one-stop-shops, domain specific marketing channels, simulation consultancies. Relationship: Customer support for different stakeholder levels, one-stop-shop responsibility model. Revenue Streams: Pay-per-use, annual licenses, percentage-based marketplace fees, upfront payments. Key Resources: CloudSME Simulation Platform (CSSP), WS-PGRADE/gUSE, CloudBroker Platform, multi-cloud IaaS resources. Key Activities: Platform development, simulation application hosting, multi-cloud management, customer support. Key Partnerships: MTA SZTAKI, CloudBroker, BIFI, University of Westminster, simulation software vendors, IaaS providers. Cost Structure: Cloud infrastructure costs, platform development and maintenance, customer support operations.",
+			"synonyms_found": [
+				"business model",
+				"stakeholders",
+				"revenue",
+				"customer support"
+			],
+			"source_citation": "Page 5: 'Within the CloudSME project there are four stakeholder groups...End-users: At one end of this chain, there exist the end-user companies from the manufacturing and engineering sector...Simulation software providers: There are two kinds of simulation software providers...Cloud platform providers: Next group in this chain are the cloud platform providers...Cloud resource providers: Finally, the simulation platform requires cloud-based hardware resources' | Page 6: 'The one-stop-shop provider charges the end-users and provides full customer support' | Page 7: 'The benefit to the end-user is potentially cheaper, more accessible simulation technologies'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": "End-users (Manufacturing/Engineering SMEs) | Consume simulation services | Pay simulation providers or platform directly | Use simulation results for business decisions. Simulation Software Providers | Develop and provide MSaaS solutions | Use CloudSME platform, pay platform fees | Compete with other providers, collaborate with consultancies. Simulation Consultancies | Act as multipliers offering various vendors' solutions | Use simulation services, provide consultancy | Partner with software vendors, serve end-users. Cloud Platform Providers (CloudBroker, SZTAKI) | Provide PaaS infrastructure and support | Charge platform usage fees, provide technical support | Manage relationships with IaaS providers. Cloud Resource Providers (Amazon, CloudSigma, etc.) | Provide IaaS infrastructure | Receive payment for resource usage | Compete for platform business. AppCenter/One-stop-shop Operators | Provide marketplace and customer interface | Take percentage of transactions, provide customer support | Aggregate multiple simulation services for end-users.",
+			"synonyms_found": [
+				"end-users",
+				"simulation providers",
+				"consultancies",
+				"platform providers",
+				"cloud providers"
+			],
+			"source_citation": "Page 5: 'Within the CloudSME project there are four stakeholder groups...End-users: At one end of this chain, there exist the end-user companies from the manufacturing and engineering sector...Simulation software providers: There are two kinds of simulation software providers. Companies that develop their simulation software as MSaaS and simulation consultancies that use these software services (i.e., simulation consultancies act as multipliers that offer the simulation solutions of various vendors)...Cloud platform providers: Next group in this chain are the cloud platform providers...Cloud resource providers: Finally, the simulation platform requires cloud-based hardware resources' | Page 6: 'The commercial relationship is therefore EUROBIOS using ASCOMP's software that uses the CSSP developed by multiple stakeholders that uses (say) Amazon cloud resources'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Access to state-of-the-art hardware and software without capital investment; Flexible service provision and scalable computing power; Rapid elasticity and ability to scale up/down according to workload; Potentially cheaper and more accessible simulation technologies; New business offerings giving access to new markets and competitive edge; Reduced time for experimentation through parallel computing; Ability to handle computation intensive simulations without local infrastructure; Cost-effective access to high performance computing resources on-demand.",
+			"synonyms_found": [
+				"capital investment",
+				"scalable computing",
+				"competitive edge",
+				"new markets"
+			],
+			"source_citation": "Page 1: 'The underlying concept of using computing power as a utility is very attractive to users that can access state-of-the-art hardware and software without capital investment' | Page 1: 'cloud computing characteristics of rapid elasticity and the ability to scale up or down according to workload make it very attractive to numerous applications including M&S' | Page 7: 'The benefit to the end-user is potentially cheaper, more accessible simulation technologies. The benefit to the simulation developer is new business offerings that could give access to new markets, new products and a major competitive edge' | Page 3: 'Many M&S applications run simulations of the same model with different parameters...time for experimentation can be reduced significantly by hiring more cloud-based computing resources'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Simplified customer interface (one-stop-shops and AppCenter) → enables user identification and charging. Single point of charging → avoids complex point-to-point relationships with multiple stakeholders. Flexible business model options → accommodates different stakeholder needs and market segments. Multi-cloud support → provides flexibility and cost optimization. Strong stakeholder partnerships → ensures business benefits for all participants. Platform scalability → handles varying workload demands. Customer support at appropriate levels → maintains user satisfaction. Revenue distribution mechanisms → ensures fair compensation across value chain. Market segmentation → addresses heterogeneous manufacturing and engineering markets. Technology abstraction → hides cloud complexity from end-users.",
+			"synonyms_found": [
+				"one-stop-shops",
+				"AppCenter",
+				"stakeholder partnerships",
+				"scalability"
+			],
+			"source_citation": "Page 8: 'What is common to all the business models discussed in this paper is the need to collect revenue based on both platform and infrastructure use. In some ways this reinforced the need for an identified entry point to the MSaaS application to enable end-users to be identified and then to be charged on an appropriate basis...This partially motivated the development of the one-stop-shop application specific portals and the general AppCenter' | Page 5: 'The business venture is based on close partnership and collaboration amongst a number of key stakeholders' | Page 7: 'The benefit to the end-user is potentially cheaper, more accessible simulation technologies' | Page 8: 'this both simplifies charging mechanisms and enables end-users to be presented with a single point of charging rather than point-to-point relationships with the many stakeholders'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Cloud infrastructure availability → enables scalable computing resources. PaaS platform development → provides service deployment environment. Multi-cloud support capabilities → ensures flexibility and redundancy. User registration and identification system → enables charging and tracking. Customer support mechanisms → maintains service quality. Revenue distribution framework → ensures stakeholder compensation. Market segmentation understanding → addresses heterogeneous customer needs. Technology abstraction layer → simplifies cloud complexity for end-users. Stakeholder collaboration agreements → enables multi-party business models. Platform scalability architecture → handles varying demand patterns.",
+			"synonyms_found": [
+				"cloud infrastructure",
+				"PaaS platform",
+				"multi-cloud",
+				"user registration"
+			],
+			"source_citation": "Page 4: 'The CSSP uses multiple IaaS clouds provided by MT A SZT AKI (Hungary), BIFI (Spain), University of Westminster (UK), CloudSigma (Switzerland) and Amazon' | Page 4: 'The main technology is the CloudSME Simulation Platform (CSSP) (shown in Figure 1), a PaaS that supports service provision, High Performance Computing (HPC) and multi-cloud deployment' | Page 8: 'Users register at a one-stop-shop and use the software' | Page 5: 'The business venture is based on close partnership and collaboration amongst a number of key stakeholders'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Complex stakeholder relationships → requires multiple contracts and revenue distribution mechanisms. End-user technical knowledge variations → need different access methods for different user levels. Market heterogeneity → some sectors cannot support pay-per-use models. Platform complexity → end-users should not need to understand different cloud infrastructure providers and charging mechanisms. Revenue distribution complexity → multiple stakeholders require fair compensation mechanisms. Customer support complexity → different support levels needed for different stakeholder interactions. Business model flexibility requirements → one business model insufficient for all use cases. Commercial relationship complexity → simulation vendor would need at least five different contracts with stakeholders.",
+			"synonyms_found": [
+				"complexity",
+				"heterogeneity",
+				"stakeholder relationships"
+			],
+			"source_citation": "Page 5: 'The multi-stakeholder nature of the CSSP offering adds complexity to the development of the business model as the platform needs to deliver business benefits to all participating stakeholders' | Page 5: 'End-user consumers have different levels of technical knowledge and therefore need access to MSaaS in different ways' | Page 5: 'some sectors cannot support pay-per-use models for example' | Page 8: 'Many of the MSaaS solutions that have been developed place the decision at the software vendor level and hide these details from the end-user (to simplify cloud use and maximize benefit)' | Page 8: 'A simulation software vendor would have to establish commercial relationships between all stakeholders that reflected their contribution to the specific MSaaS product offering. In some cases, this would have involved at least five different contracts with one software vendor'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Multi-stakeholder coordination complexity requiring business benefits for all participants. Varying business requirements for pricing, product delivery, and payment methods across stakeholders. Different end-user technical knowledge levels requiring different access methods. Manufacturing and engineering market heterogeneity with diverse activities and products. Revenue collection and distribution complexity across multiple stakeholders. Need for simplified charging mechanisms avoiding point-to-point relationships. Platform scalability requirements for varying workloads. Customer support complexity across different stakeholder levels. Technology abstraction requirements to hide cloud complexity from end-users. Market segmentation challenges due to industry diversity.",
+			"synonyms_found": [
+				"multi-stakeholder",
+				"heterogeneity",
+				"complexity",
+				"coordination"
+			],
+			"source_citation": "Page 5: 'Developing this business model is complex and challenging due to a number of factors: 1. The business venture is based on close partnership and collaboration amongst a number of key stakeholders. The multi-stakeholder nature of the CSSP offering adds complexity to the development of the business model as the platform needs to deliver business benefits to all participating stakeholders. 2. The simulation service providers have different offerings ranging from providing simulation software as a service and/or using a simulation software service as part of a consultancy. 3. The stakeholders have varying business requirements for pricing, product delivery, payment methods, etc. 4. End-user consumers have different levels of technical knowledge and therefore need access to MSaaS in different ways. 5. The manufacturing and engineering market (the focus of the CloudSME project) is a rather heterogeneous market in terms of their activities and products'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "One-stop-shop portals → Simplifies customer interface and charging → Enables user identification and single point of payment. AppCenter marketplace → Provides unified access point → Reduces complexity for both providers and end-users. Single legal entity for platform stakeholders → Consolidates multiple contracts → Simplifies commercial relationships. Revenue distribution mechanisms → Ensures fair stakeholder compensation → Maintains platform sustainability. Technology abstraction → Hides cloud complexity from end-users → Improves user experience. Flexible business model options → Accommodates different stakeholder needs → Enables market segmentation. Customer support at appropriate levels → Maintains service quality → Ensures user satisfaction. Multi-cloud support → Provides redundancy and cost optimization → Reduces vendor lock-in risks.",
+			"synonyms_found": [
+				"one-stop-shop",
+				"AppCenter",
+				"single legal entity",
+				"revenue distribution"
+			],
+			"source_citation": "Page 8: 'This partially motivated the development of the one-stop-shop application specific portals and the general AppCenter. Users register at a one-stop-shop and use the software' | Page 8: 'Instead, a simpler model was adopted that brought the stakeholders that provided and supported the platform together into a single legal entity. A single contract could then be issued between the platform company and the software vendor' | Page 8: 'this both simplifies charging mechanisms and enables end-users to be presented with a single point of charging rather than point-to-point relationships with the many stakeholders' | Page 8: 'Many of the MSaaS solutions that have been developed place the decision at the software vendor level and hide these details from the end-user (to simplify cloud use and maximize benefit)'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Stakeholder companies involved; 24; Count; Business model development process; CloudSME project | Business models developed; 5; Count; MSaaS implementation; CloudSME project | Stakeholder groups; 4; Count; CloudSME ecosystem; Project structure | IaaS cloud providers; 5; Count; Multi-cloud support; CSSP platform | Industrial domains covered; 8; Count; Project scope; CloudSME project | M&S application areas; 4; Count; Technical focus; Project specification | Contract complexity; 5+; Count; Stakeholder relationships; Business model analysis | Business model options per use case; 2; Count; Cloud extension scenarios; Desktop/web-based packages",
+			"synonyms_found": [
+				"24 companies",
+				"5 business models",
+				"4 stakeholder groups",
+				"5 IaaS providers"
+			],
+			"source_citation": "Page 6: 'In the CloudSME project MSaaS business models were developed iteratively using the input received from all stakeholders (24 companies)' | Page 6: 'During the discussions, five uses were identified each of which then served as the basis of a business model. These business models are as follows: 1. Specialized one-stop-shop for a specific industry 2. Specialized one-stop-shop for a specific company 3. Cloud extension to a desktop simulation package or a web-based simulation solution 4. Direct execution of the simulation software from the CloudSME AppCenter 5. The business model of the PaaS provider' | Page 5: 'Within the CloudSME project there are four stakeholder groups' | Page 4: 'The CSSP uses multiple IaaS clouds provided by MT A SZT AKI (Hungary), BIFI (Spain), University of Westminster (UK), CloudSigma (Switzerland) and Amazon'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Observed period: 2015 (Winter Simulation Conference publication), based on EU FP7 CloudSME project. Maturity status: Emerging. MSaaS is described as an emerging term and concept with ongoing development and refinement.",
+			"synonyms_found": ["emerging", "2015", "FP7 project"],
+			"source_citation": "Page 1: 'Proceedings of the 2015 Winter Simulation Conference' | Page 3: 'Modeling & Simulation as a Service (MSaaS) is emerging as term that describes the development of cloud-based software services for M&S applications' | Page 1: 'The European FP7 Cloud-based Simulation Platform for Manufacturing and Engineering (CloudSME) project' | Page 8: 'These business models are not an exhaustive list and new business models are being considered. Further business models and the evolution of those presented in this paper will be reported in future work'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Multiple cases (24 companies in CloudSME project), Expert opinion (stakeholder input and meetings), Secondary data analysis (literature review of MSaaS and cloud computing)",
+			"synonyms_found": [
+				"CloudSME project",
+				"24 companies",
+				"stakeholder input",
+				"literature review"
+			],
+			"source_citation": "Page 6: 'In the CloudSME project MSaaS business models were developed iteratively using the input received from all stakeholders (24 companies). This necessitated a number of meetings with the project partners, in groups or individually' | Page 6: 'Initially a group project meeting took place where initial ideas, requirements and constraints for the business model were brainstormed' | Page 3: 'Cayirci (2013) reviews technological issues relating to the direct deployment of MSaaS on a cloud including security, risk, and service composition' | Page 3: 'Other authors address technological architectures that have elements of cloud-based services supporting M&S'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": "EUROBIOS → French company specializing in industrial complexity analysis, uses ASCOMP's TransAT software. ASCOMP → Provides TransAT Computational Fluid Dynamic software deployed on CSSP. CloudBroker → Developed CloudBroker Platform (CBP) for multi-cloud management. MTA SZTAKI → Provides WS-PGRADE/gUSE and IaaS cloud resources. University of Westminster → Project coordinator and IaaS provider. Brunel University London → Coordinates industrial use cases. BIFI (Spain) → IaaS cloud provider. CloudSigma (Switzerland) → IaaS cloud provider. Amazon → IaaS cloud provider (Amazon Elastic Compute Cloud EC2). SIMUL8 → Discrete-event simulation software mentioned as COTS example. TransAT → ASCOMP's computational fluid dynamics software. WS-PGRADE/gUSE → Grid User Support Environment developed by MTA SZTAKI.",
+			"synonyms_found": [
+				"EUROBIOS",
+				"ASCOMP",
+				"CloudBroker",
+				"MTA SZTAKI",
+				"Amazon",
+				"SIMUL8",
+				"TransAT"
+			],
+			"source_citation": "Page 6: 'EUROBIOS is a French-based company specializing in industrial complexity analysis in a variety of application areas (www.eurobios.com). They are using ASCOMP's TransAT Computational Fluid Dynamic software deployed on different clouds via the CSSP' | Page 4: 'The CSSP uses multiple IaaS clouds provided by MT A SZT AKI (Hungary), BIFI (Spain), University of Westminster (UK), CloudSigma (Switzerland) and Amazon' | Page 4: 'WS-PGRADE/gUSE (Grid User Support Environment) developed by MTA SZTAKI (guse. hu)' | Page 3: 'A user application could be a COTS Simulation Package such as the discrete-event simulation software SIMUL8 or the ASCOMP's computational fluid dynamics software TransAT'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": "Specialized one-stop-shop for a specific industry → Target well-defined industry with template-based applications, full customer support responsibility. Specialized one-stop-shop for a specific company → Restricted version for one targeted company only, may be financially viable for heavy end-users. Cloud extension to desktop/web-based simulation package → Extends existing simulation products with built-in cloud access via CSSP. Direct execution from CloudSME AppCenter → Uses AppCenter marketplace directly, quicker setup with fewer resources but less customization. PaaS provider business model → Platform provider model facilitating wide range of MSaaS business models for customers.",
+			"synonyms_found": [
+				"specialized one-stop-shop",
+				"cloud extension",
+				"AppCenter",
+				"PaaS provider"
+			],
+			"source_citation": "Page 6: 'During the discussions, five uses were identified each of which then served as the basis of a business model. These business models are as follows: 1. Specialized one-stop-shop for a specific industry 2. Specialized one-stop-shop for a specific company 3. Cloud extension to a desktop simulation package or a web-based simulation solution 4. Direct execution of the simulation software from the CloudSME AppCenter 5. The business model of the PaaS provider' | Page 6: 'In this model the CloudSME simulation platform customer, typically a simulation software vendor or a simulation consultancy, offers a specialized one-stop-shop MSaaS solution for simulation end-users' | Page 6: 'This model can be regarded as a special restricted and closed version of the first model, specialized one-stop-shop for a specific industry' | Page 7: 'In this scenario, the CSSP customer is a simulation software vendor who extends its desktop or web services simulation product with built-in cloud access via the CSSP'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Business model evolution and refinement → New business models are being considered and existing ones will evolve, with future work planned to report on developments. Market expansion → MSaaS solutions becoming more sophisticated with chains of technological services involving PaaS and IaaS solutions. Platform sophistication → Development of more advanced cloud-based architectures supporting M&S applications. Industry adoption growth → Potential for wider adoption across manufacturing and engineering sectors as benefits become clearer. Technology integration → Continued integration of cloud computing with modeling and simulation applications. Service composition → Evolution towards more complex service chains and technological integrations.",
+			"synonyms_found": [
+				"evolution",
+				"future work",
+				"sophisticated",
+				"integration"
+			],
+			"source_citation": "Page 8: 'These business models are not an exhaustive list and new business models are being considered. Further business models and the evolution of those presented in this paper will be reported in future work' | Page 7: 'Modeling & Simulation as Service (MSaaS) enables simulation software vendors and providers to offer simulation applications through the cloud to their end-users. Solutions range from direct use of cloud resources by an application to using more sophisticated chains of technological services involving PaaS and IaaS solutions' | Page 7: 'The CloudSME Simulation Platform is an example of how PaaS and IaaS can be provided to support the creation of new products based on MSaaS offerings' | Page 8: 'Overall, we hope that these reflections will prove useful in identifying and simplifying potentially complex business relationships in the MSaaS business offerings'",
+			"confidence_level": "medium"
+		}
+	]
+}

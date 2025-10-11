@@ -1,0 +1,514 @@
+{
+	"extraction_metadata": {
+		"article_title": "Service-Centric Business Model in Cloud Environment",
+		"extraction_date": "2025-01-27"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Service-Centric Business Model in Cloud Environment - A cloud-enabled business model that describes the relatively stable logics of enterprises to do their business to create value for both customers and themselves in new business ecosystems based on cloud environment, transforming from product-centric to service-centric, value-oriented, and customer-based business models.",
+			"synonyms_found": [
+				"Service-Centric Business Model",
+				"Cloud Business Model",
+				"CBM",
+				"service-centric BM",
+				"cloud enabled BM"
+			],
+			"source_citation": "Page 1, Abstract: 'presents a specific service-centric business model' | Page 2, Section II: 'Cloud Business Model (short for CBM) is the cloud enabled BM which describes the relatively stable logics of enterprises to do their business to create value for both customers and themselves in the new business ecosystems based on cloud environment.' | Page 3, Section II: 'The CBM accelerates the appearance of the new networked business ecosystem and forces enterprises to redesign their existing business logics to improve their running businesses.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Cloud Business Model",
+				"CBM",
+				"service-centric BM",
+				"cloud enabled BM",
+				"service-oriented BM"
+			],
+			"synonyms_found": [
+				"Cloud Business Model",
+				"CBM",
+				"service-centric BM",
+				"cloud enabled BM",
+				"service-oriented BM"
+			],
+			"source_citation": "Page 2, Section II: 'Cloud Business Model (short for CBM) is the cloud enabled BM' | Page 3, Section II: 'Table I, Table II and table III also manifest that the CBM is a service centric BM.' | Page 1, Keywords: 'service-oriented; services centric'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Cloud Computing",
+			"synonyms_found": [
+				"cloud computing",
+				"cloud environment",
+				"cloud services",
+				"cloud platforms"
+			],
+			"source_citation": "Page 1, Abstract: 'Service-Centric Business Model in Cloud Environment' | Page 1, Section I: 'Under the influence of technology trends, most importantly cloud computing, current organizational business models (BMs) are being questioned' | Page 1, Keywords: 'cloud environment'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2B SMB",
+			"synonyms_found": ["enterprises", "organizations", "firms", "companies"],
+			"source_citation": "Page 1, Section I: 'As the adoption of cloud services and cloud platforms takes hold, an enterprise tends to run its whole business in the cloud environment [3].' | Page 2, Section II: 'The BM as an enterprise's foundation is often used to describe the key components of an existing business [21]'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Various sizes from small to large enterprises",
+			"synonyms_found": ["enterprises", "organizations", "firms", "companies"],
+			"source_citation": "Page 1, Section I: 'Organizations are gaining profit from not only the potential benefits of cloud computing [4], but the practical opportunities induced from cloud environment to adapt their existing BM for satisfying all the customers' demands.' | Page 7, Section V: 'companies from different industries in china are selected as the cases to be studied'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "China",
+			"synonyms_found": ["China", "Chinese"],
+			"source_citation": "Page 7, Section V: 'companies from different industries in china are selected as the cases to be studied' | Page 1, Author affiliation: 'Harbin Institute of Technology, Harbin, China'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Enterprises adapting to cloud environment",
+			"synonyms_found": ["enterprises", "organizations", "firms"],
+			"source_citation": "Page 1, Section I: 'Organizations are gaining profit from not only the potential benefits of cloud computing [4], but the practical opportunities induced from cloud environment to adapt their existing BM for satisfying all the customers' demands.' | Page 2, Section II: 'When companies decide to adopt a new BM or change an existing one, capturing and visualizing this new mode will help organizations easily improve the planning, change and implementation of their core businesses.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform", "Managed Service"],
+			"synonyms_found": [
+				"services",
+				"cloud services",
+				"cloud platforms",
+				"applications"
+			],
+			"source_citation": "Page 1, Section I: 'As the adoption of cloud services and cloud platforms takes hold' | Page 2, Section II: 'Cloud environment is a cloud computing based, cloud services or cloud platforms represented' | Page 3, Section II: 'Firms will provide differentiated services to satisfy user's needs by aggregating and utilizing distributed network resources efficiently and conveniently.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS", "Single-tenant cloud"],
+			"synonyms_found": [
+				"cloud environment",
+				"cloud services",
+				"cloud platforms",
+				"virtualized resources"
+			],
+			"source_citation": "Page 2, Section II: 'Cloud environment is a cloud computing based, cloud services or cloud platforms represented, and multi-technology (value network, Web service, virtualization, servitization, etc.) supported internet commerce environment' | Page 3, Section II: 'providing dynamically scalable and virtualized resources as services over the Internet.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Usage/consumption", "Subscription"],
+			"synonyms_found": [
+				"revenue streams",
+				"value creation",
+				"profit",
+				"economic value"
+			],
+			"source_citation": "Page 2, Section II: 'these technological advantages of cloud have already driven BM innovations which mainly in five significant aspects. These innovations can vastly facilitate an organization to easily generate additional revenue streams by enhancing, extending and inventing new customer value propositions and industry value chains.' | Page 3, Section II: 'Utility computing → Variable pricing model: Enterprises and customers can be charged based on consumption - buyers \"pay-per-use\" or \"Pay-As-You-Go\".'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Usage/consumption",
+			"synonyms_found": ["consumption", "usage", "pay-per-use"],
+			"source_citation": "Page 3, Section II: 'Utility computing → Variable pricing model: Enterprises and customers can be charged based on consumption - buyers \"pay-per-use\" or \"Pay-As-You-Go\".'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Pay-as-you-go", "Custom negotiation"],
+			"synonyms_found": [
+				"pay-per-use",
+				"Pay-As-You-Go",
+				"variable pricing",
+				"flexible pricing"
+			],
+			"source_citation": "Page 3, Section II: 'Utility computing → Variable pricing model: Enterprises and customers can be charged based on consumption - buyers \"pay-per-use\" or \"Pay-As-You-Go\".' | Page 4, Section III: 'The pricing model depicts pricing formats related to profit distribution within partners.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Two-sided platform",
+			"synonyms_found": [
+				"value network",
+				"ecosystem",
+				"partnership",
+				"collaboration"
+			],
+			"source_citation": "Page 2, Section II: 'Ecosystem connectivity → Realizing multi-party cooperative and collaboration: Companies can facilitate collaboration with partners and customers, which can lead to improvements in productivity and increased innovation.' | Page 4, Section III: 'The value network class describes social and technical resources transactions and operations within and between organizations towards the organizational framework in value configuration by a cross-organizational analysis perspective.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Data (more data = better product)",
+			"synonyms_found": [
+				"network effect",
+				"ecosystem connectivity",
+				"collaboration"
+			],
+			"source_citation": "Page 2, Section II: 'Ecosystem connectivity → Realizing multi-party cooperative and collaboration: Companies can facilitate collaboration with partners and customers, which can lead to improvements in productivity and increased innovation.' | Page 3, Section II: 'Context-driven variability → Intellectualization information processing: Companies can analyze user behaviors, historical data to find solutions to improving products/services.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Direct sales"],
+			"synonyms_found": ["value proposition", "customer segments", "market"],
+			"source_citation": "Page 4, Section III: 'The value proposition class with four elements describes what the value is delivered by organizations to customers. It implies a description of the services that organizations offer, or will offer, along with their related information about the nature of customer and market along with their preferences.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes",
+			"synonyms_found": [
+				"cloud platforms",
+				"cloud services",
+				"cloud environment"
+			],
+			"source_citation": "Page 1, Section I: 'As the adoption of cloud services and cloud platforms takes hold, an enterprise tends to run its whole business in the cloud environment [3].' | Page 2, Section II: 'Cloud environment is a cloud computing based, cloud services or cloud platforms represented'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Standardized service delivery and value-added services",
+				"Customer Segment: Individuals/groups who can access the cloud",
+				"Channels: Uniform online and offline channel based on cloud",
+				"Relationship: Long-term interaction with the life cycle of products or services",
+				"Revenue Streams: Value-driven revenue model",
+				"Key Resources: Distributed resources and capabilities",
+				"Key Activities: Well-integrated process",
+				"Key Partnerships: Value network with efficient coordination",
+				"Cost Structure: Operational expenditure"
+			],
+			"synonyms_found": [
+				"value proposition",
+				"customer segments",
+				"channels",
+				"relationships",
+				"revenue streams",
+				"resources",
+				"activities",
+				"partnerships",
+				"cost structure"
+			],
+			"source_citation": "Page 4, Table IV: 'FEATURES CHANGE ON DIFFERENT BUSINESS MODEL' showing detailed comparison between Previous BM and CBM across all nine building blocks | Page 4, Section III: 'The CBM expresses a more efficient and flexible way of doing business and can make enterprises create new revenue streams by enhancing and extending their value propositions, and improving and transforming industry value chains'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": "Enterprises | Service provision and value creation | Provide standardized services and value-added services | Collaborate through value networks | Customers | Service consumption | Access cloud services | Receive value through service delivery | Partners | Resource sharing and collaboration | Share resources and capabilities | Participate in value network | Cloud providers | Infrastructure provision | Provide cloud platforms and services | Enable service delivery",
+			"synonyms_found": [
+				"enterprises",
+				"customers",
+				"partners",
+				"cloud providers",
+				"value network",
+				"ecosystem"
+			],
+			"source_citation": "Page 4, Section III: 'The value network class describes social and technical resources transactions and operations within and between organizations towards the organizational framework in value configuration by a cross-organizational analysis perspective.' | Page 2, Section II: 'Ecosystem connectivity → Realizing multi-party cooperative and collaboration: Companies can facilitate collaboration with partners and customers, which can lead to improvements in productivity and increased innovation.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Cost flexibility and optimized cost structure",
+				"Business scalability and efficient access to business capability",
+				"Market adaptability and quick response to market demands",
+				"Context-driven variability and intellectualization information processing",
+				"Ecosystem connectivity and multi-party cooperation",
+				"Resource optimization and efficient aggregation",
+				"Service standardization and servitization"
+			],
+			"synonyms_found": [
+				"cost flexibility",
+				"business scalability",
+				"market adaptability",
+				"ecosystem connectivity",
+				"resource optimization",
+				"service standardization"
+			],
+			"source_citation": "Page 2, Table I: 'BUSINESS EVOLUTIONS ENABLED BY CLOUD' showing technological advantages and business evolutions | Page 2, Section II: 'The cloud becomes a mainstream in current the business ecosystem for organizations not only to enhance internal and external efficiencies and cost reduction, but also to target more strategic business capabilities.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Cost flexibility → Optimized cost structure and reduced capital investment",
+				"Business scalability → Efficient access to business capability and elastic provisioning",
+				"Market adaptability → Quick response to market demands and new delivery channels",
+				"Ecosystem connectivity → Multi-party cooperation and collaboration",
+				"Service standardization → Standardized service delivery and value-added services",
+				"Resource optimization → Efficient aggregation and redistribution of resources"
+			],
+			"synonyms_found": [
+				"cost flexibility",
+				"business scalability",
+				"market adaptability",
+				"ecosystem connectivity",
+				"service standardization",
+				"resource optimization"
+			],
+			"source_citation": "Page 2, Table I: 'BUSINESS EVOLUTIONS ENABLED BY CLOUD' showing how technological advantages enable business innovations | Page 2, Section II: 'These technological advantages enables firms' make several business innovations (see Table I) which are unreal under the limit of traditional IT solutions.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Cloud technological advantages → Business model innovation",
+				"Service standardization → Service delivery capability",
+				"Value network formation → Multi-party cooperation",
+				"Resource virtualization → Efficient resource utilization",
+				"Distributed computing → Resource aggregation and sharing",
+				"Internet/Web services → Multi-organizational coordination"
+			],
+			"synonyms_found": [
+				"cloud technological advantages",
+				"service standardization",
+				"value network",
+				"resource virtualization",
+				"distributed computing",
+				"internet/web services"
+			],
+			"source_citation": "Page 2, Section II: 'From the perspective of the relationship between IT and business operation, cloud has six essential technological advantages or cloud business enablers being used to power business model innovation [9].' | Page 3, Table III: 'INSPIRATIONS DERIVED FROM CLOUD BASIC TECHNIQUES' showing prerequisites from basic technologies",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Traditional IT limitations → Unreal business innovations",
+				"Product-centric approach → Limited service delivery",
+				"Fixed roles in supply chain → Inefficient coordination",
+				"Capital expenditure model → Higher initial costs",
+				"One-off transactions → Limited long-term value"
+			],
+			"synonyms_found": [
+				"traditional IT limitations",
+				"product-centric",
+				"fixed roles",
+				"capital expenditure",
+				"one-off transactions"
+			],
+			"source_citation": "Page 2, Section II: 'These technological advantages enables firms' make several business innovations (see Table I) which are unreal under the limit of traditional IT solutions.' | Page 4, Table IV: 'FEATURES CHANGE ON DIFFERENT BUSINESS MODEL' showing differences between Previous BM and CBM",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Business model evolution mechanism is still 'murky'",
+				"Unilateral understandings on BM evolution in cloud environment",
+				"Complex business ecosystem in cloud environment",
+				"Lack of consensus on BM conceptualization",
+				"Need to adapt existing business models to cloud environment",
+				"Complexity of value network coordination"
+			],
+			"synonyms_found": [
+				"murky",
+				"unilateral understandings",
+				"complex business ecosystem",
+				"lack of consensus",
+				"adapt existing business models",
+				"complexity"
+			],
+			"source_citation": "Page 1, Section I: 'The BM evolution mechanism and the new BM conceptualization in cloud are still 'murky'. This murkiness could be because of the following three main reasons: 1)There are unilateral understandings on BM evolution in cloud environment by treating cloud computing as a new business model or an IT technology solution. 2)Studies on BM innovation of cloud service platform cannot completely reveals the evolution mechanism of BM in a complex business ecosystem in cloud environment. 3)The conceptualization of BM is not consensus.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Ontological framework → Comprehensive understanding of business logic",
+				"Service-centric approach → Better service delivery and value creation",
+				"Value network formation → Efficient coordination and collaboration",
+				"Resource virtualization → Optimized resource utilization",
+				"Service standardization → Consistent service delivery",
+				"Systematic review → Better understanding of BM evolution"
+			],
+			"synonyms_found": [
+				"ontological framework",
+				"service-centric approach",
+				"value network",
+				"resource virtualization",
+				"service standardization",
+				"systematic review"
+			],
+			"source_citation": "Page 4, Section IV: 'The conceptualization of the CBM will make organizations to successfully understand value, service, and relative operation elements by detailing how it delivers products and services profitably and how it plans to do so in the long term.' | Page 1, Section I: 'Hence, a systematic review on the evolution of BM and the BMIs in cloud environment can help to further analyze element of new BM and conceptualize it with a comprehensible framework.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Study method; Deductive reasoning; Research approach; Case studies; Number of cases; 3; Companies studied; Webank, Haier, Suning; Industries; Financial, Manufacturing, Retail; Framework validation; Ontological framework; Research period; 2015",
+			"synonyms_found": [
+				"deductive reasoning",
+				"case studies",
+				"3 companies",
+				"Webank",
+				"Haier",
+				"Suning"
+			],
+			"source_citation": "Page 1, Abstract: 'following a review of existing works and a series of case studies from several typical industries, employs a deductive reasoning method' | Page 7, Section V: 'companies from different industries in china are selected as the cases to be studied. First one is Webank, the internet banking for individuals and small medium enterprise (SME) with the online process of application, Identification, credit assessment, and loan based on cloud. Second is Haier, one of the biggest electronics product manufacturers, is providing specialized one-stop services and commercial manufacturing solutions recently. Last, Suning, which used to be one of the biggest electronics products retailers, has adapted its traditional BM in the cloud.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "2015 + Growing",
+			"synonyms_found": ["2015", "current", "emerging"],
+			"source_citation": "Page 1: '2015 IEEE International Conference on Services Computing' | Page 1, Section I: 'The cloud becomes a mainstream in current the business ecosystem for organizations'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Multiple cases",
+			"synonyms_found": [
+				"case studies",
+				"multiple cases",
+				"deductive reasoning"
+			],
+			"source_citation": "Page 1, Abstract: 'following a review of existing works and a series of case studies from several typical industries, employs a deductive reasoning method' | Page 7, Section V: 'companies from different industries in china are selected as the cases to be studied'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Webank → Internet banking for individuals and SMEs with online application, identification, credit assessment, and loan based on cloud",
+				"Haier → Electronics product manufacturer providing specialized one-stop services and commercial manufacturing solutions",
+				"Suning → Electronics products retailer that adapted its traditional business model in the cloud, now engaging in sale of electronic products, supply of services and commercial solutions"
+			],
+			"synonyms_found": ["Webank", "Haier", "Suning"],
+			"source_citation": "Page 7, Section V: 'First one is Webank, the internet banking for individuals and small medium enterprise (SME) with the online process of application, Identification, credit assessment, and loan based on cloud. It represents a newly emerging BM in the field of financial world.' | Page 7, Section V: 'Second is Haier, one of the biggest electronics product manufacturers, is providing specialized one-stop services and commercial manufacturing solutions recently.' | Page 7, Section V: 'Last, Suning, which used to be one of the biggest electronics products retailers, has adapted its traditional BM in the cloud. Now, Suning professionally engages in the sale of electronic products, the supply of services and commercial solutions.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Cloud Manufacturing Platform → Manufacturing services through cloud",
+				"Cloud Supply Chain → Supply chain services through cloud",
+				"Cloud Business Intelligence → Business intelligence services through cloud",
+				"Service-Centric BM → Focus on service delivery and value creation",
+				"Value-Oriented BM → Focus on value creation and capture",
+				"Customer-Based BM → Focus on customer-centric approach"
+			],
+			"synonyms_found": [
+				"cloud manufacturing platform",
+				"cloud supply chain",
+				"cloud business intelligence",
+				"service-centric BM",
+				"value-oriented BM",
+				"customer-based BM"
+			],
+			"source_citation": "Page 1, Section I: 'Many studies have demonstrated convenient service-oriented BM of cloud service platforms (such as cloud manufacturing [11], cloud supply chain [12] and cloud business intelligent [13])' | Page 3, Section II: 'The aforementioned discusses indicate that the firm's product-centric BM is transforming into a service-centric, value-oriented, and customer-based BM along with the BM evolution in trends of the cloud and servitization application.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Continued evolution from product-centric to service-centric business models",
+				"Expansion of cloud-enabled business ecosystems",
+				"Increased focus on value creation and service delivery",
+				"Development of more sophisticated value networks",
+				"Integration of cloud technologies with business model innovation",
+				"Growth of servitization and service-oriented approaches"
+			],
+			"synonyms_found": [
+				"evolution",
+				"cloud-enabled business ecosystems",
+				"value creation",
+				"value networks",
+				"cloud technologies",
+				"servitization"
+			],
+			"source_citation": "Page 3, Section II: 'The CBM accelerates the appearance of the new networked business ecosystem and forces enterprises to redesign their existing business logics to improve their running businesses.' | Page 3, Section II: 'The aforementioned discusses indicate that the firm's product-centric BM is transforming into a service-centric, value-oriented, and customer-based BM along with the BM evolution in trends of the cloud and servitization application.' | Page 6, Section VI: 'The BM evolution mechanism and the ontological framework of cloud business model discussed in this paper will help stakeholders to improve their existing BMs for adapting the business logics in the cloud environment.'",
+			"confidence_level": "high"
+		}
+	]
+}

@@ -1,0 +1,669 @@
+{
+	"extraction_metadata": {
+		"article_title": "The effect of free sampling strategies on freemium conversion rates",
+		"extraction_date": "2025-10-07"
+	},
+	"extracted_data": [
+		{
+			"question_id": "1",
+			"question_text": "What is the name and definition of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Freemium Business Model - Business models where firms offer a service or a product for free, but a fee is charged for a premium version that entails advanced features, functionality or less disturbance (i.e., advertising). Companies offer a free basic and a value-enhanced paid version of a product.",
+			"synonyms_found": [
+				"freemium",
+				"freemium business models",
+				"free and premium versions",
+				"free basic and paid version"
+			],
+			"source_citation": "Page 1: 'Freemium describes business models where firms offer a service or a product for free, but a fee is charged for a premium version that entails advanced features, functionality or less disturbance (i.e., advertising)' | Page 2: 'In freemium business models, companies offer a free basic and a value-enhanced paid version of a product'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "2",
+			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"freemium",
+				"freemium business models",
+				"free version and premium version",
+				"free basic and value-enhanced paid version",
+				"ad-based and/or feature-limited version",
+				"ad-free and fully featured version"
+			],
+			"synonyms_found": [
+				"freemium",
+				"free and premium",
+				"basic and paid version"
+			],
+			"source_citation": "Page 1: 'Freemium business models' | Page 1: 'free basic and a value-enhanced paid version' | Page 1: 'free (i.e., ad-based and/or feature-limited) version' | Page 2: 'ad-free and fully featured free-trial of the premium version'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "3",
+			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
+			"response_found": true,
+			"extracted_value": "Software, Games, and Web Services - including music streaming, cloud storage, mobile applications, email providers, and telecommunication services",
+			"synonyms_found": [
+				"software",
+				"games",
+				"web services",
+				"digital services",
+				"mobile applications",
+				"online services"
+			],
+			"source_citation": "Page 1: 'Freemium business models across products and services, including software, games, and web services such as Dropbox, Candy Crush or Spotify' | Page 2: 'Firms drawing on freemium believe that offering a free basic version is an effective way to attract new users' | Page 2: 'Freemium has been adopted by many established companies as well as nascent ventures ranging from Freemail providers like Yahoo, telecommunication providers like Skype over Music as a Service providers like Spotify to cloud storage providers like Dropbox.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "4",
+			"question_text": "What is the target customer type of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "B2C",
+			"synonyms_found": [
+				"users",
+				"consumers",
+				"free users",
+				"premium users",
+				"paying users"
+			],
+			"source_citation": "Page 1: 'Premium users typically account for 3–5 % of total users.' | Page 2: 'free users become an effective lever for rapidly growing a company's user base' | Page 4: 'consumers perceive the disutility of giving something up to be greater than the utility associated with acquiring it'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "5",
+			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": "Both established companies and nascent ventures/startups - ranging from large companies like Yahoo, Spotify, Dropbox, Skype to newer ventures like Blankcanvas.io and Evernote",
+			"synonyms_found": [
+				"established companies",
+				"nascent ventures",
+				"firms",
+				"companies"
+			],
+			"source_citation": "Page 2: 'Freemium has been adopted by many established companies as well as nascent ventures ranging from Freemail providers like Yahoo, telecommunication providers like Skype over Music as a Service providers like Spotify to cloud storage providers like Dropbox.' | Page 1: 'firms such as Dropbox or Evernote are using free trials' | Page 1: 'firms such as Blankcanvas.io are adopting a Premiumfirst strategy'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "6",
+			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
+			"response_found": true,
+			"extracted_value": "Germany (experimental study conducted) - but freemium model discussed has global application",
+			"synonyms_found": ["Germany", "global", "international"],
+			"source_citation": "Page 5: 'we recruited participants for the online experiment via e-mail from a representative student subject pool maintained by a large public university in Germany.'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "7",
+			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
+			"response_found": true,
+			"extracted_value": "Individual consumers of digital services - specifically users who start as free users and are candidates for conversion to premium subscribers",
+			"synonyms_found": [
+				"consumers",
+				"users",
+				"free users",
+				"premium users",
+				"subscribers"
+			],
+			"source_citation": "Page 1: 'Increasing the proportion of premium users opposed to free users continues to be a challenging but critical lever for reaching profitability' | Page 2: 'free users become an effective lever for rapidly growing a company's user base' | Page 1: 'Premium users typically account for 3–5 % of total users.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "8",
+			"question_text": "What is the type of product or service offered by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Application", "Platform"],
+			"synonyms_found": [
+				"software",
+				"digital services",
+				"web services",
+				"mobile applications",
+				"online services"
+			],
+			"source_citation": "Page 1: 'including software, games, and web services such as Dropbox, Candy Crush or Spotify' | Page 2: 'The music streaming service Spotify' | Page 2: 'cloud storage providers like Dropbox' | Page 2: 'In the context of mobile applications' | Page 3: 'online calculator services offered through a freemium business model'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "9",
+			"question_text": "How is the software delivered or deployed in the business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Multi-tenant SaaS", "Mobile"],
+			"synonyms_found": [
+				"online",
+				"web-based",
+				"mobile app",
+				"cloud",
+				"internet-connected"
+			],
+			"source_citation": "Page 2: 'The music streaming service Spotify for example offers a free version where users can access unlimited songs as long as they are connected to the internet' | Page 2: 'In the context of mobile applications, even when such incentives are absent, a free app that makes it to the top of an app store's ranking list' | Page 5: 'web-based email provider as an example'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "10",
+			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Proprietary",
+			"synonyms_found": ["commercial product", "paid version", "subscription"],
+			"source_citation": "Page 3: 'a product where the free version has very few features compared to the full (commercial) product' | Page 1: 'a fee is charged for a premium version'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "11",
+			"question_text": "Are there specific restrictions or compatibilities of licensing mentioned in the article about the software business model?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "12",
+			"question_text": "What are the revenue sources of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": ["Subscription", "Advertising"],
+			"synonyms_found": [
+				"premium subscription",
+				"subscription fees",
+				"advertising revenues",
+				"payments from premium users"
+			],
+			"source_citation": "Page 2: 'whereas the marginal cost of free users in social networks or online games is almost zero, it is often very costly to maintain them in other contexts such as in the case of music services, where royalties have to be paid or in cloud storage services where storage has to be held. Under such circumstances, payments from premium users often in combination with advertising revenues through free users are not necessarily sufficient to subsidize the free version' | Page 1: 'a fee is charged for a premium version'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "13",
+			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "User/seat",
+			"synonyms_found": ["per user", "subscription", "premium user"],
+			"source_citation": "Page 1: 'Premium users typically account for 3–5 % of total users' | Page 5: 'sacrificing €5 out of their potential €10 prize for being able to compete with the premium version' (experimental context showing per-user pricing)",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "14",
+			"question_text": "What is the price presentation structure of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": ["Freemium", "Trial"],
+			"synonyms_found": [
+				"free trial",
+				"time-limited trial",
+				"free trial period",
+				"30-day trial"
+			],
+			"source_citation": "Page 1: 'Freemium business models, where companies offer a free basic and a value-enhanced paid version of a product' | Page 1: 'many firms such as Dropbox or Evernote are using free trials to counter the experience-good characteristics of their digital services and thus attempt to improve premium conversion rates' | Page 1: 'companies offer users a free trial period (e.g., 30 days) to test out the premium offering with the option of going back to the free version after the trial'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "15",
+			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "16",
+			"question_text": "What is the role of the offering company in the ecosystem of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Standalone product",
+			"synonyms_found": [
+				"service provider",
+				"product provider",
+				"digital service"
+			],
+			"source_citation": "Page 2: 'The music streaming service Spotify for example offers a free version where users can access unlimited songs' | Page 2: 'cloud storage providers like Dropbox' | Page 1: 'firms offer a service or a product for free'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "17",
+			"question_text": "What type of network effect is present in the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": "Direct (more users = more value)",
+			"synonyms_found": [
+				"same-side network effects",
+				"network effects",
+				"more users increase value"
+			],
+			"source_citation": "Page 2: 'Free users are also particularly valuable to businesses which operate in markets where so-called same-side network effects are at play, meaning situations where more users increase the value of the product or service for any given users. This is for example the case with Skype, where the product's value to users is greater when they can reach more people.'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "18",
+			"question_text": "What are the customer acquisition channels of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Product-led Growth",
+				"Referral",
+				"Digital marketing"
+			],
+			"synonyms_found": [
+				"free version",
+				"social sharing incentives",
+				"app store ranking",
+				"viral marketing"
+			],
+			"source_citation": "Page 2: 'offering a free basic version is an effective way to attract new users and to build a brand' | Page 2: 'when paired with social sharing incentives like paying users for every new user that they bring, free users become an effective lever for rapidly growing a company's user base' | Page 2: 'In the context of mobile applications, even when such incentives are absent, a free app that makes it to the top of an app store's ranking list can improve the visibility of the product because it will be displayed on the main page, therefore creating a virtuous loop that leads to more free users'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "19",
+			"question_text": "Does the software business model presented in the article use cloud marketplaces or platforms?",
+			"response_found": true,
+			"extracted_value": "Yes",
+			"synonyms_found": ["app store", "Google Play"],
+			"source_citation": "Page 2: 'In the context of mobile applications, even when such incentives are absent, a free app that makes it to the top of an app store's ranking list can improve the visibility of the product' | References section: 'Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play'",
+			"confidence_level": "medium"
+		},
+		{
+			"question_id": "20",
+			"question_text": "Which Business Model Canvas elements are detailed in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Value Proposition: Free basic version with advanced features, functionality or less disturbance (advertising) in premium version; digital services that address experience-good characteristics through free trials",
+				"Customer Segment: Individual consumers/users of digital services, with distinction between free users (95-97%) and premium users (3-5%)",
+				"Revenue Streams: Premium subscription fees from 3-5% of users, advertising revenues from free users",
+				"Channels: App stores, online platforms, social sharing and referral mechanisms, viral marketing",
+				"Customer Relationship: Freemium model with free trials (Freefirst or Premiumfirst strategies) to convert free users to premium subscribers",
+				"Cost Structure: Marginal costs of maintaining free users (near zero for social networks/games, costly for music services with royalties and cloud storage)"
+			],
+			"synonyms_found": [
+				"value proposition",
+				"user base",
+				"revenue streams",
+				"costs",
+				"conversion"
+			],
+			"source_citation": "Page 1: 'Freemium describes business models where firms offer a service or a product for free, but a fee is charged for a premium version that entails advanced features, functionality or less disturbance (i.e., advertising)' | Page 1: 'Premium users typically account for 3–5 % of total users' | Page 2: 'payments from premium users often in combination with advertising revenues through free users' | Page 2: 'the marginal cost of free users in social networks or online games is almost zero, it is often very costly to maintain them in other contexts such as in the case of music services, where royalties have to be paid or in cloud storage services where storage has to be held' | Page 2: 'social sharing incentives like paying users for every new user that they bring, free users become an effective lever for rapidly growing a company's user base'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "21",
+			"question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"Actor": "Free Users",
+					"Role": "Non-paying users of basic version with ads/limited features",
+					"Interaction with offering company": "Use free version with advertising; generate advertising revenue; may convert to premium; participate in social sharing/referrals to bring new users",
+					"Interaction with other actors": "In network effect scenarios (like Skype), increase value for other users by expanding network; refer new free users through social sharing"
+				},
+				{
+					"Actor": "Premium Users",
+					"Role": "Paying subscribers of enhanced version",
+					"Interaction with offering company": "Pay subscription fees (3-5% of total users); subsidize free users through payments; use ad-free, fully-featured version",
+					"Interaction with other actors": "May refer new users through social sharing incentives; benefit from larger user base in network effect scenarios"
+				},
+				{
+					"Actor": "Advertisers",
+					"Role": "Third-party companies providing advertising revenue",
+					"Interaction with offering company": "Pay for advertising placement in free version; generate revenue stream to subsidize free users",
+					"Interaction with other actors": "Reach free users through ads displayed in free version"
+				},
+				{
+					"Actor": "App Stores/Platforms",
+					"Role": "Distribution channels and discovery platforms",
+					"Interaction with offering company": "Host and distribute apps; provide ranking visibility; enable product discovery",
+					"Interaction with other actors": "Connect users with freemium apps; display top-ranked apps to increase visibility"
+				}
+			],
+			"synonyms_found": [
+				"users",
+				"free users",
+				"premium users",
+				"paying users",
+				"advertisers",
+				"app stores"
+			],
+			"source_citation": "Page 1: 'Premium users typically account for 3–5 % of total users. Increasing the proportion of premium users opposed to free users continues to be a challenging but critical lever for reaching profitability' | Page 2: 'payments from premium users often in combination with advertising revenues through free users' | Page 2: 'when paired with social sharing incentives like paying users for every new user that they bring, free users become an effective lever for rapidly growing a company's user base' | Page 2: 'a free app that makes it to the top of an app store's ranking list can improve the visibility of the product because it will be displayed on the main page, therefore creating a virtuous loop that leads to more free users' | Page 2: 'more users increase the value of the product or service for any given users'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "22",
+			"question_text": "What motivations lead to the adoption of the software business model presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Facilitate adoption and diffusion of new products",
+				"Attract new users and build brand through free version",
+				"Rapidly grow user base through free users and social sharing",
+				"Leverage network effects where more users increase product value",
+				"Overcome experience-good characteristics through free trials",
+				"Generate revenue from small percentage of premium users to finance operations",
+				"Benefit from advertising effects while encouraging premium conversions",
+				"Improve product visibility through app store rankings"
+			],
+			"synonyms_found": [
+				"adoption",
+				"user acquisition",
+				"brand building",
+				"network effects",
+				"revenue generation"
+			],
+			"source_citation": "Page 1: 'The surge of freemium business models across products and services, including software, games, and web services such as Dropbox, Candy Crush or Spotify has brought clear benefits to both users and providers, for example by facilitating the adoption and diffusion of new products.' | Page 2: 'Firms drawing on freemium believe that offering a free basic version is an effective way to attract new users and to build a brand.' | Page 2: 'free users become an effective lever for rapidly growing a company's user base' | Page 2: 'Free users are also particularly valuable to businesses which operate in markets where so-called same-side network effects are at play' | Page 1: 'many firms such as Dropbox or Evernote are using free trials to counter the experience-good characteristics of their digital services'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "23",
+			"question_text": "What factors contribute to the success of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Product value discrepancy (premium fit) between free and premium versions → Higher conversion rates when discrepancy is optimally balanced",
+				"Premiumfirst trial strategy over Freefirst → Increases conversion propensity by 6.053 times odds",
+				"Appropriate magnitude of value discrepancy → High discrepancy increases motivation to subscribe",
+				"Social sharing incentives → Rapid user base growth and viral marketing",
+				"App store ranking visibility → Creates virtuous loop of more free users leading to premium conversions",
+				"Network effects → More users increase product value for all users",
+				"Free trial strategies → Reduce consumer uncertainties and improve premium conversions",
+				"Balancing advertising benefits of free users with premium conversion rates → Profitability optimization"
+			],
+			"synonyms_found": [
+				"conversion rates",
+				"premium fit",
+				"value discrepancy",
+				"trial strategies",
+				"network effects"
+			],
+			"source_citation": "Page 2-3: 'extant research has also paid attention to factors which drive premium conversion rates, especially the product value discrepancy between the premium and free version (also called premium fit)... The magnitude of this value discrepancy is critical in persuading users to switch from free to premium' | Page 8: 'the odds ratio suggests that the odds of converting in Premiumfirst are 6.053 times the odds of converting in Freefirst' | Page 2: 'when paired with social sharing incentives like paying users for every new user that they bring, free users become an effective lever for rapidly growing a company's user base' | Page 2: 'a free app that makes it to the top of an app store's ranking list can improve the visibility of the product'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "24",
+			"question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Low marginal cost of serving free users → Enables sustainability of free tier",
+				"Ability to differentiate free and premium versions → Creates value discrepancy for conversions",
+				"Revenue from premium users sufficient to subsidize free users → Financial viability requirement",
+				"Advertising revenue capability in free version → Additional revenue stream to support model",
+				"Experience-good characteristics of product → Makes free trials valuable for conversion",
+				"Scalable infrastructure → Support large free user base with low incremental costs"
+			],
+			"synonyms_found": [
+				"marginal cost",
+				"differentiation",
+				"revenue sufficiency",
+				"advertising capability"
+			],
+			"source_citation": "Page 2: 'Whereas the marginal cost of free users in social networks or online games is almost zero, it is often very costly to maintain them in other contexts such as in the case of music services, where royalties have to be paid or in cloud storage services where storage has to be held.' | Page 2: 'Under such circumstances, payments from premium users often in combination with advertising revenues through free users are not necessarily sufficient to subsidize the free version' | Page 1: 'With experience goods, consumers can only assert various attributes (e.g., value) through direct experience and not via external information'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "25",
+			"question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Low premium conversion rates (3-5%) → Challenges profitability despite large free user base",
+				"High costs of maintaining free users in certain contexts → Payments and advertising may not suffice to subsidize free version",
+				"Dilemma between value discrepancy levels → Low discrepancy attracts users but reduces conversion motivation; high discrepancy increases conversions but may deter initial adoption",
+				"Premiumfirst strategy upfront investment → Placing every user in premium trial requires large upfront investment that may never be recouped in high-cost scenarios",
+				"User ignorance of premium benefits in Freefirst → Many users may ignore or not be motivated to try premium version"
+			],
+			"synonyms_found": [
+				"profitability challenges",
+				"cost constraints",
+				"conversion challenges",
+				"trade-offs"
+			],
+			"source_citation": "Page 1: 'However, the economics of freemium still remain a challenge to companies' profitability... Premium users typically account for 3–5 % of total users. Increasing the proportion of premium users opposed to free users continues to be a challenging but critical lever for reaching profitability' | Page 2-3: 'payments from premium users often in combination with advertising revenues through free users are not necessarily sufficient to subsidize the free version' | Page 3: 'companies are confronted with a dilemma and may need to tweak product value discrepancy throughout different stages of a product's life cycle to realign it with their objectives' | Page 9: 'placing every user in a time-limited premium trial from the very start equates to a large upfront investment that may never be recouped' | Page 3: 'One rather critical issue with this undertaking is that many users may actually ignore the provider's messages or simply are not convinced or motivated enough to try out the premium version'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "26",
+			"question_text": "What challenges are identified in implementing the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Too few premium subscribers (3-5%) challenges profitability",
+				"Economics of freemium remain challenge to companies' profitability",
+				"Balancing advertising effects of free users with premium conversion rates",
+				"Striking balance between attracting users (low discrepancy) and motivating conversions (high discrepancy)",
+				"Convincing users to try premium version in Freefirst strategy",
+				"High costs of maintaining free users in music services (royalties) and cloud storage",
+				"Determining optimal product value discrepancy throughout product lifecycle",
+				"Overcoming experience-good characteristics where value is difficult to assess without trial",
+				"Risk that large upfront investment in Premiumfirst may not be recouped"
+			],
+			"synonyms_found": [
+				"profitability challenges",
+				"conversion challenges",
+				"cost challenges",
+				"strategic dilemmas"
+			],
+			"source_citation": "Page 1: 'Despite the many benefits of freemium, most firms suffer from too few premium subscribers (3 –5%), which challenges their profitability' | Page 1: 'However, the economics of freemium still remain a challenge to companies' profitability' | Page 3: 'firms operating in freemium business models aim at maximizing the total amount of premium users by reaping the advertising benefits obtained through free users while minimizing the costs associated with these and simultaneously encouraging as many as possible to subscribe to the premium version' | Page 3: 'companies are confronted with a dilemma and may need to tweak product value discrepancy throughout different stages of a product's life cycle'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "27",
+			"question_text": "What practices are used to mitigate challenges of the software business model as described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Free trial strategies (Freefirst or Premiumfirst) → Overcome experience-good characteristics → Improve premium conversion rates",
+				"Premiumfirst strategy implementation → Leverage loss aversion effect → Increase conversion propensity (6x odds improvement)",
+				"Optimizing product value discrepancy → Balance user acquisition with conversion motivation → Maximize profitability",
+				"Social sharing incentives → Reward users for referrals → Rapidly grow user base at lower cost",
+				"Advertising in free version → Generate additional revenue stream → Help subsidize free users",
+				"Adding advanced features to premium over time → Increase value contrast → Improve conversion rates",
+				"App store optimization → Improve rankings → Create virtuous loop of visibility and user growth",
+				"Tweaking value discrepancy throughout product lifecycle → Adapt to changing objectives → Optimize for current stage"
+			],
+			"synonyms_found": [
+				"free trials",
+				"Premiumfirst",
+				"value discrepancy optimization",
+				"social sharing",
+				"advertising"
+			],
+			"source_citation": "Page 1: 'many firms such as Dropbox or Evernote are using free trials to counter the experience-good characteristics of their digital services and thus attempt to improve premium conversion rates' | Page 8: 'the odds ratio suggests that the odds of converting in Premiumfirst are 6.053 times the odds of converting in Freefirst' | Page 2: 'when paired with social sharing incentives like paying users for every new user that they bring, free users become an effective lever for rapidly growing a company's user base' | Page 3: 'Over time the firm has continuously increased the contrast between the free and premium version by adding advanced features such as an offline listening mode for premium users, which demonstrates that companies also change their strategy throughout a product's lifecycle' | Page 3: 'companies may need to tweak product value discrepancy throughout different stages of a product's life cycle to realign it with their objectives'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "28",
+			"question_text": "What metrics and quantitative results are reported in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				{
+					"Metric": "Premium user conversion rate (typical)",
+					"Value": "3-5",
+					"Unit": "percent of total users",
+					"Period": "General industry",
+					"Method": "Industry observation",
+					"Source": "Literature"
+				},
+				{
+					"Metric": "Overall conversion rate (experimental study)",
+					"Value": "86",
+					"Unit": "percent",
+					"Period": "Experimental period",
+					"Method": "Online experiment",
+					"Source": "Study data"
+				},
+				{
+					"Metric": "Conversion rate - Freefirst low discrepancy",
+					"Value": "50",
+					"Unit": "percent",
+					"Period": "Experimental period",
+					"Method": "Online experiment",
+					"Source": "Study data"
+				},
+				{
+					"Metric": "Conversion rate - Premiumfirst low discrepancy",
+					"Value": "91",
+					"Unit": "percent",
+					"Period": "Experimental period",
+					"Method": "Online experiment",
+					"Source": "Study data"
+				},
+				{
+					"Metric": "Conversion rate - Freefirst high discrepancy",
+					"Value": "90",
+					"Unit": "percent",
+					"Period": "Experimental period",
+					"Method": "Online experiment",
+					"Source": "Study data"
+				},
+				{
+					"Metric": "Conversion rate - Premiumfirst high discrepancy",
+					"Value": "93",
+					"Unit": "percent",
+					"Period": "Experimental period",
+					"Method": "Online experiment",
+					"Source": "Study data"
+				},
+				{
+					"Metric": "Odds ratio Premiumfirst vs Freefirst",
+					"Value": "6.053",
+					"Unit": "times",
+					"Period": "Experimental analysis",
+					"Method": "Logistic regression",
+					"Source": "Study analysis"
+				},
+				{
+					"Metric": "Odds ratio high vs low discrepancy",
+					"Value": "5.868",
+					"Unit": "times",
+					"Period": "Experimental analysis",
+					"Method": "Logistic regression",
+					"Source": "Study analysis"
+				},
+				{
+					"Metric": "Dropbox free storage",
+					"Value": "2",
+					"Unit": "gigabytes",
+					"Period": "At time of article",
+					"Method": "Product example",
+					"Source": "Dropbox case"
+				},
+				{
+					"Metric": "Dropbox paid storage",
+					"Value": "1",
+					"Unit": "terabyte",
+					"Period": "At time of article",
+					"Method": "Product example",
+					"Source": "Dropbox case"
+				},
+				{
+					"Metric": "Experimental sample size",
+					"Value": "225",
+					"Unit": "subjects",
+					"Period": "Study period",
+					"Method": "Online experiment",
+					"Source": "Study methodology"
+				},
+				{
+					"Metric": "Survey response rate",
+					"Value": "74",
+					"Unit": "percent",
+					"Period": "Study recruitment",
+					"Method": "Email invitation",
+					"Source": "Study methodology"
+				}
+			],
+			"synonyms_found": [
+				"conversion rate",
+				"premium users",
+				"odds ratio",
+				"percentages"
+			],
+			"source_citation": "Page 1: 'Premium users typically account for 3–5 % of total users' | Page 8: 'the odds ratio suggests that the odds of converting in Premiumfirst are 6.053 times the odds of converting in Freefirst' | Page 8: 'participants in the high discrepancy condition were 5.868 times more likely to convert to the premium version than those in the low discrepancy condition' | Page 8: Table 2 with conversion percentages | Page 3: 'Dropbox for example offers users two gigabytes of online storage space for free; paying customers can use up to 1 terabyte' | Page 7: '240 answered our invitation e-mail (response rate: 74 %). Fifteen participants were removed from the sample... Hence, we used a sample of 225 subjects'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "29",
+			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
+			"response_found": true,
+			"extracted_value": "Consolidated - Freemium has become ubiquitous across software, games and web services; study conducted in 2016-2017 examining established model adopted by major companies (Yahoo, Skype, Spotify, Dropbox)",
+			"synonyms_found": [
+				"ubiquitous",
+				"widely adopted",
+				"established companies",
+				"nascent ventures"
+			],
+			"source_citation": "Page 1: 'Freemium business models, where companies offer a free basic and a value-enhanced paid version of a product, have become ubiquitous across software, games and a broad range of web services.' | Page 2: 'Freemium has been adopted by many established companies as well as nascent ventures ranging from Freemail providers like Yahoo, telecommunication providers like Skype over Music as a Service providers like Spotify to cloud storage providers like Dropbox.' | Page 1: 'Received: 27 January 2016 /Accepted: 22 September 2016 /Published online: 12 November 2016'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "30",
+			"question_text": "What is the type of evidence presented in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": "Experiment",
+			"synonyms_found": [
+				"online experiment",
+				"contest-based online experiment",
+				"experimental study",
+				"randomized online experiment"
+			],
+			"source_citation": "Page 1: 'Based on a contest-based online experiment with 225 subjects, our analysis reveals that in contrast to Freefirst, Premiumfirst significantly increases conversion propensity' | Page 5: 'We conducted a contest-based online experiment to test our hypotheses.' | Page 1: 'Randomized online experiment' (in keywords)",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "31",
+			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Dropbox → Cloud storage provider using freemium (2GB free, 1TB paid); uses free trials to improve conversions",
+				"Candy Crush → Game using freemium model",
+				"Spotify → Music streaming service (free with ads, premium ad-free with offline mode); example of increasing value discrepancy over time",
+				"Evernote → Uses free trials to counter experience-good characteristics",
+				"Blankcanvas.io → Adopts Premiumfirst strategy",
+				"Yahoo → Freemail provider using freemium",
+				"Skype → Telecommunication provider demonstrating same-side network effects",
+				"iCalculator → Self-developed experimental product used in study to test freemium strategies"
+			],
+			"synonyms_found": [
+				"Dropbox",
+				"Spotify",
+				"Candy Crush",
+				"Evernote",
+				"Skype",
+				"Yahoo",
+				"Blankcanvas.io"
+			],
+			"source_citation": "Page 1: 'including software, games, and web services such as Dropbox, Candy Crush or Spotify' | Page 1: 'many firms such as Dropbox or Evernote are using free trials' | Page 1: 'firms such as Blankcanvas.io are adopting a Premiumfirst strategy' | Page 2: 'Freemium has been adopted by many established companies as well as nascent ventures ranging from Freemail providers like Yahoo, telecommunication providers like Skype over Music as a Service providers like Spotify to cloud storage providers like Dropbox' | Page 2: 'The music streaming service Spotify for example offers a free version where users can access unlimited songs as long as they are connected to the internet and are willing to bear disturbing audio ads which cannot be skipped. In the paid premium version, users are not only spared from the disturbing ads, but they may also access their songs offline from anywhere.' | Page 3: 'Dropbox for example offers users two gigabytes of online storage space for free; paying customers can use up to 1 terabyte' | Page 5: 'users had the chance to test a free and premium online calculator called iCalculator'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "32",
+			"question_text": "Are there variations or subtypes of the software business model described in the article?",
+			"response_found": true,
+			"extracted_value": [
+				"Freefirst Strategy → Users start with free (ad-based/feature-limited) version, then opt into time-limited premium trial; traditional approach where users may ignore premium offer",
+				"Premiumfirst Strategy → Users start with time-limited ad-free/fully-featured premium trial upon registration, then downgraded to free version; results in more informed decisions and higher conversions",
+				"Low Value Discrepancy Freemium → Premium differs minimally from free (e.g., only ad removal); attracts more free users but lower conversion without Premiumfirst",
+				"High Value Discrepancy Freemium → Premium has significantly more features than free version; naturally drives higher conversions regardless of trial strategy",
+				"Ad-supported Freemium → Free version funded by advertising (e.g., Spotify with audio ads)",
+				"Feature-limited Freemium → Free version has fewer features/functionality (e.g., Dropbox storage limits)",
+				"Hybrid Freemium → Combination of advertising in free version plus feature limitations"
+			],
+			"synonyms_found": [
+				"Freefirst",
+				"Premiumfirst",
+				"low discrepancy",
+				"high discrepancy",
+				"ad-based",
+				"feature-limited"
+			],
+			"source_citation": "Page 1: 'Freefirst, where consumers start in the free and then opt into a trial of the premium version and Premiumfirst, where things are experienced in reverse order' | Page 1: 'free (i.e., ad-based and/or feature-limited) version' | Page 1-2: 'Premiumfirst strategy for their products. Here, users start off with a time-limited, ad-free and fully featured free-trial of the premium version upon registration and then are downgraded to the free (i.e., ad-based and/or feature-limited) version before making an active, informed subscription decision' | Page 3: 'a product where the free version has very few features compared to the full (commercial) product creates high value discrepancy. On the other hand, a product where the free version contains many features that the full (commercial) product has creates low value discrepancy'",
+			"confidence_level": "high"
+		},
+		{
+			"question_id": "33",
+			"question_text": "What future trends or evolutions are mentioned in the article about the software business model?",
+			"response_found": true,
+			"extracted_value": [
+				"Increasing adoption of Premiumfirst strategy as alternative to traditional Freefirst approach",
+				"Dynamic adjustment of product value discrepancy throughout product lifecycle to align with changing objectives",
+				"Continuous evolution of premium features to increase value contrast (e.g., Spotify adding offline mode)",
+				"Growing use of free trial strategies to improve conversion rates beyond basic freemium",
+				"Need for further research on optimal trial phase lengths and contexts",
+				"Expansion to different service contexts (entertainment, video on demand) beyond current applications",
+				"Integration of behavioral economics principles (loss aversion, status quo bias) into freemium design"
+			],
+			"synonyms_found": [
+				"evolution",
+				"lifecycle changes",
+				"strategy adaptation",
+				"future research"
+			],
+			"source_citation": "Page 1: 'More recently, however, firms such as Blankcanvas.io are adopting a Premiumfirst strategy for their products' | Page 3: 'Over time the firm has continuously increased the contrast between the free and premium version by adding advanced features such as an offline listening mode for premium users, which demonstrates that companies also change their strategy throughout a product's lifecycle' | Page 3: 'companies may need to tweak product value discrepancy throughout different stages of a product's life cycle to realign it with their objectives' | Page 9: 'Future research should examine our findings across other contexts (e.g., entertainment/ video on demand services) and at various trial phase lengths' | Page 9: 'More research is required to identify what is actually driving the positive effect of Premiumfirst'",
+			"confidence_level": "high"
+		}
+	]
+}
