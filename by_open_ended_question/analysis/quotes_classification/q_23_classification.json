@@ -1,0 +1,927 @@
+{
+	"qualitative_analysis": [
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "SaaS vendors seem to prefer value-based to cost-based orientation in software pricing. Value is what clients really want to pay for.",
+			"assigned_codes": ["Value-based pricing", "SaaS (Software as a Service)"],
+			"justification": "A citação discute explicitamente a orientação de precificação baseada em valor como preferência dos fornecedores SaaS, alinhando-se com estratégias de precificação e modelo de entrega."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "SaaS vendors tend to target broad markets to gain economy of scale...To survive and thrive, vendors are supposed to expand clients base continuously in order to leverage on economy of scale",
+			"assigned_codes": ["Economies of scale", "Market expansion"],
+			"justification": "A passagem enfatiza economias de escala e expansão de mercado como fatores críticos de sucesso para fornecedores SaaS."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "SaaS vendors are hence compelled to steadily improve service quality and price it accordingly in order to retain a sizeable pool of clients",
+			"assigned_codes": [
+				"Service quality improvement",
+				"Subscription-based pricing"
+			],
+			"justification": "Destaca a melhoria contínua da qualidade do serviço e precificação adequada como essenciais para retenção de clientes."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "usage-based pricing strategies were popular among SaaS vendors because usage-based metrics reflect both vendors' costs to deliver services and clients' costs to consume services",
+			"assigned_codes": ["Pay-as-you-go pricing", "Value-based pricing"],
+			"justification": "A citação descreve estratégias de precificação baseadas em uso que refletem custos de fornecedor e cliente."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "Adopting pricing components from different categories could help in accommodating diverse client preferences...some SaaS vendors included pricing components from different categories in their pricing strategies",
+			"assigned_codes": ["Flexible pricing strategies"],
+			"justification": "Destaca estratégias de precificação flexíveis que acomodam diversas preferências de clientes como fator de sucesso."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "customers or delivery channels are the main driving force to the selection of the most appropriate pricing and revenue model in the market",
+			"assigned_codes": ["Value-based orientation"],
+			"justification": "A citação indica que as necessidades dos clientes orientam a seleção do modelo de precificação, refletindo uma abordagem focada em valor."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "software firms can use flexible revenue and pricing strategies to make the service more attractive for customers",
+			"assigned_codes": ["Flexible pricing strategies"],
+			"justification": "Destaca estratégias de precificação flexíveis como fator que torna o serviço mais atrativo."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "The rental model through the public cloud decreased the production costs of case firms... made it possible to offer the software at a lower price",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Economies of scale"
+			],
+			"justification": "A passagem descreve como a infraestrutura de nuvem reduz custos de produção e permite preços competitivos."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "Pure-SaaS providers seem to use time-based price discrimination to protect their business against low switching costs... enterprise-SaaS providers seem to protect their business against low switching costs by using separate pricing for the implementation work",
+			"assigned_codes": ["Low switching costs", "Flexible pricing strategies"],
+			"justification": "Discute estratégias para proteger o negócio contra baixos custos de mudança através de discriminação de preços."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "I believe one of the most critical success factors are what you can call organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Identifica explicitamente a preparação organizacional como fator crítico de sucesso para transições de modelo de negócio."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "The later adjustment to a 'hybrid strategy' led to smoother transition process, as keeping and maintaining on-premise products 1) buys more time for developing new SaaS products without sacrificing existing marketing share due to lack of finished products to sell, and 2) provides a chance for both the customers and partners to gradually adapt to the change",
+			"assigned_codes": [
+				"Hybrid model adoption",
+				"Established vendor transition"
+			],
+			"justification": "Descreve a estratégia híbrida como facilitadora de transição suave para fornecedores estabelecidos mudando para SaaS."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers who met the criteria for SaaS implementation... Doing so, ERP Co has gained valuable feedback from the customers",
+			"assigned_codes": ["Pilot implementation"],
+			"justification": "Destaca a implementação piloto controlada como estratégia de mitigação para transições de modelo de negócio."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "The strategy is to go 'hand in hand' with partners to make the transition",
+			"assigned_codes": ["Ecosystem management", "Partner compensation"],
+			"justification": "Enfatiza a gestão colaborativa do ecossistema de parceiros durante transições como fator de sucesso."
+		},
+		{
+			"article_id": "190638976",
+			"article_title": "Managing a Software Business",
+			"quote": "Keeping developers productive should be your number-one priority. Eliminate distractions and waste, give them all the tools and hardware they need",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Discute a produtividade dos desenvolvedores como prioridade organizacional para criar software de qualidade."
+		},
+		{
+			"article_id": "190638976",
+			"article_title": "Managing a Software Business",
+			"quote": "The choice of open or proprietary file formats, APIs, and plug-in mechanisms can make the difference between failure and success",
+			"assigned_codes": ["Platform business model", "API-based business model"],
+			"justification": "Destaca a escolha de APIs e mecanismos de integração como diferencial crítico entre falha e sucesso em plataformas."
+		},
+		{
+			"article_id": "190638976",
+			"article_title": "Managing a Software Business",
+			"quote": "Positioning yourself as a hub in a winner-takes-all field can be remarkably rewarding",
+			"assigned_codes": ["Network effects", "Platform business model"],
+			"justification": "Descreve o posicionamento como hub central aproveitando efeitos de rede em mercados winner-takes-all."
+		},
+		{
+			"article_id": "190638976",
+			"article_title": "Managing a Software Business",
+			"quote": "unless you constantly invest in your software, it will quickly become obsolete",
+			"assigned_codes": ["Service quality improvement", "Technology evolution"],
+			"justification": "Enfatiza investimento contínuo em evolução de software para evitar obsolescência."
+		},
+		{
+			"article_id": "190653396",
+			"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+			"quote": "Integration of ecological sustainability as core logic of organization → Creates both ecological and economic value",
+			"assigned_codes": ["Sustainability focus"],
+			"justification": "Descreve a integração de sustentabilidade ecológica como lógica central criando valor econômico e ecológico."
+		},
+		{
+			"article_id": "190653396",
+			"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+			"quote": "Through the network effects in their ecosystems, the enablement of new sustainable BMs scales",
+			"assigned_codes": ["Network effects", "Platform business model"],
+			"justification": "Discute como efeitos de rede em ecossistemas permitem escalar modelos de negócio sustentáveis."
+		},
+		{
+			"article_id": "190653396",
+			"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+			"quote": "we found that the open BM strategy is used in approximately half of BMs with ubiquitous IT use",
+			"assigned_codes": ["Platform business model"],
+			"justification": "Identifica a estratégia de modelo de negócio aberto como comum em modelos baseados em TI."
+		},
+		{
+			"article_id": "190653434",
+			"article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+			"quote": "For companies with bundled and fragmented freemium business models, high sensing and seizing capabilities are critical to achieving high performance",
+			"assigned_codes": ["Freemium model", "Organizational preparedness"],
+			"justification": "Relaciona capacidades organizacionais de sensing e seizing como críticas para o sucesso de modelos freemium."
+		},
+		{
+			"article_id": "190653434",
+			"article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+			"quote": "enhanced network effects amplify the leader's advantage over followers, increasing the user base and increasing conversion rates",
+			"assigned_codes": ["Network effects", "Freemium model"],
+			"justification": "Destaca como efeitos de rede amplificam vantagens e aumentam taxas de conversão em modelos freemium."
+		},
+		{
+			"article_id": "190653582",
+			"article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+			"quote": "Adobe has been able to lock in consumers and outcompete competitors due to high switching costs",
+			"assigned_codes": ["High switching costs"],
+			"justification": "Identifica altos custos de mudança como fator que permite lock-in de clientes e vantagem competitiva."
+		},
+		{
+			"article_id": "190653582",
+			"article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+			"quote": "Files produced by Adobe products such as Photoshop or Acrobat have become standard in the industry",
+			"assigned_codes": ["Network effects", "High switching costs"],
+			"justification": "Descreve formatos de arquivo proprietários tornando-se padrão da indústria, criando efeitos de rede e custos de mudança."
+		},
+		{
+			"article_id": "190653589",
+			"article_title": "Navigating the paradox of global scaling",
+			"quote": "Process replication was viewed as being essential to the speed of growth",
+			"assigned_codes": ["Market expansion", "Economies of scale"],
+			"justification": "Destaca a replicação de processos como essencial para crescimento rápido e expansão de mercado."
+		},
+		{
+			"article_id": "190653589",
+			"article_title": "Navigating the paradox of global scaling",
+			"quote": "hiring young employees with ambition, current skills, and versatility was seen as an effective way to ensure a high level of individual entrepreneurial orientation",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Discute práticas de contratação que garantem orientação empreendedora como capacidade organizacional."
+		},
+		{
+			"article_id": "190653595",
+			"article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+			"quote": "sampling is more beneficial for apps that have a moderate star rating",
+			"assigned_codes": ["Freemium model", "Mobile app market"],
+			"justification": "Relaciona qualidade moderada de apps com benefícios de amostragem em estratégias freemium no mercado móvel."
+		},
+		{
+			"article_id": "190653595",
+			"article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+			"quote": "the paid version may provide sufficiently greater utility for consumers to upgrade",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Discute a diferença de utilidade entre versões gratuitas e pagas como motivador de conversão."
+		},
+		{
+			"article_id": "190653734",
+			"article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+			"quote": "It is crucial for firms to define the maximum features available for free users and the minimum features offered to premium users",
+			"assigned_codes": ["Freemium model", "Mobile app market"],
+			"justification": "Destaca a importância de definir claramente a distinção entre recursos gratuitos e premium em apps móveis."
+		},
+		{
+			"article_id": "190653734",
+			"article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+			"quote": "Measuring the effectiveness of a freemium model can be done through time retention, which serves as a strong indicator of monetization success",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Identifica retenção de usuários como indicador-chave de sucesso em modelos freemium."
+		},
+		{
+			"article_id": "190653772",
+			"article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+			"quote": "the reliability of underlying data is the key to a high-quality digital customer experience",
+			"assigned_codes": ["Service quality improvement", "Mobile app market"],
+			"justification": "Enfatiza confiabilidade de dados como fundamental para qualidade da experiência digital em apps móveis."
+		},
+		{
+			"article_id": "190653772",
+			"article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+			"quote": "The interview results highlighted the importance of efficient vendor management",
+			"assigned_codes": ["Ecosystem management"],
+			"justification": "Destaca gestão eficiente de fornecedores como importante para sucesso de aplicações móveis."
+		},
+		{
+			"article_id": "190653856",
+			"article_title": "Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market valuation?",
+			"quote": "Subscriptions provide vendors with reliable, steady streams of income",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Identifica o modelo de assinatura como provedor de fluxos de receita previsíveis para fornecedores SaaS."
+		},
+		{
+			"article_id": "190653856",
+			"article_title": "Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market valuation?",
+			"quote": "capital efficiency",
+			"assigned_codes": ["Economies of scale"],
+			"justification": "Menciona eficiência de capital como fator de sucesso relacionado a estrutura de custos."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "We've been successful because we have successful customers, a rabid fan base. These guys tell their friends, these guys take us with them to their next gig",
+			"assigned_codes": ["Network effects", "Customer trust maintenance"],
+			"justification": "Descreve como clientes satisfeitos geram referências e efeitos de rede através de recomendações."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "a provider could strengthen such commitments by outstanding customer service and cost reimbursement",
+			"assigned_codes": [
+				"Service quality improvement",
+				"Customer trust maintenance"
+			],
+			"justification": "Destaca serviço ao cliente excepcional e reembolso de custos como formas de fortalecer comprometimento e reduzir churn."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "Netflix's recommendation system saves the company $1 billion annually through reduced churn",
+			"assigned_codes": [
+				"Data-driven monetization",
+				"Service quality improvement"
+			],
+			"justification": "Ilustra como sistemas de recomendação baseados em dados melhoram retenção e geram valor significativo."
+		},
+		{
+			"article_id": "190653882",
+			"article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+			"quote": "consumer-initiated touchpoints with all message content enhance conversion",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Discute como pontos de contato iniciados pelo consumidor melhoram conversão em modelos freemium."
+		},
+		{
+			"article_id": "190653882",
+			"article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+			"quote": "more frequent free-trial usage encourages conversion",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Identifica uso frequente durante período de teste gratuito como fator que encoraja conversão."
+		},
+		{
+			"article_id": "190653942",
+			"article_title": "Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market",
+			"quote": "the increased transparency means products experience less legitimacy loss as they deviate from prototypes because customers are less suspicious of these products and perceive less privacy risk",
+			"assigned_codes": ["Freemium model", "Customer trust maintenance"],
+			"justification": "Discute como transparência reduz preocupações de privacidade e aumenta confiança do cliente em modelos freemium."
+		},
+		{
+			"article_id": "190653950",
+			"article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+			"quote": "When the platform's installed base is large, free-to-play games with many social features have a 49 percentage points higher probability of becoming a superstar",
+			"assigned_codes": [
+				"Network effects",
+				"Freemium model",
+				"Gaming industry focus"
+			],
+			"justification": "Demonstra como base instalada grande e recursos sociais criam efeitos de rede em jogos freemium."
+		},
+		{
+			"article_id": "190653984",
+			"article_title": "Toward Building Specialized Information Systems as Software Platforms",
+			"quote": "Combinatorial Innovation: a platform enables combinatorial innovation by allowing third parties to build on top of it. This is done by providing an open and well-documented API",
+			"assigned_codes": ["Platform business model", "API-based business model"],
+			"justification": "Descreve inovação combinatória através de APIs abertas como fator-chave de sucesso de plataformas."
+		},
+		{
+			"article_id": "190653984",
+			"article_title": "Toward Building Specialized Information Systems as Software Platforms",
+			"quote": "A platform surrounds itself with an ecosystem of partners, developer tools, and other services that make it easy for third parties to develop products and services",
+			"assigned_codes": ["Platform business model", "Ecosystem management"],
+			"justification": "Destaca a gestão de ecossistema de parceiros e ferramentas como essencial para sucesso de plataformas."
+		},
+		{
+			"article_id": "190653993",
+			"article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+			"quote": "The main target is to satisfy existing users who require higher computing performance with robust network security",
+			"assigned_codes": ["Service quality improvement", "Security concerns"],
+			"justification": "Identifica performance computacional e segurança robusta como fatores para satisfação de usuários."
+		},
+		{
+			"article_id": "190653993",
+			"article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+			"quote": "diversify this service with various license types",
+			"assigned_codes": ["Flexible pricing strategies"],
+			"justification": "Discute diversificação de tipos de licença como estratégia de precificação flexível."
+		},
+		{
+			"article_id": "190654058",
+			"article_title": "MintM: the start-up transforming businesses real-time",
+			"quote": "MintM possesses at this juncture is simply being one of its kind in the digital marketing space with proprietary technology",
+			"assigned_codes": ["Startup company focus"],
+			"justification": "Destaca tecnologia proprietária como diferencial competitivo de startup."
+		},
+		{
+			"article_id": "190654058",
+			"article_title": "MintM: the start-up transforming businesses real-time",
+			"quote": "The lean operations team was a conscious decision that aided in keeping profit margins high",
+			"assigned_codes": ["Economies of scale", "Startup company focus"],
+			"justification": "Descreve estrutura enxuta como decisão estratégica para manter margens de lucro altas em startup."
+		},
+		{
+			"article_id": "190654085",
+			"article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+			"quote": "our results for the General Motives, show that the strongest effect on the adoption intention is related to the Perceived Control",
+			"assigned_codes": ["Subscription-based pricing", "Mobile app market"],
+			"justification": "Identifica percepção de controle como preditor mais forte de intenção de adoção em assinaturas de apps."
+		},
+		{
+			"article_id": "190654085",
+			"article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+			"quote": "managers should try to leverage these new subscription-based plans in their strategies engaging a broad set of app-developers in order to offer a broad catalogue",
+			"assigned_codes": ["Subscription-based pricing", "Marketplace model"],
+			"justification": "Recomenda engajar desenvolvedores para oferecer catálogo amplo em planos de assinatura de marketplace."
+		},
+		{
+			"article_id": "190654186",
+			"article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+			"quote": "exploit their intimate knowledge of the code to provide higher-quality service than could potential competing service providers",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Descreve como conhecimento íntimo do código permite serviços de qualidade superior em modelos open source."
+		},
+		{
+			"article_id": "190654465",
+			"article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+			"quote": "Highly tailored and targeted marketing schemes are essential to capture and retain the majority of the maximum addressable market",
+			"assigned_codes": ["Mobile app market", "Market expansion"],
+			"justification": "Enfatiza marketing direcionado como essencial para capturar mercado endereçável em apps móveis."
+		},
+		{
+			"article_id": "190654465",
+			"article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+			"quote": "Revenue generating functions were not tested in Trav.ly, but clearly our simulation results suggest they could be critical to profitability",
+			"assigned_codes": ["Data-driven monetization"],
+			"justification": "Sugere funções geradoras de receita como críticas para rentabilidade baseado em análise de dados."
+		},
+		{
+			"article_id": "190654531",
+			"article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+			"quote": "The effectiveness of our approach is supported by the derivation of business models from a common superset of possible business model adaptations",
+			"assigned_codes": ["Flexible pricing strategies"],
+			"justification": "Discute abordagem sistemática para descobrir múltiplas configurações de modelo de negócio."
+		},
+		{
+			"article_id": "190654542",
+			"article_title": "E-business evolution: an analysis of mobile applications' business models",
+			"quote": "app design received the vast majority of comments (i.e. 57.8%) among all sources of value; more in depth, the ease of use and the quality and quantity of contents have been the two major codes detected",
+			"assigned_codes": ["Mobile app market", "Service quality improvement"],
+			"justification": "Identifica design, facilidade de uso e qualidade de conteúdo como fontes principais de valor em apps móveis."
+		},
+		{
+			"article_id": "190654542",
+			"article_title": "E-business evolution: an analysis of mobile applications' business models",
+			"quote": "content apps, whose value is driven by their efficiency, lock-in, design, and ability to add complementary monetisation mechanisms (i.e. In-App purchases) beside the ads value capture schema",
+			"assigned_codes": ["Mobile app market", "Data-driven monetization"],
+			"justification": "Descreve apps de conteúdo bem-sucedidos como aqueles que combinam múltiplos mecanismos de monetização."
+		},
+		{
+			"article_id": "190654598",
+			"article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+			"quote": "Secure abundant product/customer case (number of category registration), Partner ecosystem (number of registered partners), Multiple global customer success stories",
+			"assigned_codes": ["Marketplace model", "Ecosystem management"],
+			"justification": "Identifica casos de sucesso e ecossistema de parceiros como fatores para posição competitiva em marketplaces."
+		},
+		{
+			"article_id": "190654598",
+			"article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+			"quote": "By securing excellent global customer cases, emphasizing the differences from other software, premium strategies are required with quality and service, not price",
+			"assigned_codes": ["Value-based pricing", "Service quality improvement"],
+			"justification": "Recomenda estratégias premium baseadas em qualidade e serviço ao invés de preço."
+		},
+		{
+			"article_id": "190654601",
+			"article_title": "Software as a service: Lessons from the video game industry",
+			"quote": "Game developers and publishers realize, however, that gamers will continue to play the game and remain loyal only for as long as their expectations are met",
+			"assigned_codes": [
+				"Gaming industry focus",
+				"Service quality improvement"
+			],
+			"justification": "Destaca a importância de atender expectativas continuamente para retenção em jogos como serviço."
+		},
+		{
+			"article_id": "190654601",
+			"article_title": "Software as a service: Lessons from the video game industry",
+			"quote": "Most GaaS business models rely on powerful customer relationship management (CRM) systems to segment users and to follow up on gamers' behavior",
+			"assigned_codes": ["Gaming industry focus", "Data-driven monetization"],
+			"justification": "Descreve uso de CRM e análise de comportamento como essencial em modelos Games-as-a-Service."
+		},
+		{
+			"article_id": "190654601",
+			"article_title": "Software as a service: Lessons from the video game industry",
+			"quote": "a software service needs to provide satisfaction for its users if it is to be used. The key point here concerns building a minimum viable service (MVS)",
+			"assigned_codes": ["Service-oriented model", "Value-based orientation"],
+			"justification": "Enfatiza construção de serviço viável mínimo que satisfaz usuários como ponto-chave de sucesso."
+		},
+		{
+			"article_id": "190654605",
+			"article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+			"quote": "Centralised data centres and advancements in automation and scalability have transformed the manner with which both case organisations develop, deploy and maintain IT services",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Multi-tenant architecture"
+			],
+			"justification": "Descreve centros de dados centralizados e automação como transformadores de desenvolvimento e manutenção."
+		},
+		{
+			"article_id": "190654605",
+			"article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+			"quote": "Enhanced agility not only enabled both case organisations to deal effectively with a continually evolving and increasingly uncertain technological landscape",
+			"assigned_codes": ["Organizational preparedness", "Technology evolution"],
+			"justification": "Identifica agilidade organizacional melhorada como capacidade para lidar com evolução tecnológica."
+		},
+		{
+			"article_id": "190654664",
+			"article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+			"quote": "The determinants of the VAR come primarily from the key resources area",
+			"assigned_codes": ["Hybrid business model"],
+			"justification": "Discute recursos-chave como determinantes principais de sinergia em combinação de modelos heterogêneos."
+		},
+		{
+			"article_id": "190654709",
+			"article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+			"quote": "emotion datasets, on which the machine learning algorithms are trained... the set of labeled data and its appropriateness for the target market is what sets a company apart from the competition",
+			"assigned_codes": ["Data-driven monetization"],
+			"justification": "Identifica datasets proprietários como diferencial competitivo em modelos baseados em tecnologias emergentes."
+		},
+		{
+			"article_id": "190654717",
+			"article_title": "Economics of open source library software: evidences from Indian libraries",
+			"quote": "The results of Pearson chi-square also indicate that there is a statistically significant association between the institutions having OSS adoption policy and preferred type ILS used",
+			"assigned_codes": [
+				"Open source business model",
+				"Organizational readiness"
+			],
+			"justification": "Demonstra que políticas institucionais de adoção OSS estão associadas ao sucesso de implementação."
+		},
+		{
+			"article_id": "190654717",
+			"article_title": "Economics of open source library software: evidences from Indian libraries",
+			"quote": "Thousands of top-notched programmers and hackers freely produce highly qualified software",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Descreve produção comunitária de software de alta qualidade como característica de modelos open source."
+		},
+		{
+			"article_id": "190654720",
+			"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+			"quote": "It is therefore important for a company which aims at selling predictive Fog application management to start a consistent branding process as soon as possible, whilst providing top of the range quality for their services. This, along with suitable lock-in strategies, would create costs for customers evaluating a switch to a competitor",
+			"assigned_codes": ["High switching costs", "Service quality improvement"],
+			"justification": "Descreve branding forte e qualidade superior como criadoras de custos de mudança para clientes."
+		},
+		{
+			"article_id": "190654720",
+			"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+			"quote": "being among the firsts on the market enables a company to establish strong brand recognition and customer loyalty before other competitors enter the arena",
+			"assigned_codes": ["Market expansion"],
+			"justification": "Identifica vantagem de first-mover em estabelecer reconhecimento de marca e lealdade de clientes."
+		},
+		{
+			"article_id": "190654834",
+			"article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+			"quote": "if the application, which is the main channel, is not user-friendly or fails, not only the delivery of the Value Proposition fails, but also there is a high risk that users stop using the service",
+			"assigned_codes": ["Mobile app market", "Service quality improvement"],
+			"justification": "Enfatiza aplicativo amigável como canal crítico para entrega de valor em serviços de mobilidade."
+		},
+		{
+			"article_id": "190654834",
+			"article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+			"quote": "the main reason to use these services according to our surveyed users was the convenience (49%), the price (23%)",
+			"assigned_codes": ["Value-based pricing"],
+			"justification": "Identifica conveniência e preço como principais razões de uso, refletindo orientação de valor."
+		},
+		{
+			"article_id": "190654956",
+			"article_title": "Open source ERP business model framework",
+			"quote": "The underlying philosophy of OSS is to enhance software reliability and quality through independent peer review and rapid evolution of source code",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Descreve filosofia OSS de revisão por pares e evolução rápida como melhoradores de qualidade."
+		},
+		{
+			"article_id": "190654956",
+			"article_title": "Open source ERP business model framework",
+			"quote": "OSS projects led to more creativity, as measured by functions added over time. And OSS projects were found to have fewer defects",
+			"assigned_codes": [
+				"Open source business model",
+				"Service quality improvement"
+			],
+			"justification": "Evidencia que projetos OSS levam a mais criatividade e menos defeitos."
+		},
+		{
+			"article_id": "190655012",
+			"article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+			"quote": "when customer underestimates the value of the software significantly and the true value of the software is high enough, the freemium model can generate higher profit, higher customer welfare, and higher social welfare",
+			"assigned_codes": ["Freemium model", "Network effects"],
+			"justification": "Analisa condições sob as quais modelo freemium gera maior lucro e bem-estar através de efeitos de rede."
+		},
+		{
+			"article_id": "190655012",
+			"article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+			"quote": "offering a quality free app is important in boosting sales of the paid app",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Identifica qualidade da versão gratuita como importante para impulsionar vendas da versão paga."
+		},
+		{
+			"article_id": "190655172",
+			"article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+			"quote": "The main effect of efficiency-centred business model on the dependent variable is positively significant",
+			"assigned_codes": ["Startup company focus", "Economies of scale"],
+			"justification": "Demonstra efeito positivo de modelos centrados em eficiência na retenção de valor para startups."
+		},
+		{
+			"article_id": "190655181",
+			"article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+			"quote": "Openness to Supplier ↑→ Number of Supplier ↑→ Overall Value of Platform ↑",
+			"assigned_codes": ["Platform business model", "Network effects"],
+			"justification": "Descreve loops de feedback positivo onde abertura a fornecedores aumenta valor da plataforma."
+		},
+		{
+			"article_id": "190655181",
+			"article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+			"quote": "With more technological capability, a platform can technologically and deeply support more suppliers. By this, the percentage of verified suppliers will increase",
+			"assigned_codes": ["Platform business model"],
+			"justification": "Relaciona capacidade tecnológica da plataforma com qualidade e quantidade de fornecedores verificados."
+		},
+		{
+			"article_id": "190655186",
+			"article_title": "Developing enterprise social software in China: insights from Mingdao",
+			"quote": "more than 90% of advanced account users renewed their account in 2014",
+			"assigned_codes": ["Freemium model", "Customer trust maintenance"],
+			"justification": "Demonstra alta taxa de renovação como indicador de satisfação e confiança do cliente em modelo freemium."
+		},
+		{
+			"article_id": "190655186",
+			"article_title": "Developing enterprise social software in China: insights from Mingdao",
+			"quote": "Thanks to the word-of-mouth marketing, almost half of the new customers were referred from current customers",
+			"assigned_codes": ["Network effects"],
+			"justification": "Ilustra efeitos de rede através de marketing boca-a-boca gerando metade dos novos clientes."
+		},
+		{
+			"article_id": "190655190",
+			"article_title": "Open source - Is it an alternative to intellectual property?",
+			"quote": "The efficiency of the open source production model in coordinating collaborative creativity and in providing concrete results is a proven fact in the software industry",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Afirma eficiência comprovada do modelo de produção open source em coordenar criatividade colaborativa."
+		},
+		{
+			"article_id": "190655190",
+			"article_title": "Open source - Is it an alternative to intellectual property?",
+			"quote": "the peer-review process is a structured approach of generating criticism of existing versions, evaluating those criticisms and eliminating 'errors'",
+			"assigned_codes": [
+				"Open source business model",
+				"Service quality improvement"
+			],
+			"justification": "Descreve processo de revisão por pares como estrutura de melhoria contínua de qualidade."
+		},
+		{
+			"article_id": "190655198",
+			"article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+			"quote": "Satakunta region started with connecting their secondary care EHR system to the RHIS so that all primary care doctors would have the opportunity to consume the data",
+			"assigned_codes": [
+				"Platform business model",
+				"Network effects",
+				"Healthcare technology"
+			],
+			"justification": "Descreve estratégia de começar conectando cuidados secundários para criar valor imediato, habilitando efeitos de rede na área de saúde."
+		},
+		{
+			"article_id": "190655206",
+			"article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+			"quote": "Obviously, the size of the network has important implications to the value proposition of Tieto",
+			"assigned_codes": ["Platform business model", "Network effects"],
+			"justification": "Identifica tamanho da rede como tendo implicações importantes na proposta de valor da plataforma."
+		},
+		{
+			"article_id": "190655206",
+			"article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+			"quote": "he believes that in the case of a blue ocean technology like e-invoicing, fast acquisition of new customers is the key to winning",
+			"assigned_codes": ["Market expansion"],
+			"justification": "Enfatiza aquisição rápida de clientes como chave para vencer em mercados de tecnologia emergente."
+		},
+		{
+			"article_id": "190655218",
+			"article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+			"quote": "operational maturity mediates the relationship between business model components and financial viability, because functional progress and capabilities enable an HIE to provide more efficient services and earn revenue",
+			"assigned_codes": [
+				"Organizational preparedness",
+				"Healthcare technology"
+			],
+			"justification": "Identifica maturidade operacional como mediadora crítica entre componentes do modelo e viabilidade financeira."
+		},
+		{
+			"article_id": "190655218",
+			"article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+			"quote": "offering foundational services during early stages and advanced services during later stages influences viability",
+			"assigned_codes": ["Service quality improvement"],
+			"justification": "Descreve evolução progressiva de ofertas de serviço como influenciadora de viabilidade."
+		},
+		{
+			"article_id": "190655219",
+			"article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+			"quote": "In the case of open ticketing system, mobile ticketing is much cheaper to maintain since there is no need for infrastructure",
+			"assigned_codes": ["Mobile app market", "Economies of scale"],
+			"justification": "Identifica sistema aberto de bilhetagem como mais econômico por não requerer infraestrutura de validação."
+		},
+		{
+			"article_id": "190655247",
+			"article_title": "The effect of free sampling strategies on freemium conversion rates",
+			"quote": "the odds ratio suggests that the odds of converting in Premiumfirst are 6.053 times the odds of converting in Freefirst",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Quantifica impacto significativo de estratégias de teste premium-first vs free-first em conversões."
+		},
+		{
+			"article_id": "190655247",
+			"article_title": "The effect of free sampling strategies on freemium conversion rates",
+			"quote": "when paired with social sharing incentives like paying users for every new user that they bring, free users become an effective lever for rapidly growing a company's user base",
+			"assigned_codes": ["Freemium model", "Network effects"],
+			"justification": "Descreve incentivos de compartilhamento social como alavanca efetiva para crescimento de base de usuários."
+		},
+		{
+			"article_id": "190655350",
+			"article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+			"quote": "Facebook, for instance, had more than 1.7 billion monthly active users in September 2016, none of whom paid anything to enjoy its services. Facebook makes money by allowing businesses access to users' newsfeeds",
+			"assigned_codes": ["Data-driven monetization", "Platform business model"],
+			"justification": "Ilustra modelo de monetização de dados onde serviços gratuitos atraem usuários cujos dados geram receita."
+		},
+		{
+			"article_id": "190655350",
+			"article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+			"quote": "free (or almost free) services draw large numbers of consumers, who then become targets for the advertisers that pay for access to those consumers",
+			"assigned_codes": ["Data-driven monetization", "B2B business model"],
+			"justification": "Descreve modelo B2B onde serviços gratuitos atraem consumidores que se tornam alvos para anunciantes pagantes."
+		},
+		{
+			"article_id": "190655362",
+			"article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+			"quote": "The earliest possible identification of high-value customers is a key customer relationship management (CRM) challenge",
+			"assigned_codes": ["Freemium model", "Data-driven monetization"],
+			"justification": "Identifica identificação precoce de clientes de alto valor como desafio crítico de CRM em modelos freemium."
+		},
+		{
+			"article_id": "190655362",
+			"article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+			"quote": "The length of time between a user's registration and his/her initial credit purchase is negatively correlated to that user's remaining CLV",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Estabelece correlação entre tempo até primeira compra e valor de vida do cliente em modelos freemium."
+		},
+		{
+			"article_id": "190655382",
+			"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+			"quote": "firms able to dynamically shift between exploitation and exploration, depending on external and internal conditions, are more likely to enter the market in a timely manner with a contemporary business model",
+			"assigned_codes": [
+				"Established vendor transition",
+				"Organizational preparedness"
+			],
+			"justification": "Destaca capacidade de alternar dinamicamente entre exploração e explotação como crucial para transições bem-sucedidas."
+		},
+		{
+			"article_id": "190655382",
+			"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+			"quote": "economies of scale are crucial for profitability in the SaaS market",
+			"assigned_codes": ["Economies of scale", "SaaS (Software as a Service)"],
+			"justification": "Afirma economias de escala como cruciais para rentabilidade no mercado SaaS."
+		},
+		{
+			"article_id": "190655386",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "I believe one of the most critical success factors are what you can call organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain",
+			"assigned_codes": [
+				"Organizational preparedness",
+				"Established vendor transition"
+			],
+			"justification": "Reitera preparação organizacional como fator crítico de sucesso em transições para nuvem."
+		},
+		{
+			"article_id": "190655386",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms... led to smoother transition process",
+			"assigned_codes": [
+				"Hybrid model adoption",
+				"Established vendor transition"
+			],
+			"justification": "Descreve modelo híbrido balanceando SaaS e on-premise como levando a transição mais suave."
+		},
+		{
+			"article_id": "190655389",
+			"article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+			"quote": "they had to find an alternative way to bring the product to the market",
+			"assigned_codes": ["Startup company focus", "Technology evolution"],
+			"justification": "Ilustra capacidade de pivô e adaptação de startups frente a limitações tecnológicas inesperadas."
+		},
+		{
+			"article_id": "190655389",
+			"article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+			"quote": "revenue sharing was clear to us from the beginning. It was a way to share the risks and profits evenly",
+			"assigned_codes": ["Ecosystem management", "Startup company focus"],
+			"justification": "Descreve compartilhamento de receita como estratégia de gestão de riscos em ecossistema de startup."
+		},
+		{
+			"article_id": "190655397",
+			"article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+			"quote": "payment-based revenue models (e.g., paid or freemium models) are more likely to be suitable in presence of consumers displaying sufficiently large willingness to pay for the product",
+			"assigned_codes": ["Mobile app market", "Value-based pricing"],
+			"justification": "Relaciona adequação de modelos de receita à disposição de pagar dos consumidores em mercado de apps."
+		},
+		{
+			"article_id": "190655417",
+			"article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+			"quote": "enabling a 'one-face-to-the-customer'... customer experience",
+			"assigned_codes": ["Service-oriented model", "Ecosystem management"],
+			"justification": "Descreve coordenação de múltiplos provedores para apresentar experiência unificada ao cliente."
+		},
+		{
+			"article_id": "190655417",
+			"article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+			"quote": "distribute it among involved providers according to their contribution to the delivered service",
+			"assigned_codes": ["Ecosystem management"],
+			"justification": "Discute distribuição justa de receita baseada em contribuição como parte da gestão de ecossistema."
+		},
+		{
+			"article_id": "190655425",
+			"article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+			"quote": "By means of this strategy the firms could improve their cost leadership in the market and protect their business against rivalry and substitutes",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Economies of scale"
+			],
+			"justification": "Descreve como infraestrutura em nuvem permite liderança em custos e proteção competitiva."
+		},
+		{
+			"article_id": "190655425",
+			"article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+			"quote": "the firms were able to use differentiation as a competitive advantage, offering benefits that their competitors did not have",
+			"assigned_codes": ["Service-oriented model"],
+			"justification": "Identifica diferenciação através de serviços como vantagem competitiva."
+		},
+		{
+			"article_id": "190655440",
+			"article_title": "Designing business models for cloud platforms",
+			"quote": "having complementary C&A available will convince developing partners and individual developers to join the platform and to build more C&A",
+			"assigned_codes": ["Platform business model", "Network effects"],
+			"justification": "Descreve como disponibilidade de complementos atrai desenvolvedores, criando efeitos de rede."
+		},
+		{
+			"article_id": "190655440",
+			"article_title": "Designing business models for cloud platforms",
+			"quote": "a PaaS solution providing a variety of high-quality C&A increases the value for users and thereby creates positive network effects",
+			"assigned_codes": ["Platform business model", "Network effects"],
+			"justification": "Relaciona variedade e qualidade de aplicações com criação de efeitos de rede positivos em PaaS."
+		},
+		{
+			"article_id": "190655451",
+			"article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+			"quote": "What is common to all the business models discussed in this paper is the need to collect revenue based on both platform and infrastructure use",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Discute necessidade de coletar receita baseada em uso de plataforma e infraestrutura em modelos cloud."
+		},
+		{
+			"article_id": "190655451",
+			"article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+			"quote": "this both simplifies charging mechanisms and enables end-users to be presented with a single point of charging rather than point-to-point relationships with the many stakeholders",
+			"assigned_codes": ["Service-oriented model"],
+			"justification": "Descreve simplificação de mecanismos de cobrança através de ponto único voltado ao serviço."
+		},
+		{
+			"article_id": "190655528",
+			"article_title": "A Study on a Decentralized SaaS Business Model",
+			"quote": "Fixed strategy is found to be the best method to earn the highest total revenue for all five servers, with the highest satisfaction rate too",
+			"assigned_codes": ["SaaS (Software as a Service)"],
+			"justification": "Identifica estratégia fixa de seleção de serviço como otimizadora de receita em SaaS descentralizado."
+		},
+		{
+			"article_id": "190655555",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "software firms can use flexible revenue and pricing strategies to make the service more attractive for customers",
+			"assigned_codes": [
+				"Flexible pricing strategies",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Reitera flexibilidade de precificação como tornando serviços SaaS mais atrativos."
+		},
+		{
+			"article_id": "190655589",
+			"article_title": "Service-Centric Business Model in Cloud Environment",
+			"quote": "These technological advantages enables firms' make several business innovations",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Service-oriented model"
+			],
+			"justification": "Descreve vantagens tecnológicas da nuvem como habilitadoras de inovações em modelos de negócio orientados a serviço."
+		},
+		{
+			"article_id": "190655614",
+			"article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+			"quote": "users willing to share data with app developers are more inclined to use data-driven mobile travel apps",
+			"assigned_codes": ["Data-driven monetization", "Platform business model"],
+			"justification": "Relaciona disposição de compartilhar dados com uso de apps em plataformas multi-sided."
+		},
+		{
+			"article_id": "190655631",
+			"article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+			"quote": "The top five criteria identified by developers for adoption of a platform were that the platform have a large installed base of devices",
+			"assigned_codes": ["Platform business model", "Network effects"],
+			"justification": "Identifica base instalada grande como critério principal de desenvolvedores, refletindo efeitos de rede."
+		},
+		{
+			"article_id": "190655648",
+			"article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+			"quote": "As a result, the more people play Candy Crush Saga, the more effective and valuable the game's connective (or 'social') components become for both the players and for King",
+			"assigned_codes": [
+				"Network effects",
+				"Gaming industry focus",
+				"Freemium model"
+			],
+			"justification": "Descreve como componentes sociais se tornam mais valiosos com mais jogadores, criando efeitos de rede em jogos freemium."
+		},
+		{
+			"article_id": "190655698",
+			"article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+			"quote": "Positive trial experience as represented by high review rating of the free version of a mobile app leads to higher sales of its paid version",
+			"assigned_codes": ["Freemium model", "Mobile app market"],
+			"justification": "Evidencia que experiência positiva com versão gratuita (ratings altos) impulsiona vendas da versão paga."
+		},
+		{
+			"article_id": "190655702",
+			"article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
+			"quote": "the degree of openness chosen by the entrant in equilibrium increases with the network externalities and the competitive advantage of the incumbent",
+			"assigned_codes": ["Network effects", "Startup company focus"],
+			"justification": "Relaciona grau de abertura de startups com força dos efeitos de rede e vantagem do incumbente."
+		},
+		{
+			"article_id": "190655721",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "Value is what clients really want to pay for. For SaaS vendors, the focus on value-based orientation in software pricing will help them in securing sustainable revenue",
+			"assigned_codes": ["Value-based pricing", "SaaS (Software as a Service)"],
+			"justification": "Enfatiza orientação baseada em valor como ajudando fornecedores SaaS a garantir receita sustentável."
+		},
+		{
+			"article_id": "190655747",
+			"article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
+			"quote": "Increased operational efficiency and costs saving are seen both as benefits and also as prerequisites for the management system in all customer segments",
+			"assigned_codes": ["Economies of scale", "Service quality improvement"],
+			"justification": "Identifica eficiência operacional e economia de custos como benefícios e pré-requisitos de sistemas de gestão."
+		},
+		{
+			"article_id": "190655750",
+			"article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+			"quote": "software patent stocks positively affect the relationship between a firm's OSS product portfolio and its value",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Demonstra que portfólio de patentes afeta positivamente valor de empresas com produtos OSS comercializados."
+		},
+		{
+			"article_id": "190655785",
+			"article_title": "The relationship between Open Innovation and Strategy: data-driven analysis of the Mobile Value Services Industry",
+			"quote": "wrong partner selection; lack of communication and managerial commitment; poor relationship management",
+			"assigned_codes": ["Ecosystem management"],
+			"justification": "Identifica gestão inadequada de relacionamentos e seleção de parceiros como barreiras ao sucesso."
+		},
+		{
+			"article_id": "190655819",
+			"article_title": "Open-Source Software Entrepreneurial Business Modelling",
+			"quote": "Most recognized the value of this framework, for being specifically tailored for the high-tech software business",
+			"assigned_codes": ["Open source business model", "Startup company focus"],
+			"justification": "Discute valor de frameworks adaptados especificamente para negócios de software high-tech open source."
+		},
+		{
+			"article_id": "190655845",
+			"article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+			"quote": "PaaS offers differ notably in their core value proposition which has a direct impact on the corresponding CVP",
+			"assigned_codes": ["Platform business model", "Value-based orientation"],
+			"justification": "Identifica proposta de valor central como tendo impacto direto no valor para cliente em plataformas PaaS."
+		}
+	]
+}

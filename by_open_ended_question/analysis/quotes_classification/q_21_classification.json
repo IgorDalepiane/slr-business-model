@@ -1,0 +1,954 @@
+{
+	"qualitative_analysis": [
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors",
+			"assigned_codes": [
+				"SaaS (Software as a Service)",
+				"Service-oriented model",
+				"Remote hosting"
+			],
+			"justification": "Describes SaaS as a service model where infrastructure and management are outsourced, highlighting the service delivery and remote hosting characteristics of the business model."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand",
+			"assigned_codes": [
+				"SME market focus",
+				"Enterprise market focus",
+				"On-demand access"
+			],
+			"justification": "Identifies two distinct customer segments (SMEs and large corporations) and emphasizes the on-demand nature of SaaS delivery model."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "clients are charged through recurring subscription fees on a pay-as-you-go basis",
+			"assigned_codes": ["Subscription-based pricing", "Pay-as-you-go pricing"],
+			"justification": "Explicitly describes the pricing strategy combining subscription model with usage-based payment approach."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "The network operators operate the platform and deliver games to players' set-top boxes or to PCs through their broadband network... It is based on revenue sharing between three players, the content owner, a portal, and ourselves –all sharing the content revenue. If the content is [equivalent to] five dollars, we share it so that there are two dollars for the portal, and two dollars for the content owner, and one for us",
+			"assigned_codes": [
+				"Platform business model",
+				"Gaming industry focus",
+				"Partner ecosystem disruption"
+			],
+			"justification": "Describes a platform-based gaming business model with complex revenue sharing among multiple ecosystem partners (network operators, content owners, and portals)."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "Cloud computing can be divided roughly into three service layers... (i) Infrastructure as a Service (IaaS), which provides computation and storage capacity, (ii) Platform as a Service (PaaS), which provides software development tools plus an application execution environment, and (iii) Software as a Service (SaaS), which provides applications on top of PaaS and IaaS",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Defines the cloud computing stack and positions SaaS within the broader cloud infrastructure ecosystem."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners, all what they refer to as value added resellers. Here, all the sales go through ERP Co partners, which could be platinum partners that only work for ERP Co and build their services around ERP Co products, or gold partners that mainly work with ERP Co but also engage with other businesses, or smaller partners and resellers that represent ERP Co or their products in micro markets and local markets around the country",
+			"assigned_codes": [
+				"SME market focus",
+				"Partner ecosystem disruption",
+				"Ecosystem management"
+			],
+			"justification": "Describes a complex partner ecosystem with different tiers of resellers serving the SME market, highlighting the importance of ecosystem management in software business models."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "up to 50% of the initial ERP Co license fees do go to VAR",
+			"assigned_codes": ["Partner compensation", "Perpetual licensing"],
+			"justification": "Shows significant revenue sharing with partners in a traditional licensing model, demonstrating partner compensation strategy."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "the platinum partners collaborate with ERP Co to achieve \"synergistic integration,\" in which new products and services are developed by the partners based on the ERP Co system, and both sides reinforce each other and achieve value co-creation",
+			"assigned_codes": ["Ecosystem management", "Platform business model"],
+			"justification": "Describes value co-creation through synergistic partnerships, characteristic of platform business models where ecosystem partners collaborate to create mutual value."
+		},
+		{
+			"article_id": "190638976",
+			"article_title": "Managing a Software Business",
+			"quote": "offering a platform or an ecosystem in which your business can grow together with others that depend on yours",
+			"assigned_codes": ["Platform business model", "Ecosystem management"],
+			"justification": "Directly references platform and ecosystem business models where the business grows through interdependent relationships with other actors."
+		},
+		{
+			"article_id": "190638976",
+			"article_title": "Managing a Software Business",
+			"quote": "You can even crowdsource software development and support, but building and maintaining a live volunteer community isn't for the fainthearted",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Describes crowdsourced development and volunteer communities, which are characteristic of open source business models."
+		},
+		{
+			"article_id": "190638976",
+			"article_title": "Managing a Software Business",
+			"quote": "given the big productivity differences among developers, your engineers will likely be a strategic asset",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Highlights human capital as a strategic asset, which is a key factor in organizational readiness for software business success."
+		},
+		{
+			"article_id": "190653396",
+			"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+			"quote": "the BMs serve as intermediaries or matchmakers in a value network",
+			"assigned_codes": ["Platform business model", "Marketplace model"],
+			"justification": "Describes business models that act as intermediaries connecting multiple parties, characteristic of platform and marketplace models."
+		},
+		{
+			"article_id": "190653396",
+			"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+			"quote": "digital platforms for their partners, such as restaurants, supermarkets, or hotels, to sell surplus food that would otherwise go to waste to individuals at reduced prices",
+			"assigned_codes": [
+				"Sustainability focus",
+				"Marketplace model",
+				"B2C business model"
+			],
+			"justification": "Describes a sustainable marketplace business model connecting businesses with consumers to reduce waste, integrating ecological sustainability into the core value proposition."
+		},
+		{
+			"article_id": "190653396",
+			"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+			"quote": "Digital sustainable platforms orchestrate multi-sided markets and connect complementors and customers to make their respective BMs more sustainable",
+			"assigned_codes": [
+				"Platform business model",
+				"Sustainability focus",
+				"Network effects"
+			],
+			"justification": "Describes multi-sided platforms that create value by connecting multiple actors while advancing sustainability, leveraging network effects."
+		},
+		{
+			"article_id": "190653434",
+			"article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+			"quote": "firms traded off between increasing the number of paying subscribers to gain subscription revenue and increasing the number of basic subscribers to gain advertising sponsorship revenue",
+			"assigned_codes": [
+				"Freemium model",
+				"Data-driven monetization",
+				"Subscription-based pricing"
+			],
+			"justification": "Describes the freemium model's dual revenue streams combining subscriptions and advertising, with data-driven monetization from the user base."
+		},
+		{
+			"article_id": "190653434",
+			"article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+			"quote": "it increases the conversion rate of free users to paid users by enhancing network effects",
+			"assigned_codes": ["Freemium model", "Network effects"],
+			"justification": "Explains how network effects in freemium models help convert free users to paying customers, a key mechanism in freemium business model success."
+		},
+		{
+			"article_id": "190653582",
+			"article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+			"quote": "Adobe entered into long-term agreements and partnerships with Amazon for AWS and Microsoft for Azure and other cloud-based services",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Ecosystem management"
+			],
+			"justification": "Shows dependence on cloud infrastructure providers and strategic partnerships for transitioning to cloud-based delivery model."
+		},
+		{
+			"article_id": "190653589",
+			"article_title": "Navigating the paradox of global scaling",
+			"quote": "the firms hired senior executives who had previous experience in global scaling",
+			"assigned_codes": [
+				"Organizational preparedness",
+				"Startup company focus"
+			],
+			"justification": "Describes organizational capability building for global scaling in software startups, a key success factor for business model execution."
+		},
+		{
+			"article_id": "190653589",
+			"article_title": "Navigating the paradox of global scaling",
+			"quote": "external funding reinforces pressures to grow rapidly",
+			"assigned_codes": ["Startup company focus", "Market expansion"],
+			"justification": "Highlights the role of venture capital in driving rapid growth strategies in software startups."
+		},
+		{
+			"article_id": "190653734",
+			"article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+			"quote": "What drives users to pay in freemium is the social prestige associated with using a high-end product",
+			"assigned_codes": ["Freemium model", "Mobile app market"],
+			"justification": "Explains psychological drivers behind freemium conversion in mobile apps, highlighting social factors as key to monetization."
+		},
+		{
+			"article_id": "190653734",
+			"article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+			"quote": "Developers employ various practices to implement freemium strategies, with in-app purchases (IAP) and in-app advertising being the primary approaches",
+			"assigned_codes": [
+				"Freemium model",
+				"Data-driven monetization",
+				"Mobile app market"
+			],
+			"justification": "Describes multiple monetization mechanisms in freemium mobile apps, combining direct purchases with advertising revenue."
+		},
+		{
+			"article_id": "190653856",
+			"article_title": "Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market valuation?",
+			"quote": "market participants seem to favour this form of company",
+			"assigned_codes": [
+				"SaaS (Software as a Service)",
+				"Growing business model"
+			],
+			"justification": "Indicates market preference for SaaS business models, suggesting growing adoption and maturity."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "Anselmi et al. (2017) model a marketplace with users purchasing services from SaaS providers, which in turn acquire computing resources from infrastructure providers such as AWS",
+			"assigned_codes": [
+				"SaaS (Software as a Service)",
+				"Cloud computing infrastructure",
+				"Marketplace model"
+			],
+			"justification": "Describes the SaaS value chain with multiple layers including infrastructure providers (IaaS) and SaaS providers, forming a marketplace ecosystem."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "The Salesforce platform differentiated from incumbents such as Oracle by encouraging developers to create third-party apps on the platform",
+			"assigned_codes": [
+				"Platform business model",
+				"API-based business model",
+				"Network effects"
+			],
+			"justification": "Describes a platform strategy enabling third-party developers to build on the platform, creating network effects and ecosystem value."
+		},
+		{
+			"article_id": "190653942",
+			"article_title": "Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market",
+			"quote": "Apple screens apps to ensure they meet a minimum legitimacy threshold",
+			"assigned_codes": ["Mobile app market", "Platform business model"],
+			"justification": "Describes platform governance and quality control in mobile app marketplaces."
+		},
+		{
+			"article_id": "190653950",
+			"article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+			"quote": "Steam was created in 2003 by game publisher Valve",
+			"assigned_codes": ["Platform business model", "Gaming industry focus"],
+			"justification": "Describes Steam as a gaming platform that connects developers with users in the gaming industry."
+		},
+		{
+			"article_id": "190653950",
+			"article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+			"quote": "Users can download and use these products free of charge and have the option to make in-app purchases",
+			"assigned_codes": ["Freemium model", "Gaming industry focus"],
+			"justification": "Describes freemium business model in gaming where users access products free but can make optional purchases."
+		},
+		{
+			"article_id": "190653984",
+			"article_title": "Toward Building Specialized Information Systems as Software Platforms",
+			"quote": "The ecosystem is made up of three types of organizations: platform providers, app developers, and users. Platform providers are the organizations that build and operate the platform. App developers are the organizations that build apps that run on the platform. Users are the individuals or organizations that use the apps that run on the platform",
+			"assigned_codes": ["Platform business model", "Ecosystem management"],
+			"justification": "Clearly defines the three-sided platform ecosystem structure with platform providers, developers, and users as key actors."
+		},
+		{
+			"article_id": "190654058",
+			"article_title": "MintM: the start-up transforming businesses real-time",
+			"quote": "brands and retailers to provide customized audio-visual content to consumers",
+			"assigned_codes": [
+				"B2B business model",
+				"B2C business model",
+				"Data-driven monetization"
+			],
+			"justification": "Describes a hybrid B2B2C model where the platform serves brands/retailers who target consumers, with data-driven customization."
+		},
+		{
+			"article_id": "190654085",
+			"article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+			"quote": "Even in the App developer perspective they may be considered as a BMI asking them to redesign their apps to leverage the new way of getting revenue from the catalogue management company that usually pay them according to the number of times the specific apps gets downloaded and used",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Mobile app market",
+				"Platform business model"
+			],
+			"justification": "Describes business model innovation in app marketplaces with new subscription models affecting developer revenue streams."
+		},
+		{
+			"article_id": "190654186",
+			"article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+			"quote": "we study three-way competition among a proprietary firm (proprietor), an OSS originating firm (originator), and an OSS contributing firm (contributor)",
+			"assigned_codes": [
+				"Open source business model",
+				"Service-oriented model"
+			],
+			"justification": "Describes competition between proprietary and open source business models, with OSS firms competing through service revenue."
+		},
+		{
+			"article_id": "190654186",
+			"article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+			"quote": "the proprietor solely incurs production costs but then retains significant pricing power because it can charge for the product itself",
+			"assigned_codes": ["Perpetual licensing", "Cost-based pricing"],
+			"justification": "Describes the traditional proprietary software model with product-based pricing and higher pricing power."
+		},
+		{
+			"article_id": "190654186",
+			"article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+			"quote": "the OSS originator and contributor share production costs, cannot charge for an open-source product, and must compete for service revenues",
+			"assigned_codes": [
+				"Open source business model",
+				"Service-oriented model"
+			],
+			"justification": "Explains how open source firms monetize through services rather than product sales, sharing development costs collaboratively."
+		},
+		{
+			"article_id": "190654465",
+			"article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+			"quote": "Additional operators increase the market share of trips for which tickets can be purchased, which in turn increases the users' satisfaction with ticketing and subsequently their use of app as well as ticket purchases through the app. The resulting revenue increase will then incentivise more operators to join the scheme",
+			"assigned_codes": [
+				"Platform business model",
+				"Network effects",
+				"Marketplace model"
+			],
+			"justification": "Describes network effects in a multi-sided platform where more operators attract more users, creating a virtuous cycle."
+		},
+		{
+			"article_id": "190654531",
+			"article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+			"quote": "The business developer needs to define the range of the scope",
+			"assigned_codes": [
+				"Organizational preparedness",
+				"Value-based orientation"
+			],
+			"justification": "Describes systematic business model development approaches requiring organizational capability and customer value focus."
+		},
+		{
+			"article_id": "190654542",
+			"article_title": "E-business evolution: an analysis of mobile applications' business models",
+			"quote": "replicators may not be entirely transmitted; some of them are selected out or modified due to their relationships with interactors, which in this case are: entrepreneur/strategist, app designers and developers, active investors, app users, and app platforms",
+			"assigned_codes": [
+				"Mobile app market",
+				"Platform business model",
+				"Ecosystem management"
+			],
+			"justification": "Describes the complex ecosystem of mobile app business models with multiple interacting actors influencing business model evolution."
+		},
+		{
+			"article_id": "190654542",
+			"article_title": "E-business evolution: an analysis of mobile applications' business models",
+			"quote": "app platforms may ask for different fees to be paid, which influence the value source 'design of added monetization' and (as a consequence) value capture schemes",
+			"assigned_codes": ["Platform business model", "Mobile app market"],
+			"justification": "Shows how platform policies and fees influence app developers' monetization strategies and business models."
+		},
+		{
+			"article_id": "190654598",
+			"article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+			"quote": "Cloud service providers (CSPs) try to build a marketplace where software can be easily used for their customers and try to acquire a wide variety of software developers. Software developers can achieve global sales at lower costs than conventional software distribution methods by registering their own software in their marketplaces",
+			"assigned_codes": [
+				"Marketplace model",
+				"Cloud delivery model",
+				"Global market presence"
+			],
+			"justification": "Describes cloud marketplaces as platforms connecting developers with customers globally, reducing distribution costs."
+		},
+		{
+			"article_id": "190654601",
+			"article_title": "Software as a service: Lessons from the video game industry",
+			"quote": "Developing communities is extremely important for GaaS business models, as they act as a conduit for feedback to the game producers",
+			"assigned_codes": [
+				"Service-oriented model",
+				"Gaming industry focus",
+				"Network effects"
+			],
+			"justification": "Highlights the importance of community engagement in Games-as-a-Service models, leveraging user feedback and network effects."
+		},
+		{
+			"article_id": "190654605",
+			"article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+			"quote": "Both case organisations have recently developed indigenous OpenStack collaborating network platforms which enables service providers, independent developers, resellers, integrators and telecommunications companies to resell both case organisation's SaaS products and services",
+			"assigned_codes": [
+				"Platform business model",
+				"SaaS (Software as a Service)",
+				"Ecosystem management"
+			],
+			"justification": "Describes a platform ecosystem enabling multiple partners to collaborate and resell SaaS products through a shared infrastructure."
+		},
+		{
+			"article_id": "190654605",
+			"article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+			"quote": "customers are increasingly playing a more prominent role within their SaaS value networks...organisations hold regular networking events at which customers can give them face-to-face feedback",
+			"assigned_codes": ["Service quality improvement", "Ecosystem management"],
+			"justification": "Shows active customer engagement in SaaS value networks as a strategy for service quality improvement and relationship management."
+		},
+		{
+			"article_id": "190654664",
+			"article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+			"quote": "The INT becomes a specific distribution channel for solutions of the VAR",
+			"assigned_codes": [
+				"Hybrid business model",
+				"Partner ecosystem disruption"
+			],
+			"justification": "Describes synergies from combining different business models (integrator and value-added reseller) where partners become distribution channels for each other."
+		},
+		{
+			"article_id": "190654709",
+			"article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+			"quote": "Key partnerships need to be established to specialized investors that increase the value of a company beyond financial investments e.g. with large dataset",
+			"assigned_codes": [
+				"Data-driven monetization",
+				"Ecosystem management",
+				"Startup company focus"
+			],
+			"justification": "Highlights strategic partnerships for emerging technology startups, particularly around data assets which are critical for AI/ML business models."
+		},
+		{
+			"article_id": "190654717",
+			"article_title": "Economics of open source library software: evidences from Indian libraries",
+			"quote": "Producers of Open Source Library Software (e.g. Koha.org, Dspace) → Libraries (Free) → Service Providers (e.g. Bywater Solutions, LibLime, Informatics) (Free Service Charges)",
+			"assigned_codes": [
+				"Open source business model",
+				"Service-oriented model"
+			],
+			"justification": "Describes the classic open source business model where software is free but revenue comes from service providers offering implementation and support."
+		},
+		{
+			"article_id": "190654720",
+			"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+			"quote": "Asset Manufacturers (AMs) which are producing hardware components and systems (e.g., access points, routers, switches) to build Fog infrastructures",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"B2B business model"
+			],
+			"justification": "Describes infrastructure hardware providers in the Fog/edge computing ecosystem, targeting business customers."
+		},
+		{
+			"article_id": "190654720",
+			"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+			"quote": "Infrastructure Providers are listed among the Key Partners. Obviously, their partnership represents a fundamental strategic alliance with non-competitors as they have to run a monitoring service on top of their infrastructures to feed data to the prediction engine",
+			"assigned_codes": ["Ecosystem management", "Data-driven monetization"],
+			"justification": "Shows strategic ecosystem partnerships built around data sharing for predictive services in fog computing."
+		},
+		{
+			"article_id": "190654834",
+			"article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+			"quote": "partnerships established by these services include car manufacturers or car rental companies (vehicle providers), fuel or charging distributors and promotion partners",
+			"assigned_codes": [
+				"Platform business model",
+				"Ecosystem management",
+				"Sustainability focus"
+			],
+			"justification": "Describes complex partnership ecosystems in mobility-as-a-service platforms, with sustainability implications through shared mobility."
+		},
+		{
+			"article_id": "190654956",
+			"article_title": "Open source ERP business model framework",
+			"quote": "Corporate Distribution, where many open source products have been developed [...] Thus an industry has developed including firms such as Red Hat that create value and collect fees by providing support to those firms that would like to adopt open source software products",
+			"assigned_codes": [
+				"Open source business model",
+				"Service-oriented model",
+				"Enterprise market focus"
+			],
+			"justification": "Describes the open source enterprise business model where value is created through support services rather than product sales."
+		},
+		{
+			"article_id": "190654956",
+			"article_title": "Open source ERP business model framework",
+			"quote": "Compiere has more than 100 partners in 25 countries. They do not allow just anyone to contribute code –the majority of code contributors are trained partners who understand company's business model",
+			"assigned_codes": [
+				"Open source business model",
+				"Ecosystem management",
+				"Global market presence"
+			],
+			"justification": "Shows a controlled open source model with global partner network managing code contributions to align with business model."
+		},
+		{
+			"article_id": "190655012",
+			"article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+			"quote": "the free basic version is made available to everyone who may become a buyer (potential customer) and the premium advanced version can be sold to actual buyer at a price",
+			"assigned_codes": ["Freemium model", "Low switching costs"],
+			"justification": "Describes the core freemium mechanism where free versions reduce barriers to entry and customer uncertainty, lowering switching costs."
+		},
+		{
+			"article_id": "190655012",
+			"article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+			"quote": "The users of the premium version must use the free basic version [...] the customers of the premium version who buy the props will play the same game with customers of the free version",
+			"assigned_codes": ["Freemium model", "Network effects"],
+			"justification": "Explains how freemium models create shared networks between free and paid users, generating network effects that benefit all users."
+		},
+		{
+			"article_id": "190655172",
+			"article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+			"quote": "venture capitalists tend to actively involve themselves in the ventures they fund through closely monitoring and controlling",
+			"assigned_codes": [
+				"Startup company focus",
+				"Organizational preparedness"
+			],
+			"justification": "Describes the role of venture capital in shaping startup business models through active involvement and governance."
+		},
+		{
+			"article_id": "190655172",
+			"article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+			"quote": "By integrating APIs from a third-party data provider, App developers are able to provide a bundle of various services",
+			"assigned_codes": ["API-based business model", "Platform business model"],
+			"justification": "Describes API integration strategies enabling app developers to create composite services through third-party integrations."
+		},
+		{
+			"article_id": "190655181",
+			"article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+			"quote": "Platform firms generally have a supplier platform, a customer platform",
+			"assigned_codes": ["Platform business model", "Marketplace model"],
+			"justification": "Defines the two-sided nature of platform business models connecting suppliers and customers."
+		},
+		{
+			"article_id": "190655181",
+			"article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+			"quote": "Leading platform owners have strongly focused on attracting and tying external complementary firms to their platforms",
+			"assigned_codes": [
+				"Platform business model",
+				"Network effects",
+				"Ecosystem management"
+			],
+			"justification": "Describes platform strategy of building ecosystem value through complementary services, creating network effects and lock-in."
+		},
+		{
+			"article_id": "190655186",
+			"article_title": "Developing enterprise social software in China: insights from Mingdao",
+			"quote": "Mingdao adopted 'an open policy' for its platform and hoped that many third-party developers would share profit and customers with the company",
+			"assigned_codes": [
+				"Platform business model",
+				"API-based business model",
+				"Ecosystem management"
+			],
+			"justification": "Describes an open platform strategy enabling third-party developers to build on the platform, sharing revenue and customers."
+		},
+		{
+			"article_id": "190655190",
+			"article_title": "Open source - Is it an alternative to intellectual property?",
+			"quote": "community of unpaid volunteers contributes creations to a community leader, the intermediary, which is often an incorporated company or organization",
+			"assigned_codes": [
+				"Open source business model",
+				"Service-oriented model"
+			],
+			"justification": "Describes the organizational structure of open source business models with volunteer contributors and commercial intermediaries."
+		},
+		{
+			"article_id": "190655190",
+			"article_title": "Open source - Is it an alternative to intellectual property?",
+			"quote": "When a volunteer makes a contribution to the project, he does so through a contributor's license agreement",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Explains the legal mechanism (contributor license agreements) that enables commercial open source business models."
+		},
+		{
+			"article_id": "190655198",
+			"article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+			"quote": "The producers and consumers of patient data are organizational actors and their employees. Each organization can play either role",
+			"assigned_codes": [
+				"Platform business model",
+				"Healthcare technology",
+				"B2B business model"
+			],
+			"justification": "Describes a healthcare data platform where organizations act as both data producers and consumers in a B2B ecosystem."
+		},
+		{
+			"article_id": "190655198",
+			"article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+			"quote": "it was agreed that the healthcare district would pay the monthly cost to the platform provider and reimburse the cost from the municipalities",
+			"assigned_codes": ["Subscription-based pricing", "Healthcare technology"],
+			"justification": "Shows subscription-based pricing model in healthcare platforms with complex payment flows through intermediaries."
+		},
+		{
+			"article_id": "190655206",
+			"article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+			"quote": "In the four-corner model, an e-invoicing service provider makes contractual interoperability agreements with other service providers so that interchange between two platforms is enabled",
+			"assigned_codes": [
+				"Platform business model",
+				"Network effects",
+				"Ecosystem management"
+			],
+			"justification": "Describes interoperability strategies between competing platforms to create network effects and ecosystem value."
+		},
+		{
+			"article_id": "190655206",
+			"article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+			"quote": "Typical arrangement between platforms is that the service providers do not charge each other for the invoice data they exchange",
+			"assigned_codes": ["Platform business model", "Ecosystem management"],
+			"justification": "Shows cooperative competition (co-opetition) between platforms to grow the overall ecosystem without charging for data exchange."
+		},
+		{
+			"article_id": "190655218",
+			"article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+			"quote": "had a strong collaboration with health plans and accountable care organizations to help them realize the value potential of participating in the HIE, for example, such as helping reduce non-urgent emergency department visits",
+			"assigned_codes": [
+				"Healthcare technology",
+				"Platform business model",
+				"Value-based orientation"
+			],
+			"justification": "Describes value-based healthcare platform business model where success depends on demonstrating clinical and financial value to participants."
+		},
+		{
+			"article_id": "190655218",
+			"article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+			"quote": "CORHIO engaged hospital stakeholders, as the first entities joining the network, to ensure a critical mass of clinical information was available to community providers",
+			"assigned_codes": [
+				"Network effects",
+				"Platform business model",
+				"Healthcare technology"
+			],
+			"justification": "Shows strategy of onboarding anchor tenants (hospitals) first to create critical mass and network effects in health information platforms."
+		},
+		{
+			"article_id": "190655219",
+			"article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+			"quote": "For service provision, two types of actors are needed: SMS aggregators and ticket providers (e.g. Plusdial, UnWire, Mobill, and IPX in different regions of Sweden, and UnWire in Copenhagen) that provide technology solution, and mobile network operators that act as payment processors",
+			"assigned_codes": [
+				"Platform business model",
+				"Mobile app market",
+				"Ecosystem management"
+			],
+			"justification": "Describes complex multi-actor ecosystem in mobile ticketing requiring technology providers, payment processors, and transport operators."
+		},
+		{
+			"article_id": "190655247",
+			"article_title": "The effect of free sampling strategies on freemium conversion rates",
+			"quote": "Premium users typically account for 3–5 % of total users. Increasing the proportion of premium users opposed to free users continues to be a challenging but critical lever for reaching profitability",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Provides key metric for freemium business models showing typical conversion rates and the challenge of achieving profitability."
+		},
+		{
+			"article_id": "190655247",
+			"article_title": "The effect of free sampling strategies on freemium conversion rates",
+			"quote": "when paired with social sharing incentives like paying users for every new user that they bring, free users become an effective lever for rapidly growing a company's user base",
+			"assigned_codes": [
+				"Freemium model",
+				"Network effects",
+				"Market expansion"
+			],
+			"justification": "Describes growth strategies in freemium models leveraging social sharing and network effects for user acquisition."
+		},
+		{
+			"article_id": "190655247",
+			"article_title": "The effect of free sampling strategies on freemium conversion rates",
+			"quote": "a free app that makes it to the top of an app store's ranking list can improve the visibility of the product because it will be displayed on the main page, therefore creating a virtuous loop that leads to more free users",
+			"assigned_codes": [
+				"Mobile app market",
+				"Network effects",
+				"Market expansion"
+			],
+			"justification": "Explains how app store ranking algorithms create positive feedback loops for successful apps, accelerating user growth."
+		},
+		{
+			"article_id": "190655350",
+			"article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+			"quote": "users are more than eyeballs to be targeted with advertising; they become data providers, and companies may capture value by using that data to customize advertising messages, leverage e-ethnography to improve their own core offer, serve as fodder for research, or create knowledge for third parties",
+			"assigned_codes": ["Data-driven monetization", "Freemium model"],
+			"justification": "Describes multiple ways companies monetize user data beyond advertising, including product improvement and selling insights to third parties."
+		},
+		{
+			"article_id": "190655350",
+			"article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+			"quote": "Strava, which offers a mobile ride-tracking app for bicyclists, has sold data to the Oregon Department of Transportation (DOT)",
+			"assigned_codes": ["Data-driven monetization", "Mobile app market"],
+			"justification": "Provides concrete example of data monetization where free app user data is sold to government agencies for urban planning."
+		},
+		{
+			"article_id": "190655362",
+			"article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+			"quote": "Share of newly registered users becoming paying users: 3.3%, 6.1%, 4.8%",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Provides empirical conversion rate data for freemium business models across multiple cases."
+		},
+		{
+			"article_id": "190655382",
+			"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+			"quote": "The new on-demand software business model significantly changes the importance of established partnerships in the ERP market depending on a partners' function. Software partners offer industry-specific extensions and general add-ons that build on the ERP's core... implementation partners in the SaaS business model drops dramatically",
+			"assigned_codes": [
+				"Partner ecosystem disruption",
+				"SaaS (Software as a Service)",
+				"Established vendor transition"
+			],
+			"justification": "Describes how transition to SaaS disrupts traditional partner ecosystems, particularly reducing the role of implementation partners."
+		},
+		{
+			"article_id": "190655382",
+			"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+			"quote": "Business units buy software along the lines of 'this solution solves my problem, it is mobile, I like it'",
+			"assigned_codes": ["SaaS (Software as a Service)", "Low switching costs"],
+			"justification": "Shows how SaaS enables easier purchasing decisions and reduces organizational barriers, lowering switching costs."
+		},
+		{
+			"article_id": "190655382",
+			"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+			"quote": "provide application-programming interfaces to co-opetitively create value in eco-systems around their SaaS platforms",
+			"assigned_codes": [
+				"API-based business model",
+				"Platform business model",
+				"Ecosystem management"
+			],
+			"justification": "Describes API strategies enabling ecosystem partners to co-create value on SaaS platforms through co-opetition."
+		},
+		{
+			"article_id": "190655386",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "VAR is a critical part of ERP Co's business ecosystem... these partners/resellers heavily depend on ERP Co, some more so than others",
+			"assigned_codes": [
+				"Partner ecosystem disruption",
+				"Established vendor transition"
+			],
+			"justification": "Highlights partner dependency in traditional software ecosystems facing disruption from cloud transition."
+		},
+		{
+			"article_id": "190655389",
+			"article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+			"quote": "the income was shared among the portals, IPTV operators, G-cluster and game licensors",
+			"assigned_codes": ["Platform business model", "Gaming industry focus"],
+			"justification": "Describes revenue sharing model in gaming platform ecosystem with multiple value chain participants."
+		},
+		{
+			"article_id": "190655397",
+			"article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+			"quote": "App stores operate as online two-sided markets, generating mutual advantages to all involved actors. By means of developers, the platform owner, e.g., Apple, can exploit indirect network externalities... The revenue-sharing rule adopted by Apple (and also by all major stores) implies that, for each transaction, 70% of the revenue goes to the developer, while the platform owner retains 30% of it",
+			"assigned_codes": [
+				"Platform business model",
+				"Mobile app market",
+				"Network effects"
+			],
+			"justification": "Describes the two-sided market structure of app stores with clear revenue sharing model and network externalities."
+		},
+		{
+			"article_id": "190655417",
+			"article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+			"quote": "The coordinator is the leading role of a SECO and performs the following tasks: Technical coordination... Service coordination... Market coordination",
+			"assigned_codes": ["Platform business model", "Ecosystem management"],
+			"justification": "Describes the coordinator role in software ecosystems managing technical, service, and market aspects of multi-party collaboration."
+		},
+		{
+			"article_id": "190655417",
+			"article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+			"quote": "the coordinators would collect the payment from the customer and distribute it among involved providers according to their contribution",
+			"assigned_codes": ["Platform business model", "Service-oriented model"],
+			"justification": "Shows orchestration role of platform coordinators in managing revenue distribution among ecosystem participants."
+		},
+		{
+			"article_id": "190655425",
+			"article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+			"quote": "SaaS providers are also extremely dependent on their suppliers. In many cases, they need access to IaaS and PaaS providers",
+			"assigned_codes": [
+				"SaaS (Software as a Service)",
+				"Cloud computing infrastructure"
+			],
+			"justification": "Highlights dependency of SaaS providers on infrastructure layer, showing the vertical integration challenges in cloud stack."
+		},
+		{
+			"article_id": "190655425",
+			"article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+			"quote": "network operators have so much bargaining power over the content providers, there were no other options",
+			"assigned_codes": [
+				"Platform business model",
+				"Partner ecosystem disruption"
+			],
+			"justification": "Shows power asymmetries in platform ecosystems where infrastructure providers have significant bargaining power over content providers."
+		},
+		{
+			"article_id": "190655440",
+			"article_title": "Designing business models for cloud platforms",
+			"quote": "five possible customer segments: (1) individual developers...student groups or start-ups; (2) ISVs who develop and consume C&A on the platform; (3) system integrators (SIs) such as IT consultancies, who do this for their customers; (4) platform customers...enterprises that use PaaS solutions as a private cloud; and (5) the actual end user, meaning consumers of C&A",
+			"assigned_codes": [
+				"Platform business model",
+				"Multi-tenant architecture"
+			],
+			"justification": "Defines five distinct customer segments in PaaS business models, showing the complexity of multi-sided platform markets."
+		},
+		{
+			"article_id": "190655440",
+			"article_title": "Designing business models for cloud platforms",
+			"quote": "relationships with complementors rely on well-defined rules, IPR regulations, and collaboration models",
+			"assigned_codes": ["Platform business model", "Ecosystem management"],
+			"justification": "Emphasizes the importance of governance mechanisms in managing platform ecosystems and complementor relationships."
+		},
+		{
+			"article_id": "190655451",
+			"article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+			"quote": "Within the CloudSME project there are four stakeholder groups...End-users: At one end of this chain, there exist the end-user companies from the manufacturing and engineering sector...Simulation software providers...Cloud platform providers...Cloud resource providers",
+			"assigned_codes": [
+				"SaaS (Software as a Service)",
+				"Cloud computing infrastructure",
+				"SME market focus"
+			],
+			"justification": "Describes the full cloud value chain for vertical SaaS targeting SMEs in manufacturing, from infrastructure to end users."
+		},
+		{
+			"article_id": "190655451",
+			"article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+			"quote": "The commercial relationship is therefore EUROBIOS using ASCOMP's software that uses the CSSP developed by multiple stakeholders that uses (say) Amazon cloud resources",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Ecosystem management"
+			],
+			"justification": "Shows the complex multi-layer ecosystem relationships in cloud-based vertical applications with multiple intermediaries."
+		},
+		{
+			"article_id": "190655528",
+			"article_title": "A Study on a Decentralized SaaS Business Model",
+			"quote": "HQ may have some brand products and responsible for their global advertisement, R&D, and training",
+			"assigned_codes": [
+				"SaaS (Software as a Service)",
+				"Hybrid business model"
+			],
+			"justification": "Describes a decentralized SaaS model where headquarters provides brand and R&D while local servers operate independently."
+		},
+		{
+			"article_id": "190655528",
+			"article_title": "A Study on a Decentralized SaaS Business Model",
+			"quote": "local servers will get some supports from their HQ and pay license fee according to the number of users or usages",
+			"assigned_codes": ["Pay-as-you-go pricing", "Hybrid business model"],
+			"justification": "Shows usage-based licensing between HQ and local operators in a decentralized SaaS franchise-like model."
+		},
+		{
+			"article_id": "190655555",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "The network operators operate the platform and deliver games to players' set-top boxes or to PCs through their broadband network",
+			"assigned_codes": ["Platform business model", "Gaming industry focus"],
+			"justification": "Describes infrastructure providers as platform operators in gaming-as-a-service delivery."
+		},
+		{
+			"article_id": "190655589",
+			"article_title": "Service-Centric Business Model in Cloud Environment",
+			"quote": "The value network class describes social and technical resources transactions and operations within and between organizations towards the organizational framework in value configuration by a cross-organizational analysis perspective",
+			"assigned_codes": [
+				"Platform business model",
+				"Cloud delivery model",
+				"Ecosystem management"
+			],
+			"justification": "Describes value network orchestration in cloud business models emphasizing cross-organizational collaboration."
+		},
+		{
+			"article_id": "190655614",
+			"article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+			"quote": "it connects multiple groups of actors (i.e., end-users and app developers)",
+			"assigned_codes": [
+				"Platform business model",
+				"Mobile app market",
+				"Data-driven monetization"
+			],
+			"justification": "Defines multi-sided platform connecting users and developers with data monetization opportunities."
+		},
+		{
+			"article_id": "190655614",
+			"article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+			"quote": "Advertisement agencies could offer profile based advertisements to their customers",
+			"assigned_codes": ["Data-driven monetization", "Platform business model"],
+			"justification": "Shows how platforms monetize user data through targeted advertising based on user profiles."
+		},
+		{
+			"article_id": "190655631",
+			"article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+			"quote": "We interpret mobile operating systems such as iOS and Android as multi-sided platforms that serve a variety of \"customers,\" including consumers (users), handset makers, network operators, app developers, advertisers, and chip manufacturers",
+			"assigned_codes": [
+				"Platform business model",
+				"Mobile app market",
+				"Network effects"
+			],
+			"justification": "Comprehensively describes mobile OS as multi-sided platforms serving six distinct customer groups with complex network effects."
+		},
+		{
+			"article_id": "190655648",
+			"article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+			"quote": "Companies such as Google, Apple, Facebook, and Amazon operate as platform holders, who set the platform's technological standards and governance model, and mediate between, on the one hand \"buyers\" (e.g. players), and on the other hand suppliers (e.g. King) or \"complementors\"",
+			"assigned_codes": [
+				"Platform business model",
+				"Gaming industry focus",
+				"Freemium model"
+			],
+			"justification": "Describes platform governance and intermediation role in free-to-play gaming business models."
+		},
+		{
+			"article_id": "190655648",
+			"article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+			"quote": "For Facebook, companies such as King fulfill an important double role. On the one hand, they generate indirect network effects, adding value to the Facebook platform by offering games, such as Candy Crush Saga, directly on the Facebook website. On the other hand, app developers, such as King, spend millions on advertising, thereby enabling Facebook to commodify its connective properties",
+			"assigned_codes": [
+				"Platform business model",
+				"Network effects",
+				"Data-driven monetization"
+			],
+			"justification": "Explains the dual value creation mechanism where game developers both enhance platform value and generate advertising revenue for the platform."
+		},
+		{
+			"article_id": "190655698",
+			"article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+			"quote": "Google Play allows consumers to share their feedback on these apps through reviews and ratings",
+			"assigned_codes": ["Mobile app market", "Platform business model"],
+			"justification": "Describes platform mechanisms for user feedback that influence app discovery and success."
+		},
+		{
+			"article_id": "190655702",
+			"article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
+			"quote": "Firm I sells all goods composing the package in \"proprietary\" format, while firm E may decide to offer some goods of the package in an \"open source\" format",
+			"assigned_codes": [
+				"Open source business model",
+				"Startup company focus",
+				"Network effects"
+			],
+			"justification": "Contrasts proprietary vs open source strategies for startups competing against incumbents, considering network externalities."
+		},
+		{
+			"article_id": "190655747",
+			"article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
+			"quote": "three different types of customer segments for the new service for the management and analysis of transport disturbances can be identified; 1) Owners of the cargo (low value of transported goods), 2) Owners of the cargo (high value of transported goods) and 3) logistic operators",
+			"assigned_codes": ["B2B business model", "Value-based pricing"],
+			"justification": "Describes customer segmentation based on value delivered, with differentiated pricing for different customer types."
+		},
+		{
+			"article_id": "190655750",
+			"article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+			"quote": "companies collaborate with communities of volunteer developers",
+			"assigned_codes": ["Open source business model", "Ecosystem management"],
+			"justification": "Describes collaboration between commercial firms and volunteer developer communities in open source ecosystems."
+		},
+		{
+			"article_id": "190655750",
+			"article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+			"quote": "firms that cannot secure access to the underlying technology because of strong patenting activity and the high threat of litigation",
+			"assigned_codes": [
+				"Open source business model",
+				"Implementation challenges"
+			],
+			"justification": "Highlights intellectual property challenges as barriers to open source business model adoption."
+		},
+		{
+			"article_id": "190655785",
+			"article_title": "The relationship between Open Innovation and Strategy: data-driven analysis of the Mobile Value Services Industry",
+			"quote": "Device Manufacturer' (Apple, Nokia), 'Mobile Platform Provider' (Google), 'Mobile Network Operator' (Vodafone, TIM), 'Mobile Content & Service Provider' (Buongiorno, Dada)",
+			"assigned_codes": [
+				"Mobile app market",
+				"Platform business model",
+				"Ecosystem management"
+			],
+			"justification": "Maps the complete mobile value services ecosystem with device makers, platform providers, network operators, and content providers."
+		},
+		{
+			"article_id": "190655819",
+			"article_title": "Open-Source Software Entrepreneurial Business Modelling",
+			"quote": "Earlier versions of the OSS_EBM framework were introduced in an e-commerce university course targeting both master and doctoral students. Moreover, this framework was presented at two events of early-stage startup business incubators",
+			"assigned_codes": ["Open source business model", "Startup company focus"],
+			"justification": "Describes educational and incubation ecosystem support for open source software startups."
+		},
+		{
+			"article_id": "190655845",
+			"article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+			"quote": "IT startups are dynamic in their early stages and thus will use new technologies and products compared to companies established before them. Thereby, these early adaptors will help to place the platform within the market",
+			"assigned_codes": [
+				"Platform business model",
+				"Startup company focus",
+				"Cloud computing infrastructure"
+			],
+			"justification": "Highlights the role of startup early adopters in establishing PaaS platforms in the market."
+		},
+		{
+			"article_id": "190655845",
+			"article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+			"quote": "Platform modules [1] – applications, services, components, add-ons, extensions, and custom developments – are provided by independent software vendors (ISV)",
+			"assigned_codes": [
+				"Platform business model",
+				"API-based business model",
+				"Ecosystem management"
+			],
+			"justification": "Describes the modular architecture enabling ISVs to extend platform functionality, creating ecosystem value."
+		}
+	]
+}

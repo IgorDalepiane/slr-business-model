@@ -1,0 +1,1231 @@
+{
+	"qualitative_analysis": [
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors.",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Remote hosting",
+				"Service-oriented model"
+			],
+			"justification": "Describes outsourcing of technology infrastructure as prerequisite for SaaS model, aligning with cloud infrastructure and service-oriented delivery."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time. The multi-tenant architecture of SaaS benefits both clients and vendors alike",
+			"assigned_codes": [
+				"Multi-tenant architecture",
+				"Single-version deployment"
+			],
+			"justification": "Explicitly identifies multi-tenant architecture and single-version deployment as key prerequisites for SaaS business model."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "software deployed as a hosted service and accessed over the Internet",
+			"assigned_codes": [
+				"Internet connectivity requirement",
+				"Remote hosting",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Internet connectivity and remote hosting are fundamental prerequisites for SaaS delivery model."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "in order to retain a sizeable pool of clients and achieve economies of scale",
+			"assigned_codes": ["Economies of scale"],
+			"justification": "Identifies economies of scale through large customer base as necessary condition for sustainable SaaS business model."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "Cloud computing can be divided roughly into three service layers... (i) Infrastructure as a Service (IaaS)... (ii) Platform as a Service (PaaS)... and (iii) Software as a Service (SaaS), which provides applications on top of PaaS and IaaS",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Establishes cloud infrastructure layers (IaaS/PaaS) as foundational prerequisites for SaaS delivery."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "From the outset, the software architecture was designed to be compatible with both software renting and software licensing",
+			"assigned_codes": ["Multi-tenant architecture", "Hybrid business model"],
+			"justification": "Architecture supporting both rental and licensing models indicates multi-tenant capability and hybrid business model prerequisite."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "Another reason to sell a traditional license for internal use was a lack of network connections",
+			"assigned_codes": ["Internet connectivity requirement"],
+			"justification": "Identifies network connectivity as a necessary prerequisite; its absence requires alternative delivery models."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers who met the criteria for SaaS implementation (in terms of organizational readiness for SaaS).",
+			"assigned_codes": ["Organizational readiness", "Pilot implementation"],
+			"justification": "Organizational readiness is identified as prerequisite condition for SaaS adoption; pilot implementation used as mitigation strategy."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "Though they have acquired the SaaS software from US, they under-estimated the efforts in adjusting the product to local rules and contexts (e.g., certain financial procedures are very different in the US than in the Nordic countries).",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Product localization and adaptation to local contexts identified as necessary organizational prerequisite."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "the services offered by partners should be shifted away from technical consulting towards business process consulting.",
+			"assigned_codes": [
+				"Partner ecosystem disruption",
+				"Established vendor transition"
+			],
+			"justification": "Partner capability transformation required during transition to cloud model, indicating ecosystem disruption as condition."
+		},
+		{
+			"article_id": "190638976",
+			"article_title": "Managing a Software Business",
+			"quote": "Thanks to the Internet and cloud computing, it's now easy to include a service component into any type of software.",
+			"assigned_codes": [
+				"Internet connectivity requirement",
+				"Cloud computing infrastructure"
+			],
+			"justification": "Internet and cloud computing identified as enabling prerequisites for service-component integration."
+		},
+		{
+			"article_id": "190638976",
+			"article_title": "Managing a Software Business",
+			"quote": "set up your organization's structures in a way that lets them write great software",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Organizational structures supporting developers identified as necessary prerequisite for software business success."
+		},
+		{
+			"article_id": "190653396",
+			"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+			"quote": "our analysis only includes start-ups that employ digital technologies as a fundamental part of their BM... we exclude BMs using digital technology as a facilitator for value creation",
+			"assigned_codes": ["Digital transformation"],
+			"justification": "Digital technology integration as core (not just facilitator) is prerequisite for digital sustainable business models."
+		},
+		{
+			"article_id": "190653396",
+			"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+			"quote": "we focus the scope of the sustainability dimension on efficiency and effectiveness",
+			"assigned_codes": ["Sustainability focus"],
+			"justification": "Ecological sustainability focus on efficiency/effectiveness identified as prerequisite for sustainable business models."
+		},
+		{
+			"article_id": "190653396",
+			"article_title": "Digital sustainable business models: Using digital technology to integrate ecological sustainability into the core of business models",
+			"quote": "we look for financially viable BMs that are designed to be profit-driven to ensure that BMs are economically relevant",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Economic viability and profit-driven orientation identified as necessary prerequisites for business model relevance."
+		},
+		{
+			"article_id": "190653434",
+			"article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+			"quote": "Compared to paid products, freemium products must attract a disproportionately large user base to generate revenue and capture value",
+			"assigned_codes": ["Freemium model", "Economies of scale"],
+			"justification": "Large user base identified as prerequisite for freemium revenue generation, requiring economies of scale."
+		},
+		{
+			"article_id": "190653434",
+			"article_title": "When does a freemium business model lead to high performance? — A qualitative comparative analysis based on fuzzy Sets",
+			"quote": "Freemium business models require dynamic capabilities and hypothesizes that higher performance can be achieved when freemium business models, dynamic capabilities, and environmental uncertainty interact",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Dynamic capabilities (sensing, seizing, reconfiguring) identified as organizational prerequisite for freemium success."
+		},
+		{
+			"article_id": "190653582",
+			"article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+			"quote": "Adobe needed new partners who could provide the required cloud infrastructure so that Adobe's continuously growing customer base does not face any performance issues.",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Ecosystem management"
+			],
+			"justification": "Cloud infrastructure partnerships identified as prerequisite for scalable delivery and performance management."
+		},
+		{
+			"article_id": "190653582",
+			"article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+			"quote": "worldwide internet bandwidth increased from 0.4 to 1.2 million Mbits/second",
+			"assigned_codes": [
+				"Internet connectivity requirement",
+				"Technology evolution"
+			],
+			"justification": "High-speed internet infrastructure identified as evolving prerequisite enabling cloud service access."
+		},
+		{
+			"article_id": "190653582",
+			"article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+			"quote": "Concerns included the privacy and security of creative assets stored in the creative cloud",
+			"assigned_codes": ["Security concerns", "Customer trust maintenance"],
+			"justification": "Security and privacy concerns identified as customer barriers requiring trust maintenance for cloud adoption."
+		},
+		{
+			"article_id": "190653589",
+			"article_title": "Navigating the paradox of global scaling",
+			"quote": "Global scaling may not occur soon after start-up, because it can take time for a viable global business model to be developed",
+			"assigned_codes": [
+				"Global market presence",
+				"Organizational preparedness"
+			],
+			"justification": "Viable global business model development identified as prerequisite for international scaling."
+		},
+		{
+			"article_id": "190653589",
+			"article_title": "Navigating the paradox of global scaling",
+			"quote": "global scaling is resource-intensive, and firms usually tap into external patient capital to achieve such rapid growth",
+			"assigned_codes": ["Startup company focus"],
+			"justification": "External funding identified as resource prerequisite for startups pursuing rapid global scaling."
+		},
+		{
+			"article_id": "190653589",
+			"article_title": "Navigating the paradox of global scaling",
+			"quote": "digitization can enable rapid growth through efficiency, speed, and flexibility",
+			"assigned_codes": ["Digital transformation"],
+			"justification": "Digital products and processes identified as prerequisites enabling global scaling efficiency."
+		},
+		{
+			"article_id": "190653595",
+			"article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+			"quote": "Apple first reviews and approves each individual app before making it available",
+			"assigned_codes": ["Mobile app market"],
+			"justification": "App store approval process identified as prerequisite condition for mobile app market distribution."
+		},
+		{
+			"article_id": "190653595",
+			"article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+			"quote": "sampling is more beneficial for apps that have a moderate star rating",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Moderate app quality identified as prerequisite for effective freemium sampling strategy."
+		},
+		{
+			"article_id": "190653734",
+			"article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+			"quote": "A high-quality base for the services is essential to attract users and retain them on the platform",
+			"assigned_codes": ["Service quality improvement"],
+			"justification": "High-quality product identified as essential prerequisite for user attraction and retention in mobile apps."
+		},
+		{
+			"article_id": "190653734",
+			"article_title": "Systematic Literature Review of Monetization in Mobile App: Strategies, Trends, Challenges, and Best Practices",
+			"quote": "It is crucial for firms to define the maximum features available for free users and the minimum features offered to premium users",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Clear feature boundaries between free and premium identified as prerequisite for freemium model effectiveness."
+		},
+		{
+			"article_id": "190653772",
+			"article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+			"quote": "transit agencies often find it time-consuming and challenging to clean and validate GTFS/GTFS-RT feeds",
+			"assigned_codes": ["Organizational preparedness", "Quality management"],
+			"justification": "Data management expertise and quality assurance identified as organizational prerequisites for transit app deployment."
+		},
+		{
+			"article_id": "190653772",
+			"article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+			"quote": "Small- and medium-sized transit agencies often find it difficult to hire staff with data management and application development expertise",
+			"assigned_codes": ["SME market focus", "Organizational preparedness"],
+			"justification": "Technical expertise availability identified as prerequisite challenge for SME organizations in app development."
+		},
+		{
+			"article_id": "190653772",
+			"article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+			"quote": "ineffective cross-department collaborations are common challenges",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Cross-department collaboration identified as organizational prerequisite for successful app deployment."
+		},
+		{
+			"article_id": "190653856",
+			"article_title": "Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market valuation?",
+			"quote": "Companies and investors may be willing to place large investments into companies which drive overall growth",
+			"assigned_codes": ["Startup company focus"],
+			"justification": "Capital investment identified as prerequisite for SaaS company growth and market development."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "SaaS as the capability provided to the consumer of using the provider's applications running on a cloud infrastructure where the applications are accessible from various client devices and interfaces",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"SaaS (Software as a Service)",
+				"On-demand access"
+			],
+			"justification": "Cloud infrastructure and multi-device accessibility identified as fundamental prerequisites for SaaS delivery."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "The demand for capacity is satisfied by three different types of clouds: (i) private cloud, (ii) public cloud, and (iii) hybrid cloud",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Hybrid business model"
+			],
+			"justification": "Multiple cloud deployment options identified as infrastructure prerequisites for meeting diverse customer needs."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "those derived from Internet delivery and those derived from multitenancy",
+			"assigned_codes": [
+				"Internet connectivity requirement",
+				"Multi-tenant architecture"
+			],
+			"justification": "Internet delivery and multitenancy identified as dual technical prerequisites for SaaS operations."
+		},
+		{
+			"article_id": "190653882",
+			"article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+			"quote": "Consumers can access the software via the Internet",
+			"assigned_codes": [
+				"Internet connectivity requirement",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Internet connectivity identified as fundamental prerequisite for SaaS access."
+		},
+		{
+			"article_id": "190653882",
+			"article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+			"quote": "SaaS vendors offer the software remotely on cloud-based hardware",
+			"assigned_codes": ["Remote hosting", "Cloud computing infrastructure"],
+			"justification": "Cloud-based hosting infrastructure identified as prerequisite for remote software delivery."
+		},
+		{
+			"article_id": "190653942",
+			"article_title": "Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market",
+			"quote": "iOS App Store represents an economically significant digital platform",
+			"assigned_codes": ["Mobile app market", "Platform business model"],
+			"justification": "Digital platform presence identified as prerequisite for app distribution and market access."
+		},
+		{
+			"article_id": "190653942",
+			"article_title": "Optimal distinctiveness across revenue models: Performance effects of differentiation of paid and free products in a mobile app market",
+			"quote": "some firms include posted privacy statements; these statements explicitly describe how the firm might use customer data to generate revenue",
+			"assigned_codes": [
+				"Data-driven monetization",
+				"Customer trust maintenance"
+			],
+			"justification": "Privacy policies and transparency identified as prerequisites for customer trust and data-based revenue models."
+		},
+		{
+			"article_id": "190653950",
+			"article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+			"quote": "freemium products will be more likely to benefit from incorporating social features when they are launched on a platform with a large (rather than a small) installed base",
+			"assigned_codes": ["Network effects", "Platform business model"],
+			"justification": "Large platform installed base identified as prerequisite for generating network effects in freemium products."
+		},
+		{
+			"article_id": "190653950",
+			"article_title": "On top of the game? The double-edged sword of incorporating social features into freemium products",
+			"quote": "Developers that wish to release their games on Steam must design their software to be compatible with Steamworks",
+			"assigned_codes": ["Gaming industry focus", "Platform business model"],
+			"justification": "Platform compatibility identified as technical prerequisite for game distribution on gaming platforms."
+		},
+		{
+			"article_id": "190653984",
+			"article_title": "Toward Building Specialized Information Systems as Software Platforms",
+			"quote": "A software platform must have a data layer that is scalable and redundant. A software platform must also have a data layer that can be shared by multiple applications",
+			"assigned_codes": [
+				"Platform business model",
+				"Multi-tenant architecture"
+			],
+			"justification": "Scalable, shared data layer identified as architectural prerequisite for software platform business models."
+		},
+		{
+			"article_id": "190653984",
+			"article_title": "Toward Building Specialized Information Systems as Software Platforms",
+			"quote": "For the application developer, the semantic layer provides a well-defined interface to the database",
+			"assigned_codes": ["API-based business model", "Platform business model"],
+			"justification": "Well-defined interfaces identified as prerequisite for enabling external development on platform."
+		},
+		{
+			"article_id": "190653984",
+			"article_title": "Toward Building Specialized Information Systems as Software Platforms",
+			"quote": "Force modules to speak with each other via a message bus rather than accessing code directly",
+			"assigned_codes": ["Platform business model"],
+			"justification": "Message bus architecture identified as prerequisite for modular platform extensibility and security."
+		},
+		{
+			"article_id": "190653993",
+			"article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+			"quote": "Because the simulation work is done in a local network, the data is secure",
+			"assigned_codes": ["Security concerns"],
+			"justification": "Local network infrastructure identified as prerequisite addressing data security concerns in service model."
+		},
+		{
+			"article_id": "190653993",
+			"article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+			"quote": "The Information Technology department might not accept this innovative service model",
+			"assigned_codes": ["Organizational readiness"],
+			"justification": "IT department acceptance identified as organizational prerequisite for service model adoption."
+		},
+		{
+			"article_id": "190654058",
+			"article_title": "MintM: the start-up transforming businesses real-time",
+			"quote": "the tabs required electrical and internet connectivity at all times to be able to function seamlessly",
+			"assigned_codes": ["Internet connectivity requirement"],
+			"justification": "Continuous electrical and internet connectivity identified as infrastructure prerequisites for real-time operation."
+		},
+		{
+			"article_id": "190654058",
+			"article_title": "MintM: the start-up transforming businesses real-time",
+			"quote": "pay-per-view meant number of customers or buyers entering shop premises decided MintM's revenue",
+			"assigned_codes": ["Pay-as-you-go pricing"],
+			"justification": "Customer footfall identified as prerequisite condition for usage-based revenue generation."
+		},
+		{
+			"article_id": "190654085",
+			"article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+			"quote": "Mobile apps – i.e. software for mobile devices",
+			"assigned_codes": ["Mobile app market"],
+			"justification": "Mobile device ownership identified as basic prerequisite for accessing mobile app market."
+		},
+		{
+			"article_id": "190654085",
+			"article_title": "Business model innovation in mobile apps market: Exploring the new subscription plans with a behavioral reasoning perspective",
+			"quote": "more than 2 million apps in the Google's Play store and 1.83 million apps in Apple's AppStore",
+			"assigned_codes": ["Platform business model", "Mobile app market"],
+			"justification": "App store platform presence identified as prerequisite for distribution in mobile app market."
+		},
+		{
+			"article_id": "190654186",
+			"article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+			"quote": "services-based business models built on open-source software (OSS)",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Open-source software foundation identified as prerequisite for collaborative development and service-based revenue."
+		},
+		{
+			"article_id": "190654186",
+			"article_title": "Competition Among Proprietary and Open-Source Software Firms: The Role of Licensing in Strategic Contribution",
+			"quote": "exploit their intimate knowledge of the code to provide higher-quality service",
+			"assigned_codes": ["Service-oriented model"],
+			"justification": "Development expertise identified as prerequisite for quality service provision in OSS business models."
+		},
+		{
+			"article_id": "190654465",
+			"article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+			"quote": "co-operation of the many businesses and operators with interests in the transport domain",
+			"assigned_codes": ["Ecosystem management"],
+			"justification": "Multi-stakeholder cooperation identified as prerequisite for transport app service availability."
+		},
+		{
+			"article_id": "190654465",
+			"article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+			"quote": "widespread penetration of mobile phone technologies",
+			"assigned_codes": ["Mobile app market"],
+			"justification": "Mobile phone penetration identified as market prerequisite for user accessibility to app services."
+		},
+		{
+			"article_id": "190654531",
+			"article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+			"quote": "The Domain Scoping collects the information about the target market, existing competitors, and the niche of the own product",
+			"assigned_codes": ["Market expansion"],
+			"justification": "Market and competitor analysis identified as prerequisite for business model decision identification."
+		},
+		{
+			"article_id": "190654531",
+			"article_title": "Hypothesis-driven Adaptation of Business Models based on Product Line Engineering",
+			"quote": "The Customer Analysis connects the knowledge of Business Analysis with the concrete needs of the customers",
+			"assigned_codes": ["Value-based orientation"],
+			"justification": "Customer needs analysis identified as prerequisite for value-based business model derivation."
+		},
+		{
+			"article_id": "190654542",
+			"article_title": "E-business evolution: an analysis of mobile applications' business models",
+			"quote": "mobile apps are mobile software specifically designed by developers according to the operating system of the device they would like to be run",
+			"assigned_codes": ["Mobile app market"],
+			"justification": "Operating system compatibility identified as technical prerequisite for mobile app functionality."
+		},
+		{
+			"article_id": "190654542",
+			"article_title": "E-business evolution: an analysis of mobile applications' business models",
+			"quote": "app platforms may ask for different fees to be paid, which influence the value source 'design of added monetization'",
+			"assigned_codes": ["Platform business model"],
+			"justification": "Platform presence and fee structure identified as prerequisites influencing monetization strategies."
+		},
+		{
+			"article_id": "190654598",
+			"article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+			"quote": "Software has to be converted into a machine image format suitable for marketplace product policy and then signed up in the marketplace portal",
+			"assigned_codes": ["Cloud computing infrastructure", "Marketplace model"],
+			"justification": "Machine image format conversion identified as technical prerequisite for cloud marketplace registration."
+		},
+		{
+			"article_id": "190654598",
+			"article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+			"quote": "cloud service has to normally operate on the NAVER Cloud platform",
+			"assigned_codes": [
+				"Platform business model",
+				"Cloud computing infrastructure"
+			],
+			"justification": "Platform-specific operation identified as prerequisite for service delivery through cloud marketplace."
+		},
+		{
+			"article_id": "190654598",
+			"article_title": "A Study on Cloud-Based Software Marketing Strategies Using Cloud Marketplace",
+			"quote": "always-on computing resources must be maintained at a certain level to prevent performance degradation",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Service quality improvement"
+			],
+			"justification": "Minimum resource availability identified as infrastructure prerequisite for maintaining service quality."
+		},
+		{
+			"article_id": "190654601",
+			"article_title": "Software as a service: Lessons from the video game industry",
+			"quote": "Most GaaS business models rely on powerful customer relationship management (CRM) systems to segment users and to follow up on gamers' behavior",
+			"assigned_codes": ["Data-driven monetization", "Gaming industry focus"],
+			"justification": "CRM systems identified as prerequisite for user segmentation and behavior tracking in gaming-as-a-service."
+		},
+		{
+			"article_id": "190654601",
+			"article_title": "Software as a service: Lessons from the video game industry",
+			"quote": "to produce video games, sophisticated production software is needed. None of the GaaS video games would be possible without a skilled development team",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Technical capabilities and skilled personnel identified as organizational prerequisites for game production."
+		},
+		{
+			"article_id": "190654601",
+			"article_title": "Software as a service: Lessons from the video game industry",
+			"quote": "gamers with low-speed connections and not enough storage space were not able to enjoy the full gaming experience",
+			"assigned_codes": ["Internet connectivity requirement"],
+			"justification": "Adequate connection speed and storage identified as customer prerequisites for full gaming experience."
+		},
+		{
+			"article_id": "190654605",
+			"article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+			"quote": "Centralised data centres and advancements in automation and scalability have transformed the manner with which both case organisations develop, deploy and maintain IT services",
+			"assigned_codes": ["Cloud computing infrastructure", "Remote hosting"],
+			"justification": "Centralized data centers and automation identified as infrastructure prerequisites for SaaS provisioning."
+		},
+		{
+			"article_id": "190654605",
+			"article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+			"quote": "Both case organisations are pivoting rapidly towards agile methodologies in order to effectively create value from provisioning SaaS technologies",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Agile methodologies identified as organizational prerequisite for effective SaaS value creation."
+		},
+		{
+			"article_id": "190654605",
+			"article_title": "The SaaS Payoff: Measuring the Business Value of Provisioning Software-as-a-Service Technologies",
+			"quote": "The companies are also carrying out an internal restructuring of all of their existing teams, developmental practices and collaborative tools in line with their SaaS developmental strategies",
+			"assigned_codes": [
+				"Organizational preparedness",
+				"Established vendor transition"
+			],
+			"justification": "Internal restructuring identified as organizational prerequisite for vendors transitioning to SaaS strategies."
+		},
+		{
+			"article_id": "190654664",
+			"article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+			"quote": "The increase in the market segment share, through combination with the INT, is the fastest if both companies support the same or very similar segments",
+			"assigned_codes": ["Market expansion"],
+			"justification": "Similar market segments identified as prerequisite condition for faster market share growth through combination."
+		},
+		{
+			"article_id": "190654664",
+			"article_title": "Searching for synergy from a combination of heterogeneous business models: measurement and assessment from the Polish software industry",
+			"quote": "Long-term contracts with customers, a database of loyal customers",
+			"assigned_codes": ["High switching costs"],
+			"justification": "Long-term contracts and customer loyalty identified as prerequisites for business continuity and retention."
+		},
+		{
+			"article_id": "190654709",
+			"article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+			"quote": "emotion datasets, on which the machine learning algorithms are trained",
+			"assigned_codes": ["Data-driven monetization"],
+			"justification": "Large labeled datasets identified as prerequisite for algorithm training in emotion recognition technology."
+		},
+		{
+			"article_id": "190654709",
+			"article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+			"quote": "talent, including data scientists and engineers, is indeed the most important resource",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Specialized talent identified as most critical organizational prerequisite for emerging technology development."
+		},
+		{
+			"article_id": "190654709",
+			"article_title": "Business Models for Emerging Technologies: The Case of Affective Computing",
+			"quote": "Businesses need to comply with local regulations thoroughly before beginning research and development with human participants",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Regulatory compliance identified as organizational prerequisite for ethical data collection and processing."
+		},
+		{
+			"article_id": "190654717",
+			"article_title": "Economics of open source library software: evidences from Indian libraries",
+			"quote": "To have a high-quality service, the library should have internal technical staff or seek service from different companies/individual experts",
+			"assigned_codes": [
+				"Service-oriented model",
+				"Organizational preparedness"
+			],
+			"justification": "Technical staff or service providers identified as prerequisite for implementing open source solutions."
+		},
+		{
+			"article_id": "190654717",
+			"article_title": "Economics of open source library software: evidences from Indian libraries",
+			"quote": "To increase the adoption of OSS in the library, the institute should consider having OSS adoption policy",
+			"assigned_codes": [
+				"Organizational readiness",
+				"Open source business model"
+			],
+			"justification": "Institutional OSS adoption policy identified as organizational prerequisite for open source deployment."
+		},
+		{
+			"article_id": "190654720",
+			"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+			"quote": "we will focus on a potential new business that provides an ecosystem of services to perform predictive application deployment and management and offers a tool capable of monitoring both current and historical infrastructure conditions",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Data-driven monetization"
+			],
+			"justification": "Monitoring infrastructure and data collection identified as prerequisites for predictive management services."
+		},
+		{
+			"article_id": "190654720",
+			"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+			"quote": "Infrastructure Providers are listed among the Key Partners. Obviously, their partnership represents a fundamental strategic alliance",
+			"assigned_codes": ["Ecosystem management"],
+			"justification": "Infrastructure provider partnerships identified as prerequisite for data collection and service delivery."
+		},
+		{
+			"article_id": "190654720",
+			"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+			"quote": "Since the predictive methodologies are still in their infancy, we foresee the crucial need for the business to rely on strong R&D human resources",
+			"assigned_codes": ["Organizational preparedness", "Technology evolution"],
+			"justification": "R&D expertise identified as organizational prerequisite for developing emerging predictive technologies."
+		},
+		{
+			"article_id": "190654834",
+			"article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+			"quote": "The majority of them require users to be holders of a smartphone and a credit card, debit card, or a digital payment account, which together guarantee the reservations and cashless payments",
+			"assigned_codes": ["Mobile app market"],
+			"justification": "Smartphone ownership and digital payment accounts identified as user prerequisites for app-based mobility services."
+		},
+		{
+			"article_id": "190654834",
+			"article_title": "Synergies between App-Based Car-Related Shared Mobility Services for the Development of More Profitable Business Models",
+			"quote": "Raney (2010) demonstrated the importance of GPS smartphone technology and text messaging to enable real-time ridesharing",
+			"assigned_codes": ["Mobile app market", "Technology evolution"],
+			"justification": "GPS and messaging technology identified as technical prerequisites enabling real-time service coordination."
+		},
+		{
+			"article_id": "190654956",
+			"article_title": "Open source ERP business model framework",
+			"quote": "there is a great opportunity for small organizations to obtain enterprise computing at affordable prices as long as they have technically versed employees able to install and maintain such systems",
+			"assigned_codes": [
+				"SME market focus",
+				"Open source business model",
+				"Organizational preparedness"
+			],
+			"justification": "Technical capability identified as organizational prerequisite for SMEs adopting open source ERP systems."
+		},
+		{
+			"article_id": "190654956",
+			"article_title": "Open source ERP business model framework",
+			"quote": "As a reaction on proprietary software development open source software (OSS) development started as voluntary participation of individuals linked by the Internet to develop code",
+			"assigned_codes": [
+				"Open source business model",
+				"Internet connectivity requirement"
+			],
+			"justification": "Internet connectivity identified as prerequisite enabling distributed open source development communities."
+		},
+		{
+			"article_id": "190655012",
+			"article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+			"quote": "when the firm uses the freemium model then it needs a fixed cost C to divide the product",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Infrastructure for product division identified as cost prerequisite for implementing freemium model."
+		},
+		{
+			"article_id": "190655012",
+			"article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+			"quote": "Assume that the product has a positive network effect",
+			"assigned_codes": ["Network effects"],
+			"justification": "Positive network effects identified as prerequisite condition for freemium model profitability."
+		},
+		{
+			"article_id": "190655012",
+			"article_title": "Analysis of Freemium Business Model Considering Network Externalities and Consumer Uncertainty",
+			"quote": "the network effect should be strong enough",
+			"assigned_codes": ["Network effects"],
+			"justification": "Strong network effects identified as necessary condition to overcome cannibalization in freemium models."
+		},
+		{
+			"article_id": "190655172",
+			"article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+			"quote": "radically innovative products usually require significant time and capital investments on R&D before the firm can reap the monopoly rents",
+			"assigned_codes": ["Startup company focus"],
+			"justification": "R&D investment and venture capital identified as financial prerequisites for innovation-focused startups."
+		},
+		{
+			"article_id": "190655172",
+			"article_title": "Investigating e-business models' value retention for start-ups: The moderating role of venture capital investment intensity",
+			"quote": "The booming Application Program Interface (API) economy leads to a fast change in App designs",
+			"assigned_codes": ["API-based business model", "Technology evolution"],
+			"justification": "API economy and frameworks identified as technical prerequisites enabling app complementarity."
+		},
+		{
+			"article_id": "190655181",
+			"article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+			"quote": "through intensive interviews...we anticipate that the importance of 'technological capability' and 'user trust' will be different in accordance with the industry characteristics",
+			"assigned_codes": [
+				"Platform business model",
+				"Customer trust maintenance"
+			],
+			"justification": "Technological capability and user trust identified as dual prerequisites varying by platform industry."
+		},
+		{
+			"article_id": "190655181",
+			"article_title": "Growth of a platform business model as an entrepreneurial ecosystem and its effects on regional development",
+			"quote": "Technological capability is an important factor that influences a percentage of the verified supplier and, eventually, the overall value of the platform",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Technological capability identified as prerequisite for platform supply-side quality and value creation."
+		},
+		{
+			"article_id": "190655186",
+			"article_title": "Developing enterprise social software in China: insights from Mingdao",
+			"quote": "With a good Internet connection, type www.mingdao.com in a web browser to access the platform",
+			"assigned_codes": [
+				"Internet connectivity requirement",
+				"Cloud computing infrastructure"
+			],
+			"justification": "Internet connectivity identified as basic prerequisite for accessing cloud-based enterprise social platform."
+		},
+		{
+			"article_id": "190655186",
+			"article_title": "Developing enterprise social software in China: insights from Mingdao",
+			"quote": "because of the strong evolution of cloud computing, the infrastructure and services have become quite easy to build",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Technology evolution"
+			],
+			"justification": "Cloud computing maturity identified as evolving prerequisite enabling easier platform development."
+		},
+		{
+			"article_id": "190655186",
+			"article_title": "Developing enterprise social software in China: insights from Mingdao",
+			"quote": "more and more young Chinese people have changed their minds and prefer an open, transparent culture",
+			"assigned_codes": ["Organizational readiness"],
+			"justification": "Cultural mindset change identified as organizational prerequisite for enterprise social platform adoption."
+		},
+		{
+			"article_id": "190655190",
+			"article_title": "Open source - Is it an alternative to intellectual property?",
+			"quote": "The advent of Internet and web-based technologies that enabled communities to convene, interact and share resources together along with the highly distributed nature of knowledge, warranted a reconsideration of firm based knowledge creation",
+			"assigned_codes": [
+				"Internet connectivity requirement",
+				"Open source business model"
+			],
+			"justification": "Internet and web technologies identified as prerequisites enabling distributed open source collaboration."
+		},
+		{
+			"article_id": "190655190",
+			"article_title": "Open source - Is it an alternative to intellectual property?",
+			"quote": "The submissions that the contributors' make will be managed through a database owned and controlled by the intermediary",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Source code repository identified as infrastructure prerequisite for managing open source contributions."
+		},
+		{
+			"article_id": "190655190",
+			"article_title": "Open source - Is it an alternative to intellectual property?",
+			"quote": "The prerequisite of \"dual licensing\" is that the company must have intellectual property control over the entire software",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Intellectual property control explicitly identified as prerequisite for dual licensing business model."
+		},
+		{
+			"article_id": "190655198",
+			"article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+			"quote": "they need to give their consent to use the data to the producer and consumer of the data",
+			"assigned_codes": ["Healthcare technology", "Security concerns"],
+			"justification": "Patient consent identified as prerequisite for data exchange in health data platforms."
+		},
+		{
+			"article_id": "190655198",
+			"article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+			"quote": "the successful digital business platform has to Solve the initial chicken-and-egg problem: to reach the critical mass of producers and consumers",
+			"assigned_codes": ["Platform business model", "Network effects"],
+			"justification": "Critical mass of users identified as prerequisite for platform ignition and network effects generation."
+		},
+		{
+			"article_id": "190655206",
+			"article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+			"quote": "Large issuers and recipients prefer to make full e-invoicing integration into their AR and AP systems",
+			"assigned_codes": ["Platform business model", "B2B business model"],
+			"justification": "System integration capabilities identified as prerequisite for B2B e-invoicing platform adoption."
+		},
+		{
+			"article_id": "190655206",
+			"article_title": "Onboarding customer companies to electronic invoicing platform – developing a marketing and a partnering strategy for Tieto, an e-invoicing service provider",
+			"quote": "The service provider manages the e-invoice transfer process by translating invoice data provided by the issuer into the format suitable for the recipient",
+			"assigned_codes": ["Platform business model"],
+			"justification": "Data format conversion capability identified as technical prerequisite for platform value delivery."
+		},
+		{
+			"article_id": "190655218",
+			"article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+			"quote": "without reaching a more advanced operational maturity stage, an HIE cannot provide services, earn revenue from the services, and achieve financial breakeven from its earnings",
+			"assigned_codes": [
+				"Healthcare technology",
+				"Organizational preparedness"
+			],
+			"justification": "Operational maturity progression identified as prerequisite for HIE service delivery and revenue generation."
+		},
+		{
+			"article_id": "190655218",
+			"article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+			"quote": "capability development depends on trained manpower, efficient processes, and business orientation, which in turn will steer the HIE toward revenue generation",
+			"assigned_codes": [
+				"Organizational preparedness",
+				"Healthcare technology"
+			],
+			"justification": "Trained personnel and efficient processes identified as organizational prerequisites for HIE capability development."
+		},
+		{
+			"article_id": "190655218",
+			"article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+			"quote": "CORHIO engaged hospital stakeholders, as the first entities joining the network, to ensure a critical mass of clinical information was available to community providers",
+			"assigned_codes": ["Network effects", "Healthcare technology"],
+			"justification": "Critical mass of participants identified as prerequisite for creating sufficient information value in HIE."
+		},
+		{
+			"article_id": "190655219",
+			"article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+			"quote": "SMS tickets can only be bought by people having subscription with local mobile operators",
+			"assigned_codes": ["Mobile app market"],
+			"justification": "Mobile phone subscription identified as prerequisite for SMS ticketing service access."
+		},
+		{
+			"article_id": "190655219",
+			"article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+			"quote": "Customers using feature phones cannot buy an app ticket",
+			"assigned_codes": ["Mobile app market"],
+			"justification": "Smartphone ownership identified as device prerequisite for in-app ticketing functionality."
+		},
+		{
+			"article_id": "190655219",
+			"article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+			"quote": "changes in regulation: (1) a license became mandatory in order to handle digital payments, and (2) payment service providers were required to know the identity of persons making payments to prevent \"money laundry\"",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Regulatory compliance and licensing identified as organizational prerequisites for payment handling."
+		},
+		{
+			"article_id": "190655247",
+			"article_title": "The effect of free sampling strategies on freemium conversion rates",
+			"quote": "Whereas the marginal cost of free users in social networks or online games is almost zero, it is often very costly to maintain them in other contexts such as in the case of music services, where royalties have to be paid or in cloud storage services where storage has to be held.",
+			"assigned_codes": ["Freemium model", "Economies of scale"],
+			"justification": "Low marginal cost identified as prerequisite for sustainable freemium model in different service contexts."
+		},
+		{
+			"article_id": "190655247",
+			"article_title": "The effect of free sampling strategies on freemium conversion rates",
+			"quote": "Under such circumstances, payments from premium users often in combination with advertising revenues through free users are not necessarily sufficient to subsidize the free version",
+			"assigned_codes": ["Freemium model", "Data-driven monetization"],
+			"justification": "Revenue sufficiency from premium users and advertising identified as financial prerequisite for freemium viability."
+		},
+		{
+			"article_id": "190655350",
+			"article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+			"quote": "By the end of 2016, 2.16 billion people will have smartphones",
+			"assigned_codes": ["Mobile app market"],
+			"justification": "Smartphone penetration identified as market prerequisite enabling data collection capabilities."
+		},
+		{
+			"article_id": "190655350",
+			"article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+			"quote": "The emerging model, typified by Twitter's Firehose data product, relies on the emergence of big data and tools for managing it",
+			"assigned_codes": ["Data-driven monetization"],
+			"justification": "Big data management tools identified as prerequisite for data-based business models."
+		},
+		{
+			"article_id": "190655350",
+			"article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+			"quote": "We then eliminated duplicate results and those apps with fewer than 5 million downloads from Google Play at the time of the initial search, since big data effects would likely be negligible under that threshold",
+			"assigned_codes": ["Economies of scale", "Data-driven monetization"],
+			"justification": "Large user base (5+ million) identified as prerequisite threshold for big data effects and value capture."
+		},
+		{
+			"article_id": "190655350",
+			"article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+			"quote": "smartphones, with their embedded sensors and wide range of apps, can gather a huge volume and variety of data with incredible speed, and the ubiquitous connectivity they provide allows for that data to be collected and aggregated in real time",
+			"assigned_codes": [
+				"Mobile app market",
+				"Internet connectivity requirement"
+			],
+			"justification": "Ubiquitous connectivity and sensor-enabled devices identified as prerequisites for real-time data aggregation."
+		},
+		{
+			"article_id": "190655362",
+			"article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+			"quote": "One can expect a similar effect with freemium services that do not exhibit sufficient incentives and features on which to spend credits",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Sufficient in-app features identified as prerequisite for sustaining repeated purchases in freemium model."
+		},
+		{
+			"article_id": "190655362",
+			"article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+			"quote": "gaming and dating platforms are social networks that exhibit positive network effects which eventually increase users' willingness to pay",
+			"assigned_codes": ["Network effects", "Gaming industry focus"],
+			"justification": "Network effects infrastructure identified as prerequisite increasing user engagement and payment willingness."
+		},
+		{
+			"article_id": "190655382",
+			"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+			"quote": "interviewees of case companies that had no experience with on-demand software mentioned that a top priority is extending internal knowledge and integrating external knowledge regarding Web technologies (e.g. Ajax and HTML5) and on-demand software delivery (e.g. capacity management, pricing methods and support)",
+			"assigned_codes": [
+				"Organizational preparedness",
+				"Cloud computing infrastructure"
+			],
+			"justification": "Web technology knowledge and on-demand delivery competencies identified as organizational prerequisites for SaaS."
+		},
+		{
+			"article_id": "190655382",
+			"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+			"quote": "all case companies but one now use agile software-development methods supporting iterative and incremental progress, such as Scrum",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Agile development methods identified as organizational prerequisite for cloud service continuous updates."
+		},
+		{
+			"article_id": "190655382",
+			"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+			"quote": "the business model innovation failed at the time owing to low broadband penetration and inadequate software design",
+			"assigned_codes": [
+				"Internet connectivity requirement",
+				"Technology evolution"
+			],
+			"justification": "Broadband penetration identified as infrastructure prerequisite; its absence causes business model failure."
+		},
+		{
+			"article_id": "190655386",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "The decision for the transition was on the one hand partially triggered by the macro environment with increasing market demands and technological maturity",
+			"assigned_codes": [
+				"Technology evolution",
+				"Established vendor transition"
+			],
+			"justification": "Technological maturity and market demands identified as macro prerequisites for cloud transition decision."
+		},
+		{
+			"article_id": "190655386",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Deep organizational preparedness explicitly identified as prerequisite for cloud business model implementation."
+		},
+		{
+			"article_id": "190655386",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "partners will not sell unfinished products, and therefore, they will not be bought in unless the SaaS product from ERP Co is fully developed",
+			"assigned_codes": ["Quality management", "Ecosystem management"],
+			"justification": "Product quality and partner readiness identified as prerequisites for partner ecosystem engagement."
+		},
+		{
+			"article_id": "190655389",
+			"article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+			"quote": "infrastructure technology needed for the platform would soon be ready... 3G permits were being granted... first mobile phones with color screens were coming onto the market",
+			"assigned_codes": ["Technology evolution", "Mobile app market"],
+			"justification": "Infrastructure technology maturity (3G, devices) identified as evolving prerequisites for platform opportunity."
+		},
+		{
+			"article_id": "190655389",
+			"article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+			"quote": "Would there be 3G networks? What would the cost of data transfer be? Would there be enough broadband capacity available?",
+			"assigned_codes": [
+				"Internet connectivity requirement",
+				"Technology evolution"
+			],
+			"justification": "Broadband capacity and data transfer costs identified as uncertain prerequisites affecting business model viability."
+		},
+		{
+			"article_id": "190655389",
+			"article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
+			"quote": "G-cluster needed game content... it was necessary to find network operators who had a broadband network with the IPTV feature",
+			"assigned_codes": ["Gaming industry focus", "Ecosystem management"],
+			"justification": "Game content and operator partnerships identified as prerequisites for gaming platform business model."
+		},
+		{
+			"article_id": "190655397",
+			"article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+			"quote": "the free revenue model requires a huge amount of users (critical mass) to attract a sufficient number of interested third parties, e.g., primarily advertisers but also info seekers, able to ensure developers' profitability",
+			"assigned_codes": ["Economies of scale", "Data-driven monetization"],
+			"justification": "Critical mass of users identified as prerequisite for free/advertising revenue model viability."
+		},
+		{
+			"article_id": "190655397",
+			"article_title": "Revenue models, in-app purchase, and the app performance: Evidence from Apple's App Store and Google Play",
+			"quote": "versioning can be optimal in presence of consumer heterogeneity",
+			"assigned_codes": ["Freemium model"],
+			"justification": "Consumer heterogeneity identified as market prerequisite for effective versioning and in-app purchase strategies."
+		},
+		{
+			"article_id": "190655417",
+			"article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+			"quote": "each partner improved and adjusted his own software components to suite the compound solution. Thus, the resulting composite software solution is based on a value-network of interoperable independent software components and services",
+			"assigned_codes": ["Platform business model", "Ecosystem management"],
+			"justification": "Interoperable components and partner value network identified as prerequisites for composite software model."
+		},
+		{
+			"article_id": "190655417",
+			"article_title": "Commercialization of Composite Software Resulting from Collaborative Research",
+			"quote": "groups of independent complementary software providers with equal power",
+			"assigned_codes": ["Ecosystem management"],
+			"justification": "Equal power distribution among partners identified as prerequisite for viable loose partnership model."
+		},
+		{
+			"article_id": "190655425",
+			"article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+			"quote": "SaaS providers are also extremely dependent on their suppliers. In many cases, they need access to IaaS and PaaS providers in order to make their services available to their customers",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Ecosystem management"
+			],
+			"justification": "Access to IaaS/PaaS providers identified as critical infrastructure prerequisite for SaaS delivery."
+		},
+		{
+			"article_id": "190655425",
+			"article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+			"quote": "all the case firms had planned their software architecture to be compatible with both the cloud environment and stand-alone implementations",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Hybrid business model"
+			],
+			"justification": "Architecture compatible with multiple deployment models identified as prerequisite for flexible delivery."
+		},
+		{
+			"article_id": "190655440",
+			"article_title": "Designing business models for cloud platforms",
+			"quote": "DP3 suggests that, from its launch onwards, PaaS should offer a set of complementary C&A",
+			"assigned_codes": ["Platform business model"],
+			"justification": "Initial set of complementary components identified as prerequisite for demonstrating platform value at launch."
+		},
+		{
+			"article_id": "190655440",
+			"article_title": "Designing business models for cloud platforms",
+			"quote": "Customers rely on existing components to work efficiently on cloud platforms",
+			"assigned_codes": ["Platform business model"],
+			"justification": "Reliable existing components identified as prerequisite for customer platform adoption and efficiency."
+		},
+		{
+			"article_id": "190655440",
+			"article_title": "Designing business models for cloud platforms",
+			"quote": "Resourcing as the process by which a platform's scope and diversity is enhanced, e.g. providing SDKs, APIs and a distribution channel",
+			"assigned_codes": ["API-based business model", "Platform business model"],
+			"justification": "SDKs, APIs, and distribution channels identified as prerequisites enabling external platform development."
+		},
+		{
+			"article_id": "190655451",
+			"article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+			"quote": "The CSSP uses multiple IaaS clouds provided by MT A SZT AKI (Hungary), BIFI (Spain), University of Westminster (UK), CloudSigma (Switzerland) and Amazon",
+			"assigned_codes": ["Cloud computing infrastructure"],
+			"justification": "Multiple IaaS cloud availability identified as infrastructure prerequisite for multi-cloud service deployment."
+		},
+		{
+			"article_id": "190655451",
+			"article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+			"quote": "The main technology is the CloudSME Simulation Platform (CSSP) (shown in Figure 1), a PaaS that supports service provision, High Performance Computing (HPC) and multi-cloud deployment",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Platform business model"
+			],
+			"justification": "PaaS platform development identified as prerequisite for service deployment and multi-cloud support."
+		},
+		{
+			"article_id": "190655451",
+			"article_title": "Business Models for Cloud Computing: Experiences from Developing Modeling & Simulation as a Service Applications in Industry",
+			"quote": "The business venture is based on close partnership and collaboration amongst a number of key stakeholders",
+			"assigned_codes": ["Ecosystem management"],
+			"justification": "Stakeholder collaboration agreements identified as prerequisite for multi-party business model implementation."
+		},
+		{
+			"article_id": "190655528",
+			"article_title": "A Study on a Decentralized SaaS Business Model",
+			"quote": "local servers are belong to independent business entity",
+			"assigned_codes": ["Multi-instance architecture"],
+			"justification": "Independent business entities with local servers identified as prerequisite for decentralized SaaS model."
+		},
+		{
+			"article_id": "190655528",
+			"article_title": "A Study on a Decentralized SaaS Business Model",
+			"quote": "every local server may be required to provide certain applications (e.g. the brand products)",
+			"assigned_codes": ["Service-oriented model"],
+			"justification": "Standardized brand products from headquarters identified as prerequisite for service consistency."
+		},
+		{
+			"article_id": "190655555",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "From the outset, the software architecture was designed to be compatible with both software renting and software licensing, depending on the customers' needs.",
+			"assigned_codes": ["Multi-tenant architecture", "Hybrid business model"],
+			"justification": "Architecture supporting dual revenue models identified as technical prerequisite for business model flexibility."
+		},
+		{
+			"article_id": "190655555",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "If customers had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice.",
+			"assigned_codes": ["Organizational readiness"],
+			"justification": "Customer IT capabilities and infrastructure identified as prerequisites affecting revenue model selection."
+		},
+		{
+			"article_id": "190655589",
+			"article_title": "Service-Centric Business Model in Cloud Environment",
+			"quote": "From the perspective of the relationship between IT and business operation, cloud has six essential technological advantages or cloud business enablers being used to power business model innovation",
+			"assigned_codes": [
+				"Cloud computing infrastructure",
+				"Digital transformation"
+			],
+			"justification": "Cloud technological advantages identified as enablers prerequisite for business model innovation."
+		},
+		{
+			"article_id": "190655614",
+			"article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+			"quote": "Advances in data semantification and natural language querying are enabling new generations of context-aware mobile applications",
+			"assigned_codes": ["Technology evolution", "Mobile app market"],
+			"justification": "Data semantification technologies identified as evolving prerequisites enabling context-aware applications."
+		},
+		{
+			"article_id": "190655614",
+			"article_title": "Designing Viable Multi-sided Data Platforms: The Case of Context-Aware Mobile Travel Applications",
+			"quote": "Sharing context information generated by a mobile application with other app developers risks violating user privacy",
+			"assigned_codes": ["Security concerns", "Platform business model"],
+			"justification": "User privacy trust identified as prerequisite for data sharing in multi-sided platform models."
+		},
+		{
+			"article_id": "190655631",
+			"article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+			"quote": "As multi-sided platforms, mobile operating systems have faced the chicken-and-egg problem",
+			"assigned_codes": ["Platform business model", "Network effects"],
+			"justification": "Solving chicken-and-egg problem identified as prerequisite challenge for platform business model emergence."
+		},
+		{
+			"article_id": "190655631",
+			"article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+			"quote": "In late 2011 consumers purchasing a smartphone ranked the quality of the network of the mobile service provider as the top factor they considered in the purchase process",
+			"assigned_codes": [
+				"Mobile app market",
+				"Internet connectivity requirement"
+			],
+			"justification": "Network infrastructure quality identified as top prerequisite factor for smartphone platform adoption."
+		},
+		{
+			"article_id": "190655648",
+			"article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+			"quote": "Rather than being available on dedicated game devices or on a self-owned web-based portal, casual games such as Candy Crush are increasingly hosted and played on smartphones, tablets, and social network sites.",
+			"assigned_codes": [
+				"Gaming industry focus",
+				"Mobile app market",
+				"Platform business model"
+			],
+			"justification": "Platform access through app stores and social networks identified as distribution prerequisite for casual games."
+		},
+		{
+			"article_id": "190655648",
+			"article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+			"quote": "This low conversion rate of players into payers favors economies of scale and requires game studios to use a data-driven approach to game development and circulation in order to optimize, what industry insiders call \"player monetization.\"",
+			"assigned_codes": [
+				"Economies of scale",
+				"Data-driven monetization",
+				"Gaming industry focus"
+			],
+			"justification": "Large user base and data analytics capabilities identified as prerequisites for free-to-play monetization."
+		},
+		{
+			"article_id": "190655698",
+			"article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+			"quote": "For the Android consumers, Google Play (https://play.google.com) is such a one-stop shop for thousands of Android apps",
+			"assigned_codes": ["Mobile app market", "Marketplace model"],
+			"justification": "Centralized marketplace identified as prerequisite for app distribution, discovery, and consumer access."
+		},
+		{
+			"article_id": "190655698",
+			"article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+			"quote": "a prerequisite for the freemium strategy to be effective is a minimum user satisfaction level with the free app",
+			"assigned_codes": ["Freemium model", "Service quality improvement"],
+			"justification": "High-quality free app explicitly identified as prerequisite for effective freemium strategy implementation."
+		},
+		{
+			"article_id": "190655702",
+			"article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
+			"quote": "For sake of simplicity, we assume that customers are not hostile to OS solutions",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Market acceptance of open source solutions identified as prerequisite assumption for OSS business models."
+		},
+		{
+			"article_id": "190655702",
+			"article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
+			"quote": "A necessary condition for non-maximal openness is that e ≥ e*",
+			"assigned_codes": ["Network effects", "Open source business model"],
+			"justification": "Strong network externalities identified as necessary condition for hybrid business model adoption."
+		},
+		{
+			"article_id": "190655721",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations",
+			"assigned_codes": ["Remote hosting", "SaaS (Software as a Service)"],
+			"justification": "Remote hosting infrastructure identified as prerequisite for SaaS deployment and delivery model."
+		},
+		{
+			"article_id": "190655721",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "The multi-tenant architecture of SaaS benefits both clients and vendors alike",
+			"assigned_codes": ["Multi-tenant architecture"],
+			"justification": "Multi-tenant architecture identified as technical prerequisite providing mutual benefits in SaaS."
+		},
+		{
+			"article_id": "190655747",
+			"article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
+			"quote": "The solution is planned to work with Software as a Service (SaaS) principles (used and delivered through internet technology)",
+			"assigned_codes": [
+				"SaaS (Software as a Service)",
+				"Internet connectivity requirement"
+			],
+			"justification": "Internet technology identified as delivery prerequisite for SaaS-based supply chain solutions."
+		},
+		{
+			"article_id": "190655747",
+			"article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
+			"quote": "The basic principle behind the service is to collect systemically information about customer's transport disturbances to the information system",
+			"assigned_codes": ["Data-driven monetization"],
+			"justification": "Systematic data collection capability identified as prerequisite for database-based service delivery."
+		},
+		{
+			"article_id": "190655750",
+			"article_title": "The Impact of Open Source Software Commercialization on Firm Value",
+			"quote": "appropriating returns from commercializing OSS products depends critically on firms' stocks of software patents and trademarks",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Intellectual property portfolio identified as prerequisite for appropriating returns from OSS commercialization."
+		},
+		{
+			"article_id": "190655785",
+			"article_title": "The relationship between Open Innovation and Strategy: data-driven analysis of the Mobile Value Services Industry",
+			"quote": "Absorptive capacity and the integration of the acquired external knowledge are essential",
+			"assigned_codes": ["Organizational preparedness"],
+			"justification": "Absorptive capacity identified as organizational prerequisite for integrating external knowledge in open innovation."
+		},
+		{
+			"article_id": "190655819",
+			"article_title": "Open-Source Software Entrepreneurial Business Modelling",
+			"quote": "Built on top of the Business Model Canvas [8], the popular business modelling framework was customized for the specificities of the high-tech software business",
+			"assigned_codes": ["Open source business model"],
+			"justification": "Business modeling framework knowledge identified as prerequisite for OSS entrepreneurial development."
+		},
+		{
+			"article_id": "190655845",
+			"article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+			"quote": "Platforms in the software industry are defined as \"… the extensible codebase of a software-based system that provides core functionality shared by the modules that interoperate with it and the interfaces through which they interoperate\"",
+			"assigned_codes": ["Platform business model", "API-based business model"],
+			"justification": "Extensible codebase with interfaces identified as architectural prerequisite for PaaS platform functionality."
+		},
+		{
+			"article_id": "190655845",
+			"article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+			"quote": "PaaS as an execution environment in which external developers deploy and run their complementary components and applications",
+			"assigned_codes": [
+				"Platform business model",
+				"Cloud computing infrastructure"
+			],
+			"justification": "Execution environment for external developers identified as technical prerequisite for PaaS business model."
+		}
+	]
+}

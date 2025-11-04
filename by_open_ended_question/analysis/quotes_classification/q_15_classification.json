@@ -1,0 +1,333 @@
+{
+	"qualitative_analysis": [
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "Monthly subscription fees are the most popular pricing model nowadays",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "O texto descreve taxas de assinatura mensais como o modelo de precificação mais popular, evidenciando um modelo baseado em assinaturas no contexto SaaS."
+		},
+		{
+			"article_id": "190638760",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "67.2% of the vendors used single payment frequency, while 30% used multiple payment frequency options and complementary bulk payment discount incentive",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Flexible pricing strategies"
+			],
+			"justification": "Demonstra estratégias de precificação flexíveis com diferentes frequências de pagamento e descontos para pagamentos em massa."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "SaaS where there is a price per user per month",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Descreve modelo de precificação por usuário com periodicidade mensal, típico de SaaS baseado em assinatura."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "Under the rental model, there is a monthly fee",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Service-oriented model"
+			],
+			"justification": "O modelo de aluguel com taxa mensal representa uma abordagem orientada a serviço com pagamentos recorrentes."
+		},
+		{
+			"article_id": "190653582",
+			"article_title": "Strategy and business model evolution at Adobe: Competing in digital media software industry",
+			"quote": "Subscribers could now pay $49.99/month for a 1-year commitment.",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Modelo de assinatura mensal com compromisso anual, representando a transição da Adobe para modelo SaaS."
+		},
+		{
+			"article_id": "190653595",
+			"article_title": "Spillover Effects and Freemium Strategy in the Mobile App Market",
+			"quote": "Fruit Ninja is available for free with a separate paid version for a price of $1.99.",
+			"assigned_codes": ["Freemium model", "Mobile app market"],
+			"justification": "Demonstra modelo freemium no mercado de aplicativos móveis com versão gratuita e versão paga com pagamento único."
+		},
+		{
+			"article_id": "190653772",
+			"article_title": "Current practices and emerging trends of transit apps for fixed-route bus services in the US",
+			"quote": "The ongoing costs could be an annual lump sum (ranging from $100,000 to $500,000) or a charge per transaction",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Pay-as-you-go pricing",
+				"Flexible pricing strategies"
+			],
+			"justification": "Apresenta flexibilidade de modelos de precificação, combinando assinatura anual com modelo pay-per-transaction baseado em uso."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "At launch, Apple Music charged a $9.99/month subscription fee for an individual user and $14.99/month for a family",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)",
+				"Flexible pricing strategies"
+			],
+			"justification": "Demonstra modelo de assinatura mensal com diferentes tiers de preços (individual vs família), mostrando flexibilidade na precificação."
+		},
+		{
+			"article_id": "190653872",
+			"article_title": "Managing Software-as-a-Service: Pricing and operations",
+			"quote": "Typically, the price of a core bundle of SaaS applications is for a monthly, yearly, or permanent license",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)",
+				"Hybrid business model"
+			],
+			"justification": "Mostra modelo híbrido combinando diferentes periodicidades de pagamento (mensal, anual) e até licença permanente em contexto SaaS."
+		},
+		{
+			"article_id": "190653882",
+			"article_title": "Converting free users to paid subscribers in the SaaS context: The impact of marketing touchpoints, message content, and usage",
+			"quote": "customers pay a monthly or annual subscription fee",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Modelo típico de assinatura SaaS com opções de pagamento mensal ou anual."
+		},
+		{
+			"article_id": "190653993",
+			"article_title": "Development of service-dominant business model for CAE software industry in Greater China: a case study",
+			"quote": "they spent approximately 17 euros per component for running a flow simulation",
+			"assigned_codes": ["Pay-as-you-go pricing", "Service-oriented model"],
+			"justification": "Modelo de pagamento por uso, onde clientes pagam por componente/serviço utilizado, característico de orientação a serviço."
+		},
+		{
+			"article_id": "190654465",
+			"article_title": "The Business Case for a Journey Planning and Ticketing App—Comparison between a Simulation Analysis and Real-World Data",
+			"quote": "monthly operating profitability",
+			"assigned_codes": ["Subscription-based pricing", "Mobile app market"],
+			"justification": "Referência a análise de lucratividade mensal em contexto de aplicativo móvel com modelo de receita recorrente."
+		},
+		{
+			"article_id": "190654601",
+			"article_title": "Software as a service: Lessons from the video game industry",
+			"quote": "By paying a monthly fee, gamers will be given access to all the games the platform has to offer",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Gaming industry focus",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Modelo de assinatura mensal para acesso a plataforma de jogos, aplicando conceito SaaS à indústria de games."
+		},
+		{
+			"article_id": "190654720",
+			"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+			"quote": "Asset Manufacturers should pay yearly license fees",
+			"assigned_codes": ["Subscription-based pricing", "B2B business model"],
+			"justification": "Modelo de licenciamento anual direcionado a fabricantes (B2B) com pagamento recorrente."
+		},
+		{
+			"article_id": "190654720",
+			"article_title": "Making a Business Out of (Predictive Application Management in) the Fog",
+			"quote": "free customers will have limitations to their accounts, e.g. bounded number of monthly predictions",
+			"assigned_codes": ["Freemium model", "Pay-as-you-go pricing"],
+			"justification": "Modelo freemium com limitações baseadas em uso mensal, combinando gratuidade com restrições de consumo."
+		},
+		{
+			"article_id": "190654956",
+			"article_title": "Open source ERP business model framework",
+			"quote": "RedHat and Linux who offer annual service agreements bundled with open source software, customer support, or software updates",
+			"assigned_codes": [
+				"Open source business model",
+				"Subscription-based pricing",
+				"Service-oriented model"
+			],
+			"justification": "Modelo de negócio open source baseado em acordos anuais de serviço, combinando software livre com serviços pagos."
+		},
+		{
+			"article_id": "190655186",
+			"article_title": "Developing enterprise social software in China: insights from Mingdao",
+			"quote": "pricing is based on head count, say, 5 RMB/person/month",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)",
+				"Enterprise market focus"
+			],
+			"justification": "Modelo de precificação por usuário mensal típico de SaaS empresarial, com cobrança per capita."
+		},
+		{
+			"article_id": "190655186",
+			"article_title": "Developing enterprise social software in China: insights from Mingdao",
+			"quote": "The initial account fee may be US$20,000 per year, plus an annual license fee",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Enterprise market focus",
+				"Hybrid business model"
+			],
+			"justification": "Modelo híbrido para mercado empresarial combinando taxa inicial anual com licenciamento recorrente."
+		},
+		{
+			"article_id": "190655198",
+			"article_title": "Difficult Business Models of Digital Business Platforms for Health Data: A Framework for Evaluation of the Ecosystem Viability",
+			"quote": "The chosen option was a subscription model based on a fixed monthly fee",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Healthcare technology",
+				"Platform business model"
+			],
+			"justification": "Modelo de assinatura com taxa mensal fixa aplicado a plataforma de dados de saúde."
+		},
+		{
+			"article_id": "190655218",
+			"article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+			"quote": "The current fee structure is a layered monthly subscription-based model",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Healthcare technology",
+				"Flexible pricing strategies"
+			],
+			"justification": "Modelo de assinatura mensal em camadas para tecnologia de saúde, oferecendo flexibilidade através de tiers."
+		},
+		{
+			"article_id": "190655218",
+			"article_title": "How Service Offerings and Operational Maturity Influence the Viability of Health Information Exchanges",
+			"quote": "Other members have a per-member, per-month subscription fee based on value-added service structures.",
+			"assigned_codes": ["Subscription-based pricing", "Value-based pricing"],
+			"justification": "Precificação por membro/mês baseada em serviços de valor agregado, combinando assinatura com orientação a valor."
+		},
+		{
+			"article_id": "190655219",
+			"article_title": "Mobile ticketing services in the Northern Europe: Critical business model issues",
+			"quote": "Possible billing options were monthly invoices or credit/debit card payments",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Flexible pricing strategies",
+				"Mobile app market"
+			],
+			"justification": "Flexibilidade de opções de cobrança mensal em aplicativo móvel de bilhetagem."
+		},
+		{
+			"article_id": "190655350",
+			"article_title": "Give Away Your Digital Services: Leveraging Big Data to Capture Value",
+			"quote": "for a fee of $20,000 per year, the department can see where bikers speed up or slow down",
+			"assigned_codes": [
+				"Data-driven monetization",
+				"Subscription-based pricing",
+				"B2B business model"
+			],
+			"justification": "Monetização de dados com taxa anual, modelo B2B baseado em valor dos dados coletados."
+		},
+		{
+			"article_id": "190655362",
+			"article_title": "Making Digital Freemium Business Models a Success: Predicting Customers' Lifetime Value via Initial Purchase Information",
+			"quote": "Combined, they have more than 1.3 million registered users, approx. 57,000 of whom are paying customers, spending more than €3 million in more than 195,000 credit purchases",
+			"assigned_codes": ["Freemium model", "Pay-as-you-go pricing"],
+			"justification": "Modelo freemium com compras de créditos não-contratuais, onde usuários pagam conforme consomem."
+		},
+		{
+			"article_id": "190655382",
+			"article_title": "Understanding the influence of absorptive capacity and ambidexterity on the process of business model change – the case of on-premise and cloud-computing software",
+			"quote": "As all case companies offer SaaS on a pay-per-use basis, cash flows in continuously but less predictably. With on-premise business, customers usually pay a one-time license fee and an annual fee for longer-term maintenance contracts.",
+			"assigned_codes": [
+				"Pay-as-you-go pricing",
+				"SaaS (Software as a Service)",
+				"Hybrid business model",
+				"Perpetual licensing"
+			],
+			"justification": "Contrasta modelo pay-per-use contínuo do SaaS com modelo híbrido tradicional de licença perpétua + manutenção anual."
+		},
+		{
+			"article_id": "190655386",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "IT vendors are now collecting periodic subscription fee, suggesting that the key to survival under the new circumstance is to keep the cash flow going",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)",
+				"Revenue stream transformation"
+			],
+			"justification": "Transformação do modelo de receita para assinaturas periódicas, mantendo fluxo de caixa contínuo no contexto cloud."
+		},
+		{
+			"article_id": "190655425",
+			"article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+			"quote": "we are now increasingly moving towards a model in which we charge a monthly rental fee. Then customers don't have to make an investment decision – the customer just pays the monthly rental fee",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Service-oriented model",
+				"Low switching costs"
+			],
+			"justification": "Transição para modelo de aluguel mensal reduzindo barreiras de entrada e custo de troca para clientes."
+		},
+		{
+			"article_id": "190655425",
+			"article_title": "Adjusting software revenue and pricing strategies in the era of cloud computing",
+			"quote": "the fee for a short-term rental agreement was higher than for a long-term contract",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Flexible pricing strategies"
+			],
+			"justification": "Estratégia de precificação flexível diferenciando contratos de curto e longo prazo."
+		},
+		{
+			"article_id": "190655631",
+			"article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
+			"quote": "Mobile advertising revenues reached $3.18 billion in the U.S. in 2012",
+			"assigned_codes": [
+				"Platform business model",
+				"Data-driven monetization",
+				"Mobile app market"
+			],
+			"justification": "Monetização através de publicidade móvel em plataforma multi-sided, gerando receita de dados/uso."
+		},
+		{
+			"article_id": "190655648",
+			"article_title": "Crushing Candy: The Free-to-Play Game in Its Connective Commodity Form",
+			"quote": "In the second half of August we transitioned Candy Crush mobile to virtual currency called King gold bars in our games",
+			"assigned_codes": [
+				"Freemium model",
+				"Gaming industry focus",
+				"Mobile app market"
+			],
+			"justification": "Modelo freemium de jogos com moeda virtual, típico do mercado de jogos mobile free-to-play."
+		},
+		{
+			"article_id": "190655698",
+			"article_title": "Effects of Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play",
+			"quote": "prices ranging from $0.99 to $39.95",
+			"assigned_codes": [
+				"Freemium model",
+				"Mobile app market",
+				"Flexible pricing strategies"
+			],
+			"justification": "Estratégia freemium no mercado de apps móveis com ampla faixa de precificação para versões pagas."
+		},
+		{
+			"article_id": "190655721",
+			"article_title": "A Pricing Framework for Software-as-a-Service",
+			"quote": "Monthly subscription fees are the most popular pricing model nowadays... software vendors encourage clients to prepay their subscriptions",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"SaaS (Software as a Service)",
+				"Flexible pricing strategies"
+			],
+			"justification": "Modelo de assinatura mensal com incentivo a pré-pagamento, demonstrando flexibilidade estratégica em SaaS."
+		},
+		{
+			"article_id": "190655845",
+			"article_title": "Towards a better Understanding of the Dynamics of Platform as a Service Business Models",
+			"quote": "In case of subscription, the customer pays a regular subscription fee – commonly a monthly charge – and in return gains the right to use the product for the paid period",
+			"assigned_codes": [
+				"Subscription-based pricing",
+				"Platform business model",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Define modelo de assinatura com cobrança mensal regular para acesso a plataforma como serviço."
+		}
+	]
+}
