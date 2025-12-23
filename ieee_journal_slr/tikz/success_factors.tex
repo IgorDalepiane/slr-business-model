@@ -1,0 +1,54 @@
+% ===========================================================================================
+% Success Factors - Horizontal Bar Chart
+% Fatores de Sucesso identificados na literatura
+% ===========================================================================================
+\begin{tikzpicture}
+\begin{axis}[
+    xbar,
+    bar width=6pt,
+    legend cell align=left,
+    legend style={
+        legend columns=1,
+        at={(1.02,0.5)},
+        anchor=west,
+        draw=none,
+        font=\scriptsize
+    },
+    ytick=data,
+    axis y line*=none,
+    axis x line*=bottom,
+    x tick label style={font=\scriptsize},
+    y tick label style={font=\scriptsize, text width=3cm, align=right},
+    label style={font=\scriptsize},
+    xlabel={Número de Menções},
+    xtick={0,30,60,90,120,150},
+    xmin=0,
+    xmax=155,
+    width=0.85\columnwidth,
+    height=5cm,
+    bar width=5mm,
+    yticklabels={
+        {Value-based orientation},
+        {Service quality improvement},
+        {Organizational preparedness},
+        {Market expansion},
+        {Ecosystem management}
+    },
+    area legend,
+    y=8mm,
+    enlarge y limits={abs=0.5},
+    nodes near coords,
+    nodes near coords align=horizontal,
+    every node near coord/.append style={
+        black,
+        font=\scriptsize,
+        text opacity=1,
+        fill=white,
+        fill opacity=0.6,
+        outer sep=\pgflinewidth
+    }
+]
+\addplot[pattern color=blu, pattern=north east lines] coordinates
+{(36,1)(36,2)(64,3)(84,4)(138,5)};
+\end{axis}
+\end{tikzpicture}

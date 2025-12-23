@@ -1,0 +1,33 @@
+% ===========================================================================================
+% Quality Classification of Studies - Pie Chart
+% Classificação dos Estudos na Avaliação de Qualidade
+% Total: 138 estudos avaliados
+% ===========================================================================================
+\begin{tikzpicture}
+[
+    pie chart,
+    slice type={excelente}{hardblue}{horizontal lines},
+    slice type={muitobom}{blue}{vertical lines},
+    slice type={bom}{verde}{north east lines},
+    slice type={regular}{giallo}{crosshatch},
+    slice type={ruim}{rosso}{grid},
+    slice type={pessimo}{viola}{north west lines},
+    pie values/.style={font={\small}, fill=gray!0},
+    scale=2.2
+]
+    \pie{}{
+        48.6/excelente/67,
+        17.4/muitobom/24,
+        2.2/bom/3,
+        2.9/regular/4,
+        0.7/ruim/1,
+        28.3/pessimo/39}
+
+    \legendchart[shift={(1.3cm,0.8cm)}]{
+        {Excelente (8-10)}/excelente,
+        {Muito Bom (6-7.99)}/muitobom,
+        {Bom (4-5.99)}/bom,
+        {Regular (2-3.99)}/regular,
+        {Ruim (1-1.99)}/ruim,
+        {Péssimo (0-0.99)}/pessimo}
+\end{tikzpicture}

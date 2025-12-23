@@ -1,0 +1,54 @@
+% ===========================================================================================
+% Customer Types - Horizontal Bar Chart
+% Tipos de Cliente-Alvo identificados nos estudos
+% ===========================================================================================
+\begin{tikzpicture}
+\begin{axis}[
+    xbar,
+    bar width=6pt,
+    legend cell align=left,
+    legend style={
+        legend columns=1,
+        at={(1.02,0.5)},
+        anchor=west,
+        draw=none,
+        font=\scriptsize
+    },
+    ytick=data,
+    axis y line*=none,
+    axis x line*=bottom,
+    x tick label style={font=\scriptsize},
+    y tick label style={font=\scriptsize},
+    label style={font=\scriptsize},
+    xlabel={Percentual dos Estudos (\%)},
+    xtick={0,10,20,30,40,50,60},
+    xmin=0,
+    xmax=60,
+    width=0.85\columnwidth,
+    height=4.5cm,
+    bar width=5mm,
+    yticklabels={
+        {Enterprise},
+        {SME},
+        {B2C},
+        {B2B}
+    },
+    area legend,
+    y=7mm,
+    enlarge y limits={abs=0.5},
+    nodes near coords,
+    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\%},
+    nodes near coords align=horizontal,
+    every node near coord/.append style={
+        black,
+        font=\scriptsize,
+        text opacity=1,
+        fill=white,
+        fill opacity=0.6,
+        outer sep=\pgflinewidth
+    }
+]
+\addplot[pattern color=viola, pattern=crosshatch] coordinates
+{(17.9,1)(35.8,2)(41.8,3)(53.7,4)};
+\end{axis}
+\end{tikzpicture}

@@ -1,0 +1,25 @@
+% ===========================================================================================
+% Papers per Database - Pie Chart
+% Dados: ACM (57, 2.0%), IEEE (225, 7.8%), Scopus (2607, 90.2%)
+% Total: 2889 artigos
+% ===========================================================================================
+\begin{tikzpicture}
+[
+    pie chart,
+    slice type={acm}{blu}{north east lines},
+    slice type={ieee}{viola}{crosshatch},
+    slice type={scopus}{verde}{horizontal lines},
+    pie values/.style={font={\footnotesize}, fill=gray!0},
+    scale=3
+]
+    \centering
+    \pie{}{
+        2.0/acm/57,
+        7.8/ieee/225,
+        90.2/scopus/2607}
+
+    \legendchart[shift={(1.5cm,0.8cm)}]{
+        {ACM Digital Library}/acm,
+        {IEEE Xplore}/ieee,
+        {Scopus}/scopus}
+\end{tikzpicture}

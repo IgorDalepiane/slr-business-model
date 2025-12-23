@@ -1,0 +1,26 @@
+% ===========================================================================================
+% Network Effects Types - Pie Chart
+% Tipos de Efeitos de Rede identificados
+% ===========================================================================================
+\begin{tikzpicture}
+[
+    pie chart,
+    slice type={direct}{hardblue}{horizontal lines},
+    slice type={cross}{verde}{vertical lines},
+    slice type={data}{giallo}{north east lines},
+    slice type={none}{rosso}{crosshatch},
+    pie values/.style={font={\small}, fill=gray!0},
+    scale=2.2
+]
+    \pie{}{
+        35.8/direct/24,
+        31.3/cross/21,
+        22.4/data/15,
+        10.5/none/7}
+
+    \legendchart[shift={(1.3cm,0.6cm)}]{
+        {Direct}/direct,
+        {Cross-sided}/cross,
+        {Data-driven}/data,
+        {Not identified}/none}
+\end{tikzpicture}
