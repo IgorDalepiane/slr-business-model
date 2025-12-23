@@ -123,3 +123,4 @@ Key statistics from 12 closed-ended questions across 67 papers.
 - **Decisions documented**: See STATISTICS.md for special cases and exclusions
 - **Data integrity**: All values verified against original JSON files
 
+

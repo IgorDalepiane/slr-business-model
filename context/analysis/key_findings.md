@@ -126,3 +126,4 @@ Consolidated key findings from the SLR analysis of 67 papers (2014-2024).
 4. **Platform evolution**: 46.3% are two-sided platforms with cross-sided network effects
 5. **Mobile app stores**: 40.3% use mobile delivery, 20.9% use Apple App Store
 
+
