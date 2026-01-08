@@ -1,0 +1,146 @@
+# =============================================
+# LaTeX .gitignore
+# =============================================
+
+# Arquivos auxiliares principais
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Arquivos intermediários
+*.dvi
+*.xdv
+*-converted-to.*
+
+# Bibliografias
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tools
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Índices e glossários
+*.idx
+*.ilg
+*.ind
+*.ist
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+
+# Pacote hyperref
+*.brf
+
+# Pacote minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+# Pacote minted
+_minted*
+*.pyg
+
+# Pacote todonotes
+*.tdo
+
+# Pacote endfloat
+*.fff
+*.lol
+*.ttt
+
+# Pacote latexdiff
+*.latexmain
+
+# Pacote listings
+*.lol
+
+# Pacote morewrites
+*.mw
+
+# Pacote nomencl
+*.nlg
+*.nlo
+*.nls
+
+# Pacote sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# Pacote sympy
+*.sout
+*.sympy
+sympy-hierarchical-reorder*
+
+# Pacote pdfcomment
+*.upa
+*.upb
+
+# Pacote pythontex
+*.pytxcode
+pythontex-files-*/
+
+# Pacote TikZ/PGF
+*.dpth
+*.md5
+*.auxlock
+
+# Pacote todonotes
+*.tdo
+
+# Pacotes WinEdt
+*.bak
+*.sav
+
+# Arquivos temporários do Kile
+*.backup
+
+# Arquivos temporários do GnuEmacs
+*~
+
+# Arquivos temporários do Texpad
+.texpadtmp
+
+# Arquivos temporários do LyX
+*.lyx~
+
+# Arquivos temporários do TeXnicCenter
+*.tps
+
+# Pasta de saída do latexmk
+latex.out/
+latexmk.out/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# =============================================
+# OPCIONAL: Descomente se NÃO quiser versionar o PDF
+# =============================================
+# *.pdf
