@@ -1,30 +1,56 @@
 % ===========================================================================================
-% Network Effects Types - Pie Chart
+% Network Effects Types - Horizontal Bar Chart
 % Identified Network Effect Types
 % ===========================================================================================
-% TODO: Verify data - Current "Not identified" shows 10.5%, but source data (STATISTICS.md Q17) shows:
-% - None: 4.5% (3 articles) + Others: 3.0% (2 articles) = 7.5%
-% - 17.9% did not respond, 6.0% responded but no value identified
-% Decide: Should this be 7.5% (None+Others) or include non-responses?
 \begin{tikzpicture}
-[
-    pie chart,
-    slice type={direct}{hardblue}{horizontal lines},
-    slice type={cross}{verde}{vertical lines},
-    slice type={data}{giallo}{north east lines},
-    slice type={none}{rosso}{crosshatch},
-    pie values/.style={font={\small}, fill=gray!0},
-    scale=2.2
+\begin{axis}[
+    xbar,
+    bar width=6pt,
+    legend cell align=left,
+    legend style={
+        legend columns=1,
+        at={(1.02,0.5)},
+        anchor=west,
+        draw=none,
+        font=\scriptsize
+    },
+    ytick=data,
+    axis y line*=none,
+    axis x line*=bottom,
+    x tick label style={font=\scriptsize},
+    y tick label style={font=\scriptsize},
+    label style={font=\scriptsize},
+    xlabel={Percentage of Studies (\%)},
+    xtick={0,10,20,30,40},
+    xmin=0,
+    xmax=40,
+    width=0.85\columnwidth,
+    height=5.5cm,
+    bar width=5mm,
+    yticklabels={
+        {Not Reported},
+        {Others},
+        {None},
+        {Data},
+        {Cross-sided},
+        {Direct}
+    },
+    area legend,
+    y=7mm,
+    enlarge y limits={abs=0.5},
+    nodes near coords,
+    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\%},
+    nodes near coords align=horizontal,
+    every node near coord/.append style={
+        black,
+        font=\scriptsize,
+        text opacity=1,
+        fill=white,
+        fill opacity=0.6,
+        outer sep=\pgflinewidth
+    }
 ]
-    \pie{}{
-        35.8/direct/24,
-        31.3/cross/21,
-        22.4/data/15,
-        10.5/none/7}
-
-    \legendchart[shift={(1.3cm,0.6cm)}]{
-        {Direct}/direct,
-        {Cross-sided}/cross,
-        {Data-driven}/data,
-        {Not identified}/none}
+\addplot[pattern color=hardblue, pattern=horizontal lines] coordinates
+{(17.9,1)(3.0,2)(4.5,3)(22.4,4)(31.3,5)(35.8,6)};
+\end{axis}
 \end{tikzpicture}
