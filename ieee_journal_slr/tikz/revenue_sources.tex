@@ -1,6 +1,7 @@
 % ===========================================================================================
 % Revenue Sources - Horizontal Bar Chart
 % Revenue sources identified in the studies
+% Total: 67 studies
 % ===========================================================================================
 \begin{tikzpicture}
 \begin{axis}[
@@ -23,7 +24,7 @@
     xlabel={Percentage of Studies (\%)},
     xtick={0,20,40,60,80},
     xmin=0,
-    xmax=85,
+    xmax=95,
     width=0.85\columnwidth,
     height=4.5cm,
     bar width=5mm,
@@ -38,7 +39,6 @@
     y=7mm,
     enlarge y limits={abs=0.5},
     nodes near coords,
-    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\%},
     nodes near coords align=horizontal,
     every node near coord/.append style={
         black,
@@ -47,9 +47,17 @@
         fill=white,
         fill opacity=0.6,
         outer sep=\pgflinewidth
-    }
+    },
+    visualization depends on={\thisrow{n} \as \mycount},
+    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\% (n=\pgfmathprintnumber[fixed,precision=0]{\mycount})}
 ]
-\addplot[pattern color=hardblue, pattern=north east lines] coordinates
-{(19.4,1)(16.4,2)(32.8,3)(41.8,4)(76.1,5)};
+\addplot[pattern color=hardblue, pattern=north east lines] table [x=perc, y=idx, meta=perc] {
+perc idx n
+19.4 1 13
+16.4 2 11
+32.8 3 22
+41.8 4 28
+76.1 5 51
+};
 \end{axis}
 \end{tikzpicture}

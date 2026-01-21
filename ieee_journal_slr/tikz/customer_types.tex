@@ -1,6 +1,7 @@
 % ===========================================================================================
 % Customer Types - Horizontal Bar Chart
 % Target customer types identified in the studies
+% Total: 67 studies
 % ===========================================================================================
 \begin{tikzpicture}
 \begin{axis}[
@@ -23,7 +24,7 @@
     xlabel={Percentage of Studies (\%)},
     xtick={0,10,20,30,40,50,60},
     xmin=0,
-    xmax=60,
+    xmax=70,
     width=0.85\columnwidth,
     height=4.5cm,
     bar width=5mm,
@@ -37,7 +38,6 @@
     y=7mm,
     enlarge y limits={abs=0.5},
     nodes near coords,
-    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\%},
     nodes near coords align=horizontal,
     every node near coord/.append style={
         black,
@@ -46,9 +46,16 @@
         fill=white,
         fill opacity=0.6,
         outer sep=\pgflinewidth
-    }
+    },
+    visualization depends on={\thisrow{n} \as \mycount},
+    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\% (n=\pgfmathprintnumber[fixed,precision=0]{\mycount})}
 ]
-\addplot[pattern color=viola, pattern=crosshatch] coordinates
-{(7.5,1)(35.8,2)(41.8,3)(53.7,4)};
+\addplot[pattern color=viola, pattern=crosshatch] table [x=perc, y=idx, meta=perc] {
+perc idx n
+7.5 1 5
+35.8 2 24
+41.8 3 28
+53.7 4 36
+};
 \end{axis}
 \end{tikzpicture}

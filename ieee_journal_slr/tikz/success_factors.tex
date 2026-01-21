@@ -1,6 +1,7 @@
 % ===========================================================================================
 % Success Factors - Horizontal Bar Chart
 % Success factors identified in the literature
+% Total mentions: 358
 % ===========================================================================================
 \begin{tikzpicture}
 \begin{axis}[
@@ -23,7 +24,7 @@
     xlabel={Number of Mentions},
     xtick={0,30,60,90,120,150},
     xmin=0,
-    xmax=155,
+    xmax=170,
     width=0.85\columnwidth,
     height=5cm,
     bar width=5mm,
@@ -46,9 +47,17 @@
         fill=white,
         fill opacity=0.6,
         outer sep=\pgflinewidth
-    }
+    },
+    visualization depends on={\thisrow{perc} \as \myperc},
+    nodes near coords={\pgfmathprintnumber[fixed,precision=0]{\pgfplotspointmeta} (\pgfmathprintnumber[fixed,precision=1]{\myperc}\%)}
 ]
-\addplot[pattern color=blu, pattern=north east lines] coordinates
-{(36,1)(36,2)(64,3)(84,4)(138,5)};
+\addplot[pattern color=blu, pattern=north east lines] table [x=n, y=idx, meta=n] {
+n idx perc
+36 1 10.1
+36 2 10.1
+64 3 17.9
+84 4 23.5
+138 5 38.5
+};
 \end{axis}
 \end{tikzpicture}

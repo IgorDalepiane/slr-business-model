@@ -1,6 +1,7 @@
 % ===========================================================================================
 % Network Effects Types - Horizontal Bar Chart
 % Identified Network Effect Types
+% Total: 67 studies
 % ===========================================================================================
 \begin{tikzpicture}
 \begin{axis}[
@@ -23,7 +24,7 @@
     xlabel={Percentage of Studies (\%)},
     xtick={0,10,20,30,40},
     xmin=0,
-    xmax=40,
+    xmax=50,
     width=0.85\columnwidth,
     height=5.5cm,
     bar width=5mm,
@@ -39,7 +40,6 @@
     y=7mm,
     enlarge y limits={abs=0.5},
     nodes near coords,
-    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\%},
     nodes near coords align=horizontal,
     every node near coord/.append style={
         black,
@@ -48,9 +48,18 @@
         fill=white,
         fill opacity=0.6,
         outer sep=\pgflinewidth
-    }
+    },
+    visualization depends on={\thisrow{n} \as \mycount},
+    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\% (n=\pgfmathprintnumber[fixed,precision=0]{\mycount})}
 ]
-\addplot[pattern color=hardblue, pattern=horizontal lines] coordinates
-{(17.9,1)(3.0,2)(4.5,3)(22.4,4)(31.3,5)(35.8,6)};
+\addplot[pattern color=hardblue, pattern=horizontal lines] table [x=perc, y=idx, meta=perc] {
+perc idx n
+17.9 1 12
+3.0 2 2
+4.5 3 3
+22.4 4 15
+31.3 5 21
+35.8 6 24
+};
 \end{axis}
 \end{tikzpicture}

@@ -1,6 +1,7 @@
 % ===========================================================================================
 % Customer Acquisition Channels - Horizontal Bar Chart
 % Customer acquisition channels identified in the studies
+% Total: 67 studies
 % ===========================================================================================
 \begin{tikzpicture}
 \begin{axis}[
@@ -23,7 +24,7 @@
     xlabel={Percentage of Studies (\%)},
     xtick={0,10,20,30,40,50},
     xmin=0,
-    xmax=55,
+    xmax=60,
     width=0.85\columnwidth,
     height=5cm,
     bar width=5mm,
@@ -38,7 +39,6 @@
     y=7mm,
     enlarge y limits={abs=0.5},
     nodes near coords,
-    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\%},
     nodes near coords align=horizontal,
     every node near coord/.append style={
         black,
@@ -47,9 +47,17 @@
         fill=white,
         fill opacity=0.6,
         outer sep=\pgflinewidth
-    }
+    },
+    visualization depends on={\thisrow{n} \as \mycount},
+    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\% (n=\pgfmathprintnumber[fixed,precision=0]{\mycount})}
 ]
-\addplot[pattern color=verde, pattern=horizontal lines] coordinates
-{(22.4,1)(37.3,2)(38.8,3)(41.8,4)(47.8,5)};
+\addplot[pattern color=verde, pattern=horizontal lines] table [x=perc, y=idx, meta=perc] {
+perc idx n
+22.4 1 15
+37.3 2 25
+38.8 3 26
+41.8 4 28
+47.8 5 32
+};
 \end{axis}
 \end{tikzpicture}
