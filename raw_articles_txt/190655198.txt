@@ -1,0 +1,742 @@
+=== PÁGINA 1 ===
+Difficult Business Models  of Digital Business 
+Platforms  for Health Data  
+A Framework for Evaluation of the Ecosystem Viability  
+Timo Itälä  
+Department of Computer Science  
+Aalto University, School of Science  
+Espoo, Finland  
+timo.itala@aalto.fi  Harri Töhönen  
+Department of Computer Science  
+Aalto University, School of Science  
+Espoo, Finland  
+harri.tohonen@aalto.fi
+ 
+Cross -organizational platforms with a purpose to enable the 
+exchange of data about their patients face not only tech nical 
+challenges but also challenges for the viability of the business 
+model of their ecosystem. Regional healthcare information systems 
+(RHIS) have been evaluated from many aspects, like utility, pro cess 
+improvement, benefits to users and patients and cost savings. 
+However these  evaluations  do not explain the problems in the 
+viability of their ecosystems. This paper develops an ecosystem 
+evaluation framework (EEF) based on platform theories and theory  
+of constraints  (TOC) . It  demonstrates how EEF is used in 
+evaluation of a RHIS to explain its problems in viability. EEF is 
+composed of a model and a method. The model defines the 
+ecosystem: The platform, the producers and consumers, other 
+stakeholders, t he friction between the producers and consumers, 
+the transactions reducing that friction, and the goals of the 
+ecosystem and the goals of its stakeholders. The method applies 
+following criteria: Does the platform serve its purpose in reducing 
+the friction between producers and consumers, does the platform 
+benefit every stakeholder in the ecosystem enabling them achieve 
+more of their own goals, does the platform solve the chicken -and-
+egg problem , reach the critical mass , create network effects  and 
+does the improvement of the platform benefit every stakeholder. 
+Using EEF in evaluation of RHIS reveals the inherent difficulties 
+for digital business platforms, specifically when the ecosystem 
+consists of both public and private organizations with mi smatching 
+goals. In the future EEF helps to address these problems early on.  
+I. INTRODUCTION  
+The purpose  of c ross-organizational platforms for 
+collecting, storing, sharing and managing patients´ health data 
+is to enable  collaboration between service provider s. Regional 
+healthcare information systems (RHIS) are platforms 
+connecting electronic health  record  (EHR)  systems within 
+primary and secondary care, both public and private  
+organizations   [1] . Portals , like Active Life Home,  are 
+platforms connecting personal device vendors and car e 
+providers   [2] . These platforms have been evaluated   form 
+various viewpoints like user satisfaction   [3] ,  usability   [4] , 
+asses sment of impacts   [5] , cost savings   [6] and incentives  for 
+collective action   [7]  . However, t he ado ption of the RHIS is 
+still low  [4]  or the business model alignment is complicated   
+[8] .  
+Recent upsurge of digital platforms are promise d to change 
+the ways how health care is provided and delivered to patients . 
+For e xample , Philips, Apple  and Google are providing digital platforms  [9]  in healthcare.  However, as  [10]  say, digital 
+platforms are not just technology, and their viability should not 
+be assessed only from technological aspects but rather they 
+represent a multisided platform as a business model  and their 
+viability should be assessed from that perspect ive.    
+The purpose of this paper is to develop an Ecosys tem 
+Evaluation Framework (EEF) for understanding the chances of 
+survival  of a digital business platform (RQ1).  We demonstrate 
+the use of EEF in explaining the  problems in the business 
+model  of the RH IS (RQ2). EEF should be able to explain the 
+problems in the business model when doing a post -mortem 
+analysis of an implemented platform. EEF is also useful if it 
+can predict possible problems in a propose d platform . A lot of 
+time and effort  can be saved  instead of building and 
+implementing the platform just to see that its business model is 
+broken.  
+The knowledge contribution of this paper is an 
+improvement on how to assess the viability of an digital 
+business platform and its ecosystem.  
+The rest of the paper is organized as follows. Section 2 
+explains the research method and the  main concepts of our  
+justifi catory theories of Digital Business Platforms  and the 
+Theory of Constraints  (TOC ). In section 3 we  design EEF. In 
+section 4 we demonstrate how to use EEF in evaluation of 
+RHIS. In section 5 we discuss the overall validity of EEF,  
+limitations and suggestions for further research.   
+II. RESEARCH METHOD  AND JUSTIFICA TORY THEORIES  
+A. Design Science Research (DSR)  
+This paper follows Design Science Research (DSR), as  
+suggested by   [11] ,  [12] . DSR process includes the six steps   
+[13] : problem identification and motivation; definition of the 
+objectives for the solution; design and development  of the 
+artifact as a proposed solution ; demonstration; evaluation; and 
+communication.   
+The introductory section already identified the problem, the 
+need for the solution  and the objectives for the solution . The 
+artifact , the solution is EEF , which is the outcome of the design 
+and development step . We evaluate  the artifact  EEF by 
+demonstrating how to use it in a case study . 
+2017 IEEE 19th Conference on Business Informatics
+2378-1971/17 $31.00 © 2017 IEEE
+DOI 10.1109/CBI.2017.663
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:36:02 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+B. Business Models, Digital Business Platforms and t heir 
+Ecosystems  
+According to Osterwalder  [14]  a business model describes 
+the rationale of how an organization creates, delivers and 
+captures value. Busine ss models often focus on a single 
+company   [15] ,  [16]   and viability of  their revenue 
+mechanisms  [17] , but our focus is in platforms.  
+Platforms have many different definitions. Gawer  [18]  
+presents a typology of platforms and identifies internal 
+platforms, supply -chain platforms, industry platforms and 
+multi -sided markets. Ecosystems rel ated to platforms and 
+business  models were pioneered by Moore  [19] where he 
+argues that a Business Ecosystem is a concept and unit of 
+analysis helpful in business strategy and practice.  Tiwana  [20]  
+defines the ecosystem from technology perspective as "the 
+collection of the platform and the apps specific to it".  
+For evaluation of the  viability of the  cross -organizational  
+integration  platform we  look at the platform as a  business 
+model pattern:  multi -sided business platform.  Multi -sided 
+platforms bring together two or more distinct but 
+interdepende nt groups of customers and create value by 
+facilitating interactions between the different groups   [14] .The 
+platform  and ecosystem architectures and economic s are  a 
+topic of contemporary research   [21] ,  [22] ,  [23] . 
+Our evaluation is focused  on certain type of multi -sided 
+platfo rms: Digital Business Platforms, as shown in Fig. 1.   
+The purpose of Digital Business Platforms is to  create value 
+by enabling  value  exchange between two groups, t he producing 
+peers and the consuming peers , resulting in a business 
+transaction   [24]  , called the core transaction.  The transaction 
+involves the transfer o f information, goods and/or services and 
+money. The platform always transfers information whereas 
+goods and/or services and money may or may not flow through 
+it. The platform  has to capture some of the value in order to 
+cover its costs and make some return .  
+One category of platforms is an exchange platform  [10], 
+where the transaction happens directly between the producer and the consumer, like in ordering a taxi or making a 
+reservation. The platform uses its data to match the right 
+consumer with the right producer. Another platform category is 
+a content platform like Youtube, where the producer creates a 
+piece of content which then can be consumed by several 
+consumers. The platform collects the data and offers various 
+search functions for the consumer s to find the right content.  
+According to   [10] , multisided platforms create value by 
+reducing frictions between producers and consumers. The 
+platforms are more valuable  to all parties the more important 
+are the frictions they address.  
+According to  [10]  the core transaction is the set of actions 
+producers and consumers must comp lete in order to exchange 
+value. The four steps of the core transaction are:  
+• Create: a producer creates value or makes it available 
+to be consumed through the platform.  
+• Connect: in every transaction, one user takes an action 
+that sparks the exchange by con necting with another 
+party  
+• Consume: once consumers find the right match, they 
+can consume the value created by the producer  
+• Compensate: consumers create value for the producer 
+in exchange what they consumed.  
+According  to Choudary  [25]  the successful digital 
+business platform has to  
+• Solve the initial chicken -and-egg problem: to reach the 
+critical mass of producers and consumers  
+• Create network effects: to scale the platform value 
+along with increasing user population   
+•  Ensure a balanced surplus for all groups: to attract the 
+platform stakeholders, including the platform provider.  
+Examples of well known and often referenced successful 
+platforms are  
+• Alibaba, which connects the manufacturers and 
+resellers of  goods  
+• NASDAQ and other electronic exchanges, which 
+connect sellers and buyers of  financial instruments  
+• OpenTable, one of the first digital business platforms, 
+which connects restaurants and those who need to 
+make a reservation  
+• Uber, which connects the drivers and those in need of a 
+ride.  
+• YouTube, which connects video clip producers, 
+advertisers and those who watch video clips and 
+advertisements  
+• Facebook , which  started with people who want to 
+interact with each other and extended to include the 
+advertisers.  
+These examples  represent both business to business (B2B) 
+and business to consumers (B2C) models. In a context of a  
+Fig. 1.  The Digital Business Platform and its Ecosystem  
+64
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:36:02 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+platform, the consumer is the one who consumes the value  
+provided through the platform.  The consumer role can be 
+played by a business or by an individual citizen.  
+The same actor can play two distinct roles: producer of 
+content and consumer of content. Youtube and Facebook 
+represent these types and are categorized as two -sided or multi -
+sided platforms.  
+C. Theory of Constraints  
+TOC is a management practice and philosophy originally 
+developed by Eliyahu M. Goldratt  [26] . It helps us to focus 
+our improvement efforts  into the constraints of the system and 
+also helps us  to assess the impact of proposed technologi cal 
+solutions  on the performance of the system   [27].  
+TOC starts with the premise th at every system is built for a 
+purpose, its global goal. A system is any collection of 
+interconnected parts sharing a common goal. Every action to 
+improve the system should be judged by its impact on the 
+overall purpose. A constraint is anything that preve nts the 
+system from achieving higher performance relative to its goal. 
+When we want to improve the performance of a system, we 
+need to focus in the constraints that se t the limits to the 
+performance of that system.  
+For the assessment of the impact on perfo rmance TOC 
+proposes measurements  of throughput, inventory and operating 
+expenses. Often throughput is more meaningful than cost 
+savings.  Cost savings have a limit under which the necess ary 
+conditions of providing quality products and services to 
+customers  and satisfactory working environment for employees 
+cannot be met. However, throughput has no upper limit. When 
+assessing a proposed technology we need  look into its potential 
+to improve the throughput  as the units of goal of the system . 
+Improving throughput  implicit ly exploit s the constraints  [26] . 
+III. ECOSYSTEM EVALUATION FRAMEWORK  (EEF)  
+When planning or building digital business platforms the 
+initial focus is often in technical questions like software 
+architectures and interfaces. Securing the viability of the 
+platform should also be addressed early on. For this purpose 
+we design EEF.  It  has two components: a model of the 
+ecosystem and the criteria for the evaluation  of its viability . 
+A. The  model  
+First we model the platform based in section II  B and fig. 1:  
+1) Define the platform  
+2) Define the problem that the platform is trying to reduce  
+3) Defin e the purpose of the platform  
+4) Define the ecosystem of the platform  
+5) Define the transactions enabled by the platform  
+6) Define the revenue model of the platform  
+ 
+When defining the platform we describe both the technical 
+aspects like information systems, but the focus is on business 
+perspective lik e organizations, users and business processes.  B. The method  
+We define the method as criteria  which need to assessed  in 
+the evaluation process.  First we discuss the rationale for the 
+criteria and then we list the criteria together.  
+Based on TOC, the ecosystem  is built for a purpose, a 
+common goal. The first criteria in our EEF is the ability of the 
+ecosystem to achieve  its common goal . The platform  should  
+reduce th e friction it is supposed to do.  
+Every stakeholder has to benefit of  participating in the 
+ecosystem . Without experiencing benefits, the stakeholder 
+would rather drop off, and the viability of the ecosystem would 
+be in danger . Building on TOC, a benefit for an organizational 
+stakeholder is an improvement in its own performa nce. As 
+second criteria  the transactions enabled by the platform should 
+help each stakeholder t o achieve more of its own goal.  
+Third criteria  involves  the critical success factors 
+previously defined for the platforms.  Initially the platform has 
+to solve t he chicken -and-egg problem: to get enough  producers 
+and consumers on board so that the transaction s start to take 
+place   [25] . Then successful ignition requires that  the platform 
+attract s both sides  to reach the critical mass  [10] . By reaching 
+the critical mass the ecosystem starts to create network effects, 
+which can be cross -side or same -side  [20] .  
+If the ecosystem is succes sful, it ignites and grows until it 
+starts to reach th e full potential of the ecosystem, covering all 
+potential users or facilitating all potential transactions.  
+However, there is always need for improvements. The platform 
+provider and the parties  should have an incentive to improve 
+and further develop the platform.  The first version of the digital 
+platform probably needs to be improved based on the feedback 
+and the learning that happens in the ecosystem, as well as new 
+technologies emerge.  Fourth  criteria for the viability is that 
+each stakeholder benefits of improving the platform. It means 
+that parties are prepared to invest in the improvements.   
+After having evaluated the ecosystem using these criteria a 
+summary of the viability of the ecosystem  is made .  
+The list of the criteria:  
+1) Does the platform serve its purpose   
+2) Does the platform benefit every stakeholder in its 
+ ecosystem?  
+3)  Does the platform solve the chicken -and-egg problem, 
+ reach the critical mass and create network effects?  
+4) Does the continuous improvement of the platform 
+ benefit every stakeholde r in its ecosystem?  
+5) Is the the ecosystem viable?  
+ 
+In building a digital business platform there are other 
+critical issues to be solved. For example, from users´ 
+perspective usability, privacy, security, from developers 
+perspective the APIs and master data management and from 
+operational perspective performance and reliability of 
+computing and networking resources. Although  important, they 
+are outside the scope of this paper.  
+65
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:36:02 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+IV.  DEMONSTRATION OF EEF  IN USE  
+ We evaluate the utility of EEF by demonst rating its usage 
+for assessing RHIS ecosystem (Fig. 2) . The first author of this 
+paper was in charge of the design of the  technical  architecture 
+of the RHIS used in the case study. Research data has been 
+collected by interviews with various representatives of the 
+participating organizations in Satakunta Macropilot project and 
+later from various research reports and papers analysing th e 
+experiences of using RHIS. Also usage data and reasons for 
+discontinuing the use of RHIS has been received by interviews 
+with representatives of Satakunta Hospital District.  
+A. Define the platform and  the ecosystem.  
+1) What is the platform?  
+In this demonstra tion we look into a specific RHIS product. 
+Its prototype was built in Satakunta Macro Pilot Project 2000 -
+2002 and then commercialized and  put into production and 
+used in Pirkanmaa, Satakunta and Varsinais -Suomi healthcare 
+regions . The platform and the con nected systems are shown in 
+fig. 2.  
+2) The problem the platform is trying to reduce  
+RHIS was introduced in Finland in the beginning of 2000 
+as integration platforms to support seamless service chains. 
+The problem the RHIS is trying to solve is that in healthcare 
+organizational boundaries and electronic healthcare systems in 
+silos create b arriers for exchange of patient data between 
+service providers.  Certain medical conditions need the patient 
+to be referred from primary care to secondary care and back 
+again . Those patients  perhaps need also services from social 
+sector. Not sharing patient  data at all or manually exchanging 
+data may end up in duplication of activities like laborat ory and 
+radiology examinations and diagnosis, unnecessary exchange 
+of paper based health records, delays in flow of information, 
+risks due to lack of information c ausing medication errors and 
+faulty diagnosis, unnecessary costs and dissatisfaction of 
+patients and emp loyees.  It is known that about 20% of the patients cause about 80% 
+of the costs of public healthcare   [28] . But we do not know in 
+advance who these ex pensive patients are or will be, so we 
+need to collect the data for everyone. Also we know that about 
+10% of the patients visiting primary care need services from 
+secondary care. Again, we do not know in advance who they 
+are, so we collect data for everyon e visiting primary care.  
+3) The purpose of the platform  
+The platforms  like RHIS are used to collect, store, share 
+and manage patient´s health data, based on the conse nt of the 
+patient.  Their purpose is to enable exchange of patient data 
+across organizational  boundaries in order to support seamless 
+flow of care services needed by the patient and to improve 
+continuity of care. RHIS provides APIs to organizational 
+systems like electronic health records, laboratories, imaging 
+and others which are the producers of  patient data to the RHIS. 
+RHIS offers a user interface which is used to consume the 
+patient data  using standard web browser.  The category of RHIS 
+is a content platform where the producer creates a piece of 
+content which then can be consumed by several consumers.   
+4) The ecosystem of the platform  
+The producers and consumers of patient data are 
+organizational actors and their employees.  Each organization 
+can play either role  because in a healthcare setting available 
+data about the patient is consumed and new  data is produced.   
+Other stakeholders in the ecosystem are the patients and the 
+home municipalities of the patients. The patients are the 
+potential beneficiaries of the exchange of their medical data, 
+although they are not directly viewing that data. Howe ver, they 
+need to give their consent to use the data to the producer and 
+consumer of the data. The home municipalities are those who 
+pay for the care of the patient in Finnish public healthcare.  
+5) The transactions enabled by the platform  
+The purpose of RHIS  is to enable  the exchange of the data 
+about the patient  immediately when the data is needed . The 
+four steps of its core transaction are, based on the generic use 
+case in interorgani zational infor mation process in fig.3.  
+ 
+ 
+Fig. 3.  The core transaction  involves consuming and producing data about 
+the patient    
+ 
+Fig. 2.  RHIS collects, stores, shares and manages patient data from other 
+organizations and their patient data systems  Primary 
+Care  
+Social Care  
+Diabetes  Laboratory, 
+Radiology  RHIS  
+Specialized 
+Care  
+Private  
+clinic  Doctor 
+Nurse 
+Care giver 
+etc. professional 
+66
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:36:02 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+The four steps of the core transaction   are: 
+• Create: A producer, who is a healthcare professional in 
+a participating healthcare organization, records the 
+results of a hea lthcare activity in his sy stem, like 
+electronic health record, for the organizations own use. 
+The system sends the results to  RHIS  where they are 
+available to be consumed by other organizations . 
+• Connect: When a patient visit s a doctor in an 
+organization which is connected to the RHIS, the 
+doctor will ask if the patient has been treated in another 
+connected organi zation, and then asks for the consent 
+to access  the data.  There are also situations, where the 
+patient is not prese nt, for example when the doctor in 
+specialized care is looking through referrals from 
+primary care and has to take a decision whether to 
+schedule an appointment or just give a reply as an 
+consultation. In this case the consent has been given in 
+advance.  
+• Consume: The doctor retrieves the patient data and 
+uses it in the care service of the patient.  
+• Compensate: Usually c onsumers create value for the 
+producer in exchange what they consumed.  However, 
+in  the case of the RHIS the producer i s not 
+compensated direc tly by the consumer. Viewing the 
+data is free for the consumer.  Indirectly the 
+compensation happens when the consumers create new 
+data and make it available to be consumed in new 
+transactions.  The value to the platform comes from 
+accumulating more data av ailable to be consumed.  
+6) The revenue model of the platform  
+The provider of the RHIS is a private company who se goal 
+is to make money , now and in future . Several options were 
+discussed  as the revenue model for RHIS provider . First option 
+was to charge  the co nsumer of data  per usage of data . 
+However, this option wa s rejected, because it was  considered 
+to be discouraging  for the consumers to consume the data. An 
+unintended cons equence would be that, t he most costly  patients 
+with lots of data  made  available in RHIS would become even 
+more costly  if each access to their data would be charged.    
+Another option was to charge the producer of data per each 
+unit of patient data they would create. However, also this 
+option was  rejected. Only about 10% of patients visiti ng 
+primary care would ever have their data accessed using RHIS 
+so why would primary care have to pay for creating data for all 
+their patients?  
+The chosen option was a subscription model based on a 
+fixed monthly fee. Each participating organization would p ay 
+their share of the total cost . It was considered to encourage the 
+use of the platform: the more transactions, the smaller would 
+be the cost per transaction.  For practical arrangement  it was 
+agreed that the healthcare district would pay the monthly cost 
+to the platform provider and reimburse the cost from the 
+municipalities in the service fees.  
+B. Evaluation of the platform and its ecosystem  
+1) Does the platform  serve its purpose?  The RHIS has been implemented in three healthcare 
+districts. Pirkanmaa used  it from February 2004 until February 
+2007. Satakunta used it from 2004 until 2014 and Varsinais -
+Suomi  began in February 2006 and is still using it. The 
+organizations have been from public sector only.   
+The RHIS has been evaluated from several aspects.   
+Mäenpää  [29]  evaluated five aspects: flow of information, 
+collaboration, process redesign, system usability and 
+organizational culture.  Nykänen   [5]  applied  following  
+aspects: access to the system, how to search and retrieve the 
+data, the speed of the system and the benefits for patient care.   
+The results of the evaluations show that the RHIS works, it 
+does what it is meant to do: enable the exchange of the patient 
+data across organizational boundaries. Most important 
+improvement compared to prev ious manual exchange of 
+patient data is the immediate availability of the data  when  
+needed. However, according to  [29]  continuity of care,  based 
+on collaboration of organizations had some problems.  
+Previously the flow of papers also coordinated the actions in 
+the patients service chain. Without papers the patient 
+himself/herself was responsible to coordinate the flow of 
+services.  
+Using EEF exposes the first critical factor in the ecosystem: 
+there is no clear measure for the goal of the ecosystem. 
+Improvement impacts achieved by use of RHIS, especially 
+impact for system throughput, are difficult to assess without 
+clearly defined mea sures . 
+2) Does the platform benefit every stakeholder in its 
+ecosystem?  
+Based on TOC , a generic goal of any for -profit business 
+organization is “to make money now well as in the future” .  
+[30]  added two prerequisites, “without violating the necessary 
+conditions of providing satisfying work environment for 
+employees and ensuring customer satisfaction”.  
+For the platform provider, which is a private company, we 
+can use this goal for the evaluation. The more money the 
+platform provider can charge, the more it achieves its goal.  
+In public healthcare defining the goal is not so clear. We 
+follow the approach by Ronen et al.   [31]   who propose that 
+the goal of a publicly financed health organization is to 
+“maximize quality healthcare services provided to its 
+customers, subject to budgetary constraints”.   We use this 
+definition in assessing how the platform improves the public 
+healthcare organizations to achieve more of th eir goal.  
+Based on the evaluation studies of RHIS  [29]  using the 
+platform improves the quality of care through better clinical 
+decisions, timely availab le data and better continuity of care 
+through electronic discharge summaries   [32]  and medication 
+documentation   [33]  .  Using the RHIS does not increase the 
+unit costs of care. The number of users can be estimated and 
+budget allocations made so the necessary condition of the goal 
+is met.  
+Also the pati ent as a beneficiary benefits of the use of the 
+RHIS, although there are no clear measurement s in place for 
+following the improvements from the customer perspective.  
+67
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:36:02 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+3)  Does the platform solve the chicken -and-egg problem, 
+reach the critical mass and create n etwork effects?  
+To get started RHIS needed enough users and data . The 
+users should be consumers of data and producers of data from 
+organizations who have the need to exchange data with each 
+other. The typical service chain of a patient is from primary 
+care to secondary care and back again. This is also a many -to-
+one model within the region where many primary care health 
+centers are served by one secondary care organization.  
+Satakunta region started with connecting their secondary 
+care EHR system to the RHI S so that all primary care doctors 
+would have the opportunity to consume the data of their 
+patients when the patients are discharged from secondary care. 
+Also historical EHR records from secondary care were batch 
+loaded to the RHIS to increase the value of  accessing RHIS. 
+Gradually also primary care organizations started to produce 
+the data to the RHIS to be consumed by the secondary care 
+doctors.  
+The number of users in Satakunta region  (population 
+around 275 000 residents)  grew from about 300 up to 3700 
+when almost all potential users had become registered users. In 
+the end of 2011 there were 15 EHR and other patient data 
+providing systems providing patient data into the RHIS. The 
+number of data items in the RHIS was about 18 000 000 out of 
+which about 16 000 items per month were accessed.  
+Varsinais -Suomi  region (population around 470 000 
+residents)  followed the Satakunta example  when later  starting 
+the use of  the RHIS.  In the end of 2011 there were more than 
+6000 registered users and 12 systems providing patient data. 
+The number of data items in the RHIS was about 10 000 000 
+out of which about 16 000 items per month were accessed.  
+Pirkanmaa region (population around 500 000 residents) 
+had a different start. They used RHIS from 2004 until February 
+2006 when  it was discontinued   [5] . There were problems in 
+connecting the patien t data providing systems into the RHIS  so 
+paper based data exchange remained in use and the acceptance 
+of RHIS did not reach the critical mass.   
+Within Satakunta and Varsinais -Suomi regions practically 
+all potential users had become registered users.  Network effects 
+did not influence this to happen, because the organizations in 
+the region had already made an administrative decision to use 
+RHIS.  
+From the RHIS provider point of view, only 2 regions out 
+of total 20 regions in Finland became customers. On e reason 
+might be that the need to exchange data between regions is 
+very small and the regions can choose from several competing 
+solutions to exchange patient data. Also the implementation of 
+the national EHR archive (KanTa) started around 2005 so the 
+mark et for RHIS did not see any  further  network effects  based 
+on the number of regions as customers of RHIS . 
+4) Does the improvement of the platform benefit every 
+stakeholder in its ecosystem?  
+Satakunta Region took the decision to discontinue using the 
+RHIS on 20 14. The reasons behind the decision were that the 
+RHIS was too difficult to use and it was too expensive. When 
+analysing more closely the business model of the ecosystem, the deadlock becomes clear. To improve the usability of the 
+platform, the RHIS provid er shou ld be able to increase its  
+money flow to cover the invest ment. However, because the 
+usage fee was a monthly fee per user and the potential to 
+expand the user base was already limited the investment would 
+not have resulted into increased revenues. Al so the option of 
+increasing the mon thly fee per user was not possible, because it 
+was already considered to be too much from the customers 
+point of view, who were budget based public organizations. 
+There was no simple solution to overcome this deadlock, 
+ultimately caused by misalignment of goals of private and 
+public organizations.  
+Varsinais -Suomi region is still using the RHIS but also 
+having discussions whether to continue or not.  
+5) Summary of the evaluation  
+In summary the evaluation of the RHIS we can conc lude:  
+The RHIS as a platform serves its purpose partly: it enables 
+the electronic exchange of patient data making it readily 
+available when needed, thus reducing the friction of paper 
+based patient data exchange. However it does not improve the 
+continuity of care in improving the flow of services to the 
+patient.  
+The RHIS  improves the stakeholders to achieve more of 
+their own goals. The primary care and secondary care service 
+providers can make better clinical decisions and can save time 
+when not having to  wait for the papers to carry the patient data. 
+Also the RHIS provider makes money now, but its ability to 
+make money in future is on risk.  
+The RHIS failed to reach critical mass in Pirkanmaa region 
+and its use was discontinued after three years. Satakunta  and 
+Varsinais -Suomi region made a different start and the critical 
+mass was reached.  
+The network effects were seen: the platform became more 
+valuable to the consumers of data, the more providers were 
+connected to the platform. In the end most of the publi c 
+healthcare organizations in the regions were connected to the 
+platform and the full potential was achieved.  
+The incentives to the ecosystem to improve the RHIS  were 
+missing, because of the conflicting goals of the public 
+producers and consumers of data a nd the private provider of 
+the RHIS . In the end the use of  RHIS was discontinued in 
+Satakunta region and is at risk in Varsinais -Suomi region.  
+We could  ask how the revenue models should be changed 
+to better align the goals of the organizations to enable 
+investments needed to improve the RHIS. However, the 
+purpose of this paper was to demonstrate the evaluation of the 
+viability of the ecosystem.  We have shown that the viability is 
+at risk because of mismatch in the goals of the stakeholders.  
+V. DISCUSSION  
+Evaluation of digital business platforms use often  criteria 
+like validity, usability, effectiveness and cost savings . 
+However, they  do not reveal the problems inherent in the 
+business models of the ecosystems  around the platforms.  
+68
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:36:02 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 7 ===
+In this paper we combine  the platform theories and theory 
+of constrain ts to design EEF. It is a novel method which helps 
+to understand the possible problems in the business models 
+when designing and implementing digital platforms. EEF can 
+be applied in post -mortem evaluation for existing digital 
+business platforms, and in early evaluation for proposed 
+platforms. Early evaluation tests the viability of business model 
+and gives a chance to mitigate the viability risks or to avoid 
+poor investments entirely . 
+Our demonstration of EEF u sage in RHIS case exposed a 
+viability problem: mismatch in the goals of the platform users 
+and platform provider .  
+This finding leads also to more serious question of how to 
+align goals of public organizations and private companies in 
+ecosystems involving both types. Clearly expressing the goals 
+of each stakeholder and having an agreement of how they can 
+be best achieved could improve the viability of these types of 
+ecosystems.  
+The study has several limitations , which also would give 
+avenues for further res earch .  
+We have demonstrated the use of EEF in one case only. It 
+would be important to see, how EEF could be used in other 
+cases, perhaps outside healthcare industry.  
+We use the concept of a goal of a system as an evaluation 
+criteria. However, it is not a lways easy to find a proper metrics 
+to measure the units of goal so that the impact of the platform 
+could be assessed. This problem is not actually related to EEF 
+but is more serious managerial problem: how c ould an 
+organization be managed without clear me trics of its 
+performance.  
+ ACKNOWLEDGMENT  
+The authors wish to express their gratitude to the staff of 
+Satakunta Hospital District  in providing the data and insights 
+needed for the demonstration of the EEF.  
+REFERENCES  
+[1] Itala T, Virtan en A, Mikola T, Asikainen PSeamless service chains and 
+information processes; System sciences, 2005. HICSS'05. Proceedings 
+of the 38th annual hawaii international conference on. 2005.  
+[2] Vuorimaa P, Harmo P, Hämäläinen M, Itälä T, Miettinen RActive life 
+home: A portal -based home care platform; Proceedings of the 5th 
+international conference on pervasive technologies related to assistive 
+environments. 2012.  
+[3] Asikainen P, Suominen T, Itälä T, Mäenpää T, Wanne O, Maass M. 
+Implementing the regional informat ion system to integrate social and 
+health care services: From data transfer towards effective care. Online J 
+Nurs Inform 2009;13(1):1 -27 
+[4] Hyppönen H, Reponen J, Lääveri T, Kaipio J. User experiences with 
+different regional health information exchange sy stems in finland. Int J 
+Med Inform 2014, Jan;83(1):1 -18 
+[5] Nykänen P. Fiale -aluetietojärjestelmän vaikuttavuusarviointi 
+pirkanmaan sairaanhoitopiirissä.  Tampereen yliopisto, 
+tietojenkäsittelytieteiden laitos; 2007  
+[6] Maass MC, Asikainen P, Mäenpää T, Wa nne O, Suominen T. 
+Usefulness of a regional health care information system in primary care: 
+A case study. Computer Methods and Programs in Biomedicine 
+2008;91(2):175 -81 [7] Nikayin F, De Reuver M, Itälä T. Collective action for a common 
+service platform fo r independent living services. Int J Med Inform 2013, 
+Oct;82(10):922 -39 
+[8] Solaimani S, Bouwman H, Itälä T. Networked enterprise business model 
+alignment: A case study on smart living. Information Systems Frontiers 
+2015;17(4):871 -87 
+[9] Integrated healthc are informatics for enhanced patient care;  Available 
+from: http://www.philips.fi/healthcare/solutions/clinical -informatics. 
+Accessed 1 May 2017.  
+[10] Moazed A, Johnson NL. Modern monopolies: What it takes to dominate 
+the 21st century economy.  St. Martin' s Press; 2016  
+[11] Von Alan RH, March ST, Park J, Ram S. Design science in information 
+systems research. MIS Quarterly 2004;28(1):75 -105 
+[12] Wieringa RJ. Design science methodology for information systems and 
+software engineering.  Springer; 2014  
+[13] Peffers K, Tuunanen T, Rothenberger MA, Chatterjee S. A design 
+science research methodology for information systems research. Journal 
+of Management Information Systems 2007;24(3):45 -77 
+[14] Osterwalder A, Pigneur Y. Business model generation: A handbook for 
+visionaries, game changers, and challengers.  John Wiley & Sons; 2010  
+[15] Heikkilä M, Bowman H, Heikkilä J, Haaker T, Lopez -Nicolas C, Riedl 
+A. Business model innovation paths and tools. 2016  
+[16] Van Limburg AHM, van Gemert -Pijnen JTowards innovative business 
+modeling for sustainable ehealth applications; EHealth, telemedicine, 
+and social medicine, 2010. ETELEMED'10. Second international 
+conference on. 2010.  
+[17] Sprenger M, Mettler T, Winter R. A viability theory for digital 
+businesses: Exploring the evolutionary changes of revenue mechanisms 
+to support managerial decisions. Information Systems Frontiers 2016:1 -
+24 
+[18] Gawer ATowards a general theory of technological platforms; Summer 
+conference. 2010.  
+[19] Moore JF. The death of competition: Leadershi p and strategy in the age 
+of business ecosystems.  Harper Paperbacks; 1997  
+[20] Tiwana A. Platform ecosystems: Aligning architecture, governance, and 
+strategy.  Newnes; 2013  
+[21] Evans DS, Schmalensee R, Noel MD, Chang HH, Garcia -Swartz DD. 
+Platform econom ics: Essays on multi -sided businesses. Competition 
+Policy International 2011  
+[22] Gawer A, Cusumano MA. How companies become platform leaders. 
+MIT Sloan Management Review 2008;49(2):28  
+[23] Galateanu E, Avasilcai S. Business ecosystems architecture. Fascic le of 
+Management and Technological Engineering 2013;22(1):79 -84 
+[24] Parker GG, Van Alstyne MW, Choudary SP. Platform revolution: How 
+networked markets are transforming the economy --and how to make 
+them work for you.  WW Norton & Company; 2016  
+[25] Choudar y SP, Parker GGP, Van Alystne M. Platform scale: How an 
+emerging business model helps startups build large empires with 
+minimum investment.  Platform Thinking Labs; 2015  
+[26] Goldratt E. Theory of constraints.  North River Press, Great; 1999  
+[27] Groop J, Reijonsaari K, Lillrank P. Applying the theory of constraints to 
+health technology assessment. Intl J on Adv in Life Sci 2010;2  
+[28] Teperi J, Porter ME, Vuorenkoski L, Baron JF. The finnish health care 
+system. A Value -Based Perspective. Helsinki, Finland:  Sitra 2009  
+[29] Mäenpää T. The outcomes of regional health information exchange in 
+health care delivery.  Tampere University Press; 2012  
+[30] Gupta MC, Boyd LH. Theory of constraints: A theory for operations 
+management. International Journal of Operations  & Production 
+Management 2008;28(10):991 -1012  
+[31] Ronen B, Pliskin JS, Pass S. Focused operations management for health 
+services organizations.  John Wiley & Sons; 2012  
+[32] Saranto K. Experiences with the electronic nursing discharge. 
+Connecting Health a nd Humans: Proceedings of NI2009 2009;146:226  
+[33] Kuusisto1 A, Asikainen P, Saranto K. Medication -documentation -in-
+nursing -discharge -summaries -at-patient -discharge -from -special -care-to-
+primary -care. Journal of Nursing & Care 2014:1 -4 
+69
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:36:02 UTC from IEEE Xplore.  Restrictions apply. 
+

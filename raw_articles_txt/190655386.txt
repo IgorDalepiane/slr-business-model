@@ -1,0 +1,1062 @@
+=== PÁGINA 1 ===
+Transition to the Cloud : A Vendor Perspective  
+ 
+Jonas Hedman 
+Department of IT Management, Copenhagen 
+Business School 
+jh.itm@cbs.dk  Xiao Xiao  
+Department of IT Management, Copenhagen 
+Business School 
+xxi.itm@cbs.dk
+ 
+ 
+Abstract  
+The rising of cloud computing has dramatically 
+changed the way software companies provide and 
+distribute their IT product and related services over 
+the last decades. Today, most software is bought off-
+the-shelf and distributed ov er the Internet. This 
+transition is greatly in fluencing how software 
+companies operate. In  this paper, we present a case 
+study of an ERP vendor for SMB (small and medium-
+size business) in makin g a transition towards a 
+cloud-based business mod el. Through the theoretical 
+lens of ecosystem, we are able to analyze the 
+evolution of the vendor and its business network as a 
+whole, and find that the relationship between vendor 
+and Value-added-Reseller (VAR) is greatly affected. 
+We conclude by pr esenting critical issues and 
+challenges for managing such cloud transition.   
+ 
+1. Introduction  
+ 
+More than just a buzzword, cloud computing as a 
+trend is here to stay. Nowadays, it has been 
+increasingly more widely accepted such utility-like 
+way to deliver and consume IT recourses. Industrial 
+reports have suggested that corporate IT spending on 
+cloud computing will increase by 42% in 2015, and 
+by year 2018, more than 60% of the companies will 
+have at least half their software and infrastructure in 
+cloud [9].  
+The National Institute of Standards and 
+Technology (NIST) defines cloud computing as “a 
+model for enabling conven ient, on-demand network 
+access to a shared pool of configurable computing 
+resources (for example, networks, servers, storage, 
+applications, and services) th at can be rapidly 
+provisioned and released with minimal management 
+effort or service- provider interaction”  [27]. There are 
+three commonly recognized delivery models of cloud 
+computing, namely software-as-a service (SaaS) (e.g. 
+Salesforce.com cloud-based customer relationship 
+management software delivered over the Internet), 
+platform-as-a- service (PaaS) (e.g. Google’s App 
+Engine upon which various application can be developed, distributed and hosted), and 
+infrastructure-as-a-service (IaaS) (e.g. Amazon Web 
+Service that offers remote computing services) 
+[19,23].  
+The underlying technology of cloud-based IT 
+solutions is not new and has been in existence for a 
+long time. However, the maturation of cloud 
+computing as a new business model is deemed to be 
+revolutionary. The advantages provided by this new 
+way of consuming computing resources, such as 
+low/minimal entry costs, pay-as-you-go mode, and 
+great flexibility and scalability, have on the one hand 
+levelled the playing field for small and medium 
+organizations with less resources, and on the other 
+hand provided productivity boost, cost efficiency, 
+and innovation potential for all organizations [23,40]. 
+Existing research on cloud computing, though still in 
+its nascent stage, has investigated various issues on 
+adoption of cloud computing from user (individual or 
+organizational) perspective, including adoption 
+intention [5,16,32], industry specific risk benefit 
+analysis [26], economic an d structural impact of 
+adoption [28,37], and governance related issues 
+associated with cloud-based solutions [43]. 
+Despite the academic interests being focused on 
+the user side, the profound influences brought about 
+by cloud computing are also present on the vendor 
+side. Over the recent years, we have seen new 
+players, such as Salesforce.com and Amazon, 
+introducing the new business models and obtaining 
+first-mover advantages. In parallel, traditional 
+software vendors, such as Microsoft and SAP, are 
+also making the transition to cloud-based business 
+models [11]. An industr ial report back in 2012 
+showed that all IT vendors have already more or less 
+engaged in cloud using diversified strategy, and 
+though the landscape of the vendor market has being 
+shifting towards the new delivery mode, major cloud 
+vendors are still dominated by the incumbents who 
+managed to make the transition with a few exceptions 
+(e.g., Salesforce, Amazon, and Google) [36]. For 
+instance, with a comprehensive strategy focusing on 
+“cloud -first design,” Microsoft is going full force 
+with the transition to cloud on SaaS, PaaS and IaaS 
+2016 49th Hawaii International Conference on System Sciences
+1530-1605/16 $31.00 © 2016 IEEE
+DOI 10.1109/HICSS.2016.4943988
+2016 49th Hawaii International Conference on System Sciences
+1530-1605/16 $31.00 © 2016 IEEE
+DOI 10.1109/HICSS.2016.4943989
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+levels; whereas SAP managed the shift towards 
+offering their software on cloud through buying and 
+partnering with other vendors at other levels [8]. For 
+these adapters, the shift towards cloud is more than 
+just delivering IT solutions in a new way. More 
+importantly, it also concerns with how to manage the 
+whole value chain and business network under the 
+new circumstances, as cloud computing symbolizes a 
+paradigm transition regarding IT servitization [3,23].  
+While existing literature on cloud computing 
+show great interest in uncovering whether and how 
+IT users adopt the technology, the conceptual 
+understanding of how these transition processes for 
+IT vendors go about are still scarce. Therefore, we 
+choose to approach the phenomenon of cloud 
+computing transition from the software vendor side in 
+a business-to-business (B2B) setting, a context that is 
+still rarely studied. More specifically, we are 
+interested in the transition of traditional make-to-
+shelf software vendor to a cloud world and 
+correspondent business model. Our intention is to 
+uncover the management challenges surrounding this 
+process caused by technological evolution, and hence 
+shed light on not only the transition process of the 
+organization itself, but also the evolution of the larger 
+ecosystem that is built around the existing business 
+model.  
+We use a revelatory case study by focusing on a 
+Nordic ERP vendor  and its transition towards a SaaS-
+based cloud model. We use the ecosystem literature 
+as theoretical lens, since previous research has 
+concluded that contemporary software developments 
+cannot be viewed in isolation, and thus, one has to 
+consider the system and infrastructure they are part of 
+[1]. Thereby, contributing towards an increased 
+understanding of the effects of cloud computing per 
+se, also to business transitio n in general, we seek to 
+explain how the cloud computing, as a technology 
+innovation, affects the software vendor ecosystem.  
+ 
+2. Literature Review 
+ 
+In this section, we review cloud computing 
+related literature, with a specific emphasis of the 
+studies taking the vendor perspective. 
+More often than a technological innovation, cloud 
+computing is deemed as an innovative business 
+model of delivering IT services [23]. The current 
+market of cloud computing has seen the emergence 
+of new players as well as transition of established 
+ones operating at all three levels: Amazon, EMC, and 
+AT&T in providing raw computing and data storage 
+services, IBM, Google, and Microsoft in providing 
+platform services, and finally Salesforce.com and SAP in providing applications and enterprise systems 
+[23,40]. 
+From the customer perspective, it has been widely 
+discussed in the literature  the unique characteristics 
+associated with cloud-based IT solutions that differ 
+from the traditional ones and hence provide potential 
+benefits for organizations that have not been realized 
+before. To begin with, cost efficiency is among the 
+most important factor that attracts cloud adoption 
+[2,40]. On one hand, the pay-as-you-go or 
+subscription-based paym ent model has liberated 
+organizations from upfront capital investment when it 
+comes to purchasing IT solutions [25], and hence 
+significantly lowered the entry barrier of acquiring IT 
+resources for smaller organizations [23]. On the other 
+hand, for larger organizations, cost efficiency can be 
+achieved through conso lidating data centers or 
+locating data centers in p laces with lower operation 
+costs [10]. Other benefits of cloud computing include 
+increased elasticity (the capability to scale up and 
+down IT resources) [19,23], decreased demand for IT 
+skills or expertise (as IT  operations are outsourced 
+through cloud computing technologies) [21], and 
+enhanced innovation potential [23,40]. At the same 
+time, cloud computing related concerns, such as 
+privacy and security issues [30], and the phenomenon 
+of shadow IT and loss of control for central IT 
+department within organizations [43], have also been 
+largely debated as risks associated with cloud 
+computing adoption. Existing literature on cloud 
+computing has focused on the user adoption by 
+engaging in the discussion s of pertinent risks and 
+benefits for a certain organization [42] or a specific 
+industry [26]. 
+However, from the vendor perspective, how such 
+new model of IT delivery is associated with new 
+ways and mindset in doing business has not been 
+addressed to the same extent. For established 
+(incumbent) players who are adapting to the new 
+market, the transition is multi-facet. First of all, the 
+business model of cloud computing implies a 
+different revenue stream: instead of relying on 
+upfront license fee, IT vendors are now collecting 
+periodic subscription fee, suggesting that the key to 
+survival under the new circumstance is to keep the 
+cash flow going, which, in other words, means 
+retaining customers [20]. Financially, this renders as 
+a challenge, as such delivery model is considered to 
+have significantly decreased switching costs for 
+customers [11].  
+Second of all, cloud computing is an instance of 
+the latest shift towards servitization of IT or 
+“information systems in services” [3]. When IT 
+solutions are no longer provided as physical products 
+but as services over the Internet, customers’ 
+3989
+3990
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+expectations and requirements also change 
+accordingly [6,40]. For instance, Venters and Whitley 
+[40] have uncovered and classified different desires 
+from cloud users, which suggests that cloud 
+computing is expected to provide equivalent services 
+as traditional solutions, and more, namely variety, 
+abstraction, scalability from a technical point of view, 
+and simplicity, creativity, and efficiency from a 
+service point of view. Therefore, it can be argued that 
+IT vendors nowadays are providers of IT capabilities, 
+rendering profound implications for how to 
+operationalize IT services in correspondent ways, and 
+also how to handle cust omer interactions. For 
+instance, many of the cloud vendors mentioned above 
+operate around a user community where open 
+innovation is flourishing [19], suggesting a paradigm 
+shift from treating customers as value exchangers to 
+value co-creators [39]. 
+Additionally, IT vendors do not exist in isolation, 
+but collaborate with a wide range of partners, e.g. 
+Value-added-Resellers (VAR), who can be retailers, 
+mediators, and consultants [31]. Such industrial 
+partnership is also likely to be influenced by the new 
+business model of cloud computing which provides 
+the opportunities for IT vendors to sell directly to the 
+customers and hence eliminate middle links (i.e., 
+disintermediation). On the other hand, other types of 
+mediators emerge: the so -called integrators or 
+enablers who provide services to “facilitate the 
+delivery, adoption, and us e of cloud computing” 
+[23:183]. Therefore, one could argue that the 
+transition is the one of the whole ecosystem 
+surrounding the IT industry, as we see old players 
+going out of business, and new players of various 
+types emerging to power.  
+ 
+3. Ecosystem 
+ 
+We adopt the lens of ecosystem in understanding 
+the transition of IT vendors in light of cloud 
+computing, so as to understand the change across the 
+industrial network. The term ecosystem originally 
+comes from biology [38] and was popularized in 
+business research by Moore [24]. An ecosystem is 
+defined as a co-opetitive environment in which 
+symbiotic relationships are fo rmed to create mutual 
+value for its stakeholders [4,33,34]. In the literature, 
+four features of ecosystems stand out.  
+First, an ecosystem is characterized by 
+simultaneous competition and cooperation, so called 
+co-opetition [7,41]. Micro-level analysis depicts 
+some stakeholders as direct competitors, while 
+macro-level analysis depicts the same stakeholders as 
+mutually dependent on the success of the ecosystem as a whole. In some setting there may be some degree 
+of collaboration with other stakeholders in the 
+ecosystem, resulting in strategic networks.  
+Second, a key success factor for a prosperous 
+ecosystem is the relationship among the stakeholders 
+in the ecosystem. For the individual stakeholders, this 
+is partly a matter of managing resource dependencies. 
+Stakeholders in the ecosystem that control important 
+resources can exercise power over other stakeholders 
+and can capture a larger part of the ecosystem’s total 
+revenues. However, if the stakeholders that control 
+key resources hold the “keystone advantage” are 
+exercising too much pressure relative to the other 
+stakeholders, it might be f atal to the ecosystem as a 
+whole, and as a consequence, may damage the 
+business of the keystone stakeholders as well [18].  
+Third, ecosystems have observable differences. 
+For example, within a business ecosystem, certain 
+stakeholders can have closer relations than other 
+stakeholders. One can even talk about ecosystems of 
+ecosystems. As an analytical construct, this leads to a 
+problem of stakeholder inclusion: which level of 
+analysis to use and where to draw the borders for an 
+ecosystem? The problem of inclusion is not unique to 
+ecosystems, but is a classical problem in social theory 
+that has been discussed extensively in prior literature 
+[22].  
+Fourth, characteristic of ecosystems is that they 
+are not stable, but are constantly evolving. 
+Continuous adaptations in the relationships between 
+ecosystem stakeholders across the micro, meso and 
+macro-levels make ecosystems dynamic. The 
+systemic properties of an ecosystem means that 
+changes in one of the ecosystems entities will trigger 
+responses and changes in other entities. As a 
+consequence, “ecosystems are essentially defined by 
+the active shaping of relationships between their 
+members” [33:2].  
+Previous research has observed that ecosystems 
+transform rapidly along with technological 
+innovations that alter conditions for the business 
+landscape [14,45,46]. New technology generations 
+are fundamentally reshaping the traditional logic, as 
+business processes become intertwined with 
+surrounding technology ecosystems [4]. This is also 
+true in the software ecosystems. 
+We conceptualize a software ecosystem as one 
+that exists in a fusion relation [13] to technologies, in 
+which the technologies form part of a technology 
+ecosystem. Adomavicius et al. [1:201] define a 
+technology ecosystem as “system of interrelated 
+technologies that influenc e each other’s evolution 
+and development.” The definition is based on the 
+view of evolving components of complex 
+technologies as being mutually interdependent 
+3990
+3991
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+[15,17]. Consequently, from the consumer side, the 
+selection of a specific techn ology is associated with a 
+decision to join a particular business network that 
+operates in a specific technological regime with 
+interoperable technologies [35].  
+ 
+4. Methodology 
+ 
+We conduct a revelatory case study [44]. A 
+revelatory case is a case that gives the researchers the 
+unique opportunity to investigate the phenomenon of 
+interests (ibid). The case company for our study, ERP 
+Co1, is a leading vendor of various enterprise systems 
+in the SMEs (small and medium enterprises) market.  
+For the purpose of this paper, we investigate the 
+(still on-going) process of  which ERP Co made the 
+shift towards a SaaS-based business model. The 
+company was chosen because of its revelatory nature 
+in 1) understanding the bu siness transition associated 
+with technological changes; 2) revealing the change 
+dynamics across the whole ecosystem [44].  
+ 
+4.1. Data collection and analysis 
+ 
+Primary source of data has been interviews with 
+six key informants from the top management, 
+including innovation managers and representatives 
+for the new SaaS platform. An interview guide was 
+prepared with short introduction to the approach and 
+setting for the interview and questions that would act 
+as guide through the interview. The questions were 
+structured to provide input on various aspects of ERP 
+Co’ s transition towards the new business model. For 
+example: “Which changes will SaaS introduce for 
+ERP Co’s distribution channel partners?” This was 
+designed to collect an understanding of the 
+interviewee s’ view on the impacts of SaaS on the 
+whole business network.  
+With the primary data in place the analysis of 
+primary data could be initiated. Participant opinions 
+were reviewed and analyzed to verify the sufficiency 
+of the collected data and the suitability for the later 
+research impact on the business ecosystem during 
+transition at ERP Co. 
+ 
+4.2. Case background 
+ 
+ERP Co is a leading vendor  of enterprise resource 
+planning (ERP), customer relationship management 
+(CRM), and human resource management (HRM) 
+systems in the European market for small and 
+medium sized enterprises (SME).  
+                                                 
+1 A pseudo name was used to ensure anonymity of the company.  ERP Co was founded in the mid-1990s as 
+provider of marine software. The current CEO joined 
+in 1997 when the company was at the brink of 
+bankruptcy. The first strategic choice made as the 
+new CEO was to switch the focus of ERP Co toward 
+providing “need -to-have” software rather than “nice -
+to-have” s oftware. For example, software that 
+supports external accounti ng, tax reporting, and 
+payroll became the new focus of ERP Co. In 2000, 
+ERP Co sold the marine division for around 80 
+million Euro in cash that was then used to acquire the 
+top competing software companies as well as 
+accounting offices.  
+From 2001 to 2006, the company continued its 
+growth through acquiring companies that have 
+technical talent and low profit margin. In 2006, ERP 
+Co has grown to a company with 3000 employees.  
+In 2006, a financial buyer acquired ERP CO for 
+4.3 billion. The acquisition resulted in a couple of 
+changes: 1) the management team stayed the same 
+but have to deliver on a set of KPI (key performance 
+indicator) every year; 2) top 100 managers obtained 
+stock from the company, which created the sense of 
+ownership. In 2010 and 2014, ERP Co experienced 
+another two rounds of acquisition by financial 
+buyers, for 1.3 billion Eu ros and 2.5 billion Euros 
+respectively. In 2014, ERP Co has 6,000 employees, 
+and achieved 800 million NOK in revenue. 
+ 
+5. Findings 
+ 
+5.1. ERP CO before transition to cloud 
+ 
+ERP Co can be divided into three segments by 
+three major products/services it offers. The first 
+division is called software SMB (small-medium 
+business) which provides ERP, payment, HR, CRM 
+systems to small and medium size customers. The 
+customer segments can be further divided into three 
+categories. First, we have micro size business , which 
+out of box standardized products are directly sold to. 
+ERP Co provides product training online and a 
+helpdesk for customer services, but nothing more 
+(e.g., on-site training or consulting services). The 
+second segment is small and medium size business 
+with less than 1000 employees , where ERP Co works 
+closely with their partners, all what they refer to as 
+value added resellers. Here, all the sales go through 
+ERP Co partners, which co uld be platinum partners 
+that only work for ERP Co and build their services 
+around ERP Co products, or gold partners that mainly 
+work with ERP Co but also engage with other 
+businesses, or smaller partners and resellers that 
+represent ERP Co or their products in micro markets 
+3991
+3992
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+and local markets around the country. Customers in 
+this segment can obtain tailor made system based on 
+standard ERP Co product through ERP Co partners. 
+The third customer segment is bigger SMB , where 
+intensive consulting is required. This segment is 
+currently not the focus of ERP Co.  
+The second division of ERP Co provides BPO 
+(business process outsourcing) services that mainly involve accounting, payroll, and advising related 
+products. The last division of ERP Co deals with 
+government and large retail accounts, which only 
+started several years ago. In this study, we will only 
+focus on the software SMB division of ERP Co.  
+Figure 1 presents the ecosystem of ERP Co 
+software. The main stakeholders here include the 
+three groups of customers and three types of partners. 
+ 
+ 
+Figure 1. ERP CO Ecosystem  
+ 
+VAR is a critical part of ERP Co ’s business 
+ecosystem, as they are in direct charge of selling to 
+the largest customer segment, the small and medium 
+size businesses. In this segment, VAR are either 
+resellers, or partners who develop customized 
+products and services around ERP Co products for 
+certain industries, and up to 50% of the initial ERP 
+Co license fees do go to VAR. Except for the 
+platinum partners who work solely with ERP Co, 
+other partners maintain a co-petition relationship with 
+ERP Co as they also engage with other 
+products/services of similar nature. However, it is 
+safe to say that such partnership between ERP Co the 
+VAR is a crucial component of ERP Co ’s business 
+model and the subsequent ecosystem built around 
+ERP Co software. On one hand, the reliance on VAR 
+to develop tailored systems and services to customers 
+from various industries with diversified needs implies 
+that ERP Co can only focus on the development and 
+maintenance of the standardized product; on the other 
+hand, the representation of ERP Co to micro and 
+local markets through partners grants them the 
+opportunities to penetrate the market in an efficient 
+and effective way. Similarly, these partners/resellers 
+heavily depend on ERP Co, some more so than 
+others, for the survival/thrive of their own business.  
+On the supplier side, their major providers include 
+ERP Co IT (a company owned by ERP Co) and 
+Microsoft. It is worth noting that since ERP Co develops most of its products in-house, the upstream 
+distribution channel is rather simple, and hence will 
+not be the focus of this study.  
+In summary, ERP Co operates within an 
+ecosystem where close dependencies among 
+stakeholders exist. Theref ore, it can be speculated 
+that changes among major players will likely to cause 
+certain ripple effects that result in evolution (or even 
+collapse) of the ecosystem [18].  
+ 
+5.2. ERP Co ’s transition to cloud 
+ 
+5.2.1. From 2011 to 2013 
+ 
+Though ERP Co ’s SaaS journey has started since 
+early 2000 by providing some simple applications 
+through the web, the official transition towards a 
+cloud-based business model was initiated around 
+2011, when ERP Co acquired an US-based SaaS 
+provider. The decision for the transition was on the 
+one hand partially triggered by the macro 
+environment with increasing market demands and 
+technological maturity, and on the other hand 
+pressured by the investor at the time as transition to 
+cloud is likely to increase the value of the company.  
+Indeed, the pressure from the investor in terms of 
+the speed of the transition has caused certain initial 
+struggles for ERP Co. Upon the acquisition of the 
+SaaS vendor as mentioned above, ERP Co adjusted 
+3992
+3993
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+their research and developm ent resources to 80% in 
+SaaS and 20% in on-premise, as an attempt to 
+facilitate the development of the SaaS products and 
+hence the transition to cloud. Such strategic move has 
+directly and indirectly  caused a number of 
+challenges. To begin with, on the product side, ERP 
+Co has realized the difficulties in develop a sound 
+SaaS product. Though they have acquired the SaaS 
+software from US, they under-estimated the efforts in 
+adjusting the product to local rules and contexts (e.g., 
+certain financial procedures are very different in the 
+US than in the Nordic countries). Meanwhile, due to 
+the decrease in R&D allocation for on-premise 
+software, the quality of the product became a 
+problem subsequently. Therefore, ERP Co was put in 
+a situation where SaaS products took longer than 
+expected while at the same time no new products can 
+be offered as alternative. Further, the KPIs (key 
+performance indicator) at the same were based on the 
+sales of on-premise products, and rendered as a 
+conflict to the transition to cloud.  
+Such strategic transitio n to cloud has already 
+created rippling effects in the ecosystem. First, the 
+customers and partners show uncertainties towards 
+cloud and SaaS products, as we have seen in the 
+history of innovation adoption. On the customer side, 
+ERP Co admitted the underestimation of the 
+“stickiness” of on -premise products. The common 
+reaction from the customers towards ERP Co’s 
+strategic transition to cloud-based products is 
+concern: “Are you not going t o support the old 
+product any more?” In other words, how to maintain 
+the trust from the customers, and bring them on board 
+has become a challenge. Additionally, triggered by 
+the quality drop of the on-premise product, as 
+mentioned above, customers feared that support and 
+maintenance of existing on-premise systems that they 
+have already purchased will not be provided by ERP 
+Co as they saw the company making such a speedy 
+shift towards cloud, causing further panic among 
+loyal supporters of the company.  
+On the VAR side, the problem is even bigger. 
+First, partners will not sell unfinished products, and 
+therefore, they will not be bought in unless the SaaS 
+product from ERP Co is fully developed. As 
+mentioned earlier, many of ERP Co ’s partners are 
+indeed in a co-opetition relationship with the 
+company, meaning that they will sell other products 
+from ERP Co ’s competitors if they don’t see the 
+value of the new SaaS product.  
+Furthermore, the partners fear the termination of 
+the partnership given that the nature of SaaS model 
+means implies disintermediat ion to a certain degree. 
+As put by one of the managers, a key question that 
+has risen in every partner’s mind is “…given there is nothing to resell, nothing to technically install and no 
+opportunity to provide any kind of logistics, what can 
+a successful SaaS partner contribute? ” In this sense, 
+whether and how to support partners’ business model 
+that is on the edge of erupting in the new 
+environment is also of great concern for ERP Co to 
+maintain their ecosystem.  
+Finally, as discussed at the beginning of the 
+paper, the pay-as-you-go or subscription-based 
+pricing model associated with cloud and SaaS 
+presents a challenge to bot h ERP Co the vendor and 
+its partners in managing their revenue streams.  
+ 
+5.2.2. From 2014 on 
+ 
+These challenges and probl ems persisted from 
+2011 to 2013, as ERP Co was struggling to find out a 
+way to make the transition go sound and smooth. A 
+solution arrived in 2014 when the management 
+recognized the issues in rushing towards cloud and 
+making transitions overnight, and hence fell back on 
+the on-premise model and started to take things 
+slowly.  
+The resulting strategy is to pursue the so-called 
+hybrid  model where both ends (SaaS-based and on-
+premise products) were handled in equal terms. The 
+distribution of R&D resources was adjusted to 50% 
+each for SaaS products and on-premise products. The 
+direct effect of such adjustment is that the quality of 
+on-premise products has been increased and back to 
+the usual level. The hybrid strategy led to so-called 
+“controlled transition ” towards cloud, which heavily 
+involves all the stakeholders in the ecosystem. More 
+specifically, on the customer side, ERP Co conducted 
+a round of pilot implementation by selling 50 SaaS 
+product to approved customers who met the criteria 
+for SaaS implementation (in terms of organizational 
+readiness for SaaS). In other words, sales of the SaaS 
+product was done in a controlled environment for the 
+purpose of minimizing negative effects in case of 
+functionality/usability related issues. Doing so, ERP 
+Co has gained valuable feedback from the customers 
+for further development and improvement of the 
+SaaS product, while at the same time easing the 
+customers into the transition process. As for other 
+customers who have on-premise core systems, ERP 
+Co will on the one hand keep maintaining and 
+supporting the on-premise product (reflected in the 
+re-adjustment of R&D investment), and one the other 
+hand selling SaaS-based add-ons. The goal as of 2014 
+for ERP Co is to start selling SaaS products to all the 
+new customers in 2015, especially for the segment of 
+micro business who mostly rely on standardized out-
+of-the-box software.  
+3993
+3994
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 7 ===
+As discussed earlier, ERP Co ’s partner model 
+faces serious challenges triggered by the transition to 
+cloud, as the role and business model for the partner 
+have to be redefined in the new context where no 
+physical software is sold and installed. When asked 
+about the possibility of maintaining the VAR model 
+in the SaaS environment, the response from ERP Co 
+management is positive: the strategy is to go “hand in 
+hand” with partners to make the transition. The 
+envisioned change regards three main areas. First, the 
+revenue model associated with SaaS means that the 
+upfront perpetual licenses fees would be replaced by 
+long-term flowing of subscription fee. Hence, ERP 
+Co is looking to compensate some of the partners 
+(especially the ones that solely rely on ERP Co) for 
+the initial years for the sales of SaaS products (higher 
+percentages of subscription fees will go to the 
+partners, for instance). Second, the correspondently, 
+the sales model of partners is also subject to change 
+due to the change in revenue model. Now partners 
+should look for expansion of sales channels to 
+increase quantity of sales to compensate for loss in 
+short-term cash flow. Third, as the requirements for 
+technical configuration for SaaS products are lower, 
+compared to the on-premise context, the services 
+offered by partners shoul d be shifted away from 
+technical consulting towards business process 
+consulting.  
+ 
+6. Discussion 
+ 
+The ERP Co case we have presented above 
+demonstrates a landscape shif t of an existing, well-
+established business ecosystem, triggered by 
+technological innovations [14]. In the current analysis 
+of ERP Co ’s transition to cloud, we have focused 
+mostly on the downstream distribution side of the 
+ecosystem, i.e. its distributors, as the company mostly 
+develops their products in-house. Though the shift 
+towards SaaS products does imply changes in the 
+supplier market (e.g., type of components that need to 
+be purchased and the development tools and the skills 
+need to develop a cloud based service), the nature of 
+the exchange relationship has not been influenced as 
+much as the relationship with downstream customers 
+and partners.  
+ 
+6.1. Evolution of the ecosystem triggered by 
+technological changes 
+ 
+The transition process ERP Co has gone through 
+so far, including the initial struggles, showcases the 
+extend of which technological innovations can bring 
+to an industrial value chain and business communities 
+[1,29]. The initial ecosystem on which the success of ERP Co was built upon involves multiple 
+stakeholders and correspondent sets of relationships 
+that are based on the specified product the company 
+offers and the business model it operates in. For 
+instance, ERP Co only offers standardized product, 
+which is sold either in an out-of-box fashion to micro 
+business, or through partners who make 
+customizations for specific customer or market.  
+It can be argued that the VAR model is at the 
+center of the old ecosystem: mediating the exchange 
+relationship between ERP Co and its largest customer 
+segment. The division of partners into three 
+categories shows different types of stakeholder 
+relationships and corresponding collaboration modes 
+[18]. For instance, the platinum partners collaborate 
+with ERP Co to achieve “s ynergistic integration,” in 
+which new products and services are developed by 
+the partners based on th e ERP Co system, and both 
+sides reinforce each othe r and achieve value co-
+creation, whereas gold partners and smaller partners 
+might mainly engage in “addition” or “exchange” 
+type of collaboration with ERP Co, where they 
+simply redistribute ERP Co products or provide 
+customization and implementation services [12,31].  
+As discussed earlier in the paper, though often 
+marked as a technological innovation, cloud 
+computing represents a new way of which IT 
+resources are delivered and consumed [2]. Hence, for 
+ERP Co, the transition  means more than just the 
+development of the new SaaS-based offering. The 
+fact that customers can access their enterprise 
+systems through a web browser means that the 
+process involved in delivering and installing a 
+physical product on customers’ local computers and 
+device has been eliminated and bypassed. In other 
+words, the nature of the product and related business 
+process (sales process more specifically), upon which 
+the old ecosystem was built on, has changed. ERP 
+Co’s efforts in managing the transition can therefore 
+be interpret as a process of redefining the stakeholder 
+relationships under the new circumstances [33]. 
+Consequently, the ERP Co’s partners  might have to 
+reinvent themselves, and provide another type of 
+value to the end users.  
+The categorization of three types of partners, 
+associated with their different modes of collaborating 
+with ERP Co, represents the concept of the 
+observable differences  within ecosystem. In other 
+words, we find that some stakeholders are more 
+visible in the network and have stronger relationships 
+with each other, in par ticular the platinum VAR. The 
+idea of labeling some partners as platinum partners is 
+signal to the ecosystem that some are more important 
+than others. Our case shows that these observation 
+differences need to be take n into considerations when 
+3994
+3995
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 8 ===
+redefining the stakeholder relationships. ERP Co 
+indeed supported its partners’ adaptations in different 
+ways: while all the partners would obtain a certain 
+level of compensation in selling SaaS products, it is 
+the platinum partners that ERP Co worked “hand -in-
+hand” wi th, to develop new services that can be built 
+upon the SaaS product and achieve synergistic 
+integration. These new services, as put earlier by one 
+of ERP Co’s managers, are shifting toward business 
+process consulting and away from technical 
+consulting, due to the nature of SaaS products.  
+Besides the long relationship between ERP Co 
+and the partners, the part ners and ERP Co are in co-
+opetition  (especially for the gold partners and smaller 
+partners), since some of them are also selling 
+competing ERP software. This is also true for the 
+main vendor – Microsoft - who sells competing 
+software on global scale. This makes the 
+relationships in the ecosystem sensitive and requires 
+careful management. Thus the technological 
+evolution enables new forms of competition, where 
+firms have to collaborate with its competitors and 
+clients.  
+To sum up, we find support of that ecosystem – as 
+in nature – is not a stable entity.  They evolve and in 
+our case due to technological evolution and firms’ 
+ability to adopt and change to these innovations. Thus 
+to survive in ecosystem requires adaptations both 
+upwards and downwards at micro, meso and macro-
+levels. ERP Co’s transition is a consequence of that 
+“ecosystems are essentially defined by the active 
+shaping of relationships between their members” 
+[33:2]. The re-shaping of the exchange relationships 
+among the stakeholders of ERP Co’s ecosystem is a 
+direct result of technical innovations replacing the 
+product that is at the center of the exchange 
+relationships. 
+ 
+6.2. Managerial implications for transition to 
+cloud  
+ 
+The analysis of the case of ERP Co has also 
+generated important managerial implications for IT 
+vendors who are going through similar transition 
+process to cloud. Here we have listed the following 
+challenges/ critical aspects in successfully managing 
+such change in business. 
+First and foremost, as discussed thoroughly 
+above, transition to cloud for traditional IT vendors 
+represents more than just adoption of new technology 
+and development of new product. Rather, transition 
+to cloud needs to be managed as a change of the 
+whole business model and business network.  The 
+point we are trying to make here is that the 
+management needs to fully prepare the company for the scale and magnitude of the change brought by the 
+transition to cloud. As put by one of the directors at 
+ERP Co: “I believe one of the most critical success 
+factors are what you can call organizational 
+preparedness, since this goes so deep in our ability to 
+understand and implement decisions throughout the 
+value chain.”  In other words, the inter-dependencies 
+among ecosystem stakeholders need to be taken full 
+consideration of by the vendor, who should manage 
+the relationship with these stakeholders accordingly. 
+For instance, ERP Co ’s strategy t owards the partners 
+is “hand -in-hand” transition and joint re -
+configuration of the busines s process. Constraining 
+the scale of change within the organization might 
+cause the collapse of the ecosystem, which in turn 
+threatens the survival of the business itself.  
+Second, hybrid model not only applies for cloud 
+adopters, but also for vendors who manage a 
+transition from on-premise  products to cloud-based 
+products . As seen in the case, the initial struggles 
+from ERP Co were caused by the speed of which 
+they tried to pursue the transition, which resulted in 
+panics both within the organization, and across the 
+value chain to the customers and partners. The later 
+adjustment to a “hybrid strategy” led to smoother 
+transition process, as keeping and maintaining on-
+premise products 1) buys more time for developing 
+new SaaS products without sacrificing existing 
+marketing share due to lack of finished products to 
+sell, and 2) provides a chan ce for both the customers 
+and partners to gradually adapt to the change.  
+Third, transition to cloud needs to be matched 
+with and supported by cha nges in other parts of the 
+business.  We have observed changed across many 
+business areas of ERP Co, and also problems 
+triggered by lack of changes in certain areas initially. 
+Operating under a cloud-based business model 
+demands changes in areas such as revenue 
+management (up-front bulk payment versus 
+continuous cash flow), sales channel (coordination 
+with partners), customer support and customer 
+relationship management, and so on. Hence, the 
+management needs to map out all the change areas 
+and make adjustments accordingly. For instance, in 
+the ERP Co case, the original KPIs that directly 
+correlate with sales of on-premise products did not 
+align with the shift towards cloud, and therefore 
+resulted in lack of motivation from within the 
+organization.  
+ 
+6.3. Limitations and future research 
+ 
+The most important limitation of the research in 
+this article is that it only investigates one part of the 
+ecosystem. Subsequent research should therefore 
+3995
+3996
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 9 ===
+expand to include the relationship between 
+distributors and end user firms and investigate the 
+three-way dynamics (among vendors, distributors, 
+and end customers), which is a future step for our 
+study. Additionally, our work points out that the 
+rising of cloud computing has important implications 
+for the business model and the underlying profit-
+generating mechanisms of the firm. Thus future 
+studies on ecosystem transition should also dwell into 
+how profit generations are changing. Furthermore, 
+we encourage researchers to include more cases for 
+both the vendor perspec tive and the B2B context 
+when engaging in cloud computing related research. 
+ 
+7. Conclusion 
+ 
+In this paper, we have explored the changes of 
+B2B software partnership due to technological 
+innovation from the lens of ecosystem. Based on a 
+case of ERP Co, a leading enterprise software vendor 
+in the SME market, we have uncovered the process 
+of which transition to cloud has occurred to date, and 
+its rippling effects towards the whole business 
+ecosystem. Among the transition, we find new types 
+of relationships emerging among the stakeholders, 
+increasing co-opetition and the visibility of some 
+partners, and that the ecosystem is not stable and 
+evolves with technological changes. Based on these 
+insights, we offer managerial implications for IT 
+vendors in making the transition to the cloud. 
+ 
+8. References 
+ 
+[1] Adomavicius, G., Bockstedt, J.C., Gupta, A., and 
+Kauffman, R.J. Technology roles and paths of influence in 
+an ecosystem model of technology evolution. Information 
+Technology and Management 8 , 2 (2007), 185 –202. 
+[2] Armbrust, M., Stoica, I., Zaharia, M., et al. A View of 
+Cloud Computing. Communications of the ACM 53 , 4 
+(2010), 50. 
+[3] Bardhan, I.R., Demirkan, H., Kannan, P.K., and 
+Kauffman, R.J. Special Issue: Information Systems in 
+Services. Journal of Management Information Systems 26 , 
+4 (2010), 5 –12. 
+[4] Basole, R.C. Visualization of interfirm relations in a 
+converging mobile ecosystem. Journal of Information 
+Technology 24 , 2 (2009), 144 –159. 
+[5] Benlian, A. and Hess , T. Comparing the relative 
+importance of evaluation criteria in proprietary and open -
+source enterprise application software selection – a conjoint 
+study of ERP and Office systems. Information Systems 
+Journal 21 , 6 (2011), 503 –525. [6] Benlian, D.A., Hess, P.D.T., and Buxmann, P.D.P. 
+Drivers of SaaS-Adoption – An Empirical Study of 
+Different Application Types. Business & Information 
+Systems Engineering 1 , 5 (2009), 357 –369. 
+[7] Brandenburger, A.M. and Nalebuff, B.J. Co-Opetition.  
+Crown Publishing Group, 2011. 
+[8] Columbus, L. Demystifying Cloud Vendors. Forbes , 
+2013. 
+http://www.forbes.com/sites/louiscolumbus/2013/02/20/de
+mystifying-cloud-vendors/. 
+[9] Columbus, L. Roundup Of Cloud Computing Forecasts 
+And Market Estimates, 2015. Forbes , 2015. 
+http://www.forbes.com/sites/louiscolumbus/2015/01/24/rou
+ndup-of-cloud-computing-forecasts-and-market-estimates-
+2015/. 
+[10] Creeger, M. CTO Roundtable: Cloud Computing. 
+Queue 7 , 5 (2009), 1:1 –1:2. 
+[11] Cusumano, M. Cloud computing and SaaS as new 
+computing platforms. Commun. ACM 53 , 4 (2010), 27 –29. 
+[12] Das, T.K. and Teng, B.-S. A Resource-Based Theory 
+of Strategic Alliances. Journal of Management 26 , 1 
+(2000), 31 –61. 
+[13] El Sawy, O.A. The IS Core IX: The 3 Faces of IS 
+identity: connection, immersion, and fusion. 
+Communications of the Association for Information 
+Systems 12 , 1 (2003), 39. 
+[14] Evans, D.S., Hagiu, A., and Schmalensee, R. Invisible 
+engines: how software platforms drive innovation and 
+transform industries.  MIT Press Cambridge, MA, 2006. 
+[15] Henderson, R.M. and Clark, K.B. Architectural 
+Innovation: The Reconfiguration of Existing Product 
+Technologies and the Failure of Established Firms. 
+Administrative Science Quarterly 35 , 1 (1990), 9 –30. 
+[16] Hsu, P.-F., Ray, S., and Li-Hsieh, Y.-Y. Examining 
+cloud computing adoption intention, pricing mechanism, 
+and deployment model. International Journal of 
+Information Management 34 , 4 (2014), 474 –488. 
+[17] Iansiti, M. and Khanna, T. Technological Evolution, 
+System Architecture and the Obsolescence of Firm 
+Capabilities. Industrial and Corporate Change 4 , 2 (1995), 
+333–361. 
+[18] Iansiti, M. and Levien, R. The Keystone Advantage: 
+What the New Dynamics of Bu siness Ecosystems Mean for 
+Strategy, Innovation, and Sustainability.  Harvard Business 
+Press, 2004. 
+3996
+3997
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 10 ===
+[19] Iyer, B. and Henderson, J. Preparing for the future: 
+understanding the seven capabilities of cloud computing. 
+MIS Quarterly Executive 9 , 2 (2010), 117 –131. 
+[20] Kasznik, E. ‘Churn is king’: how SaaS business 
+models affect software company valuations. Intellectural 
+Asset Management , 2014. http://www.iam-
+magazine.com/industryreports/Detail.aspx?g=fc262395-
+3a71-4a6e-8828-6c6c6b7e429a. 
+[21] Luftman, J. and Zadeh, H.S. Key information 
+technology and management issues 2010 –11: an 
+international study. Journal of Information Technology 26 , 
+3 (2011), 193 –204. 
+[22] March, J.G. and Simon, H.A. Organizations.  Wiley, 
+Oxford, England, 1958. 
+[23] Marston, S., Li, Z., Bandyopadhyay, S., Zhang, J., and 
+Ghalsasi, A. Cloud Computing — the Business Perspective. 
+Decision Support Systems 51 , 1 (2011), 176 –189. 
+[24] Moore, J.F. Predators and prey: a new ecology of 
+competition. Harvard business review 71 , 3 (1993), 75 –83. 
+[25] Nikolov, G.I. Cloud Computing and Government: 
+Background, Benefits, Risks.  Nova Science Publishers, Inc., 
+Commack, NY, USA, 2011. 
+[26] Oliveira, T., Thomas, M., and Espadanal, M. 
+Assessing the determinants of cloud computing adoption: 
+An analysis of the manufacturing and services sectors. 
+Information & Management 51 , 5 (2014), 497 –510. 
+[27] Owens, D. Securing Elasticity in the Cloud. Commun. 
+ACM 53 , 6 (2010), 46 –51. 
+[28] Parameswaran, S., Venkatesan, S., Gupta, M., 
+Sharman, R., and Rao, H.R. Impact of Cloud Computing 
+Announcements on Firm Valuation. AMCIS 2011 
+Proceedings - All Submissions , (2011). 
+[29] Rosenkopf, L. and Tushman, M.L. The Coevolution of 
+Community Networks and Technology: Lessons from the 
+Flight Simulation Industry. Industrial and Corporate 
+Change 7 , 2 (1998), 311 –46. 
+[30] Ryan, M.D. Cloud Computing Privacy Concerns on 
+Our Doorstep. Communications of the ACM 54 , 1 (2011). 
+[31] Sarker, S., Sarker, S., Sahaym, A., and Bjørn-
+Andersen, N. Exploring Value Cocreation in Relationships 
+Between an ERP Vendor and its Partners: A Revelatory 
+Case Study. MIS Q. 36 , 1 (2012), 317 –338. 
+[32] Schneider, S. and Sunyaev, A. Determinant factors of 
+cloud-sourcing decisions: reflecting on the IT outsourcing 
+literature in the era of cloud computing. Journal of 
+Information Technology , (2014). [33] Selander, L., Henfridsson, O., and Svahn, F. 
+Transforming Ecosystem Relationships in Digital 
+Innovation. ICIS, (2010), 138. 
+[34] Selander, L., Henfridsson, O., and Svahn, F. 
+Capability search and redeem  across digital ecosystems. 
+Journal of Information Technology 28 , 3 (2013), 183 –197. 
+[35] Shane, S. Technology Regimes and New Firm 
+Form ation. Management Science 47 , 9 (2001), 1173 –1190. 
+[36] Smith, D.M. Cloud Computing Changes the Vendor 
+Landscape. 2012. 
+http://www.gartner.com/it/content/2154700/2154716/octob
+er_3_cloud_computing_dsmith.pdf?userId=74657470. 
+[37] Son, I. and Lee, D. Assessing A New IT Service 
+Model, Cloud Computing. PACIS 2011 Proceedings , 
+(2011). 
+[38] Tansley, A.G. The Use and Abuse of Vegetational 
+Concepts and Terms. Ecology 16 , 3 (1935), 284 –307. 
+[39] Vargo, S.L. and Lusch, R.F. Evolving to a New 
+Dominant Logic for Marketing. The Journal of Marketing 
+68, 1 (2004), 1 –17. 
+[40] Venters, W. and Whitley, E.A. A Critical Review of 
+Cloud Computing: Researching Desires and Realities. 
+Journal of Information Technology 27 , 3 (2012), 179 –197. 
+[41] Walley, K. Coopetition: An Introduction to the Subject 
+and an Agenda for Research. International Studies of 
+Management & Organization 37 , 2 (2007), 11 –31. 
+[42] Willcocks, P.L.P., Venters, W., and Whitley, D.E.A. 
+Moving to the Cloud Corporation: How to face the 
+challenges and harness the potential of cloud computing.  
+Palgrave Macmillan, Houndm ills, Basingstoke, Hampshire, 
+2013. 
+[43] Winkler, T.J. and Brown, C.V. Horizontal Allocation 
+of Decision Rights for On-Premise Applications and 
+Software-as-a-Service. Journal of Management 
+Information Systems 30 , 3 (2013), 13 –48. 
+[44] Yin, R.K. Case Study Research, Design and Methods.  
+Sage Publications, Newbury Park, CA, 2003. 
+[45] Yoo, Y., Lyytinen, K., and Boland, R.J. Innovation in 
+the digital era: Digitization and four classes of innovation 
+networks. Hawaii International Conference on System 
+Sciences , (2008). 
+[46] Zammuto, R.F., Griffith, T.L., Majchrzak, A., 
+Dougherty, D.J., and Faraj, S. Information Technology and 
+the Changing Fabric of Organization. Organization Science 
+18, 5 (2007), 749 –762. 
+3997
+3998
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:43:35 UTC from IEEE Xplore.  Restrictions apply. 
+

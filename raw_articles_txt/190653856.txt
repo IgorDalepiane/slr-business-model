@@ -1,0 +1,803 @@
+=== PÁGINA 1 ===
+Stuck Inside a Cloud: Do SaaS business models require a rethink
+of the traditional approach to public market valuation?
+Toby Mccoy
+Trinity Business School, Ireland
+tmccoy@tcd.ie
+ABSTRACT
+This paper explores the rapid growth in the public valuations of
+SaaS companies and examines whether this growth can be explained
+by investment theory. SaaS companies have experienced a remark-
+able rise in stock market valuations in recent years. Through the
+construction of a SaaS Index, constituted of 20 publicly traded
+SaaS companies, the empirical study tests the efficacy of two tra-
+ditional models of investment theory, The Capital Asset Pricing
+Model and Fama-French’s 3 Factor Model. The Index is used as
+the basis for these models and additionally is supported by Linear
+Regression models. Ultimately, the assumptions which underlie
+these models are shown to be unsuitable for the SaaS Industry
+due its relative youth and unique characteristics. It then seeks to
+expand upon existing theory and practice by building a positive
+argument and highlighting additional possible factors including
+Growth, Profitability and Enterprise Value/Revenue which exhibit
+a greater explanatory role in share price movement. This enables
+the construction of a new model, of a company’s revenue growth
+and Enterprise Value relative to revenue supported by a qualitative
+narrative which better accounts for the relative growth in the SaaS
+Index over the observed period. Ultimately, while this new model
+holds greater explanatory power, the underlying characteristics of
+SaaS companies such as the subscription model, capital efficiency
+and ability to scale are important and are more likely to be effective
+drivers of value into the future.
+CCS CONCEPTS
+•Social and professional topics →Professional topics; Comput-
+ing and business; Economic impact..
+KEYWORDS
+SaaS Business, Fama-French, Capital Asset Pricing Model, Software
+ACM Reference Format:
+Toby Mccoy. 2022. Stuck Inside a Cloud: Do SaaS business models require
+a rethink of the traditional approach to public market valuation?. In 2022
+6th International Conference on E-Commerce, E-Business and E-Government
+(ICEEG 2022), April 27–29, 2022, Plymouth, United Kingdom. ACM, New York,
+NY, USA, 11 pages. https://doi.org/10.1145/3537693.3537743
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom
+©2022 Copyright held by the owner/author(s).
+ACM ISBN 978-1-4503-9652-3/22/04.
+https://doi.org/10.1145/3537693.35377431 INTRODUCTION
+This paper seeks to understand the rise of a new market phenome-
+non, Software as a Service companies, which have surged in num-
+ber and value in recent years. It seeks to explain the drivers of this
+growth and critically engage with why market participants seem
+to favour this form of company.
+To achieve this, this paper combines both empirical public market
+research with theoretical ideas and literature to critically examine
+this performance. It contextualizes these SaaS companies through
+traditional models and ideas of investment theory, including the
+Capital Asset Pricing Model and Fama and French’s 3 factor model.
+It then attempts to create a positive argument, by examining and
+developing ideas around the specific nature of SaaS companies and
+what differentiates them from traditional business models.
+The latter stages of this empirical study are focused on building
+the positive argument. These sections aim to provide criteria and
+defining characteristics which provide the levers upon which SaaS
+public valuation growth is predicated. It relies on a combination
+of academic literature and industry specific research to guide the
+discussion and provide relevant support.
+These include characteristics related to all SaaS firms and one’s
+which differentiate between SaaS firms. These are ideas such as
+predictability of revenue, availability of metrics and high margins
+for the former and pricing models, enterprise vs best of breed and
+growth rates for the latter. This should enable the paper to close
+in on the truth on drivers of pricing both on an industry and firm
+level.
+Ultimately, it concludes that SaaS companies seem to violate
+many of the principles of traditional investment theory and the as-
+sociated models. It aims to provide reasoning for this deviation and
+identify the characteristics within this that hold greater explanatory
+power.
+2 PURPOSE
+The purpose of this research paper is to examine the way in which
+SaaS companies are valued. It seeks to understand the drivers of
+value and how they are, or can be, reflected within valuation frame-
+works.
+The core hypothesis is:
+SaaS business models are sufficiently different to require bespoke
+models for valuation.
+The argument that underpins this is as follows:
+•SaaS companies have distinctly different business models to
+traditional companies
+•Existing asset pricing models are designed for companies
+with traditional business models
+•Therefore, existing pricing models do not accurately forecast
+the price of SaaS companies
+152
+
+
+=== PÁGINA 2 ===
+ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom Toby McCoy
+Figure 1: SaaS Index by Sector [21]
+Figure 2: SaaS Index over time [21]
+SaaS Index: Based on the outlined criteria, our SaaS Index con-
+sists of the following companies: Salesforce, Blackbaud, New Relic,
+Nutanix, Talend, Yext, Healthstream, RingCentral, Appian, Service
+Now, Paycom, Veeva, Hubspot, Benefitfocus, Atlassian, ZenDesk,
+Zix, MongoDB, Blackline and Coupa.
+Each of these companies fall under the established criteria for a
+SaaS company and can be allocated into the set-out categories.
+Immediately, the SaaS Index massively outperformed the under-
+lying benchmark over the period. The S&P 500 grew 136% in the
+three years while the SaaS companies grew on average 354% over
+the same period.
+Looking at the industry breakdown, the top performing industry
+was Finance, tailed by Data, both with strongly performing con-
+stituents. Each of the sectors grew on average by more than 100%,
+with even those with constituents that performed negatively over
+the period being buoyed by their peers.
+These are highlighted in detail in Figure 1 and demonstrate the
+relative performance between the industry subsectors.Below is the Index mapped out on a line graph, with all prices
+based to 100%. Overall, there are several companies which dramat-
+ically outperformed the index as an average, with two members
+growing more than 10x in the examined period.
+Taking stock of these initial graphs, there is a clearly visible
+upward trend of SaaS companies over the defined period. Figure
+2 demonstrates the strong upward momentum of the constituents
+over the time period, with a number of companies returning over
+1000%.
+Figure 3 takes the constituent companies as an average, equally
+weighted, demonstrating the collective performance of the Index.
+The Index greatly outperformed both the S&P500 and the Nas-
+daq Composite over the 3 year period. This supports the earlier
+proposed idea that SaaS companies on the whole have greatly out-
+performed the overall market. However, the SaaS Index was signifi-
+cantly more volatile than the benchmarks.
+This is expected, as the benchmarks contain hundreds of con-
+stituents whereas the SaaS Index contains only 20. Naturally, the
+movement of the 20 equities appears more volatile than the equal-
+ising power of the large indices.
+153
+
+=== PÁGINA 3 ===
+Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market
+valuation? ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom
+Figure 3: SaaS Index over time vs NasDaq and S&P500 [21]
+The final observation which can be initially taken from these
+graphs is that the SaaS Index, by and large tracked the major market
+movements directionally. When the benchmark indices dipped,
+the SaaS Index similarly suffered, it also benefited from the same
+upward movements, although often to a greater magnitude. This
+prima facie suggests that the SaaS Index remains tied to the US
+macroeconomic landscape, although an outperformer of it.
+Now that the data has been established and evaluated briefly, it
+is necessary to examine how it holds alongside investment theory.
+3 TRADITIONAL MODELS
+The empirical study seeks to examine the SaaS Index in the context
+of traditional valuation models used for examining the prices of
+publicly traded companies.
+The aim of this is to understand if SaaS companies adhere to,
+or violate the supposed structures and the assumptions that they
+make about valuation theory, risk appetite and expected payoff. To
+do this, this paper looks at two main models:
+•The Capital Asset Pricing Model
+•The Fama-French Model
+Capital Asset Pricing Model: It is productive to begin by provid-
+ing an overview of the Capital Asset Pricing Model. The Capital
+Asset Pricing Model seeks to explain the relationship between risk
+and return through creating a framework for an investor appetite.
+A fundamental idea of investment theory is that investors expect
+the level of risk to reflect the level of return they can expect. CAPM
+demonstrates the market risk premium which investors can expect
+based on the level of risk being endured.
+Taking the risk-free rate, the level of return one can expect when
+enduring no risk and adding the market risk premium (less risk
+free rate) multiplied by the individual beta of the investment, the
+CAPM enables investors to calculate the fair value of the asset.
+In theory, CAPM should enable investors to make decisions
+about whether the risk profile makes it a worthwhile inclusion
+in a portfolio. CAPM takes into account non diversifiable risk, orsystemic risk. The Sharpe ratio, taken as the measure of return
+corresponding to the level of risk, demonstrates this gap. The ratio
+outlined by William Sharpe, creates a simple measure of this un-
+derlying assumption of investment theory. Combined, the CAPM
+and Sharpe ratio represent a framework for market observers to
+test the risk adjusted return of assets enabling decision making.
+In order to test the principles of CAPM on the SaaS Index, it
+is necessary to make some further assumptions to provide the
+variables for the formula.
+As the SaaS Index is based in the US, it is appropriate to take a
+risk-free rate from the US economy. This study takes the 10 year
+treasury note as the risk free rate. This is taken as the average
+weekly rate over the outlined 3 year period. This data has been
+obtained from Yahoo Finance. Along with the return of each of the
+assets in the SaaS Index, the CAPM requires that the beta of each
+company is also found.
+Applying the Capital Asset Pricing Model to the data set yielded
+the following results:
+There is a clear relationship between the market Beta on the
+x-axis and return on the y-axis highlighted in Figure 4. The two
+outliers are those which have already been highlighted as extraor-
+dinarily high performers, Coupa and MongoDB.
+An important point to be raised here is that the CAPM seeks
+to explain the risk-reward payoff of the market, not just the con-
+stituents of the SaaS Index outlined. It is therefore necessary to
+examine how this payoff compares against that available in US
+public markets more broadly.
+The slope of the line represents the market risk premium. In
+other words, for every additional unit of risk, how much extra
+return has been gained. Based on the relative data points displayed,
+the slope of the line of best fit was 1.63. Meaning that for every
+additional unit 1 of beta, the SaaS Index provided an additional
+163% return over the defined period. For context, as per Statista, the
+average market risk premium over the same period in US markets
+154
+
+=== PÁGINA 4 ===
+ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom Toby McCoy
+Figure 4: SaaS Index Capital Asset Pricing Model [21]
+Figure 5: SaaS Index Fama-French 3 Factor Model, Small Minus Big [21]
+more broadly was 5.5%, a massive drop even when considered over
+the three year timeframe.
+This is where the SaaS Index seems to violate the Capital Asset
+Pricing Model. The premiums that were paid out associated with
+risk are significantly higher than that of the market average.
+Sharpe Ratio: It is also worth examining the Sharpe ratio of the
+Index against the wider benchmark. As highlighted, the Sharpe
+ratio similarly measures the level of risk adjusted return.
+The Sharpe ratio of the SaaS Index over the observed period is
+4.269. This is exceptionally high, demonstrating the level of return
+achieved per unit risk was very strong. For context the Sharpe ratios
+for the two benchmarks, the S&P 500 and the technology weighted
+Nasdaq were 2.826 and 3.3658 respectively. This demonstrates that
+SaaS investors experienced a higher level of return per unit of risk
+over the period. Overall, this represents a remarkable premium for
+investors in the SaaS Index who achieved massive returns with
+significantly lower risk.
+Fama-French 3 Factor Model: An additional staple of invest-
+ment theory is the factor approach set out by Nobel prize winning
+economists Eugene Fama and Kenneth French. Fama and French
+take a more sophisticated approach to explaining stock returns.
+Going further than traditional CAPM, Fama and French hold that
+the relative specific characteristics of the firm are relevant when
+attempting to explain stock returns. [3]Applying the 3 Factor model to the SaaS index presented creates
+an issue. While it is possible to produce buckets for both large and
+small firms, SaaS firms typically are growth stocks. This is due to a
+characteristic pointed out already, that the market is still in relative
+infancy meaning that there are few well established firms.
+Taking Fama-French’s model and applying it to the SaaS In-
+dex then provides the following outcomes. First, examining Fama-
+French’s Small Minus Big factor, the SaaS Index when broken into
+the specified Market Capitalization categories as highlighted at the
+outset, represents the following:
+In this instance in Figure 5, the largest firms greatly outperformed
+those with smaller market caps. The range which performed best
+was those in the $10-$30bn with an average growth of more than
+700% over the observed years. This sector benefited from containing
+the two top performers in the Index of Coupa and MongoDB, but it
+is worth noting that all constituents performed better or equal to
+the entirety of the lower buckets.
+The constituents with the smallest 25% of market capitalizations
+performed the worst, with an average return of a mere 12% over the
+three-year period. Only one member of this subset, Zix, comfortably
+outperformed the S&P 500 over this period, which generated a total
+return of 36%.
+155
+
+=== PÁGINA 5 ===
+Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market
+valuation? ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom
+Figure 6: SaaS Index Fama-French 3 Factor Model [21]
+Conversely, the companies with the largest capitalizations all
+greatly outperformed the S&P 500 and the tech weighted Nas-
+daq, the latter of which returned 93%. This seems to violate Fama-
+French’s theory that small Cap companies tend to outperform larger
+companies. [3]
+This can be tested further through a Classical Linear Regression
+Model in the format,
+γ=α+β.X
+In the model, ‘ γ’ represents the return of the asset, the dependent
+variable and X is the market capitalization, the independent variable,
+αis the intercept term or constant, while βis the coefficient.
+These values in Figure 6 demonstrate that the relationship be-
+tween the return and market capitalization size is weak and if
+anything, seems to suggest the opposite to Fama-French’s assump-
+tions. The R-Squared value of 0.000077 suggests that the correlation
+between the two variables is low. The positive correlation coeffi-
+cient between the market capitalization and return also supports
+the outcome witnessed in the categorised sections, that larger cap
+companies outperformed smaller.
+This violation may be due to the rapid expansion of the sector,
+meaning that the upmarket has lifted all companies higher. Fama
+and French’s model assumes an established, mature market in which
+these performances can be monitored, whereas the SaaS Index
+features only relatively young firms.
+High minus Low: To examine the next factor set out by Fama
+and French, High minus Low, the Index has been categorized in the
+four further brackets, based on the respective Book/Market ratios.
+As highlighted, Fama-French’s model assumes that companies with
+lower Book to Value ratios, tend to underperform compared to
+Value companies with high ratios.
+Similarly in Figure 7, as with the Small minus Big factor, the
+opposite appears to be true in the SaaS Index. Companies with
+higher Book to Market ratios such as Benefit.
+In this instance, the Fama-French idea that Value companies
+outperform Growth companies is violated. The companies with the
+greater Book to Value ratios performed significantly worse than
+their counterparts with lower ratios. This is in direct contradiction
+with the assumption set out.Creating an additional Linear regression model to examine the
+relationship, making the Book to Market ratio the independent vari-
+able, it is clear that the Book to Market ratio had little explanatory
+effect on the performance of the assets. This emphasises the initial
+observations taken from the groupings.
+The R-Squared value from Figure 8 suggests that it explained
+only .21 of the movement, significantly below what may be taken
+as meaningful. The negative coefficient of the Book/Market values
+also supports the inverse conclusion to Fama-French as highlighted.
+Taking a view then of the three factors’ explanatory power, the
+linear regression model yielded the following results:
+The R-Squared value from Figure 9 has become stronger than the
+initial individual factors, moving closer to 1, but this is founded on
+relationships which act in the opposite direction to those conceived
+by Fama and French as highlighted.
+There is a likely explanation for this phenomenon. As has been
+established, the SaaS industry is still young, this means that the
+Value stocks as intended by Fama-French, do not yet exist as fully
+imagined.
+One possible distinction which could be made to serve this pur-
+pose, is the separation between ‘best of breed’ applications and SaaS
+suites. The former, represent companies providing singular pieces
+of software and are more akin to the growth stocks in Fama and
+French’s conceptual framework. Suites typically contain a multitude
+of SaaS products or tools, often the culmination of M&A activity to
+buy up complementary products and lockdown market segments.
+These suites are typically more mature and stable businesses. A
+good example of a SaaS suite within the Index is Salesforce, who
+provide a platform for both internally owned products and external
+marketplaces.
+An issue here is that these ‘best of breed’ companies are typically
+private entities that are taken off the market opportunistically by
+the larger players before a bidding war can be launched on price.
+As such, they rarely make it to IPO and are likely to be underrepre-
+sented in the SaaS Index highlighted.
+A further qualification should be made here about the Fama-
+French model. The model is intended to produce results across the
+wider market in the longer term. The SaaS Index’s timeline, for the
+reasons highlighted in the qualifications section, namely that SaaS
+companies are in their relative infancy. This does not provide for
+the length of time necessary to get the full potential of the model.
+It is possible that the violations of the model observed here
+would be corrected in the longer term. However, it is important to
+recognise these violations and seek a better model to explain these
+return profiles.
+Traditional Models Conclusion: Overall, the SaaS Index set out
+seems to violate both traditional models set out. Historic returns
+did not correlate with the associated risk.
+In the instance of the Capital Asset Pricing Model, while the
+fundamental ideas of investment theory are upheld through the
+positive correlation between risk and return, the market risk premia
+are well above what we may expect in publicly traded companies.
+This is particularly striking when compared to other relevant bench-
+marks.
+The assumptions set out by the Fama-French 3 Factor Model,
+when applied to the SaaS Index did not hold. Both Small minus Big
+and High minus Low were violated by the index, ultimately leaning
+156
+
+=== PÁGINA 6 ===
+ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom Toby McCoy
+Figure 7: SaaS Index Fama-French 3 Factor Model, High Minus Low [21]
+Figure 8: SaaS Index Fama-French 3 Factor Model [21]
+Figure 9: SaaS Index Fama-French 3 Factor Model [21]
+towards the antithesis with larger cap outperforming smaller and
+the low Book to market companies performing better than their
+larger counterparts.
+These violations may not hold in the longer term, as the models
+are allowed to receive their full intended timelines and as the SaaS
+Industry ultimately matures and as is likely, its remarkable riseslows. However, this is little use to investors seeking to understand
+the drivers of SaaS companies in the short to medium term, and
+it is necessary to continue to examine if these movements can be
+effectively captured and explained.
+Positive Argument: Now that the empirical study has demon-
+strated that the SaaS Index seems to violate both the Capital Asset
+Pricing Model and the assumptions set out by Fama French, it is
+productive to consider both why the SaaS Index violated these
+assumptions and what assumptions could be made in place of them.
+This involves developing a positive argument around the Index,
+seeking to capture qualities that have explanatory power both for
+the Index as a whole and for the individual constituents within
+it. This can be accomplished by a combination of theoretical and
+empirical investigation.
+Ultimately, this study should bring the paper closer to the con-
+ceptual truths around the drivers of SaaS company valuation.
+4 THE RULE OF 40
+One framework that is frequently employed to chart this value
+proposition is the Rule of 40. It states that the percentage of prof-
+itability and the growth rate of the company should add up to 40.
+The main premise of this analysis is that it accounts for what are
+perceived as the two main drivers of value at different points of
+a company’s natural life cycle, growth and profitability. When a
+company is in its infancy it may be expected to experience weaker
+profitability in lieu of achieving more aggressive growth targets.
+The relevance of the Rule of 40 and its purported elegance in valu-
+ing or assessing SaaS companies is that it is reflective of the various
+stages a SaaS company is likely to go through. [5]
+SaaS companies can experience particularly high growth in their
+early stages of development relative to other companies. Once this
+tapers off, the onus is to deliver strong profitability, with gross
+margins often greatly exceeding public market averages.
+This makes the distinction between so-called value or growth
+stocks as highlighted by Fama-French as being relevant to the ex-
+pected performance of stocks. However, it conversely builds the
+argument that this only holds at a certain level of maturity in the
+Index. As evidenced previously, there is less of a pronounced reality
+157
+
+=== PÁGINA 7 ===
+Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market
+valuation? ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom
+Figure 10: SaaS Index Rule of 40 [21]
+Figure 11: SaaS Index Rule of 40 [21]
+of Growth vs Value stocks due to the relative youth of SaaS com-
+panies. As a result, the assumption that Fama-French put forward
+lacks the same reliability. Bifurcating the distinction alleviates this
+issue, allowing relevant advantages of each stage to be captured in
+one model. [5]
+It is worth noting that the Rule of 40 is not a complete valuation
+tool, rather it is used as an indicator of the relative health of a SaaS
+company. Importantly, there may be additional variables which are
+relevant specifically to SaaS companies which should be included
+in this evaluation.
+In the context of the SaaS Index, growth has been taken as the
+annual revenue growth over the observed period with profitability
+representing the margin taken by the firm in the last period. Both
+data points have been sourced from Yahoo Finance. Applying the
+Rule of 40 to the SaaS Index and creating a linear regression model
+produces the following outcome.
+There was little significant relationship between return with
+Growth and Profitability. The R-Squared value from Figure 10 of
+.0096 is low in terms of explanatory power. This runs counter to the
+idea set out by the Rule of 40 that there is a relationship positive
+between performance and the two variables.
+Reviewing these individually in Figure 11, the negative relation-
+ship between profit and return is counterintuitive. The likelihood
+of this relationship disconnect, is that companies with high growthare potentially likely to run profitability deficits. When growth is
+strong, companies will tend to lean into the trend, putting capital
+to work to generate higher revenues. This erodes profitability in
+a way that is perceived as strategic. Equally, when growth is low,
+despite efforts to drive revenue, profitability is likely to be lower
+as CAC becomes higher. This supports the logic behind seeking
+other variables. As profitability can be degraded to fuel growth, the
+revenue figure becomes a better barometer of the relative success
+of the firm.
+The Rule of 40 does not provide the required explanatory power
+in the context of the SaaS Index to justify adopting it as the new
+model. Rather, there is likely other variables which have a stronger
+relationship.
+Enterprise Value to Revenue: An additional metric which is fre-
+quently used as a benchmark for SaaS companies both public and
+private, is the Enterprise Value (Total Debt + Total Equity-Cash)
+relative to the annual revenues of the firm.
+This is theoretically similar to the Price to Earnings ratio which
+examines the share price of a company relative to the earnings or
+profit, per share. The distinction in this instance is that it captures a
+more holistic view of company value by also including debt, which
+is an important component of the capital structure shunned in only
+considering market cap. Enterprise Value holds its advantage in con-
+taining more pertinent information by factoring in the company’s
+debt. [10]
+A possible reason for the proliferation of this metric is its practi-
+cality in private valuations. EV is a metric associated with buyouts
+as it takes in the fully loaded value of the company including obli-
+gations outside of equity. [10]
+Revenue represents the topline incomes of a company rather
+than the profitability of the firm. This seems perverse, as in reality,
+investors are typically concerned with the future cash flows of
+the company, typically represented by metrics such as Earnings or
+EBITDA, which strip out expenses such as operating costs. This
+normativity may have filtered into public markets, as companies
+expanded and listed on stock exchanges and remained due to its
+agnosticism to the noise of aggressive growth and profitability.
+Examining the corresponding EV/Revenue ratios of the SaaS
+Index provides the following outlook.
+The Scatterplot in Figure 12 shows a positive correlation between
+the EV/Revenue metric of the companies in the Index with their
+return profile over the period. Once again, the two greatest outliers
+are the overperformers of Coupa and MongoDB.
+Moving then to analyse the explanatory power of the
+EV/Revenue ratio on returns, creating an equation in Eviews creates
+the following results:Taking return over the period again as the
+dependent variable and EV/Revenue as the independent variable
+for the linear regression model.
+Overall, in Figure 13 there is a strong relationship demonstrated
+by this equation. The R-Squared value of .71 demonstrates a strong
+relationship between the dependent and independent variables. The
+Durbin Watson and t-Statistics are both satisfactory that there are
+no significant issues with this model.
+This is particularly noteworthy when contrasted to the result
+of the previous models which held Book to Market as the indepen-
+dent variable. While the trend is similar, that companies with large
+158
+
+=== PÁGINA 8 ===
+ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom Toby McCoy
+Figure 12: SaaS Index Return vs EV/Revenue [21]
+Figure 13: SaaS Index Return vs EV/Revenue [21]
+market values relative to their fundamentals, outperformed, the
+explanatory power is significantly greater.
+As with all of the additional variables proposed, it is likely to
+be heuristic, meaning that it is not an absolute truth. What is com-
+promised in simplicity is outweighed by the added explanatory
+power. Taking these variables into account to create new factors, it
+is possible to construct a new model to measure the explanatory
+power of these ideas. Employing the Eviews software package to
+run a linear regression analysis
+New Factors: Based on the research and results so far, this pa-
+per can now propose two additional factors which may act as an
+alternative to those set out by Fama-French.
+Growth and EV/Revenue provide a strongly explanatory picture
+in the context of the SaaS business model. There is a clear relation-
+ship between both the size of the company in terms of market cap
+and its Enterprise Value relative to its Revenue with the overall
+returns in the observed period.
+The R-Squared value of .804. evidenced in the Figure 14 demon-
+strates the strength of this explanatory power. The T-Statistics of
+each of the variables and the Durbin Watson test also support that
+there is case to be made for this model.
+Figure 14: SaaS Index Return vs EV/Revenue [21]
+Combined these two factors capture key relevant details about
+SaaS companies removing the noise created from the previous
+variables such as the over focus on Book value in the Fama-French
+model and the profitability component in the Rule of 40. Why these
+better encapsulate SaaS companies is explored in greater detail in
+the next section.
+SaaS Market Characteristics: The additional variables introduced
+go some of the way to explaining the rise of SaaS companies both
+idiosyncratic and as an Index. This section examines the charac-
+teristics of SaaS companies that are universal to the subsector and
+their explanatory power in the outperformance of the SaaS Index
+against the wider market. This is achieved through a combination
+of qualitative analysis beyond what is captured in the empirical
+data
+A Superior Business Model?: At the outset, this paper highlighted
+how subscription business models differ from their traditional coun-
+terparts. Subscriptions provide vendors with reliable, steady streams
+of income over predefined periods.
+Tien Tzou describes this phenomenon in his seminal book on
+the Subscription Economy, Subscribed, detailing how historic mod-
+els rely on developing channels to reach end consumers, whereas
+subscription models centre on providing experiences and constant
+availability to consumers. Ultimately, this means consumers remain
+engaged and are more likely to stick around. [14]
+5 CUSTOMER RETENTION
+This paradigm shift means that the way in which both the firm
+and the individual transact with each other changes fundamentally.
+Rather than focusing solely on channels of acquisition there is now
+the requirement to retain customers while also growing the overall
+base.
+This creates a negative option system where the consumer now
+must actively decide to cancel the subscription, rather than the ac-
+tive decision in a traditional model to transact again. The outcome;
+customers are more likely to transact on a continuous basis, than
+on a traditional model.
+‘There’s a common expression: It’s way easier to sell to customers
+than to prospects. I hate that expression because it speaks to a
+product mindset: you sold them one product, and now you’re going
+to sell them another one. If you’re doing it right, expansion—that is,
+159
+
+=== PÁGINA 9 ===
+Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market
+valuation? ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom
+Figure 15: SaaS Index Return vs Utility and Media Indices [21]
+gaining more revenue from dedicated subscribers over time—should
+happen naturally.” [14]
+Not only do these businesses hold the advantage of having de-
+pendable income from their subscribers, they also have the oppor-
+tunity and crucially the ability to understand their consumers at a
+much deeper level. This enables them to derive trends and patterns
+in their client base on a macro scale but also to employ advances in
+analytics and technology such as Artificial Intelligence and machine
+learning to interact with the consumer as an individual.
+These factors combined create the platform for expansion in
+ARPU, the amount of revenue the firm can extract per user or
+client. This is achieved through upselling features such as additional
+licenses, functionality or capacity or alternatively selling adjacent
+products which align with the individual user’s preferences, tastes
+or requirements.
+Predictability and Forecastability of Revenues: The model pro-
+vides an unrivalled insight to analysts, the future income of the
+company. Metrics such as Customer Acquisition Cost (CAC), Churn,
+Retention and LifeTime Value are easily measurable and can be esti-
+mated with much greater confidence than with traditional business
+models and provide greater depth. By applying simple formulae,
+analysts can easily forecast future expected revenues with much
+higher conviction than with other companies. This also enables
+analysts to create sector specific benchmarks for the SaaS industry,
+comparing like for like.
+Subscription Model: These characteristics outlined thus far, all
+revolve around the very basic premise of SaaS companies, that they
+operate on a subscription model. The possible implication from
+this is that it is solely the subscription model which is driving this
+success. To test this, it is possible to SaaS companies are not the
+only type of company which employs a subscription model, in fact,
+it is a business model which has existed for centuries, conceived
+primarily in the modern era by print media.
+Taking the SaaS Index then and contrasting against two other
+Indices of subscription businesses, Utilities and Media. The Utility
+Index and Media Index observed respectively are Dow Jones UtilityAverage and the Invesco Dynamic Media ETF, both selected as
+good representations of the peer groups with large subscription
+components.
+As expected, the SaaS Index greatly outperformed both Utilities
+and Media over the three-year time range shown in Figure 15. This
+demonstrates that the subscription business model is not the sole
+characteristic responsible for the outperformance of SaaS compa-
+nies. However, it does not diminish the idea that the subscription
+business model
+The constituents of both the Utilities and Media Indices are likely,
+on average, significantly older than the members of the SaaS Index.
+This combined with the fact that both markets are considerably
+more mature than the SaaS market means that such rapid growth
+is less likely to occur.
+When companies have existed for decades and market share is
+saturated, it is considerably more difficult to grow rapidly. A good
+example of this is telephone service providers. In the US, ownership
+of a phone is likely as high as it ever could possibly be. There are not
+new consumers that will be easily converted to a phone contract
+who do not have one already. As a result, existing companies in
+this space are limited in their ability to win business, with the
+only tool at their disposal to compete to win customers from rivals.
+This means downward pressure on pricing with limited capacity or
+ability to expand their offering. This means that are likely further
+characteristics that are responsible for this expansion and that this
+study should seek to identify them.
+Ability to Scale: An advantage that the technology sector holds
+is the ease in expansion across markets geographically or otherwise.
+Unlike industries such as retail, manufacturing, or energy there is
+less constraint for technology companies to expand. This is due to
+the absence of barriers such as a need to create a new office, plant
+or machinery and the absence of physical supply chains. [16]
+Capital Intensity: An additional key consideration for investors
+is the capital intensity of a business model, that is to say, how much
+money is required to generate revenue. Industries such as mining
+160
+
+=== PÁGINA 10 ===
+ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom Toby McCoy
+or oil refining require large initial injections of capital to purchase
+machinery, equipment and build large structures.
+This is an area in which SaaS companies fare favourably, the
+production of software, while featuring significant labour costs in
+developers, engineers and sales teams, is considerably less capital
+intensive than other industries such as manufacturing. [11]
+Miller demonstrates this propensity of SaaS companies to growth
+in capital efficient manner pre-IPO in his paper The Return of Capi-
+tal Efficiency illustrating the capacity to outstrip other segments. As
+Miller’s paradigm deals with private companies it is not specifically
+relevant to this paper but the narrative is an important characteris-
+tic to include. [11]
+Companies and investors may be willing to place large invest-
+ments into companies which drive overall growth. This is largely at-
+tributable to the market factors which reward growth with EV/ARR
+ratios of often greater than 10x, meaning that every $1 of additional
+revenue, can attribute $10 in overall value. [20]
+This is a very different proposition to larger capital investments
+in projects or infrastructure due to the direct relationship with
+valuation. This provides a very attractive, clear level of attribution.
+As highlighted above, this type of decision making can erode the
+value of the Rule of 40. [16]
+6 RESULTS
+Overall, this empirical study set out to achieve two core objectives.
+The first, test the SaaS Index against traditional models of Invest-
+ment Theory and second, attempt to understand what the drivers
+of SaaS companies’ value on public markets.
+On the first of these, the study found that the SaaS Index violated
+two of the primary concepts in Investment Theory. On the Capital
+Asset Pricing Model, while the level of risk did correlate with the
+level of return as expected, the premium paid for the risk endured
+far exceeded the market risk premium paid out in the US over the
+same time period.
+The Sharpe ratio of the SaaS Index was significantly lower than
+the corresponding benchmarks of the S&P 500 and Nasdaq com-
+posite. This represents that SaaS investors sustained higher levels
+of volatility on their path to higher returns.
+The SaaS Index also did not correspond to the assumptions set
+out by Fama and French’s model, with the larger firms outperform-
+ing the small and there being little relationship between the relative
+quasi-value vs growth, although the latter distinction was less ap-
+propriate due the nascence of the industry. These violations posed
+the question of what it was that drives these SaaS company values
+as a whole and what factors distinguish them on an individual level.
+The latter half of the empirical study yielded greater explanatory
+results. There was an evident relationship between the Enterprise
+Value of the company against its revenue, its market capitaliza-
+tion, and the overall return. This model held strong explanatory
+power and represents a potential new framework from which SaaS
+company prices can be reviewed and expected values created.
+Despite these empirical findings, a large number of factors re-
+main highly qualitative. These elements are likely the more im-
+portant value drivers which underpin the equation promoted. This
+includes, but is not exclusive to the subscription model employed by
+these companies which creates predictable, reliable revenue whilealso reducing customer acquisition cost. As demonstrated, this is
+not the sole attraction with technology related benefits including
+capital efficiency and scalability also important factors. Addition-
+ally, the macroeconomic story in the last 12 months observed is
+positive, with SaaS companies representing the beneficiaries of a
+wider market slump and intervention thereafter.
+7 CONCLUSION
+In conclusion, the SaaS industry has enjoyed a meteoric rise in
+public valuations over the past number of years. It has not only
+outstripped industry benchmarks such as the S&P 500 and Nasdaq,
+but has improved upon internal metrics such as EV/Revenue and
+profitability as highlighted by industry research explored. [20]
+The SaaS Index constructed as part of the empirical study of this
+paper demonstrated that this rapid growth is seemingly contrary
+to two of the core pillars of fundamental investment theory. The
+Index, provided a significantly higher return profile in respect to
+risk contrary to the Capital Asset Pricing Model and provided anti-
+thetical outcomes to the Fama-French factors highlighted. While
+it is recognised that the conditions under which the SaaS Index
+was reviewed are not the ideal for either model, it is necessary that
+there exists some model which can provide explanatory power for
+this growth if the traditional models fail to.
+This paper identified several further variables, as highlighted by
+industry research and practice which seem to have a stronger rela-
+tionship with the expected return of the SaaS Index. The Enterprise
+Value in relation to revenue and the relative size of the company
+were both positively correlated with the return of the companies
+in the Index and yielded strong explanatory power in the linear
+regression model.
+Ultimately, the paper recognises that the current backward-
+looking sample that the Index represents is not sufficient to con-
+clude future predictions of expected returns. Rather, it is beneficial
+to recognise that there are key underlying characteristics of SaaS
+companies which make these metrics relevant to price. The latter
+sections of this paper have identified some such characteristics such
+as the subscription model, ability to scale, and demonstrated their
+impact on the attractiveness of the sector.
+The paper ultimately contested that the combination of recurring
+revenue structures and the ability to scale rapidly and effectively
+has helped to spur on this growth. That the qualitative factors
+which underpin the SaaS industry are core drivers of quote.
+Remarks
+Overall, this paper has sought to add to the blossoming literature
+and theoretical frameworks surrounding SaaS companies and their
+valuations.
+Naturally, as the industry is young, exciting, and enjoyed a spec-
+tacular bull-run in the markets, most of the data is clouded by these
+movements and is ultimately limited to this relatively brief period
+of time. As the market matures and constituents become older com-
+panies, the market will likely settle. It would be folly to believe
+that the current bull run will last forever. The likelihood is that the
+models employed by this paper will not be long term solutions but
+rather have their place in this current stage of the cycle.
+The idea behind theories such as the Capital Asset Pricing Model
+and Fama-French’s model is that they close in on universal truths
+161
+
+=== PÁGINA 11 ===
+Stuck Inside a Cloud: Do SaaS business models require a rethink of the traditional approach to public market
+valuation? ICEEG 2022, April 27–29, 2022, Plymouth, United Kingdom
+about investment theory. By creating too many conditions or qual-
+ifications, the simplicity and ultimate value of these theories be-
+comes lost. These additional factors should be taken as a practical
+response to the short terms requirements of the sector, supported
+by the underlying strength of attractive characteristics.
+Research
+How Do SaaS Companies Perform in a Recession?, SaaS Capital
+Weighting the Capital Efficiency of Private B2B SaaS Companies,
+SaaS Capital
+What’s Your SaaS Company Worth, Whitepaper, SaaS Capital
+Software Equity Group, Annual Report 2021, Software Equity
+Group
+Yahoo Finance
+Capital IQ
+Bloomberg Terminal
+REFERENCES
+[1]Blanco B, (2012). The use of CAPM and Fama and French Three Factor Model:
+portfolios selection. Public and Municipal Finance,[2]Cohen B & Neubert M, 2019, The influence of pricing strategies on corporate
+valuation, Int. J Teaching and Case Studies, Vol. 10, No. 2
+[3]Dyk, V, Vuuren, G, Heymans, A. (2014). Hedge Fund Performance Evaluation
+Using The Sharpe And Omega Ratios. 13. 485-512. 10.19030/iber.v13i3.8588.
+[4]Fama, E., & French, K. (1992). The Cross-Section of Expected Stock Returns. The
+Journal of Finance, 47(2), 427-465. doi:10.2307/2329112
+[5] Feld B, 2015, The Rule of 40% For a Healthy SaaS Company, Feld Thoughts
+[6]Hoffman L, & Maloney, J (2020) For Many Big Businesses, 2020 Was a Surprisingly
+Good Year, Wall Street Journal
+[7]https://www.wsj.com/articles/for-many-big-businesses-2020-was-a-
+surprisingly-good-year-11608310791
+[8] Lo, W, (2002), The Statistics of Sharpe Ratios Financial Analysts Journal
+[9]Ma, D., & Seidmann, A. (2015). Analyzing Software as a Service with Per-
+Transaction Charges. Information Systems Research, 26(2), 360-378. Retrieved
+July 9, 2021, from http://www.jstor.org/stable/24700122
+[10] Maverick, J.B., (2021) Should You Pay More Attention to the EV/EBITDA or P/E
+Multiple?, Investopedia
+[11] Miller, A, (2020), The Return of Capital Efficiency, Medium
+[12] Sharpe, W.F. (1964), CAPITAL ASSET PRICES: A THEORY OF MARKET EQUI-
+LIBRIUM UNDER CONDITIONS OF RISK*. The Journal of Finance, 19: 425-442.
+https://doi.org/10.1111/j.1540-6261.1964.tb02865.x
+[13] Smith C, (2021), Wall Street rebounds as markets adjust to Fed rate rise outlook,
+Financial Times
+[14] Tzou T, (2018) Subscribed Portfolio
+[15] Valentine, J, (2020), Three Reasons SaaS Companies Will Win In The Work-From-
+Home Economy, Forbes
+162
+

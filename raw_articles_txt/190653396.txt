@@ -1,0 +1,1162 @@
+=== PÁGINA 1 ===
+SPECIAL ISSUE PAPER
+Digital sustainable business models: Using digital
+technology to integrate ecological sustainabilityinto the core of business models
+Timo Phillip Böttcher1| Sarah Empelmann2|
+Jörg Weking1,3| Andreas Hein1| Helmut Krcmar1
+1School for Computation, Information and
+Technology, Technical University of Munich(TUM), Garching, Germany
+2School of Management, Technical University
+of Munich (TUM), Munich, Germany
+3Queensland University of Technology (QUT),
+Brisbane, Queensland, Australia
+Correspondence
+Timo Phillip Böttcher, School for
+Computation, Information and Technology,
+Technical University of Munich (TUM),
+Boltzmannstraße 3, 84578 Garching,Germany.
+Email:
+timo.boettcher@tum.de
+Funding information
+Bundesministerium für Wirtschaft undEnergie, Grant/Award Number:
+01MK20001B; Deutsche
+Forschungsgemeinschaft, Grant/Award
+Number: 464594907Abstract
+When presented with the latest statistics on global
+warming, it becomes evident that ecological sustainability will
+be equally important as economic sustainability for compa-
+nies. A new wave of start-ups shows that ecological sustain-ability can be integral to a business model (BM) without
+compromising economic success. Like start-ups that designed
+their BMs to be ecologically and economically sustainable,
+incumbents also need to undergo two fundamental transfor-
+mations in parallel: digital and sustainable BM transformation.
+While each transformation alone is considered demanding,
+we examined 31 start-ups to develop a taxonomy of digitalsustainable BMs to understand how companies can master
+these complementary challenges and provide guidelines on
+achieving ecological and economic sustainability by
+implementing digital BMs. We use this taxonomy to derive
+four distinct archetypes of how sustainability can be an inte-gral part of the BM: Sustainable Software Solutions ,Sustain-
+able Product-Service Systems ,Sustainability Intelligence ,a n d
+Digital Sustainable Platforms . For each archetype, we reveal
+the role of digital technology in creating ecological BMs and
+how these BMs create sustainable value from an ecological,
+economic, and technological perspective. Therefore, we go
+beyond using digital technology to optimise production orReceived: 31 January 2022 Revised: 5 January 2023 Accepted: 16 March 2023
+DOI: 10.1111/isj.12436
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which
+permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and nomodifications or adaptations are made.
+© 2023 The Authors. Information Systems Journal published by John Wiley & Sons Ltd.
+736 Inf Syst J. 2024;34:736 –761.
+wileyonlinelibrary.com/journal/isj
+
+
+=== PÁGINA 2 ===
+logistics or enable remote work and implement sustainability
+as an integral part of the core logic of the organisation and its
+identity. For practice, our strategy guidelines contribute to
+creating a sustainable reality based on digital technology
+implemented in the BMs.
+KEYWORDS
+business model, business model archetypes, digital sustainable
+business model, green information systems, sustainability,taxonomy
+1|INTRODUCTION
+Companies are the most significant contributors to climate change and need to balance ecological sustainability to
+limit their environmental impact while being profitable to meet economic needs. Therefore, most companies use the
+easy way of using the economic surplus to offset carbon emissions, plant trees, or remove plastic waste from the
+oceans. However, the impact of such initiatives is limited to containing the environmental damage created ratherthan addressing its causes. Furthermore, measures, such as offsetting emissions mainly influence the public percep-
+tion of acting sustainably rather than addressing its cause (Pizzetti et al.,
+2021 ; Walker & Wan, 2012 ) and are often
+only pursued as long as companies are economically successful.
+A new wave of highly profitable start-ups shows that ecological sustainability can be integral to a business model
+(BM) without compromising economic success. For example, LettUs Grow has digitally controlled farms that optimise
+resource usage through data analytics. Tado/C14offers a digital automation service to ensure sustainable heating, and
+Octopus Energy uses a digital platform to make sustainable energy cheaper. By utilising digital sustainable BMs
+(Bocken et al., 2014 ; Schaltegger et al., 2016 ), including the value proposition, value delivery, and value capture
+(Ritter & Lettl, 2018 ; Teece, 2010 ), those start-ups do not curb to environmental damage reactively but use digital
+technologies proactively to tackle global warming as an integral part of their BM.
+While these start-ups designed their BMs from scratch to be ecologically and economically sustainable, incum-
+bents often need to undergo two challenging transformations in parallel: digital and ecological BM transformation
+(Vial, 2019 ; Watson & Kranz, 2021 ). Each transformation fundamentally affects how they do business (Teece, 2010 )
+and how they identify as an organisation (Wessel et al., 2021 ). This conundrum reveals why incumbents are reluctant
+to engage in ecological transformations and focus on digital transformation to ensure competitiveness (Lokuge
+et al., 2021 ; Sedera et al., 2017 ).
+When confronted with the latest statistics on global warming (Pörtner et al., 2022 ), it becomes evident that
+incumbents can no longer compromise on ecological sustainability (Gregori & Holzmann, 2020 ). Start-ups, such as
+LettUs Grow orTado/C14show that the value proposition can go beyond cost efficiency and legal compliance (Sedera
+et al., 2017 ) and become ecologically sustainable through digital technologies. These start-ups illustrate that ecologi-
+cal and economic sustainability are complementary and can be integral to a company's BM (Lokuge et al., 2021 ).
+Hence, as most companies are currently transitioning towards a digital BM (Vial, 2019 ), they can integrate ecological
+sustainability into their BMs as part of the same transformation, creating a new value proposition and reducing effortand costs compared to two separate transformations.
+Similar to practise, information systems (IS) research has usually considered the challenges of digital and ecologi-
+cal transformation separately. The literature on digital transformation uses the BM as a mediating construct to ana-lyse the value of digital technology and successful economic digital BMs (e.g., Al-Debei & Avison,
+2010 ; Zott &
+Amit, 2007 ). In turn, the literature on ecological sustainability in IS has been looking for opportunities on how digitalBÖTTCHER ET AL. 737
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 3 ===
+technology influences operational processes or transformations towards a more sustainable economy and society
+(e.g., Hedman & Henningsson, 2016 ; Malhotra et al., 2013 ).
+Although we see examples of ecological digital BMs in practice and calls to integrate digital transformation with
+ecological sustainability (Lokuge et al., 2021 ), we lack an integrative perspective on how companies can use digital
+technologies to become both ecologically and economically sustainable (e.g., George et al., 2021 ; Gregori &
+Holzmann, 2020 ). By combining research on digital BMs and ecological BMs, we explore how start-ups use digital
+technologies to create economically and ecologically sustainable BMs. Learning from start-ups enables incumbents
+to combine ecological and economic aspects in their digital transformation efforts rather than going through two
+separate transformations, making them part of the solution and not the problem of global warming. Hence, we pro-pose the following research question: What is the role of digital technologies in creating digital BMs that integrate eco-
+logical and economic value creation?
+To this aim, we first built on 31 start-ups to develop a taxonomy that identifies and structures the dimensions
+and characteristics of digital sustainable BMs (Nickerson et al.,
+2017 ). We use the BM as the unit of analysis to
+operationalise business strategy and strategy formation (Lanzolla & Markides, 2021 ). Second, we use the taxonomy
+to perform a qualitative cross-case analysis (Miles et al., 2020 ) and derive salient archetypes of how ecological and
+economic sustainability can be an integral part of the BM. Afterwards, we continue to discuss the role of digital tech-nology in creating both ecological and economic value for each archetype.
+Our results contribute to the research of digital and ecological BMs and their transformation by showing how
+digital technology can create both ecological and economic sustainability (Nambisan,
+2017 ; Satalkina &
+Steiner, 2020 ). Therefore, we go beyond using digital technology to optimise production or logistics or enable
+remote work and implement ecological sustainability as a core logic of the organisation and its identity. Our strategy
+guidelines contribute to creating a sustainable reality based on the digital technology implemented in the BMs andrespond to different calls in research to provide more practicable insights on sustainability in IS (Malhotraet al.,
+2013 ; Seidel et al., 2017 ). For practice, the BM archetypes and value creation strategies support BM changes
+to master the ecological transformation and digital transformation together.
+2|THEORETICAL BACKGROUND
+We first discuss research on the three intersections of BM, IS, and ecological research to investigate digital sustain-
+able BMs (see Figure 1). First, we define the “business model ”as our unit of analysis and how digital technologies
+enable digital BMs. Second, we present related work on ecological and sustainable BMs. Third, we briefly discusshow IS research has addressed ecological challenges in Green IS.
+2.1 |Business models and digital business models
+A BM describes how value is created, delivered to the customer, and captured for the company (Teece, 2010 ). The
+BM consists of three dimensions: value proposition, value creation and delivery, and value capture (Teece, 2010 ). It
+is a mediating construct that aligns general business strategy and operational business processes (Al-Debei &
+Avison, 2010 ). In this tactical role, BM is essential to achieving a competitive advantage, which determines company
+performance. Consequently, different BM designs yield different competitive outcomes (Lanzolla & Markides, 2021 ).
+In sum, the BM design and changes thereof are critical decisions that influence economic success.
+To remain economically successful in the course of the digital transformation, companies are required to take
+advantage of digital technologies and integrate them into the BM (Amshoff et al., 2015 ; Bleicher & Stanley, 2016 ).
+Hence, companies need to develop a compelling BM, as digital technologies have no strategic value until they are
+leveraged by the BM (Chesbrough, 2010 ; Zott et al., 2011 ). To develop a compelling BM, companies need to738 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 4 ===
+understand the affordances provided by digital technologies (Bleicher & Stanley, 2016 ). If successful, digital technol-
+ogies and BM designs are a source of competitive advantage and superior company performance(Chesbrough,
+2010 ; Teece, 2010 ).
+The resulting digital BMs (DBMs) are defined as BMs where digital technologies fundamentally change the fea-
+tures of the BM and enable resource optimization (Bican & Brem, 2020 ; Veit et al., 2014 ). Steininger ( 2019 ) offers a
+classification of DBMs presented in Table 1. The classification describes four roles of IT for value creation (facilitator,
+mediator, outcome, and ubiquity) based on the BM pillars of infrastructure management, customer interface, and
+value proposition (Osterwalder et al., 2005 ). IT-facilitated BMs integrate digital technology in infrastructure manage-
+ment to support efficiency and facilitate operations (Steininger, 2019 ). IT-mediated BMs integrate digital technology
+in the infrastructure management and the customer interface to enable new operations and digital sales channels,
+while the primary value is still created with physical products or services (Steininger, 2019 ). When the DBM is
+designed around creating and selling digital products, such as software or hardware, the role of IT is classified as“Outcome ”(Steininger,
+2019 ). In entirely digital BMs, where all elements of a BM are digital, such as digital plat-
+forms, IT becomes “ubiquitous ”(Steininger, 2019 ).Business Model
+Ecological
+SustainabilityDigital Technologyeconomical
+ecologica
+l technologicalDigital
+BMSustainable
+BM
+Green ISDigital
+Sustainable
+BM
+FIGURE 1 Intersection of perspectives covered in this paper.
+TABLE 1 Information technology use in start-up business models (Steininger, 2019 ).
+Facilitator Mediator Outcome Ubiquity
+BM definition IT-facilitated BM IT-mediated BM IT-bearing BM Digital BM
+Integration of IT Supporting activity by enhancing
+efficiency and facilitatingoperationsChannel to the
+customer andenabling newoperationsIT products are
+created and sold(e.g., software orhardware)Completely digital
+products (solddigitally)
+Affected BM
+componentsInfrastructure management Infrastructure
+management and
+customer interfaceInfrastructure
+management and
+value proposition/
+productEntire BMBÖTTCHER ET AL. 739
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 5 ===
+2.2 |Sustainable business models
+Sustainable BMs are designed around economic, ecological, and social value, also known as the triple bottom line
+(Elkington, 1998 ; Evans et al., 2017 ; Schaltegger et al., 2016 ; Upward & Jones, 2015 ). This is also reflected in the def-
+inition of sustainable BMs, which comprises a sustainable value proposition, value creation and delivery, and eco-
+nomic value creation under the sustainable management of social, environmental, and economic capital (Schalteggeret al.,
+2016 ). Thus, all BM elements (i.e., value proposition, value creation and delivery, and value capture) must be
+sustainable (Boons & Lüdeke-Freund, 2013 ; França et al., 2017 ).
+Research has identified archetypes of sustainable BMs that range from a product technology perspective to a
+functional perspective to a company perspective. From a product technology perspective, sustainable BMs reduce
+(e.g., efficiency maximisation), reuse (e.g., closed-loop production), or replace (e.g., substitution with renewables) the
+resources needed to manufacture or operate products (Lüdeke-Freund et al., 2016 ). Efficiency maximisation refers
+to improving resource or energy use, reducing emissions or waste, and implementing sustainable supply chains byredesigning products or processes (Lüdeke-Freund et al.,
+2018 ). Closed-loop production creates new value from
+waste, for example, by reusing, recycling, or remanufacturing (Clinton & Whisnant, 2019 ). Substitution with renew-
+ables replaces finite with non-finite renewable resources (Lüdeke-Freund et al., 2018 ).
+From a functional perspective, sustainable BMs replace the need for ownership by providing services to deliver
+the proposed functionality (functionality delivery), ensure sustainability along the entire supply chain (stewardship),
+or encourage sustainable consumption (sufficiency encouragement) (Bocken et al., 2014 ). Delivering functionality
+instead of ownership, for example, through sharing options and usage-based pricing, concentrates on the functional
+customer need in the value proposition (Clinton & Whisnant, 2019 ). The stewardship pattern aims to ensure sustain-
+ability throughout the supply chain, including suppliers, employees, customers, and the environment, for example,through ethical sourcing (Wells,
+2015 ). Promoting sufficiency aims to change customers' consumption patterns to
+slow down resource use, for example, by promoting long-life products (Clinton & Whisnant, 2019 ).
+From a company perspective, sustainable BM patterns include scale-up solutions, inclusive value creation, and
+repurposing for society and the environment (Bocken et al., 2014 ; Lüdeke-Freund et al., 2016 ). These patterns focus
+on the responsibility of the company to improve its sustainability (Bocken et al., 2014 ). Scale-up solutions aim to pro-
+vide and establish sustainable value at larger scales. This scaling is achieved with incubators, open innovation, or
+franchising models (Bocken et al., 2014 ; Clinton & Whisnant, 2019 ). Inclusive value creation is achieved through
+shared or collaborative consumption to reduce unsustainable impacts (Brenner, 2018 ; Schaltegger et al., 2016 ). The
+pattern of repurposing for society and the environment focuses on environmental and social benefits rather than
+economic benefits, using social, non-profit, or hybrid models, such as cooperative ownership and net-positive initia-tives. (Bocken et al.,
+2014 ; Clinton & Whisnant, 2019 ; Lüdeke-Freund et al., 2016 ).
+2.3 |Sustainability in IS research
+IS research has not yet considered ecologically sustainable BMs. However, ecological sustainability is being
+addressed in IS research as Green IS (Elliot., 2011 ; Malhotra et al., 2013 ). Green IS investigates how digital technolo-
+gies can change business processes towards more ecological sustainability (Watson et al., 2008 ) and emerged
+because digital technology can be a contributor and a possible solution for ecological sustainability challenges
+(Elliot., 2011 ; Melville, 2010 ). It focuses primarily on company structures or individuals and how their behaviour
+influences business and societal transformation (Elliot., 2011 ; Hedman et al., 2012 ). For example, it defines the func-
+tional affordances necessary for an ecological sustainability transformation and changing organisational practices
+(Hanelt et al., 2017 ; Seidel et al., 2013 ).
+Chen et al. ( 2008 ) built a framework grounded on the corporate sustainability framework (Dyllick &
+Hockerts, 2002 ), describing how digital technology contributes to ecological sustainability by defining three740 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 6 ===
+dimensions: equity, efficiency, and effectiveness. Equity is a value principle aiming at a fair distribution of resources,
+especially with regard to future generations, but also with regard to the consequences of climate change that are
+unfairly distributed across the globe (Dyllick & Hockerts, 2002 ). It places sustainability at the heart of organisations.
+Digital technologies are tools for informing and educating relevant stakeholders about these values and the
+corresponding actions (Watson et al., 2008 ).
+Efficiency targets economic and ecological benefits by reducing the cost of value creation. Usually, this refers to
+reducing the resource input required to create the product or service. This reduces costs, such as raw material costs,
+and also reduces the waste of resources, such as unused raw materials, reducing power usage or carbon emissions.
+Digital technologies enable efficient operations, for example, through analytics-based route optimization of the logis-tics network (Chen et al.,
+2008 ; Dyllick & Hockerts, 2002 ; Watson et al., 2008 ). In contrast, effectiveness aims for an
+ecological sustainable solution in the long term (Chen et al., 2008 ; Watson et al., 2008 ). Effectiveness means not only
+reducing negative ecological impacts (i.e., increasing efficiency), but also eliminating any negative impacts on theenvironment. Effectiveness through digital technology is achieved, for example, through telecommuting, which elimi-nates the need to commute to work, thus eliminating carbon emissions associated with transportation.
+As digital technologies can also support the implementation of ecologically sustainability and the creation of eco-
+logical sustainable value (Bican & Brem,
+2020 ; Seele & Lock, 2017 ), George et al. ( 2021 ) introduced the term digital
+sustainability, describing entrepreneurial or managerial activities that incorporate digital technologies to create eco-
+logically sustainable value. The term aims at the strategic implications of ecological sustainability and suggests having
+sustainable value at the core of the value proposition, thus the core of the BM (George et al., 2021 ).
+However, little attention has been paid to this combination of digital and ecological sustainable BM, that is, eco-
+logical and economic performance. Using digital technology can support the realisation of the United Nations Sus-
+tainable Development Groups (UNSDGs) (Bican & Brem, 2020 ; George et al., 2021 ) and create business value. In
+combination, there is vast potential for digital sustainable BMs to create socio-environmental value using digitaltechnology (Gregori & Holzmann,
+2020 ). Since this intersection is only emerging, it is unclear how ecological sustain-
+ability and digital technology can be combined in BMs.
+3|RESEARCH METHODOLOGY
+Our research aims to identify and structure archetypes and characteristics of digital sustainable BMs that contribute
+to achieving an ecological sustainable economy by leveraging digital technologies in BMs and opening up future
+research avenues for scholars. Therefore, we follow a two-step research approach: First, we develop a taxonomy fol-lowing Nickerson et al. (
+2017 ) and Kundisch et al. ( 2021 ). In IS and management research, taxonomies are proven to
+structure emerging or complex phenomena, such as sustainable BMs (Kundisch et al., 2021 ). We identify the charac-
+teristics of digital sustainable BMs from a sample of 31 start-ups and structure them in the taxonomy. Second, wederive patterns in combinations of these characteristics based on qualitative cross-case analysis (Cao et al.,
+2018 ;
+Yin,2018 ). The patterns show different archetypes of digital sustainable BMs that reveal similarities and differences
+in how companies create, capture, and deliver sustainable value.
+3.1 |Research scope
+We define the scope of our empirical analysis along the technological dimension, based on (Steininger, 2019 ), and
+the ecological dimension, based on Chen et al. ( 2008 ), and the economic dimension, as depicted in Figure 2. First,
+our analysis only includes start-ups that employ digital technologies as a fundamental part of their BM. We use theframework of IT-associated entrepreneurship to assess the use of digital technology in the start-ups' BMs
+(Steininger,
+2019 ). To ensure the appropriate integration of digital technologies into the BM, we exclude BMs usingBÖTTCHER ET AL. 741
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 7 ===
+digital technology as a facilitator for value creation, since today nearly every company uses digital technology in its
+business infrastructure to enhance efficiency. Second, we focus the scope of the sustainability dimension on effi-
+ciency and effectiveness (Chen et al., 2008 ). We exclude equity because of its inherent complexity regarding time
+and space. Eco-equity must be considered both globally (e.g., fairness in addressing the impacts of climate change in
+Africa and Asia created in Europe and the Americas) and over time (e.g., fairness for future generations). Third, we
+look for financially viable BMs that are designed to be profit-driven to ensure that BMs are economically relevantand meet “the needs of the present. ”(United Nations General Assembly,
+1987 , p. 16).
+3.2 |Sample and data collection
+We collected our case sample of start-ups from Crunchbase. Crunchbase has proven to be a valuable data source for
+IS research by providing company descriptions and classifications of young, mostly digital start-ups with innovativeBMs (Miric et al.,
+2021 ). Start-ups are known for creating innovations and building successful BMs around them-
+selves (Nambisan, 2017 ; Satalkina & Steiner, 2020 ). Thus, start-ups are also a driving force for disrupting industries
+towards ecological sustainability (Schaltegger et al., 2016 ). We only included start-ups with ecological sustainable
+value propositions that are between 4 and 10 years old to ensure that they have solidified their BM (Innocenti &
+Zampi, 2019 ) and that they can still be considered start-ups (Kollmann et al., 2020 ). The ecological sustainable value
+propositions were evaluated based on ecological efficiency and effectiveness (Chen et al., 2008 ). The sample only
+includes start-ups headquartered in Europe to allow comparability regarding funding opportunities and governmental
+support.
+Based on these criteria, we collected a sample of 50 start-ups. Six start-ups (e.g., Uniper ,Enapter , and Fastned )
+were excluded since they went public and were no longer considered start-ups (Kollmann et al., 2020 ). Furthermore,
+two start-ups ( Otovo and Karma ) did not provide an English website and had to be excluded. One website was
+unavailable, and the start-up was thus deleted from the dataset ( Jeff).
+Ubiquity
+Outcome
+Mediator
+Facilitator
+Equity Efficiency EffectivenessResearch scope
+Out of scope
+EcologicalTechnological
+Economical
+For profitNon-profit
+FIGURE 2 Definition of the research scope.742 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 8 ===
+The remaining start-ups were assessed regarding their integration of digital technologies in the BM based on the
+classification of Steininger ( 2019 ). We excluded start-ups that only facilitate and support the use of IT because digital
+technologies are not an essential part of their BM. In addition, IT-mediating BMs that only implement IT in their cus-tomer channel for e-Commerce activities such as online stores or online configurators were excluded due to the little
+differential value achieved by e-Commerce in today's business environment. On the basis of these criteria, 10 start-
+ups were eliminated. Eventually, the final sample consisted of 31 start-ups.
+1
+3.3 |Taxonomy development
+We applied the taxonomy development method of Nickerson et al. ( 2017 ) to develop a digital sustainable BM taxon-
+omy. Initially, we defined the meta-characteristic and ending conditions. As visualised in Figure 1, the taxonomy
+combines three constructs: BMs, digital technology, and ecological sustainability. To structure the characteristics ofsuch digital sustainable BMs, we chose the BM as a conceptual representation to be our meta-characteristic (Massa
+et al.,
+2017 ). We adopted the eight objective and five subjective conditions suggested by Nickerson et al. (2013)
+regarding the ending conditions.
+We created the taxonomy in an iterative process. Overall, we performed seven iterations. For the first iteration,
+we chose the conceptual-to-empirical approach. We derived dimensions and characteristics from our review of
+73 papers.2
+We applied the empirical-to-conceptual approach in the following four iterations until the ending conditions
+were fulfilled. In each round, a subset of eight start-ups was chosen (seven in the last round). A structured qualitative
+analysis of the data collected was conducted (Miles et al., 2020 ). We collected data from company websites,
+Crunchbase, LinkedIn, Dealroom, and news articles that focused on reliable, business-oriented information sources.If only a part of the start-up provides an ecological sustainable offering, only this part is considered for the analysis
+(e.g., Enfuce's My Carbon Action).
+The data from the structured qualitative analysis was coded using the taxonomy from each previous step. More
+dimensions and characteristics were added, and existing ones, if necessary, were merged, split, or removed. For some
+dimensions, we depart from Nickerson et al.'s “mutually exclusiveness ”criterion Nickerson et al. (
+2017 ). For example,
+a combination of ecological sustainability patterns is required to achieve overall sustainability (Bocken et al., 2014 ).
+Therefore, some dimensions emerge that allow multiple characteristics to capture the complexity of digital sustain-
+able BM while keeping the taxonomy concise and comprehensive (Kundisch et al., 2021 ; Püschel et al., 2016 ).
+After we completed this iterative process for all four sub-samples, we classified all 31 start-ups in the taxonomy
+to verify that all BMs can be classified. All ending conditions were met, as no changes were needed for this verifica-
+tion. To arrive at the final taxonomy, we took a final conceptual-empirical approach to achieve usefulness and
+desired embeddedness in the various research streams on economic, ecological, and digital value creation.3There-
+fore, we aggregated several dimensions to avoid duplicate information. For example, we initially separated the reve-nue model and pricing strategy but aggregated the characteristics into one dimension to provide a concise
+description of the value capture mechanisms.
+3.4 |Digital sustainable business model archetypes
+In our second step, we performed a qualitative cross-case analysis (Miles et al., 2020 ) to identify archetypes of digital
+sustainable BMs. Such a qualitative approach is more suitable for small-to-medium datasets like ours.
+1Appendix S1 includes the list of start-ups included in the case sample.
+2Appendix S1 includes a description of our literature review method.
+3Appendix S1 shows the evolution of the taxonomy through the seven iterations.BÖTTCHER ET AL. 743
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 9 ===
+We performed a variable-based cross-case analysis (Miles et al., 2020 ). Variable-based analysis extends our
+research design to identify the characteristics and elements of digital sustainable BMs and classify them in a taxon-
+omy. The taxonomy developed provides a set of variables to code the cases and for subsequent cross-case analysis.One author created the dataset consisting of the start-ups used to develop the taxonomy and coded which charac-
+teristics from the taxonomy apply to their BM.
+4
+The variable-based cross-case analysis uses the coded variables and their interrelationships to search and com-
+pare data patterns rather than explicit cases (Miles et al., 2020 ). We looked for patterns by searching for similarities
+to form initial groups and then searching for differences between those groups (Eisenhardt, 1989 ). We progressed
+through the dataset in four steps in five workshops with all authors. First, we started with the existing classificationsfor sustainable and digital BMs that define our research scope: The eco-dimensions (Chen et al.,
+2008 ) and the role
+of IT in value creation (Steininger, 2019 ). This grouped BMs based on their overall ecological purpose and the generic
+use of IT. This initial step revealed that if IT is used as a mediator, the BM creates eco-effective value, while if IT isubiquitous in the value creation, the BM serves as an enabler for ecological sustainability.
+Second, we differentiated the cases based on ecological sustainability patterns. This step revealed that eco-
+effective BMs follow the breakthrough and aikido strategies for competitive differentiation because they produce
+sustainable alternatives to market-dominant products. The aikido strategy is especially dominant if IT serves as amediator in value creation. These cases also leverage a value-creating network. Furthermore, we found that the open
+BM strategy is used in approximately half of BMs with ubiquitous IT use. Third, we compared the cases based on the
+dimensions of their value proposition, especially their digital offering. In this way, we determined how the digital ele-ments of the BM relate to the physical products and services, which ultimately led to the formation of the four
+archetypes. Finally, we completed the cross-case analysis by adding the BM dimensions revenue model, role in value
+creation, and differentiation strategy, specifying the details of the four BM archetypes.
+During the workshops, we used spreadsheets to compare multiple variables simultaneously (Eisenhardt,
+1989 ).
+We used colour coding to facilitate the identification of patterns that combine similar coded variables. By sorting
+and filtering, we applied the three steps to iterate through the dataset. Each step resulted in variable combinations
+discussed in the group and ultimately aggregated to create the BM archetypes. In cases of ambiguity, we referredback to the raw data collected to better understand each case.
+4|RESULTS
+4.1 |Taxonomy of digital sustainable business models
+The final taxonomy of digital sustainable BMs consists of three categories ( Value Proposition ,Value Creation and
+Delivery ,and Revenue Model ) and seven dimensions with three to seven characteristics each (see Table 2).5In addi-
+tion to categories, their dimensions, and characteristics, we added the three perspectives guiding our research scopeto illustrate the perspective (technological, ecological, or economical) the respective dimension refers to.
+4.2 |Archetypes of digital sustainable business models
+Based on the developed taxonomy, we identified four archetypal patterns of digital sustainable BMs: Sustainable
+Software Solution ,Sustainable Product-Service System ,Sustainability Intelligence , and Digital Sustainable Platform .
+4The cases coding according to the taxonomy elements is available in the digital Appendix S1.
+5Appendix S1 explains the taxonomy divided according to its categories and defines each characteristic. We also included three exemplary applicatio ns of
+the taxonomy in Appendix S1.744 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 10 ===
+TABLE 2 Taxonomy of digital sustainable business models.
+Category Perspective Dimension Characteristics
+Value Proposition Technological Digital offering Physical product
+with embedded
+digital technology
+(13)Physical product and digital
+complement (16)Digital product and physical
+complement (4)Digital product (10)
+Ecological Eco-dimension Efficient (7) Effective (12) Enabling (12)
+Economical Differentiation strategy Aikido (16) Breakthrough (22) Customer centricity (27) Open BM (14) Value network (12)
+Value Creation
+and DeliveryTechnological Role of IT Mediator (5) Outcome (16) Ubiquity (10)
+Ecological Sustainability patterns Resource
+optimization (19)Servitization (12) Closed loop (10) Renewables (15) Stewardship (24) Sufficiency (18) Inclusive
+value (12)
+Economical Role in value creation Integrator (11) Orchestrator (4) Intermediary (6) Service & Support (10)
+Value Capture Economical Revenue model One-time sales (9) Recurring revenue (14) Commission (6) Advertising (1) Freemium / Add-on (8)BÖTTCHER ET AL. 745
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 11 ===
+Table 3defines each BM archetype and includes three exemplary start-ups. The numbers in parentheses after each
+archetype indicated the number of start-ups that gave rise to the archetypes.6
+4.2.1 | Archetype 1: sustainable software solution
+TheSustainable Software Solution archetype describes sustainable digital BMs that offer software to solve ecological
+sustainability-related problems for their customers. At the core of sustainable BMs is a software solution that solvesspecific ecological problems in BMs, business processes, or private consumption with a high environmental impact.
+Their digital offering puts the digital product first. They either have digital-only products (i.e., software) or create the
+proposed value through the software but need a physical complement such as sensors or actuators. Hence, IT is theoutcome of the value creation process that integrates into the value creation of customers' BMs. The software thus
+increases ecological sustainable efficiency or enables ecological sustainable effective BMs for the customers. The
+software solution optimises the resource utilisation of customers' BMs by reducing resource consumption, carbonemissions, and waste production, or enabling resource sharing. Value is captured almost exclusively through sub-
+scription models, which have proven successful for software BMs. For example, Beryl develops the software backend
+for micro-mobility sharing services, such as bike-sharing, offered by municipalities that want to establish sustainableTABLE 3 Definitions of the four digital sustainable business model archetypes.
+Archetype ( n) Definition Examples
+1 Sustainable software solution (6) Sustainable software solutions
+are software platforms or
+layers to optimise the impact
+of ecological sustainability ontheir customers' resourceconsumption and CO
+2
+production.Beryl, Tado/C14, Rocsole
+2 Sustainable Product-
+Service System (13)Sustainable Product-Service
+Systems are physical products
+enhanced by a digitalcomplement, such as mobileapps, to optimise theecological sustainability of
+product use.LettUs Grow, Zola Electric, Sono Motors
+3 Sustainability Intelligence (8) Sustainability Intelligence BMs
+combine data analytics withsustainability science toprovide transparency forcompanies' ecological
+sustainability assessment and
+sustainable decision-making.Arabesque, Plan A, Reactive Technologies
+4 Digital Sustainable Platform (4) Digital Sustainable platforms
+create multi-sided marketsthat facilitate ecologicalsustainable value co-creation
+with complementors, such as
+circularity, creating sustainablevalue networks.Tise, Too Good To Go, ClimatePartner
+6Appendix S1 includes an overview of which start-up is included in which archetype.746 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 12 ===
+micro-mobility concepts to reduce car traffic. The advantage of the value proposition of Sustainable Software Solu-
+tions over comparable non-digital BMs is the software's ability to collect and use data to optimise the sustainability
+of its customers' BMs. For example, Enerbrain analyses sensor data collected in buildings to optimise their ecological
+sustainability and improve living conditions.
+Thus, these digital sustainable BMs provide digital solutions to improve the ecological sustainability of their cus-
+tomers' BMs. Instead of delivering the final value (e.g., a physical product) in the value chain, such as operating thebike-sharing service themselves, sustainable software solution providers provide specific functionality, requiring cus-
+tomer centricity, to enable many effective sustainable BMs (e.g., bike-sharing services) or make the value creation of
+a BM more resource-efficient (e.g., housing).
+4.2.2 | Archetype 2: sustainable product-service system
+The archetype Sustainable Product-Service System represents IT-mediated (IT mediating the customer interface), and
+IT-bearing BMs (IT as the outcome of value creation) designed around a physical product. The product has a digital
+complement, such as IoT or mobile applications, to form a product-service system (PSS), optimising the usage of anecologically effective product. Characteristic of this archetype is the use of renewable energy and reusable resources
+(closed loop). The pioneering combination of physical and digital creates customer-centric PSSs that follow a break-
+through strategy by offering sustainable alternatives to common products, such as cars. The digital technology istightly coupled to the core product to enhance its ecological sustainability and allow for additional functionalities or
+BM elements (e.g., digital services). The digital complement specialises in making this product more efficient
+(e.g., less energy) and its use more effective (e.g., reliable harvest). Aiming at ecological sustainability as an increas-ingly important customer purchase criterion, companies of this archetype try to establish a sustainable product thatis fundamentally different from the competition and possibly represents the new industry standard.
+The BM's value proposition maximises resource efficiency and effectiveness through its PSS. For example,
+LettUs Grow produces vertical farms that require less water, less space, and less transportation than traditional agri-
+culture. The farms are equipped with sensors and actuators controlled by proprietary software. The software enables
+remote monitoring, automation, and optimization of the crop in terms of illumination, aeration, fertilisation, and irri-
+gation to maximise yield with minimal use of resources. In addition, Sustainable Product-Service Systems add function-
+ality to the physical product after it is sold and installed at the customer. For example, Sono Motors provides a mobile
+app complementing its solar-powered cars that enables its customers to share their cars with others without handing
+over physical keys, offering ride shares, power shares, and of course, usage analytics that are all targeted towardsincreasing the ecological sustainability of the already sustainable car.
+4.2.3 | Archetype 3: sustainability intelligence
+TheSustainability Intelligence archetype encapsulates purely digital, data-centric BMs that leverage the vast amounts
+of data available today combined with ecological sustainability and climate change science to provide insights forsustainability assessment and enable sustainable decision-making. It is exclusively a business-to-business BMs that
+creates transparency for different stakeholders regarding the ecological sustainability performance of their cus-
+tomers. To provide sustainability intelligence, the BMs follow a customer-centric strategy to enable sustainabledecision-making specific to the individual customer. For the BMs of the Sustainability Intelligence archetype, IT
+becomes ubiquitous as they are built around data analytics software that integrates and orchestrates various data
+sources from public sources, customer-internal systems, or installed sensors. Using data analytics techniques, such asmachine learning, computer vision, and artificial intelligence, the data analytics software enables the assessment of
+sustainability performance and sustainable decision-making by customers putting the BM in a service provider role.BÖTTCHER ET AL. 747
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 13 ===
+For example, Arabesque offers a data analytics platform that calculates different sustainability metrics
+about their carbon footprint, conformance with the UN Global Impact Principles (i.e., human rights, labour,
+environment, and anti-corruption), or their ESG (enviro nmental, social, and governance) score. The informa-
+tion provided by the platform ena bles investors to make ecological investment decisions, but Arabesque also
+helps rated companies analyse their performance relative to their peers. Similarly, Planet A analyses its cli-
+ents' carbon data on its data analytics platform and recommends individualised strategic options fordecarbonization.
+Other examples within this archetype promote real-time data monitoring, for example, from IoT sensor net-
+works, to automate the sustainable operation of networked IoT infrastructure. Reactive Technologies , for example,
+combines real-time monitoring and predictive analytics to manage power grids. Natural power fluctuations due to
+renewable generation require real-time grid control measures that are not necessary with fossil generation. Reactive
+Technologies' software provides the data transparency needed to operate renewable energy power grids and effec-
+tively manage power generation, storage, and the grid.
+4.2.4 | Archetype 4: digital sustainable platform
+Digital sustainable platforms are purely digital BMs that leverage multi-sided markets and apply them to a sus-
+tainability context to co-create ecological sustainable value with their complementors. This value proposition
+enables individuals and companies to behave or do business sustainably. By creating a digital platform, the
+BMs serve as intermediaries or matchmakers in a valu e network who receive a commission for each success-
+ful transaction on their platform. The purpose of these digital sustain able platforms covers a variety of sus-
+tainability goals, such as sufficien cy, through food waste red uction and overall responsible consumption;
+closed loops and circularity by enabling reuse and repurposing; and inclusive value creation through collabo-
+ration in the value network. Many are part of a circular economy ecosystem that seeks to give products and
+resources a new purpose instead of wasting them. Start-ups PHENIX and T o oG o o dT oG o , for example, offer
+digital platforms for their partners, such as restaurant s, supermarkets, or hotels, to sell surplus food that
+would otherwise go to waste to individuals at reduced prices. Tise is a digital platform for used clothing and
+other items. Compared to similar platform s, such as eBay Classifieds or Craigslist, Tise mixes classifieds with
+social networking elements that conn ect sustainably-minded users, thus l everaging cross-side and same-side
+network effects.
+Digital Sustainable Platforms also encourage sustainable consumption by rewarding users for their engagement
+on the platform (e.g., by selling or buying second-hand items). With points collected from transactions on the plat-
+form, users can buy discount codes or vouchers for (of course sustainable) partner companies. Such network effects
+that postulate sustainable behaviour across multiple actors can also be found in the BM of Climatetrade .Climatetrade
+offers a marketplace for carbon offsetting projects. Blockchain technology allows tracing offsetting investments. AnAPI for the Climatetrade platform enables companies to offer their customers the option of offsetting the carbon
+emissions generated by online purchases, for example, on the Climatetrade platform.
+Digital sustainable platforms are completely digital BMs (Steininger,
+2019 ) that enable their ecosystem to co-
+create sustainable value. Digital sustainable platforms orchestrate multi-sided markets and connect complementors
+and customers to make their respective BMs more sustainable. All complementary services on the platforms aim to
+increase ecological sustainability, making transactions between supply and demand more efficient (as they are digital)and more sustainable. For example, Tisemakes selling and buying second-hand clothing more accessible and efficient
+and creates circularity in fashion. Through the network effects in their ecosystems, the enablement of new sustain-
+able BMs scales, and eventually, the platform establishes itself in a larger (circular) ecosystem (e.g., fashion retailor food).748 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 14 ===
+5|DISCUSSION
+Sustainable start-ups leverage digital technologies to create ecological sustainable value propositions without
+compromising economic sustainability. These digital sustainable BMs improve the ecological sustainability of the
+start-ups' value creation instead of reducing the damage afterward, thus serving as prime examples for others to fol-
+low. Since research has considered the transformation towards ecologically sustainable BMs and digital BMs for eco-nomic sustainability separately, we intend to understand the complementary value of digital technologies and
+ecological sustainability by qualitatively assessing these digital sustainable BMs in detail to guide companies in their
+transformation towards sustainable and digital BMs, as both transformations are complementary.
+We decomposed the dimensions and characteristics of these digital sustainable BMs into a taxonomy. Based on
+the taxonomy, we derived four archetypes of digital sustainable BMs: Sustainable Software Solutions ,Sustainable
+Product-Service Systems ,Sustainability Intelligence , and Digital Sustainable Platforms . Analysing these archetypes based
+on their ecological, economic, and digital value, we clarify the role of digital technology in the value creation of digitalsustainable BMs (see Table
+4). Based on digital BM innovation research, we discuss how these digital sustainable
+BMs create value and competitive advantage, encouraging companies to engage in digital and ecological sustainable
+transformations.
+5.1 |Ecological, economic, and digital value
+Leveraging the combination of ecological sustainability and digital technology for competitive advantage comes
+down to the value creation of the BMs (Porter & Kramer, 2011 ; Rashid et al., 2013 ). The ecological value of digital
+sustainable BMs has various expressions in the different BM archetypes. We articulate the changes in value creation,thus the transformations of the BM towards the archetypes of digital sustainable BMs in Figure
+3.
+Sustainable software solutions enable more efficient and optimised resource depletion. The software enables
+optimisation, creating cost reductions due to reduced resource usage (e.g., energy or raw materials). Thus, the role ofdigital technology for ecological sustainability in this archetype is to optimise the BM's ecological efficiency. This has
+been a primary focus in Green IS research analysing how software can be used for optimisation, such as logistic effi-
+ciency (e.g., Watson et al.,
+2010 ). Unlike Chen et al. ( 2008 ) argument that such digitally achieved efficiencies are
+driven by economic decisions and “mimetic pressure ”to be sustainable, the start-ups represented in this archetype
+identify as sustainability enablers for their customers, creating ecological and additional economic value.
+Transforming the BM towards sustainable software solutions will be complex for non-software companies
+(Steininger, 2019 ). The changes in value-creation activities are profound and change organisational logics when
+adding ecological sustainable and digital value to the BM. However, some examples, such as Amazon, added
+software-based BMs to their BM portfolio, creating a new business unit or founding a new organisation for this BM(Teece et al.,
+2022 ). Thus, companies developing internal software solutions to increase their ecological sustainability
+can market this sustainable software solution similarly. However, these companies will and should look for sustain-
+able software solution providers that enable them to transform their BM into a digital sustainable BM by integrating
+these sustainable software solutions for (eco-)efficiency in their value creation (#1 in Figure 3) (Amit & Zott, 2001 ;
+Chen et al., 2008 ). For software companies to become sustainable software solution providers, the transformation is
+only ecological sustainable, not digital. Thus, the path is comparably shorter because the economic and digital value
+creation remain similar or even the same, but adds new ecological sustainable value to the value proposition(cf. Amit & Zott,
+2001 ).
+Sustainable PSSs support the creation of novelty value (Amit & Zott, 2001 ) with ecological sustainable products.
+In sustainable PSS creating ecological sustainable products, the digital value corresponds to the digital hardware(e.g., sensor systems) required to create sustainable infrastructure (e.g., energy storage). The economic value is cre-
+ated by differentiating the product from its competition based on its ecological value, addressing customers whoBÖTTCHER ET AL. 749
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 15 ===
+TABLE 4 Digital sustainable business model archetypes and the role of digital technology for sustainability.
+Business model
+archetypeSustainable software
+solution Sustainable product-service-systemsSustainability
+intelligenceDigital sustainable
+platform
+Ecologic value Reducing resource
+depletionCreating sustainable
+products and infrastructureEasing customer
+access to
+sustainable
+solutions; makingthem moreattractiveCreating knowledge
+and transparency
+about
+unsustainableoperations,enabling them tobecome sustainableEnabling customers
+to participate in a
+circular economy
+Economic value Cost-reduction
+through reduced
+resource usageAlternative solutions Simplify scaling and
+lower entry barriersIdentify inefficiencies,
+waste, and
+improvementopportunities inbusiness operationsGaining access to
+large customer
+bases profitingfrom networkeffects
+Digital value Software optimising
+resource
+consumptionCreating digital hardware
+necessary for sustainable infrastructureSoftware making
+sustain-ability
+accessibleData analytics to
+create knowledge
+about sustainability
+of companiesDigital platforms
+enabling circular
+consumption
+Role of digital technology
+for sustainabilityDigital tech. for
+optimizationDigital tech. for social good Digital tech. for
+delivery anddiffusionDigital tech. for
+knowledge creationDigital tech. for
+circularity750 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 16 ===
+desire more ecological sustainable and more efficient products. For this part of the archetype of sustainable PSS, dig-
+ital technology creates a hardware platform, fostering an ecosystem that builds on this hardware
+(cf. “complementaries ”in Amit & Zott, 2001 ). A BM innovation towards this BM archetype (#2 in Figure 3) affects
+the overall value proposition by focusing on the sustainable usage of the product and changing the user interaction,thus adding novel ecological sustainable and digital value to the value proposition (cf. Amit & Zott,
+2001 ).
+Sustainable PSSs can also lower the entry barriers for customers adopting sustainable products. Increasing the
+diffusion of sustainable products through digital technology increases the ecological impact of the BMs and theireconomic value as it attracts more customers. Therefore, in this part of the sustainable PSS archetype, digital tech-
+nology is an enabler of value delivery and diffusion, extending BM design patterns that serve the same purpose
+(Bocken et al.,
+2014 ). By adding the complementary digital value to the BM, the digital technology enhances the
+value proposition, for example, with digital services (#2 in Figure 3) as offered by Sono Motors, but also magnifies
+the economic value by attracting more customers. As digital technology is added as a complement on top of a physi-
+cal product to make it more ecologically sustainable, irrespective of the product's sustainability, the implementationdoes not interfere with the core value. This archetype can also be leveraged to create novelty (Amit & Zott,
+2001 )i n
+ecological and economic value creation for regular products by enabling more sustainable usage, as argued before.
+The sustainability intelligence BM archetype creates ecological and economic value based on the insights and
+knowledge resulting from data analytics. Here, the role of digital technology is knowledge creation. This mainly refersto identifying inefficiencies and waste that, when avoided, reduce costs, and increase efficient resource consump-
+tion. Based on the progress in data and process analytics, it extends the role of IS for eco-equity to provide access to
+ecological information (Chen et al.,
+2008 ) towards creating knowledge about sources and solutions to unsustainable
+business practices. It is comparable to the sustainable software archetype. However, sustainable software extends or
+automates activities in the value-creation process, while sustainability intelligence improves the value-creation pro-
+cess ex-ante.
+Integrating the value proposition of these sustainability intelligence providers into their value creation and oper-
+ational activities (#3 in Figure 3), companies gain information and knowledge about ecological and economic ineffi-
+ciencies that help to innovate their processes. As many companies are creating data-driven decision-makingprocesses and implementing process mining solutions or robot process automation, adding sustainability intelligence
+to these processes in the same transformation enables them to optimise sustainably for efficient value creation
+Digital Sustainable
+Business Model
+Implement 
+Sustainability 
+Intelligence along 
+the value creation 
+process
+Automate or extend value 
+creation activities with 
+Sustainable Software 
+SolutionsAdd a digital complement to 
+the value proposition to 
+create a Sustainable 
+Product-Service-SystemJoin a Digital 
+Sustainability Platform 
+for Circularity
+Value Proposition
+Value Creation ActivitiesEcologic and 
+economic value4
+3
+12
+FIGURE 3 How digital sustainable BMs enable digital ecological transformations.BÖTTCHER ET AL. 751
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 17 ===
+(Amit & Zott, 2001 ). On the other hand, the providers of these solutions, such as Celonis, SAP, or Oracle, that access
+the sustainability-relevant company data and have the analytical capabilities to optimise for economic efficiency can
+add ecologic sustainability to their analytics portfolio to enhance their value proposition towards sustainability,potentially creating lock-in effects for extant customers innovating towards ecologic sustainability (Amit &
+Zott,
+2001 ).
+Finally, digital sustainable platforms allow users and complementors to participate in a circular economy. Digital
+technology, as an enabler of these platforms, also serves as an enabler of circularity and, thus, of ecological value cre-
+ation. The economic value for the platform owner is created through transactions on the digital platform (Hein
+et al., 2020 ). Additional economic value is created for users and complementors who gain easy access to one
+another, profiting from savings or additional revenue created by the circularity (Adam et al., 2022 ; Ciulli et al., 2020 ).
+These digital sustainable platforms enable others to integrate ecological value in their BMs by providing digital ser-
+vices that allow others to act more sustainably.
+BM innovation towards digital platform BMs (#4 in Figure 3) and how digital platforms enable economic value
+creation for entire ecosystems have recently been a major topic in IS research (e.g., Hein et al., 2020 ; Sandberg
+et al., 2020 ). However, the creation of ecological value has not been considered, even though the opportunities
+offered by these digital sustainable platforms can propel the digital transformation towards ecological sustainabilityfor entire ecosystems. Digital sustainable platforms encompass all types of value creation discussed for the other
+archetypes. Some companies may innovate their BM to become a digital sustainable platform, but like the innovation
+to become a sustainable software solution provider, the BM innovation is complex (Steininger,
+2019 ). Many more
+companies will join and use the platforms (Hein et al., 2020 ; Sebastian et al., 2017 ), integrating their value creation
+into their own BMs to innovate towards more sustainability and benefit from the platform services and network
+effects, as these digital sustainable platforms make sustainable products and services more accessible forsustainable PSS.
+5.2 |Theoretical contributions
+Sustainability must balance the current needs of economic sustainability and future ecological implications (United
+Nations General Assembly, 1987 ). IS research has provided important insights into both challenges separately. The
+digital transformation literature explains how digital technology creates economic value and successful digital BMs
+(e.g., Chong et al., 2019 ). The Green IS literature explains how digital technology creates ecologically sustainable
+business processes and contributes to a sustainable and just society (e.g., Hedman & Henningsson, 2016 ). Our main
+contribution is to combine these two perspectives to achieve ecological sustainable development that meets the
+needs of both present and future generations (Evans et al., 2017 ; Lokuge et al., 2021 ).
+Following recent calls (Evans et al., 2017 ; Lokuge et al., 2021 ), we argue that it is beneficial for companies to
+simultaneously address the economically necessary digital transformation and the ecologically necessary sustainabletransformation. Hence, we addressed the research question of how digital technologies can help companies become
+more sustainable rather than compensating for their impacts after the damage is done. Our findings contribute to
+the digital and ecological sustainable BMs' research and their transformation by showing how digital technology cre-ates sustainable value and how start-ups lead this way (Nambisan,
+2017 ; Satalkina & Steiner, 2020 ). We identify four
+BM archetypes and discuss how they create ecological and economic value. Drawing from the literature on sustain-
+ability, BM innovation, and digital transformation, we articulate the role of digital technology in ecological and eco-nomic value creation.
+First, we contribute to sustainable BM and Green IS research by analysing and articulating the benefits of digital
+technologies to create ecological sustainable BMs. We show that many companies fall short when they address sus-tainability only for cost and compliance reasons (Lokuge et al.,
+2021 ; Sedera et al., 2017 ; Van Osch & Avital, 2010 ).
+There are opportunities to create additional value and competitive advantages based on achieving ecological752 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 18 ===
+sustainability with digital technologies. The BM as an operationalization of business strategy can provide a starting
+point for strategy formation (Lanzolla & Markides, 2021 ). With the four digital sustainable BM archetypes and their
+implementations in the BM taxonomy, we contribute an ecological perspective to the predominantly economicallyoriented research on digital sustainable BMs. To this end, we offer specific and actionable strategic pathways to cre-
+ate ecologically and economically sustainable BMs (Vermeulen,
+2017 ). This links the ecological strategy, such as the
+beliefs-actions-outcomes framework (Melville, 2010 ), and digital transformation strategies, such as the clarification
+that digital transformations require a change of value proposition and organisational identities (Wessel et al., 2021 ).
+We provide the actions (i.e., BM characteristics) and outcomes (i.e., digital sustainable BM archetypes with new value
+propositions) to go beyond using digital technology to optimise production or logistics or enable remote work and onto implementing ecological sustainability as a core logic of the organisation and its identity. Considering the ontologi-
+cal reversal of digital technology shaping the physical reality (Baskerville et al.,
+2020 ), our strategy guidelines contrib-
+ute to creating a sustainable reality based on digital technology implemented in the BMs. Our guidelines respond todifferent calls in research to provide more practicable insights on ecological sustainability in IS (Malhotra et al.,
+2013 ;
+Seidel et al., 2017 ).
+Second, we contribute to Green IS research by explicitly analysing the role of digital technology in ecological
+sustainable value creation. We find digital sustainable BMs to enable their customers to become more sustainable,as depicted in Figure
+3. Therefore, companies adapting digital sustainable BMs serve as incubators of digital ecologi-
+cal transformations, maximising the positive environmental impact. This extends the argument of Malhotra et al.
+(2013 ), who called for research on eco-effectiveness and using digital technology to achieve eco-efficiency. We iden-
+tify the use of digital technology to achieve “eco-enablement ”and extend the sustainability framework of Chen
+et al. ( 2008 ) by presenting how digital technologies, especially digital BMs, enable third parties to become more eco-
+logically sustainable.
+Third, the four digital sustainable BM archetypes and the comprehensive classification of digital sustainable BMs
+in a taxonomy provide a new perspective (i.e., ecological sustainability) for digital BM research. We provide a trans-
+parent classification scheme for companies engaging in sustainability and how they create ecological, economic, and
+digital value (Täuscher & Laudien, 2018 ). They support our understanding of both sustainability and BMs and provide
+a common foundation for future research to build upon (Baden-Fuller & Haefliger, 2013 ; Rich, 1992 ). We also identi-
+fied several areas for such future research. We have identified four key research areas to which IS research can sig-
+nificantly contribute. Since there is an ongoing discussion in the community about making IS research moreimpactful, contributing to solving our biggest challenge might be an excellent place to start.
+5.3 |Practical implications
+For practice, the underlying research identifies which sustainability strategies, digital technologies, and BMs are used
+by ecological sustainable start-ups and how they are integrated into the various BMs. This also supports entrepre-neurs in analysing sustainable strategies generally, and helps other successful start-ups use specific BM characteris-
+tics. Practitioners, in general, can benefit, as start-ups are often seen as initiators of a sustainability transition
+(Schaltegger et al.,
+2016 ). The sample contains recently founded companies and start-ups valued at more than
+1 billion US dollars, demonstrating that a lasting and successful establishment in the market is possible for digital
+sustainable BMs.
+Depending on a company's current BM, companies face several challenges when transforming towards a more
+ecological sustainable BM. Our archetypes present BM configurations that can be used in BM design to guide how
+companies with similar kinds of value creation leverage digital technologies for a digital sustainable BM. For example,
+a consumer goods manufacturer can use the Sustainable Product-Service System archetype to innovate its BM for
+more sustainability-oriented value creation. The archetypes also guide related challenges, such as how aBÖTTCHER ET AL. 753
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 19 ===
+manufacturer might engage with a Digital Sustainable platform to create circularity in its products. Table 5presents
+exemplary sustainability challenges and how the archetypes help to approach those challenges.
+5.4 |Limitations
+The results of this research are limited in some respects. Digital ecology is only an emerging topic in both research
+and practice. The population of companies suitable for our analysis is, therefore, limited. Nevertheless, we identifieda suitable sample of sustainable start-ups for our exploratory research approach that allowed us to thoroughly con-
+duct the Nickerson et al. (
+2017 ) taxonomy development method. Our sample also allowed us to derive generalizable
+archetypes, and we are confident that we captured a sufficient diversity of digital sustainable BMs. A larger samplesize could verify and contextualise these archetypes, for example, for specific industries, which was not within the
+scope of our research.
+We must also acknowledge the limitations of our sampling strategy. In selecting start-ups, we followed
+Crunchbase's ranking based on success and interest metrics. Our sample could be biassed towards highly successful
+start-ups. Since we excluded start-ups founded in the last 4 years, our sample could also be missing newer BM
+designs, such as those based on AI, blockchain, and Web3. However, we have already observed the use of thesetechnologies in our sample. Also, none of the sampled BMs is perfectly sustainable in all aspects of value creation.
+Perfect sustainability will likely remain a utopia, but current BMs need to improve their sustainability, and the BMs in
+our sample are at least more sustainable than current business practices. For these reasons, the taxonomy can andshould be extended and updated in the future, especially in aspects related to achieving eco-equity that we hadexcluded from our research scope.
+The exclusion of eco-equity from our research scope results in an incomplete perspective on sustainability as
+defined by the triple bottom line (Elkington,
+1998 ). We do not account for the fair distribution of natural resources
+to create eco-equity or social compensations for the (historically created) negative consequences of resource deple-
+tion for underprivileged regions or future generations. An analysis of related BM characteristics warrants an ethical,
+regulatory, and global perspective on what is fair that exceeds the scope of this research. We recognise an emerginginterest in this perspective in the IS literature (e.g., Clemons et al.,
+2022 ), but a more sophisticated discussion about
+social sustainability to achieve eco-equity across time and space is needed.
+Finally, start-up BM analysis is recommended for developing BM taxonomies, but it also has limitations (Möller
+et al., 2021 ). As discussed earlier, it might not be easy for incumbents to change their BM to a similar BM design.TABLE 5 Practical guidance of the digital sustainable business model archetypes.
+Sustainability challenge Archetype helps to …
+Improve the sustainability of a specific element in the value
+creationSustainable Software Solutions provide specialised
+solutions to solve sustainability challenges.
+Improve the sustainability of the core product/service itself Sustainable Product-Service Systems demonstrate
+how digital technologies can be embedded as part
+of the product or create additional services thatallow for sustainable product usage.
+Identify new sustainability improvement opportunities in the
+value-creation processSustainability Intelligence analyses data to identify
+value-creation activities with high sustainabilityimpact or high improvement potentials.
+Engage in value co-creation to improve the sustainability of the
+product life cycleDigital Sustainable Platforms provide a multi-sided
+market connecting multiple actors to achieve a
+common sustainability goal.754 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 20 ===
+However, during the time of this research, SAP, as a global company, adopted a new digital sustainable BM that can
+be located within our sustainability intelligence archetype.7
+5.5 |Future research
+Our analysis of digital sustainable BMs provides a common ground for future research on the relationship between
+digital technologies and sustainable development. Using the BM as the unit of analysis in our research allowed us tosynthesise a variety of characteristics across industries and economic purposes. The identified digital sustainable BMarchetypes provide a generalised distinction of how companies can integrate sustainability in their BM with the help
+of digital technologies. In the following, we discuss how IS research can build on our results in future research at the
+intersection of IS and sustainability and further analyse the two types of sustainable value creation. The avenues forfuture research and potential research questions are summarised in Table
+6.
+First, since digital platforms are a major topic of interest in IS research, their role in sustainability transformation
+needs further research. In digital platform ecosystems, we observe how digital platforms influence the BMs of actorsin their ecosystems. Introducing new digital platforms or changing established digital platforms provides opportuni-
+ties and introduces threats for customers and complementors. A sustainability transformation of the focal digital
+platform may thus trigger a wave of sustainability transformations in its ecosystem. As the archetype of digitalTABLE 6 Summary of avenues for future research and exemplary research questions.
+Research area Exemplary research question Useful theories
+New BM configurations
+for sustainable value creationHow do BM configurations of digital
+sustainable BMs differ from regular digital
+BMs?
+How can data create sustainable value for
+companies and society?
+How does the presence of a digital sustainable
+platform lead to an increased commitment to
+sustainability in their ecosystem?Resource-based view
+Diffusion of innovation theory
+Platform ecosystems
+Competing with sustainability How do companies create a competitive
+advantage with and from sustainable BMs?
+How do companies respond to increased
+sustainable competition?Theory of disruptive innovation
+Contingency theory
+Transitioning to a sustainable BM How do companies change their BMs to
+integrate sustainability?
+How do companies manage different
+sustainability requirements in differentmarkets?
+How can companies influence their value
+network to implement sustainability?Dynamic capabilities
+Resource-based view
+Open innovation
+Leadership theories
+Policy Implications How do companies respond to increasing legal
+sustainability requirements?
+How can policymakers balance and incentivise
+sustainable value creation and economicgrowth?
+How can regulations ensure equitable value
+creation?Actor-network theory
+Social influence theory
+7https://blogs.sap.com/2021/09/02/product-deep-dive-welcome-to-product-footprint-management-from-sap/BÖTTCHER ET AL. 755
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 21 ===
+sustainable platforms illustrates, digital platforms enable such transformations. However, future research is needed to
+investigate the effects of these platforms on their ecosystems and their role as orchestrators in the circular economy.
+Research questions include how ecosystem actors leverage sustainability platforms' sustainable value propositionsand if the focal platform's change in an ecosystem causes a butterfly effect, diffusing sustainability through the
+ecosystem.
+Second, data leverage, value creation from data, and data -based BMs are other major focuses of IS research. For
+most digital BMs, data is vital. IoT, blo ckchain, or AI-based BMs use and produce data, much of which is relevant for sus-
+tainability. Use cases from comparative contexts, such as regu latory applications, have shown the benefits of data-driven
+applications (Jensen et al.,
+2019 ). In the sustainability context, we have identified the sustainability intelligence archetype
+that leverages these digital technologies to provide transpare ncy to outside stakeholders. However, implementing trans-
+parent and trusted blockchain storage, combining available data from IoT systems and analytical capabilities using AI in
+operational business processes and data-driven business applic ations still holds potential for sustainable business value.
+Especially in complex supply chains and business ecosystems, da ta-driven digital technologies provide tremendous value
+to account for emissions, identify reducti on potentials, or enable novel data-driven sustainable BMs. Data can be used to
+capture, allocate, and equitably distribute the consumption of natural resources in the complexity of global ecosystems to
+compensate for inequalities in their use and negative consequ ences and create eco-equity. Therefore, analysing the sus-
+tainable value of data while focusing on the eco-equity dimension, which was ex cluded in this study, can help us under-
+stand and design BMs for companies to consume natural resources more socially sustainably.
+Third, while we provide archetypes and a descriptive analysis of sustainable BMs, more research is needed to investi-
+gate how companies can leverage sustainability as a compet itive advantage. Future resea rch needs to take a process- or
+activity-oriented perspective to analyse the pathways, challenges, and best practices of such BM changes and provide rec-
+ommendations on how incumbents can successfully transform their BM using digital technology. Besides, start-ups andincumbents must integrate economic and ecological sustainability in their BMs. Our archetypes indicate possible targetsfor these actions and potential applications of specific digital technologies for improved sustainability, but the path to get
+there is still uncertain (Foss & Saebi,
+2017 ). For policymakers, sustainability is a core challenge to balancing a prospering
+economy, reducing emissions, and increas ing the economy's overall sustainability. During the COVID-19-induced lock-
+downs, we observed how various BMs were a ffected in various ways. Digital BMs w ere often affected less negatively or
+even profited (Floetgen et al., 2021 ). Research on (digital) sustainable BMs is n eeded to support policymakers, provide rec-
+ommendations on balancing economic growth on both micro and macro levels, and the impact of potential sustainabilityregulations such as emission certificates or bans on certain BM activities to ensure equity.
+Fourth, our archetypes serve as ideal BM designs that demonstrate how digital technology can be used to enable
+sustainable BMs. IS research should further analyse the role of digital technologies for sustainability-oriented BMs. Farajand Pachidi (
+2021 ,p .7 )p o i n to u t , “…it is difficult not to see deterministic thinking in the formulation of ‘adopting tech-
+nology X leads to competitive advantage [or sustainability]. ’To make those claims, most authors fall back on an inter-
+mediate vocabulary of BMs, strategic disruption, opportunity seizure, artful execution, but the essential agency is thatof technology changing organizations. ”While we are guilty of using the BM as the intermediate unit of our analysis, it
+provides a common ground. However, more clarification and theorising about how digital technology changes the form
+of organising the BM is needed. As outlined earlier, there is little difference between digital sustainable BM and digital
+BM from a taxonomic perspective. Adopting a configurational perspective that allows investigating how the differentcharacteristics are organised to form the sustainable BM may reveal different insights into the design of digital sustain-
+able BMs that are not observable in our variance-based analysis of digital sustainable BM archetypes.
+6|CONCLUSION
+The need to address sustainability as a fundamental issue in companies' operations is urgent. Companies need to
+become more sustainable from their core business logic, which is represented by their BM, instead of taking the easy756 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 22 ===
+way out and planting a tree. For start-ups, it is easier to make the BM sustainable from the beginning than to change
+an established BM that has been running successfully for many years (Aspara et al., 2011 ; Gregori &
+Holzmann, 2020 ). Nevertheless, incumbents can manage this upheaval and transform their BM into a sustainable
+BM with the help of digital technologies, combining the economically necessary digital transformation with the eco-
+logically necessary sustainable transformation. Also, incumbents do not have to manage this upheaval alone. As we
+have shown, some companies are using digital sustainable BMs to enable other BMs to become more sustainable.
+To conclude, we must acknowledge two things. First, organisational change is a challenging task. Changing fun-
+damentally to become more sustainable is even more challenging. Therefore, we analysed start-ups that did not have
+to change but were able to design themselves to be sustainable from the beginning. They serve as prime examplesand sources of inspiration for other companies to imitate to ease the challenge of organisational change. Second, the
+start-ups in our sample are not perfect. None of them is 100% sustainable in all aspects of their BM. However, they
+are more sustainable than the standard practice. Taking them as examples hopefully creates a more sustainable econ-omy that reduces its impact on future generations and fosters innovation to become even more sustainable.
+ACKNOWLEDGMENT
+Open Access funding enabled and organized by Projekt DEAL.
+DATA AVAILABILITY STATEMENT
+The data that supports the findings of this study are available in the supplementary material of this article.
+ORCID
+Timo Phillip Böttcher
+https://orcid.org/0000-0002-1290-8310
+Jörg Weking https://orcid.org/0000-0002-5288-240X
+Andreas Hein https://orcid.org/0000-0001-9565-5840
+Helmut Krcmar https://orcid.org/0000-0002-2754-8493
+REFERENCES
+Adam, M., Croitor, E., Werner, D., Benlian, A., & Wiener, M. (2022). Input control and its signalling effects for com-
+plementors' intention to join digital platforms. Information Systems Journal .https://doi.org/10.1111/isj.12408
+Al-Debei, M. M., & Avison, D. (2010). Developing a unified framework of the business model concept. European Journal of
+Information Systems ,19(3), 359 –376. https://doi.org/10.1057/ejis.2010.21
+Amit, R., & Zott, C. (2001). Value creation in E-business. Strategic Management Journal ,22(6–7), 493 –520. https://doi.org/
+10.1002/smj.187
+Amshoff, B., Dülme, C., Echterfeld, J., & Gausemeier, J. (2015). Business model patterns for disruptive technologies. Interna-
+tional Journal of Innovation Management ,19(3), 1540002.
+Aspara, J., Lamberg, J. A., Laukia, A., & Tikkanen, H. (2011). Strategic management of business model transformation: Les-
+sons from Nokia. Management Decision ,49(4), 622 –647. https://doi.org/10.1108/00251741111126521
+Baden-Fuller, C., & Haefliger, S. (2013). Business models and technological innovation. Long Range Planning ,46(6), 419 –426.
+https://doi.org/10.1016/j.lrp.2013.08.023
+Baskerville, R. L., Myers, M. D., & Yoo, Y. (2020). Digital first: The ontological reversal and new challenges for IS research.
+MIS Quarterly ,44(2), 509 –523.
+Bican, P. M., & Brem, A. (2020). Digital business model, digital transformation, digital entrepreneurship: Is there a sustainable
+“digital ”.Sustainability ,12(13), 5239. https://doi.org/10.3390/su12135239
+Bleicher, J., & Stanley, H. (2016). Digitization as a catalyst for business model innovation: A three-step approach to facilitat-
+ing economic success. Journal of Business Management ,4,6 2–71.
+Bocken, N. M. P., Short, S. W., Rana, P., & Evans, S. (2014). A literature and practice review to develop sustainable business
+model archetypes. Journal of Cleaner Production ,65,4 2–56.https://doi.org/10.1016/j.jclepro.2013.11.039
+Boons, F., & Lüdeke-Freund, F. (2013). Business models for sustainable innovation: State-of-the-art and steps towards a
+research agenda. Journal of Cleaner Production ,45,9–19.https://doi.org/10.1016/j.jclepro.2012.07.007
+Brenner, B. (2018). Transformative sustainable business models in the light of the digital imperative —A global business eco-
+nomics perspective. Sustainability ,10(12), 4428. https://doi.org/10.3390/su10124428BÖTTCHER ET AL. 757
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 23 ===
+Cao, L., Navare, J., & Jin, Z. (2018). Business model innovation: How the international retailers rebuild their core business
+logic in a new host country. International Business Review ,27(3), 543 –562. https://doi.org/10.1016/j.ibusrev.2017.
+10.005
+Chen, A. J. W., Standing, C., Boudreau, M. C., & Watson, R. (2008). Information systems and ecological sustainability. Journal
+of Systems and Information Technology ,10(3), 186 –201. https://doi.org/10.1108/13287260810916907
+Chesbrough, H. (2010). Business model innovation: Opportunities and barriers. Long Range Planning ,43(2–3), 354 –363.
+https://doi.org/10.1016/j.lrp.2009.07.010
+Chong, A. Y. L., Lim, E. T. K., Hua, X., Zheng, S., & Tan, C.-W. (2019). Business on chain: A comparative case study of five
+Blockchain-inspired business models. Journal of the Association for Information Systems ,20, 1308 –1337. https://doi.org/
+10.17705/1jais.00568
+Ciulli, F., Kolk, A., & Boe-Lillegraven, S. (2020). Circularity brokers: Digital platform organizations and waste recovery in food
+supply chains. Journal of Business Ethics ,167(2), 299 –331. https://doi.org/10.1007/s10551-019-04160-5
+Clemons, E. K., Waran, R. V., Hermes, S., Schreieck, M., & Krcmar, H. (2022). Computing and social welfare. Electronic Mar-
+kets,32(2), 417 –436. https://doi.org/10.1007/s12525-021-00512-0
+Clinton, L., & Whisnant, R. (2019). Business Model Innovations for Sustainability. In G. G. Lenssen & N. C. Smith (Eds.), Man-
+aging Sustainable Business: An Executive Education Case and Textbook (pp. 463 –503). Springer. https://doi.org/10.1007/
+978-94-024-1144-7_22
+Dyllick, T., & Hockerts, K. (2002). Beyond the business case for corporate sustainability. Business Strategy and the Environ-
+ment ,11(2), 130 –141. https://doi.org/10.1002/bse.323
+Eisenhardt, K. M. (1989). Building theories from case study research. The Academy of Management Review ,14(4), 532 –550.
+https://doi.org/10.2307/258557
+Elkington, J. (1998). Partnerships from cannibals with forks: The triple bottom line of 21st-century business. Environmental
+Quality Management ,8(1), 37 –51.https://doi.org/10.1002/tqem.3310080106
+Elliot. (2011). Transdisciplinary perspectives on environmental sustainability: A Resource Base and framework for IT-enabled
+business transformation. MIS Quarterly ,35(1), 197 –236. https://doi.org/10.2307/23043495
+Evans, S., Vladimirova, D., Holgado, M., Van Fossen, K., Yang, M., Silva, E. A., & Barlow, C. Y. (2017). Business model innova-
+tion for sustainability: Towards a unified perspective for creation of sustainable business models. Business Strategy and
+the Environment ,26(5), 597 –608.
+Faraj, S., & Pachidi, S. (2021). Beyond Uberization: The co-constitution of technology and organizing. Organization Theory ,
+2(1), 263178772199520. https://doi.org/10.1177/2631787721995205
+Floetgen, R. J., Strauss, J., Weking, J., Hein, A., Urmetzer, F., Böhm, M., & Krcmar, H. (2021). Introducing platform ecosystem
+resilience: Leveraging mobility platforms and their ecosystems for the new normal during COVID-19. European Journal
+of Information Systems ,30(3), 304 –321. https://doi.org/10.1080/0960085x.2021.1884009
+Foss, N. J., & Saebi, T. (2017). Fifteen years of research on business model innovation. Journal of Management ,43(1), 200 –
+227. https://doi.org/10.1177/0149206316675927
+França, C. L., Broman, G., Robèrt, K.-H., Basile, G., & Trygg, L. (2017). An approach to business model innovation and design
+for strategic sustainable development. Journal of Cleaner Production ,140, 155–166.
+George, G., Merrill, R. K., & Schillebeeckx, S. J. D. (2021). Digital sustainability and entrepreneurship: How digital innovations
+are helping tackle climate change and sustainable development. Entrepreneurship Theory and Practice ,45(5), 999 –1027.
+https://doi.org/10.1177/1042258719899425
+Gregori, P., & Holzmann, P. (2020). Digital sustainable entrepreneurship: A business model perspective on embedding digital
+technologies for social and environmental value creation. Journal of Cleaner Production ,272, 122817. https://doi.org/10.
+1016/j.jclepro.2020.122817
+Hanelt, A., Busse, S., & Kolbe, L. M. (2017). Driving business transformation toward sustainability: Exploring the impact of
+supporting IS on the performance contribution of eco-innovations. Information Systems Journal ,27(4), 463 –502. https://
+doi.org/10.1111/isj.12130
+Hedman, J., & Henningsson, S. (2016). Developing ecological sustainability: A green IS response model. Information Systems
+Journal ,26(3), 259 –287. https://doi.org/10.1111/isj.12095
+Hedman, J., Henningsson, S., & Selander, L. (2012). Organizational self-renewal: The role of green is in developing eco-effec-
+tiveness. Paper presented at the 33. International conference on information systems (ICIS), Orlando, USA.
+Hein, A., Schreieck, M., Riasanow, T., Setzke, D. S., Wiesche, M., Böhm, M., & Krcmar, H. (2020). Digital platform ecosys-
+tems. Electronic Markets ,30(1), 87 –98.https://doi.org/10.1007/s12525-019-00377-4
+Innocenti, N., & Zampi, V. (2019). What does a start-up need to grow? An empirical approach for Italian innovative start-
+ups. International Journal of Entrepreneurial Behavior & Research ,25(2), 376 –393. https://doi.org/10.1108/ijebr-04-
+2018-0194
+Jensen, T., Hedman, J., & Henningsson, S. (2019). How TradeLens delivers business value with Blockchain technology. MIS
+Quarterly Executive ,18(4), 221 –243.758 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 24 ===
+Kollmann, T., Jung, P. B., Kleine-Stegemann, L., Ataee, J., & de Cruppe, K. (2020). Deutscher Startup Monitor 2020: Innova-
+tion statt Krise. https://deutscherstartupmonitor.de/wp-content/uploads/2020/09/dsm_2020.pdf
+Kundisch, D., Muntermann, J., Oberländer, A. M., Rau, D., Röglinger, M., Schoormann, T., & Szopinski, D. (2021). An update
+for taxonomy designers. Business & Information Systems Engineering. ,64, 421–439. https://doi.org/10.1007/s12599-
+021-00723-x
+Lanzolla, G., & Markides, C. (2021). A business model view of strategy. Journal of Management Studies ,58(2), 540 –553.
+https://doi.org/10.1111/joms.12580
+Lokuge, S., Sedera, D., Cooper, V., & Burstein, F. (2021). Digital transformation: Environmental friend or foe? Panel discus-
+sion at the Australasian conference on information systems 2019. Communications of the Association for Information Sys-
+tems,48, 616–634.
+Lüdeke-Freund, F., Carroux, S., Joyce, A., Massa, L., & Breuer, H. (2018). The sustainable business model pattern taxonomy —
+45 patterns to support sustainability-oriented business model innovation. Sustainable Production and Consumption ,15,
+145–162. https://doi.org/10.1016/j.spc.2018.06.004
+Lüdeke-Freund, F., Massa, L., Bocken, N., Brent, A., & Musango, J. (2016). Business models for shared value –main report.
+Malhotra, A., Melville, N. P., & Watson, R. (2013). Spurring impactful research on information systems and environmental
+sustainability. MIS Quarterly ,37(4), 1265 –1274. https://doi.org/10.25300/misq/2013/37:4.3
+Massa, L., Tucci, C. L., & Afuah, A. (2017). A critical assessment of business model research. Academy of Management Annals ,
+11(1), 73 –104. https://doi.org/10.5465/annals.2014.0072
+Melville. (2010). Information systems innovation for environmental sustainability. MIS Quarterly ,34(1), 1–21.https://doi.
+org/10.2307/20721412
+Miles, M. B., Hubermann, A. M., & Saldana, J. (2020). Qualitative data analysis: A methods sourcebook (4th ed.). SAGE.
+Miric, M., Pagani, M., & El Sawy, O. A. (2021). When and who do platform companies acquire? Understanding the role of
+acquisitions in the growth of platform companies. MIS Quarterly ,45(4), 2159 –2174.
+Möller, F., Stachon, M., Azkan, C., Schoormann, T., & Otto, B. (2021). Designing business model taxonomies –Synthesis and
+guidance from information systems research. Electronic Markets ,32, 701–726. https://doi.org/10.1007/s12525-021-
+00507-x
+Nambisan, S. (2017). Digital entrepreneurship: Toward a digital technology perspective of entrepreneurship. Entrepreneur-
+ship Theory and Practice ,41(6), 1029 –1055. https://doi.org/10.1111/etap.12254
+Nickerson, R. C., Varshney, U., & Muntermann, J. (2017). A method for taxonomy development and its application in infor-
+mation systems. European Journal of Information Systems ,22(3), 336 –359. https://doi.org/10.1057/ejis.2012.26
+Osterwalder, A., Pigneur, Y., & Tucci, C. L. (2005). Clarifying business models: Origins, present, and future of the concept.
+Communications of the Association for Information Systems ,16,1–25.https://doi.org/10.17705/1cais.01601
+Pizzetti, M., Gatti, L., & Seele, P. (2021). Firms talk, suppliers walk: Analyzing the locus of greenwashing in the blame game
+and introducing ‘vicarious greenwashing ’.Journal of Business Ethics ,170(1), 21 –38.
+Porter, M. E., & Kramer, M. R. (2011). Creating shared value. Harvard Business Review ,11, 323–346.
+Pörtner, H.-O., Roberts, D. C., Adams, H., Adler, C., Aldunce, P., Ali, E., Begum, R. A., Betts, R., Kerr, R. B., Biesbroek, R.,
+Birkmann, J., Bowen, K., Castellanos, E., Cissé, G., Constable, A., Cramer, W., Dodman, D., Eriksen, S. H., Fischlin, A., …
+Biesbroek, R. (2022). Climate change 2022: Impacts, adaptation and vulnerability.
+Püschel, L. C., Röglinger, M., & Schlott, H. (2016). What's in a smart thing? Development of a multi-layer taxonomy. Paper
+presented at the ICIS.
+Rashid, A., Asif, F. M., Krajnik, P., & Nicolescu, C. M. (2013). Resource conservative manufacturing: An essential change in
+business and technology paradigm for sustainable manufacturing. Journal of Cleaner Production ,57, 166–177.
+Rich, P. (1992). The organizational taxonomy: Definition and design. The Academy of Management Review ,17(4), 758 –781.
+https://doi.org/10.2307/258807
+Ritter, T., & Lettl, C. (2018). The wider implications of business-model research. Long Range Planning ,51(1), 1–8.https://doi.
+org/10.1016/j.lrp.2017.07.005
+Sandberg, J., Holmstrom, J., & Lyytinen, K. (2020). Digitization and phase transitions in platform organizing logics: Evidence
+from the process automation industry. MIS Quarterly ,44(1), 129 –153. https://doi.org/10.25300/misq/2020/14520
+Satalkina, L., & Steiner, G. (2020). Digital entrepreneurship and its role in innovation systems: A systematic literature review
+as a basis for future research avenues for sustainable transitions. Sustainability ,12(7), 2764. https://doi.org/10.3390/
+su12072764
+Schaltegger, S., Lüdeke-Freund, F., & Hansen, E. G. (2016). Business models for sustainability. Organization & Environment ,
+29(3), 264 –289. https://doi.org/10.1177/1086026616633272
+Sebastian, I. M., Ross, J. W., Beath, C., Mocker, M., Moloney, K. G., & Fonstad, N. O. (2017). How big old companies navigate
+digital transformation. MIS Quarterly Executive ,16(3), 197 –213.
+Sedera, D., Lokuge, S., Tushi, B., & Tan, F. (2017). Multi-disciplinary green IT archival analysis: A pathway for future studies.
+Communications of the Association for Information Systems ,41(1), 28 –733.BÖTTCHER ET AL. 759
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 25 ===
+Seele, P., & Lock, I. (2017). The game-changing potential of digitalization for sustainability: Possibilities, perils, and pathways.
+Sustainability Science ,12(2), 183 –185. https://doi.org/10.1007/s11625-017-0426-4
+Seidel, S., Bharati, P., Fridgen, G., Watson, R., Albizri, A., Boudreau, M.-C. M., Butler, T., Kruse, L. C., Guzman, I., Karsten, H.,
+Lee, H., Melville, N., Rush, D., Toland, J., & Watts, S. (2017). The sustainability imperative in information systemsresearch. Communications of the Association for Information Systems ,40(1), 3–52.
+Seidel, S., Recker, J., & vom Brocke, J. (2013). Sensemaking and sustainable practicing: Functional affordances of information
+systems in green transformations. MIS Quarterly ,37(4), 1275 –1299.
+https://doi.org/10.25300/misq/2013/37.4.13
+Steininger, D. M. (2019). Linking information systems and entrepreneurship: A review and agenda for IT-associated and digi-
+tal entrepreneurship research. Information Systems Journal ,29(2), 363 –407. https://doi.org/10.1111/isj.12206
+Täuscher, K., & Laudien, S. M. (2018). Understanding platform business models: A mixed methods study of marketplaces.
+European Management Journal ,36(3), 319 –329. https://doi.org/10.1016/j.emj.2017.06.005
+Teece, D. J. (2010). Business models, business strategy and innovation. Long Range Planning ,43(2–3), 172 –194. https://doi.
+org/10.1016/j.lrp.2009.07.003
+Teece, D. J., Pundziene, A., Heaton, S., & Vadi, M. (2022). Managing multi-sided platforms: Platform origins and go-to-
+market strategy. California Management Review ,64(4), 5–19.https://doi.org/10.1177/00081256221109961
+United Nations General Assembly. (1987). Report of the world commission on environment and development: Our common
+future. http://www.un-documents.net/our-common-future.pdf
+Upward, A., & Jones, P. (2015). An ontology for strongly sustainable business models. Organization & Environment ,29(1),
+97–123. https://doi.org/10.1177/1086026615592933
+Van Osch, W., & Avital, M. (2010). From green IT to sustainable innovation. Paper presented at the 16th Americas confer-
+ence on information systems (AMCIS), Lima, Peru.
+Veit, D., Clemons, E., Benlian, A., Buxmann, P., Hess, T., Kundisch, D., Spann, M., Leimeister, J. M., & Loos, P. (2014). Busi-
+ness models. Business & Information Systems Engineering ,6(1), 45 –53.https://doi.org/10.1007/s12599-013-0308-y
+Vermeulen, F. (2017). Many strategies fail because they're not actually strategies. Harvard Business Review .https://hbr.org/
+2017/11/many-strategies-fail-because-theyre-not-actually-strategies
+Vial, G. (2019). Understanding digital transformation: A review and a research agenda. The Journal of Strategic Information
+Systems ,28(2), 118 –144. https://doi.org/10.1016/j.jsis.2019.01.003
+Walker, K., & Wan, F. (2012). The harm of symbolic actions and green-washing: Corporate actions and communications on
+environmental performance and their financial implications. Journal of Business Ethics ,109(2), 227 –242.
+Watson, R., Boudreau, M.-C., Chen, A., & Huber, M. (2008). Green IS: Building sustainable business practices. In Information
+systems . Global Text Project.
+Watson, R., Boudreau, M.-C., Li, S., & Levis, J. (2010). Telematics at UPS: En route to energy informatics. MIS Quarterly Exec-
+utive ,9(1), 1–11.https://doi.org/10.1201/b10330-2
+Watson, R., & Kranz, J. (2021). Guest editorial: Moving from good intentions to measurable sustainability results. MIS Quar-
+terly Executive ,20(2), 2.
+Wells, P. (2015). Economies of scale versus small is beautiful. Organization & Environment ,29(1), 36 –52.https://doi.org/10.
+1177/1086026615590882
+Wessel, L., Baiyere, A., Ologeanu-Taddei, R., Cha, J., & Blegind Jensen, T. (2021). Unpacking the difference between digital
+transformation and IT-enabled organizational transformation. Journal of the Association for Information Systems ,22(1),
+102–129.
+Yin, R. K. (2018). Case study research and applications: Design and methods (6th ed.). Sage.
+Zott, C., & Amit, R. (2007). Business model design and the performance of entrepreneurial firms. Organization Science ,18(2),
+181–199. https://doi.org/10.1287/orsc.1060.0232
+Zott, C., Amit, R., & Massa, L. (2011). The business model: Recent developments and future research. Journal of Management ,
+37(4), 1019 –1042. https://doi.org/10.1177/0149206311406265
+AUTHOR BIOGRAPHIES
+Timo Phillip Böttcher is a PhD student at the School for Computation, Information and Technology at the Tech-
+nical University of Munich (TUM), Germany. He studied information systems at TUM, Corporate State University
+Baden-Württemberg at Stuttgart, Germany, and Swinburne University of Technology, Australia. His research
+focuses on the impact of digital technologies on business models and business model change in dynamic ecosys-tems. His work has been published in the Journal of Strategic Information Systems as well as a number of peer-760 BÖTTCHER ET AL.
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 26 ===
+reviewed conference proceedings, including the European Conference on Information Systems, the Americas
+Conference on Information Systems, and the Pacific Asia Conference on Information Systems.
+Sarah Empelmann graduated with a Master's degree in Management & Technology from the Technical Univer-
+sity of Munich with specialisations in marketing, strategy and leadership as well as informatics. She holds a bach-elor's degree in business administration from the University of Münster. Sarah gained practical experience in the
+industrial, automotive, and marketing industry while working for thyssenkrupp, Volkswagen, BMW, and Red Bull.
+Additionally, she served as a board member of the student marketing initiative MTP e.V. in Munich.
+Jörg Weking (
+joerg.weking@tum.de ) is a visiting post-doctoral researcher at the Queensland University of Tech-
+nology (QUT) and research group leader at the Krcmar Lab at the Technical University of Munich (TUM). He
+studied Information Systems at the University of Münster, at the Turku School of Economics, and the QUT, andholds a doctoral degree in Information Systems from TUM. His research focuses on digital business models anddigital platform ecosystems. His work has been published in the Journal of Strategic Information Systems,
+European Journal of Information Systems, Business & Information Systems Engineering, Electronic Markets,
+Information Systems Frontiers, International Journal of Production Economics, Communications of the AIS, andin refereed conference proceedings such as the International Conference on Information Systems and the Acad-
+emy of Management Best Paper Proceedings.
+Andreas Hein (
+andreas.hein@tum.de ) is a post-doctoral researcher and head of the research group on digital
+platforms & e-government at the Krcmar Lab, Technical University of Munich (TUM), Germany. He holds a Ph.D.from TUM in Information Systems and has 3 years of experience as a Senior Strategy Consultant at IBM. His
+work has appeared in the Journal of Strategic Information Systems, Information Systems Journal, European Jour-
+nal of Information Systems, Electronic Markets, and Business & Information Systems Engineering, as well as ref-ereed conference proceedings such as the International Conference on Information Systems.
+Helmut Krcmar is currently a Professor Emeritus of Information Systems with the Department of Informatics,
+Technische Universität München (TUM), Munich, Germany, with a joint appointment with the School of Man-
+agement, where he is currently the Founding Dean and Delegate Officer of the President for TUM Campus Heil-bronn. His research interests include information and knowledge management, engineering, piloting, and
+management of innovative IT-based services, and computer support for collaboration in distributed and mobile
+work and learning processes. He has coauthored a plethora of research papers published in major IS journalsincluding Management Information Systems Quarterly, Journal of Management Information Systems, Journal of
+Information Technology, Information Systems Journal, Journal of Strategic Information Systems and European
+Journal of Information Systems. Helmut Krcmar is a Fellow of the Association for Information Systems and aMember of the Acatech National Academy of Science and Engineering.
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Supporting Information section at the end of thisarticle.
+How to cite this article: Böttcher, T. P., Empelmann, S., Weking, J., Hein, A., & Krcmar, H. (2024). Digital
+sustainable business models: Using digital technology to integrate ecological sustainability into the core of
+business models. Information Systems Journal ,34(3), 736 –761.
+https://doi.org/10.1111/isj.12436BÖTTCHER ET AL. 761
+ 13652575, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12436 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+

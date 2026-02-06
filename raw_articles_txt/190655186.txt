@@ -1,0 +1,938 @@
+=== PÁGINA 1 ===
+Teaching Case
+Developing enterprise social software
+in China: insights from Mingdao
+Khuong Le-Nguyen1,2, Yue Guo1, Jia Qiong1
+1Hohai University, Nanjing, China;
+2Department of Management and Information Systems, College of Business, Kent State University, Kent, Ohio, USA
+Correspondence:
+K Le-Nguyen, Hohai University, Nanjing, China
+E-mail: khuong109@gmail.comY Guo, Department of Management and Information Systems, College of Business, Kent State University, Kent, Ohio, USAE-mail: yueggcn@aliyun.com
+Abstract
+Cloud-computing and Web 2.0 technologies have triggered a new wave of IT infrastructureadoption, which has been radically changing the way we live and work. In particular,Enterprise 2.0 and Enterprise Social Software (ESS) are getting more attention fromorganizations worldwide as they help staff to work and collaborate more efﬁciently. In this
+paper, we introduce the case of a leading ﬁrm in China called Mingdao that provides an
+ESS platform via the SaaS delivery model. Our teaching case gives insights into howMingdao experienced its platform’s early tortuous design and development, deﬁned itsbusiness and revenue model, and improved its platform’s various functions and features.Such organizational experiences not only reﬂect the opportunities and challenges of theESS market in China, but also present a new way of communication, collaboration, andsharing on the enterprise social network platform. This case also has implications forpractitioners for how cloud-computing and Web 2.0 technology can drive the
+transformation of both enterprise and management as well as how the ESS platform
+could help accelerate knowledge management activities across the organization.
+Journal of Information Technology Teaching Cases (2017) 7,62–78. doi:10.1057/s41266-016-0013-z;
+published online 22 May 2017
+Keywords: Enterprise Social Software; Enterprise 2.0; knowledge management; development;
+implementation
+It was the ﬁnal day of 2011. People were impatient for the warm
+spring to come because of the cold and wet winter in Shanghai.
+Sitting quietly in his oval ofﬁce and watching people walkinghappily to the shopping mall through the windows, Xianghui
+Ren, the founder and chief architect of MeiHua Information,1
+was thinking hard about his plan to move his ﬁrm forward in
+the new business context. Recalling how his company evolvedover the years, he found he had become deeply engaged in the
+IT service industry for two decades. Time ﬂies!
+Many issues that Ren and his team had experienced came
+to mind. In the past two turbulent decades, the IT service
+industry experienced the peak of its boom in the 1990s, then
+the collapse of the dot-com bubble in late 2001 followed bythe continual development lasting until today. Since 2001,
+the cloud-computing and Web 2.0 technologies had brought
+a new wave of information technology infrastructure. Withadvances in mobile Internet technologies and social net-working platforms, the way in which people communicate in
+work and life had been rapidly changed (e.g., running mobileofﬁces, delivering news via microblogging, sharing informa-
+tion, and making friends via Wechat
+2). The increasing
+number of social platforms and applications based oncloud-computing technology had been attracting more andmore people to connect with the Internet, ultimately making
+a huge convergence effect.
+3
+Because of such large demand by customers, enterprises
+have geared up to accommodate this trend. Firms have been
+transforming their business models’ focus from product-
+centric to user-centric in this Web 2.0 era. The product lifecycle has accelerated and new creative applications incorpo-
+rate not only the speciﬁc features of the Web 2.0 era but also
+more fun and emotions. In particular, organizations havebecome ﬂatter and more community centered. In addition,organizational boundaries are being broken, organizational
+hierarchies minimized, and teamwork more ﬂexible and
+effective. These radical changes challenge the widely accepted,traditional ways of collaborating and managing tasks in
+organizations worldwide.Journal of Information Technology Teaching Cases (2017) 7, 62–78
+ª2017 Association for Information Technology Trust
+www.palgrave.com/journals
+
+
+=== PÁGINA 2 ===
+Ren thought – ‘‘ With such a great impact of the cloud-
+computing and Web 2.0 technologies, organizations should ﬁndways to employ them to become more efﬁcient .’’ In his mind
+was a typical example of using Web 2.0 technologies to
+improve how people work and collaborate in organizations –the implementation of Enterprise Social Software . A series of
+questions for him followed: ‘‘ Is it the right time to revive that
+‘suspended platform’ built two years ago? How to rebuild thisplatform? And if this platform can be fully developed andsuccessfully implemented, can organizations ﬁnd better solu-
+tions for a more efﬁcient collaboration and task execution in this
+era of mobile Internet and social networking? ’’
+A journey of a thousand miles begins with a single step (Lao
+Tzu, 604–531 BC)
+Xianghui Ren recalled how he and his team had revived the
+platform. Back in 2009, he was enthusiastically making a
+presentation in MeiHua’s meeting room. The managementteam was very attentive to his proposal:
+‘‘To satisfy our clients’ new demands and considering the
+platform that we built within the past 2 years [2007–2009], thepilot project we want to launch this time is called Mingdao. Our
+goal is to create an internal social network that can not only
+collect external information, but also share internal informationand communicate with others across the organization .’’
+‘‘What exactly are the new demands ?’’ Asked Xu Feng, VP of
+marketing of MeiHua.
+‘‘MeiHua information itself is actually a fast-growing,
+knowledge-intensive company. Because of the nature of our
+business, to compete effectively in this market, we need to
+embrace best practices in knowledge management. However, thecommunication and collaboration is a big problem [for us and
+many others]. For instance, one issue is the horizontal-level
+communication between departments, and the other is thevertical-level communication within the organization.’’
+Ren reﬂected on the collaboration issue in organizations
+based on his long-term observation:
+‘‘And, MeiHua is within the advertising and media industry
+and provides independent information services. Our enterprise
+clients usually subscribe to our database to receive competitive
+intelligence on their markets and competitors by payingcorresponding fees each month. Our service is similar to [that
+of] iResearch.
+4But have we ever thought about how many
+employees in a particular company actually use this kind ofinformation service?’’
+‘‘Generally, we provide the information directly to the
+director of marketing and his or her assistants,’’ replied Zhang,
+an assistant to sales and marketing manager.
+‘‘Yes, because the information and content we provide is
+mostly for decision-makers, not many people in a ﬁrm could
+[use it]. Even for a large company which may pay a lot [of fee]annually, it is likely that only two people can actually use our
+service: one is the marketing director, the other is the
+[marketing] assistant. From a ﬁnancial perspective, this[investment] may be a waste [of money]. We also feel that
+the value of our service is not fully acknowledged. In the
+meantime, what I have observed is that our clients, includingmany small and medium enterprises, are in need of a platformwith features and capability of sharing or exchanging valuable
+information and content. This fact thus prompts us to think
+about radically changing our service and even business model.’’Noticing that everyone in the room was watching him with
+much interest, Ren decided to elaborate on his proposal.
+‘‘We found that the market competitive intelligence service we
+provide is useful not only for the management team, or
+marketing department, but also for employees in other depart-ments. The problem is that our content is in a form of
+specialized databases, which are not so simple [and so very
+difﬁcult] to be shared quickly across the organization. So wethink: whether it is feasible to build a communication platformwithin the ﬁrm, in which not only C-level managers but
+employees can share and exchange such information. For
+example, different departments can review the same contentand any staff can share [it] with his or her colleagues via an
+internal social network .’’
+The meeting quickly reached a consensus on reviving the
+suspended platform and initiating Ren’s proposal. Xianghui
+Ren spent two years leading the team to develop the project.
+In early 2011, the platform was fully built, but the resultswere not that satisfactory.
+‘‘Though the business intelligence you get from the outside is
+work-related, I do not want to review or share [it] with others.’’Some users on the tested platform offered this comment.Meanwhile others said: ‘‘Not too many people provide
+comments or share with other people on the platform. It [the
+platform] is not popular in the organization – we do not oftenuse it .’’
+Unfortunately, the system trial turned out to be a failure.
+Apparently in MeiHua, outside the marketing staff, othershad no genuine interest in using the platform. Though the
+initial idea was good, how it was actually executed was
+probably not entirely right. The test was frustrating, and theproject was eventually shelved.
+Just weeks after that failure, there was something new and
+exciting for Ren’s team to explore. There emerged new
+concepts and models – Enterprise 2.0 and Enterprise Social
+Network – attracting the attention of the community and
+industry. In 2011, in America, some companies (e.g.,
+Yammer) developed an Enterprise 2.0 software platformwhich was not built for any speciﬁc industry or profession,
+but for assisting internal sharing and collaboration. This
+inspired Ren to ﬁx a key issue inherent in the suspendedplatform. He immediately held a meeting with the project
+team members to discuss his ﬁndings in detail:
+‘‘Xu [Xu Feng – VP of marketing], we may have some hopes
+now for the Mingdao [project]. The objective of Mingdao needsto be changed. We are concerned not just about the external
+information communication and sharing, in fact, for enter-
+prises, but also about the internal information sharing andcollaboration. [The internal] is more important. Let’s try to
+restart [it] one more time!’’
+‘‘But the project was veriﬁed to have a high risk. Is it the right
+time to ‘reboot’ it?’’
+Xu Feng’s question also worried Ren. Ren smiled:
+‘‘The environment has changed a lot, and we have to adopt
+new ways of thinking. When we revived the platform in 2009,the conditions for enterprise social platform to development
+were insufﬁcient. But now, because of the strong evolution of
+cloud computing, the infrastructure and services have becomequite easy to build. Just like Tencent and Baidu open platforms
+that have been widely accepted [by the market], our platform
+can also be introduced to meet business needs and we canintegrate ours with a variety of useful applications. One moreDeveloping enterprise social software in China Le-Nguyen et al
+63
+
+=== PÁGINA 3 ===
+important issue: Do you guys notice [that] more and more
+young Chinese people have changed their minds and prefer anopen, transparent culture? …I mean, the conditions have
+become mature.’’
+Ren paused then pointed to an iPhone 4 on the table: ‘‘And
+do you ﬁnd that thanks to the popularity of mobile Internet
+technologies [3G] smart devices now have been widely
+used…This [fact] also affects our business. We have been doing
+B2B [Business-to-Business] and gaining rich experiences so [itis] the best time to launch Mingdao. In fact, we may be a few
+steps behind our competitors. The Yammer platform in the USA
+has developed quickly.’’
+Xu Feng was still skeptical about Mingdao’s business
+model:
+‘‘But how to rebuild our Mingdao platform and transform it
+into the information sharing platform that you envisioned?
+There is a lot of information and business management
+software, OA (ofﬁce automation) software, and CRM (customerrelationship management) software. What are the differences
+between Mingdao and these systems?’’
+Ren clariﬁed his strategy.‘‘Firstly, our goal must be clear: Mingdao will be an
+enterprise social collaboration platform. In this platform, all
+employees can get involved, but the target is not to let them
+review external [market] information and analysis, but toachieve internal management communication, project manage-
+ment, team collaboration, and knowledge management and
+other tasks, somewhat similar to ‘the internal’ version ofFacebook. There are lots of traditional OA (ofﬁce automation)
+software, CRM (customer relationship management) software
+in the market, but the rate of utilization in organizations is notthat high. Interestingly, some applications like QQ, Skype, andWebchat even have higher rates of utilization. I mean, the
+traditional OA systems may not improve efﬁciency and even
+stiﬂe innovation in enterprises. Mingdao can hopefully helptackle such a deﬁciency.’’
+Ren then revealed his excitement over the future brand of
+Enterprise 2.0 Mingdao:
+‘‘So to answer Xu Feng’s question, I believe we can create a
+market entry barrier deﬁned by Mingdao’s excellent standards:
+quality of service and staff, service experience and the advancedtechnical capability level.’’
+Wang Gang, VP for technology, then asked:
+‘‘So, technically speaking, will the new Mingdao platform be
+built by cloud computing? Cloud computing is an emerging[trend] and it is the delivery means for providing products and
+services through real-time network. A cloud-computing-enabled
+service means providing application and solutions via the cloudplatform. With Mingdao, we’ll not only build an Enterprise 2.0
+platform but also offer services, right?’’ .
+Ren replied:‘‘Yes, according to the industry classiﬁcation, Mingdao
+provides cloud computing services. The cloud computing service
+[delivery] model
+5can be divided into SaaS6(Software as a
+Service), PaaS (Platform as a Service), and IaaS (Infrastructureas a Service). Generally, QQ,7Wechat, Gmail, Skype, and
+various business mail services are standard SaaS. The new
+Mingdao platform will also be a standard SaaS. This market ishuge, and we have the capability to do [it].’’
+Xu Feng and Xianghui Ren reviewed with members of the
+team, and they all quickly nodded in agreement. The team waseven more convinced of their boss’ idea that the resurrectionof this project would allow the team to re-allocate its resources
+to build a new enterprise social networking platform. Formany others, this would be the second business venture with
+the Mingdao platform. Yet, for Ren and his team, this would
+deﬁnitely be a new pathway for their company.
+A portrait of Xianghui Ren – CEO & Founder of Wanqi Mingdao
+Software Co. Ltd
+8
+Born in 1977 in Shanghai, China, Xianghui Ren graduated
+from Shanghai Institute of Foreign Trade. He holds an MBA
+degree from China’s top business school – China EuropeInternational Business School. Being one of the most
+successful entrepreneurs in the hi-tech industry in China,
+Ren serves on the boards of many advertising and softwareindustry associations (See Figure 1below). Ren is also a well-
+known expert in the advertising communication industry.
+His translations of some advertising and technology articlesand books are still popular today. In 1997, he co-foundedSuoyi – China’s ﬁrst mailing list service provider.
+Ren founded the ﬁrst professional online advertising
+website in China – the online advertising pioneer. Thiswebsite was then developed by Mr. Yang Weiqing to become
+iResearch Consulting,
+9one of the best-known online eco-
+nomic research institutes in China. In 2002, Ren foundedMeiHua Information to provide useful information and
+knowledge for marketing professionals in China. MeiHua
+Information is now among China’s best marketing informa-tion service providers.
+As a high-proﬁle designer in web design and development
+and user experience, CEO Xianghui Ren actively engaged in
+designing the basic framework and part of the core applica-tions of the Mingdao platform. Since its ﬁrst launch in 2012,
+the Mingdao platform has become one of the leading SaaS
+product and service ﬁrms in China. Mingdao not onlyprovides products of excellent quality at a reasonable price,
+but also helps a large number of emerging companies to
+achieve high performance and efﬁciency by adopting theMingdao platform which was built on an open, ﬂat and
+decentralized management philosophy. Mingdao was
+awarded ‘the best enterprise software and application’ prizein the Internet industry in China several times.
+Wanqi Mingdao Software Company: a spin-off of MeiHua
+Information Corporation
+The Mingdao R&D team developed more than a dozen
+product categories. This team has expertise and experience in
+the enterprise software product design architecture, interac-tion design, business intelligence, knowledge management
+and project coordination and management. In January 2014,
+the Mingdao enterprise social collaboration platform wasofﬁcially launched. This platform inherited the design and
+functions from the MeiHua Information platform, and
+therefore, it possessed a strong design and developmentcapability. The Mingdao platform eventually became an
+independent SaaS not only for business intelligence such as
+sharing data analytics and dashboard but also for basiccollaboration and knowledge management applications.Xianghui Ren allowed MeiHua’s staff to join the Mingdao
+platform and experience the platform’s operation (See
+Table 1below).Developing enterprise social software in China Le-Nguyen et al
+64
+
+=== PÁGINA 4 ===
+‘‘The Mingdao platform will change the way we work and
+collaborate. ’’ Wang Junping, head of the HR department,
+showed employees how to use Mingdao platform (See
+Figure 2above). ‘‘ First, it’s very friendly with just a simple
+login screen. You can register a new account via email, or youcan use the old account login [for MeiHua platform], and email
+or corporate QQ can also be used as login account. ’’
+Junping continued:‘‘Set-up is very simple. With a good Internet connection,
+type www.mingdao.com in a web browser to access the platform,
+and you and your team will experience the efﬁciency ofcollaboration. Mingdao has a free trial version for adopters to
+let them know clearly about the characteristics of the platform.
+Mingdao incorporates the patterns of Twitter and a missioncenter for instant communication and teamwork. Based onthose patterns, Mingdao develops basic tools to do enterprise
+knowledge management and task collaboration. The ﬁve menu
+items are
+Start and Applications, Messages, Status, Task,
+Calendar and Knowledge . They are listed at the top of the
+main interface. ’’
+Junping explained further:
+Table 1 Characteristics of the Mingdao platform
+Function Characteristics Display in the
+interface
+Open
+communicationIncluding social network, microblogging, webchat as communication ways which can be
+supplement for traditional toolsReal-time communication
+Cross-region communicationSharing
+Knowledge
+managementDaily sharing can accumulate knowledge in enterprises
+All employees participate knowledge management
+Powerful search tool can realize easy data miningFiles center
+Picture center
+Q&A
+voting centerknowledgecenter
+Collaboration Manage personal and team’s task and mission
+Create task, assign task, break-down taskMission center
+Schedule
+Easiness and
+compatibilityEasiness without installing any software
+Professional and safe SaaS service, fast accessible without training
+Anytime and anywhere, mobile ofﬁceregistration and
+login
+Mobile
+intelligenceAny iPhone or Android smartphones can access Mingdao Apps APP download
+Open platform Mingdao provides API entrance, which is open in public to realize open development
+Accessible to other third party softwareApplications
+market
+Free module Free trial mode: suitable for SMEs to try Mingdao. Any user with an email can register
+anytime. They can use without training
+Advanced mode SME enterprises can use Mingdao with unlimited storage, personalizedinterface, management and control functions (users, groups, and contents), many
+applications for advanced accounts
+Figure 1 Xianghui Ren – CEO & Founder of Mingdao.
+Figure 2 Mingdao platform login screen.Developing enterprise social software in China Le-Nguyen et al
+65
+
+=== PÁGINA 5 ===
+‘‘In the Start and Applications center , you can ﬁnd both
+‘Basic’ and ‘Installed’ applications. Installed applications aremade by a third-party and can be downloaded, such as meeting
+room preview, notes connector, Sina Weibo, etc. When an
+application is downloaded and used, it can be shared with otherpeople using the ‘dynamic internal share’ function, then other
+colleagues can also access this application and download it. The
+higher the utilization rate, the easier the collaboration betweenyou and your colleagues becomes and more potential beneﬁtsare gained from the ‘collaboration’ system.’’ (See Figure 3
+below)
+Junping clicked to open every single menu and presented
+their functions to everyone.
+‘‘When you click the Messages tab,you can see all the instant
+messages received from your colleagues or different teams (See
+Figure 4below). You can also post a message to your Status
+center to share your feelings or opinions about current tasks or
+projects (See Figure 5below). The tasks you have participated
+in are all listed under the Task center and you can also create
+new tasks. All the tasks can be marked to give people a reminder
+(See Figure 6below). The schedules of your team members can
+be shared under the Calendar center (See Figure 7below).
+When you want to share some important ﬁles or interesting
+stories, you can simply upload the ﬁles by accessing the
+Knowledge center, where sharing ﬁles, Q&Q, and polling can
+all be executed (See Figure 8below) . With smart phones, you
+can download the Mingdao app and enjoy the ofﬁce mobility.’’
+Most employees in Mingdao were born after the 1980s and
+a few of them even after the 1990s. They were very keen on
+using the Mingdao Platform
+10after seeing an interesting
+demo shown by the HR director. They asked many speciﬁcquestions about the Platform and felt that it was very easy to
+use.
+Standing outside the room and watching the reaction of
+the young staff members through the windows, Ren was fullof hope. Ren suddenly had a feeling that something great
+would be coming soon.
+‘‘Xianghui, although the platform has been built up, there is
+[still] a problem. ’’ Wang Gang, the VP for technology, was
+curious about Ren’s choice over the cloud platform, ‘‘ Cloud
+computing has three types :
+11public cloud, private cloud and
+hybrid cloud. When starting the project, we [may] deploy two:the public and private cloud. Public cloud can be free or low-
+cost. We can provide our Mingdao platform to any enterprisesvia the Internet. Additionally, we can also provide a private
+cloud service by developing a customized Mingdao platform for
+enterprise users. Of these two types, which one shall we focuson?’’
+Xianghui Ren was well aware that the Mingdao platform
+was still in its infancy, and thus may need more funding andexperience. But Mingdao could not solely rely on the MeiHuaplatform. ‘‘ What are the customers’ demands? ’’ Ren asked
+Gang whilst trying to ﬁgure out a comprehensive solution.
+Gang replied:‘‘Based on sales reports, there are a few [old] customers, I
+mean relatively large companies, and they want to have their
+own [private] platform deployment. ’’
+Ren was anticipating potential proﬁts.
+‘‘It may be better if our private platform will be mainly
+provided for large enterprises, with more than 3,000 people, andthese [companies] should have strong IT management capabil-
+ities. The initial account fee may be US$20,000 per year, plus
+an annual license fee. Mingdao can make more than US$30,000in proﬁt from a single large enterprise customer. ’’
+But Gang revealed his concern:
+‘‘However, private platform deployment has its own difﬁcul-
+ties. This is the customization mode. Each client ﬁrm needsengineers [technical support] and customer service, and it is
+difﬁcult to replicate. ’’
+Ren replied:‘‘Ah, that’s true. For the long term, we plan to develop SaaS
+products based on public cloud, but it will take time to have a
+sufﬁcient number of paid customers, and so we cannot makeproﬁt fast enough. However, if we develop Mingdao based on
+private cloud ﬁrst, we can quickly get proﬁt from a few [big]
+clients and this strategy is very important for our team. We stillhave to give the priority to the private cloud business! ’’
+By 2013, Mingdao had had seven private cloud platform
+deployments. Fortunately, one enterprise customer was very
+keen on the prospect and potential of Mingdao’s platformproject and proposed to offer Mingdao an angel investment
+worthy of RMB20 million (US$3,152,000). Besides, MeiHua
+Info also invested RMB8 million (US$1,260,800). With anadequate funding, the CEO came to a decision: he would
+Figure 3 Homepage: Start Menu & Applications.Developing enterprise social software in China Le-Nguyen et al
+66
+
+=== PÁGINA 6 ===
+build his second startup and Mingdao would be a spin-off
+from MeiHua Info. The Mingdao platform was no longer an
+incubation project of the Mingdao Plum network informa-
+tion, and it eventually became an independent project.
+On the 20th of August 2013, Shanghai Mingdao Software
+Co., Ltd. was formally established.
+Building an Enterprise Social Software (ESS) platform:
+the Mingdao’s pathway
+The ﬁrst customer of the company was Mingdao itself.
+Xianghui Ren believed that once Mingdao platform use led tounderstanding employee satisfaction, then the company
+could get insight into what future clients would actually
+need and feel. Platform deployment in Mingdao could be agood test.Ren felt that the adoption process of the Mingdao platform
+must follow a comprehensive procedure. When comparedwith traditional enterprise systems deployment, the Mingdao
+public cloud deployment is faster and much cheaper. With a
+good Internet connection, users can join quickly. Yet,deploying the platform was not the most important issue.
+Rather, deploying Mingdao was more like optimizing an
+internal communication system, fostering a sharing andcollaborative culture, cultivating better work habits and goodteamwork, exploring outstanding employees, and inspiring
+team potential. In short, this adoption process was subtle,
+and it would take much time and effort.
+Prior to the formal deployment of Mingdao, Ren called for
+another management team meeting where he carefully
+examined the core issues of their existing business, andattempted to reﬁne the deployment strategy. The Mingdao
+platform was mainly designed to enhance the ‘open commu-
+nication, collaboration, and knowledge management tasks.’
+To do so, he deﬁned three simple steps:
+•First step: Inviting all employees to join the company’s
+internal network (through mail, QQ group, etc.).
+•Second step: Establishing groups in accordance to various
+departments. Groups can also re-create the correspondinggroups (particularly to create a number of inter-depart-
+mental coordination groups). Mingdao created six large
+groups. For ongoing projects, Mingdao also created groupsfor those who involved in several projects. Some examples
+are the marketing groups, business development groups,
+product groups, research groups, human resource groups,accounting and ﬁnance groups, and a number of groups
+under construction.
+•Third step: Ofﬁcially promoting the adoption of the
+Mingdao platform across the company.
+Reﬂecting on the adoption process, a staff member
+questioned:
+‘‘The communication on the Mingdao platform is open: Does
+it mean that so long as employees join the platform, they will beself-motivated to start the communication and collaboration by
+themselves? ’’
+Ren elaborated on the adoption process:‘‘Of course not. People have inertia and need norms to
+constrain their behaviors. So, when the Mingdao platform is
+adopted in a company, at ﬁrst, managers should deﬁne whattypes of communication and collaboration can be accepted and
+executed on the Mingdao platform. Mingdao also needs to
+provide guidelines that include [such] norms. Then enterprisescan make personalized modiﬁcation based on their workcontext.’’
+Ren and his team found some popular norms that proved
+to be helpful:
+•Daily/weekly progress reports are shared in the group,
+instead of sending e-mail (See Figure 5);
+•Employee directory inquiries can be made by Mingdao
+contacts (See Figure 3);
+•Internal help/requests for support are made by Mingdao @
+targeting persons/groups (See Figure 5);
+•Ideas about speciﬁc products or recommendations for
+business process improvements are synthesized by adopt-
+ingpublic for evaluation and comments (See Figure 5);
+Figure 4 Message center of an HR manger using Mingdao platform.Developing enterprise social software in China Le-Nguyen et al
+67
+
+=== PÁGINA 7 ===
+•All the employees’ tasks are managed by the task center
+(See Figure 6);
+Ren pointed out that:
+‘‘Not many norms are needed. Only three to ﬁve similar
+norms can help the team quickly develop the habit [of using the
+platform]. Once the habit is built, the team will gradually
+strengthen their understanding about social collaboration andeffectively communicate .’’
+At ﬁrst, many people had suggested that: ‘‘ the Mingdao
+[platform] is very good, but we did not really use it .’’ In fact, the
+Mingdao platform deployment failed basically because there
+was no early training to change staff working habits and
+behavior. Once the habit of collaboration was formed, peoplewould gradually use Mingdao for daily ofﬁce tasks and open
+communication. Sharing of ideas and lessons learned is an
+essential part of collaboration.
+Xianghui Ren led the platform adoption process, and
+therefore knew very early in this process that being totally
+dependent on a small number of managers (e.g., IT Director
+or network administrator) was unrealistic. Because peoplemay need a lot of motivation, the Mingdao platform
+adoption required full participation of all management
+levels. Managers must invite staff members to join Mingdao,and occasionally encourage them to share knowledge via the
+platform. For active users, Ren encouraged and rewarded
+them publicly. Managers may become loyal users anddemonstrate the platform’s functions to their subordinatesto help different departments to use Mingdao creatively.
+Figure 5 The Status center of an HR manger using Mingdao platform.
+Figure 6 Task center of an HR manger using Mingdao platform.Developing enterprise social software in China Le-Nguyen et al
+68
+
+=== PÁGINA 8 ===
+Having registered with the Mingdao platform, each user
+had to decide which groups to join. Ren thought:
+‘‘The group structure would follow the organization structure.
+But is it a good idea to divide the groups that way [structure]? ’’
+and soon he found that splitting the groups this way was not
+ﬂexible enough. In fact, more ﬂexible approaches could beimplemented, such as:
+•Based on the objectives, users could create cross-enterprise
+groups for collaboration. For example, if staff of the
+production department needed to collaborate with those ofthe sales department, then creating a group toaccommodate the needs of collaboration for all of them
+was the most direct and effective approach. Any employeecould belong to different groups on the Mingdao platform.
+•According to the project requirements, collaboration could
+happen at anytime, anywhere, and thus there was a need tocreate a group project. The content created by the group
+could be retrieved anytime, even if this group was closed.
+Such an approach would help to not only achieve the goal
+of ‘‘open communication,’’ but also connect staff members indifferent groups across Mingdao.
+Figure 8 Knowledge center of an HR manger using Mingdao platform.
+Figure 7 Calendar center of an HR manger using Mingdao platform.Developing enterprise social software in China Le-Nguyen et al
+69
+
+=== PÁGINA 9 ===
+With such experiences and methods, Ren found the
+Mingdao platform adoption to be very successful. Staffbegan communicating and collaborating with each other on
+the platform. For example, Ren once noticed that the staff
+discussed how to design a Mingdao T-shirt for a festival,while many others shared the interesting negotiation skills
+with tough customers.
+Ren pushed the platform deployment further. He
+believed that there would be some prominent active users.He wanted to give sufﬁcient support for these users,
+because these prominent users deeply engaged with their
+teams and would help encourage more active users to join.Additionally, Ren asked the management team to develop a
+knowledge portal to store up explicit knowledge regularly.
+He wanted the management team to discuss and decidehow to build the company’s knowledge management
+system.
+T h ee x p e r i e n c ea n de x p e r t i s eo fp e o p l es h o u l db ea c c u -
+mulated in their own department ﬁrst. Then, such knowl-
+edge and experience can be classiﬁed and grouped into
+different ‘‘nodes.’’ For example, in the sales department, thesales experiences can be shared as a node, and customerorders can be collectively shared as another node. The
+administrative department could formulate and implement
+the company general administration policy and then makeits own node. Together, all the knowledge of different
+departments represented by nodes can be combined to
+become a complete ‘‘enterprise knowledge tree’’ on theMingdao platform.
+Finally, Ren suggested some tips: Mingdao adopted the
+‘‘social’’ element everywhere in the platform. Ren believedthat once this was cleverly exercised in the internal commu-nication channel, positive results would come. For example,
+if a staff member posted a message in the dynamic message
+area of the Mingdao platform, then this message could beseen by all sales staff members and a few others in the
+marketing and back-ofﬁce departments. In order to direct the
+messages to the relevant staff, there are some specialfunctions, represented by some symbols such as ‘@,’ to help
+ﬁlter the messages.
+The ‘@’ symbol can also be used for highlighting any
+important messages. Ren encouraged staff to use the
+Mingdao full-text search function to ﬁnd any document,
+task, lesson learned, or project summary. Everyone wouldsoon become accustomed to using Mingdao’s knowledge-base. After just two times of searching, any staff member
+would begin to form a context-dependent knowledge use
+behavior. Ren let the leader of each team ‘play’ to theirimagination, to create more application scenarios, and to
+make his or her team more dynamic and competitive.
+CEO Xianghui Ren and his management team were happy
+to see that, within a month, the adoption of the Mingdao
+platform in their own organization was booming. Staff
+members, who may have never met each other before, had achance to cooperate with each other in learning and sharinguseful knowledge and content. The collaborative and collegial
+atmosphere was evident everywhere across the company. Ren
+was very pleased and conﬁdent that the Mingdao platformadoption could be extended to many more organizations
+outside Mingdao. For Ren and his staff, this was a big
+revolution.Survival of the ﬁttest: deﬁning Mingdao’s revenue model
+Although the Mingdao platform used to be part of the Plum
+information network, it represented such a mature product
+architecture and technology that it faced ﬁerce competition
+in the market. Mingdao obviously needed to better deﬁne itsrevenue model to address these market challenges.
+CEO Xianghui Ren convened the company’s management
+team for a meeting. This team consisted of senior Internet
+and software industry professionals, most of whom had morethan 10 years of industry experience. For instance, Xu Feng,
+well-known in the media, was a vice president of marketing.
+Sun Hao, vice president of strategy in IT, Internet, andadvertising, had 19 years of experience in engineering,
+marketing, and management. Sun Hao was responsible for
+the company’s plans to make marketing strategies at all levels.Lang Ming, vice president of business development, had 12
+years of IT industry experience and was mainly responsible
+for large customers and sales agents. Wang Rui, vicepresident of product development, had rich experience inproduct design and was responsible for customer and
+product planning. Gao Rui, vice president of R&D, was
+mainly responsible for the development and operationmaintenance of the platform and provided a strong technical
+backbone.
+Ren started the meeting by asking Sun Hao straight out:
+‘‘We will not continue offering private cloud deployment, right? ’’
+Sun Hao, VP of Marketing replied:
+‘‘We focus on two businesses: both private and public clouds
+at the same time, just to survive. In fact, SaaS products based onthe public cloud are basically for SMEs [customers] and the
+subscription fee is low (no more than RMB 10,000 *
+US$1,570/year), [and so] the increased marginal cost is verysmall. In contrast, SaaS products based on private cloud need
+product managers and many support staff, and thus, the cost is
+high. And it is not easy to continue focusing on offering SaaSbased on the private cloud. The reason why we chose to do the
+private cloud based SaaS was [just] to accumulate the capital.
+Now, our business context has improved and our target shouldbe SaaS based on the public cloud.’’
+Sun Hao emphasized the choice of private cloud-based
+SaaS products:
+‘‘Ah, I think, for SaaS products, we can earn proﬁts only after
+our customer base reaches a certain level. Otherwise, high
+development and operation costs will eventually lead to a
+collapse .’’
+Xu-Feng asked:
+‘‘So you mean our target customer segments are very clear
+now: only small and medium enterprises or individual depart-ments of large enterprises, right? ’’
+Ren told Xu Feng:
+‘‘For SMEs, the major beneﬁt of a SaaS public cloud is that
+customers don’t need to spend big money on hardware. TheMingdao platform’s design is suitable for any team of 50-200
+people. Don’t worry! According to IDC market research reports,
+in the near future, for SMEs, most business processes andoperations will be Internet-based, and by 2015, China will have
+7 million SMEs that have cloud-based enterprise management
+system, and collaboration between enterprises and publicservices. ’’
+Lang Ming, VP of business development, voiced his
+concern:Developing enterprise social software in China Le-Nguyen et al
+70
+
+=== PÁGINA 10 ===
+‘‘Our ﬁnancing is not ideal [like others]. In America, one
+company, named Slack, [is] doing a similar business, and itreceived US$43 million funding just 3 months after its
+establishment .’’
+‘‘I hope to have more and more people [interested] in this
+industry and the B2B market, and we will save a lot of
+advertising expenses! ’’ quipped Ren.
+In fact, members of the management team were feeling
+more pressure as the competition in the market intensiﬁed.Some big names, such as IBM and Microsoft, already
+launched their own ESS and solutions. For example, on June
+26, 2012, Microsoft had announced that it had agreed to payUS$1.2 billion to acquire the Yammer enterprise social
+network and this deal allowed Microsoft to provide services
+to corporate users. The deal surprised a lot of people as itshowed a great potential in terms of business value for social
+networking sites, and thus, it also sparked a spurt of business
+socializing. In China, around this time, Yunzhijia
+12and
+Tita13also emerged as leading ESS providers. Ren knew the
+nature of such competition. Even with the improvement of
+the basic framework of the Mingdao platform, the upgradingthis platform needed to speed up.
+Ren raised a very important and tough issue:
+‘‘Faced with this competition, what should Mingdao’s
+revenue model be? ’’
+Xu Feng was ready to propose his model:
+‘‘In order to attract customers, we must allow them to try our
+platform ﬁrst. At the beginning, free14[freemium] is the best
+way.’’
+‘‘[But] if totally free, how do we make money?’’ Gao Rui
+questioned Xu Feng while still looking at the CEO.
+‘‘After the 30-day free trial period, if we make good products
+and cultivate users’ habit of online collaboration via Mingdao
+platform, [then] I believe they will be willing to pay the fee .’’
+Ren was expecting to hear more responses.
+The VP of Marketing Sun Hao suggested a pricing scheme:
+‘‘Identifying an ‘appropriate’ trial period is not easy at all. If
+we consider basic and advanced features on the platform, wecan offer basic functions for free, but we will charge them if they
+want to use advanced features. Our categories [of customers]
+can also be divided into ‘Gold’ and ‘Silver,’ pricing is based onhead count, say, 5 RMB/person/month .’’
+To address Sun Hao’s point, Gao Rui questioned more
+about the trial period:
+‘‘If customers pay the fees, we can gain proﬁts. But the key
+points [are]: when to charge customers and how to charge? Is
+the 30-day trial is enough for cultivating or understanding
+habits? Also, because Mingdao offers free trial, we may do asurvey to see how much [fee] is acceptable, or we can consider
+other companies’ pricing models .’’
+Sun Hao added:‘‘According to this revenue model, we can attract people to
+use for free, but we still need to increase the number of paid
+customers! ’’
+CEO Xianghui Ren also felt this big challenge and
+attempted to seek new proﬁtable channels or even innovative
+revenue models:
+‘‘We do our best to understand how the industry charges
+customers and how we can build a competitive revenue model. In
+other countries, many companies have tried to provide customerswith Internet technologies and applications for free or free plus
+premium, but until today, at least nothing can be sure aboutsuccess. If we adopt a completely free [account] model, how we can
+make proﬁt? So far, we cannot ﬁnd other available proﬁtable chan-
+nels so that we can offer totally free account service. We maytherefore adopt a mixture of revenue models (i.e. free basic
+account and paid advanced account) although we are aware of the
+fact that the increasing rate of the number of paid customers isconsiderably smaller than that of the free customers .’’
+‘‘How about sales?’’ Ren asked Sun Hao.
+‘‘Boss,’’ said Sun Hao, ‘‘for the enterprise-level social
+software B2B market, the challenge is huge. For example,Baidu [search engine] analyzed that there are about 1 million
+searches related to enterprise applications per day. We
+estimate that more than 100 enterprise software companiesbid these keywords and [they] try to reach these potential
+customers, so, on average, the potential customer base for each
+company is small and we have to work hard and use[different] marketing strategies to attract this limited number
+of customers and I’m worried .’’
+Sun Hao also updated on sales:‘‘Our sales teams, called Mingdao advisers, have been
+established in 13 cities with more than 100 professionally
+trained consultants. Mingdao brings product and services
+directly [and closer] to our customers. Our sales teams aregrowing rapidly in a short time and they have open and
+transparent communication, ﬂat collaboration and decentral-
+ized management.’’
+‘‘Well, we must ﬁnd more users for free, and more
+importantly, increase the number of paid customers .’’ Ren
+echoed what Sun Hao mentioned earlier. ‘‘ And, considering
+our business and operational model, Mingdao belongs to B2B.But our model is different from that of the majority of B2B
+companies. For instance, a traditional B2B company stresses
+more on sales and not much on marketing, because B2Bcustomers are enterprises. Generally, for B2B, seeking one
+[big] enterprise customer is really hard, while for B2C,
+seeking individual customers is much easier. However, for theB2B market, having a single enterprise-level customer [like
+Huawei] can bring a huge proﬁt for us and this proﬁt allows
+us at a minimum to survive. Therefore, in the B2B market,most companies attempt to get one or two big customers
+every three years. This strategy is weak. While Mingdao is a
+typical platform model, in addition to charging users the fees[for using our platform], we may also charge third-partydevelopers.’’ Ren was speaking while quickly drawing his
+model on the whiteboard for everyone to grasp his idea.
+Following what Ren proposed, Mingdao adopted ‘‘an
+open policy’’ for its platform and hoped that many third-
+party developers would share proﬁt and customers with the
+company. These third-party developers would build moreand more software and applications based on Mingdao
+platform, which is similar to the Android platform (See
+Figure 9above). Third-party developers, by adding Ming-
+dao applications into their software, could have additionalbeneﬁts such as strong promotional support applications, or
+quick access to Mingdao’s customer base. Further, Mingdao
+may invite third-party developers, both ﬁrms and individ-uals, to participate in the development process of its
+platform.Developing enterprise social software in China Le-Nguyen et al
+71
+
+=== PÁGINA 11 ===
+Ren then turned towards Lee Chang, head of R&D
+department to get more information about the company’s
+recent innovative solutions:
+‘‘Yes, the marketing environment of the Internet industry is
+always changing. We must grab chances and keep ourselves
+open-minded. Is there anything new from [our] R&D?’’
+Lee Chang briefed the CEO on some good R&D progress
+(See Figure 10above):
+‘‘The Tasks Center and user interface have been constantly
+updated and improved. The applications of Mingdao platformalso require further improvement. Our mobile client applica-
+tion16has been improving well on smart phone including the
+iOS and Android system.’’
+Ren praised the R&D department:‘‘Well done, great to see our Mingdao app can help users to
+work on the move by smart phone. It is really convenient!’’ and
+then emphasized at the signiﬁcance of customers’ reﬂections,‘‘Mingdao should strengthen its cooperation with third-party
+development communities. IT tools are gradually developed to
+have more user-oriented functions, and we must understandexactly what they need and how they use our software. How
+they actually implement Mingdao surprises us and gives us
+some good ideas to improve [our platform]. For example, in theconstruction industry, our customers (e.g. manufacturers) only
+use Mingdao as a platform to share online pictures, and every
+welding engineer just uploads the photos of the area that needsto be welded to the platform and shares task details.’’
+Chen Liang, head of the customer analytics group, echoed
+the CEO’s view: ‘ ‘Boss, now that you refer to [our] customers, we
+have recently conducted a survey of our enterprise users on theirprimary IT needs, and the results are interesting. We found that
+among the most urgent business or project and task management
+tools, the user experience comes at the top.’ ’ (See Figure 11above)
+Chen Liang continued: ‘‘So, user experience is so important
+that if our products can make users satisﬁed, sales revenue will
+be signiﬁcantly increased and our customer acquisition would
+be very fast.’’ Other members looked towards Chen Liang and
+nodded.
+Several important topics including market positioning,
+business model, sales and marketing, research and develop-ment, products development were put forward at the
+management meeting. Despite many difﬁculties, the prepa-
+ration and operation gave everyone high expectations.
+In 2013, Mingdao offered two types of accounts including
+free basic and advanced accounts. Sales revenue reached
+RMB2 million (US$285,700) and more than 90% of advanced
+account users renewed their account in 2014. Mingdaotherefore expected to increase its 2014 sales revenue by 10
+times – up to RMB20 million (US$2,857,000). Ren believed
+that the ten-times-sales revenue-growth target was feasible.Thanks to the word-of-mouth marketing, almost half of the
+new customers were referred from current customers. In 2014,
+about 5% of Mingdao’s free accounts were upgraded toadvanced accounts, each of which costed RMB3,600 (US$515
+per year). Mingdao’s platform was constantly launched into
+the ESS markets in ﬁve key cities such as Beijing, Shanghai,Guangzhou, Shenzhen, and Hangzhou. There were a numberof successful co-hosting events in the social enterprise area,
+such as Mingdao Forum,
+17that received great attention of the
+community.
+Figure 9 Mingdao enterprise application market.15Developing enterprise social software in China Le-Nguyen et al
+72
+
+=== PÁGINA 12 ===
+The way ahead is not rosy
+Four years have passed since Xianghui Ren and his team
+decided to embark upon the second venture with the
+Mingdao platform. They were happily watching their startupbecoming one of the leading ﬁrms in China providing
+Enterprise Social Software via the SaaS delivery model. ‘‘What
+luck!’’ , Ren whispered. He was so proud to be the founder
+and CEO18of a company that played a key role in
+transforming Chinese organizations into the ‘Enterprise
+2.0.’ Yet there’s a saying, ‘‘ Life is to continue facing many
+problems and solving puzzles .’’ Although the potential of this
+Internet-based service business was huge, Mingdao still had
+to confront mounting challenges.
+The business intelligence reports during the ﬁrst few months
+of 2015 were not that encouraging. There arose some questions
+that may cause further headaches for the young, energetic CEO
+of Mingdao. First, because a number of companies in Chinanow offer similar Enterprise 2.0 products, and even offer them
+free-of-charge, how could Mingdao build barriers to compe-
+tition and sustain its success? Unlike the B2C market, the B2Bmarket in fact receives relatively little attention, and thus, B2B
+enterprises like Mingdao lack social and government support.
+Though Mingdao already completed its A round ﬁnancing,how could it get more funding in the near future?
+Moreover, Ren was not fully convinced of Mingdao’s
+current approach to drawing more companies to try and
+accept its platform. He wanted to know how to convincefree-trial customers of the excellent beneﬁts of upgrading to
+being paid subscribers. Equally, he was more curious about
+the ideal conversion rate as he knew that early-stage users areless price-sensitive than others, so they are more likely to
+upgrade. Alternatively, shall a constantly updated platform
+provide better and more comprehensive features to cus-tomers? For example, connecting with more third-party
+software developers like ERP, CRM or integrating with therecent most-talked about Business Intelligence and Analytics
+tools should be placed high on Mingdao’s R&D agenda.
+Finally, Mingdao may need to consider industry segments’particular requirements as well as security and legal issues ofits platform’s usage.
+Late at night after a record-breaking wet summer day of
+2015, Ren drove his Tesla electric supercar P90D back home,absorbed in these nagging thoughts. He knew that the way
+ahead would not be rosy, and tonight would be a long night.
+Suggested assignment questions
+1. Describe the CEO proﬁle. How do you link his proﬁle to
+the success of Mingdao so far? What draws your attentionto this young entrepreneur’s character?
+2. How do you understand the notion of Enterprise 2.0? Do
+you notice any differences and similarities between theEnterprise 2.0 and Web 2.0?
+3. In your opinion, what is special about this IT service ﬁrm?
+What are the core values of Mingdao?
+4. What should the CEO do to help build and develop
+Mingdao’s competitive advantages and sustain its
+business?
+5. What are the opportunities and challenges for Mingdao
+and its CEO in the IT service industry in China?
+6. Identify different business and revenue models based on
+cloud-computing and Web 2.0 technology. Give oneexample for each of the model that you identify.
+7. Explain and discuss the impact of network economics
+theory and how this theory could be applicable to the ITservice industry in general and the case of Mingdao in
+particular.
+8. If you were the CEO of Mingdao, what would you do to
+attract more customers to try its platform and convert as
+Figure 10 Interface optimization and microblogging connection.Developing enterprise social software in China Le-Nguyen et al
+73
+
+=== PÁGINA 13 ===
+many of these ‘‘trial users’’ as possible to become paid
+subscribers?
+9. What are the additional functions and features that you
+think may add value to the Mingdao platform? Is there
+anything that should be changed or upgraded? Explain.
+10. What do you think about the role and importance of ESS
+in enabling knowledge management and collaboration
+activities in organizations?
+11. Do you believe if there is any relationship between the
+implementation of ESS and boosting organizational
+creativity and innovation? If yes, why? If not, why not?
+12. Identify any dark side of implementing the ESS in
+organizations. How could the design and developmentof this platform help address your identiﬁed problems?
+Acknowledgements
+Our special thanks goes to Mr. Xianghui Ren, the CEO of Mingdao,
+for his strong support for this study. This work was supported by
+‘‘Fundamental Research Funds for the Central Universities’’ (Pro-
+jects no. 2014B18914 and 2014B01414), Provincial Natural ScienceFoundation of China (No. BK20150823), and The Humanities and
+Social Sciences Foundation of the Ministry of Education in China
+(Project No. 16YJC630028).
+Notes
+1 MeiHua Information (http://www.meihuainfo.com) is a China-
+based business information provider specialized in marketing
+intelligence service. The company provides full category and
+cross-media advertising monitoring, news monitoring andcustom solution for corporate communication tracking. The
+Figure 11 Mingdao’s survey on enterprise IT needs.
+service has been provided to almost 1,000 marketers and
+agencies since the company was founded in 2002.
+2 MeiHua also operates a marketing professional portal site that
+aggregates communication industry news, advertising and media
+intelligence data, knowledge base, resource directory and onlinecommunity. The site received the highest trafﬁc level in this B2B
+category with more than 2 million page requests per month (by
+July 2011). MeiHua also organizes industry seminars, dinnerparties and training conference in major cities in China. It iswidely recognized as the information hub for China’s advertising
+and marketing business society.
+3 WeChat, ﬁrst released in January 2011, is a mobile text and voice
+messaging communication service developed by Tencent in
+China.
+4Convergence effect refers to the provision of telephone, video and
+data communication services within a single network. This effect
+is increasingly prevalent in the IT world; in this context the term
+refers to the combination of two or more different technologiesin a single device. Taking pictures with a cell phone and surﬁng
+the Web on a TV are two of the most common examples of this
+trend.
+5 The predecessor of iResearch was an online advertising ﬁrm
+founded by Xianghui Ren.
+6 See detailed explanations and examples of all the three delivery
+models of cloud-computing service: http://bit.ly/19HNOtX.
+7 SaaS, one of the three delivery models of cloud-computing
+service, is any software application that a ﬁrm pays to use but it
+is not physically located on this ﬁrm’s premises. It is a full-blown application. It is not a component part of something else
+and not a way to build applications. Nor is it a plug-in to other
+applications. Instead of the traditional way of buying andinstalling a software package on a ﬁrm’s computers, by paying afee over a period of time, a ﬁrm just has to connect itsDeveloping enterprise social software in China Le-Nguyen et al
+74
+
+=== PÁGINA 14 ===
+computers with a vendor’s servers and uses the software
+application (as if it physically existed on this ﬁrm’s machines).
+NetSuite ERP, IBM Watson Analytics, Microsoft PowerBI orSalesforce are good examples of SaaS. Since SaaS is part ofcloud-computing service, it means adopting the SaaS delivery
+model can help organizations save the cost (i.e., as compared
+with acquiring of the software package physically) and effort(i.e., maintenance, support, upgrade, and replacement)
+substantially.
+8 Tencent QQ, also known as QQ, is a popular instant messaging
+software service developed by Chinese company Tencent.
+9 A short video introducing about Mingdao platform can be found
+at: http://bit.ly/1VhoXT3
+10 URL: http://www.iresearch.cn.11 The activities and tasks that can be supported by Mingdao
+platform are further clariﬁed in Appendix C.
+12 Cloud-computing service has three deployment models: public,
+private and hybrid. More details about these three types can be
+found at http://1.usa.gov/1umXAe3.
+12 URL: www.yunzhijia.com/home.13 URL: www.titanﬁle.com
+14 Freemium is a common business model in e-commerce,
+providing products or services, which are based on the fact ofthe basic function, free but advanced options (advanced features
+and expanded content). The basic free version is also maintained
+in the future, in parallel with new subsequently launchedpremium version that includes some enhancements, newfeatures, or more options. This model is valuable as it attracts
+customers, develops their trust through the usage and potentially
+inﬂuences them to buy the advanced version. Services based onthe principle of Freemium can have basically two forms. The ﬁrst
+may be the provision that is functionally limited; version of the
+product with the fact that some parts must be paid. The secondoption is to offer a full service but time limited. Skype is a typical
+example of this model.
+15 As seen at: app.mingdao.com/Home.16 Mingdao apps can be downloaded from https://appsto.re/cn/-
+ZR7B.i and Mingdao OA can be downloaded from https://
+appsto.re/cn/0jrc2.i (See Appendix B).
+17 Mingdao holds an annual forum inviting entrepreneurs,
+scholars, and media to come and discuss the new trends of the
+Internet service industry. The objective is to promote Mingdao’s
+products, services and break-through ideas. See more at:http://forum.mingdao.com.
+18 After the ofﬁcial founding of Mingdao, Xianghui Ren was no
+longer MeiHua’s CEO. Still being the largest shareholder ofMeiHua, he wants to dedicate his time to Mingdao.
+About the Authors
+Dr. Khuong Le-Nguyen is an Associate Professor at the
+Department of Management & Information Systems, College of
+Business, Kent State University, Ohio, USA. He earned his M.Sc.and Ph.D. in Management from the University of Warwick and
+the University of London (UK), respectively. His currentresearch interests include big data analytics for healthcare and
+marketing, consumer behavior and IT products, IS and business
+alignment, and IT innovation (Internet of Things/AI/Big Data)with business venturing and entrepreneurship. His research has
+appeared in Journal of Information Technology, Information
+Systems Journal, Information Systems Frontiers, Energy Policy,International Journal of Information Management, and Inter-
+national Journal of Case Studies in Management. His work has
+also been presented at many national and international confer-ences. Besides academia, he is now on the advisory board of aSilicon Valey based value-add venture ﬁrm that advises and
+invests in IT startups.
+Dr. Yue Guo is a Distinguished Professor of Management of
+Hohai University and China Academy Science. He received hisPh.D. from the University of East Anglia. His research interests
+include big data, digital divide, ICT policy, and IS usage. He
+published in Management Science, Decision Support Systems,Journal of Tourism Management, Information & Managementand International Conference on Information Systems.
+Dr. Jia Qiong is a lecturer at the School of Business, Hohai
+University. She earned her PhD in Industrial Management
+Engineering, Korea University. Her research interests includeBusiness Intelligence, Knowledge Management, Resource-
+constrained, and Project Scheduling. She has published in a
+number of leading international journals and conferences.
+Appendix A: Metrics used to measure Mingdao platform
+•Users Monthly Value : Increased sales of new customers or
+decreased sales of lost customers.
+•The overall conversion rate of registration = Number of
+Paying customers/ Number ofregistered users.
+•Registration page entry rates = Number of users entry the
+registration page/ Number ofguests on Mingdao website.
+•Registration page completion rates = Number of users
+complete the registration page/Number of users entry theregistration page.
+•7 days/30 days client retention rate = Number of active
+users in one week or one month/Number of users
+complete the registration page.Developing enterprise social software in China Le-Nguyen et al
+75
+
+=== PÁGINA 15 ===
+.Appendix B: Mingdao mobile application
+Appendix C: Key issues and characteristics of Mingdao platform
+1.Real-time cross-region collaboration.
+2.Flat communication: reducing the information
+asymmetry.
+3.Reducing complex of communication in matrix
+organization.
+4.Sharing process is well-aligned with building knowl-edgebase process.
+5.Avoiding using Excel to manage employees’ contacts.
+6.Storing up knowledge for re-use and knowing how/whom to ask for help.
+7.New employee can get familiar with work processes byaccessing knowledge portal.
+8.Building and updating network of expertise (knowl-edge map) is fast and easy.
+9.Effective mission management for individuals andteams.
+10. Facilitating transparent communication, sharing andcollaboration culture in organizations.
+11. Extending more enterprise software applications andavoiding IT investment overlaps.
+12. Assisting employees to send information in organiza-tions efﬁciently.
+13. Being able to track work progress of colleagues.14. Minimizing the number of reciprocal internal emails
+and easily creating internal email list.
+15. Always being accessible by smartphone and tablet
+devices.
+16. Having the capability to search dynamic updates,information, users, groups and ﬁles at once.
+17. Making large enterprise become small, with highefﬁciency of generating/transmitting good ideas.
+18. Making small enterprise become large and the use of
+social capitals of every employee ﬂexible.
+19. Encouraging more people to participate in discussions,
+much better than forum online.
+20. Good ideas can be easily and quickly recorded andpromptly put into discussion.
+21. Reducing misunderstanding thanks to the transparentcommunication.
+22. Reducing knowledge learning barriers thanks to the
+centralized storage.
+23. Reducing redundant communication by using groups.
+24. Swift deploying without additional cost.
+25. Higher-class SaaS service security measures (better
+than the measures of enterprise itself).
+26. An individual has his/her right of using data.
+Developing enterprise social software in China Le-Nguyen et al
+76
+
+=== PÁGINA 16 ===
+Appendix D: Mingdao’s sales and grow chart
+Appendix E: Mingdao’s re-new orders and re-new sales ratio
+Developing enterprise social software in China Le-Nguyen et al
+77
+
+=== PÁGINA 17 ===
+Appendix F: Number of Mingdao app users in 2014
+Developing enterprise social software in China Le-Nguyen et al
+78
+

@@ -1,0 +1,2184 @@
+=== PÁGINA 1 ===
+Received: 23 June 2020 Accepted: 28 March 2022
+DOI: 10.1111/poms.13729
+ORIGINAL ARTICLE
+Managing Software-as-a-Service: Pricing and operations
+Bo Li1Subodha Kumar2
+1Ningbo China Institute for Supply Chain
+Innovation, Ningbo, Zhejiang, China
+2Fox School of Business, Temple University,
+Philadelphia, Pennsylvania, USA
+Correspondence
+Bo Li, Ningbo China Institute for Supply Chain
+Innovation, Ningbo, Zhejiang 315832, China.
+Email: libo@alum.mit.edu
+Handling Editor: Sushil GuptaAbstract
+Software-as-a-service (SaaS) applications have experienced a decade of explosive
+growth, eliminating barriers in reaching users and enabling real-time interchanges and
+intelligence. Using business analytics, SaaS applications are increasingly embedded in
+the day-to-day activities of businesses and consumers with competition and innova-
+tive pricing. Due to the evolution in cloud business models, new issues are surfacing
+to challenge practitioners and scholars. A number of issues encountered in the prac-
+tice have not been properly addressed or even recognized. In this paper, we attempt to
+ﬁll this important gap. We propose a framework of recent business research on SaaS
+in light of wide adoption of the SaaS business model. This framework broadly classi-
+ﬁes SaaS research into two basic themes. For each theme, we review past work that
+has been instrumental in setting the direction of this line of research and discuss how
+emerging research opportunities can be addressed. For each research opportunity, we
+also propose an initial model and the applicable methodology. Further, in order to aid
+researchers, we identify the data sources wherever applicable, and even present some
+of the initial results. We conclude by describing promising directions on a roadmap for
+future research and explain why an integrative perspective of operations, marketing,
+and information systems is critical to SaaS. In this paper, we bridge the gap between
+research and practice by identifying the relevant industry problems that would help
+researchers who are interested in working in this area both to get a starting point and to
+address important theoretical and practical challenges.
+KEYWORDS
+business analytics, pricing, service operations, software-as-a-service
+1 INTRODUCTION
+Gartner ( 2021 ) predicts the revenue of worldwide software-
+as-a-service (SaaS) services reaching $145 billion by 2022
+at a compound annual growth rate of 18.9% since 2020, and
+IDC ( 2018 ) predicts that by 2025, 46% of the world’s stored
+data will reside in clouds. These economic indicators and the
+rapid growth signal the importance for the academic commu-
+nity to adequately study the management of SaaS to guide the
+future development of these services.
+However, there has been limited research in SaaS man-
+agement. For instance, what pricing and operational policies
+should a SaaS provider adopt under heterogeneous user con-
+cerns on security and privacy? Why would SaaS usage pat-
+terns inﬂuence pricing and quality decisions? Research on
+industry problems has gaps in certain themes, and bridging
+these gaps is the eventual goal of this paper.
+Accepted by Sushil Gupta, after three revisions.The National Institute of Standards and Technology
+(NIST) deﬁnes SaaS as the capability provided to the con-
+sumer of using the provider’s applications running on a cloud
+infrastructure where the applications are accessible from var-
+ious client devices and interfaces and the consumer generally
+does not manage or control the infrastructure (Mell & Grance,
+2011 ). According to this deﬁnition and extant studies (e.g.,
+Feng et al., 2018 ), key differences between SaaS and tradi-
+tional software are Internet delivery and multitenancy, which
+distinguishes SaaS research from traditional information sys-
+tems analysis. We thus summarize unique features of SaaS
+into two categories:
+∙those derived from Internet delivery—no geographical
+constraint, ease of monitoring user behavior, congestion,
+and integration with third-party application programming
+interface (API);
+∙those derived from multitenancy—security and privacy
+concerns, ease of deployment and updates, limited user
+2588 © 2022 Production and Operations Management Society. Prod Oper Manag. 2022;31:2588–2608. wileyonlinelibrary.com/journal/poms
+
+
+=== PÁGINA 2 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2589Production and Operations Management
+FIGURE 1 Themes in SaaS-related research [Color ﬁgure can be viewed at wileyonlinelibrary.com]
+control on the application, and the possible outsourcing of
+infrastructure.
+These unique features lead to six special business character-
+istics of SaaS:
+1. the variety of pricing options, low prices, and free trials;
+2. Internet marketing, ﬁerce competition, and viability of
+specialized services;
+3. integration with platforms, social networks, and user
+devices;
+4. analytics and improvements based on user-generated data;
+5. scalability, rapid elasticity, but challenging customization;
+and
+6. service quality, security, and privacy issues could impact
+all users.
+1.1 The framework
+To identify relevant themes in SaaS research, we have con-
+ducted a literature search in leading operations manage-
+ment and information systems journals between January 2011
+and August 2021 and found 31 relevant papers listed in
+Table EC.7 in the Supporting Information . The sources are
+outlined in Figure EC.1, and the trend of the papers found
+i ss h o w ni nF i g u r eE C . 2i nt h e Supporting Information .I t
+can be seen that the number of SaaS papers increased gradu-
+ally in the last decade. Using the abstracts of these 31 papers,
+we have identiﬁed multiple topics using topic modeling, and
+the results are shown in Figure 1: Topic 1 is about the gen-
+eral business model, Topics 2 and 4 are about operations, and
+Topic 3 is about pricing. We also verify the pricing and oper-
+ations schemes by checking the keywords and key ﬁndings
+of these papers (see Table EC.8 in the Supporting Informa-
+tion). Therefore, in this paper, we focus on the pricing and
+operations aspects of SaaS.
+Johnson et al. ( 2008 ) deﬁne a business model as interlock-
+ing elements that create and deliver value together: customer
+value proposition, proﬁt formula, key resources, and key pro-
+cesses, where the customer value proposition means a way to
+help customers solve a fundamental problem in a given situa-
+tion, and the proﬁt formula deﬁnes how the company creates
+value for itself while providing value to customers. Accord-
+ing to this deﬁnition, we argue that at the tactical level, pric-
+ing and operations characterize the provider’s proﬁt formulaProvider CustomersPricing
+Opera/g415onsRespond
+RespondDesign
+DesignFees
+BeneﬁtRevenue
+Cost
+FIGURE 2 Areas of SaaS research [Color ﬁgure can be viewed at
+wileyonlinelibrary.com]
+SaaSPricingMarket Entry
+Tariﬀ Scheme
+Bundling
+Dynamic Pricing
+Opera/g415onsCapacity
+QoS
+Security
+Usage
+FIGURE 3 Topics of SaaS research
+(revenue and cost) by utilizing key resources and implement-
+ing key processes. Like any business, customers perceive the
+value of a SaaS offering through fees paid (pricing) and ben-
+eﬁt received (operations). Based on the deﬁnition of business
+model and motivated by our topic modeling results, we focus
+on two themes shown in Figure 2with further subdivision
+into eight topics shown in Figure 3.
+1.2 Methodologies
+Diverse research methodologies can be found in SaaS
+research, such as queuing (e.g., Li & Kumar, 2018 ; Saha
+et al., 2021 ), econometrics (e.g., Chu & Manchanda, 2016 ),
+and mixed methodologies (e.g., Mookerjee et al., 2017 ).
+These methodologies facilitated the Federal Communications
+Commission’s successful auction of wireless spectrum since
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 3 ===
+2590 LIAND KUMARProduction and Operations Management
+Prescrip/g415ve 
+Analy/g415csPredic/g415ve 
+Analy/g415cs
+DiﬃcultyValue
+HindsightInsightForesight
+Informa/g415on Op/g415miza/g415onDiagnos/g415c 
+Analy/g415cs
+Descrip/g415ve 
+Analy/g415cs
+FIGURE 4 Gartner’s 4-level analytics ascendancy model
+Source : Adapted from Chandler et al. ( 2011 )
+[Color ﬁgure can be viewed at wileyonlinelibrary.com]
+2010 (Kiddoo et al., 2019 ; Kumar, 2021 ). Rooted in the
+Internet and cloud computing, SaaS may aggregate diverse
+data sources to create “data lakes” for business analytics. For
+example, ZJ Technology, a hotel management SaaS provider,
+features multitenant data architecture where most customers
+share the same database and tables (except for some large
+enterprise clients). Its cofounder, Hilda Lo, said Lo ( 2021 ),
+“We record data from payments, room records, staff sched-
+ules, and CRM (customer relationship management) tools.
+We then benchmark performance metrics across hotels.” Hav-
+ing learned that such data architecture is common in the SaaS
+industry, we conclude that data supporting SaaS research are
+abundant but challenging to obtain due to privacy and conﬁ-
+dentiality concerns.
+Following Gartner’s analytics ascendancy model, we clas-
+sify business analytics methodologies used in SaaS research
+to four broad categories: businesses identity what happened
+with descriptive analytics , uncover the reasons via diagnos-
+tic analytics , make predictions via predictive analytics , and
+pinpoint possible interventions via prescriptive analytics ,a s
+shown in Figure 4. These four categories ascend with both
+more value and more challenges (Chandler et al., 2011 ).
+In Sections 2to 4, we discuss past studies in each area and
+propose emerging research problems followed by a discus-
+sion of the actual models and data sources.
+2 SAAS PRICING
+In this section, we begin with an example of SaaS pricing
+challenges driven by competition, cost structure, and cus-
+tomer preferences. We then discuss a likely cause of new
+pricing decisions (entering a new market) to underline the
+strategic delicacy of SaaS pricing beyond optimizing rev-
+enue alone. After showing the importance and complexity of
+SaaS pricing, we zoom in on the pricing schemes under var-
+ious scenarios. For many SaaS offerings, the price is static
+(Steele & Mickle, 2019 ). Based on the industry practice, we
+categorize these static pricing schemes into individual pric-
+ing for homogeneous services (tariff) (Iyengar et al., 2011 )
+and aggregate pricing for heterogeneous services (bundling)(Jones, 2013 ), depending on the variety of services. For some
+SaaS offerings, prices change temporally (i.e., they have
+dynamic pricing) (Spann et al., 2015 ). We discuss what may
+drive this deviation from static pricing. We conclude by illus-
+trating three research opportunities.
+2.1 Apple music: Revamping pricing
+schemes for digital services
+Since 2003, Apple Inc. has operated an iTunes Store that
+unbundles songs from physical albums and distributes dig-
+ital music to iPods and iPhones with a price for each song
+(often 99 cents), replacing Napster as the market leader for
+acquiring music legally online and becoming the biggest
+music retailer worldwide in 2010 (Ingraham, 2013 ). Despite
+the iTunes Store’s success, on June 30, 2015, Apple Inc.
+launched the Apple Music streaming service in over 100
+countries (Apple Inc., 2015 ). At launch, Apple Music charged
+a $9.99/month subscription fee for an individual user and
+$14.99/month for a family (up to six family members).
+Apple Music quickly gained market advantages over incum-
+bent digital music providers by rebundling previously unbun-
+dled iTunes songs (Steele & Mickle, 2019 ). This suggests
+that revamping SaaS pricing schemes can create competitive
+advantages and lead to new research opportunities.
+2.2 Pricing for market entry
+As SaaS providers grow, they enter new markets with bet-
+ter products and sales efforts, often with competitive pric-
+ing. Apple’s entry into the music subscription market is one
+example.
+As another example, Steve Pratt, CEO and founder at Noo-
+dle.ai, suggests seizing the recent supply chain chaos oppor-
+tunity to market their supply chain analytics solutions in SaaS
+(Amazon AWS, 2021 ): “Global CPG (consumer packaged
+goods) leaders spent decades capturing and organizing data
+(e.g., data lakes), building capabilities, and feeding planning
+systems that blew up in an instant in 2020.… We ﬁrmly
+believe CPG industry leaders are willing to invest in tech-
+nologies that can help solve critical challenges.”
+With business customers, Benlian and Hess ( 2011 ) ana-
+lyze a survey of 349 German IT executives and ﬁnd that
+cost advantages affect perceptions of SaaS opportunities
+heavily, whereas uncertainties in cost savings and quality
+improvements keep potential adopters at bay. To resolve these
+uncertainties, potential SaaS customers want to evaluate the
+software prior to purchase, and proving the value via demos
+(e.g., Zendesk) and pricing can facilitate the purchase and
+migration (Grieve, 2021 ).
+Toward adoption, many business customers start from a
+basic SaaS application before moving to sophisticated SaaS
+applications following the LAER (Land, Adopt, Expand,
+Renew) model proposed by The Technology & Services
+Industry Association ( 2017 ). Hence, SaaS providers may
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 4 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2591Production and Operations Management
+offer some basic services with attractive pricing ﬁrst to
+facilitate customer success and then expand the service port-
+folio, as Rhett Glauser (an executive at ServiceNow) puts it
+(2checkout, 2012 ): “We’ve been successful because we have
+successful customers, a rabid fan base. These guys tell their
+friends, these guys take us with them to their next gig.”
+For many software markets, incumbents remain providers
+of off-the-shelf (OTS) software that is often customized for
+heterogeneous clients, whereas SaaS is not, meaning that
+an unﬁt disutility is attributed to SaaS. OTS and SaaS dif-
+fer in revenue structure (one-time vs. usage-based per billing
+period), cost structure (high initial cost vs. usage-based), and
+customer value (without/with unﬁt disutility) in addition to
+delivery method and architecture. For example, Ma and Seid-
+mann ( 2015 ) examine competition between customized com-
+mercial OTS software and uncustomized SaaS where the user
+ﬁrm faces stochastic demand and customers learn their ﬁt
+after making their OTS/SaaS choice with exit and switch-
+ing permitted. They ﬁnd that both providers may coexist, but
+reducing lack-of-ﬁt costs intensiﬁes competition and pushes
+SaaS to dominance; Li et al. ( 2018 ) echo this. With a related
+setting where the SaaS provider conducts continuous quality
+improvements and an OTS provider offers upgrade, Guo and
+Ma ( 2018 ) ﬁnd that prices of OTS upgrades can be low to
+attract upgrades or in response to a SaaS entrant or possibly
+deter weak SaaS entrants under continuous quality improve-
+ment. Zhang et al. ( 2022 ) ﬁnd that an entrant could gain
+foothold of a quality-differentiated information goods market
+with subscription pricing.
+Incumbent providers’ responses vary. Some, such as
+Adobe Systems Inc., stop selling boxed-software and become
+SaaS providers. By doing so, Adobe was able to continue
+its dominance of the market (Jones, 2013 ). For a pure-
+SaaS market, Feng et al. ( 2018 ) show that a high-quality
+entrant to a SaaS market dominated by an incumbent prefers
+instant release of the service with high pricing under within-
+product and cross-product network effects, whereas a low-
+quality entrant prefers late-release with low pricing. Xiao
+et al. ( 2020 ) deﬁne SaaS churn as “premature termination
+of the use of the current SaaS system and replacement of
+it with an alternative” and establish how commitment to the
+SaaS product and commitment to the cloud computing tech-
+nology impact churns. Going a step further, a provider could
+strengthen such commitments by outstanding customer ser-
+vice and cost reimbursement (see, for example, our third
+research opportunity (RO3) and Xiao et al. 2020 ), which
+deserves further research. See Table EC.1 in the Supporting
+Information for a summary of the aforementioned studies.
+2.3 Tariff schemes
+Tariff choice for homogeneous services is generally a nonlin-
+ear pricing problem where subscription pricing (a.k.a., ﬂat-
+fee), two-part tariff (2PT), and three-part tariff (3PT) are
+ubiquitous choices. In the remainder of this subsection, we
+delineate the assumptions and ﬁndings using a coherent setof notations. 2PT contains an access fee (denoted as a) and a
+per-unit usage fee (denoted as u) where the service quantity
+(usage) is denoted as q. Subscription pricing (i.e., u=0) and
+pay-per-use (i.e., a=0, also known as pay-as-you-go) are
+special cases of 2PT (Jain et al., 2020 ). 3PT contains a base
+fee (denoted as b), an allowance of free units, and an addi-
+tional fee for overage. Table EC.2 in the Supporting Infor-
+mation offers a summary of popular tariff schemes (where
+Pdenotes payment to the provider). We observe that SaaS
+providers sometimes adopt subscription pricing and some-
+times use tiered (nonlinear) pricing and pay-per-use pricing
+to account for usage. One could ﬁnd 2PT and 3PT in SaaS
+too. As a variant of the subscription pricing scheme adopted
+by Apple Music, some SaaS applications charge by the num-
+ber of users (e.g., Apple Music family plans) with possible
+quantity discounts. Xin and Sundararajan ( 2020 ) ﬁnd that
+this nonlinear pricing problem can be decomposed into a set
+of simpler subproblems under inelastic individual usage. In
+addition to these, complex contracts could be found (Susarla
+& Barua, 2011 ) and sometimes enforced (Zhao et al., 2021 ).
+Many providers such as Twilio even have several options for
+their customers to choose from (e.g., pay-per-use and sub-
+scription). Features of these SaaS tariff models are tabulated
+in Table EC.3 in the Supporting Information .
+2.3.1 Comparing tariff schemes
+Generally, a SaaS application administers the same pricing
+within a country (e.g., Netﬂix Inc., 2020 ), and such pricing
+is sometimes a function of usage. Note that speciﬁc discus-
+sions about usage can later be found in Section 3.5. Another
+popular pricing scheme, per-user pricing, has compliance
+challenges.
+For access services, Iyengar et al. ( 2011 )d i s c o v e rt h a t
+consumers prefer pay-per-use to 2PTs. Bagh and Bhargava
+(2013 ) show that 3PT is superior to 2PT in efﬁciency and ﬁnd
+that a small menu of 3PTs designed with less information can
+be more proﬁtable than a menu of 2PTs of any size. Observ-
+ing consumer switching between 2PT and 3PT, Lambrecht
+et al. ( 2007 ) show that higher usage variation steers customers
+toward high allowances under 3PT. Bhargava and Gangwar
+(2018 ) ﬁnd that when demand has an increasing price elastic-
+ity, the optimal 3PT has an equivalent optimal 2PT. Despite
+these advantages, 3PT is not often adopted in SaaS, partly
+due to negligible usage costs for some high-value SaaS and
+the presence of switching costs. By comparing various tariff
+schemes, Fibich et al. ( 2017 ) ﬁnd that a ﬁxed fee is usually
+necessary, but an overage fee is optimal only if usage is costly
+and consumers are homogeneous.
+Different from studies involving 2PT/3PT, Li et al. ( 2020 )
+incorporate an additional ad-supported option for digital
+music and ﬁnd that subscription pricing (e.g., Apple Music)
+is preferred to a fee per song (e.g., iTunes) when usage cost
+and advertisement revenue are low. There remain consider-
+able research gaps in optimizing SaaS subscription pricing as
+shown in RO3.
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 5 ===
+2592 LIAND KUMARProduction and Operations Management
+2.3.2 Impact of capacity on tariff scheme
+Leveraging on the general theory about tariffs, researchers
+incorporate real-world considerations such as capacity-
+related delays (more in Section 3.2) to evaluate tariff
+schemes. Essegaier et al. ( 2002 ) examine a choice among
+subscription pricing, usage pricing, and 2PT. They assume a
+capacity limit Kand binary heavy/light users where heavy
+(light) user segments constitute 𝛼(1−𝛼) fraction of the
+market and use qH(qL) units of capacity. Consumers fea-
+ture a reservation price vand vary in ﬁt (represented by
+the position xon a Hotelling line). The capacity constraint
+is (1−𝛼)xlql+𝛼xhqh≤K, where xlandxhare fractions of
+subscribers for each service. They conclude that when capac-
+ity is plentiful, market penetration should be the strategy with
+subscription pricing being the tactic. The takeaway is that
+when capacity utilization is low (true for most SaaS), sub-
+scription pricing is preferred.
+2.3.3 Impact of usage on tariff scheme
+Usage is crucial for tariff scheme choice. In an early
+study, Sundararajan ( 2004b ) ﬁnds that introducing subscrip-
+tion pricing is always proﬁt-improving with transaction
+costs associated with administering usage-based pricing in
+quantity–price pairs.
+In another early study, Jain and Kannan ( 2002 ) con-
+sider search-based pricing, subscription-fee pricing, and
+connection-time–based pricing, and derive general condi-
+tions under which subscription-fee pricing is optimal. They
+ﬁnd that undifferentiated online servers may coexist and that
+higher server costs and consumer valuation heterogeneity
+may encourage differentiation.
+Recent studies reafﬁrm the preference toward subscription
+pricing. Bala and Carr ( 2010 ) consider per-use valuation het-
+erogeneity and usage heterogeneity, compare ﬁxed fee and
+usage fee, and do not include capacity considerations. They
+model each customer’s utility from service as vqu where
+v∈[0,1] is single-use utility, q∈[0,1] is frequency of use,
+anduis service quality, analogous to customer ﬁt. A customer
+purchases the service if vqu−pf>0 for ﬁxed fee ( pf) and if
+q(vu−pu)>0 for usage-based pricing ( puper unit usage).
+They ﬁnd that light users acquired via usage-based pricing
+are unlikely to compensate for the monitoring costs incurred.
+Hence, SaaS managers should be cautious about imple-
+menting usage-based pricing in a competitive setting. More
+studies related to usage will be discussed in Section 3.5.
+2.4 Bundling
+Bundling is a popular scheme for quantity-based pricing for
+heterogeneous goods. This scheme is not uncommon in SaaS:
+Apple Music is a collection of music pieces, Adobe combines
+its popular products in their Adobe Creative Cloud (Jones,
+2013 ), and Box Inc. bundles their storage with enterpriseapplications (Barret, 2013 ). Bundling of information goods is
+a challenge for ﬁrms but may produce substantial economic
+beneﬁts (Adams & Yellen, 1976 ), such as the Microsoft
+Ofﬁce Suite, when consumer valuations of the components
+in the bundle are positively correlated (Gandal et al., 2018 ).
+In a seminal paper, Bakos and Brynjolfsson ( 1999 ) denote the
+valuation of good iout of a total of ngoods as Uni(𝜔) for cus-
+tomer𝜔∈Ω where Uni(𝜔) are independent for any given n.
+Using the weak law of large numbers that facilitates predic-
+tion of customer valuation, Bakos and Brynjolfsson ( 1999 )
+show that the beneﬁts of large bundles of unrelated informa-
+tion goods persist even under positive correlation between
+goods’ valuations. However, their pricing method may pro-
+duce a very high bundle price for large bundles (Geng et al.,
+2005 ). Bundling ﬁts SaaS applications nicely due to their low
+marginal cost and vast variety. For example, Bakos and Bryn-
+jolfsson ( 1999 ) ﬁnd that uniﬁed bundling by a collection of
+single-good monopolists selling the goods to a single dis-
+tributor is preferred , which partially explains the success of
+subscription-based online content providers.
+However, bundling too much may not be optimal. In two-
+sided networks, the network externality coupling encourages
+unbundling and subsidizing one side to increase transactions
+volume (Parker & Van Alstyne, 2005 ). In the presence of pos-
+itive marginal costs, Abdallah ( 2019 ) compares pure bundling
+mechanism to theoretical proﬁt bounds and provides analyt-
+ics to quantify the allocation inefﬁciency created by large-
+scale bundling where user valuation of certain bundled goods
+is lower than the marginal production cost. Geng et al. ( 2005 )
+analyze the price of a bundle, rather than the price of a
+good in a bundle (e.g., Bakos & Brynjolfsson, 1999 ) and
+show that bundling’s degree of optimality is generally high
+if consumers’ values do not decrease too quickly. Unlike
+Bakos and Brynjolfsson ( 1999 ), Geng et al. ( 2005 ) model the
+value of a bundle to the customer as Y(𝜔)=∑∞
+i=1ciXi(𝜔)=
+lim
+n→∞∑n
+i=1ciUni(𝜔) and assume the series ( c1,c2,…,ci,…)t o
+eventually decrease to 0 for customer 𝜔∈Ω . For the ﬁnite
+mean (𝜇) and ﬁnite variance ( 𝜎2)o fY(𝜔), when𝜎∕𝜇 is small,
+pure bundling achieves the majority of the proﬁt of a perfectly
+discriminating monopolist.
+Mixed bundling (i.e., selling both bundles and individual
+goods) is challenging to analyze, and researchers respond by
+reducing the problem space. Hitt and Chen ( 2005 ) show that
+out of a total of Ngoods, the complex mixed-bundle problem
+(2N−1 possibilities) can be reduced to the cardinality-bundle
+problem ( Npossibilities).
+They also propose a computational pricing strategy that
+Wu et al. ( 2018 ) improve later by having fewer restrictions
+and an efﬁcient combinatorial solution approach for both dis-
+crete and continuous problems. With the discovered advan-
+tages and drawbacks of bundling, we conclude that SaaS
+bundling (and core bundling) deserves further research, espe-
+cially for ﬂagship SaaS products with superior valuations
+that may sell separately from a bundle (e.g., RO2). See
+Table EC.4 in the Supporting Information for a classiﬁcation
+of bundling studies.
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 6 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2593Production and Operations Management
+2.5 Dynamic pricing
+Dynamic pricing such as Uber’s surge pricing is common
+in retail, travel, and on-demand services, and less so for
+manufactured products (Spann et al., 2015 ). However, pure
+dynamic pricing in SaaS is still uncommon, partly due to
+the ease of product differentiation in SaaS (e.g., the exclu-
+sive albums on Apple Music). As another reason, enterprise
+customers seek predictable operating costs by using SaaS,
+but dynamic pricing adds a layer of unpredictability to ﬁnan-
+cial planning.
+Even if retail prices remain stable, it is possible to use
+limited-time discounts and promotion codes to change real
+prices dynamically and try A/B testing for different prices.
+Some commodity SaaS services, for example, VPN (virtual
+private client) services, are in a price war where providers
+often discount their services (VPN Overview, 2021 ). More-
+over, a provider could run promotions at the end of quar-
+ters to meet growth plans and attract clients dealing with new
+budgets.
+Separate from sales, the need for dynamic pricing may
+emerge from cloud computing providers adjusting prices
+for computing instances in different regions due to demand
+ﬂuctuations in these spot markets, and Passacantando et al.
+(2016 ) provide an algorithm for SaaS providers to manage
+multiple cloud computing providers in real time. This is
+despite the fact that there are reservations and preemptible
+instances (e.g., Chen et al., 2021 ) for customers preferring
+cost stability. For the cloud computing market, Cheng et al.
+(2015 ) ﬁnd that larger latency effects result in larger pricing
+differentials by analyzing the pricing dynamics of Amazon
+EC2 U.S. East and West markets. For the providers, Dierks
+and Seuken ( 2021 ) develop a condition under which a cloud
+computing provider may prefer to offer a spot market using
+idle resources to both increase proﬁt and enhance user wel-
+fare. Due to spot market ﬂuctuations, SaaS providers may
+want to charge users differently based on time and server
+location. We conclude that dynamic pricing research in SaaS
+is scarce but necessary to understand the related factors and
+the feasibility of dynamic pricing tactics, and we will present
+an example in RO1.
+Adding to the challenges of dynamic pricing, network
+effects are not uncommon in SaaS and information services at
+large. For example, Apple Music and Spotify allow listeners
+to learn from the tastes of each other based on social net-
+works (Hagiu & Wright, 2020 ), which in turn would dynami-
+cally impact usage and willingness-to-pay (WTP) for a music
+streaming subscription.
+The formulation of network effects in SaaS can be clas-
+siﬁed into four categories: linear in network size (Niculescu
+et al., 2012 ), nonlinear in network size (Chu & Manchanda,
+2016 ), two-sided network (Chu & Manchanda, 2016 ;P a r k e r
+& Van Alstyne, 2005 ), and industry-wide network (Nair et al.,
+2018 ).2.6 New research opportunities in SaaS
+pricing
+SaaS applications often introduce new pricing plans that con-
+nect the provider and the market, as shown in Figure 2.W e
+propose two ROs listed in Table 1based on emerging indus-
+try practices.
+2.6.1 RO1: Dynamic pricing in SaaS
+When economic conditions evolve, a SaaS application may
+want to change prices over time. Netﬂix is a classic example
+of penetration pricing: Entering the market at a low price and
+increase it thereafter. Prophet, a leading supply chain plan-
+ning SaaS, designs dynamic pricing plans that are tied to
+client metrics that evolves over time due to demand growth
+and supply chain reconﬁgurations Kennedy ( 2016 ). A natu-
+ral research question follows: Should SaaS providers adopt
+dynamic pricing?
+To understand when and why dynamic pricing is adopted
+and sustained in a SaaS market, similar to Spann et al. ( 2015 ),
+one may conduct an empirical study on price changes in SaaS
+subscription plans. For this study, one could use lists of SaaS
+companies, say the Golden Research Engine (Golden Recur-
+sion Inc., 2021 ), and GetLatka (Latka, 2021 ), to track the
+pricing tactics of companies. Moreover, GetLatka contains
+business metrics and podcasts about the SaaS companies and
+their CEOs. On the cost side, the Amazon EC2 spot pricing
+data (Amazon Web Services, 2021 ) can be used to analyze
+cost dynamics.
+The following model classiﬁes the pricing tactics of SaaS
+services into latent classes:
+logpit=∑
+s𝜋shs(𝛼0+𝛼 1s+𝛼 2slogProductAge t
++𝛼 3slogProductAge it+𝛽PIi+𝛾Dummies t)
+(1)
+where pitis the retail price of SaaS product iin year
+t,𝜋sis the probability of class membership, hsis
+class-speciﬁc density function, ProductAge itis the SaaS-
+service–speciﬁc service age (elapsed months since launch),
+ProductAge tis the average of ProductAge it,PIiare the
+indicator variables for integration with various platforms,
+and Dummies tare the time and service attribute dum-
+mies. There are two possible results from this econometric
+model:
+1. Coefﬁcient estimates on whether factors such as user-
+generated data and platform integration matter: CRM
+might be more likely to use penetration pricing than a doc-
+ument tool.
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 7 ===
+2594 LIAND KUMARProduction and Operations Management
+TABLE 1 Future research opportunities in SaaS pricing
+RO1 RO2 RO3
+Summary Dynamic pricing in SaaS Building a core bundle Pricing for SaaS market
+penetration
+Methodology Diagnostic/predictive/prescriptive analytics Diagnostic/predictive/prescriptive
+analyticsDescriptive/diagnostic/predictive
+analytics
+Research questions Should SaaS providers adopt dynamic
+pricing?Should SaaS providers offer a core
+bundle of individual services?Could reimbursing or reducing
+lack-of-ﬁt costs help penetrating
+a SaaS market?
+Industry examples Netﬂix Microsoft Ofﬁce Noodle.ai
+Examples of data source Latka ( 2021 )P o y a r ( 2020 ) Wharton Customer Analytics
+(2012 )
+2. Firm-level data could be added to explore how 𝜋s(and
+the use of penetration pricing) depends on business factors
+such as product differentiation. For example, extant stud-
+ies argue that undifferentiated products encourage pene-
+tration pricing.
+To derive normative predictions, one may analyze equilib-
+rium outcomes for the choice among skimming pricing and
+penetration pricing using a two-period game-theoretic model.
+Consider a SaaS provider entering a new market. Let the
+value of service be k0at time t=t1and k0+f(n1) at time
+t=t2, where n1is the number of subscribers at t1, and f(n1)
+is the value of user-generated data at t2.L e t f(⋅) be increas-
+ing and concave. Denote the number of potential subscribers
+byAi,i=1,2. The𝛽(n1) subscribers that stay with the ser-
+vice will be charged the minimum of p1andp2in period 2.
+The number of subscribers are n1=g1(k0,p1,A1) and n2=
+𝛽(n1)+g2(k0+f(n1),p2,A2). The problem of maximizing
+the expected proﬁt of the SaaS provider is therefore
+min
+{p1,p2}𝜋(p1,p2)=p1n1+min{ p1,p2}⋅𝛽n1+p2(n2−𝛽n1).
+(2)
+The predictions of the game theory model (prices) could
+then be compared with empirical ﬁndings (predicted prices
+and coefﬁcients) and jointly answer the research question. It
+is possible to perform ﬁner customer segmentation after gain-
+ing knowledge about customer behavior.
+This RO provides a new opportunity for providers to gener-
+ate more revenue from customers and align pricing with cus-
+tomers’ perceived value of the service, which is crucial both
+to the bottom-line and to adoption by potential customers. For
+dynamic pricing under cost uncertainty, this RO contributes to
+the link between pricing and operations in SaaS. For dynamic
+pricing under market uncertainty, this RO contributes
+to the link between pricing and customer characteristics
+in SaaS.
+This RO expands the current literature, which is primarily
+about static pricing (tariff and bundling) and adapt dynamic
+pricing research on cloud computing to the business models
+of SaaS and to its customers. Since bundling may incorpo-rate more uncertainties in cost and market than standalone
+offerings, it is also possible to create bundles that adopt
+dynamic pricing.
+2.6.2 RO2: Building a core bundle
+The ﬁrst version of Microsoft Ofﬁce Suite for Win-
+dows included Word, Excel, and PowerPoint back in 1990
+(Da Costa, 2018 ). A few years later, Microsoft added Mail
+(Outlook) and OneNote to the bundle. Some applications
+such as Frontpage and PhotoDraw were once in the bun-
+dle but later discontinued or removed, but several pop-
+ular Microsoft business applications such as Project and
+Visio (with the exception of Visio Viewer) were not in the
+Microsoft Ofﬁce Suite. Since 2011, a subscription option
+called Microsoft Ofﬁce 365 is offered and includes SaaS
+applications such as OneDrive, Teams, and SharePoint, in
+addition to cloud versions of classical applications such
+as Word. Microsoft Ofﬁce 365 has different versions tai-
+lored to enterprises, educational institutions, and individuals
+(Da Costa, 2018 ).
+Accounting for usage uncertainty in SaaS, a provider may
+build a core bundle of popular services that is not sold sep-
+arately (e.g., the Microsoft Ofﬁce 365 Suite) and comple-
+ment the core bundle with standalone offerings. Evidenced by
+Microsoft Ofﬁce, this strategy may suit providers that operate
+several leading services. Typically, the price of a core bundle
+of SaaS applications is for a monthly, yearly, or permanent
+license. Hence, a research question is: Should SaaS providers
+offer a core bundle of individual services? If a core bundle
+is deemed necessary, the next steps are examining how to
+assemble and price such a bundle, which we will address in
+this RO.
+To answer this research question on building a core bun-
+dle, the ﬁrst step is to understand the value of each software
+component. SaaS providers collect usage information easily.
+The data set in Poyar ( 2020 ) indicates that 38% of SaaS com-
+panies adopt pricing plans based on usage (transactions, stor-
+age, computing, servers). It would be meaningful to collect
+information on usage (say, during a free trial) and estimate
+WTP for unit usage in unbundled services to design a core
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 8 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2595Production and Operations Management
+TABLE 2 Variables in RO2
+Name Type Source (apart from user data)
+Mean usage Numerical Survey
+Variance of usage Numerical Survey
+Fee per unit usage Numerical Survey
+Bundled Binary Survey or case study
+Price of bundle Numerical Survey or industry data set
+bundle. It is also possible to use surveys and case studies to
+document and analyze how SaaS providers bundle their ser-
+vices with usage considerations. Table 2summarizes key
+variables that can be collected and used in the subsequent
+optimization model (e.g., usage is a critical factor in deter-
+mining the core bundle). Ideally, a panel data set could be
+formed to develop a dynamic understanding about the core
+bundling strategy.
+After estimating the value of each service, the core
+bundling optimization problem can be solved. Consider a
+SaaS provider offering Iservices where each service is
+indexed by i. The provider creates a single core bundle from
+theIservices. The prices for the core bundle and an indi-
+vidual service are pbandpi, respectively. The bundling deci-
+sion xi=1 if service iis in the core bundle, and xi=0o t h -
+erwise. Denote the value of each service by vi∼Fi(⋅). Let
+x=(x1,x2,…,xI) and p=(p1,p2,…,pI). Denote the value
+of the core bundle by vb∼Γ(⋅), which depends on x.F o rt h e
+case of independent Fi(⋅)s, one may derive exact expressions
+ofΓ(⋅)i fFi(⋅)s are uniform, exponential, or normal; other-
+wise, one could approximate Γ(⋅) using its ﬁrst two moments.
+Denote the expected revenue of the provider by Π(x,p,pb).
+The revenue maximization problem is
+max
+x,p,pbΠ(x,p,pb)=[
+1−Γ(pb)]
+pb+i∈I∑
+(1−xi)[
+1−Fi(pi)]
+pi
+s.t.xi=0o r1,∀i;pi,pb>0,∀i. (3)
+Possible results derived from solving this model (i.e.,
+membership of the core bundle, price of the core bun-
+dle, and prices for the standalone services) answer the
+proposed research question and are readily applicable to
+SaaS providers.
+It is possible to extend this model to a competitive setting to
+explore whether a core bundle strategy should be universally
+adopted by players in a market.
+After obtaining the qualitative results of the proposed ana-
+lytical model, researchers may test them and develop new
+theories based on the empirical ﬁndings (e.g., offering a core
+bundle with a higher price may increase user perception of
+value for light users).
+This RO about core bundling adds to the information ser-
+vices bundling literature (e.g., Geng et al., 2005 ) by optimiz-
+ing a core bundle that is not sold separately, which is fre-
+quently found in the industry. In addition to the connection
+to the bundling perspective of heterogeneous goods, this ROcould pave ways to adding auxiliary services with usage caps
+or usage-fee discounts to the core bundle due to easy usage
+tracking in SaaS, which relates to the tariff literature (e.g.,
+Bala & Carr, 2010 ).
+2.6.3 RO3: Subsidy for SaaS market
+penetration
+Founded in 2016, Noodle.ai offers AI-as-a-service to help
+ﬁrms improve their operations and supply chains (Makinen
+& Burgelman, 2018 ). When disruptions hit supply chains,
+its machine learning algorithm could adjust the sales and
+operations plan immediately to account for factors such as
+weather, holidays, trafﬁc conditions, and customer feedback.
+Noodle.ai trains its algorithm in its own data centers and
+once trained, it is hosted on Amazon Web Services (AWS)
+for clients. To facilitate ingesting customer data, they build
+a feature library and data streams that could help interpret
+and digest customer data and hire consultants to work with
+clients for major projects. For example, when working with
+XOJET, a large private jet ﬁrm, a Noodle.ai team consist-
+ing of managers and engineers worked with XOJET employ-
+ees to develop a quotation tool (Makinen & Burgelman,
+2018 ).
+The practice of Noodle.ai to provide extensive customer
+support aligns with the recommendations of Floerecke ( 2018 )
+that over the whole SaaS service lifecycle, it is fundamen-
+tal to provide extensive support on usage, operation, and
+selection of SaaS services and work closely with customers:
+Many clients appreciate personal contacts and could pay
+extra for being able to call if a problem occurs. This is
+partly because SaaS services must often integrate the cus-
+tomers’ business processes and information technology (IT)
+systems, so many problems may appear and bring lack-of-ﬁt
+costs.
+One possible solution is to reduce lack-of-ﬁt costs to facil-
+itate market penetration (Ma & Seidmann, 2015 ), for exam-
+ple, by providing high-quality customer service and technical
+support for customer problems. Hence, a research question
+is:Could reimbursing or reducing lack-of-ﬁt costs help pene-
+trating a SaaS market?
+The ﬁndings from answering this question could shed light
+on the relationship between usage, service quality, and ser-
+vice ﬁt in the context of SaaS and extend previous studies
+such as Ma and Seidmann ( 2015 ).
+To answer this research question, one might explore the
+data set Wharton Customer Analytics ( 2012 ) that contains a
+random sample of customers of satellite radio services pre-
+installed on new vehicles. Table 3summarizes key variables
+that can be generated from this data set. Let the outcomes be
+no-subscription and subscription of various lengths (monthly,
+quarterly, semiannually, annually, and 2-year). The follow-
+ing multinomial-logit model could be used to estimate the
+likelihood of each outcome (denoted by Yi) and test if high-
+quality customer service could improve the ﬁt between user
+needs and the service and in turn enhance user conversion.
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 9 ===
+2596 LIAND KUMARProduction and Operations Management
+TABLE 3 Variables in RO3
+Name Type Source
+Subscription Binary User data
+Length of subscription Numerical User data
+Usage Numerical User data
+Service quality (customer care) Numerical User data
+Service ﬁt (technical support) Numerical User data
+One could write
+𝛽c⋅Xi=𝛽 c0+𝛽 c1Xusage+𝛽 c2Xquality+𝛽 c3Xﬁt,(4)
+where𝛽cis an array of coefﬁcients of the independent vari-
+ables Xi={1,Xusage,Xquality,Xﬁt} for outcome cout of a
+total of Koutcomes, and hence Pr( Yi=c)=exp(𝛽c⋅Xi)
+∑K
+k=1exp(𝛽k⋅Xi).
+The independent variables array Xiincludes usage (data avail-
+able), service quality (from customer care calls, free-text
+available), and service ﬁt (from technical support calls, free-
+text available), the latter two of which can be converted
+into indices using text analytics to estimate user-experienced
+service quality. For example, text categorization (supervised
+machine learning) can classify technical support calls about
+the ﬁt between the application and customer needs, and sen-
+timent analysis (e.g., using naive Bayes classiﬁers) could
+assess whether the issue is resolved. Other applicable text
+analytics approaches include thematic analysis. An alterna-
+tive to the proposed multinomial-logit model is survival anal-
+ysis. For example, we present a Cox model where h0(t)i st h e
+baseline hazard function for customer churn and hi(t)i st h e
+conditional hazard: hi(t|Xi)=h0(t)e x p {𝛽cXi}.
+By estimating these models, the possible results would
+quantify impacts of usage, service quality, and service ﬁt
+on renewal decisions and justify measures to improve ser-
+vice ﬁt (e.g., by streamlining features or adding documen-
+tation) for market penetration, which answers the research
+question. Delineating the inﬂuence of service ﬁt and its inter-
+actions with other factors could provide guidance for pos-
+sible improvement efforts to increase retention rates. This
+RO examines levers that would make a market entry suc-
+cessful, and the results would facilitate SaaS practitioners to
+disrupt existing markets or enter new markets with an appro-
+priate strategy to reduce lack-of-ﬁt. This RO is also related
+to studies on quality of service (QoS) by studying whether
+improving service ﬁt in addition to quality could enhance cus-
+tomer retention.
+To extend this analysis, one may examine whether exten-
+sive usage could interact with customer service quality to
+reduce uncertainty in service valuation and induce users to
+choose a longer subscription length or try add-on services.
+Since many SaaS start-ups go global at their early age (e.g.,
+Serena Capital, 2020 ), how they penetrate diverse global
+markets is intriguing, and combining ﬁrm-speciﬁc data (e.g.,RO6), surveys, and experiments (e.g., Gao et al., 2022 )m a y
+facilitate addressing RO3.
+3 SAAS OPERATIONS
+This section reviews SaaS studies with operational decisions,
+moving gradually from making key decisions in SaaS deliv-
+ery to incorporating customers’ preferences. For any type of
+service, it is fundamental to meet customer needs on both the
+quantity of service capability (capacity) and the quality of the
+service (Li & Kumar, 2018 ). However, the automatic remote
+delivery and the multitenancy structure of SaaS make it
+challenging to do so optimally while manipulating and
+securing customer data (Allyn, 2020 ), as evidenced by
+an industry example later in this section. Addressing
+this challenge demands an understanding of customer
+usage behavior that impacts both revenue and operational
+performances.
+3.1 ServiceNow—Building operational
+excellence
+ServiceNow, a SaaS provider of customer service automa-
+tion (e.g., incident management) is known among competi-
+tors and clients for its excellent offering. In 2019, Servi-
+ceNow housed its SaaS on Microsoft Azure in addition to its
+own private cloud (Microsoft, 2019a ). Released in 2010, the
+Azure service features computing instances that are known
+for its security and affordable prices, creating a sourcing
+decision to be made by users (e.g., ServiceNow) who may
+want to integrate public cloud with their own data cen-
+ters. SaaS services are sensitive to delays, and Microsoft
+addresses this need by reducing latencies (The New York
+Times, 2012 ). To ServiceNow, the partnership will allow it
+to “more fully leverage and integrate our platform and prod-
+ucts with Microsoft’s leading enterprise technology and capa-
+bilities,” which translates to improved security and compli-
+ance of its SaaS offering (Microsoft, 2019a ). Meanwhile, Ser-
+viceNow adds private data centers in the United Kingdom,
+Ireland, and the Netherlands to serve European customers
+(ServiceNow, 2020 ). Hence, for a SaaS application like Ser-
+viceNow, building operational excellence with private and
+public clouds could yield resilient and efﬁcient cloud oper-
+ations, which creates many research opportunities outlined in
+this section.
+3.2 Capacity
+We have just shown that SaaS providers such as ServiceNow
+must manage and source their capacities appropriately. SaaS
+is unique in its capacity infrastructure since the capacity is
+shared between many individual users (i.e., multitenancy)
+with demand ﬂuctuations and may need to be adjusted in an
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 10 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2597Production and Operations Management
+on-demand or scheduled manner, which differs from intranet
+server applications and OTS software.
+The demand for capacity is satisﬁed by three different
+types of clouds: (i) private cloud, (ii) public cloud, and (iii)
+hybrid cloud, which we will outline separately. According
+to NIST (Mell & Grance, 2011 ),private cloud is a cloud
+infrastructure for exclusive use by a single organization, pub-
+lic cloud is a cloud infrastructure open to the general public,
+and hybrid cloud is a combination of distinct cloud infras-
+tructures (private, public, etc.) exampled by ServiceNow.
+Many SaaS providers evolve from building private capac-
+ity, to incorporating cloud computing infrastructure to form
+a hybrid system, and to completely relying on public cloud
+vendors. Another trend is moving from treating capacity as a
+constraint to making it endogenous (e.g., Li & Arreola-Risa,
+2022 ). The studies in this subsection follow these trends and
+are summarized in Table EC.5 in the Supporting Information .
+These studies suggest a need to understand the infrastructure
+sourcing decisions and the impact of other factors such as
+security (see RO5).
+3.2.1 Private cloud
+Huang and Sundararajan ( 2011 ) classify costs of SaaS pro-
+vision into infrastructure costs and service costs, and show
+that the periodic ﬁxed costs of IT capacity can be substituted
+by a virtual constant variable cost when economies or dis-
+economies of scale in capacity are absent, which facilitates
+analytical modeling. In other words, the cost of capacity ( 𝜇)
+is𝛾𝜇, where𝛾is a coefﬁcient.
+When capacity addition is not instantaneous, demand ( q)
+may overwhelm capacity and thus impair customer util-
+ity. According to Huang and Sundararajan ( 2011 ), there
+is a utility loss Δufor the value per transaction for
+OTS transactions under overcapacity ( q≤𝜇) with respect
+to undercapacity ( q>𝜇), which gives rise to a thresh-
+old solution for optimal capacity to balance the costs of
+overcapacity and undercapacity. Similarly, Ma and Seid-
+mann ( 2015 ) consider lower service value under insuf-
+ﬁcient capacity for OTS but no capacity constraint for
+SaaS.
+3.2.2 Hybrid cloud
+Chen and Wu ( 2013 ) model a market with two identical
+ﬁrms and two technologies: proprietary infrastructure with
+a high per-period ﬁxed cost (with capacity constraint) and
+on-demand services with a low per-period ﬁxed cost (with-
+out capacity constraint) that is found to beneﬁt differenti-
+ated products. Coping with demand uncertainty, Jain and
+Hazra ( 2019 ) show that higher average demand favors a pri-
+vate cloud, but higher demand uncertainty favors a public
+cloud. On-demand services also feature a variable usage cost
+in both studies.3.2.3 Public cloud
+Managing capacity can be a challenge for public cloud
+giants: The Azure service in the United Kingdom strug-
+gled to meet rising demand in using owned and rented
+data centers and in 2019, it had to increase its U.K.
+capacity by more than 15 times its 2016 capacity (Microsoft,
+2019b ). It is possible to mitigate demand uncertainty using
+backup virtual machines (VMs) in a dynamic manner
+(Guo et al., 2019 ), which may impact pricing and mar-
+ket entry (Fazli et al., 2018 ). Another method to mitigate
+demand uncertainty is allowing reservations, which is pop-
+ular among public cloud computing services. In this regard,
+Chen et al. ( 2019 ) analyze competition among infrastructure-
+as-a-service (IaaS) providers and ﬁnd that low-demand-
+variability customers prefer reservation-based pricing and
+that high-demand-variability customers prefer usage-based
+pricing. However, reservations are not always actually used,
+which creates opportunities for IaaS providers to overcom-
+mit. To address this opportunity, Cohen et al. ( 2019 ) propose
+algorithms for overcommitting cloud computing services
+appropriately under job-size uncertainty to save unused com-
+puting resources in capacity requests, suggesting a cost
+reduction of 1.5% to 17%. In the upstream, IaaS providers
+face the challenge to manage multiple computing resources.
+To explore this challenge, Arbabian et al. ( 2021 ) analyze
+a two-resource capacity-expansion problem where a cloud
+infrastructure provider adopts two server conﬁgurations with
+different CPU/RAM ratios, which differs from the single-
+resource capacity model in many studies.
+3.3 QoS
+In addition to the quantity of service capacity just discussed
+in Section 3.2, the QoS capacity is frequently studied in
+information services research. Low-quality SaaS could be
+costly: 23% of small and medium businesses surveyed said
+the per-hour cost of IT system-related downtime for their
+business was more than $40,001 (Help Net Security, 2020 ).
+Working with leading SaaS providers such as ServiceNow
+reduces such risk. Sitesbi, a Polish SaaS provider, had prob-
+lems with backups, database nodes, and support with their
+cloud provider, which hurts their business performance. After
+migrating to a different cloud provider, they have a good
+service-level agreement (SLA) and improved server perfor-
+mance (UpCloud, 2021 ), which underscores the importance
+of measuring the quality of and procuring online services. In
+this section, we start from quality differentiation and then dis-
+cuss various aspects of QoS in SaaS.
+3.3.1 Quality differentiation
+To attract and retain segmented customers, quality dif-
+ferentiation is a natural choice for providers (Afeche
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 11 ===
+2598 LIAND KUMARProduction and Operations Management
+et al., 2017 ; Guo & Ma, 2018 ). For example, in the
+online payments market, Stripe succeeds with its developer-
+friendly API that eases integrating payments on websites,
+and Braintree became popular thanks to its transparency
+and enabling data portability (Braintree, 2012 ;B u , 2020 ).
+In academic research, Fan et al. ( 2009 ) examine pric-
+ing decisions with asymmetric information about SaaS
+capacity cost and investigate quality improvement where cus-
+tomer defection rates depend on market players’ quality.
+Modeling quality as a binary costly decision (high/low), Ma
+and Kauffman ( 2014 ) consider pricing strategies and quality
+choices in duopoly competition of SaaS providers where cus-
+tomers sample (free-trial), learn their true ﬁt, then switch or
+stay in the presence of lock-in costs. They ﬁnd that higher
+switching cost beneﬁts users via ﬁercer price competition,
+and hence may not always beneﬁt both providers. With mul-
+tiple services available, bundling can pair differentiated ser-
+vices. Zhang et al. ( 2016 ) consider two ﬁrms serving cus-
+tomers with heterogeneous tastes where each ﬁrm offers
+either a free basic service plus an additional charge for a pre-
+mium service or a bundle of both. They derive conditions for
+free service outperforming bundling and prove that exoge-
+nous quality advantage in the basic service leads to bundling
+under certain conditions, which is analogous to the capacity
+cost differentials in Li and Kumar ( 2018 ). All these studies
+consider how quality differentiation could leverage customer
+heterogeneity for better quality.
+3.3.2 QoS measurements
+Beyond the SERVQUAL scale (Parasuraman et al., 1988 ),
+Benlian et al. ( 2011 ) identify two new essential factors (secu-
+rity and ﬂexibility) for measuring SaaS service quality, where
+ﬂexibility covers the degrees of freedom customers have to
+change contractual or functional/technical aspects in the rela-
+tionship with a vendor. In practice, public cloud vendors
+routinely use SLAs to guarantee service levels to customers
+(Yuan et al., 2018 ). Another important dimension of SaaS ser-
+vice level is service delay, since users could be highly sensi-
+tive to delays (The New York Times, 2012 ). To proﬁt from
+heavy users and quality-sensitive users, providers may mon-
+etize service quality (e.g., Netﬂix Premium Plan). However,
+it is unclear from extant studies what business consequences
+providers may face when violating SLAs, say compliance to
+relevant regulations (see RO4).
+3.3.3 QoS meets the market
+Frequently, service providers differentiate their offerings in
+QoS to cater to heterogeneous customers. Let the cost of
+low QoS be 𝛾dper unit of time, where dis a QoS met-
+ric (e.g., average delay, maximal delay) and 𝛾is a param-
+eter potentially heterogeneous among users. In many stud-
+ies, the user’s problem is to maximize v−p−𝛾d, where v
+is the unit service value and pis the unit service price paidby the user. As an early study, Zhang et al. ( 2007 ) con-
+sider a monopoly model with queuing formulation and pro-
+vide justiﬁcation for using a stationary model rather than a
+dynamic-arrival-rate model with single- and dual classes of
+service under various QoS guarantees. Going a step further,
+Zhang et al. ( 2009 ) consider a sequential duopolistic mar-
+ket where the providers choose service levels (high or low)
+and prices simultaneously. Considering heterogeneity in cus-
+tomer usage, Li and Kumar ( 2018 ) discuss the implications
+of subscription pricing for SaaS with premium and standard
+services differentiated by expected delay. In their model, a
+user’s problem is to maximize vm−p−𝛾dm, where mis the
+usage level of the user and pis a subscription fee. Investi-
+gating market entry and deterrence, they show that invest-
+ments in deterrence are viable, especially when new entrants
+face other signiﬁcant barriers to entry such as cost disadvan-
+tage or QoS disadvantage. With results showing the impor-
+tance of QoS in market competition, how QoS of SaaS and
+online platforms work together (e.g., RO7) is an enticing
+question.
+3.3.4 QoS in acquiring computing resources
+The importance of QoS to end users prompts SaaS providers
+to incorporate QoS in their procurement decisions of cloud
+computing services. For example, Anselmi et al. ( 2017 )
+model a marketplace with users purchasing services from
+SaaS providers, which in turn acquire computing resources
+from infrastructure providers such as AWS with a distinc-
+tion between shared and dedicated latency in the cloud. For
+applications sensitive to downtime, Guo et al. ( 2020 )h a v e
+proposed a method to estimate transient downtime in virtual
+network function, which facilitates service provisioning to
+ensure availability.
+A summary of studies discussed in Section 3.3can be
+found in Table EC.6 in the Supporting Information .
+3.4 Security
+A SaaS application is insecure when information is obtained
+without consent. For SaaS users and providers, security is
+a valid concern, and hence we single it out among ser-
+vice quality factors. In this section we also explore closely
+related issues like piracy and privacy in addition to security,
+all of which are related to unauthorized data access. While
+ServiceNow seeks to improve security with the Microsoft
+Azure partnership, some providers such as Zoom are at
+risk. Despite the fast growth of Zoom, it failed to use end-
+to-end encryption, and its popularity has attracted “Zoom-
+bombing” by hackers and created security, privacy, harass-
+ment, and other concerns, leading to business losses and
+legal challenges (Allyn, 2020 ). Providers therefore should
+rationalize their security and privacy protection to facili-
+tate user adoption under competition, which RO5 seeks to
+address.
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 12 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2599Production and Operations Management
+The spread of the IoT (Internet of Things), the emer-
+gence of the Darknet, and scandals such as Cambridge Ana-
+lytica may impede the adoption of SaaS. Regarding the
+trade-off between SaaS and OTS, August et al. ( 2014 ) ﬁnd
+that a SaaS version is generally preferred in low security-
+loss environments in the presence of an on-premises ver-
+sion. In addition, customers might have concerns about
+transparency and compliance of SaaS due to its mul-
+titenant architecture. These worries are magniﬁed under
+competition, which may drive providers to collect and sell
+customer information at the expense of privacy. On the con-
+trary, Casadesus-Masanell and Hervas-Drane ( 2015 ) ﬁnd that
+competition fosters services with a high level of privacy, but
+higher competition intensity need not improve privacy when
+consumers are reluctant to pay. Since an owner of consumer
+data sells information optimally to only one ﬁrm in a mar-
+ket, policymakers should promote equal access to consumer
+data rather than merely protecting consumer privacy (Montes
+et al., 2018 ). Zhang et al. ( 2020b ) explore the competition
+between SaaS and OTS under security risk and ﬁnd that
+SaaS could be preferred when a customer may suffer greatly
+under attacks.
+In addition to the effects of competition, enhancement
+measures are also costly. August et al. ( 2019 ) suggest that
+providers could reduce vulnerabilities by offering different
+patching schemes. Sundararajan ( 2004a ) analyzes a market
+with digital piracy where sellers can inﬂuence the degree of
+piracy by implementing digital rights management (DRM)
+systems and a pirated good is an inferior substitute for the
+legal good. Appropriately granting digital rights and choos-
+ing the level of protection are found to maximize proﬁt
+with trade-offs among pricing schedules and technological
+deterrence. Similarly, Nan et al. ( 2018 ) explore the trade-off
+between the effect of decreasing uncertainty and that of can-
+nibalization and ﬁnd that stronger piracy enforcement may
+actually hurt the ﬁrm. Further to the intricacy of security
+enhancement, Yang et al. ( 2021 ) ﬁnd that a provider may
+proﬁtably free-ride on customers’ security efforts by cutting
+corners on its own effort.
+3.5 Usage
+A crucial link between pricing and operations, usage impacts
+renewals. One case in point is Netﬂix. Netﬂix’s increasing
+offering of original shows beneﬁts from customers sharing
+and discussing them with friends, because if one knows that
+her/his friends are also watching Netﬂix, one may trust and
+value the service more (Gilchrist & Luca, 2017 ). In addition,
+the data collected from subscribers enable Netﬂix to cater to
+their tastes and add new shows to leverage on network effects,
+which would attract more subscribers or allow higher pricing
+(Taylor, 2018 ). Founded in 1997, Netﬂix now has success-
+fully amassed roughly 158 million users (Netﬂix Inc., 2019 ).
+With tools to track clicks, swipes, ﬁlls, and pageviews
+automatically, usage analytics allow SaaS providers like
+Cloudfare and Twilio to segment their users and to pinpointopportunities to improve user engagement (Heap, 2021 ), and
+ServiceNow leverages user community for customer support,
+gathering feedback, and expertise sharing (Imroz, 2019 ).
+Many studies on subscription services treat usage as either
+exogenous (e.g., Li & Kumar, 2018 ) or irrelevant. To that
+end, Danaher ( 2002 ) considers subscription service with a
+ﬁeld experiment and ﬁnds that access price has limited effect
+on usage, partially supporting the frequently made assump-
+tion that usage is independent of access price. However, it
+is possible to inﬂuence SaaS usage. On the one hand, Lam-
+brecht and Skiera ( 2006 ) provide evidence that many Internet
+service users prefer a ﬂat fee even though their billing rate
+would be lower with pay-per-use pricing (i.e., ﬂat-rate bias)
+and that these users are less likely to churn. On the other hand,
+proactive customer education may increase perceived useful-
+ness, and thus increase usage and reduce churning (Retana
+et al., 2015 ). It can be concluded that SaaS usage behavior
+deserves further investigation (e.g., RO6 to identify methods
+to inﬂuence usage) and may inﬂuence purchases and opera-
+tions (Mallipeddi et al., 2022 ; Zhao et al., 2022 ).
+3.6 New research opportunities in SaaS
+operations
+In this subsection, we elaborate on four ROs related to SaaS
+operations in Table 4.
+3.6.1 RO4: Competition and privacy for apps
+Customer privacy proves to be a signiﬁcant challenge for plat-
+forms such as Facebook, which owns its private data centers,
+but allows third-party developers to host their applications
+on services such as AWS (Metz, 2014 ). Despite having an
+internal authorization process for data collection, Facebook
+was negligent in the Cambridge Analytica scandals where
+tens of millions of Facebook proﬁles were harvested without
+their consent and used for political advertising (Ballhaus &
+Gross, 2018 ). Notwithstanding its increased efforts to boost
+security and privacy, in 2019, more than 540 million records
+about Facebook users were publicly leaked on AWS, con-
+sisting of 146 gigabytes of Facebook user data with account
+names, IDs, and details about comments and reactions to
+posts, after which Facebook upgraded user privacy settings
+to allow users to clear their location data, turn off facial
+recognition, and stop data collection by Facebook’s partners
+(Silverstein, 2019 ).
+In light of online data breaches and hacks, it is crucial for
+providers to identify, measure, benchmark, and improve SaaS
+privacy. However, providers cannot eliminate privacy con-
+cerns since they have signiﬁcant incentives to harness data
+from users to improve customization and functionality. Nev-
+ertheless, such a practice must be accompanied by appro-
+priate privacy disclosure to raise awareness of the users. A
+helpful resource is Zimmeck et al. ( 2019 ), which provides a
+data set containing 1,035,853 Android apps from the Google
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 13 ===
+2600 LIAND KUMARProduction and Operations Management
+TABLE 4 Future research opportunities in SaaS operations
+RO4 RO5 RO6 RO7
+Summary Competition and privacy for apps Managing user security
+preferencesFactors and strategies to
+inﬂuence usageQuality interplay of platform
+and SaaS
+Methodology Diagnostic / Predictive Analytics Predictive / Prescriptive
+AnalyticsDiagnostic / Predictive /
+Prescriptive AnalyticsDiagnostic / Predictive /
+Prescriptive Analytics
+Research questions Does higher competition intensity
+improve SaaS privacy when
+consumers pay nothing?How should a SaaS
+provider maximize its
+proﬁt under user
+security-preference
+heterogeneity?How can a SaaS provider
+inﬂuence usage and content
+creation in consideration of
+service quality and social
+impacts?What is the interplay of service
+quality between the platform
+and SaaS and how does it
+impact customers?
+Industry examples Facebook Zoom NetEase Cloud Music Salesforce.com
+Examples of data source Zimmeck et al. ( 2019 ) N.A. Zhang et al. ( 2020a )K e y C o r p ( 2020 )
+Play Store with URLs to their privacy policies. Due to laws
+such as General Data Protection Regulation (GDPR) in the
+European Union (EU) and the Children’s Online Privacy Pro-
+tection Act (COPPA) and the California Online Privacy Pro-
+tection Act (CalOPPA) in the United States, app stores (such
+as the Android App Store) require developers to disclose how
+their apps collect, use, and share user data. However, media
+coverage and research (e.g., Zimmeck et al., 2019 ) show that
+many apps exhibit potential privacy compliance issues such
+as not disclosing certain data collection practices.
+These issues call for a thorough understanding of factors
+affecting privacy practices through the analysis of privacy
+policies and the business landscape. Casadesus-Masanell and
+Hervas-Drane ( 2015 ) predict that higher competition inten-
+sity need not improve privacy when consumers are reluctant
+to pay. It would be meaningful to test such a prediction in the
+context of Android apps, since Android apps documented in
+the Zimmeck et al. ( 2019 ) data set are free. In other words,
+the research question is: Does higher competition intensity
+improve SaaS privacy when consumers pay nothing? Under-
+standing this question allows better implementation of public
+policies and the design of SaaS applications to enhance pri-
+vacy in many mobile apps.
+To answer this question, researchers may complement the
+privacy policies by collecting data on the competition inten-
+sity of apps (e.g., the number of downloads of each app in the
+same category). Following the method outlined in Zimmeck
+et al. ( 2019 ), it can be identiﬁed whether an app declares
+that it will collect (or not collect) certain user information
+and share it with third parties from the app’s privacy pol-
+icy. To determine whether an app attempts to collect privacy-
+sensitive information (such as calling a Facebook API to
+obtain user IDs), one can monitor the app in a manual exper-
+iment or trust the prediction of a well-trained machine learn-
+ing algorithm. See Table 5for a list of variables useful for the
+model outlined below.
+logiti(pbreach )=𝛽 0+𝛽 1⋅child i+𝛽 2⋅update freqi+𝛽 3
+⋅competition intensityi+𝛾⋅ categoryi+ui,
+(5)TABLE 5 Variables in RO4
+Name Type Source
+Privacy-senstivie API calls A binary array Running the app
+Disclosure Binary Privacy policy
+Child Binary Google Play
+Update frequency Numerical Google Play
+Number of apps in the same category Numerical Google Play
+where the subscript irepresents each observation and ui
+denotes the random error. The possible results, namely, the
+empirical parameter estimates, could pinpoint the effect of
+competition intensity on the likelihood of privacy breach
+and answer the research question. Going a step further, it
+is possible to study the implications of privacy on SaaS
+competition, particularly users’ response to privacy disclo-
+sure transparency in SaaS applications, with surveys or lab
+experiments.
+This RO connects to the security perspective and in a broad
+way to the QoS perspective. Findings of this RO contribute to
+the SaaS competition literature (e.g., Li & Kumar, 2018 ) and
+the SaaS privacy literature (e.g., Montes et al., 2018 ) since the
+impact of competition on privacy will be analyzed. Moreover,
+the ﬁndings could elaborate on the link between privacy dis-
+closure, privacy practice, and usage, if additional data could
+be collected and analyzed.
+3.6.2 RO5: Managing user security
+preferences
+There was incredible growth for Zoom during the
+COVID-19 pandemic, expanding to 300 million users
+from about 10 million in months (Allyn, 2020 ). How-
+ever, Zoom did not use end-to-end encryption, as it
+had claimed, and its popularity has attracted Zoom-
+bombers, whereas Facebook and Google seized the oppor-
+tunity to introduce and promote Zoom alternatives. Zoom
+was also asked to improve its privacy and security
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 14 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2601Production and Operations Management
+protections by a U.S. Senator and the New York Attorney
+General (Allyn, 2020 ).
+In response to the grave need to bolster security, Zoom
+has devoted resources to increasing security and privacy in
+an update: Among other changes such as requiring pass-
+words for creating or joining a meeting by default, Zoom
+began to support AES 256-Bit GCM encryption to protect
+meeting data against hacks, report an inappropriate user, and
+allow business customers to choose which data center regions
+their meetings and webinars use for real-time trafﬁc (Gal,
+2020 ).
+Despite efforts by Zoom and other SaaS providers to
+enhance security, some customers are willing to trade func-
+tionality for security, since many security enhancements
+(extra veriﬁcation steps, etc.) are a hassle for customers and
+incur additional computing tasks (network communication,
+encryption/decryption, etc.) that slow down the processing of
+customer requests. For example, AES 256-bit encryption con-
+sumes approximately 40% more in computing resources than
+AES 128-bit encryption does (Cyclonis Ltd., 2018 ).
+It is therefore important to understand the incentives for
+security investment of SaaS and its trade-off with perfor-
+mance. A question emerges: How should a SaaS provider
+maximize its proﬁt under user security-preference hetero-
+geneity? The results derived from answering this question
+could be applied to the design and update of SaaS appli-
+cations with security concerns, which is a critical chal-
+lenge as evidenced by the recent incidents of Zoom. Hence,
+we next propose a model to address this research ques-
+tion. Different from extant studies (e.g., Yang et al., 2021 ),
+this primitive model does not make assumptions on the
+probability of security breach and the cost of security
+efforts but incorporates the performance penalty of security
+enhancement.
+Consider a market with one provider and many customers.
+The security level is denoted by a, and the sensitivity to
+security is denoted by 𝛿.L e t𝜂(a) be a discount function
+where𝜂(a)≤1. A customer’s utility is us=𝜂(a)v−p+
+𝜚(a,𝛿) with a security enhancement option where 𝜚(a,𝛿)
+denotes the utility gained through security enhancement and
+vdenotes the value of the base SaaS offering to a cus-
+tomer. Let ̄𝜚=max𝜚(a,𝛿). Without the security enhance-
+ment option, a customer’s utility is uw=v−p.L e t v∼F(⋅)
+andv∈[0,V]. Suppose𝜃proportion of customers choose the
+service, of which 𝜅proportion choose the security enhance-
+ment option. Let r(p,𝜅) be the provider’s net revenue per
+user, which depends on capacity cost, QoS, and capacity mix
+(for hybrid cloud). The net revenue of the provider is there-
+fore𝜋= r(p,𝜅)𝜃. Setting us=0, we arrive at the indifference
+point of service value: vo=p−𝜚(a,𝛿)
+𝜂(a). We consider a problem
+of maximizing the proﬁt ( Π) of a monopolistic provider:
+max
+p,aΠ(p)=∫V
+vor(p,𝜅)f(v)dv,
+s.t.0≤p≤𝛿̄𝜚. (6)The optimal price and security level derived from solving
+this model would guide SaaS providers on designing the secu-
+rity level of their services and shed light on possible equilib-
+riums and societal outcomes, hence answering the research
+question. As a result, ﬁndings of this RO contribute to the
+SaaS security literature (e.g., Zhang et al., 2020b ) and the dif-
+ferentiation literature (e.g., Li & Kumar, 2018 ) by advancing
+our understanding on the interplay between pricing, security,
+and capacity. This RO connects to the security, capacity, pric-
+ing, and the QoS perspectives since security enhancements
+could increase processing time of customer requests, impact
+service performance and pricing, and justify additional com-
+puting capacity.
+3.6.3 RO6: Factors and strategies to inﬂuence
+usage
+SaaS providers typically crave for higher usage for value
+realization or advertising revenue, and meeting quality expec-
+tations could greatly enhance the chance of SaaS usage
+continuance (Benlian & Hess, 2011 ). The externalities of
+SaaS usage, however, cannot be ignored. A question arises:
+How can a SaaS provider inﬂuence usage and content cre-
+ation in consideration of service quality and social impacts?
+This question is important since user time spent on mobile
+apps and the user content-creation are not only operational
+outcomes for the app provider but also opportunities to ben-
+eﬁt the society. The possible results derived from answer-
+ing this research question are readily applicable to NetEase
+Cloud Music (NCM), entertainment SaaS alike, and other
+SaaS leveraging social networks (Kumar et al., 2022 ; Petryk
+et al., 2022 ).
+A case in point is NCM, one of the most popular music
+streaming services in China with over 800 million registered
+users and 160,000 independent musicians (NetEase Inc.,
+2020 ). With personalized recommendations, NCM promotes
+user interaction and builds a strong social community in their
+daily operations. However, gaining high-quality usage, espe-
+cially usage aligned with social values, is never easy. NCM
+has been mocked as “NetEase Depression Cloud,” which
+refers to sentimental stories posted for likes in the comments
+section of songs; in August 2020, NCM ofﬁcially launched
+a campaign to provide emotional support to users who are
+genuinely struggling with mental health issues (Chen, 2020 ).
+One may use an NCM data set to answer the proposed
+research question. Zhang et al. ( 2020a ) provide a 1-month
+data set of the NCM mobile app containing six tables about
+users, content creators, and impressions available to members
+of the INFORMS Revenue Management and Pricing section.
+We may explore relevant factors and evaluate strategies to
+maximize usage per user by analyzing user demographics,
+user activity data on the impression level, content data, and
+content creator data for a music-streaming SaaS application.
+A card is a video or set of pictures with music created by
+creators in the app (who are also users). Following a recom-
+mender logic, the gradient-boosted regression trees (GBRT)
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 15 ===
+2602 LIAND KUMARProduction and Operations Management
+TABLE 6 Categories of variables in RO6
+Name Type Source
+User response to impression An array of binary variables that form a score app data
+Impression information An array of numerical and categorical variables app data
+Card information An array of variables with daily statistics app data
+Song information An array of numerical and categorical variables app data
+User information An array of variables (demographics, number of follows, activity intensity, etc.) app data
+Creator information An array variables (demographics, number of follows and followers, activity intensity) app data
+Sentiment of cards Ordinal (if free text information of cards or lyrics of songs is available) app data
+algorithm (e.g., in xgboost and scikit-learn packages) can
+predict the likelihood of a user to be interested by a card.
+The GBRT algorithm could perform automatic variable selec-
+tion to suit a large number of variables in this data set and
+infer both the optimal functional form (allowing for interac-
+tions and nonlinearities) and the parameters of the model efﬁ-
+ciently using a greedy algorithm (Friedman, 2001 ). Success-
+ful recommendations could keep a user active or turn inac-
+tive users active (Cheng et al., 2020 ; Kumar & Qiu, 2022 ). A
+GBRT example may be:
+User _response _score
+=f(Impression,Card,Song,User,Creator ),(7)
+where each item in the list { Impression, Card, Song, User,
+Creator } represents a category of variables outlined in
+Table 6, and user response is a composite score. Alterna-
+tively, researchers may evaluate two related but potentially
+conﬂicting goals: maximizing usage (i.e., clicks/plays) in
+the short term and maximizing high-quality content creation
+in the long term using simulation/visualization tools (Pu
+et al., 2020 ), which may allow boosting the membership rev-
+enue later.
+If content information of cards and songs is released to
+enable sentiment analysis, it may be socially beneﬁcial to
+leverage on the “Elements of Value Pyramid” (Almquist
+et al., 2016 ) to make sure that the intended usage increase
+aligns with social values and avoid perpetuating negative
+emotions through song recommendation systems. A similar
+move by Amazon makes its Alexa more empathetic to iden-
+tify and respond to depression, suicide, and domestic abuse.
+Since customer usage is a frequent indicator of WTP, the
+results obtained by empirically studying factors that inﬂu-
+ence usage (at NCM) could decipher the interactions between
+the providers, users, and user-turned content creators, which
+contributes to the SaaS purchase and usage behavior litera-
+ture (e.g., Retana et al., 2015 ) and the network effects litera-
+ture (e.g., Nair et al., 2018 ). The possible results could shed
+light on the optimal trade-off between maximizing revenue
+(through inﬂuencing usage) and maximizing high-quality
+content creation, which answers the research question in this
+section. This RO adds a dimension to our understanding of
+SaaS service quality: an emotion that drives loyalty and ser-vice quality perceptions (White, 2006 ). This RO is also tied
+to customer usage behavior and how it is affected by cus-
+tomer interactions.
+To the same end of understanding and possibly inﬂuenc-
+ing user behavior, it may be valuable to analyze a publicly
+available data set (Lim et al., 2015 ) where mobile app user
+behavior (app stores, app search triggers, download method,
+reason for abandonment, types of apps, etc.), demograph-
+ics, and personality are documented. It may also be useful to
+explore publicly available surveys on Internet services (e.g.,
+Pew Research Center, 2021 ).
+3.6.4 RO7: Quality interplay of platform and
+SaaS
+Starting from offering SaaS in CRM, Salesforce.com trans-
+formed itself into a platform of enterprise business appli-
+cations where customers could subscribe to each service to
+customize their IT solution (THINKstrategies, 2007 ). The
+Salesforce platform differentiated from incumbents such as
+Oracle by encouraging developers to create third-party apps
+on the platform. Doing so strengthens its analytics capabil-
+ity and allows entry into new markets such as some ﬁnan-
+cial IT sectors dominated by Bloomberg. However, despite
+its dominance in CRM, Salesforce.com suffered from service
+failures of its own Heroku (Jackson, 2013 ) and faced recent
+new entrants such as Microsoft (Kim, 2015 ). As a platform,
+Salesforce.com is also plagued by third-party application ser-
+vice issues, such as the connection service between Tableau
+and Salesforce (Vegi, 2020 ) .A n s e l m ie ta l .( 2017 ) conclude
+that although users are both sensitive to SaaS performance
+and price at purchase, many of the performance metrics of a
+SaaS are inherited from the back-end Iaas/PaaS. Therefore, a
+relevant question is: What is the interplay of service quality
+between the platform and SaaS and how does it impact cus-
+tomers? As SaaS grows to become a major form of service
+and the emergence of online platforms hosting SaaS, under-
+standing the interaction between SaaS and platform service
+qualities is crucial to SaaS ﬁrms in choosing platforms to
+operate on.
+Since many SaaS providers are hosted in and integrated
+with platforms, it is important to examine the role of plat-
+form service quality in addition to the SaaS service quality
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 16 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2603Production and Operations Management
+TABLE 7 Variables in RO7
+Name Type Source
+SaaS service quality Ordinal Composite measure based on
+survey
+Platform service quality Ordinal Composite measure based on
+survey
+User technical ability Numerical Survey or user data
+Customer utility (satisfaction) Numerical Estimated from user data
+SaaS proﬁtability Percentage Financial data
+to answer the aforementioned research question. It remains
+to be determined how the service quality of a SaaS appli-
+cation interacts with the service quality of a platform, but
+such an interaction is crucial since it impacts customer utility
+and informs the choice of pricing schemes. Factors such as
+the integration between the SaaS and the platform and users’
+technical abilities may matter as well.
+To determine the aforementioned interaction, one possible
+avenue is to estimate the functional form of customer util-
+ity. Denoting the service quality of SaaS as qsand that of
+the platform as qp, it is interesting to empirically examine the
+decisions of SaaS providers and platform operators when the
+customer utility is formulated as u=k0+k1qs+k2qp(addi-
+tive), u=k0+k3qsqp(multiplicative), u=k4min{ qs,qp}
+(minimum of the two), or u=k5(qs)𝛼(qp)𝛽(Cobb–Douglas),
+where ki(i=0, 1, 2, 3, 4, 5) are parameters. One may
+estimate customer utility from satisfaction surveys or price
+paid. We may employ the maximum likelihood estimation
+to estimate the parameter values of these functional forms
+and evaluate the model ﬁt using the Bayesian information
+criterion (Schwarz, 1978 ). The estimated functional forms
+could pinpoint the interaction between the SaaS and the
+platform in the service quality dimension and answer the
+research question. For data sets, it is possible to use ﬁnan-
+cial disclosures of public SaaS companies such as Qualtrics
+and ServiceNow (KeyCorp, 2020 ); alternatively, user surveys
+of SaaS platforms such as Salesforce.com can be helpful:
+More than half of all users believe that up to 80% of their
+Salesforce data are not useful or reliable (Symphonic Source
+Inc., 2017 ). Key variables aforementioned are summarized in
+Table 7.
+Findings of RO7 could contribute to the SaaS service qual-
+ity literature (e.g., Li & Kumar, 2018 ) in characterizing how
+SaaS service quality interacts with platforms’ service qual-
+ity in shaping perceived value of the service, which is closely
+related to customer purchase and usage behavior. These ﬁnd-
+ings could service as stepping-stones for further analysis on
+the relationship between SaaS and platforms. Moreover, RO7
+is connected to the market entry perspective since service
+quality impacts customer purchases and renewals.
+Another possible avenue for data analytics is to construct
+the antecedents and to test how the service quality of SaaS
+and that of the platform jointly impact customer loyalty with
+the mediation of customer satisfaction using the service loy-
+alty model (Caruana, 2002 ), since subscription pricing makesit crucial to maintain customer loyalty and renewals that
+contribute to revenue. For this possible avenue, Figure 5
+describes a potential framework to delineate the interaction
+between SaaS and platform in service quality, where such
+interaction is moderated by their integration.
+4 FUTURE ROADMAP FOR SAAS
+In the fast-changing industry of SaaS, the importance of a
+dynamic perspective can never be stressed enough. Hence, it
+may help to use case studies, system dynamics, and machine
+learning to expand the research methodology and to achieve
+a dynamic understanding. In subsequent subsections, we
+provide a future roadmap of SaaS research summarized in
+Figure 6.
+4.1 Embracing new technologies
+SaaS include the acquisition, transmission, computation,
+visualization, and storage of data, all of which are popular
+targets for innovations. There is a pressing need to embed
+big data and artiﬁcial intelligence into the management of
+SaaS and cloud services in general (Choi et al., 2022 ; Guha &
+Kumar, 2018 ; Kumar et al., 2018b ), from optimizing revenues
+to using chatbots, thanks to cheaper computing resources
+and better data availability. Despite the potential to create
+signiﬁcant value from SaaS with these techniques, generat-
+ing insights from data alone is insufﬁcient to advance the
+ﬁeld. With IoT and edge computing, one may deliver SaaS
+services with cheaper data acquisition and possibly data-
+driven automated actions by Internet-connected devices. With
+5G, data transmission is faster and more reliable, and it
+becomes feasible to turn connected mobile devices into a
+virtual and omnipresent computing system as envisioned by
+the InterPlanetary File System ( https://ipfs.io ). At the same
+time, blockchain is expected to improve SaaS security and
+transparency.
+4.2 Evolving business models
+A transformation toward cloud-based services may prompt
+an organizational overhaul to recoup lost revenue of selling
+high-margin OTS (Suarez et al., 2013 ). At Microsoft, 40,000
+salespersons had to revamp how they did their jobs: from sell-
+ing ready-made software to encouraging more cloud usage
+(The Economist, 2019 ). To help companies like Microsoft,
+researchers may study what organizational changes can facil-
+itate a cloud business model. Efforts should also be made to
+improve SaaS-enabled process changes in business functions
+such as supply chain management (Bala, 2013 ).
+Digital platforms could enable value-creating interactions
+between external producers and consumers (Constantinides
+et al., 2018 ). It is important for SaaS providers to choose
+which platforms to operate on for market access and value
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 17 ===
+2604 LIAND KUMARProduction and Operations Management
+SaaS 
+Service Quality
+Customer 
+Sa/g415sfac/g415onService 
+LoyaltyService 
+Renewal
+Service 
+UpgradePla/g414orm 
+Service QualitySaaS-Pla/g414orm 
+Integra/g415on
+FIGURE 5 Service quality interaction between SaaS and platform [Color ﬁgure can be viewed at wileyonlinelibrary.com]
+•Embracing New Technologies
+Evolving Business Models
+Finer Understanding of 
+Customers
+Integra/g415ng with Oﬄine 
+Businesses
+Be/g425er Social ResponsibilityFuture RoadmapSaaSPricingMarket Entry
+Tariﬀ Scheme
+Bundling
+Dynamic Pricing
+Opera/g415onsCapacity
+QoS
+Security
+Usage
+FIGURE 6 Future roadmap of SaaS research
+proposition. For example, Dropbox integrates with many
+platforms including Salesforce and SAP. As another exam-
+ple, Boomi’s AtomShere product invests in technical capabil-
+ities to interoperate with Salesforce, SAP, and Taleo, different
+from its peers.
+Despite the attractiveness of freemium, it is not always pre-
+ferred (Nan et al., 2018 ). In light of increased privacy pro-
+tection and peer-to-peer product sharing, how the freemium
+strategy might be implemented via product design (e.g.,
+Ray et al., 2017 ) is an enticing question. Connected to
+freemium and often found in SaaS, tiered pricing combines
+tariff and bundling by offering several price points with lim-
+ited usage allowance and features, which deserves further
+research.
+4.3 Finer understanding of customers
+The impacts of consumer behavior deserve future research.
+For example, Netﬂix’s recommendation system saves the
+company $1 billion annually through reduced churn (Gomez-
+Uribe & Hunt, 2016 ).
+In addition, work practices may complement SaaS invest-
+ment by accelerating user learning (Avgar et al., 2018 ).
+Future work may examine how decision capacity and learn-
+ing of users shape SaaS market outcomes. Due to the impor-
+tance of service quality (Kumar et al., 2018a ;L i&K u m a r ,
+2018 ), SaaS providers may explore which QoS characteris-
+tics are deemed critical by consumers and how service recov-
+ery via artiﬁcial intelligence can be worthwhile. Future work
+may also investigate the roles of diversiﬁcation, aging, and
+urbanization in SaaS.4.4 Integrating with ofﬂine businesses
+SaaS applications may integrate with ofﬂine businesses in
+many ways. For example, an on-demand service platform
+may connect customers to ofﬂine agents.
+In turn, the advancements in autonomous vehicles could
+feed ofﬂine information to SaaS for better intelligence. More-
+over, since some SaaS providers advertise ofﬂine, it may be
+interesting to investigate the ofﬂine marketing of SaaS appli-
+cations. Another promising opportunity is cloud manufactur-
+ing. In addition to managing business resources of manufac-
+turers, SaaS providers can zero in on the production ﬂoor.
+For instance, Helo et al. ( 2019 ) introduce a cloud-based pro-
+duction scheduling system to serve distributed sheet metal
+manufacturing lines. However, due to the technical com-
+plexity and safety implications, it remains a crucial chal-
+lenge to ensure the security and reliability of cloud-based
+manufacturing.
+4.5 Better social responsibility
+The societal impacts of SaaS deserve study. With antitrust
+implications, Li and Kumar ( 2018 ) ﬁnd that it is not neces-
+sarily beneﬁcial to mandate the presence of multiple SaaS
+providers in the market when potential entrants exist. In
+light of urbanization and population growth in develop-
+ing countries, SaaS can be used to quantify carbon foot-
+prints and improve efﬁciency, ﬂexibility, and equity in pub-
+lic sustainability efforts. In public health, SaaS tools have
+been deployed to assist decision making—for example, using
+Google Trends in virus outbreaks to analyze data including
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 18 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2605Production and Operations Management
+weather and travel patterns to predict where the virus might
+hit next.
+4.6 Closing remarks
+In this paper, we have proposed a business research frame-
+work of SaaS and categorized related studies to serve as a
+reference for researchers currently working in the ﬁeld, and
+as a starting point for those contemplating to explore it. This
+literature is expanding quickly, motivated by the growth of
+SaaS and the increasing vulnerabilities of cloud computing.
+For researchers, we have noted opportunities to bridge gaps
+and move forward. For scholars interested in such a growing
+research stream, there could not be a better time to join it with
+the help of business analytics.
+ACKNOWLEDGMENTS
+We are grateful to the editors and the referees for their excel-
+lent reviews, which undoubtedly improved the paper. We
+would also like to thank participants of the 2019 Manu-
+facturing & Service Operations Management Conference at
+Singapore, the 19th Asia Paciﬁc Industrial Engineering and
+Management Systems Conference at Hong Kong, China, and
+the research seminar series at Wenzhou-Kean University and
+Tongji University for the discussions. Bo Li wants to thank
+his wife Shuting and daughter Weizhen for their companion
+and assistance.
+FUNDING INFORMATION
+None.
+ORCID
+Bo Li https://orcid.org/0000-0003-4490-5402
+Subodha Kumar https://orcid.org/0000-0002-4401-7950
+REFERENCES
+2checkout. (2012). Interview with ServiceNow about—Market changes,
+shifts in buyer expectations and more .https://www.2checkout.com/how-
+to/interview/rhett-glauser_19.htm
+Abdallah, T. (2019). On the beneﬁt (or cost) of large-scale bundling. Produc-
+tion and Operations Management ,28(4), 955–969.
+Adams, W. J., & Yellen, J. L. (1976). Commodity bundling and the burden
+of monopoly. The Quarterly Journal of Economics ,90(3), 475–498.
+Afeche, P., Araghi, M., & Baron, O. (2017). Customer acquisition, retention,
+and service access quality: Optimal advertising, capacity level, and capac-
+ity allocation. Manufacturing & Service Operations Management ,19(4),
+674–691.
+Allyn, B. (2020). Zoom to crack down on Zoombombing, in deal with NY
+Attorney General .http://bitly.ws/awDm
+Almquist, E., Senior, J., & Bloch, N. (2016). The elements of value. Harvard
+Business Review ,94(9), 47–53.
+Amazon AWS. (2021). CPG partner conversations: Supply chain planning
+transformation with Noodle.ai .https://soo.gd/xvg21
+Amazon Web Services. (2021). Amazon EC 2spot instances pricing .https:
+//aws.amazon.com/ec2/spot/pricing/
+Anselmi, J., Ardagna, D., Lui, J., Wierman, A., Xu, Y ., & Yang, Z. (2017).
+The economics of the cloud. ACM Transactions on Modeling and Perfor-
+mance Evaluation of Computing Systems (TOMPECS ),2(4), 18.
+Apple Inc. (2015). Introducing Apple music—All the ways you love music.
+All in one place .https://soo.gd/nfHjArbabian, M. E., Chen, S., & Moinzadeh, K. (2021). Capacity expansions
+with bundled supplies of attributes: An application to server procurement
+in cloud computing. Manufacturing & Service Operations Management ,
+23(1), 1–266. C2.
+August, T., Dao, D., & Kim, K. (2019). Market segmentation and software
+security: Pricing patching rights. Management Science ,65(10), 4575–
+4597.
+August, T., Niculescu, M. F., & Shin, H. (2014). Cloud implications on soft-
+ware network structure and security risks. Information Systems Research ,
+25(3), 489–510.
+Avgar, A., Tambe, P., & Hitt, L. M. (2018). Built to learn: How work prac-
+tices affect employee learning during healthcare information technology
+implementation. MIS Quarterly ,42(2), 645–660.
+Bagh, A., & Bhargava, H. K. (2013). How to price discriminate when tariff
+size matters. Marketing Science ,32(1), 111–126.
+Bakos, Y ., & Brynjolfsson, E. (1999). Bundling information goods: Pricing,
+proﬁts, and efﬁciency. Management Science ,45(12), 1613–1630.
+Bala, H. (2013). The effects of IT-enabled supply chain process change on
+job and process outcomes: A longitudinal investigation. Journal of Oper-
+ations Management ,31(6), 450–473.
+Bala, R., & Carr, S. (2010). Usage-based pricing of software services under
+competition. Journal of Revenue and Pricing Management ,9(3), 204–
+216.
+Ballhaus, R., & Gross, J. (2018). Cambridge Analytica closing operations
+following Facebook data controversy .http://bitly.ws/b7PQ
+Barret, V . (2013). How the kids at Box are disrupting software’s most lucra-
+tive game .http://bitly.ws/jHhS
+Benlian, A., & Hess, T. (2011). Opportunities and risks of software-as-a-
+service: Findings from a survey of it executives. Decision Support Sys-
+tems,52(1), 232–246.
+Benlian, A., Koufaris, M., & Hess, T. (2011). Service quality in software-as-
+a-service: Developing the SaaS-Qual measure and examining its role in
+usage continuance. Journal of Management Information Systems ,28(3),
+85–126.
+Bhargava, H. K., & Gangwar, M. (2018). On the optimality of three-part tar-
+iff plans: When does free allowance matter? Operations Research ,66(6),
+1517–1532.
+Braintree. (2012). Data portability anniversary .https://www.
+braintreepayments.com/blog/data-portability-anniversary/
+Bu, M. (2020). Stripe’s payments APIs: The ﬁrst ten years .https://stripe.com/
+blog/payment-api-design
+Caruana, A. (2002). Service loyalty. European Journal of Marketing ,
+36(7/8), 811–828.
+Casadesus-Masanell, R., & Hervas-Drane, A. (2015). Competing with pri-
+vacy. Management Science ,61(1), 229–246.
+Chandler, N., Hostmann, B., Rayner, N., & Herschel, G. (2011). Gartner’s
+business analytics framework .http://bitly.ws/geZC
+Chen, P.-y., & Wu, S.-y. (2013). The impact and implications of on-demand
+services on market structure. Information Systems Research ,24(3), 750–
+767.
+Chen, S., Lee, H., & Moinzadeh, K. (2019). Pricing schemes in cloud com-
+puting: Utilization-based vs. reservation-based. Production and Opera-
+tions Management ,28(1), 82–102.
+Chen, S., Moinzadeh, K., & Tan, Y . (2021). Discount schemes for the pre-
+emptible service of a cloud platform with unutilized capacity. Information
+Systems Research ,32(3), 967–986.
+Chen, Y . (2020). Trending in China: Can music streamers help users’ depres-
+sion? https://soo.gd/NDtD
+Cheng, H. K., Li, Z., & Naranjo, A. (2015). Cloud computing spot pricing
+dynamics: Latency and limits to arbitrage. Information Systems Research ,
+27(1), 145–165.
+Cheng, X., Zhang, J., & Yan, L. (2020). Understanding the impact of
+individual users’ rating characteristics on the predictive accuracy of
+recommender systems. INFORMS Journal on Computing ,32(2), 303–
+320.
+Choi, T.-M., Kumar, S., Yue, X., & Chan, H.-L. (2022). Disruptive tech-
+nologies and operations management in the industry 4.0 era and beyond.
+Production and Operations Management ,31(1), 9–31.
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 19 ===
+2606 LIAND KUMARProduction and Operations Management
+Chu, J., & Manchanda, P. (2016). Quantifying cross and direct network
+effects in online consumer-to-consumer platforms. Marketing Science ,
+35(6), 870–893.
+Cohen, M. C., Keller, P. W., Mirrokni, V ., & Zadimoghaddam, M. (2019).
+Overcommitment in cloud services: Bin packing with chance constraints.
+Management Science ,65(7), 3255–3271.
+Constantinides, P., Henfridsson, O., & Parker, G. G. (2018). Introduction-
+platforms and infrastructures in the digital age. Information Systems
+Research ,29(2), 381–400.
+Cyclonis Ltd. (2018). What is AES- 256encryption? https://soo.gd/Fwqu
+Da Costa, A. (2018). A look at 25years of Microsoft Ofﬁce (then and now ).
+http://bitly.ws/b6zM
+Danaher, P. J. (2002). Optimal pricing of new subscription services: Analysis
+of a market experiment. Marketing Science ,21(2), 119–138.
+Dierks, L., & Seuken, S. (2021). Cloud pricing: The spot market strikes back.
+Management Science ,68(1), 105–122.
+The Economist. (2019). Send in the clouds: Microsoft’s transformation
+required a change of culture .https://www.economist.com/business/2019/
+07/04/send-in-the-clouds
+Essegaier, S., Gupta, S., & Zhang, Z. J. (2002). Pricing access services. Mar-
+keting Science ,21(2), 139–159.
+Fan, M., Kumar, S., & Whinston, A. B. (2009). Short-term and long-term
+competition between providers of shrink-wrap software and software
+as a service. European Journal of Operational Research ,196(2), 661–
+671.
+Fazli, A., Sayedi, A., & Shulman, J. D. (2018). The effects of
+autoscaling in cloud computing. Management Science ,64(11), 5149–
+5163.
+Feng, H., Jiang, Z., & Liu, D. (2018). Quality, pricing, and release time: Opti-
+mal market entry strategy for software-as-a-service vendors. MIS Quar-
+terly,42(1), 333–353.
+Fibich, G., Klein, R., Koenigsberg, O., & Muller, E. (2017). Optimal three-
+part tariff plans. Operations Research ,65(5), 1177–1189.
+Floerecke, S. (2018). Success factors of SaaS providers’ business models—
+An exploratory multiple-case study. In Satzger, G., Patrício, L., Zaki, M.,
+Kühl, N. & Hottum, P. (Eds.), International conference on exploring ser-
+vice science (pp. 193–207). Springer.
+Friedman, J. H. (2001). Greedy function approximation: A gradient boosting
+machine. Annals of Statistics ,29(5), 1189–1232.
+Gal, O. (2020). It’s here! 5things to know about Zoom 5.0.https://soo.gd/
+rJLK
+Gandal, N., Markovich, S., & Riordan, M. H. (2018). Ain’t it “suite”?
+Bundling in the PC ofﬁce software market. Strategic Management Jour-
+nal,39(8), 2120–2151.
+Gao, H., Kumar, S., Tan, Y ., & Zhao, H. (2022). Socialize more, pay less:
+Randomized ﬁeld experiments on social pricing. Information Systems
+Research , forthcoming.
+Gartner. (2021). Gartner forecasts worldwide public cloud end-user spend-
+ing to grow 23%i n 2021. http://bitly.ws/giGp
+Geng, X., Stinchcombe, M. B., & Whinston, A. B. (2005). Bundling infor-
+mation goods of decreasing value. Management Science ,51(4), 662–667.
+Gilchrist, D., & Luca, M. https://hbr.org/2017/08/how-netﬂixs-content-
+strategy-is-reshaping-movie-culture . Accessed August 31, 2017
+Golden Recursion Inc. (2021). The golden research engine .https://golden.
+com/
+Gomez-Uribe, C. A., & Hunt, N. (2016). The Netﬂix recommender system:
+Algorithms, business value, and innovation. ACM Transactions on Man-
+agement Information Systems ,6(4), 1–19.
+Grieve, P. (2021). SaaS sales 101: A beginner’s guide to selling .https://www.
+zendesk.com/blog/saas-sales/
+Guha, S., & Kumar, S. (2018). Emergence of big data research in operations
+management, information systems, and healthcare: Past contributions and
+future roadmap. Production and Operations Management ,27(9), 1724–
+1735.
+Guo, Z., Li, J., & Ramesh, R. (2019). Optimal management of virtual infras-
+tructures under ﬂexible cloud service agreements. Information Systems
+Research ,30(4), 1424–1446.
+Guo, Z., Li, J., & Ramesh, R. (2020). Scalable, adaptable, and fast estimation
+of transient downtime in virtual infrastructures using convex decomposi-tion and sample path randomization. INFORMS Journal on Computing ,
+32(2), 321–345.
+Guo, Z., & Ma, D. (2018). A model of competition between perpetual soft-
+ware and software as a service. MIS Quarterly ,42(1), 101–120.
+Hagiu, A., & Wright, J. (2020). When data creates competitive advantage.
+Harvard Business Review ,98(1), 94–101.
+Heap. (2021). Heap—Illuminate the full user journey .https://heap.io
+Helo, P., Phuong, D., & Hao, Y . (2019). Cloud manufacturing—Scheduling
+as a service for sheet metal manufacturing. Computers & Operations
+Research ,110, 208–219.
+Help Net Security. (2020). Unexpected downtime is crippling businesses,
+causing revenue losses .https://www.helpnetsecurity.com/2020/05/14/
+unexpected-downtime/
+Hitt, L. M., & Chen, P.-y. (2005). Bundling with customer self-selection:
+A simple approach to bundling low-marginal-cost goods. Management
+Science ,51(10), 1481–1493.
+Huang, K.-W., & Sundararajan, A. (2011). Pricing digital goods: Discontinu-
+ous costs and shared infrastructure. Information Systems Research ,22(4),
+721–738.
+IDC. (2018). The digitization of the world: From edge to core .https://soo.gd/
+3ATL
+Imroz, S. M. (2019). Motives to participate in an online community for pro-
+fessionals: Lessons from servicenow customer service community. Jour-
+nal of Workplace Learning ,31(8), 498–519.
+Ingraham, N. (2013). iTunes Store at 10: How Apple built a digital media
+juggernaut .http://bitly.ws/b6bG
+Iyengar, R., Jedidi, K., Essegaier, S., & Danaher, P. J. (2011). The impact
+of tariff structure on customer retention, usage, and proﬁtability of access
+services. Marketing Science ,30(5), 820–836.
+Jackson, J. (2013). Salesforce.com’s Heroku responds to scalability com-
+plaint .http://bitly.ws/aTKf
+Jain, D., Jonnalagedda, S., & Kumar, S. (2020). Analysis of competition
+from new entrants in subscription markets. In INFORMS conference on
+information systems and technology (CIST 2020). https://www.dropbox.
+com/sh/aeiphpr349tppta/AAC_A6_gO2jTP1mEuigtWzmfa?dl=0
+Jain, S., & Kannan, P. K. (2002). Pricing of information products on online
+servers: Issues, models, and analysis. Management Science ,48(9), 1123–
+1142.
+Jain, T., & Hazra, J. (2019). Hybrid cloud computing investment strategies.
+Production and Operations Management ,28(5), 1272–1284.
+Johnson, M. W., Christensen, C. M., & Kagermann, H. (2008). Reinventing
+your business model. Harvard Business Review ,86(12), 58–64.
+Jones, S. D. (2013). Adobe moves software out of the box and into the cloud .
+https://soo.gd/NOpb
+Kennedy, P. (2016, February 10). Sales manager of BPS, Private
+communications.
+KeyCorp. (2020). SaaS public company reporting metrics .http://bitly.ws/
+apnf
+Kiddoo, J. L., Kwerel, E., Javid, S., Dunford, M., Epstein, G. M., Meisch
+Jr, C. E., Hoffman, K. L., Smith, B. B., Coudert, A. B., Sultana, R. K.,
+& Costa, J. A. (2019). Operations research enables auction to repurpose
+television spectrum for next-generation wireless technologies. INFORMS
+Journal on Applied Analytics ,49(1), 7–22.
+Kim, E. (2015). After failing to buy $ 50billion Salesforce, Microsoft has
+suddenly become its hottest competitor .https://soo.gd/I1p1
+Kumar, N., Qiu, L., & Kumar, S. (2018a). Exit, voice, and response on digi-
+tal platforms: An empirical investigation of online management response
+strategies. Information Systems Research ,29(4), 849–870.
+Kumar, N., Qiu, L., & Kumar, S. (2022). A hashtag is worth a thousand
+words: An empirical investigation of social media strategies in trademark-
+ing hashtags. Information Systems Research , forthcoming.
+Kumar, S. (2021). How analytics allowed the FCC to save $7.3 billion
+by auctioning underused television spectrum. Management and Business
+Review ,1(1), 206–208.
+Kumar, S., Mookerjee, V ., & Shubham, A. (2018b). Research in operations
+management and information systems interface. Production and Opera-
+tions Management ,27(11), 1893–1905.
+Kumar, S., & Qiu, L. (2022). Social media analytics and practical applica-
+tions: The change to the competition landscape . CRC Press.
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 20 ===
+MANAGING SOFTWARE-AS-A-SERVICE 2607Production and Operations Management
+Lambrecht, A., Seim, K., & Skiera, B. (2007). Does uncertainty matter? Con-
+sumer behavior under three-part tariffs. Marketing Science ,26(5), 698–
+710.
+Lambrecht, A., & Skiera, B. (2006). Paying too much and being happy about
+it: Existence, causes, and consequences of tariff-choice biases. Journal of
+Marketing Research ,43(2), 212–223.
+Latka, N. (2021). Getlatka .https://getlatka.com
+Li, B., & Arreola-Risa, A. (2022). Minimizing conditional value-at-risk
+under a modiﬁed basestock policy. Production and Operations Manage-
+ment ,31(4), 1822–1838.
+Li, B., & Kumar, S. (2018). Should you kill or embrace your competitor:
+Cloud service and competition strategy. Production and Operations Man-
+agement ,27(5), 822–838.
+Li, S., Cheng, H. K., & Jin, Y . (2018). Optimal distribution strategy for enter-
+prise software: Retail, SaaS, or dual channel? Production and Operations
+Management ,27(11), 1928–1939.
+Li, S., Luo, Q., Qiu, L., & Bandyopadhyay, S. (2020). Optimal pricing model
+of digital music: subscription, ownership or mixed? Production and Oper-
+ations Management ,29(3), 688–704.
+Lim, S. L., Bentley, P. J., Kanakam, N., Ishikawa, F., & Honiden, S. (2015).
+Investigating country differences in mobile app user behavior and chal-
+lenges for software engineering. IEEE Transactions on Software Engi-
+neering ,41(1), 40–64.
+Lo, H. (2021, October 15). Co-founder of ZJ Technology, Private
+communications.
+Ma, D., & Kauffman, R. J. (2014). Competition between software-as-a-
+service vendors. IEEE Transactions on Engineering Management ,61(4),
+717–729.
+Ma, D., & Seidmann, A. (2015). Analyzing software as a service with
+per-transaction charges. Information Systems Research ,26(2), 360–
+378.
+Makinen, J., & Burgelman, R. A. (2018). Noodle Analytics in 2018: AI for
+the enterprise. Stanford Graduate School of Business Case, No. SM301.
+Mallipeddi, R. R., Kumar, S., Sriskandarajah, C., & Zhu, Y . (2022). A frame-
+work for analyzing inﬂuencer marketing in social networks: Selection and
+scheduling of inﬂuencers. Management Science ,68(1), 75–104.
+Mell, P., & Grance, T. (2011). The NIST deﬁnition of cloud computing .N I S T
+SP 800-145.
+Metz, C. (2014). How Facebook moved 20billion Instagram photos without
+you noticing .https://www.wired.com/2014/06/facebook-instagram/
+Microsoft (2019a). Microsoft and ServiceNow announce strategic partner-
+ship.http://bitly.ws/g2ey
+Microsoft. (2019b). Microsoft has doubled size of UK Azure regions, increas-
+ing compute capacity by more than 1,500%, as country embraces digital
+transformation .https://soo.gd/0yTb
+Montes, R., Sand-Zantman, W., & Valletti, T. (2018). The value of personal
+information in online markets with endogenous privacy. Management Sci-
+ence,65(3), 1342–1362.
+Mookerjee, R., Kumar, S., & Mookerjee, V . S. (2017). Optimiz-
+ing performance-based internet advertisement campaigns. Operations
+Research ,65(1), 38–54.
+Nair, J., Subramanian, V ., & Wierman, A. (2018). Provisioning of ad-
+supported cloud services: The role of competition. Performance Evalu-
+ation ,120, 36–48.
+Nan, G., Wu, D., Li, M., & Tan, Y . (2018). Optimal freemium strategy for
+information goods in the presence of piracy. Journal of the Association
+for Information Systems ,19(4), 266–305.
+NetEase Inc. (2020). NetEase Cloud Music enters into strategic music part-
+nership with BMG .https://soo.gd/5DDc
+Netﬂix Inc. (2019). Netﬂix third quarter 2019 letter to shareholders .http:
+//bitly.ws/aawj
+Netﬂix Inc. (2020). Plans and pricing .https://help.netﬂix.com/en/node/
+24926/
+The New York Times. (2012). The Blink of an Eye? Oh, Please .https://soo.
+gd/hlFf
+Niculescu, M. F., Shin, H., & Whang, S. (2012). Underlying consumer het-
+erogeneity in markets for subscription-based it services with network
+effects. Information Systems Research ,23(4), 1322–1341.Parasuraman, A., Zeithaml, V . A., & Berry, L. L. (1988). SERVQUAL: A
+multiple-item scale for measuring consumer perceptions of service qual-
+ity.Journal of Retailing ,64(1), 12.
+Parker, G. G., & Van Alstyne, M. W. (2005). Two-sided network effects:
+A theory of information product design. Management Science ,51(10),
+1494–1504.
+Passacantando, M., Ardagna, D., & Savi, A. (2016). Service provisioning
+problem in cloud and multi-cloud systems. INFORMS Journal on Com-
+puting ,28(2), 265–277.
+Petryk, M., Rivera, M., Bhattacharya, S., Qiu, L., & Kumar, S. (2022).
+How network embeddedness affects real-time performance feedback: An
+empirical investigation. Information Systems Research , forthcoming.
+Pew Research Center (2021). Pew research center internet datasets .http:
+//bitly.ws/gIDD
+Poyar, K. (2020). Pricing insights from 2,200 SaaS companies .http://bitly.
+ws/apnk
+Pu, J., Chen, Y ., Qiu, L., & Cheng, H. K. (2020). Does identity disclosure
+help or hurt user content generation? Social presence, inhibition, and dis-
+placement effects. Information Systems Research ,31(2), 297–322.
+Ray, J., Samuel, J., Menon, S., & Mookerjee, V . (2017). The design of
+feature-limited demonstration software: Choosing the right features to
+include. Production and Operations Management ,26(1), 9–30.
+Retana, G. F., Forman, C., & Wu, D. J. (2015). Proactive customer education,
+customer retention, and demand for technology support: Evidence from
+a ﬁeld experiment. Manufacturing & Service Operations Management ,
+18(1), 34–50.
+Saha, R. L., Singha, S., & Kumar, S. (2021). Does congestion always hurt?
+Managing discount under congestion in a game-theoretic setting. Infor-
+mation Systems Research ,32(4), 1347–1367.
+Schwarz, G. E. (1978). Estimating the dimension of a model. Annals of
+Statistics ,6(2), 461–464.
+Serena Capital. (2020). 2020 European SaaS benchmark .https://www.
+europeansaasbenchmark.com
+ServiceNow. (2020). ServiceNow boosts data centre capacity in Europe .
+http://bitly.ws/g2fP
+Silverstein, J. (2019). Hundreds of millions of Facebook user records were
+exposed on Amazon cloud server .http://bitly.ws/aaw3
+Spann, M., Fischer, M., & Tellis, G. J. (2015). Skimming or penetration?
+Strategic dynamic pricing for new products. Marketing Science ,34(2),
+235–249.
+Steele, A., & Mickle, T. (2019). Apple Music overtakes Spotify in paid
+U.S. subscribers .https://www.wsj.com/articles/apple-music-overtakes-
+spotify-in-u-s-subscribers-11554475924
+Suarez, F. F., Cusumano, M. A., & Kahl, S. J. (2013). Services and the busi-
+ness models of product ﬁrms: An empirical analysis of the software indus-
+try.Management Science ,59(2), 420–435.
+Sundararajan, A. (2004a). Managing digital piracy: Pricing and protection.
+Information Systems Research ,15(3), 287–308.
+Sundararajan, A. (2004b). Nonlinear pricing of information goods. Manage-
+ment Science ,50(12), 1660–1673.
+Susarla, A., & Barua, A. (2011). Contracting efﬁciency and new ﬁrm sur-
+vival in markets enabled by information technology. Information Systems
+Research ,22(2), 306–324.
+Symphonic Source Inc. (2017). The Salesforce users benchmark report 2017.
+https://soo.gd/BU1V
+Taylor, B. (2018). To see the future of competition, look at Netﬂix. Harvard
+Business Review Digital Article , July 18, 2018.
+The Technology & Services Industry Association. (2017). LAER explained:
+A new customer engagement model for a new business era .http://bitly.
+ws/jEAj
+THINKstrategies. (2007). Salesforce.com targets wealth managers, chal-
+lenges Bloomberg’s monopoly .http://bitly.ws/apoa
+UpCloud. (2021). How sitesbi raised their SLA way above industry norms .
+https://upcloud.com/community/stories/sitesbi/
+Vegi, C. (2020). Salesforce Tableau Connection extremely slow .http://bitly.
+ws/aTKb
+VPN Overview. (2021). The best VPN discounts, coupons and deals .http:
+//bitly.ws/gIDA
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 21 ===
+2608 LIAND KUMARProduction and Operations Management
+Wharton Customer Analytics. (2012). Predicting customer acquisition &
+retention with structured and semi-structured data .http://bitly.ws/apnY
+White, C. J. (2006). Towards an understanding of the relationship between
+mood, emotions, service quality and customer loyalty intentions. The Ser-
+vice Industries Journal ,26(8), 837–847.
+Wu, J. F., Tawarmalani, M., & Kannan, K. N. (2018). Cardinality bundling
+with Spence–Mirrlees reservation prices. Management Science ,65(4),
+1455–1947.
+Xiao, X., Sarker, S., Wright, R. T., Sarker, S., & Mariadoss, B. J. (2020).
+Commitment and replacement of existing SaaS-delivered applications: A
+mixed-methods investigation. MIS Quarterly ,44(4), 1811–1857.
+Xin, M., & Sundararajan, A. (2020). Nonlinear pricing of software with local
+demand inelasticity. Information Systems Research ,31(4), 1224–1239.
+Yang, M., Jacob, V . S., & Raghunathan, S. (2021). Cloud service model’s
+role in provider and user security investment incentives. Production and
+Operations Management ,30(2), 419–437.
+Yuan, S., Das, S., Ramesh, R., & Qiao, C. (2018). Service agreement trifecta:
+Backup resources, price and penalty in the availability-aware cloud. Infor-
+mation Systems Research ,29(4), 947–964.
+Zhang, D., Hu, M., Liu, X., Wu, Y ., & Li, Y . (2020a). NetEase cloud music
+data.https://ssrn.com/abstract=3554826
+Zhang, Z., Dey, D., & Tan, Y . (2007). Pricing communication services with
+delay guarantee. INFORMS Journal on Computing ,19(2), 248–260.
+Zhang, Z., Nan, G., Li, M., & Tan, Y . (2016). Duopoly pricing strategy for
+information products with premium service: Free product or bundling?
+Journal of Management Information Systems ,33(1), 260–295.
+Zhang, Z., Nan, G., Li, M., & Tan, Y . (2022). Competitive entry of informa-
+tion goods under quality uncertainty. Management Science , forthcoming.
+Zhang, Z., Nan, G., & Tan, Y . (2020b). Cloud services vs. on-premises soft-
+ware: Competition under security risk and product customization. Infor-
+mation Systems Research ,31(3), 653–1036.Zhang, Z., Tan, Y ., & Dey, D. (2009). Price competition with service
+level guarantee in web services. Decision Support Systems ,47(2), 93–
+104.
+Zhao, W., Liu, Q. B., Guo, X., Wu, T., & Kumar, S. (2022). Quid pro quo
+in online medical consultation? Investigating the effects of small mone-
+tary gifts from patients. Production and Operations Management ,31(4),
+1698–1718.
+Zhao, X., Guo, H., Cai, G., & Bandyopadhyay, S. (2021). The role of
+expectation–reality discrepancy in service contracts. Production and
+Operations Management ,30(11), 4160–4175.
+Zimmeck, S., Story, P., Smullen, D., Ravichander, A., Wang, Z., Reidenberg,
+J., Russell, N. C., & Sadeh, N. (2019). Maps: Scaling privacy compliance
+analysis to a million apps. Proceedings on Privacy Enhancing Technolo-
+gies,2019 (3), 66–86.
+SUPPORTING INFORMATION
+Additional supporting information may be found in the online
+version of the article at the publisher’s website.
+How to cite this article: Li, B., & Kumar, S. (2022).
+Managing Software-as-a-Service: Pricing and
+operations. Production and Operations Management ,
+31,2588–2608. https://doi.org/10.1111/poms.13729
+ 19375956, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/poms.13729 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+

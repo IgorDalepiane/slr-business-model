@@ -1,0 +1,1219 @@
+=== PÁGINA 1 ===
+Journal of Management Information Systems
+ISSN: 0742-1222 (Print) 1557-928X (Online) Journal homepage: www.tandfonline.com/journals/mmis20
+Eﬀects of Freemium Strategy in the Mobile App
+Market: An Empirical Study of Google Play
+Charles Zhechao Liu, Yoris A. Au & Hoon Seok Choi
+To cite this article: Charles Zhechao Liu, Yoris A. Au & Hoon Seok Choi (2014) Eﬀects of
+Freemium Strategy in the Mobile App Market: An Empirical Study of Google Play, Journal of
+Management Information Systems, 31:3, 326-354, DOI: 10.1080/07421222.2014.995564
+To link to this article:  https://doi.org/10.1080/07421222.2014.995564
+Published online: 09 Mar 2015.
+Submit your article to this journal 
+Article views: 8954
+View related articles 
+View Crossmark data
+Citing articles: 58 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=mmis20
+
+=== PÁGINA 2 ===
+Effects of Freemium Strategy in the Mobile
+App Market: An Empirical Study of GooglePlay
+CHARLES ZHECHAO LIU, YORIS A. AU, AND HOON SEOK CHOI
+CHARLES ZHECHAO LIUis an associate professor of information systems at the
+University of Texas at San Antonio. He received his Ph.D. in management informa-
+tion systems from the Katz Graduate School of Business, University of Pittsburgh.
+His research interests include the economics of information systems, technology
+adoption and diffusion, and standards competition in IT markets. Liu ’s research has
+been presented at ICIS, AMCIS, WISE, and INFORMS conferences and published
+in such journals as MIS Quarterly, Information Systems Research, Communications
+of the AIS, andCommunications of the ACM.
+YORIS A. A Uis an associate professor of information systems and chair of the
+Department of Information Systems and Cyber Security at the University of Texasat San Antonio. He received his Ph.D. in information and decision sciences from the
+Carlson School of Management at the University of Minnesota. His research areasinclude the economics of information systems, information technology adoption,
+information systems security, mobile applications (including mobile payments),
+online social networks, and open source software. His research has been publishedin a number of leading information systems journals and presented at several
+conferences.
+H
+OONSEOKCHOIis a fourth-year Ph.D. student in the Department of Information
+Systems and Cyber Security at the University of Texas at San Antonio. He received
+a B.A. in journalism and advertising and a B.Sc. in chemical engineering from
+Dankook University, South Korea, and an M.A. in advertising and marketing fromthe University of Leeds, United Kingdom. His research interests include mobileapplications, online gaming, social media, cybersecurity (software piracy, security-
+related user behavior), and human-computer interaction (usability testing on proto-
+typed IS products).
+A
+BSTRACT : This paper examines the effect of the freemium strategy on Google Play,
+an online marketplace for Android mobile applications. By analyzing a large panel
+data set consisting of 711 ranked mobile apps, we found that the freemium strategyis positively associated with increased sales of the paid mobile apps. Positive trial
+experience as represented by high review rating of the free version of a mobile app
+leads to higher sales of its paid version, whereas high visibility of the free version ofa mobile app as represented by its product rank does not have a significant impact on
+the sales of its paid version. This finding suggests that although offering a free trial
+version is a viable way to improve the visibility of a mobile app, offering a qualityfree app is more important in boosting sales of the paid app. Moreover, we found
+Journal of Management Information Systems / Winter 2014, Vol. 31, No. 3, pp. 326 –354.
+Copyright © Taylor & Francis Group, LLC
+ISSN 0742 –1222 (print) / ISSN 1557– 928X (online)
+DOI: 10.1080/07421222.2014.995564
+
+=== PÁGINA 3 ===
+that the impact of review rating is reduced when the free version is offered, or when
+the mobile app is a hedonic app, because consumers have the ability to experience
+the app themselves before purchase. These findings extend understanding of the
+freemium business model to include a market characterized by simultaneous intra-
+market competition for both the freemium and paid products and demonstrate how
+such dynamics may influence sales of the paid products.
+KEY WORDS AND PHRASES : Android, freemium, Google Play, mobile apps, online
+product rank, online reviews.
+MOBILE APP REFERS TO APPLICATION SOFTWARE —a type of software that allows the user
+to perform a specific task that can be installed and run on a range of portable digital
+devices such as smartphones and tablets. A mobile app can be distinguished from
+general software by the following characteristics: it is optimized for touch-screen-
+based mobile devices, it is designed mostly for personal use, it is offered free of
+charge (except for mobile data use costs) or for sale, and most important, it is made
+available for download to mobile devices directly through a centralized online
+marketplace where users can rate and review the app and access various app ranking
+lists.
+Since Apple made a key turning point in the business by launching its App Store
+in 2008, there has been remarkable growth in the mobile app market. Digi-Capital,
+an investment bank for mobile apps and games, has forecast that by 2017 mobile
+apps could reach a revenue of more than $70 billion globally, with nongame apps set
+to double revenue share from 26 percent to 51 percent [ 15]. In the United States, as
+of November 2013, the Android mobile operating system (OS) currently leads the
+competition with 50.3 percent market share, beating Apple ’s iOS and Windows
+Phone, which have 43.1 percent and 4.7 percent of market share, respectively [ 52].
+Furthermore, in terms of percentage of time spent, statistics have shown that mobile
+apps already have overtaken the mobile web1since 2011 [ 38].
+For the Android consumers, Google Play ( https://play.google.com ) is such a one-
+stop shop for thousands of Android apps. Initially launched as Google ’s Android
+Market (or “the Market ”), the Android web portal was rebranded and integrated into
+one of the categories of Google Play in March 2012.2This online storefront has been
+growing at a rapid pace, surpassing the 500,000 available mobile apps milestone on
+May 2, 2012 [ 17], not too long after its record high 10 billion downloads in
+December 2011 [ 13] and the previous milestones of 200,000 and 300,000 available
+apps only a few months before, in April and August 2011, respectively. The
+Netherlands-based app analytics firm Distimo has attributed the surging numbers
+to the new “freemium ”applications that keep flooding the Market. In fact, two-thirds
+of Android apps are freemium, establishing the Market as the largest free mobile app
+store in the world [ 16].
+Freemium, a combination of the words “free”and“premium, ”is a business model
+by which a service or a product is offered free of charge, but a premium is chargedFREEMIUM STRATEGY FOR MOBILE APPS 327
+
+=== PÁGINA 4 ===
+for advanced features, functionality, or related products and services [ 30, p. 195].
+This strategy is widely utilized in the offering of digital-based products or services,
+including software, games, and web services. In the mobile app market, freemium
+apps are free to download but typically include offers to upgrade to the paid version,
+which is ad free or has richer features, to buy additional content or services within
+the app (i.e., in-app purchase), or to unlock additional levels of game stages.
+Today, the freemium strategy is observed in virtually all mobile app markets —
+including Apple App Store, BlackBerry App World, Google Play, and Windows
+Marketplace for Mobile. Free apps are often listed side by side with their paid
+counterparts to provide consumers the opportunity to test run a mobile app before
+purchase. The flowchart shown in Figure 1 illustrates how a typical consumer selects
+and purchases a mobile app in a mobile app store such as Google Play.
+A consumer may, of course, purchase a paid app directly without trying out its
+free version. However, a 2013 study reveals that the majority of consumers take
+advantage of the free apps offering in online mobile app stores [ 27]. Hence, we
+believe that the process depicted in Figure 1 represents a typical scenario that can
+occur when a consumer searches for a mobile app on Google Play. As do other
+e-commerce sites, Google Play allows cons umers to share their feedback on these
+apps through reviews and ratings. More interestingly, these mobile app stores
+also publish ranking lists of both free and paid apps based on various factors
+such as the number of downloads, average rating, and the number of reviews.
+The simultaneous presence of two competitive markets for both the free and the
+paid apps and the availability of ranking and rating information in both markets
+have generated interesting dynamics in the mobile app market.
+Figure 1. A Typical Consumer Decision-Making Process in the Google Play Online Market328 LIU, AU, AND CHOI
+
+=== PÁGINA 5 ===
+For example, there are contradictory viewpoints among mobile app vendors about
+the effect of free apps on their paid version. Some vendors believe that providing
+free apps decreases the total sales of the paid versions of the apps. Despite the
+potential revenue streams from free apps ’in-app purchases, advertising, and sub-
+scriptions, these mobile app vendors still see the traditional pay per download as the
+most prolific revenue source to target. And to them, the effect of a free app on its
+paid version is potentially negative, as the free version may cannibalize the sales of
+the paid version, leading to lower overall revenue and profit.
+Other mobile app vendors, however, believe that offering a free version of their
+app is an effective way to attract consumers, as some consumers who purchased their
+app would not have done so if they had not experienced the free version of the app.
+Moreover, a free app that makes it to or near the top of the ranking list can
+significantly increase the visibility of the app because it will be displayed on the
+main page of the website. This creates a vicious loop and will lead to more trials of
+the free app, which in turn can potentially boost sales of the paid version. Hence,
+these vendors explicitly encourage consumers to try the free version first before
+making a purchase.
+These contradictory viewpoints leave us with several interesting questions: How
+does the free version of a mobile app affect the sales of its paid version? Do the
+results learned from use of the freemium strategy in other product markets still hold
+in the mobile app market? And last but not least, what is the role of the ranking
+systems for both free and paid apps in the Android mobile app market? To answer
+these questions, we developed a set of hypotheses and empirically tested them using
+a longitudinal data set collected from Google Play ’s website. From our findings, we
+attempt to offer insights to app developers and marketplace designers into how
+consumers make their purchase decisions in the presence of widely available free
+apps.
+Literature Review
+The Freemium Strategy
+The effects of the freemium strategy in the software market have been studied
+extensively in the literature [ 10,22,28,41]. Bawa and Shoemaker [ 6] maintained
+that free samples can create three potential effects on sales: (1) an acceleration effect,
+whereby consumers decide to purchase a product earlier than they would have if the
+free sample had not been given; (2) a cannibalization effect, whereby the free sample
+reduces sales of the product; and (3) an expansion effect, which occurs when
+consumers would not otherwise purchase a product without the free sample.
+Because the outcome of the freemium strategy depends on the interplay of these
+three effects, which are in turn determined by various factors, the impact of free
+samples can differ significantly across different categories.
+In the traditional software market, in addition to the widely established brand
+building [ 37,41] and learning effects [ 14], software vendors often exercise theFREEMIUM STRATEGY FOR MOBILE APPS 329
+
+=== PÁGINA 6 ===
+freemium strategy to exploit economic rents ascribed to positive network effects
+[23], product complementarity [ 47], or an accelerated diffusion process [ 34].
+However, unlike traditional software applications, which often exhibit demand side
+economy of scale, mobile apps are generally characterized by minimal learning and
+switching costs and a low degree of interdependence among apps from the same
+developer. Hence, the classic network effects or product complementarity theory
+cannot be used to account for the dynamics in the mobile app market. Rather,
+adoption of paid mobile apps depends critically on two important factors: product
+visibility and product quality.
+Determinants of Success in the App Market: Product Visibility and
+Product Quality
+The importance of product visibility and product quality in determining the success
+of mobile apps in the market can be explained in the context of a new product
+adoption process. In the process, consumers generally go through five steps: (1)
+awareness, (2) interest, (3) evaluation, (4) trial, and (5) adoption [ 51]. The first step,
+awareness, is when consumers are informed about the product attributes [ 36]. In a
+competitive market environment, as the number of products in a category increases,
+generating awareness of a new product becomes more difficult [ 35]. Android app
+market presents such a challenge not only because there are now close to 1.3 million
+apps [ 4] but also because every month some 15,000 new apps are introduced [ 50].
+Product visibility, measured by the rank of the app, is therefore essential to generat-
+ing a high level of awareness of an app. This is especially true if we consider that
+most consumers find the apps they are to download through the ranking list
+published by online marketplaces such as Google Play [ 1]. Highly ranked apps
+also generate more interest among potential users because they reflect the interest of
+other consumers, and such peer influence has been shown to be one of the primary
+drivers of purchase decisions in online shopping [ 7].
+During a new product ’s evaluation and trial steps, product quality is critical in
+determining whether consumers will purchase it. In the software market, consumers
+are likely to judge the quality of software on the basis of the quality of the free trial
+version [ 10]. In the mobile app market, the quality of a free app plays a critical role
+in the purchase decision of its paid version. This is because many app developers
+provide free apps with similar quality to their paid version albeit containing ads or
+with reduced functionality. A study conducted by AdMob [ 1] revealed that the
+primary reason for purchasing paid apps was that consumers liked the free version
+and decided to upgrade to the paid version. Furthermore, other studies have shown
+that on Google Play and Apple ’s App Store, a large portion of paid app consumers
+had tried the free version first before purchasing [ 49].
+In the online environment, product quality can also be inferred from online
+customer reviews, which are generally left by customers who have purchased and
+experienced the product, and so the reviews are very relevant and informative. The330 LIU, AU, AND CHOI
+
+=== PÁGINA 7 ===
+impact of online reviews, along with product ratings and number of reviews, on the
+purchase decision of customers has been studied extensively in a variety of markets,
+such as movies [ 34], online book stores [ 35], online shopping stores [ 36], and video
+games [ 37]. The results of these studies generally support the idea that online
+reviews have become a primary reference for consumers, and the consumer-gener-
+ated information plays a significant role in the purchase decisions of buyers [ 44].
+However, the extent to which online reviews affect consumers ’purchase decisions
+differ due to a variety of factors, such as product type, product visibility, quality and
+quantity of the reviews, reputation of the reviewers, and freshness of the reviews.
+Product characteristics are one of the most significant factors moderating the effect
+of online reviews. The impact of online reviews on sales of utilitarian products,
+compared with that on sales of hedonic products, is relatively high due to the focus
+on product functionality rather than on individual preferences in product evaluations
+[38]. Similarly, such an impact is more significant in the evaluation of search
+products [ 31,39], whose quality can be evaluated before consumption (e.g., a
+calculator), than in that of experience products (e.g., wine), whose quality can
+only be determined after consumption [ 36,40].
+The popularity of a product may also moderate the impact of online reviews. With
+thousands of products competing for consumer attention and media coverage, less
+attractive products receive little attention and product coverage, resulting in a higher
+degree of product uncertainty. Online reviews thus become a primary source of
+information for consumers to reduce such uncertainty. Hence, it is not surprising to
+see that products less popular in the market are more significantly influenced by
+online reviews [ 37].
+In terms of the direction of feedback, negative online reviews are found to be more
+critical in the decision-making process than positive online reviews due to the
+overall risk aversion among consumers [ 35]. This is consistent with the results of
+previous research demonstrating that in the traditional brick-and-mortar stores,
+negative word of mouth more strongly decreases the willingness to purchase than
+positive word of mouth increases the willingness to purchase [ 41].
+The quality and quantity of reviews also play an important role in increasing sales
+volume. Prospective consumers tend to rely more on online reviews that are more
+thoroughly composed [ 36] and those with a higher number of reviews [ 34]. In
+addition, the impact of reviews is more substantial if the reviews are written by
+reputable users, although such an effect on sales performance decreases over time
+[42].
+Although the foregoing results have been consistently demonstrated in the litera-
+ture, almost all of the aforementioned studies examined the impact of product
+visibility and product quality on sales of the same product. Therefore, it will be
+interesting to see how the free version of a product affects the market performance of
+its paid version in a market where the freemium strategy is implemented. In
+particular, it is compelling to ask whether the findings in the extant literature still
+hold when both the free and the paid versions of the same product are ranked and
+rated in the same online marketplace.FREEMIUM STRATEGY FOR MOBILE APPS 331
+
+=== PÁGINA 8 ===
+Dynamics in Android App Market of Google Play
+Google Play is not the first website to publish product ranks and review ratings.
+With the rapid advance in data analytics technology, more and more electronic
+commerce sites (such as Amazon.com) have provided product rank and user reviews
+of the products listed on their websites to assist consumers in making their purchase
+decisions. In turn, researchers have keenly identified the rich research opportunity
+associated with the vast amount of data available on these websites and proposed
+innovative ways to take advantage of the data resources [ 24,26]. In the past decade,
+researchers have studied the relationship between product rank and actual sales and
+used the demand data recovered from product rank to estimate consumer surplus [ 7],
+analyze price elasticity [ 11], and study product cannibalization [ 25]. These studies
+offer a solid theoretical foundation for our research.
+Although Google Play adopts a ranking system similar to the ones implemented by
+many e-commerce sites, one important distinction lies in the simultaneous publica-
+tion of the ranking lists for both the free and the paid apps on Google Play, which is
+typically not present in other websites that sell regular commodities. This offers us a
+unique opportunity to examine the impact of the adoption of the free version of a
+mobile app on its paid version. On Google Play, the visibility and quality of a mobile
+app are largely manifested through two important indicators: the product rank and
+the review rating. In the next section, we develop several hypotheses to investigate
+how these two factors contribute to the adoption of the paid version of a mobile app.
+Research Model and Hypotheses
+Impact of a Free App on Sales of Its Paid Version
+In the traditional software market, due to the difficulty in obtaining sales data,
+studies involving the freemium strategy have largely adopted analytic tools, and
+the findings are highly contingent upon a variety of factors. For example, the
+performance of sampled software has been found to differ by software categories
+[22] and strategies for sampling (e.g., full functionality with limited time period or
+limited functionality without time limitation) [ 42]. The profitability of the freemium
+strategy often depends critically on the demand for product compatibility and the
+strength of network effects [ 9,10]. However, even without strong network effects,
+offering a fully functional software for free in the early stage may boost a software
+vendor ’s profit in the long run [ 34].
+In the mobile app market, we expect the net impact of the freemium strategy on
+sales to be positive due to the unique characteristics of mobile apps. As a highly
+centralized marketplace, Google Play is an official portal for app developers to
+publish their apps and is therefore extremely competitive due to the large number
+of competing apps in each category, the very low search cost, and the ease of
+comparison across a variety of offerings.3This market structure leads to a fourth
+“competitive ”effect beyond the acceleration, cannibalization, and expansion effects332 LIU, AU, AND CHOI
+
+=== PÁGINA 9 ===
+identified in Bawa and Shoemaker [ 6]. When a large number of substitutes in a
+product category are available for free, there is probably a higher degree of canni-
+balization of these free substitutes than of a paid app ’s own free version. Moreover,
+not offering a free version may significantly reduce the awareness of and interest in
+the product, which may hurt sales more than cannibalization does [ 3]. Given that
+cannibalization is more likely to emerge in markets with a high degree of product
+differentiation [ 25], and in the mobile app market there exists a relatively low degree
+of product heterogeneity, one would expect the competitive effect to dominate the
+cannibalization effect in this market.
+In addition to economics reasons, the freemium strategy may also stimulate
+demand due to consumer psychology. Kim and Morris [ 40] showed that consumers
+experiencing a trial of low-involvement products tend to have better affective and
+cognitive responses to the products than to products requiring high involvement.
+Similarly, Kempf [ 39] argued that consumers with personal experience with a
+product tend to demonstrate stronger belief, confidence, attitudes, and purchase
+intentions than those with indirect experience with it, such as through advertising.
+Given the similarity between mobile apps and the product types examined in the
+foregoing studies, we expect that the freemium strategy would have a similar impact
+in the mobile app market. Therefore, we predict that offering the free version of a
+mobile app is more likely to improve the market performance of its paid version, as
+represented by the number of downloads of the paid app.
+Hypothesis 1: Offering the free version of a mobile app is positively associated
+with a larger number of downloads of its paid version.
+Impact of the Rating and the Rank of a Free App on the Rank and the
+Revenue of Its Paid Version
+The existing literature has suggested that product rank and online reviews are good
+indicators of product visibility and product quality, and both have been shown to
+have a significant impact on consumer ’s online purchase decision [ 12,19,45,53]. In
+the case of mobile apps, an interesting difference arises from the fact that a lot of
+mobile apps offer a free trial version for consumers. As mentioned earlier, there is
+ample anecdotal evidence that shows that consumers interested in purchasing a
+mobile app always prefer to try the free version when one is available [ 29,32].
+Consequently, the experience from the free version trial will be highly influential in
+the subsequent purchase intention. Because Google Play publishes information
+about the ranks and ratings of both the free and the paid apps, an interesting question
+arises: How do the visibility and user satisfaction of the free app, as represented by
+the rank and the rating of its free version, influence sales of its paid version?
+Drawing on the extant literature, among paid apps that offer a free version, we
+expect that a higher rank of the free version would increase the visibility of the app,
+which in turn would result in more trials of the free app. Because some consumersFREEMIUM STRATEGY FOR MOBILE APPS 333
+
+=== PÁGINA 10 ===
+who try out the free version of the app will decide to buy the paid version, all else
+being equal (e.g., the quality of the app), the larger the user base of the free app, the
+more users will buy the paid version (note that the ratio of conversion might
+decrease, but the absolute number of users will always increase with more free
+trials). At the same time, sales of the paid apps also depend critically on the quality
+of the free app. For a given paid app, the impact of a high-quality free version may
+be ambiguous. On the one hand, a highly rated free app can effectively promote the
+sales of its paid version. On the other hand, some users who are very satisfied with
+the free version will end up not purchasing the paid version, leading to some
+cannibalization of the paid app. However, if we compare two paid apps that both
+offer a free version, given the highly competitive nature of the mobile app market
+and the abundance of substitute products, the app with a lower quality free version is
+even more likely to discourage potential buyers from purchasing its paid version. In
+other words, both apps may suffer from the cannibalization effect, but net sales will
+still favor the app with the better rating. Therefore, for paid apps that offer a higher
+quality free version (as reflected in the review rating of the free version), we expect
+the impact of the freemium strategy to be more significant than it is for apps that
+offer a lower quality free version.
+Hypothesis 2a: Among paid mobile apps that offer a free version, the number of
+downloads of the paid version is positively associated with the rank of its free
+version.
+Hypothesis 2b: Among paid mobile apps that offer a free version, the number of
+downloads of the paid version is positively associated with the rating of its free
+version.
+Differential Impact of the Review Rating for Apps with and without a
+Free Version
+When consumers search for products that they are not familiar with, they tend to rely
+on feedback provided by professionals or other consumers who have experienced the
+product to reduce uncertainty. This is especially true for experience goods such as
+PC software. However, in the mobile app market, for apps offering a free version,
+consumers can test the features and functionalities of the apps before purchase,
+technically turning them into search goods. Consequently, we expect the impact of
+review rating will be less significant for apps that offer a free version than for those
+that do not offer a free version. Among mobile apps that do not offer a free version,
+we expect the findings from the extant literature about experience goods will still
+hold here. In this case, less popular products typically present a higher risk due to
+limited professional review coverage and customer feedback. In the absence of this
+information, it has been shown that the influence of user reviews is more significant
+in the purchase of less attractive products [ 53] and increasingly insignificant in the
+adoption of more popular products [ 21]. In our context, these findings imply that the334 LIU, AU, AND CHOI
+
+=== PÁGINA 11 ===
+impact of rating will be more salient for paid apps with a lower rank than for those
+with a higher rank, which leads to the following hypotheses:
+Hypothesis 3a: The impact of the rating of a paid mobile app on the number of
+downloads is less significant for mobile apps that offer a free version than for
+those that do not offer a free version.
+Hypothesis 3b: Among paid mobile apps that do not offer a free version, the
+impact of rating on the number of downloads is more significant for paid mobile
+apps with a lower rank than for those with a higher rank.
+Differential Impact of the Rank and the Rating of the Free Version of
+Hedonic and Nonhedonic Apps
+As with traditional software, mobile apps may be categorized into two subgroups:
+hedonic and nonhedonic. Game and entertainment apps, which are mainly used for
+fun, can be classified as hedonic apps, and such apps as utility and business
+programs can be classified as nonhedonic apps. The evaluation of hedonic products
+is usually subjective and tends to vary from person to person, as it is largely based
+on individual preferences rather than commonly accepted standards, whereas the
+evaluation of nonhedonic products is usually objective and consistent across users.
+Researchers have found that the impact of online reviews on hedonic products is
+relatively smaller than the impact on nonhedonic products [ 8]. Such a finding is
+expected to be more apparent in the mobile app market because there is often a free
+version of the app. In the mobile app market, because the majority of the free apps
+offer features and functionalities similar to their paid versions, consumers have
+plenty of opportunity to thoroughly evaluate the apps before they make a purchase.
+When it comes to hedonic apps, due to their more engaging nature (e.g., games),
+consumers tend to spend more time when they get to try the apps, relative to
+nonhedonic apps. This in turn leads to more confidence in the consumers ’own
+evaluations of the app and, therefore, greater likelihood of the consumers ’relying on
+their personal experience rather than the review ratings of other people to determine
+whether they will purchase the paid version. Hence, it can be expected that the
+impact of the rating of the free version of a mobile app on its paid version will be
+less significant for hedonic apps than for nonhedonic apps.
+When consumers rely primarily on their own experience in determining whether to
+purchase an app, their awareness of the app (and hence the chance the app will be
+picked for free trial) becomes a more salient factor in ultimately driving the sales of
+the app. Because there are more than a million apps in the Google Play store, one
+that makes it to the top-ranked list achieves much greater visibility and hence an
+increased chance of being purchased.Therefore, we argue that, relative to a non-
+hedonic app, the chance that a hedonic app will be adopted by a consumer depends
+more on its visibility to consumers (as represented by its rank4) than on the opinion
+of other consumers (as represented by its rating). Therefore, we expect that theFREEMIUM STRATEGY FOR MOBILE APPS 335
+
+=== PÁGINA 12 ===
+impact of the rank of the free version of a mobile app will be more significant for
+hedonic apps than for nonhedonic apps.
+Hypothesis 4a: The impact of the rank of the free version of a mobile app on the
+number of downloads of its paid version is more significant for hedonic apps
+than for nonhedonic apps.
+Hypothesis 4b: The impact of the rating of the free version of a mobile app on
+the number of downloads of its paid version is less significant for hedonic apps
+than for nonhedonic apps.
+To better illustrate the relationships among the various hypotheses proposed in this
+section, we provide an integrated view of our research framework in Figure 2 .
+Data and Measures
+Sample
+To test our hypotheses, we collected data from Google Play and focused on its Android
+apps store, an online marketplace dedicated to promoting the adoption of mobile apps
+compatible with the Android platform. In addition to providing links for downloading
+apps, Google Play ’s Android apps store also publishes various ranking lists. Among
+them, the Top Free, Top Paid, and Top Grossing lists are the most relevant for our
+research questions. The Top Free and Top Paid ranking lists include the top 504
+applications in the free and paid categories based on the number of downloads, whereas
+the Top Grossing list includes the top 504 apps based on their revenue, which consists of
+both upfront app purchase revenue and in-app purchases (i.e., fees to obtain an advanced
+feature or to unlock a level in a game). Because these lists are updated daily, we created
+three software agents to automatically parse on a daily basis the three ranking lists and
+product web pages related to the ranked apps in each of the three lists.
+Figure 2. Overall Research Framework336 LIU, AU, AND CHOI
+
+=== PÁGINA 13 ===
+We ran the software agents for two months,5from November 2011 to January 2012,
+and collected daily data on the following variables: type of application (paid vs. free),
+rank of the app in each of the three aforementioned ranking lists, usage category
+(utility, financial, games, entertainment, etc.), price (for paid apps only), overall user
+review rating, rating count (number of reviews), developer, app version number, date a
+new version was released, file size, minimum version of Android OS required, and
+content rating (level of maturity). During our two-month sample period, 1,567 paid
+apps, 1,740 free apps, and 704 top-grossing apps appeared on the three ranking lists.6
+Because we are interested in how the free version of a mobile app affects adoption
+of the paid version, we used the Top Paid ranking list as the basis for constructing
+our data set. We created a dummy variable, FreeVersion, to indicate whether an
+application had a free version or not. Of the 1,567 ranked paid applications, 1,020
+(65.1 percent) offered a free version on Google Play and were assigned a value of 1
+to the dummy variable, FreeVersion.7Furthermore, among these 1,020 free apps,
+379 (37.2 percent) made it to the Top Free ranking list. For these top free apps, we
+were able to include their Top Free ranks, ratings, and rating counts in our data set.
+As the data are both cross-sectional and longitudinal, the initial data set is a large
+panel data set that consists of 60,142 observations from 1,567 product panels8across
+two months, covering thirty mobile app categories with prices ranging from $0.99 to
+$39.95. Each product panel represents an Android app iranked during day t.The
+app-level panels allow us to control for variation due to the individual characteristics
+of the app, whereas the time series data allow us to control for variation due to
+potential “seasonal fluctuations ”(e.g., new version being released) and time trends
+(e.g., declining consumer interest over time).
+Variables and Measurement
+The data for the majority of the variables were readily available from the web pages we
+parsed on Google Play. However, a major data challenge in our study was the lack of
+actual sales data. Like many electronic commerce sites such as Amazon.com and other
+mobile app providers such as Apple, Nokia, and RIM, due to competitive reasons,
+Google does not reveal the actual number of downloads for the apps purchased through
+Google Play. Without these data, we could not test hypotheses related to the impact of
+the free version of an app on the sales of its paid version. This challenge is very similar to
+the one confronting many IS researchers who seek to understand the relationship
+between product rank and actual sales on various online marketplaces [ 7,11,25]. In
+most of these studies, product rank is publicly available, whereas actual sales data are
+not. However, it is generally assumed that product rank is largely determined by the
+actual sales on the majority of these e-commerce sites. Given this assumption, by
+analyzing the available historical sales and product rank data, researchers have found
+that there exists an inverse relationship between product rank and actual sales [ 7,11,24,
+25], which can often be represented by the power law, or Pareto Type I distribution
+(Pareto 1896), as shown in the following equation:FREEMIUM STRATEGY FOR MOBILE APPS 337
+
+=== PÁGINA 14 ===
+Sales ¼β=Rankαþε;
+where βis a scale parameter and αis a shape parameter.
+Given this relationship, if the scale and shape parameters are known, researchers can
+estimate actual sales based on the publicly available product rank. To estimate these two
+parameters, prior studies have adopted various approaches. Chevalier and Goolsbee [ 11]
+examined how the product rank changes in response to a change in demand by
+purchasing a large quantity of several low-ranked books on Amazon.com. More
+recently, Garg and Telang [ 24] developed a simple yet effective approach to estimate
+the demand parameters by jointly solving the foregoing Pareto equation for both the Top
+Paid and the Top Grossing ranking lists in Apple ’s App Store.
+Although the foregoing methods have been widely adopted in studies that seek to
+recover the actual sales from publicly available product rank data, these methods are less
+applicable to our case. As revealed by several studies [ 46,48], unlike other e-retailers,
+Google Play does not rank its Android apps based solely on the number of downloads.
+Although the download number still plays an important role in the ranking algorithm
+adopted by Google Play to unknown degrees, other factors such as rating, freshness of
+the app, retention rate, and history of growth have all been found to influence the rank
+[18]. Given the unknowns involved in the ranking algorithm, the inverse function used
+by prior studies could no longer be applied to our data. In light of this new challenge, we
+had to resort to another, nontraditional approach to recover the sales data.
+After careful investigation of all the i nformation published on Google Play ’s website,
+we found that we were able to develop a computational method to recover the download
+numbers for many, if not all, of the apps in our data set through two pieces of information.
+T h ef i r s tp i e c eo fi n f o r m a t i o nw a sag raph posted on the individual app ’s web page that
+shows the fluctuation in the number of downloads for a given app in the previous thirty
+days. Using graph-to-data dig itizing software (i.e., Engauge Digitizer), we were able to
+recover the relative number of downloads within a given period (i.e., thirty days) for a
+given app. Table 1 shows sample data resulting from the graph-to-data conversion process.
+Table 1. Relative Number of Downloads of a Sample App
+D a y 123456789 1 0
+Number of
+downloads40.28 42.63 49.90 52.64 59.53 60.88 64.99 67.72 60.72 55.13
+Day 11 12 13 14 15 16 17 18 19 20
+Number of
+downloads60.64 78.64 91.10 78.54 63.22 60.39 65.90 78.35 83.86 93.53
+Day 21 22 23 24 25 26 27 28 29 30
+Number of
+downloads85.15 74.00 65.61 71.13 76.63 68.24 59.86 55.65 54.21 56.07
+Note: The sample data were converted from a Google App ’s download trend graph showing the
+fluctuation in the number of downloads of a given app for the previous thirty days.338 LIU, AU, AND CHOI
+
+=== PÁGINA 15 ===
+However, because Google does not define the vertical axis of the graphs, the
+converted data from the graphs cannot be used to directly recover the absolute
+number of downloads. To obtain the actual download counts, we incorporated
+another piece of information presented on Google Play ’s app web page, that is,
+the range of download counts. As of the end of our data collection period (January
+18, 2012), Google Play classified the number of downloads for its mobile apps into
+one of the following eleven categories:
+1. 10 –50
+2. 50 –100
+3. 100 –500
+4. 500 –1,000
+5. 1,000 –5,000
+6. 5,000 –10,000
+7. 10,000 –50,000
+8. 50,000 –100,000
+9. 100,000 –500,000
+10. 500,000 –1,000,000
+11. 1,000,000 –5,000,000
+On day 5 of our data collection period, the range of download counts changed from the
+previous day ’s5 0 0 –1,000 to 1,000 –5,000, and on day 15 the download range changed
+from 1,000 –5,000 to 5,000 –10,000. With this information, we can derive that the number
+of downloads reached the 1,000 milestone on day 5 and the 5,000 milestone on day 15.
+Accordingly, we can derive that there were a total of 4,000 downloads between day 5 and
+day 15. In this case, we can add the relative number of downloads from day 5 through day
+15 (which equals 741 based on the data presented in Table 1 ). We can then divide the total
+number of downloads (4,000) by the relative number of downloads (741) to obtain the
+ratio of the actual number of downloads to the relative number of downloads in Table 1 .
+Multiplying this ratio by each day ’s relative download counts yields the actual number of
+downloads for this mobile app for the past 30 days.
+Following this approach, we were able to recover the actual number of downloads
+for mobile apps in our data set where there were changes of download ranges during
+our sample period. However, such changes of download range did not occur for all
+of the apps in our data set during our sample period. Some apps remained in the
+same download range, and some only had one change in download range during our
+sample period. Without the necessary download range change data, we could not
+recover the actual number of downloads for these apps.
+To maximize the number of data points for the number of downloads variable, we
+checked several other websites to collect additional download range change data to
+compute the actual number of downloads. For example, we found a website named
+AppBrain ( www.appbrain.com ) that provides a comprehensive summary of the activity
+history of almost all Android mobile apps that have appeared on Google Play. AmongFREEMIUM STRATEGY FOR MOBILE APPS 339
+
+=== PÁGINA 16 ===
+the rich information presented on this website, of particular interest to us is the history of
+the download range change, such as the one shown in Figure 3 .
+The app highlighted in Figure 3 , App Folder Pro, is one of the apps in our data set that
+had only one change in download range (i.e., on January 10, 2012) during our sample
+period (from November 18, 2011, to January 18, 2012). But with additional download
+range change data from the AppBrain website (the number of downloads passed the 1,000
+milestone on November 14, 2011), we were able to derive that there were 4,000 down-
+loads between November 14, 2011, and January 10, 2012. Therefore, using the computa-
+tional method illustrated earlier, we were ab le to recover the actual number of downloads
+for this app during our sample period. Note that for the period between January 11, 2012,
+and January 18, 2012 (the end of our sample period), we can still recover the actual
+download data for the remainder of the samp le period using the download trend graph on
+January 18, 2012, although the next change in the download range occurred after our
+sample period (on May 15, 2012), because the actual number of downloads on January 10,
+2012, is known.
+In addition to AppBrain.com, we also collected download range change data from
+other sources, such as the developers ’websites and from a pilot data set we collected
+prior to our formal data collection. As a result, we were able to compute and verify
+the actual downloads for 711 apps out of the total 1,567 apps in our original data
+set.9This resulted in a final data set with 23,771 data points.
+Table 2 provides definitions of the key variables and control variables used in our
+analyses, and Table 3 presents the descriptive statistics.
+Figure 3. Download Milestone History for a Sample Android App, by AppBrain340 LIU, AU, AND CHOI
+
+=== PÁGINA 17 ===
+Econometric Models, Estimation Results, and Sensitivity Analysis
+Econometric Models
+We constructed three econometric models to test the hypotheses proposed earlier
+under “Research Model and Hypotheses. ”Given that several hypotheses involve
+both the main effects and the moderating effects, we created several interaction termsTable 2. Definitions of Key Variables
+Variable Definition
+Downloads i,t The number of times app ihas been downloaded (purchased)
+on date t.
+FreeApp i A dummy variable; equals 1 if app ihas a free version, 0 otherwise.
+RankPaid i,t The Top Paid rank of the paid version of app ion date t.
+RankFree i,t The Top Free rank of the free version of app ion date t.
+RatingPaid i,t The user review rating of the paid version of app ion date t.
+RatingFree i,t The user review rating of the free version of app ion date t.
+Price i,t The price of the paid version of app ion date t.
+Hedonic i A dummy variable; equals 1 if app iis considered a hedonic app (i.e.,
+a game or entertainment app)
+DaysReleased i,t Number of days since a new paid version of app ihas been released.
+MinimumOS i The minimum version of Android operating system required to
+run app i.
+FileSize i,t The file size of the paid version of app i(in megabytes).
+ContentRating i The maturity level of an app, coded with one of the following four
+values: “everyone, ”“low maturity,”“ medium maturity,” or“high
+maturity. ”
+Table 3. Descriptive Statistics of Key Variables
+Variable MeanStandard
+deviation Minimum Maximum
+Downloads i,t 265.26 875.06 1 18510
+FreeApp i 0.62 0.49 0 1
+RankPaid i,t 251.92 145.13 1 504
+RankFree i,t 411.47 289.26 3 504
+RatingPaid i,t 4.04 0.67 3.71 5
+RatingFree i,t 4.17 0.52 3.9 4.8
+Price i,t 2.73 2.54 0.99 39.95
+Hedonic 0.58 0.49 0 1
+Freshness i 66.02 94.51 0 602
+RequiredOS i 1.88 0.34 1 4
+FileSize i,t 9.69 12.10 0.01 99
+ContentRating 1.51 0.84 1 4FREEMIUM STRATEGY FOR MOBILE APPS 341
+
+=== PÁGINA 18 ===
+and included them in the econometric models along with the key independent
+variables and a set of control variables.
+Downloads i;t¼α0þα1FreeApp i;t/C01þα2RatingPaid i;t/C01
+þα3FreeApp i;/C3RatingPai d i;t/C01þα4Price i;t/C01
+þα5Hedonic iþα6DaysReleased i;t/C01þα7ContenRating i
+þα8MinimumOS iþα9FileSize i;t/C01þεi;t
+Model 1 (for H1 and H3a)
+Downloads i;t¼β0þβ1RankFree i;t/C01þβ2RatingFree i;t/C01þβ3Price i;t/C01
+þβ4Hedonic iþβ5Hedonic i/C3RankFree i;t/C01
+þβ6Hedonic i/C3RatingFree i;t/C01þβ7DaysReseased i;t/C01
+þβ8ContentRating i
+þβ9MinimumOS iþβ10FileSize i;t/C01þεi;t
+Model 2 (for H2a, H2b, H4a, and H4b)
+Downloads i;t¼δ0þδ1RankPaid i;t/C01þδ2RatingPaid i;t/C01
+þδ3RankPaid i;t/C01/C3RankPaid i;t/C01þδ4Price i;t/C01
+þδ5Hedonic iþδ6DaysReleased i;t/C01þδ7ContentRating i
+þδ8MinimumOS iþδ9FileSize i;t/C01þεi;t
+Model 3 (for H3b)
+In all three models, the dependent variable Downloads i,tis the number of downloads
+of a paid app ion date t.Model 1 is estimated based on all of the apps in our data set and
+is used to test H1 and H3a, which examine the impact of the freemium strategy on sales
+and the moderating effect of free apps on the rating of their paid version. Model 2 is
+estimated against all paid apps that offer a free version and is used to test H2a, H2b, H4a,
+and H4b, which examine the impact of the rank and the rating of the free apps on their
+paid version and their differential impact on different app types. Finally, Model 3 is
+estimated against all paid apps that do not offer a free version and is used to test H3b,
+which examines the interaction between the rank and the rating of the paid apps.
+Because our data set is a typical panel data set, we started the analyses with several
+specification tests to examine whether our models are subject to specification errors and
+violations of the ordinary least squares (OLS) estimation assumptions and to determine
+the appropriate econometric treatments. We started with the standard heteroskedasticity
+and autocorrelation checks. A Breusch-Pagan/Cook-Weisberg test for heteroskedasticity
+yields a high χ2for all three data sets, suggesting the presence of heteroskedasticity. This
+is consistent with a plot of the residuals versus fitted (predicted) values, which exhibits a
+wider scatter with greater x-axis values. The Wooldridge test for autocorrelation in the
+panel data also shows that first-order autocorrelation (AR1) cannot be ruled out for our
+data set. This is not surprising, given the longitudinal nature of our data. The presence of342 LIU, AU, AND CHOI
+
+=== PÁGINA 19 ===
+heteroskedasticity and AR1 autocorrelation suggests against the use of OLS. To address
+these issues, we applied the generalized least squares (GLS) estimation procedure10with
+corrections to adjust for both heteroskedasticity and panel-specific first-order autocor-
+relation. We also used the lagged independent variables to account for any potential time
+lag between the independent variables and the dependent variable. The results reported
+inTable 4 are coefficient estimates obtained from the GLS estimation.
+Estimation Results
+To examine the impact of the free version of an app on the sales of its paid counterpart
+(H1), we regressed the dependent variable Downloads on a dummy variable, FreeApp,
+controlling for other factors such as price, rating, app type (hedonic vs. nonhedonic),
+days since released, file size, content rating, required minimum OS version, and an
+interaction term for FreeApp andRatingPaid . With the inclusion of the interaction
+variable, the main effect of the FreeApp variable (H1) in Model 1 is not captured solely
+by the coefficient for FreeApp. Instead, the impact of the interacting variable also
+needs to be taken into account. More specifically, the main effect of FreeApp should
+be computed as the partial derivative of the dependent variable with respect to the
+variable of interest. Thus, H1 can be mathematically represented as
+H1:@Download i;t
+@FreeApp i;t/C01¼α1þa3EðRatingPaid i;t/C01Þ>0
+where E(RatingPaid ) is the expected value of the interacting variable RatingPaid.
+As shown in Table 4 , the coefficient for the FreeApp dummy ( α1) is positive and
+significant at the 1 percent level, whereas the coefficient for the interaction term ( α3)
+is negative and significant >. Substituting the mean value of the RatingPaid variable
+into the above expression shows that the overall value is positive, which suggests
+that for a paid app with an average rating, offering a free version is associated with
+more paid app downloads, thus supporting H1.
+Similarly, Hypothesis 3a, which predicts that the importance of RatingPaid is
+reduced when a free app is offered, can be mathematically represented as follows:
+H3a:@Download i;t
+@RatingPaid i;t/C01/C12/C12/C12/C12
+FreeApp i¼1
+¼α2þα3ðFreeApp i¼1Þ>@Download i;t
+@RatingPaid i;t/C01/C12/C12/C12/C12
+FreeApp i¼0
+¼α2þα3ðFreeApp i¼0Þ
+Because the interacting variable FreeApp is a dummy variable, the interaction
+effect can be interpreted by plugging in the two dichotomous values, 1 and 0, into
+the above inequality. The coefficient estimate for RatingPaid (α2) is positive, but
+the coefficient estimate for the interaction term ( α3) is negative, indicating that
+although a paid app ’s review rating has a positive impact on the number ofFREEMIUM STRATEGY FOR MOBILE APPS 343
+
+=== PÁGINA 20 ===
+downloads, its magnitude is reduced when a free version of the app is offered, thus
+providing support for H3a.
+To test Hypotheses 2a and 2b, we estimated Model 2, which regresses
+Downloads on two new variables, RankFree andRatingFree.11These two vari-
+ables represent the visibility and quality of the free app. As with Model 1, due to
+the inclusion of the interaction terms between these two variables and the
+Hedonic variable, the main effects should be computed based on the overall
+value of the partial derivative of Downloads with respect to RankFree and
+RatingFree, respectively. The coefficients reported in Table 4 show that both β2
+and β3are positive. However, because a higher rank is actually equivalent to a
+smaller rank number, a positive coefficient on the RankFree variable indicates
+that the higher the rank of a free app, the fewer the downloads of its paid
+version. Plugging in the mean values of the interacting variables still shows
+that the overall main effects of these two variables are both positive. Therefore,
+H2a is rejected and only H2b is supported.
+To test Hypotheses 4a and 4b, we examined the coefficient estimates for the
+interaction terms Hedonic *RankFree andHedonic *RatingFree. The coefficient esti-
+mate for the interaction term Hedonic *RankFree (β5) is negative. Substituting the
+values of the Hedonic variable (0 and 1) into the partial derivative formula showsTable 4. Regression Results
+Model 1 Model 2 Model 3a
+Dependent variable:
+Downloads (all apps)(apps with
+free version)(apps without
+free version)
+Constant −374.98** −545.34** −167.15**
+FreeApp 238.61** N/A N/A
+RatingPaid 118.28** N/A 58.96**
+FreeApp*RatingPaid −34.52* N/A N/A
+RankPaid N/A N/A −0.451**
+RankPaid*RatingPaid N/A N/A −0.23**
+RankFree N/A 0.41* N/A
+RatingFree N/A 500.48** N/A
+Hedonic 23.15 25.07** 59.46**
+Hedonic*RankFree N/A −0.50** N/A
+Hedonic*RatingFree N/A −569.24** N/A
+Price −5.95* −6.92** −1.84
+DaysReleased −0.85** −0.82** −0.239**
+ContentRating 77.07** 87.95** 61.32**
+MinimumOS 26.37 50.63* 114.06**
+FileSize 2.56** 2.31** 1.00**
+Fit Statistics (Wald χ2) 1417.18** 1350.02** 2026.43**
+aIn Model 3, continuous variables RatingPaid andRankPaid are centered to create the interaction
+term.
+*p< 0.05; ** p< 0.01.344 LIU, AU, AND CHOI
+
+=== PÁGINA 21 ===
+that when Hedonic = 1, the overall impact of RankFree is negative ( −0.09), which
+implies that the higher the rank of the free version of a hedonic app, the more the
+downloads its paid version will enjoy (due to the inverse relationship between
+ranking position and the actual rank number). When Hedonic = 0, the overall effect
+becomes positive (0.41), which is consistent with the prediction of H4a that the
+impact of RankFree is more important for hedonic than nonhedonic apps. With
+regard to H4b, the coefficient estimate for RatingFree (β2) is positive and significant,
+and the coefficient estimate for the interaction term Hedonic *RatingFree (β6)i s
+negative and significant, implying that the impact of the rating of a free app is less
+significant for hedonic than nonhedonic apps. Hence, H4b is supported.
+Finally, to test H3b, we constructed a different data set by including only apps that did not
+offer a free version. Because the interacting variables RankPaid andRatingPaid are both
+continuous variables, in order to avoid multicollinearity and to make the interpretation of the
+interaction effects more straightforward, we centered the original interacting variables before
+computing the interaction term [2, pp. 35 –36; 33]. The means of the centered variables are
+zero, and the correlations between the interaction term and the original variables are much
+smaller. As shown in Table 4 , the coefficient estimate for RatingPaid is positive and that for
+the interaction term is negative. Again, since a lower-rank app actually has a higher rank
+value, this means that as the rank becomes lower (i.e., larger rank value), the importance of
+rating actually decreases. Hence, H3b is not supported.
+Table 5 summarizes the results of our findings.
+Sensitivity Analysis
+We also performed several sensitivity tests to ensure the robustness of our results. A
+potential confounding factor in our study is the lag effect of the independent
+Table 5. Summary of Findings
+Hypothesis Prediction Outcome
+1 Offering a free app is positively associated with
+increased sales.Supported
+2a RankFree is positively associated with increased
+sales.Not supported
+2b RatingFree is positively associated with increased
+sales.Supported
+3a The importance of RatingPaid is reduced when a free
+app is offered.Supported
+3b For apps without a free version, rating is more
+important for lower-ranked apps than for higher-
+ranked apps.Not supported
+4a The importance of RankFree increases for hedonic
+apps.Supported
+4b The importance of RatingFree is reduced for hedonic
+apps.SupportedFREEMIUM STRATEGY FOR MOBILE APPS 345
+
+=== PÁGINA 22 ===
+variables. Although we used lagged independent variables in our estimation, the
+effects of the product rank and rating of the free version may take longer to realize.
+To account for this possibility, we took a one-week lag of our dependent variable
+and reran the regressions. We found that the results are largely consistent with what
+we reported in Table 4 , implying that the lag effect does not play a significant role in
+our analyses. Moreover, in order to avoid estimation bias due to potential endogene-
+ity that may exist between one of the key independent variables, RankPaid, and the
+dependent variable, Downloads, we conducted the standard Durbin –Wu–Hausman
+test by using the number of tweets as an instrumental variable [ 24] of the potential
+endogenous variable RankPaid. The number of tweets is an app-specific, self-
+updated number posted on Google Play that automatically accumulates every time
+a Google Play visitor clicks the Tweet button on an app ’s information page. This
+number shows the number of users who have relayed the app-related information
+posted on Google Play to their Twitter accounts. This variable is highly correlated
+with the potential endogenous variable RankPaid (r=0.619, p< 0.01) because the
+higher its rank, the more likely an app is to be seen and viewed by consumers, and
+hence the more likely it will be tweeted about. At the same time, the number of
+tweets is not directly related to the number of downloads ( r=0.072, p> 0.1), as
+relaying the information is not the same as intention to purchase, thus making the
+number of tweets a good instrumental variable for our endogeneity test. The
+augmented regression shows that the coefficient for the residual is not significant,
+thus rejecting the presence of endogeneity in the original model. These tests
+provided confidence in our results against potential biases caused by the time lag
+effect and endogeneity.
+Last but not least, another potential limitation in our analysis is the fact that
+Google Play only publishes up to 504 top-ranked apps in each of the free and
+paid categories. Hence, our sample may be subject to the usual caveats of a truncated
+sample, especially for Model 1, in which the data set was constructed based on the
+rank of the paid apps. To see whether our results are biased by the fact that the apps
+included in our sample are top performers in the Google Play market, we categorized
+our data into four subsets based on the rank and the review rating of these apps. The
+threshold values used for the categorization are the top 25 percent, 50 percent, and
+75 percent values of these variables. We then reran our models against each subset
+and compared the coefficient estimates for the independent variables with those
+reported in Table 4 . The results indicate that when changing the rank of the apps, the
+results are largely consistent with those summarized in Table 4 , and the coefficients
+do not change in a consistent pattern as the rank decreases. However, when
+estimating the models with different rating groups, the magnitude of key indepen-
+dent variables such as FreeApp and RatingFree decreases substantially with the
+rating of the apps, and their coefficients become insignificant when estimated with
+the lowest rating group. This outcome suggests that our findings may be more
+applicable to high-quality than to low-quality apps, and a prerequisite for the free-
+mium strategy to be effective is a minimum user satisfaction level with the free app,
+rather than a high ranking.346 LIU, AU, AND CHOI
+
+=== PÁGINA 23 ===
+Discussion
+The main empirical question in this study is whether offering a free version of a
+mobile app affects the sales of its paid version, and if so, how the existence of the
+free version interacts with other product attributes such as review rating and applica-tion type (e.g., low-involvement vs. high-involvement product; hedonic vs. nonhe-
+donic product) in shaping a consumer ’s adoption decision. Our findings provide
+empirical evidence that helps to answer these questions.
+First, we found that offering consumers a free trial version of a mobile app is
+positively associated with increased sal es of its paid version (H1). This finding
+provides strong support for the freemium strategy adopted by a number of
+developers in the Android app market. As discussed earlier, the nature of the
+Android ecosystem has led to a very competitive mobile app market. With
+thousands of apps available for consumers to choose from, offering a free versionis an effective way to increase the awareness and interest of an unknown or
+newly introduced app. However, some developers are skeptical about the con-
+sequences of such a strategy, as they question whether offering a free version of
+an app might cannibalize sales of the paid version. When a free version of an app
+is available, consumers who would have paid for the app might choose to
+continue to use the free version instead of purchasing the paid version. Our
+empirical findings seem to contradict this outcome and suggest that the benefits
+of the freemium strategy may outweigh any potential loss. This finding may be
+attributed to a few possibilities. One, it i s likely that cannibalization will still
+occur to some extent; however, there is strong competition among mobile appdevelopers due to the rapidly growing population of mobile device users and awell-designed centralized marketplace that facilitates ease of comparison.
+Therefore, a mobile app developer who chooses not to offer a free version maylose more customers to other competitors than it would have lost to cannibaliza-
+tion from its own free trial version. Two, it is also possible that the majority of
+the consumers who adopt the free version of an app are those who would not
+have adopted the app if it was offered at a cost, and the free version attracts a lot
+of customers who are willing to pay for the paid version after they have
+experienced the free version, leading to an expansion effect. Three, as free
+apps prevail in the market, consumers will form an expectation that they shouldbe able to try a mobile app for free before purchase, leading to a self-reinforcing
+feedback loop that further accelerates the widespread offering of free apps in the
+mobile app market. Regardless of which outcome dominates, it is clear from our
+empirical results that providing consumers an opportunity to try a mobile app for
+free actually benefits the developer more than it hurts it.
+Having found support for H1, we proceeded to analyze whether the freemium
+strategy has different impact on different types of mobile apps. Given the
+similarity in features and functionalities between the free version of most
+Android apps and their paid versions, it is not surprising to see that rating of
+the free version positively contributes to the sales of the paid version (H2b).FREEMIUM STRATEGY FOR MOBILE APPS 347
+
+=== PÁGINA 24 ===
+However, what is surprising is that the rank of the free version does not have a
+significant positive impact on the sales of the paid version (H2a), and this
+finding resonates in our sensitivity analysis, where testing the hypotheses on a
+subset of the sample with a lower rank does not alter the results. The fact that
+H2a is not supported can be attributed to several factors. First, as revealed by
+Google and other market analytics firms,12Google ’s app rank is jointly deter-
+m i n e db yav a r i e t yo ff a c t o r s ,s u c ha sa p pt i t le, description, localization, retention
+rate, number of reviews, app updating, and launch duration, as well as the
+number of downloads and review ratings. As a result of Google ’s complicated
+algorithm, a high rank does not always i ndicate high user satisfaction or high app
+quality. Second, mobile app users are mor e rational, and the commonly observed
+herd behavior, which suggests that individuals tend to imitate one another [ 5],
+does not seem to be as salient in the mobile app market as in other IT markets
+[21]. Third, availability of the free version of an app in fact reduces the influence
+of the ranking list, which implies that when consumers are attracted to an app by
+the high ranking of its free version, they do not automatically take this high rank
+as a sign of superior quality and automatically purchase the paid version. More
+than likely, they will still trial the free version to determine if the quality of the
+app is indeed satisfactory before they make the purchase.
+This finding yields important implications for successful implementation of
+the freemium strategy in the mobile app market. It implies that among apps that
+offer a free version, those with a higher quality (as represented by the review
+rating) are more likely to generate a higher level of sales than those with higher
+visibility but without high product qualit y. Given that a lot of developers have
+invested heavily in boosting the rank of t heir apps in a number of different ways
+[43], while overlooking efforts to improve app quality, this finding reminds
+them that the old golden rule of quality determining market performance still
+holds well in this rapidly evolving market. With the opportunity to try out an
+app for free, the mobile app market has tec hnically created a virtual fitting room
+and provides consumers with a shoppin g experience highly similar to the one
+found in a traditional department store. Ultimately, consumers will rely more on
+their own trial experience rather than on product rank or peer review in making
+their purchase decisions, f urther stressing the importance of delivering quality
+products in this burgeoning market.
+In addition to analyzing the impact of a free version ’sr a n ka n dr a t i n go ns a l e s ,
+we investigated whether such effects were the same for apps with different levels
+of visibility and for different product type s. Contrary to the prevailing notion that
+review rating has a more significant impact for a less popular product than for a
+more popular product, our results suggest that when a free version of an app is
+offered, the importance of review rating diminishes (H3a), which again may be
+attributed to the fact that consumers have the ability to test the app before
+purchase, significantly reducing the uncertainty associated with the app, and
+hence the dependence on user reviews. Moreover, when we narrowed our focus
+down to apps that do not offer a free version, our prediction that less popular348 LIU, AU, AND CHOI
+
+=== PÁGINA 25 ===
+apps will benefit more from a high review rating (H3b) is not supported. The
+rejection of H3b raises interesting concerns about the impact of product rank in
+the mobile app market. For apps that do not offer a free version, market
+competition is supposed to resemble w hat we observe in other electronics
+markets —that is, most products rely on review ratings to reduce uncertainty in
+the consumer ’s decision-making process. In this case, prior research has indicated
+that the impact of rating will be more significant for lower-ranked products than
+for higher-ranked products [ 21,53]. However, the mobile app market is highly
+volatile, with thousands of new apps appearing daily and continually refreshing
+the top of the ranking list. This, coupled with the fact that Google ’s ranking is
+not primarily based on app quality or use r satisfaction, has resulted in much
+smaller credit being given to the mobile ap pr a n k i n gl i s t ,r e l a t i v et ot h a ti no t h e r
+electronics marketplaces. Hence, it is no t surprising that consumers still rely
+predominantly on app rating, regardless of the ranking of the app.
+With regard to the differential impact of the rating of the free version for
+hedonic and nonhedonic apps, our results suggest that the impact of rating is
+more significant for nonhedonic than hedonic apps, whereas the impact of
+product rank is more significant for hedonic than nonhedonic apps. These find-
+ings are consistent with those demons trated in prior studies and imply that
+consumer psychology observed in online markets for traditional commodities is
+carried over to the mobile applicatio n market. When consumers evaluate a
+nonhedonic app, they rely more on the evaluation of the quality of the product.
+However, if the app they consider purchasing is a hedonic product, then their
+personal experience counts more than peer evaluation.
+Our results have important implications for promotion strategies adopted by
+mobile app developers. In an emerging ma rket characterized with stiff competi-
+tion and rapid product life cycle, surviving the competition and building a
+reputable brand can be a daunting task. Other than delivering a solid product
+that meets consumer ’s needs, marketing strategy can play an important role in
+reducing the gap between the market leader and new entrants. Without incurring
+significant advertising costs, offerin gaf r e ev e r s i o no fam o b i l ea p pc a nb ea
+c o s t - e f f e c t i v ew a yt ob o o s ts a l e s ,b u ts u c ha na p p r o a c hm a yo n l yw o r ki ft h e
+developer offers a high-quality free app. Moreover, our results show that the
+importance of the rating of the paid version is reduced when consumers have an
+opportunity to try the product themselves, which is consistent with the fact that
+consumers rely more on online reviews when there is a high degree of uncer-
+tainty, but such uncertainty vanishes with the wide availability of free apps in the
+mobile app market. Finally, we found that hedonic apps benefit most in sales
+from offering a free trial, providing cl ear guidance for mobile game developers
+and other app developers working in these more personal experience-driven
+product categories.FREEMIUM STRATEGY FOR MOBILE APPS 349
+
+=== PÁGINA 26 ===
+Conclusions and Directions for Future Research
+As is generally true with any empirical research, our results are subject to
+interpretation and are limited to the data available. The most obvious threat to
+the validity of the conclusions reached her e is the longitudinal nature of the data.
+It is not clear how long it takes for owners of the free apps to upgrade to a paid
+version. Although we did perform an analysis with a time-lagged model, it may
+not represent the true pattern of app purchases by free app owners. However, if it
+takes longer for a free app user to make a purchase decision, then our results are
+underestimating the positive impact of the freemium strategy. Hence, our results
+can be interpreted as a conservative, rather than inflated, estimate of this effect.
+Future studies could complement our research through use of additional research
+methods such as surveys to obtain a more accurate understanding of the upgrade
+time frame.
+Moreover, although we managed to verify whether an app offers a free version
+or not by manually checking all the apps offered by the same developer, we were
+not able to gather data on the number of similar apps in the same product
+category and thus control for within- category competition. We hope such data
+may become more easily attainable for fut ure researchers to further understand
+other competitive factors that may also influence a developer ’s decision to adopt
+the freemium strategy.
+Last but not least, due to the fact that Google publishes only the top-ranked apps,
+our sample only includes the top performer in the Android market. Therefore,
+splitting the sample based on product rank does not allow us to truly differentiate
+popular apps from less popular apps. Our sample would have been more balanced
+had we had access to the ranking of the remaining mobile apps.
+Despite these limitations, our study is one of the first attempts to empirically
+assess the impact of the freemium strategy on both sales and revenue of mobile
+apps. Our findings thus both contribute to the academic literature and provide
+guidance to practitioners in the mobile app market in several important ways. For
+researchers, our study builds on the gr owing body of research that utilizes
+publicly available e-commerce data to empirically validate research questions.
+Our research has extended Bawa and Shoemaker ’s study [ 5]o nt h et h r e e
+sampling effects (acceleration, cannibalization, and expansion) by adding a fourth
+“competitive ”effect, accounting for the belief that offering a sample is another
+crucial element in market competition when there are many companies vying
+with similar products. In such markets, be yond traditional factors such as price,
+quality, and marketing efforts, competitive advantage may arise from the adop-
+tion of the freemium strategy, as suggested by the higher number of downloads
+for paid apps that offer a free version. Our study also contributes to the freemium
+literature by showing that, although impr oving product visibility through offering
+a freemium product is helpful, it is more important to offer a quality freemium
+product, especially for nonhedonic goods. Finally, we have added to the literature
+on online word of mouth [ 12,20,45] by testing the impact in the mobile app350 LIU, AU, AND CHOI
+
+=== PÁGINA 27 ===
+market, where both free and paid versions of the same product are available. Not
+only does our research confirm the findi ngs of previous studies, it also extends
+our understanding of how consumers ’online review (i.e., rating) of a free version
+of a mobile app can enhance the market performance of the paid version.
+Our research also extends existing knowledge of the freemium business model and
+consumer behavior in online markets to the newly emerged mobile app world. For
+mobile app market participants, our study provides important guidance for various
+players in the market. According to a study conducted by Google AdMob in 2009,
+in making purchase decisions, more than 60 percent of smartphone users rely
+heavily on the information provided by mobile app online marketplaces such as
+Apple App Store, Blackberry App World, and Google Play [ 1]. Building on the
+results of our work, market designers can facilitate provision of this important
+information to foster transactions, and developers can prioritize the factors most
+instrumental in their product promotions. As a result of these improvements, con-
+sumers may also benefit from a more efficient, informative, and low-cost shopping
+experience.
+NOTES
+1. Mobile web refers to access to the World Wide Web from a handheld mobile device,
+such as a smartphone, using browser-based Internet services.
+2. Google Play also offers thousands of songs, books, and movies for download; but our
+study focuses only on its mobile apps.
+3. According to Android research site AppBrain, approximately 20,000 new apps were
+rolled out every month in 2012.
+4. Note that the rank variable in H4b focuses on capturing the effect of product visibility
+(the advertising effect), and not on other consumers ’downloading behavior (because app rank
+is not solely dependent on the number of downloads).
+5. The mobile app market is a very dynamic and competitive market; hence, we believe
+that a two-month period is long enough to capture the variation in our key variables without
+constructing a data set that is too large to analyze.
+6. Note that these 704 top-grossing apps may include some of the 1,567 paid apps that
+made it to the top of the paid ranking list during our sample period.
+7. We manually examined all 1,567 of these paid apps to determine whether they offered a
+free version or not.
+8. Note that this is not a balanced panel, due to the fact that not all apps continuously made
+it to the ranking lists throughout our sample period.
+9. Of these 711 apps, 489 were computed using data collected from AppBrain.com, 93
+were computed from the download data published on the developers ’websites, and 129 were
+computed using data collected in a pilot data set.
+10. We also estimated a fixed effects model. Our main results still hold. However, a fixed
+effects specification results in excessive collinearity (many of the control variables are
+dropped in a fixed effects model). Therefore, we adopted the GLS estimator.
+11. Note that the data set used to test Model 2 only includes paid apps that offer a free
+version.
+12.www.freemanmobile.com/2013/08/app-store-optimization-improve-ranking-google-
+play.html .FREEMIUM STRATEGY FOR MOBILE APPS 351
+
+=== PÁGINA 28 ===
+REFERENCES
+1. Admob. Admob mobile metrics report. Admob Monthly Report , January 2010 (available
+atwww.wired.com/images_blogs/gadgetlab/2010/02/admob-mobile-metrics-jan-10.pdf ).
+2. Aiken, L.S., and West, S.G. Multiple Regression: Testing and Interpreting Interactions .
+Thousand Oaks, CA: Sage, 1991.
+3. Anderson, C. Free: The Future of a Radical Price . New York: Hyperion, 2009.
+4. AppBrain. Number of Android applications [data set]. AppBrain Stats , July 2014
+(available at www.appbrain.com/stats/number-of-android-apps ).
+5. Banerjee, A.V. A simple model of herd behavior. Quarterly Journal of Economics ,107,
+3 (August 1992), 797 –817.
+6. Bawa, K., and Shoemaker, R. The effects of free sample promotions on incremental
+brand sales. Marketing Science ,23, 3 (Summer 2004), 345 –363.
+7. Brynjolfsson, E.; Yu, H.; and Smith, M.D. Consumer surplus in the digital economy:
+Estimating the value of increased product variety at online booksellers. Management Science ,
+49, 11 (November 2003), 1580 –1596.
+8. Cheema, A., and Papatla, P. Relative importance of online versus offline information for
+Internet purchases: Product category and Internet experience effects. Journal of Business
+Research ,63,9–10 (September –October 2010), 979 –985.
+9. Cheng, H.K., and Liu, Y. Optimal software free trial strategy: The impact of network
+externalities and consumer uncertainty. Information Systems Research ,23, 2 (June 2012),
+488–504.
+10. Cheng, H.K., and Tang, Q.C. Free trial or no free trial: Optimal software product design
+with network effects. European Journal of Operational Research ,205, 2 (September 2010),
+437–447.
+11. Chevalier, J., and Goolsbee, A. Measuring prices and price competition online:
+Amazon.com and BarnesandNoble.com. Quantitative Marketing and Economics ,1, 2 (June
+2003), 203 –222.
+12. Chevalier, J.A., and Mayzlin, D. The effect of word of mouth on sales: Online book
+reviews. Journal of Marketing Research ,43, 3 (August 2006), 345 –354.
+13. Chu, E. 10 billion Android market downloads and counting. Android Developers Blog,
+December 6, 2011 (available at http://android-developers.blogspot.com/2011/12/10-billion-
+android-market-downloads-and.html ).
+14. Dey, D.; Lahiri, A.; and Liu, D. Consumer learning and time-locked trials of software
+products. Journal of Management Information Systems ,30, 2 (Fall 2013), 239 –267.
+15.Digi-Capital. Mobile apps to hit >$70B revenue driven by explosion of diversity. Digi-
+Capital [blog], April 2014 (available at www.digi-capital.com/news/2014/04/mobile-apps-to-
+hit-70b-revenue-driven-by-explosion-of-diversity ).
+16. Distimo. Distimo publication full year 2011. Distimo, December 2011 (available at www.
+distimo.com/download/publication/Distimo_Publication_-_Full_Year_2011/EN/archive/ ).
+17. Distimo. Google Play tops 500,000 applications. Distimo [blog], May 2, 2012 (available
+atwww.distimo.com/blog/2012_05_google-play-tops-500000-applications/ ).
+18. Droid Meter Blog. What goes into the Google Play app ranking algorithm? Droid Meter
+Blog, July 2012 (available at http://blog.droidmeter.com/2012/07/what-goes-into-the-google-
+play-app-ranking-algorithm/ ).
+19. Duan, W.; Gu, B.; and Whinston, A.B. Do online reviews matter? —An empirical
+investigation of panel data. Decision Support Systems ,45, 4 (November 2008), 1007 –1016.
+20. Duan, W.; Gu, B.; and Whinston, A.B. The dynamics of online word-of-mouth and product
+sales—An empirical investigation of the movie industry. Journal of Retailing ,84, 2 (June 2008),
+233–242.
+21. Duan, W.; Gu, B.; and Whinston, A.B. Informational cascades and software adoption on
+the Internet: An empirical investigation. MIS Quarterly ,33, 1 (March 2009), 23 –48.
+22. Faugère, C., and Giri Kumar, T. Designing free software samples: A game theoretic
+approach. Information Technology and Management ,8, 4 (December 2007), 263 –278.
+23. Gallaugher, J.M., and Wang, Y.-M. Understanding network effects in software markets:
+Evidence from Web server pricing. MIS Quarterly ,26, 4 (December 2002), 303 –327.352 LIU, AU, AND CHOI
+
+=== PÁGINA 29 ===
+24. Garg, R., and Telang, R. Inferring app demand from publicly available data. MIS
+Quarterly ,37, 4 (December 2013), 1253 –1264.
+25. Ghose, A.; Smith, M.D.; and Telang, R. Internet exchanges for used books: An
+empirical analysis of product cannibalization and welfare impact. Information Systems
+Research ,17, 1 (March 2006), 3 –19.
+26. Ghose, A., and Sundararajan, A. Evaluating pricing strategy using e-commerce data:
+Evidence and estimation challenges. Statistical Science ,21, 2 (May 2006), 131 –142.
+27. Gordon, M.E. The history of app pricing, and why most apps are free. Flurry, July 2013
+(available at www.flurry.com/bid/99013/The-History-of-App-Pricing-And-Why-Most-Apps-
+Are-Free#.U2wJxlVdW5I ).
+28. Haruvy, E., and Prasad, A. Optimal freeware quality in the presence of network
+externalities: An evolutionary game theoretical approach. Journal of Evolutionary
+Economics ,11, 2 (February 2001), 231 –248.
+29. Hawley, K. Try apps before you buy in the Android market. PopSugar, March 2011
+(available at www.geeksugar.com/Try-Apps-Before-You-Buy-Android-Market-15329434 ).
+30. Hayes, T. Jump Point: How Network Culture is Revolutionizing Business . McGraw-
+Hill, 2008.
+31. Huang, L.; Tan, C.-H.; Ke, W.; and Wei, K.-K. Comprehension and Assessment of
+Product Reviews: A Review-Product Congruity Proposition. Journal of Management
+Information Systems ,30, 3 (Winter 2013 –14), 311 –343.
+32. Hughes, J. What ’s new with the Android app markets. Pearson Que, April 2011
+(available at www.quepublishing.com/articles/article.aspx?p=1708155 ).
+33. Jaccard, J.; Wan, C.K.; and Turrisi, R. The detection and interpretation of interaction
+effects between continuous variables in multiple regression. Multivariate Behavioral
+Research ,25, 4 (October 1990), 467 –478.
+34. Jiang, Z., and Sarkar, S. Speed matters: The role of free software offer in software
+diffusion. Journal of Management Information Systems ,26, 3 (Winter 2009 –10), 207 –239.
+35. Johnstone, E., and Dodd, C.A. Placements as mediators of brand salience within a UK
+cinema audience. Journal of Marketing Communications ,6, 3 (September 2000), 141 –158.
+36. Kalish, S. A new product adoption model with price, advertising, and uncertainty.
+Management Science ,31, 12 (December 1985), 1569 –1585.
+37. Kapil, B., and Robert, S. The effects of free sample promotions on incremental brand
+sales. Marketing Science , 23, 3 (August 2004), 345 –363.
+38.Kellog, D. Mobile apps beat the mobile web among us android smartphone users.
+Nielsen Newswire , August 2011 (available at www.nielsen.com/us/en/newswire/2011/mobile-
+apps-beat-the-mobile-web-among-us-android-smartphone-users.html ).
+39. Kempf, D.S. Attitude formation from product trial: Distinct roles of cognition and affect
+for hedonic and functional products. Psychology and Marketing ,16, 1 (January 1999), 35 –50.
+40. Kim, J., and Morris, J.D. The power of affective response and cognitive structure in
+product-trial attitude formation. Journal of Advertising ,36, 1 (Spring 2007), 95 –106.
+41. Lee, Y.-J., and Tan, Y. Effects of different types of free trials and ratings in sampling of
+consumer software: An empirical study. Journal of Management Information Systems ,30,3
+(Winter 2013 –14), 213 –246.
+42. Lee, Y .J., and Tan, Y. An empirical study of software sampling: Categorical hetero-
+geneity and vendor strategy. Proceedings of the 17thWorkshop on Information Technologies
+and Systems (WITS) , 2007, 73 –78.
+43. Lo, O. Going live on Google Play: A how-to guide for android developers. Tech
+Crunch , October 2012 (available at http://techcrunch.com/2012/10/14/going-live-on-google-
+play-a-how-to-guide-for-android-developers/ ).
+44. Ma, X.; Khansa, L.; Deng, Y.; and Kim, S. Impact of prior reviews on the subsequent
+review process in reputation systems. Journal of Management Information Systems ,30,3
+(Winter 2014), 279 –310.
+45. Mudambi, S.M., and Schuff, D. What makes a helpful online review? A study of
+customer reviews on Amazon.com. MIS Quarterly ,34, 1 (March 2010), 185 –200.FREEMIUM STRATEGY FOR MOBILE APPS 353
+
+=== PÁGINA 30 ===
+46. O ’Connell, R. Sponsored feature: 10 steps for top Google Play store rankings (without
+spending a penny!). Gamasutra , April 2012 (available at www.gamasutra.com/view/feature/
+168025/sponsored_feature_10_steps_for_.php ).
+47. Parker, G.G., and Van Alstyne, M.W. Two-sided network effects: A theory of informa-
+tion product design. Management Science ,51, 10 (October 2005), 1494 –1504.
+48. Sefferman, I. How rating affects ranking in search results and top charts across plat-
+forms. Inside Mobile Apps , June 2012 (available at www.insidemobileapps.com/2012/06/29/
+how-rating-affects-ranking-in-search-results-and-top-charts-across-platforms/ ).
+49. Spriensma, G.J. Do free apps really account for 89% of all downloads? Distimo ,
+September 2012 (available at www.distimo.com/blog/2012_09_do-free-apps-really-account-
+for-89-of-all-downloads/ ).
+50. Statistic Brain. Android phone statistics. Statistic Brain , August 2012 (available at
+www.statisticbrain.com/android-phone-statistics/ ).
+51. Webster, F.E. Jr, New product adoption in industrial markets: A framework for analysis.
+Journal of Marketing (July 1969), 35 –39.
+52. Whitney, L. iPhone market share shrinks as Android, Windows Phone grow. CNET ,
+January 6, 2014 (available at www.cnet.com/news/iphone-market-share-shrinks-as-android-
+windows-phone-grow/ ).
+53. Zhu, F., and Zhang, X. Impact of online consumer reviews on sales: The moderating
+role of product and consumer characteristics. Journal of Marketing ,74, 2 (March 2010),
+133–148.354 LIU, AU, AND CHOI
+

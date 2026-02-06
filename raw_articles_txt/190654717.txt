@@ -1,0 +1,876 @@
+=== PÁGINA 1 ===
+Economics of open source library
+software: evidences from
+Indian libraries
+Raj Kishor Kampa
+Department of Library and Information Science, Khallikote University,
+Berhampur, India, and
+Purnima Kaushik
+Department of Library and Information Science,
+University of Rajasthan, Jaipur, India
+Abstract
+Purpose –The purpose of this paper is to study the adoption and use of open source software (OSS) in the
+libraries of Institutions of National Importance (INIs) in India vis-à-vis their economic impact on adopting
+libraries. Besides, it aims to study the business model of OSS.
+Design/methodology/approach –The paper analyses the adoption and use of OSS in the libraries of
+INIs, India, and their economic impact on the adopting libraries. An online survey was administrated to
+library professionals of INIs to know the adoption and use of OSS in their libraries and its acceptability.Descriptive statistics and Pearson ’s chi-square are used in this study.
+Findings –Theﬁndings of the study reveal that the libraries of INIs adopt and use OSS in integrated library
+system (ILS) (18.4 per cent), digital repository (95.2 per cent) and library website (65.5 per cent). Koha, DSpace,
+Drupal and Joomla! are the most favoured OSS among the libraries of INIs. The results reveal that favouring of
+OSS and having a policy on OSS by the libraries have a positive and signi ﬁcant relationship with their
+adoption and use of OSS in the libraries. The results of the study show that university libraries of India couldsave an estimated Rs 417m by adopting open source ILS such as Koha, Evergreen, NewGenLib and ABCD.
+Practical implications –The paper will help decision makers to adopt and use open source ILS in their
+libraries.
+Originality/value –This paper is the ﬁrst of its kind that explores the economic impact of OSS on the
+adopting libraries and also explicitly discusses the business model of open source library software.
+Keywords India, Academic libraries, Open source software, Economic sustainability,
+Business model, Economic implication
+Paper type Research paper
+1. Introduction
+Open-source software (OSS) is a new way of developing software, which is primarily
+developed by the users and for the users. In recent times, the adoption and use of OSS has
+increased phenomenally, which is evident from the fact that there are 500,000 open source
+projects listed on SourceForge, Rs 3.7m registered users and Rs 4m downloads per day
+(SourceForge, 2018 ). OSS development model produces better and cheaper software than
+proprietary development model, and these are of high quality and sustainable software
+(Raymond, 2001 ). Some of the popular examples of OSS are Mozilla Firefox, OpenOf ﬁce,
+VLC media player, Linux and Apache Web server. It is observed that 62.72 per cent of Web
+server ran on Apache, Mozilla Firefox captured 28.6 per cent in browser segment, 28.8
+per cent of operating software ran on Linux platform and in the content management systemOpen source
+library
+software
+337
+Received 21 April 2018
+Revised 19 November 2018
+Accepted 29 November 2018
+Global Knowledge, Memory and
+Communication
+Vol. 68 No. 4/5, 2019
+pp. 337-355
+© Emerald Publishing Limited
+2514-9342
+DOI 10.1108/GKMC-04-2018-0036The current issue and full text archive of this journal is available on Emerald Insight at:
+www.emeraldinsight.com/2514-9342.htm
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 2 ===
+(CMS) and 26.4 per cent of it ran on WordPress ( Wheeler, 2015 ). OSS is dominant in other
+segment also, e.g. PHP and Perl are the prominent programming languages. OSS haswitnessed tremendous growth from Linux to Android and has disrupted the way thesoftware is developed and procured. In recent times, OSS has garnered immense media
+attention, and an unprecedented growth and interest are also seen, which can be attributed
+to widespread diffusion of internet, changes in licencing rules and corporatisation of OSS(Lerner and Schankerman, 2010 ).
+Many research studies, which are the testimony to the argument of favouring to adopt
+OSS, view it as:
+/C15technology meant for a common cause;
+/C15a powerful force for good;
+/C15a public good;
+/C15a novel modus operandi of software development with “security and risk
+management bene ﬁts”; and
+/C15curbing vendor licence cost and lock-in ( Coleman, 2004 ;The Economist, 2004 ; FSF,
+2018; Williams van Rooij, 2009 ;Raymond, 2001 ).
+OSS offers a viable and strong alternative to proprietary software (PS) and has larger
+economic implication when it is adopted in any enterprises including libraries. Theeconomic aspects of OSS are not con ﬁned to the licencing cost incurred by purchasing PS,
+but have other bene ﬁts such as experimenting, annual maintenance cost and costs of
+training. Libraries around the globe have understood the economic implications of the OSSand have developed OSS policy to adopt OSS in libraries.
+Recently, research studies on OSS vis-à-vis its economics relevance are indeed an
+impressive trend in the modern economy. Information goods that share the source code of
+OSS are moving increasingly to the centre of the stage as drivers of economic growth (
+Dalle
+and David, 2005 ). This study seeks to explore the economic impact and business model of
+open source library software. For this purpose, a small sample size was statistically
+analysed to know the impact of OSS on adopting libraries of institutions of nationalimportance (INIs) in India. Further, the important economic impacts and business model ofopen source library software are presented.
+2. Literature review
+There are a plethora of literature available on the subject of OSS and its adoption in general
+and deployment of OSS in library and information centre in particular. A number of studies
+have advocated the adoption and use of OSS in enterprises and educational institutions,including libraries.
+Raymond (2001) , one of the leading voices and proponent of OSS, claims
+that the collaborative methods of developing OSS leads to the development of superior
+quality software. OSS communities develop and produce software faster and with fewer
+bugs, which in turn are more innovative and cutting edge than the proprietary counterpart.As Raymond, in his seminal essay “The Cathedral and the Bazaar: Musings on Linux and
+Open Source by an Accidental Revolutionary ”, has aptly stated:
+I think the future of open source software will increasingly belong to people who know how to
+play Linus ’s game, people who leave behind the cathedral and embrace the bazaar. This is not to
+say that individual vision and brilliance will no longer matter; rather, I think that the cutting edge
+of open source software will belong to people who start from individual vision and brilliance, then
+amplify it through the e ﬀective construction of voluntary communities of interest ( Raymond,
+2001).GKMC
+68,4/5
+338
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 3 ===
+OSS espouses a philosophy where collaborative development and sharing are inextricably
+intertwined. Thousands of top-notched programmers and hackers freely produce highlyqualiﬁed software to the provision of a public good, and they spend much time and efforts
+too to improvise the software (
+Lakhani and Von Hippel, 2003 ). The emergence of OSS has
+raised three economic problems, namely, motivation, coordination and diffusion ( Bonaccorsi
+and Rossi, 2003 ). First, the OSS movement took off through the activity of a community that
+did not follow pro ﬁt motivations, but it is based on altruism. Second, a hierarchical
+coordination emerged sans proprietary rights, i.e. bazaar style of development. Third, OSSdiffused in environments dominated by proprietary standards. They show how recentdevelopments in the theory of diffusion of technologies with network externality may helpto explain these phenomena. OSS phenomenon has metamorphosed into a more mainstreamand commercially viable form, which Fitzgerald (2006) labels as OSS 2.0. He discusses how
+the bazaar metaphor, which is up to now has been associated with the OSS development
+process, has been actually shifted to become a metaphor better suited to the OSS 2.0 product
+delivery and support process. The emergence of OSS accentuates the fundamental alterationof the basic ground rules in the software landscape, signifying the end of the proprietary-driven model that has prevailed for the past 20 years.
+In the recent time, OSS is being actively adopted in three regions of the world: Asia, Latin
+America and Africa. Asian countries, namely, India, China, Taiwan, South Korea, Malaysia,Singapore and Thailand, are active in the adoption of OSS (
+Rajani et al. , 2003 ). Asian
+governments are considering “adoption of open source software as a boost for their
+economies and a way to increase technological innovation in the region ”(Ribeiro, 2007 ). A
+strong governmental support is of paramount importance to increase the adoption of OSS atthe public level. Continuous employees ’training, organisational objectives consensus and
+business process reengineering have been found important for the implementation phase
+(Rossi et al.,2 0 1 2 ). In India, a good number of projects have been introduced to promote the
+adoption of OSS ( Sharma and Adkins, 2006 ).
+The adoption and use of OSS in libraries is on a growing spree. With the adoption and
+use of various cutting-edge and cost effective OSS in libraries, it provides better services toits users and manipulates large volumes of library data to facilitate instant access toinformation. As the large pool of top-notched programmers are working freely to produce aquality OSS, the features and compatibility between OSS and PS are being reducedgradually. So, libraries are increasingly making use of less costly alternatives to licence-based software (
+Payne and Singh, 2010 ;Breeding, 2008 ;Morrissey, 2010 ). Although there
+are certain bottlenecks of adopting OSS in libraries, these are social (cultural) disparity,conceptual confusions, digital divide and lack of technological, ﬁnancial and human
+development ( Raﬁq and Ameen, 2009 ).
+It is evident from Table I that several case studies examining the outcome of adoption of
+major OSS, namely, open source integrated library system (ILS) ( Adera Amollo, 2013 ;
+Anuradha et al., 2011 ;Avery, 2016 ;Bissels and Chandler, 2010 ;De Smet, 2011 ;Giri, 2012 ;
+House, 2016 ;Macan et al. , 2013 ;Molyneux and Rylander, 2010 ;Singh, 2014 ), open source
+digital repository ( Cherukodan et al. , 2016 ;Doctor and Ramachandran, 2008 ;Winter and
+Bowen-Chang, 2010 ;Witten and Bainbridge, 2005 ;Jayakanth et al.,2 0 0 8 ), open source CMS
+(Han, 2004 ) and open source learning management system (LMS) ( Kampa, 2017 ) have been
+carried out. In addition to this, research studies, particularly in the areas of adoption/use ofOSS in the library and usefulness of OSS, were conducted. There are hardly any researchstudies on the economic impact of OSS on library per se , although few research studies
+focussing on the economics of OSS were conducted. Lerner and Tirole (2002) investigate the
+economics of OSS, primarily focussing on four mini cases of projects, i.e. Apache, Linux, PerlOpen source
+library
+software
+339
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 4 ===
+Author (s) Article topics Type of software Abstract
+Adera Amollo
+(2013)Usefulness ILS Investigates the usability and cost
+effectiveness of open source ILS
+Anuradha et al.
+(2011)Usefulness ILS Explores the possibilities of enabling full-
+text search features Koha, by integrating it
+with GSDL and Fedora
+Avery (2016) Adoption ILS Explores the circumstances and processes
+involved in implementing and migrating
+from a proprietary ILS to an open source
+ILS
+Bissels andChandler (2010)Usefulness ILS Describes the further development of open
+source ILS Koha to provide cutting edge
+library services
+Breeding (2008) Economics
+aspects– Provides an overview of the various OSS
+currently available for library vis-à-vis TCO
+Chen and Albee
+(2012)Usefulness ILS Examines the implementation of open
+source ILS Evergreen to ascertain whether
+it facilitated detection and use of librarycollections in Indiana public libraries
+Cherukodan
+et al. (2016)Adoption Digital
+repositoryExamines the reasons for DSpace being
+adopted over other digital repository
+software in India
+De Smet (2011) Usefulness ILS Describes the advanced loan module of
+ABDC as it offers “generic transaction
+decision-making engine ”functionality
+Doctor andRamachandran(2008)Adoption Digital
+repositoryDescribes the creation of institutional
+repository at the ICFAI Business School,Ahmedabad using open source digital
+repository DSpace
+Garza (2009) Adoption CMS Describes how the library at Tecnol /C19ogico de
+Monterrey, Monterrey campus came to useDrupal CMS for an extensible platform for
+facilitating information discovery gateways
+Giri (2012) Adoption ILS Describes the technology and architecture
+used in NewGenLib and also documents theexperience of using NewGenLib
+Grant (2008) Usefulness – Discusses the usefulness and intrinsic
+beneﬁts of OSS in library over PS
+Han (2004) Usefulness Digital
+repositoryProvides detailed analysis of Greenstone,
+Fedora, and DSpace in key areas of digital
+content management
+House (2016) Adoption ILS Presents the successful implementation of
+open source ILS Koha for libraries that seekan open source alternative
+Jayakanth et al.
+(2008)Adoption Digital
+repositoryShares challenges and experiences of
+implementing open source digital repositorysoftware EPrints to create and maintain theopen-access institutional repository of IISc
+Kampa (2017) Usefulness LMS Studies how a library can be best integrated
+into Moodle LMS and also explores theperceived usefulness of library integrationin the eLearning platform
+(continued )
+Table I.
+List of important
+research papers onadoption and use of
+OSS in librariesGKMC
+68,4/5
+340
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 5 ===
+and Sendmail. They claim that participation in OSS projects can accrue the chances of
+getting job and promotions. De (2015) examines the tangible or intangible bene ﬁts
+associated with the use of OSS in state departments in India. He estimates that Rs 8,254crores (US$1.3bn) can be saved by adopting free OSS in schools across India.
+3. Research questionsA survey research method was used to investigate the extent of adoption and use of OSS inthe libraries of INIs in India. The proposed study tried to address the following researchquestions:
+RQ1. How and to what extent the libraries of INIs are currently adopting and using
+OSS?
+RQ2. What are the major areas of OSS adoption in libraries of INIs?
+RQ3. What is the economic impact of OSS adoption in the libraries of INIs?
+RQ4. What are the tangible and intangible bene ﬁts of adoption of OSS in libraries of
+INIs?Author (s) Article topics Type of software Abstract
+Kampa (2018) Awareness ILS Investigates the level of awareness and use
+of open source ILS by the LIS professionalsof India
+Macan et al.
+(2013)Usefulness ILS Presents an overview of open source ILS
+Koha and ABCD and also gives illustrative
+comparison of important features availablein these software
+Molyneux and
+Rylander (2010)Usefulness ILS Describes the usefulness and bene ﬁto f
+adopting and using open source ILS Evergreen
+Morrissey(2010)Economics
+aspects– Focusses on free and OSS and achieving of
+digital artefacts
+Raﬁq and
+Ameen (2009)Adoption Open-source
+library softwareDiscusses key issues related to the adoption
+of OSS in libraries of Pakistan
+Singh (2014) Adoption ILS Focusses on the technical support for open
+source ILS and offers insight into theexperiences of librarians, who are using
+open source ILS
+Winter andBowen-Chang(2010)Adoption Digital
+repositoryExamines the challenges of adopting
+DSpace at the main library at the Universityof the West Indies, St. Augustine, Trinidad
+and Tobago and highlights the potential
+beneﬁts of using DSpace for creating
+Institutional Repository
+Witten and
+Bainbridge
+(2005)Adoption Digital
+repositoryIntroduces open source digital repository
+software Greenstone and describes how it
+can be used by librarians to create andcustomise digital library collections
+Table I.Open source
+library
+software
+341
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 6 ===
+4. Hypothesis
+In view of the above research questions of the study, the following hypotheses have beenformulated:
+H1. Libraries of INIs adopt and use OSS in the ILS.
+H2. Libraries of INIs adopt and use OSS for building digital repository.
+H3. Libraries of INIs adopt and use OSS for building library website.
+H4. Adoption and use of OSS is more likely to be found in libraries of those institutions,
+which are in favour of adopting OSS.
+H5. Adoption and use of OSS is more likely to be found in libraries of those institutions,
+which have a policy on the adoption of OSS.
+5. Methodology
+This paper surveyed the adoption and use of OSS in the libraries of INIs in India and
+examined the economic impact of OSS for adopting libraries. The evaluation of the adoption
+and use of OSS in the libraries was limited to ILS/library automation. To study the adoption
+and use of OSS, an online survey method was used as the population is widely distributed
+geographically around all INIs in India. To felicitate the research study, an online survey
+questionnaire was designed using LimeSurvey, an OSS survey Web app, and hosted at
+www.indianlibrarian.com . The questionnaire has four parts. The ﬁrst part collected
+demographic information of the respondents, namely, name, gender, institute name,
+designation and experience. The second part gathered information about the type of
+institution, budget and staf ﬁng pattern of the library, including the responsibility for
+making a decision on the purchase of software in library. The third part of the questionnaire
+gathered information about the status of automation of library. The fourth part consist of
+questions pertaining to acceptability and receptivity of OSS by the libraries of INIs. The
+questionnaire was distributed to 46 libraries of Indian Institute of Management and Indian
+Institute of Technology (IITs). A total of 38 responses were received and analysed using
+descriptive statistics and Pearson ’s chi-square.
+6. Data analysis
+It is observed that 82 per cent ( n= 38) of library and information science (LIS) professionals of
+the INIs participated in the survey. Of 38 res pondents, there were 18.4 per cent female ( n=7 )
+and 81.6 per cent male ( n= 31) LIS professionals. It is observed that 47.4 per cent ( n= 18), 42.1
+per cent ( n= 16) and 10.5 per cent ( n= 4) of the respondents had PhD, MLIS and MPhil,
+respectively. More than one-third (34.2 per ce nt) were librarians; 18.4 per cent were deputy
+librarians; 34.2 per cent were assistant librarians and 13.2 per cent were senior library
+information assistants/senior professionals/se nior technical assistant s/technical assistants/
+library information assistants. More than half of the respondents (52.6 per cent) had more than
+15 years of experience, and 21.1 per cent of re spondents had 10-15 years of experience.
+This study presents a holistic picture of the 38 libraries of IITs and National Institute of
+Technology (NIT). Out of 38 libraries, 42.1 per cent ( n= 16) were from IITs and 57.9 per cent
+(n= 22) from NITs ( Table II ). The year of establishment of libraries under the study rangesGKMC
+68,4/5
+342
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 7 ===
+from newly established institutions (established in 2010) to the oldest institutions
+(established in 1951). Considering the fact that the age of the libraries varies signi ﬁcantly, it
+gives ample scope to understand the degree of adoption and use of OSS in their libraries. To
+have a better understanding, the institutions were grouped into four different categories as
+per the year of establishment, namely, 1 to less than 10 years, 10 to less than 20 years, 20 to
+less than 30 years and above 40 years.
+Out of 38 institutes, 63.2 per cent of institutes were above 40 years old, nearly one-third of
+the institutes (28.9 per cent) were less than 10 years old and only 7.9 per cent (three) of
+institutes were 20-30 years old, which is of paramount importance to study how OSS is
+adopted and used in these institutions. It is observed that 47.3 per cent (18) of NITs were
+above 40 years of age, whereas 15.7 per cent (six) of IITs were in that category. It is observed
+that 21 and 7.8 per cent of IITs and NITs were 1 to less than 10 years old.
+6.1 Annual budget and collections of libraries
+All institutions, either big or small, earmark annual budget for library collectiondevelopment.
+Table III shows 76.3 per cent ( n= 29) of the libraries had the annual budget of
+Table III.
+Types and age of
+institutionsInstitute types N (%)
+IITs 16 42.1
+NITs 22 57.9Total 38 100.0
+Age of Institute
+1 to less than 10 years 11 28.920 to less than 30 years 3 7.9Above 40 years 24 63.2
+Total 38 100.0
+Note: N= Total number of casesTable II.
+Demographic pro ﬁle
+of respondentsItem N (%)
+Gender
+Female 7 18.4Male 31 81.6
+Education
+PhD 18 47.4
+MPhil 4 10.5MLIS 16 42.1
+Designation
+Librarian 13 34.2
+Deputy librarian 7 18.4Assistant librarian 13 34.2SLIA/SPA/STA/TA/LIA 5 13.2
+Years of experience
+1-5 years 5 13.25-10 years 5 13.210-15 years 8 21.1
+More than 15 years 20 52.6Open source
+library
+software
+343
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 8 ===
+1-5 crore, whereas 23.7 per cent ( n= 9) libraries had earmarked annual budget of 5 crore and
+above. It is observed that 39.5 per cent ( n= 15), 23.7 per cent ( n= 9), 21.1 per cent ( n= 8), 7.9
+per cent ( n= 3), 5.3 per cent ( n= 2) and 2.6 per cent ( n= 1) of libraries had collections of 1-3
+lakh, 50,000-1 lakh, 5,000-20,000, 20,000-50,000, 3-5 lakh and more than 5 lakh, respectively(Table IV ).
+6.2 IT implementation strategy in libraries
+In a technology-driven society, libraries are needed more than earlier times. For the IT
+implementation in libraries, it is paramount importance to have a de ﬁnite strategy.
+It is observed that 71.1 per cent ( n= 27) of libraries had centralised IT implementation
+strategy within the library ( Table V ). If the library has a centralised strategy, there is a likelihood
+of adopting software that is best compliant to the library system, be it open source or PS.
+6.3 Software purchasing responsibilities
+In addition to IT implementation strategy, decision-making responsibility for software
+purchase is also quite important. If the decision-making responsibility lies with librarycommittee, there is a likelihood of purchasing/adopting software that is aptly suited andlibrary compliant.
+It is observed that 65.3 per cent ( n= 32), 24.5 per cent ( n= 2) and 10.2 per cent ( n=5 )o f
+libraries reported that decision-making power for purchasing software was vested on thelibrary committee, librarian and management of institute, respectively (
+Table VI ).
+6.3.1 Hypothesis testing
+6.3.1.1 H1. Libraries of institutions of national importance adopt and use open source
+software in integrated library system. It is observed that 18.4 per cent ( n= 7) of the INIs had
+adopted open source ILS in their libraries, whereas 81.6 per cent ( n= 31) of the libraries had
+adopted PS ILS. There are many open source ILS available, nevertheless, all the librarieswhich had adopted open source ILS preferred Koha. When we analyse institutions wise, it is
+Table IV.
+Annual budget and
+collections of libraryItem N (%)
+Annual budget
+1-5 crore 29 76.35 Crore and above 9 23.7
+Library Collections
+5,000-20,000 8 21.1
+20,000-50,000 3 7.950,000-1 lakh 9 23.71-3 lakh 15 39.5
+3-5 lakh 2 5.3
+More than 5 lakh 1 2.6
+Table V.
+IT Implementation
+strategy in librariesItem N (%)
+Is there any centralised IT implementation strategy within the library?
+Yes 27 71.1
+No 11 28.9GKMC
+68,4/5
+344
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 9 ===
+found that 25 per cent ( n= 4) of libraries of IITs were using open source ILS, while 13.6
+per cent ( n= 3) of libraries of NITs were using it ( Table VII ).
+Pearson chi-square test showed that x2= 0.796; p= 0.372. There is no statistically
+signiﬁcant association between the types of institutes and preferred types of ILS (open
+source or proprietary) used. Thus, libraries of IITs and NITs equally preferred open source
+ILS vs proprietary ILS.
+6.3.1.2 H2. Libraries of institutions of national importance adopt and use open source
+software in building digital repository We can see here that all the libraries of IITs, who had
+digital library were using open source digital repository software, and surprisingly none ofthe libraries were using any proprietary digital repository software, whereas 88.9 per cent
+(n= 8) of the NITs libraries were using open source digital repository software and only one
+library was using PS (
+Table VII ). Overall, 95.2 per cent of libraries of INIs were using open
+source digital repository software and only one library was using proprietary digital library
+software. Pearson chi-square test showed that x2= 1.155; p= 0.283.
+There is no statistically signi ﬁcant association between the types of institutes and
+preferred digital library software. Thus, lib raries of IITs and NITs equally preferred
+open source digital repository vs proprietary one. DSpace, Eprints, Fedora and
+Greenstone Digital Library (GSDL) are prominent digital repository software all over
+the world. Majority of the libraries of INIs had adopted DSpace digital repository
+software, whereas miniscule percentage of th e libraries had adopted Eprints and GSDL.
+DSpace is acclaimed to be the best digita l library software for academic, non-pro ﬁta n d
+commercial organisations.
+6.3.1.3 H3. Libraries of institutions of national importance adopt and use open source
+software in building library website. It is evident that out of 29 libraries, who had
+library website, 34.5 per cent ( n= 10) of the INIs had adopted open source CMS to build
+their websites, whereas 65.5 per cent ( n= 19) of the libraries had developed their
+websites using HTML, ASP and PHP. Joomla!, Drupal and WordPress are the
+examples of widely used open source CMS t o develop a dynamic website. Of the IIT
+libraries, 57.1 per cent ( n= 8) had used Drupal and Joomla ! to develop their websites,
+whereas 13.3 per cent ( n= 2) of NITs libraries used the same technology to develop
+their websites ( Table VII ).
+Pearson chi-square test showed that x2= 6.152; p= 0.013. There is a statistically
+signiﬁcant association between the types of institutes and preferred types of Web
+technology used to build the library websites. Thus, libraries of IITs and NITs did not
+equally prefer open source CMS vs other types of Web technology.
+6.3.1.4 H4. Adoption and use of open source software is more likely to be found in
+libraries of those institutions, which are in favour of adopting open source software. It is
+observed that out of 38 INIs, 73.68 per cent ( n= 28) were in favour of adopting OSS in their
+Table VI.
+Software purchasing
+responsibilities in
+librariesItemResponses
+N (%) % of cases
+Who is/are responsible for making decision on software purchasing in library?a
+Librarian 12 24.5 31.6
+Library committee 32 65.3 84.2Management of institute 5 10.2 13.2
+Total 49 100.0 128.9
+Note:aDichotomy group tabulated at value 1Open source
+library
+software
+345
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 10 ===
+Table VIII.
+Acceptability OSS/C3ItemPreferred ILS
+OSS PS Total chi-square
+In favour of OSS adoption
+Yes 7 21 28 x2= 3.065, p= 0.080
+25.0% 75.0% 100.0%
+No 0 10 10
+0.0% 100.0% 100.0%
+Total 7 31 38
+18.4% 81.6% 100.0%
+Having policy on adoption of OSS
+Yes 7 9 16 x2= 11.798, p= 0.001
+43.8% 56.3% 100.0%
+No 0 22 22
+0.0% 100.0% 100.0%
+Total 7 31 38
+18.4% 81.6% 100.0%
+Note:/C3Preferred ILS cross tabulationTable VII.
+Evidence of adoption
+of OSS across
+institutionsType of ILS
+Item OSS PS Total chi-square
+Institute type
+x2= 0.796, p= 0.372
+IITs 4 12 16
+25.0% 75.0% 100.0%
+NITs 3 19 22
+13.6% 86.4% 100.0%
+Total 7 31 38
+18.4% 81.6% 100.0%
+Type of digital repository software Total chi-square
+OSS PS
+Institute type
+IITs 11 0 11 x2= 1.155, p= 0.283
+100.0% 0.0% 100.0%
+NITs 9 1 10
+90.0% 10.0% 100.0%
+Total 20 1 21
+95.2% 4.8% 100.0%
+Type of Web technology Total chi-square
+Not open source Open source CMS
+Institute typeIITs 6 8 14
+x2= 6.152, p= 0.013
+42.9% 57.1% 100.0%
+NITs 13 2 15
+86.7% 13.3% 100.0%
+Total 19 10 29
+65.5% 34.5% 100.0%GKMC
+68,4/5
+346
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 11 ===
+libraries, whereas 26.31 per cent ( n= 10) were not in favour of OSS adoption. Evidently, it is
+found that out of 28 INIs, which were in favour of adopting OSS in their libraries, only 25
+per cent ( n= 7) of them were using OSS in their libraries ( Table VIII ).
+Pearson chi-square test showed that x2= 3.065; df = 1; p= 0.080. Thus, we can conclude
+that there is no statistically signi ﬁcant association between the institutions favouring
+adoption of OSS and preferred types of ILS used. Therefore, the null hypothesis is accepted.
+6.3.1.5 H5. Adoption and use of open source software is more likely to be found in
+libraries of those institutions, which have a policy on adoption of open source software. It
+is observed that out of 38 INIs, 42.1 per cent ( n= 16) had a policy on the adoption of OSS,
+whereas 57.9 per cent ( n= 22) did not have any. It is evident that out of 16 INIs, which had a
+policy on adoption of OSS, 43.8 per cent ( n= 7) of them were using OSS in their libraries.
+The institutions, which did not have any policy on the adoption of OSS, were not using any
+open source ILS ( Table VIII ). Pearson chi-square test showed that x2= 11.798; p= 0.001.
+Thus, we can conclude that there is a statistically signi ﬁcant association between the
+institutions having a policy on adoption of OSS and preferred types of ILS used. Institutionshaving a policy on adoption of OSS preferred adopting OSS in their libraries than theinstitutions did not have any policy. Further, it is crystal clear that policy on adoption ofOSS is one of the determinants of open source adoption. To know the strength of
+associations between policy on the adoption of OSS and preferred ILS, Phi and Cramer ’sV
+tests were conducted. The strength of association between the policy on adoption of OSSand preferred ILS is very strong (
+Table VIII ).
+7. Discussion
+7.1 Economic impact of open source library software
+The results of the study show that owing to its performance and robustness, OSS have
+been making inroads into the libraries of INIs. It is found that 18.4 per cent of INIs has
+adopted open source ILS Koha for computerising the housekeeping operations of their
+libraries ( H1). While analysing institution wise, it is revealed that 25 per cent of the
+libraries of IIT and 13.6 per cent of libraries of NITs are using open source ILS. In the
+case of digital repository software, 95.2 per cent of the libraries of INIs are using OSS
+(H2). Majority of INIs libraries have adopted DSpace, though minuscule percentage of
+libraries has adopted GSDL and EPrints. The library website is another area whereopen source CMS has been adopted; 34.5 per ce nt of the libraries have adopted Joomla!
+and Drupal for library website.
+7.2 Intangible bene ﬁts
+The most important intangible bene ﬁt of the open source library software is that it is tested
+and evaluated whether they meet the requirements like that of PS. Only then they have been
+implemented in the library. As the OSS is available for freely downloadable, there is low
+Table IX.
+Cost comparison of
+OSS and PSSoftware OSS cost PS cost (in INR)
+ILS 0 0.05-1.5m
+digital repository 0 0.05-1.0mCMS 0 0.05-0.5m
+LMS 0 0.05-2.0m
+Source: Compiled by authorOpen source
+library
+software
+347
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 12 ===
+product risk for the library. It can be downloaded and have a trial run in the library, besides
+evaluating all the features. If it deems ﬁt, then it can be adopted in the library. OSS
+encourages LIS professionals to experiment with new software in the library, acquire newknowledge and create new services. The LIS professionals, who are working on OSSprojects, may obtain intangible bene ﬁts of goodwill, reputation, valuable experience and job
+prospects.
+7.3 Tangible bene ﬁts
+It is anticipated that OSS will make a signi ﬁcant economic impact as a replacement
+for ILS, digital repository and library we bsite; this entails a phenomenal cost saving
+as evident from the survey. The total cost o f ownership (TCO) of open source library
+software, for example, in case of ILS softwa re Koha or Evergreen will be quite lower
+than their proprietary counterpart, i .e. VTLS, Libsys and Alice for Window
+(
+Table XI ).
+Now, almost all the libraries have automated their libraries or planning to
+automate it. The analysis of the data shows that proprietary ILS can be replaced bycutting edge open source ILS Koha, Evergreen or NewGenLib. The median cost ofproprietary ILS can be calculated to Rs 1 m. The result of the study shows that seven
+libraries have saved Rs 1m each by replacing proprietary ILS with open source ILS
+Koha.Table X.
+Major companies
+providing services of
+open source librarysoftwareCompanyOpen source library
+software Brief profile
+ByWater Solutions,
+USAKoha Founded in 2009, ByWater Solutions is the one of the
+largest Koha service providers in the world. It provides
+implementation, hosting, support, consultation, and
+development services for Koha ILS
+DELNET, India Koha DELNET was established in 1988, with the prime
+objective of promoting resource sharing among the
+libraries through the development of a network of
+libraries. It promotes the use of Koha in India
+Informatics, India Koha, Dspace Established in 1980, Informatics is an early pioneer in the
+business of e-information in India. It has been playing a
+leadership role in promoting e-information culture across
+the higher education market of India for over threedecades
+LibLime, USA Koha Founded in early 2005 by Joshua Ferraro, it provides
+implementation and development services around the
+open source ILS Koha
+Media Flex, USA OPAL Based in USA, Media Flex is a library services company.
+It provides services, library products and technology
+OpenLX, India Koha, Dspace OpenLX, based in New Delhi, provides open source
+supports to libraries in Indian and abroad
+OSS Labs, India Koha, Dspace, Moodle OSS Labs is a Nucsoft initiative around OSS. It provides
+world-class training and IT support solutions for OSS
+Verus Solutions,
+IndiaNewGenLib Verus Solutions based in Hyderabad, provides library
+automation training and supports
+Source: Compiled by authorGKMC
+68,4/5
+348
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 13 ===
+With the base price of proprietary ILS of Rs 1m, the savings from replacing it with
+open source ILS in the libraries of 799 universities can be calculated as follows: if 30per cent of libraries is replaced with open source ILS, then savings will be Rs 125m; if 50per cent of libraries are adopted open source ILS, then savings will be Rs 208m; if 70 percent of libraries have open source ILS, then savings will be Rs 292m; if all the librariesare automated using open source ILS, then the government will achieve Rs 417m (US$58m) savings ( Figure 1
+). The amount saved from adopting OSS can be used in
+purchasing books or other resources of the library. Similarly, the libraries can save a
+huge amount by adopting OSS in other areas o f library, i.e. library website, digital
+repository and LMS.
+7.4 Business of open source software: shop in the bazaar
+OSS is basically viewed as a collaborative product development model sans business
+approach, nevertheless, it does not prohibit commercial activities, as there are manycompanies being founded around the open source concept. Unlike PS, OSS offers a differentbusiness model as there is a strong need for support services, which include installation,
+technical support and training. Earnings from service are the main source of revenue for
+these types of companies such as Red Hat, who earns its revenue by facilitating technicalsupports and services on Red Hat Linux.
+Similarly, there are many third-party service providers to facilitate the OSS to the library.
+In the context of library, they provide installation services, conversion services,conﬁguration and customisation, training and technical support. They earn their revenue
+from service only and their business model is illustrated in Figure 2
+. To have a high-quality
+service, the library should have internal technical staff or seek service from differentcompanies/individual experts. There are many companies who support and provide serviceson open source library software around the world.
+Amongst them, LibLime, Bywater Solut ions, Equinox Software and Media Flex
+are popular service providers in open source ILS. In India, adoption of OSS in libraryis gaining much popularity. Recently, c ompanies/organisations such as DELNET
+and Informatics, who exclusively deal w ith library products and services, have
+Figure 1.
+Projection of savings
+from replacing
+proprietary ILS in
+millions (INR)125208292375417
+050100150200250300350400450
+30 50 70 90 100Number of university Libraries
+% of ReplacementSavings in Millions (INR)Open source
+library
+software
+349
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 14 ===
+expanded their business of providing OSS supports and services. Table X shows the
+major companies providing open source l ibrary software supports and services to
+libraries.
+As selling of OSS cannot sustain a busin ess, these companies make a bundle of
+library products and services and up-sell it t o existing major libraries. Moreover, they
+earn good amount of revenue from service s, which is their stro ng secondary revenue
+stream.
+No gainsaying the fact that not all the OSS have economic potential. There are two
+dimensions for measuring the economic potential of OSS, i.e. customer applicability and
+relative product importance. The ﬁrst one refers to the proportion of the market that can
+beneﬁt from the software, e.g. if a software is developed from the less used operating
+system, then the proportion of customer using the software will be less.
+In the library context, if the software is applicable to the important area of library
+operations such as library automation, digital repository or discovery service, then its
+applicability in the library will be high er. The second dimension refers to how
+important particular software is to the functioning of a user ’s computer. For example,
+an operating system is quite important; without it, a PC cannot function. Similarly, ILS
+and the digital repository software are most important in a library because all libraries
+want to automate their libraries and h ave digital repository. Without these
+applications, one cannot have a state-of-the-art library system. On the other hand,
+metadata manipulator and online reserve are t he least used areas in a library; without
+them, a library can be managed.
+Koha is relatively of high importance because it is an ILS and highly applicable in
+library to automate the library system. On the contrary, software that have low relative
+product importance and low library applicability are the low-pro ﬁle nichersFigure 2.
+Business model of
+service providers of
+OSSProducers of Open Source Library 
+So/g332ware (e.g. Koha.org, Dspace)
+LibrariesFree Free Service Providers (e.g. Bywater Solu/g415ons, LibLime, 
+Informa/g415cs)Free
+Service 
+ChargesGKMC
+68,4/5
+350
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 15 ===
+(Krishnamurthy, 2005 ). For example, Syrup, which is an electronic reserve OSS, is used
+by few libraries. The more the high relative product importance and high library
+applicability, the higher is the economic potential of the products ( Figure 3 ). There are
+many companies that are ﬂoated around these products, namely, ByWater Solutions
+LibLime for Koha and Red Hat for Red Hat Linux have large developer communities tosupport them. Besides, many companies such as Informatics, OSS Labs and OpenLXincrease their pro ﬁts through cost savings and reach more customers because of
+ﬂexible pricing of OSS and services.
+8. Conclusions
+This paper studies the adoption and use of OSS in the libraries of INIs in India vis-à-vis their
+economic impact on adopting libraries. It focusses on the tangible and intangible bene ﬁts of
+OSS. The result shows that the use and adoption of OSS in libraries is an increasing trend,though only 18 per cent of the libraries under the study have adopted open source ILS; and
+in case of using open source digital repository and open source CMS, the adoption is found
+to be on a meteoric rise. Libraries around the world have adopted OSS for tangible andintangible bene ﬁts. The low TCO, cost saving and avoiding vendor lock-in are the tangible
+beneﬁts of OSS adoption, whereas experimentation, sharing of new technology and carefree
+use are strong intangible bene ﬁts. The implication of the study shows that university
+libraries in India could save an estimated Rs 417m (US$58m) by adopting open source ILSsuch as Koha, Evergreen, NewGenLib and ABCD. Similarly, a huge amount of money can besaved using OSS in other areas of library, e.g. digital repository, library website, electronicresource management and server. The overall results suggest that favouring OSS by theinstitute/organisation and having an institutional policy on the adoption of OSS are strong
+predictors of adoption and use of OSS in the libraries. The results of Pearson chi-square also
+Figure 3.
+Classi ﬁcation of open
+source library
+software productsHigh Library applicability
+(e.g ILS, Digital Repository, Website , Discovery 
+tools)
+Low Relative Product Importance
+(e.g. Syrup, M oodle, Jooml a) Quadrant I
+Hi-profile Niche
+Low Library applicability
+(e.g. Online reservation, Subject gateway)Quadrant II
+Star Products
+Quadrant III
+Hi-profile NicheQuadrant IV
+Mainstream UtilitiesHigh Relative Product Importance
+(e.g. Koha, DSpace) Open source
+library
+software
+351
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 16 ===
+indicate that there is a statistically signi ﬁcant association between the institutions having
+OSS adoption policy and preferred type ILS used. To increase the adoption of OSS in the
+library, the institute should consider having OSS adoption policy. In addition, thegovernment should also formulate national policy on OSS adoption. Based on the ﬁndings of
+the study, further research on the perception of LIS professionals towards OSS would beinteresting.
+References
+Adera Amollo, B. (2013), “Feasibility of adaptation of open source ILS for libraries in Kenya: a practical
+evaluation ”,The Electronic Library , Vol. 31 No. 5, pp. 608-634 , available at: www.doi.org/
+10.1108/EL-12-2011-0171
+Anuradha, K.T., Sivakaminathan, R. and Arun Kumar, P. (2011), “Open-source tools for enhancing full-
+text searching of OPACs: use of Koha, Greenstone and fedora ”,Program , Vol. 45 No. 2,
+pp. 231-239 , available at: www.doi.org/10.1108/00330331111129750
+Avery, J.M. (2016), “Implementing an open source integrated library system (ILS) in a special focus
+institution ”,Digital Library Perspectives , Vol. 32 No. 4, pp. 287-298 , available at: www.doi.org/
+10.1108/DLP-02-2016-0003
+Bissels, G. and Chandler, A. (2010), “Two years on: Koha 3.0 in use at the CAMLIS library, Royal
+london homóopathic hospital ”,Program , Vol. 44 No. 3, pp. 283-290 , available at: www.doi.org/
+10.1108/00330331011064276
+Bonaccorsi, A. and Rossi, C. (2003), “Why open source software can succeed ”,Research Policy , Vol. 32
+No. 7, pp. 1243-1258.
+Breeding, M. (2008), “Open source integrated library systems ”,Library Technology Reports , Vol. 44
+No. 8.
+C h e n ,H . L .a n dA l b e e ,B .( 2 0 1 2 ) , “An open source library system and public library users: ﬁnding
+and using library collections ”,Library and Information Science Research , Vol. 34 No. 3,
+pp. 220-227.
+Cherukodan, S., Santhosh Kumar, G. and Humayoon Kabir, S. (2016), “Adoption of DSpace by indian
+libraries ”,Program , Vol. 50 No. 2, pp. 175-183 , available at: www.doi.org/10.1108/PROG-08-
+2014-0059
+Coleman, G. (2004), “The political agnosticism of free and open source software and the inadvertent
+politics of contrast ”,Anthropological Quarterly , Vol. 77 No. 3, pp. 507-519.
+Dalle, J. and David, P. (2005), “The allocation of software development resources in open source
+production mode ”, in Feller, J., Fitzgerald, B., Hissam, S.A. and Lakhani, K.R. (Eds), Perspectives
+on Free and Open Source Software , The MIT Press, London.
+De, R. (2015), “Economic impact of free and open source software usage in government ”, Final Report,
+available at: www.icfoss.in/doc/ICFOSS_economic-impact-free(v3).pdf (accessed 10 February
+2016).
+D eS m e t ,E .( 2 0 1 1 ) , “Special features of the advanced loans module of the ABCD integrated library
+system ”,Program , Vol. 45 No. 3, pp. 323-332 , available at: www.doi.org/10.1108/
+00330331111151629
+Doctor, G. and Ramachandran, S. (2008), “DSpace@IBSA: knowledge sharing in a management
+institute ”,VINE , Vol. 38 No. 1, pp. 42-52 , available at: www.doi.org/10.1108/03055720810870888
+Fitzgerald, B. (2006), “The transformation of open source software ”,MIS Quarterly , pp. 587-598.
+Free Software Foundation (FSF) (2018), available at: www.fsf.org (accessed 15 February 2016).
+Garza, A. (2009), “From OPAC to CMS: Drupal as an extensible ”,Library Platform. Library Hi Tech ,
+Vol. 27 No. 2, pp. 252-267 , available at: www.doi.org/10.1108/07378830910968209GKMC
+68,4/5
+352
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 17 ===
+Giri, R. (2012), “NewGenLib 3: an integrated open source library management system that makes your
+library visible in web ”,Library Hi Tech News , Vol. 29 No. 10, pp. 4-12 , available at: www.doi.org/
+10.1108/07419051211294464
+Grant, C. (2008), “Is open source right for your library? ”,Open Source Business Resource , available at:
+http://timreview.ca/article/177 (accessed 15 July 2016).
+Han, Y. (2004), “Digital content management: the search for a content management system ”,Library Hi
+Tech , Vol. 22 No. 4, pp. 355-365 , available at: www.doi.org/10.1108/07378830410570467
+House, M.D. (2016), “Implementing the open source Koha-ILS at the deutsche schule Charlotte ”,Digital
+Library Perspectives , Vol. 32 No. 4, pp. 253-269 , available at: www.doi.org/10.1108/DLP-02-2016-
+0007
+House, M.D. (2016), “Implementing the open source Koha-ILS at the deutsche schule Charlotte ”,Digital
+Library Perspectives , Vol. 32 No. 4, pp. 253-269 , available at: www.doi.org/10.1108/DLP-02-2016-
+0007
+Jayakanth, F., Minj, F., Silva, U. and Jagirdar, S. (2008), “ePrints@IISc: India ’sﬁrst and fastest
+growing institutional repository ”,OCLC Systems and Services :I n t e r n a t i o n a lD i g i t a l
+Library Perspectives , Vol. 24 No. 1, pp. 59-70 , available at: www.doi.org/10.1108/
+10650750810847260
+Kampa, R.K. (2017), “Bridging the gap: integrating the library into moodle learning management
+system ”,Library Hi Tech News , Vol. 34 No. 4.
+Kampa, R.K. (2018), Opening to Open Source: Analysing the Awareness and Use of Open Source
+Integrated Library System by LIS Professionals on India , Global Knowledge, Memory and
+Communication, Vol. 67 Nos 4/5, pp. 332-348, available at: https://doi.org/10.1108/GKMC-11-
+2017-0088
+Krishnamurthy, S. (2005), “An analysis of open source business models ”, in Feller, J., Fitzgerald, B.,
+Hissam, S.A. and Lakhani, K.R. (Eds), Perspectives on Free and Open Source Software , London,
+The MIT Press.
+Lakhani, K.R. and Von Hippel, E. (2003), “How open source software works:free user-to-user
+assistance ”,Research Policy , Vol. 32 No. 6, pp. 923-943.
+Lerner, J. and Schankerman, M. (2010), The Comingled Code: Open Source and Economic Development ,
+The MIT Press, London.
+Lerner, J. and Tirole, J. (2002), “Some simple economics of open source ”,The Journal of Industrial
+Economics , Vol. 50 No. 2, pp. 197-234.
+Macan, B., Vanesa Fernández, G. and Stojanovski, J. (2013), “Open source solutions for libraries: ABCD
+vs Koha ”,Program , Vol. 47 No. 2, pp. 136-154 , available at: www.doi.org/10.1108/
+00330331311313726
+Molyneux, R.E. and Rylander, M. (2010), “The state of evergreen: evergreen at three ”,Library Review ,
+Vol. 59 No. 9, pp. 667-676 , available at: www.doi.org/10.1108/00242531011086999 .
+Morrissey, S. (2010), “The economy of free and open source software in the preservation of digital
+artefacts ”,Library Hi Tech , Vol. 28 No. 2, pp. 211-223 , available at: www.doi.org/10.1108/
+07378831011047622
+Payne, A. and Singh, V. (2010), “Open source software use in libraries ”,Library Review , Vol. 59 No. 9,
+pp. 708-717.
+Raﬁq, M. and Ameen, K. (2009), “Issues and lessons learned in open source software adoption in
+pakistani libraries ”,The Electronic Library , Vol. 27 No. 4, pp. 601-610 , available at: www.doi.org/
+10.1108/02640470910979561
+Rajani, N., Rekola, J. and Mielone, T. (2003), Free as in Education: Signi ﬁcance of the Free/Libre and
+Open Source Software for Developing Countries , Report for Ministry of Foreign Affairs,
+available at: www.itu.int/net/wsis/docs/background/themes/access/free_as_in_education_
+niranjan.pdf (accessed 3 January 2016).Open source
+library
+software
+353
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 18 ===
+Raymond, E. (2001), The Cathedral and the Bazaar: Musings on Linux and Open Source by an
+Accidental Revolutionary ,O’Reilly, Cambridge.
+Ribeiro, J. (2007), “Asian governments driving demand for open source ”, available at: www.
+networkworld.com/article/2287642/data-center/asian-governments-driving-demand-for-open-so
+urce.html (accessed 10 February 2016).
+Rossi, B., Russo, B. and Succi, G. (2012), “Adoption of free/libre open source software in public
+organizations: factors of impact ”,Information Technology and People , Vol. 25 No. 2,
+pp. 156-187.
+Sharma, A. and Adkins, R. (2006), “OSS in India ”, in DiBona, C., Cooper, D. and Stone, M. (Eds), Open
+Sources 2.0 ,O’Reilly Media, Sebastopol, CA, pp. 189-196.
+Singh, V. (2014), “Expectations versus experiences: librarians using open source integrated library
+systems ”,The Electronic Library , Vol. 32 No. 5, pp. 688-709 , available at: www.doi.org/10.1108/
+EL-10-2012-0129
+SourceForge (2018), “About us ”, available at: www.sourceforge.net/about (accessed 21 April 2018).
+The Economist (2004), “Beyond capitalism? ”, available at: www.economist.com/node/2747734
+(accessed 8 January 2016).
+Wheeler, D. (2015), “Why open source software/Free software (OSS/FS, FOSS, or FLOSS)? Look at the
+numbers! ”, available at: www.dwheeler.com/oss_fs_why.html (accessed 17 April 2016).
+Williams van Rooij, S. (2009), “Adopting open source software in higher education: a cross-disciplinary
+review of the literature ”,Review of Educational Research , Vol. 79 No. 2, pp. 682-701.
+Winter, M. and Bowen-Chang, P. (2010), “Dealing with DSpace: the experience at the university of the
+west indies, St augustine ”,New Library World , Vol. 111 Nos 7/8, pp. 320-332 , available at: www.
+doi.org/10.1108/03074801011059948
+Witten, I.H. and Bainbridge, D. (2005), “Creating digital library collections with greenstone ”,Library Hi
+Tech , Vol. 23 No. 4, pp. 541-560 , available at: www.doi.org/10.1108/07378830510636337
+Further reading
+Afshari, F. and Jones, R. (2007), “Developing an integrated institutional repository at imperial college
+london ”,Program: Electronic Library and Information System , Vol. 41 No. 4.
+Avemaria Utulu, S.C. and Bolarinwa, O. (2009), “Open access initiatives adoption by Nigerian
+academics ”,Library Review , Vol. 58 No. 9, pp. 660-669.
+Chang, N., Tsai, Y. and Hopkinson, A. (2010), “An evaluation of implementing Koha in a Chinese language
+environment ”,Program: Electronic Library and Information Systems , Vol. 44 No. 4, pp. 342-356.
+Dalling, J. and Rafferty, P. (2013), “Open source, open minds? An investigation into attitudes towards
+open source library management systems in UK higher education libraries ”,Program , Vol. 47
+No. 4, pp. 399-423 , available at: www.doi.org/10.1108/PROG-06-2012-0034
+Hedgebeth, D. (2007), “Gaining competitive advantage in a knowledge-based economy through the
+utilization of open source software ”,VINE: The Journal of Information and Knowledge
+Management Systems , Vol. 37 No. 3, pp. 284-294.
+Helling, J. (2010), “Cutting the proprietary cord: a case study of one library ’s decision to migrate to an
+open source ILS ”,Library Review , Vol. 59 No. 9.
+Kamau, J. and Namuye, S. (2012), “A review of users adoption of open source software in africa ”,
+Computer and Information Science , Vol. 5 No. 5.
+Kampa, R.K. and Kaushik, P. (2016), “Changing paradigm: enhancing LIS education using moodle open
+source software: a study ”,International Research: Journal of Library and Information Science ,
+Vol. 6 No. 3.
+Mutula, S. and Kalaote, T. (2010), “Open source software deployment in the public sector: a review of
+Botswana and South Africa ”,Library Hi Tech , Vol. 28 No. 1, pp. 63-80.GKMC
+68,4/5
+354
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+
+=== PÁGINA 19 ===
+Paknejad, A. (2013), “Technical assessment of greenstone toward development of digital libraries in
+Iran ”,The Electronic Library , Vol. 31 No. 5, pp. 593-607.
+Pruett, J. and Choi, N. (2013), “A comparison between select open source and proprietary integrated
+library systems ”,Library Hi Tech , Vol. 31 No. 3, pp. 435-454.
+Riehle, D. (2007), “The economic motivation of open source software: stakeholder perspectives ”,
+Computer , Vol. 40 No. 4.
+Satpathy, S.K. and Maharana, R.K. (2012), “Awareness and adoption of open source software among
+LIS professionals of engineering colleges of odisha ”,DESIDOC Journal of Library and
+Information Technology , Vol. 32 No. 5, pp. 421-426.
+Singh, M. and Sanaman, G. (2011), “Open source integrated library management systems comparative
+analysis of koha and NewGenLib ”,The Electronic Library , Vol. 30 No. 6, pp. 809-832.
+Vaughan-Nichols, S. (2015), It’s an Open source World:78 Per cent of Companies Run Open source
+Software jZDNet , ZDNet, available at: www.zdnet.com/article/its-an-opensource-world-78-
+percent-of-companies-run-opensource-software/ (accessed 3 July 2016).
+Von Hippel, E. (2001), “Innovation by user communities: learning from open source software ”,MIT
+Sloan Management Review , Vol. 42 No. 4, pp. 82.
+Corresponding author
+Raj Kishor Kampa can be contacted at: rajkampa@gmail.com
+For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htmOr contact us for further details: permissions@emeraldinsight.comOpen source
+library
+software
+355
+Downloaded from http://www.emerald.com/gkmc/article-pdf/68/4-5/337/728021/gkmc-04-2018-0036.pdf by UNIPAMPA user on 22 August 2025
+

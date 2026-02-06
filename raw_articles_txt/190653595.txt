@@ -1,0 +1,2334 @@
+=== PÁGINA 1 ===
+This article was downloaded by: [200.132.146.39] On: 22 August 2025, At: 13:54
+Publisher: Institute for Operations Research and the Management Sciences (INFORMS)
+INFORMS is located in Maryland, USA
+Management Science
+Publication details, including instructions for authors and subscription information:
+http://pubsonline.informs.org
+Spillover Effects and Freemium Strategy in the
+Mobile App Market
+Yiting Deng, Anja Lambrecht, Yongdong Liu
+To cite this article:
+Yiting Deng, Anja Lambrecht, Yongdong Liu  (2023) Spillover Effects and Freemium Strategy in the Mobile App
+Market. Management Science 69(9):5018-5041.  https://doi.org/10.1287/mnsc.2022.4619
+Full terms and conditions of use: https://pubsonline.informs.org/Publications/Librarians-Portal/PubsOnLine-
+Terms-and-Conditions
+This article may be used only for the purposes of research, teaching, and/or private study. Commercial use or
+systematic downloading (by robots or other automatic processes) is prohibited without explicit Publisher approval,
+unless otherwise noted. For more information, contact permissions@informs.org.
+The Publisher does not warrant or guarantee the article’s accuracy, completeness, merchantability, fitness
+for a particular purpose, or non-infringement. Descriptions of, or references to, products or publications, or
+inclusion of an advertisement in this article, neither constitutes nor implies a guarantee, endorsement, or support
+of claims made of that product, publication, or service.
+Copyright © 2022, INFORMS
+Please scroll down for article—it is on subsequent pages
+With 12,500 members from nearly 90 countries, INFORMS is the largest international association of operations
+research (O.R.) and analytics professionals and students. INFORMS provides unique networking and learning
+opportunities for individual professionals, and organizations of all types and sizes, to better understand and use
+O.R. and analytics tools and methods to transform strategic visions and achieve better outcomes.
+For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org
+
+=== PÁGINA 2 ===
+Spillover Effects and Freemium Strategy in the Mobile 
+App Market
+Yiting Deng,a,* Anja Lambrecht,b Yongdong Liua 
+aMarketing & Analytics, UCL School of Management, University College London, London E14 5AA, United Kingdom; bMarketing, London 
+Business School, London NW1 4SA, United Kingdom 
+*Corresponding author 
+Contact: yiting.deng@ucl.ac.uk , 
+https:/ /orcid.org/0000-0003-2330-1554 (YD); alambrecht@london.edu , 
+https:/ /orcid.org/0000-0001-6766-1602 (AL); yongdong.liu@ucl.ac.uk , 
+https:/ /orcid.org/0000-0002-9534-5487 (YL) 
+Received: December 16, 2020 
+Revised: September 9, 2021; February 28, 2022 
+Accepted: April 8, 2022 
+Published Online in Articles in Advance: 
+November 30, 2022 
+https://doi.org/10.1287/mnsc.2022.4619 
+Copyright: © 2022 INFORMSAbstract. “Freemium,” whereby a basic service level is provided free of charge but con-
+sumers are charged for more advanced features, has become a popular business model for 
+firms selling digital goods. However, it is not clear whether the launch of a free version 
+helps or hurts the demand of an existing paid version. The free version may allow consum -
+ers to sample the product before making a purchase decision and subsequently increase 
+demand of the paid version, but it may also cannibalize demand of the paid version. We 
+use a comprehensive data set on game apps from Apple’s App Store that tracks the launch 
+of both the paid and the free versions of individual apps on a daily level to identify 
+whether a freemium strategy stimulates or hurts demand of an existing paid version. We 
+estimate the spillover effects between the free version and the paid version of the same app 
+under a difference-in-difference framework, relying on the fact that app developers cannot 
+predict the exact launch date of the free version of the app due to Apple’s review and 
+approval of apps prior to release and accounting for app-level product heterogeneity. We 
+find that the launch of a free version increases demand of the paid version of the same app. 
+Under the main specification, if the daily number of ratings before the free version’s launch 
+is at the mean, then all else equal, the launch of the free version leads to an 8.9% increase in 
+the daily number of ratings. We then describe multiple robustness checks. Finally, we pre-
+sent evidence that the results are driven by consumers sampling the free version as well as 
+enhanced app discovery and explore the relative importance of the two mechanisms.
+History: Accepted by Matthew Shum, marketing. 
+Supplemental Material: The data files and online appendices are available at https:/ /doi.org/10.1287/ 
+mnsc.2022.4619. 
+Keywords: freemium≡mobile app≡spillover effect≡cannibalization ≡sampling≡discovery
+1.Introduction
+For firms selling digital products, “freemium,” provid -
+ing a basic service level for free but charging consumers 
+for using their “premium” version, has in recent years 
+become an increasingly popular business model. Well- 
+known examples include Dropbox, Evernote, LinkedIn, 
+and Spotify. Freemium is a prevalent pricing model for 
+mobile apps, a market that is predicted to total almost 
+935 billion U.S. dollars in worldwide revenues by 2023 
+(Statista 2019 ). In 2014, about half of the apps down -
+loaded from the Google Play store were freemium, and 
+these apps garnered 98% of global Google Play revenue 
+(AppAnnie 2015 ). Similarly, 92% of revenue on Apple’s 
+App Store (“App Store” hereafter) is generated by free-
+mium apps (Kosner 2015 ).1For example, the game 
+Fruit Ninja is available for free with a separate paid ver-
+sion for a price of $1.99.
+Understanding whether and when offering a free 
+version alongside a paid version is an effective strategy is important: The free version may allow consumers to 
+sample the product before making a purchase decision 
+and therefore ultimately increase demand of the paid 
+version. However, the free version may also cannibalize 
+demand of the paid version if consumers who otherwise 
+would have paid instead opt for the free version. As of 
+yet, there is contradictory evidence on whether the 
+launch of a free version helps or hurts the demand of the 
+existing paid version. Although some findings suggest 
+that offering feature-limited free versions in the mobile 
+app market negatively affects the paid app’s adoption 
+speed (Arora et al. 2017 ), others suggest that a free ver-
+sion increases sales of the paid app (Liu et al. 2014 ) and 
+that the relationship between the free and paid versions 
+may change along the app’s life cycle (Lee et al. 2021 ).
+The objective of the present paper is threefold. First, 
+we aim to identify the effect of introducing a free ver-
+sion of an app on the demand of its existing paid coun -
+terpart by focusing on a short time window around the 
+5018 MANAGEMENT SCIENCE 
+Vol. 69, No. 9, September 2023, pp. 5018–5041 
+ISSN 0025-1909 (print), ISSN 1526-5501 (online) 
+ https://pubsonline.informs.org/journal/mnsc 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 3 ===
+free version’s launch. Thus, we circumvent identifica -
+tion issues encountered by prior research that analyzed 
+an extended time period where broader changes in the 
+marketplace, in patterns of consumer demand or in the 
+app itself may have affected the result. Second, we aim 
+to provide evidence that the patterns we observe are 
+indeed driven by the free version’s launch and not by 
+correlated marketing actions. Third, we explore the 
+mechanisms behind the results to make recommenda -
+tions to firms on when offering a free version can be an 
+effective strategy.
+We use daily data on individual game apps from 
+App Store. We focus the analysis on apps that have 
+both a paid version and a free counterpart and con-
+struct a group of control apps for each freemium app. 
+We estimate the model in a difference-in-difference 
+framework within a tight four-week window around 
+the launch of the free version. Using the number of rat-
+ings an app received as a proxy for demand, we find 
+that the launch of the free version increases the demand 
+of the paid version. Under the main specification, if the 
+daily number of ratings before the free version’s launch 
+is at the mean, then if all else is equal, after the launch 
+of the free version, the daily number of ratings would 
+increase by 8.9%. The interpretation that this effect is 
+causal holds under two assumptions that are both sup-
+ported by our data: first, the assumption that the firm 
+cannot time precisely the date for the free version to be 
+approved and launched by the platform and, second, 
+the assumption that within this brief four-week time 
+period around the launch, no other actions correlated 
+with the launch affect demand. We then conduct a bat-
+tery of robustness checks and demonstrate the effect 
+holds under alternative specifications. Furthermore, we 
+provide evidence suggesting that the effect is not dri-
+ven by other events correlated with the introduction of 
+the free version, such as changes to the paid version’s 
+design or price, or advertising and promotion.
+We then explore two potential mechanisms. First, we 
+explore the possibility that the free version allows con-
+sumers who are uncertain about the quality of the 
+product to sample before purchasing the full version 
+(Shoemaker and Shoaf 1975 , Bawa and Shoemaker 
+2004 , Wang and Zhang 2009 , Lee and Tan 2013 ). We 
+conceptualize the process of consumers sampling the 
+free version and upgrading to the paid version. We 
+then propose how observable characteristics of an app 
+such as the average star rating contribute to a consum -
+er’s likelihood to sample and upgrade. Perhaps most 
+importantly, we suggest that sampling should be most 
+effective for apps that have a moderate star rating. This 
+is because consumers who expect a product might be of 
+very low quality will find the expected benefits too low 
+given the cost associated with sampling. At the same 
+time, if the product’s quality is guaranteed to be above 
+a high threshold, consumers may purchase the paid version without sampling, so introducing the free version 
+provides little added benefit. Further empirical evidence 
+related to the number of ratings likewise supports sam-
+pling as a mechanism. In addition, we propose that the 
+effect of sampling should be more pronounced when the 
+paid version provides significantly greater utility for con-
+sumers to upgrade. Again, we find evidence consistent 
+with these predictions, supporting further that sampling 
+is one mechanism behind the findings.
+Second, we examine whether the free version may 
+have enhanced the paid version’s visibility thus facili -
+tating app discovery for consumers in a market where 
+tens of thousands of options are available (Li et al. 
+2016 ).2In such a setting, having two versions of the 
+same app can make the app more visible to consumers. 
+We provide two pieces of evidence supporting that 
+enhanced visibility can increase demand in the market 
+for mobile apps. First, we document that even for apps 
+that initially launched a free version and later added a 
+paid version, the introduction of the paid version 
+increases the initial free version’s demand. Second, we 
+demonstrate that the effect of launching a second ver-
+sion decreases as the size of the category increases, sug-
+gesting that the effect on the marginal probability to 
+discover an app becomes less pronounced as a category 
+becomes more crowded. Both patterns are consistent 
+with an app’s additional version enhancing visibility of 
+the original version but cannot directly be attributed to 
+sampling. We also demonstrate the relative importance 
+of the sampling and discovery mechanisms.
+Our work relates to three streams of academic re-
+search. First, it relates to a nascent stream of empirical 
+research on freemium pricing when firms offer both a 
+free and a paid version of a digital product. Existing 
+research has demonstrated the effect of providing a free 
+version in various contexts such as software (Lee and 
+Tan 2013 , Runge et al. 2016 , Chen et al. 2017 ), cloud stor-
+age (Lee et al. 2017 ), digital television service (Foubert 
+and Gijsbrechts 2016 ), and on-demand dramas (Hoang 
+and Kauffman 2018 ). For apps on Google Play, Liu et al. 
+(2014 ) find that paid apps with a free counterpart 
+receive more sales than those that do not have a free 
+counterpart. By contrast, in the same empirical context, 
+Arora et al. (2017 ) find that offering free versions re-
+duces the paid app’s adoption speed. Lee et al. (2021 ) 
+find contemporaneous cannibalization effects and posi-
+tive intertemporal effects between the free and paid 
+versions of the same app and model app developers’ 
+versioning decision. However, this existing literature 
+has focused on an overall effect of a free version, with -
+out being able to tie it directly to the actual timing of 
+the introduction of the free version. Our work adds to 
+this literature in three ways. First, to identify the effect 
+of the free version’s launch, we identify the precise 
+launch date of the free version and focus our analysis 
+on a tight time window around the launch. To control Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5019 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 4 ===
+for unobservable time-varying factors that can potentially 
+influence app demand, we construct a group of control 
+apps for each freemium app and estimate the model in a 
+difference-in-difference framework. We demonstrate that 
+launching a free version increases the demand for the 
+app’s paid version. Second, we discuss in detail that other 
+marketing actions that could in theory be correlated with 
+the launch are unlikely to drive this effect of interest. 
+Third, to our knowledge, we are the first to empirically 
+identify mechanisms that lead to a spillover effect of the 
+presence of a free version on an existing paid version. 
+Specifically, we provide evidence for both sampling and 
+app discovery as the mechanisms.
+The second stream of research we contribute to is a 
+broader literature on the pricing of digital goods. Pau-
+wels and Weiss (2008 ) demonstrate for an online con-
+tent provider for marketing professionals that moving 
+from free to fee can be profitable, despite loss of adver -
+tising revenue. Chiou and Tucker (2013 ) find that pay-
+walls decrease viewership of an online newspaper and, 
+as a result, depress advertising revenues. Lambrecht 
+and Misra (2016 ) show that an online content provider 
+that also generates advertising revenues can benefit 
+from offering more free content in periods of high 
+demand than in periods of low demand. Kannan et al. 
+(2009 ) explore how a firm that offers a print and a PDF 
+version of books should set prices. We contribute to 
+this literature by demonstrating that offering a free ver-
+sion of a product can generate additional demand for 
+the paid version, potentially making this a profitable 
+pricing strategy.
+Third, our research relates to prior research on sam-
+pling and versioning. The earlier literature focused on 
+analytical models for the sampling of physical goods 
+(Jain et al. 1995 , Heiman et al. 2001 , Bawa and Shoe -
+maker 2004 ). More recently, researchers have investi -
+gated free trials of digital goods that limit available 
+features (Wang and Zhang 2009 , Cheng and Liu 2011 , 
+Halbheer et al. 2014 , Niculescu and Wu 2014 , Dey and 
+Lahiri 2016 , Chellappa and Mehra 2018 , Lahiri and Dey 
+2018 ) or the time of use (Cheng and Liu 2011 , Dey et al. 
+2013 ). For example, Halbheer et al. (2014 ) model an 
+online content publisher’s choice between offering paid 
+content, sampling, and free content. They find that it can 
+be optimal for the publisher to generate advertising rev-
+enue by offering free samples even when sampling 
+reduces prior quality expectations and content demand. 
+Appel et al. (2020 ) develop an analytical framework for 
+app monetization and demonstrate that even if adver -
+tisers do not pay for ads, an app developer can still profit 
+from offering a free version of the app. Empirical re-
+search on sampling and versioning is also growing. 
+For example, Gu et al. (2018 ) and Li et al. (2019 ) conduct 
+field experiments at a book publisher to investigate how to design free samples for books to increase revenue. 
+Sunada (2020 ) models consumer learning in the context 
+of a video game and explores the optimal design of free 
+trial. Brecko (2022 ) models consumer choice of product 
+versions, renewal, and upgrades in the context of soft-
+ware. We add to this literature by providing empirical 
+evidence that consumers’ sampling of digital products 
+can indeed drive consumers’ decision to purchase the 
+paid version and therefore potentially increase firm rev-
+enue and demonstrating conditions under which the 
+effect is more prominent.
+At the same time, our findings are relevant to manag -
+ers. We demonstrate, at least in the context of mobile 
+apps, that a freemium strategy can indeed increase 
+demand for the paid version of a product. In addition, 
+our findings also suggest that firms may not want to 
+indiscriminately offer free versions but should instead 
+assess the likely benefits and cost given the specific 
+product under consideration. First, firms should con-
+sider investing into a free version particularly when the 
+paid product is of medium quality. If a product is of low 
+quality, opportunity cost associated with the free version 
+may prevent consumers from sampling; whereas for 
+high quality products, consumers may forgo sampling 
+and instead directly purchase the paid version. There -
+fore, in either case, a free version may not be as effective 
+in driving demand. Second, firms need to ensure that 
+the paid version offers substantial additional benefits 
+relative to the free version as only then will it be attrac -
+tive for consumers to upgrade. Third, especially in 
+crowded marketplaces such as the market for mobile 
+apps, at the time of our data, App Store offered close to 
+200,000 game apps, a free version may be useful in 
+enhancing product visibility.
+2.Industry Background and Data
+2.1. Industry Background
+Since Apple and Google launched their respective mobile 
+application stores in 2008, the number of apps has grown 
+exponentially: App Store has 3.42 million available apps 
+as of July 2020 (Statista 2020b ) and Google Play offers 
+about 3.04 million apps as of September 2020 (Statista 
+2020a ). Each platform offers a wide range of different 
+apps developed by a large number of independently 
+operating developers, the vast majority of which are 
+small. Because the iOS and Android operating systems 
+are incompatible, apps are not portable between the two 
+platforms without a substantial change in the source 
+code. In this paper, we focus on App Store, which, dur-
+ing the sample period (2011–2013), was the largest app 
+platform.
+During our sample period, a developer who adopted 
+a freemium strategy typically offered both a free and 
+a paid versions of an app. The free version may have Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5020 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 5 ===
+differed from the paid version along a number of dimen -
+sions but generally had a reduced set of capabilities. To 
+access the full version, users were required to separately 
+download the paid app. In recent years, a different vari-
+ant of freemium pricing, in-app purchases, has become 
+popular. Although App Store started allowing for in-app 
+purchase microtransactions in 2009, these were not yet 
+common during the period of our data.
+2.2. Data Collection
+We use a comprehensive data set that was collected 
+from App Store between September 2011 and October 
+2013. The data set was provided to us by AppMonsta, a 
+company specialized in app data analysis and consult -
+ing. The company scraped the U.S. App Store on a daily 
+basis and each day collected all data that were publicly 
+available.
+We focus on game apps as it is the most popular cate-
+gory in App Store and purchases tend to be for per-
+sonal use instead of business purposes. In addition, 
+game apps are highly heterogeneous in terms of func -
+tionality and quality; thus, before using it, consumers 
+are likely to have limited knowledge about how well 
+an app fits their needs. In total, the data cover 197,884 
+mobile game apps, of which 95,990 (48.5%) are paid 
+apps and the remaining are free apps. Among these 
+paid apps, 55,320 were released during our data period. 
+There are 18 genres of game apps: Action, Adventure, 
+Role Play, Arcade, Racing, Sports, Trivia, Word, Educa -
+tion, Family, Dice, Board, Card, Puzzle, Casino, Simula -
+tion, Strategy, and Music. The data include the name of 
+the developer, app characteristics such as price, ver-
+sion, size, genre, and release date, as well as user rat-
+ings, reviews, and app rankings on various top charts.3
+In the data, the paid version and the free version of the 
+same app are marked as different products. Table 1
+summarizes the relevant variables in the raw data, 
+some of which such as app price, the number of ratings, 
+the star rating (on a scale of one to five), and ranking 
+can change on a daily basis.2.3. Freemium Apps
+We define freemium apps as paid apps that have a free 
+counterpart. We take three steps to identify among all 
+available apps those apps that are freemium apps (see 
+Online Appendix A for details). First, we identify apps 
+launched by the same developer. Second, within these 
+apps, we compare similarities in app names for all possi -
+ble app pairs. The pairs that are associated with high 
+similarity measures are identified as potential freemium 
+pairs. Third, we manually check all pairs to make sure 
+they are indeed different versions of the same app. The 
+free version and the paid version can usually be dis-
+tinguished by words such as “lite,” “free,” “pro,” and 
+“premium.”
+We identify 9,806 app pairs that adopted the free-
+mium strategy. For 8,284 (84.5%) apps, the paid version 
+was launched first. In only 1,522 (15.5%) cases, the free 
+version was launched first. There are no instances when 
+the two versions were launched at the same time. We 
+focus on the vast majority of cases where the paid ver-
+sion was launched first. Furthermore, for identification 
+purposes, we drop from our sample 5,586 app pairs 
+where the free version was launched before the start of 
+our sample period. For 167 app pairs, data are missing 
+for an extensive period of time after the release and are 
+dropped from the sample. Thus, we retain a total of 
+2,531 app pairs which form the focus of our empirical 
+analysis. For these app pairs, on average, the gap be-
+tween the two versions’ launch dates is 115 days (stan -
+dard deviation 200 days). We will later use the 86,094 
+paid apps that did not have a free counterpart during 
+our sample period to identify suitable control apps.
+For each app, App Store displays a description of 
+the app on its download page. We use the descriptions 
+of the two versions displayed on the day when the free 
+version was launched to identify differences between 
+the paid and the free versions. Research assistants manu -
+ally coded the differences into six categories. Each app 
+was coded by two coders independently. We manually 
+checked inconsistent codings to make final decisions. Table 1. Variables in Raw Data
+Variable category Item Description
+App identifier App name App name shown on mobile devices
+App ID A string of numbers and/or characters that uniquely identifies an app
+Developer identifier Developer name Developer name shown on mobile devices
+Developer ID A string of numbers and/or characters that uniquely identifies a developer
+App characteristics App price App price in U.S. dollars
+App size App size in bytes
+Release date App launch date
+Genre App category
+App description One or several paragraphs outlining app functions
+Version App version number
+Ratings Number of ratings Accumulative number of ratings received
+Star ratings Daily and overall ratings
+Ranking Ranking on top charts Rankings on each related genre’s top chartsDeng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5021 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 6 ===
+Table 2summarizes the six dimensions along which the 
+two versions may differ. In 34.6% of cases, the paid ver-
+sion allows the user to progress to more game levels than 
+the free version. For example, the description of the game 
+Phase 10’s free version indicates “Phase 10 Free lets you 
+play 3 random phases. Update to the full version for $.99 
+and play all 10 phases.” Typically, this means a more 
+complete, advanced, or challenging game experience. A 
+total of 17.9% of paid versions offer more modes or 
+themes than the free versions. For instance, Bean’s Quest’s 
+paid version includes five themes (worlds), whereas the 
+free version includes three themes. This means that, 
+although the ability to progress or the difficulty of the 
+game does not change, the user experience can be cus-
+tomized. In 16.7% of cases, the paid version offers more 
+functions or features (e.g., more powerful weapons, re-
+cord keeping) than the free version. Furthermore, in 
+11.7% of cases, the paid version allows for social interac -
+tions, whereas the free version does not. For example, 
+the paid version may be integrated with Game Center, 
+Apple’s social gaming network, which enables users to 
+track their best scores on a leaderboard, compare their 
+achievements, invite friends to play a game, and start a 
+multiplayer game through auto-matching. The paid ver-
+sion may also allow the user to link to Facebook to post 
+scores and share progress with friends. Last, in 11.0% of 
+cases, the paid version is ad-free, whereas the free version 
+is ad-supported, and in 1.5% of cases, the paid version 
+provides better user support, for example, an email con-
+tact to address user questions. These differences are not mutually exclusive, and there can be multiple differences 
+between the paid version and the free version. For 43.3% 
+of apps, there is no difference in the descriptions of the 
+two versions.4
+2.4. Descriptive Statistics
+For our analysis, we focus on App Store and retain two 
+types of data: paid apps that also have a free version 
+(2,531 apps) and paid apps that did not have a free ver-
+sion in our data period (87,706 apps). Table 3provides 
+descriptive statistics for these apps, measured on the 
+last day of the sample period (October 31, 2013).5Col-
+umns (1) and (2), respectively, show the descriptive sta-
+tistics for the paid version and the free version of the 
+freemium apps, and column (3) shows the descriptive 
+statistics for apps that only had a paid version. The data 
+suggest that the paid versions of freemium apps are 
+broadly similar to apps that only exist as a paid version 
+but tend to have a somewhat lower price, somewhat 
+higher star rating, and appear somewhat more likely to 
+be ranked highly. In addition, compared with its paid 
+counterpart, the free version tends to receive somewhat 
+fewer ratings and a somewhat lower star rating.
+2.5. Google Play as an Alternative Data Source
+Our main analysis focuses on data from App Store. We 
+collect similar data for the same data period (September 
+2011 to October 2013) from Google Play. In total, the 
+data cover 1,169,351 apps, including 150,822 game 
+apps, of which 124,004 are free. The sample of free-
+mium apps in Google Play is significantly smaller, with 
+a total of 405 cases where a free version of a pre- 
+existing paid version was launched during our data 
+period. To allow for a meaningful analysis, we need to 
+observe the paid version’s number of ratings for two 
+weeks before the launch of the free version and for two 
+weeks after the launch of the free version, reducing the 
+data to 217 pairs of freemium apps.6The significantly 
+smaller sample size means that we focus the majority of Table 2. Version Differences Based on App Description
+Difference Percent
+More levels 34.6%
+More modes/themes 17.9%
+More functions/features 16.7%
+Social interactions 11.7%
+Ad free 11.0%
+Better support 1.5%
+No difference 43.3%
+Table 3. Descriptive Statistics of Apps
+Variables(1) Paid version of 
+freemium apps(2) Free version of 
+freemium apps (3) Only paid
+Price ($) 1.2 (1.0) 0.0 (0.0) 1.8 (6.5)
+If rated 39.5% (48.9%) 27.1% (44.5%) 37.0% (48.27%)
+ln (number of ratings 1) 1.4 (2.0) 0.9 (1.6) 1.4 (2.2)
+Average star rating 4.2(0.7) 4.0 (0.7) 3.6 (0.9)
+Ranked on top 10 0.04% (2.02%) 0.00% (0.00%) 0.02% (1.43%)
+Ranked on top 11–20 0.04% (2.02%) 0.04% (2.02%) 0.01% (1.22%)
+Ranked on top 21–50 0.00% (0.00%) 0.12% (3.49%) 0.04% (2.00%)
+Ranked on top 51–100 0.24% (4.94%) 0.28% (5.33%) 0.09% (2.94%)
+Ranked on top 101 1.71% (12.96%) 5.62% (23.03%) 2.87% (16.70%)
+Age (days) 515 (292) 398 (220) 691 (459)
+Note. Each entry is the average value of the corresponding variable for the group, with standard deviations in parentheses.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5022 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 7 ===
+our analysis on App Store but demonstrate the robust -
+ness of results using the data from Google Play.
+2.6. Proxying App Demand
+Ideally, we would want to explore the effect of launch -
+ing a free version on the number of downloads of the 
+existing paid version. As download data are not pub-
+licly available,7we use the number of ratings an app 
+has accumulated as a proxy for demand. Using ratings 
+as a proxy for demand is possible because the free and 
+paid versions are treated as separate products in App 
+Store, meaning that each has a separate measure for the 
+number and valence of ratings. In this section, we first 
+explain why the number of ratings of an app is a good 
+proxy for demand. We then discuss alternatives proxies 
+for demand.
+2.6.1. Number of Ratings. Our approach to proxy de-
+mand by an app’s number of ratings builds on previous 
+literature. Kummer and Schulte (2019 ) use the number 
+of ratings as the preferred demand variable for Google 
+Play apps and demonstrate that the number of incremen -
+tal ratings correlates with download ranges.8Boudreau 
+(2018 ) reports that for apps sold in App Store, sales are 
+highly correlated with the number of user ratings. He 
+then approximates the rank order of app demand by the 
+rank order of the numbers of user ratings.
+We test whether the number of ratings and the num -
+ber of downloads are indeed highly correlated as we 
+assume. Such a test is difficult to implement using data 
+from App Store as no download information is pro-
+vided. However, Google Play reports for each app and 
+day a range for the cumulative number of downloads 
+the app has reached as of yet.9These download ranges 
+allow us to broadly test the relationship between the 
+number of ratings and downloads. To do so, we use all 
+apps available in the Google Play data (i.e., not limited 
+to freemium apps) and test the relationship between the number of ratings and the upper, respectively, 
+lower, bound of the download range, controlling for 
+app fixed effects. Table 4displays the estimation re-
+sults. The dependent variables in column (1) and col-
+umn (2) are, respectively, the logarithm of the upper 
+bound and the logarithm of the lower bound of the 
+download range, and the independent variable is the 
+logarithm of the number of ratings.10In both cases, 
+R20B97, indicating a strong relationship between the 
+logarithm of the bounds of download ranges and the 
+logarithm of the number of ratings. To rule out the pos-
+sibility that the results are driven by highly popular 
+apps, columns (3) and (4) replicate columns (1) and (2), 
+excluding app-day observations that have more than 
+492 ratings (95th percentile). The results are robust and 
+together give us confidence that the number of ratings 
+is indeed a good proxy for demand.
+Despite the strong relationship between download 
+range bounds and number of ratings, relying on any 
+proxy for sales could introduce bias. In our context, we 
+expect that if such a bias existed, it would lead us to 
+underestimate, not overestimate, the effect of the launch 
+of the free version on the sales of the paid version. Prior 
+research suggests that the number of new consumer 
+reviews decreases in the total number of reviews avail -
+able (Wu and Huberman 2008 , Godes and Silva 2012 ). By 
+implication, the fraction of paid app downloads that lead 
+to app ratings should have a downward trend. Thus, if 
+the free version’s launch does not affect the paid ver-
+sion’s downloads, we would expect the paid version to 
+accumulate fewer daily ratings after the free version has 
+been launched. If instead we observe an increase in the 
+paid version’s daily incremental number of ratings after 
+the free version’s launch, this would strongly suggest an 
+increase in the paid version’s downloads. We further 
+acknowledge the possibility that consumers might delay 
+rating an app after downloading, which would again 
+lead to an underestimation of the effect immediately fol-
+lowing adoption.Table 4. Relationship Between the Number of Ratings and Download Range Bounds on Google Play
+VariablesAll observationsExclude observations with number of 
+ratings over 95th percentile
+(1) ln(upper 
+bound 1)(2) ln(lower 
+bound 1)(3) ln(upper 
+bound 1)(4) ln(lower 
+bound 1)
+ln (number of ratings 1) 1.245*** 1.240*** 1.298*** 1.294***
+(0.0001) (0.0001) (0.0001) (0.0001)
+Constant 4.583*** 3.282*** 4.507*** 3.204**
+(0.0002) (0.0002) (0.0002) (0.0002)
+App fixed effects Yes Yes Yes Yes
+Number of observations 279,547,860 279,547,860 265,555,690 265,555,690
+Number of apps 1,169,351 1,169,351 1,158,507 1,158,507
+Adjusted R20.97 0.97 0.96 0.96
+Note. Robust standard errors clustered at app level in parentheses.
+*p D0.1; **p D0.05; ***p D0.01.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5023 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 8 ===
+2.6.2. Download Ranges. As an alternative to the num -
+ber of ratings as a proxy for demand, previous research 
+has used download ranges reported by Google Play to 
+proxy for demand (Liu et al. 2014 , Arora et al. 2017 ). As 
+these ranges vary in size and can be very broad (the low-
+est download range is 0–5, the highest is 500,000,000– 
+1,000,000,000; see Endnote 9), this approach requires 
+apps to have a significant variation in downloads (e.g., 
+because apps quickly become very popular) or have 
+data covering a long time period.
+Proxying demand using download ranges is difficult 
+for two reasons. First, App Store does not report down -
+load ranges. Second, there are significantly fewer free-
+mium apps on Google Play, and in the Google Play 
+data, apps rarely change download ranges, likely owing 
+to the large width of most ranges. For an individual 
+app, we can proxy the total number of downloads by 
+the upper bound of the previous interval or the lower 
+bound of the new interval at the time of a download 
+range change. Observing two changes would thus al-
+low us to infer the speed of download accumulation. 
+However, our identification approach requires us to 
+observe such changes within a short time window 
+around the launch of a free version. Of the 217 free-
+mium apps, 54 apps have at least one change in down -
+load ranges during the four-week window around the 
+time of the launch of the free version, 16 apps have two 
+or more download range changes, and no app has two 
+download range changes both during the two weeks 
+before and during the two weeks after the launch of the 
+free version. Thus, such data would not provide suffi -
+cient variation to identify the effect of launching a free 
+version.11
+2.6.3. Ranking. Since Chevalier and Goolsbee (2003 ) de-
+monstrated, for books, a relationship between actual 
+sales and sales rank at Amazon and Barnes & Noble, 
+researchers have tried using ranking to proxy for sales or 
+downloads.12In our context, however, there are multiple 
+challenges with using ranking as a proxy for sales. First, 
+ranks are only available for a small fraction (15%) of free-
+mium apps during the period of two weeks before and 
+two weeks after the launch of the free version.13Second, 
+relying on ranks would require excluding unranked 
+apps and therefor bias the sample toward more success -
+ful apps. Third, ranking is a relative measure as a change 
+in rank of one app could be caused by a change in perfor -
+mance of another app and not the focal app. Fourth, app 
+rankings not only reflect the number of downloads but 
+also account for other factors such as the average rating, 
+freshness (e.g., recency, updates) of the app, or app reten -
+tion (Liu et al. 2014 ).
+Notwithstanding, we will report a robustness check 
+in Section 3.3.3 , where we use ranking in App Store as 
+an alternative outcome variable.3.Empirical Strategy and Estimation
+3.1. Model-Free Evidence
+To identify the effect of launching a free version of a 
+mobile game app on the demand for the existing paid 
+version, proxied for by its number of ratings, we focus 
+the analysis on a four-week window around the free 
+version’s launch.14The assumption is that within this 
+brief time period, changes to the incremental number 
+of ratings can be attributed only to the launch of the 
+new version. Figure 1shows the average of the loga-
+rithms of the number of ratings received by the paid 
+version in the two-week windows before and after the 
+free version’s launch. Clearly, the paid version received 
+more incremental ratings after the introduction of the 
+free version, suggesting a relationship between the free 
+version’s launch and the paid version’s demand. The 
+figure also indicates that there is significant variation in 
+the number of ratings across apps.
+This analysis does, of course, not control for other 
+potentially confounding factors. It is possible that the rela-
+tionship in Figure 1simply reflects a time trend. To 
+address this concern, we select control apps for each free-
+mium app and estimate the effect of the free version’s 
+introduction in a difference-in-difference framework, con-
+trolling for a set of fixed effects and a set of covariates. 
+Furthermore, we present a battery of robustness checks 
+that illustrate that the results are robust to alternative defi-
+nitions of the time window and other marketing actions 
+related to product, price, and promotion.
+One might also be concerned that a developer would 
+introduce a free version strategically at the time when 
+they expect a rise in demand. There are two reasons 
+why we believe this selection effect is limited. First, 
+many developers in the data are small developers, who 
+are likely to have little knowledge on whether and 
+when it would be effective to introduce a free version 
+for the paid app. Second, even if the developers had 
+enough knowledge to strategically decide whether to 
+introduce a free version, this would influence only the 
+Figure 1. (Color online) ln (Number of Incremental Ratings 1) 
+in a Two-Week Window 
+Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5024 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 9 ===
+selection of apps but not the precise timing of launch, 
+because Apple first reviews and approves each individ -
+ual app before making it available. In the data period, 
+there was considerable uncertainty for developers over 
+an app’s review time and in turn the precise launch 
+date. Although app review times are not usually pub-
+licly available, a now-defunct website https:/ /apprevi 
+ewtimes.com/ tracked App Store review times crowd -
+sourced from developers from 2011 to 2018, because the 
+founder of the website noted that “from the very start of 
+the App Store, until May 2016 the length of an app 
+review was often very lengthy, causing problems for 
+developers trying to schedule releases or set the expect -
+ations of their clients.” We obtained from the owner all 
+the data he collected when the website was active. 9,617 
+review times were reported in our data period, ranging 
+between 0 and 49 days with a mean of 7.05 days and a 
+standard deviation of 4.05 days (see Figure 2for box-
+plots of the review times by month). This high variation 
+makes it unlikely that a developer could determine with 
+precision the day or week of a launch to coincide with a 
+time when demand is expected to be higher.
+3.2. Empirical Strategy
+Ideally, to estimate the effect of the launch of a free ver-
+sion on the existing paid version’s number of ratings, we 
+would compare the paid version’s number of ratings in the presence of a free version to its number of ratings in 
+the absence of a free version, holding everything else 
+constant. However, we cannot simultaneously observe 
+for the same paid version of an app the number of rat-
+ings in the presence and in the absence of a free version. 
+As a result, we focus our analysis on a tight time win-
+dow around the launch and compare the paid version’s 
+daily incremental number of ratings before the launch of 
+the free version to its daily incremental number of rat-
+ings after the launch. We include app fixed effects to 
+control for time-invariant app features that can poten -
+tially influence rating accumulation.
+To control for unobservable time-varying factors that 
+can potentially influence rating accumulation, we con-
+struct a set of control apps for each freemium app based 
+on most of the observable app characteristics and esti-
+mate the model in a difference-in-difference frame -
+work. Specifically, for each freemium app, we look for 
+candidate control apps among paid apps that meet the 
+following four criteria: (1) The control app is in the 
+same genre as the freemium app; (2) the control app is 
+not developed by the same developer as the freemium 
+app (to ensure no strategic interactions between the 
+control and freemium apps); (3) the time difference 
+between the launches of the control app and the free-
+mium app is less than six months; and (4) if the free-
+mium app was updated during the two weeks before Figure 2. Distribution of App Review Times by Month 
+Note. Each box is drawn from the 25th percentile to the 75th percentile, and the horizontal line in the middle denotes the median.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5025 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 10 ===
+the free version’s launch, the control app was likewise 
+updated, alternatively if the freemium app was not 
+updated, the control app needs to not have had an 
+update during that time period. Within these candidate 
+apps, we conduct a propensity score matching based 
+on the values of six variables at both two weeks and 
+one week before the free version’s launch, that is, we 
+evaluate control apps based on whether they are simi-
+lar to the freemium app in their characteristics on both 
+of these dates. The variables include the app’s price 
+and the number of one-, two-, three-, four-, and five- 
+star ratings. Among candidate apps whose propensity 
+score distance to the freemium app is less than 0.25, we 
+select the top 10 apps (or all apps if fewer than 10 apps 
+satisfy the criterion) as control apps for the freemium 
+app. We identify suitable control apps for the vast 
+majority of freemium apps (94%). Table A.2 in Online 
+Appendix B shows the similarity between the control 
+apps and freemium apps.
+For the purpose of our estimation, we denote a free-
+mium app and all its control apps as an app group. A 
+control app may appear in multiple app groups if it is 
+matched to multiple freemium apps, but because the 
+free version’s launch date varies across freemium 
+apps, the time windows that are matched to freemium 
+apps and so contributed to the data, vary across app 
+groups.15
+Figure 3shows for freemium and control apps, the 
+average daily number of ratings around the free ver-
+sion’s launch date. For control apps, we first calculate 
+the average for all control apps within an app group and 
+then calculate the average value across all app groups. 
+Clearly, following the free version’s launch, there is an 
+increase in the daily number of ratings for its paid coun -
+terpart, relative to the number of ratings of the control 
+apps. The difference in trends prior to the free version’s 
+launch is insignificant (p 0.55).Based on the control apps selected, we specify a 
+stacked difference-in-difference model as follows:
+lnN ijt1βFiTjtXi,t�1gδijηjtεijt, (1) 
+where i denotes a paid app, j denotes the group of 
+freemium-control apps, t denotes day, and Nijt denotes 
+the number of ratings accumulated by app i of app 
+group j on day t that we use to proxy for demand. We 
+specify our dependent variable in log-form as the data 
+are skewed. Fi is a binary variable that takes the value 
+of one if app i is a freemium app and takes the value of 
+zero otherwise; Tjt is a binary variable that takes the 
+value of one if t is in the window after the launch of the 
+free version of the freemium app in app group j; Xi,t�1 
+denotes the vector of control variables for app i mea-
+sured on day t – 1, including ranking on top charts, 
+price, the total number of ratings app i had accumu -
+lated, and the average star rating of the app; δij is a fixed 
+effect that is specific to app i and group j (in the results 
+tables, we refer to this as App �App group FE), which 
+captures unobservable characteristics to app i and app 
+group j; ηjt is a fixed effect that is specific to app group j 
+and day t (referred to as App group �Day FE), which 
+captures factors such as favorable demand periods that 
+are app group specific; and εijt is an idiosyncratic error 
+term. Because the total number of ratings accumulated 
+up to day t – 1 is included in Xi,t�1 and it is a function of 
+the number of new ratings on day t – 1, Ni,t�1, error 
+terms might be serially correlated. We therefore cluster 
+standard errors at the app level.
+3.3. Main Results
+As discussed in Section 3.2, our identification relies on 
+the difference-in-difference specification with both free-
+mium and control apps. Because the Ordinary Least 
+Squares (OLS) model cannot control for unobservable 
+time-varying factors that influence rating accumulation, 
+this difference-in-difference specification forms the body 
+of the empirical analysis. Because, however, there is a 
+small fraction of freemium apps for which we were 
+unable to find suitable control apps, we first present in 
+Section 3.3.1 the results based on a first-difference appro -
+ach, abstracting from our control group, for the full sam-
+ple of freemium apps. In Section 3.3.2 , we then present 
+the difference-in-difference results. Finally, in Section 
+3.3.3 , we discuss the difference-in-difference results with 
+alternative dependent variables.
+3.3.1. First-Difference Results. Before presenting the 
+difference-in-difference estimation results, we first pre-
+sent in Table 5the first-difference estimates for only 
+freemium apps, where we control for app fixed effects 
+and day fixed effects. Columns (1) and (2) report OLS 
+estimates for a time window of two weeks before the 
+launch of the free version and two weeks after the Figure 3. (Color online) Daily Average Number of Ratings 
+for Freemium and Control Apps 
+0
+.
+0
+5
+0
+.
+0
+6
+0
+.
+0
+7
+0
+.
+0
+8
+0
+.
+0
+9
+0
+.
+1
+l
+n
+(
+N
+o
+.
+ 
+o
+f
+ 
+R
+a
+t
+i
+n
+g
+s
+)
+-14
+-7
+0
+7
+14
+Days 
+to Treatm
+ent
+Treatment
+ Apps Cont
+rol AppsDeng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5026 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 11 ===
+launch. We include in this analysis 1,696 apps as we 
+need to ensure the paid version’s number of ratings is 
+observed in the entire time window before and after 
+the free version’s launch. This means that the gap be-
+tween the release dates of the two versions must be at 
+least two weeks, and the free app must be launched at 
+least two weeks before the end of our data period.
+Column (1) controls only for app and day fixed effects. 
+It indicates that the paid version receives more ratings in 
+the window after the launch of the free version. Column 
+(2) shows that the result is robust to including the full set 
+of controls. Not surprisingly, the number of ratings 
+increases with the average star rating.
+We next assess the magnitude of the effects. Denote the 
+daily number of ratings before and after the free version’s 
+launch as N0 and N1, respectively. With β being the esti-
+mated coefficient on treatment (i.e., the free version’s 
+launch), we obtain lnN 11�lnN 01β; hence, 
+lnN 11EN 01β and N1expβN 01�1. 
+We can then calculate N1 given the values of N0 and β. We 
+measure the effect size as the percentage change in the 
+daily number of ratings, N1�N0EN 0, which depends 
+on the daily number of ratings prior to the free version’s 
+launch, N0. We focus on the estimate obtained in Table 5, 
+column (2), which is 0.0291. It suggests that if N0 is at the mean (0.505), then all else equal, after the launch of the free 
+version, N1 increases to 0.550, that is, an increase by 8.9%.
+To check that our results are robust to the specification 
+of the observation window around the time when the 
+free version was launched, column (3) reports results 
+based on a time window of one week before the launch 
+and one week after the launch. We find the effect holds, 
+and the effect size is not statistically different from the 
+effect size under the two-week window (p 0.62).
+To deal with the concern that many apps receive no 
+rating on a given day, we replicate column (2) with a 
+type I Tobit model. The results reported in column (4) 
+are qualitatively similar to those in column (2).
+3.3.2. Difference-in-Difference Results. Table 6shows 
+the difference-in-difference estimation results for the 
+two-week window (column (1)) and the one-week win-
+dow (column (2)). We use the same set of apps for the 
+one-week analysis as for the two-week analysis to take 
+advantage of the more granular matching based on two 
+weeks of prelaunch data. Effect sizes are similar to those 
+in Table 5. The estimate in column (1) is very similar to 
+that in column (2) of Table 5. It suggests that if the daily 
+number of ratings before the free version’s launch is at 
+the mean (0.505), and then if all else is equal, after the Table 5. First-Difference Results
+Variablesln (number of ratings of paid version 1)
+OLS, two-week window OLS, one-week window Type I Tobit, two-week window
+(1) (2) (3) (4)
+T (After new version launch) 0.0185*** 0.0291*** 0.0315*** 0.211***
+(0.00426) (0.00362) (0.00371) (0.0522)
+Lag (Ranked on top 10) 1.479*** 1.967*** 2.873***
+(0.282) (0.527) (0.376)
+Lag (Ranked on top 11–20) 1.592*** 1.980*** 2.698***
+(0.273) (0.584) (0.528)
+Lag (Ranked on top 21–50) 1.337*** 0.645 3.105***
+(0.337) (0.412) (0.299)
+Lag (Ranked on top 51–100) 0.770*** 0.650*** 2.431***
+(0.168) (0.207) (0.296)
+Lag (Ranked on top 101) 0.111*** 0.0863*** 1.270***
+(0.0272) (0.0280) (0.0973)
+Lag (Price ($)) �0.00272 �0.00135 �0.0133
+(0.00259) (0.00153) (0.0340)
+Lag (ln (Total # ratings1)) 0.0139 �0.0745 0.733***
+(0.0500) (0.0696) (0.0405)
+Lag (If rated) �0.629*** �0.388 �2.126***
+(0.225) (0.326) (0.455)
+Lag (Average star rating) 0.0941** 0.0638 0.236**
+(0.0388) (0.0653) (0.0941)
+App fixed effects Yes Yes Yes No
+App random effect No No No Yes
+Day fixed effects Yes Yes Yes Yes
+Number of observations 48,785 48,785 31,644 48,785
+Number of apps 1,696 1,696 2,143 1,696
+Adjusted R20.5005 0.5319 0.5292 —
+Note. Robust standard errors clustered at app level in parentheses.
+*p D0.1; **p D0.05; ***p D0.01.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5027 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 12 ===
+launch of the free version, the daily number of ratings 
+increases to 0.550, that is, an increase by 8.9%. In a fur-
+ther specification, we estimate separately the effect for 
+each day within the two weeks before and after the free 
+version’s launch. Figure 4plots the coefficients when 
+allowing the effect to vary by day, and consistent with 
+Figure 3, during the two weeks after the free version’s 
+launch, the daily number of ratings for its paid counter -
+part increases, and the effect seems stable.As discussed, the interpretation that this effect is 
+causal holds under the assumptions that the firm can-
+not time precisely the date for the free version to be 
+approved and launched by App Store and that, within 
+this brief time period, there are no other factors corre -
+lated with the launch that only affect demand of the 
+freemium app but not the demand of the similar con-
+trol apps. The first assumption is supported by Figure 2. 
+We will discuss the validity of the second assumption 
+in Section 3.4.
+3.3.3. Difference-in-Difference Results with Alternative 
+Dependent Variables. We replicate the difference-in- 
+difference analysis with an app’s ranking, instead of 
+the number of ratings, as an alternative outcome vari-
+able. We focus on the 26 freemium apps for which we 
+observe a ranking on each of the 15 days within the 
+window of one week before and one week after the 
+launch.16Column (1) of Table 7illustrates that ranking 
+improves after the launch of the free version, consistent 
+with our prior finding.17
+Next, we replicate the difference-in-difference analy -
+sis with data from Google Play. We first implement the 
+same matching procedure as described in Section 3.2to 
+identify control apps for each freemium app. We then 
+estimate Equation (1) with the 174 freemium apps in Table 6. Difference-in-Difference Results
+Variablesln (number of ratings of paid version 1)
+(1) Two-week window (2) One-week window
+T (After new version launch) ×freemium app 0.0289*** 0.0333***
+(0.00429) (0.00497)
+Lag (Ranked on top 10) 1.311*** 1.197***
+(0.184) (0.211)
+Lag (Ranked on top 11–20) 1.064*** 0.754***
+(0.139) (0.179)
+Lag (Ranked on top 21–50) 0.716*** 0.654***
+(0.0901) (0.101)
+Lag (Ranked on top 51–100) 0.583*** 0.598***
+(0.0671) (0.0779)
+Lag (Ranked on top 101) 0.0977*** 0.0703***
+(0.00943) (0.0115)
+Lag (Price ($)) �0.00225*** �0.00202**
+(0.000840) (0.000841)
+Lag (ln (Total # ratings1)) �0.0454 �0.221***
+(0.0440) (0.0756)
+Lag (If rated) �0.107 0.164
+(0.123) (0.208)
+Lag (Average star rating) 0.0235 0.0450
+(0.0189) (0.0349)
+App-app group fixed effects Yes Yes
+App group-day fixed effects Yes Yes
+Number of observations 402,733 222,640
+Number of app groups 1,594 1,594
+Adjusted R20.725 0.741
+Note. Robust standard errors clustered at app level in parentheses.
+*p D0.1; **p D0.05; ***p D0.01.
+Figure 4. (Color online) Coefficients by Day 
+Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5028 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 13 ===
+Google Play along with their respective control apps. 
+Column (2) of Table 7demonstrates that the results are 
+consistent, and the effect size is not statistically differ -
+ent from the effect size for App Store.
+3.4. Robustness Checks
+In this section, we explore whether the effect could arise 
+from developers systematically coordinating other mar-
+keting activities (e.g., changes to existing product’s de-
+sign or price, advertising, and App Store promotion) 
+with the launch of the free version.
+As discussed in Section 3.1, although the decision to 
+introduce a free version may be endogenous, the precise 
+timing of the launch of the app cannot be determined 
+directly by the developer. Therefore, it would be difficult 
+for the developer to coordinate other actions to precisely 
+fit into the short window following the launch. Never -
+theless, we provide additional evidence supporting that 
+the effect we observe is due to the launch of the free ver-
+sion and unlikely to be primarily driven by other mar-
+keting actions correlated with the launch.
+3.4.1. Change of Existing Version’s Design. One alter -
+native explanation for the positive spillover effect is that 
+app developers simultaneously improve the existing 
+version when launching the new version, thus enhanc -
+ing the existing version’s demand. If this were the case, 
+our estimates might reflect an improvement in the paid 
+version rather than an effect of the addition of the free 
+version. To alleviate this concern, we test whether the 
+result also holds for apps without updates in the four- 
+week window around the free version’s launch by repli -
+cating the analysis in column (1) of Table 6with this 
+subset of apps. Results are presented in column (1) of 
+Table 8and the effect holds.18
+3.4.2. Change of Existing Version’s Price. We also 
+check whether the results hold for apps where there is 
+no price change for the paid app. If the developer low-
+ered the price of the paid version at the same time that they launched a free version, we might observe in-
+creased sales of the paid version coinciding with the 
+launch of the free version simply due to the price 
+change of the paid version. During the period of two 
+weeks before and two weeks after the launch of the free 
+version, 27.2% of apps in Table 6had at least one price 
+change. To ensure that price changes did not influence 
+our results, we replicate the analysis in column (1) of 
+Table 6excluding any apps that had a price change 
+within the four-week window around the launch. Table 8, 
+column (2), shows that the results hold and the effect size 
+is not significantly different from that in column (1) of 
+Table 6(p 0.52). Table 8, column (3), shows the results 
+hold when focusing on apps that had neither updates 
+nor price changes within the four-week window around 
+the launch.19
+3.4.3. Advertising. If developers typically advertise the 
+free version at its release, this could likewise lead to 
+greater awareness of the paid version. We provide five 
+pieces of evidence from the industry and our data that 
+suggest our results are unlikely an outcome of the change 
+in advertising levels.
+First, during the period of our data, advertising was 
+not yet a popular means for app developers to promote 
+apps. In October 2012, Facebook was the first firm to 
+enter the app install ad market.20Google and Twitter 
+both entered this market only in 2014 and Pinterest in 
+March 2017.21eMarketer did not start monitoring app 
+install ad spending until 2013,22whereas Sensor Tower, a 
+leading company in app intelligence, did not start moni -
+toring app advertising until March 2015.23Together these 
+facts suggest that the app-install ad market was insignifi -
+cant in the period we study, and it appears extremely 
+unlikely that it played a significant role in the effect we 
+observe.
+Second, we analyze the period before Facebook, the 
+first company to enter the app-install ad market, entered 
+this market in October 2012 separately from the subse -
+quent period. If advertising contributed significantly to Table 7. Robustness Checks on Alternative Dependent Variables
+Variables (1) ln (ranking)(2) ln (number of ratings 
+of paid version v1) in Google Play
+T (After new version launch) ×freemium app �0.200*** 0.0269***
+(0.0640) (0.00972)
+Other control variables (ranking, price, the 
+total number of ratings, the average star 
+rating)Yes (except ranking) Yes
+App-app group fixed effects Yes Yes
+App group-day fixed effects Yes Yes
+Number of observations 2,805 41,791
+Number of app groups 26 174
+Adjusted R20.913 0.765
+Note. Robust standard errors clustered at app level in parentheses.
+*p D0.1; **p D0.05; ***p D0.01.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5029 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 14 ===
+the effect, we should observe a significantly higher effect 
+size between October 2012 and October 2013 than from 
+September 2011 to September 2012. In Table 9, column 
+(1), we interact our coefficient of interest with an indica -
+tor for whether the observation falls into the first or sec-
+ond year of the data and find that there is no significant 
+difference. Similarly, if we interact the coefficient of 
+interest with a linear weekly time trend, we find this to 
+be insignificant (p 0.54). The fact that there was little 
+change in the effect size over time further supports that 
+advertising is unlikely to have played a significant role.
+Third, we use the website https:/ /www.spyfu.com/ 
+to check whether the top 50 developers in our data 
+(measured by their number of apps) that had launched 
+a free version of at least one paid app did search adver -
+tising during our data period. We found that none of 
+these developers did search advertising during that 
+time period.
+Fourth, we replicate the analysis with a subset of 
+developers that we expect to have particularly limited 
+resources for advertising. Specifically, we focus on apps 
+by developers who at the time of the launch of the free 
+version either had only one app, or had other apps but 
+none of these apps had any ratings. These app develop -
+ers are presumably small in size, had limited budget, and 
+thus had little capacity for cross promotion. Column (2) 
+of Table 9illustrates a similar positive spillover effect 
+to that of column (1) in Table 6. We additionally limit 
+the analysis to apps from developers that have a single 
+app only and again find very similar results (estimate 
+0.0276, standard error 0.0062). These effect sizes are not 
+significantly different from that in column (1) of Table 6.
+Fifth, as a final piece of evidence, we contacted 14 
+developers of apps in our sample. They all indicated 
+they did little or no advertising during the period of 
+our data.
+Together, these results lead us to conclude that it is 
+highly unlikely that developers systematically coordi -
+nated advertising strategies to coincide with the launch 
+of the free version, leading to an effect of the free ver-
+sion’s launch on the paid version’s demand.
+3.4.4. Featuring in App Store. If the launch of the free 
+version would lead the app to be featured in App Store, 
+then it would enhance the app’s visibility and in turn 
+increase demand (Liang et al. 2019 ). In our data period, 
+App Store had a section entitled “New and Note -
+worthy.” This section was separate from rankings and 
+Apple chose the apps to be featured there. As a result of 
+being featured, apps typically receive a lot of attention 
+and a significant increase in demand. If the launch of a 
+free version would motivate Apple to feature the app, 
+then we might observe an increase in the number of rat-
+ings that is correlated with the launch of the free ver-
+sion but not a result of a spillover effect from users of 
+the free version. We do not observe whether apps were Table 8. Robustness Checks on Changes on Existing Version
+Variablesln (number of ratings of paid version b1)
+(1) Exclude apps with updates 
+on existing version(2) Exclude apps with 
+price changes(3) Exclude apps with updates 
+or price changes
+T (After new version launch) ×freemium app 0.0118** 0.0253*** 0.00861**
+(0.00488) (0.00417) (0.00342)
+Other control variables (ranking, price, the 
+total number of ratings, the average star 
+rating)Yes Yes Yes
+App-app group fixed effects Yes Yes Yes
+App group-day fixed effects Yes Yes Yes
+Number of observations 170,511 267,433 127,645
+Number of app groups 712 1,161 571
+Adjusted R20.764 0.737 0.801
+Note. Robust standard errors clustered at app level in parentheses.
+*p D0.1; **p D0.05; ***p D0.01.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5030 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 15 ===
+featured. However, to be selected by Apple for this sec-
+tion, an app needs to be original and outstanding and 
+receive media attention.24Because the free version is infe-
+rior to the existing paid version, it is extremely unlikely 
+that Apple would ever feature the free version and not 
+the paid version or that Apple would feature the paid 
+version simply because of the release of the free version. 
+It is therefore not plausible that the effect we observe 
+would be a result of the free version being featured in 
+App Store. Anecdotal evidence suggests that being fea-
+tured as “New and Noteworthy” typically leads to 
+immediate big jumps in demand, larger than those we 
+observe following the launch of a free version.25
+3.4.5. Solicited Ratings. Another possible driver to our 
+result would be that concurrently with the launch of the 
+free version, developers systematically solicit consumers 
+to rate apps. Such a strategy could lead to an increase in 
+the number of ratings, holding constant the number of 
+downloads. We check this possibility. First, if developers 
+were more likely to solicit ratings shortly after the launch 
+of the free version, then we might expect different types 
+of consumers to rate the app than previously. If users 
+with a different usage experience of the app evaluate it, 
+the valence of ratings should change. We estimate Equa -
+tion (1) with the star rating as the dependent variable, 
+and the estimated coefficient of free version launch is 
+0.0019 (standard error 0.0045), indicating there is little 
+difference in the valence of ratings before and after 
+the launch of the free version. In addition, we tested 
+whether the distribution of high (4 or 5)/low (1 to 3) rat-
+ings is the same before and after the launch of the free 
+version. The average share of high ratings is 81.2% 
+before the launch and 82.4% after the launch. A t test 
+indicates that the null hypothesis that the two shares are 
+equal cannot be rejected (p 0.31). Overall we find that 
+there is little difference in the valence of ratings before 
+and after the launch of the free version.Furthermore, we were unable to find any direct evi-
+dence suggesting that a developer would benefit from 
+requesting consumers to rate an app specifically around 
+the point in time when a new version is launched. Indeed, 
+recommendations in online forums that suggest strategies 
+when firms should request reviews largely relate to use 
+patterns of a specific user and not to the broader product 
+strategy of the developer. None of the recommendations 
+relates to the launch of a free version.26
+Finally, during our observation period, consumers 
+were only able to review apps that they had down -
+loaded27; thus, all the ratings on the paid version are 
+provided by consumers who have purchased the paid 
+version instead of being provided by consumers who 
+have only downloaded the free version and acciden -
+tally rated the paid version.
+In sum, it seems unlikely that the effect we observe 
+across a large number of developers and apps can be 
+fully attributed to increased promotion or advertising 
+when the free version was released.
+4.Exploring the Mechanism
+The result that the introduction of a free version in-
+creases the demand of the paid version is consistent 
+with prior literature on sampling: the free version allows 
+consumers who are uncertain about the quality of the 
+product to sample before purchasing the full version. At 
+the same time, the availability of a free version may 
+enhance visibility of the paid version in App Store and 
+thus facilitate product discovery. We explore sampling 
+and enhanced product discovery by consumers as po-
+tential mechanisms that can explain why the launch of 
+the free version increases demand for the paid app.
+4.1. Sampling
+Before purchasing a product, consumers are often un-
+certain about product attributes and the product’s qual -
+ity. Such uncertainty is a major impediment to sales in Table 9. Robustness Checks on Advertising
+Variablesln (Number of Ratings of Paid Version1)
+(1) Add time indicator (2) Smaller developers
+T (After new version launch) ×freemium app 0.0303*** 0.0202***
+(0.00599) (0.00381)
+T×freemium app ×first year of data �0.00341
+(0.00847)
+Other control variables (ranking, price, the total 
+number of ratings, the average star rating)Yes Yes
+App-app group fixed effects Yes Yes
+App group-day fixed effects Yes Yes
+Number of observations 402,733 241,591
+Number of app groups 1,594 977
+Adjusted R20.725 0.695
+Note. Robust standard errors clustered at app level in parentheses.
+*p D0.1; **p D0.05; ***p D0.01.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5031 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 16 ===
+online markets (Hong and Pavlou 2014 , Appel et al. 
+2020 ). One way to resolve this fit uncertainty is for con-
+sumers to try the product and learn about the product 
+quality prior to purchasing, thus reducing the uncer -
+tainty around the product value.
+Several patterns in our data are consistent with sam-
+pling as a mechanism behind the spillover effect on the 
+paid version. First, if consumers upgrade to the paid 
+version of an app after sampling and enjoying the free 
+version, then we should find a positive correlation 
+between the free version’s incremental star ratings and 
+the paid version’s incremental number of ratings as the 
+latter proxies for demand. We indeed find a correlation 
+of 0.17 (p D0.0001). In addition, we also find a correla -
+tion of 0.24 (p D0.0001) between the paid version’s 
+daily incremental number of ratings and the free ver-
+sion’s daily incremental number of ratings, a pattern 
+that is consistent with users purchasing the full version 
+after sampling the free version. If the free version 
+would solely aid product discovery, that is, to help con-
+sumers find the paid version in the store but without 
+consumers sampling the free version, then we would 
+not expect these relationships.
+Next, we replicate the analysis in column (1) of Table 6
+with a subset of apps that have identical descriptions for 
+the paid version and the free version. The point estimate 
+is 0.0327 with a standard error of 0.0058, which is very 
+close to that in column (1) of Table 6. For these apps, con-
+sumers cannot observe the difference between the two 
+versions before downloading, and we would expect 
+them to first download the free version. While playing 
+the game, they would be prompted to download the 
+enhanced paid version. The fact that for this sample we 
+still find a similar effect further supports that sampling 
+is a mechanism at work.
+We next conceptualize when a consumer samples 
+and the effect of sampling on purchase of the paid ver-
+sion. We then take this framework to our data.
+4.1.1. Conceptual Framework. Although sampling may 
+help consumers learn the value of a product, sampling 
+is not without cost. Consumers may incur cost of time 
+in acquiring the free sample (e.g., downloading the 
+app) and in getting familiar with its functionalities 
+(Cheng and Liu 2011 ). Furthermore, downloading even 
+a free app uses data allowance and storing it uses space 
+on a consumer’s device, introducing further opportu -
+nity cost for a consumer. As a result, a consumer needs 
+to weigh the opportunity cost associated with acquir -
+ing, setting up, and learning about the product with the 
+expected utility from sampling (Lee and Tan 2013 ). 
+This expected utility of sampling the free version ac-
+counts for utility that may arise from upgrading to the 
+paid version.
+As sampling is not costless, a consumer’s decision on 
+whether to sample depends on the expected benefits. Assume the cost for the consumer to sample is c that 
+captures any opportunity cost, such as cost related to 
+time or storage requirements. Also, assume the cost of 
+purchasing the paid version to be p, which includes the 
+price of the product and any opportunity cost, such as 
+that associated with time or storage.28Assume that a 
+consumer knows the value of the free version, vf, which 
+varies across consumers. Specifically, we assume vf
+θvf, where θ∃0,1represents consumer “type.” How -
+ever, prior to sampling, the consumer has uncertainty 
+about the paid version’s value, vp.29Instead, the con-
+sumer only knows that vp is uniformly distributed on 
+θvp,θvp, where vpDpDvp, and vpFvf. After the 
+consumer has used the free version, the value of vp is 
+revealed. We assume utility is a linear function of the 
+valuation, and for simplicity assume the consumer 
+obtains utility Ufvf�c from the free version and 
+utility Upvp�p from the paid version.
+In the absence of a free version, a consumer will pur-
+chase the paid version if the expected utility of the paid 
+version is larger than zero, that is, EU pEv p�pF0. 
+The expression EU pis also the expected utility of pur-
+chasing the paid version directly in the presence of a free 
+version. Under the assumption that vp is uniformly dis-
+tributed on θvp,θvp, a consumer of type θ would pur-
+chase if θF2pEvpvp.
+When the firm offers a free version, a consumer can 
+sample the free version to learn about the value of vp. 
+After sampling, the consumer upgrades to the paid 
+version if the difference between the value of the paid 
+version and the value of the free version exceeds the 
+price of the paid version, vp�vfFp. Thus, the pro-
+bability of upgrading is Probvp�vfFpθvp�p
+θvfEθ vp�θvp. Upon upgrading, the consumer 
+obtains utility vp�p. If the difference between the 
+value of the paid version and the free version is smaller 
+than the price of the paid version, vp�vfDp, then the 
+consumer does not upgrade and only receives utility vf 
+from the free version.
+Thus, the expected utility from sampling is as follows:
+EU svfProbvp�vf≼p
+Ev p�p†vp�vfFpProbvp�vfFp�c(2) 
+For consumers to sample the free version, two condi -
+tions need to be satisfied. First, the expected utility of 
+sampling needs to be greater than zero (EU sF0). Sec-
+ond, the expected utility of sampling should exceed the 
+expected utility from purchasing the paid version di-
+rectly (EU sFEU p). For consumers to upgrade to the 
+paid version after sampling, vp needs to satisfy vp�vf 
+Fp. The condition vp�vfFp will be met for consum -
+ers with θDp�vpEvf. Thus, for these consumers, the 
+introduction of a free version can increase the paid Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5032 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 17 ===
+version’s demand through sampling if EU sF0 and 
+EU sFEU p.30
+It can be shown that EU sincreases with vp, and 
+EU s�EU pdecreases with vp (for details, see Online 
+Appendix C). Therefore, the conditions for sampling, 
+EU sF0 and EU sFEU p, are likely to be met simul -
+taneously when vp is neither too large nor too small.
+If EU sF0 but EU sDEU p, then consumers would 
+directly purchase the paid version regardless of whether 
+there is a free version. The introduction of a free version 
+would not affect the demand for the paid version.
+4.1.2. App Quality. One factor that plausibly affects 
+whether a consumer expects sampling to be beneficial 
+is the quality information they receive about a product. 
+Such quality information may shift the distribution of 
+the consumer’s belief about the value of the paid ver-
+sion, vp. We discuss how publicly available information 
+on app quality in the marketplace may shift the lower 
+bound of the consumer’s belief (vp), which then in turn 
+may affect the consumer’s decision to sample.
+Our result in Section 4.1.1 indicates that sampling is 
+more effective when vp is neither too large nor too small. 
+The intuition is as follows: When a consumer receives 
+information on app quality indicating a very low value 
+of vp, they expect to receive a low utility, EU p, from the 
+product, and the cost of sampling may exceed the mar-
+ginal benefit of sampling. It may then not be optimal for 
+the consumer to sample. Put simply, the consumer has 
+such low expectations of product quality that it is not 
+worthwhile to incur the cost of sampling, and as a conse -
+quence, offering a free sample will have little effect on 
+the consumer’s purchase of the paid version.A similar pattern occurs when the consumer receives 
+information that indicates a very high value of the 
+lower bound vp. If vp is very high, then the consumer’s 
+expected utility, EU p, is very high and the marginal 
+benefit of sampling may be below the marginal cost of 
+sampling. Put differently, if the consumer expects a 
+product to be of high quality, they may prefer to pur-
+chase the paid version directly and avoid the opportu -
+nity cost associated with sampling. Again, offering a 
+free sample will have little effect on the consumer’s 
+purchase of the paid version.
+One piece of public information on app quality that is 
+readily available to consumers in the mobile app market 
+is an app’s star rating. If an app is poorly rated, consum -
+ers may conclude that its quality is too low to be a good 
+fit and that sampling is not worthwhile. On the other 
+hand, a very high star rating indicates that prior users 
+found the app useful, making it more efficient for con-
+sumers to directly purchase the paid version and avoid 
+the cost of sampling. In consequence, sampling is more 
+beneficial for apps that have a moderate star rating.
+We thus expect an inverted-U shaped relationship 
+between the effect of sampling and the average star rat-
+ing of an app. We examine empirically how the treat -
+ment effect is moderated by the paid version’s average 
+star rating on the day prior to its free counterpart’s 
+launch. That is, we estimate Equation (1) adding interac -
+tion terms between the free version’s introduction and 
+the average star rating and its squared term. The estima -
+tion results in column (1) of Table 10demonstrate indeed 
+an inverted U-shaped relationship between the effect 
+size and the average star rating.
+The number of ratings a product has obtained has 
+been suggested as an alternative measure of product 
+Table 10. Moderating Effect of Star Rating and Number of Ratings
+Variablesln (number of ratings of paid version 1)
+(1) (2)
+T(After new version launch) ×freemium app ×star rating 
+prior to free version release0.176**
+(0.0870)
+T×freemium app ×star rating prior to free version release2�0.0225*
+(0.0121)
+T ×freemium app ×ln(number of ratings prior to free version release 1) 0.0805**
+(0.0374)
+T×freemium app ×ln(number of ratings prior to free version release 1)2�0.00822**
+(0.00402)
+Other control variables (ranking, price, the total number of 
+ratings, the average star rating)Yes Yes
+App-app group fixed effects Yes Yes
+App group-day fixed effects Yes Yes
+Number of observations 402,733 402,733
+Number of app groups 1,5954 1,594
+Adjusted R20.725 0.725
+Note. Robust standard errors clustered at app level in parentheses.
+*p D0.1; **p D0.05; ***p D0.01.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5033 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 18 ===
+quality (Schoenmueller et al. 2020 ). We therefore pre-
+sent in column (2) a robustness check to the results in 
+column (1) of Table 10, using the number of ratings of 
+an app as a quality measure. Again, we find similar 
+results suggesting an inverted U-shaped relationship be-
+tween the effect size and the number of ratings.
+4.1.3. Difference Between Free and Paid Versions. Prior 
+research has demonstrated that the effect of sampling 
+depends on the quality difference between the free and 
+the paid products. For instance, Li et al. (2019 ) find that 
+when a publisher provides free digital samples to print 
+copies of books, it is beneficial to increase the functional -
+ity difference between the high-quality digital sample 
+and the print format. Cheng and Liu (2011 ) find that 
+offering a feature limited free sample is more suitable for 
+software products that exhibit strong network effect.
+In our conceptual framework, the consumer will up-
+grade to the paid version after sampling if the difference 
+between the paid version and the free version (vp�vf) 
+is larger than the price of the paid version. Thus, the 
+paid version may provide sufficiently greater utility for 
+consumers to upgrade once consumers are satiated with 
+the free version (Appel et al. 2020 ). To see whether this 
+holds empirically, we examine the moderating effects 
+of version design on the treatment effect. Specifically, 
+we estimate Equation (1) adding interaction terms be-
+tween treatment and the app description-based design 
+differences described in Section 2.3: more levels, more 
+modes/themes, more functions/features, social interac -
+tions, ad free, and better support. We group apps with the same combination of design differences and com-
+pute robust standard errors clustered at the group level. 
+Table 11shows the results. Consistent with the sam-
+pling explanation, compared with apps with identical 
+descriptions for the paid version and the free version, 
+this effect is more pronounced for apps where the paid 
+version appears to offer greater additional benefits. It 
+is greatest when the paid version offers “more levels,” 
+“more functions/features,” or “social interactions.” It 
+seems plausible that the free version provides consumers 
+an opportunity to try the game on initial levels, whereas 
+additional levels provide sufficient utility for consumers 
+to upgrade. Similarly, “more functions/features” (such 
+as more powerful weapons) attract consumers to up-
+grade. Finally, the ability to compete, compare scores and 
+communicate with others may give consumers who 
+found they like the initial version significant extra utility, 
+thus making a purchase of the full version attractive. The 
+moderating effect of “more modes/themes” (e.g. a differ -
+ent background picture) is not statistically significant, 
+indicating that consumers value having more modes/ 
+themes such as background colors (horizontal differentia -
+tion) relatively less than additional levels in the game 
+(vertical differentiation), a result that appears plausible as 
+additional modes/themes do relatively little to change 
+the gaming experience.
+Interestingly, the negative moderating effect of “ad 
+free” suggests that for the average consumer, the negative 
+utility associated with advertising significantly reduces 
+the potential benefit of the free version’s launch on de-
+mand for the paid version. The result seems plausible in Table 11. Moderating Effects of Design Differences based on App Description
+Variablesln (number of ratings of 
+paid version 1)
+T (After new version launch) ×Freemium app 0.0223***
+(0.00285)
+T×freemium app ×more levels 0.0114*
+(0.00637)
+T×freemium app ×more modes/themes �0.00799
+(0.00792)
+T×freemium app ×more functions/features 0.0189**
+(0.00833)
+T×freemium app ×social 0.0285**
+(0.0118)
+T×freemium app ×ad free �0.0162**
+(0.00625)
+T×freemium app ×support �0.0493***
+(0.0156)
+Other control variables (ranking, price, the total 
+number of ratings, the average star rating)Yes
+App-app group fixed effects Yes
+App group-day fixed effects Yes
+Number of observations 402,733
+Number of app groups 1,594
+Adjusted R20.725
+Note. Robust standard errors clustered at app level in parentheses.
+*p D0.1; **p D0.05; ***p D0.01.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5034 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 19 ===
+view of the broader evidence that many consumers prefer 
+ads rather than paying for content (Papies et al. 2011 , 
+Chiou and Tucker 2013 ).31Finally, the moderating effect 
+of “support” is negative, and its effect size exceeds that of 
+the main effect. The estimate suggests that the average 
+consumer does not place much value on support offered 
+by the developer, and the introduction of a free version 
+that is mainly differentiated by providing less support 
+may cannibalize demand of the paid version.
+In sum, this set of results supports the explanation 
+that consumers’ sampling of the free version leads to 
+the purchase of the paid counterpart. The strategy of 
+releasing a free version to let consumers sample is effec -
+tive when apps have a moderate level of the average 
+star rating or a moderate number of ratings. In addi -
+tion, consumers are more likely to upgrade from the 
+free to the paid version when the two versions differ 
+substantially in the value they provide to consumers.
+4.2. App Discovery
+With the rapidly increasing number of apps on app 
+stores, “the gap between search and find is getting bigger 
+and bigger,”32making app discovery a problem as it is 
+difficult for any individual app to be discovered by a con-
+sumer (Li et al. 2016 ). At the time of our data, App Store 
+offered close to 200,000 game apps, most of which were 
+by small independent developers. In such a setting, hav-
+ing two versions instead of one increases visibility of the 
+app and makes it more likely to be discovered by a con-
+sumer. Thus, the availability of a free version may in-
+crease the likelihood of discovery of the paid version. 
+This can impact demand for the paid version in two 
+ways: First, the enhanced visibility may lead consumers to 
+discover the free version, sample the free version and later 
+purchase the paid version; that is, discovery may lead to 
+sampling. Second, the availability of the free version may 
+increase a consumer’s probability of discovering the paid 
+version and then purchasing the paid version directly, 
+without first sampling the free version.33
+Ideally, one would explore app discovery based on 
+consumer browsing history in App Store. However, 
+such data are not publicly accessible. Instead, we use 
+two features of our data to shed light on whether app 
+discovery is a likely mechanism. First, we turn to a set-
+ting where we would expect sampling to matter less. 
+We focus on apps that initially offered a free version 
+and later added a paid version. If app discovery mat-
+ters, then the introduction of a paid version should 
+increase the probability for the app to be discovered 
+and thus demand for the original free version. How -
+ever, sampling matters less in this context because con-
+sumers who are interested in this app could have 
+downloaded the free version before the paid version 
+becomes available. For this analysis, we focus on apps 
+where the free version was launched first and the paid 
+version was launched later during our sample period. For each of these free apps, we select a set of control 
+apps from free apps that did not have a paid version 
+introduced in our data period using the procedure 
+described in Section 3.2. We then estimate the effect of 
+introducing the paid version on the free version’s num -
+ber of ratings in a difference-in-difference framework. 
+The results reported in Table 12, column (1), indeed 
+indicates a positive effect, suggesting that the availabil -
+ity of an additional version may enhance discovery.
+Second, the app discovery mechanism suggests that 
+when the number of apps in a category increases, pro-
+viding an additional version of an app has increasingly 
+less effect on the probability for an app to be discov -
+ered, simply because the “haystack” gets larger. Thus, 
+the marginal benefit of providing an additional version 
+of an app becomes smaller as the genre size increases. 
+In our data, the number of apps per genre varies signifi -
+cantly between 1,405 (Dice) and 40,704 (Puzzle). We 
+estimate the moderating effect of the number of apps in 
+the same genre. Column (2) of Table 12shows the 
+results for apps where the free version was launched 
+first, and column (3) shows the corresponding results 
+for instances where the paid version was launched first. 
+In both instances, the estimates indicate that adding an 
+additional version of an app has a smaller effect on the 
+demand for the original version when a genre com-
+prises more apps. This is in line with the mechanism 
+related to app discovery, that is apps finding it more 
+challenging to get any consumer’s attention if they are 
+among a large number of available options.34
+In sum, our results support that offering a free version 
+in addition to a paid version can enhance visibility of the 
+app and thus increase demand for the paid version.
+4.3. Relative Importance of the Two Mechanisms
+We aim to provide some insight on the relative impor -
+tance of the sampling and the discovery mechanisms. At 
+the same time, we acknowledge that any such discus -
+sion is a rough approximation. Recall that in the empiri -
+cal exploration of sampling as a mechanism, we are 
+unable to measure the precise value of vp. Instead we 
+use proxies to show that empirical patterns are aligned 
+with our predictions. For the purpose of contrasting 
+here the relative importance of sampling and discovery, 
+we focus on using an app’s average star rating prior to 
+the free version’s introduction, which we believe to be 
+the most direct proxy on sampling. We proxy discovery 
+through the number of apps in a genre.
+To assess the relative importance of sampling and 
+discovery, we present in column (4) of Table 12an esti-
+mation result that includes as independent variables 
+both star rating and its squared term (which proxy the 
+effect of sampling) and the number of apps in the genre 
+(which proxies the effect of app discovery). For an app 
+whose star rating is at the average level across all apps, 
+we calculate how a change in star rating and a change Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5035 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 20 ===
+Table 12. App Discovery
+Variablesln (number of ratings of free version 1) 
+for free-first appsln (number of ratings of paid version 1) 
+for paid-first apps
+(1) (2) (3) (4)
+T (After new version launch) ×freemium app 0.0285** 0.0747*** 0.0451***
+(0.0114) (0.0235) (0.0102)
+T ×freemium app ×number of apps in the genre (100,000) �0.228*** �0.0664* �0.0611*
+(0.0787) (0.0342) (0.0342)
+T×freemium app ×star rating prior to free version release 0.175**
+(0.0870)
+T×freemium app ×star rating prior to free version release2�0.0222*
+(0.0121)
+Other control variables (ranking, price, the total number 
+of ratings, the average star rating)Yes Yes Yes Yes
+App-app group fixed effects Yes Yes Yes Yes
+App group-day fixed effects Yes Yes Yes Yes
+Number of observations 80,944 80,944 402,733 402,733
+Number of app groups 281 281 1,594 1,594
+Adjusted R20.776 0.776 0.725 0.725
+Note. Robust standard errors clustered at app level in parentheses.
+*p D0.1; **p D0.05; ***p D0.01.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5036 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 21 ===
+in genre size would affect our key outcome variable: 
+the logarithm of the number of ratings.
+We illustrate the calculation by estimating the effect of a 
+change in one standard deviation of the variables that 
+proxy sampling or discovery. With respect to sampling, 
+the mean and standard deviation of star ratings across the 
+1,594 freemium apps in our analysis, are, respectively, 
+4.071 and 0.758. Therefore, for an app with an average star 
+rating, an increase in star ratings by one standard devia -
+tion would change the logarithm of the number of ratings 
+by 0B758×0B175�4B0 710B7582�4B0712×0B0222�0B0171. Turning to app discovery, the standard devia -
+tion of genre size (in 100,000) is 0.119. Therefore, a one- 
+standard-deviation increase in the genre size would 
+change the logarithm of the number of ratings by �0B119 
+×0B0611�0B00727. At these points, the relative share 
+of the effect size change induced by sampling is 0.0171/ 
+(0.0171 0.00727) 70%.
+To evaluate the effect of changes smaller than one 
+standard deviation, we next allow the scale of change to 
+vary from 1% to 100% of the standard deviation and 
+plot in Figure 5the changes in effect size that are 
+induced by changes in the two variables. We then plot in 
+Figure 6the relative share of the effect size change attrib -
+uted to the star rating, the variable that proxies for the 
+effect of sampling. These figures indicate that, based on 
+our proxies, at small levels of changes, the discovery 
+effect has a somewhat larger contribution than the sam-
+pling effect. However, when the changes from the mean 
+values get larger, the sampling effect contributes signifi -
+cantly more to the overall effect. On average, at least for 
+our data and the proxies for sampling and discovery 
+that we use in this study, the sampling effect appears to 
+be larger than the discovery effect because more than 
+half of Figure 6has the sampling effect contributing to 
+more than 50% of the effect change.
+We emphasize that, although this analysis sheds 
+light on the relative importance of the two mechanisms, 
+it relies on the empirical proxies for the mechanisms 
+and functional form assumptions.Figure 5. (Color online) Effect of Changes in Star Rating and 
+Genre Size 
+Figure 6. (Color online) Share of Effect Change Contributed by Star Rating 
+Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5037 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 22 ===
+5.Conclusion
+Freemium pricing has become an increasingly popular 
+business model in the digital economy. Although the 
+free version may tempt consumers to purchase the paid 
+version, it may likewise cannibalize the sales of the 
+paid version. In this paper, we aim to measure the over -
+all impact of a freemium strategy using granular data 
+on game apps available in App Store when a developer 
+offers both a free and a paid versions of the same game. 
+As app download data are not publicly available, we 
+use the number of ratings available for an app to proxy 
+app demand. We focus on apps that introduced a free 
+version after initially offering only a paid version. We 
+estimate, in a difference-in-difference framework, how 
+this free version’s introduction changed the number of 
+ratings of the paid version. We find that, on average, 
+demand for the paid version increased following the 
+launch of the free version. This result holds in a battery 
+of robustness checks and is unlikely to be an outcome 
+of other marketing actions correlated with the launch.
+We then explore the mechanisms at work. First, we 
+develop a conceptual framework for sampling of the 
+free version and the effect of sampling on purchase of 
+the paid version and put forward predictions on when 
+sampling is more effective. We then show evidence 
+from the data that is in line with these predictions, sup-
+porting that consumers use free versions to sample and 
+later upgrade to the paid versions. Second, we demon -
+strate that a new version of an app may increase the ini-
+tial version’s demand by enhancing the app’s visibility 
+(and thus its chance to be discovered). Finally, we eval-
+uate the relative importance of the two mechanisms.
+Our results are relevant for app developers and, 
+more broadly, digital firms who offer freemium pric-
+ing. First, they confirm that a freemium strategy can 
+indeed increase demand for the paid version of a prod -
+uct. At least on average, this spillover effect outweighs 
+any possible cannibalization in the market we study. 
+Second, our results indicate that a freemium strategy 
+would be more effective for products that prior users 
+evaluated as moderately good. Third, our findings sug-
+gest that to truly benefit from a freemium strategy, 
+firms need to ensure that the difference in utility for 
+consumer between the free product and the paid prod -
+uct is sufficiently high to induce upgrades. At least in 
+the market for game apps, this appears to be the case 
+when the user can have a substantially enhanced usage 
+experience by playing more levels, enjoying more fea-
+tures, or through social interaction. Fourth, we docu -
+ment that simply the fact that an additional version is 
+available can increase demand of the paid version by 
+making it easier for consumers to discover the app.
+Although the focus of our empirical analysis is on a 
+setting where the firm offers two separate versions of an 
+app, we expect that many of our results on consumers’ decisions to first access a free version and then a paid 
+version translate to other forms of freemium pricing, 
+such as when in-app purchases can be made within a 
+free app. Although the technology to implement free-
+mium pricing differs across domains and even within 
+domains changes over time, we believe that the under -
+lying economics and implications for consumers are 
+similar. In all instances, consumers can access a certain 
+set of features or levels for free or use the product for 
+free for a certain amount of time. Full access to all fea-
+tures or further usage requires payment. Our results 
+suggest that even firms that offer in-app purchases 
+should take care to design the free component of an 
+app in a way that it is still sufficiently attractive for con-
+sumers to download, even in the absence of in-app pur-
+chases, whereas at the same time, in-app purchases 
+need to provide significant additional value to incentiv -
+ize consumers to spend money.
+That said, it is likely that the respective importance 
+of the sampling and discovery mechanisms may be dif-
+ferent in a setting where “freemium” is implemented in 
+a way that in-app purchases can be made within a free 
+app. We expect the sampling effect to generally trans -
+late to such a setting. Sampling the “free version” in 
+fact should become even easier for consumers as they 
+no longer need to download a second version of the 
+app. By contrast, the discovery effect may be much less 
+important, or even absent, when only a single version 
+of the app is offered: simply because there is not a sec-
+ond version that captures consumer attention. This sug-
+gests that app developers may need to resort to other 
+strategies to direct consumer attention to their apps.
+There are several limitations to the present study that 
+represent opportunities for future research. First, we 
+focus on a specific empirical application: the market for 
+game apps during a time period when developers mar-
+keting freemium apps offered both a free and a paid 
+version, and in-app purchases within the same app 
+were less common. Our estimation results most directly 
+apply to this specific empirical setting and data period. 
+Exploring in-app purchases may widen our under -
+standing of how consumers respond to freemium offer -
+ings and of how firms should best design freemium 
+products. Second, as we lack data on app downloads, 
+we use an app’s number of ratings as a proxy for its 
+demand. Given the downward trend in rating accumu -
+lation, this approach appears conservative as it likely 
+underestimates incremental downloads as the number 
+of cumulative downloads increases. Nonetheless, using 
+a more precise measure of demand could yield more 
+precise results. Third, we focus on the short-term effect 
+of the free version introduction, as identification of a 
+long-term effect is more difficult and would be signifi -
+cantly less precise due to changes in the app itself, in 
+the market for apps and in patterns of consumer 
+demand over time. It would be interesting to explore in Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5038 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 23 ===
+future research the long-term effect of a freemium strat-
+egy while accounting for such potential shifts over time. 
+Fourth, although we provide ample evidence that corre -
+lated marketing activities are unlikely the driver of the 
+spillover effect as a rule, we cannot fully rule out that in 
+some instances firms may still have tried to support the 
+launch of a free version with marketing activities, which 
+might have had some effect on our estimates. Finally, 
+our findings related to the mechanisms are descriptive 
+instead of causal.
+Acknowledgments
+The authors thank AppMonsta for providing data on App Store 
+and Google Play; Dave Verwer for providing data on now- 
+defunct website AppReviewTimes.com; and Catherine Tucker, 
+Prasad Vana, Rob Waiser, Wei Wang, participants at the 2017 
+Marketing Science Conference, the 2017 Marketing Dynamics 
+Conference, the 2018 Berlin IO Day, and the Workshop on Per-
+ception and Public Policy at Bar Ilan University, as well as semi -
+nar participants at Cornell, ESSEC Business School, HKUST, 
+Johns Hopkins University, Peking University, SHUFE, Tsing -
+hua University, Sun Yat-sen University, UIBE, University of 
+California, Irvine, University of Southern California, University 
+of Colorado Boulder, University College London, University of 
+Cambridge, University of Mannheim, University of Toulouse, 
+Western University, Wharton and Yale for useful comments. 
+Elias Djurfeldt, Julian Hohlweg, and Lucas Weidenholzer pro-
+vided excellent research assistance. The authors are indebted to 
+the editor, associate editor, and the reviewers for their valuable 
+feedback during the review process. The usual disclaimer ap-
+plies. The authors are listed alphabetically.
+Endnotes
+1During the period we study, apps with a freemium offering typically 
+offered both a free and a paid app version of the same app. More 
+recently, firms have started to adopt another variant of freemium: they 
+offer free apps with in-app purchases. The data by AppAnnie (2015 ) 
+and Kosner (2015 ) cover both types of freemium apps.
+2See also http:/ /www.tbray.org/ongoing/When/201x/2010/07/18/ 
+How-to-run-an-App-store and https:/ /www.cnet.com/news/the- 
+mobile-app-discovery-problem/.
+3App Store provides three types of top charts: Top Free, Top Paid, 
+and Top Grossing. The Top Free chart ranks free apps. The Top 
+Paid chart ranks paid apps. The Top Grossing chart ranks all apps 
+based on total revenue. For each genre (e.g., Action, Board, Trivia), 
+there is a top free chart, a top paid chart, and a top grossing chart.
+4For these apps, the two versions may still differ along one or more 
+dimensions, but we were unable to identify the differences from our 
+data. Also, although app versions are designed endogenously, app 
+designs may not be optimal for many apps, especially those designed 
+by inexperienced independent developers. Some evidence for this is 
+that there are many discussions on Quora about what features should 
+be added into a mobile app and whether to introduce a lite version in 
+addition to the paid version, and suggestions are not always aligned 
+(e.g., https:/ /www.quora.com/How-many-levels-should-I-start-with- 
+in-a-mobile-game-I-am-about-to-create; https:/ /www.quora.com/ 
+What-features-make-mobile-app-development-unique).
+5Table A.1 in Online Appendix B reports summary statistics for the 
+paid version of freemium apps in the panel setting, which shows 
+variations both across apps and within an app over time.6This means we exclude apps where the gap between the release dates 
+of the free and paid versions was less than two weeks and those where 
+the free version was launched close to the start or the end of the data 
+period. More generally, two reasons for the smaller number of free-
+mium apps are that, at the time of our data, Google Play was still 
+smaller than App Store and that it had a greater focus on free apps.
+7Download data are confidential and only held by the platforms 
+(App Store or Google Play) and individual developers, typically 
+small firms. Third-party firms offer so-called “download data” for 
+sale but these firms do not access true download data at scale. 
+Instead, they typically build models to estimate downloads based 
+on apps’ rankings, sometimes supplemented with information on 
+release date and ratings and calibrate the models based on down -
+loads of a selection of apps. They then estimate downloads only for 
+days on which an app was ranked. Thus, these firms only offer a 
+proxy for downloads, the data are skewed to more successful apps 
+on days when they performed particularly well, and the scope of 
+such data would be too narrow as very few apps are ranked consis -
+tently across a 28- or 14-day time period, which we will require for 
+identification. As a result, such data are not useful for our purpose.
+8They also use change in the number of installations as an alterna -
+tive measure but point out that this variable is less preferred than 
+changes in the number of ratings, because the number of installa -
+tions is observed only in discrete step-size form which leads to low 
+intertemporal variation.
+9Google Play reports data for 18 download ranges: [1, 5], [5, 10], [10, 
+50], [50, 100], [100, 500], [500 1,000], [1,000, 5,000], [5,000, 10,000], 
+[10,000, 50,000], [50,000, 100,000], [100,000, 500,000], [500,000, 
+1,000,000], [1,000,000, 5,000,000], [5,000,000, 10,000,000], [10,000,000, 
+50,000,000], [50,000,000, 100,000,000], [100,000,000, 500,000,000], and 
+[500,000,000, 1,000,000,000].
+10We use the logarithm of these variables as both the download 
+range bounds and the number of ratings are skewed.
+11Liu et al. (2014 ) and Arora et al. (2017 ) circumvent these constraints 
+because of three characteristics of their empirical approaches. First, 
+their approaches do not require them to observe the free version’s 
+launch. Second, they extend their observation period until the end of 
+their data period, even if this lies many weeks or months after the 
+launch of the free version. As a result, they observe apps over a longer 
+time period and thus have more variation in download ranges. As we 
+discuss in more detail in Section 3, in our case, we are concerned that 
+such an approach would make identification of a causal effect difficult. 
+Third, Liu et al. (2014 ) focus only on apps that were ranked at least 
+once. These are obviously popular apps, suggesting that if they are fol-
+lowed over a long time period, one would observe a significantly 
+greater variation in downloads than for the majority of apps that have 
+never been ranked. Instead, we want to ensure that our results apply 
+to a broad range of freemium apps.
+12Garg and Telang (2013 ) build on this approach and calibrate the 
+relationship between app ranks and sales. Ghose and Han (2014 ) cal-
+ibrate the relationship between app ranks and sales using additional 
+data that contain rank and download information from an app store.
+13Kummer and Schulte (2019 ) demonstrate a close relationship 
+between the number of ratings and the app-ranking-based demand 
+measures, and suggest that using app rankings as the demand mea-
+sure limits the scope of the analysis because rankings are available 
+only for the most successful apps.
+14In the remainder of the paper, we simplify the language for ease 
+of exposition. When referring to the demand for the paid version, 
+we refer to demand as proxied for by the number of ratings, even if 
+we do not explicitly spell this out.
+15Because of this variation in time windows across freemium apps, 
+we allow each control app to be matched with multiple freemium 
+apps, that is we use matching with replacement. We restrict, however, Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5039 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 24 ===
+each candidate control app to be used as a control app no more than 
+ten times to ensure that the results are not driven by a small group of 
+apps.
+16As described in Section 2.6, there is a great variation in the rank -
+ing of apps. This means that many apps are ranked among the top 
+1,000 apps on one day and drop out of the list on the subsequent 
+day. However, for the purpose of the estimation, we need a com-
+plete ranking history within the window. If we were to use the win-
+dow of two weeks prior to and after the launch, the data set would 
+reduce to only 18 apps.
+17To conserve space, in Table 7and subsequent tables, we do not 
+report the estimates associated with other control variables, which 
+are qualitatively similar to those in column (1) of Table 6.
+18The effect size is lower than that in column (1) of Table 6, possi -
+bly because apps that update more frequently also differ from other 
+apps along other characteristics (such as star rating and number of 
+ratings). To explore this possibility, we calculate app updating fre-
+quency at the app-week level, and regress the average star rating on 
+update frequency, controlling for app and week fixed effects . The 
+coefficient of update frequency is positive and significant (estimate 
+0.250, standard error 0.041). Similarly, we regress the logarithm 
+of the number of ratings on update frequency, controlling for app 
+and week fixed effects. Again, the coefficient of update frequency is 
+positive and significant (estimate 2.210, standard error 0.075). 
+This pattern suggests that apps that did not update during the four- 
+week window around the free version’s introduction might be less 
+attractive to consumers, resulting in a smaller effect size compared 
+with the effect size for the entire sample. Section 4.1further dis-
+cusses how the average star rating and the number of ratings mod -
+erate the effect size.
+19The effect size is lower than in column (1) of Table 6, presumably 
+due to similar reasons that apply for column (1) of Table 8.
+20An app install ad is a mobile ad that offers a direct click to an 
+app’s page in the app store. When people click on the ad on a 
+mobile device, they will be directed to the app store to install the 
+app.
+21See https:/ /techcrunch.com/2014/11/30/like-advertising-a-needle- 
+in-a-haystack/; http:/ /www.adweek.com/digital/pinterest-is-now- 
+offering-app-install-ads-to-all-marketers-will-it-see-sales-growth-like- 
+facebook-and-google/.
+22See http:/ /www.emarketer.com/Chart/US-Mobile-App-Install- 
+Ad-Spending-2013-2015/167985.
+23Based on email correspondence with Sensor Tower’s Head of 
+Mobile Insights from June 13 to June 21, 2017.
+24See, for example, http:/ /www.appfreak.net/how-to-get-your-app- 
+into-the-new-and-noteworthy/, https:/ /growthtower.com/7-ways-to- 
+get-featured-on-the-app-store/, or https:/ /www.quora.com/How-do- 
+you-get-onto-new-noteworthy-on-the-App-Store.
+25One developer stated that “My app, called Citrus, was featured 
+once on the German iOS AppStore …. Our App Store page got around 
+50,000 views and 4,000 downloads for the week that it was up. Before 
+that we were getting about 2–4 downloads a day.” (see https:/ /www. 
+quora.com/What-is-it-like-to-have-your-app-featured-on-the-App- 
+Store). For similar evidence, see http:/ /blog.anylist.com/2012/08/ 
+app-store/. We acknowledge that, although such anecdotal evi-
+dence supports the notion that our results are unlikely driven by 
+app being featured in App Store shortly after the free version’s 
+introduction, it does not completely rule out this possibility.
+26For example, it is suggested to consider how long and how exten -
+sively a user has been using an app, such as making a request at the 
+moment when a user has finished a positive interaction, or when 
+updating the app but not immediately when an app is opened. See, for example, https:/ /www.quora.com/What-analytics-are-iOS-app- 
+developers-using-to-identify-the-best-time-to-prompt-for-a-user- 
+rating-in-order-to-generate-positive-results; https:/ /www.quora.com/ 
+Whats-the-best-way-to-ask-an-app-user-to-rate-this-app-without-berating- 
+them.
+27See, for example, https:/ /www.macrumors.com/2011/05/03/apple- 
+no-longer-accepting-app-store-reviews-for-redeemed-promo-codes/.
+28Although we take price as exogenous without modeling the app 
+developer’s pricing decision, our results hold as long as the market 
+is not saturated, that is, when the price of the paid version is higher 
+than the expected valuation for at least a fraction of consumers.
+29The consumer knowing the value of the free version, vf, but not 
+the value of the paid version, vp, is a simplification for ease of analy -
+sis. The underlying assumption is that the consumer has a more 
+accurate belief of vf than of vp that is a tighter distribution around vf 
+than around vp. By definition, the free version is a simplified version 
+of the paid version and would have a lower maximum value it 
+could possibly provide, thus leading to a tighter distribution.
+30For consumers with θFvp�pEvf, the introduction of a free ver-
+sion will not increase the paid version’s demand because the free 
+version provides enough utility so that an upgrade to the paid ver-
+sion is not justified. It is also possible that a consumer downloads the 
+free version without the intention to upgrade and then is enticed to 
+upgrade. This would happen if vf�cF0. Because EU sFvf�c, 
+when vf�cF0, the condition EU sF0 is also met. Therefore, this 
+can be considered as a special case which is in line with our 
+discussion.
+31A study by the Digital Advertising Alliance (DAA) finds more 
+than 85% of respondents prefer an ad-supported Internet instead of 
+having to pay for the content they now get for nothing (see https:/ / 
+www.consumeraffairs.com/news/survey-finds-85-of-consumers- 
+prefer-an-ad-supported-internet-051216.html).
+32See https:/ /www.forbes.com/sites/allbusiness/2013/08/15/app- 
+discovery-why-cant-anyone-figure-this-out-yet/.
+33On a high level, the question of discovery is related to research 
+which documents that music streaming services serve as an alterna -
+tive channel for music discovery, which increases downloads at 
+alternative consumption channels (Aguiar 2017 ) or recorded music 
+sales (Kretschmer and Peukert 2020 ) or increases volume and diver -
+sity of music consumption (Datta et al. 2017 ). Both their research 
+and ours argue that a wider availability may facilitate discovery 
+and thus increase sales. However, in our context we argue that 
+more variants of a product promote discovery, whereas prior 
+research focused on the number of channels that made a single 
+product available for purchase or consumption.
+34We acknowledge that if a larger choice of apps were to go along 
+with a greater value of the outside option available within App Store, 
+consumers facing a larger choice in a genre might be less likely to sam-
+ple the focal paid app. However, we do not have any empirical evi-
+dence to support that the value of the outside option (if that were 
+confined to App Store) increases with the number of apps in a genre. 
+Furthermore, it is less clear how precisely the outside option should be 
+defined here as consumers may allocate their time and money not only 
+across apps but also across other devices and means of entertainment.
+References
+Aguiar L (2017) Let the music play? Free streaming and its effects 
+on digital music consumption. Inform. Econom. Policy 41:1–14.
+AppAnnie (2015) The state of play: A look at the growth of Google Play. 
+Accessed November 15, 2022, https:/ /s3.amazonaws.com/files. 
+appannie.com/reports/The-State-of-Play-Google-IO-2015-EN. 
+pdf.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+5040 Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 25 ===
+Appel G, Libai B, Muller E, Shachar R (2020) On the monetization 
+of mobile apps. Internat. J. Res. Marketing. 37(1):93–107.
+Arora S, ter Hofstede F, Mahajan V (2017) To free, or not to free: 
+The implications of offering free versions for the performance 
+of paid mobile apps. J. Marketing 81(6):62–78.
+Bawa K, Shoemaker R (2004) The effects of free sample promotions 
+on incremental brand sales. Marketing Sci. 23(3):345–363.
+Boudreau KJ (2018) Amateurs crowds & professional entrepreneurs 
+as platform complementors. NBER Working Paper No. 24512, 
+National Bureau of Economic Research, Cambridge, MA.
+Brecko K (2022) New features free of charge? Intertemporal product 
+versions and pricing in the software market. Marketing Sci., 
+ePub ahead of print August 23, https:/ /doi.org/10.1287/mksc. 
+2022.1389.
+Chellappa RK, Mehra A (2018) Cost drivers of versioning: Pricing 
+and product line strategies for information goods. Management 
+Sci. 64(5):2164–2180.
+Chen H, Duan W, Zhou W (2017) The interplay between free sam-
+pling and word of mouth in the online software market. Deci-
+sion Support Systems 95:82–90.
+Cheng HK, Liu Y (2011) Optimal software free trial strategy: The 
+impact of network externalities and consumer uncertainty. 
+Inform. Systems Res. 23(2):488–504.
+Chevalier J, Goolsbee A (2003) Measuring prices and price competi -
+tion online: Amazon.com and BarnesandNoble.com. Quant. 
+Marketing Econom. 1(2):203–222.
+Chiou L, Tucker C (2013) Paywalls and the demand for news. 
+Inform. Econom. Policy 25(2):61–69.
+Datta H, Knox G, Bronnenberg BJ (2017) Changing their tune: How 
+consumers’ adoption of online streaming affects music con-
+sumption and discovery. Marketing Sci. 37(1):5–21.
+Dey D, Lahiri A (2016) Versioning: Go vertical in a horizontal mar-
+ket? J. Management Inform. Systems 33(2):546–572.
+Dey D, Lahiri A, Liu D (2013) Consumer learning and time-locked 
+trials of software products. J. Management Inform. Systems 30(2): 
+239–268.
+Foubert B, Gijsbrechts E (2016) Try it, you’ll like it: Or will you? The 
+perils of early free-trial promotions for high-tech service adop -
+tion. Marketing Sci. 35(5):810–826.
+Garg R, Telang R (2013) Inferring app demand from publicly 
+available data. Management Inform. Systems Quart. 37(4): 
+1253–1264.
+Ghose A, Han SP (2014) Estimating demand for mobile applications 
+in the new economy. Management Sci. 60(6):1470–1488.
+Godes D, Silva JC (2012) Sequential and temporal dynamics of 
+online opinion. Marketing Sci. 31(3):448–473.
+Gu X, Kannan PK, Ma L (2018) Selling the premium in freemium. J. 
+Marketing 82(6):10–27.
+Halbheer D, Stahl F, Koenigsberg O, Lehmann DR (2014) Choosing 
+a digital content strategy: How much should be free? Internat. J. 
+Res. Marketing 31(2):192–206.
+Heiman A, McWilliams B, Shen Z, Zilberman D (2001) Learning 
+and forgetting: Modeling optimal product sampling over time. 
+Management Sci. 47(4):532–546.
+Hoang A-P, Kauffman RJ (2018) Content sampling, household inform -
+edness, and the consumption of digital information goods. J. Man -
+agement Inform. Systems 35(2):575–609.
+Hong Y, Pavlou PA (2014) Product fit uncertainty in online markets: 
+Nature, effects, and antecedents. Inform. Systems Res. 25(2):328–344.
+Jain D, Mahajan V, Muller E (1995) An approach for determining 
+optimal product sampling for the diffusion of a new product. J. 
+Production Innovation Management 12(2):124–135.
+Kannan PK, Pope BK, Jain S (2009) Practice prize winner—Pricing 
+digital content product lines: A model and application for the 
+National Academies Press. Marketing Sci. 28(4):620–636.
+Kosner AW (2015) Apple App Store revenue surge and the rise of free-
+mium app pricing. Accessed November 15, 2022, https:/ /www. forbes.com/sites/anthonykosner/2015/01/11/apple-app-store- 
+revenue-surge-and-the-rise-of-the-freemium.
+Kretschmer T, Peukert C (2020) Video killed the radio star? Online 
+music videos and recorded music sales. Inform. Systems Res. 
+31(3):776–800.
+Kummer M, Schulte P (2019) When private information settles the 
+bill: Money and privacy in Google’s market for smartphone 
+applications. Management Sci. 65(8):3470–3494.
+Lahiri A, Dey D (2018) Versioning and information dissemination: 
+A new perspective. Inform. Systems Res. 29(4):965–983.
+Lambrecht A, Misra K (2016) Fee or free: When should firms charge 
+for online content? Management Sci. 63(4):1150–1165.
+Lee Y-J, Tan Y (2013) Effects of different types of free trials and rat-
+ings in sampling of consumer software: An empirical study. J. 
+Management Inform. Systems 30(3):213–246.
+Lee C, Kumar V, Gupta S (2017) Designing freemium: Strategic bal-
+ancing growth and monetization. Preprint, submitted July 26, 
+https:/ /dx.doi.org/10.2139/ssrn.2767135.
+Lee S, Zhang J, Wedel M (2021) Managing the versioning decision 
+over an app’s lifetime. J. Marketing 85(6):44–62.
+Li X, Bresnahan T, Yin P-L (2016) Paying incumbents and customers 
+to enter an industry: Buying downloads. Preprint, submitted 
+September 4, https:/ /dx.doi.org/10.2139/ssrn.2834564.
+Li H, Jain S, Kannan PK (2019) Optimal design of free samples for 
+digital products and services. J. Marketing Res. 56(3):419–438.
+Liang C, Shi Z, Raghu TS (2019) The spillover of spotlight: Platform 
+recommendation in the mobile app market. Inform. Systems Res. 
+30(4):1296–1318.
+Liu CZ, Au YA, Choi HS (2014) Effects of freemium strategy in the 
+mobile app market: An empirical study of Google Play. J. Man -
+agement Inform. Systems 31(3):326–354.
+Niculescu MF, Wu DJ (2014) Economics of free under perpetual 
+licensing: Implications for the software industry. Inform. Systems 
+Res. 25(1):173–199.
+Papies D, Eggers F, Wlomert N (2011) Music for free? How free 
+ad-funded downloads affect consumer choice. J. Acad. Market -
+ing Sci. 39(5):777–794.
+Pauwels K, Weiss A (2008) Moving from free to fee: How online 
+firms market to change their business model successfully. J. 
+Marketing 72(3):14–31.
+Runge J, Wagner S, Claussen J, Klapper D (2016) Freemium pricing: 
+Evidence from a large-scale field experiment. Preprint, submit -
+ted December 21, http:/ /dx.doi.org/10.2139/ssrn.2888471.
+Schoenmueller V, Netzer O, Stahl F (2020) The polarity of online 
+reviews: Prevalence, drivers and implications. J. Marketing Res. 
+57(5):853–877.
+Shoemaker RW, Shoaf FR (1975) Behavioral changes in the trial of 
+new products. J. Consumer Res. 2(2):104–109.
+Statista (2019) Worldwide mobile app revenues in 2014 to 2023. 
+Accessed July 15, 2020, https:/ /www.statista.com/statistics/ 
+269025/worldwide-mobile-app-revenue-forecast/.
+Statista (2020a) Number of available applications in the Google Play 
+store from December 2009 to September 2020. Accessed November 
+15, 2020, https:/ /www.statista.com/statistics/266210/number-of- 
+available-applications-in-the-google-play-store/.
+Statista (2020b) Number of available apps in the Apple App Store 
+from 2008 to 2020. Accessed November 15, 2020, https:/ /www. 
+statista.com/statistics/268251/number-of-apps-in-the-itunes- 
+app-store-since-2008/.
+Sunada T (2020) Consumer learning in a durable-goods environ -
+ment and profitable free trials. Working paper, University of 
+Rochester, Rochester, NY.
+Wang C, Zhang X (2009) Sampling of information goods. Decision 
+Support Systems 48(1):14–22.
+Wu F, Huberman BA (2008) How public opinion forms. Christos Papa -
+dimitriou, Shuzhong Zhang, eds. Internet and Network Economics. 
+Lecture Notes in Computer Science (Springer, Berlin), 334–341.Deng, Lambrecht, and Liu: Mobile Apps: Spillover Effects and Freemium Strategy 
+Management Science, 2023, vol. 69, no. 9, pp. 5018–5041, © 2022 INFORMS 5041 
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 13:54 . For personal use only, all rights reserved. 
+
+

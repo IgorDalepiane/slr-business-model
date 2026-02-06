@@ -1,0 +1,936 @@
+=== PÁGINA 1 ===
+How Service Offerings and Operational
+Maturity Inﬂuence the Viability of Health
+Information Exchanges
+Jiban Khuntia
+Business School, University of Colorado Denver, 1475 Lawrence St., Denver, Colorado 80202, USA, jiban.khuntia@ucdenver.edu
+Sunil Mithas, Ritu Agarwal
+Robert H. Smith School of Business, University of Maryland, 4357 Van Munching Hall, College Park, Maryland 20742, USA
+smithas@rhsmith.umd.edu, ragarwal@rhsmith.umd.edu
+Health information exchanges (HIEs) are new organizational forms in the United States that facilitate digital exchange
+of health data across participants. Many believe that these multi-sided digital platforms will become key enablers of
+the digital transformation of healthcare in the United States. However, like other entrepreneurial ventures, HIEs face chal-
+lenges to achieve operational maturity and ﬁnancial viability. Entrepreneurial ventures often fail to attain ﬁnancial viabil-
+ity due to the initial design of the business model and the inability to evolve the model over time. We focus on the
+inﬂuence of service offerings, revenue models, and their evolution on the viability of HIEs. Using a unique archival data-
+set constructed from surveys of HIEs in the United States from 2008 to 2010, we ﬁnd that providing an extensive service
+bundle may lead to higher operational maturity with the HIE’s increasing age, but this may deter the HIE’s potential to
+achieve ﬁnancial viability. The ﬁndings also show that the inﬂuence of service offerings on ﬁnancial viability is mediated
+by operational maturity. Qualitative evidence corroborates these ﬁndings and suggests that HIEs need to move from pro-
+viding a set of foundational services to offering more advanced services as they evolve and that they need to appropri-
+ately bundle the services using transaction-, subscription- or mixed-fee models. We discuss how these ﬁndings contribute
+to research at the intersection of operations management and information systems and offer important implications for
+HIEs with regard to crafting and evolving appropriate service offerings and revenue models.
+Key words: digital platforms; health information exchange; service offerings; revenue model; ﬁnancial viability; operational
+maturity
+History : Received: November 2014; Accepted: February 2017 by Subodha Kumar, after 2 revisions.
+1. Introduction
+Health information exchanges (HIEs) are a key com-
+ponent of healthcare operations and delivery that
+span multiple entities, including doctors, hospitals,
+pharmacies, and laboratories. These multi-sided dig-
+ital platforms offer the promise of streamlining
+information integration (i.e., the exchange, sharing,
+and consolidation of data from different sources)
+across players to reduce costs and improve out-
+comes in the complex U.S. health care system (Brill
+2013). Although the capability to integrate informa-
+tion is key to enabling better coordination in the
+value chain of any product or service (Devaraj et al.
+2007, Lee and Whang 2004), it is even more critical
+in healthcare settings, such as clinical operations
+and care delivery, where access and consolidation
+of shared health information enables physicians and
+hospitals to make accurate diagnoses and recom-
+mend effective treatment.Beginning with Roth and Van Dierdonck (1995),
+several studies in operations management have sug-
+gested that the tracking and exchange of information
+in health care operations, workﬂow, and delivery has
+the potential to inﬂuence critical outcomes (Anderson
+et al. 2014, Kraiselburd and Yadav 2013, Senot et al.
+2016, Zepeda and Sinha 2016). The robust exchange
+of information across health care operations and
+delivery can facilitate higher quality communication
+and coordination between different levels of care
+and among different entities (e.g., between a hospital
+and a physician’s practice). HIEs offer the promise of
+enabling critical health information to ﬂow seamlessly
+across the multitude of players involved in healthcare
+service operations and improving patients’ diagnostic
+and treatment coordination process (Demirezen et al.
+2016).
+Recognizing the value potential of information inte-
+gration across the health care sector, several HIEs and
+entrepreneurial initiatives have emerged, with the
+1989Vol. 26, No. 11, November 2017, pp. 1989–2005 DOI10.1111/poms.12735
+ISSN1059-1478| EISSN 1937-5956|17|2611|1989 ©2017 Production and Operations Management Society
+
+
+=== PÁGINA 2 ===
+goal of leveraging information technology (IT) and
+digital platforms to tackle this substantial challenge.However, new ventures are not without risk. Indeed,high rates of failure among HIE ventures have raisedquestions in practitioner and scholarly communitiesrelated to the viability of these businesses (Zhanget al. 2016). Although early venture funding andgrants may help new ﬁrms to initiate operations,
+achieving ﬁnancial viability is critical to support and
+maintain operations in the long run (Bamford et al.2000, Gilbert et al. 2006, Maffei et al. 2009). Accordingto some estimates, between 30% and 50% of new busi-ness ventures reach operational status, and evenfewer become ﬁnancially viable (Parker and Belghitar2006, Reynolds 2007). In the context of HIEs, industryreports note that despite an upward trend in opera-
+tional HIEs from 25% in 2009 to 30% in 2012, less than
+26% of all HIE initiatives have become ﬁnanciallyviable (eHealth Intiative 2012). A recent survey found106 operational HIEs in 2014, down from 116 in 2012,and only half of these operational HIEs were reportedto be ﬁnancially viable (Adler-Milstein et al. 2016).The disappointing progress of HIEs to date —coupled
+with some particularly notable and widely discussed
+failures, such as HIEs in Santa Barbara, CA, Scranton,
+PA, Seattle, WA, Washington DC, and Cleveland, OH(Conn 2007, Fischer 2012, Miller and Miller 2007) —
+point to a pressing need to understand the factorsthat inﬂuence the viability of these organizations(Demirezen et al. 2016).
+Most HIE initiatives begin with the premise that
+sharing a longitudinal view of patients, based on
+data from multiple organizations, across the care
+continuum will improve health outcomes. However,sharing data alone does not guarantee sufﬁcientclinical or ﬁnancial beneﬁts. The data need to beconverted into information that meets actionableand operational objectives. In addition, HIEs needto use the information to perform higher level func-tions and develop better operational processes that
+create value for participating organizations. For
+example, when a patient is admitted to or dis-charged from an acute care facility, an HIE can alertthe physicians involved in the care continuum (e.g.,the primary care physician, a particular specialist)and prompt the relevant parties to respond withpertinent information to the provider about thepatient’s care transitions. The provider’s operational
+and transition workﬂow with respect to the patient
+may then change accordingly —for example, rather
+than sending a patient home, it may be decided toplace the patient in a supervised nursing facility.This allows a provider to offer timely follow-up careto ensure the health of the patient, and to the extentthat the information provision is monetized, it gen-erates revenue for the HIE.Thus, although IT-based information exchange
+can make a system faster and more efﬁcient,delivering value in the form of usable data and ser-vices is the key to achieving viability for an HIE.To realize this goal, an HIE needs to evolvethrough a set of structured levels that capture howeffectively the practices and processes of an organi-zation can reliably produce required outcomes. This
+evolution, in turn, is a reﬂection of the operational
+maturity of an HIE. Similar in spirit to the capabil-ity maturity model in the software developmentcontext (see Ramasubbu et al. 2008), operationalmaturity in the HIE context shapes the capability toearn revenue through operations, along with therelated efﬁciency gains. In other words, as an HIEmatures operationally, it will be able to provide ser-
+vice offerings that generate value for stakeholders.
+To illustrate, an operational HIE might suggestpotentially useful information exchange process toimprove workﬂows in hospitals or clinics and helpthem utilize resources more effectively. An HIEcould also take a provider’s patients data, performkey analytics, and deliver summary reports to moni-tor and track health quality scores during delivery
+(Senot et al. 2016). Alternatively, an HIE could ana-
+lyze the alerts sent to a provider’s patients to learnwhether the alerts helped reduce care gaps (e.g.,timely lab tests, follow-ups). Such analytical insightshave the potential to help providers improve theirquality scores.
+Motivated by the need to better understand the via-
+bility of HIEs in particular, and IT-based new ven-
+tures in general, we approach the viability issue by
+focusing on the design and evolution of businessmodel components to explain operational maturityand ﬁnancial viability. A business model is funda-mentally a roadmap that aligns a ﬁrm’s technicalpotential with market-based revenue generationopportunities for the realization of economic value(Chesbrough 2007, El Sawy and Pereira 2013, Johnson
+et al. 2008, Osterwalder et al. 2005, Teece 2010). The
+two business elements considered in this study are (1)a service offering that helps a ﬁrm’s customers per-form a task to fulﬁll a need and (2) a revenue modelthat is the blueprint for how a ﬁrm creates revenue foritself while providing value to customers.
+The inappropriate design of business models is
+often offered as a key explanation for the failure of
+exchange-based businesses in particular, because
+poor design often results in service bundles that arenot responsive to market needs (Tong et al. 2015).Indeed, the concept of the business model is widelyinvoked in the business press, with chief executiveofﬁcers frequently alluding to their company’s busi-ness model (e.g., GE business model (Welch 2003),Dell business model (Maney 2003), Boeing business
+Khuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+1990 Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society
+
+=== PÁGINA 3 ===
+model (Bair 2008)). Despite such frequent use in prac-
+tice, with the exception of a few studies, systematicresearch on business models and the inﬂuence ofbusiness model design on ﬁrm viability is sparse (fora review, see El Sawy and Pereira 2013, Zott et al.2011).
+We pose the following research question: How
+does the evolution of service offerings and the
+revenue model inﬂuence the operational maturity
+and ﬁnancial viability of HIEs? An HIE is deemedto be viable when it achieves ﬁnancial breakeven as a
+result of the revenues earned from the servicesoffered to customers, beyond any grants or seedfunding used for initiation .We use operational matu-
+rity, or the functional and operational progress of a
+new venture through typical growth stages, as a
+second measure of viability.
+1In line with prior liter-
+ature that underscores the importance of ﬁrmsevolving in response to changing business needs andenvironments (Rindova and Kotha 2001, Zollo andWinter 2002), we investigate the inﬂuence of serviceofferings on viability, contingent on the age andmediated by the operational maturity of the HIEs.Following the operations management literature,
+which directs attention to service bundles and pric-
+ing strategies as key operational decisions (Chaseand Apte 2007, Roth and Menor 2003), we explorewhat can be learned from the experience of HIEswith respect to service bundles and revenue modelsas HIEs evolve. Our empirical analysis utilizes aunique archival dataset constructed from surveysconducted by the eHealth Initiative (see http://
+www.ehealthinitiative.org/). We also use qualitative
+insights from four HIEs to understand the role ofservice disaggregation and choice of revenue modelsat early and later stages of HIE progress.
+This study contributes to operations management
+and information systems literature by examining theevolution of components of digital business modelson the viability of ﬁrms engaged in information
+exchange and integration across various health care
+delivery channels. To the degree that HIEs arestruggling to establish themselves in a turbulentbusiness environment in a sector characterized byconsiderable upheaval and growing competition,they provide a rich empirical setting to investigatehow business model components inﬂuence the per-formance of new ventures at an early stage of
+development. Furthermore, HIEs have been identi-
+ﬁed as being critical for achieving healthcare trans-formation and are playing an increasingly importantrole in society. We also contribute to the healthcaremanagement literature by identifying key factorsthat inﬂuence the viability of organizations that areessential for improving quality and safety in health-care delivery.2. Background and Theoretical
+Framework
+2.1 Prior Literature
+Before there was widespread adoption of IT in the
+U.S. healthcare system, doctors, hospitals, and labora-
+tories exchanged patient information by sending
+paper-based records through the mail, couriers, orfacsimile communications. With the accelerated adop-tion of health information technologies (HITs), suchas the electronic medical records (Agarwal et al.2010b, Romanow et al. 2012), some have argued thatdigital information exchange can potentially increasethe value derived from HITs in the form of reduced
+costs, and improved productivity and quality (Setia
+et al. 2011), ultimately helping advance the widelysought goal of improving healthcare practice throughthe enhanced use of information systems (Feldmanand Horan 2011, Unertl et al. 2012).
+However, healthcare entities have concerns about
+data sharing and exchange. For example, hospitalsare often unwilling to share data due to competitive
+reasons, and individual physicians are reluctant to
+share data to avoid the complexities involved withdata digitization and exchange (Grossman et al. 2008,Sherer 2010). While such concerns might plausiblydeter the active participation of certain entities in vari-ous HIE initiatives and retard the growth of HIEs, oneexplanation for the less-than-stellar progress of HIEsis that they been unable to construct the correct busi-
+ness model. Indeed, the strategy literature invokes the
+business model as a key construct for explaining ﬁrmsurvival and performance (Chesbrough 2007, Teece2010). Prior studies suggest that business modelscan help deﬁne new organizational structures andcustomer-centric value propositions to achieve com-petitive advantage (El Sawy and Pereira 2013, Oster-walder and Pigneur 2010, Shafer et al. 2006), thereby
+enabling the viability and success of the ﬁrm.
+There is some disagreement in the literature about
+the signiﬁcance of business models for new ventures,partly due to lack of a widely accepted deﬁnition ofwhat constitutes business model, and how it is differ-ent from related terms such as strategy or revenuemodel (El Sawy and Pereira 2013). Some researchersclaim that the growth and success of new organiza-
+tions is largely attributable to the crafting of appropri-
+ate business models during the planning stage(George and Bock 2011, Hedman and Kalling 2003),while others argue that business models are simplydemonstration activities to satisfy investors and pro-moters (Lange et al. 2007). Researchers point to incon-clusive empirical results pertaining to the inﬂuenceof business models on ﬁrm success (Gruber 2007,
+Karlsson and Honig 2009), underscoring the need for
+further work on this relationship. In a review ofKhuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society 1991
+
+=== PÁGINA 4 ===
+existing literature on business models, Zott et al.
+(2011) note that very few studies have conducted rig-orous empirical investigations of the components ofbusiness models on ﬁrm viability, and almost nonehave explored the impact of business model evolutionduring early venture stages on viability. This studyseeks to address this gap in the extant literature tounderstand the relationship between business models
+and ﬁrm viability in the context of an emerging digital
+business.
+2.2. Hypotheses Development
+We build on Teece’s (2010) arguments to suggest that
+the customer value proposition instantiated in serviceofferings and the revenue model will inﬂuence theﬁnancial viability and operational maturity of HIEs.
+The former outcome reﬂects the extent to which the
+ﬁrm is able to generate revenue that is greater than itscosts (i.e., if the HIE has achieved ﬁnancial breakevenas a result of operational revenue), and the latterreﬂects the progress of the ﬁrm through differentstages, independent of its ﬁnancial achievements.
+2
+Prior research suggests that a business model is not astatic construct. McGrath (2010, p. 248) argues that
+“business models often cannot be fully anticipated in
+advance. Rather, they must be learned over time.”Other work reinforces the dynamic nature of businessmodel evolution that occurs through learning andexperience in response to the changing environmentand customer needs (Rindova and Kotha 2001, Zolloand Winter 2002). Experimentation and learning arearguably even more critical for entrepreneurial ven-
+tures that seek to create a new market and fulﬁll a
+new customer need that previously did not exist inthe environment.
+We contextualize these ideas in the HIE setting and
+investigate the moderating effects of HIE age on therelationship between business model componentsand ﬁnancial viability. In addition, we argue that theeffects of business model components on ﬁnancial
+viability are mediated by operational maturity. Note
+that age and maturity are two different concepts here.Age of a ﬁrm captures the number of years of exis-tence since initiation, whereas operational maturityreﬂects the organization’s evolution of outcomes withrespect to achieving speciﬁc goals. In other words,while age provides a time-dependent learning effectfor a ﬁrm to identify and leverage service and revenue
+opportunities, higher levels of operational maturity
+reﬂect a ﬁrm’s ability to respond to environmentalconditions and changes and position its services andrevenue opportunities appropriately to improveﬁnancial performance.
+Deciding what to bring to market (i.e., the ﬁrm’s
+products or services) is arguably the most criticalaspect of the ﬁrm’s business model. We consider ﬁveservice offerings that are central to HIEs’ mission,
+and are aligned with the meaningful-use criteria for-mulated by the U.S. federal government to stimulatethe adoption and use of electronic health records(EHRs) by eligible professionals and hospitals (Blu-menthal and Tavenner 2010, Hogan and Kissam2010): (1) connectivity to EHRs, or the HIE’s capabil-ity to connect to hospitals, physicians, and clinics; (2)
+exchange of health summaries for continuity of care,
+which enables customers to access patients’ priorclinical information (medication history, eligibilityinformation, lab history, immunization history andclinical care documents) through the HIE interface;(3) electronic prescribing (e-prescribing) functionwhich transmits prescription-related informationdigitally between prescribers, dispensers, and phar-
+macy managers through the HIE; (4) alerts to health-
+care professionals regarding medication warnings,allergies, drug interactions, adverse side effects, andpublic health-related announcements, which helpsincrease safety in healthcare delivery; and (5) clinicaldecision systems to record, exchange, and access allpertinent clinical information during various proce-dures and regimens of patient treatment. These ﬁve
+service offerings can enable the HIE to offer a richer
+portfolio of services in the future by implementingadditional functionalities such as a clinical datarepository, a master patient index, a record locatorservice, telemedicine, medication management, anddisease or immunization registries (Overhage et al.2005, Vest and Jasperson 2010). Providing all the ser-vices in the initial periods may not be feasible for all
+HIEs (Vest and Gamm 2010), and as such, there is
+signiﬁcant variation in offerings across differentHIEs even when we consider the ﬁve servicesmentioned above.
+2.2.1. Service Offerings, Viability, and the Age
+of HIE. A service bundle that is aligned with market
+demands can help the HIEs generate revenue
+(Hayward et al. 2007, Vest and Gamm 2010). Thus,
+we expect a positive association between the exten-siveness of service offerings (i.e., the number of ser-vices) and operational maturity. The importance ofservice offerings for operational maturity and viabil-ity is illustrated in the case of the failure of Santa Bar-bara County Care Data Exchange in California. Millerand Miller (2007) write that the “lack of a compelling
+value proposition” was the main cause of the Santa
+Barbara project’s demise: the decision makers in theproject were not focused on offering “value proposi-tions from utilizing data from multiple sources forimproved population health services or more effectivepay-for-performance incentives, or from providingconsumers with electronic data and software servicesthat could begin to turn patients’ data ownership andKhuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+1992 Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society
+
+=== PÁGINA 5 ===
+care self-management into more than industry
+buzzwords” (p. w578).
+Although isolating an association between exten-
+siveness of service offerings and ﬁnancial viability ofHIEs would be informative by itself, our focus is onan arguably more important unanswered questionrelated to how the evolution of service offerings inﬂu-
+ences the viability of HIEs. We posit that age, a proxy
+for the ﬁrm’s absorptive capacity, conditions the
+effects of number of service offerings and their speci-ﬁc conﬁgurations on HIE viability. Absorptive capac-ity has been deﬁned as “a ﬁrm’s ability to recognizethe value of new information, assimilate it, and applyit to commercial ends” (Cohen and Levinthal 1990,p. 128). This is particularly relevant in the U.S. health-care context, which is rapidly undergoing signiﬁcant
+transformations triggered by changes in technology,
+customer expectations, and regulations. Policy initia-tives such as the Health Information Technology forEconomic and Clinical Health (HITECH) Act of 2009and the Patient Protection and Affordable CareAct (PPACA) of 2010 are changing the nature of com-petition and are increasingly requiring healthcareproviders to modify their delivery practices. This
+ever-changing environment requires a ﬁrm to use its
+learning and absorptive capacities to respond to theseexternal conditions (Cohen and Levinthal 1990, Laneand Lubatkin 1998). Studies argue that acquiringabsorptive capacity is a dynamic process that unfoldswith a ﬁrm’s evolution over time. Through the evolu-tion process, a ﬁrm learns to manage its interactionswith partners and customers for greater value cre-
+ation, and accordingly changes its strategic behavior
+to reduce uncertainties associated with the valuecreation process (Zollo and Winter 2002).
+Because the value proposition of HIEs in the U.S.
+healthcare setting is not clearly established, the learn-ing process over time is likely to play an importantrole in their maturity. Evidence suggests that HIEs arestill experimenting with and transforming their oper-
+ational strategy to better align with varying customer
+needs, and they are still learning how to best orienttheir resources and capabilities for optimal valuecreation. This is true in any nascent market in whichcustomer needs and product/service offerings co-evolve with each other. For example, early HIEs hadperceived EHR connectivity to be the best and sim-plest process for data exchange and therefore focused
+on improving their EHR integration capabilities. Sub-
+sequently, HIEs learned that EHRs could be costlypropositions for physicians (Shapiro et al. 2007) andbegan to explore alternatives for data exchange.
+Over time, customers participating in HIEs have
+demanded a wider and richer service portfolio thanwas initially expected by many of the early HIEs (Vestand Jasperson 2010). Many early HIEs expendedsubstantial time and effort on technology evaluations
+at the expense of focusing on community buy-in,stakeholder relationships, data sharing agreements,and operational processes. Although new HIEs havethe opportunity to learn from the mistakes and expe-rience of older HIEs, enacting the learning requires a
+certain degree of maturity on the part of the newHIEs. Convincing HIE stakeholders to participate and
+pay for data exchange and other services involves
+understanding stakeholders’ needs and meeting themwith an appropriate service offering (Zhang et al.2015). Not only does age reﬂect the number of yearsan HIE has been in existence, it is also a proxy for thetime it takes to develop an improved ability to under-stand customers’ circumstances and environmentalchanges. The adoption of strategies to meet the needs
+of the environment and its related dynamics requires
+preparedness on the part of the ﬁrm. We suggest thatalthough information may be available, a ﬁrm’s abil-ity to grasp and digest the information and act on it isdependent on its age. Due to their experience, olderHIEs are poised to more effectively learn to bundleand structure their service offerings to provide differ-ent options to different customers (e.g., a fully loaded
+service bundle for hospitals and a less extensive
+service option for physicians). Older HIEs also havehad more opportunities to receive feedback fromcustomers and further reﬁne their services. This maynot be the case for a relatively younger HIE that doesnot have complete knowledge of customers’ evolvingneeds. Thus, we argue that with age, extensiveness ofservices is likely to have a stronger association with
+operational maturity. Formally, we hypothesize the
+following:
+H
+YPOTHESIS 1.The inﬂuence of number of service offer-
+ings on the operational maturity of an HIE is ampliﬁedby its age.
+2.2.2. The Effect of Service Offerings on Financial
+Breakeven, Mediated by Operational Maturity. The
+operational maturity of an HIE reﬂects its functionalprogress. As ﬁrms advance through different stagesafter initiation, their operational processes, functionalspecialization, and decision-making characteristicschange with their growth. The progression enables aﬁrm to acquire distinct capabilities, skills, and exper-
+tise in managing both operations and technology. The
+development of decision-making structures helps theﬁrm address issues related to implementation andprogress toward commercial operations (Gilbert et al.2006, Liao and Welsch 2008). For example, startingcommercial operations requires managers to translatea conceptual business plan into actionable goals. Sta-keholder collaborations can facilitate access to a widerKhuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society 1993
+
+=== PÁGINA 6 ===
+customer base and help the HIE acquire customers
+that can pay for its services. Operational progresshelps the ﬁrm develop capabilities to convertresources into products or services and further honeits skills in customer acquisition and management,which are crucial for revenue generation (Hult et al.2017). A more advanced stage of operational maturityreﬂects increased functional specialization and exper-
+tise, and signals that considerable organizational
+learning has occurred. Collectively, these accomplish-ments aid the entrepreneurial ﬁrm in leveraging itsresources and capabilities more effectively.
+We posit that operational maturity mediates the
+relationship between business model components andﬁnancial viability, because functional progress andcapabilities enable an HIE to provide more efﬁcient
+services and earn revenue. A counter-argument could
+be made that ﬁnancial breakeven provides the lever-age to achieve operational maturity. However, we ruleout this counter-argument for two reasons. First,higher operational maturity is attained only when theHIE develops the necessary capabilities to convertresources into products or services. Along withresources, capability development depends on trained
+manpower, efﬁcient processes, and business orienta-
+tion, which in turn will steer the HIE toward revenuegeneration. Second, the resources needed to achievefunctional and operational progress can be raised frominitial funding, grants, or support from a hospital sys-tem and may not require cash ﬂow from the HIE’s rev-enue. Although ﬁnancial viability can help mobilizeresources for the development of capabilities to some
+extent, it is not a necessary precursor for the develop-
+ment of expertise to manage technology or the abilityto reach out to a wider customer base.
+We argue that without reaching a more advanced
+operational maturity stage, an HIE cannot provideservices, earn revenue from the services, and achieveﬁnancial breakeven from its earnings. In other words,readiness to provide services and the potential to earn
+revenue from these services enable the HIE to be
+operationally active. As an HIE progresses along thematurity continuum, it becomes better positioned toachieve ﬁnancial viability. Thus, we hypothesize:
+H
+YPOTHESIS 2.The inﬂuence of number of service offer-
+ings of an HIE on ﬁnancial breakeven is partiallymediated by its operational maturity.
+We consider two additional factors that are likely to
+inﬂuence maturity or ﬁnancial viability of HIEs. First,we explore the role of basic vs. advanced services. Inaddition to the effect of service extensiveness or thenumber of service offerings, a more nuanced view ofHIE evolution requires further disaggregation amongdifferent types of services. Operations managementliterature suggests that a ﬁrm faces the challenge of
+either constraining its service focus or providingdiversiﬁed services (Roth and Menor 2003, Voss et al.2008). Providing a large number of services may notbe effective, unless a ﬁrm learns over time how todiversify its service portfolio, to focus on a set of basicservices, or to provide progressively enriched ser-vices. We explore the effect of this disaggregated
+notion of services for HIEs with qualitative examples
+from four HIEs, using a broad classiﬁcation of foun-dational and advanced services. Because the primaryfunction of an HIE is to provide capabilities related todigital data exchange (i.e., the exchange of basicpatient health summaries, such as laboratory records,imaging results, demographics, medication lists, dis-charge summaries, problem lists, and physician notes
+for a patient) across participating entities, we classify
+EHR connectivity and health summaries as founda-tional services. Advanced services are those thatrequire the HIE to make deeper investments and maynecessitate substantial workﬂow changes, such ase-prescribing, alerts to providers, and clinical decisionsystems. E-prescribing predominantly addresses theneeds of pharmacies and helps avoid the overhead of
+callbacks to physician ofﬁces to clarify illegibility,
+inconsistencies, or formulary adherence of handwrit-ten prescriptions (Grossman et al. 2012, Ilie et al.2009). This functionality has been in existence sincethe Medicare Modernization Act of 2003. However,an HIE needs to make the advanced provisionsand connect to pharmacies through operationalworkﬂows to provide this service. Likewise, alerts to
+providers and clinical decision systems require
+investments by consumers and widespread workﬂowmodiﬁcations. We suggest that foundational serviceshave higher value potential in the initial years of anHIE’s operation. With the progress of time, for anincumbent HIE, the demand from customers to pro-vide advanced services will intensify as customersprogressively and incrementally learn to generate
+value from advanced services. Subsequently, we will
+discuss service offering disaggregation and evolutionusing the qualitative insights from four HIEs.
+Second, we explore how an HIE’s revenue model
+may be associated with its viability. We recognize thatan HIE can monetize its services through two primaryrevenue models: (1) a transaction-based model, whichinvolves charging a fee for a unit of data or informa-
+tion exchanged (e.g., a fee per laboratory report), and
+(2) a subscription-based model that levies a recurringfee for a speciﬁed volume of transactions per period.Subscriptions are convenient for customers to avoidmultiple low-value transactions (Danaher 2002) andmay secure a constant revenue stream from the custo-mer base and generate recurring cash ﬂow throughthe continuous or automatic renewal process (DoverKhuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+1994 Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society
+
+=== PÁGINA 7 ===
+and Murthi 2006). Transaction fee-based revenue
+models can be structured to generate marginallyincreasing revenue, based on the volume of transac-tions. In contrast, the subscription fee-based model isbetter able to ensure a constant revenue stream withsmall volumes of transactions. However, during anHIE’s initial stages, when it offers a minimal numberof services, customers are unlikely to be willing to
+commit to the subscription model (Demirezen et al.
+2016). In this situation, a transaction-based revenuemodel, where “what you pay for is what you get,”may be more attractive. In addition, the transactionvolume of data exchange with a customer is a signiﬁ-cant driver of a subscription bundle. Low transactionvolumes in the initial years may not require subscrip-tion models, but if a customer begins to generate a
+larger volume of requests for foundational services,
+then the subscription model could become moreappealing. Alternatively, a customer might avoid asubscription-based pricing model when interfacingwith a less established HIE to minimize the risk of notreceiving adequate and consistent value.
+Although the foregoing reasoning may suggest that
+a transaction-based revenue model is associated with
+lower viability in early stages and higher viability in
+later stages, we do not posit a directional hypothesisbecause customers may still prefer a subscription-based revenue model due to the relative ease ofadministration. Given the lack of theoretical orempirical work in this area, we do not formalize anya priori expectations. Instead, we explore how the
+choice of revenue model inﬂuences the viability of the
+HIE, contingent on its age, as an empirical question.
+As with basic and advanced services, we discuss thechoices and evolution of revenue models using quali-tative insights from four HIEs.
+3. Method
+3.1 Data and Variables
+We obtained the archival data used for our empirical
+analysis from annual surveys conducted by theeHealth Initiative or eHI (for the survey questionnaireand coding scheme used in this study, see Appendix).The eHI is a non-proﬁt organization with a mission todrive improvement in the quality, safety, and efﬁ-
+ciency of healthcare through IT. We use a pooled
+dataset for 3 years of the survey, from 2008 to 2010 forthis study. The eHI survey covers almost the entirepopulation of known HIEs in the United States, and isone of the best available datasets to answer the ques-tions posed in this study.
+The survey is conducted during the May –June period
+each year. Responses to the survey are self-reported
+by participants. The survey is comprehensive in that
+it seeks to include every HIE initiative across thecountry. Respondents are typically senior employees
+of the HIEs, such as chief information ofﬁcers, chiefexecutive ofﬁcers, program heads, IT heads, andother senior executives. The eHI validates the surveyin several ways, such as calling HIE employees orusing secondary data available from other sourcesregarding HIE progress. The survey also has veryhigh response rates, usually in 80 –85% range; for
+instance, in 2010, 198 responses were obtained from
+234 HIE initiatives.
+Although the eHI obtained responses from 480 enti-
+ties involved in health information exchange from2008 to 2010 (198 in 2010, 152 in 2009, and 130 in2008), many of these entities were involved in plan-ning or administrative activities only. For example,some respondents are State Designated Entities that
+were established as quasi-governmental organiza-
+tions to coordinate and develop statewide plans forthe HIE activities. In addition, some respondents didnot provide complete information on variables ofinterest in this study. We excluded incompleteresponses, duplicates, or responses from organiza-tions not directly involved with health informationexchange. The usable sample for the empirical analy-
+sis was 106 HIEs: 33 in 2008, 35 in 2009, and 38 in
+2010. In addition, 13 HIEs in the usable dataset havereported data for all the 3 years, and 13 HIEs havereported data for any 2 years.
+Table 1 provides a description of variables we used
+in this study, Table 2 presents descriptive statisticsfor the 3-year pooled data, and Table 3 shows pair-wise correlations among the variables. We used the
+variable ﬁnancial breakeven ( FINBRKEVN ) as the
+measure for ﬁnancial viability, which indicateswhether the HIE has achieved ﬁnancial breakeven asa result of operational revenue, primarily fromincome related to the sale of data exchange-relatedservices. We use operational maturity ( OPRMAT )a s
+the second dependent variable to measure the growthof HIEs on a scale of 1 –7, following the HIE growth-
+stage model developed and used by the eHI to moni-
+tor the progress of HIEs in the United Stated.
+The extensiveness of service offerings ( SERVI-
+CEOFFR ) is a summative score of the ﬁve services that
+HIEs offer: EHR connectivity, health summaries,e-prescribing, alerts to providers, and clinical decisionsystems. To explore the impact of the revenue model,we created the binary variable TRANSREV , which
+takes a value of 1 if the HIE is offering only a transac-
+tion fee-based revenue model. We include age of theHIE ( AGE) and its interactions with extensiveness of
+service offerings and revenue model to study theeffect of service and revenue model evolution onﬁnancial viability. We measure SIZE of the HIEs with
+a variable that estimates the number of physiciansthat are likely to access the HIE.Khuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society 1995
+
+=== PÁGINA 8 ===
+The age of the HIEs ranges from 1 to 10 years. In
+the sample of HIEs we use, average size, as measuredby number of participating physicians is 2330, with amaximum of 20,000 participating physicians. Thetime taken to become operational varies from 1 to10 years.
+3.2. Estimation Models and Analyses
+We used econometric estimation models appropriate
+for the nature of the dependent variable; speciﬁcally,we used ordered probit estimation for the intervalscale variable of operational maturity ( OPRMAT ) and
+probit estimation for the binary variable ﬁnancialbreakeven ( FINBRKEVN ).
+We use ordered probit estimation for the ordered
+dependent variable OPRMAT, because this approach
+does not assume equal intervals between levels of the
+dependent variable. This allows for the possibility ofdifferent levels of effort required to progress from onestage of the operational maturity model to another.The ordered probit model is given by the following
+speciﬁcation:
+Y
+/C3
+i¼bXiþei; ð1Þ
+where Y/C3
+iis the propensity of respondents to indi-
+cate higher levels of OPRMAT ,Xiis a set of
+explanatory variables, bis a vector of parameters,
+and eiare disturbances.
+We do not observe Y/C3
+i;instead, we observe the ordi-
+nal dependent variable Yj,j=1, 2, ...,m, depending
+on the values of thresholds or cutoff points aj–1and aj
+as follows:
+Yi¼jifaj/C01\Y/C3
+i\aj;
+where ajare constants with a0=/C0/,am=+/, and
+a0<a1<...<am. The probability distribution of Yi
+is given by the following:
+Probability ðYi¼jjXiÞ¼U½aj/C0b0Xi/C138/C0U½aj/C01/C0b0Xi/C138;
+ð2Þ
+where, Φdenotes the cumulative normal distribu-
+tion function.
+The probit estimation for the binary variable ﬁnan-
+cial breakeven ( FINBRKEVN ) is speciﬁed by the fol-
+lowing equation:
+Prob ðY0¼1Þ¼Uðb0XiþeiÞ; ð3Þ
+where, Y0is the dependent variable with a value
+of either 1 or 0, Xiis a set of explanatory variables,
+b0is a vector of parameters, eiare disturbances, andTable 1 Description of Variables
+Financial breakeven ( FINBRKEVN) Whether the HIE has achieved ﬁnancial breakeven as a result of operational revenue
+1=if the HIE has achieved ﬁnancial breakeven, 0 =otherwise
+Operational maturity (OPRMAT) The stage of operational maturity of the HIE, from stages 1 to 7 as per the maturity model developed
+for HIEs. The stages are: 1 =HIE initiation, 2 =structure formation, 3 =plan formulation, 4 =plan
+implementation, 5 =technology operation, 6 =commercial operation, 7 =operational collaborations
+Number of Service offerings (SERVICEOFFR) Number of services offered by the HIE, out of the ﬁve main services: EHR connectivity, health
+summaries, electronic prescribing, alerts to providers, and clinical decision systems
+Transaction-based revenue model (TRANSREV) To support ongoing operations, whether the HIE is charging only transaction fees to clients
+1=only transaction fee based revenue model, 0 =other models
+Age of HIE (AGE) The age of the HIE in number of years
+HIE size (SIZE) Size of the HIE measured by the estimated number of physicians who have access to the network
+enabled by the HIE, in 1000 units
+Time taken to be operational (OPRN_TIME) Number of years taken by the HIE to reach operational status
+Table 2 Descriptive Statistics
+Variables Observations Mean SD Min Max
+1 FINBRKEVN 106 0.50 0.50 0 1
+2 OPRMAT 106 5.85 1.04 3 7
+3 SERVICEOFFR 106 2.86 1.42 0 5
+4 TRANSREV 106 0.07 0.25 0 1
+5 AGE 106 5.52 2.40 1 10
+6 SIZE 106 2.33 3.14 0.01 20
+7 OPRN_TIME 106 4.13 2.74 1 10
+Table 3 Pairwise Correlations Among Variables
+Variables 123456 7
+1 FINBRKEVN 1.00
+2 OPRMAT 0.49 1.00
+3 SERVICEOFFR 0.29 0.24 1.00
+4 TRANSREV 0.11 0.11 /C00.03 1.00
+5 AGE 0.12 0.30 0.04 /C00.03 1.00
+6 SIZE 0.33 0.29 /C00.04 0.26 0.11 1.00
+7 OPRN_TIME /C00.35 /C00.25 /C00.07 /C00.03 /C00.16 /C00.06 1.00
+Note : All correlations greater than 0.20 are statistically signiﬁcant at p<0.01.Khuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+1996 Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society
+
+=== PÁGINA 9 ===
+Φdenotes the cumulative normal distribution func-
+tion. In all estimation models, we use the 3-yearpooled data of the HIEs. To account for multipleobservations from the same HIEs over time, wereport the estimated coefﬁcients with cluster-adjusted standard errors of the models to considerthe adjustments for within-cluster correlation of thesame HIEs across the 3 years.
+4. Results
+The results of the estimation models appear in
+Table 4. We ﬁnd support for Hypothesis 1; theinteraction between the extensiveness of serviceofferings (i.e., number of services offerings) and age(SERVICEOFFR 9AGE) is positive and signiﬁcant in
+the operational maturity model (see Column 1,
+Table 4: b= 0.050, p< 0.1). This result suggests that
+as age increases, the extensiveness of service offeringshas a stronger effect on operational maturity.Although not hypothesized, we ﬁnd that the interac-tion between AGE andSERVICEOFFR is negative and
+signiﬁcant (see Column 2, Table 4: b=/C00.570,
+p< 0.1) in the ﬁnancial breakeven model, suggesting
+that with age, the inﬂuence of number of service offer-
+ings on ﬁnancial breakeven decreases.
+Following Baron and Kenny (1986), we ﬁnd support
+for the mediation hypothesis (Hypothesis 2). Opera-tional maturity is signiﬁcant and positively associatedwith ﬁnancial breakeven (see Column 3, Table 4:b= 0.651, p< 0.01).
+We also ﬁnd that the interaction term TRANSREV 9
+AGE is negative and signiﬁcant in the ﬁnancial break-
+even model (see Column 3, Table 4: b=/C00.623,
+p< 0.1). This result suggests that as time progresses,
+a transaction-based revenue model may not help theHIE achieve ﬁnancial breakeven. Among other ﬁnd-
+ings, the coefﬁcient of the SIZE variable is signiﬁ-
+cant and positive in all the models, indicating thatSIZE of the HIE inﬂuences ﬁnancial breakeven,
+likely through higher participation and revenueearning potential. The variable OPRN_TIME is nega-
+tive and signiﬁcant in the ﬁnancial breakeven mod-els, suggesting that being operational for a longer
+time does not necessarily help the HIE to achieve
+ﬁnancial viability.
+As noted previously, we also performed a qualita-
+tive analysis of the progress of four well-known HIEsfrom publicly available reports and websites to deriveadditional insights. These four HIEs are: (1) IndianaHealth Information Exchange (IHIE), (2) Health-Bridge, (3) Delaware Health Information Network
+(DHIN), and (4) Colorado Regional Health Informa-
+tion Organization (CORHIO).
+3
+We explore the conﬁgurations for service bundles
+(i.e., foundational and advanced) and fee models (i.e.,transaction-based and subscription-based models) atboth early and later stages of the exemplary HIEs. Theinformation gleaned from this type of analysis canprovide valuable direction for other HIEs seeking
+insight into how to best formulate their service bun-
+dles and revenue models. As we noted previously,while foundational services such as EHR connectivityand the exchange of health summaries can attractdiverse customer segments and generate revenue inthe early years, a lack of readiness among stakeholdersto accept the changes needed for advanced servicesmay make these services less appealing for revenue
+generation. Indeed, the ﬁnancial incentives associated
+with meaningful-use criteria for EHRs require physi-cians and hospitals to be able to exchange health infor-mation and summaries, and therefore the willingness
+Table 4 How Service Offerings, and the Age of HIE, inﬂuence Operational Maturity and Financial Viability
+(1) (2) (3)
+Ordered Probit Probit Probit
+Operational maturity (OPRMAT) Financial breakeven (FINBRKEVN) Financial breakeven (FINBRKEVN)
+SERVICEOFFR 9AGE 0.050* (0.036) H1 Supported /C00.570* (0.449) /C00.861* (0.546)
+Operational maturity (OPRMAT) 0.651*** (0.205) H2 Supported
+TRANSREV 9AGE /C00.379 (0.400) /C00.623* (0.411)
+Number of service offerings
+(SERVICEOFFR)/C00.057 (0.204) 1.073*** (0.440) 1.233*** (0.576)
+Transaction only revenue model
+(TRANSREV)0.473 (0.461) 0.709* (0.482)
+Age of HIE (AGE) /C00.059 (0.122) 0.454 (0.379) 0.502 (0.419)
+SIZE 0.157*** (0.053) 0.214*** (0.071) 0.173** (0.075)
+Observations 106 106 106
+Chi-square 42.02*** 40.28*** 33.65***
+Notes : Standard errors in parentheses. Standard errors adjusted for 67 clusters in models. Signiﬁcance levels: *** p<0.01, ** p<0.05, * p≤0.1 with
+single-tailed pvalues. Models contain intercepts. Model 1 includes dummies for operational time while Models 2 and 3 include a continuous variable for
+operational time for parsimony.Khuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society 1997
+
+=== PÁGINA 10 ===
+to pay for foundational services would be high for a
+majority of HIE customers. Similarly, the transaction-based revenue model may be associated with lowerviability in early stages and higher viability in laterstages, while a subscription model may be moreappropriate for later stages to bundle and structuremore advanced services as service conﬁgurations(Demirezen et al. 2016).
+We begin our qualitative analyses with IHIE (www.
+ihie.org). Launched in 2004 with the objective to con-nect healthcare providers in the state of Indiana, IHIEhas become the ﬁrst successful HIE. During its forma-tive years, IHIE offered a minimal service of sharing afew elements of patient records with participatingdoctors and hospitals through a secure network; inother words, it started with one foundational service.
+The sustainability strategy of IHIE was based on the
+principle “to support the concept of service evolution
+and operational maturity ” (Overhage 2009). Over time,
+IHIE offered a growing portfolio of advanced services(which IHIE referred to as “value-added services”) tovarious stakeholders, including exchange of currentdata about admissions, discharges, and transfers, andhad a strong collaboration with health plans and
+accountable care organizations to help them realize
+the value potential of participating in the HIE, forexample, such as helping reduce non-urgent emer-gency department visits (AHRQ 2014a). Over time,IHIE grew from 12 hospitals in the center of the statewith approximately 5000 physicians, to 106 hospitals(out of 126 in the state) and more than 14,000 physi-cians throughout Indiana (AHRQ 2014b).
+IHIE was grant-funded to create a clinical reposi-
+tory, which was used as a starting point for theexchange. The revenue model in the beginning was asmall service, or transaction, fee. In later years, IHIEtransitioned its repository services to a fee-basedservice that linked clinical messaging and repositoryservices into bundled services and offered these bun-dles to hospitals and health systems with fees in
+proportion to their business volume (Weaver 2012).
+The current fee structure is a layered monthly sub-scription-based model, where charges range by thetype and volume of service and are paid by healthcare providers, physician ofﬁces, and medical institu-tions. Thus, over time, IHIE moved from foundationalto advanced services and evolved the structure of itsservice offering from initial fee-based models to more
+sophisticated and ﬂexible subscription-based models.
+In addition, a collaboration plan with providersacross Indiana provided IHIE enough stakeholderbuy-in to pay for its services and achieve ﬁnancialviability.
+The second HIE we examine is HealthBridge
+(www.healthbridge.org). Located in Cincinnati, OH,HealthBridge was founded in 1997 as a non-proﬁtentity. HealthBridge started with a $1.75 million loan
+from community stakeholders and evolved to becomeone of the nation’s largest and most successful self-funded HIEs by combining different strategies, suchas a low-cost, straightforward implementation, andhybrid revenue models (Grossman et al. 2008).HealthBridge claimed to save $0.41 per report byeliminating paper-report delivery (NASCIO 2011).
+HealthBridge started with only patient data access
+(e.g., a foundational service) and then graduallyoffered more value-added and advanced services,such as patient health records, aggregation and ana-lytical data capabilities, and quality improvementprojects. In terms of its revenue model, HealthBridgehas evolved to offer a hybrid approach (McCarthyet al. 2014). Currently, it does not charge any fees for
+clinician access to data and has designed a mix of
+subscription-based and transaction-based revenuemodels to achieve sustainability. In addition, it pro-vides a set of premium services (e.g., transcription,billing, quality advising) using a differential pricingscheme. In recent years, HealthBridge earned approx-imately 85% of its operational revenues from sub-scription fees charged to health systems using the
+exchange, with the remaining 15% obtained from fees
+paid by users for premium electronic HIE services(Weaver 2012). The HealthBridge example supportsour assertion that HIEs need to start with low-cost,straight forward services in their early years, and thenevolve to offer bundles of advanced services that arepackaged according to different fee structures, con-sisting of a hybrid model of subscription- and transac-
+tion-based revenue streams.
+DHIN (www.dhin.org) is our third example of a
+viable HIE. Initiated in 1997 under a public –private
+partnership model, DHIN was heavily dependent ongrant funding (i.e., $5 million grant from the state ofDelaware, $5 million from the federal government,and a $2 million matching grant from the private sec-tor) (Weaver 2012). DHIN data exchange operations
+went live in 2007, and it became the ﬁrst operational
+statewide HIE in the country. Since that time, DHINhas expanded the types and sources of clinical infor-mation available to meet the needs of Delaware’shealth care community. The service bundles evolvedfrom initial simple access to patient charts (i.e., foun-dational service) to the subsequent implementation ofa program to exchange admission, discharge, and
+transfer summaries for patients across state lines (The
+DHIN Dialogue 2014). Currently, DHIN has all acutecare hospitals, skilled nursing facilities, 97% of provi-ders, and 90% of the population in the state participat-ing in the exchange, delivering more than 10 millionclinical results and reports to participating providersannually. The current revenue model for ﬁnancialsustainability is based on a tiered pricing structure,
+Khuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+1998 Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society
+
+=== PÁGINA 11 ===
+where some senders and participants are charged
+tiered pricing based on their volume of transactions.Other members have a per-member, per-month sub-scription fee based on value-added service structures.In other words, in its evolution toward ﬁnancial via-bility, DHIN has maintained a transaction fee modelbased on the volume of transactions but has alsoexpanded its model to include subscription fees in
+speciﬁc cases.
+The ﬁnal HIE we consider, CORHIO (http://
+www.corhio.org/), is one of the largest public HIEnetworks in the United States and is the state-desig-nated entity for HIEs in Colorado. CORHIO wasestablished in 2007, much later than many sustainableHIEs, as a non-proﬁt, public –private partnership with
+the objective to improve healthcare quality through
+cost-effective and secure exchange of health informa-
+tion. CORHIO learned from the success models andexamples of other HIEs to strategically structure itsservice offerings. Its initial basic service offeringswere access to important health information aboutpatients, including laboratory test and pathologyresults. CORHIO claims that enabling clinicians toaccess patient information from other data reposito-
+ries to the point of care is the driver for its founda-
+tional services; thus, clinicians’ access to a healthrepository was the focus of the data exchange in COR-HIO’s early period. Subsequently, CORHIO providedthe repository and access to X-rays, MRI (magneticresonance imaging) and other imaging reports, andphysician transcription reports. The network waslater upgraded to include even more services, such as
+patient medication lists, allergies and immunization
+reports, and laboratory and imaging orders, basedon the willingness of the participating providers.CORHIO’s services were rolled out to each deﬁnedcommunity in phases —ﬁrst establishing clinical mes-
+saging and results delivery to ensure a signiﬁcant vol-ume of data was ﬂowing through the HIE and amongproviders before deploying longitudinal community
+health records. CORHIO engaged hospital stakehold-
+ers, as the ﬁrst entities joining the network, to ensurea critical mass of clinical information was available tocommunity providers. As a subsequent phase andongoing today, CORHIO has engaged communityproviders to contribute clinical summaries to the HIE.
+For its revenue model, although CORHIO received
+two substantial grants to cover its startup costs, its
+leaders knew that grants would not be sufﬁcient to
+sustain operations in the long run —an important
+learning gleaned from other sustainable HIEs. Theorganization has successfully established a fee-for-service revenue model to cover its operating costs andbecame sustainable with its cost-based not-for-proﬁtentity structure. Every entity that participates in theexchange contributes to the ﬁnancial sustainability ofthe exchange. CORHIO spent a fair amount of time
+establishing and communicating a clear value propo-sition for all providers —including federally qualiﬁed
+health centers, behavioral health providers, long-termcare providers, physicians, hospitals, clinics —regard-
+ing the nature of the value the HIE would create forthem and how the services offered by the HIE wouldbe useful to them and provide better support for
+accomplishing their mission. More than 40 Colorado
+hospitals and 2200 doctors, in addition to 130 long-term and post-acute care centers, were connected tothe CORHIO HIE (www.corhio.org). CORHIOreported growth in 2014 that was in the triple digits.
+4
+The number of participating healthcare users anddata available in the network grew by 111% and118%, respectively, in 2014, which marks the third
+consecutive year of triple-digit growth rates for the
+organization. In summary, CORHIO, drawing on theexperiences of and learning from other HIEs, hasevolved quickly from foundational service offeringsto advanced services and from a fee-for-service modelto a hybrid fee model, with a clear focus on attainingmaturity that involves sustained efforts for stake-holder engagement and buy-in.
+In summary, the examples of four HIEs’ viability
+models are consistent with four assertions discussedthroughout this study: First, more service offeringsappear to be associated with operational maturity,but HIEs need to structure and bundle those appro-priately to achieve ﬁnancial viability. Second, offeringfoundational services during early stages andadvanced services during later stages inﬂuences via-
+bility. Third, operational maturity is a key enabler
+and an intermediate step toward ﬁnancial breakeven.Finally, transaction fees may be appropriate duringthe early stages, but subscription-based models orhybrid revenue models are needed during later stageto accrue the higher revenue necessary to achieve via-bility. An important corollary to these patterns is thatas an HIE progresses in its evolution, it needs to pro-
+vide a mix of service offerings with tiered structures
+(e.g., like DHIN) or a hybrid revenue model withdifferential pricing to different customers based onparticipation and volume of data exchanged (e.g.,HealthBridge).
+5. Discussion
+5.1. Findings and Contributions
+The goal of this study has been to understand how
+the evolution of service offerings inﬂuences the opera-tional maturity and ﬁnancial viability of HIE. We ﬁndthat the age of the HIE positively moderates the inﬂu-ence of number of service offerings on operational
+maturity; but has a negative moderation effect on
+ﬁnancial viability. The ﬁndings indicate thatKhuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society 1999
+
+=== PÁGINA 12 ===
+compared with new entrants, older HIEs are better
+able to leverage a larger number of services throughtheir experience gained and can bundle and structureservices for customers to achieve higher operationalmaturity. However, merely providing extensive ser-vices may not be effective in achieving ﬁnancialbreakeven as time progresses, because the ﬁndingsindicate that although service offerings have stronger
+positive effects on operational maturity with age,
+more service offerings may have a negative impact onﬁnancial breakeven. A plausible explanation for thisunexpected ﬁnding is that service offerings may leadto maturity, but earning sufﬁcient revenue to achieveﬁnancial breakeven may require service structuringand a bundling focus rather than merely servicediversiﬁcation.
+The results also indicate that the power of the trans-
+action-based revenue model on the ﬁnancial breake-ven of HIEs decreases with time. We suggest that thetransaction-based revenue model generates lowerrevenue potential for older HIEs, because customerswant a more established HIE to offer differing servicebundles through subscription models, thus allowingthem to pick and choose service bundles and sub-
+scriptions based on their speciﬁc needs. Although in
+principle, an HIE can earn revenue via both transac-tions and subscriptions, relying on transactions aloneis not recommended for viability. At an early stage,given the limitations of minimal service offerings,transaction fees are more appropriate to earn revenue,but in long run, subscription-based models areneeded to accrue the higher revenue necessary to
+achieve viability.
+These results are counter-intuitive and challenge
+conventional wisdom in at least two ways. First, atransaction-based revenue model may be more attrac-tive to generate revenue for HIEs because it equates topayment for every unit of service delivered. However,our results suggest that an established and incumbentHIE runs a higher risk of failure by exclusively adopt-
+ing a transaction-based revenue model. Second, even
+though transaction-based fees for minimal servicesoffered by younger HIEs may be attractive for cus-tomers, over time, customers may prefer to subscribeto services that they use regularly rather than payingfor single transaction-based fees. Thus, HIEs need toassess their service offerings vis-/C18a-vis revenue poten-
+tial carefully.
+Although some of these decisions are also context
+dependent, our results suggest that conﬁguring ser-vices to deliver actionable and usable data, and devel-oping a revenue generation strategy for viabilitycontribute more to the success of a ﬂedgling HIE thansimply focusing on having the most advanced tech-nology platform, which many HIEs have erroneouslytended to concentrate on. Although making goodchoices about the technology that will power an HIE
+is undoubtedly important, creating a viable revenuemodel and delivering value to stakeholders mustreceive signiﬁcant and appropriate attention.
+Finally, the effect of operational maturity on ﬁnan-
+cial viability indicates that without functional andoperational progress, long-term viability may not befeasible for an HIE. While the organization may be
+able to earn high revenue from a handful of key cus-
+tomers in the beginning, continued revenue genera-tion depends greatly on the functional operationalprogress and evolution of the HIE.
+This study makes several contributions to existing
+operations management and information systems lit-erature. We extend prior work that explores the via-bility of new ventures and entrepreneurial initiatives
+(Audretsch 2003, Brinckmann et al. 2010, Delmar and
+Shane 2003, 2004, Osterwalder et al. 2005) by investi-gating how service offerings and revenue modelsinﬂuence operational maturity and ﬁnancial viability.We contribute to the emerging literature on theappropriateness of foundational vs. advanced servicebundles in the context of HIEs, a new IT-enabledorganizational form in the U.S. healthcare ecosystem
+that seeks to facilitate information exchange across
+ﬁrms (Zott et al. 2011). Furthermore, in examiningrevenue model evolution and its effect on HIE viabil-ity, we extend discussions in the recent literatureabout how business models need to evolve dynami-cally in response to market demand, environmentalchanges, and organizational learning with passage oftime (Demil and Lecocq 2010). The ﬁndings of this
+study, in terms of service focus vs. diversiﬁcation and
+revenue models, are applicable to other ﬁrms thatserve as platforms for information exchange amongdifferent players or sides.
+5.2 Limitations and Implications for Research
+We acknowledge the following limitations of the
+study that future research should seek to overcome.
+First, because of data limitations and the use of a
+cross-sectional design, our results should be consid-ered associational; that is, they do not imply anycausal relationship. Longitudinal data or quasi-experimental studies can help assess the causal effectof focal variables on HIE survival in a better way(Mithas and Krishnan 2009).
+Second, while our sample includes all the HIEs in
+existence over a 3-year study period, including those
+that have failed to break even, it excludes those thatdid not appear across the 3 years or completely failedand shut down before or after the 3 years. While thesample we used was appropriate for our researchquestions, as it exhibited sufﬁcient variability inﬁnancial viability, we were unable to address thequestion of what factors determine HIE survival.
+Khuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+2000 Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society
+
+=== PÁGINA 13 ===
+Third, although this study explored the evolution of
+service offerings and revenue models, future studiesmay include other factors associated with the evolu-tion of business models, such as key partners, activi-ties, customer segments, and marketing channels.Fourth, a better understanding of the mechanismsthrough which HIEs inﬂuence outcomes across healthcare operations and delivery (e.g., clinical discoveries,
+efﬁcient and effective patient care, reduction in read-
+missions, improving evidence-based care, achievingoperational efﬁciencies for participating stakeholders)is an important area for future research to extendrecent studies that focus on HIE outcomes (Frisseet al. 2012, Hersh et al. 2015, Rahurkar et al. 2015).Finally, how the internal operational processes andpractices of a ﬁrm interact with the components of
+their business models to achieve higher performance
+is an area of research that needs further exploration.
+Several other opportunities exist to extend the
+work presented here. While our results shed lighton how some components of business models inﬂu-ence the viability of new ventures engaged withexchange activities, there is still a need to under-stand the ﬁner-grained processes through which
+these speciﬁc factors inﬂuence viability. For exam-
+ple, how do different service bundles maximizerevenue to inﬂuence viability? What is the optimalstrategy for service differentiation? Further, a quan-tiﬁcation of the value that an HIE participant gainsneeds to be established. For instance, HIEs todaysuch as the Chesapeake Regional Information Sys-tem for our Patients (CRISP) that serves Maryland
+and the District of Columbia offer advanced ser-
+vices such as a prescription drug monitoring pro-gram. The extent to which such offerings improveefﬁciency and health outcomes can be examined.Opportunities also exist to study more macroimpacts of IT in health care to assess the extent towhich IT and related digital innovations can helpto improve overall outcomes such as life expec-
+tancy (Mithas et al. 2009), and overcome what is
+referred to as the Baumol’s cost disease. Exploringthese impacts of HIEs, as well the value customersderive from using and interacting with sustainableHIEs, will help inform the economic rationalebehind the value potential, attractiveness of partici-pation, and diffusion of these ﬁrms in the U.S.healthcare system.
+5.3 Managerial Implications
+Several managerial and policy implications follow
+from our ﬁndings. First, we ﬁnd that a set of robustservice offerings are important to establish a ﬁrm’svalue proposition and foundation for operationalmaturity in the formative years and continues to besigniﬁcant as the ﬁrm establishes itself in the market.An early offering of a services bundle helps the ﬁrm
+achieve viability during its initial inception years,though as time passes, merely providing a servicebundle without careful attention to the types of ser-vices being bundled is not effective for achievingﬁnancial viability. HIE managers need to be proactivein researching customers’ needs and considerationswhen crafting their services portfolio and organiza-
+tional capabilities because research suggests that
+managers’ intuition regarding customer expectationsis not always reliable (Hult et al. 2017). This is espe-cially important when there are diverse customer seg-ments with different needs, as is the case for HIEorganizations. Moreover, if the service offerings arealigned with the proper incentives for customers,there is a higher likelihood of customer participation
+in the HIE.
+Our qualitative analyses suggest that as the HIE pro-
+gresses, viability based only on foundational servicesdiminishes. With the passage of time, it is important tooffer more advanced services that reﬂect customers’evolving needs. Thus, HIEs need to focus on speciﬁcservice portfolios in response to market demand, whilemaintaining the adeptness to deliver a richer service
+bundle to meet the needs of all customers. HIEs
+need to closely monitor the meaningful-use criteriareleases and other requirements mandated by theU.S. federal government regarding digital capabilitiesthat hospitals and physicians need to demonstrate,as this will help them determine how the servicebundle should evolve in response to environmentalchange.
+Second, HIEs should exercise care when planning
+their revenue models. In the early stages, transac-tions may be helpful in conducting business withcustomers. However, transaction-based revenuemodels are not likely to support ﬁnancial viabilityat a later stage. Managers need to think creativelyabout how to design appropriate revenue structuresand choose the right revenue model using both
+bundles and subscriptions, and how to evolve these
+over time based on the structure and characteristicsof their ﬁrms.
+Finally, operational maturity is an inﬂuential factor
+in shaping the capability to earn revenue throughoperations and related efﬁciency gains. The moderat-ing role of age and the mediating role of operationalmaturity indicate that HIE managers need to
+approach viability as an ongoing process that requires
+making changes in components of the business modelover time. Once the HIE is operationally mature, itcan offer enhanced service bundles that create valuefor its stakeholders. For instance, an operational HIEshould frequently reach out to hospitals and provi-ders to identify challenges and opportunities toimprove workﬂows or create efﬁciencies through
+Khuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society 2001
+
+=== PÁGINA 14 ===
+different service offerings. Ultimately, to achieve sus-
+tained viability, an HIE should strive to efﬁcientlyfacilitate care coordination across an entire healthcarecommunity.
+In conclusion, this study examines how the evolu-
+tion of various components of a business model (e.g.,number and type of service offerings, revenue model)inﬂuences the viability of HIEs. We draw on and
+extend prior literature on the design and evolution of
+business models in a consequential and understudiedsetting —namely, the use of IT-enabled data and infor-
+mation exchange in the healthcare sector. We ﬁnd thata higher number of service offerings increases theoperational maturity potential of older HIEs, but thismay not be useful for achieving ﬁnancial viability.Over time, the HIE needs to offer more advanced
+services than the foundational services initiated in itsearly years. In addition, as the age of an HIE
+increases, transaction-based revenue models are notappropriate for achieving viability. These ﬁndingsshould help policymakers and managers plan anddesign viable HIEs as they seek to deliver affordable,accessible, and quality healthcare.
+Acknowledgments
+We thank the department editor, anonymous senior editor,
+and three anonymous referees for their insightful and con-structive feedback. We thank Jennifer Covich Bordenick
+and the eHealth Initiative for providing the data for this
+research, and Che-Wei Liu for research assistance. An ear-lier version of this study was presented at the Workshop on
+Health Information and Economics (WHITE), and the Acad-
+emy of Management Annual Meeting.
+Appendix: Survey Questionnaire, and Coding Scheme for Variables
+Financial breakeven
+(FINBRKEVN)Whether the HIE has achieved ﬁnancial breakeven as a result of operational revenue. This variable was coded from the question:
+Have you already broken even as a result of operational revenue alone on an income basis? Options: (a) yes, (b) no, (c) do not
+know (option (c) is available in years 2008 and 2009 only). Coding: 1 =HIE has achieved ﬁnancial breakeven from option (a).
+0=all other HIEs
+Operational maturity
+(OPRMAT)The stage of operational maturity of the HIE, from stages 1 –7 as per the maturity model developed for HIEs
+Question: What stage is your initiative is in today, as per the eHealth Initiative’s HIE maturity framework. Options: Stage 1 to
+stage 7, with the following descriptions:
+Stage 1: Recognition of the need for health information exchange among multiple stakeholders in your state, region or
+community (public declaration by a coalition or political leader).Stage 2: Getting organized; deﬁning shared vision, goals, and objectives; identifying funding sources, setting up legal andgovernance structures (multiple, inclusive meetings to address needs and frameworks).
+Stage 3: Transferring vision, goals and objectives to tactics and business plan; deﬁning your needs and requirements;
+securing funding (funded organizational efforts under sponsorship).Stage 4: Well under way with implementation –technical, ﬁnancial and legal (pilot project or implementation with multi-year
+budget identiﬁed and tagged for a speciﬁc need).Stage 5: Fully operational health information organization; transmitting patient data that is being used by healthcare stake-
+holders.Stage 6: Fully operational health information organization; transmitting patient data that is being used by healthcare stake-
+holders and have a sustainable business model.Stage 7: Demonstration of expansion of organization to encompass a broader coalition of stakeholders than present in the
+initial operational model.
+Number of service
+offerings(SERVICEOFFR)Number of services offered by the HIE, from the ﬁve main services, e.g., connectivity to EHR, e-prescribing, health summaries,
+alerts to providers, clinical decision systemsQuestion: What functionalities of data exchange are you currently providing through your health information exchange initiative?Functionalities: (1) connectivity to electronic health records, (2) health summaries for continuity of care, (3) electronic
+prescribing functions, (4) alerts to providers ,and (5) clinical decision systems. The service functionality questions were given
+options as (a) currently providing, (b) expected to provide in the future, or (c) we will not provideThe functionalities were binary coded as 1 =if the functionality was marked as “currently providing”, 0 =if the functionality
+was marked as “expected to provide in the future”, and (c) we will not provide was treated as missing value. The exact
+wordings for the functionalities differ across the years, with multiple questions implying similar functionalities
+Transaction-based
+revenue model(TRANSREV)To support the ongoing operations, whether the HIE is charging only transaction fees to clients
+Question: What mechanisms do you use to support ongoing operations of the health information exchange? Options: (a)transaction fee charged to data users, (b) transaction fee charged to data providers, (c) subscription fees or membership dues
+to data users, (d) subscription fees or membership dues to data providers, (e) advertising or marketing, (f) fees generated from
+clinical trials, (g) utility model-fees assessed through state for public service, (h) one-time ﬁnancial contribution to the healthinformation exchange (donation, etc.), (i) other (please specify). The subscription and transaction fee based revenue models
+(continued)Khuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+2002 Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society
+
+=== PÁGINA 15 ===
+Notes
+1The operational maturity framework that we use allows
+ﬁrms to skip stages or to start at an advanced stage.
+2Operational maturity is assessed using a seven-stage
+maturity framework developed by the eHealth Initiative
+(ehealthinitiative.org), speciﬁcally to track HIE progress;
+the stages include initiation, structure formation, planformulation, plan implementation, technology operation,
+commercial operation, and collaboration with stakehold-
+ers. Although speciﬁc to the HIE context, the seven-stagematurity model is based on similar stage models in prior
+research (Gilbert et al. 2006) —for example, a new ven-
+ture’s growth model of conception, development, commer-cialization, growth, and stability (Kazanjian and Drazin
+1989), and a ﬁrm progression model of existence, survival,
+success, take-off, and resource maturity (Churchill andLewis 1983).
+3We also draw on conversations with executives of several
+HIEs as part of evaluating the District of Columbia Regio-
+nal Health Information Organization (DC RHIO) (Agarwalet al. 2010a).
+4See CORHIO’s press release at http://www.corhio.org/
+news/2015/2/5/15-corhio-experiences-triple-digit-growth-in-2014 (accessed February 26, 2017).
+References
+Adler-Milstein, J., S. C. Lin, A. K. Jha. 2016. The number of health infor-
+mation exchange efforts is declini ng, leaving the viability of broad
+clinical data exchange uncertain. Health Aff. 35(7): 1278 –1285.
+Agarwal, R., P. K. Crowley, S. Mithas, J. Khuntia. 2010a. The Dis-
+trict of Columbia Regional Health Information Organization
+(DC RHIO): Current progress and the road ahead. Center forHealth Information and Decision Systems, Robert H. SmithSchool of Business, University of Maryland, College Park, 1 –95.
+Agarwal, R., G. Gao, C. DesRoches, A. K. Jha. 2010b. Research
+commentary - the digital transformation of healthcare: Cur-rent status and the road ahead. Inf. Syst. Res. 21(4): 796 –809.
+AHRQ. 2014a. Statewide health information exchange provides
+daily alerts about emergency department and inpatient visits,helping health plans and accountable care organizationsreduce utilization and costs. Available at https://innovations.ahrq.gov/profiles/statewide-health-information-exchange-provides-daily-alerts-ab out-emergency- department-and
+(accessed date January 29, 2014).
+AHRQ. 2014b. Trends in health information exchanges. Available
+at https://innovations.ahrq.gov/perspectives/trends-health-information-exchanges (accessed date March 3, 2014).
+Anderson, D., G. Gao, B. Golden. 2014. Life is all about timing:
+An examination of differences in treatment quality for traumapatients based on hospital arrival time. Prod. Oper. Manag.
+23(12): 2178 –2190.
+Audretsch, D. B. 2003. “Entrepreneurship: A survey of the litera-
+ture”, 00028282. European Commission, pp. 1 –70.
+Bair, M. 2008. Building the Dream: Boeing 787. Aero Quarterly.
+Available at www.boeing.com/commercial/aeromagazine, pp.1–7.
+Bamford, C. E., T. J. Dean, P. P. McDougall. 2000. An examination
+of the impact of initial founding conditions and decisionsupon the performance of new bank start-ups. J. Bus. Ventur.
+15(3): 253 –277.
+Baron, R. M., D. A. Kenny. 1986. The moderator-mediator variable
+distinction in social psychological research: Conceptual,strategic and statistical considerations. J. Pers. Soc. Psychol.
+51(6): 1173 –1182.
+Blumenthal, D., M. Tavenner. 2010. The “meaningful use” regulation
+for electronic health records. N. Engl. J. Med. 363(6): 501 –504.
+Brill, S. 2013. Bitter pill: How outrageous pricing and egregious
+proﬁts are destroying our health care. in: Time (March 4,
+2013) . pp. 16 –55.
+Brinckmann, J., D. Grichnik, D. Kapsa. 2010. Should entrepreneurs
+plan or just storm the castle? A meta-analysis on contextualfactors impacting the business planning-performance relation-ship in small ﬁrms. J. Bus. Ventur. 25:2 4–40.
+Chase, R. B., U. M. Apte. 2007. A history of research in service
+operations: What’s the big idea? J. Oper. Manag. 25(2): 375 –386.
+Chesbrough, H. 2007. Business model innovation: It’s not just
+about technology anymore. Strategy Leadersh. 35(6): 12 –17.
+Churchill, N. C., V. L. Lewis. 1983. The ﬁve stages of small-busi-
+ness growth. Harv. Bus. Rev. 61(3): 30 –50.
+Cohen, W. M., D. A. Levinthal. 1990. Absorptive capacity: A new
+perspective on learning and innovation. Adm. Sci. Q. 35(1):
+128–152.
+Conn, J. 2007. RHIO Experts Talk Problems, Future of Movement.
+Modern Healthcare (August 30). Available at http://modern
+healthcare.com/article/20070830/FREE/308290018
+Danaher, P. J. 2002. Optimal pricing of new subscription services:
+Analysis of a market experiment. Market. Sci. 21(2): 119 –138.Appendix (continued)
+were coded from options (a), (b), (c) and (d). The questions have also the following options (with slight variation across years):
+(i) current revenue source, (ii) planned revenue source within 6 months, (iii) planned revenue source beyond 6 months (iv)
+previous source of revenue. The above questions were used to code transaction-based revenue model ( TRANSREV) as: 1 =only
+transaction fee based revenue model, options (a) and (b); 0 =all other options
+Age of HIE (AGE) The age of the HIE in number of years, data collected from websites and publicly available reports
+HIE size (SIZE) Question (2009 and 2010 surveys): Please provide the estimated number of physicians who have/will have access to your
+network, once you are operational (please enter numerical values only, do not use commas)
+Question (2008 survey): How many physicians access your information in your health information access? Options: (a) 0 –50,
+(b) 51 –100, (c) 101 –250, (d) 251 –500, (e) 500 –1000, (f) >1000, (g) Don’t know
+Coding: data from these options is converted into a continuous variable at the mid points of the interval scales. The numbers
+were divided by 1000
+Time to be
+operational
+(OPRN_TIME)Number of years taken by the HIE to reach operational statusKhuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society 2003
+
+=== PÁGINA 16 ===
+Delmar, F., S. Shane. 2003. Does business planning facilitate the
+development of new ventures? Strateg. Manag. J. 24: 1165 –1185.
+Delmar, F., S. Shane. 2004. Legitimizing ﬁrst: Organizing activities
+and the survival of new ventures. J. Bus. Ventur. 19: 385 –410.
+Demil, B., X. Lecocq. 2010. Business model evolution: In search of
+dynamic consistency. Long Range Plan. 43(2): 227 –246.
+Demirezen, E. M., S. Kumar, A. Sen. 2016. Sustainability of health-
+care information exchanges: A game-theoretic approach. Inf.
+Syst. Res. 27(2): 240 –258.
+Devaraj, S., L. Krajewski, J. C. Wei. 2007. Impact of eBusiness
+technologies on operational performance: The role of produc-tion information integration in the supply chain. J. Oper.
+Manag. 25(6): 1199 –1216.
+Dover, H. F., B. P. S. Murthi. 2006. Asymmetric effects of dynamic
+usage behavior on duration in subscription-based online ser-
+vice. J. Interact. Market. 20(3/4): 5 –15.
+El Sawy, O. A., F. Pereira. 2013. Business Modelling in the Dynamic
+Digital Space: An Ecosystem Approach . Springer, New York.
+Feldman, S. S., T. A. Horan. 2011. The dynamics of information
+collaboration: A case study of blended IT value propositionsfor health information exchange in disability determination.J. Assoc. Inf. Syst. 12(2): 189 –207.
+Fischer, B. 2012. D.C. health data exchange dead. Available at
+http://www.bizjournals.com/washington/blog/2012/11/dc-health-data-exchange-dead.html in: Washington Business Jour-
+nal(accessed date November 8, 2012).
+Frisse, M. E., K. B. Johnson, H. Nian, C. L. Davison, C. S. Gadd,
+K. M. Unertl, P. A. Turri, Q. Chen. 2012. The ﬁnancial impact
+of health information exchange on emergency departmentcare. J. Am. Med. Inf. Assoc. 19(3): 328 –333.
+George, G., A. J. Bock. 2011. The business model in practice and
+its implications for entrepreneurship research. Entrepreneur-
+ship Theory Practi. 35(1): 83 –111.
+Gilbert, B. A., P. P. McDougall, D. B. Audretsch. 2006. New
+venture growth: A review and extension. J. Manage. 32(6):
+926–950.
+Grossman, J. M., K. L. Kushner, E. A. November. 2008. Creating
+sustainable local health information exchanges: Can barriersto stakeholder participation be overcome? HSC Research Brief
+(No. 2) ,1–12.
+Grossman, J. M., D. A. Cross, E. R. Boukus, G. R. Cohen. 2012.
+Transmitting and processing electronic prescriptions: Experi-ences of physician practices and pharmacies. J. Am. Med. Inf.
+Assoc. 19(3): 353 –359.
+Gruber, M. 2007. Uncovering the value of planning in new ven-
+ture creation: A process and contingency perspective.
+J. Bus.
+Ventur. 22(6): 782 –807.
+Hayward, M. K., R. D. Warren, J. Sykes. 2007. Jackson community
+medical record - a model for provider collaboration in aRHIO. J. Healthcare Inf. Manag. 21(3): 31 –36.
+eHealth Intiative. 2012. Preliminary key ﬁndings: 2012 survey on
+health information exchange. Report by eHealth Initiative,Washington, DC. Available at http://www.ehidc.org/resource-center/reports/view_document/256-survey-preliminary-key-ﬁndings-2012-ehi-survey-on-health-information-exchange-
+data-exchange
+Hedman, J., T. Kalling. 2003. The business model concept: Theo-
+retical underpinnings and empirical illustrations. Eur. J. Inf.
+Syst. 12(1): 49 –59.
+Hersh, W. R., A. M. Totten, K. B. Eden, B. Devine, P. Gorman, S. Z.
+Kassakian, S. S. Woods, M. Daeges, M. Pappas, M. S. McDonagh.2015. Outcomes from health information exchange: Systematicreview and future research needs. JMIR Med. Inf. 3(4): e39.
+Hogan, S. O., S. M. Kissam. 2010. Measuring meaningful use.
+Health Aff. 29(4): 601 –606.Hult, G. T. M., F. V. Morgeson, N. Morgan, S. Mithas, C. Fornell.
+2017. Do managers know what their customers think and
+why? J. Acad. Mark. Sci. 45(1): 37 –54.
+Ilie, V., C. Van Slyke, M. A. Parikh, J. F. Courtney. 2009. Paper
+versus electronic medical records: The effects of access onphysicians’ decisions to use complex information technolo-gies. Decis. Sci. 40(2): 213 –241.
+Johnson, M. W., C. M. Christensen, H. Kagermann. 2008. Rein-
+venting your business model. Harv. Bus. Rev. 86(12): 50 –59.
+Karlsson, T., B. Honig. 2009. Judging a business by its cover: An
+institutional perspective on new ventures and the businessplan. J. Bus. Ventur. 24(1): 27 –45.
+Kazanjian, R. K., R. Drazin. 1989. An empirical test of a stage of
+growth progression model. Management Sci. 35(12): 1489 –1503.
+Kraiselburd, S., P. Yadav. 2013. Supply chains and global health:
+An imperative for bringing operations management scholar-ship into action. Prod. Oper. Manag. 22(2): 377 –381.
+Lane, P. J., M. Lubatkin. 1998. Relative absorptive capacity and
+interorganizational learning. Strateg. Manag. J. 19(5): 461 –477.
+Lange, J. E., A. Mollov, M. Pearlmutter, S. Singh, W. D. Bygrave.
+2007. Pre-start-up formal business plans and post-start-upperformance: A study of 116 new ventures. Venture Capital
+9(4): 237 –256.
+Lee, H. L., S. Whang. 2004. E-business and supply chain integra-
+tion. T. P. Harrison, H. L. Lee, J. J. Neale, eds. The Practice of
+Supply Chain Management: Where Theory and Application Con-verge . Kluwer Academic Publishing, Springer, US, 123 –138.
+Liao, J., H. Welsch. 2008. Patterns of venture gestation process:
+Exploring the differences between tech and non-tech nascent
+entrepreneurs. J. High Technol. Manag. Res. 19(2): 103 –113.
+Maffei, R., D. Burciago, K. Dunn. 2009. Determining business
+models for sinancial sustainability in Regional Health Infor-mation Organizations (RHIOs): A review. Popul. Health
+Manag. 12(5): 273 –278.
+Maney, K. 2003. Dell business model turns to muscle as rivals
+struggle. USA Today (1/20/2003).
+McCarthy, D. B., K. Propp, A. Cohen, R. Sabharwal, A. A. Schachter,
+A. L. Rein. 2014. Learning from health information exchangetechnical architecture and implementation in Seven BeaconCommunities. eGEMs 2(1): 6.
+McGrath, R. G. 2010. Business models: A discovery driven
+approach. Long Range Plan. 43(2–3): 247 –261.
+Miller, R. H., B. S. Miller. 2007. The Santa Barbara County care
+data exchange: What happened? Health Aff. 26(5): w568 –w580.
+Mithas, S., M. S. Krishnan. 2009. From association to causation via a
+potential outcomes approach. Inf. Syst. Res. 20(2): 295 –313.
+Mithas, S., J. Khuntia, R. Agarwal. 2009. Information technology
+and life expectancy: A country-level analysis. H. Chen, S. A.Slaughter, eds. Proceedings of the 30th International Conference
+on Information Systems , December 15 –18. Association for Infor-
+mation Systems, Phoenix, Arizona.
+NASCIO. 2011. Sustainable success: State CIOs and Health Infor-
+mation Exchange. National Association of State Chief Infor-
+mation Ofﬁcers. NASCIO Report. Available at http://
+www.nascio.org/publications/documents/NASCIO_HIESustainabilityBrief_September2011.pdf
+Osterwalder, A., Y. Pigneur. 2010. Business Model Generation .
+Wiley, Hoboken, NJ.
+Osterwalder, A., Y. Pigneur, C. L. Tucci. 2005. Clarifying business
+models: Origins, present, and future of the concept. Commun.
+Assoc. Inf. Syst. 16:1–25.
+Overhage, J. M. 2009. Indiana Health Information Exchange
+(IHIE)-Nationwide Health Information Network (NHIN) TrialImplementations: Task 9 Deliverable: Jurisdiction-Speciﬁc Busi-ness Plan, Indiana Health Information Exchange. Ofﬁce of theKhuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+2004 Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society
+
+=== PÁGINA 17 ===
+National Coordinator for Health Information Technology, U.S.
+Department of Health and Human Services. Available at
+http://www.healthit.gov/sites/default/files/indiana-business-
+pan-nhin-ginal-1.pdf
+Overhage, J. M., L. Evans, J. Marchibroda. 2005. Communities’
+Readiness for Health Information Exchange: The NationalLandscape in 2004. J. Am. Med. Inf. Assoc. 12(2): 107 –112.
+Parker, S. C., Y. Belghitar. 2006. What happens to nascent entre-
+preneurs? An econometric analysis of the PSED. Small Bus.
+Econ. 27(1): 81 –101.
+Rahurkar, S., J. R. Vest, N. Menachemi. 2015. Despite the spread of
+health information exchange, there is little evidence of its impacton cost, use, and quality of care. Health Aff. 34(3): 477 –483.
+Ramasubbu, N., S. Mithas, M. S. Krishnan, C. F. Kemerer. 2008.
+Work dispersion, process-based learning and offshore soft-
+ware development performance. MIS Q. 32(2): 437 –458.
+Reynolds, P. D. 2007. New ﬁrm creation in the United States: A
+PSED I overview. Found. Trends Entrepreneurship 3(1): 1 –150.
+Rindova, V. P., S. Kotha. 2001. Continuous “morphing”: Compet-
+ing through dynamic capabilities, form, and function. Acad.
+Manag. J. 44(6): 1263 –1280.
+Romanow, D., S. Cho, D. Straub. 2012. “Editor’s comments: Rid-
+ing the wave: Past trends and future directions for health ITresearch,” MIS Q. 36(3): II-A18.
+Roth, A. V., L. J. Menor. 2003. Insights into service operations man-
+agement: A research agenda. Prod. Oper. Manag. 12(2): 145 –164.
+Roth, A. V., R. Van Dierdonck. 1995. Hospital resource planning:
+Concepts, feasibility, and framework. Prod. Oper. Manag. 4(1):
+2–29.
+Senot, C., A. Chandrasekaran, P. T. Ward. 2016. Role of bottom-
+up decision processes in improving the quality of health caredelivery: A contingency perspective. Prod. Oper. Manag. 25(3):
+458–476.
+Setia, P., M. Setia, R. Krishnan, V. Sambamurthy. 2011. The effects
+of the assimilation and use of IT applications on ﬁnancial per-formance in healthcare organizations. J. Assoc. Inf. Syst. 12(3):
+274–298.
+Shafer, S. M., H. J. Smith, J. C. Linder. 2006. The power of busi-
+ness models. Bus. Horiz. 48(3): 199 –207.
+Shapiro, J. S., J. Kannry, A. W. Kushniruk, G. Kuperman. 2007.
+Emergency physicians’ perceptions of health information
+exchange. J. Am. Med. Inf. Assoc. 14(6): 700 –705.
+Sherer, S. A. 2010. Information systems and healthcare XXXIII:
+An institutional theory perspective on physician adoption of elec-
+tronic health records. Commun. Assoc. Inf. Syst. 26(1): 127 –140.Teece, D. J. 2010. Business models, business strategy and innova-
+tion. Long Range Plan. 43(2–3): 172 –194.
+The DHIN Dialogue. 2014. Delaware Health Information Net-
+work. Another DHIN “First”: DE & MD are ﬁrst HIEs toexchange ADT information. Available at http://dhin.org/wp-content/uploads/2015/06/DHIN-Dialogue-June-2014_0.pdf
+Tong, C., M. Nagarajan, Y. Cheng. 2015. Operational impact of
+service innovations in multi-step service systems. Prod. Oper.
+Manag. 25(5): 833 –848.
+Unertl, K. M., K. B. Johnson, N. M. Lorenzi. 2012. Health informa-
+tion exchange technology on the front lines of healthcare:Workﬂow factors and patterns of use. J. Am. Med. Inf. Assoc.
+19(3): 392 –400.
+Vest, J. R., L. D. Gamm. 2010. Health information exchange: Per-
+sistent challenges and new strategies. J. Am. Med. Inf. Assoc.
+17(3): 288 –294.
+Vest, J. R., J. Jasperson. 2010. What should we measure? Concep-
+tualizing usage in health information exchange. J. Am. Med.
+Inf. Assoc. 17(3): 302 –307.
+Voss, C., A. V. Roth, R. B. Chase. 2008. Experience, service
+operations strategy, and services as destinations: Founda-tions and exploratory investigation. Prod. Oper. Manag. 17(3):
+247–266.
+Weaver. 2012. Literature review of health information exchange
+sustainability: Texas health services authority. Weaver. Avail-able at http://hietexas.org/component/docman/doc_download/581-hie-sustainability-literature-review-report
+Welch, J. 2003. The GE Business Model. GE Annual Report 2003:
+Growing in an uncertain world .p .2 .
+Zepeda, E. D., K. K. Sinha. 2016. Toward an effective design of
+behavioral health care delivery: An empirical analysis of carefor depression. Prod. Oper. Manag. 25(5): 952 –967.
+Zhang, P., M. Tremblay, G. Deckard. 2015. A multi-agent
+approach for HIE design and implementation. Twenty-ﬁrst
+Americas Conference on Information Systems . Puerto Rico.
+Zhang, P., M. Tremblay, R. Klein. 2016. An empirical investiga-
+tion of health information exchange success factor. Proceed-
+ings of the Thirty Seventh International Conference onInformation Systems . Association for Information Systems.
+Dublin, Ireland.
+Zollo, M., S. G. Winter. 2002. Deliberate learning and the evolu-
+tion of dynamic capabilities. Organ. Sci. 13(3): 339 –351.
+Zott, C., R. Amit, L. Massa. 2011. The business model: Recent
+developments and future research. J. Manage. 37(4):
+1019 –1042.Khuntia, Mithas, and Agarwal: Viability of Health Information Exchanges
+Production and Operations Management 26(11), pp. 1989–2005, ©2017 Production and Operations Management Society 2005
+

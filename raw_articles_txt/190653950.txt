@@ -1,0 +1,1112 @@
+=== PÁGINA 1 ===
+RESEARCH ARTICLE
+On top of the game? The double-edged sword of
+incorporating social features into freemiumproducts
+Joost Rietveld | Joe N. Ploog
+UCL School of Management, University
+College London, London, UK
+Correspondence
+Joost Rietveld, UCL School ofManagement, University College London,Level 38, One Canada Square, CanaryWharf, London E14 5AA, UK.Email:
+j.rietveld@ucl.ac.ukAbstract
+Research Summary: Freemium products require
+widespread diffusion for their success. One way to do
+this is by incorporating social features (e.g., multiplayer
+functionality, virtual collaboration, ridesharing), which
+can generate network effects and result in a product
+becoming a superstar . However, social features can be a
+double-edged sword: When demand potential for
+freemium products is large, social features can signifi-cantly boost a product's appeal resulting in more adop-
+tion, more usage, and more in-app purchases; but
+when demand potential is constrained, network effects
+might fall short and users may feel they are missing out
+on key aspects of the product. We test this dynamic ona sample of 9,700 digital games on Steam. Findings
+contribute to our understanding of network effects,
+freemium strategies, and superstar products in platform
+markets.
+Managerial Summary: Freemium has become a popu-
+lar business model among firms competing on digital
+platforms. Freemium products require widespread
+diffusion because most consumers do not pay for pre-
+mium upgrades. One way to stimulate a product's diffu-sion is by incorporating social features (e.g., multiplayer
+functionality, virtual collaboration, ridesharing). SocialReceived: 3 July 2020 Revised: 4 November 2021 Accepted: 12 November 2021 Published on: 14 December 2021
+DOI: 10.1002/smj.3362
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use,
+distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.© 2021 The Authors. Strategic Management Journal published by John Wiley & Sons Ltd.
+1182 Strat Mgmt J. 2022;43:1182 –1207.
+wileyonlinelibrary.com/journal/smj
+
+
+=== PÁGINA 2 ===
+features can boost a product's appeal resulting in more
+adoption, more usage, and more in-app purchases. Our
+analysis of 9,700 digital PC games on Steam reveals that
+the efficacy of incorporating social features importantly
+depends on the number of users on the platform itself.
+Social features can help freemium products become asuperstar when the platform's installed base is large, but
+they hinder a freemium product's success when the plat-
+form's installed base is small.
+KEYWORDS
+business models, freemium, network effects, platform markets,
+product strategy
+1|INTRODUCTION
+The freemium business model —where a firm offers a base product for free and users can pay
+for premium content and features after they have adopted the base product —has gained wide-
+spread popularity on digital platforms (Rietveld, 2018; Tidhar & Eisenhardt, 2020). The share of
+freemium apps on Apple's App Store, for example, increased from 25% of all apps in 2009 toover 75% in 2018. Freemium's popularity is further signified by a handful of extremely success-
+ful products, including the telecommunications program Skype and the online dating applica-
+tion Tinder . Users can download and use these products free of charge and have the option to
+make in-app purchases, including Skype's credit for making calls to mobile phones and land-
+lines and Tinder's Super Likes for signaling interest to romantic partners.
+Freemium products require widespread diffusion for their success: Only a small portion of
+freemium users spends money on premium upgrades, and there exists substantial variation in
+the amount users spend. Freemium products must thus attract a disproportionately large user
+base compared to paid products to generate revenues and capture value.
+Firms that operate the freemium business model therefore need to devise strategies to maxi-
+mize their products' diffusion. One such strategy is to incorporate social product features, such
+as multiplayer functionality in video games, virtual collaboration tools in productivity software,and carpooling in ride-hailing applications. Social features can enhance social referral and stim-ulate a product's diffusion by adding network functionality to a product's standalone functional-
+ity (Cabral, Salant, & Woroch,
+1999; Lee & O'Connor, 2003). Products that incorporate social
+features —and which also manage to attract a large user base —generate network effects (Aral &
+Walker, 2011; Dou, Niculescu, & Wu, 2013). Freemium's low barriers to adoption paired with
+strong network effects from social features can create a virtuous cycle resulting in a product's
+widespread diffusion, which may ultimately lead to a product becoming a “superstar ”
+(Parakhonyak & Vikander, 2019; Shi, Zhang, & Srinivasan, 2019).
+Incorporating social product features, however, could be a double-edged sword. When
+demand potential for freemium products is large (Lilien & Yoon, 1990), social features can
+indeed significantly boost a product's appeal, resulting in more adoption, more usage, and more
+in-app purchases. On the other hand, when demand potential for freemium products isRIETVELD ANDPLOOG 1183
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 3 ===
+constrained —because, for example, a product is launched on a platform with a small installed
+base—network effects likely fall short and users may feel they are missing out on key aspects of
+the product that are integral to its value proposition. In this case, users derive more benefitsfrom products that are less reliant on network functionality and focus more on standalone func-
+tionality. Thus, social product features raise the stakes: They might both increase and decrease
+the chances of a product becoming a superstar, depending on the market a product is releasedin. Given the uncertain results of incorporating social features, we ask: How and when do social
+product features affect the likelihood of a freemium product becoming a superstar?
+We explore this question by analyzing a sample of 9,700 products released between 2011
+and 2016 on Steam; the market-leading distribution platform for digital PC games. Freemium —
+or, free-to-play —and paid games compete side-by-side on Steam. Free-to-play games generate
+revenues exclusively from in-app purchases (e.g., cosmetic enhancements, additional content,etc.) and represent about 10% of all observations. Social product features include whether agame can be played jointly by multiple players simultaneously (e.g., online multiplayer, local
+cooperative play, cross-platform multiplayer). A game's demand potential is defined by the
+number of registered users on Steam —the platform's installed base —at the time of release.
+After controlling for a firm's decision to operate the freemium business model and the timing of
+a game's market launch, we find support for our arguments: When the platform's installed base
+is large, free-to-play games with many social features have a 49 percentage points higher proba-bility of becoming a superstar than free-to-play games without any social features, whereas
+when the platform's installed base is small, free-to-play games with many social features have a
+26 percentage points lower probability of becoming a superstar.
+We further argue and find that the mixed effects of incorporating social features and a prod-
+uct's demand potential on becoming a superstar are specific to freemium products (i.e., do not
+apply to paid products). Freemium products enjoy stronger social referral than paid products
+because consumers are more inclined to recommend products that exhibit low risks to adop-tion, such as those that are free (Bond, He, & Wen,
+2019; Lin, Zhang, & Tan, 2019). Freemium
+products additionally have different use dynamics than paid products. Paid products exhibit
+strong lock-in mechanisms given that paying consumers “want to get their money's worth ”.
+This means that freemium products will diffuse more quickly, but also that freemium users are
+less engaged than paying users (Bapna, Ramaprasad, & Umyarov, 2018; Rietveld, 2018). Taken
+together, these considerations suggest that the effect of a product's demand potential on gener-ating network effects from social features is stronger for freemium products.
+Our study aims to make three contributions. First, we offer two important insights about
+network effects. One of these insights —which requires relaxing the common assumption that
+network effects are a market-level construct (e.g., McIntyre & Srinivasan,
+2017; Schilling, 2002;
+Suarez, 2004; Zhu & Iansiti, 2012)—is that firms can add network functionality to their prod-
+ucts by incorporating social features (also see: Aral & Walker, 2011; Dou et al., 2013). Compet-
+ing products might thus vary in strength of network effects as a function of their user base and
+their design features (Shankar & Bayus, 2003). The other insight is that social features are not
+unequivocally associated with a product's superior performance. When a product's demand
+potential is limited, firms will, in fact, decrease their chances of becoming a superstar if theyoverly depend on network functionality. Combined, these insights imply that firms must think
+strategically about network effects: Products can be designed to have stronger or weaker net-
+work effects, but the efficacy of these choices depends on external factors.
+Second, we show how and when freemium products can take advantage from network
+effects. We document that incorporating social features to boost a freemium product's diffusion1184 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 4 ===
+is especially effective on platforms with a larger installed base, while it is detrimental on plat-
+forms with a smaller installed base. In so doing, we contribute to our understanding of when
+the freemium business model works (Kumar, 2014), and how freemium strategies differ from
+strategies for paid products (Bapna et al., 2018; Bond et al., 2019; Eckhardt, 2016; Lee &
+Csaszar, 2020; Pauwels & Weiss, 2008; Rietveld, 2018; Shi et al., 2019; Tidhar &
+Eisenhardt, 2020).1Our research relates to work by Boudreau, Jeppesen, and Miric ( 2020) who
+study how a change in market-level network effects impacts the performance of freemium ver-
+sus paid market leaders. We complement their work by identifying product design features as
+an important —and strategic —predictor of which freemium products become market leaders.
+Third, we add to a growing literature on superstar products in platform settings. Superstars are
+the very best-performing products which en joy exponentially superior performance
+(e.g., downloads or revenues) compared to th e products they compete with (e.g., Benner &
+Waldfogel, 2020; Brynjolfsson, Hu, & Smith, 2010;R o s e n , 1981).2Scholars are increasingly inter-
+e s t e di ns u p e r s t a rp r o d u c t sg i v e nt h e i ri m p o r t a n tr o l ei nd i g i t a lp l a t f o r m s ,b o t ha sd r i v e r so fa ne c o -
+system's overall value (Binken & Stremersch, 2009; Gretz, Malshe, Bauer, & Basuroy, 2019)a n da s
+drivers of value for products' commercializing firms (Cox, 2014; Yin, Davis, & Muzyrya, 2014). We
+propose a novel measure for operati onalizing superstar products in platform markets that accounts
+for variation in a product's demand potential and for the extent of competition a product faces.
+2|FREEMIUM AND SOCIAL PRODUCT FEATURES
+Facilitated by the Internet, the freemium business model has gained widespread popularity
+among firms competing on digital platforms including mobile app stores and video game con-
+soles.3Freemium departs from the traditional paid model by introducing novel transaction
+structures and novel transaction content (Amit & Zott, 2001; Rietveld, 2018). First, instead of
+offering a complete product, freemium products offer users a menu of paid items in the form of
+in-app purchases ( product bundle decomposition ). In the freemium video game Fortnite , for
+example, players can purchase cosmetic items such as virtual clothing and accessories for theiravatars as well as unlock entire game modes through in-app purchases. Second, users can
+download and perpetually use freemium products before making any in-app purchases ( tempo-
+ral decoupling ). For example, Fortnite players can play the base game for as long as they want
+before potentially committing to any of its premium content. Firms operating the freemium
+model must therefore develop distinct capabilities in such areas as user engagement, data ana-
+lytics, price menu design, and product life cycle management (Kumar,
+2014; Lee &
+1Related literatures in marketing and information systems look at feature-limited software applications that act as a free
+trial or sampling instrument for paid software applications. These literatures study whether offering a free trial versionbenefits the paid application, and what makes this more effective or less (e.g., Arora, ter Hofstede, & Mahajan,
+2017;
+Cheng & Liu, 2012; Gu, Kannan, & Ma, 2018; Lee, Zhang, & Wedel, 2021).
+2The literature has referred to such products interchangeably as “superstars, ”“blockbusters, ”and “killer apps ”.W e
+follow the predominant convention by using the term superstars (see Online Appendix A for a review).
+3The term “freemium ”was coined in 2006 by Fred Wilson, who used it to describe a novel business model where firms
+“Give your service away for free, possibly ad supported but maybe not, acquire a lot of customers very efficiently
+through word of mouth, referral networks, organic search marketing, and so forth, then offer premium priced valueadded services or an enhanced version of your service to your customer base. ”See:
+https://avc.com/2006/03/my_
+favorite_bus/ ;https://avc.com/2006/03/the_freemium_bu/ (accessed February, 2021).RIETVELD ANDPLOOG 1185
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 5 ===
+Csaszar, 2020; Tidhar & Eisenhardt, 2020). That is, the activities required for successfully devel-
+oping and commercializing freemium products are distinct from paid products.
+There are three main reasons why freemium pro ducts require more widespread diffusion than
+paid products to generate revenues and capture value. First, because freemium products can be
+adopted free of charge, the user base of freemium p roducts is often characterized by substantial
+demand heterogeneity. A lack of adoption barriers e ntices users with a wide range of willingness-to-
+pay to download and use freemium products. Second , product bundle decomposition allows hetero-
+geneous users to mix-and-match a combination o f premium items that closely reflects their
+willingness-to-pay. This implies that the majority of freemium users will spend very little —if
+anything —on in-app purchases while a fraction of avid users (so-called “whales ”) spends large
+amounts on freemium products. In the video game industry, for example, it is well-known that
+between two and 5% of a freemium game's playe r base spends money on in-app purchases
+(Luton, 2013;S e u f e r t , 2013). Third, temporally decoupling a product's use from optional payments
+for premium content or features negatively impac ts users' perception of value (Datta, Foubert, & van
+Heerde, 2015; Gourville & Soman, 1998). Put differently, keeping all else equal, users are willing to
+pay more for the same product bundle when it is co mmercialized with a paid business model than a
+freemium business model.
+To overcome these challenges and stimulate a p roduct's diffusion, firms often incorporate
+social features into freemium products. Social product features enable user interactions, which,when present, generate value in use. These feature s range from multiplayer functionality in video
+games to online collaborative tools in productivit y software and carpooling functionality in ride-
+hailing apps. In Fortnite 's Battle Royale mode, for example, up to 100 players can play both cooper-
+atively and competitively to accomplish a common objective (e.g., be the last players standing). If aproduct manages to attract a large user base, soc ial features add network value to a product's
+standalone value (Cabral et al.,
+1999;L e e&O ' C o n n o r , 2003). Such products generate network
+effects, where a user's benefits increase with the total number of users of the same product(Farrell & Saloner,
+1986; Katz & Shapiro, 1985). Products that exhibit strong network effects have
+increased chances of becoming a superstar (Cennamo & Santalo, 2013; Shankar & Bayus, 2003;
+Suarez, 2004). Indeed, the network effects literature has long asserted that a single product or tech-
+nology can end up dominating an entire market in the presence of network effects.
+Incorporating social product features is particularly beneficial for freemium products,
+because freemium products enjoy stronger social referral through word-of-mouth than paidproducts (Cheng & Liu,
+2012; Shi et al., 2019). Consumers are more inclined to recommend
+products that exhibit low risks to adoption, such as those products that are free to use, and they
+are also more likely to reciprocate any benefits that they receive for free by endorsing a firm'sproducts (Bond et al.,
+2019; Lin et al., 2019). In sum, freemium products are advantageously
+positioned to generate network effects by incorporating social product features because they
+enjoy lower barriers to adoption and stronger social referral compared to paid products.
+3|HYPOTHESES
+3.1 |The mixed effects of incorporating social features on becoming a
+superstar
+Superstars are the top-performing products in a market, which enjoy exponentially superior
+performance —often expressed in terms of downloads or revenues —compared to the products1186 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 6 ===
+they compete with (Rosen, 1981). Superstar products are highly salient in digital platforms
+where the distribution of performance (at the market level) tends to be skewed (Benner &
+Waldfogel, 2020; Brynjolfsson et al., 2010). These contexts are characterized by marked differ-
+ences between the performance of the few products ranked at the very top of the market
+(i.e., superstars) and of the numerous products at lower performance ranks (i.e., the long tail).
+Social product features can help freemium products become a superstar by setting in motion
+a self-reinforcing network effect. It should be noted, however, that network effects fail to mate-
+rialize in the absence of a large user base. That is, a product's network value, or the network
+externalities it generates, is a function of its social features andthe size of its active user base
+(Shankar & Bayus, 2003). Given that products on digital platforms can only be adopted by those
+users who have first adopted the platform itself (i.e., the platform's installed base), we argue that
+freemium products will be more likely to benefit from incorporating social features when theyare launched on a platform with a large (rather than a small) installed base.
+Products launched on a platform with a small installed base are constrained in their
+demand potential (Lilien & Yoon,
+1990), whereas products launched on a platform with a large
+installed base can potentially reach a much wider audience (Rietveld & Eggers, 2018). Even
+though all products launched at the same time can be offered to an equisized installed base, the
+extent of a product's value creation through social features will be greater the larger the plat-
+form's installed base. That is, the likelihood of a product becoming a superstar from incorporat-ing social features will be higher when the product's demand potential is larger.
+Consider the stylized example of a consumer who is deciding between two products —one
+that relies exclusively on network functionality for its value proposition (i.e., many social fea-tures) and another that relies exclusively on standalone functionality (i.e., no social features). Ifthe consumer is the only one that has adopted the platform these products are launched on
+(i.e., the platform has an installed base of one), she will anticipate no benefits from social fea-
+tures. In this case, the consumer will be more inclined to adopt the product without social fea-tures, anticipating (greater) benefits. When the consumer considers the same two products but
+this time on a platform that has been adopted by other users (i.e., it has an installed base greater
+than one), she may expect to derive some benefits from the product's social features. This is trueeven if she does not know the exact size of the product's user base, given that consumers often
+anticipate the size of a product's user base in the presence of network effects (e.g., Farrell &
+Saloner,
+1986; Parakhonyak & Vikander, 2019; Schilling, 2003).
+Note that our stylized example holds even when we allow a product to offer any combina-
+tion of standalone functionality and network functionality, so long as there is some (either per-
+ceived or actual) tradeoff between a firm's investments in standalone functionality and itsinvestments in social features. In the aggregate, it is intuitive that a product's demand potentialcan hinder or help a product's market performance if it relies on network functionality for its
+value proposition: When a product's demand potential is large, consumers may anticipate the
+product to have a larger user base, which makes the inclusion of social features valuable tosome extent. When a product's demand potential is constrained, however, consumers will antic-
+ipate a smaller user base, which makes the inclusion of social features less beneficial or even
+detrimental to the extent that it compromises the product's value proposition.
+Social features therefore can be a double-edged sword: If firms are to fully exploit the
+benefits conferred by the freemium business model, they must carefully consider their prod-
+ucts' demand potential. On the one hand, when a platform has a small installed base,freemium products have limited potential to create value from social features. In this case,
+users will anticipate greater benefits from those products that fully depend on standaloneRIETVELD ANDPLOOG 1187
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 7 ===
+functionality, which will offer benefits in the absence of a (large) user base. On the other
+hand, when a platform does boast a large installed base, freemium products will be in an
+opportune position to take advantage from network functionality. In this case, users willderive greater benefits from freemium products that incorporate social features than from
+those that do not. The combination of freemium's social referral and potentially strong net-
+work effects generated by social features can boost a product's diffusion to the point where itbecomes a superstar
+4:
+Hypothesis (H1). Platform installed base size moderates the effect of incorporating
+social features on becoming a superstar ,such that freemium products with many social
+features will be more likely to become a superstar when the platform's installed base is
+large .
+3.2 |Freemium versus paid superstars
+There are two reasons why this dynamic is specific to freemium products (i.e., does not apply
+to paid products). First, the potential benefits of a large demand potential are more pro-
+nounced. Low barriers to adoption and strong social referral allow freemium products to dif-fuse more quickly and more widely than paid products. A product that incorporates social
+features, has low barriers to adoption and strong social referral can quickly capture a large
+share of the market (Cheng & Liu,
+2012; Shi et al., 2019). This happened, for instance, with
+the free-to-play game Dota 2 . Released in 2013 by publisher Valve, Dota 2 quickly became
+the all-time most downloaded game on Steam with over 112 million downloads. Dota 2 was
+highly rated among gamers and its online multiplayer and cooperative play modes generated
+strong network effects, which set in motion a virtuous cycle further amplifying the game'spopularity.
+Second, there exist qualitative differences between how freemium and paid products are
+used. First, given that consumers must spend money before they can use a paid product, onlythose users who ex ante anticipate sufficient benefits will adopt a paid product (Rietveld,
+2018).
+Second, upfront payments for paid products create a sunk-cost effect wherein consumers want
+to“get their money's worth ”(Arkes & Blumer, 1985; Staw, 1976). Paying users will thus be
+more committed to fully experiencing all of a product's benefits (Bapna et al., 2018). Finally,
+users perceive comparatively greater benefits from paid products given that paid products' pay-
+ment and use are conjoined —instead of temporally decoupled (Datta et al., 2015; Gourville &
+Soman, 1998). Combined, these differences suggest that use rates will be significantly higher for
+paid products than for freemium products. It also suggests that consumers will be less inclined
+to adopt paid products solely on the basis of social referral.
+Taken together, these differences between paying users and freemium users suggest that
+paid products diffuse less quickly, but also that paying users are more engaged than freemium
+users. The strength of paid products' network effects therefore will depend less on the size of
+their user base than on the (larger) amount of time paying users spend consuming these prod-ucts. That is, paid products' higher average use rates will render the platform's installed base
+size less of a contingent factor in creating value from social features:
+4We do not hypothesize about the main effect of incorporating social features because we do not expect a main effect
+given the strong contingency of a freemium product's demand potential on becoming a superstar.1188 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 8 ===
+Hypothesis (H2). The interaction between platform installed base size and a prod-
+uct's social features on becoming a superstar is specific to freemium products ;it will
+not apply to paid products .
+4|DATA SAMPLE AND MEASURES
+We test our hypotheses in the context of Steam, the market-leading platform for digitally dis-
+tributed PC games for the Windows, Mac, and Linux operating systems. Steam was created in2003 by game publisher Valve as a platform initially for the maintenance and distribution of its
+internally developed PC games Counterstrike andHalf-Life 2 . Shortly after Steam was launched,
+however, Valve recognized an opportunity as the PC gaming industry underwent a resurgenceand started developing tools to facilitate third-party game developers in offering their productson the platform. The first externally developed PC games on Steam were released in 2005, and
+the number of games has grown exponentially since. By 2016, Steam listed over 10,000 games —
+the vast majority of which ( >99%) were released by external developers.
+Developers that wish to release their games on Steam must design their software to be com-
+patible with Steamworks, Valve's proprietary software development kit. In 2011, Valve added
+the in-game purchasing application programing interface (API) to Steamworks, allowing devel-opers to forgo charging an upfront fee for their games and monetize in-game components. The
+introduction of this API enabled the freemium business model on Steam. Free-to-play games
+quickly followed and have been among the most successful games on the platform since. Exam-ples of popular free-to-play games include Dota 2 (Valve, 2013); Paladins (Hi-Rez Studios,
+2016); and Heroes and Generals (Reto-Moto, 2016). These games have all been downloaded
+more than 10 million times and generate revenues from in-game purchases.
+4.1 |Data
+Data were collected primarily from two sources. First, we collected game-level downloads data
+for every game released between 2005 and 2017 from Steam Spy, an online analytics service that
+uses Valve's web-based API. Every minute, Steam Spy culls from the API a random sample ofuser profiles and obtains lists of games these users own. Linking this information to the number
+of registered users, Steam Spy extrapolates ownership statistics for each game. Although Steam
+Spy provides estimates rather than exact downloads statistics, game developers were notallowed to publicly disclose these figures and the industry has largely relied on Steam Spy foraccessing Steam performance data. Steam Spy's margin of error is less than 10%, and game
+developers regularly confirm the accuracy of Steam Spy's estimates for their games.
+5In addition
+to downloads statistics, we also collected data on games' release dates, whether games are free-to-play or paid, and games' publishers. We further collected data on the number of registered
+Steam users for every year that we observe data in our sample.
+5See, for example: https://www.pcgamesn.com/steam/steam-spy-accuracy-developers (accessed March, 2021). We note
+that since we collected our data, Valve implemented a number of important changes to its API (in April 2018), and alsoupdated its terms for developers (in November 2018). As a result of these changes, developers may now disclosedownloads data. Furthermore, citing GDPR legislation, Valve restricted its API functionality, which has significantly
+reduced the accuracy of Steam Spy's downloads estimates after November 2018.RIETVELD ANDPLOOG 1189
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 9 ===
+Our second data source is Valve's public web-based API. Using web scraping techniques,
+we requested game-level data on various aspects directly from Steam. These data include the
+type and number of social features embedded in a game (discussed below), a game'sgenre(s), the type of publisher and its prior experience on Steam, and several technical ele-
+ments such as system requirements and usage statistics that we use for robustness checks.
+The Steam Spy data also contain information on game quality as curated by
+Metacritic.
+com. Metacritic is a publicly accessible expert review database that collects, combines,
+weighs, and transforms expert review scores from over 180 online and offline publications
+(at the time of data collection). For each game, Metacritic publishes a so-called Metascore,which reflects a weighted average of all expert review scores, ranging from 0 to 100 (100 indi-
+cating a perfect score).
+6Metacritic assigns different colors to its Metascores to distinguish
+between “good ”Metascores (green; ranging from 75 to 100), “average ”Metascores (orange;
+ranging from 50 to 74), and “bad”Metascores (red; scores below 50). Metascores are a good
+proxy for game quality given the aggregated and independent nature of these data.
+4.2 |Estimation sample
+We start our estimation sample by considering all games released on Steam from 2011 to
+2016. We begin the sample in 2011 when Valve introduced the in-game purchasing API, and
+we end the sample in 2016 to allow all games at least 1 year to accumulate downloads. We
+exclude 142 observations that are non-game software (mostly software development tools),119 observations for which we do not observe any information at the publisher level, and514 observations that are compilations, demo versions, add-on packages released as
+standalone products, or games that were removed from Steam after our data collection
+period. Our final sample for analysis includes 9,700 games, of which 771 games operate thefreemium model.
+Table
+1provides an overview for some of the key measures in our estimation sample.
+The distribution of downloads is heavily skewed as superstar games (defined below) generateon average 2.6 million cumulative downloads per game whereas non-superstar games gener-
+ate 107,000 downloads per game. The asymmetry in downloads between superstars and non-
+superstars has widened over time.
+7The share of free-to-play games also grew during our
+study time-period from 0.05 in 2011 to 0.10 in 2016. The share of superstars within the sub-
+sample of free-to-play games is 0.16. The number of social features per game (defined below)
+declined. In 2011, free-to-play games had an average of 1.58 social features, whereas in 2016this had declined to 0.81 social features. We observe a similar trend for paid games. Furtherexploration of the data suggests that this decline is largely driven by a slight absolute
+decrease in games incorporating local multiplayer functionality and by an increase of low-
+quality games entering the platform without any social features. We control for these trendsthrough our identification strategy and our various robustness checks. Steam's installed base
+grew exponentially from more than 38 million registered users in 2011 to nearly 223 million
+registered users in 2016.
+6For more information, see: https://www.metacritic.com/about-metascores (accessed March, 2021).
+7Downloads for superstar games in 2013 are distorted by the release of Valve's Dota 2 , the all-time most downloaded
+(free-to-play) game on Steam with more than 112 million downloads.1190 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 10 ===
+TABLE 1 Game and platform statistics by year
+Year 2011 2012 2013 2014 2015 2016 All
+Games released 256 332 462 1,609 2,661 4,380 9,700
+Free-to-play games 12 21 28 81 190 439 771
+Share of superstars in
+Free-to-play 0.25 0.19 0.18 0.36 0.22 0.09 0.16
+Paid 0.07 0.05 0.00 0.04 0.02 0.02 0.03
+Mean downloads
+Superstars 4,598,066 5,859,613 31,996,919 1,735,460 1,633,832 1,470,115 2,633,332
+Non-superstars 366,269 403,848 472,266 94,787 56,840 38,543 106,677
+Mean number of social features
+Free-to-play 1.58 1.43 1.46 1.11 0.82 0.81 0.90
+Paid 0.49 0.39 0.46 0.30 0.31 0.33 0.33
+Platform statistics
+New platform users 10,708,000 13,747,000 25,579,000 36,915,000 47,682,000 60,317,000 32,491,333
+Installed base 38,738,000 52,485,000 78,064,000 114,979,000 162,661,000 222,978,000 222,978,000
+Note: Based on estimation sample.RIETVELD ANDPLOOG 1191
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 11 ===
+4.3 |Variable definitions
+4.3.1 | Dependent variable
+We follow prior studies on superstar products in platform markets by applying a performance-
+based cutoff threshold to distinguish superstar products from non-superstar products (Binken &Stremersch,
+2009; Cox, 2014; Ershov, 2020; Gretz et al., 2019; Lee, 2013; Sun, Rajiv, &
+Chu, 2016; Yin et al., 2014). In deciding on an appropriate cutoff value, however, the researcher
+faces at least three challenges. First, products face different levels of competition at differentpoints in a platform's life. A product released at the start of a platform's life might face only a
+handful of relevant competitors, whereas a product released towards the end of a platform's life
+may face thousands (Boudreau,
+2012). The same applies to a product's demand potential
+(i.e., the installed base): Users may be reluctant to adopt a new platform when it first launches,whereas once a platform establishes itself as the dominant design, it may command a large
+share of the overall consumer base in a market (Boudreau & Jeppesen,
+2015). Second, the distri-
+bution of demand changes over time such that the gap between the top- and bottom-performingproducts widens as a platform matures (Rietveld & Eggers,
+2018; Rietveld, Ploog, &
+Nieborg, 2020). Finally, there often exists variation in the amount of time products can accumu-
+late performance —especially when analyzing cross-sectional product-level data. This implies
+that a product's performance as observed by the researcher will be highly contextual.8
+We aim to address these challenges by creating a standardized measure of a game's down-
+load performance based on the subsample of all games released in the same year as a focalgame. We treat each year as a separate market and calculate a game's z-score such that:
+z
+i=xi−xt
+St
+where zirepresents game i's standardized performance as a function of the difference between
+its own cumulative downloads ( xi) and the mean cumulative downloads of those games
+released in the same year tas game i(xt), divided by the standard deviation of all games
+released in the same year tas game i(St). A game's z-score is contingent on a subset of games
+that were released around the same time and thus face similar conditions in terms of installedbase size and competition dynamics. Nevertheless, because z-scores are standardized, we can
+meaningfully compare the z-score of a game released in 2016 to one released in 2011.
+Next, we determine a game's status as a superstar by applying the following cutoff:
+Superstar
+i=1,zi≥1
+0,zi<1(
+where the variable superstar takes the value of 1 if game ihas a z-score ( zi) equal to or greater
+than 1, and 0 otherwise. It should be noted that games' downloads are not normally distributedand that a z-score of 1 does not correspond with the standard normal cumulative density func-
+tion (see Online Appendix B). Rather, 3.58% of all games are coded superstars ( n=347). This
+8Our review of the literature suggests that not all prior studies have fully considered these challenges (see Appendix A
+in the Online Supplement).1192 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 12 ===
+proportion is consistent with prior work on superstar products in platform markets (e.g., Gretz
+et al., 2019; Lee, 2013; Sun et al., 2016). Furthermore, research on breakthrough innovations
+and blockbuster products such as patents and drugs either found or applied similar thresholdsto denote outlier performance (e.g., Kaplan & Vakili,
+2015; Kneeland, Schilling, &
+Aharonson, 2020). Our measure for superstar products thus is generally representative, while
+also giving us sufficient power for statistical analysis. We assess the sensitivity of our results byestimating various alternative measures in Section
+6.2.
+4.3.2 | Independent variables
+First, social features measures the extent that a game can be played by more than one player
+simultaneously. Some games on Steam are designed exclusively for single-player experienceswhereas others provide multiplayer functionality. Among multiplayer games, three further dis-
+tinctions are worth mentioning. First, the potential pool of players for any multiplayer game
+depends on the type of connectivity a game offers, which can be either local —between players
+using the same computer or those connected via a local area network —or online. Second, games
+differ in whether multiplayer functionality is meant to be cooperative, competitive, or a combina-
+tion of the two. Finally, while most multiplayer games can only be played by players on the sameoperating system, some can be played across operating systems, and sometimes even on different
+platforms altogether (e.g., PlayStation 3, Xbox 360). These three dimensions of multiplayer func-
+tionality are independent of one another; developers can vary each dimension as they see fit.
+We collected data on whether a game includes any of the following social features at launch:
+local cooperative play, online cooperative play, local competitive play, online competitive play,
+and cross-platform multiplayer. Table
+2provides distributions from our sample, broken out by
+free-to-play and paid games. While all features are equally present across both subsamples,free-to-play games, on average, have a higher number of multiplayer modes. We measure a
+game's social features by counting the number of multiplayer modes it offers.
+9The assumption
+is that games offer greater network functionality when they provide more ways for users to playtogether via different multiplayer modes. Our results are robust to various alternative measure-
+ments, including a dummy variable indicating whether a game has any social features as well
+as excluding local multiplayer from the count-based measure.
+Second, since we observe data from one platform only, we exploit temporal variation in
+genre popularity to construct a measure of installed base size at the genre-year level. Specifi-
+cally, for each year in our data we calculate a genre's market share by dividing the sum ofdownloads for all games released in a genre by the sum of downloads for all games released thatyear. We then multiply these market shares by the number of yearly new Steam adopters
+(in millions) to arrive at a measure of genre installed base . Thus, for each year in our data, we
+observe the number of new platform adopters per genre based on a genre's relative popularity.
+9We abstain from weighting the different multiplayer modes since we do not observe the exact number of players a
+multiplayer game can accommodate. Moreover, prior research on network structure found that users often exhibit localbias, suggesting that network effects are stronger when users have stronger ties to each other (Afuah,
+2013; Lee, Lee, &
+Lee, 2006; Suarez, 2005). Players that play together locally likely will have stronger ties than players that play together
+in an online setting. Additionally, while local multiplayer on the same computer will involve a limited number ofplayers, the same does not necessarily hold for local multiplayer via LANs, which Steam lumps into a single category.Finally, cooperative play is not by definition restricted to two players only, and can, in fact, include coordination
+between large groups of players in online settings.RIETVELD ANDPLOOG 1193
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 13 ===
+Since there is extensive research showing that the number of (superstar) products positively
+impacts the diffusion of the platform itself (e.g., Binken & Stremersch, 2009; Clements &
+Ohashi, 2005), we lag our measure by 1 year to avoid issues of reverse causality.
+We chose to calculate genre installed base using yearly new platform adoption and yearly
+genre market shares (as opposed to cumulative statistics) for two main reasons. First, thereexists significant variation in terms of which genres are popular at different times (also see:
+Ozalp & Kretschmer,
+2019). Second, cumulative installed base measures tend to overstate a
+product's demand potential given that users adopt most products shortly after joining a platform(Nair, Chintagunta, & Dube,
+2004; Tellis, Yin, & Niraj, 2009). That said, our results are fully
+robust to using a measure that is based on cumulative statistics as well as to using measures
+based on platform-wide new adoption and Steam's cumulative installed base.
+For (H1) to be supported, we expect the interaction between social features and genre
+installed base to be positive for the subsample of free-to-play games. For (H2) to be supported,
+we expect the interaction between social features andgenre installed base to have a stronger pos-
+itive effect on free-to-play games than paid games, for which we expect no effect.TABLE 2 Distribution of social features by type and count
+Social features
+(type) Free-to-play games Paid gamesNet
+difference(%)
+Local
+cooperative play 115 628 7.88
+Online
+cooperative play50 196 4.29
+Local
+competitive play288 1,395 21.73
+Online
+competitive play118 367 11.19
+Cross-platform
+multiplayer120 391 11.19
+Social
+features(count) Free-to-play games Paid gamesNet
+difference(%)
+0
+428 7,328 −26.56
+1 122 730 7.65
+2 139 539 11.99
+3 50 202 4.22
+4 19 87 1.49
+5 13 43 1.20
+Note: Based on estimation sample. Local play includes multiplayer functionality on the same PC as well as over multiple PCs
+connected to the same LAN. Cross-platform multiplayer facilitates online multiplayer functionality between Steam accounts on
+different operating systems (i.e., Windows, Mac, and Linux), and sometimes between non-Steam accounts (e.g., video game
+consoles or other PC platforms).Abbreviation: LAN, local area network.1194 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 14 ===
+4.3.3 | Control variables
+We include several control variables at the platform, publisher, and game levels. Though the
+overall effect of competitive crowding in multisided platforms is ambiguous given the positive
+spillover effect of product variety on platform diffusion (Parker & van Alstyne, 2005), it is well-
+established that entry by similar products can have a negative effect on the performance of afocal product (Boudreau,
+2012)—especially when rivals enter the platform around the same
+time (Rietveld & Eggers, 2018). We therefore control for competitive crowding by including the
+variable genre competition . For each game i,genre competition counts the number of newly
+released games within the same genre(s) as game i, from 30 days before to 30 days after the
+game's release, divided by the number of genres game ilists on Steam. We apply this timeframe
+because games typically have very short lifecycles and generate the bulk of their downloads andrevenues shortly after release (Nair,
+2007). This measure can be interpreted as the mean compe-
+tition a game faces across the genres it competes in; we expect it to have a negative effect on the
+probability of becoming a superstar.
+We include two measures to account for heterogeneous capabilities and resources at the
+publisher level. First, we control for publisher type by including the variable indie publisher .
+The industry broadly distinguishes between two types of publishers. Independent —orindie—
+publishers are smaller in size, focus their development efforts on creative and innovative out-put, and tend to have less (financial) resources. Incumbent publishers, on the other hand,
+are larger, focus on exploiting established intellectual properties, and are typically flush with
+resources, financial and otherwise (also see: Benner & Waldfogel,
+2016). The variable indie
+publisher takes the value of 1 for games by indie publishers and 0 for games by incumbent
+publishers. Second, we control for publishers' prior experience on Steam. Not all publishers
+embraced Steam when it was first launched, whereas others are Steam specialists. The vari-
+able past releases publisher counts the number of games a publisher launched on Steam over
+a rolling window of 5 years dating back from a focal game's release. We chose a rolling win-
+dow rather than publishers' cumulative experience because prior experience may become
+obsolete due to the dynamic and evolving nature of the platform. We log-transform the mea-sure to account for the skew in our data. We expect indie publisher to have a negative effect
+on the probability of becoming a superstar and past releases publisher to have a positive
+effect.
+Finally, we control for several game-level factors. First, we control for game quality by
+including Metacritic's Metascore in our models. We distinguish between games with good Meta-
+scores, games with average Metascores, and games with bad Metascores. We include Meta-critic's review classification as a vector of dummies and omit as the base category games withbad Metascores and games with missing review scores, the latter of which typically denotes very
+poor quality. We thus expect both included dummies to have a positive effect on the probability
+of becoming a superstar. Second, we control for a game's listed genres given that players oftenhave heterogeneous preferences for different types of games. On Steam, games can list one or
+more of the following genres: Action ,Adventure ,Casual ,Massively Multiplayer ,Racing ,Role
+Playing Game ,Simulation ,Sports , and Strategy . We include all of these as dummy variables in
+our models. Third, we control for seasonality by including 11 calendar month-of-release fixed
+effects and exclude January as the base category. Finally, we control for macrolevel and
+platform-level trends (e.g., changing consumer preferences, increasing technological require-ments, updates, etc.) by including year-of-release dummies.RIETVELD ANDPLOOG 1195
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 15 ===
+5|METHODS
+Since we rely on archival data for our study and cannot take advantage of some quasi-
+exogenous shock, we are confronted with a potential endogeneity problem: The existence of
+unobserved factors that are correlated with the free-to-play variable and with our outcome vari-
+able of becoming a superstar . Structural differences between developers of free-to-play games
+and developers of paid games may bias our results (Rietveld, 2018; Tidhar & Eisenhardt, 2020).
+Moreover, shrewd developers may refrain from releasing free-to-play games with social features
+when Steam's installed base is small, while being more inclined to do so when the installed baseis large. Though we cannot fully rule out these potential concerns, we take several precaution-
+ary steps to account for the choice of business model as well as for the potentially endogenous
+timing of game launches.
+We control for the choice of business model by fitting a treatment effects model in which
+both the treatment and the outcome are binary, also known as a recursive bivariate probit
+model (Greene,
+2018). This model is akin to the Heckman two-step control function, such that:
+Outcome equation :yi=xiβ+wiδ+εi,
+Treatment equation: w*
+i=ziγ+ui,wi=1i fw*
+i>0, and wi=0 otherwise
+Prob wi=1jzi ðÞ =ΦziγðÞ
+and
+Prob wi=0jzi ðÞ =1−ΦziγðÞ
+where xiis a vector of exogenous variables determining a binary outcome yi(i.e., superstar ), and
+wiis an endogenous dummy variable indicating the treatment condition (i.e., fee-to-play ). Con-
+trary to the Heckman two-step control function model, however, the outcome yiis observed for
+both wi=1 (i.e., free-to-play ) and wi=0 (i.e., paid). This allows us to conduct a Chow test on the
+interactions between social features and genre installed base to assess their equality (and test
+(H2)). Notably, there need not be an exclusion restriction for recursive bivariate probit models
+to be identified —granted the exogenous variables provide sufficient variation.10
+We include several covariates in our treatment equation. Since we expect some genres to be
+a better fit for the freemium business model than others, we include the vector of genredummies. We additionally include the indie publisher and past releases publisher variables to
+control for variation at the publisher level. At the platform level, we control for genre installed
+base at the time of a game's release. We further include a variable that counts the number of
+past freemium superstars measured over a rolling window of 3 years before a game's release up
+to 1 year before a game's release, to reflect a typical video game development cycle. We expect
+that, at the time a game goes into production, publishers will be guided by the extant success of
+10Formal proofs for why exclusion restrictions are not strictly required in recursive bivariate probit models are beyond
+the scope of this paper. The general intuition is that the identification of such models relies on the nonlinearity of thefunction and variation in the derivatives of the probability that y
+i=1 with respect to the covariates in xiandzi. The
+treatment correction hazard ( λi) is linearly independent of xi, even if zi=1; all that is required is that there is variation
+inxiand in zi(William Greene, personal communication, March 2019).1196 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 16 ===
+the freemium model on Steam in deciding whether their games should be free-to-play or paid.
+Finally, we add year-of-release dummies to account for platform-level time trends. First-stage
+results are reported in Appendix C in the Online Supplement.
+The treatment effects model accounts for the nonrandom assignment of games into the free-
+to-play and paid conditions. The treatment correction hazard ( λi), which is included in the out-
+come equation, balances against differences in genre and year of release, the type of publisher,the size of the installed base, and the success of the freemium business model.
+We take an additional step to reduce imbalance in the empirical distribution of our
+covariates ( x
+i) by applying a coarsened exact matching (CEM) algorithm (Iacus, King, &
+Porro, 2012). Based on a set of matching covariates, CEM prunes observations so that the
+remaining data have a better balance between the treatment and the control conditions. For
+each free-to-play game i, the algorithm finds at least one paid game that is similar on the follow-
+ing covariates: social features ,genre installed base ,indie publisher ,past releases publisher , and
+genre. Thus, for each free-to-play game, the algorithm finds at least one same-genre paid game
+with an equivalent number of social features that is released around the same time by a compa-
+rable publisher. After pruning 4,641 observations, the imbalance ( L1) in our estimation sample
+reduces from 0.66 to 0.06. The CEM algorithm assigns weights based on the number of control
+group observations for each treated observation, which we use in our models to further improve
+the quality of our inferences (Blackwell, Iacus, King, & Porro, 2009).
+In sum, while our results are correlational, we attempt to mitigate endogeneity concerns
+that are both structural (i.e., choice of business model) and time varying (i.e., release timing of
+games on Steam) by fitting a treatment effects model on a matched and rebalanced sample.
+6|RESULTS
+6.1 |Main results
+Table 3lists descriptive statistics and pairwise correlations for our covariates. Our main results
+are reported in Table 4. Model 1 includes control variables only. Model 2 adds independent vari-
+ables ( social features and genre installed base ). Model 3 adds the interaction between social fea-
+tures and genre installed base , testing H1. Model 4 controls for the nonrandom (treatment)
+assignment into free-to-play . Model 5 prunes and rebalances the sample by applying the CEM
+TABLE 3 Descriptive statistics and pairwise correlations
+Variable Mean SD Min Max 1 2 3 4 5 6
+1 Superstar 0.04 0.19 0.00 1.00
+2 Free-to-play 0.08 0.27 0.00 1.00 0.19
+3 Social features 0.38 0.88 0.00 5.00 0.17 0.17
+4 Genre installed base t-1 4.57 3.23 0.00 10.66 0.02 0.07 0.05
+5 Genre competition 159.90 100.59 1.00 456.00 −0.08 −0.11 −0.06 0.52
+6 Indie publisher 0.67 0.47 0.00 1.00 −0.10 −0.07 −0.03 0.26 0.21
+7 ln(Past releases publisher) 1.05 1.32 0.00 4.82 0.05 −0.13 −0.06 −0.12 −0.08 −0.37
+Note: Based on estimation sample ( n=9,700). Mean VIF =2.54.
+Abbreviation: VIF, variance inflation factor.RIETVELD ANDPLOOG 1197
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 17 ===
+TABLE 4 Regression estimates of games' likelihood of becoming a superstar
+Superstar
+Free-to-play Paid Test of 5 ≠6
+Variable 1234567
+Social features 0.21 [0.05] 0.07 [0.09] 0.06 [0.09] −0.22 [0.15] 0.006 [0.13] 1.28
+Genre installed base t-1 0.002 [0.019] −0.03 [0.03] −0.08 [0.06] −0.38 [0.13] 0.07 [0.04] 10.24
+Social features ×genre installed base t-1 0.02 [0.01] 0.03 [0.01] 0.10 [0.03] 0.02 [0.02] 6.32
+Genre competition −0.004 [0.001] −0.004 [0.001] −0.004 [0.001] −0.004 [0.001] −0.006 [0.002] −0.001 [0.001] 3.40
+Indie publisher −0.24 [0.14] −0.23 [0.14] −0.23 [0.14] 0.11 [0.37] 1.70 [0.87] −0.22 [0.32] 4.31
+ln(Past releases publisher) 0.13 [0.07] 0.15 [0.07] 0.15 [0.07] 0.34 [0.21] 1.29 [0.51] −0.16 [0.14] 7.59
+Quality dummies (2) Yes Yes Yes Yes Yes Yes
+Genre dummies (9) Yes Yes Yes Yes Yes YesMonth of release dummies (11) Yes Yes Yes Yes Yes Yes
+Year of release dummies (5) Yes Yes Yes Yes Yes Yes
+Endogenous treatment correction No No No Yes Yes Yes
+Matched and rebalanced sample No No No No Yes Yes
+Constant −1.04 [0.29] −1.14 [0.31] −0.99 [0.32] 0.47 [1.48] 5.95 [3.28] −2.10 [0.70] 6.85
+McFadden's pseudo R
+2.22 .23 .24 .24
+Observations 771 771 771 771 456 4,603
+Note: Heteroscedasticity robust SEs in parentheses. Models 1 –3 report stepwise results from probit regressions on the subsample of free-to-play games. Model 4 estimates an endogenous
+treatment effects model on the subsample of free-to-play games. First-stage results are reported in Appendix C in the Online Supplement. Models 5 and 6 estimate results on a pruned and
+rebalanced sample via coarsened exact matching, on the subsamples of free-to-play and paid games, respectively. The error terms in Models 5 and 6 are j ointly estimated. Model 7 reports
+Chow test statistics estimating equality of coefficients between coefficients in Models 5 and 6.1198 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 18 ===
+algorithm. Model 6 estimates the fully-specified model on the matched subsample of paid
+games. (Error terms in Models 5 and 6 are jointly estimated to facilitate cross-model hypothesis
+tests.) Model 7 tests (H2) by comparing regression coefficients across both models.
+Results lend support to our hypotheses. Consistent with H1, the interaction between social
+features and installed base in Model 5 is positive and significant ( β=.102, p=.000). This sug-
+gests that free-to-play games with many social features have a better chance of becoming asuperstar when the platform's installed base is large. Given that the interpretation of interaction
+effects in nonlinear models is complicated, we obtain the marginal effects on superstar at differ-
+ent values of social features and genre installed base (Hoetker,
+2007; Zelner, 2009). Figure 1
+depicts the margins slopes for games with five social features and games without any social fea-
+tures at different values of the installed base. The figure shows that when the installed base is
+large, free-to-play games with many social features have a 49 percentage points higher probabil-ity of becoming a superstar than free-to-play games without any social features, whereas whenthe platform's installed base is small, free-to-play games with many social features have a 26 per-
+centage points lower probability of becoming a superstar.
+To test
+(H2), we take the coefficient on the interaction between social features and genre
+installed base for the subsample of free-to-play games and compare it to the same coefficient for
+the subsample of paid games. To do so, we conduct a Chow test to assess the equality of coeffi-
+cients (Chow, 1960). The interaction between social features andgenre installed base for the sub-
+sample of paid games is positive but not statistically significant ( β=.021, p=.226). Moreover,
+the Chi-square test statistic is significant ( χ2=6.32, p=.012), confirming that the coefficients
+on the interaction effects are statistically different across both subsamples. The right-hand mar-gins plot in Figure
+1further confirms the absence of an interaction effect for paid games. Nota-
+bly, free-to-play games with many social features that are released on a platform with a large
+installed base are 37 percentage points more likely to become a superstar than paid games with
+many social features released on a platform with a similar installed base.
+To interpret our control variables we estimate a model on the matched and rebalanced sub-
+sample of free-to-play games that does not include any interactions or variable transformations
+(Wiersema & Bowen, 2009). We find that one additional social feature is associated with a 4.36
+percentage points increase in the probability of becoming a superstar ( p=.001). Genre installed
+base has no significant effect on becoming a superstar. One hundred additional same-genre
+00.10.20.30.40.50.60.70.80.9
+0123456789 1 0Pr(Superstar )Five social features
+No social featuresFree-to-play (n=456) Paid (n=4,603)
+Genre installed base (millions)00.10.20.30.40.50.60.70.80.9
+0123456789 1 0Pr(Superstar )
+FIGURE 1 Predicted probability plots based on subsample analyses. Predicted probability plots for free-to-
+play and paid video games with many (5) and without any social features based on split-sample probitregressions reported in Models 5 and 6 in Table
+4RIETVELD ANDPLOOG 1199
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 19 ===
+games (i.e., genre competition ) reduces the probability of becoming a superstar by 7.79 percent-
+age points ( p=.018). Publisher type (i.e., indie publisher ) has no effect on becoming a superstar.
+Adding 10 games to a publisher's past releases is associated with a 3.75 percentage points higherprobability of becoming a superstar ( p=.081). Free-to-play games with good Metascores have a
+29 percentage points higher probability of becoming a superstar than games with bad or miss-
+ing Metascores ( p=.082). Action games are 13 percentage points more likely to become a super-
+star than any of the other genres ( p=.086).
+6.2 |Robustness tests and mechanism checks
+We took several steps to mitigate potential endogeneity concerns: First, we constructed a novel
+measure for superstar products that accounts for supply- and demand-side variation as well asfor time trends by standardizing performance for products released in different circumstances.
+Second, to control for structural differences between free-to-play and paid games we first esti-
+mated an endogenous treatment effects model before estimating the equation of interest. Third,we pruned and rebalanced the estimation sample via CEM to further reduce imbalance in our
+data. Our hypotheses remain fully supported after these steps. Nevertheless, we conduct several
+additional robustness checks to further rule out potential alternative explanations.
+11
+First, one might argue that variation in installed base size cannot be fully separated from
+other potentially relevant time-varying factors. Consequently, the argument goes, what deter-
+mines which games become superstars likely changes over time. We run an additional set oftests to further check for this. First, because fluctuations in the average number of social fea-tures may affect the relative value of incorporating these features, we control for either the aver-
+age number of social features per game at the genre-year level, or for the share of games with
+any social features. Second, to account for time-varying demand heterogeneity, we include themedian number of games owned by different user cohorts based on the year of joining Steam.
+Consistent with Rietveld and Eggers (
+2018), we note that the median number of games owned
+decreases over time. Third, we add games' system requirements in the form of random-accessmemory and hard disk space (measured in gigabytes) to account for increasing technological
+demands, which could affect the type of games users download (Ghose & Han,
+2014). In all
+these alternative specifications, our arguments remain supported.
+Second, we construct three alternative measures for determining whether a game is a super-
+star. First, instead of basing a game's z-score on the subsample of all games released in the same
+year, we create a more granular measure at the level of a game's genre(s). Computing separatez-scores for each genre a game competes in, we denote a game as a superstar when the statisti-cal average of these genre-based z-scores is equal to or greater than 1. Second, to rule out the
+possibility that our findings are specific to our z-score-based performance measure, we estimate
+our results using measures that indicate whether a game is among the top 5% most downloadedgames in a year or genre. Results are consistent with our reported main results.
+Third, we run several supplementary analyses for our social features variable. The first alter-
+native measure operationalization takes the value of 1 if a game has any social features and 0 ifa game has no social features. The second measure pools online and local multiplayer modes,
+restricting the count to three. The third drops local multiplayer functionality from the
+count, focusing exclusively on the various online multiplayer modes. The fourth takes the
+11Fully tabulated results from these robustness checks are reported in Appendix C in the Online Supplement.1200 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 20 ===
+log-transformation of the number of social features to account for the skewness in the data. Fur-
+thermore, we add control variables indicating whether games include leaderboards and achieve-
+ments as examples of social features that do not materially alter a game's value proposition.Results from all these specifications are fully consistent with our main results.
+Fourth, we run several supplementary analyses for our installed base measure. First, instead
+of operationalizing the genre installed base measure using yearly statistics, we recreate the mea-sure using cumulative data (from the start of the platform up to a focal year). Second, instead of
+using a genre-specific measure, we estimate platform-wide measures. Relatedly, we create a
+measure of the platform's yearly growth rate and control for platform age (in months). Year-of-release fixed effects are absorbed in these robustness checks, and multicollinearity is an issue in
+some of the models. That said, our arguments remain supported.
+Fifth, one of the mechanisms driving
+(H2) is consumers spending less time on freemium
+products than paid products. To generate network effects, freemium products therefore requirea disproportionally larger user base (i.e., to offset lower engagement rates). To check for this,
+we estimate results on the log of games' median playing time, or the median number of minutes
+per user playing a game, as dependent variable. Results from a linear regression with endoge-nous treatment effects suggests that free-to-play games indeed have disproportionately lower
+use rates ( β=−4.769; p=.000; also see: Rietveld,
+2018). In fact, we note that the median
+playing time for free-to-play games in our estimation sample is 54 min while it is 270 min forpaid games. Exponentiating the regression coefficient suggests that free-to-play games have a 99
+percentage points lower median playing time (per user) than paid games. These findings on
+playing time are consistent with the suggested mechanisms for our hypotheses.
+Finally, we estimate the fully specified model on the pooled sample of free-to-play and paid
+games and test the three-way interaction between free-to-play ,social features , and genre installed
+base. Our findings are fully robust; the three-way interaction effect is positive and statistically
+significant ( β=.069, p=.030). We additionally find support for our hypotheses using a rare
+events logit estimator (King & Zeng,
+2001). We conclude that our results are robust to various
+alternative model specifications and measurement operationalizations.
+7|DISCUSSION AND CONCLUSIONS
+Recognizing the need for widespread diffusion and the potentially mixed effects of incorporat-
+ing social features into freemium products, we asked: How and when do social product features
+affect the likelihood of a freemium product becoming a superstar? To answer this question, we
+analyzed a sample of 9,700 digital PC games launched on Steam between 2011 and 2016.Results from an endogenous treatment effects model estimated on a matched and rebalanced
+sample show that, when the platform's installed base is large, free-to-play games with many
+social features have a 49 percentage points higher probability of becoming a superstar thanfree-to-play games without any social features. Conversely, when the platform's installed base is
+small, free-to-play games with many social features have a 26 percentage points lower probabil-
+ity of becoming a superstar. Furthermore, we find that the contingent effect of incorporatingsocial features is specific to free-to-play games; the effect does not apply to paid games. Our
+study makes several contributions and holds implications for future research on network
+effects, freemium strategies, and superstar products in platform markets.
+First, our study contributes to the literature on network effects. By relaxing the common
+assumption in the strategy literature that network effects are a market-level construct, weRIETVELD ANDPLOOG 1201
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 21 ===
+explored how firms can increase the strength of network effects through their product design
+choices. By incorporating multiplayer modes into freemium games, the publishers in our sam-
+ple added network functionality to products' standalone functionality, thereby increasing theirchances of attaining market-leading performance. The notion that firms can alter the strength
+of their products' network effects has previously been examined in the fields of marketing and
+information systems (e.g., Aral & Walker,
+2011; Dou et al., 2013), but remains largely
+unexplored in strategic management (for an exception, see: McIntyre & Subramaniam, 2009).
+This lack of attention is surprising given the myriad implications tractable network effects can
+have on such issues as market entry timing, product innovation management, and competitivedynamics. Allowing for product-level variation in the strength of network effects, for example,
+may shed new light on how new entrants can successfully compete with dominant incumbents
+or when winner-take-all dynamics are likely to occur.
+However, designing products around network effects is no panacea. The efficacy of this
+strategy importantly depends on external factors, including a product's demand potential. Our
+results suggest that firms can increase the chances of their products becoming a superstar if
+they incorporate social features when demand potential is large, whereas they decrease thechances of their products becoming a superstar when demand potential is constrained. This
+finding is consistent with Srinivasan, Lilien, and Rangaswamy (
+2004), who found that network
+effects have a negative impact on the survival rate of pioneering products —those products that
+are first to enter a nascent market when demand is still limited. We conclude that there exist
+contingencies as to when firms should rely more on network functionality versus standalone
+functionality for their products' value proposition (Cabral et al., 1999; Lee & O'Connor, 2003).
+Future research should explore how other factors, such as demand heterogeneity or competitivedynamics, impact the efficacy of incorporating social product features.
+Second, we contribute to our understanding of how and when the freemium business model
+works (Kumar,
+2014). There exist qualitative differences between freemium and paid
+products —including usage patterns and diffusion dynamics —that have implications for firms
+operating the freemium business model. On the one hand, freemium products diffuse more
+quickly and more widely than paid products, due to their lower barriers to adoption and stron-ger word-of-mouth dynamics (Bond et al.,
+2019; Lin et al., 2019). On the other hand, freemium
+consumers have a lower willingness-to-pay and they are less engaged than paying consumers
+(Bapna et al., 2018; Rietveld, 2018). Given that the strength of any product's network effects is a
+function of the product's network functionality and its active user base (Shankar &
+Bayus, 2003), incorporating social features will therefore only benefit those freemium products
+that manage to attract a disproportionately large user base. Thus, while prior literature hasaddressed why firms should adopt a freemium business model in the presence of network
+effects (Cheng & Liu,
+2012; Shi et al., 2019), we add by documenting how firms operating the
+freemium business model can design their products to optimally benefit from network effects.
+Third, we contribute a novel measure for operationalizing superstars in platform settings.
+Many digital platforms are characterized by markedly skewed demand distributions
+(e.g., Benner & Waldfogel, 2020). When this is the case, there exists a strong demarcation
+between superstar products and (less successful) products that reside in the long tail of theseplatforms (Brynjolfsson et al.,
+2010; Elberse, 2008). What exactly constitutes a superstar, how-
+ever, is a moving target. Considering platforms' two-sidedness and products' embedded nature
+within these markets, the size of the market for such products —both on the demand side and
+on the supply side —is subject to constant variation. As a result, applying a fixed cutoff thresh-
+old based on a product's downloads or its sales ranking may yield inconsistent results. To1202 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 22 ===
+account for this, we proposed a measure based on a product's standardized performance relative
+to similar products released around the same time on the platform. We hope our z-score-based
+measure for superstar products will benefit scholars conducting research in similar settings.
+Our study also has some limitations that must be acknowledged. Most notably, we only have
+data on one platform. While this enabled us to develop a deep understanding of games on
+Steam, as well as to construct measures and conduct analyses that are highly contextual, wecannot unequivocally ascertain that our results are caused by variation in Steam's installed base.
+Neither can we assure the generalizability of our findings to other digital platforms or different
+types of social features. We encourage colleagues to duplicate and extend our findings in relatedsettings such as mobile app stores. The share of freemium products on Apple's App Store and
+Google's Play Store, for example, is much higher. Developers on these platforms also often oper-
+ate hybrid business models, where income is generated from both consumers and advertisers(Casadesus-Masanell & Zhu,
+2010,2013). Non-gaming apps further incorporate different types
+of social features such as ride-sharing functionality and virtual collaborative tools.
+How do our findings replicate to these different platforms and social features? A study by
+Boudreau et al. ( 2020) documents dynamics similar to ours in the context of Apple's App Store:
+An increase in market-level network effects benefitted freemium market leaders more than paid
+market leaders. Thus, in line with our arguments, they document that network effects are more
+beneficial to freemium than paid superstars. Their study differs, however, in its focus onmarket-level network effects, and it does not explore the antecedents of market leadership.
+A potential boundary condition of our work is the extent that a platform's life cycle is finite.
+Platforms tied to a specialized technology product, such as a video game console or asmartphone, are often replaced by a next-generation platform after some time(e.g., Kretschmer & Claussen,
+2016). Consumers may be tempted to abandon the focal platform
+in lieu of a next-generation platform (e.g., Kim & Srinivasan, 2009), causing a contraction of the
+installed base —and with it products' demand potential. Thus, in the presence of generational
+breaks, a platform's installed base size positively impacts the inclusion of social product features
+to the point that consumers won't anticipate the introduction of a next-generation platform .
+We also believe it will be important to gain better understanding about the life cycle dynam-
+ics of freemium products. At what point do freemium superstars fail to retain and engage their
+users, why? These questions are pertinent given that consumers seem to lose interest in these
+products virtually overnight —as witnessed by H1Z1 , a freemium superstar game on Steam that
+was abruptly dethroned by PlayerUnknown's Battleground , another freemium game in the same
+genre (also see: Lee et al., 2021). Similarly, it should be interesting to investigate differences
+between social features. For example, in our data, we observed a decline in the number ofgames incorporating local multiplayer modes. While this trend can be explained by increasedconnectivity among users and by firms targeting larger user bases via online multiplayer, firms
+may exercise some caution. Prior research found that users often exhibit local bias, meaning
+that network effects are stronger when users have stronger ties to each other (Afuah,
+2013; Lee
+et al., 2006; Suarez, 2005). Local multiplayer functionality may therefore not accommodate the
+same scale of connectedness, but it will likely result in stronger engagement, which could offset
+the smaller user base. More work is needed on the tradeoff between user base growth andengagement dynamics for network effects (also see: Claussen, Kretschmer, & Mayrhofer,
+2013).
+Finally, scholars may want to study value capture strategies for freemium products. Little is
+known still about the effective design of freemium price menus (for exceptions, see: Meng,Hao, & Tan,
+2021; Tidhar & Eisenhardt, 2020). This is a complex issue at the intersection of
+product design and consumer psychology. Archival data are unlikely to generate conclusive evi-
+dence, which may be better studied using experiments or machine learning techniques.RIETVELD ANDPLOOG 1203
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 23 ===
+The freemium business model has become the leading business model on many digital plat-
+forms. Some of the most popular products today are commercialized with a freemium model.
+These products often incorporate social features such as multiplayer functionality in videogames, virtual collaboration tools in productivity software, and carpooling in ride-hailing appli-
+cations. Social features add network functionality to a product's standalone functionality, and
+they can increase the strength of network effects. Incorporating social features, however, is adouble-edged sword: On the one hand, when a freemium product's demand potential is con-
+strained, network effects will not materialize and users may feel they are missing out. On the
+other hand, when a freemium product's demand potential is large, social product features canset in motion a virtuous cycle of more adoption, more usage, and more in-app purchases.
+ACKNOWLEDGEMENTS
+This research started when both authors held positions at the Rotterdam School of Manage-ment, Erasmus University. They are grateful for research assistance provided by the Erasmus
+Data Service Centre (EDSC). The authors benefitted from feedback during seminar presenta-
+tions at London Business School, ESTM Berlin, Technical University of Munich, andGoldsmiths, University of London. The authors further benefitted from feedback on presenta-
+tions at the London50 conference at the London Business School, the SMS 39th Annual Confer-
+ence in Minneapolis (MN), the SMS Special Conference in Frankfurt (Germany), and the UCLSchool of Management reading group. The authors thank Yiting Deng, JP Eggers, Yongdong
+Liu, David Nieborg, Melissa Schilling, Sruthi Thatchenkery, and Bart Vanneste for their feed-
+back on earlier versions of the paper. The authors further thank Will Luton for his insights onfree-to-play video games and Bill Greene for his helpful feedback on the identification of recur-sive bivariate probit models. Finally, the authors thank the associate editor and two anonymous
+reviewers whose constructive comments helped improve the paper.
+DATA AVAILABILITY STATEMENT
+The data that support the findings of this study are available from the corresponding author
+upon reasonable request.
+ORCID
+Joost Rietveld
+https://orcid.org/0000-0001-8722-4442
+Joe N. Ploog https://orcid.org/0000-0002-8895-5228
+REFERENCES
+Afuah, A. (2013). Are network effects really all about size? The role of structure and conduct. Strategic Manage-
+ment Journal ,34(3), 257 –273.
+Amit, R., & Zott, C. (2001). Value creation in e-business. Strategic Management Journal ,22(6–7), 493 –520.
+Aral, S., & Walker, D. (2011). Creating social contagion through viral product design: A randomized trial of peer
+influence in networks. Management Science ,57(9), 1623 –1639.
+Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. Organizational Behavior and Human Decision
+Processes ,35(1), 124 –140.
+Arora, S., ter Hofstede, F., & Mahajan, V. (2017). The implications of offering free versions for the performance
+of paid mobile apps. Journal of Marketing ,81(6), 62–78.
+Bapna, R., Ramaprasad, J., & Umyarov, A. (2018). Monetizing freemium communities: Does paying for premium
+increase social engagement? MIS Quarterly ,42(3), 719 –736.
+Benner, M. J., & Waldfogel, J. (2016). The song remains the same? Technological change and positioning in the
+recorded music industry. Strategy Science ,1(3), 129 –147.1204 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 24 ===
+Benner, M. J., & Waldfogel, J. (2020). Changing the channel: Digitization and the rise of “middle tail ”strategies.
+Strategic Management Journal .
+Binken, J. L., & Stremersch, S. (2009). The effect of superstar software on hardware sales in system markets. Jour-
+nal of Marketing ,73(2), 88–104.
+Blackwell, M., Iacus, S., King, G., & Porro, G. (2009). Cem: Coarsened exact matching in stata. The Stata Journal ,
+9(4), 524 –546.
+Bond, S. D., He, S. X., & Wen, W. (2019). Speaking for “free”: Word of mouth in free- and paid-product settings.
+Journal of Marketing Research ,33(1), 1–15.
+Boudreau, K. J. (2012). Let a thousand flowers bloom? An early look at large numbers of software app developers
+and patterns of innovation. Organization Science ,23(5), 1409 –1427.
+Boudreau, K. J., & Jeppesen, L. B. (2015). Unpaid crowd complementors: The platform network effect mirage.
+Strategic Management Journal ,36(12), 1761 –1777.
+Boudreau, K. J., Jeppesen, L. B., & Miric, M. (2020). Competing on freemium: Digital competition with network
+effects (Working Paper). Available at SSRN: https://ssrn.com/abstract=2984546
+Brynjolfsson, E., Hu, Y., & Smith, M. D. (2010). Research commentary —Long tails vs. superstars: The effect of
+information technology on product variety and sales concentration patterns. Information Systems Research ,
+21(4), 736 –747.
+Cabral, L. M., Salant, D. J., & Woroch, G. A. (1999). Monopoly pricing with network externalities. International
+Journal of Industrial Organization ,17, 199–214.
+Casadesus-Masanell, R., & Zhu, F. (2010). Strategies to fight ad-sponsored rivals. Management Science ,56(9),
+1484–1499.
+Casadesus-Masanell, R., & Zhu, F. (2013). Business model innovation and competitive imitation: The case of
+sponsor-based business models. Strategic Management Journal ,34(4), 464 –482.
+Cennamo, C., & Santalo, J. (2013). Platform competition: Strategic trade-offs in platform markets. Strategic Man-
+agement Journal ,34(11), 1331 –1350.
+Cheng, H. K., & Liu, Y. (2012). Optimal software free trial strategy: The impact of network externalities and con-
+sumer uncertainty. Information Systems Research ,23(2), 488 –504.
+Chow, G. C. (1960). Tests of equality between sets of coefficients in two linear regressions. Econometrica ,28(3),
+591605.
+Claussen, J., Kretschmer, T., & Mayrhofer, P. (2013). The effects of rewarding user engagement: The case of
+facebook apps. Information Systems Research ,24(1), 186 –200.
+Clements, M. T., & Ohashi, H. (2005). Indirect network effects and the product cycle: Video games in the U.S.,
+1994-2002. The Journal of Industrial Economics ,53(4), 515 –542.
+Cox, J. (2014). What makes a blockbuster video game? An empirical analysis of US sales data. Managerial and
+Decision Economics ,35(3), 189 –198.
+Datta, H., Foubert, B., & van Heerde, H. J. (2015). The challenge of retaining customers acquired with free trials.
+Journal of Marketing Research ,52(2), 217 –234.
+Dou, Y., Niculescu, M. F., & Wu, D. J. (2013). Engineering optimal network effects via social media features and
+seeding in markets for digital goods and services. Information Systems Research ,24(1), 164 –185.
+Eckhardt, J. T. (2016). Welcome contributor or no price competitor? The competitive interaction of free and
+priced technologies. Strategic Management Journal ,37(4), 742 –762.
+Elberse, A. (2008). Should you invest in the long tail? Harvard Business Review ,86(7/8), 88.
+Ershov, D. (2020). Competing with superstars in the mobile app market (Working Paper).
+Farrell, J., & Saloner, G. (1986). Installed base and compatibility: Innovation, product preannouncements, and
+predation. The American Economic Review ,76(5), 940 –955.
+Ghose, A., & Han, S. P. (2014). Estimating demand for mobile applications in the new economy. Management
+Science ,60(6), 1470 –1488.
+Gourville, J. T., & Soman, D. (1998). Payment depreciation: The behavioral effects of temporally separating pay-
+ments from consumption. Journal of Consumer Research ,25(2), 160 –174.
+Greene, W. H. (2018). Econometric analysis (8th ed.). New York, NY: Pearson.
+Gretz, R. T., Malshe, A., Bauer, C., & Basuroy, S. (2019). The impact of superstar and non-superstar software on
+hardware sales: The moderating role of hardware lifecycle. Journal of the Academy of Marketing Science ,
+47(3), 394 –416.RIETVELD ANDPLOOG 1205
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 25 ===
+Gu, X., Kannan, P. K., & Ma, L. (2018). Selling the premium in freemium. Journal of Marketing ,82(6),
+10–27.
+Hoetker, G. (2007). The use of logit and probit models in strategic management research: Critical issues. Strategic
+Management Journal ,28(4), 331 –343.
+Iacus, S. M., King, G., & Porro, G. (2012). Causal inference without balance checking: Coarsened exact matching.
+Political Analysis ,20(1), 1–24.
+Kaplan, S., & Vakili, K. (2015). The double-edged sword of recombination in breakthrough innovation. Strategic
+Management Journal ,36(10), 1435 –1457.
+Katz, M. L., & Shapiro, C. (1985). Network externalities, competition, and compatibility. The American Economic
+Review ,75(3), 424 –440.
+Kim, S. H., & Srinivasan, V. (2009). A conjoint-hazard model of the timing of buyers' upgrading to improved ver-
+sions of high-technology products. Journal of Product Innovation Management ,26(3), 278 –290.
+King, G., & Zeng, L. (2001). Logistic regression in rare events data. Political Analysis ,9(2), 137 –163.
+Kneeland, M. K., Schilling, M. A., & Aharonson, B. S. (2020). Exploring uncharted territory: Knowledge search
+processes in the origination of outlier innovation. Organization Science ,31(3), 535 –557.
+Kretschmer, T., & Claussen, J. (2016). Generational transitions in platform markets —The role of backward com-
+patibility. Strategy Science ,1(2), 90–104.
+Kumar, V. (2014). Making "freemium "work: Many start-ups fail to recognize the challenges of this popular busi-
+ness model. Harvard Business Review ,92(5), 27–30.
+Lee, E., Lee, J., & Lee, J. (2006). Reconsideration of the winner-take-all hypothesis: Complex networks and local
+bias. Management Science ,52(12), 1838 –1848.
+Lee, R. S. (2013). Vertical integration and exclusivity in platform and two-sided markets. The American Economic
+Review ,103(7), 2960 –3000.
+Lee, S., & Csaszar, F. A. (2020). Cognitive and structural antecedents of innovation: A large-sample study. Strat-
+egy Science ,5(2), 71–97.
+Lee, S., Zhang, J., & Wedel, M. (2021). Managing the versioning decision over an app's lifetime. Journal of Mar-
+keting ,85(6), 44–62.
+Lee, Y., & O'Connor, G. C. (2003). New product launch strategy for network effects products. Journal of the Acad-
+emy of Marketing Science ,31(3), 241 –255.
+Lilien, G. L., & Yoon, E. (1990). The timing of competitive market entry: An exploratory study of new industrial
+products. Management Science ,36(5), 568 –585.
+Lin, Z., Zhang, Y., & Tan, Y. (2019). An empirical study of free product sampling and rating bias. Information
+Systems Research ,30(1), 260 –275.
+Luton, W. (2013). Free-to-play: Making money from games you give away . London: New Riders.
+McIntyre, D. P., & Srinivasan, A. (2017). Networks, platforms, and strategy: Emerging views and next steps. Stra-
+tegic Management Journal ,38(1), 141 –160.
+McIntyre, D. P., & Subramaniam, M. (2009). Strategy in network industries: A review and research agenda. Jour-
+nal of Management ,35(6), 1494 –1517.
+Meng, Z., Hao, L., & Tan, Y. (2021). Freemium pricing in digital games with virtual currency. Information Sys-
+tems Research ,32(2), 481 –496.
+Nair, H. (2007). Intertemporal price discrimination with forward-looking consumers: Application to the US mar-
+ket for console video-games. Quantitative Marketing and Economics ,5(3), 239 –292.
+Nair, H., Chintagunta, P. K., & Dube, J.-P. H. (2004). Empirical analysis of indirect network effects in the market
+for personal digital assistants. Quantitative Marketing and Economics ,2(1), 23–58.
+Ozalp, H., & Kretschmer, T. (2019). Follow the crowd or follow the trailblazer? The differential role of firm expe-
+rience in product entry decisions in the US video game industry. Journal of Management Studies ,56(7),
+1452–1481.
+Parakhonyak, A., & Vikander, N. (2019). Optimal sales schemes for network goods. Management Science ,65(2),
+819–841.
+Parker, G. G., & van Alstyne, M. W. (2005). Two-sided network effects: A theory of information product design.
+Management Science ,51(10), 1494 –1504.
+Pauwels, K., & Weiss, A. (2008). Moving from free to fee: How online firms market to change their business
+model successfully. Journal of Marketing ,73(3), 14–31.1206 RIETVELD ANDPLOOG
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 26 ===
+Rietveld, J. (2018). Creating and capturing value from freemium business models: A demand-side perspective.
+Strategic Entrepreneurship Journal ,12(2), 171 –193.
+Rietveld, J., & Eggers, J. P. (2018). Demand heterogeneity in platform markets: Implications for complementors.
+Organization Science ,29(2), 304 –322.
+Rietveld, J., Ploog, J. N., & Nieborg, D. B. (2020). Coevolution of platform dominance and governance strategies:
+Effects on complementor performance outcomes. Academy of Management Discoveries ,6(3), 488 –513.
+Rosen, S. (1981). The economics of superstars. The American Economic Review ,71(5), 845 –858.
+Schilling, M. A. (2002). Technology success and failure in winner-take-all markets: The impact of learning orien-
+tation, timing, and network externalities. Academy of Management Journal ,45(2), 387 –398.
+Schilling, M. A. (2003). Technological leapfrogging: Lessons from the U.S. video game console industry. Califor-
+nia Management Review ,45(3), 6–32.
+Seufert, E. B. (2013). Freemium economics: Leveraging analytics and user segmentation to drive revenue . Amster-
+dam: Elsevier Science.
+Shankar, V., & Bayus, B. L. (2003). Network effects and competition: An empirical analysis of the home video
+game industry. Strategic Management Journal ,24(4), 375 –384.
+Shi, Z., Zhang, K., & Srinivasan, K. (2019). Freemium as an optimal strategy for market dominant firms. Market-
+ing Science ,38(1), 150 –169.
+Srinivasan, R., Lilien, G. L., & Rangaswamy, A. (2004). First in, first out? The effects of network externalities on
+pioneer survival. Journal of Marketing ,68(1), 41–58.
+Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action.
+Organizational Behavior and Human Performance ,16(1), 27–44.
+Suarez, F. F. (2004). Battles for technological dominance: An integrative framework. Research Policy ,33(2),
+271–286.
+Suarez, F. F. (2005). Network effects revisited: The role of strong ties in technology selection. Academy of Man-
+agement Journal ,48(4), 710 –720.
+Sun, L., Rajiv, S., & Chu, J. (2016). Beyond the more the merrier: The variety effect and consumer heterogeneity
+in system markets. International Journal of Research in Marketing ,33(2), 261 –275.
+Tellis, G. J., Yin, E., & Niraj, R. (2009). Does quality win? Network effects versus quality in high-tech markets.
+Journal of Marketing Research ,46(2), 135 –149.
+Tidhar, R., & Eisenhardt, K. M. (2020). Get rich or die trying …Finding revenue model fit using machine learning
+and multiple cases. Strategic Management Journal ,41(7), 1245 –1273.
+Wiersema, M. F., & Bowen, H. P. (2009). The use of limited dependent variable techniques in strategy research:
+Issues and methods. Strategic Management Journal ,30(6), 679 –692.
+Yin, P. L., Davis, J. P., & Muzyrya, Y. (2014). Entrepreneurial innovation: Killer apps in the iphone ecosystem.
+The American Economic Review ,104(5), 255 –259.
+Zelner, B. A. (2009). Using simulation to interpret results from logit, probit, and other nonlinear models. Strate-
+gic Management Journal ,30(12), 1335 –1348.
+Zhu, F., & Iansiti, M. (2012). Entry into platform-based markets. Strategic Management Journal ,33(1), 88–106.
+SUPPORTING INFORMATION
+Additional supporting information may be found in the online version of the article at the pub-
+lisher's website.
+How to cite this article: Rietveld, J., & Ploog, J. N. (2022). On top of the game? The
+double-edged sword of incorporating social features into freemium products. Strategic
+Management Journal ,43(6), 1182 –1207. https://doi.org/10.1002/smj.3362RIETVELD ANDPLOOG 1207
+ 10970266, 2022, 6, Downloaded from https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3362 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [22/08/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+

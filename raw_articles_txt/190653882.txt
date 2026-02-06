@@ -1,0 +1,1754 @@
+=== PÁGINA 1 ===
+Received: 8 January 2020 Accepted: 6 January 2022
+DOI: 10.1111/poms.13672
+ORIGINAL ARTICLE
+Converting free users to paid subscribers in the SaaS context:
+The impact of marketing touchpoints, message content, and usage
+Hongshuang (Alice) Li
+Department of Marketing & Logistics, Ohio State
+University, Columbus, Ohio, USA
+Correspondence
+Department of Marketing & Logistics, Ohio State
+University, Columbus, OH 43210, USA.
+Email: li.815@osu.edu
+Handling editor : Fred FeinbergAbstract
+As software-as-a-service (SaaS) becomes an increasingly popular business model, free-
+trial acquisition, which allows prospective consumers to explore the service at no
+charge, also becomes a norm for SaaS companies. However, empirical research on
+the role of marketing communications, consumers’ free-trial usage, and their interac-
+tions is still lacking. This study utilizes the granular data from a leading SaaS ﬁrm
+that provides prospects with free trials and examines the impact of and interactions
+among various marketing touchpoints, different types of message content, and the fre-
+quency and variety of free-trial usage on consumers’ subscription decisions. Regarding
+advertising effectiveness, this study ﬁnds that consumer-initiated touchpoints with all
+message content enhance conversion, but the ﬁrm-initiated touchpoints conveying per-
+suasive messages discourage conversion. Meanwhile, free-trial usage does not always
+follow the old adage “the more, the merrier.” When usage is unpacked as frequency and
+variety, more frequent free-trial usage encourages conversion, but exploring a greater
+variety of software leads to a lower conversion rate. For the focal ﬁrm, advertising and
+free-trial usage attenuate each other in leading to conversion, except for the persuasive
+messages sent to frequent users and featured messages to variety-seeking users. The
+robustness of these ﬁndings is tested, and two simulations demonstrate how the model
+helps ﬁrms determine when to contact consumers with additional display ads or emails.
+This research provides guidance to SaaS managers on the impact of advertising, free-
+trial usage, and the interplay between both on conversion, which facilitates decisions
+on marketing strategies and resource allocations.
+KEYWORDS
+free-trial acquisition, marketing touchpoints, message content, software usage, software-as-a-service
+1 INTRODUCTION
+Software-as-a-service (SaaS) is a popular business model that
+centrally hosts and licenses software on a subscription basis.
+Many software companies such as Microsoft and Salesforce
+have adopted the SaaS model. Under the SaaS model, cus-
+tomers pay a monthly or annual subscription fee that is usu-
+ally less expensive than the price of a perpetual license. Con-
+sumers can access the software via the Internet, while the
+SaaS vendors offer the software remotely on cloud-based
+hardware. SaaS companies widely use free trials to acquire
+new customers by providing free access to full-ﬂedged ser-
+vice during a limited time window. Prospects can sign up
+for free trials, usually by providing emails and/or other con-
+Accepted by Fred Feinberg, after three revisions.tact information and explore the software before subscribing.
+Then, the paramount next step for SaaS ﬁrms is to convert
+these free-trial users to paid users.
+Many SaaS ﬁrms are concerned with the low conversion
+rate at the end of a free trial and invest tremendous market-
+ing resources in engaging customers and encouraging their
+software usage. Despite the pervasive presence of the SaaS
+model, and a projected $172 billion global market by 2022
+(Statista, 2021 ), it is still unclear to what extent consumers’
+engagement in marketing communication and free-trial usage
+inﬂuences the likelihood of their conversion. Is a type of mes-
+sage content more effective via certain marketing media than
+others? Are busier free-trial users more likely to convert? Do
+marketing efforts and free-trial usage accentuate or attenuate
+each other in leading to a higher conversion rate? This study
+will address these questions and shed light on the impact of
+Prod Oper Manag. 2022;31:2185–2203. © 2022 Production and Operations Management Society. 2185 wileyonlinelibrary.com/journal/poms
+
+
+=== PÁGINA 2 ===
+2186 LIProduction and Operations Management
+marketing communications, free-trial usage, as well as the
+interactions between them.
+SaaS managers send marketing communications through
+multiple media with varied content in order to convince
+prospective consumers to make a purchase. Nowadays, many
+ﬁrms have access to rich touchpoint data left by consumers
+on their path to purchase. Managers can track advertis-
+ing impressions and responses at the consumer level with
+improved precision. However, as marketing communications
+are usually evaluated independently from customers’ usage
+behavior, this one-sided interpretation could be biased. Mean-
+while, the extant research on message content is usually
+focused on a single advertising medium, such as display
+ads (Bruce et al., 2017 ), emails (Sahni et al., 2018 ), or
+search ads (Ghose & Yang, 2009 ). The observation of mes-
+sage content across multiple media enables this study to
+examine the relationship between different types of message
+content and marketing media in the presence of free-trial
+usage.
+Apart from engagement with various forms of marketing
+communication, consumers’ free-trial usage also reﬂects their
+engagement with the ﬁrm. As consumers explore the product
+or service during the free trial, they may use it frequently to
+reduce their uncertainty about the utility of a long-term sub-
+scription. Since the free-trial window is the same for all users,
+usage intensity becomes an important indicator of consumer
+engagement. Usage behaviors, such as the variety of products
+explored by the same user and how often those products are
+used, are key indicators of a user’s learning and assessment
+of the subscription utility. As the service is full-featured and
+the access is unlimited during the free-trial window, usage
+is mainly driven by true underlying demand. If the usage
+intensity has a positive and signiﬁcant relationship with con-
+versions, then it is in the ﬁrm’s interest to encourage usage
+among free-trial users. However, consumer behavior research
+ﬁnds that consumers usually fail to estimate their usage fre-
+quency before making a purchase (Goodman & Irmak, 2013 ),
+and usage experience with a higher level of variety can lower
+satisfaction and purchase likelihood (Etkin & Sela, 2016 ).
+Thus, whether usage matters and how it inﬂuences conver-
+sions is still unclear for SaaS managers.
+The empirical research on usage in a contractual setting is
+insufﬁcient (Ascarza & Hardie, 2013 ), with even fewer stud-
+ies focused on free-trial usage. Some researchers have investi-
+gated the relationship between postpurchase usage and reten-
+tion (Ascarza & Hardie, 2013 ) or the postpurchase usage by
+consumers acquired from different routes (Datta et al., 2015 ).
+However, the research on usage behaviors during the free-
+trial period and how the free-trial usage affects purchase is
+still scarce. Moreover, the usage intensity tracked by ﬁrms
+usually includes multiple metrics, such as the variety of ser-
+vices a user has tried or the frequency a user explores the ser-
+vice, but the research categorizing consumer engagement into
+various types of usage behaviors has been inadequate (Lee
+et al., 2017 ). This research adds to the literature by examining
+two dimensions of the consumer’s free-trial usage—variety
+and frequency—in a granular manner, and whether eitheror both dimensions of usage would increase consumers’
+conversion.
+Previous work has documented a mixed relationship
+between advertising and usage experience (Vakratsas &
+Ambler, 1999 ; Wright & Lynch, 1995 ). On the one hand,
+Bruce et al. ( 2012 ) examine the advertising and sales of a
+soft drink brand and ﬁnd that usage increases sales via cog-
+nition and affect. On the other hand, Smith ( 1993 ) shows that
+advertising reduces brand cognition and brand attitude with
+lab experiments. Ackerberg ( 2001 ) also ﬁnds that the effec-
+tiveness of advertising on experienced consumers who have
+made purchases previously is less than that on inexperienced
+consumers. These ﬁndings are all conditional on past pur-
+chases, which differ from the SaaS setting, where prospects
+gain experience with the product prior to the very ﬁrst pur-
+chase during the free trial. Therefore, this study enriches the
+understanding of the interactions between free trial usage and
+marketing communication.
+In summary, this research adds to the extant litera-
+ture through an empirical study that examines the impact
+of and interactions among various marketing touchpoints,
+types of message content, and free-trial usage. The results
+show a positive cumulative impact of advertising in vari-
+ous marketing touchpoints and message contents. Interest-
+ingly, the consumer-initiated touchpoints with all message
+content enhance conversion, but the ﬁrm-initiated touchpoints
+conveying persuasive messages discourage conversion. For
+usage, the cumulative impact of usage frequency is positive,
+whereas that of usage variety is negative. Regarding the ad-
+usage interactions, the focal ﬁrm’s advertising and free-trial
+usage attenuate each other, but persuasive messages sent to
+frequent users and featured messages to variety-seeking users
+still help convert prospects. These ﬁndings provide guidance
+to SaaS managers in assessing consumers’ engagement in
+terms of marketing responsiveness and free-trial usage, which
+can facilitate better decision-making in their marketing strate-
+gies and resource allocation.
+2 LITERATURE REVIEW
+2.1 Conceptual framework
+Many SaaS ﬁrms offer free trials to attract prospective cus-
+tomers. The free trial enables a unique opportunity to observe
+the prospects’ usage behavior prior to purchase. During and
+after the free trial, prospects may also be exposed to the ﬁrms’
+advertising and interact with the ﬁrm’s marketing communi-
+cations. In keeping with the empirical context of this study,
+Figure 1depicts the conceptual framework on how adver-
+tising and free-trial usage affect conversion. The impact of
+advertising is gauged by both the type of marketing touch-
+points and its content. The curved arrows indicate the car-
+ryover of advertising and usage effects, while the straight
+arrows inside and between the advertising and free-trial
+usage boxes indicate interactions. To study the framework in
+Figure 1, this research is developed upon four streams of
+
+=== PÁGINA 3 ===
+PROSPECTIVE CONSUMERS IN THE S AAS CONTEXT 2187Production and Operations Management
+FIGURE 1 Conceptual framework.
+Note: The curved arrows indicate the carryover of advertising and usage
+effects. The straight arrows inside and between the boxes of advertising and
+free-trial usage indicate interactions.
+literature: marketing touchpoints in the multimedia environ-
+ment, message content, usage of free trials, as well as the
+interactions between advertising and free-trial usage in lead-
+ing to conversions.
+2.2 Marketing touchpoints
+Marketing communication can provide information for free-
+trial users to reduce their uncertainty about a product and
+thus affect conversions, as represented in Figure 1by the
+arrow pointing from advertising to conversion. A wealth of
+literature provides valuable insights into consumers’ expo-
+sures and responses to a ﬁrm’s marketing communication and
+how advertising inﬂuences their conversion propensity. This
+research focuses on six types of marketing touchpoints—the
+impressions and clicks of display ads and emails, and organic
+and paid search clicks.
+Extant empirical studies have revealed a mixed impact of
+display ads. Drèze and Hussherr ( 2003 ) ﬁnd that display ads
+inﬂuence the preattentive level of information processing and
+increase ad and brand recall. Manchanda et al. ( 2006 )s h o w
+that more display ad impressions and more sites and pages
+containing the display ads improve the repeat purchase prob-
+ability. However, several ﬁeld experiments also ﬁnd insigniﬁ-
+cant effects of display ads on purchases, possibly due to small
+advertising effects or small sample sizes (Zantedeschi et al.,
+2017 ). When investigating the heterogeneous consumer seg-
+ments, Chae et al. ( 2019 ) even ﬁnd a negative marginal effect
+of additional display impressions on website visits for about
+a quarter of consumers.
+Email marketing is found to be very effective in generating
+sales. As the costs of producing email campaigns are very low
+or even negligible, researchers report high returns on invest-
+ment (ROIs) for email marketing (e.g., Danaher et al., 2020 ,
+ﬁnd an average ROI of 2693%, and Zhang et al., 2017 , reporta 3700% ROI of emails). Marketing intensity also inﬂuences
+the timing of consumers’ opt-in and opt-out decisions of the
+ﬁrm’s email marketing (Kumar et al., 2014 ).
+Both display ads and emails are initiated by ﬁrms, which
+differ from online search marketing that consumers vol-
+untarily initiate. A large volume of research supports the
+effectiveness of search engine marketing. Researchers ﬁnd
+that consumers may consider ﬁrm-initiated marketing has
+low credibility and thus discount it (Foubert & Gijsbrechts,
+2016 ). Chan et al. ( 2011 ) ﬁnd that customers acquired by
+paid search ads have higher customer lifetime value than
+customers acquired from other channels. In addition, paid
+search advertising is found to be more effective than off-line
+advertising (Dinner et al., 2014 ) and has a more enduring
+impact than emails (Wiesel et al., 2011 ).
+A large volume of research has examined the impact
+of marketing on conversions in a multimedia environment
+(Ansari et al., 2008 ; Lin et al., 2013 ; Naik & Raman, 2003 ;
+Naik & Peters, 2009 ). Naik and Raman ( 2003 ) were among
+the ﬁrst to deﬁne interactive media synergy as the combined
+effect of multiple marketing media exceeds the sum of the
+individual effects of each medium. Within this stream of lit-
+erature, some research focuses on the synergy between online
+and off-line media. For example, Naik and Peters ( 2009 ) eval-
+uate the synergy between off-line and online media groups,
+ﬁnding banner ads can increase direct website visits. Some
+research on the synergy effect focuses on highly related
+media such as email and catalog (Ansari et al., 2008 ; Zante-
+ceschi et al., 2017 ) and organic search and paid search (Ghose
+& Yang, 2009 ). As data-tracking technology advances, a large
+volume of multimedia data such as touchpoint data becomes
+available. More empirical studies are conducted about the
+cross-media synergy (e.g., Dinner et al., 2014 ; Joo et al.,
+2014 ; Zantedeschi et al., 2017 ) and synergy in a staged con-
+sumer purchase funnel (e.g., Li & Kannan, 2014 ;T o d r ie ta l . ,
+2020 ). This research extends the literature stream on the mul-
+timedia consumer purchase journey by examining the various
+interactions between touchpoints and message content and
+between touchpoints and free-trial usage.
+2.3 Message content
+Early research on advertising message content mainly orig-
+inated from psychology and consumer behavior studies
+focused on the emotional versus rational aspects of the ads
+(e.g., Bass et al., 2007 ; Chandy et al., 2001 ; MacInnis et al.,
+2002 ). There are relatively few ﬁeld studies on the effects of
+ad content, especially for digital ads (Bruce et al., 2017 ;L e e
+et al., 2018 ).
+Researchers have unpacked the message content of dis-
+play ads on a few dimensions. For example, Hupfer and Grey
+(2005 ) ﬁnd that display ads that offer a free sample have
+higher click-through rates than those without. Bruce et al.
+(2017 ) categorize display ads into price-related messages and
+product-related messages and ﬁnd the former is more effec-
+tive, and only price-related ads are effective for retargeted
+
+=== PÁGINA 4 ===
+2188 LIProduction and Operations Management
+ads. Lee et al. ( 2018 ) classify ads into brand-personality-
+related content and directly informative content and asso-
+ciate the content attributes with consumers’ likes, comments,
+and shares on Facebook. They ﬁnd that messages contain-
+ing deals and promotions are associated with higher click-
+through rates. However, some directly informative content,
+such as mentions of prices and deals, is associated with lower
+levels of engagement when included in messages in isolation.
+Additionally, more diversiﬁed ads can help reduce annoyance
+elicitation (Todri et al., 2020 ).
+The research examining email content is primarily focused
+on the impact of personalization on email effectiveness
+(Ansari & Mela, 2003 ). For example, Sahni et al. ( 2018 ) ﬁnd
+that when the emails include noninformative content such
+as the names of email recipients, consumers’ probability of
+opening emails increases by 20%, and the opt-out probability
+is reduced by 17%. On the contrary, Wattal et al. ( 2012 ) ﬁnd
+that such personalization negatively impacts the advertiser.
+In search engine marketing, researchers have explored the
+characteristics of search keywords, including brand names,
+retailer names, geo-locations, the popularity of keywords, and
+the speciﬁcity of keywords (Ghose & Yang, 2009 ; Li et al.,
+2016 ; Rutz & Bucklin, 2011 ). Recent applications of machine
+learning techniques extract latent semantic meanings from
+search phrases and evaluate the keyword ambiguity (Gong
+et al., 2018 ), consumers’ content preference (Liu & Toubia,
+2018 ), and the impact of latent themes on purchase propen-
+sity (Li & Ma, 2020 ).
+Different from the existing content categorization in the lit-
+erature, which is usually attached to the presence of certain
+keywords, such as prices, brands, and consumers’ personal
+information, this study enriches the literature with a new cat-
+egorization wherein the ads are grouped into awareness, per-
+suasive, and featured products, depending on the wholistic
+message delivered in an ad. The rich set of message content
+renders substantive ﬁndings of awareness, persuasive, and
+featured content and their effectiveness via different market-
+ing channels and their interactions with the free-trial usage.
+2.4 Usage of free trials
+Free trial is a popular sampling strategy widely adopted by
+SaaS ﬁrms. While the research on sampling (Bawa & Shoe-
+maker, 2004 ) provides valuable insights for understanding the
+free-trial promotion, this study is related to a smaller and
+newer group of studies on information goods offered in the
+SaaS settings (Jones & Mendelson, 2011 ; Yoganarasimhan
+et al., 2019 ). The insights from sampling research on con-
+sumer goods may not be directly applicable to the free trials
+in the SaaS setting.
+Through usage, consumers learn to resolve uncertainty
+and update their valuation of the service (Bolton & Lemon,
+1999 ; Foubert & Gijsbrechts, 2016 ; Sriram et al., 2015 ).
+Extant research has revealed a positive relationship between
+usage and retention or repeat purchases (e.g., Ascarza &
+Hardie, 2013 ; Lemon et al., 2002 ). Thus, in Figure 1,t h efree trial usage affects consumers’ conversion decisions, as
+represented by the straight arrow pointing from usage to con-
+version. The curved arrows reﬂect the positive relationship
+between current usage and future usage, as supported by
+numerous empirical studies (e.g., Bolton & Lemon, 1999 ;
+Datta et al., 2015 ).
+During the free-trial period, usage intensity is a key indi-
+cator of consumers’ learning and assessment of the sub-
+scription utility. Consumers have heterogeneous and dynamic
+learning rates regarding product quality (Sriram et al., 2015 ).
+Researchers have explored the impact of the free-trial acqui-
+sition on customer retention and behaviors after conversion
+(Datta et al., 2015 ; Lee et al., 2019 ). Despite the popularity
+of free trials as an acquisition tool, few empirical studies have
+been conducted to understand how the usage of a free trial
+affects conversions. One exception is by Foubert and Gijs-
+brechts ( 2016 ), who study the timing and usage intensity of
+free trials on purchases, where consumers learn the quality
+of the service from usage, word-of-mouth, advertising, and
+direct marketing. They ﬁnd the overall effect of free trials is
+positive, but it also depends on the timing and consumers’
+learning.
+In all these studies, usage is measured either by the inter-
+purchase time (e.g., Borle et al., 2008 ) or the frequency in
+a given period (e.g., Ascarza & Hardie, 2013 ; Sriram et al.,
+2015 ). In fact, usage intensity can be composed of multiple
+metrics. Besides the usage frequency, the variety of usage is
+also an important factor in consumers’ free-trial engagement.
+However, empirical studies that quantify multiple usage
+behaviors are still lacking (Lee et al., 2017 ). Recent research
+in consumer behavior reveals that a less varied usage experi-
+ence leads consumers to overestimate their usage frequency
+and thus increase satisfaction and repeat purchases (Etkin &
+Sela, 2016 ). Etkin and Mogilner ( 2016 ) also ﬁnd more varied
+activities make people feel less productive, echoing the ﬁnd-
+ing of feature fatigue (Thompson et al., 2005 ), which occurs
+when consumers are overwhelmed by products overloaded
+with too many features. This study unpacks the usage behav-
+iors into both frequency and variety, as shown in Figure 1,
+and adds substantive ﬁndings to the literature on the role of
+usage frequency and variety of the free trial on conversions.
+2.5 Interactions between advertising and
+free-trial usage
+The interaction between advertising and free-trial usage is
+represented by the two horizontal arrows in the center of Fig-
+ure1. Both positive and negative interactions between adver-
+tising and usage experience are documented in the literature.
+Bruce et al. ( 2012 ), in the context of soft drink products, ﬁnd
+that usage enhances the cognition and affect of the product,
+leading to sales growth. On the other hand, consumer behav-
+ior research has shown that when consumers are provided
+with both advertising and a free trial, the former is no longer
+the only indicator of product quality, and thus its effects on
+brand cognitions and attitude are reduced as compared to
+
+=== PÁGINA 5 ===
+PROSPECTIVE CONSUMERS IN THE S AAS CONTEXT 2189Production and Operations Management
+an ad-only setting (Smith, 1993 ). This ﬁnding is supported
+by empirical research. For example, Ackerberg ( 2001 )d i s -
+tinguishes between the informative and persuasive effects of
+advertising and ﬁnds the effectiveness of advertising dimin-
+ishes as the consumer becomes more experienced. Both
+Wright and Lynch ( 1995 ) and Vakratsas and Ambler ( 1999 )
+ﬁnd the relationship between advertising and usage experi-
+ence depends on the product attributes and the consumption
+involvement. Thus, ﬁndings from the low-involvement situ-
+ation or usage experience from a past purchase (Ackerberg,
+2001 ) may not be generalizable to the free-trial context of the
+high-involvement software services.
+Two recent empirical studies have examined the impact of
+both marketing and free-trial usage (Datta et al., 2015 ; Fou-
+bert & Gijsbrechts 2016 ). Speciﬁcally, Datta et al. ( 2015 ),
+focusing on the post-acquisition period, ﬁnd that both mar-
+keting and usage positively impact retention. Such impact is
+stronger for consumers acquired via free-trial offers. Foubert
+and Gijsbrechts ( 2016 ) study the free-trial period and ﬁnd
+consumers’ usage experience is more impactful in revealing
+quality than word of mouth, adverting, and direct market-
+ing, as it reduces uncertainty and updates consumers’ quality
+belief at a faster pace. However, neither Datta et al. (2015)
+nor Foubert and Gijsbrechts ( 2016 ) capture the interaction
+between marketing and usage. This research ﬁlls in this gap
+in the literature with empirical ﬁndings of the impact of con-
+sumers’ free-trial usage and its interplay with marketing com-
+munication in converting free users to paid users.
+In summary, this study contributes to the literature with
+empirical ﬁndings of the impact of multimedia advertising,
+message content, free-trial usage, and especially the interplay
+among them. Table 1compares this research against the most
+relevant articles. The potential contribution of this research
+mainly lies in the new substantive ﬁndings of the interac-
+tions between marketing touchpoints and message content,
+the cumulative impact of and interactions between usage
+frequency and variety, and the ad-usage interactions. These
+new substantive ﬁndings offer managers guidance to assess
+their consumers’ marketing responses and free-trial usage and
+optimize their ﬁrms’ marketing communication and resource
+allocation during and after the free trial.
+3 DATA
+3.1 Contextual background
+The SaaS business model has a few unique characteristics
+that distinguish it from other business models for information
+goods. First, SaaS usually licenses and delivers software on a
+subscription basis. Second, SaaS ﬁrms usually provide time-
+locked free trials of their full-ﬂedged services. The period
+of a free trial often ranges from a week to a month. Third,
+in the context of SaaS, the versioning decision is less of a
+concern than that for on-premise software. Because the soft-
+ware maintenance and updates are continuously and instantly
+done on the cloud by SaaS ﬁrms, consumers no longer makedynamic and strategic decisions to accelerate or postpone
+their purchase of a newer version of the software.
+It is noted that the freemium model is also widely adopted
+by ﬁrms to attract prospects by providing access to free prod-
+ucts and services (Arora et al., 2017 ; Wagner et al., 2014 ).
+Researchers have studied the externality of the freemium
+model (Shi et al., 2019 ), the conditions to provide the free
+version (Lambrecht & Misra, 2017 ), and its optimal design
+(Lee et al., 2019 ). Firms using the freemium model often
+distinguish between the free and paid versions of their ser-
+vices. The free version usually offers lower quality or limited
+features (e.g., reduced computing or storage capacity), but
+remains available for an unlimited time. Free trial in the SaaS
+business model differs from the free version in the freemium
+model, as SaaS ﬁrms usually provide access to their full ser-
+vice during a free trial with the same quality as the paid ser-
+vice, but for a limited time. That is, the free version in the
+freemium model is quality-locked, and the free trial in the
+SaaS model is time-locked. A consumer in the freemium set-
+ting has to make the purchase decision in the presence of the
+free version (Gu et al., 2018 ).
+The SaaS model is also similar to content streaming ser-
+vices, such as Spotify and Netﬂix, in subscription-based
+recurring payment, time-locked free trial, and continuous
+maintenance and updates. However, in the latter case, cus-
+tomers are paying for the content, while the software is only
+used as a tool to access the content. Learning to use software
+is very different from consuming digital content. Therefore,
+rather than simply imposing the knowledge or experience
+from traditional software with perpetual licenses or similar
+business models with free samples, managers and researchers
+need to consider these differences and develop new insights
+to guide the daily practice at SaaS companies.
+To this end, this research collects data from a U.S.-based
+multinational computer software company that uses the SaaS
+business model. It offers a collection of more than 20 soft-
+ware applications focused on creating and publishing con-
+tent in the format of text, graphics, animation, video, etc. The
+ﬁrm’s software is mainly used through desktop applications,
+while tablet apps and browser-based access are also available
+for a subset of software on limited functions. Consumers can
+subscribe to different software, for example, one for process-
+ing text and the other for images, which may be used together
+in the same project.
+The focal ﬁrm uses free trials as an acquisition tool. All
+new consumers are provided with a free trial for the ﬁrst 30
+days, and there is no limit on the number of software down-
+loads1or maximal usage duration in the free-trial period.
+Once the free trial expires, all downloaded software is sus-
+pended for further usage. To continue using the ﬁrm’s soft-
+ware, the customer must subscribe, but the subscription may
+be changed or even canceled at any time. Therefore, the most
+important acquisition for the ﬁrm is the ﬁrst subscription to
+any software, which is treated as the dependent variable in
+this study.
+The ﬁrm identiﬁes a consumer with her unique login email
+ID.2The consumer ﬁrst uses this email ID when she creates
+
+=== PÁGINA 6 ===
+2190 LIProduction and Operations Management
+TABLE 1 Comparison with relevant literature
+Research DVBusiness
+model DataMarketing
+touchpoint Message content Product usage Ad interactionsUsage
+interactions Ad-usage interactions
+Bruce et al.
+(2012 )Sales, cognition,
+affect, and
+experienceSoft drink
+productsIndividual
+consumersIntegrated into
+gross rating
+pointsReﬂected in 16
+mindset metricsUsage frequency No No Usage is an intermediate
+between advertising and
+purchase and enhances ad
+effectiveness
+Lin et al.
+(2013 )Time allocated to
+marketing mediaCross-industry Individual
+consumersInternet, TV,
+radio, and printNo No The cross-media
+synergy is reﬂected as
+reduced satiationNo No
+Datta et al.
+(2015 )Retention rate and
+usage frequencyContractual
+TV serviceIndividual
+consumers who
+have subscribed to
+the serviceDirect marketing
+and mass
+marketingNo Post-acquisition
+usage frequencyNo No No
+Foubert and
+Gijsbrechts
+(2016 )Subscriptions with
+free trials and
+withoutContractual
+TV serviceIndividual
+prospective
+consumersDirect marketing
+and mass
+marketingNo Free-trial usage
+frequencyNo No No
+Bruce et al.
+(2017 )Clicks on display
+adsA specialty
+retailerAggregated
+impressions and
+clicks on display
+adsDisplay ads Price-related and
+product-relatedNo No No No
+Zantedeschi
+et al. ( 2017 )Purchases in dollars A specialty
+retailerIndividual
+consumersCatalog and email No No Cross-media synergy No No
+L e ee ta l .
+(2018 )Users’ likes and
+commentsA social media
+platformIndividual
+consumersSocial media Brand-personality-
+related and
+directly
+informativeNo No No No
+Danaher et al.
+(2020 )Purchases in dollars A specialty
+retailerIndividual
+consumersEmail, catalog,
+paid and
+organic search,
+and website
+visitsNo No No No No
+This paper Subscriptions from
+free trialsSaaS
+contractual
+software
+serviceIndividual
+prospective
+consumersDisplay ads,
+email, organic
+search, and paid
+searchAwareness,
+persuasive, and
+featured productFree-trial usage
+frequency and
+varietyPairwise interactions
+between touchpoints
+and message contentInteractions
+between
+usage
+frequency
+and varietyInteractions between
+touchpoints and usage and
+between message content
+and usage
+
+=== PÁGINA 7 ===
+PROSPECTIVE CONSUMERS IN THE S AAS CONTEXT 2191Production and Operations Management
+an account to access the free trial and subsequently uses it
+for paid services. The consumer’s marketing communication,
+software usage, and purchases are linked at the individual
+level based on both email IDs and cookie IDs. Even when
+a consumer erases cookies on her web browser frequently, as
+long as she wants to access the software (which requires using
+her email ID to log on), her recent marketing touchpoints will
+be stitched together with her previous record. Although main-
+taining the data with both email IDs and cookie IDs may still
+leave out some ad exposures and responses, this is among the
+best practices used to track online advertising touchpoints.
+Since 2013, the ﬁrm has stopped selling any perpetual
+software license by itself or through any retailer, although
+some perpetual licenses are still used by existing customers
+and exchanged on the second-hand market. Maintenance
+and updates on all subscription-based software are contin-
+uously and instantaneously performed on the cloud so that
+consumers do not choose among various software versions.
+Additionally, unlike many start-up software ﬁrms whose most
+prominent concern is the awareness of their product, the focal
+ﬁrm is well established in its product category and well-
+known worldwide. Awareness and reputation are no longer
+a major concern for the focal ﬁrm.
+3.2 Data description
+The dataset is a 10% random sample of all users who cre-
+ated accounts by signing up their emails at the focal ﬁrm in
+September 2015, yielding a sample of 14,989 unique con-
+sumers. All of these new users were provided with a 30-
+day free trial. However, 2692 users (about 18% of the sam-
+ple) immediately subscribed. As these users essentially opted
+out of the free trial, they are removed from the sample. The
+remaining sample contains 12,297 prospective customers.
+Within this sample, the ﬁrst 60 days from the account cre-
+ation are used for analyses, and the observations during days
+61–90 are the holdout sample.
+In line with the conceptual framework in Figure 1, both
+marketing touchpoints and message content are observed for
+advertising, whereas both frequency and variety are observed
+for usage. The observed marketing touchpoints include dis-
+play ad impressions and click-throughs, email exposures and
+clicks, and clicks on organic and paid search ads.3Addition-
+ally, the content conveyed through marketing communication
+is categorized into four groups: awareness (e.g., educatory
+newsletters), persuasive (e.g., campaigns intended to drive
+conversions), branded campaigns, and campaigns featuring
+one of the ﬁrm’s content products (produced by professionals
+using the focal ﬁrm’s software). Consumers’ free-trial usage
+behaviors are measured by software download and launch.
+Although the focal ﬁrm does not disclose the exact software
+being downloaded or launched by a consumer or the dura-
+tion of usage, the daily records of usage behaviors at the
+individual level allow for exploring the impact of the variety
+and frequency of a consumer’s usage during the free-trial
+period.The data of a consumer are aligned by the sign-up date,
+marked as day 0. Consumers’ marketing touchpoints, mes-
+sage content, and usage behaviors are tracked from the sign-
+up date until conversion (if any) or the end of the 90-day data
+window, whichever is earlier. Given the sign-up for the free
+trial is the ﬁrst time a prospect provides her email, any obser-
+vations before this point are excluded due to data sparsity and
+low tracking accuracy. The marketing communication and
+usage after conversion are also excluded as this research is
+focused on the conversion of free users to paid users.
+3.3 Summary statistics
+On average, free-trial users convert to paid subscribers in 23
+days, with a median of 9 days and a standard deviation of 26
+days. Figure 2demonstrates the total number of subscriptions
+on each day since the start of the free trial. The subscriptions
+peak on the day of sign-up and plummet in the ﬁrst few days
+of the free trial as the determined buyers are quickly skimmed
+off. After that, the number of subscriptions slowly declines
+until it picks up again immediately after the free trial expires.
+Following this second peak of subscriptions, the conversion
+rate gradually decreases as fewer and fewer hesitant prospects
+convert.
+Given the data pattern in Figure 2, the data are split into
+three time intervals: day 0–3, day 4–30, and day 31–60.
+Table 2shows the summary statistics of marketing commu-
+nications and free-trial usage for these three time intervals
+and the full dataset. The ﬁrm-initiated ad exposures of dis-
+play ads and emails are relatively stable across three time
+intervals. The consumers’ response rate to display ads is very
+low across all three time intervals, while the probability of
+opening emails is in the range of 11–20%. In the ﬁrst few
+days, consumers take more initiative to search. Apart from the
+counts for all users, Figure 3also illustrates the histograms of
+marketing touchpoints per user.
+Differences exist between the measures of marketing
+touchpoints and message content in Table 2, because some
+touchpoints do not belong to any of the four content cat-
+egories. Overall, consumers receive more persuasive mes-
+sages than the other three types of message content across all
+time intervals, and fewer branded messages after the free trial
+expires. As for the free-trial usage, on average, consumers
+download one software application and launch the software
+three times throughout the free-trial period.
+Table 3reports the correlations among marketing touch-
+points, message content, and usage on days 0 through 60.
+(The correlations for days 0–3, days 4–30, and days 31–60
+are in Supporting Information Appendix A .) All correlations
+are in a low or moderate range, except the one between paid
+search and branded messages which is 0.9643, raising a mul-
+ticollinearity concern. Thus, the variable of branded messages
+is excluded in subsequent analyses. The second highest cor-
+relation is between persuasive and email exposure, which
+is 0.7887 over the entire data window. When examined in
+shorter periods (see Supporting Information Appendix A), it
+
+=== PÁGINA 8 ===
+2192 LIProduction and Operations Management
+FIGURE 2 Subscriptions on each day.
+Note: The vertical line marks the expiration of the free-trial period.
+TABLE 2 Summary statistics
+Min Max Total Day 0–3 Day 4–30 Day 31–60
+Purchase 0 1 734 382 116 236
+Marketing touchpoint
+Display impression 0 50 116,559 10,747 62,342 43,470
+Email exposure 0 10 44,730 3473 19,329 21,928
+Display ad click-through 0 2 65 9 32 24
+Email opened 0 35 8182 384 3835 3963
+Organic search click 0 26 11,843 5011 4176 2656
+Paid search click 0 8 977 481 295 201
+Message content
+Awareness 0 10 6845 204 2502 4139
+Persuasive 0 49 46,452 3685 20,912 21,855
+Branded 0 8 899 454 269 176
+Featured 0 45 10,917 597 4565 5755
+Usage
+Frequency (launch) 0 11 34,471 10,021 24,450 0
+Variety (download) 0 29 13,009 10,778 2231 0
+reaches 0.8627 in the ﬁrst 4 days of the free trial and then
+declines below 0.8. Given its correlation does not exceed 0.8
+for the entire data window, both persuasive content and email
+exposure are kept for analysis.
+4 MODEL
+4.1 Model speciﬁcation
+In keeping with the conceptual framework in Figure 1,a
+dynamic model is developed to analyze the impact of adver-tising and free-trial usage on consumers’ purchase decisions.
+Consider a set of Iconsumers, indexed by i(i=1,…,I). Each
+consumer can explore the focal ﬁrm’s software through the
+free trial and meanwhile may be exposed to the ﬁrm’s adver-
+tising. The latent utility for consumer ito purchase in period
+tisUit, which is driven by the underlying needs for the soft-
+ware service. Uitis reﬂected in the consumer’s usage intensity
+(Lemon et al., 2002 ) and inﬂuenced by marketing communi-
+cations such as display ads, emails, and search ads (Ghose
+& Yang, 2009 ; Kumar et al., 2014 ; Manchanda et al., 2006 ).
+Equation ( 1) speciﬁes consumer i’s latent utility of purchase
+in period t. The error term, 𝜀it, is independent and identically
+
+=== PÁGINA 9 ===
+PROSPECTIVE CONSUMERS IN THE S AAS CONTEXT 2193Production and Operations Management
+FIGURE 3 Histogram of marketing touchpoints per user
+
+=== PÁGINA 10 ===
+2194 LIProduction and Operations ManagementTABLE 3 Correlation matrix for Days 0–60
+PurchaseDisplay
+impressionEmail
+exposureDisplay
+clickEmail
+clickOrganic
+searchPaid
+search Awareness Persuasive Branded FeaturedFrequency
+(launch)Variety
+(download)
+Purchase 1.0000
+Display impression 0.0156 1.0000
+Email exposure 0.0032 0.0062 1.0000
+Display click 0.0087 0.0729 0.0005 1.0000
+Email click 0.0166 0.0114 0.1365 −0.0008 1.0000
+Organic search 0.1189 0.0219 −0.0082 0.0022 0.0033 1.0000
+Paid search 0.1406 0.0110 −0.0036 −0.0003 0.0017 0.1037 1.0000
+Awareness 0.0025 0.0039 0.3382 0.0003 0.1830 −0.0015 −0.0009 1.0000
+Persuasive 0.0102 0.0105 0.7887 −0.0001 0.6079 −0.0035 −0.0010 0.0386 1.0000
+Branded 0.1453 0.0103 −0.0037 −0.0003 0.0016 0.1064 0.9643 −0.0007 −0.0012 1.0000
+Featured 0.0047 0.3647 −0.0017 0.0536 0.0048 0.0086 0.0206 −0.0006 0.0004 0.0124 1.0000
+Frequency 0.0072 0.0297 −0.0106 0.0061 0.0048 0.0907 0.0254 −0.0004 −0.0055 0.0251 0.0161 1.0000
+Variety −0.0027 0.0064 −0.0154 0.0014 −0.0026 0.1095 0.0521 −0.0034 −0.0125 0.0533 0.0016 0.2116 1.0000
+Note: Correlation above 0.8 is in boldface.distributed as N(0,σ2):
+Uit=𝛼 i+∑
+m𝛽mSimt+∑
+m∑
+m′>m𝛽mm′Simm′t+𝜇Xit+𝜀it.
+(1)
+In Equation ( 1), the individual-speciﬁc intercept, 𝛼i,
+accounts for the heterogeneous purchase propensities among
+different consumers. The second component, Simt,i sas e to f
+stock variables for the cumulative effects of advertising and
+usage on purchase. In Simt=({ASijt},{CSiqt},{WSikt})′,t h e
+ﬁrst brackets represent the cumulative effects of the Jtypes
+of touchpoints, the second brackets represent the Qtypes of
+message content, and the last brackets represent the Ktypes
+of usage behaviors.
+The formulation of the advertising effects follows the ad
+stock literature (Nerlove & Arrow, 1962 ). Ample evidence
+has shown that advertising exposures and clicks have a decay-
+ing carryover effect (e.g., Ansari et al., 2008 ; Naik & Raman,
+2003 ; Zantedeschi et al., 2017 ). Thus, the cumulative adver-
+tising effect of each touchpoint type jis characterized with an
+exponentially decaying goodwill stock variable:
+ASijt=𝜆 jASij,t−1+Aijt,j=1,…,J, (2)
+where Aijtis the number of touchpoint type jconsumer i
+encounters in period t, and𝜆jis the touchpoint-speciﬁc decay
+parameter constrained to [0, 1] to accommodate the advertis-
+ing wearout over time (Chae et al., 2019 ; Naik et al., 1998 ).
+Aijtrelates to the contemporaneous effect of advertising, and
+𝜆jcaptures the carryover effect to the next period.
+Likewise, Equation ( 3) deﬁnes the stock variable, CSiqt,f o r
+message content in type q, where Ciqtis the number of mes-
+sage content in type qconsumer iencounters in period t, and
+𝜆qis the content-speciﬁc decay parameter in the range of [0,
+1]:
+CSiqt=𝜆 qCSiq,t−1+Ciqt,q=1,…,Q. (3)
+The cumulative effect of usage is captured by the stock
+variable, WSikt, in Equation ( 4), wherein an exponentially
+decaying stock is used to accommodate the carryover effect
+of past usage. WSiktrepresents consumer i’s type kusage in
+period t, with a different decay rate 𝜆kin [0, 1] for each usage
+type k:
+WSikt=𝜆 kWSik,t−1+Wikt,k=1,…,K. (4)
+The stock variables deﬁned in Equations ( 2)–(4)a r e
+stacked into Simt=({ASijt},{CSiqt},{WSikt})′in Equa-
+tion ( 1), where m=1, …, M, and M=J+Q+K.
+Meanwhile { Iimt}=({Aijt},{Ciqt},{Wikt})′indicates the
+contemporaneous events. Given this setup, 𝛽m, as the coef-
+ﬁcient of Simt, reﬂects the contemporaneous impact from
+advertising or usage, and𝛽m
+1−𝜆mcaptures its long-term impact
+
+=== PÁGINA 11 ===
+PROSPECTIVE CONSUMERS IN THE S AAS CONTEXT 2195Production and Operations Management
+(Naik & Raman, 2003 ). Furthermore, the interac-
+tions between any pair of stock variables are Simm′t=
+𝜆mm′Simm′,t−1+Iimt∗Iim′t, where m′>m. The correspond-
+ing coefﬁcient, 𝛽mm′, captures the interaction effects among
+various marketing touchpoints, message content, and usage.
+Equations ( 2)–(5) contain Mcarryover parameters. Mean-
+while, a carryover parameter { 𝜆mm′} is needed for each pair-
+wise interaction among the Mtypes of touchpoints, content,
+and usage. In subsequent analyses, all carryover parameters
+are merged into three—one for advertising, one for usage,
+and another for all pairwise interactions. Details are given in
+Section 5.2.
+The control variable, Xit, is elaborated in the next subsec-
+tion. Consumer i’s purchase incidence, Yit, is determined by
+a binomial probit model based on the purchase utility, Uit,
+as in Equation ( 5). In essence, this binary choice model with
+time-dependent variables corresponds to a discrete-time haz-
+ard model (cf. Manchanda et al., 2008 ; Wheat & Morrison,
+1990 ):
+Yit=I(Uit>0). (5)
+4.2 Handling endogeneity
+One challenge in the investigation of advertising effects is the
+potential endogeneity (Zantedeschi et al., 2017 ), wherein the
+regressors are correlated with the error term. In this study,
+endogeneity concerns arise from three sources: temporal
+simultaneity, consumers’ decisions of marketing responses
+and usage, and the ﬁrm’s selective targeting. Temporal
+simultaneity can occur, for example, when managers expect
+increased demand and thus increase advertising intensity, giv-
+ing rise to a biased estimation of the advertising effects. The
+second source of endogeneity derives from consumers’ deci-
+sions of ad responses and free-trial usage. Whether and how
+actively consumers react to the ﬁrm’s ads may be endoge-
+nously driven by their latent needs for the product. Con-
+sumers’ usage of the free trial may also be indicative of their
+software needs. As such, both the consumers’ ad responses
+and usage can be correlated with their latent needs included
+in the error term, thus posing endogeneity concerns. The third
+source of endogeneity is the ﬁrm’s targeting of certain cus-
+tomers with display ads and emails, leading to selection bias.
+As a result of targeting, active consumers or those with higher
+purchase propensities are more likely to be exposed to adver-
+tising (Dong et al., 2009 ). Meanwhile, the ﬁrm might choose
+to target certain consumers based on information observed by
+the ﬁrm but not by the researchers, so that consumers exposed
+to the ﬁrm’s advertising are different in some respect from
+those not targeted (Manchanda et al., 2004 ).
+This paper tackles endogeneity in three ways. First, to
+address simultaneity bias, the proposed model accounts for
+unobserved demand drivers (Rossi, 2014 ; Zantedeschi et al.,
+2017 ), such as the availability of the free trial, the remaining
+time in the free trial, seasonality, and market-wide trend. Forthe availability of the free trial, a dummy variable is included,
+the value of which is 1 during the free trial, and 0 after the free
+trial expires. Consumers’ progress in the free trial is measured
+with both linear and quadratic terms for the elapsed days of
+the free trial to capture any changes in advertising and usage
+according to the consumers’ free trial progress. Moreover,
+the users’ free-trial usage, marketing responses, and purchase
+are likely to differ on weekdays compared with weekends
+and holidays. Meanwhile, marketing managers’ expectation
+and their decision of advertising intensity may also depend
+on whether a date is a weekday, weekend, or holiday. Thus,
+the model includes seasonality control variables—a weekday
+dummy (1 on Monday through Friday, except for national
+holidays, and 0 otherwise) and a holiday dummy (1 for days
+around national holidays,4and 0 otherwise), while the non-
+holiday weekends are set as the baseline. These two dummy
+variables also help capture seasonal impact or changes due to
+nationwide campaigns. Furthermore, the model includes the
+Google trend index for keywords “Software as a Service” to
+control the general interest in the SaaS business model and
+any unobserved trend related to SaaS in the market. All these
+aforementioned variables are included in the control variable
+Xitin Equation ( 1).
+Second, the copula method is applied to capture the corre-
+lations between the regressors, such as the stock variables of
+advertising and usage, and the error term. The copula method
+has been used in marketing to tackle the endogeneity in mul-
+tidimensional problems with the advantage of not requiring
+instrumental variables, which ﬁts particularly well with the
+context of this study—each type of advertising touchpoints,
+message content, and usage behaviors would otherwise
+require an instrumental variable (IV) to correct for the poten-
+tial endogeneity, adding up to the demand of a large set of IVs
+in the model. Following the copula method proposed by Park
+and Gupta ( 2012 ), one copula correction term is calculated
+for each endogenous regressor according to Equation ( 6),
+whereΦ−1[ ] is an inverse Normal distribution and H(z)=∑n
+i=1I(xi≤z)
+nis the empirical cumulative distribution function:
+̃Simt=Φ−1[H(Simt)]. (6)
+The copula correction terms are then included in the pur-
+chase utility with coefﬁcients 𝛾m, as in Equation ( 7), which
+determines the purchase incidence according to Equation ( 5):
+Uit=𝛼 i+∑
+m𝛽mSimt+∑
+m∑
+m′>m𝛽mm′Simm′t+𝜇Xit
++∑
+m𝛾m̃Simt+𝜀it. (7)
+Third, to alleviate endogeneity concerns related to the
+ﬁrm’s targeting, researchers have shown that using consumer-
+level analyses and past observations that the ﬁrm likely uses
+as targeting criteria are effective (Liu et al., 2007 ). In addition,
+both the control function and the propensity score matching
+
+=== PÁGINA 12 ===
+2196 LIProduction and Operations Management
+(PSM) methods are used as robustness checks to corrobo-
+rate the empirical ﬁndings. In the control function method,
+each type of marketing touchpoints, message content, and
+usage is instrumented with lagged observations through a
+zero-inﬂated Poisson regression. The control function correc-
+tion terms are then included in Equation ( 7) in place of the
+copula correction terms. In the PSM method, the purchase
+utility in Equation ( 1) is estimated with samples matched by
+the PSM procedure. Details are reported in Section 5.4.
+5 EMPIRICAL ANALYSIS
+The granular observations at the cookie ID level include con-
+sumers’ touchpoints, the type of message content conveyed
+in the ads, and usage behaviors. There are six types of touch-
+points in the data—consumers’ exposures to and clicks of the
+ﬁrm’s display ads and emails, and their clicks on the ﬁrm’s
+organic and paid search ads. The message content is catego-
+rized into awareness, persuasive, branded (excluded due to
+high correlation with paid search clicks), and featured prod-
+ucts. For consumers’ free-trial usage, measures are taken on
+two dimensions—download and launch of the ﬁrm’s software
+applications, with the former reﬂecting usage variety and the
+latter reﬂecting frequency.
+The model is estimated using Gibbs Sampler by iter-
+ating through random draws of each parameter from its
+posterior distribution conditional on other parameters. The
+Markov Chain Monte Carlo (MCMC) estimation procedures
+are in Supporting Information Appendix B. Multiple chains
+of 100,000 iterations are estimated, and the ﬁrst 80,000 draws
+are discarded as burn-in. For the remaining 20,000 draws,
+every 10th draw is kept for the analysis of posteriors. All
+chains are converged according to the Geweke diagnostics
+and Gelman–Rubin statistics.
+5.1 Regularization
+The proposed model contains 11 stock variables for touch-
+points, message content, usage, and the pairwise interactions
+between them, yielding a set of 66 independent variables.
+Apart from the stock variables, there are six control vari-
+ables and 11 copula correction terms. Regularization is thus
+needed to prevent overﬁtting and multicollinearity. Speciﬁ-
+cally, this study employs the variance inﬂation factor (VIF)
+score, both L1 (Lasso) and L2 (Ridge) regularization, and
+principal components to achieve model parsimony and avoid
+multicollinearity.
+First, an independent variable is dropped if both the VIF
+score (VIF >50) and Lasso regression suggest that it should
+be removed. The Lasso regression, closely related to the
+Bayesian variable selection (George & McCulloch, 1993 ;
+Yuan & Lin, 2005 ), discards some of the correlated inde-
+pendent variables. Nine out of the 66 independent variables
+are dropped in this step, all of which are marked as dots in
+Table 6.Second, ridge estimates are used for the remaining inde-
+pendent variables, which shrinks the estimated values to pre-
+vent multicollinearity. The ridge estimates in the frequentist
+paradigm are equivalent to the Bayesian estimates with Nor-
+mal priors used in this study (detailed in Supporting Informa-
+tion Appendix B). The ridge parameter that yields the low-
+est deviance is 0.447 for the proposed model. Both the Lasso
+and Ridge regressions can be combined into the elastic net
+penalty.
+Third, for the 11 copula correction terms in the purchase
+utility equation, principal components are extracted to further
+reduce dimensionality. Based on the percentage of impor-
+tance for each principal component in explaining the total
+variance (detailed in Supporting Information Appendix C),
+two principal components are included in Equation ( 7), which
+account for 65% of the total variance from all copula correc-
+tion terms.
+In summary, after regularization, the proposed model in
+Equation ( 7) contains the individualized intercept, 57 inde-
+pendent variables (comprised of both stock variables and their
+interactions), six control variables, and two principal compo-
+nents of the copula correction terms.
+5.2 Model selection
+In the proposed model, the stock variables of advertising and
+usage and their pairwise interactions all have associated car-
+ryover parameters. For each possible value of the carryover
+parameters, all stock variables need to be recomputed for the
+Gibbs sampler. The large dataset of 12,297 consumers and
+718,149 total observations makes the estimation of carryover
+parameters very time consuming. To reduce the compu-
+tational burden, the estimation of carryover parameters is
+simpliﬁed by assuming a common carryover parameter for
+the cumulative advertising effects (both marketing touch-
+points and message content), a common carryover parameter
+for the cumulative usage, and another common carryover
+parameter for any interactions between the stock variables.
+Similar simpliﬁcation has been used in both Bayesian (e.g.,
+Chae et al., 2019 , use 0.1 increments in the range of 0.1–0.9)
+and frequentist paradigms (e.g., Guadagni & Little, 1983 ,
+begin with 0.75 and reﬁne the parameter). Speciﬁcally, each
+carryover parameter varies from 0 to 1 with increments of
+0.1, producing 113=1331 combinations. Then, grid search
+is used to ﬁnd the parameters that lead to the best model ﬁt.
+The 1331 speciﬁcations with varied sets of carryover param-
+eters are evaluated by the log-marginal density (LMD) and
+deviance information criterion (DIC). The top 20 best-ﬁtting
+model speciﬁcations are reported in Supporting Information
+Appendix D. The speciﬁcation with the lowest LMD and
+the lowest DIC has 70% marketing carryover, 90% usage
+carryover, and 10% interaction carryover.
+Next, the proposed model is compared with a few alter-
+native models, each excluding some components from the
+proposed model, as shown in Table 4. The proposed model
+ﬁts better than all alternative models in terms of both LMD
+
+=== PÁGINA 13 ===
+PROSPECTIVE CONSUMERS IN THE S AAS CONTEXT 2197Production and Operations Management
+TABLE 4 Measures for model ﬁt and prediction
+LMD DICAggregate
+percentage
+errorIndividual
+MSE
+Proposed model −3841.4 7808.5 −9.3 0.122
+Model with no message
+content−3879.0 8151.5 −13.2 0.214
+Model with no usage −4153.9 8493.3 −15.5 0.164
+Model With no interaction −3986.9 7822.1 −17.7 0.180
+Model with no carryover −3855.8 8153.3 −16.3 0.178
+Model with no decay −4628.7 9847.5 −24.0 0.276
+Model with no copula −4307.5 8935.4 −21.6 0.230
+Notes : LMD and DIC are for the in-sample model ﬁt. The aggregate percent of error
+in predicting conversions and the individual MSE are calculated using the observations
+from day 61 to day 90 in the holdout sample.Abbreviations: DIC, deviance information
+criterion; LMD, log-marginal density; MSE, mean square error.
+TABLE 5 Main model parameter estimates
+Mean 2.50% 97.50%
+Intercept 0.3365 −1.6685 2.2189
+SD of intercept 0.4390 0.2148 0.7366
+Control variables
+Free trial −2.2267 −2.4142 −2.0595
+Elapsed Days −0.2045 −0.2149 −0.1962
+Elapsed Days ˆ2 0.0021 0.0020 0.0022
+Weekday 0.4355 0.2766 0.6603
+Holiday 0.3136 0.0897 0.5046
+GT_SaaS 0.0178 0.0149 0.0212
+Copula correction terms
+Principal component 1 0.2279 0.1617 0.3192
+Principal component 2 −0.5510 −0.6793 −0.4838
+Notes : The number of observations is 718,149. Values in boldface indicate the 95%
+credible interval does not include 0.
+and DIC. Accounting for consumers’ message content and
+free-trial usage improves the model ﬁt, as does the inclusion
+of interaction terms, carryover, and decay effects. Including
+the two principal components of the copula correction terms
+not only accommodates the endogeneity but also signiﬁcantly
+improves the model ﬁt. Apart from the model ﬁt, the pro-
+posed model also outperforms all alternatives on the aggre-
+gate percent of error and the individual mean square error
+(MSE) using the holdout sample of days 61–90.
+5.3 Main results
+Table 5reports the parameter estimates of the intercept, con-
+trol variables, the principal components of the copula correc-
+tion terms, and the associated 95% credible intervals. Both
+the intercept and its standard deviation show considerable
+heterogeneity of the consumers. Among the control variables,
+the free trial has a signiﬁcant substitution effect on subscrip-tion, as indicated by the negative and signiﬁcant coefﬁcient.
+That is, consumers are likely to exploit the free trial and
+only subscribe after the free trial expires. The quadratic form
+of the elapsed days shows a very ﬂat U-curve, turning at
+around the 49th day after the beginning of free trials, with
+the 95% credible interval of [46 days, 54 days]. That is, con-
+sumers are less likely to convert as time goes by from the
+sign-up to the two and a half weeks after the trial expires,
+and then the conversion rate picks up slightly afterward. The
+conversion is higher on both weekdays and holidays. The
+general interest in the SaaS business model as captured by
+its Google trend index has a positive yet small impact on con-
+version. Both principal components of the copula correction
+terms are signiﬁcant and take opposite signs.
+Table 6shows the coefﬁcient estimates of the stock vari-
+ables and their interactions. All these values are rescaled
+from the posterior means, while the original posterior means
+and their 95% credible intervals are shown in Table E-2 in
+Supporting Information Appendix E. Speciﬁcally, all main
+effects, that is, the diagonal values, have been mean-centered.
+As a result, the intercept in Table 5has also been adjusted
+accordingly. Then, all coefﬁcients in Table 6, that is, those
+for all stock variables and their pairwise interactions, are
+x-standardized by multiplying each coefﬁcient by the vari-
+able’s standard deviation. All coefﬁcients in Table 6are sig-
+niﬁcant at the 5% level, and the rescaling does not change
+any coefﬁcients’ 5% signiﬁcance level in Table 6. The vari-
+ables removed by regularization are replaced by dots, while
+nonsigniﬁcant estimates are labeled as NS. The color back-
+ground illustrates the relationship between groups of stock
+variables.
+The orange triangle on the upper left of Table 6(the
+top six rows) shows the advertising effects within a type of
+touchpoint or cross touchpoints on conversions. The cumula-
+tive impact of all touchpoints is positive and signiﬁcant, con-
+sistent with previous ﬁndings of positive advertising effects
+(Danaher et al., 2020 ; Li & Kannan, 2014 ; Zantedeschi et al.,
+2017 ). Increasing the organic and paid search ads by one
+standard deviation has a greater impact than that of display
+ads and emails. As for the interactions, there are signiﬁ-
+cant synergy effects (Naik & Raman, 2003 ) between dis-
+play impression and email exposure, between organic search
+and display clicks, and between display impression and paid
+search.
+As the marketing communication is categorized by both
+touchpoints and message content, it allows for investigating
+the cumulative impact of a type of content and the inter-
+actions between content types (Table 6, the green triangle,
+rows 7–9 of columns 7–9) and between content and touch-
+points (Table 6, the blue block, rows 7–9 of columns 1–6).
+All the three stock variables of content are positive and sig-
+niﬁcant, with one standard deviation increase of persuasive
+content leading to the biggest uplift in conversion. The inter-
+actions between consumer-initiated touchpoints and all con-
+tent types are positive when signiﬁcant. However, the per-
+suasive messages interact negatively with the impression of
+display ads and emails—both are ﬁrm-initiated touchpoints.
+
+=== PÁGINA 14 ===
+2198 LIProduction and Operations Management
+TABLE 6 parameter estimates for the stock variables and their interactions
+Firm-initiated
+touchpoint (FIT) Customer-initiated touchpoint (CIT) Content Usage
+Display
+impressionEmail
+exposureDisplay
+clickEmail
+clickOrganic
+searchPaid
+search Awareness Persuasive Featured Frequency Variety
+FIT Display impression 0.0520
+Email exposure 0.0810 
+CIT Display click NS NS 0.0056
+Email click  NS  0.0240
+Organic search NS  0.2231 NS 0.1189
+Paid search 0.0440 NS   NS 0.1098
+Content Awareness NS NS NS 0.1707 NS 0.1186 0.0887
+Persuasive −0.1018 −0.0639 0.0459 NS  NS−0.1112 0.1112
+Featured NS NS NS NS NS 0.1518 NS NS 0.0373
+Usage Usage frequency NS  −0.2958 NS NS−0.1916 NS 0.1188 NS 0.3756
+Usage variety −0.1278 NS NS−0.7943−0.0808−0.6122 NS  0.1028−0.1431 −0.3162
+Notes : Values in boldface indicate the 95% credible interval does not include 0. The upper and lower limits of the 95% credible intervals are reported in Supp orting Information
+Appendix E. “.” denotes interaction terms suggested to be excluded by both variance inﬂation factor >50 and the Lasso method. “NS” indicates parameter estimates that are not
+signiﬁcant at the 5% level. Interaction terms are color-coded as below:
+Cumulative effects of each marketing touchpoint and interactions between touchpoints.
+Touchpoint–content interactions.
+Cumulative effects of each type of message content and interactions between content types.
+Touchpoint-usage interactions.
+Content-usage interactions.
+Cumulative effects of each type of usage and interactions between usage types.
+Multiple empirical studies of display ads have identiﬁed such
+annoyance impact when the accumulation and repetition of
+ads passes a threshold (e.g., Todri et al., 2020 ; Tucker, 2015 ).
+Besides, there is also a negative interaction between persua-
+sive and awareness messages.
+The unique data on free-trial usage also render the opportu-
+nity to explore the relationship between usage and marketing
+touchpoints (Table 6, the yellow block, bottom two rows of
+columns 1–6), between usage and message content (Table 6,
+the gray block, bottom two rows of columns 7–9), and
+between different usage types (Table 6, the pink triangle, bot-
+tom two rows of last two columns). The interactions between
+usage and touchpoints are negative when signiﬁcant, indicat-
+ing ads are less effective on busier free-trial users in leading
+to conversion. However, the interactions between some con-
+tent and usage, such as the pair of persuasive messages and
+usage frequency and that of featured message and usage vari-
+ety, can synergize in converting prospects. Moreover, con-
+sumers’ cumulative usage frequency has a positive impact on
+conversion. That is, consumers with higher usage frequency
+are more likely to purchase. Such a positive correlation has
+been found in the context of repeat purchases (Ascarza &
+Hardie, 2013 ; Lemon et al., 2002 ) but has not been reportedfor new conversions. In terms of usage variety, both its cumu-
+lative effect and interaction with usage frequency are negative
+on conversion. That is, when a consumer increases the vari-
+ety of her software exploration, she is less likely to convert.
+Such a negative impact has been found in consumer behav-
+ioral research, where more varied usage experiences cause
+consumers to overestimate their usage (Etkin & Sela, 2016 )
+and feel less productive (Etkin & Mogilner, 2016 ). Conse-
+quently, when consumers are overwhelmed by too many fea-
+tures, their satisfaction and repeat purchases may decrease
+(Etkin & Sela, 2016 ; Thompson et al., 2005 ).
+In summary, the cumulative impact of all marketing touch-
+points and message content is positive. The cumulative
+impact of usage frequency is positive, whereas that of usage
+variety is negative. Many pairs of interactions between stock
+variables are positive, including those between consumer-
+initiated touchpoints and content and those between usage
+and content. However, negative interactions are also found
+between ﬁrm-initiated touchpoints and persuasive messages
+and between persuasive and awareness messages. Addition-
+ally, the interaction between touchpoints and usage is neg-
+ative when signiﬁcant, and the interaction between usage
+frequency and variety is also negative.
+
+=== PÁGINA 15 ===
+PROSPECTIVE CONSUMERS IN THE S AAS CONTEXT 2199Production and Operations Management
+5.4 Robustness tests
+The robustness of the ﬁndings is tested with the control func-
+tion method, varied data windows, and the PSM method.
+These tests generate consistent results like those from the
+main model reported in Tables 5and6, validating the robust-
+ness of the empirical ﬁndings. Detailed output is reported and
+discussed in Supporting Information Appendices E–G.
+First, the control function method is used instead of the
+copula method in tackling endogeneity. Given the large
+masses on zero for all types of touchpoints in Figure 3, zero-
+inﬂated Poisson is adopted for the control function equations.
+The marketing touchpoints, message content, and usage in
+the past one day are used as the IVs. Detailed results are in
+Supporting Information Appendix E.
+Next, the key ﬁndings are examined again with a shorter
+data window to test the sensitivity to data censoring. Left-
+censoring of the data is not a concern as the sample is a
+random draw from all consumers who created accounts and
+were immediately provided free trials in September 2015.
+However, right censoring could exist for free-trial users who
+did not convert by the end of the data window. In addition to
+right censoring, the observation window for buyers may be
+shorter than nonbuyers as all observations after conversion
+are dropped for buyers, while nonbuyers remain in the sample
+until the end of the observation window. Consequently, with
+a longer data window, the nonbuyers could potentially be
+exposed to more marketing communications. The calibration
+window is thus shortened from 60 days to 50, 45, 40, and 30
+days to test the impact of data censoring. The right censoring
+at the end of the data window does not change the key take-
+aways of the results. However, new signiﬁcant interactions
+related to email exposure emerge in shortened data windows.
+Details are given in Supporting Information Appendix F.
+Furthermore, ﬁrms can selectively deliver display impres-
+sions or send emails to prospective customers with the highest
+conversion likelihood. Such selection bias may affect con-
+sumers’ reactions to marketing communications, their soft-
+ware usage behaviors, and consequently their purchase deci-
+sions. To alleviate such selection bias, the PSM method
+(Datta et al., 2015 ) is used to estimate Equation ( 1). Two PSM
+analyses are conducted regarding the ﬁrm-initiated contact—
+one using samples matched by consumers’ display impres-
+sions and the other matched by their email exposure. In each
+case, a consumer with the ad exposure is matched with a con-
+sumer without using the nearest neighbor algorithm without
+replacement. The results from both, in Supporting Informa-
+tion Appendix G, are consistent with those in the main model.
+5.5 Simulation of Ad exposures
+To illustrate how this study helps ﬁrms address the crucial
+questions of when and what type of nudges they should send
+to consumers to facilitate conversions, two simulations are
+implemented to investigate different allocations of market-
+ing effort. The simulations only focus on the two types ofadvertising exposures that the ﬁrm has the most control
+over—display impression and email exposure. Moreover, the
+simulations are also limited to the subsets of consumers who
+have been exposed to display impressions or email exposures
+during the data window. Furthermore, the cost of display and
+emails ads (both monetary and their annoyance), which are
+usually considered in practice, is not accounted for in the sim-
+ulation due to the lack of data.
+In the ﬁrst simulation, the ﬁrm is assumed to cast one
+more display impression on a speciﬁc day from day 0 to
+day 60 to all consumers who have been exposed to dis-
+play impressions in the data. Figure 4shows the changes
+in the estimated expected conversion rate, with the associ-
+ated 95% highest density region shaded in gray. There are
+several windows to increase conversion rate by offering one
+more display impression, such as on the day of sign-up,
+halfway of the free trial, around the expiration, and in the
+second and third weeks after expiration, for which the ben-
+eﬁt of showing one more display impression is signiﬁcantly
+greater than zero. Meanwhile, there are days for which the
+95% highest density region covers 0, indicating the con-
+version lift from one additional display impression is not
+signiﬁcantly different from 0. Although the main effect of dis-
+play impression and its interactions with email exposure and
+paid search are positive, its interactions with persuasive mes-
+sages and usage variety are negative. The overall impact from
+one additional display impression on conversion depends on
+the status-quo touchpoints, content, and usage in the data.
+Likewise, another simulation is conducted among con-
+sumers who have received emails during the data window and
+investigates the increase in the estimated expected conversion
+rates if the ﬁrm sends out one more email on a speciﬁc day.
+Figure 5illustrates the changes in the estimated expected con-
+version rate, with the associated 95% highest density region
+shaded in gray. The lift of one additional email exposure on
+the day of sign-up, at the end of the free trial, and in the third
+and fourth week after expiration is also statistically different
+from zero. There are more days in Figure 5where the gray
+regions overlap with 0, implying additional emails sent on
+these days do not help conversion signiﬁcantly.
+6 MANAGERIAL IMPLICATIONS AND
+CONCLUSION
+Firms widely use free trials to entice prospects by offering
+them an opportunity to discover the ﬁrms’ products and ser-
+vices and assess the utility of a purchase. However, the role
+of consumers’ free-trial usage behavior, the marketing com-
+munication in the presence of a free trial, and the interplay
+between both is still an understudied topic. Especially when
+focused on the SaaS business model, where the free trial has
+already become the norm, many practitioners are still seeking
+solutions for the low conversion rate from free-trial users to
+paid subscribers.
+In this paper, a unique dataset from a leading SaaS
+ﬁrm is studied to explore how the ﬁrm’s advertising and
+
+=== PÁGINA 16 ===
+2200 LIProduction and Operations Management
+01 0 2 0 3 0 4 0 5 0 6 0
+Elapsed days of trial% Change in conversion rate
+-0.10 -0.05 0.00 0.05 0.10 0.15 0.20FIGURE 4 Simulation: One more impression on a
+day [Color ﬁgure can be viewed at
+wileyonlinelibrary.com]
+01 0 2 0 3 0 4 0 5 0 6 0
+Elapsed days of trial% Change in conversion rate
+-0.10 -0.05 0.00 0.05 0.10 0.15 0.20FIGURE 5 Simulation: One more email exposure
+on a day [Color ﬁgure can be viewed at
+wileyonlinelibrary.com]
+consumers’ free-trial usage inﬂuences their subscription deci-
+sions. A model of the consumers’ subscription decisions is
+developed to capture the cumulative impact of each type
+of marketing touchpoints, message content, usage behaviors,
+and, importantly, the pairwise interactions among them. Reg-
+ularization is imposed to avoid overﬁtting and multicollinear-
+ity. Meanwhile, the potential endogeneity is addressed with
+the copula method, and several robustness checks with the
+control function method, varied data window, and the PSM
+procedures are conducted. Finally, two simulations are imple-
+mented to show ﬁrms how to leverage the dynamics in
+consumers’ advertising responses and free-trial usage to
+determine the timing of casting additional display impres-
+sions or sending out additional emails.
+The empirical ﬁndings in this study contribute to a more
+precise understanding of the impact of advertising, free-trial
+usage, and the interplay between them. The granular market-ing data on both marketing touchpoints and message con-
+tent render a unique opportunity to examine the role of dif-
+ferent types of touchpoints and message content. Consistent
+with the extant literature, all marketing touchpoints and mes-
+sage content have a positive cumulative impact on conver-
+sions, and synergies are also found between different types
+of touchpoints and message content. All types of message
+content have a positive interaction with the consumer-
+initiated touchpoints and usage. However, negative interac-
+tions are noted between the ﬁrm-initiated touchpoints and
+persuasive messages and between persuasive and awareness
+messages. The negative interactions between persuasive mes-
+sages and ﬁrm-initiated touchpoints and awareness messages
+can result from consumers’ skepticism of ﬁrm-generated con-
+tent (Mayzlin, 2006 ) and/or their reaction to unsolicited rec-
+ommendations (Fitzsimons & Lehmann, 2004 ). This suggests
+the focal ﬁrm ought to revisit its persuasive messages and
+
+=== PÁGINA 17 ===
+PROSPECTIVE CONSUMERS IN THE S AAS CONTEXT 2201Production and Operations Management
+determine whether a lower frequency and/or milder tones
+could alleviate their negative impact on conversions. Mean-
+while, it is also worth exploring whether shifting persuasive
+content to customer-initiated touchpoints, that is, inbound
+visits via search channels or on the ﬁrm’s own website, could
+mitigate the negativity due to persuasion.
+The unique data of the frequency and variety of free-trial
+usage allows for exploring the interaction between usage fre-
+quency and usage variety, as well as the interactions between
+advertising and usage. In this research, the cumulative usage
+frequency positively impacts conversion, implying that the
+software launch by a consumer is a good indicator of the
+consumer’s interest in the ﬁrm’s service. However, the cumu-
+lative impact of usage variety and the interactions between
+usage variety and frequency are both negative on conver-
+sion. Additionally, the interaction between touchpoints and
+usage is negative when signiﬁcant, indicating the marketing
+communication is less effective on busier free-trial users.
+To leverage these empirical ﬁndings, the ﬁrm could develop
+trackers of consumers’ usage frequency and variety to better
+forecast their conversion propensity. Moreover, given the
+negative impact of usage variety on conversion, the ﬁrm
+could experiment with limited free trials wherein prospects
+are provided access to fewer software applications to con-
+clude whether they have offered too much of a good thing.
+In summary, this research provides evidence and guidance
+for managers to better interpret the consumer’s ad responses
+and usage behaviors during the free-trial period. It is espe-
+cially helpful for managers at SaaS ﬁrms, where free trials
+are widely adopted. The negative cumulative impact of usage
+variety and the negative interactions between persuasive mes-
+sages and the ﬁrm-initiated touchpoints and between persua-
+sive and awareness messages offer insights for the focal ﬁrm
+on the directions of future improvements, in terms of what
+messages to promote in which marketing media and what
+type of messages to avoid sending together in their subse-
+quent marketing campaigns. Also, the simulations of ﬁrm-
+initiated exposures of display ads and emails show ﬁrms
+how to utilize the proposed model to better determine the
+timing of contact prospects. By examining various dimen-
+sions of the ﬁrm’s advertising and consumers’ free-trial
+usage, and analyzing the interactions between both, managers
+can better allocate their marketing effort throughout the free-
+trial period and afterward.
+This research is focused on prospective consumers in the
+SaaS context. It is noted for some long-standing software,
+say Microsoft Ofﬁce, some prospective SaaS users may be
+past owners of perpetual licenses who ﬁnd it easier to learn
+the SaaS software based on their familiarity with its basic
+features.5However, despite some similarities, given the rapid
+advancements in the software industry, the user experience
+with SaaS can be considerably different from what was
+offered with perpetual licenses in the past. Moreover, in
+the present study, the focal ﬁrm completely discontinued
+its perpetual licenses several years before the data window.
+Consequently, the previous owners of perpetual licenses didnot have any SaaS experience before buying the SaaS access
+and are treated by the ﬁrm and this study as new prospects.
+This research can be extended in several ways. First, the
+empirical ﬁndings from observational data can be validated
+and enriched by lab and ﬁeld experiments, especially to tease
+out the individual impact of one type of marketing touch-
+point or message content. For example, directly manipulat-
+ing the timing and quantity of display impressions or emails
+delivered to consumers would render more accurate measures
+of the ad effectiveness in the presence of a free trial. Also,
+limiting the frequency of software launches or the number
+of downloads allowed during the free trial would directly
+validate whether consumer’s usage frequency and variety
+can be used as indicators of conversion likelihood. Second,
+the dataset lacks the rich demographic information com-
+monly used for segmentation analysis. Incorporating addi-
+tional demographic information would help identify differ-
+ent segments of prospective consumers and enable a detailed
+analysis of different situations. Third, the touchpoint data
+before the account creation is not used in this study due to
+sparsity and low tracking accuracy. If such data were accu-
+rately recorded and integrated with other touchpoints after
+account creation, this study could be extended to a staged
+model that also captures consumers’ journey before the free-
+trial acquisition.
+ACKNOWLEDGMENTS
+The author thanks the participants at the 2019 Marketing
+Dynamics Conference at the University of Maryland and the
+brownbag seminar at The Ohio State University. This article
+greatly beneﬁts from the constructive suggestions from the
+department editor, the senior editor, and two reviewers.
+ORCID
+Hongshuang (Alice )Li https://orcid.org/0000-0001-8752-
+690X
+ENDNOTES
+1After a consumer signs up for the free trial, the ﬁrm grants access to all
+of its software applications, but it does not automatically download any
+applications to the consumer’s desktop computer. To use a software appli-
+cation for the ﬁrst time, consumers need to download and install it on their
+desktop computers.
+2The ﬁrm can prevent the same consumer requesting multiple times of
+free trial with different email addresses. The common practice in soft-
+ware industry is to embed hidden ﬁles on devices and use identiﬁers of
+the user’s operating system and network. However, these methods are not
+necessarily used by the focal ﬁrm.
+3The observations do not include search impressions.
+4For Labor Day, the holiday window includes Friday through Monday
+around the holiday. For Thanksgiving, the holiday window includes
+Wednesday through Sunday around the holiday.
+5The author thanks the Department Editor for pointing out this possibility.
+REFERENCES
+Ackerberg, D. A. (2001). Empirically distinguishing informative and pres-
+tige effects of advertising. RAND Journal of Economics ,32, 316–333.
+https://doi.org/10.2307/2696412
+
+=== PÁGINA 18 ===
+2202 LIProduction and Operations Management
+Ansari, A., Mela, C. F., & Neslin, S. A. (2008). Customer channel migra-
+tion. Journal of Marketing Research ,45(1), 60–76. https://doi.org/10.
+1509/jmkr.45.1.60
+Ansari, A., & Mela, C. F. (2003). E-customization. Journal of Marketing
+Research ,40(2), 131–145.
+Arora, S., Ter Hofstede, F., & Mahajan, V. (2017). The implications of offer-
+ing free versions for the performance of paid mobile apps. Journal of
+Marketing ,81(6), 62–78. https://doi.org/10.1509/jm.15.0205
+Ascarza, E., & Hardie, B. G. (2013). A joint model of usage and churn in
+contractual settings. Marketing Science ,32(4), 570–590. https://doi.org/
+10.1287/mksc.2013.0786
+Bass, F. M., Bruce, N., Majumdar, S., & Murthi, B. P. S. (2007). Wearout
+effects of different advertising themes: A dynamic Bayesian model of the
+advertising-sales relationship. Marketing Science ,26(2), 179–195. https:
+//doi.org/10.1287/mksc.1060.0208
+Bawa, K., & Shoemaker, R. (2004). The effects of free sample promotions
+on incremental brand sales. Marketing Science ,23(3), 345–63. https://doi.
+org/10.1287/mksc.1030.0052
+Bolton, R. N., & Lemon, K. N. (1999). A dynamic model of customers’
+usage of services: Usage as an antecedent and consequence of satisfac-
+tion. Journal of Marketing Research ,36(2), 171–186.
+Borle, S., Singh, S. S., & Jain, D. C. (2008). Customer lifetime value mea-
+surement. Management Science ,54(1), 100–112. https://doi.org/10.1287/
+mnsc.1070.0746
+Bruce, N. I., Murthi, B. P. S., & Rao, R. C. (2017). A dynamic model for dig-
+ital advertising: The effects of creative format, message content, and tar-
+geting on engagement. Journal of Marketing Research ,54(2), 202–218.
+https://doi.org/10.1509/jmr.14.0117
+Bruce, N. I., Peters, K., & Naik, P. A. (2012). Discovering how advertis-
+ing grows sales and builds brands. Journal of Marketing Research ,49(6),
+793–806. https://doi.org/10.1509/jmr.11.0060
+Campbell, M. C. (1995). When attention-getting advertising tactics elicit
+consumer inferences of manipulative intent: The importance of balancing
+beneﬁts and investments. Journal of Consumer Psychology ,4(3), 225–
+254. https://doi.org/10.1207/s15327663jcp0403_02
+Chae, I., Bruno, H. A., & Feinberg, F. M. (2019). Wearout or weariness?
+Measuring potential negative consequences of online ad volume and
+placement on website visits. Journal of Marketing Research ,56(1), 57–
+75.https://doi.org/10.1177/0022243718820587
+Chan, T. Y., Wu, C., & Xie, Y. (2011). Measuring the lifetime value of
+customers acquired from google search advertising. Marketing Science ,
+30(5), 837–850. https://doi.org/10.1287/mksc.1110.0658
+Chandy, R. K., Tellis, G. J., MacInnis, D. J., & Thaivanich, P. (2001). What to
+say when: Advertising appeals in evolving markets. Journal of Marketing
+Research ,38(4), 399–414. https://doi.org/10.1509/jmkr.38.4.399.18908
+Danaher, P. J., Danaher, T. S., Smith, M. S., & Loaiza-Maya, R. (2020).
+Advertising effectiveness for multiple retailer-brands in a multimedia and
+multichannel environment. Journal of Marketing Research ,57(3), 445–
+467. https://doi.org/10.1177/0022243720910104
+Datta, H., Foubert, B., & Van Heerde, H. J. (2015). The challenge of retaining
+customers acquired with free trials. Journal of Marketing Research ,52(2),
+217–234. https://doi.org/10.1509/jmr.12.0160
+Dinner, I. M., Van Heerde, H. J., & Neslin, S. A. (2014). Driving online and
+ofﬂine sales: The cross-channel effects of traditional, online display, and
+paid search advertising. Journal of Marketing Research ,51(5), 527–545.
+https://doi.org/10.1509/jmr.11.0466
+Dong, X., Manchanda, P., & Chintagunta, P. K. (2009). Quantifying the bene-
+ﬁts of individual-level targeting in the presence of ﬁrm strategic behavior.
+Journal of Marketing Research ,46(2), 207–221. https://doi.org/10.1509/
+jmkr.46.2.207
+Drèze, X., & Hussherr, F. X. (2003). Internet advertising: Is anybody watch-
+ing? Journal of Interactive Marketing ,17(4), 8–23. https://doi.org/10.
+1002/dir.10063
+Etkin, J., & Mogilner, C. (2016). Does variety among activities increase hap-
+piness? Journal of Consumer Research ,43(2), 210–229. https://doi.org/
+10.1093/jcr/ucw021Etkin, J., & Sela, A. (2016). How experience variety shapes postpurchase
+product evaluation. Journal of Marketing Research ,53(1), 77–90. https:
+//doi.org/10.1509/jmr.14.0175
+Fitzsimons, G. J., & Lehmann, D. R. (2004). Reactance to recommendations:
+When unsolicited advice yields contrary responses. Marketing Science ,
+23(1), 82-94. https://doi.org/10.1287/mksc.1030.0033
+Foubert, B., & Gijsbrechts, E.. (2016). Try it, you’ll like it—or will you?
+The perils of early free-trial promotions for high-tech service adoption.
+Marketing Science ,35(5), 810–826. https://doi.org/10.1287/mksc.2015.
+0973
+George, E. I., & McCulloch, R. E. (1993). Variable selection via Gibbs sam-
+pling. Journal of the American Statistical Association ,88(423), 881–889.
+https://doi.org/10.1080/01621459.1993.10476353
+Ghose, A., & Yang, S. (2009). An empirical analysis of search engine adver-
+tising: Sponsored search in electronic markets. Management Science ,
+55(10), 1605–1622. https://doi.org/10.1287/mnsc.1090.1054
+Gong, J., Abhishek, V., & Li, B. (2018). Examining the impact of keyword
+ambiguity on search advertising performance: A topic model approach.
+MIS Quarterly ,42(3), 805–829. https://doi.org/10.25300/MISQ/2018/
+14042
+Goodman, J. K., & Irmak, C. (2013). Having versus consuming: Failure to
+estimate usage frequency makes consumers prefer multifeature products.
+Journal of Marketing Research ,50(1), 44–54. https://doi.org/10.1509/
+jmr.10.0396
+Gu, X., Kannan, P. K., & Ma, L. (2018). Selling the Premium in
+Freemium, Journal of Marketing ,82(6), 10–27. https://doi.org/10.1177/
+0022242918807170
+Guadagni, P. M., & Little, J. D. (1983). A logit model of brand choice cali-
+brated on scanner data. Marketing Science ,2(3), 203–238. https://doi.org/
+10.1287/mksc.2.3.203
+Hupfer, M. E., & Grey, A. (2005). Getting something for nothing: The
+impact of a sample offer and user mode on banner ad response. Jour-
+nal of Interactive Advertising ,6(1), 105–117. https://doi.org/10.1080/
+15252019.2005.10722112
+Jones, R., & Mendelson, H. (2011). Information goods vs. industrial goods:
+Cost structure and competition. Management Science ,57(1), 164–176.
+https://doi.org/10.1287/mnsc.1100.1262
+Joo, M., Wilbur, K. C., Cowgill, B., & Zhu, Y. (2014). Television advertising
+and online search. Management Science ,60(1), 56–73. https://doi.org/10.
+1287/mnsc.2013.1741
+Kirmani, A., & Zhu, R. (2007). Vigilant against manipulation: The effect of
+regulatory focus on the use of persuasion knowledge. Journal of Market-
+ing Research ,44(4), 688–701. https://doi.org/10.1509/jmkr.44.4.688
+Kumar, V., Zhang, X., & Luo, A. (2014). Modeling customer opt-in and
+opt-out in a permission-based marketing context. Journal of Marketing
+Research ,51(4), 403–419. https://doi.org/10.1509/jmr.13.0169
+Lambrecht, A., & Misra, K. (2017). Fee or free: When should ﬁrms charge
+for online content? Management Science ,63(4), 1150–1165. https://doi.
+org/10.1287/mnsc.2015.2383
+Lee, C., Kumar, V., & Gupta, S. (2019). Designing freemium: Strategic bal-
+ancing growth and monetization (SSRN working paper).
+Lee, C., Ofek, E., & Steenburgh, T. J. (2017). Personal and social usage: The
+origins of active customers and ways to keep them engaged. Management
+Science ,64(6), 2473–2495. https://doi.org/10.1287/mnsc.2017.2754
+Lee, D., Hosanagar, K., & Nair, H. S. (2018). Advertising content
+and consumer engagement on social media: Evidence from Facebook.
+Management Science ,64(11), 5105–5131. https://doi.org/10.1287/mnsc.
+2017.2902
+Lemon, K. N., White, T. B., & Winer, R. S. (2002). Dynamic customer rela-
+tionship management: Incorporating future considerations into the service
+retention decision. Journal of Marketing ,66(1), 1–14. https://doi.org/10.
+1509/jmkg.66.1.1.18447
+Li, H., & Kannan, P. K. (2014). Attributing conversions in a multichannel
+online marketing environment: An empirical model and a ﬁeld experi-
+ment. Journal of Marketing Research ,51(1), 40–56. https://doi.org/10.
+1509/jmr.13.0050
+
+=== PÁGINA 19 ===
+PROSPECTIVE CONSUMERS IN THE S AAS CONTEXT 2203Production and Operations Management
+Li, H., Kannan, P. K., Viswanathan, S., & Pani, A. (2016). Attribution strate-
+gies and return on keyword investment in paid search advertising. Mar-
+keting Science ,35(6), 831–848. https://doi.org/10.1287/mksc.2016.0987
+Li, H., & Ma, L. (2020). Charting the path to purchase using topic mod-
+els.Journal of Marketing Research ,57(6), 1019–1036. https://doi.org/10.
+1177/0022243720954376
+Lin, C., Venkataraman, S., & Jap, S. D. (2013). Media multiplexing behavior:
+Implications for targeting and media planning. Marketing Science ,32(2),
+310–324. https://doi.org/10.1287/mksc.1120.0759
+Liu, J., & Toubia, O. (2018). A semantic approach for estimating consumer
+content preferences from online search queries. Marketing Science ,37(6),
+930–952. https://doi.org/10.1287/mksc.2018.1112
+Liu, Q., Otter, T., & Allenby, G. M. (2007). Investigating endogeneity bias in
+marketing. Marketing Science ,26(5), 642–650. https://doi.org/10.1287/
+mksc.1060.0256
+MacInnis, D. J., Rao, A. G., & Weiss, A. M. (2002). Assessing when
+increased media weight of real-world advertisements helps sales. Jour-
+nal of Marketing Research ,39(4), 391–407. https://doi.org/10.1509/jmkr.
+39.4.391.19118
+Manchanda, P., Dubé, J. P., Goh, K. Y., & Chintagunta, P. K. (2006). The
+effect of banner advertising on internet purchasing. Journal of Marketing
+Research ,43(1), 98–108. https://doi.org/10.1509/jmkr.43.1.98
+Manchanda, P., Rossi, P. E., & Chintagunta, P. K. (2004). Response mod-
+eling with nonrandom marketing-mix variables. Journal of Marketing
+Research ,41(4), 467–478. https://doi.org/10.1509/jmkr.41.4.467.47005
+Manchanda, P., Xie, Y., & Youn, N. (2008). The role of targeted commu-
+nication and contagion in product adoption. Marketing Science ,27(6),
+961–976. https://doi.org/10.1287/mksc.1070.0354
+Mayzlin, D. (2006). Promotional chat on the Internet. Marketing science ,
+25(2), 155–163. https://doi.org/10.1287/mksc.1050.0137
+Naik, P. A., Mantrala, M. K., & Sawyer, A. G. (1998). Planning media sched-
+ules in the presence of dynamic advertising quality. Marketing Science ,
+17(3), 214–35. https://doi.org/10.1287/mksc.17.3.214
+Naik, P. A., & Raman, K. (2003). Understanding the impact of synergy in
+multimedia communications. Journal of Marketing Research ,40(4), 375–
+388. https://doi.org/10.1509/jmkr.40.4.375.19385
+Naik, P. A., & Peters, K. (2009). A hierarchical marketing communications
+model of online and ofﬂine media synergies. Journal of Interactive Mar-
+keting ,23(4), 288–299. https://doi.org/10.1016/j.intmar.2009.07.005
+Nerlove, M., & Arrow, K. J. (1962). Optimal advertising policy under
+dynamic conditions. Economica ,114, 129–142. https://doi.org/10.2307/
+2551549
+Park, S., & Gupta, S. (2012). Handling endogenous regressors by joint esti-
+mation using copulas. Marketing Science ,31(4):567–586.
+Petrin, A., & Train, K. (2010). A control function approach to endogeneity
+in consumer choice models. Journal of Marketing Research ,47(1), 3–13.
+https://doi.org/10.1509/jmkr.47.1.3
+Rossi, P. E. (2014). Even the rich can make themselves poor: A critical
+examination of IV methods in marketing applications. Marketing Science ,
+5(33), 655–672. https://doi.org/10.1287/mksc.2014.0860
+Rutz, O. J., & Bucklin, R. E. (2011). From generic to branded: A model
+of spillover in paid search advertising. Journal of Marketing Research ,
+48(1), 87–102. https://doi.org/10.1509/jmkr.48.1.87
+Sahni, N. S., Wheeler, S. C., & Chintagunta, P. (2018). Personalization in
+email marketing: The role of noninformative advertising content. Market-
+ing Science ,37(2), 236–258. https://doi.org/10.1287/mksc.2017.1066
+Shi, Z., Zhang, K., & Srinivasan, K. (2019). Freemium as an optimal strategy
+for market dominant ﬁrms. Marketing Science ,38(1), 150–169. https://
+doi.org/10.1287/mksc.2018.1109
+Smith, R. E. (1993). Integrating information from advertising and trial:
+Processes and effects on consumer response to product information.
+Journal of Marketing Research ,30(2), 204–219. https://doi.org/10.1177/
+002224379303000206
+Sriram, S., Chintagunta, P., & Manchanda, P. (2015). Service quality variabil-
+ity and termination behavior. Management Science ,51(11), 2739–2758.
+https://doi.org/10.1287/mnsc.2014.2105Statista. (2021). Public cloud application services/software as a ser-
+vice (SaaS )end-user spending worldwide from 2015 to2022.
+https://www.statista.com/statistics/505243/worldwide-software-as-
+a-service-revenue/ .
+Thompson, D. V., Hamilton, R. W., & Rust, R. T. (2005). Feature fatigue:
+When product capabilities become too much of a good thing. Journal of
+Marketing Research ,42(4), 431–442. https://doi.org/10.1509/jmkr.2005.
+42.4.431
+Tucker, C. E. (2015). The reach and persuasiveness of viral video ads. Mar-
+keting Science ,34(2), 281–296. https://doi.org/10.1287/mksc.2014.0874
+Todri, V., Ghose, A., & Singh, P. V. (2020). Trade-offs in online advertising:
+Advertising effectiveness and annoyance dynamics across the purchase
+funnel. Information Systems Research ,31(1), 102–125. https://doi.org/10.
+1287/isre.2019.0877
+Vakratsas, D., & Ambler, T. (1999). How advertising works: What do we
+really know? Journal of Marketing ,63(1), 26–43. https://doi.org/10.1177/
+002224299906300103
+Villas-Boas, J. M., & Winer, R. S. (1999). Endogeneity in brand choice mod-
+els.Management Science ,45(10), 1324–1338. https://doi.org/10.1287/
+mnsc.45.10.1324
+Wagner, T. M., Benlian, A., & Hess, T. (2014). Converting freemium cus-
+tomers from free to premium—the role of the perceived premium ﬁt
+in the case of music as a service. Electronic Markets ,24(4), 259–268.
+https://doi.org/10.1007/s12525-014-0168-4
+Wattal, S., Telang, R., Mukhopadhyay, T., & Boatwright, P. (2012). What’s
+in a “name”? Impact of use of customer information in e-mail advertise-
+ments. Information Systems Research ,23(3), 679–697. https://doi.org/10.
+1287/isre.1110.0384
+Wheat, R. D., & Morrison, D. G. (1990). Assessing purchase timing models:
+Whether or not is preferable to when. Marketing Science ,9(2), 162–170.
+https://doi.org/10.1287/mksc.9.2.162
+Wiesel, T., Pauwels, K., & Arts, J. (2011). Marketing’s proﬁt impact: Quan-
+tifying online and off-line funnel progression. Marketing Science ,30(4),
+604–611. https://doi.org/10.1287/mksc.1100.0612
+Wright, A. A., & Lynch Jr., J. G. (1995). Communication effects of advertis-
+ing versus direct experience when both search and experience attributes
+are present. Journal of Consumer Research ,21(4), 708–718.
+Yuan, M., & Lin, Y. (2005). Efﬁcient empirical Bayes variable selec-
+tion and estimation in linear models. Journal of the American
+Statistical Association ,100(472), 1215–1225. https://doi.org/10.1198/
+016214505000000367
+Yoganarasimhan, H., Barzegary, E., & Pani, A. (2019). Design and evalua-
+tion of personalized free trials . Working paper.
+Zantedeschi, D., Feit, E. M., & Bradlow, E. T. (2017). Measuring multi-
+channel advertising response. Management Science ,63(8), 2706–2728.
+https://doi.org/10.1287/mnsc.2016.2451
+Zhang, X., Kumar, V., & Cosguner, K. (2017). Dynamically managing
+a proﬁtable email marketing program. Journal of Marketing Research ,
+54(6), 851–866. https://doi.org/10.1509/jmr.16.0210
+SUPPORTING INFORMATION
+Additional supporting information may be found in the online
+version of the article at the publisher’s website.
+How to cite this article: Li, H. (A.) (2022).
+Converting free users to paid subscribers in the SaaS
+context: The impact of marketing touchpoints,
+message content, and usage. Production and
+Operations Management ,3 1,2185–2203.
+https://doi.org/10.1111/poms.13672
+

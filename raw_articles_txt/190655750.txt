@@ -1,0 +1,517 @@
+=== PÁGINA 1 ===
+Industry and Innovation
+ISSN: 1366-2716 (Print) 1469-8390 (Online) Journal homepage: www.tandfonline.com/journals/ciai20
+The Impact of Open Source Software
+Commercialization on Firm Value
+Dilan Aksoy-Yurdagul
+To cite this article: Dilan Aksoy-Yurdagul (2015) The Impact of Open Source
+Software Commercialization on Firm Value, Industry and Innovation, 22:1, 1-17, DOI:
+10.1080/13662716.2015.1014163
+To link to this article:  https://doi.org/10.1080/13662716.2015.1014163
+Published online: 26 Feb 2015.
+Submit your article to this journal 
+Article views: 769
+View related articles 
+View Crossmark data
+Citing articles: 3 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ciai20
+
+=== PÁGINA 2 ===
+Research Paper
+The Impact of Open Source Software
+Commercialization on Firm Value
+DILAN AKSOY-YURDAGUL
+Strategy and Innovation Department, ESC Rennes School of Business, 2 Rue Robert d’Arbrissel,
+35065 Rennes, France
+ABSTRACT Vendors of proprietary software products are increasingly moving to business models inspired by
+open source software (OSS). This study investigates sources of heterogeneity in value appropriation associatedwith commercializing OSS. Speciﬁcally, I suggest that the relationship between a ﬁrm’s OSS releases and itsvalue depends critically on its stocks of protection mechanisms for intellectual property rights, such as software
+patents and software trademarks. I ﬁnd that while software patent stocks positively affect the relationship between
+a ﬁrm’s OSS product portfolio and its value, software trademark stocks have a negative effect on this relationship.
+KEY WORDS: Open source software, intellectual property rights, ﬁrm value
+JEL Classiﬁcation : O31, O34, L86
+1. Introduction
+Open source software (OSS) has drawn attention from diverse academic ﬁelds, following
+the enormous success of well-known OSS projects such as Linux and Apache. Severalstudies have centered mostly on the motives driving users and developers to contribute toOSS projects (Lerner and Tirole 2002 ; Lakhani and Wolf 2005 ), how innovation processes
+function (Lakhani and von Hippel 2003 ) and governance issues in OSS communities (Shah
+2006 ; O’Mahony and Ferraro 2007 ). Since becoming commercially viable (Fitzgerald 2006 ),
+another line of research on OSS has focused on for-proﬁt ﬁrms collaborating with OSScommunities (Dahlander and Magnusson 2005 ; Bonaccorsi, Giannangeli, and Rossi 2006 ),
+the intellectual property right (IPR) protection mechanisms ﬁrms use to ensure their returns
+from open business models (Lerner and Tirole 2005 ; Henkel 2006 ) and the competitive
+dynamics introduced by OSS (Bonaccorsi and Rossi 2003 ; West 2003 ).
+Although the widespread adoption and acceptance of OSS has been attributed to its
+complementarity to proprietary developments (Bonaccorsi and Rossi 2003 ; Schmidt and
+q2015 Taylor & Francis
+Correspondence Address : Dilan Aksoy-Yurdagul, Strategy and Innovation Department, ESC Rennes School of
+Business, 2 Rue Robert d’Arbrissel, 35065 Rennes, France. Tel.: þ33 (0)2 99 54 63 63. Fax: þ33 (0)2 99 33 08 24.
+Email: dilan.aksoy-yurdagul@esc-rennes.comIndustry and Innovation , 2015
+Vol. 22, No. 1, 1–17, http://dx.doi.org/10.1080/13662716.2015.1014163
+
+=== PÁGINA 3 ===
+Schnitzer 2003 ; West 2003 ) and though its potential beneﬁts for the engaging parties have
+largely been identiﬁed (Henkel 2006 ), the ﬁnancial beneﬁts OSS commercialization might
+bring to a for-proﬁt ﬁrm still lack empirical evidence. To the best of my knowledge, only a fewstudies have investigated the effect of ﬁrms’ engagement in OSS communities on theirperformance. Using cross-sectional survey data, Stam ( 2009 ) ﬁnds an inverted U-shaped
+relationship in his study, which explores the link between ﬁrms’ technical communityparticipation and their innovative/ﬁnancial performance. Alexy and George ( 2013 ) report
+systematic links between commercial engagement in OSS and ﬁrm value conditional on the
+legitimacy of the ﬁrm, as perceived by the capital market. Although these studies, at ﬁrstglance, highlight a signiﬁcant relationship between ﬁrms’ engagement in OSS communitiesand their performances in certain contexts, further investigation is necessary to understandwhether commercialization of OSS products generates ﬁnancial value for ﬁrms.
+Fosfuri, Giarratana, and Luzzi ( 2008 ) focus on the heterogeneity among ﬁrms’
+endowments of protection mechanisms for IPR to explain their decisions to incorporate OSSinto commercial product portfolios. Their results suggest that variations in pre-existing
+stocks of protection mechanisms for IPR—namely, patents and trademarks—help explain
+why some ﬁrms take more commercial actions within the OSS paradigm than others. In thisstudy, I aim to extend recent research by focusing on performance consequences of OSScommercialization and by assessing the moderating role of IPR protection mechanisms onthe relationship between ﬁrm value and OSS commercialization. I explain the mechanismsthrough which IPRs may affect the aforementioned relationship and provide empiricalevidence in support. In doing so, I use Tobin’s qto proxy for ﬁrm value and analyze panel
+data of 70 companies covering a seven year period from 2003 to 2009. I argue that the
+potential for appropriating returns from commercializing OSS products depends critically on
+ﬁrms’ stocks of software patents and trademarks. The ﬁndings are twofold. First, I show thatOSS commercialization cannot result in ﬁnancial beneﬁts to a ﬁrm without the right set of IPRstocks. Second, software patent and trademark stocks interact with the OSS portfolio, suchthat software trademarks have a negative effect on the relationship between ﬁrm value andOSS commercialization, while software patent stocks have a positive effect on thisrelationship.
+In the next section, I present the theoretical background for the empirical analysis,
+before describing the data and identifying the variables in my estimations. In the empirical
+section, I present the results. Finally, I offer a brief discussion of the ﬁndings and conclude.
+2. The Role of Firms’ IPR Protection Mechanisms
+Literature on the protection of valuable knowledge is extensive (Rumelt 1984 ;B a r n e y 1986 ).
+Traditional theory in strategy and innovation management suggests that a companygenerates, develops and commercializes its own ideas and that managers’ key challenge is
+retaining the knowledge within the ﬁrm to appropriate returns (Teece 1986 ). On the other hand,
+open innovation, which has rapidly come to the fore as a new paradigm for corporateinnovation, focuses on identifying, exploiting and integrating external knowledge into internalresearch-and-development activities (West and Gallagher 2006 ). Firms that adopt the open
+innovation model integrate these external sources (e.g., customers, suppliers, competitorsand universities) into their internal innovation processes and competitive strategy to sustain theability to introduce new products to the market successfully (Chesbrough 2003 ). OSS, which is2D. Aksoy-Yurdagul
+
+=== PÁGINA 4 ===
+freely available to all parties that accept the licensing terms of the software, is the outcome of
+such an open innovation model, in which companies collaborate with communities of volunteerdevelopers. Given the open nature of OSS, which tends to make them a public good (Lernerand Tirole 2002 ), ﬁrms face the challenge of reaping the beneﬁts from it. Appropriability
+regimes that use legal mechanisms of protection help ﬁrms advance their capabilities to retaincreated value in this speciﬁc setting, due to the modular architecture of the OSS code, whichcan be combined with proprietary developments (Teece 1986 ,1998 ).
+How do ﬁrms’ endowments of IPR affect the relationship between commercialization
+of OSS and performance? To address this question, I investigate the IPR protectionmechanisms that are crucial for appropriating value to a ﬁrm that commercializes OSS. Studiesof OSS and associated appropriation regimes suggest several protection methods, rangingfrom licensing (Behlendorf 1999 ;H e c k e r 1999 ; Raymond 1999 ) to standard protections, such
+as copyright, secrecy, lead time and complementary assets (Feller and Fitzgerald 2002 ;
+Dahlander 2005 ; Fosfuri, Giarratana, and Luzzi 2008 ). I focus speciﬁcally on software patents
+and trademarks, which are important ﬁrm resources that explain the heterogeneity in ﬁrms’
+decisions to engage in OSS commercialization (Fosfuri, Giarratana, and Luzzi 2008 ). Although
+copyrights provide an alternative IPR mechanism for software, my aim is to investigatewhether ﬁrms’ efforts to build an open source-based strategy brings the necessity to buildstrategic IPR portfolios, rather than questioning the power of copyrights, patents or trademarksto protect the underlying technology per se. Building strategic patent/trademark portfoliosdependent on a ﬁrm’s short-term goals and long-term objectives is a debated issue in thedomain of strategic management (Hall 1992 ;M e n d o n c /C24a, Pereira, and Godinho 2004 ;B l i n d ,
+Cremers, and Mueller 2009 ). Yet, within the context of OSS, these portfolios play a critical role
+in deﬁning the conditions under which commercialization can be most beneﬁcial.
+2.1 Software Patents
+Hall and Ziedonis ( 2001 ) suggest that patents are important IPR mechanisms for ﬁrms not
+only because they operate as effective appropriation mechanisms but also because theyconfer negotiation power on technologies over external sources. Alexy and Reitzig ( 2013 )
+argue that ﬁrms that pursue a private-collective model of innovation continue acquiring
+patents mainly to gain de facto control of a technology among several proprietary
+competitors within the context of OSS. Focusing on appropriation mechanisms needed toproﬁt from OSS commercialization, Mann ( 2006 ) argues that corporate members of OSS
+communities often continue to invest heavily in software patents, primarily to protectthemselves from the threat of litigation. Patent rights are imperfect in the sense that theytransfer the rights to exclude others from using the technology but do not transfer the usagerights of the technology to the patent holder (Gans and Stern 2010 ). Thus, the use of a large
+patent portfolio for generating value from the commercialization of a complex technology,
+such as in the case of OSS, can be substantial (Levin et al. 1987 ). Even if the software
+patent in such a portfolio does not provide direct protection for what is being released per se,it may enable the ﬁrm to capture the value created through other channels by establishingthe necessary conditions—for example, by boosting proﬁts on a complementary segment inproprietary form (Lerner and Tirole 2002 ) or by displacing another party from the value chain
+(Hardy 2013 ). Fosfuri, Giarratana, and Luzzi ( 2008 ) argue that having a large portfolio
+of software patents is beneﬁcial for OSS commercialization for three reasons: potentialImpact of OSS Commercialization on Firm Value 3
+
+=== PÁGINA 5 ===
+complementarity between the patented software and commercial OSS products, control
+over future improvements of an OSS project and protection against litigation.
+In contrast, Shah ( 2006 ) suggests that tight control of IPR discourages participation in
+OSS projects that rely mainly on volunteer programmers. According to this viewpoint, theconcept of extracting ﬁnancial beneﬁts from jointly developed software contradicts the corevalues of the OSS movement and thus creates a feeling of “repugnance” (Gans and Stern2010 ) that may harm community members’ willingness to participate free of charge.
+However, it is important to distinguish between creation of OSS and its commercialization
+packaged into proprietary products or services (Teece 1998 ). Although implementation
+help by volunteer developers is important for the advancement of the project, ﬁrms that aimto develop a commercial product jointly with a community do so mainly to receive designhelp from their potential future customers (Goldman and Gabriel 2005 ). Thus, ﬁrms are more
+concerned about attracting potential users, rather than programmers, to the communities inwhich they participate, with the goal to develop a commercial OSS product. Thus, losingparticipation from tight appropriability is not an issue for community-based developments
+whose principal contributors are potential users of the outcome product.
+I argue that large software patent stocks may boost the returns generated from the
+commercialization of OSS and lead to superior ﬁrm value as measured by Tobin’s qfor four
+reasons. First, large stocks operate as strategic tools to sell complementary products/services along with OSS developments and to help ﬁrms expand complementarytechnologies into proprietary domains that play key roles in their sustained competitiveadvantage equation. Second, they enable ﬁrms to sell products/services complementary totheir proprietary offerings, thereby potentially displacing other parties in the value chain and
+freeing up consumer resources. Third, they help ﬁrms retain control over future
+improvements of the software, which is widely accessible through the developmentplatform. Fourth, they allow the ﬁrm to avoid holdups and litigation threats by technologysuppliers that own relevant patents.
+Hypothesis 1: Large software patent stocks positively affect the relationship between a
+ﬁrm’s OSS product portfolio and its ﬁrm value, such that as the number ofsoftware patents increases, the relationship becomes stronger.
+2.2 Software Trademarks
+In contrast with the extensive debate on the value of patents in classical incentive theory (Hall
+and MacGarvie 2010 ), trademarks have only recently received attention (Mendonc /C24a,
+Pereira, and Godinho 2004 ). A trademark refers to any word, symbol or name used by a
+manufacturer to distinguish its goods from those sold by others by leveraging its owner’sreputation. In a previous study, O’Mahony ( 2003 ) argues that trademarks may foster
+volunteer participation in community-based OSS projects because they help build a strong
+brand name and reputation. Linux, Apache and Debian have all trademarked their names,both for differentiation purposes and to prevent proprietary appropriations of their OSS code(O’Mahony 2003 ). All these exemplar development projects with strong brand names receive
+support largely by donations through several non-proﬁt organizations and rely strongly oncodebase developed by volunteer participants. Today, however, as OSS has transformedinto a commercially viable form (Fitzgerald 2006 ), ﬁrms engage in community-based projects4D. Aksoy-Yurdagul
+
+=== PÁGINA 6 ===
+mainly with the intent to receive design help and new product functionality ideas from
+potential users rather than receiving implementation help from volunteer developers (Riggsand von Hippel 1994 ; Goldman and Gabriel 2005 ). For this reason, investing in a strong brand
+name to gain implementation help from volunteer developers is not a relevant strategy forproﬁt-oriented ﬁrms endowed with skilled developers being paid for the job.
+I suggest that investing in trademarks will have a negative effect on the
+relationship between OSS portfolio and ﬁrm value for two reasons. First, investing in a
+brand name and reputation is not a compatible strategy for ﬁrms that want to commercialize
+OSS products. OSS is a collaborative mode of software development that targets consumerswho want cost-saving solutions (von Hippel and von Krogh 2003 ), while trademark
+registration is an investment tailored to proprietary domains for the purpose of increasingconsumers’ willingness to pay a premium for product quality (Fosfuri, Giarratana, and Luzzi2008 ). Research suggests that product innovation is illegitimate because it clashes with
+established routines and shared understandings within the ﬁrm (Dougherty and Heller 1994 ).
+Alexy and George ( 2013 ) provide support for this argument with empirical evidence from the
+domain of OSS and suggest that ﬁrms should act in a way that complies with their current
+innovation strategy to receive beneﬁts. For a ﬁrm commercializing OSS, investing in a brandname and reputation—in other words, registering trademarks—may send mixed signals to itscustomers and damage its overall position in the marketplace. However, the illegitimacydiscounts arising from the registration of software trademarks may not be experienced byﬁrms that hold considerable software patent stocks. Patent rights are imperfect propertyrights and are commonly used as strategic tools (Gans and Stern 2010 ). OSS is a complex
+technology, and it is not possible for ﬁrms to protect it or increase its commercial importance
+with a limited number of patent rights (Levin et al. 1987 ; Mann 2006 ).
+Second, investing in trademarks may lead to substantial losses for the company as a
+result of credible holdup threats. OSS incorporates high modularity, which makes it possiblefor ﬁrms to generate proﬁts (Lerner and Tirole 2002 ). However, such complex technologies
+are prone to generating patent thickets (Hall and Ziedonis 2001 ), which refer to dense
+networks of overlapping IPRs from which a company needs to escape to be able tocommercialize the new technology (Shapiro 2001 ). Such patent thickets create transaction
+costs and reduce the demand for the new technology because of the perceived likelihood of
+being held up by rivals that own relevant patents (Gans and Stern 2010 ). Innovators may not
+be able to commercialize the technology under construction if they depend on access to singleIPRs (Shapiro 2001 ). Firms that cannot secure access to the underlying technology because
+of strong patenting activity and the high threat of litigation existing in the OSS domain may bereluctant to invest in complementary assets in the form of brand names and reputation.As Gambardella, Giuri, and Luzzi ( 2007 ) suggest, a broader market for technologies is
+restricted by transaction costs. That is because investments in complementary assets (e.g.,brands) will generate losses if the new technology cannot be commercialized. Thus, investing
+in complementary assets in the form of brand names and reputation—in other words,
+registering for software trademarks—should have a negative effect on therelationship between commercialization of OSS and ﬁrm value, as measured by Tobin’s q.
+Hypothesis 2: Large software trademarks stocks negatively affect the relationship between
+a ﬁrm’s OSS product portfolio and its ﬁrm value, such that as the level ofsoftware trademark stocks increases, the relationship becomes weaker.Impact of OSS Commercialization on Firm Value 5
+
+=== PÁGINA 7 ===
+3. Data and Descriptive Statistics
+I undertake an empirical analysis with a novel data-set in which I aimed to include all
+companies operating in software-related industries1from the Fortune Global 500 list.
+Although the initial data contained information on 83 companies from 2003 to 2009,I excluded the ﬁrms that lacked ﬁnancial information during the period under study.
+2
+Although the period of analysis is from 2003 to 2009, I began collecting data from 1999. Allthe main variables of interest are cumulative numbers, and 4 years’ worth of batching shouldprovide more reliable results. With a ﬁnal sample of 490 ﬁrm-year (70 ﬁrms £7 years)
+observations, I explore the performance consequences of OSS commercialization underheterogeneous regimes of IPR protection.
+3
+I extracted ﬁnancial data from the COMPUSTAT database, including market values,
+total assets, total debt and preferred stock. Tobin’s qserves as the dependent variable,
+which offers a forward-looking proxy for ﬁrm value. When the value of Tobin’s qis greater
+than 1, the outlook for the ﬁrm’s growth opportunities is considered positive. Although thismeasure generally serves to proxy for value intangible assets, such as patents ortrademarks, it also can reﬂect market hype or speculation, as is common in technologymarkets. As Lerner and Tirole ( 2002 ) discuss, releasing OSS is usually a strategic move
+(e.g., to weaken a competitor). OSS commercialization and the use of IPR mechanisms for
+revenue strategies should be differentiated as a ﬁrm’s effort to build a new business model
+that brings beneﬁts in the long run, rather than as a strategy to release a proprietary softwareproduct with the expectation of direct monetization per se. Releasing source code signalstechnical excellence and goodwill (Henkel 2006 ) that originates from ﬁrms’ intellectual
+capital, which can be captured by Tobin’s q. I calculate a modiﬁed version of Tobin’s qusing
+the following formula by Chung and Pruitt ( 1994 ):
+Approximate q¼
+MVE þPSþDEBT
+TA;
+where MVE is the product of common shares outstanding and the month-end price that
+corresponds to the period end date, PS is the liquidating value of preferred stock, DEBT isthe sum of total long-term debt and debt in current liabilities, and TA is the book value of totalassets. Approximate qexplains 96.6 per cent of the variability of Tobin’s original formulation
+(Lindenberg and Ross 1981 ), which is complex in its calculation and requires access to
+multiple, restricted databases (Chung and Pruitt 1994 ). The reason for using approximate q
+is its simplicity in calculation using basic ﬁnancial and accounting information through apublicly available database, such as COMPUSTAT. Nonetheless, the approximate qhas
+1These industries include Electronics & Electrical Equipment, Computers & Ofﬁce Equipment, Computer Software,
+Telecommunications and Semiconductors.
+2The excluded ﬁrms are those that did not report ﬁnancial information in some of the years during the period of
+analysis. This could have been due to a corporate event, such as an acquisition, ﬁling bankruptcy or spinoff.
+3Of the 70 ﬁrms in the sample, 28 introduced at least one OSS product to the market during the 7-year period.
+Considering that commercialization of OSS is a rising trend but not yet a common practice, the sample size is within an
+acceptable range. I identiﬁed all the ﬁrms from the Fortune Global 500 list that operate in the software industry at some
+level, even if the principal sector in which they operate differed. In this respect, the sample is comprehensive.6D. Aksoy-Yurdagul
+
+=== PÁGINA 8 ===
+broad usage in accounting and ﬁnance (Chung and Pruitt 1994 ). Firm size, as measured by
+the number of employees, is retrieved from COMPUSTAT as well.
+I next searched for press articles that reported a “product announcement”, “new
+software release”, or “software evaluation” in the software sector (Standard IndustrialClassiﬁcation code 7372) and product introduction event category (event code 336) in thePROMT database. Reports of product introductions that included the phrases “open source”or “Linux” indicated possible OSS product introductions. I read the text of each article in the
+possible OSS product introductions set to distinguish articles that clearly referred to an open
+source product introduction. Next, I computed the cumulative number of OSS productannouncements to proxy for a ﬁrm’s OSS product portfolio. Speciﬁcally, I summed thenumber of OSS products introduced to the market starting from 1999 at a 15 per cent annualdiscount rate
+4using the following formula:
+OssPortfolio t¼ðOss tþOss t21£ð0:85ÞþOss t22£ð0:85Þ2þ···þOss 1999£ð0:85Þt21999Þ;
+where Oss tis the number of OSS introductions in year t.
+The information on patents and trademarks comes from the U.S. Patent and Trademark
+Ofﬁce database. I searched for all patents granted to a given ﬁrm in each year (1999–2009).
+After gathering data about all patents, I identiﬁed software patents using Graham andMowery’s ( 2003 ) algorithm, according to which certain international classiﬁcation classes—
+such as “Electric Digital Data Processing” (G06F), “Recognition of Data; Presentation ofData; Record Carriers; Handling Record Carriers” (G06K), and “Electric CommunicationTechnique” (H04L)—represent software patents.
+5These classes were selected after
+examination of the patents of six major U.S. software producers (1995 revenues; Microsoft,Adobe, Novell, Autodesk, Intuit, and Symantec) between 1984 and 1995. Patents in the
+three selected classes account for 57 per cent of the patents assigned to the 100 largest
+ﬁrms in the software industry (Hall and MacGarvie 2010 ). Furthermore, trends in these
+classes represent overall software patenting activity because they include areas in whichpatenting grew rapidly in the late twentieth century.
+Hall and MacGarvie ( 2010 ) compare three different classiﬁcation methods to identify
+software patents with a sample of more than 1000 manually identiﬁed software patents byJohn Allison (Allison and Lemley 2000 ; Allison and Tiller 2003 ). These three approaches to
+determine software patents are also used by Graham and Mowery ( 2003 ), Bessen and Hunt
+(2007 ) and Hall and MacGarvie ( 2010 ). Hall and MacGarvie ( 2010 ) provide a new approach
+that combines the three approaches and stress the superiority of the combined method.Graham and Mowery ( 2003 ) approach does well in terms of Type II errors (detecting a
+patent as a software patent when it is not), which is approximately 5 per cent. However, it isnot as successful in the case of Type I errors (overlooking a software patent when it shouldhave been identiﬁed), which is 40 per cent. Hall and MacGarvie’s ( 2010 ) proposed combined
+4The Bureau of Industry Economics ( 1994 ) adopts a discount rate of 15 per cent when assessing private returns to
+patent holders because the value of patents tends to fall over time. I follow a similar logic for assessing private returns
+from OSS commericalization because the value associated with older products will diminish over time as technology
+evolves and enhanced products enter the market.
+5The groups included are as follows: G06F 3, 5, 7, 9, 11, 12, 13, 15; G06K 9, 15 and H04L 9.Impact of OSS Commercialization on Firm Value 7
+
+=== PÁGINA 9 ===
+method does somewhat better in terms of Type I errors (27 per cent) and almost the same in
+terms of Type II errors (5 per cent). Thus, applying the proposed combined method likelywould not have changed my results, because the software patents I capture arerepresentative of the actual software patent stocks of a ﬁrm. Identifying non-softwarepatents as software patents is more problematic than overlooking some software patents.The last method by Bessen and Hunt ( 2007 ), though satisfactory in identifying software
+patents, identiﬁes a large portion of non-software patents as software patents. Therefore,
+I preferred using Graham and Mowery ( 2003 ) approach to the other two; it is more
+straightforward and provides robust results.
+Using the same source, I also extracted trademark data at the ﬁrm level on a yearly
+basis by searching for all trademarks ﬁled by each ﬁrm between 1999 and 2009.To distinguish software trademarks, I applied the search algorithm Fosfuri, Giarratana, andLuzzi ( 2008 ) suggest and searched for strings of words in the trademark description text.
+6
+The strings of words used to distinguish a software trademark include “computer software”
+or “operating system” or “computer program” or “software algorithm” or “data processing” or
+“software application”. The error percentages are 14.2 and 7.7 for non-software trademarks
+that were included as software (Type II) and software trademarks that were not detected bythe search algorithm (Type I), respectively. I computed the cumulative number of softwarepatents and software trademarks at a 15 per cent annual discount rate in the same way Icomputed the OSS portfolio.
+7Table 1 provides variable deﬁnitions. The descriptive statistics
+and pairwise correlations for the main variables appear in Table 2 .
+4. Empirical Analysis and Results
+After conducting a Hausman ( 1978 ) speciﬁcation test, I ran a ﬁxed effects model with
+Tobin’s qas the dependent variable to proxy for ﬁrm value. I incorporated interaction terms
+between OssPortfolio and the two variables that correspond to ﬁrms’ IPR protectionmechanisms, SoftwarePatents and SoftwareTrademarks. The full model is as follows:
+Tobins Q
+it¼b0þb1OssPortfolio itþb2SoftwarePatents itþb3SoftwareTrademarks it
+þb4FirmSize itþb5FirmAge itþb6OssPortfolio it£SoftwarePatents it
+þb7OssPortfolio it£SoftwareTrademarks itþatþ1it;ð1Þ
+where the subscripts iandtdenote ﬁrm and year-speciﬁc observations, respectively. The
+dummy variable atindicates year effects. Firm-level characteristics, such as size and age,
+are also included in the model. I used the natural logarithms of all the variables.
+The results from Model 1, with mean-centered interactions in Table 3 , reveal that the
+coefﬁcient for OssPortfolio £SoftwareTrademarks is signiﬁcantly negative, while that for
+OssPortfolio £SoftwarePatents is signiﬁcantly positive. In contrast, the coefﬁcients for the
+6See Fosfuri, Giarratana, and Luzzi ( 2008 ) for details on the accuracy of the algorithm.
+7This study focuses on the moderating effect of software trademarks and software patents- and not on the moderating
+effect of hardware trademarks and hardware patents. As has been discussed in Hypotheses 1 and 2, I expect the
+relationship between OSS commercialization and Tobin’s qto be affected by trademarks/patents through certain
+mechanisms that are mostly strategic and that can take place exclusively if these trademarks/patents pertain tosoftware domain.8D. Aksoy-Yurdagul
+
+=== PÁGINA 10 ===
+direct effects of OssPortfolio, SoftwareTrademarks and SoftwarePatents are not signiﬁcant.
+Thus, the ﬁndings conﬁrm both Hypotheses 1 and 2. Despite the rising trend in OSScommercialization by for-proﬁt ﬁrms, relying solely on an open business model remains toorisky in competitive markets. Appropriability mechanisms, such as software patents andsoftware trademarks, appear crucial for ﬁrms that are willing to commercialize OSS.
+I next estimated a second model to clarify the impact of ﬁrms’ IPR protection
+mechanisms on the relationship between OSS product portfolio and ﬁrm value. I split thedata for ﬁrms that commercialize OSS into two, as LowOssPortfolio and HighOssPortfolio,
+depending on the number of OSS releases of ﬁrms. Then, I created the mean-centered
+interaction terms with the SoftwarePatents and SoftwareTrademarks variables, aspreviously. Model 2 is as follows:
+Tobins Q
+it¼b0þb1LowOssPortfolio itþb2HighOssPortfolio itþb3SoftwarePatents it
+þb4SoftwareTrademarks itþb5FirmSize itþb6FirmAge itþb7LowOssPortfolio it
+£SoftwarePatents itþb8LowOssPortfolio it£SoftwareTrademarks it
+þb9HighOssPortfolio it£SoftwarePatents itþb10HighOssPortfolio it
+£SoftwareTrademarks itþatþ1it; ð2Þ
+where the coefﬁcients b7–b10measure the impacts of interactions between ﬁrms’ OSS
+portfolios at different levels and their IPR protection mechanisms.
+The results of Model 2 indicate that the interaction term between the high levels of OSS
+portfolio and software patents (HighOssPortfolio £SoftwarePatents) is signiﬁcantly positive,
+while that for the interaction between the low levels of OSS portfolio and software patents(LowOssPortfolio £SoftwarePatents) is non-signiﬁcant.
+8A similar result occurs for theTable 1. Variable deﬁnitions
+Variable name Description Source
+Tobins Q(dependent variable) (Market value þpreferred stock þdebt)/total assets (log
+transformed)COMPUSTAT
+OssPortfolio St
+1999OSS products calculated for year tat a 15 per cent
+discount rate (log transformed)PROMT
+SoftwarePatents St
+1999software patents calculated for year tat a 15 per cent
+discount rate (log transformed)USPTO
+SoftwareTrademarks St
+1999software trademarks calculated for year tat a
+15 per cent discount rate (log transformed)USPTO
+FirmSize Employees in year t(log transformed) COMPUSTAT
+FirmAge Age of the ﬁrm (log transformed) COMPUSTAT
+Note: USPTO, U.S. Patent and Trademark Ofﬁce.
+8I split the data into ﬁve sub-samples and use the same model to estimate coefﬁcients on the interaction terms. The
+sub-samples are created using Standard Industry Classiﬁcation codes for the industries in which ﬁrms operate. Theﬁve categories through which I aim to proxy for ﬁrms’ technical expertise in developing software are as follows:
+hardware, software, electronics, semiconductors and telecommunications. Although the signiﬁcance of the
+coefﬁcients on the interaction terms diminishes at some level, the effects remain the same in terms ofdirectionality. The results suggest that the ﬁndings are robust to ﬁrms’ technical expertise in developing software.Impact of OSS Commercialization on Firm Value 9
+
+=== PÁGINA 11 ===
+Table 2. Descriptive statistics
+Observations Mean SD Minimum Maximum 1 2 3 4 5 6
+1. Tobins Q 490 0.397 0.639 21.434 2.371 1.000
+2. OssPortfolio 490 0.588 1.050 0 4.208 20.168 1.000
+3. SoftwarePatents 490 5.442 2.249 0 9.456 20.014 0.499 1.000
+4. SoftwareTrademarks 490 1.955 1.287 0 5.014 0.117 0.592 0.600 1.000
+5. FirmSize 490 10.145 1.392 6.446 12.895 20.379 0.275 0.446 0.292 1.000
+6. FirmAge 490 3.639 0.818 1.098 5.069 20.298 0.040 0.136 0.112 0.434 1.00010 D. Aksoy-Yurdagul
+
+=== PÁGINA 12 ===
+interaction terms between low and high levels of OSS portfolios and software trademarks,
+suggesting that high levels of OSS portfolio are largely responsible for the ﬁndings. Theinclusion of the interaction terms improved the model’s explanatory power in both Model 1and Model 2, as indicated by the adjusted R-square values in Table 3 . Thus, while the
+marginal OSS released in interaction with software patents/software trademarks isassociated with signiﬁcant increases/decreases in Tobin’s q, the decision of whether to
+commercialize OSS or not does not seem to have a signiﬁcant effect without the right set of
+IPR mechanisms.
+Speciﬁcally, ﬁrms taking more commercial actions while operating according to the
+OSS paradigm can achieve a higher ﬁrm value when they possess IPR protectionmechanisms, such as software patents. While commercial OSS releases ensure diffusionand create a marketplace for complementary proprietary products and services, softwarepatents help ﬁrm reap beneﬁts. Conversely, ﬁrms with large software trademark stocksexperience decrements in ﬁrm value when they seek to serve their customers with OSS-based solutions. Open source solutions, which require skills for usage and maintenance,
+may not meet the needs of their established customers, who are willing to pay a premium forTable 3. Fixed effects model
+Variables Baseline Model 1 Baseline Model 2
+OssPortfolio 0.003 (0.115) 20.021 (0.122)
+LowOssPortfolio 20.040 (0.147) 20.045 (0.160)
+HighOssPortfolio 0.003 (0.116) 20.024 (0.131)
+SoftwareTrademarks 0.027 (0.049) 20.012 (0.054) 0.025 (0.049) 20.008 (0.055)
+SoftwarePatents 0.034 (0.049) 0.067 (0.054) 0.034 (0.049) 0.061 (0.055)
+Oss£Sw_Trademarks 20.151** (0.072)
+Oss£Sw_Patents 0.104** (0.046)
+Low_Oss £Sw_Trademarks 20.197 (0.123)
+High_Oss £Sw_Trademarks 20.141* (0.076)
+Low_Oss £Sw_Patents 0.118 (0.107)
+High_Oss £Sw_Patents 0.094* (0.049)
+FirmSize 20.125* (0.070) 20.132* (0.071) 20.123* (0.071) 20.131* (0.071)
+FirmAge 20.131 (0.226) 20.180 (0.222) 20.138 (0.224) 20.195 (0.221)
+Year dummies
+_It_2003 0.358*** (0.074) 0.341*** (0.074) 0.353*** (0.075) 0.335*** (0.074)
+_It_2004 0.330*** (0.066) 0.323*** (0.066) 0.326*** (0.067) 0.318*** (0.066)_It_2005 0.347*** (0.059) 0.345*** (0.059) 0.343*** (0.060) 0.341*** (0.059)
+_It_2006 0.325*** (0.052) 0.328*** (0.052) 0.322*** (0.052) 0.325*** (0.052)
+_It_2007 0.261*** (0.048) 0.264*** (0.048) 0.259*** (0.048) 0.261*** (0.048)_It_2008 20.126** (0.053) 20.125** (0.052) 20.127** (0.053) 20.126** (0.052)
+Constant 1.931* (1.113) 2.173* (1.130) 1.710 (1.082) 2.226** (1.131)
+Observations 490 490 490 490AdjR
+20.840 0.842 0.839 0.841
+R20.402 0.413 0.402 0.413
+Number of ﬁrms 70 70 70 70
+Note: * p,0.1; ** p,0.05; *** p,0.01.Impact of OSS Commercialization on Firm Value 11
+
+=== PÁGINA 13 ===
+a ready-to-use package. Thus, OSS commercialization may cannibalize such ﬁrms’ existing
+proprietary lines of business that are highly linked to their brand investments.
+Graphical analysis offers a visual explanation of the interactive effect between IPR
+protection mechanisms and OSS releases. Three values of software trademark stocks,which correspond to the 25th, 50th and 75th percentiles, respectively, were selected asrepresentative of the range of software trademark stocks included in the sample. For OSSportfolio, the representative values correspond to 5th, 25th, 50th, 75th and 95th percentiles.
+9
+Figure 1 depicts one regression line for each of these software trademark portfolios. The
+smallest stocks of software trademarks (software trademarks ¼25th percentile value)
+showed a small decrease in Tobin’s qas OSS portfolio value increases from its value at 5th
+to 95th percentiles. At a medium level, software trademark stocks (software trademarks ¼
+50th percentile value) showed a rather clearer decrease in Tobin’s qas OSS portfolio
+becomes larger. The largest stocks of software trademarks (software trademarks ¼75th
+percentile value) showed a notable decrease in Tobin’s q, with increasing values of OSS
+portfolio. Increases in software trademark stocks and OSS portfolio predicted a signiﬁcant
+decrease in Tobin’s q. Furthermore, as Figure 1 shows, as the level of software trademark
+stocks increases, the relationship becomes stronger. In Figure 2 , each regression line can
+be interpreted as a representative for three different levels of software patent stocks thatcorrespond to the values at 25th, 50th and 75th percentiles. The graph shows that increasesin software patent stocks and OSS portfolio predicted a signiﬁcant increase in Tobin’s q.
+Moreover, the statistically signiﬁcant interaction suggests that this relationship is stronger forﬁrms with larger software patent stocks. These results reﬂect the importance of aligningOSS commercialization with IPR protection mechanisms. They also imply that an optimal
+portfolio of IPR protection mechanisms for ﬁrms that want to reap the largest beneﬁts from a
+large portion of OSS portfolio is the one with the large stocks of software patents andrelatively small stocks of software trademarks.
+To alleviate concerns that the results are being driven by the choice of Tobin’s qas a
+measure of performance, I re-ran the analysis using gross proﬁt margin as an alternativedependent variable.
+10The results obtained from Models 1 and 2 using the alternative
+measure of performance remained unchanged in terms of directionality. However, therewere some differences across coefﬁcients on the direct and indirect effects in terms of
+signiﬁcance. While OSS portfolio, software trademarks and software patents had a positive,
+signiﬁcant effect on performance measured through gross proﬁt margin, the interactionterms created between OSS portfolio and software patents/trademarks were non-signiﬁcant. As discussed previously, the rationale for using Tobin’s qis its ability to capture
+future performance potential. Bharadwaj, Bharadwaj, and Konsynski ( 1999 ) report that they
+use Tobin’s qas a dependent variable in their study because IT investments contribute
+to both long-term ﬁrm performance and ﬁrm intangible value. In this study, I aimed toinvestigate how ﬁrms reposition their IPR mechanisms with intentions to align these assets
+9In Figures 1 and 2, the minimum value for OSS portfolio is below zero because the representative values were
+obtained on the basis of the mean-centered values of the explanatory variables that I used to compute the interaction
+terms.
+10Gross proﬁt margin, also known as proﬁt margin, is a commonly used accounting measure of performance that can
+be calculated by the following simple formula: Gross proﬁt/Net sales.12 D. Aksoy-Yurdagul
+
+=== PÁGINA 14 ===
+better with their business model. Because the focus of the study is on OSS
+commercialization, which is a long-term business model-building activity of a ﬁrm, use ofTobin’s qas a forward-looking measure of performance is well-suited to the aims of this
+study. Moreover, Tobin’s qis risk adjusted and less prone to manipulation than accounting
+measures of performance (Montgomery and Wernerfelt 1988 ).
+5. Discussion and Conclusion
+This study has two key ﬁndings. First, there is no direct positive effect of OSS portfolio on
+ﬁrm value. This suggests that the proﬁtability of OSS commercialization is not asstraightforward as that of proprietary software commercialization. In particular, appropriatingreturns from OSS commercialization cannot be achieved without complementary products/services in proprietary segments and the corresponding IPR endowments becauseprotecting the commons is the main challenge. Second, I assess the importance of ﬁrms’
+Figure 1. Oss portfolio and Tobin’s qat different levels of software trademark stocks
+Figure 2. Oss portfolio and Tobin’s qat different levels of software patent stocksImpact of OSS Commercialization on Firm Value 13
+
+=== PÁGINA 15 ===
+IPR protection mechanisms and, speciﬁcally, software patents and software trademarks.
+OSS is a special case that challenges classical appropriation mechanisms because of itsopen nature. However, I observe indirect positive/negative effects of software patents/software trademarks on the relationship between OSS commercialization and ﬁrm value.Speciﬁcally, I ﬁnd that large software patent stocks help ﬁrms perform better when theycommercialize OSS products. In contrast, large software trademarks have a negative effecton the relationship between OSS product portfolio and ﬁrm value.
+The ﬁndings contribute to the current debate on commercialization of OSS, mainly by
+establishing the intermediary effect of ﬁrms’ IPR holdings on the relationship between OSScommercialization and ﬁnancial performance. Although studies have investigated the linkbetween OSS engagement and performance (Stam 2009 ; Alexy and George 2013 ), the
+moderating role of IPR mechanisms needed to be investigated because they are crucial ﬁrmresources in appropriating returns. By extending the work of Fosfuri, Giarratana, and Luzzi(2008 ), which emphasizes the role of IPR mechanisms in ﬁrms’ decision to engage in OSS
+commercialization, this study sheds light on how much these mechanisms matter for
+extracting ﬁnancial value from OSS commercialization. Moreover, the study empirically
+shows that mismatching strategies can harm a ﬁrm’s performance while the ﬁrm attempts tomove to a new business model for better outcomes.
+The transformation of OSS into a commercial strategy has obliged ﬁrms to reconsider
+their current business models. In doing so, managers must determine how much the ﬁt oftheir IPR protection regimes with their business model matters for value capture. Successfulcommercialization techniques combined with appropriate choices of intellectual propertyendowments can help ﬁrms capture the value created through open innovation models.
+Firms that aim to use advantageous attributes of OSS to create and appropriate value must
+overcome the challenge of adjusting their respective resources in a way that is consistentwith their current business model. Considering the ﬁndings of this study, one might expect aﬁrm that commercializes OSS to register for fewer software trademarks and to invest heavilyin software patenting. My ﬁndings, which favor software patenting rather than trademarkﬁling in an open source setting, further indicate that the adequacy of a ﬁrm’s appropriationmechanism for its business model determines how much value it can capture. In this case,OSS commercialization may harm ﬁrms if they make wrong choices in their appropriation
+mechanisms.
+Insufﬁcient information about the development processes for commercial OSS
+products and the licensing schemes under which they are released prevented me fromundertaking a deeper analysis on the impact of OSS commercialization on ﬁrm value.It would have been helpful to know whether each product introduced to the market was adirect complement of a formerly introduced product of the same company (e.g., plug-in,extension). Another possibility would be examining the effect of copyrights, as a potentialisolating mechanism, on the relationship between new OSS products and ﬁrm performance.
+The management model of the community and different ﬁrm participation strategies may
+also help explain the success/failure of the outcome OSS products to be commercialized.The insights put forward in this study should encourage researchers to investigate theproﬁtability of OSS commercialization. I leave further investigation on potential explanatoryvariables, such as underlying licensing schemes, development processes and governingmethods, which may explain the heterogeneities in returns generated by OSScommercialization, for future research.14 D. Aksoy-Yurdagul
+
+=== PÁGINA 16 ===
+Acknowledgements
+The author acknowledges helpful comments from Marco Giarratana, Andrea Fosfuri, Lars
+Frederiksen, Francesco Rullani, Eduardo Melero, Benjamin Engelstatter and the two
+anonymous reviewers. Prior versions of this research were presented at the Druid AcademyWinter Conference 2011, Druid Summer Conference 2011, and 9th ZEW Conference on theEconomics of ICT. The comments and suggestions of participants at these conferenceswere valuable in improving the article. Any remaining errors are my own.
+Disclosure statement
+No potential conﬂict of interest was reported by the authors.
+References
+Alexy, O., and G. George. 2013. “Category Divergence, Straddling, and Currency: Open Innovation and the Legitimation of Illegitimate
+Categories.” Journal of Management Studies 50 (2): 173–203. doi: 10.1111/joms.12000 .
+Alexy, O., and M. Reitzig. 2013. “Private-Collective Innovation, Competition, and Firms’ Counterintuitive Appropriation Strategies.”
+Research Policy 42 (4): 895–913. doi: 10.1016/j.respol.2013.01.004 .
+Allison, J. R., and M. A. Lemley. 2000. “Who’s Patenting What? An Empirical Exploration of Patent Prosecution.” Vanderbilt Law Review
+58: 2099–2148.
+Allison, J. R., and E. H. Tiller. 2003. “Internet Business Method Patents.” In Patents in the Knowledge-Based Economy , edited by
+W. M. Cohen and S. A. Merrill, 259–284. Washington, DC: National Academies Press.
+Barney, J. B. 1986. “Strategic Factor Markets: Expectations, Luck, and Business Strategy.” Management Science 32 (10): 1231–1241.
+doi:10.1287/mnsc.32.10.1231 .
+Behlendorf, B. 1999. “Open Source as a Business Strategy.” In Open-Sources: Voices from the Open Source Revolution , edited by
+C. DiBona, S. Ockman, and M. Stone, 149–170. Sebastopol, CA: O’Reilly.
+Bessen, J., and R. M. Hunt. 2007. “An Empirical Look at Software Patents.” Journal of Economics & Management Strategy 16 (1):
+157–189. doi: 10.1111/j.1530-9134.2007.00136.x .
+Bharadwaj, A. S., S. G. Bharadwaj, and B. R. Konsynski. 1999. “Information Technology Effects on Firm Performance as Measured by
+Tobin’s q.”Management Science 45 (7): 1008–1024. doi: 10.1287/mnsc.45.7.1008 .
+Blind, K., K. Cremers, and E. Mueller. 2009. “The Inﬂuence of Strategic Patenting on Companies’ Patent Portfolios.” Research Policy
+38 (2): 428–436. doi: 10.1016/j.respol.2008.12.003 .
+Bonaccorsi, A., S. Giannangeli, and C. Rossi. 2006. “Entry Strategies Under Competing Standards: Hybrid Business Models in the Open
+Source Software Industry.” Management Science 52 (7): 1085–1098. doi: 10.1287/mnsc.1060.0547 .
+Bonaccorsi, A., and C. Rossi. 2003. “Why Open Source Software Can Succeed.” Research Policy 32 (7): 1243–1258. doi: 10.1016/S0048-
+7333(03)00051-9 .
+Bureau of Industry Economics. 1994. The Economics of Patents . Occasional Paper 18 Canberra: Bureau of Industry Economics.
+Chesbrough, H. W. 2003. Open Innovation: The New Imperative for Creating and Proﬁting from Technology . Boston, MA: Harvard
+Business School Press.
+Chung, K. H., and S. W. Pruitt. 1994. “A Simple Approximation of Tobin’s q.”Financial Management 23 (3): 70–74. doi: 10.2307/3665623 .
+Dahlander, L. 2005. “Appropriation and Appropriability in Open Source Software.” International Journal of Innovation Management 9( 3 ) :
+259–285. doi: 10.1142/S1363919605001265 .
+Dahlander, L., and M. G. Magnusson. 2005. “Relationships Between Open Source Software Companies and Communities: Observations
+from Nordic Firms.” Research Policy 34 (4): 481–493. doi: 10.1016/j.respol.2005.02.003 .
+Dougherty, D., and T. Heller. 1994. “The Illegitimacy of Successful Product Innovation in Established Firms.” Organization Science 5( 2 ) :
+200–218. doi: 10.1287/orsc.5.2.200 .
+Feller, J., and B. Fitzgerald. 2002. Understanding Open Source Software Development . Boston, MA: Addison-Wesley.
+Fitzgerald, B. 2006. “The Transformation of Open Source Software.” MIS Quarterly 30 (3): 587–598.Impact of OSS Commercialization on Firm Value 15
+
+=== PÁGINA 17 ===
+Fosfuri, A., M. S. Giarratana, and A. Luzzi. 2008. “The Penguin Has Entered the Building: The Commercialization of Open Source Software
+Products.” Organization Science 19 (2): 292–305. doi: 10.1287/orsc.1070.0321 .
+Gambardella, A., P. Giuri, and A. Luzzi. 2007. “The Market for Patents in Europe.” Research Policy 36 (8): 1163–1183. doi: 10.1016/j.
+respol.2007.07.006 .
+Gans, J. S., and S. Stern. 2010. “Is There a Market for Ideas?” Industrial and Corporate Change 19 (3): 805–837. doi: 10.1093/icc/dtq023 .
+Goldman, R., and R. Gabriel. 2005. Open Source as Business Strategy: Innovation Happens Elsewhere . San Francisco, CA: Morgan
+Kaufmann.
+Graham, S. J., and D. C. Mowery. 2003. “Intellectual Property Protection in the US Software Industry.” In Patents in the Knowledge-Based
+Economy , edited by W. M. Cohen and S. A. Merrill, 231. Washington, DC: National Academies Press, National Research Council.
+Hall, R. 1992. “The Strategic Analysis of Intangible Resources.” Strategic Management Journal 13 (2): 135–144. doi: 10.1002/smj.
+4250130205 .
+Hall, B. H., and M. MacGarvie. 2010. “The Private Value of Software Patents.” Research Policy 39 (7): 994–1009. doi: 10.1016/j.respol.
+2010.04.007 .
+Hall, B. H., and R. H. Ziedonis. 2001. “The Patent Paradox Revisited: An Empirical Study of Patenting in the U.S. Semiconductor Industry,
+1979–1995.” The RAND Journal of Economics 32 (1): 101–128. doi: 10.2307/2696400 .
+Hardy, Q. 2013. “Facebook’s Other Big Disruption.” The New York Times .
+Hausman, J. A. 1978. “Speciﬁcation Tests in Econometrics.” Econometrica 46 (6): 1251–1271. doi: 10.2307/1913827 .
+Hecker, F. 1999. “Setting Up Shop: The Business of Open-Source Software.” IEEE Software 16 (1): 45–51. doi: 10.1109/52.744568 .
+Henkel, J. 2006. “Selective Revealing in Open Innovation Processes: The Case of Embedded Linux.” Research Policy 35 (7): 953–969.
+doi:10.1016/j.respol.2006.04.010 .
+von Hippel, E., and G. von Krogh. 2003. “Open Source Software and the Private-Collective Innovation Model: Issues for Organization
+Science.” Organization Science 14 (2): 209–223. doi: 10.1287/orsc.14.2.209.14992 .
+Lakhani, K. R., and E. von Hippel. 2003. “How Open Source Software Works: Free User-to-User Assistance.” Research Policy 32 (6):
+923–943. doi: 10.1016/S0048-7333(02)00095-1 .
+Lakhani, K. R., and R. G. Wolf. 2005. “Why Hackers Do What They Do: Understanding Motivation and Effort in Free/Open Source Software
+Projects.” In Perspectives on Free and Open Source Software , edited by J. Feller, B. Fitzgerald, S. A. Hissam, and K. R. Lakhani,
+3–22. Cambridge, MA: MIT Press.
+Lerner, J., and J. Tirole. 2002. “Some Simple Economics of Open Source.” The Journal of Industrial Economics 50 (2): 197–234. doi: 10.
+1111/1467-6451.00174 .
+Lerner, J., and J. Tirole. 2005. “The Scope of Open Source Licensing.” Journal of Law, Economics, and Organization 21 (1): 20–56. doi: 10.
+1093/jleo/ewi002 .
+Levin, R. C., A. K. Klevorick, R. R. Nelson, S. G. Winter, R. Gilbert, and Z. Griliches. 1987. “Appropriating the Returns from Industrial
+Research and Development.” Brookings Papers on Economic Activity 1987 (3): 783–831. doi: 10.2307/2534454 .
+Lindenberg, E. B., and S. A. Ross. 1981. “Tobin’s qRatio and Industrial Organization.” The Journal of Business 54 (1): 1–32. doi: 10.1086/
+296120 .
+Mann, R. J. 2006. “Commercializing Open Source Software: Do Property Rights Still Matter?” Harvard Journal of Law & Technology 20:
+1–46.
+Mendonc /C24a, S., T. S. Pereira, and M. M. Godinho. 2004. “Trademarks as an Indicator of Innovation and Industrial Change.” Research Policy
+33 (9): 1385–1404.
+Montgomery, C. A., and B. Wernerfelt. 1988. “Diversiﬁcation, Ricardian Rents, and Tobin’s q.”The RAND Journal of Economics 19 (4):
+623–632. doi: 10.2307/2555461 .
+O’Mahony, S. 2003. “Guarding the Commons: How Community Managed Software Projects Protect Their Work.” Research Policy 32 (7):
+1179–1198. doi: 10.1016/S0048-7333(03)00048-9 .
+O’Mahony, S., and F. Ferraro. 2007. “The Emergence of Governance in an Open Source Community.” Academy of Management Journal
+50 (5): 1079–1106. doi: 10.5465/AMJ.2007.27169153 .
+Raymond, E. S. 1999. The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary . Sebastopol,
+CA: O’Reilly & Associates.
+Riggs, W., and E. von Hippel. 1994. “Incentives to Innovate and the Sources of Innovation: The Case of Scientiﬁc Instruments.” Research
+Policy 23 (4): 459–469. doi: 10.1016/0048-7333(94)90008-6 .16 D. Aksoy-Yurdagul
+
+=== PÁGINA 18 ===
+Rumelt, R. P. 1984. “Towards a Strategic Theory of the Firm.” In Resources, Firms, and Strategies: A Reader in the Resource-Based
+Perspective , edited by R. B. Lamb, 131–145. Englewood Cliffs, NJ: Prentice-Hall.
+Schmidt, K., and M. Schnitzer. 2003. “Public Subsidies for Open Source? Some Economic Policy Issues of the Software Market.” Harvard
+Journal of Law & Technology 16 (2): 474–502.
+Shah, S. 2006. “Motivation, Governance, and the Viability of Hybrid Forms in Open Source Software Development.” Management Science
+52 (7): 1000–1014. doi: 10.1287/mnsc.1060.0553 .
+Shapiro, C. 2001. “Navigating the Patent Thicket: Cross Licenses, Patent Pools, and Standard Setting.” In Innovation Policy and the
+Economy , edited by A. B. Jaffe, J. Lerner, and S. Stern, 119–150. Cambridge, MA: MIT Press.
+Stam, W. 2009. “When Does Community Participation Enhance the Performance of Open Source Software Companies?” Research Policy
+38 (8): 1288–1299. doi: 10.1016/j.respol.2009.06.004 .
+Teece, D. J. 1986. “Proﬁting from Technological Innovation: Implications for Integration, Collaboration, Licensing and Public Policy.”
+Research Policy 15 (6): 285–305. doi: 10.1016/0048-7333(86)90027-2 .
+Teece, D. J. 1998. “Capturing Value from Knowledge Assets: The New Economy, Markets for Know-How, and Intangible Assets.”
+California Management Review 40 (3): 55–79. doi: 10.2307/41165943 .
+West, J. 2003. “How Open Is Open Enough?.” Research Policy 32 (7): 1259–1285. doi: 10.1016/S0048-7333(03)00052-0 .
+West, J., and S. Gallagher. 2006. “Challenges of Open Innovation: The Paradox of Firm Investment in Open-Source Software.” R and D
+Management 36 (3): 319–331. doi: 10.1111/j.1467-9310.2006.00436.x .Impact of OSS Commercialization on Firm Value 17
+

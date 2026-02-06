@@ -1,0 +1,622 @@
+=== PÁGINA 1 ===
+Toward Building Specialized Information Systems 
+as Software Platforms 
+Vladyslav Holubiev  
+Faculty of Computer Information 
+Technologies  
+West Ukrainian National University  
+Ternopil, Ukraine  
+vladyslav.holubiev@gmail.com  
+Peter Majda  
+Faculty of Theology  
+Catholic University in Ruzomberok  
+Ruzomberok, Slovakia  
+peter.majda@ku.sk  Volodymyr Simashko  
+Department of Economics and Business 
+Management  
+Rivne State University of Humanities  
+Rivne, Ukraine  
+vsimashko@gmail.com  
+Martin Taraj  
+Faculty of Theology  
+Catholic University in Ruzomberok  
+Ruzomberok, Slovakia  
+martin.taraj@ku.sk  Edward Jarmoch  
+Faculty of Theology  
+Catholic University in Ruzomberok  
+Ruzomberok, Slovakia  
+edward.zygmunt.jarmoch@ku.sk  
+Janka Bursová  
+Faculty of Theology  
+Catholic University in Ruzomberok  
+Ruzomberok, Slovakia  
+janka.bursova@ku.sk   
+Abstract —A specialized  information  system  (SIS)  is a type of 
+information  system  that is designed  to support  a specific  
+business  or organization.  SISs  are typically  used  to manage  
+large  amounts  of data.  A software  platform  is a kind  of software  
+that creates  value  through  a synergy,  by surrounding  itself  with  
+an ecosystem  of external  connections,  data,  and processes.  The 
+goal of platform  thinking  is to build  a software  platform  that is 
+a foundation  for a new ecosystem.  In this paper,  we distill  the 
+best practice  of building  a succe ssful  software  platform by 
+learning  from  the history  of Salesforce,  SAP,  and Amazon.  We 
+also offer a set of guidelines  to help SISs  transform  into software  
+platforms.  However,  we describe  that a software  platform  is not 
+a superior  software  architecture,  but rather  a new business  
+model .  
+Keywords— specialized information system, software platform, 
+platform economy, data layer, semantic layer, presentation layer, 
+customizability, business requirements  
+INTRODUCTION  
+Traditional specialized  software  systems  are architected  to 
+solve specific  business problems. For example,  a banking 
+systems’s  core application  is designed to facilitate  banking 
+transactions,  while  another system  focuses  on managing  cus-
+tomer  information.  In many  cases,  these  applications are not 
+integrated.  What  happens if a business needs  to integrate  
+them?  A common solution is to buy an expensive integration 
+platform that connects  the specialized  software  systems,  
+thereby  allow -ing them  to share  information. This solution 
+can work  well if the platform is compatible  with the 
+underlying software  applications and is configured correctly.  
+However,  it is an expensive solution that requires  specialized  
+skills  to implement  and maintain  [1-5]. Therefore,  what  we 
+see nowadays, is businesses  are choosing platform -based  
+SISs.  A software  platform  has the following benefits:   
+1) All-in-one solution: platforms  provide an all-in-one so-
+lution  for businesses.  Unlike specialized  software,  plat-
+forms  don’t need  to be integrated  with other software;  
+2) Reduced  costs:  platfor ms are often  less expensive than 
+buying and integrating  several  specialized  software  
+applications;  
+3) Ease  of use: platforms  are designed to be user-friendly 
+and easy to use;  
+4) Flexibility:  platforms are flexible  and can be 
+customized  to meet  the specific  needs  of a business;   
+5) Scalability:  platforms  can be easily  scaled  to 
+accommodate  the growing needs  of a business.    
+We are going to focus on the benefits  of the flexibility  of 
+software  platforms.  Whenever  a business has a new 
+requirement  – they no longer need  to ask a software  vendor 
+to implement  a new feature.  By utilizing  the flexibility  of a 
+software  platform,  they can implement  a tiny component and 
+plug it into the ecosystem.  There  are a few key benefits  to 
+this:  
+1) Speed  to market:  by being able to quickly implement  
+new features,  businesses  can be much  more agile  and 
+responsive to market  demands;  
+2) Cost savings: developing new features  in-house can be 
+much  cheaper  than paying for a vendor to do it;  
+3) Increased  control: by having more  control over the soft-
+ware,  businesses  can ensure  that it meets  their specific  
+needs.   
+A platform ecosystem  is built around a platform.  The 
+ecosystem  can be defined  as a group of organizations that are 
+connected  to the platform through APIs  or other means.  The 
+ecosystem  is made  up of three  types of organizations: 
+platform providers, app developers, and users.  Platform  
+providers are the organizations that build  and operate  the 
+platform.  App developers are the organizations that build 
+apps that run on the pla tform.  Users  are the individuals or 
+organizations that use the apps that run on the platform.   
+The concept  of the platform  economy has been  around for 
+centuries.  The term itself  was first coined  in the 17th century, 
+when  economists realized  that certain  industries, such as 
+shipping and finance,  depended on a network of connected  
+businesses,  or a ”platform.”  In the 19th century,  the railroads  
+and telegraph  expanded the platform economy by creating  
+new markets  and new ways  of doing business.  In the 20th 
+centu ry, the automobile and telephone created  even  more 
+opportunities for businesses  to interact  with one another. And 
+in the 21st century, the Internet  has become  the ultimate  
+platform economy, connecting people and businesses  around 
+the world.   
+The key to success for a platform is to build an ecosystem  
+around the platform.  The purpose of the ecosystem  is to 
+create  a virtuous circle  that benefits  all three  types of 
+organizations: platform providers, app developers, and users  
+[6-10]. The virtuous circle  is created  when  the app developers 
+build apps that the users  want  to use. The users  use the apps 
+and generate  data.   
+443
+978-1-6654-1050-2/22/$31.00 ©2022 IEEE2022 12th International Conference on Advanced Computer Information Technologies (ACIT) | 978-1-6654-1050-2/22/$31.00 ©2022 IEEE | DOI: 10.1109/ACIT54803.2022.9913128
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 21:02:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+The data is used by the platform providers to improve the 
+platform. The improved platform attracts more app 
+developers, which leads to more apps being built for the 
+users.  
+In this paper, when talking about a SIS as a platform, we 
+will assume a generic knowledge management system.  
+II. RELATED  WORK 
+The software platform consists of the following layers: 
+data, processing, and presentation. So far, there is no 
+comprehensive research that covers all of the components at 
+once. There is some work about API-based platforms and 
+how they are extensible [ 11-14 ]. But in 2022 many are 
+arguing that the software developer ’s job boils down to 
+integrating poorly documented APIs. We doubt that making 
+an extensible API is enough to build a software platform.  
+There are studies on the success of Salesforce [ 15,16 ] 
+which are pretty dated, but helpfully illustrate how flexible a 
+data layer of a software platform is.  
+A work by Hubspot [ 17-20 ] lays out a foundation of a good 
+distinction between a software platform versus an enclosed 
+system. We borrowed some ideas on the reasoning when 
+choosing a platform versus an SIS.  
+We found one of the most inspiring works that talks about 
+the best practices of software platforms was  Stevey’ s Google 
+Platforms Rant [ 16]. Stevey talks about the design principles 
+for  software  platforms.  According  to  him,  the  goal  of  a  
+software  platform  should  be  to  reduce  the  cost  of  building  
+applications.  They  say  that  the  platform  should  hide  
+complexity  and  make  it  easy  to  utilize  the  underlying  
+functionality.  The  work  says  the  entire  success  of  Amazon  
+was b/c of the right way to build teams. They built a platform 
+by forcing each team to use a product of another team, instead 
+of  sharing  common  services.  They  call  this  approach  the  2 
+pizza rule.  
+III. METHOD  
+In this paper, we conducted a qualitative case study based 
+on secondary data sources. We collected data from 
+Salesforce, SAP, and Amazon. We also collected their annual 
+reports, financial statements, and other public documents. We 
+used a variety of sources, including press releases, news 
+articles, blog posts, and academic papers. We analyzed the 
+data using a variety of methods, including content analysis, 
+document analysis, and comparative analysis. Content 
+analysis of these data sources helps us synthesize the main 
+characteristics of these companies and their software 
+platforms. Document analysis helps us understand these 
+companies' business models. Comparative analysis helps us 
+compare and contrast the characteristics of these companies 
+and their software platforms.   
+We also conducted interviews with experts in the field, 
+including software developers, software architects, and 
+software platform experts.  
+ 
+We began by developing a list of criteria for a successful 
+software platform. We then analyzed the data to identify the 
+commonalities among the three companies. We also 
+identified the key success factors for each company. 
+Salesforce: focus on the customer, build an ecosystem, 
+innovate. SAP: big data and analytics, establish a partner 
+ecosystem, focus on the customer. Amazon: big data and 
+analytics, build a platform, innovate.  Results from interviews with experts who recently 
+transitioned their specialized information system into a 
+software platform showed that:   
+1) Platform thinking mindset is key to enable the business 
+transformation;  
+2) The organizational culture needs to be adapted to be 
+able to embrace the platform thinking mindset;  
+3) A common set of architecture principles is critical to 
+align different teams within the organization;  
+4) A platform team that is responsible for enabling the 
+platform business model is essential;  
+An ecosystem of partners and developers is necessary for 
+the success of the platform.  
+FINDINGS  
+The most common software platform used for building SIS 
+is the web platform. The web platform consists of a web 
+server, a web application server, and a web browser. The web 
+server is responsible for hosting the web application and 
+serving it to the web browser. The web application server is 
+responsible for running the business logic of the web 
+application. The web browser is responsible for rendering the 
+UI of the web application. The business logic is extended 
+with a semantic layer.  
+We will present our findings as they are relevant to the 
+generic knowledge management system. Think of it as a place 
+where people store, analyze, and access content. An example 
+of a traditional approach of building a KMS described by S. 
+A. Hakim [ 21-25 ] forces you to build a system that is not 
+extensible from the outside by locking the application 
+interface contracts to a specific consumer. On the other hand, 
+using an SIS as a software platform like Salesforce enables 
+us to build custom applications [ 26-28 ]. 
+Building a traditional SIS is good when you have no plans 
+of extending it in the future. You can build it to meet your 
+specific needs, and if you need to add features later, you can 
+do so as well. You can also customize the SIS as you wish, 
+so that it meets your specific needs.  
+However, if you plan on expanding your SIS in the future, 
+then it is a good idea to build a software platform instead. 
+This is because a software platform is much easier to extend 
+and maintain than a traditional SIS. All of this time, effort, 
+and money that needs to be put into building an SIS from 
+scratch can be put towards building other software platforms 
+When building a software platform, one no longer needs to 
+worry about losing customers due to a lack of features or lack 
+of customizability.  
+Next, we ’re going to inspect each module of the SIS and 
+what steps to make to transform your SIS into a software 
+platform.  
+Data Layer  
+The  data  layer  is  the  lowest  level  of  the  software  
+architecture. It is responsible for storing and retrieving data. A 
+software platform must have a data layer that is scalable and 
+redundant. A software platform must also have a data layer 
+that can be shared by multiple applications. 
+Each of the examined companies has a different approach 
+to the data layer. Salesforce uses a relational database to store 
+data. SAP uses an in-memory database to store data. Amazon 
+uses a NoSQL database to store data.   
+444
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 21:02:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+One starts by building a data layer, which defines the data 
+model that will be used by the entire platform. They then 
+move on to building an application layer, which defines the 
+user interface and allows applications to be built on top of the 
+platform. After that, they can move on to creating an interface 
+layer, which allows for business logic to be implemented on 
+top of the platform. Finally, they can move on to creating a 
+plugin system, which allows for plugins to be developed and 
+installed on top of the platform.  
+Each  of  the  three  companies  has  some  sort  of  search  
+functionality which we use to illustrate the point. In a scenario 
+of building a federated search engine, an SIS author needs to 
+write  code  to  process  files  from  various  sources,  like  a  
+filesystem, Sharepoint, Google Drive, etc. Each source has a 
+different data schema and needs to be handled accordingly: 
+parsing files, extracting text from them, and unifying different 
+property  names.  All  of  that  requires  a  developer ’s  effort.  
+Imagine each system has a filename stored under a different 
+property: title , subject , name , filename . But in the 
+SIS database, the name of the file has to be strictly under one 
+property  name  title .  As  a  new  source  is  added,  more  
+development  is  required  to  account  for  that.  The  effort  of  
+maintaining and supporting a federated search engine grows 
+with each new source. And what happens when a customer  
+wants to add a new source? They will have to wait for the next 
+software release. The SIS developers will have to add the new 
+source to the code and release a new version as depicted in the 
+“Fig. 1”. 
+ 
+Fig. 1. Traditional SIS way of data ingestion  
+In order to make the federated search engine more flexible 
+and easier to maintain, the SIS author could use a data 
+processing pipeline. A data processing pipeline is a series of  
+steps  that  data  goes through  in  order  to  be  transformed  
+from one format to another. In this case, the data processing 
+pipeline would take in files from various sources, parse them, 
+extract  the text, and unify  the different  property names. By  
+using a data processing pipeline, the SIS author can easily add 
+new sources to the federated search engine without having to 
+write  new  code.  The  data  processing  pipeline  can  be  
+configured to handle new sources automatically. This makes 
+the  federated  search  engine  more  flexible  and  easier  to  
+maintain, as depicted in  “Fig. 2”. This has the added effect of 
+reducing the number of God classes [ 29] that might be hiding 
+in your software.  
+Fig. 2. SIS Platform way of Data Ingestion 
+ 
+By adding a data pipeline for data ingestion, and exposing 
+only a unified interface, the SIS benefits from freed 
+engineering resources, as authors no longer need to spend 
+time writing custom connectors to different sources.   
+B. Semantic Layer  
+ 
+In the last few years, the term semantic layer has become a 
+common buzzword in the information systems field. It refers 
+to a conceptual level that is on top of the physical level 
+(database structure) and underneath the presentation level 
+(application interface). In other words, it is an abstraction 
+layer that goes between the data store and data consumers to 
+allow them to work with the data in terms of a comprehensive 
+business model.  
+For the application developer, the semantic layer provides 
+a well-defined interface to the database. This means that the 
+developer can focus on the business logic of the application 
+without having to worry about the details of the database 
+structure. For the user, the semantic layer provides a 
+consistent view of the data. This is because the semantic layer 
+is designed to present the data in terms of the business model, 
+rather than the underlying database structure.  
+The idea is to expose the semantic layer to external devel-
+opers so they can build custom integrations to enrich it with 
+custom taxonomies, ontologies, and other semantic elements. 
+The implementation of the semantic layer should be done in 
+a way that minimizes the amount of code that needs to be 
+written and maximizes the flexibility of the system. The 
+semantic layer should be implemented as a set of software 
+components that can be plugged into the system to provide 
+the desired functionality.  
+For example, a component could be used to generate a 
+taxonomy for a specific domain, such as the medical domain. 
+This component could be used to generate a taxonomy for the 
+domain that is specific to the needs of the medical domain. 
+The taxonomy could be used to represent the relationships 
+between different concepts in the domain. Instead of baking 
+in the code that derives the taxonomies into an SIS, authors 
+should utilize the benefits of the platform, and allow exter-
+nal parties to provide taxonomies from outside. A common 
+scenario observed is storing the taxonomy for the content in 
+an external system where it ’s defined by humans [ 30]. Back 
+445
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 21:02:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+to the federated search example from the previous section, a 
+user would like to utilize the same taxonomy already defined 
+in their system, and rather use it than force adopting a new 
+taxonomy generated by a new SIS.   
+A question arises about how to build a pluggable taxonomy 
+API. The best ideas could be borrowed from building a 
+knowledge graph [ 31]. In the knowledge graph, we define the 
+nodes and the links between them. It doesn ’t matter what kind 
+of info nodes carry as we can label them as we wish. The 
+same goes with a generic API exposing the semantic layer for 
+customization. In a software platform, we need to have APIs 
+to: insert, update, read, and delete the taxonomy.  
+By applying the platform pattern to the semantic layer that 
+is customizable via API, we can shift all the burden of 
+managing, for example, the taxonomy to the external 
+integrating party. SIS authors don ’t need to worry about 
+keeping it up-to-date or adjusting it constantly to ever-
+changing business needs. For example, the Salesforce 
+Einstein Platform offers customers the ability to set up a 
+custom recommendation or prediction engines2 based on the 
+specific ontology of their organization. In this way, the 
+Salesforce platform can support thousands of businesses 
+regardless of the industry.  
+Presentation Layer  
+ 
+A software platform can also be used to build a variety of 
+interfaces. With a traditional SIS, one needs to create a 
+separate user interface for each feature that they want to 
+implement. With a software platform, one can create an 
+interface that handles the user interface for a variety of 
+different features. This means that one does not have to write 
+a separate user interface for each feature that they want to 
+implement. A pioneer and the leader in this space is SAP. 
+SAP ’s ability to customize UI ’s for specific customers have 
+been critical to SAP ’s success3. The UI layer is also the layer 
+that contains all of the buttons, menus, and dialog boxes. In 
+order to change the UI, one must have access to the source 
+code. In some cases, this may mean that the user interface 
+must be re-written from scratch. On the other hand, SAP 
+provides a wide range of UI tools that allow one to customize 
+the UI without having to re-write it from scratch [ 32].  
+An SIS that wants to adopt a software platform way to 
+build a presentation layer that is easy to extend must follow 
+the following architectural patterns:  
+1) The ability to register UI elements to appear in different 
+parts of the application via a plugin architecture: 
+content, location, triggers, events; 
+2) Force modules to speak with each other via a message 
+bus rather than accessing code directly; 
+3) Dogfooding4: adopt the plugin architecture for their 
+own features; 
+4) Maintain a developer ’s documentation for third  parties. 
+In order to transform into a true software platform, one has 
+to build the presentation layer of an SIS in such a way, that the 
+code SIS authors write, should not have more privilege than 
+the code external parties could write. This means interacting 
+with a semantic layer rather than accessing the database. This 
+means styling the UI via plugin parameters rather than hard-
+coding style attributes in the common stylesheet. This means 
+modularizing  the  code  so  that  different  features  can  be  
+implemented as different plugins and turned on or off without affecting other features. The final result should be an SIS that 
+is easy to modify and extend without having to understand the 
+entire codebase. 
+IV. FUTURE  WORK 
+The guidelines described in this paper are not exhaustive, 
+and there is much more work to be done in order to build a 
+software platform from an SIS. In particular, we have not 
+addressed the issue of how to monetize a software platform. 
+This is an important question that must be addressed in order 
+to make a platform successful. In addition, we have not 
+addressed the issue of how to build a community around a 
+platform. More work needs to be done to gather metrics to 
+assess the success of platforms quantitatively.  
+Furthermore, when implementing any organizational 
+change, one should assess the cost of change and the potential 
+for resistance to change which is the scope for future research 
+to highlight when it makes sense to keep the SIS operational 
+for the business and when a full transformation into a 
+platform may be the best option.  
+ 
+VI.  CONCLUSION  
+SISs can provide great value to organizations, build they 
+are not built as platforms from scratch when using agile 
+methods [ 33]. A software platform is a type of software that 
+creates value by surrounding itself with an ecosystem of 
+external connections, data, and processes. The goal of 
+platform thinking is to build a software platform that is a 
+foundation for a new ecosystem. In this paper, we have 
+described how SISs can be transformed into software 
+platforms.  
+We examined examples of other successful platforms that 
+started as specialized information systems and transformed 
+into well-known software platforms like SAP, Salesforce, 
+Amazon to distill the best practice:   
+1) Combinatorial Innovation: a platform enables 
+combinatorial innovation by allowing third parties to 
+build on top of it. This is done by providing an open 
+and well-documented API that third parties can use to 
+develop their own products and services; 
+2) Ecosystem Enablers: A platform surrounds itself with 
+an ecosystem of partners, developer tools, and other 
+services that make it easy for third parties to develop 
+products and services that work with the platform; 
+3) Data Democratization: A platform democratizes access 
+to data by making it easy for third parties to access and 
+use data from the platform. This is done by providing 
+an open and well-documented API that third parties can 
+use to access data from the platform.  
+A platform is not a superior software architecture, but 
+rather a new business model. SISs should only be built as 
+platforms if the organization wants to enable an ecosystem of 
+innovation around the SIS. This frees up the development 
+resources of the organization to focus on other priorities. 
+Building an ecosystem also allows the organization to tap into 
+the collective intelligence of the ecosystem to build new 
+features and services.  
+Lastly, given Conway ’s Law [ 34], we believe that building 
+an SIS as a platform has a positive effect on the organizational 
+structure  which  will  result  in  an  organization  that  is  more  
+modular and can adapt more easily to change.  
+446
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 21:02:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+REFERENCES  
+1. P. Gnoyke, S.  Schulze and J.  Krger, ”An Evolutionary Analysis of 
+Software-Architecture Smells, ” 2021 IEEE International Conference 
+on Software Maintenance and Evolution (ICSME),  2021, pp. 413 -424, 
+doi: 10.1109/ICSME52107.2021.00043.  
+2. I. Paliy,  V. Turchenko, V.  Koval, A.  Sachenko and G.  Markowsky, 
+"Approach to  recognition of license plate numbers using neural 
+networks," 2004 IEEE International Joint Conference on Neural 
+Networks (IEEE Cat.  No.04CH37541), 2004, pp. 2965-2970 vol.4, doi: 
+10.1109/IJCNN.2004.1381137.  
+3. R. E. Hiromoto  et al.,  "Mobile Ad  Hoc wireless network  for pre- and 
+post-emergency  situations in  nuclear power plant," 2014 2nd 
+International Symposium on Wireless Systems within  the Conferences 
+on Intelligent Data Acquisition and Advanced Computing Systems,  
+2014, pp. 92-96, doi: 10.1109/IDAACS-SWS.2014.6954630.  
+4. V. Kharchenko, A.  Sachenko, V.  Kochan and H.  Fesenko, "Reliability 
+and survivability  models of integrated  drone-based  systems for post 
+emergency  monitoring  of NPPs," 2016 International Conference on 
+Information  and Digital Technologies (IDT),  2016, pp. 127-132, doi: 
+10.1109/DT.2016.7557161.  
+5. Muñoz Aguirre,  N., González de la Cruz,  G., Gurevich, Y., Logvinov, 
+G. and Kasyanchuk, M.  (2000), Heat Diffusion  in Two-Layer 
+Structures: Photoacoustic Experiments.  phys. stat.  sol. (b), 220: 781-
+787. 
+6. C. Alves,  G. Valena and X.  Franch, ”Exercising  Power in  Software 
+Ecosystems, ” in IEEE Software,  vol. 36, no. 3, pp. 50-54, May -June 
+2019, doi: 10.1109/MS.2018.290101618.  
+7. M. Kasianchuk, I.  Yakymenko, I.  Pazdriy, A.  Melnyk and S.  Ivasiev, 
+"Rabin's modified  method  of encryption using various forms of system 
+of residual classes," 2017 14th International Conference The 
+Experience of Designing and Application  of CAD Systems in  
+Microelectronics (CADSM),  2017, pp. 222-224, doi: 
+10.1109/CADSM.2017.7916120.  
+8. M. Karpinski, S.  Ivasiev, I.  Yakymenko, M.  Kasianchuk and T.  
+Gancarczyk,  "Advanced method  of factorization of multi-bit numbers 
+based  on Fermat's theorem in  the system of residual classes," 2016 16th 
+International Conference on Control, Automation  and Systems 
+(ICCAS),  2016, pp. 1484-1486, doi: 10.1109/ICCAS.2016.7832500.  
+9. Lytvyn, Vasyl,  Victoria Vysotska, Viktor Shatskykh, Ihor Kohut, 
+Oksana Petruchenko, Lyudmyla Dzyubyk, Vitaliy  Bobrivetc, 
+Valentyna Panasyuk, Svitlana Sachenko, and Myroslav Komar.  2019. 
+“Design  of a Recommendation System Based  on Collaborative 
+Filtering  and Machine Learning Considering Personal Needs of the 
+User”.  Eastern-European Journal of Enterprise Technologies 4 (2  
+(100):6-28.  https://doi. org/10.15587 /1729 -4061 .2019 .175507 . 
+10. M. Dyvak and A. Pukas, "Criterion  of Design  of Experiments for Tasks 
+of Decision  Support Interval Model Creation," 2005 IEEE Intelligent 
+Data Acquisition and Advanced Computing Systems: Technology and 
+Applications,  2005, pp. 495-497, doi: 10.1109/IDAACS.2005.283032.  
+11. H. Kwon, J.  Ahn, S.  Choi, J.  Siewierski, P.  Kosko  and P.  Szydelko, 
+”An Experience Report of the API Evolution  and Maintenance for 
+Software Platforms, ” 2018 IEEE International Conference on Soft-
+ware Maintenance and Evolution (ICSME),  2018, pp. 587-590, doi: 
+10.1109/ICSME.2018.00034.  
+12. Dyvak, M., Kozak, O., Pukas, A.  Interval model for Identification of 
+laryngeal nerves (2010) Przeglad  Elektrotechniczny, 86 (1),  pp. 139-
+140. 
+13. M. Dyvak, O.  Papa,  A. Melnyk, A.  Pukas, N.  Porplytsya and A Rot,  
+"Interval model of the efficiency  of the functioning of information web  
+resources for services on ecological expertise",  Mathematics, vol. 8, 
+no. 12, pp. 1-12, 2020.  
+14. M. Dyvak, A.  Melnyk, A.  Kovbasistyi, R.  Shevchuk, O.  Huhul and V.  
+Tymchyshyn, "Mathematical Modeling  of the Estimation  Process of 
+Functioning Efficiency  Level of Information Web -Resources," 2020 
+10th International Conference on Advanced Computer Information 
+Technologies (ACIT),  2020, pp. 492-496, doi: 
+10.1109/ACIT49673.2020.9208846.  
+15. A. Poniszewska-Maranda,  R. Matusiak  and N.  Kryvinska, ” Use of 
+Salesforce Platform for Building Real-Time Service Systems in 
+Cloud, ” 2017 IEEE International Conference on Services Computing 
+(SCC),  2017, pp. 491-494, doi: 10.1109/SCC.2017.72.  
+16. Yegge, S.  (2011, October 11). Stevey ’s Google Platforms Rant.  Gist.  
+Retrieved  from https://gist.github.com/chitchcock/1281611 
+17. Wangen, E.  N. (2021, January 26). What is a software platform & how 
+is it different from a product? HubSpot Blog. Retrieved from 
+https://blog .hubspot. com/marketing /software-platform  18. V. Golovko, S.  Bezobrazov, A.  Kroshchanka, A.  Sachenko, M.  Komar 
+and A.  Karachka,  "Convolutional neural network based solar 
+photovoltaic panel detection  in satellite photos," 2017 9th IEEE 
+International Conference on Intelligent Data Acquisition and 
+Advanced Computing Systems: Technology and Applications 
+(IDAACS),  2017, pp. 14-19, doi: 10.1109/IDAACS.2017.8094501. 
+19. M. Dyvak, A.  Pukas and O.  Kozak, "To lerance estimation  of 
+parameters set of models created  on experimental data," 2008 
+International Conference on "Modern  Problems of Radio  Engineering, 
+Telecommunications and Computer Science" (TCSET),  2008, pp. 24-
+26. 
+20. M. Dyvak, N.  Porplytsya, Y.  Maslyak  and M.  Shynkaryk, "Method of 
+Parametric Identification for Interval Discrete Dynamic Models and the 
+Computational Scheme of Its Implementation", Advances in  Intelligent 
+Systems and Computing II: Selected  Papers from the International 
+Conference on Computer Science and Information  Technologies CSIT 
+2017, pp. 101-112, 2018. 
+21. S. A. Hakim and D.  I. Sensuse, ”Toward  a Common  System Architec-
+ture for Knowledge Mapping, ” 2019 11th International Conference on 
+Information  Technology and Electrical Engineering (ICITEE), 2019, 
+pp. 1-5, doi: 10.1109/ICITEED.2019.8929935. 
+22. M. Dyvak, N.  Porplytsya, I.  Borivets, M.  Shynkaryk, "Improving the 
+computational implementation  of the parametric identification method  
+for interval discrete dynamic models",  in Proc.  12th Int.  Conf. on 
+International Scientific and Technical Conference on Computer 
+Sciences and Information Technologies (CSIT),  2017, pp. 533-536. 
+23. A. Kovbasistyi, A.  Melnyk, M.  Dyvak, V.  Brych  and I.  Spivak, 
+"Method for detection  of non-relevant and wrong information  based  on 
+content analysis of web  resources," 2017 XIIIth  International 
+Conference on Perspective Technologies and Methods in  MEMS 
+Design  (MEMSTECH),  Lviv, 2017, pp. 154-156, doi: 
+10.1109/MEMSTECH.2017.7937555. 
+24. M. Dyvak, A.  Kovbasistyi, A.  Melnyk, I.  Shcherbiak and O.  Huhul, 
+"Recognition of Relevance of Web  Resource Content Based  on 
+Analysis of Semantic Components," 2019 9th  International Conference 
+on Advanced Computer Information  Technologies (ACIT),  2019, pp. 
+297-302, doi: 10.1109/ACITT.2019.8779897. 
+25. M. Dyvak, I.  Voytyuk, N. Porplytsya and A.  Pukas, "Modeling the 
+process of air pollution  by harmful emissions from vehicles," 2018 14th 
+International Conference on Advanced Trends in  Radioelecrtronics, 
+Telecommunications and Computer Engineering (TCSET),  2018, pp. 
+1272-1276, doi: 10.1109/TCSET.2018.8336426. 
+26. Z. Hu, V.  Yatskiv and A.  Sachenko, "Increasing the data transmission 
+robustness in WSN using the modified  error correction  codes on 
+Residue Number System",  Elektronika ir Elektrotechnika, vol. 21, no. 
+1, pp. 76-81, 2015. 
+27. R. Gupta, S.  Verma and K.  Janjua, ” Custom Application  Develop -ment 
+in Cloud Environment: Using  Salesforce, ” 2018 4th  International 
+Conference on Computing Sciences (ICCS),  2018, pp. 23-27,  doi: 
+10.1109/ICCS.2018.00010.  
+28. R. Shevchuk, A.  Melnyk, O.  Opalko  and H.  Shevchuk, "Software for 
+Automatic Estimating  Security  Settings of Social Media Accounts," 
+2020 10th International Conference on Advanced Computer 
+Information  Technologies (ACIT),  2020, pp. 769-773, doi: 
+10.1109/ACIT49673.2020.9208879.  
+29. N. Anquetil,  A. Etien, G. Andreo  and S. Ducasse,  ”Decomposing God 
+Classes at Siemens, ” 2019 IEEE International Conference on Software 
+Maintenance and Evolution (ICSME),  2019, pp. 169-180, doi: 
+10.1109/ICSME.2019.00027.  
+30. S. Pecar and M.  Simko,  ”A Combined Approach to  Automatic Taxon-
+omy Extraction, ” 2019 14th International Workshop on Semantic and 
+Social Media Adaptation  and Personalization  (SMAP),  2019, pp.  1-6, 
+doi: 10.1109/SMAP.2019.8864911.  
+31. Z. Peng, H.  Song, X.  Zheng and L.  Yi, ”Construction of hierarchical 
+knowledge graph based  on deep  learning, ” 2020 IEEE International 
+Con-ference on Artificial Intelligence and Computer Applications 
+(ICAICA),  2020, pp. 302-308, doi: 
+10.1109/ICAICA50127.2020.9181920.  
+32. F. Rankl, C.  Magyar, J.  Halasz and T.  Orosz,  ”SAP screen  personas 
+applications for post-implementation  business requirements, ” 2018 
+19th International Carpathian  Control Conference (ICCC),  2018, pp. 
+451-455, doi: 10.1109/CarpathianCC.2018.8399672.  
+33. O’Connor, N.  (2020, July  30). Start with  a cupcake. Inside Intercom.  
+Retrieved  from https://www. intercom. com/blog/start-with -a-cupcake / 
+34. I. Kwan,  M. Cataldo  and D.  Damian,  ”Conway ’s Law Revisited: The 
+Evidence for a Task -Based  Perspective, ” in IEEE Software,  vol. 29, no. 
+1, pp. 90-93, Jan.-Feb.  2012, doi: 10.1109/MS.2012.3. 
+ 
+447
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 21:02:48 UTC from IEEE Xplore.  Restrictions apply. 
+

@@ -1,0 +1,1257 @@
+=== PÁGINA 1 ===
+Comput Econ (2014) 44:175–200
+DOI 10.1007/s10614-013-9385-8
+Network Externalities, Incumbent’s Competitive
+Advantage and the Degree of Openness of Software
+Start-Ups
+Stefano Colombo ·Luca Grilli ·
+Cristina Rossi-Lamastra
+Accepted: 11 May 2013 / Published online: 2 June 2013
+© Springer Science+Business Media New York 2013
+Abstract This paper proposes a formal model that analyzes the degree of openness
+chosen by start-ups when entering the software industry. In line with the literature, welabel as degree of openness the extent to which software start-ups mix open source
+(OS) and proprietary solutions in the portfolio of software products they offer. We
+relate the choice of the degree of openness to two key characteristics of the marketsegments in which software start-ups operate: the strength of the network externalities
+and the competitive advantage of the incumbent. Speciﬁcally, by modelling (price)
+competition between an incumbent and an entrant in two ways, i.e., the entrant is price-
+setter or price-taker, we derive the necessary condition(s) in terms of the strength of
+network externalities for observing the adoption of a business model that comprisesthe offering of both proprietary and OS solutions by the entrant (i.e., hybrid business
+model). Then, we highlight that, if a hybrid business model is the choice, the degree of
+openness chosen in equilibrium increases along with both the strength of the networkexternalities and the competitive advantage of the incumbent. This result holds indif-
+ferently whether the software start-up is modelled as a price-setter or a price-taker. An
+empirical test run on a sample of European start-ups in the software industry supportsthese theoretical predictions.
+Keywords Open source ·Software start-ups ·Degree of openness ·
+Network externalities ·Incumbent’s competitive advantage
+S. Colombo
+Istituto di Economia e Finanza, Università Cattolica del Sacro Cuore di Milano,
+via Necchi 5, 20123 Milano, Italy
+L. Grilli ·C. Rossi-Lamastra ( B)
+Department of Management, Economics and Industrial Engineering, Politecnico di Milano,Via Lambruschini 4/b, 20156 Milano, Italy
+e-mail: cristina1.rossi@polimi.it
+123
+
+=== PÁGINA 2 ===
+176 S. Colombo et al.
+JEL codes L13·L17·L86
+1 Introduction
+Although open source (OS) was born as an ideological movement, it has rapidly
+evolved into a business opportunity for software ﬁrms, which often rely on the codeand knowledge created by the OS community to run their business ( Fitzgerald 2006 ).
+Due to the collective good nature of OS software ( Johnson 2005 ;Bitzer and Schröder
+2005 ), the involvement of for-proﬁt ﬁrms in the OS realm has puzzled economics and
+management scholars ( Lerner and Tirole 2002 ;Bonaccorsi and Rossi 2003 ). Accord-
+ingly, since the last decade, increasing research effort has been devoted to inquire themulti-faceted linkages between software ﬁrms and the OS world. Researchers have
+extensively discussed why andhow software ﬁrms get involved in the OS movement,
+backing their speculations with rich qualitative and quantitative evidence (see von
+Krogh et al. 2012 , for a recent review of this literature).
+Investigations on how software ﬁrms build up business models which entail the
+offering of software solutions based on OS have been at the core of the research streamon ﬁrm involvement in the OS world (e.g., Hecker 1999 ;Krishnamurthy 2006 ). In this
+framework, Bonaccorsi et al. (2006 ) have shown that the majority of the software ﬁrms
+that provide OS-based solutions mix the offering of OS and proprietary software. Theauthors have referred to these ﬁrms as hybrid ﬁrms (i.e., ﬁrms that adopt a hybrid
+business model ). Moreover, they have empirically analysed the determinants of their
+degree of openness , which they deﬁned as a multi-dimensional construct reﬂecting the
+extent to which ﬁrms mix OS and proprietary solutions in their product portfolio.
+1
+However, the work of Bonaccorsi et al. (2006 ) represents an exception and the study
+ofhybrid ﬁrms and of what determines their degree of openness has gone rather under-
+remarked. This is fairly surprising in the light of the real-world relevance of hybrid
+ﬁrms . Basing on a large scale survey taken on a wide range of countries, Lerner and
+Schankerman (2010 ) have documented that many software ﬁrms offer both proprietary
+and OS software. The authors have extensively speculated on the reasons why these
+hybrid ﬁrms exist and have empirically showed that they comingle OS and proprietary
+software along several dimensions of their business model. Nevertheless, theorizing
+on what determines hybrid ﬁrms ’ degree of openness is still lagging behind.
+To start ﬁlling this gap, the present paper builds theory on how the offering of OS
+solutions by hybrid ﬁrms relates to the characteristics of the market in which these
+ﬁrms operate. Speciﬁcally, we develop a formal model where the choice of the optimal
+degree of openness is studied in the context of an entry model, where a new entrant
+ﬁrm (i.e., software start-up ) faces a well-established incumbent in a competitive envi-
+ronment characterized by network externalities. For sake of simplicity, we assume that
+customers are not hostile to OS solutions. This is not unrealistic. OS is diffusing veryrapidly: several OS products (such as the Linux operating system or the Apache Web
+1This multi-dimensional construct refers to the proportion of products and services based on OS software,
+as measured by the share of items on offer, the license schemes adopted, and the total turnover. Theseobjective elements (products and services, licenses, turnover) are integrated with a subjective judgment
+about the strategic importance of OS for the ﬁrm (see Bonaccorsi et al. 2006 , p. 1090).
+123
+
+=== PÁGINA 3 ===
+Network Externalities, Incumbent’s Competitive Advantage 177
+server) are currently adopted by numerous private and commercial users. In market
+segments intended for advanced users, OS products are even preferred to proprietary
+ones (e.g., Iivari 2009 ). In addition, we focus on a single, but crucial dimension of a
+start-up’s degree of openness: the share of OS software solutions that a new entrant
+chooses to offer out of its total solutions. Speciﬁcally, we consider a situation where
+an incumbent sells all software solutions composing its offering in proprietary format.When entering the market, a software start-up decides its own degree of openness. The
+degree of openness chosen in equilibrium by the entrant is posed in relation with two
+key characteristics of the market segments in which software start-ups operate: thestrength of the network externalities and the competitive advantage of the incumbent.
+Two different speciﬁcations of the model are considered. First, we assume that the
+entrant is price-setter, and competes with the incumbent on prices. Then, we introduce
+a variation in this basic model by assuming that the entrant mimics the price set by
+the incumbent, thus being a price-taker. The model highlights that, depending on howthe (price) competition between the incumbent and the new entrant is modelled, i.e.,
+whether the entrant is a price-setter or a price-taker, the strength of network exter-
+nalities impacts oppositely on the necessary conditions for observing the adoptionby the software start-up of a hybrid business model. Conversely, both versions of the
+model show that if a hybrid business model is chosen in equilibrium, the equilib-
+rium degree of openness is positively affected by both the strength of the networkexternalities and the competitive advantage of the incumbent. An empirical test run
+on a sample of European start-ups in the software industry supports these theoretical
+predictions.
+Our work originally adds to received knowledge on hybrid ﬁrms . Speciﬁcally, our
+paper takes its place among the handful of contributions that have developed for-
+mal models to study how OS shapes competitive dynamics in the software industry(Mustonen 2003 ,2005 ;Casadesus-Masanell and Ghemawat 2006 ;Lanzi 2009 ).
+2In
+general, the extant formal models on the topic have studied competition between for-
+proﬁt ﬁrms , adopting a proprietary model in the commercialisation of their software
+solutions, and OS communities , which offer their programs for free, thus depicting a
+“black or white” context. Alternatively, these formal models have kept exogenous thechoice between the offering of OS versus proprietary software, that is, the choice of the
+degree of openness . Our own model advances this research strand as it does not study
+competition between for proﬁt-ﬁrms and OS communities. Conversely, it endogenizesthe “openness choice” by focusing on how and to what extent software start-ups rely
+on OS to compete with incumbents by choosing the optimal degree of openness in
+dependence of their competitive environment. In fact, while there is an increasing theo-retical tension in analysing the economic rationales of proﬁt-maximizing OS start-ups
+2For sake of completeness, it is worth mentioning that formal models have been used also to study other
+aspects on the OS phenomenon. For instance, Lee and Kim (2013 ) have resorted to a formal model to study
+open source project participation by software programmers, who differ in terms of ability and intrinsic
+motivation.
+123
+
+=== PÁGINA 4 ===
+178 S. Colombo et al.
+(Casadesus-Masanell and Llanes 2011 ), little attention has been paid so far on the
+market-related determinants of this choice for a new entrant.3
+The remainder of the paper is organised as follows. In Sect. 2, we speculate on the
+importance of network externalities and incumbent’s competitive advantage in shaping
+the choice of the degree of openness by software start-ups. In Sect. 3, we formalise our
+model. Section 4provides an econometric test of the theoretical propositions derived
+from the model. Section 5concludes the paper.
+2 Network Externalities, Incumbent’s Competitive Advantage, and the Choice
+of the Degree of Openness by Software Start-Ups
+Section 3reports our formal model on the choice of the degree of openness by a soft-
+ware start-up that faces a well-established incumbent in a competitive environment
+characterized by network externalities. Accordingly, this section frames the impor-
+tance of network externalities and incumbent’s competitive advantage for the choice
+of the degree of openness by software start-ups,4thus speaking in favour of the rele-
+vance of our theoretical analysis.
+The leading role that network externalities (Katz and Shapiro 1986 ;Farrell and
+Saloner 1986 ) play in the software industry has been extensively acknowledged by
+scholars ( Shapiro and Varian 1998 ). It is common wisdom that because of network
+externalities the market success of a software solution strictly depends on its installed
+base ( Brynjolfsson and Kemerer 1996 ). A potential adopter would prefer to choose
+the most diffused software solution so as to join the widest users’ network ( Gandal
+1995 ). In so doing, she would be able to exchange ﬁles and know-how with a large
+pool of users and to beneﬁt from the rich availability of compatible applications.
+Due to the novelty of the OS software phenomenon, the aforementioned seminal
+contributions in network externality literature have neither explicitly nor formally
+addressed how the strength of network externalities shapes the choice of the degree of
+openness by ﬁrms operating in software markets. More speciﬁcally, in this early liter-
+ature, the notion of openness resembles the concept of compatibility and the strategic
+choice between openness versus closeness echoes the one of compatibility versus non
+compatibility (e.g., Katz and Shapiro 1992 ). In this perspective, the importance for a
+ﬁrm operating in a market characterized by network externalities of getting the correct
+“rights management” strategy for the products it offers equates to the need of being
+sufﬁciently “open” to the external world, i.e., consumers and/or other ﬁrms, and not
+too greedy for (short-run) proﬁts. Accordingly, the traditional literature on network
+3In particular, Casadesus-Masanell and Llanes (2011 ) have recently developed a model that studies ﬁrms’
+choice of mixing the offering of proprietary and OS software in the framework of the competition between
+a for-proﬁt ﬁrm and an OS community. Their analysis points to the intrinsic quality of the software modules
+developed by the incumbent as an important driver of its business model. Among other things, the authorsﬁnd that, when OS and proprietary solutions are compatible, a business model that mixes the offering of
+the two types of software (i.e. hybrid business model) is optimal “when some (but not all) of the ﬁrm’s
+modules are of substantially higher quality than those of the opensource competitor” (p. 2).
+4Incumbent’s competitive advantage is here deﬁned as the premium that an incumbent may obtain in terms
+of higher demand with respect to a newcomer apart from price and intrinsic product quality considerations.
+123
+
+=== PÁGINA 5 ===
+Network Externalities, Incumbent’s Competitive Advantage 179
+externalities prescribes that a ﬁrm should be able to leverage network externalities
+and afﬁrm itself on the market ( Grindley 1995 ;Shapiro and Varian 1998 , chapter 3;
+Rohlfs 2001 ). In the same vein, the launch of a sufﬁciently “open” format (i.e., a
+product compatible with other not-controlled complementary products) is reputed an
+important ﬁrm’s strategy in these markets in order to reassure prospective buyers that
+they will not be locked-in in the future ( Katz and Shapiro 1994 ). Network external-
+ities thus appear a key ingredient behind the concept of openness we just discussed.
+Nevertheless, it is worth remarking that in case of OS software, the notion of openness
+has a different connotation, contemplating a juridical rather than a technical meaning.
+The concept of openness in the OS realm does not equate the one of compatibility.
+Indeed, a software can be OS (i.e., protected by IPRs that favor instead of forbidding
+the access to source codes, McGowan 2001 ) but still completely incompatible with
+existing (proprietary or not) hardware and platforms or other related software. To put it
+more simply and speciﬁcally to our context, juridical openness may be associated withtechnical incompatibility, which renders it impossible for a brand new OS solution A
+to work with the widely-spread proprietary software solution B, thus hampering net-
+work effects to unfold. As clear from this example, network externalities and start-up’s(in)capacity to leverage network effects are likely to inﬂuence ﬁrms’ strategies in the
+OS software arena.
+Basing on the above discussion, it is not surprising that practitioners and scholars
+studying the OS phenomenon have long recognized that the inability of potential OS
+users to beneﬁt from network externalities is a major obstacle for the development of a
+lively demand for OS solutions ( Gallaugher and Wang 1999 ;Hicks and Pachamanova
+2007 ). Case-study evidence has documented that computer users are often scared by
+potential incompatibility
+5between OS and proprietary standards, which may drive
+out the beneﬁts from network externalities ( Dahlander and Magnusson 2005 ,2008 ).
+Quantitative analyses have conﬁrmed this qualitative evidence. The large majority
+(63.79 %) of the 918 ﬁrms answering the ELISS II survey taken in 2004 on 918
+European software ﬁrms (ELISS II; for details see Piscitello and Rossi 2007 ;Colombo
+et al. 2012 ) indicated the diffusion of incompatible proprietary solutions as the top
+ranking obstacle to the adoption of OS solutions by customers.6The concerns about the
+negative role that network effects play in the diffusion of OS solutions are even more
+severe when focusing on the sub-sample of 235 ELISS II software ﬁrms composed by
+relatively new entrants (software start-ups aged less than four years). Above 70 % of
+5It is worth noting that in most cases it is not a matter of “real” incompatibility as OS developers make
+efforts to render OS solutions compatible with proprietary ones to promote their diffusion. However, users
+may still ‘perceive’ OS solutions as highly incompatible with proprietary ones. Perceived incompatibility
+may hamper network externalities to unfold if users restrain to adopt OS solutions thinking that they cannot
+work with proprietary ones or, more generally, that OS software is more difﬁcult to use.
+6The ELISS II ( European Libre Software Survey ) directory has been developed by a consortium of
+universities and public research institutions (ETLA The Research Institute of Finish Economy, Finland;
+Fraunhofer Institute for Systems and Innovation Research, Germany; Instituto Superior de Ciências do
+Trabalho e da Empresa de Lisboa, Portugal; Universitad Carlos III de Madrid, Spain; Sant’Anna School ofAdvanced Studies, Italy) within the PRIME Network of Excellence ( http://www.prime-noe.org/ ), founded
+by the European Community within the Sixth Framework Program. See Sect. 4for further details.
+123
+
+=== PÁGINA 6 ===
+180 S. Colombo et al.
+them consider the diffusion of incompatible proprietary solutions as the main barrier
+for the diffusion of OS solutions.
+As to the second market-related factor here analyzed, contributions on hybrid ﬁrms
+have left largely under-researched the role that incumbent ﬁrms play in shaping the
+choice of the degree of openness by new entrants. Investigating this role is undoubtedly
+worthy. The OS movement was born as a reaction against the monopoly power of largeplayers in the software industry. This initial footprint has not vanished since OS has
+gone closer to the business arena (Raymond 2001).
+7Tales from the real world report
+that many start-ups consider the adoption of an OS business model as a ‘secret weapon’to enter market segments traditionally dominated by incumbent proprietary ﬁrms.
+Indeed, evidence exists that users of OS solutions usually differ from the average user of
+proprietary software ( DiBona et al. 1999 ). In general, OS users are skilled in computer
+science (e.g., system administrators or software developers). They behave as advanced
+users and use OS as an input to their own production processes—i.e., the developmentof other software solutions ( Bogers et al. 2010 ). Conversely, users of proprietary
+solutions are normally end-users, who use the software to satisfy their personal needs
+(e.g., making calculations with a spreadsheet or writing a document with a wordprocessor). Thus, “going open source” and offering OS solutions may allow start-ups
+to capture a residual demand which is not fully covered by proprietary incumbents.
+Coherently, slightly more than 50 % of the respondents to the aforementioned ELISSII survey, 48.28 % if we consider only the sub-sample composed by start-ups, view
+the offering of OS solutions as a way to be independent from the pricing and license
+strategies of large proprietary incumbents in the software industries.
+To sum up, basing on the discussion above, it is reasonable to expect that both the
+strength of network externalities and incumbent’s competitive advantage do play a
+signiﬁcant role in the choice of the degree of openness by software start-ups. Accord-ingly, the formal model we develop in the next section centres on these two prominent
+aspects.
+3 A Model of the Choice of Degree of Openness by Software Start-Ups
+3.1 Introduction
+In this section, we develop an entry model in which a new entrant (i.e., a software
+start-up) faces a well-established incumbent in a framework characterized by network
+externalities.
+Let us suppose that there are two ﬁrms, ﬁrm I(the incumbent) and ﬁrm E(the
+entrant), each offering a bundle of goods (for example, a software package). The goods
+composing the package cannot be sold separately. Firm Isells all goods composing
+the package in “proprietary” format, while ﬁrm Emay decide to offer some goods of
+the package in an “open source” format. There are two periods: period 1 and period2. At period 1 ﬁrm Eenters and decides the degree of openness, i.e., how many goods
+7It is worth noting that even some large incumbents, like IBM, Oracle and Sun Microsystem, have
+embraced open source and promoted it ( Pisano 2006 ).
+123
+
+=== PÁGINA 7 ===
+Network Externalities, Incumbent’s Competitive Advantage 181
+in the package shall be offered in the open source format. In both periods, both ﬁrms
+set simultaneously the price.
+The market is characterized by network externalities. In line with Casadesus-
+Masanell and Ghemawat (2006 ),Jing (2007 ) and Casadesus-Masanell and Llanes
+(2011 ), network externalities imply that the demand of each ﬁrm in each period is
+positively affected by the demand in the previous periods (the installed base). Sinceﬁrm Eenters at period 1, the installed base of ﬁrm Eat period 1 is zero, while the
+incumbent at the same period has a positive installed base. The demand functions of
+ﬁrm Iand ﬁrm Eat period 1 are given respectively by:
+Q
+I
+1=QI
+1/parenleftBig
+α(e,o,¯ξ),pI
+1,pE
+1/parenrightBig
+QE
+1=QE
+1/parenleftBig
+QI
+1/parenrightBig
+where α> 0 indicates the competitive advantage of ﬁrm Iover ﬁrm Eas deﬁned in
+Sect. 2(see footnote no. 4), e>0 indicates the network externalities, o∈[o,¯o]is
+the degree of openness of ﬁrm E, and¯ξis a set of variables different from eando
+affecting the competitive advantage of the incumbent (e.g. brand reputation). In the
+following analysis, we shall focus on the network externalities and on the degree ofopenness: therefore, in order to save on notation, the argument ¯ξshall be omitted.
+All else being equal, we have∂QI
+1
+∂α≥0: the demand of ﬁrm Iincreases with its
+competitive advantage over ﬁrm E. Moreover, it must be:∂α
+∂e≥0. Indeed, in period 1
+the incumbent (but not the entrant) has a positive installed base: therefore, the higherare the network externalities, the more ﬁrm Iis advantaged over ﬁrm Efrom having a
+positive installed base. Also, we assume that:
+∂α
+∂o≤0: the competitive advantage of I
+depends negatively on the degree of openness of the entrant.8Further, an increase of
+the demand of ﬁrm Ireduces the demand of ﬁrm E. In particular, we assume that, in
+equilibrium, all consumers are served. As a consequence, when a consumer stops to
+patronize ﬁrm I, it acquires from ﬁrm Eand vice-versa. Therefore, /Delta1QI
+i=−/Delta1QE
+i,
+with i=1,2. The following standard assumptions about the impact of price on the
+demand are introduced: ∂QI
+1/∂pI
+1<0,∂2QI
+1/∂pI
+12≤0 and ∂QI
+1/∂pE
+1>0. Next,
+let us deﬁne: gJ(e,α(.)) ≡∂/Pi1J
+2/∂pJ
+1<0, with J=I,E, where∂gJ(.)
+∂e<0 and
+∂gJ(.)
+∂α<( > ) 0i f J=I(J=E), and/Pi1J
+2are the second-period proﬁts of ﬁrm
+J=I,E. Function gJ(.)captures the existence of the network externalities: the
+higher are the network externalities, e, the more the demand in period 1 positively
+affects the demand in period 2. Therefore, an increase in the ﬁrst-period price, by
+reducing the ﬁrst-period demand, also reduces the second-period proﬁts through thenetwork externalities. The stronger are the externalities, e, the stronger is the reduction
+of the second-period proﬁts after a ﬁrst-period price increase. Similarly, the stronger
+8The fact that the demand of the incumbent decreases with the degree of openness of the entrant is
+not, of course, a general assumption, but ﬁts well the recent evolution of the software market (see theIntroduction and Sect. 2). The case where a higher degree of openness of the entrant increases the demand
+of the incumbent could be handled within the same framework developed here: clearly, in this case, the
+results would be reverted.
+123
+
+=== PÁGINA 8 ===
+182 S. Colombo et al.
+is the competitive advantage, α, the higher is the ﬁrst-period price, and the stronger
+is the reduction of the second-period proﬁts due to the externalities. By assuming that/vextendsingle/vextendsinglegI(.)/vextendsingle/vextendsingle=/vextendsingle/vextendsinglegE(.)/vextendsingle/vextendsingleand using the fact that /Delta1QI
+i=−/Delta1QE
+i, we can remove from now
+onward the superscript in function gJ(.). In order to keep tractability, the following
+assumption on the parameters of the model is introduced:
+/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle∂Q
+J∗
+i
+∂α/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle≥/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle∂Q
+J∗
+i
+∂pJ∗
+i∂pJ∗
+i
+∂α/vextendsingle/vextendsingle/vextendsingle/vextendsingle/vextendsingle,with J=I,Eandi=1,2. (A1)
+Assumption A1 says that in each period the direct impact of the competitive advan-
+tage over the equilibrium quantity is larger than the indirect impact passing through the
+equilibrium price. Finally, the ﬁrms have constant marginal costs (that are normalizedto zero) and no ﬁxed costs.
+3.2 Equilibrium Price
+In this section, we shall deﬁne the equilibrium price resulting from the competition
+between the incumbent and the new entrant. The equilibrium price shall be used in
+Sect. 3.3to derive the impact of both the competitive advantage and the network
+externalities on the equilibrium degree of openness chosen by the entrant.
+Denote by /Pi1
+J∗
+2the equilibrium proﬁts of ﬁrm J=I,Ein period 2. When a ﬁrm
+decides the price in period 1, it anticipates that, due to the existence of the network
+externalities, the equilibrium proﬁts in period 2 shall depend on the quantity sold at
+time 1. Therefore, in period 1 ﬁrm Imaximizes the following proﬁts function:
+/Pi1I=pI
+1QI
+1/parenleftBig
+α(e,o),pI
+1,pE
+1/parenrightBig
++δ/Pi1I∗
+2/parenleftBig
+α(e,o),QI
+1(α(e,o),pI
+1,pE
+1)/parenrightBig
+(1)
+where δ∈(0,1)is the discount factor. By taking the derivative of ( 1) with respect to
+pI
+1, we get the ﬁrst-order condition for the maximization problem of ﬁrm I:9
+∂/Pi1I
+∂pI
+1=QI
+1/parenleftBig
+α(e,o),pI∗
+1,pE
+1/parenrightBig
++∂QI
+1
+∂pI
+1pI∗
+1+δg(e,α(.))=0. (2)
+From condition ( 2), we derive the impact of αon the best-reply price of ﬁrm I. Consider
+the derivative of ( 2) with respect to α:
+∂2/Pi1I
+∂pI
+1∂α=∂QI
+1
+∂α+∂2QI
+1
+∂pI
+1∂αpI∗
+1+δ∂g(.)
+∂α(3)
+9It can be easily checked that the second-order condition is satisﬁed. The same holds when ﬁrm Eis
+considered (see later).
+123
+
+=== PÁGINA 9 ===
+Network Externalities, Incumbent’s Competitive Advantage 183
+T h eﬁ r s tt e r mi n( 3) is positive, the second term has an ambiguous sign,10while the third
+term is negative. The higher is e, the more negative is the third term (this is precisely
+the nature of the network externalities): therefore, when the network externalities are
+sufﬁciently strong, the last term in ( 3) dominates and∂2/Pi1I
+∂pI
+1∂αis negative.
+Now, consider ﬁrm E. In period 1, it maximizes the following proﬁts function:
+/Pi1E=pE
+1QE
+1/parenleftBig
+QI
+1(α(e,o),pI
+1,pE
+1)/parenrightBig
++δ/Pi1E∗
+2/parenleftBig
+α(e,o),QE
+1/parenleftBig
+QI
+1(α(e,o),pI
+1,pE
+1)/parenrightBig/parenrightBig
+(4)
+By taking the derivative of ( 4) with respect to pE
+1, we get the ﬁrst-order condition for
+the maximization problem of ﬁrm E:
+∂/Pi1E
+∂pE
+1=QE
+1/parenleftBig
+QI
+1/parenleftBig
+α(e,o),pI
+1,pE∗
+1/parenrightBig/parenrightBig
+−∂QI
+1
+∂pE
+1pE∗
+1+δg(e,α)∂QE
+1
+∂QI
+1=0( 5 )
+From condition ( 5) we derive the impact of αon the best-reply price of ﬁrm E. Consider
+the derivative of ( 5) with respect to α:
+∂2/Pi1E
+∂pE
+1∂α=−∂QI
+1
+∂α−∂2QI
+1
+∂pE
+1∂αpE∗
+1+δ∂g(.)
+∂α∂QE
+1
+∂QI
+1. (6)
+The ﬁrst term in ( 6) is negative, the second term has an ambiguous sign, while the third
+term is positive. When the network externalities are sufﬁciently strong, the last term
+in (6) dominates and∂2/Pi1E
+∂pE
+1∂αis positive. Therefore, we can state the following lemma:
+Lemma 1 The incumbent’s ﬁrst-period best-reply price increases with the competi-
+tive advantage when the network externalities are weak, while it decreases when the
+network externalities are strong. The entrant’s ﬁrst-period best-reply price decreases
+with the competitive advantage when the network externalities are weak, while itincreases when the network externalities are strong.
+The intuition of Lemma 1is as follows. First, let us consider the incumbent ﬁrm.
+When the competitive advantage of ﬁrm Iincreases, two effects are at work: a direct
+effect and an indirect effect . A higher αimplies that ﬁrm Ican set a higher price today
+and in the future ( direct effect ). However, the higher price in the current period reduces
+the current demand, and, via the network externalities, it reduces also the future demand
+(indirect effect ). When the network externalities are particularly strong, the indirect
+effect dominates, and the impact of αon the best-reply price at time 1 is negative.
+Consider now the entrant ﬁrm. When αincreases, ﬁrm Eis more disadvantaged with
+respect to ﬁrm I. Therefore, a higher αimplies that ﬁrm Esets a lower price today and
+in the future ( direct effect ). However, the lower price in the current period increases
+the current demand, and, due to the network externalities, it also increases the future
+10The second term in ( 3) vanishes in the case of linear demand functions.
+123
+
+=== PÁGINA 10 ===
+184 S. Colombo et al.
+demand ( indirect effect ). When the network externalities are sufﬁciently strong, the
+indirect effect dominates, and the impact of αon the best-reply price is positive.
+We are in the position now to analyse the impact of a variation of the competitive
+advantage and the network externalities over the equilibrium prices of the two ﬁrms.
+In general, even if we have obtained the effect of a variation of αover the best-reply
+functions, it is not possible to unambiguously derive the impact of αover the equilib-
+rium prices under general demand functions. More precisely, a necessary condition
+for∂2/Pi1E
+∂pE
+1∂α<( > ) 0 and∂2/Pi1I
+∂pI
+1∂α>( < ) 0 to induce an increase (decrease) of pI∗
+1and
+a decrease (increase) of pE∗
+1is that the shift of the best-reply functions as a conse-
+quence of the increase of αis not too different in absolute value. If this is the case, one
+may observe both prices increasing or decreasing. By comparing the absolute value of
+∂2/Pi1E
+∂pE
+1∂αand∂2/Pi1I
+∂pI
+1∂α, it is immediate to note that, in order to guarantee unambiguous vari-
+ations of the equilibrium prices, it is sufﬁcient to require that∂2QI
+1
+∂pE
+1∂αpE∗
+1and∂2QI
+1
+∂pI
+1∂αpI∗
+1
+are not too different in absolute value, as we assume from now onwards. Hence, the
+effect of an increase of αover the equilibrium prices can be described in the following
+ﬁgures. Figure 1a considers the case of weak network externalities. When αincreases
+toˆα, the best-reply function of ﬁrm Ishifts to the right, while the best-reply function of
+ﬁrm Eshifts downward. The equilibrium moves from AtoB: the equilibrium price of
+ﬁrm Iincreases, while the equilibrium price of ﬁrm Edecreases. Figure 1b illustrates
+the case of strong network externalities. When αincreases to ˆα, the best-reply function
+of ﬁrm Ishifts to the left, while the best-reply function of ﬁrm Eshifts upward. The
+equilibrium moves from AtoB: the equilibrium price of ﬁrm Idecreases, while the
+equilibrium price of ﬁrm Eincreases.
+Following from Lemma 1and the discussion above, we can state the following
+lemma:
+Lemma 2∂pI∗
+1
+∂α≥(≤)0and∂pE∗
+1
+∂α≤(≥)0if and only if e ≤(≥)e∗, where
+∂2/Pi1I
+∂pI
+1∂α(e∗)=∂2/Pi1E
+∂pE
+1∂α(e∗)=0.
+Lemma 2says that when the competitive advantage of the incumbent increases,
+the price set by the incumbent in equilibrium in period 1 increases if the networkexternalities are weak (e≤e
+∗), while it decreases if the network externalities are
+strong (e≥e∗). On the other hand, when the competitive advantage of the incumbent
+increases, the price set by the entrant in equilibrium in period 1 decreases if thenetwork externalities are weak, while increases if the network externalities are strong.
+Moreover, as αis a positive function of eand it is a negative function of o, the following
+lemma follows immediately from Lemma 2:
+Lemma 3 when the network externalities increase, the price set by the incumbent (the
+entrant) in equilibrium in period 1 increases (decreases) if the network externalities
+are weak, while it decreases (increases) if the network externalities are strong; when
+the degree of openness increases, the price set by the incumbent (the entrant) in
+123
+
+=== PÁGINA 11 ===
+Network Externalities, Incumbent’s Competitive Advantage 185
+Fig. 1 a . The effect of an increase of αover the equilibrium prices (weak network externalities). b.T h e
+effect of an increase of αover the equilibrium prices (strong network externalities)
+equilibrium in period 1 decreases (increases) if the network externalities are weak,
+while it increases (decreases) if the network externalities are strong.11
+Lemmas 1–3deﬁne the equilibrium price in the presence of network externalities.
+When the network externalities are weak, the equilibrium price set by the incumbent
+in the ﬁrst period increases with its competitive advantage (α)and with the network
+11Note that the threshold value of the network externalities in case of variations of eandomay be different
+from e∗. Details are available from the authors.
+123
+
+=== PÁGINA 12 ===
+186 S. Colombo et al.
+externalities (e), while decreases with the degree of openness chosen by the entrant (o);
+the opposite holds for the entrant. On the other hand, when the network externalities
+are strong, the indirect effect caused by the externalities induces the incumbent to set alower price in equilibrium when the competitive advantage or the network externalities
+increase, and to set a higher price when the degree of openness of the entrant increases;
+the opposite holds for the entrant.
+12
+Having deﬁned the relation between the equilibrium prices and the variables of the
+model, we are now in the position to analyse the impact of the competitive advantage of
+the incumbent and the strength of the network externalities on the degree of opennesschosen by the entrant ﬁrm when it enters the market. The next section provides the
+central result of the paper.
+3.3 Equilibrium Degree of Openness
+In what follows, we ﬁrst deﬁne a necessary condition for non-maximal openness to
+occur in equilibrium. Thus, we focus on the case of partial openness ( hybrid business
+model).
+13Then, we will derive the impact of αandeover the equilibrium degree of
+openness, o∗, chosen by ﬁrm E.
+Consider the equilibrium demand of ﬁrm Iand ﬁrm E.T h e ya r e QI∗
+i=
+QI∗
+i(α,pI∗
+i(α)) and QE∗
+i=QE∗
+i(α,pI∗
+i(α)) respectively, with i=1,2. Given
+Assumption A1, we can write directly: QI∗
+i=QI∗
+i(α), with ∂QI∗
+i/∂α≥0, and
+QE∗
+i=QE∗
+i(α), with ∂QE∗
+i/∂α≤0, with i=1,2. In equilibrium, ﬁrm Efaces the
+following proﬁts function:
+/Pi1E=QE∗
+1(α)pE∗
+1+δQE∗
+2(α)pE∗
+2. (7)
+By choosing the degree of openness, o,ﬁ r m Ecan alter the competitive advantage of
+ﬁrm I. Therefore, ﬁrm Emaximizes /Pi1Ewith respect to o. The ﬁrst-order condition
+is:
+∂/Pi1E
+∂o=∂QE∗
+1
+∂α∂α
+∂opE∗
+1+∂pE∗
+1
+∂α∂α
+∂oQE∗
+1+δ∂QE∗
+2
+∂α∂α
+∂opE∗
+2+δ∂pE∗
+2
+∂α∂α
+∂oQE∗
+2.(8)
+When e≤e∗(weak network externalities), all terms in ( 8) are positive. Therefore:
+o∗=¯o. Instead, when e≥e∗(strong network externalities), the second term in ( 8)
+is negative, while the other terms are positive. Therefore, we can state the following
+result:
+12The analysis developed up to this point may be easily extended to a T-period framework. Suppose that
+there are Tperiods, indexed with t=1,..., T. The incumbent has entered the market at period t=1,
+while the entrant enters at time τ∈[2,..., T−1](note that when τ=T−1 we are in the two-period
+model described in the text). When τis low, the direct effect tends to be low while the indirect effect tends
+to be high, because there is a scarce installed base and a great incentive to exploit future demand. Therefore,
+we expect that the critical value e∗depends positively on τ,o r :∂e∗/∂τ > 0.
+13Both maximal and minimal openness are invariant by deﬁnition with the variables of the model, and
+therefore they are of less interest for our analysis.
+123
+
+=== PÁGINA 13 ===
+Network Externalities, Incumbent’s Competitive Advantage 187
+Lemma 4 A necessary condition for non-maximal openness is that e ≥e∗.
+Lemma 4says that the necessary condition for non-maximal openness to occur
+in equilibrium is that the network externalities are sufﬁciently strong (e≥e∗).O n
+the other hand, when the network externalities are sufﬁciently weak (e≤e∗), only
+maximal openness can occur in equilibrium, as the proﬁts of the entrant strictly increase
+with o. The intuition behind Lemma 4is the following. Consider ﬁrst the case of weak
+network externalities. As shown in Lemmas 1–3, when e≤e∗, the equilibrium price
+of the entrant in period 1 decreases with the competitive advantage of the incumbent.
+As also the quantity sold in equilibrium by the entrant decreases with the competitive
+advantage of the incumbent, the entrant wants to minimize the competitive advantage
+of the incumbent by maximizing its own degree of openness. Consider instead thecase of strong network externalities. As shown in Lemmas 1–3, when e≥e
+∗,t h e
+equilibrium price of the entrant in period 1 increases with the competitive advantage of
+the incumbent. If the increase of the equilibrium ﬁrm E’s price induced by an increase
+ofαis large enough (i.e., if the second term in ( 8) is large enough in absolute value),
+t h ep r o ﬁ t so fﬁ r m Emay increase when the competitive advantage of the incumbent
+increases. In this case, ﬁrm Echooses non-maximal openness. This result depends on
+the existence of the network externalities. In fact, when the market is characterized
+by strong network externalities a higher competitive advantage of the incumbent may
+decrease the equilibrium price of the incumbent and increase the price of the entrant(Lemma 2), thus ultimately beneﬁting the entrant.
+Having deﬁned the necessary condition for non maximal openness to arise in equi-
+librium (i.e., sufﬁciently strong network externalities), we focus on the effect of αand
+eon the degree of openness in case of partial openness.
+14To this purpose, suppose
+thato∗such that:∂/Pi1E
+∂o(o∗)=0 exists. For o∗to be a maximum, the second-order
+condition has to be satisﬁed. This requires (disregarding the cross-derivatives) that:
+∂2/Pi1E
+∂o2=2/parenleftbigg∂α
+∂o/parenrightbigg2
+/Gamma1< 0( 9 )
+where /Gamma1≡∂QE∗
+1
+∂a∂pE∗
+1
+∂a+δ∂QE∗
+2
+∂a∂pE∗
+2
+∂α. Note that the ﬁrst term of /Gamma1is negative, while the
+second term is positive. Therefore, the second-order condition is satisﬁed when thediscount factor is low enough. Assume that δ≤δ
+∗, where /Gamma1(δ∗)=0, to guarantee a
+partial degree of openness in equilibrium. We want to see the impact of the network
+externalities and the competitive advantage on the degree of openness, provided thatpartial openness is chosen in equilibrium. By taking the derivative of ( 8) with respect
+toeandα, we get, respectively:
+∂
+2/Pi1E
+∂o∂e=2∂α
+∂o∂α
+∂e/Gamma1 (10)
+14When the necessary condition for non maximal openness holds, two situations are possible: partial
+openness, originating a hybrid business model for the entrant, and zero openness, meaning that the entrant
+sells no good in OS format.
+123
+
+=== PÁGINA 14 ===
+188 S. Colombo et al.
+∂2/Pi1E
+∂o∂α=2∂α
+∂o/Gamma1. (11)
+Recall that for o∗to be a maximum, it must be: /Gamma1< 0. Therefore, we can conclude
+that:∂2/Pi1E
+∂o∂e>0 and∂2/Pi1E
+∂o∂α>0. Hence, we can state the following proposition:
+Proposition 1 Suppose e ≥e∗. If the entrant chooses partial openness, the degree of
+openness chosen by the entrant in equilibrium increases with the network externalities
+and the competitive advantage of the incumbent.
+The intuition of Proposition 1proceeds as follows.15Recall that for partial openness
+to arise in equilibrium, the necessary condition is that e≥e∗. When the network
+externalities are above the threshold e∗, the impact of the competitive advantage of
+ﬁrm Iover the equilibrium price of ﬁrm Eis positive (see the discussion of Lemma 4).
+Suppose that the proﬁts of the entrant are maximized at a partial openness degree. Whathappens if, provided that e≥e
+∗, the network externalities increase? When the network
+externalities increase, the entrant is more beneﬁted in period 2 by an increase of the
+demand in period 1. Therefore, it tries to expand its own demand by choosing a higherlevel of openness when it enters in the market: that is, o
+∗increases with e. Clearly,
+as the competitive advantage of the incumbent is a positive function of the network
+externalities (due to the existence of the installed base of the incumbent), it must bethat the impact of the competitive advantage on the degree of openness chosen by the
+entrant mimics the impact of the network externalities.
+Figure 2summarizes the relation between the level of the network externalities
+and the equilibrium degree of openness.
+16When the network externalities are weak
+(e≤e∗), the only possible equilibrium is represented by maximal openness by the
+entrant. On the other hand, when the network externalities are strong (e≥e∗),i fa
+partial degree of openness arises in equilibrium, it increases with the strength of the
+network externalities. Note that the discontinuity at e∗is due to the fact that when the
+value of the network externalities goes beyond the threshold e∗, the impact of eover
+the equilibrium prices is reverted (Lemmas 1–3). Moreover, Fig. 2shows that maximal
+openness is observed in equilibrium when the network externalities are particularlyweak (i.e., e≤e
+∗) or particularly strong (i.e., e≥e1).17
+15Note that, for any variable ξj∈¯ξ, Proposition 1applies directly if ∂α/∂ξ j≥0, while it applies
+inversely if ∂α/∂ξ j≤0.
+16In Fig. 2(and in Fig. 3, later), the case of minimal openness is not represented. As indicated in Lemma 4,
+a necessary condition for its occurrence in equilibrium is that e≥e∗.
+17As suggested by a referee, openness may be divided between “compatible” openness and “incompatible”
+openness, as discussed in the Introduction. A simple way to consider this dichotomy within the model is the
+following. The positive impact of oon the competitive advantage of the entrant is likely to be stronger the
+more compatible is the openness strategy adopted by the entrant, as consumers are more prompt to choose
+an open source format when they anticipate that they will not be locked-in by software incompatibility. In
+terms of our model, this amounts to say that ∂α/∂ ois larger, in absolute value, the more the open format is
+compatible. Therefore, one may expect that the incentive to choose a larger degree of openness is stronger
+the more compatible is the openness strategy under consideration.
+123
+
+=== PÁGINA 15 ===
+Network Externalities, Incumbent’s Competitive Advantage 189
+Fig. 2 The relation between the network externalities and the equilibrium degree of openness (price-setter
+entrant)
+3.4 Price-Taker Entrant
+In this section we consider a straightforward variation of the model developed in
+Sects. 3.1–3.3. Until now, we have assumed that the two ﬁrms compete on price. How-
+ever, it is frequently assumed that the entrant mimics the price set by the incumbent (see
+Armstrong and Vickers 1993 , and the references therein): in other words, the entrant
+acts as a price-taker. Therefore, in what follows we assume that the entrant observes
+the price chosen by the incumbent and then sets the same price. The superscript “ ∼”
+shall be used to distinguish the model with the price-taker entrant from the modelwith the price-setter entrant. We will show that the price-taking assumption does not
+modify the main result: that is, both the competitive advantage of the incumbent and
+the strength of the network externalities induce the entrant to choose a higher level ofopenness when it enters the market. However, the necessary condition for non-maximal
+openness to occur in equilibrium is different from the case of price competing ﬁrms.
+First, note that Lemmas 1–3still hold for the part concerning the incumbent ﬁrm.
+That is, if the network externalities are weak enough ( e≤˜e
+∗, where∂2˜/Pi1I
+∂pI
+1∂α(˜e∗)=0),
+ﬁrm Isets a higher price when the competitive advantage increases. Instead, if the
+network externalities are strong enough (e≥˜e∗),ﬁ r m Isets a lower price when the
+competitive advantage increases. Therefore, ﬁrm Efaces the following proﬁts function:
+/tildewide/Pi1E=/tildewideQE∗
+1(α)/tildewidepI∗
+1+δ/tildewideQE∗
+2(α)/tildewidepI∗
+2. (12)
+Firm Echooses the level of openness that maximizes its proﬁts. Therefore:
+∂/tildewide/Pi1E
+∂o=∂/tildewideQE∗
+1
+∂α∂α
+∂o/tildewidepI∗
+1+∂/tildewidepI∗
+1
+∂α∂α
+∂o/tildewideQE∗
+1+δ∂/tildewideQE∗
+2
+∂α∂α
+∂o/tildewidepI∗
+2+δ∂/tildewidepI∗
+2
+∂α∂α
+∂o/tildewideQE
+2.(13)
+123
+
+=== PÁGINA 16 ===
+190 S. Colombo et al.
+Consider ﬁrst the case where the network externalities are strong, e≥˜e∗.T h e
+ﬁrst, the second and the third term in ( 13) are positive, while the last term is negative.
+Therefore, when the discount factor is low enough, Eq. ( 13) is positive. Consider now
+the case where the network externalities are weak, e≤˜e∗. The ﬁrst and the third term
+in (13) are positive, while the second and the fourth term are negative. Therefore, we
+can state the following lemma:
+Lemma 5 Assume that the entrant is price-taker and that the discount factor is sufﬁ-
+ciently low. A necessary condition for non-maximal openness is that e ≤˜e∗.
+Note that Lemma 5is the opposite of Lemma 4. When ﬁrms compete on price,
+the necessary condition for non-maximal openness to arise in equilibrium is that thenetwork externalities are strong enough (Lemma 4). On the other hand, when the
+entrant is price-taker, the necessary condition for non-maximal openness to arise in
+equilibrium is that the network externalities are weak enough (Lemma 5). The intuition
+for such difference is the following. Suppose e≥˜e
+∗. If the entrant is price-taker, ﬁrm
+Esets the highest possible degree of openness, since oincreases both the demand of
+ﬁrm Eand the price set by ﬁrm I. Instead, if the entrant is price-setter, it chooses the
+degree of openness that optimally balances the increase of its demand and the decrease
+of its equilibrium price. Suppose e≤˜e∗. If the entrant is price-taker, it chooses the
+degree of openness that optimally balances the increase of its demand and the decreaseof the equilibrium price set by the incumbent. Instead, if the entrant is price-setter, the
+entrant chooses maximal openness, as oincreases both its equilibrium demand and its
+equilibrium price.
+Let us denote by ˜o
+∗the equilibrium degree of openness when the entrant is price-
+taker. We want to analyse the impact of the network externalities and the competitive
+advantage over the equilibrium degree of openness. To this purpose, we focus on the
+case where a partial degree of openness arises in equilibrium. Therefore, suppose that
+˜o∗∈(o,¯o). Recall that, given Lemma 5, the necessary condition for this to occur
+is that e≤˜e∗. By taking the derivative of ( 13) with respect to eandαwe have,
+respectively:18
+∂2/tildewide/Pi1E
+∂o∂e=2/parenleftBigg
+∂/tildewideQE∗
+1
+∂α∂α
+∂o∂/tildewidepI∗
+1
+∂α∂α
+∂e+δ∂/tildewideQE∗
+2
+∂α∂α
+∂o∂/tildewidepI∗
+2
+∂α∂α
+∂e/parenrightBigg
+(14)
+∂2/tildewide/Pi1E
+∂o∂α=2/parenleftBigg
+∂/tildewideQE∗
+1
+∂α∂α
+∂o∂/tildewidepI∗
+1
+∂a+δ∂/tildewideQE∗
+2
+∂α∂α
+∂o∂/tildewidepI∗
+2
+∂α/parenrightBigg
+(15)
+All terms in ( 14) and ( 15) are positive. Therefore, we have∂2˜/Pi1E
+∂o∂e>0 and∂2˜/Pi1E
+∂o∂α>0.
+Hence, we can state the following proposition:
+Proposition 2 Assume that the entrant is price-taker. Suppose e ≤˜e∗.I ft h e
+entrant chooses partial openness, the degree of openness chosen by the entrant in
+18It is immediate to note that ∂2˜/Pi1E/∂o2<0. Therefore, if an interior solution of ∂˜/Pi1E/∂o=0 exists,
+it must be a maximum.
+123
+
+=== PÁGINA 17 ===
+Network Externalities, Incumbent’s Competitive Advantage 191
+Fig. 3 The relation between the network externalities and the equilibrium degree of openness (price-taker
+entrant)
+equilibrium increases with the network externalities and the competitive advantage of
+the incumbent.
+Figure 3summarizes the relation between the level of the network externalities and
+the equilibrium degree of openness when the entrant is price-taker.
+It shows that when the entrant is price-taker and externalities are strong (i.e., e≥˜e∗),
+the only possible equilibrium is characterized by maximal openness. Instead, when
+the network externalities are weak (e≤˜e∗), if a partial degree of openness arises
+in equilibrium, it increases with the strength of the network externalities, as in the
+case where the entrant sets the price. However, differently from the model with a
+price-setter entrant, in the case of a price-taker entrant maximal openness may not beobserved in equilibrium when the network externalities are weak (i.e., when e≤˜e
+1).
+4 An Econometric Test
+4.1 Sample
+Our theoretical analysis prescribes that if a new entrant chooses a hybrid business
+model, the degree of openness chosen in equilibrium increases along with both the
+strength of the network externalities and the competitive advantage of the incumbent.In order to provide an empirical test of the propositions derived from the formal
+model, we use the ELISS II ( European Libre Software Survey , see footnote no. 6)
+database. The ELISS II directory is an extensive and authoritative source of informationon the attitudes towards OS and its software ﬁrms (see Colombo et al. 2012 for a
+detailed description of the data gathering procedure). Data were collected in the second
+semester of 2004 through a structured questionnaire administered (by phone, e-mail,
+123
+
+=== PÁGINA 18 ===
+192 S. Colombo et al.
+Table 1 Distribution of the degree of openness of software start-ups
+Obs. 0 % <10 % 10–30 % 31–50 % 51–70 % 71–90 % 91–99 % 100 %
+N% N% N% N % N% N% N% N %
+Firms 91 12 13.2 12 13.2 17 18.7 8 8.8 14 15.4 10 10.9 14 15.4 4 4.4
+and through a dedicated Web site) to the owner-managers and chief technology ofﬁcers
+of a random sample of ﬁrms operating in the software industry (NACE code 72.2) andlocated in ﬁve European countries (Finland, Germany, Italy, Portugal, and Spain). In
+each country, the sample was stratiﬁed by ﬁrm size and geographical area (NUTS2
+level). Here, we consider a sample extracted from the ELISS II database and composed
+of all software ﬁrms satisfying the following conditions: (i) were founded in 2000 or
+after; (ii) have no missing or unreliable data in the variables we wish to include in theanalysis; (iii) adopt a hybrid business model (i.e., their product portfolio includes both
+proprietary and OS solutions). As far as the former condition, we extract only those
+ﬁrms that are still in a start-up phase and allegedly can be deemed as new entrants intothe software market at the time of the survey. The ﬁnal sample was thus composed of
+91 software start-ups.
+4.2 The Speciﬁcation of the Econometric Model
+We explore the empirical relevance of our formal analysis, through the estimate of an
+econometric model relating start-ups’ degree of openness to the strength of network
+externalities and the competitive advantage of the incumbent. In the econometric
+speciﬁcation, we also control for relevant ﬁrm-speciﬁc characteristics and for thecompetitiveness of market segments on which start-ups operate.
+We measure the degree of openness, which will be used as a dependent variable
+in our econometric model, as the share of turnover generated by the offering of OSsolutions over the total turnover (OS_TURNOVER). In so doing, we proxy the degree
+of openness with an objective measure, which excludes “merely on chart” OS involve-
+ments by start-ups.
+19OS_TURNOVER was measured in the ELISS II questionnaire
+on a eight-point scale, ranging from 0 to 7. Respondents were asked to indicate their
+OS turnover share among the following options: 0 %, [less than 10 %], [10–30 %],
+[31–50 %], [51–70 %], [71–90 %], [91–99 %], [100 %]. The distribution of start-upsby the degree of openness is presented in Table 1.
+The ordinal nature of the dependent variable violates OLS assumptions ( Maddala
+1983 ;Greene 2000 ). As it is typical in this framework, we adopt an ordered probit
+speciﬁcation, which is the natural extension of the probit model when more than
+19Alternatively, it would have been possible to proxy the degree of openness by counting the OS solutions
+offered by a start-up over the total software solutions offered. However, the ELISS II dataset does notprovide this information. Moreover, note that the use of this measure would have exposed our analysis to
+the criticism that some OS products might be irrelevant in terms of sales.
+123
+
+=== PÁGINA 19 ===
+Network Externalities, Incumbent’s Competitive Advantage 193
+Table 2 Deﬁnition of the explanatory variables
+Variable Description Expected sign
+Variables of interest
+EXTERNALITY 3 point-Likert scale variable measuring the importance
+attached by customers of the software start-up to
+network externalities when choosing a software
+packagePositive
+ADV ANTAGE Sum of the incumbents’ market shares (C1
+concentration ratio in percentage) in those software
+market segments where the start-up is present divided
+by the number of software market segments entered
+(7 possible segments: Web server and relatedsolutions; Protection systems; Web browser and
+related services; Content management systems;
+Database software; EPR; Ofﬁce automation software)Positive
+Control variables
+PRICE 3 point-Likert scale variable measuring the importance
+attached by customers of the software start-up to price
+when choosing a software package
+SIZE Firm size as measured by the sum of the number of
+employees, working partners, and freelancers
+AGE Firm age as measured by the time elapsed since the
+ﬁrm’s foundation
+COUNTRY Country dummies
+two alternatives are ordered. A summary of the explanatory variables used in the
+econometric model is reported in Table 2.20
+The two independent variables of interest have been built as follows.
+We proxied the strength of network externalities by the variable EXTERNALITY .
+Speciﬁcally, start-ups were asked to give a score based on an increasing Likert scale
+regarding the importance attached by their customers to the availability of widelydiffused software packages (as a proxy of direct network externalities) and of a large
+number of compatible applications (which, in turn, is a proxy of indirect network
+externalities). The two variables were found to be highly correlated. Accordingly, wederived a synthetic measure (by averaging the scores) to be included in the analysis,
+which we label as EXTERNALITY .
+21
+20All subjective data refer to 2004, while data on OS turnover shares are based on the level of sales in
+2003, except for 3 ﬁrms that were born in the early 2004, for which respondents were asked to take the date
+of the survey as reference. Note that excluding these latter observations from the analysis does not alter in
+any sensible way the ﬁndings of the empirical test (results are reported in Table 5).
+21The resulting variable is strongly correlated with both the direct (r = 0.79) and indirect (r = 0.63) com-
+ponents. Results (available upon request from the authors) are similar to those obtained substituting the
+variable EXTERNALITY with either components. Finally note that in the case of a missing value in one of
+the two types of externality, we attributed to EXTERNALITY the value assumed by the other externality
+component. The original Likert scale included 5 points, ranging from 1 (not important) to 5 (very important).As most of the start-ups choose medium (3) or high values (4 and 5) for network externality variables, we
+decide to recode EXTERNALITY , assigning to it value 1 if the ﬁrm chose an average score ranging from 1
+to 3, value 2 if the average score was greater than 3 but less or equal to 4, and value 3 if the average scorewas greater than 4.
+123
+
+=== PÁGINA 20 ===
+194 S. Colombo et al.
+ADV ANTAGE is a synthetic index accounting for incumbent’s competitive advan-
+tage in the market segments in which start-ups have entered. It was constructed as fol-
+lows. The ELISS II questionnaire collected information on the categories of productsoffered by the respondents, both under proprietary and OS licenses. Speciﬁcally, we
+identiﬁed the following seven well-distinct market segments: web server and related
+solutions, protection systems (i.e., antispam and antivirus), web browser and Internetsolutions on the client side, content management systems, database software, ERP,
+and ofﬁce automation software. The (average) market share of the incumbent ﬁrm in
+each market segment (corresponding to the C1 concentration ratio) in the time frame2000–2003 was attached to each market segment, thus obtaining an estimation of com-
+petitive advantage of the incumbent. Using data on product offerings by respondents,
+we constructed seven dummy variables (one for each market segment), assuming value
+1 is the ﬁrm is active in that market segment, and zero otherwise. Then, each dummy
+variable was multiplied by C1 to obtain a proxy of the competitive disadvantage expe-rienced by the ﬁrm in that market segment. For each ﬁrm, the products of the seven
+dummy variables with the corresponding C1 indexes were summed and this sum was
+divided for the number of market segments where the software start-up is present,in order to obtain a synthetic measure of the structure of competition faced by the
+start-up.
+We insert in the model a series of control variables. PRICE is an ordinal variable
+assuming value 1 if, according to the respondent ﬁrm, its customers are rather insen-
+sitive to price when choosing a software, value 2 if they attach a medium level of
+importance to price, and value 3 if they attach high importance to price. SIZE is thetotal staff of the ﬁrm, as measured by the number of employees, working partners, and
+freelancers. AGE is the age of the software start-up, as measured by the time elapsed
+since the ﬁrm’s foundation, as of 2004 (the year of the survey). Country dummies arealso inserted.
+Table 3illustrates descriptive statistics on the explanatory variables included in the
+model.
+Table 3 Descriptive statistics
+on the explanatory variables ofthe econometric models
+No. of observations: 91Explanatory variables Mean SD Min Max
+Variables of interest
+EXTERNALITY 1 .82 0 .75 1 3
+ADV ANTAGE 49 .46 13 .29 23 95
+Controls
+PRICE 2 .09 0 .82 1 3
+SIZE 28 .95 127 .36 1 1200
+AGE 2 .86 1 .19 0 4
+GERMANY 0 .02 0 .15 0 1
+SPAIN 0 .29 0 .45 0 1
+FINLAND 0 .15 0 .36 0 1
+ITALY 0 .48 0 .50 0 1
+PORTUGAL 0 .06 0 .23 0 1
+123
+
+=== PÁGINA 21 ===
+Network Externalities, Incumbent’s Competitive Advantage 195
+4.3 Results
+The results of the econometric analysis are illustrated in Table 4. Ordered probit esti-
+mates (column I) show that the strength of network externalities signiﬁcantly inﬂu-
+ences the degree of openness. The coefﬁcient of the variable EXTERNALITY is
+positive and signiﬁcant at the 1 % statistical level. In other words, the higher theimportance attached by consumers to the availability of widely diffused packages
+and complementary applications, the higher the degree of openness of start-ups. The
+econometric ﬁndings also provide evidence that the greater the competitive advantageof the incumbents in market segments in which start-ups enter, the higher the degree
+of openness. The variable ADV ANTAGE has a positive coefﬁcient, which is again
+statistically signiﬁcant at the 1 % conﬁdence level.
+Effects of the variables of interest also show a non-negligible magnitude. Con-
+sidering the class of the dependent variable equal to [71–90 %] as a reference anda benchmark case considering the Italian market and all covariates at their average
+value, an increase of the variable EXTERNALITY from a value of 1 to a value of 2
+produces ceteris paribus a corresponding increase in the probability for a software
+start-up to fall into that class of +41 %. Moving from the 10
+◦percentile to the 90◦
+percentile of the variable ADV ANTAGE leads to an increase in the same probabilityof +58 %.
+With respect to the control variables, we found a negative and signiﬁcant impact
+for the variables PRICE and SIZE, revealing that the OS business model appears to
+be more appealing for small software start-ups operating in markets where customersare relatively less price-sensitive. Finally, AGE shows a negligible impact.
+Lastly, we also run a series of robustness tests for our results. First, we use an
+alternative dependent variable that considers the median value of the correspondingclass describing a software start-up’s degree of openness, and we estimated a Tobit
+double-censored model (0 and 100 are the two censoring limit points). Results (exposed
+in the second column of Table 4) are very similar to those previously discussed.
+Table 4 The degree of openness of software start-ups: the econometric model
+Columns I II
+Ordered probit Tobit double-censored (0–100)
+Variables of interest Coefﬁcients (standard errors) Coefﬁcients (standard errors)
+EXTERNALITY 0.455 (0.157)∗∗∗16.406 (5.584)∗∗∗
+ADV ANTAGE 0.022 (0.008)∗∗∗0.746 (0.283)∗∗∗
+Controls
+PRICE −0.298 (0.138)∗∗−9.987 (5.078)∗
+SIZE −0.010 (0.003)∗∗∗−0.352 (0.093)∗∗∗
+AGE 0.148 (0.111) 4.850 (3.934)
+COUNTRY Yes YesCONSTANT – −25.762 (26.527)
+Log likelihood −168.537 −390.649
+No. obs 91 91
+H
+0: all coefﬁcients = 0 Chi-square: 82.89 (9)∗∗∗F-test: 12.86 (9)∗∗∗
+Signiﬁcance level (two-tail tests):∗p<0.10;∗∗p<0.05;∗∗∗p<0.01. Robust standard errors
+123
+
+=== PÁGINA 22 ===
+196 S. Colombo et al.
+Table 5 The degree of openness of software start-ups: robustness tests
+Columns I II
+Exclusion of start-ups born in 2004 Exclusion of start-ups born in 2000
+Ordered probit Ordered probit
+Variables of interest Coefﬁcients (standard errors) Coefﬁcients (standard errors)
+EXTERNALITY 0.431 (0.161)∗∗∗0.568 (0.195)∗∗∗
+ADV ANTAGE 0.020 (0.008)∗∗0.031 (0.011)∗∗∗
+Controls
+PRICE −0.302 (0.143)∗∗−0.384 (0.173)∗∗
+SIZE −0.010 (0.002)∗∗∗0.003 (0.002)
+AGE 0.141 (0.116) 0.214 (0.172)
+COUNTRY Yes Yes
+Log likelihood −163.711 −101.311
+No. obs 88 55
+H0: all coefﬁcients = 0 Chi-square 75.95 (9)∗∗∗Chi-square 19.54 (8)∗∗
+Signiﬁcance level (two-tail tests):∗p<0.10;∗∗p<0.05;∗∗∗p<0.01. Robust standard errors.
+Then, the inclusion of the variable AGE into the model’s speciﬁcation responds to
+the need to reconcile a possible dissimilarity between immediate entry as modelled
+in the theoretical analysis and the real process of entering that is likely to take time
+to materialise. In this respect, we replace the variable AGE with alternative measuresof time and, in particular, four time dummy variables. Our ﬁndings are unaltered in
+both the ordered probit and the tobit double-censored model. Similar results to those
+exposed here are also obtained once the variable SIZE is measured only in terms ofthe number of employees (excluding working partners and freelancers). Findings are
+also conﬁrmed if the relatively younger start-ups of our sample (born in 2004) are
+excluded from the analysis. Finally, despite the exclusion of the more aged start-ups(born in 2000) leads to a dramatic reduction of the sample size (i.e., 55 observations),
+the estimation of the model on this reduced sample conﬁrms that the sign and the
+statistical signiﬁcance of the variables of interest is the same as before (both theselatter tests are presented in Table 5).
+In sum, our empirical analysis supports the propositions of the theoretical model
+outlined in Sect. 3.
+5 Concluding Remarks
+This paper investigates the impact of network externalities and incumbent’s competi-
+tive advantage on the degree of openness that software start-ups choose when entering
+the software industry. Speciﬁcally, we model competition between an incumbent and a
+new entrant and highlights that strong (weak) network externalities determine the nec-essary condition for observing entrance of a price-setter (price-taker) software start-up
+in the market through a hybrid business model. Conversely, when network externali-
+ties are sufﬁciently weak (strong), a price-setter (price-taker) software start-up’s best
+123
+
+=== PÁGINA 23 ===
+Network Externalities, Incumbent’s Competitive Advantage 197
+strategy is always to pursue the maximum degree of openness and constitute itself
+as a pure OS ﬁrm. Finally, we show that when the entrant chooses a hybrid business
+model, its degree of openness increases along with both the strength of the networkexternalities and the competitive advantage of the incumbent. This latter result holds
+irrespectively of whether the entrant competes in price with the incumbent or not,
+thus being price-setter or price-taker. An econometric exercise run on a sample ofstart-ups adopting a hybrid business models brings empirical support to the results of
+the aforementioned formal analysis. Namely, it shows that the degree of openness of
+hybrid software start-ups is positively related to the strength of network externalities
+and the competitive advantage of the incumbent.
+The paper contributes to the literature studying the economic and managerial aspects
+of the OS phenomenon. In line with the works by Lerner and Tirole (2002 ) and Bonac-
+corsi and Rossi (2003 ), our paper corroborates the idea that the open source puzzle
+can be traced back to the mainstream economic discourse. Indeed, our model takesshape from the consideration that for-proﬁt ﬁrms make choices about their engage-
+ment in the OS world (i.e., they participate in the private provision of a collective
+good) based on proﬁt-maximisation considerations. In other words, the mix (to dif-ferent extents) OS and proprietary solutions turns out to be a rational strategy for
+a proﬁt-maximising ﬁrm in response to certain market conditions. Furthermore, the
+paper heeds the call for more theorising in OS research ( Dalle et al. 2007 ), thus diverg-
+ing from the phenomenon-based approach that characterises academic research on OS
+(von Krogh et al. 2012 ).
+22Finally, the research strand that has studied how OS shapes
+competition in the software industry (von Krogh and von Hippel 2006 ) has mainly
+focused on the competition between a proprietary incumbent and an OS community.
+While the proprietary incumbent only sells proprietary solutions, the OS community
+provides OS solutions for free. These studies have set aside hybrid ﬁrms , which are
+so common in the real world. Few recent contributions have overcome this deﬁciency
+and considered the possibility of hybrid strategies by for-proﬁt ﬁrms. These works
+have focused on the incumbent’s choice of adding OS solutions to its proprietary
+offering or have analysed the choice of the degree of openness in relation to speciﬁc
+software characteristics ( Casadesus-Masanell and Llanes 2011 ;Comino and Manenti
+2011 ). Conversely, the locus of investigation is here on the choice of the degree of
+openness by new entrants depending on important characteristics of the competitive
+environment in which they operate.
+The study has limitations that open up avenues for future research. In developing
+our model, we have assumed that customers are not hostile to OS. This is undoubtedly
+true as regards to advanced users (see the Introduction). However, such an assumptionmight be challenged when considering non-advanced users, who are scared by (per-
+ceived) incompatibility between OS and proprietary products and by switching costs
+in jumping between the two standards. More importantly, our paper is not intended
+22An empirical testing of the determinants of OS ﬁrms’ degree of openness was also included in Bonac-
+corsi et al. (2006 ). However, in that case, the authors did not ground their econometric analysis in a formal
+model. Moreover, they focused mainly on the impact on the degree of openness of ﬁrms’ structural charac-
+teristics and relationships with OS communities. The role of the competitive environment in which ﬁrms
+are embedded was set aside in their investigation.
+123
+
+=== PÁGINA 24 ===
+198 S. Colombo et al.
+to provide a complete real-world picture of software start-ups’ engagement in OS.
+Its scope is limited to offering a stripped-down theoretical model for weighing vari-
+ous claims about the impact of network externalities and the incumbent’s competitiveadvantage on the degree of openness chosen by new entrants. Needless to say, we
+are aware that in the real world the choice of the degree of openness by OS start-
+ups also depends on a plethora of company-speciﬁc, idiosyncratic motives and, mostimportantly in this context, by other market factors. First, start-ups which offer OS
+solutions can develop software at lower costs as they rely on the community of OS
+programmers for code writing and debugging. How different costs in software devel-opment between entrant and incumbent shape their competition is left aside from the
+model, but it could be another important element to be considered when studying the
+determinants of start-ups’ degree of openness. Second, hybrid business models are
+increasingly adopted also by large software incumbents (e.g., IBM, see Campbell-
+Kelly and Garcia-Swartz 2009 ) and this strategy clearly impacts new entrants’ degree
+of openness. In our model, we have considered a “pure proprietary” incumbent and
+the choice of the degree of openness when a start-up enters the software market. How-
+ever, ﬁrms update choices about openness during their life cycle in response to changesof the competitive environment. Accordingly, a proprietary incumbent can decide to
+include OS solutions in its offering, while a start-up can modify its degree of open-
+ness as it ages. Finally, it is worth noting that OS ﬁrms may supply highly specialisedproducts and face the competition of other ﬁrms doing business with OS in market
+niches. From this perspective, how choices of the degree of openness are taken in a
+more fragmented market landscape represents another interesting development of ouranalysis.
+Despite these limitations, the model offers interesting insights to perspective entre-
+preneurs who aim to enter the software industry. OS is currently so widespread thatmost new entrants face the problem of choosing the “right” degree of openness. Despite
+the allegedly heterogeneity of the start-ups that prospective entrepreneurs are going
+to set up, the challenges posed by incumbent’s presence and by network externalities
+are ubiquitous across software market segments.
+References
+Armstrong, M., & Vickers, J. (1993). Price discrimination, competition and regulation. Journal of Industrial
+Economics ,41(4), 335–359.
+Bitzer, J., & Schröder, P. J. H. (2005). Bug-ﬁxing and code-writing: the private provision of open source
+software. Information Economics and Policy ,17(3), 389–406.
+Bogers, M., Afuah, A., & Bastian, B. (2010). Users as innovators: a review, critique, and future research
+directions. Journal of Management ,36(4), 857–875.
+Bonaccorsi, A., Giannangeli, S., & Rossi, C. (2006). Entry strategies under competing standards. Hybrid
+business models in open source software industry. Management Science ,52(7), 1085–1098.
+Bonaccorsi, A., & Rossi, C. (2003). Why open source can succeed. Research Policy ,32(7), 1243–1258.
+Brynjolfsson, E., & Kemerer, C. F. (1996). Network externalities in microcomputer software: an econometric
+analysis of the spreadsheet market. Management Science ,42(12), 1627–1647.
+Campbell-Kelly, M., & Garcia-Swartz, D. D. (2009). Pragmatism, not ideology: historical perspectives on
+IBM’s adoption of open-source software. Information Economics and Policy ,21(3), 229–244.
+Casadesus-Masanell, R., & Ghemawat, P. (2006). Dynamic mixed duopoly: a model motivated by Linux
+vs Windows. Management Science ,32(7), 1072–1084.
+123
+
+=== PÁGINA 25 ===
+Network Externalities, Incumbent’s Competitive Advantage 199
+Casadesus-Masanell, R., & Llanes, G. (2011). Mixed source. Management Science ,57(7), 1212–1230.
+Colombo, M. G., Piva, E., & Rossi-Lamastra, C. (2012). Granting employees autonomy of surﬁng the
+community for new knowledge. Is this worthy to the ﬁrm? Long Range Planning , doi: 10.1016/j.lrp.
+2012.05.004 .
+Comino, S., & Manenti, F. (2011). Dual licensing in open source software markets. Information Economics
+and Policy ,23(3—-4), 234–242.
+Dahlander, L., & Magnusson, M. G. (2005). Relationships between open source software companies and
+communities: observations from Nordic ﬁrms. Research Policy ,34(4), 81–493.
+Dahlander, L., & Magnusson, M. G. (2008). How do ﬁrms make use of open source communities? Long
+Range Planning ,41(6), 629–649.
+Dalle, J. M., Rossi, C., & Rullani, F. (2007). Toward a new industrial organization? OSS in economic
+and managerial perspective. In J. Feller, B. Fitzgerald, W. Scacchi, & A. Sillitti (Eds.), Open Source
+development, adoption and innovation (pp. 377–380). New York: Springer.
+DiBona, C., Ockman, S., & Stone, M. (1999). Open Sources: Voci dalla rivoluzione Open Source . Milano:
+Apogeo.
+Farrell, J., & Saloner, G. (1986). Installed base and compatibility: innovation, product preannouncements,
+and predation. American Economic Review ,76(5), 940–955.
+Fitzgerald, B. (2006). The transformation of open source software. MIS Quarterly ,30(3), 587–598.
+Gallaugher, J. M., & Wang, Y . (1999). Network externalities and the provision of composite IT goods
+supporting the e-commerce infrastructure. Electronic Markets ,9(1–2), 14–19.
+Gandal, N. (1995). Competing compatibility standards and network externalities in the PC software market.
+Review of Economics and Statistics ,77(4), 599–608.
+Greene, W. H. (2000). Econometric analysis (4th ed.). New York: Prentice Hall.
+Grindley, P. (1995). Standards, strategies, and policy: cases and stories . Oxford: The Oxford University
+Press.
+Hecker, F. (1999). Setting up the shop: the business of open-source software. IEEE Software ,16(1), 45–51.
+Hicks, C., & Pachamanova, D. (2007). Back-propagation of user innovations: the open source compatibility
+edge. Business Horizons ,50(4), 315–324.
+Iivari, N. (2009). Constructing the users in open source software development: an interpretive case study
+of user participation. Information Technology & People ,22(2), 132–156.
+Jing, B. (2007). Network externalities and market segmentation in a monopoly. Economics Letters ,95(1),
+7–13.
+Johnson, J. P. (2005). Open source software: private provision of a public good. Journal of Economics &
+Management Strategy ,11(4), 637–662.
+Katz, M. L., & Shapiro, C. (1986). Technology adoption in the presence of network externalities. Journal
+of Political Economy ,94(4), 822–841.
+Katz, M. L., & Shapiro, C. (1992). Product introduction with network externalities. Journal of Industrial
+Economics ,40(1), 55–83.
+Katz, M. L., & Shapiro, C. (1994). Systems competition and network effects. Journal of Economic Per-
+spectives ,8(2), 93–115.
+Krishnamurthy, S. (2006). An analysis of open source business models. In J. Feller, B. Fitzgerald, S. A.
+Hissam, & K. Lakhani (Eds.), Perspective on free and open source software (pp. 279–296). Cambridge,
+MA: MIT Press.
+Lanzi, D. (2009). Competition and open source with perfect software compatibility. Information Economics
+and Policy ,21(3), 192–200.
+Lee, D., & Kim, B. C. (2013). Motivations for open source project participation and decisions of software
+developers. Computational Economics ,41(1), 31–57.
+Lerner, J., & Schankerman, M. (2010). The comingled code . Cambridge, MA: The MIT Press.
+Lerner, J., & Tirole, J. (2002). Some simple economics of the open source. Journal of Industrial Economics ,
+50(2), 197–234.
+Lerner, J., & Tirole, J. (2005). The scope of open source licensing. Journal of Law, Economics, and Orga-
+nization ,21(1), 20–56.
+Maddala, G. S. (1983). Limited dependent and qualitative variables in econometrics . New York: Cambridge
+University Press.
+McGowan, D. (2001). Legal implications of open-source software. University of Illinois Law Review ,1,
+241–304.
+123
+
+=== PÁGINA 26 ===
+200 S. Colombo et al.
+Mustonen, M. (2003). Copyleft: the economics of Linux and other open source software. Information
+Economics and Policy ,15(1), 99–121.
+Mustonen, M. (2005). When does a ﬁrm support substitute of open source programs? Journal of Economics
+& Management Strategy ,14(1), 121–139.
+Pisano, G. (2006). Proﬁting from innovation and the intellectual property revolution. Research Policy ,35(8),
+1122–1130.
+Piscitello, L., & Rossi, C. (2007). How openness shapes the scope of small and medium enterprises. An
+empirical investigation of the Italian software sector. In C. Franzoni & C. Rossi-Lamastra (Eds.), Open
+knowledge and the cooperative approach to the production of research and innovation (pp. 147–162).
+Milano: Franco Angeli.
+Raymond, E. S. (2011). The cathedral & the bazaar: musings on Linux and open source by an accidental
+revolutionary . Sebastopol: O’Reilly & Associates.
+Rohlfs, J. H. (2001). Bandwagon effects in high-technology industries . Cambridge, MA: The MIT Press.
+Shapiro, C., & Varian, H. R. (1998). Information rules: a strategic guide to the network economics . Boston:
+Harvard Business School Press.
+von Krogh, G., Rossi-Lamastra, C., & Haeﬂiger, S. (2012). Phenomenon-based research in management
+and organization science: towards a strategy. Long Range Planning ,45(4), 277–298.
+von Krogh, G., & von Hippel, E. (2006). The promise of research on open source software. Management
+Science ,52(7), 975–983.
+123
+

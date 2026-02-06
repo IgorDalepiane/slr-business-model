@@ -1,0 +1,631 @@
+=== PÁGINA 1 ===
+Proceedings of the 2015 Winter Simulation Conference 
+L. Yilmaz, W K. V. Chan, 1 Moon, T. M K. Roeder, C. Macal, and M D. Rossetti, eds. 
+BUSINESS MODELS FOR CLOUD COMPUTING: EXPERIENCES FROM DEVELOPING 
+MODELING & SIMULATION AS A SERVICE APPLICATIONS IN INDUSTRY 
+Tamas Kiss 
+Huseyin Dagdeviren 
+Centre for Parallel Computing 
+University of Westminster 
+115 New Cavendish Street 
+London, WI W 6UW, UNITED KINGDOM Simon J. E. Taylor 
+Anastasia Anagnostou 
+Department of Computer Science 
+BruneI University London 
+Kingston Lane 
+Uxbridge, UB8 3PH, UNITED KINGDOM 
+Nicola Fantini 
+ABSTRACT CloudBroker GmbH 
+Raffelstrasse 25 CH-8045 
+Zurich, SWITZERLAND 
+The potential of cloud computing is gaining significant interest in Modeling & Simulation (M&S). The 
+underlying concept of using computing power as a utility is very attractive to users that can access state­
+of-the-art hardware and software without capital investment. Moreover, the cloud computing 
+characteristics of rapid elasticity and the ability to scale up or down according to workload make it very 
+attractive to numerous applications including M&S. Research and development work typically focuses on 
+the implementation of cloud-based systems supporting M&S as a Service (MSaaS). Such systems are 
+typically composed of a supply chain of technology services. How is the payment collected from the end­
+user and distributed to the stakeholders in the supply chain? We discuss the business aspects of 
+developing a cloud platform for various M&S applications. Business models from the perspectives of the 
+stakeholders involved in providing and using MSaaS and cloud computing are investigated and presented. 
+1 INTRODUCTION 
+Cloud computing is a paradigm for distributed computing that, according to the widely accepted 
+definition provided by the US National Institute of Standards and Technology (NIST), provides a 
+"ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources 
+(e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released 
+with minimal management effort or service provider interaction" (Mell and Grance 2011; NIST 2013). In 
+Modeling & Simulation (M&S) cloud computing has the potential to give flexible service provision as 
+well as scalable and reliable computing power without initial capital investment to facilitate computation 
+intensive simulations. The concept of Modeling & Simulation as Service (MSaaS) therefore enables 
+simulation software vendors and providers to offer simulation applications through the cloud to their end­
+users. The user can consume simulation services without having to install or maintain the simulation 
+software locally. The solution can also scale up seamlessly as the number of end-users and/or the 
+complexity of the simulation tasks increase. 
+978-1-4673-9743-8/15/$31.00 ©2015 IEEE 2656 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+Most of the related research and development effort in this area focuses on the development of cloud­
+based infrastructures to provide MSaaS. However, once a service is deployed and available, how should a 
+user pay for that service and how should that revenue be distributed across the various stakeholders that 
+support the provision of that service? What business models should be used? The European FP7 Cloud­
+based Simulation Platform for Manufacturing and Engineering (CloudSME) project (www. cloudsme. eu) 
+aims to simplifY the deployment of MSaaS on different clouds and has developed MSaaS solutions across 
+several M&S domains. In this paper, we share our practical experiences in creating several business 
+models that account for the different stakeholder perspectives that exist in this "supply chain" of 
+technology from the end-user to the cloud infrastructure provider. Our paper is structured as follows. We 
+first give a brief orientation on Cloud Computing and define MSaaS. To give a context to our 
+experiences, we then present our CloudSME project and cloud-based simulation platform. A business 
+model for MSaaS is then presented and then developed into more detailed business models reflecting the 
+needs of different stakeholders involved in the consumption and provision of services. The paper then 
+concludes with a short discussion on the need for a simple mechanism for charging and revenue 
+distribution via one-stop-shops or similar mechanisms to support business models for cloud computing. 
+2 CLOUD COMPUTING 
+As presented in Taylor, et al. (2014b), building on the above NIST definition, the main concept of cloud 
+computing is elasticity. Users and applications can instantly access and release on-demand computational 
+assets, storage, other service applications, etc. depending on their changing needs. These resources are 
+provided on the basis of different types of clouds that reflect the organizational structure of the cloud 
+provider(s) and user(s). These include Private clouds (accessed only by the users of a single organization 
+via private networks), Community clouds (an extension of a private cloud accessed by more than one 
+organization with common interests where resources are located on or off site and can belong to one or 
+more organizations within the community or a third party (e.g., a government cloud), Public clouds 
+(accessible by the general public and supported by an infrastructure provider (e.g., the Amazon Elastic 
+Compute Cloud (EC2)), and Hybrid clouds (a combination of two or all three of the above). 
+Cloud use and provision can be organized on the basis of cloud computing service models. There are 
+three defined main service models. These are Infrastructure as a Service (IaaS), Platform as a Service 
+(PaaS), and Software as a Service (SaaS). Cloud consumers (users) typically can access all three services 
+via a web interface or some language supported API. IaaS allows access to a virtual infrastructure mapped 
+to physical hardware where the user can deploy operating systems and application software. PaaS stands 
+on top of the IaaS and facilitates software deployment, configuration and management. PaaS users can 
+deploy existing software or develop software with libraries and compilers provisioned by the cloud 
+provider. The most commonly used service model is SaaS, which sits atop the PaaS. A SaaS user has only 
+application level access. Users can use the provided applications deployed as online services with no 
+knowledge of the platform or the infrastructure, accessing elastically provided resources on demand. 
+3 MODELING & SIMULATION AS A SERVICE (MSaaS) 
+Could computing has two principle features that could be attractive for M&S. The first is service 
+provision. Deploying a simulation application as a service on a cloud means that users can easily access 
+that service when required. Conceptually, this is similar to deploying an application on a web server. 
+However, the difference is that cost is only incurred when the service is used, rather than an "always on" 
+web server. Further, if the service is deployed appropriately, then the service could be provided on an 
+elastic basis. The service provider should be able to easily upscale the processing power of their 
+application or create mUltiple versions oftheir service on demand. The second attractive proposition is the 
+access to on demand elastic high performance computing. Many M&S applications run simulations of the 
+same model with different parameters. These experiments can be highly time consuming. As these runs 
+are independent, simulations can be executed faster by using more computers. This means that time for 
+2657 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+experimentation can be reduced significantly (or more experimentation can be done in the same time) by 
+"hiring" more cloud-based computing resources. 
+Modeling & Simulation as a Service (MSaaS) is emerging as term that describes the development of 
+cloud-based software services for M&S applications. In literature, the main focus has been on the 
+technological aspects of cloud development and provision. Cayirci (2013) reviews technological issues 
+relating to the direct deployment of MSaaS on a cloud including security, risk, and service composition. 
+Other authors address technological architectures that have elements of cloud-based services supporting 
+M&S. For example, Rossetti and Chen (2012) present a prototype architecture that directly deploys 
+simulation on a cloud to support supply chain networks with limited parallel computing. Wu, Qiao and 
+Poon (2014) propose an architecture for cloud manufacturing in the semi-conductor industry that 
+combines collaboration services underpinned by business intelligence, cloud, resource and data layers. 
+This focuses on interoperating services to support manufacturing (operations, logistics, procurement, etc.) 
+and links to potential MSaaS. This is similar in concept to cloud-based architectures being developed by 
+the CloudFlow project (www. eu-cloudfl ow.eu). Tolk and Mittal (2014) raise the issue of a lack of work 
+on the conceptual foundations of MSaaS as highlighted in the series of Grand Challenges in M&S panels 
+(Taylor et al. 2012, 2013a, 2013b) and advocate the novel concept of Mobile Propertied Agents that could 
+bring together key issues needed for MSaaS. Johnson and Tolk (2013) raise the work by NATO on cloud­
+based simulation with respect to technical, governance, security, business model and conceptual 
+perspectives. NATO work continues with the activities of the NATO Modeling and Simulation Group 
+MSG-131 ("Modelling and Simulation as a Service: New Concepts and Service Oriented Architectures") 
+(Siegfried, et al. 2014). This group are investigating MSaaS from national (defense) perspectives and 
+experiences as part of a developing "NATO M&S as a Service Concept" under NATOs Allied Command 
+Transformation (ACT). In the sense of M&S as being a key enabler for military training, analysis and 
+decision making, they define MSaaS as "M&S as a Service (MSaaS) is a means of delivering value to 
+customers to enable or support modelling and simulation (M&S) user applications and capabilities as well 
+as to provide associated data on demand without the ownership of specific costs and risks." "Value" is 
+determined by what the service enables the customer to do (e.g., a professional service such as 
+Verification & Validation) or an IT or technical service (e.g., a weapon effects service integrated within a 
+simulation environment). They conclude that MSaaS is an architectural and organizational approach that 
+promotes abstraction, loose coupling, reusability, composability and discovery ofM&S services with the 
+objective of effectively and efficiently supporting operational requirements (e.g., executing an exercise) 
+and to improve development, operation and maintenance ofM&S applications. 
+We consider the NATO definition to be general purpose enough to "fit" the use ofM&S across many 
+domains, not just the military. A user application could be a COTS Simulation Package such as the 
+discrete-event simulation software SIMUL8 or the ASCOMP's computational fluid dynamics software 
+TransAT. A capability could be how the simulation software is used to solve a problem (such as building 
+and experimenting with a model of a manufacturing system) or to provide a service such as 3D modeling 
+online. Associated data could be simulation input data or simulation output results. The definition does 
+reflect the cost and risk of ownership and support but not the advantages of cloud elasticity. However, as 
+this is a service definition then this aspect of cloud computing could be considered as an MSaaS 
+capability (i.e., not all MSaaS applications need elasticity). Value follows a similar line of reasoning as it 
+is left as the provision of a service. The conclusions are similarly general except that requirements would 
+reflect the domain of application. However, linking these concepts of MSaaS value to cloud computing 
+and then to the mechanisms of charging and revenue distribution requires further investigation and 
+expansion. In the next section we provide a brief overview of our project and industrial case studies to 
+give the context and background to our business models. 
+2658 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+4 THE CLOUDSME PROJECT AND PLATFORM 
+The main aim of the CloudSME project is to help simulation companies and end-users to develop 
+complex cloud computing solutions for MSaaS by providing supporting technologies to simplify this 
+process. The main technology is the CloudSME Simulation Platform (CSSP) (shown in Figure 1), a PaaS 
+that supports service provision, High Performance Computing (HPC) and multi-cloud deployment 
+(Taylor, et al. 2014a). The project is industry-based and focuses on four key areas of M&S: 
+Computational Fluid Dynamics, process (discrete-event) simulation, 3D modeling and data analytics. The 
+University of Westminster (UK) is the project coordinator with Brunei University London (UK) 
+coordinating the industrial use cases. The domains covered by the project include oil and gas industries, 
+engine design and manufacturing, UA V design, general purpose manufacturing, food supply chain, port 
+logistics, shoe insole manufacturing, and inventory control. The CSSP uses mUltiple IaaS clouds provided 
+by MT A SZT AKI (Hungary), BIFI (Spain), University of Westminster (UK), CloudSigma (Switzerland) 
+and Amazon. 
+In the Cloud Platform Layer, the CSSP architecture combines the WS-PGRADE/gUSE (Grid User 
+Support Environment) developed by MTA SZTAKI (guse. hu) (Kacsuk, et al. 2012) and the multi-cloud 
+CloudBroker Platform (CBP) developed by CloudBroker, CH (www. cloudbroker. com) to create a 
+platform for cloud-based HPC (a PaaS). Software requiring cloud deployment and/or HPC is redeveloped 
+on the CSSP as SaaS, hosted by the CSSP PaaS and uses clouds made available through IaaS. Developers 
+can therefore create rapidly their scalable SaaS applications using the CSSP across one or more different 
+clouds and can use cloud-based HPC where appropriate. The CSSP offers several options to cloud-based 
+application development. 
+WS-PGRADE/gUSE supports the development and deployment of HPC applications across different 
+types of Distributed Computing Infrastructures (DCIs) such as clusters, institutional desktop grids and 
+clouds. It is widely used to create HPC applications for a wide range of scientific communities (see 
+www.sci-bus.eu and Kacsuk (2014)). WS-PGRADE/gUSE consists of three tiers: a Presentation tier, a 
+Middle tier and an Architectural tier. The Presentation tier consists of WS-PGRADE (Web Services 
+Parallel Grid Runtime and Developer Environment Portal). It has a graphical workflow editor that allows 
+users to create and populate HPC workflows for their applications that run on various DCIs (including 
+clouds). Once a workflow is created, it is saved and managed in the Middle tier gUSE services. In the 
+Architectural tier, gUSE uses the DCI-BRIDGE job submission service to submit cloud jobs to the CBP 
+and other DCIs. 
+FiQ:ure 1: The CloudSME Simulation Platform Architecture. 
+2659 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+A "typical" cloud implementation involves software being developed for one cloud (e.g., Amazon). 
+Different clouds offer different functionality and costs. The concept behind the CBP is that it presents a 
+cloud platform that developers can use to manage their implementations across multiple clouds. This 
+means that once an application has been deployed on different clouds, the CBP can help developers 
+deliver a flexible service that enables cloud-based applications to be easily managed (and charged) across 
+product offerings based on different cloud infrastructures. The CBP environment is a web-based 
+application store for the deployment and execution of compute-intensive applications on a cloud and 
+widely automates user, software, resource, job, and invoice management. It is suitable for any kind of 
+batch-oriented command line software, both Linux- and Windows-based, and both serial or parallel 
+processing (via MPI for example). It can be accessed through any web browser and through different 
+application programming interfaces (APIs). Taylor, et al. (2014a) discuss how the CSSP has been used to 
+support agent-based modeling and simulation applications. 
+5 CLOUD BUSINESS MODELS AND STAKEHOLDERS 
+The CSSP is an example of a PaaS that facilitates access to one or more IaaS. In other words, a simulation 
+company can develop their M&S software service and run it on a platform service. The platform service 
+coordinates access to the computational resources of the cloud infrastructure provider. Using the different 
+APIs of the Simulation Application Layer, the simulation software developers of the CSSP have 
+developed different approaches to MSaaS deployment that range from single point of use, to scalable 
+services and scalable HPC solutions. These are being presented as "one-stop-shops" that the developers 
+are using as gateways for their users to access their software. Additionally, a generic one-stop-shop called 
+the AppCenter has been created within the CloudSME project to support companies who would like a 
+one-stop-shop type of gateway to their MSaaS solution but do not want to develop one themselves. A new 
+user wanting to use an MSaaS "App" registers and logs into the AppCenter and accesses the App. 
+Using one of our industrial case studies as an example basis for a business model, EUROBIOS is a 
+French-based company specializing in industrial complexity analysis in a variety of application areas 
+(www.eurobios.com ). They are using ASCOMP's TransAT Computational Fluid Dynamic software 
+deployed on different clouds via the CSSP. TransAT is deployed in our AppCenter (but could be part of a 
+dedicated one-stop-shop). The AppCenter means that EUROBIOS' usage of TransAT can be tracked. The 
+cloud platform and infrastructure use is tracked through the CSSP. The commercial relationship is 
+therefore EUROBIOS using ASCOMP's software that uses the CSSP developed by mUltiple stakeholders 
+that uses (say) Amazon cloud resources. Given that cloud-based solutions can be collections of software, 
+this seemingly complex relationship may well be typical of cloud-based commercial offerings. A business 
+model, incorporating and linking the value chains of all stakeholders is therefore required to deliver 
+MSaaS. Developing this business model is complex and challenging due to a number of factors: 
+1. The business venture is based on close partnership and collaboration amongst a number of key 
+stakeholders. The multi-stakeholder nature of the CSSP offering adds complexity to the 
+development of the business model as the platform needs to deliver business benefits to all 
+participating stakeholders. 
+2. The simulation service providers have different offerings ranging from providing simulation 
+software as a service and/or using a simulation software service as part of a consultancy. 
+3. The stakeholders have varying business requirements for pricing, product delivery, payment 
+methods, etc. 
+4. End-user consumers have different levels of technical knowledge and therefore need access to 
+MSaaS in different ways. 
+5. The manufacturing and engineering market (the focus of the CloudSME project) is a rather 
+heterogeneous market in terms of their activities and products. For example, in manufacturing 
+sector the products range include fabricated metal, electrical parts, minerals, food, paper, textile, 
+2660 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+furniture and others. The business model should accommodate various scenarios in this 
+heterogeneity and not just on technology delivery (i.e., it should reflect business practices in those 
+domains -some sectors cannot support pay-per-use models for example). 
+Within the CloudSME project there are four stakeholder groups. Note that most of the companies in 
+the project are SMEs. The stakeholder groups are described below. 
+End-users: At one end of this chain, there exist the end-user companies from the manufacturing and 
+engineering sector. In the CloudSME project, these companies are represented as two distinct categories: 
+end-users who already utilize simulation technologies and end-users for whom simulation solutions are 
+novel. 
+Simulation software providers: There are two kinds of simulation software providers. Companies 
+that develop their simulation software as MSaaS and simulation consultancies that use these software 
+services (i.e., simulation consultancies act as multipliers that offer the simulation solutions of various 
+vendors). 
+Cloud platform providers: Next group in this chain are the cloud platform providers. The cloud 
+platform providers support MSaaS and enable simulation software to access cloud resources seamlessly in 
+a user-transparent way and a PaaS solution, which allows simulation software providers or consultant 
+companies to build MSaaS solutions for the end-users. In CloudSME project, the cloud platform 
+providers are namely CloudBroker and SZT AKI which offer the integrated CloudBroker/WS-PGRADE 
+CSSP that serves as the basis for the PaaS solution. 
+Cloud resource providers: Finally, the simulation platform requires cloud-based hardware resources 
+therefore IaaS cloud resource providers are another group of stakeholders that are essential for the 
+operation of the cloud platform layers. Cloud resource providers will directly benefit from the successful 
+operation ofthe CloudSME simulation platform as it would increase the usage of their resources. 
+In the CloudSME project, the CSSP PaaS provider will have two types of customers: a simulation 
+software provider (i.e., simulation software vendor or a simulation consultancy) and manufacturing and 
+engineering simulation end-users. This means manufacturing and engineering simulation end-users will 
+either interact with the CloudSME platform directly or through the simulation software vendor or a 
+simulation consultancy. This interaction model provided the basis for developing the business model as, it 
+not only shows required interactions, but also a clear division of roles between stakeholders. 
+The next section will present the specific business models that have been developed. 
+6 MSaaS BUSINESS MODELS 
+In the CloudSME project MSaaS business models were developed iteratively using the input received 
+from all stakeholders (24 companies). This necessitated a number of meetings with the project partners, in 
+groups or individually. Initially a group project meeting took place where initial ideas, requirements and 
+constraints for the business model were brainstormed. This provided the basis for developing the initial 
+business models which were then elaborated and refined in further interactions (i.e., meetings or 
+conference calls) with stakeholders individually or in small groups. 
+During these interactions, it became apparent that one business model would not suffice due to the 
+flexibility required in terms of cloud use. For example, in addition to offering simulation services to 
+customers on individual basis, a simulation provider wanted to offer 'generic' simulations to a specific 
+industry through templates specifically developed for that specific industry. This led to considering 
+developing multiple business models, each one based on the use of the CSSP and cloud computing for 
+MSaaS. During the discussions, five uses were identified each of which then served as the basis of a 
+business model. These business models are as follows: 
+1. Specialized "one-stop-shop" for a specific industry 
+2. Specialized "one-stop-shop" for a specific company 
+2661 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 7 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+3. Cloud extension to a desktop simulation package or a web-based simulation solution 
+4. Direct execution of the simulation software from the CloudSME AppCenter 
+5. The business model of the PaaS provider 
+These business models were based on the following principles: 
+1. Offer simulation services as one-stop-shops to specific companies or targeted manufacturing and 
+engineering market segments in order to ensure simplicity for novice simulation users; 
+2. Enable simulation software vendors to extend their products with cloud access seamlessly to 
+offer existing simulation users to accelerate simulation execution through CloudSME platform if 
+needed for complex simulations; 
+3. Offer an overall directory for simulation software (shopping mall like) to all manufacturing 
+and engineering SMEs. 
+6.1 Specialized One-Stop-Shop for a Specific Industry 
+In this model the CloudSME simulation platform customer, typically a simulation software vendor or a 
+simulation consultancy, offers a specialized one-stop-shop MSaaS solution for simulation end-users. A 
+specialized one-stop-shop for a specific industry has the following characteristics: 
+• Specialized website offered by simulation software vendor or simulation consultancy; 
+• Readymade simulation applications to be purchased by simulation end-users based on the SaaS 
+model; 
+• Target audience is from a well-defined industry where a large number of end-users can benefit -
+applications are created using a template approach; 
+• The one-stop-shop provider charges the end-users and provides full customer support -the one­
+stop-shop provider carries all responsibility when interacting with the customer; 
+• The simulation runs through the CSSP; and 
+• Can be advertised via domain specific channels, but can also be directly linked to the CloudSME 
+marketplace. 
+Figure 2(a) illustrates the "specialized one stop shop for a specific industry" model. 
+6.2 Specialized One-Stop-Shop for a Specific Company 
+This model can be regarded as a special restricted and closed version of the first model, "specialized one­
+stop-shop for a specific industry". In the current model, a specialized simulation application is developed 
+and operated for one targeted company only as simulation end-user. The rationale behind listing this as a 
+separate model is that some simulation MSaaS offerings could be rather specific and could not be easily 
+reused by mUltiple companies. In this case, a specialized solution can be developed for the end-user that 
+can only be accessed by the targeted company. The commercial viability of this model may need to be 
+further investigated. However, in case of a "heavy end-user", the model could be financially viable. The 
+operator of the one-stop-shop for a specific company provides direct customer support to its end-users 
+and serves as the only entry point and communication towards the final end-user. The end-user makes a 
+commercial contract only with the one-stop-shop provider. The one-stop-shop provider carries all 
+responsibility when interacting with the customer. As in previous cases, running the simulation through 
+the CSSP is compulsory and an essential requirement. If the simulation does not run through the platform, 
+then it is outside the scope of this business model. Listing the solution in the CloudSME AppCenter is 
+optional. Figure 2(b) shows this business model. 
+2662 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 8 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+6.3 Cloud Extension to a Desktop or Web-based Services Simulation Package 
+In this scenario, the CSSP customer is a simulation software vendor who extends its desktop or web 
+services simulation product with built-in cloud access via the CSSP to offer MSaaS. The simulation 
+software is packaged (if appropriate), licensed and sold to the simulation end-user in the traditional way. 
+However, the installed product includes direct access to the CSSP and offers the capability to accelerate 
+simulation on the cloud on-demand. 
+The simulation software vendor provides direct customer support to simulation end-users that covers 
+the traditional functionalities of the product. However, when using the cloud extension, two major 
+scenarios are envisaged: (a) a simulation end-user creates account on the CSSP that manages cloud-based 
+execution. In this case the simulation end-user enters a commercial contract with the CloudSME 
+simulation platform provider. The CSSP provider is responsible for providing direct customer support for 
+the end-user; (b) the simulation software vendor is the only entity who has an account on the CSSP, and 
+all cloud-based execution is charged to this account. In this scenario, the customer enters a commercial 
+contract only with the simulation software vendor and it is the vendor's responsibility to provide full 
+customer support. 
+The selected model ('a' or 'b') is a decision made by the simulation software vendor. Please note that 
+the above listed two options may not be the only ones, and further refinement may be required based on 
+the actual use-cases (the options reflect experiences with the project industrial partners). The cloud 
+extended simulation software product can be advertised and offered for download or to be accessed as a 
+web service via the CloudSME AppCenter. However, this association with the CloudSME AppCenter is 
+optional. On the other hand, enabling the simulation through the CSSP is compulsory and an essential 
+requirement. If the simulation does not run through the CSSP, then it is outside the currently described 
+business model. Figure 2( c) illustrates the cloud extension to a desktop or web-based simulation package 
+scenano. 
+6.4 Direct Application Execution from the CloudSME Platform 
+A simulation software provider (vendor or consultant) may decide not to develop a specialized one-stop­
+shop solution but rather use the CloudSME AppCenter to offer its software as a service offering directly. 
+This scenario is similar to the first business model "specialized one-stop-shop for a specific industry". 
+However, instead of setting up a specific new website, the offered capabilities of the CloudSME 
+AppCenter are utilized. The SaaS solution will be directly executed from the CloudSME AppCenter. The 
+AppCenter provider charges the end-users and takes a certain percentage before paying the application 
+owner. The advantage of this solution is that setting up the offering is quicker and requires much fewer 
+resources. Also, platform related support in this case is provided directly to the simulation end-user by the 
+platform provider (the AppCenter operator). The disadvantage is that the result is far less customized than 
+in the case of the "specialized one-stop-shop for a specific industry" scenario. Also, the level of customer 
+support may be lower as only generic, platform specific support can be expected from the platform 
+provider. In case of large customer numbers, the solution may become unfeasible and the development of 
+a specialized one-stop-shop may be required. This option can be a good entry-point for new potential 
+MSaaS developers in order to test or start marketing their solution while minimizing cost/risk. This 
+business model is shown in Figure 2(d). 
+6.5 CloudSME Business Model for Platform Providers 
+The final business model reflects the platform provider, in this case the stakeholders supporting the CSSP. 
+The aim is to facilitate a wide range of business models for MSaaS providers and their end-users -the 
+customers of platform. Given the number of stakeholders involved, the simplest business model is based 
+around creating a dedicated company that acts as an entity in its own right. This means that the company 
+2663 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 9 ===
+a) 
+Simulation 
+temp late 
+end-users 
+Specialised 
+one-stop­
+shop 
+CloudSME 
+simulation 
+platform 
+laaS Cloud 
+providers 
+c) Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+Specialised one-stop shop Domain specific 
+marketing channels 
+Customer 
+support for 
+simulation 
+end-users 
+Customer 
+support for 
+specialised 
+one-stop­
+shop 
+operator 
+Customer 
+support for 
+platform 
+provider 
+Customer 
+support for 
+cloud 
+based 
+simulation 
+execution 
+Customer 
+support for 
+platform 
+provider b) 
+Simulation end­
+use r (one specific 
+company only) 
+One stop 
+shop 
+CloudSME 
+simulation 
+platform 
+laaS Cloud 
+providers 
+d) 
+Simulation 
+end-users 
+CloudSME 
+simulation 
+platform 
+laaS Clo ud 
+providers Specialised one-stop-shop for 
+a specific company Customer 
+support for 
+simulation 
+end-users 
+Customer 
+support for 
+specia lised 
+one-stop­
+shop 
+operator 
+Customer 
+support for 
+platform 
+provider 
+Simulation software 
+Customer 
+support for 
+CloudSME 
+AppCenter 
+users 
+Customer 
+support for 
+platform 
+provider 
+Figure 2: MSaaS Business Models (a) Specialized one-stop-shop for a specific industry, (b) 
+Specialized one-stop-shop for a specific company, (c) Cloud extension to a desktop simulation or a 
+web-based package, and (d) Direct application execution from the CSSP_ 
+charges for platform use, pays for infrastructure resources and then distributes proceeds within the 
+company_ 
+7 DISCUSSION 
+As discussed in this paper, Modeling & Simulation as Service (MSaaS) enables simulation software 
+vendors and providers to offer simulation applications through the cloud to their end-users_ Solutions 
+range from direct use of cloud resources by an application to using more sophisticated chains of 
+technological services involving PaaS and IaaS solutions. The benefit to the end-user is potentially 
+cheaper, more accessible simulation technologies. The benefit to the simulation developer is new business 
+offerings that could give access to new markets, new products and a major competitive edge. The 
+CloudSME Simulation Platform is an example of how PaaS and IaaS can be provided to support the 
+creation of new products based on MSaaS offerings. 
+The definition adopted in this paper of MSaaS identifies the need to deliver value to customers and to 
+enable or support M&S applications and capabilities. "Value" is associated with what a service enables a 
+customer to do or as a service that is part of a chain of technologies that deliver that customer service. The 
+2664 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 10 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+industrial MSaaS development that is part of the CloudSME project has enabled us to understand the 
+variety of business needs related to service delivery and the roles of the many stakeholders that are part of 
+a complex cloud-based business offering. These include end-users, simulation software providers, cloud 
+platform providers and cloud resource providers. Discussions with the stakeholders involved in 
+CloudSME initially generated a general business model that largely reflected the service grouping of the 
+cloud-based solutions, i.e., end-users using MSaaS hosted on a PaaS using IaaS. The business models 
+helped to consolidate the need for the use of a customer interface -the one-stop-shops and AppCenter 
+implemented in the Simulation Application Layer of the CSSP and described above. Five business models 
+were identified that reflected MSaaS implementation and the product offering: a specialized "one-stop­
+shop" for a specific industry; a specialized "one-stop-shop" for a specific company, a cloud extension to a 
+desktop simulation package or a web-based simulation solution, direct execution of the simulation 
+software from the CloudSME AppCenter, and a business model reflecting the platform service provision 
+(PaaS). 
+The business models help to identify how revenue can be collected and distributed across 
+stakeholders. Essentially, end-users are charged at the point of use by the simulation software providers 
+(or via license, for example). However, after this point the revenue stream becomes less clear. Many 
+different models were considered in the development of the business models presented in the previous 
+section. For example, end-users could pay for cloud infrastructure resources directly. However, it was felt 
+that this would place an unreasonable expectation on the customer to decide whether or not s/he wanted to 
+use Amazon, CloudSigma, etc. and then understand the different charging mechanisms that different 
+cloud infrastructure providers use. Many of the MSaaS solutions that have been developed place the 
+decision at the software vendor level and hide these details from the end-user (to simplify cloud use and 
+maximize benefit). Another business model that was considered was one that reflected the individual 
+stakeholders involved in the provision of the CSSP. This was rejected on grounds of complexity. A 
+simulation software vendor would have to establish commercial relationships between all stakeholders 
+that reflected their contribution to the specific MSaaS product offering. In some cases, this would have 
+involved at least five different contracts with one software vendor. Instead, a simpler model was adopted 
+that brought the stakeholders that provided and supported the platform together into a single legal entity. 
+A single contract could then be issued between the platform company and the software vendor. This 
+company would collect payment for using the platform and the infrastructure, pay the cloud infrastructure 
+provider and then distribute revenue across the company partners on an internally agreed basis. 
+What is common to all the business models discussed in this paper is the need to collect revenue 
+based on both platform and infrastructure use. In some ways this reinforced the need for an identified 
+entry point to the MSaaS application to enable end-users to be identified and then to be charged on an 
+appropriate basis (pay-per-use, annual license, etc.) This partially motivated the development of the one­
+stop-shop application specific "portals" and the general AppCenter. Users register at a one-stop-shop and 
+use the software. Depending on the company, users either need to pay up front or are invoiced later for 
+use. An identified user then uses the software. This in turn uses the CSSP which has internal charging 
+mechanisms that are used to track a user's use of a given cloud infrastructure. Direct users of the platform 
+are charged in a similar manner. Arguably, this both simplifies charging mechanisms and enables end­
+users to be presented with a single point of charging rather than point-to-point relationships with the 
+many stakeholders involved in supporting cloud-based simulation services. 
+8 CONCLUSIONS 
+This paper has presented business models that have been created based on experiences in the CloudSME 
+project. The project focuses on SMEs in manufacturing and engineering who both use and provide 
+simulation services. These business models are not an exhaustive list and new business models are being 
+considered. Further business models and the evolution of those presented in this paper will be reported in 
+2665 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 11 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+future work. Overall, we hope that these reflections will prove useful in identifying and simplifying 
+potentially complex business relationships in the MSaaS business offerings. 
+ACKNOWLEDGEMENTS 
+This work was partially supported by the EU FP7 CloudSME project (Contract no. 608886). The authors 
+thank the CloudSME beneficiaries for their input in developing the business models described in this 
+paper. A full list of companies involved in the project can be found at www. cloudsme. eu. 
+REFERENCES 
+Cayirci, E. 2013. "Modeling and Simulation as a Cloud Service: A Survey. " In Proceedings of the 2013 
+Winter Simulation Conference, edited by R Pasupathy, S.-H. Kim, A. Tolk, R Hill, and M. E. Kuhl, 
+389-400. Piscataway, New Jersey: Institute of Electrical and Electronics Engineers, Inc. 
+Johnson, H. E., and A. Tolk. 2013. "Evaluating the Applicability of Cloud Computing Enterprises in 
+Support of the Next Generation of Modeling and Simulation Architectures. " In Proceedings of the 
+Military Modeling & Simulation Symposium (MMS '13). Society for Computer Simulation 
+International, San Diego, CA, USA, Article 4 , 8 pages. 
+Kacsuk, P. 2014. Science Gateways for Distributed Computing Infrastructures: Development Framework 
+and Exploitation by Scientific User Communities. Springer International Publishing Switzerland. 
+Kacsuk, P., Z. Farkas, M. Kozlovszky, G. Hermann, A. Balasko, K. Karoczkai, and I. Marton. 2012. 
+"WS-PG RADE/gUSE Generic DCI Gateway Framework for a Large Variety of User Communities. " 
+Journal of Grid Computing 10(4): 601-630. 
+Kacsuk, P. 2011. "P-GRADE Portal Family for Grid Infrastructure s." Concurrency and Computation: 
+Practice and Experience 23(3): 235-245. 
+Liu, X., X. Qiu, B. Chen, and K. Huang. 2012. "Cloud-Based Simulation: The State-of-the-Art Computer 
+Simulation Paradigm. " In Proceedings of the 2012 ACMIIEEEISCS Workshop on Principles of 
+Advanced and Distributed Simulation (PADS 2012), 71-74. ACM Press, NY. 
+Luo, J., and L. J. Hong. 2011. "Large-Scale Ranking and Selection Using Cloud Computing. " In 
+Proceedings of the 2011 Winter Simulation Conference, edited by S. Jain, R R Creasey, J. 
+Himmelspach, K. P. White, and M. Fu, 4046-4056. Piscataway, New Jersey: Institute of Electrical 
+and Electronics Engineers, Inc. 
+Mell, P. and T. Grance. 2011. The NIST Definition of Cloud Computing. Accessed May 06, 2015. 
+http://csrc. nist. gov /publications/nistpubs/800- 145/SP800-145. pdf. 
+NIST. 2013. NIST Cloud Computing Standards Roadmap. Accessed May 06, 2015. 
+http://www. nist. gov/itllcloud/upload/NIST _ SP-500-291_ Version-2 _ 2013 _Junel8 _ FINAL.pdf . 
+Rossetti, M. D., and Y. Chen. 2012. "A Cloud Computing Architecture for Supply Chain Network 
+Simulation. " In Proceedings of the 2012 Winter Simulation Conference, edited by C. Laroque, J. 
+Himmelspach, R Pasupathy, O. Rose, and A.M. Uhrmacher, 3225-3236. Piscataway, New Jersey: 
+Institute of Electrical and Electronics Engineers, Inc. 
+Siegfried, R, T. van den Berg, A. Cramp, and W. Huiskamp. 2014. "M&S as a Service: Expectations and 
+Challenges. " In Proceedings of the 2014 Fall Simulation Interoperability Workshop (J 4F-SIW-040), 
+Orlando, Florida: Simulation Interoperability Standards Organization. 
+Taylor, S. J. E., A. Anagnostou, T. Kiss, G. Terstyanszky, P. Kacsuk, and N. Fantini, N. 2014a. "A 
+Tutorial on Cloud Computing for Agent-Based Modeling & Simulation with REPAST. " In 
+Proceedings of the 2014 Winter Simulation Conference, edited by A. Tolk, S. Y. Diallo, I. O. 
+Ryzhov, L. Yilmaz, S. Buckley, and J. A. Miller, 192-206. Piscataway, New Jersey: Institute of 
+Electrical and Electronics Engineers, Inc. 
+2666 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 12 ===
+Kiss, Dagdeviren, Taylor, Anagnostou, and Fantini 
+Taylor, S. J. E., T. Kiss, G. Terstyanszky, P. Kacsuk, and N. Fantini. 2014b. "Cloud Computing for 
+Simulation in Manufacturing and Engineering: Introducing the CloudSME Simulation Platform. " In 
+Proceedings of ANSS'14, Tampa, FL, Apr. 13 -16, Article 12. 
+Taylor, S. J. E., A. Khan, K. L. Morse, A. Tolk, L. Yilmaz, and J. Zander. 2013a. "Grand Challenges on 
+The Theory of Modeling and Simulation. " In Proceedings of the Symposium on Theory of Modeling 
+& Simulation -DEVS Integrative M& S Symposium (DEVS'13 j, Society for Computer Simulation 
+International, San Diego, CA, USA, Article 34 , 8 pages. 
+Taylor, S. J. E., S. E. Chick, C. M. Macal, S. Brailsford, P. L'Ecuyer, and B. L. Nelson. 2013b. "Modeling 
+and simulation grand challenges: An ORiMS perspective. " In Proceedings of the 2013 Winter 
+Simulation Conference, edited by R. Pasupathy, S.-H. Kim, A. Tolk, R. Hill, and M. E. Kuhl, 1269-
+1282. Piscataway, New Jersey: Institute of Electrical and Electronics Engineers, Inc. 
+Taylor, S. J. E., R. Fujimoto, E. H. Page, P. A. Fishwick, A. M. Uhrmacher, and G. Wainer. 2012. "Panel 
+on Grand Challenges for Modeling and Simulation. " In Proceedings of the 2012 Winter Simulation 
+Conference, edited by C. Laroque, J. Himmelspach, R. Pasupathy, O. Rose, and A.M. Uhrmacher, 
+2614-2628. Piscataway, New Jersey: Institute of Electrical and Electronics Engineers, Inc. 
+Tolk, A., and Mittal, S. 2014. "A Necessary Paradigm Change to Enable Composable Cloud-Based M&S 
+Services. " In Proceedings of the 2014 Winter Simulation Conference, edited by A. Tolk, S. Y. Diallo, 
+I. O. Ryzhov, L. Yilmaz, S. Buckley, and J. A. Miller, 356-366. Piscataway, New Jersey: Institute of 
+Electrical and Electronics Engineers, Inc. 
+Wu, X., Qiao, F. and Poon, K. 2014. "Cloud Manufacturing Application in Semiconductor Industry. " In 
+Proceedings of the 2014 Winter Simulation Conference, edited by A. Tolk, S. Y. Diallo, I. O. 
+Ryzhov, L. Yilmaz, S. Buckley, and J. A. Miller, 2376-2383. Piscataway, New Jersey: Institute of 
+Electrical and Electronics Engineers, Inc. 
+AUTHOR BIOGRAPHIES 
+TAMAS KISS is a Reader in the Department of Computer Science, Faculty of Science and Technology, 
+University of Westminster. Currently he is Project Director of the FP7 CloudSME project. His email 
+address is T.Kiss@westminster. ac.uk. 
+HUSEYIN DAGDEVIREN is a Senior Lecturer in the Department of Computer Science, Faculty of 
+Science and Technology, University of Westminster. His email address IS 
+H.Dagdeviren@westminste r.ac.uk. 
+SIMON J. E. T AYLOR is a Reader in the Department of Computer Science at BruneI University 
+London and leads the Modelling & simulation Group as well as leading product development in 
+CloudSME. His email address issimon. taylor@brune 1.ac.uk. 
+ANASTASIA ANAGNOSTOU is a Research Fellow in the Department of Computer Science, BruneI 
+University London. Her email address isanastasia. anagnostou@brunel. ac.uk. 
+NICOLA FANTINI is the CEO of the CloudBroker GmbH, CH, and has been software engineer, project 
+manager and entrepreneur in the field of software development for more than 20 years. His email address 
+is nicola. fantini@cloudbroker .com. 
+2667 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:51:48 UTC from IEEE Xplore.  Restrictions apply. 
+

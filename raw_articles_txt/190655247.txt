@@ -1,0 +1,702 @@
+=== PÁGINA 1 ===
+RESEARCH PAPER
+The effect of free sampling strategies on freemium
+conversion rates
+Oliver Francis Koch1&Alexander Benlian1
+Received: 27 January 2016 /Accepted: 22 September 2016 /Published online: 12 November 2016
+#Institute of Applied Informatics at University of Leipzig 2016
+Abstract Freemium business models, where companies offer
+a free basic and a value-enhanced paid version of a product,
+have become ubiquitous across software, games and a broad
+range of web services. Despite the many benefits of freemium,
+most firms suffer from too few premium subscribers (3 –5% ) ,
+which challenges their profitability. Although free trials havehelped improve premium conversions, research hitherto haspaid little attention towards what works effectively. Therefore,
+we examine the effect of two common free trial strategies on
+consumers ’conversion likelihood: Freefirst, where consumers
+start in the free and then opt into a trial of the premium version
+and Premiumfirst, where things are experienced in reverse
+order. Based on a contest-based online experiment with 225subjects, our analysis reveals that in contrast to Freefirst,
+Premiumfirst significantly increases conversion propensity
+and that this positive effect is greater when the premium andthe free version are more similar.
+Keywords Freemium business models .Premium
+conversion .Free trial strategies .Product value discrepancy .
+Loss aversion .Randomized online experiment
+JEL Classification 2.20.3 .Experiment 3.080 .Consumer
+behavior 3.120 .E-Business 5.110 .ServicesIntroduction
+The surge of freemium business models across products and
+services, including software, games, and web services such as
+Dropbox, Candy Crush or Spotify has brought clear benefits
+to both users and providers, for example by facilitating the
+adoption and diffusion of new products. However, the eco-nomics of freemium still remain a challenge to companies ’
+profitability (Jiang and Sarkar 2009 ). Freemium describes
+business models where firms offer a service or a product forfree, but a fee is charged for a premium version that entails
+advanced features, functionality or less disturbance (i.e., ad-
+vertising) (Liu et al. 2014). Premium users typically account
+for 3–5 % of total users. Increasing the proportion of premium
+users opposed to free users continues to be a challenging butcritical lever for reaching profitability (Wagner et al. 2014).
+Against this backdrop, many firms such as Dropbox or
+Evernote are using free trials to counter the experience-goodcharacteristics of their digital services and thus attempt to im-prove premium conversion rates (Dörr et al. 2013; Shapiro and
+Varian 1998a ,1998b ). With experience goods, consumers can
+only assert various attributes (e.g., value) through direct expe-rience and not via external information (Chiang and Dholakia
+2003). In the context of freemium business models, companies
+offer users a free trial period (e.g., 30 days) to test out the
+premium offering with the option of going back to the free
+version after the trial. When adopting free trial strategies, firms
+commonly implement a Freefirst strategy where users would
+register for a service by starting with a free (i.e., ad-based and/
+or feature-limited) version. Only after that they are prompted to
+try out a time-limited, feature-enhanced premium version forfree they are required to make a subscription decision. More
+recently, however, firms such as Blankcanvas.io are adopting a
+Premiumfirst strategy for their products. Here, users start off
+with a time-limited, ad-free and fully featured free-trial of theResponsible Editor: Steven Bellman
+*Oliver Francis Koch
+okoch@google.com
+1Chair of Information Systems & Electronic Services, DarmstadtUniversity of Technology, Hochschulstraße 1,
+64289 Darmstadt, GermanyElectron Markets (2017) 27:67 –76
+DOI 10.1007/s12525-016-0236-z
+
+
+=== PÁGINA 2 ===
+premium version upon registration and then are downgraded to
+the free (i.e., ad-based and/or feature-limited) version
+before making an active, informed subscription decision.The basic idea of this strategy is that it may result in
+more users making an active, informed subscription de-
+cision instead of sticking to the free version withoutreally understanding what the premium version is all
+about. Furthermore, based on the notion of loss aver-
+sion, which describes a cognitive misperception that re-fers to the psychological anomaly where consumers per-
+ceive the disutility of givin g something up to be greater
+than the utility associated with acquiring it (i.e., Blosses
+loom larger than gains ^) (Kahneman et al. 1991;
+Kahneman and Tversky 1979), Premiumfirst may have
+a positive effect on how consumers perceive the added value
+of the premium compared to the free version and thus affects
+conversion rates.
+Previous research has investigated the overall benefits of
+freemium business models (e.g., Jiang and Sarkar 2009 ;
+Kumar 2014; Liu et al. 2014) and has emphasized product
+value discrepancy between the free and premium versions
+(i.e., the value differential perceived by users in terms of func-
+tionality and user experience) as critical driver of premium
+conversion decisions (e.g., Wagner et al. 2014 ). However,
+although the benefits of free trials in the context ofinformation-related experience-goods is widely acknowl-edged (e.g., Lee and Tan 2013; Shapiro and Varian 1998a ;
+Shapiro and Varian 1998b ), minimal attention has been direct-
+ed towards examining the differential effects of free trial strat-egies (i.e., Premiumfirst vs. Freefirst) and their interaction
+with varying levels of product value discrepancy between
+the free and premium versions in the context of freemiumbusiness models. To address these research gaps, this study
+aims at shedding light on the following two research ques-
+tions: (1) What is the effect of Premiumfirst opposed to
+Freefirst in affecting conversion rates? (2) What is the effect
+of Premiumfirst opposed to Freefirst in affecting conversion
+rates for different magnitudes of product value discrepancybetween the free and the premium version?
+This paper sheds light on the differential effects of
+Premiumfirst andFreefirst strategies on premium conversions
+as well as the role of perceived product value discrepancy
+between the free and premium version in moderating this ef-
+fect by drawing on a contest-based online experiment with225 subjects. Our study aims at gaining new insights into
+the conversion process of freemium users to derive implica-
+tions for the design of freemium business models.
+The rest of the paper is organized as follows. In the next
+sections, we review prior literature on freemium as well asbehavioral economics, specifically the concept of loss aver-sion, and present our research model and hypotheses. The
+subsequent section describes the research methodology used
+within our experimental study, followed by our data analysisand the results of hypothesis testing. Finally, we discuss our
+findings, limitations, implications and directions for further
+research. The last section concludes our paper.
+Background
+The freemium business model
+In freemium business models, companies offer a free basic
+and a value-enhanced paid version of a product (Veit et al.
+2014). The music streaming service Spotify for example offers
+a free version where users can access unlimited songs as long
+as they are connected to the internet and are willing to bear
+disturbing audio ads which cannot be skipped (Wagner et al.2014). In the paid premium version, users are not only spared
+from the disturbing ads, but they may also access their songsoffline from anywhere.
+Firms drawing on freemium believe that offering a free
+basic version is an effective way to attract new users and tobuild a brand. Many practitioners claim that a great proportionof users that end up purchasing the premium version would
+not have done so without the free version in place (Y .-J. Lee
+and Tan 2013; Liu et al. 2014). Furthermore, when paired with
+social sharing incentives like paying users for every new user
+that they bring, free users become an effective lever for rapidly
+growing a company ’su s e rb a s e( C .L e ee ta l . 2013;K o c ha n d
+Benlian 2015 ). In the context of mobile applications, even
+when such incentives are absent, a free app that makes it tothe top of an app store ’s ranking list can improve the visibility
+of the product because it will be displayed on the main page,
+therefore creating a virtuous loop that leads to more free users,
+which in turn can boost sales of the premium version (Liuet al. 2014). Free users are also particularly valuable to busi-
+nesses which operate in markets where so-called same-sidenetwork effects are at play, meaning situations where moreusers increase the value of the product or service for any given
+users (Cheng and Tang 2010). This is for example the case
+with Skype, where the product ’s value to users is greater when
+they can reach more people.
+Freemium has been adopted by many established compa-
+nies as well as nascent ventures ranging from Freemail pro-
+viders like Yahoo, telecommunication providers like Skype
+over Music as a Service providers like Spotify to cloud storage
+providers like Dropbox. The common denominator between
+these companies is that they rely on revenues coming from
+their comparatively small base of paying premium users (3 –
+5 %) to finance non-paying free users, while it has also be-
+come common to draw on advertisement in the free version as
+additional stream of revenue. Whereas the marginal cost offree users in social networks or online games is almost zero,
+it is often very costly to maintain them in other contexts such
+as in the case of music services, where royalties have to be68 O.F. Koch, A. Benlian
+
+=== PÁGINA 3 ===
+paid or in cloud storage services where storage has to be held.
+Under such circumstances, payments from premium users of-
+ten in combination with advertising revenues through freeusers are not necessarily sufficient to subsidize the free version
+(Wagner et al. 2014). Therefore, firms operating in freemium
+business models aim at maximizing the total amount of pre-
+mium users by reaping the adv ertising benefits obtained
+through free users while minimizing the costs associated withthese and simultaneously encouraging as many as possible tosubscribe to the premium version.
+Aside from having identified many benefits of the
+freemium business model, extant research has also paid atten-tion to factors which drive premium conversion rates, espe-
+cially the product value discrepancy between the premium and
+free version (also called premium fit) (C. Lee et al. 2013 ;
+Wagner et al. 2014). Value discrepancy describes the extent
+to which the free version differs from the premium version.The magnitude of this value discrepancy is critical in persuad-ing users to switch from free to premium (Wagner et al. 2014).
+The suggestion is that the greater the value contrast betweenthe two versions, the higher the proportion of premium userswill be, particularly because the incremental value of premium
+is perceived to be higher. Therefore, a product where the free
+version has very few features compared to the full
+(commercial) product creates high value discrepancy. On the
+other hand, a product where the free version contains manyfeatures that the full (commercial) product has creates low
+value discrepancy.
+Firms employ different magnitudes of differentiation to
+steer perceptions of value discrepancy. Dropbox for exampleoffers users two gigabytes of online storage space for free;
+paying customers can use up to 1 terabyte. In the case ofSpotify, free users can listen to music for free, however, with
+advertising interruptions which are absent in the premium
+version. Over time the firm has continuously increased thecontrast between the free and premium version by adding
+advanced features such as an offline listening mode for pre-
+mium users, which demonstrates that companies also changetheir strategy throughout a product ’s lifecycle (Kumar 2014).
+The reason for the large differences in value discrepancyacross businesses and changes of value discrepancy eventhroughout a product ’s life cycle lies in the inevitable balance
+that companies need to strike between the advertising effect offree and higher premium subscription rates. On the one hand,low value discrepancy, optionally combined with social shar-
+ing incentives, favours the generation of traffic and hence
+attracts new users, as it is more appealing when a product orservice is free (Kumar 2014). On the other hand, a high value
+discrepancy is likely to increase users ’motivation to subscribe
+to the premium version due to relatively greater limitations ofthe free version in functionality or user experience and thus to
+greater differences in perceived value between the premium
+and free version (Wagner et al. 2014). Thus, companies areconfronted with a dilemma and may need to tweak product
+value discrepancy throughout different stages of a product ’s
+life cycle to realign it with their objectives.
+More recently, attention has shifted towards freemium pro-
+viders such as Dropbox and Evernote that have started to
+adopt traditional free trial strategies to overcome theexperience-good character of the premium version. Firms typ-
+ically draw on a Freefirst strategy where users start by regis-
+tering for the free version of a product or service. At this time,
+the main objective of the provider becomes to convince users
+that they need the premium version because it offers advanced
+features, no advertising or other benefits. To lower these entrybarriers and especially influence users ’risk perceptions, a
+time-limited free trial of the premium version is offered. Onerather critical issue with this undertaking is that many usersmay actually ignore the provider ’sm e s s a g e so rs i m p l ya r en o t
+convinced or motivated enough to try out the premium ver-sion. Those that do try out the premium version come to de-cide at the end of the trial phase whether to continue with the
+premium version by subscribing or they may simply revert
+back to the free version. A hitherto under-studied but increas-ingly used alternative, which has been noticed and implement-
+ed by companies such as Blankcanvas.io, is called
+Premiumfirst , where users opt into a time-limited free trial of
+the ad-free and fully-featured premium version when theyregister and are then moved into an ad-based and/or feature-limited free version when the trial period ends. This results in
+more users making an active, informed decision whether to
+remain in the free version or subscribe to premium. However,the fact that the total number of users that will have
+examined the premium version in Premiumfirst is higher
+than in the Freefirst model also raises the question how
+users’decision to convert to premium is affected in the
+po
+st-trial phase (i.e., after they have experienced the
+premium version in the trial phase). More specifically, one
+would be interested in understanding how Premiumfirst per-
+forms compared to the more traditional method in terms ofusers’decisions to subscribe to premium once they have ac-
+tually tried the premium version. The concept of loss
+aversion from behavioural economics serves well in pro-
+viding a potential explanation on how the different strat-egies may affect consumers ’value perceptions and hence their
+conversion decision.
+To the best of our knowledge, extant research has paid little
+attention towards the effectiveness of different free trial strat-
+egies ( Freefirst vs.Premiumfirst ) in the context of freemium
+business models. As yet, the focus has been on the effective-
+ness of free trial strategies in the context of information prod-
+ucts in general (Shapiro and Varian 1998a ,1998b ) and there-
+fore neglects the complexity of freemium business models
+where users may opt into the free version of the product in-
+stead of only choosing between a purchase or not. We there-
+fore intend to close this gap.How free trial strategies affect premium conversion 69
+
+=== PÁGINA 4 ===
+The concept of loss aversion
+Classical decision making models imply that consumer deci-
+sions do not depend on current assets (Novemsky and
+Kahneman 2005). However, contemporary research and spe-
+cifically the phenomenon of loss aversion propose evidence
+that individual choice does indeed depend on current holdings
+(Tversky and Kahneman 1991 ). Loss aversion describes a
+cognitive misperception that refers to the psychological anom-
+aly where consumers perceive the disutility of giving some-
+thing up to be greater than the utility associated with acquiring
+it (i.e., Blosses loom larger than gains ^) (Kahneman et al.
+1991; Kahneman and Tversky 1979). This discrepancy is of-
+ten also referred to as the endowment effect. Reference depen-dence is a fundamental characteristic to this phenomenon andit implies that losses loom larger than gains relative to a cur-
+rent endowment (Ariely et al. 2005).
+Although there has been plenty of research on the phenom-
+enon of loss aversion and its influence on consumers ’value
+perceptions in situations of ce rtainty (e.g., Tversky and
+Kahneman 1991 ) and uncertainty (e.g., Novemsky and
+Kahneman 2005), to the best of our knowledge, there has been
+little research on how this phenomenon may be leveraged to
+influence consumer conversion decisions in the context of
+freemium business models.
+Research model
+The effect of free trial order on consumer conversion
+propensity
+Literature describes loss aversion as a phenomenon where, based
+on a specific reference point, consumers will perceive the disutil-
+ity of giving something up to be greater than the utility associated
+with acquiring it (Kahneman et al. 1990). Loss aversion may
+significantly influence consumer decision making (Kahneman
+et al. 1991; Kahneman and Tversky 1979). We propose that
+leveraging loss aversion by implementing a Premiumfirst op-
+posed to a Freefirst strategy in the context of freemium business
+models will lead to an increase in consumers’ conversion
+propensity after they have gone through the trial phase.
+Practitioners of freemium business models draw on free
+trials to reduce consumer uncertainties regarding the benefits
+and incremental value of the premium version with the ulti-
+mate goal of positively influencing their conversion decisions
+(Shapiro and Varian 1998a ,1998b ). The providers may
+choose between a Premiumfirst and the more traditional
+Freefirst strategy. Although consumers are ultimately
+confronted with the same dec ision after the trial in both
+methods (i.e., convert to premium or stick to the free version),
+their reference points will differ sharply. In Premiumfirst ,
+users will have started and learned to value the functionalityof the premium version. Therefore, when switching tothe free version afterwards, they likely use the premium
+version as reference point in assessing the value of thefree version. On the other hand, in Freefirst, users start
+with a free version missing features that are availablein the premium version. Therefore, when switching to
+the premium version afterwards, they are likely to use the free
+version as reference point for assessing the value of the pre-
+mium version.
+In sum, based on the notion of loss aversion, we expect that
+the perceived disutility is higher when consumers ’reference
+point is the premium version and they are moved to the freeversion at the end of the trial (i.e., Premiumfirst ) than the
+utility gained when they commence in the free version andthen are moved to the premium version (i.e., Freefirst ). We
+argue that this endowment effect will differentially influence
+consumers ’conversion decisions. In other words, we expect
+that consumers will perceive the incremental value of the pre-
+mium over the free version as higher in the Premiumfirst op-
+posed to the Freefirst model due to the effects of loss aversion,
+which in turn will increase their conversion propensity. Hence,we expect that.
+H1: Consumers will be more likely to make the decision
+to convert to the premium version when undergoing a
+Premiumfirst compared to a Freefirst strategy.
+The moderating role of product value discrepancy
+H1 proposes that Premiumfirst encourages post-trial consum-
+er conversions due to the effects of loss aversion. However, as
+previous research points out, firms may choose to adapt thevalue discrepancy between the free and premium ver-
+sion depending on the product ’s lifecycle and other rea-
+sons (Kumar 2014) ,w h i c hi nt u r na f f e c t sc o n s u m e r s ’
+value perceptions and conversion decisions. This bearsthe question how Premiumfirst opposed to Freefirst strategies
+affect consumer conversion decisions at different levels of
+product value discrepancy.
+W
+e propose that low opposed to high perceived value dis-
+crepancy between the free and the premium version increases
+the positive effect of Premiumfirst on consumers ’conversion
+propensity. We believe this is the case because high valuediscrepancy cancels out the effect of loss aversion on conver-
+sion rates as a high value differential will likely be such a
+dominant and evident driver for their conversion decision thatany loss aversion considerations will be pushed to the side-
+lines. That is, users will go for the premium version either way
+because the value difference is so prominent and consequen-tial. On the other hand, when discrepancy is low, the effect of
+the difference between free and premium takes a back seat in
+users ’decision-making so that loss aversion affects70 O.F. Koch, A. Benlian
+
+=== PÁGINA 5 ===
+conversion propensity. Take a web-based email provider as an
+example. If the premium version had let ’s say 15 GB of stor-
+age and the free version only had 50 MB (an example of high
+value discrepancy), then the difference in storage space utility
+between the two versions is so prominent that it does not really
+matter whether consumers undergo Premiumfirst or Freefirst.If on the other hand the premium and free version had the
+same or similar storage space and the only difference were a
+10 s non-blockable ad overlay that is displayed in regularintervals throughout a session (e.g., every five minutes), the
+value discrepancy between the two versions is so minor that
+when users start off with the premium and then move to thefree version, the pain is likely perceived to be much greater
+than the gain when moving from free to premium. This
+discrepancy in perceived loss and perceived gain could thusbe explained through the effect of loss aversion. Figure 1
+provides a summary of our research model and hypotheses.
+Overall, we thus suggest that choosing a Premiumfirst op-
+p o s e dt oa Freefirst strategy leads to a larger improve-
+ment in conversion likelihood when value discrepancyis low compared to when it is high. Therefore, we hy-pothesize that.
+H2: Product value discrepancy will moderate the relation-
+ship between free trial strategy and consumer conversion
+propensity such that Premiumfirst ’se f f e c to nc o n s u m e r
+conversion propensity will be higher when product value
+discrepancy is low compared to high.
+Research methodology
+Experimental design and procedures
+We conducted a contest-based online experiment to test our
+hypotheses. The study was positioned as preparatory measurein the context of an online contest where users had the chance
+of winning $10 based on the number of math problems they
+solved (correctly) within a given period. The preparatory mea-sure gave users the chance to test a free and premium online
+calculator called iCalculator by solving various math prob-
+lems before making a decision whether they would competewith the free or premium version within the actual contest.
+The iCalculator was self-developed by the authors and de-
+signed according to real online calculator services offered
+through a freemium business model on the Internet. In their
+basic and free versions, such online calculators offer onlybasic features and display ads from third-party compa-
+nies, while the premium versions are ad-free and con-
+tain much more features and add-on functionalities suchas graphical plotting functions which are comparable to that of
+an advanced physical calculator (such as the TI86 from
+Texas Instruments).In our experimental study, we employed a 2 (Free Trial
+Strategy: Freefirst vs.Premiumfirst ) × 2 (Product Value
+Discrepancy: Low vs. High) between-subjects, full-factorialdesign (Benlian 2015). Aside from manipulating the order in
+which the users experienced the premium and free version,which led to the two different free trial strategy conditions(Premiumfirst vs.Freefirst ), we also manipulated the level
+of product value discrepancy in the two different conditions(low vs. high).
+Consistent with the sampling and procedures in previous
+online experiments (e.g., Ho et al. 2011; Lowry et al. 2013),
+we recruited participants for the online experiment via e-mailfrom a representative student subject pool maintained by a
+large public university in Germany. Subjects were motivated
+to partake in the study in exchange for a small fix reward of€2. Those who opted to participate could click a web link in
+the email to start the process. As depicted in Fig. 2, the exper-
+iment proceeded in three major steps. First, before being ran-domly assigned to one of the four conditions, participants
+received the instructions that they will be getting access to
+both the free basic and a paid premium version of an onlinecalculator called iCalculator and that they will be asked to
+answer some questions while doing so. They were also in-
+formed that after having tested the two versions they would
+proceed to the actual contest where the math problems will be
+similar to those that they will receive while testing the twodifferent calculator versions. They then commenced in one of
+the four experimental conditions and tried to solve as many
+math problems as possible with the provided calculator ver-sion in a time frame of 2 min (Step 1). Second, they were
+forwarded to the other version of the calculator (i.e., either
+premium of free depending on the condition they wereassigned to) and again solved math problems for 2 min (Step
+2). In the last step of the experiment, participants were
+forwarded to a questionnaire that recorded demographics, riskattitudes and other variables, after being confronted with the
+decision what calculator to use (Step 3) in the upcoming math
+contest (Step 4). They had the choice of proceeding with thefree version or sacrificing €5 out of their potential €10 prize
+for being able to compete with the premium version ofiCalculator. This decision represents a trade-off to the usersin terms of forfeiting a proportion of their potential gains for a
+better chance of winning depending on their perceptions re-
+garding the incremental value of the premium version and is acommon incentivization in contest-based online experiments
+(Bardsley 2010). At the end, subjects were debriefed and
+thanked for their participation.
+Manipulations and measured variables
+The two free trial strategies were implemented as follows: in
+Freefirst , users started with the free version and switched to
+the premium version after 2 min (see conditions 1 & 3 inHow free trial strategies affect premium conversion 71
+
+=== PÁGINA 6 ===
+Table 1). In the Premiumfirst condition, users started with the
+premium version and then were moved to the free version
+after two minutes (see conditions 2 & 4 in Table 1).
+Product value discrepancy was manipulated by addingor removing features to/from the premium/free version
+(see conditions 1 & 2 –low discrepancy vs. 3 & 4 –
+high discrepancy in Table 1). More specifically, in the
+low value discrepancy condition, the only factor that thepremium version differed in was the absence of an 8 sad which was displayed after every solved math prob-
+lem. In the high value discrepancy condition, the premi-
+um version also had more task-relevant features (e.g., expo-nentiation functions) aside from the absence of ads. In total, as
+depicted in Table 1, our experiment consisted of four condi-
+tions by combining each of the two free trial strategies
+(Premiumfirst vs.Freefirst ) with the two levels of value dis-
+crepancy (low vs. high).
+2.
+To develop the stimuli for our studies and serving as pre-
+liminary manipulation checks, we conducted a pre-test in
+which 35 participants (52 % females, mean age = 24) an-
+swered closed manipulation questions regarding the free trialstrategy and assessed the value discrepancy between the free
+and premium version. For the free trial strategy, all partici-
+pants rated the order in which they experienced the premiumand free version correctly. Furthermore, they also assessed the
+value discrepancy in the high discrepancy condition to be
+significantly greater (M = 5.89) than in the low discrepancycondition (M = 4.24) (F(1, 34) = 30.92, p<. 0 0 1 ) .
+Our dependent variable (i.e., propensity to convert), was
+measured as a binary variable (converted vs. not converted)based on actual conversion during the online experiment. In
+consonance with Moe and Fader ( 2004), who measured pur-
+chase propensity in the context of website visits, we describeconversion propensity as the probability of making a conver-
+sion by defining a point estimator based on:
+Pconversion in Group Z ðÞ ¼
+X n
+k¼1xk
+n
+Where Z refers to one of the four subgroups or conditions
+(e.g., Premiumfirst & Low Value Discrepancy), n denotes the
+total amount of participants in the respective subgroup and x k
+is a dichotomous variable which equals 1 when a participant
+decided to convert and 0 if not.
+In addition, the following control variables were measured:
+age, gender, education (years of schooling), risk aversion andperformance differential within the experiment. Risk aversion
+was measured according to the decision-based scenario ofKahneman and Tversky ( 1979) in which consumers have to
+decide between a sure $5 payoff and an uncertain $10 payoffwith a 50 % probability. Performance differential was measuredas the difference in points scored in the premium version vs. the
+free version, whereas points are calculated through the amount
+of problems solved and the percentage solved correctly. Wechecked the identification of the free and premium version
+based on the sequence they were accessible during the testing
+steps via a manipulation check question (i.e., BIn what order did
+you have access to the full and limited version of iCalculator?
+(1) Step 1: Full; Step 2: Limited or (2) Step 1: Limited; Step 2:
+Full^). Perceived product value discrepancy was measured
+through a manipulation check question (i.e., BThe free version
+differentiates strongly from the premium version ^) in accor-
+dance with Wagner et al. ( 2014). A 7-point Likert scale was
+employed here with anchors ranging from strongly disagree(1) to strongly agree (7).Free Trial Strategy
+(Premiumfirst vs. 
+Freefirst )Conversion
+PropensityProduct Value 
+Discrepancy
+H1
+H1 = Main effect hypothesis
+H2 = Interaction effect hypothesisH2Fig. 1 Research model and
+hypotheses
+Fig. 2 Experimental Procedure72 O.F. Koch, A. Benlian
+
+=== PÁGINA 7 ===
+Sample description, control and manipulation checks
+Out of the 325 subjects from the online pool that were invited
+to the study, 240 answered our invitation e-mail (response
+rate: 74 %). Fifteen participants were removed from the sam-
+ple because they failed to complete the questionnaire andfailed the attention filter question. Hence, we used a sample
+of 225 subjects in the following analysis, of which 100 were
+females and 115 males, with an average age of 24.09 years,ranging from 19 to 42. Table 2summarizes the descriptive
+statistics including all dependent variable cell means, whichare interpreted in the Interaction Effect Analysis for Free Trial
+Order and Product Value Discrepancy section.
+We tested for a non-response bias by comparing the answers
+of the last quarter of participants with the answers of the re-maining participants (Armstrong and Overton 1977;L a m b e r t
+and Harrington 1990). The results showed no significant dif-
+ferences such that non-response bias is unlikely to have affect-ed the results of this study. Furthermore, we conducted several
+one-way ANOVAs to confirm that the random assignment of
+participants to the experimental conditions was successful. Theresults did not indicate any statistically significant differences
+in age, gender, education and risk attitude between all experi-
+mental groups, hence suggesting that randomization was suc-
+cessful (all p> .05). As in our pre-test, all participants rated the
+order of the premium and free versions to which they were
+assigned correctly. Furthermore, they also assessed the value
+discrepancy in the high discrepancy condition to be significant-
+ly greater (M = 5.84) than in the low discrepancy condition(M = 3.71) (F(1, 216) = 26.3, p< .001). Consequently, our
+manipulation checks proved successful.
+Although our study focuses on the results obtained from a
+product evaluation and not the actual contest and users there-
+fore had little motivation to cheat, we measured various met-
+rics to ensure that participants complied with the rules of theexperiment (i.e., not to use a calculator other than iCalculator
+when solving the tasks). Aside from the average time required
+to solve a task and the number of tasks solved in the 2 mintimeframe, we also measured the number of buttons pushed
+(i.e., operations and numbers) on iCalculator. We did not iden-
+tify significant deviations, suggesting that participants wereunlikely to have used a third-party calculator.
+Results
+The effect of free trial order on consumer conversionpropensity
+To test H1 and H2, we conducted a two stage hierar-
+chical logistic regression on the dependent variable conver-
+sion propensity (see Table 2)( H a y e s 2013). We first entered
+the main effects (Model 1) and then the interaction effectTable 1 Four experimental conditions (between-subjects)
+Conditions: 1. Freefirst-Low Discrepancy 2. Premiumfirst-Low Discrepancy
+Order of Free Trial Strategies: Step 1: F ree version Step 2: Premium version Step 1: Premium version Step 2: Free version
+Value discrepancy manipulations: B asic calculator features with adsaBasic calculator features without ads Basic calculator fe atures without ads Basic calculator featur es with adsa
+Conditions: 3. Freefirst-High Discrepancy 4. Premiumfirst-High Discrepancy
+Order of Free Trial Strategies: Step 1: F ree version Step 2: Premium version Step 1: Premium version Step 2: Free version
+Value discrepancy manipulations: B asic calculator features with adsaAdvanced calcul ator featuresbwithout ads Advanced calculator featuresbwithout ads Basic calculator features with adsa
+aAds include 8 s ads after each solved math problem displayed right next to the calculator
+bAdvanced features include additional calculator features (e.g., exponent iation or square roots functions) available to users that facilitate cal culation procedures for s olving math problemsHow free trial strategies affect premium conversion 73
+
+=== PÁGINA 8 ===
+(Model 2). Both models were statistically significant at
+p< 0.001. We excluded the controls from our analyses
+because they did not significantly differ between the exper-
+imental conditions. Furthermore, there were also no signifi-
+cant correlations among the controls and between the controls
+and the dependent variable.
+The results of the logistical regression revealed a signifi-
+cant main effect of free trial order (b = 1.801, Wald statistic(1) = 16.681, p< 0.001) and value discrepancy (b = 1.770,
+Wald statistic (1) = 18.424, p < 0.001). Hence, consistent with
+H1, the odds ratio suggests that the odds of converting in
+Premiumfirst are 6.053 times the odds of converting in
+Freefirst . Furthermore, consistent with the findings of
+Wagner et al. ( 2014), participants in the high discrepancy con-
+dition were 5.868 times more likely to convert to the premiumversion than those in the low discrepancy condition. Taken
+together, these results show that priming users in a freemium
+business model with a Premiumfirst strategy significantly in-
+creases the probability of them converting.Interaction effect analysis for free trial order and product
+value discrepancy
+As indicated in model 2 of our logistic regression results (see
+Table 3), the main effects of Free Trial Strategy andValue
+Discrepancy on conversion propensity were qualified by a
+significant two-way interaction (b = −1.845, Wald statistic
+(1) = 4.214, p< 0.05), suggesting that both main effects on
+conversion behavior are contingent on the presence of each
+other. To further test H2, we conducted planned contrast com-
+parisons to examine the conditional effects of Free Trial
+Strategy at different levels of Product Value Discrepancy
+(low, high). The results in Fig. 3highlight that when value
+discrepancy is low, participants are more likely to convert to
+premium in the Premiumfirst opposed to Freefirst strategy
+(91.00 % vs. 50.00 %, F = 27.293, p<0 . 0 0 1 ) .H o w e v e r ,a
+significant difference in conversion propensity betweenPremiumfirst andFreefirst did not emerge at high value dis-
+crepancy (93.00 % vs. 90.00 %, F = 0.406, p>0 . 2 5 ) .Table 2 Descriptive statistics
+Construct Mean StD Min Max
+Demographics
+Age 24.09 2.37 19 42
+Controls
+Risk aversion 0.24 0.43 0 1
+Performance differential 2.23 1.63 0 8
+Dependent variable
+Overall Conversion (in %) 86.00 % 0.35 0 1Conversion % freefirst low discrepancy 50.00 % 0.51 0 1Conversion % premiumfirst low discrepancy 91.00 % 0.29 0 1Conversion % freefirst high discrepancy 90.00 % 0.30 0 1Conversion % premiumfirst high discrepancy 93.00 % 0.26 0 1
+Means, standard deviations and range, N=2 2 5
+Table 3 Binary logistic regression
+Model 1 Model 2
+Construct Coefficient SE Odds ratio Coefficient SE Odds ratioIntercept 0.138 0.260 1.147 0.00 0.267 0.000Manipulations
+Free Trial Strategy
+a(base case Freefirst) 1.801*** 0.441 6.053 2.303*** 0.540 10.00
+Product Value Discrepancyb(base case low value discrepancy) 1.770*** 0.412 5.868 2.181*** 0.480 8.857
+Free Trial Strategy X Value Discrepancy -1.845* 0.899 0.158Log likelihood 182.309 178.485Nagelkerke ’sR
+20.245 0.268
+Omnibus Model χ237.214*** 41.038***
+*p<. 0 5 ;* * p<. 0 1 ;* * * p<. 0 0 1 , N=2 2 5
+aFree trial strategy was dummy coded with 0 = Freefirst and 1 = Premiumfirst
+bValue Discrepancy was dummy coded with 0 = Low Discrepancy and 1 = High Discrepancy74 O.F. Koch, A. Benlian
+
+=== PÁGINA 9 ===
+Conclusion and implications
+This paper aimed to shed light on the potential of free trial
+strategies in improving consumers ’premium conversion pro-
+pensity within freemium business models.
+Our results support the premise that Premiumfirst has a
+positive causal effect on consumers ’conversion propensity.
+The underlying theoretical explanation is that consumers will
+perceive the incremental value of the premium over the freeversion as higher in the Premiumfirst opposed to the Freefirst
+model due to the effects of loss aversion, which in turn willincrease their conversion propensity. In addition, we foundthat product value discrepancy acts as significant moderator
+for the effect of Premiumfirst on consumers ’conversion pro-
+pensity. Our results suggest that Premiumfist leads to a higher
+increase in conversion likelihood when value discrepancy islow compared to when it is high. We believe this is the case
+because high value discrepancy cancels out the effect of lossaversion on conversion rates as it is the more dominant driver
+(i.e., users will go for the premium version either way because
+the value discrepancy is so prominent). On the other hand,when value discrepancy is low, the effect of the difference
+between free and premium takes a back seat so that loss aver-
+sion becomes the more dominant mechanism affecting con-version propensity.
+Our study contributes to the still nascent freemium litera-
+ture and research on free trial strategies by expanding ourunderstanding of the antecedents of consumer conversion de-
+cisions in freemium business models. We examine a previous-
+ly underexplored free trial strategy, PremiumFirst ,a n di t si m -
+pact on conversion behavior in the context of an online exper-
+iment measuring actual conversion behavior. Furthermore, we
+examine how the level of product value discrepancy, whichhas represented a big dilemma in terms of trading off the
+positive effects of free and the cost of giving up premium
+conversions, affects the relationship between Premiumfirstand conversion propensity, thereby explicating an important
+moderator for the effect of the Premiumfirst strategy .
+While the preceding paragraph highlighted our theoretical
+contributions, there are also several practical implications thatneed to be pointed out. Although our results may lead to
+conclude that firms should always employ Premiumfirst ,w e
+believe Premiumfirst is by no means a panacea and that one
+needs to interpret our findings with caution. Premiumfirst
+should rather be considered as additional option in the strate-gic arsenal of design choices. Especially for firms which fol-
+low a strategy of high value discrepancy due to cost dynamics
+(i.e., the costs generated by free users are high), Premiumfirst
+may not always be the most attractive option. In such situa-
+tions, placing every user in a time-limited premium trial
+from the very start equates to a large upfront investmentthat may never be recouped. The company may very
+well be better off just trying to upgrade selective users
+by offering time-limited trials based on what is affordable.However, we do urge firms that employ financially viable
+low discrepancy strategies to consider Premiumfirst as effec-
+tive alternative to the more common choice of Freefirst be-
+cause it allows benefiting from advertising effects withoutsacrificing premium conversion rates.
+The findings of our study need to be interpreted in light of
+some noteworthy limitations that also provide avenues for
+future research. We provided loss aversion as plausible expla-nation for the effect of Premiumfirst on conversion propensity.
+Another related theoretical lens that may explain our results is
+the status quo bias, which claims that humans simply resistchange. More research is required to identify what is actually
+driving the positive effect of Premiumfirst. Also, our study has
+focused only on one moderating mechanism (i.e., value dis-crepancy). Future studies need to consider other possible mod-
+erators. Distraction due to ads may hinder users from coming
+up with a perceived value differential between the free andpremium version. Also, the value differential may for example
+be driven by how complete users perceive the free version to
+be. Furthermore, caution should be taken when drawing con-clusions from one single and cross-sectional study. Due to the
+nature of the experimental setting, we were not able to exam-
+ine the effects over a longer time frame. Consumers oftenenjoy a 30-day trial period before making a conversion deci-
+sion. Future research should examine our findings across other
+contexts (e.g., entertainment/ video on demand services) andat various trial phase lengths. Lastly, even though we believe
+our subject pool is representative for typical consumer behav-
+iour, it does represent a limitation. Future studies should focuson corroborating our findings in the context of randomized
+field experiments with actual consumers.
+In conclusion, this study illuminated the interaction be-
+tween different free trial strategies and product value valuediscrepancy in enhancing consumer conversion likelihood in
+the context of freemium business models. This interplay is0102030405060708090100
+Premiumfirstp< 0.001p> 0.05
+50%
+Freefirst91%93%90%Conversion Propensity (%)High LowProduct
+Va l u e  D i sc r e p a n c y
+Fig. 3 Conversion propensities for premiumfirst vs. freefirst at low vs.
+high levels of value discrepancyHow free trial strategies affect premium conversion 75
+
+=== PÁGINA 10 ===
+critical for freemium business models, which are increasingly
+being adopted especially because of the benefits related to
+rapid product adoption and diffusion, yet are still challengingwhen it comes to reaching profitability due to low premium
+conversion rates. We hope that our study gives fresh impetus
+to fuel the stream of research on (freemium) business modelsand also help online firms to refine their knowledge about how
+they can shape free trial strategies and product value discrep-
+ancy to affect premium conversion of their customers.
+Acknowledgements The second author gratefully acknowledges finan-
+cial support from the Werner-Jackstaedt-Foundation in Germany (Grant
+No. 010103/56300720).
+References
+Ariely, D., Huber, J., & Wertenbroch, K. (2005). When do losses loom
+larger than gains? Journal of Marketing Research, 42 (2), 134 –138.
+Armstrong, J. S., & Overton, T. S. (1977). Estimating Nonresponse Bias
+in Mail Surveys. Journal of Marketing Research, 14 (3), 396 –402.
+Bardsley, N. (2010). Experimental Economics: Rethinking the Rules .
+Princeton University Press .
+Benlian, A. (2015). Web personalization cues and their differential effects
+on user assessments of website value. Journal of Management
+Information Systems, 32 (1), 225 –260.
+Cheng, H. K., & Tang, Q. C. (2010). Free trial or no free trial: Optimal
+software product design with network effects. European Journal of
+Operational Research, 205 (2), 437 –447.
+Chiang, K.-P., & Dholakia, R. R. (2003). Factors driving consumer in-
+tention to shop online: an empirical investigation. Journal of
+Consumer Psychology, 13 (1), 177 –183.
+Dörr, J., Wagner, D.-V . T., Benlian, A., & Hess, T. (2013). Music as a
+Service as an Alternative to Music Piracy? Business & Information
+Systems Engineering, 5 (6), 383 –396.
+Hayes, A. F. (2013). Introduction to Mediation, Moderation, and
+Conditional Process Analysis: A Regression-based Approach. New
+York. NY: Guilford Press.
+Ho, S. Y ., Bodoff, D., & Tam, K. Y . (2011). Timing of adaptive web
+personalization and its effects on online consumer behavior.
+Information Systems Research, 22 (3), 660 –679.
+Jiang, Z., & Sarkar, S. (2009). Speed matters: The role of free software
+offer in software diffusion. Journal of Management Information
+Systems, 26 (3), 207 –240.
+Kahneman, D., & Tversky, A. (1979). Prospect Theory: An Analysis of
+Decision under Risk. Econometrica, 47 (2), 263 –291. doi: 10.2307
+/1914185 .Kahneman, D., Knetsch, J. L., & Thaler, R. H. (1990). Experimental tests
+of the endowment effect and the Coase theorem. Journal of Political
+Economy , 1325 –1348. doi: 10.1086/261737 .
+Kahneman, D., Knetsch, J. L., & Thaler, R. H. (1991). Anomalies: The
+Endowment Effect, Loss Aversion, and Status Quo Bias. Journal of
+Economic Perspectives, 5 (1), 193 –206.
+Koch, O. F., & Benlian, A. (2015). Promotional tactics for online viral
+marketing campaigns: how scarcity and personalization affect seedstage referrals. Journal of Interactive Marketing, 32 ,3 7–52.
+Kumar, V. (2014). Making" freemium" work. Harvard Business Review,
+92(5), 27 –29.
+Lambert, D. M., & Harrington, T. C. (1990). Measuring Nonresponse
+Bias in Customer Service Mail Surveys. Journal of Business
+Lo 
+gistics, 11 (2), 5–25.
+Lee, Y .-J., & Tan, Y . (2013). Effects of different types of free trials and
+ratings in sampling of consumer software: An empiricalstudy. Journal of Management Information Systems, 30 (3),
+213– 246.
+Lee, C., Kumar, V., & Gupta, S. (2013) . Designing Freemium: a Model of
+Consumer Usage, Upgrade, and Referral Dynamics: HBS WorkingPaper.
+Liu, C. Z., Au, Y . A., & Choi, H. S. (2014). Effects of Freemium Strategy
+in the Mobile App Market: An Empirical Study of GooglePlay. Journal of Management Information Systems, 31 (3),
+326– 354.
+Lowry, P. B., Moody, G. D., Galletta, D. F., & Vance, A. (2013). The
+Drivers in the Use of Online Whistle-Blowing Reporting Systems.
+Journal of Management Information Systems, 30 (1), 153 –190. doi:
+10.2753/MIS0742– 1222300105
+Moe, W. W., Fader, P. S. (2004). Dynamic conversion behavior at E-
+Commerce Sites. Management Science, 50 (3), 326 –335.
+Novemsky, N., & Kahneman, D. (2005). The boundaries of loss aversion.
+Journal of Marketing Research, 42 (2), 119 –128.
+Shapiro, C., & Varian, H. R. (1998a). Information Rules: A Strategic
+Guide to the Network Economy . Boston, MA: Harvard Business
+School Press.
+Shapiro, C., & Varian, H. R. (1998b). Versioning: The Smart Way to.
+Harvard Business Review, (November/December 1998) ,1 0 6–115.
+Tversky, A., & Kahneman, D. (1991). Loss aversion in riskless choice: A
+reference-dependent model. The Quarterly Journal of Economics,
+106,1 0 3 9 –1061.
+Veit, D. J., Clemons, E. K., Benlian, A., Buxmann, P., Hess, T., Kundisch,
+D., Leimeister, J. M., Loos, P., & Spann, M. (2014). Business
+models –an information systems research agenda. Business &
+Information Systems Engineering, 6 (1), 45 –53.
+Wagner, T. M., Benlian, A., & Hess, T. (2014). Converting freemium
+customers from free to premium —the role of the perceived premium
+fit in the case of music as a service. Electronic Markets, 24 (4), 259 –
+268.76 O.F. Koch, A. Benlian
+

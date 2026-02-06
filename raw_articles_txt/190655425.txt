@@ -1,0 +1,1236 @@
+=== PÁGINA 1 ===
+The Journal of Systems and Software  122 (2016) 40–51 
+Contents  lists available  at ScienceDirect  
+The Journal  of Systems  and Software  
+journal  homepage:  www.elsevier.com/locate/jss  
+Adjusting  software  revenue  and pricing  strategies  in the era of cloud  
+computing  
+Arto Ojala ∗
+Department  of Computer  Science and Information  Systems, University  of Jyväskylä,  P.O. Box 35, Agora 5th ﬂoor, FI-40014,  Finland 
+a r t i c l e i n f o 
+Article history: 
+Received  9 December  2015 
+Revised 26 July 2016 
+Accepted  23 August 2016 
+Available  online 24 August 2016 
+Keywords:  
+Software  pricing 
+Servitization  
+Competitive  strategy 
+Cloud computing  
+SaaS a b s t r a c t 
+Recent research  has recognized  cloud computing  as a new paradigm  of servitization  in which software  
+products  are offered based on service contracts.  Thus, instead of selling software  licenses,  software  ven- 
+dors can rent software  as a service to customers.  However,  it is still unclear how software  providers  can 
+use software  renting as a competitive  strategy  in the software  market.  Based on 37 interviews  with soft- 
+ware professionals  from ﬁve case ﬁrms, this paper focuses on the connection  between  competitive  forces 
+and the factors inﬂuencing  the selection  of a pricing model. The ﬁndings  indicate  that servitization  of the 
+software  offering  makes it possible  to adjust revenue  and pricing strategies  relative to market competi-  
+tion. Depending  on the competitive  situation  in the market,  ﬁrms apply mixed revenue  models,  or else a 
+hybrid pricing mechanism,  to protect their business  against rivalry and substitutes.  The software  renting 
+model has several advantages  which signiﬁcantly  help software  vendors  to expand their business  oppor- 
+tunities.  However,  in some cases, powerful  customers  are able to limit the revenue  and pricing options.  
+The ﬁndings  also indicate  that software  renting is related to cost leadership  and differentiation  strategies,  
+whereas  software  licensing  is linked to a focus strategy.  
+© 2016 Elsevier Inc. All rights reserved.  
+1. Introduction  
+Cloud computing  is servitizing  the information  technology  (IT) 
+industry  ( Huang and Shen, 2015; Sultan,  2014a, 2014b; Wortmann  
+et al., 2012 ). The increasing  movement  towards  servitization  of the 
+software  offering  through  cloud computing  is changing  the com- 
+petitive  environment  in the software  industry  ( Cusumano,  2010; 
+Sultan,  2014a, 2014b; Wortmann  et al., 2012 ), and challenging  ex- 
+isting business  strategies  ( Bustinza  et al., 2015 ). To compete  in the 
+software  market,  software  developers  have to take these changes  
+into account  and to rethink  how to offer their software  to cus- 
+tomers,  given that traditional  software  licensing  1 and ﬁxed soft- 
+ware development  contracts  are becoming  more demanding  (see 
+e.g., Ahonen  et al., 2015; Cusumano,  2007, 2010; Lee et al., 2013 ). 
+The movement  to a servitization  model facilitates  the offering  of 
+software  through  service  contracts  (cf. Barnett  et al., 2013 ) rather 
+than by licensing  software  to a customer.  In this situation,  serviti-  
+zation of traditional  software  products  into a software  as a service  
+∗Corresponding  author. 
+E-mail address: arto.k.ojala@jyu.ﬁ
+1 In this study, “software  licensing” refers  to a situation  in which a customer  buys 
+a software  license for a single user or a certain number of processors,  with no time 
+limitation  on usage of the software.  (SaaS 2 ) model permits  a number  of revenue  3 and pricing models.  
+However,  it also involves  challenges,  making  it diﬃcult  to sustain  
+a proﬁtable  revenue  stream.  
+Because  software  products  belong to the category  of intangible  
+information  goods ( Valtakoski,  2015 ), the price of the ﬁrst prod- 
+uct is usually  very high, while reproduction  and delivery  costs are, 
+in many cases, close to zero. This allows software  providers  to 
+use varied revenue  and pricing  models  (e.g., Linde, 2009 ). In most 
+cases, the copyright  for the software  belongs  to the producer.  Thus, 
+the software  is licensed  to the customer,  and the license  may limit 
+usage of the software  in such a way that the licensee  cannot re- 
+sell, modify,  or re-rent  the software  without  the permission  of the 
+provider  ( Choudhary  et al., 1998; Sun et al., 2008 ). The traditional  
+way to sell the software  license  is to sell a perpetual  software  li- 
+cense for a single user or machine  (out-of-the-box  software),  or 
+else to sell a license  to use the software  in a certain  number  of 
+processors  ( Ferrante,  2006 ). Recently,  a number  of studies  have 
+suggested  that software  renting  is becoming  more frequent  in the 
+new era of servitization,  within which software  is delivered  via 
+2 In line with Armbrust  et al. (2010) and McAfee (2011) , SaaS refers here to the 
+software  delivery model, irrespective  of the revenue or business  model used. In the 
+SaaS model, software  is delivered  as a service and used over the Internet.  
+3 The term “revenue  model” is  used here  to refer to different  ways of offering 
+software,  including  software  renting, software  licensing,  and pay-per-use  methods.  
+http://dx.doi.org/10.1016/j.jss.2016.08.070  
+0164-1212/© 2016 Elsevier Inc. All rights reserved.  
+
+=== PÁGINA 2 ===
+A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 41 
+the SaaS model ( Huang and Shen, 2015; Choudhary,  2007; Leavitt,  
+2009; Ojala, 2012, 2013; Sultan,  2014a; Waters,  2005 ). 
+A number  of studies  on economic  models  have investigated  
+the beneﬁts  of renting  as compared  to buying  a product  outright  
+(e.g. Bucovetsky  and Chilton,  1986; Choudhary,  2007; Choudhary  
+et al., 1998; Flath, 1980 ). These studies  have used analytical  ap- 
+proaches  that simplify  real-world  settings,  seeking  to apply alge- 
+braically  testable  rules to determine  the beneﬁts  of rental agree- 
+ments. However,  these economic  models  cannot be applied  to the 
+software  industry  as they stand, since they have been based on 
+monopolistic  market  situations  and have neglected  market  com- 
+petition.  For this reason,  it remains  unknown  how software  ﬁrms 
+select their revenue  and pricing  models  in competitive  markets,  
+where they have several  options  that can be applied  exclusively  
+or in parallel.  
+In seeking  to increase  our theoretical  understanding  of soft- 
+ware revenue  and pricing  strategies,  and to ﬁll the research  gaps 
+discussed  above, we applied  Porter’s  (1980, 2008 ) theory of com- 
+petitive  advantage.  Our primary  goal was to address  one overall 
+question,  namely:  How can SaaS providers  adjust their revenue  and 
+pricing strategies  in competitive  markets?  This question  can be di- 
+vided into two sub questions:  (1) What are the competitive  forces 
+that drive SaaS providers  to rent their software?  and (2) What are 
+the competitive  forces that inhibit SaaS providers  from renting  their 
+software?  Thus, the aim was to study the link between  competitive  
+forces in the market  and particular  revenue  and pricing  models.  In 
+addition,  this study responded  to the recent call by Smolander  et 
+al. (2016) in Journal  of Systems  and Software,  urging researchers  to 
+develop  a better understanding  of the interactions  between  soft- 
+ware business  and software  engineering.  This is especially  impor- 
+tant in the context  of cloud computing,  given that –a s noted by Li 
+et al. ( 2016 , p. 13) – “Appropriate  pricing  schemes  and techniques  
+are crucial for developing  and maintaining  a successful  and sus- 
+tainable  Cloud ecosystem.”
+As a theoretical  contribution  to the ﬁeld, this research  ﬁrst of 
+all indicates  how competitive  forces ( Porter, 1980 ) in the mar- 
+ket shape software  revenue  and pricing  models  in cloud comput-  
+ing, and how different  revenue  and pricing  models  lead to dif- 
+ferent competitive  strategies.  Secondly,  the study contributes  to 
+the emerging  literature  on IT servitization  ( Bustinza  et al., 2015 ), 
+by indicating  how IT servitization  makes it possible  to use dif- 
+ferent competitive  strategies  ﬂexibly,  according  to market  compe-  
+tition and customers’  preferences.  Thirdly,  the ﬁndings  here add 
+to earlier studies  on software  renting  and pricing,  revealing  how 
+servitization  is moving  revenue  models  from selling products  to- 
+wards rental contracts  ( Barnett  et al., 2013 ). Finally,  this study adds 
+to previous  economic  literature  and studies  on software  renting  
+(which  have mainly  applied  predetermined  variables),  and extends  
+the focus to cover monopolistic  market  situations.  From a practi- 
+cal perspective,  the factors impacting  on software  pricing  are im- 
+portant  for managers  deciding  on software  engineering  options,  
+since the software  architecture  4 that is developed  may either limit  
+or open up possibilities  for different  revenue  and pricing  models  
+( Laatikainen  and Ojala, 2014 ). 
+The paper is organized  as follows:  Section  2 discusses  re- 
+lated studies  on cloud computing,  software  revenue  models,  and 
+competitive  strategies.  Section  3 presents  the qualitative  research  
+method  applied  in this study, followed  in Section  4 by the case 
+study ﬁndings.  Section  5 discusses  the ﬁndings  in relation  to previ- 
+ous literature.  Finally,  Section  6 presents  concluding  thoughts  and 
+practical  implications.  
+4 Software  architecture  refers to the components  and relationships  of the internal 
+parts of a software  system ( Bass et al., 1998 ), such as user interface  components  and 
+database  management  systems, which may be available  only in desk-top  computers,  
+traditional  back-oﬃce  servers, cloud platforms,  or multiples  of these environments.  2. Related  work 
+This section  aims ﬁrst to review servitization  in the context  of 
+cloud computing  and how it impacts  on the market  strategies  of 
+SaaS providers  and adopters.  Thereafter,  the beneﬁts  of software  
+rental are discussed  from the perspective  of software  customers  
+and providers,  with discussion  also of the different  pricing  models  
+used in software  renting.  Finally,  Porter’s  (1980 ) theory of compet-  
+itive strategy  is presented  and discussed,  in relation  to the frame- 
+work of the present  study. 
+2.1. Servitization  in the context  of cloud computing  
+Servitization  has been of increasing  interest  to scholars,  start- 
+ing from the late 1970 s ( Baines et al., 2009 ). A seminal  paper 
+by Vandermerwe  and Rada (1988 , p. 314) deﬁned  the concept  as 
+“Market  packages  or ‘bundles’  of customer-focused  combinations  of 
+goods, services,  support,  self-service  and knowledge.” Since  then, 
+several  alternative  deﬁnitions  have emerged,  and servitization  is 
+now commonly  used as an umbrella  term for a variety  of service-  
+based models  (see e.g. Baines et al., 2009; Schroeder  and Kotlarsky,  
+2015 ). Traditionally,  servitization  has been studied  in the context  
+of manufacturing,  encompassing  how manufacturing  ﬁrms can cre- 
+ate value by adding  services  to their products  ( Baines et al., 2009; 
+Sultan,  2014a ). However,  in the case of cloud computing,  serviti-  
+zation is seen as a new model by which hardware  and software  
+can be turned into a service  ( Schroeder  and Kotlarsky,  2015; Sul- 
+tan, 2014a, 2014b; Wortmann  et al., 2012 ). On the basis of these 
+previous  works, and the context  of present  study, servitization  is 
+seen as a process  whereby  the physical  IT environment  and tra- 
+ditional  software  products  are transformed  into a service  that is 
+offered  for customers  over the Internet.  In a servitized  software  of- 
+fering, customers  do not need to have their own physical  IT infras- 
+tructure  (servers,  storage  memory,  computing  capacity,  platform,  
+etc.); nor is it necessary  to install software  from physical  media 
+to the computer.  Instead,  the software  can be accessed  as a service  
+using any computer  or other device (such as a mobile  phone or 
+tablet) connected  to the Internet.  This differentiates  servitization  
+from “software  services,” in  which only some aspects  of the soft- 
+ware products  are offered  as a service  ( Suarez et al., 2013 ). Cloud 
+computing-based  servitization  can be roughly  divided  into three 
+service  layers ( Sultan,  2014a; Wortmann  et al., 2012 ). These con- 
+sist of (i) Infrastructure  as a Service  (IaaS), which provides  compu-  
+tation and storage  capacity,  (ii) Platform  as a Service  (PaaS), which 
+provides  software  development  tools plus an application  execution  
+environment,  and (iii) Software  as a Service  (SaaS), which provides  
+applications  on top of PaaS and IaaS ( Armbrust  et al., 2010; Hugos 
+and Hulitzky,  2011, Sultan,  2014a; Wortmann  et al., 2012 ). 
+Because  SaaS presents  a new delivery  model for software  ( Obal, 
+2013; Ojala, 2016; Sultan,  2014a ), there have been an increasing  
+number  of studies  focusing  on SaaS providers’  strategies  in the 
+market.  For instance,  Susarla  et al. (2009) studied  how two forms 
+of ex-post  transaction  costs 5 (monitoring  costs and maladaptation  
+costs) impact  on contracts  between  SaaS providers  and customers.  
+It appeared  that transaction  costs tended  to lead to information  
+asymmetry,  possibly  resulting  in contractual  incompleteness  and 
+opportunism.  In addition,  it was found that for the service  provider  
+a cost-based  rent fee becomes  more attractive  than a ﬁxed rent 
+fee if there is uncertainty  concerning  the speciﬁcation  of service  
+requirements,  or if there is interdependence  between  the SaaS ap- 
+plication  and the IT system  on the customer’s  side. However,  for 
+5 According  to Ang and Straub (1998 , p. 549), transaction  costs refer to “the ef- 
+fort, time, and costs incurred in searching,  creating,  negotiating,  monitoring,  and 
+enforcing  a service contract between  buyers and suppliers.”
+
+=== PÁGINA 3 ===
+42 A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 
+the purposes  of cost reduction,  a ﬁxed rent fee is more attrac- 
+tive for customers  ( Susarla  et al., 2009 ). In a later study, Susarla  
+et al. (2010) studied  challenges  in service  disaggregation  between  
+the SaaS provider  and the customer.  They suggested  that there are 
+knowledge  interdependencies  between  SaaS providers  and their 
+customers,  and that these create challenges  in combining  IT ser- 
+vices. 
+Several  studies  have focused  on the adoption  of SaaS (e.g. 
+Benlian  and Hess, 2011; Hsu et al., 2014; Wu et al., 2011 ). From 
+the ﬁndings  of Wu et al. (2011) , it appears  that the adoption  of 
+SaaS is more related  to strategic  beneﬁts  than to economic  bene- 
+ﬁts. In addition,  SaaS adoption  is more related  to subjective  risks 
+than to technical  risks. Benlian  and Hess (2011) focused  on IT exec- 
+utives’ perceptions  of the opportunities  and risks in SaaS adoption.  
+They found that security  threats  were the most dominating  fac- 
+tor in risk perception,  whereas  opportunities  related  to the cost 
+advantages  of SaaS were the strongest  driver for SaaS adoption.  
+Fan et al. (2009) studied  short-term  and long-term  competition  be- 
+tween SaaS providers  and traditional  software  providers.  According  
+to their ﬁndings,  SaaS can reduce price competition  and facilitate  
+differentiation  from traditional  software  providers.  However,  SaaS 
+providers  may incur signiﬁcant  operating  costs due to the fact that 
+they have to invest in service  and system  capacity  in order to guar- 
+antee availability  of the service  ( Fan et al., 2009 ). 
+2.2. Software  renting  and pricing 
+As discussed  above, servitization  of the software  offering  into 
+a SaaS model is changing  traditional  ways of doing business.  The 
+SaaS model facilitates  delivery  of software  and enables  software  
+renting  with a variety  of pricing  models.  To better understand  
+the beneﬁts  of renting,  economists  have compared  the advan-  
+tages of renting  with the advantages  of buying  a product  outright  
+( Bucovetsky  and Chilton,  1986; Bulow, 1982; Flath, 1980 ). Accord-  
+ing to the literature  ( Flath, 1980 , p. 247), renting  can be deﬁned  
+as “a contractual  arrangement  for trading  the rights to temporary  
+use of an object, but not the right to all possible  future use.” Thus,  
+in a rental agreement,  a customer  does not get the full ownership  
+rights over the object rented,  as distinct  from ownership  following  
+purchase.  However,  there are always trade-offs  between  the bene- 
+ﬁts of full ownership  and those of “partial  ownership” – i.e.  rent- 
+ing. 
+From the customer’s  point of view, these beneﬁts  are related  
+to the characteristics  of the product  and the time period needed  
+for usage of the product  ( Bulow, 1982; Flath, 1980; Tang and Deo, 
+2008 ). In other words “the shorter  is one’s expected  tenure of use 
+of a good, the greater  are the transacting  cost gains to his leas- 
+ing it rather than purchasing  it outright” (  Flath, 1980 , p. 249). Ac- 
+cording  to Choudhary  et al. (1998) the reasons  why a customer  
+may rent software  in preference  to buying  it are as follows:  (i) 
+the software  is for use in a short-term  project,  (ii) the customer  
+may simply want to gain experience  of using the software,  (iii) the 
+customer  wants to test and evaluate  the usability  of the software,  
+or (iv) the customer  wants to avoid negative  network  externality.  
+Software  renting  may also beneﬁt  both the software  vendor  and 
+the customer  by providing  cost savings  for customers,  with higher 
+proﬁts also for software  vendors  ( Choudhary  et al., 1998 ). Software  
+renting  in the SaaS model also lessens  the customers’  need to have 
+their own IT personnel  and IT infrastructure.  This decreases  the to- 
+tal cost of ownership  and reduces  the hidden  costs that may in- 
+crease a ﬁrm’s IT spending  by as much as 80% in the case of tradi- 
+tional software  licensing  ( Waters,  2005 ). 
+From the software  provider’s  perspective,  renting  decreases  
+transaction  costs related  to identifying,  assuring,  and maintaining  
+quality  ( Choudhary,  2007; Choudhary  et al., 1998; Flath, 1980; Var- 
+ian, 20 0 0 ). Renting  can also increase  the positive  network  exter- nality effect ( Liebowitz  and Margolis,  1994 ), owing to the lower 
+initial costs for customers  compared  to purchasing.  The low costs 
+increase  the number  of customers,  and consequently  increase  the 
+information  available  in the market  regarding  the product.  Over- 
+all, this decreases  customers’  search costs ( Choudhary  et al., 1998; 
+Porter, 2001 ). The beneﬁts  of renting  become  more complex  when 
+the rented product  is in the category  of information  goods, as in 
+the case of music, videos,  books, journals,  or computer  software  
+( Choudhary,  2007; Sundararajan,  20 04; Varian,  20 0 0 ). For instance,  
+unlike the situation  with other durable  goods, the ownership  of the 
+software  belongs  to the producer,  whether  the software  is rented 
+or not ( Choudhary  et al., 1998 ), and the impact  of psychological  
+ownership  may be less signiﬁcant  (cf. Durkee  and O’Connor,  1995 ). 
+When software  is rented via the SaaS model, it makes pos- 
+sible a variety  of interesting  pricing  models  for software  ﬁrms 
+( Baranwal  and Vidyarthi,  2015; Li et al., 2016; Laatikainen  et al., 
+2013; Ojala, 2013 ). Hence, the actual rental fee might be based on 
+(i) assessment  base pricing,  (ii) price discrimination,  and (iii) price 
+bundling,  or combinations  of these. In assessment  base pricing,  a 
+ﬁrm charges  customers  using usage-dependent  pricing,  user-based  
+pricing,  or a combination  of the two ( Li et al., 2016; Lehmann  and 
+Buxmann,  2009 ). In the usage-dependent  model, the rental fee is 
+related  to the number  of transactions,  the memory  requirements,  
+the duration  of the running  of the software,  and so on. In the user- 
+based pricing  model, customers  pay a ﬁxed rent fee for unlimited  
+use –u s e being based on named  users, concurrent  users, etc. (for 
+a more comprehensive  review,  see Lehmann  and Buxmann,  2009 ). 
+Price discrimination  refers to a pricing  model in which soft- 
+ware is rented to different  customers  at different  prices ( Hinz et 
+al., 2011; Lehmann  and Buxmann,  2009 ). The price discrimina-  
+tion model can be divided  into ﬁrst-degree,  second-degree,  and 
+third-degree  price discrimination.  In ﬁrst-degree  price discrimina-  
+tion, the software  rental fee is set according  to the customer’s  abil- 
+ity/willingness  to pay ( Hinz et al., 2011 ). Second-degree  price dis- 
+crimination  refers to the quantity,  time (season  or duration),  ver- 
+sion, or market  segmentation  that is used to set the rental fee 
+(cf. Lehmann  and Buxmann,  2009; Linde, 2009 ). In third-degree  
+price discrimination,  customers  are charged  according  to identiﬁ-  
+able sectors,  such as occupation,  location,  or age ( Adachi,  2005; 
+Laatikainen  et al., 2013 ). In addition,  software  ﬁrms may combine  
+price discrimination  models  (cf. Lehmann  and Buxmann,  2009 ), ap- 
+plying different  degrees  or proportions  of each. 
+Price bundling  refers to a pricing  model that includes  several  
+components,  for example  software  products  and/or services  pack- 
+aged together  and rented to customers  for a ﬁxed price ( Hui et 
+al., 2012; Lehmann  and Buxmann,  2009; Linde, 2009 ). By bundling  
+different  products  and/or services  together,  software  providers  can 
+make their offering  more attractive  to customers  ( Hui et al., 2012; 
+Linde, 2009 ) than by offering  the same products  separately.  Price 
+bundling  can be divided  into offer, product,  degree of integration,  
+and price level aspects  (see Lehmann  and Buxmann,  2009 , for a 
+more detailed  review).  
+2.3. Competitive  strategy  
+Servitization  has posed challenges  to existing  business  strate- 
+gies ( Bustinza  et al., 2015 ). Because  servitization  makes possible  
+new ways to offer, deliver,  and price software,  it has a direct im- 
+pact on competition  in the software  industry,  on the develop-  
+ment processes  of software  ( Durkee,  2010 ), and on the competi-  
+tive strategies  that software  ﬁrms apply in the market.  In general,  a 
+competitive  strategy  6 can be seen as including  three generic  strate- 
+6 In accordance  with Porter (1996 , p. 68, 70, 75), strategy involves “the creation 
+of a unique and valuable position,  involving  a different  set of activities...  …making  
+trade-offs  in competing...  [and] …creating  ﬁt among a company’s  activities.”
+
+=== PÁGINA 4 ===
+A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 43 
+gies that a ﬁrm might pursue,  either as a single strategy  or in com- 
+bination  ( Porter, 1980 ). The ﬁrst strategy,  cost leadership,  is based 
+on price competition  in situations  where a ﬁrm can outperform  
+the competition  by providing  a corresponding  product  or services  
+at a lower price, and thus increasing  the market  share. The sec- 
+ond strategy,  differentiation,  is based on the notion that a ﬁrm may 
+develop  something  unique  that differentiates  it from competitors.  
+The third strategy,  focus, refers to the notion that a ﬁrm can start to 
+focus its offering  by servicing  a particular  target group extremely  
+well. Porter (1979, 1980, 2008 ) deﬁnes  ﬁve competitive  forces that 
+shape these strategies.  These are (i) the threat of new entrants,  (ii) 
+the bargaining  power of buyers,  (iii) the bargaining  power of sup- 
+pliers, (iv) the threat of substitute  products  or services,  and (v) ri- 
+valry among  existing  competitors.  
+Software  markets  are relatively  easy to enter ( Giarratana,  2004 ), 
+and this increases  the threat of new entrants.  New entrants  in 
+the industry  put pressure  on prices and decrease  the proﬁtabil-  
+ity of the industry  ( Porter, 2008 ). To avoid competition  with new 
+entrants,  software  ﬁrms have to differentiate  their offering  from 
+other products  in the market.  According  to Oza et al. (2010) , this 
+requires  ongoing  improvements  to the product,  aimed at enhanc-  
+ing the user experience,  and satisfaction  with the software.  
+The bargaining  power of buyers is high if there are only few 
+buyers,  if products  are standardized,  or if customers  have low 
+switching  costs ( Porter, 2008 ). Thus, if a software  vendor  is offering  
+standardized  products  with a low switching  cost, customers  have 
+more power to force prices down. In contrast,  customers  using en- 
+terprise  software  may face very high switching  costs, due to the 
+fact that changing  from one form of enterprise  software  to another  
+requires  a large number  of labor-intensive  projects,  including  data 
+migration  and conﬁguration  ( Brydon  and Vining,  2008; Chen and 
+Hitt, 2006; Porter, 2008 ). However,  standardization  involving  well- 
+executed  improvements  to the product  ( Oza et al., 2010 ) may make 
+the product  attractive  for new customers.  
+The bargaining  power of suppliers  is high in cases where sup- 
+pliers can offer differentiated  products,  where there are no sub- 
+stitutes  in the market,  or where buyers face high switching  costs 
+if they change  the supplier.  Powerful  suppliers  can charge higher 
+prices or shift the costs to the buyers ( Porter, 1980, 2008 ). Porter 
+(2008) uses Microsoft  as an example  of a powerful  supplier  in the 
+computer  hardware  industry,  in which hardware  manufacturers  are 
+highly dependent  on Microsoft’s  pricing  strategies.  SaaS providers  
+are also extremely  dependent  on their suppliers.  In many cases, 
+they need access to IaaS and PaaS providers  in order to make their 
+services  available  to their customers.  There may be only a limited  
+number  of IaaS and PaaS providers  available,  increasing  the bar- 
+gaining  power of these providers  over the SaaS ﬁrms. However,  a 
+SaaS provider  who can develop  good contacts  with these suppliers  
+increases  its ability to deliver  a reliable  SaaS offering.  
+The threat of substitute  products  or services  may decrease  the 
+proﬁtability  of an industry  ( Porter, 2008 ). A substitute  is a prod- 
+uct or service  that “performs  the same or a similar  function  as an 
+industry’s  product  by a different  means” (  Porter, 2008 , p. 84). The 
+threat of a substitute  is high if a new product  offers better value 
+at a more attractive  price than the older one. In cloud computing,  
+new services  such as video-on-demand  can be seen as a substitute  
+for traditional  video ﬁlm renting;  such a substitute  will decrease  
+the proﬁtability  of video rental outlets  ( Porter, 2008 ). 
+Rivalry  among  existing  competitors  can impact  on prices. Ac- 
+cording  to Porter (2008) , rivalry may decrease  prices, for example  
+(i) if the products  are similar  and there are low switching  costs for 
+customers,  or (ii) if the product  is perishable.  As discussed  above, 
+switching  costs in software  may be high in the case of enterprise  
+software  (e.g. enterprise  resource  planning  (ERP) software)  and 
+lower in that of more standardized  consumer  software  (as in the 
+case of word processing  software).  Perishability  may also impact  more on standardized  software  products.  Thus, Porter (2008) uses 
+computers  as an example  of products  that become  outdated  fairly 
+quickly.  The same can be seen in the software  industry,  where 
+there is an ongoing  need for new software  versions  or updates,  es- 
+pecially  in the case of standardized  software  products  ( Nambisan,  
+2013; Suarez et al., 2013 ). 
+2.4. Synthesis  
+The servitization  of the IT industry  and the development  of 
+cloud computing  have brought  new opportunities  for software  
+ﬁrms to sell and deliver  their products  using the SaaS model 
+( Armbrust  et al., 2010; Hugos and Hulitzky,  2011; Iyer and Hender-  
+son, 2010 ). SaaS brings new possibilities  to compete  in the market  
+( Ojala, 2016 ) and to create revenue  and pricing  models  that are 
+attractive  to customers.  Economic  theories  concerned  with rent- 
+ing, and subsequent  studies  focusing  on software  renting  and pric- 
+ing, have increased  our general  understanding  of revenue  and pric- 
+ing models  in a monopolistic  market  situation.  However,  most of 
+the studies  have used analytical  approaches  to reveal the core pa- 
+rameters  of entrepreneurial  decision-making,  or have used binary 
+variables,  without  focusing  on possible  mixed revenue  models  or 
+hybrid pricing  mechanisms  in a situation  of market  competition.  
+Thus, there remains  a need for a more robust theoretical  under- 
+standing  of how market  competition  impacts  on software  revenue  
+and pricing  models.  
+3. Methodology  
+The research  method  selected  for this study covered  a real-life  
+environment  in which there was a decision-making  process  re- 
+lated to revenue  models.  It was important  that the method  should 
+cover human  actions,  enable an in-depth  investigation  of the com- 
+plex phenomena  at work, and capture  cause-and-effect  relation-  
+ships. With all this in mind, the present  study applied  a multi- 
+ple case study methodology  similar  to the approaches  presented  
+by Eisenhardt  (1989) and Yin (2009) . 
+The research  setting  for this study consisted  of ﬁve software  
+ﬁrms that acted as SaaS providers.  Since the sample  used will nec- 
+essarily  inﬂuence  the results of the study ( Miles and Huberman,  
+1994 ), multiple  criteria  were used to select the cases, following  
+the recommendations  by Eisenhardt  (1989) , and by Eisenhardt  and 
+Graebner  (2007) . In terms of theoretical  considerations,  the follow-  
+ing aspects  were seen as relevant:  (i) the case ﬁrms were develop-  
+ing their software  for different  industries,  (ii) the sample  included  
+both relatively  old ﬁrms and recently  established  ﬁrms, and (iii) 
+three of the ﬁrms also made traditional  software  licenses  available  
+for their software  at the time of the interviews.  Another  highly 
+important  criterion  was good access to the required  information.  
+In the present  instance,  three of the ﬁrms were involved  in a na- 
+tional cloud software  project  in Finland,  while two of the ﬁrms 
+could be contacted  on the basis of the author’s  knowledge  of the 
+software  industry.  These aspects  increased  mutual  trust between  
+the researcher  and the case ﬁrms, and facilitated  the collection  of 
+relevant  information,  as recommended  by Stake (1995) . Altogether,  
+the case ﬁrms represented  a wide variety  of SaaS early adopters,  
+and furthermore,  could be seen as critical  cases that might serve as 
+examples  for other ﬁrms considering  various  revenue  and pricing  
+models.  It should be noted that this kind of coverage  is important  
+for studies  when one has only a small sample  of ﬁrms ( Eisenhardt,  
+1989; Pettigrew,  1990 ). 
+Multiple  sources  of information  were used to gather data on 
+each case ﬁrm. The main form of data collection  consisted  of 
+in-depth  interviews.  Altogether,  5–10 interviews  per ﬁrm were 
+conducted,  each lasting 45–90 min. Thus, altogether  37 semi- 
+structured  open-ended  interviews  were carried  out for this study. 
+
+=== PÁGINA 5 ===
+44 A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 
+Table 1 
+Overview  of the data sources. 
+Firm Informant  title Number of interviews  with 
+a given informant  Total number of interviews  
+per case ﬁrm 
+Firm A Co-founder/CEO  1 8 
+Vice President  (general management)  4 
+Vice President  (sales) 3 
+Firm B Co-founder/CEO  6 10 
+Chairman,  Board of Directors  1 
+Vice President  (software  engineering)  1 
+Executive  Director (corporate  planning)  1 
+General manager  (global management)  1 
+Firm C CEO 3 5 
+Sales manager  2 
+Firm D Co-founder/CEO  2 6 
+Strategic  accounts  manager  2 
+Sales manager  2 
+Firm E Co-founder/CEO  2 8 
+Co-founder/Art  Director 2 
+Co-founder/CTO  1 
+COO/Chairman  of the Board 1 
+Head of sales 1 
+Sales engineer  1 
+The interviewees  consisted  of chief executive  oﬃcers  (CEOs),  sales 
+managers,  vice presidents,  members  of the board of directors,  and 
+software  engineers  (see Table 1 ). These persons  were selected  be- 
+cause of their knowledge  of the ﬁrm’s revenue  and pricing  strate- 
+gies. The interviews  with the CEOs were the main source of infor- 
+mation,  and the CEOs provided  help in identifying  relevant  inter- 
+viewees  from the case ﬁrms. 
+During  the ﬁrst interview,  general  information  on the ﬁrm was 
+collected,  including  its history,  products,  customers,  partners,  and 
+so on, in addition  to discussion  of the actual revenue  model. 
+An open-ended  interview  structure  was adhered  to, using themes  
+from previous  literature.  The ﬁrst interview  with the ﬁrm lasted 
+approximately  90 min. In the second  and following  interviews,  
+more structured  interview  guidelines  were used, based on the in- 
+formation  gathered  in the previous  interview(s).  These subsequent  
+interviews  focused  on the revenue  models  in detail; they were tai- 
+lored to the interviewee’s  role in the ﬁrm and to his/her  involve-  
+ment in pricing  strategy.  The author recorded  all the interviews,  
+and personally  transcribed  them verbatim.  
+The method  utilized  in the data analysis  was content  analysis.  
+The analysis  of the case data consisted  of three concurrent  ﬂows 
+of activity  ( Miles and Huberman,  1994 ): (i) data reduction,  (ii) data 
+displays,  (iii) conclusion-drawing/veriﬁcation.  In (i) the data reduc- 
+tion phase, the data were given focus and simpliﬁed  through  com- 
+pilation  of a detailed  case history  of each ﬁrm. This is in line with 
+Pettigrew  (1990) , who suggests  that organizing  incoherent  aspects  
+in chronological  order is an important  step in understanding  the 
+causal links between  events.  On the basis of the interviews  and 
+other material  collected  from the case ﬁrms, tables were used to 
+identify  and categorize  the unique  patterns  of each case under 
+sub-topics  derived  from the research  question.  These sub-topics  in- 
+cluded the following  categories:  (i) the ﬁrm’s product  offering  and 
+its customers,  (ii) revenue  model(s)  and reasons  for usage of the 
+revenue  model(s),  (iii) the pricing  model and reasons  for usage of 
+the pricing  model(s),  and (iv) the competitive  advantages  of the 
+revenue  model. These data were used to write the case descrip-  
+tions of each ﬁrm, and the summaries  of the case descriptions  are 
+presented  in Table 2 . In addition,  checklists  and event listings  were 
+used to identify  factors impacting  on the selected  revenue  model 
+( Miles and Huberman,  1994 ). 
+In the data display  phase, the data from the case descriptions  
+were arranged  in new tables and ﬁgures.  The tables included  direct 
+citations  from the interview  data, and ﬁgures were used to illus- trate the ﬁndings  graphically  ( Miles and Huberman,  1994 ). In the 
+phase of conclusion-drawing  and veriﬁcation,  the cross-case  as- 
+pects that appeared  to have signiﬁcance  for this study were iden- 
+tiﬁed. At this stage regularities,  patterns,  explanations,  and causal-  
+ities related  to the phenomena  were noted. This was helpful  in 
+keeping  the empirical  ﬁndings  and theory at the forefront  of the 
+article (see Eisenhardt  and Graebner,  2007 ), and in ensuring  that 
+the ﬁndings  corresponded  to the research  question  set in the in- 
+troduction.  
+To ensure the validity  of the data collected,  the following  steps 
+were taken. Firstly, at least two employees  from a case ﬁrm were 
+interviewed,  to avoid bias from individual  opinions  ( Huber and 
+Power, 1985; Myers and Newman,  2007; Eisenhardt  and Graebner,  
+2007 ). Secondly,  the complete  transcripts  were sent back to the in- 
+terviewees  for review,  to ensure the correctness  of the transcripts  
+and avoid misunderstandings.  For the most part, the interviewees  
+accepted  the transcript  in the form in which it was sent to them. 
+However,  in some cases, the interviewees  gave some minor com- 
+ments related  to the misspelling  of a partner’s  name or to some 
+particular  wording.  Thirdly,  different  kinds of secondary  data 7 were 
+used to validate  and “triangulate” (  Miles and Huberman,  1994 ) the 
+data collected  from interviews.  Fourthly,  if there were inconsis-  
+tencies  within the interviews  or between  interviews  and the sec- 
+ondary  data, these were discussed  with the interviewee  and the 
+CEO to avoid misunderstandings  and retrospective  bias ( Huber and 
+Power, 1985 ). Finally,  to ensure the accuracy  of the categorization  
+of the data into tables and ﬁgures,  an external  researcher  was con- 
+sulted in order to validate  the categorization.  The author provided  
+him with access to the case transcripts,  and he reviewed  the cor- 
+rectness  of the categorization.  Thereafter,  we discussed  the catego-  
+rization  of the factors;  two items were recategorized  on the basis 
+of the discussion.  
+4. Findings  
+This section  presents  the ﬁndings  of the qualitative  case study. 
+Table 2 gives an overview  of the factors impacting  on the choice 
+between  software  renting  and software  licensing.  In order to give 
+a clear description  of (i) the factors that drove case ﬁrms to rent 
+their software,  and (ii) the factors that drove case ﬁrms to license 
+7 The secondary  data included  internal and external memos, promotion  material,  
+press releases, websites,  and brochures.  
+
+=== PÁGINA 6 ===
+A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 45 Table 2 
+Overview  of the case ﬁrms and factors impacting  on the selection  of a revenue model. 
+Number of 
+employees  Year of 
+establishment  Product(s)  Target industry Factors driving 
+towards software  
+renting Pricing criteria in software  
+renting Factors driving towards 
+software  licensing  Percentage  of 
+revenue:  
+renting vs. 
+licensing  at the 
+time of 
+interviews  
+Firm A 30 1998 Planning  and 
+optimization  
+software  for 
+telecom operators  Telecom operators,  
+component  
+manufacturers,  and 
+service providers  
+for telecom 
+networks  - Lower 
+development  costs - Price assessment  
+(concurrent  user-based  
+pricing) - Customer’s  security 
+concerns  70 / 30 
+- Differentiation  - Second-degree  price 
+discrimination  (time based) - Access to the Internet 
+- Flexible pricing - Customer’s  low 
+readiness  for new 
+technologies  
+- Customer  had IT 
+infrastructure  available  
+Firm B 25 20 0 0 Gaming platform  
+and gaming content Game players - Differentiation  - Price assessment  (named 
+user-based  pricing) N/A 100 / 0 
+- Flexible pricing - Second-degree  price 
+discrimination  (time based) 
+- Delivery channel - Price bundling  
+Firm C 20 2006 Risk management  
+software  for the 
+ﬁnancial  sector Bank and ﬁnancing  
+sector - Diversiﬁcation  of 
+the customer  base - Price assessment  
+(concurrent  user-based  
+pricing) - Customer’s  security 
+concerns  55 / 45 
+- Flexible pricing - Second-degree  price 
+discrimination  (version 
+based) 
+- Second-degree  price 
+discrimination  
+(segmentation  based) 
+Firm D 12 2008 Access rights 
+management  
+software  Financial  
+institutions,  
+government  
+organizations,  
+health care, 
+telecommunica-  
+tions, 
+etc. - Lower 
+development  costs 
+- Differentiation  - Price assessment  
+(concurrent  user-based  
+pricing) - Customer’s  security 
+concerns  
+- Customer’s  IT policy 
+- Customer  had IT 
+infrastructure  available  20 / 80 
+Firm E 30 2006 Interactive  3D sales 
+software  Furniture  chains 
+and furniture  
+manufacturers  - Diversiﬁcation  of 
+the customer  base - Price assessment  
+(concurrent  user-based  
+pricing) N/A 100 / 0 
+- Differentiation  - Second-degree  price 
+discrimination  (version 
+based) 
+- Flexible pricing - Second-degree  price 
+discrimination  (quantity  
+based) 
+
+=== PÁGINA 7 ===
+46 A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 
+their software,  the ﬁndings  are presented  as a cross-case  study 
+rather than describing  each individual  case separately.  
+4.1. Factors driving the case ﬁrms to rent their software  
+The case ﬁrms A, C, and D used both software  renting  and soft- 
+ware licensing  as revenue  models,  whereas  ﬁrms B and E currently  
+used only software  renting.  8 The ﬁrms favored  software  renting  as 
+the ﬁrst option because  (i) it decreased  development  costs 9 , (ii) it 
+helped  them to expand  the customer  base, (iii) it helped  in differ- 
+entiating  them from competitors,  and (iv) it allowed  ﬂexible  pric- 
+ing. In addition,  all the case ﬁrms with a license  model announced  
+that they were moving  increasingly  toward  servitization  of their 
+offering,  and a software-renting  model. These points will be con- 
+sidered  individually,  below. 
+(i) The rental model through  servitization  decreased  the devel- 
+opment  costs of case ﬁrms A and D (i.e. costs related  to 
+the installation,  delivery,  implementation,  maintenance,  and 
+after-sales  support  of the software).  Thus, the case ﬁrms 
+knew that their customers  were using the same version  of 
+the software,  and by means of the public cloud, the case 
+ﬁrms were able to bring updates  that were visible to all their 
+customers  immediately.  The technical  features  of the model 
+consistently  brought  cost savings  to the case ﬁrms and made 
+it possible  to offer the software  at a lower price. By means 
+of this strategy  the ﬁrms could improve  their cost leadership  
+in the market  and protect  their business  against  rivalry and 
+substitutes.  The CEO of Firm A explained  this as follows:  
+“It brings cost savings.  If we sell the Intranet  version,  it has to 
+be installed  in the customer’s  premises,  so it requires  far more re- 
+sources  from us…in many cases, we need an employee  who will go 
+and meet the customer,  install the software,  implement  the soft- 
+ware, and give support.  And then all the updates  have to be de- 
+livered separately  to each customer.  In the cloud model, all this is 
+centralized  .”
+(ii) Software  renting  made it easier to expand  the customer  
+base, especially  from large-sized  customers  toward  small 
+and medium-sized  customers  as was done by case ﬁrms 
+C and E. In other words, servitization  of the offering  and 
+software  renting  helped  the ﬁrms to expand  their customer  
+base, since the rental solution  made the service  attractive  
+also for smaller  customers,  who might not have a budget  
+for the initial investments  required  by traditional  software  
+licensing.  Hence, software  renting  shifted  customers’  capital 
+investment  onto operational  costs: smaller  customers  could 
+then start to use the software  without  special  budgeting,  or 
+without  having to obtain the approval  of top management.  
+This also helped  vendors  to protect  their business  against  ri- 
+valry and substitutes,  and gave cost leadership  advantages.  
+The CEO of Firm C commented  on this as follows:  
+“Previously  we only had a traditional  licensing  model –a n ini- 
+tial license fee plus an annual maintenance  fee. However,  we are 
+now increasingly  moving  towards  a model in which we charge a 
+monthly  rental fee. Then customers  don’t have to make an invest- 
+ment decision  –t h e customer  just pays the monthly  rental fee. 
+Then it is more like a cost, not an investment.  ”
+8 It should be noted here that all three revenue models, i.e. (i) software  licens- 
+ing, (ii) software  renting, and (iii) pay-per-use,  were available  to the ﬁrms. However,  
+they applied solely software  renting or a combination  of software  renting and soft- 
+ware licensing  at the time of interviews.  
+9 As distinct from transaction  costs, development  costs include “the physical or 
+other primary processes  necessary  to create and distribute  the goods or services 
+being produced” (  Wigand and Benjamin,  1995 ). (iii) Software  renting  through  servitization  helped  the case ﬁrms 
+(A, B, D, and E) to differentiate  themselves  from competitors  
+who used traditional  licensing  and packaged  software  solu- 
+tions. It also allowed  faster and more cost-effective  delivery,  
+maintenance,  and after-sales  services.  Thus, the ﬁrms were 
+able to use differentiation  as a competitive  advantage,  offer- 
+ing beneﬁts  that their competitors  did not have. In this way 
+the case ﬁrms acted against  rivalry in the software  market.  
+The CEO of Firm E explained  the competitive  advantage  of 
+servitization  in the following  manner:  
+“The most notable  difference  between  us and our competitors  is 
+that they use CAD-based  programs  that have to be licensed  for a 
+workstation… we  have changed  the way of delivering  this as a 
+service… the  product  is available  over the Internet  connection  and 
+you can learn how to use it in one minute,  whereas  for a CAD- 
+based program,  you have to take a course before you know how to 
+use it. ”
+(iv) Software  renting  enabled  ﬂexible  pricing  based on the num- 
+ber of users, the functionalities  used, and so on, in a way 
+similar  to licensing  options.  In addition,  rental made it pos- 
+sible to change  the pricing  according  to the named  users or 
+concurrent  users, during or after the rental period (based on 
+the rental agreement).  Furthermore,  it made it possible  to 
+offer the software  at reasonable  price if a customer  needed  
+it only for short-term  usage. This all provided  cost leader-  
+ship advantages  for the case ﬁrms. In ﬁrms A, C, D, and E 
+the pricing  was based on concurrent  user assessment,  tak- 
+ing into account  the need to protect  their business  against  
+increasing  maintenance  costs, whereas  Firm B used named  
+user assessment  and price bundling.  Thus, the number  of 
+concurrent  users increased  the price, since the number  of 
+users correlated  with the capacity  and costs required  for 
+data storage  and computing  power. A larger number  of users 
+also made installation  and customer  support  more complex  
+and time consuming.  In addition  to concurrent  user-based  
+pricing,  Firm A and Firm B used time-based  price discrimi-  
+nation to protect  their business  against  low switching  costs. 
+Hence, the fee for a short-term  rental agreement  was higher 
+than for a long-term  contract.  This helped  the ﬁrms to avoid 
+rivalry or the threat of substitute  products  in the market.  
+The vice president  of Firm A commented  on this as follows:  
+“Of course we can rent the software  for a shorter time if a cus- 
+tomer needs it, for example  for a short project –t h a t is possible.  
+However,  it might become  more expensive  for the customer  since 
+the initial costs are the same for us, regardless  of the rental time. 
+But if there is a need for it, we are ready to discuss it with the 
+customer.”
+In contrast,  ﬁrms D and E protected  their business  against  ri- 
+valry and substitutes  by using separate  pricing  for the implementa-  
+tion work. The implementation  of their software  required  so much 
+labor-intensive  project  work that customers’  switching  costs in- 
+creased,  offsetting  the beneﬁts  of short-term  renting.  In ﬁrms C 
+and E, the rental fee was also based on version-based  price dis- 
+crimination.  In addition,  Firm E used quantity-based  price discrim-  
+ination,  dependent  on the number  of elements  that a customer  
+wished  to include  in the software.  This means that in the servi- 
+tized offering,  the functionality-based  pricing  used in software  li- 
+censing  was transformed  into a rental model. 
+In the case of Firm B, the bargaining  power of the supplier  im- 
+pacted on the revenue  model selected.  The ﬁrm used network  op- 
+erators  as an IaaS provider  and delivery  channel  to end-users.  For 
+the network  and telecom  operators  it was normal  to use renting  
+as a revenue  model for their service  offerings,  and because  oper- 
+ators have so much bargaining  power over the content  providers,  
+
+=== PÁGINA 8 ===
+A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 47 
+there were no other options,  in practice,  that Firm B could use. 
+However,  they were still able to use a variety  of pricing  criteria  for 
+their games.  As the CEO of Firm B put it: 
+“In practice,  we could also use a pay-per-use  model, for instance  
+if a player plays the game let’s say ﬁfteen minutes,  we will charge 
+him a price unit that corresponds  to ﬁfteen minutes.  However,  net- 
+work operators  have become  accustomed  to using rental models 
+and that is why we have to use one too. It is not always a model 
+that the game developers  [the content  providers]  would like us to 
+use, or that we would want to offer, but we are negotiating  be- 
+tween two big players [network  operators  and game developers]…
+and the operators  have a strong role, as they deliver the service to 
+the players.”
+4.2. Factors inhibiting  the case ﬁrms from renting  their software  
+The competitive  forces that drove case ﬁrms A, C, and D to li- 
+cense their software  to some of the customers  instead  of renting  
+were related  to the bargaining  power of the buyers.  Certain  cus- 
+tomers  were so important  that the software  ﬁrms were willing  to 
+offer their product  in the form of a license.  The reasons  for cus- 
+tomers  to prefer a license  were related  to: (i) security  concerns,  (ii) 
+a low readiness  for new technologies,  and (iii) the IT infrastructure  
+available  to them. These aspects  will be considered  in more detail 
+below. 
+Considering  the ﬁrst point, some of the customers  of ﬁrm A, 
+C, and D favored  software  licensing  plus usage of the software  in 
+their internal  data center, because  of security  concerns  over highly 
+sensitive  data. Following  this route increased  the feeling of psy- 
+chological  ownership  and made customers  less dependent  on the 
+software  provider.  Firm D had also found that the IT policies  of 
+some large-sized  customers  speciﬁcally  restricted  software  renting  
+and/or usage of the software  through  the public cloud. These po- 
+lices were strictly  rooted in the customers’  organizational  culture  
+and could not easily be changed.  This meant that the only op- 
+tion was to sell a traditional  license  for the customer’s  internal  
+data center. In contrast,  ﬁrms B and E currently  used only soft- 
+ware renting,  as they did not experience  problems  with security  
+concerns.  This was mainly  because  of the software  offerings  (video 
+games and 3D modeling  software),  which were aimed at activities  
+in which there were no security  issues for the customer.  The CEO 
+of Firm E explained  this in the following  manner:  
+“There are no data protection  threats in our product  [3D modeling  
+software].  It is a sales tool for marketing,  and its purpose  is to sell 
+the product  that we have modeled.  It is public marketing  informa-  
+tion. Maybe some customers  don’t want us to model a product  in 
+too much detail. However,  anyone  can go to the store and see the 
+real, physical  product  there, and how it is constructed.”
+In relation  to the second  point, Firm A reported  that in some 
+cases, customers  had a low readiness  to adopt new technologies,  
+and this affected  the revenue  model in use. The conservatism  of 
+the customers  favored  software  licensing,  even if software  renting  
+would clearly have been a more cost-effective  way to purchase  the 
+software.  
+As for the third point above, ﬁrms A and D had large customers  
+who possessed  their own data centers,  with IT personnel  on hand. 
+Customers  in this category  were more willing  to buy a traditional  
+license  and to use the software  within their own premises.  In con- 
+trast, Firm E had many small customers  who were connected  to 
+the Internet  but did not have in-house  server facilities  to run an 
+Intranet.  In such cases, renting  through  servitization  was a cost- 
+effective  way to get access to the necessary  software,  storage  space, 
+and computing  capacity.  Altogether,  the ﬁndings  demonstrate  how ﬁrms A, C, and D used a focus strategy  to offer software  via a soft- 
+ware license  for a particular  customer  group. 
+5. Discussion  
+Fig. 1 summarizes  the main ﬁndings  of the study. It indicates  
+how competitive  forces can be linked to the choice of revenue  
+model. Depending  on the competitive  situation  in the market,  
+lower development  costs, diversiﬁcation,  differentiation,  and/or 
+ﬂexible  pricing  in software  renting  seem to help software  vendors  
+to protect  their business  against  rivalry and substitutes  (cf. Porter, 
+1980, 2008 ). This is mainly  because  of the lower initial costs and 
+the more differentiated  offering  for customers  as compared  to soft- 
+ware licensing.  Software  renting  can help to achieve  differentiation  
+from competitors  who use traditional  licensing  and packaged  soft- 
+ware solutions.  The ﬁndings  also show how a powerful  supplier  
+may restrict  the revenue  models  to be applied;  thus, a powerful  
+IaaS provider  was able to limit the revenue  model solely to soft- 
+ware renting.  In addition,  the bargaining  power of buyers led some 
+software  providers  to use software  licensing  in addition  to software  
+renting.  Altogether,  one can see how software  renting  was related  
+to cost leadership  and/or differentiation  strategies,  whereas  soft- 
+ware licensing  was connected  to a focus strategy.  
+The ﬁndings  here complement  and expand  on earlier studies  on 
+software  renting  and related  pricing  models.  It appears  that the se- 
+lection  of the revenue  model does not always involve  an exclusive  
+choice between  software  renting  and licensing,  since the ﬁrms can 
+use these models  in parallel  depending  on the competitive  forces 
+( Porter, 1980 ) in the market.  In addition,  a great variety  of soft- 
+ware pricing  models  are available,  and ﬁrms can use these individ-  
+ually or in combination  to compete  in the market.  These ﬁndings  
+expand  from earlier economic  literature  ( Bucovetsky  and Chilton,  
+1986; Bulow, 1982; Flath, 1980 ), and studies  on software  renting  
+( Choudhary  et al., 1998; Choudhary,  2007 ), which have tended  to 
+use predetermined  variables  applied  to monopolistic  market  situa- 
+tions, and to ignore possible  mixed revenue  models  or hybrid pric- 
+ing mechanisms  in situations  of market  competition.  In addition  to 
+the selection  of the revenue  model, the selection  of a proper pric- 
+ing model is not always a simple choice between  binary models,  
+as posited  by Sundararajan  (2004) andSusarla  et al., (2009,  2010 ); 
+in fact, the selection  of the most appropriate  pricing  model will 
+depend  on the competitive  forces in the market.  
+In line with previous  studies  ( Lehmann  and Buxmann,  2009; 
+Susarla  et al., 2009 ), the ﬁndings  here suggest  that software  
+providers  tend to favor ﬁxed concurrent  or named  user-based  pric- 
+ing models.  This is counter  to the widespread  assumption  that 
+cloud-based  delivery  is usage dependent  (see e.g. Armbrust  et al., 
+2010; Dikaiakos  et al., 2009; Louridas,  2010 ). However,  the ﬁnd- 
+ings also demonstrate  how ﬁrms can use price discrimination  and 
+price bundling,  in addition  to user-based  pricing,  in order to de- 
+ﬁne the ﬁnal price, taking into account  competition  in the mar- 
+ket. Hence, software  providers  may seek to protect  their business  
+against  low switching  costs by using second-degree  price discrim-  
+ination  based on time criteria.  This ﬁnding  complements  those of 
+Oza et al. (2010) in suggesting  that in addition  to improvements  in 
+user experience  and security,  SaaS providers  can protect  their busi- 
+ness against  low switching  costs by using an appropriate  pricing  
+model. However,  in the case of enterprise  software,  the implemen-  
+tation of the software  may require  so much labor-intensive  project  
+work that the switching  costs increase,  offsetting  the beneﬁts  of 
+short-term  renting  for the customer.  
+Interestingly,  previous  studies  ( Choudhary  et al., 1998; Susarla  
+et al., 2009; Varian,  2000 ) have indicated  that transaction  costs 
+are lower in software  renting.  However,  none of the case ﬁrms 
+mentioned  this as an advantage.  This may be due to the fact that 
+in software  renting,  the negotiation  costs and contract  monitoring  
+
+=== PÁGINA 9 ===
+48 A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 
+Fig. 1. Impact of competitive  forces on the choice of revenue model. The letters correspond  to the case ﬁrms. 
+costs related  to renting  offset the beneﬁts  of other transaction  cost 
+advantages  (advantages  which would include  the lower costs of 
+identifying,  assuring,  and maintaining  quality;  see Choudhary  et al. 
+(1998) and Varian (20 0 0) ). Nevertheless,  the present  study does in- 
+dicate that the rental model decreases  development  costs and con- 
+sequently  makes software  renting  cost-effective  and attractive  for 
+both the software  vendor  and the customer.  Thus, the ﬁndings  here 
+go beyond  existing  studies  insofar  as they show how lower devel- 
+opment  costs can be used as a competitive  strategy.  The lower de- 
+velopment  costs of software  renting  were valuable  tools against  ri- 
+valry and substitute  products,  since they offered  similar  or better 
+performance,  with lower costs, than other products  in the market  
+(cf. Porter, 2008 ). Software  renting  also helped  to diversify  the cus- 
+tomer base by making  software  products  available  to smaller  cus- 
+tomers.  The factor of lower development  costs gives empirical  sup- 
+port to a model encompassing  competition  between  SaaS providers  
+and traditional  software  providers  ( Fan et al., 2009 ). However,  dif- 
+ferentiation  was based not only on lower implementation  costs –
+as argued  by Fan et al. (2009) –b u t also on faster and more cost- 
+effective  delivery,  maintenance,  and after-sales  services  within the 
+SaaS model. 
+Data security  concerns  played a signiﬁcant  role in the adoption  
+of SaaS –a n aspect examined  by Benlian  and Hess (2011), Hsu et 
+al. (2014) , and Wu et al. (2011) . The ﬁndings  reported  here ex- 
+pand on these studies  by demonstrating  how data security  con- 
+cerns are related  to the revenue  model of a ﬁrm, and how they 
+impact  on competitive  forces in the software  market.  The ﬁndings  
+also demonstrate  how SaaS providers  may be forced to offer their 
+product  under license  for customers  with high bargaining  power. 
+Otherwise,  the ﬁrm will simply lose these customers.  This notion 
+also gives empirical  support  to the view expressed  by Choudhary  
+(2007) to the effect that SaaS impacts  on the relative  bargaining  
+power between  buyers and sellers.  
+In the present  study, the customer’s  IT knowledge  appeared  to 
+have a strong impact  on deciding  whether  to buy or to rent the 
+software.  If customers  had already  invested  in IT infrastructure  and 
+their own IT personnel,  they saw traditional  software  licensing  as 
+a more attractive  choice.  This was mainly  because  the beneﬁts  of 
+software  renting  became  less signiﬁcant,  and operating  the soft- ware in-house  increased  the feeling of trust. This is an aspect ne- 
+glected  in previous  studies  on software  renting  ( Choudhary  et al., 
+1998; Choudhary,  2007 ). However,  the ﬁndings  hare take the ﬁnd- 
+ings of Obal (2013) a stage further,  since they demonstrate  how in- 
+terorganizational  trust can impact  on the decision  to either license  
+or rent the software.  
+6. Conclusions  
+As a theoretical  contribution,  this study builds on Porter’s  
+(1980, 2008 ) theory of competitive  strategy  by demonstrating  the 
+interaction  between  competitive  forces and revenue  models.  First 
+of all, the study shows how software  renting  may affect the com- 
+petitive  situation  in the market  by protecting  software  providers  
+against  rivalry and substitutes.  In addition,  competitive  forces, such 
+as the bargaining  power of buyers and suppliers,  inﬂuence  the 
+software  vendor’s  selection  of revenue  model. Secondly,  the study 
+contributes  to the theory of competitive  strategy  ( Porter, 1980, 
+2008 ) in the context  of IT servitization  ( Bustinza  et al., 2015 ), in 
+indicating  that servitization  makes it possible  to use different  com- 
+petitive  strategies  ﬂexibly,  according  to market  competition  and 
+customers’  preferences.  This means that the selection  of the com- 
+petitive  strategy  is not always a straightforward  choice between  a 
+cost leadership,  differentiation,  or focus strategy.  Thirdly,  the ﬁnd- 
+ings here build on earlier works on software  renting  and pricing.  
+In a situation  where servitization  is moving  revenue  models  from 
+selling products  towards  rental contracts  ( Barnett  et al., 2013 ), this 
+study shows how software  ﬁrms can apply mixed revenue  mod- 
+els or hybrid pricing  mechanisms  on the basis of market  competi-  
+tion. Finally,  the ﬁndings  expand  from previous  economic  literature  
+( Bucovetsky  and Chilton,  1986; Bulow, 1982; Flath, 1980 ) and stud- 
+ies on software  renting  ( Choudhary  et al., 1998; Choudhary,  2007 ), 
+which have tended  to apply predetermined  variables  and to con- 
+sider monopolistic  market  situations.  
+In addition  to revealing  factors relevant  to the selection  of the 
+revenue  model, the ﬁndings  demonstrate  that the selection  of a 
+proper pricing  model is not always a simple choice between  binary 
+models,  in the manner  posited  by Sundararajan  (2004) and Susarla  
+et al. (2009, 2010 ); also that the selection  of the most appropriate  
+
+=== PÁGINA 10 ===
+A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 49 
+pricing  model will depend  on the competitive  forces ( Porter, 1980 ) 
+in the market.  
+From a managerial  perspective,  the servitization  of software  of- 
+ferings  should allow software  vendors  to expand  their business  op- 
+portunities  considerably.  Several  factors will interplay  in this. One 
+point to note is that although  servitization  is a highly promising  
+way of distinguishing  oneself  from the competition  in the soft- 
+ware industry,  the entry barriers  in the cloud business  are rela- 
+tively low. This means that in the future there may well be an 
+increase  in new entries  when software  ﬁrms servitize  their tra- 
+ditional  software  offering  – similar  to the situation  that occurred  
+in e-commerce  during the IT boom ( Porter, 2001 ). Thus, software  
+vendors  will be obliged  to protect  their business  against  new en- 
+tries and, in addition,  to have attractive  pricing,  if they are to re- 
+spond to the constantly  changing  needs of the market.  This will re- 
+quire ﬂexibility  and ongoing  recognition  of new business  opportu-  
+nities, given the unpredictabilities  in the development  of the soft- 
+ware market,  and the competition  within it. A further  point to 
+note is that changes  in software  architecture  are commonly  much 
+harder to implement  than changes  in revenue  models,  and that 
+it is challenging  or even impossible  to move traditionally  devel- 
+oped “packaged” software  to the cloud environment.  Nevertheless,  
+all the case ﬁrms had planned  their software  architecture  to be 
+compatible  with both the cloud environment  and stand-alone  im- 
+plementations.  This is not the case with most incumbent  software  
+vendors,  whose software  cannot be readily  moved to the cloud en- 
+vironment.  Such vendors  must either rewrite  their software  or al- 
+ternatively,  focus their development  efforts on new product  lines 
+whose architecture  is already  compatible  with the cloud, while 
+continuing  to maintain  their traditional  software  until it is phased  
+out. 
+This study also points to aspects  requiring  further  research.  One 
+noteworthy  feature  is that when a ﬁrm does not provide  the soft- 
+ware directly  to the customer  as an on-premise  solution,  it requires  
+intensive  cooperation  with other support  service  providers  such as 
+PaaS and IaaS providers  if it is to acquire  the resources  needed.  
+There is a need for research  on how relationships  with these ﬁrms 
+can be established,  and on how the formation  of these relation-  
+ships impacts  on the proﬁtability  of given ﬁrms. It is also worth 
+noting that all the case ﬁrms in this study were relatively  small. 
+Although  small software  ﬁrms can be very successful  ( Parker et al., 
+2016 ) the ﬁndings  might not be fully generalizable  to large soft- 
+ware ﬁrms. Furthermore,  the ﬁndings  here need further  validation  
+via quantitative  methods,  bearing  in mind that the aim here was 
+primarily  to understand  the phenomena  and the cause-effect  rela- 
+tionships  involved.  Hence, one must avoid generalizing  too broadly  
+from such a limited  set of data. A ﬁnal point to note is that this 
+study does not take into consideration  the actual success  of the 
+case ﬁrms’ revenue  and pricing  models.  Thus, it would be of inter- 
+est to conduct  quantitative  studies  in order to estimate  how suc- 
+cessful particular  revenue  and pricing  models  turn out to be. 
+Acknowledgments  
+I wish to thank Pasi Tyrväinen  and the four anonymous  re- 
+viewers  for their valuable  comments  and suggestions.  In addition,  
+I wish to thank Markus  Salo for his assistance  in data validation.  
+The research  has been generously  funded  by the Foundation  for 
+Economic  Education  (Liikesivistysrahasto)  and by the Marcus  Wal- 
+lenberg  Foundation.  
+References  
+Adachi, T. , 2005. Third-degree  price discrimination,  consumption  externalities  and 
+social welfare. Economica  72 (285), 171–178 . 
+Ahonen, J. , Savolainen,  P. , Merikoski,  H. , Nevalainen,  J. , 2015. Reported  project man- 
+agement  effort, project size, and contract type. J. Syst. Softw. 109, 205–213  . Ang, S. , Straub, D.W. , 1998. Production  and transaction  economies  and is outsourc-  
+ing: a study of the U.S. banking industry.  MIS Quart. 22 (4), 535–552  . 
+Armbrust  , et al. , 2010. A view of cloud computing.  Commun.  ACM 53 (4), 50–58 . 
+Baines, T.S. , Lightfoot,  H.W. , Benedettini,  O. , Kay, J.M. , 2009. The servitization  of 
+manufacturing:  a review of literature  and reﬂection  on future challenges.  J. 
+Manuf. Technol. Manage. 20 (5), 547–567  . 
+Baranwal,  G. , Vidyarthi,  D.P. , 2015. A fair multi-attribute  combinatorial  double auc- 
+tion model for resource allocation  in cloud computing.  J. Syst. Softw. 108, 60–76 . 
+Barnett, N. , Parry, G. , Saad, M. , Newnes, S.B. , Goh, Y.M. , 2013. Servitization:  is a 
+paradigm  shift in the business  model and service enterprise  required?  Strate- 
+gic Change 22 (3-4), 145–156 . 
+Bass, L. , Clements,  P. , Kazman,  R. , 1998. Software  architecture  in practice. SEI Series 
+in Software  Engineering.  Addison Wesley Longman,  Inc., USA . 
+Benlian, A. , Hess, T. , 2011. Opportunities  and risks of software-as-a-service:  ﬁndings 
+from a survey of IT executives.  Dec. Support Syst. 53 (1), 232–246  . 
+Brydon, M. , Vining, A.R. , 2008. Adoption,  improvement,  and disruption:  predicting  
+the impact of open source applications  in enterprise  software  markets.  J. Datab. 
+Manage. 19 (2), 73–94 . 
+Bucovetsky,  S. , Chilton, J. , 1986. Concurrent  renting and selling in a durable-goods  
+monopoly  under threat of entry. RAND J. Econ. 17 (2), 261–275  . 
+Bulow, J.I. , 1982. Durable-goods  monopolists.  J. Polit. Econ. 90 (2), 314–332 . 
+Bustinza,  O.F. , Ziaee, B.A. , Baines, T.S. , Elliot, C. , 2015. Servitization  and competitive  
+advantage:  the importance  of organizational  structure  and value chain position.  
+Res. Technol. Manage. 58 (5), 53–60 . 
+Chen, P.Y. , Hitt, L.M. , 2006. Information  technology  and switching  costs. Handbook  
+Econ. Inf. Syst. 1, 437–470  . 
+Choudhary,  V. , 2007. Comparison  of software  quality under perpetual  licensing  and 
+software  as a service. J. Manage. Inf. Syst. 24 (2), 141–165 . 
+Choudhary,  V. , Tomak, K. , Chaturvedi,  A. , 1998. Economic  beneﬁts of renting soft- 
+ware. J. Org. Comput. Electron.  Commerce  8 (4), 277–305  . 
+Cusumano,  M.A. , 2007. The changing  labyrinth  of software  pricing. Commun.  ACM 
+50 (7), 19–22 . 
+Cusumano,  M.A. , 2010. Cloud computing  and SaaS as new computing  platforms.  
+Commun.  ACM 53 (4), 27–29 . 
+Dikaiakos,  M.D. , Katsaros,  D. , Mehra, P. , Pallis, G. , Vakali, A. , 2009. Cloud comput-  
+ing: distributed  internet computing  for IT and scientiﬁc  research.  IEEE Internet 
+Comput. 13 (5), 10–13 . 
+Durkee, D. , 2010. Why cloud computing  will never be free. Queue 8 (4), 1–10 . 
+Durgee, J.F. , O’Connor,  G.C. , 1995. An exploration  into renting as consumption  be- 
+havior. Psychol. Market. 12 (2), 89–104 . 
+Eisenhardt,  K.M. , 1989. Building theories from case study research.  Acad. Manage. 
+Rev. 14 (4), 532–550  . 
+Eisenhardt,  K.M. , Graebner,  M.E. , 2007. Theory building from cases: Opportunities  
+and challenges.  Acad. Manage. J. 50 (1), 25–32 . 
+Fan, M. , Kumar, S. , Whinstor,  A.B. , 2009. Short-term  and long-term  competition  be- 
+tween providers  of shrink-wrap  software  and software  as a service. European  J. 
+Operat. Res. 196 (2), 661–671  . 
+Ferrante,  D. , 2006. Software  licensing  models: what’s out there? IT Professional  8 
+(6), 24–29 . 
+Flath, D. , 1980. The economics  of short-term  leasing. Econ. Inquiry 18 (2), 247–259  . 
+Giarratana,  M.S. , 2004. The birth of a new industry:  entry by start-ups  and the 
+drivers of ﬁrm growth: the case of encryption  software.  Research  Policy 33 (5), 
+787–806  . 
+Hinz, O. , Hann, I. , Spann, M. , 2011. Price discrimination  in e-commerce?  An exami- 
+nation of dynamic  pricing in name-your-own  price markets.  MIS Quart. 35 (1), 
+81–98 . 
+Hsu, P-F. , Ray, S. , Li-Hsieh,  Y-Y. , 2014. Examining  cloud computing  adoption  inten- 
+tion, pricing mechanism,  and deployment  model. Int. J. Inf. Manage. 34 (4), 
+474–488  . 
+Hui, W. , Yoo, B. , Choudhary,  V. , Tam, K.Y. , 2012. Sell by bundle or unit? Pure 
+bundling  versus mixed bundling  of information  goods. Decision  Support Sys- 
+tems 53 (3), 517–525 . 
+Huang, K-C. , Shen, B-J. , 2015. Service deployment  strategies  for eﬃcient execution  
+of composite  SaaS applications  on cloud platform.  J. Syst. Softw. 107, 127–141 . 
+Huber, G.P. , Power, D.J. , 1985. Retrospective  reports of strategic-level  managers:  
+Guidelines  for increasing  their accuracy.  Strat. Manage. J. 6, 171–180 . 
+Hugos, M.H. , Hulitzky,  D. , 2011. Business  in the Cloud: What Every Business  Needs 
+to Know About Cloud Computing.  John Wiley & Sons, Inc . 
+Iyer, B. , Henderson,  J.C. , 2010. Preparing  for the Future: Understanding  the Seven 
+Capabilities  of Cloud Computing.  MIS Quarterly  Executive  9 (2), 117–131 . 
+Laatikainen,  G. , Ojala, A. , 2014. SaaS architecture  and pricing models. In: 2014 IEEE 
+International  Conference  on Services Computing  (SCC), pp. 597–604  . 
+Laatikainen,  G. , Ojala, A. , Mazhelis,  O. , 2013. Cloud Services Pricing Models. In: 
+Herzwurm,  G., Margaria,  T. (Eds.), Software  Business.  From Physical Products  to 
+Software  Services and Solutions.  Lecture Notes in Business  Information  Process- 
+ing. Springer,  Berlin Heidelberg  N. 150 . 
+Leavitt, N. , 2009. Is cloud computing  really ready for prime time? Computer  42 (1), 
+15–20 . 
+Lee, K.C. , Lee, H. , Lee, N. , Lim, J. , 2013. An agent-based  fuzzy cognitive  map ap- 
+proach to the strategic marketing  planning  for industrial  ﬁrms. Industrial  Mar- 
+keting Management  42 (2), 552–563  . 
+Lehmann,  S. , Buxmann,  P. , 2009. Pricing strategies  of software  vendors. Business  & 
+Information  Systems Engineering  1 (6), 452–462  . 
+Li, Z. , Zhang, H. , O’Brien, L. , Jiang, S. , Zhou, Y. , Kihl, M. , Ranjan, R. , 2016. Spot pricing 
+in the cloud ecosystem:  a comparative  investigation.  J. Syst. Softw. 114, 1–19 . 
+
+=== PÁGINA 11 ===
+50 A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 
+Liebowitz,  S.J. , Margolis,  S.E. , 1994. Network  externality:  an uncommon  tragedy. J. 
+Econ. Perspectives  8 (2), 133–150 . 
+Linde, F. , 2009. Pricing information  goods. J. Product Brand Manage. 18 (5), 379–384  . 
+Louridas,  P. , 2010. Up in the air: moving your trust in cloud computing.  IT Profes- 
+sional 12 (5), 20–27 . 
+Miles, M.B. , Huberman,  A.M. , 1994. Qualitative  Data Analysis:  An Expanded  Source- 
+book. Sage Publications,  California  . 
+McAfee, A. , 2011. What every CEO needs to know about the cloud. Harvard Bus. Rev. 
+89 (11), 124–132 . 
+Myers, M.D. , Newman,  M. , 2007. The qualitative  interview  in IS research:  Examining  
+the craft. Inf. Org. 17 (1), 2–26 . 
+Nambisan,  S. , 2013. Information  technology  and product/service  innovation:  a brief 
+assessment  and some suggestions  for future research.  J Assoc. Inf. Syst. 14 (4), 
+215–226  . 
+Obal, M. , 2013. Why do incumbents  sometimes  succeed?  Investigating  the role of 
+interorganizational  trust on the adoption  of disruptive  technology.  Ind. Market. 
+Manage. 42 (6), 900–908  . 
+Ojala, A. , 2012. Comparison  of different  revenue models in SaaS. In: Proceedings  of 
+5th Computer  Games, Multimedia  & Allied Technology  Conference  (CGAT 2012) . 
+Ojala, A. , 2013. Software-as-a-service  revenue models. IT Professional  15 (3), 54–59 . 
+Ojala, A. , 2016. Discovering  and creating business  opportunities  for cloud services. 
+J. Syst. Softw. 113, 408–417 . 
+Oza, N. , Karppinen,  K. , Savola, R. , 2010. User experience  and security in the cloud –
+an empirical  study in the ﬁnnish cloud consortium.  IEEE Second International  
+Conference  on Cloud Computing  Technology  and Science . 
+Parker, G.G. , Alstyne, M.W.V. , Choudary,  S.P. , 2016. Platform  Revolution:  How Net- 
+worked Markets Are Transforming  the Economy  - and How to Make Them Work 
+for You. W.W. Norton & Company  . 
+Pettigrew,  A.M. , 1990. Longitudinal  ﬁeld research on change: theory and practice. 
+Org. Sci. 1 (3), 267–292  . 
+Porter, M. , 1979. How competitive  forces shape strategy. Harvard Bus. Rev. 57 (2), 
+137–145 . 
+Porter, M. , 1980. Competitive  Strategy:  Techniques  for Analyzing  Industries  and 
+Competitors.  Free Press, NY . 
+Porter, M. , 1996. What is strategy?  Harvard Bus. Rev. 74 (6), 61–78 . 
+Porter, M. , 2001. Strategy and the internet. Harvard Bus. Rev. 79 (3), 62–78 . 
+Porter, M. , 2008. The ﬁve competitive  forces that shape strategy. Harvard Bus. Rev. 
+86 (1), 78–93 . 
+Schroeder,  A. , Kotlarsky,  J. , 2015. Digital resources  and their role in advanced  service 
+provision:  a VRIN analysis. In: Baines, T., Harrison,  D.K. (Eds.), Servitization:  the 
+theory and impact. Aston University,  UK, pp. 67–74 . Smolander,  K. , Lassenius,  C. , Rossi, M. , 2016. Preface to the special section on soft- 
+ware business.  J. Syst. Softw. 113, 407 . 
+Stake, R.E. , 1995. The art of case study research.  Sage Publications  . 
+Suarez, F.F. , Cusumano,  M.A. , Kahl, S.J. ,2 0 1 3 . Services and the business  models of 
+product ﬁrms: an empirical  analysis of the software  industry.  Manage. Sci. 59 
+(2), 420–435  . 
+Sultan, N. , 2014a. Servitization  of the IT industry:  the cloud phenomenon.  Strategic  
+Change 23 (5-6), 375–388  . 
+Sultan, N. , 2014b. Making use of cloud computing  for healthcare  provision:  oppor- 
+tunities and challenges.  Int. J. Inf. Manage. 24 (2), 177–184 . 
+Sun, W. , Zhang, X. , Guo, C.J. , Sun, P. , Su, H. , 2008. Software  as a service: conﬁgu- 
+ration and customization  perspectives.  IEEE Congress  Serv. Part II, 2008. SER- 
+VICES-2 18–25 . 
+Sundararajan,  A. , 2004. Nonlinear  pricing of information  goods. Manage. Sci. 50 (12), 
+1660–1673  . 
+Susarla, A. , Barua, A. , Whinston,  A.B. , 2009. A transaction  cost perspective  of the 
+“software  as a service” business  model. J. Manage. Inf. Syst. 26 (2), 205–240  . 
+Susarla, A. , Barua, A. , Whinston,  A.B. , 2010. Multitask  agency, modular architecture,  
+and task disaggregation  in SaaS. J. Manage. Inf. Syst. 26 (4), 87–117 . 
+Tang, C.S. , Deo, S. , 2008. Rental price and rental duration  under retail competition.  
+Eur. J. Operat. Res. 187 (3), 806–828  . 
+Valtakoski,  A. , 2015. Initiation  of buyer–seller  relationships:  the impact of intangi- 
+bility, trust and mitigation  strategies.  Ind. Market. Manage. 44, 107–118 . 
+Vandermerwe,  S. , Rada, J. , 1988. Servitization  of business:  adding value by adding 
+services. Eur. Manage. J. 6 (4), 314–324 . 
+Varian, H. , 20 0 0. Buying, sharing and renting information  goods. J. Ind. Econ. 48 (4), 
+473–488  . 
+Waters, B. , 2005. Software  as a service: a look at the customer  beneﬁts. J. Digital 
+Asset Manage. 1, 32–39 . 
+Wigand, R.T. , Benjamin,  R.I. , 1995. Electronic  commerce:  effects on electronic  mar- 
+kets. J. Comput. Mediat. Commun.  1 (3) . 
+Wortmann,  J.C. , Don, H. , Hasselman,  J. , Wilbrink,  A. , 2012. Enterprise  information  
+systems as a service: re-engineering  enterprise  software  as product-service  sys- 
+tem. In: Advances  in Production  Management  Systems.  Value Networks:  Inno- 
+vation, Technologies,  and Management,  pp. 496–505  . 
+Wu, W-W. , Lan, L.W. , Lee, Y-T. , 2011. Exploring  decisive factors affecting  an organi- 
+zation’s SaaS adoption:  a case study. Int. J. Inf. Manage. 31 (6), 556–563  . 
+Yin, R.K. , 2009. Case Study Research:  Design and Methods.  SAGE Publications,  CA . 
+
+=== PÁGINA 12 ===
+A. Ojala / The Journal of Systems and Software 122 (2016) 40–51 51 
+Arto Ojala is working as a senior researcher  in the Department  of Computer  Science and Information  Systems at the University  of Jyväskylä,  Finland. He is also Adjunct 
+Professor  in Software  Business  at the Tampere  University  of Technology.  His research interests  include software  business,  software  entrepreneurship,  cloud computing,  and 
+the internationalization  of software  ﬁrms. Ojala has a PhD in economics  from the University  of Jyväskylä.  Contact him at arto.k.ojala@jyu.ﬁ.  
+

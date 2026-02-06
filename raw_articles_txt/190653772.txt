@@ -1,0 +1,879 @@
+=== PÁGINA 1 ===
+Journal of Public Transportation 25 (2023) 100052
+Available online 4 August 2023
+1077-291X/© 2023 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by-
+nc-nd/4.0/ ).Current practices and emerging trends of transit apps for fixed-route bus 
+services in the US 
+Jiahe Biana,b,*, Wei Lia, Chanam Leea 
+aDepartment of Landscape Architecture and Urban Planning, Texas A&M University, College Station, TX 77843, USA 
+bSchool of Planning, University of Cincinnati, Cincinnati, OH 45221, USA   
+ARTICLE INFO  
+Keywords: 
+Transit agency 
+Transit app 
+Digital experience 
+Information technology 
+Fare payment ABSTRACT  
+In the past decades, smartphone transit apps have emerged as a cost-effective strategy to enhance the transit user 
+experience. This study provides an overview of transit apps used in 295 US transit agencies to shed light on the 
+current practices and future trends of transit apps as a comprehensive information technology that serves public 
+transportation. By conducting interviews with 21 transit industry leaders, we synthesized the perceived benefits 
+and costs of transit apps and identified challenges and the corresponding strategies. Transit apps enhance user 
+experiences by enabling account-based mobile fare payment and efficient two-way communications. To provide 
+high-quality transit apps to passengers, transit agencies need to improve the reliability of underlying data and 
+vendor management. In addition, five existing business models and emerging trends of transit apps were iden-
+tified and discussed. The findings of this study advance knowledge about transit apps and provide practical 
+recommendations for future improvements and implementations.   
+1.Introduction 
+Public transportation plays a critical role in enhancing mobility, 
+promoting economic development, and improving environmental sus-
+tainability (Brown and Werner, 2008; Hess, 2005; Baum-Snow and 
+Kahn, 2000; Anderson, 2014 ). However, public transportation agencies 
+have been struggling to maintain ridership, although many transit 
+capital improvement projects have been implemented (American Public 
+Transportation Association, 2019 ). Moreover, the COVID-19 pandemic 
+has brought additional nationwide substantial decreases in transit 
+ridership since 2020 (Hu and Chen, 2021 ). 
+In the past decades, smartphone transit apps have emerged as a cost- 
+effective strategy that could enhance the transit user experience and 
+have the potential to encourage transit use. Numerous transit apps have 
+been published by transit agencies and private sector developers 
+providing access to fare payment, trip planning, and real-time vehicle 
+information on smartphones. As smartphone usage has become 
+increasingly ubiquitous, transit apps emerged as an essential channel to 
+disseminate relevant and timely transit information. 
+A growing number of empirical studies have shown that for end 
+users, different functions in transit apps could increase the perceived 
+value of transit, save time, and increase transit use. Several studies have revealed that real-time information could enhance perceived safety, 
+reduce waiting anxiety at stops, increase the perceived reliability of 
+transit services, and build positive attitudes toward transit (Brakewood 
+et al., 2014; Kaplan et al., 2017; Gooze et al., 2013; McCord et al., 2015 ). 
+Watkins, Ferris (Watkins et al., 2011 ) and Brakewood, Barbeau 
+(Brakewood et al., 2014 ) demonstrated that providing the real-time 
+vehicle location to transit app users could shorten both their perceived 
+and actual wait time at transit stops. During the COVID-19 pandemic, 
+real-time crowding information alerted passengers about seat avail-
+ability and overcrowding via transit apps (Bian et al., 2022 ). Moreover, 
+real-time vehicle information made it easy to take transit and encour -
+aged users to make more transit trips (Brakewood et al., 2020; Ferris 
+et al., 2011 ). Previous studies also showed that mobile ticketing could 
+eliminate the hassle of carrying cash and tickets, make it easier and 
+faster to purchase transit passes, shorten the speed of boarding, make 
+transit use more flexible, and provide contactless ticketing methods 
+during the COVID-19 pandemic (Apanasevic and Markendahl, 2018; 
+Brakewood, 2020; Mesoraca and Brakewood, 2018 ). Although a few 
+existing studies discussed the benefits of other features in transit apps, 
+scholars argued that trip planning, contact and feedback, notice and 
+alerts, and favorite route/stop marking functions have the potential to 
+improve the transit use experience and encourage transit use 
+*Corresponding author at: School of Planning, University of Cincinnati, Cincinnati, OH 45221, USA. 
+E-mail addresses: bianje@ucmail.uc.edu (J. Bian), wli@tamu.edu (W. Li), chanam@tamu.edu (C. Lee).  
+Contents lists available at ScienceDirect 
+Journal of Public Transportation 
+u{�~zkw! s{yo|kr o>!ÐÐÐ1u{�~zk w�1ow�o�to~1m {y2u{�~z kw/{q/|�lwtm/� ~kz�|{~�k�t{z!
+https://doi.org/10.1016/j.jpubtr.2023.100052 
+Received 22 November 2022; Received in revised form 23 June 2023; Accepted 27 July 2023   
+
+=== PÁGINA 2 ===
+Journal of Public Transportation 25 (2023) 100052
+2(Papangelis et al., 2016; Hendricks et al., 2018; Shaheen, 2016 ). 
+Some researchers examined transit information provision and fare 
+payment via mobile devices from transit operators ’ perspectives. Tang 
+and Thakuriah (Tang and Thakuriah, 2012 ) and Brakewood, Macfarlane 
+(Brakewood et al., 2015 ) showed that real-time vehicle information 
+boosted bus ridership by about 2% in Chicago and New York, respec -
+tively. Real-time information, trip planning, and service alerts on transit 
+apps would help passengers and thus relieve bus drivers from the burden 
+of constantly responding to inquiries. Brakewood (Brakewood, 2020 ) 
+documented mobile fare payment practices via apps in North America 
+and identified five business models. The authors reported “improving 
+the customer experience ”, ” reducing cash handling, ” and “reducing the 
+overall cost of fare collection ” were primary reasons for deploying mo-
+bile fare payment apps. Apanasevic and Markendahl (Apanasevic and 
+Markendahl, 2018 ) stated that for public transport companies, mobile 
+ticketing could enhance their technical functionalities, create financial 
+values, improve working environments, increase work efficiency, and 
+build reputations. 
+However, there is a lack of studies investigating smartphone apps as 
+a unified information technology platform that integrates various 
+functionalities to serve public transportation and its users. The transit 
+apps related decision-making and operational process in different transit 
+agencies are largely unknown, and so are the benefits and impacts of 
+transit apps from transit agencies ’ perspectives. Many transit operators 
+suffer from insufficient experience and knowledge about the latest 
+technological innovations and encounter challenges during operations 
+(Brakewood, 2020 ). 
+2.Research aims 
+This study has two main aims. First, we aim to assess the current state 
+of transit apps offered by major US transit agencies for fixed-route bus 
+services, examining their characteristics, functions, and app ratings. 
+Previous studies demonstrated the potential benefits of transit apps for 
+fixed route bus services, which are the primary mode of transit offered 
+by most transit operators in the US (Bian et al., 2021; Federal Transit 
+Administration, 2020 ). Other transit modes such as on-demand transit, 
+commuter rail, heavy rail, light rail, streetcars, and ferries have unique 
+operational and reliability characteristics, which often necessitate 
+different needs and requirements for transit apps. To ensure the 
+comparability of results, we decided to limit the study scope by specif -
+ically targeting transit apps that serve fixed-route buses. 
+Second, we aim to investigate the practices of transit agencies that 
+provide and manage official branded apps. Compared to those agencies 
+using shared apps available from private sector developers, agencies 
+that developed their own apps have more extensive experience and up- 
+to-date knowledge about the apps. By conducting interviews with each 
+agency ’s transit app project leadership teams, we intend to (1) under -
+stand the development and deployment process of officially branded 
+transit apps in different transit agencies; (2) summarize the perceived 
+benefits of transit apps from transit agencies ’ perspectives; (3) discuss 
+the challenges and lessons learned from the app development and 
+deployment processes; and (4) synthesize plans of public agencies for 
+their transit apps. With the increasing prevalence of transit apps, these 
+efforts will promote discussions, foster information sharing, and 
+advance the general knowledge of this domain. 
+3.Methods 
+American Public Transportation Association (American Public 
+Transportation Association, 2020 ) listed 295 transit agencies as regular 
+US transit systems. In October 2021, we reviewed transit apps provided 
+by these 295 transit agencies by investigating their official websites, 
+news, and app stores. Functionalities and app store ratings of these 
+transit apps were examined and summarized. 
+Then we targeted transit agencies that have developed and operated an official transit app that serves their bus riders. Official transit apps in 
+this study are defined as smartphone apps developed or endorsed by 
+transit agencies. These transit apps are exclusively branded with the 
+logos of the transit agencies, and managed by the transit agencies. A pool 
+of transit agencies was selected based on the following criteria: (1) the 
+agency provides fixed-route bus services to the public; (2) the agency 
+publishes its officially branded transit apps that allow passengers to plan 
+trips, purchase tickets, or access real-time information; (3) the official 
+transit app is available for both iOS and Android systems; and (4) the 
+app received more ratings than the median level on Apple Store or 
+Google Play. The number of ratings – a reflection of user engagement 
+level with the app – is a useful metric to identify transit apps that have 
+been widely used by passengers. Transit agencies that operate apps with 
+more ratings are likely to have more experience in operating transit apps 
+and serving a larger user base. There are other meaningful criteria, such 
+as the number of downloads, that can reflect the number of users. This 
+study used the number of ratings due to data availability. 
+We sent an interview invitation email to the leadership team of each 
+qualified transit agency, recruiting team members who have been 
+directly involved in the transit app development and/or deployment 
+work. Professionals with technical or operational experience were 
+included. The person of contact was selected based on their position 
+ranking, following this order: General Manager, Chief Innovation Offi-
+cer, President/Vice President of Technology & Innovation, Director, 
+Project Manager, and Technician. 
+The invitation email informed the potential participants that the 
+interview would take place online via ZOOM and take around 60 min. 
+Once the participant(s) agreed to join the study, the study information 
+and interview questions were shared with them by email in advance. Up 
+to three interviewees from the same transit agencies were invited. No 
+financial compensations were offered to the participants. Interview re-
+cordings were transcribed verbatim. Nvivo12 was used for transcription 
+coding and analysis. 
+4.Findings 
+4.1. State of transit apps 
+Among 295 transit agencies, 48 agencies specialized in ferries, rail, 
+paratransit, long-distance shuttles, or university/resort/airport bus 
+services. Most transit agencies (N 247) did provide fixed-route bus 
+services to the public. The vast majority (N 240) provided transit in-
+formation via smartphone apps, except for seven transit agencies. Some 
+(N 125) were affiliated with off-the-shelf private-sector apps, such as 
+the Transit App1, myStop, TransLoc, and Token Transit. These apps were 
+developed and operated by private developers and support multiple 
+agencies. About half of the transit agencies (N 115) developed or 
+endorsed branded transit apps (Fig. 1). This proportion is much higher 
+among large transit operators. American Public Transportation Associ -
+ation (American Public Transportation Association, 2019 ) listed the 50 
+largest transit agencies by ranking their ridership2. Among the 46 transit 
+agencies that provided fixed-route bus services, 41 of them operated 
+officially branded transit apps. 
+We downloaded and examined transit apps that serve the 240 transit 
+agencies. The app store ratings and functionalities of these apps are 
+summarized in Table 1. For apps officially branded by transit agencies, 
+most of them (N114 out of 119) were available for both iOS and 
+Android systems. More than half of these apps received a rating score of 
+3 and above in both Google Play and Apple Store. Contact information 
+1The largest 50 transit agencies identified in the American Public Trans -
+portation Association fact book and the National Transit Database are the same 
+except for a few discrepancies at the end of the list. This study uses the fact book 
+as a reference.  
+2 The Transit App referred to here is a private-sector product. J. Bian et al.                                                                                                                                                                                                                                     
+
+=== PÁGINA 3 ===
+Journal of Public Transportation 25 (2023) 100052
+3for transit customer services, real-time vehicle information, and fare 
+payment were the most common functionalities provided by agency 
+branded official transit apps. Among the 32 private sector shared apps, 
+23 were available in both Google Play and Apple Store. Compared to 
+agency branded apps, these private sector shared apps were more likely 
+to receive a score of 3 and above. Marking favorite routes or stops, real- 
+time vehicle information, and rider alerts were the most popular features 
+in private sector shared apps. 
+4.2. Interviewed transit agencies and their transit apps 
+Based on the criteria set in Section 3, 45 transit agencies were 
+selected for interviews. According to Federal Transit Administration 
+(Federal Transit Administration, 2021), the annual unlinked passenger 
+trips in these 45 selected agencies ranged from 1.1 million (M) to 
+1727.4 M. We sent invitation emails to these transit agencies to request 
+interviews on their transit app projects. Representatives from 17 transit 
+agencies accepted the invitation and participated in the interview 
+(Fig. 2). Transit agencies with unlinked passenger trips below 10 M were 
+slightly less inclined to join interviews (Table 2). 
+In the fall of 2021 and spring of 2022, we interviewed 21 pro-
+fessionals from 17 transit agencies who had been leading their transit app projects. The interviewees were from the department of information 
+and technology (13 or 61.9%), the department of finance (5 or 23.8%), 
+and the department of marketing and communications (3 or 14.3%). In 
+terms of their transit apps, contact information, fare payment, favorite 
+route/stop marking, real-time vehicle information, riders alerts, and trip 
+planning are common functionalities available in most transit apps 
+(Table 3). 
+4.3. Motivations 
+In our study, all interview participants realized that information 
+provision and communications via smartphone apps were crucial for 
+transit riders. They agreed that fare payment, trip planning, and real- 
+time vehicle information should be the essential features of transit 
+apps. There were many reasons that motivated transit agencies to 
+develop and operate their own officially branded transit apps. 
+First, while many transit agencies are exploring the next-generation 
+fare collection solutions (e.g., automated fare collection system, 
+account-based fare system, open payment system), smartphone transit 
+apps are often viewed as a cost-effective medium for account manage -
+ment (on the users’ side), transactions, and fare validations. As different 
+transit agencies offer different fare products and continue changing their 
+fare structures, developing a transit app that could be easily and cost- 
+effectively customized would be a feasible solution. For example, one 
+interviewee mentioned: 
+“We knew we needed a new [fare collection] system. But it takes a long 
+time to get funding, the requirements, hiring a vendor, and then finally 
+launching. One thing that we saw with mobile apps was that transit 
+agencies were able to do it very quickly.” 
+Second, transit agencies often face pressure from customers to pro-
+vide one transit app that integrates all functions and can easily integrate 
+new features over time. Having control over the functions and user in-
+terfaces is critical for transit agencies. One participant noted: 
+“One of the things that we were looking for with this is scalability and 
+modularity. So that we could start introducing core features, and then add 
+things on in the development timeline, while the customers are still able to 
+benefit from the functionality. And that as technologies and preferences 
+change, we can swap pieces in and out, while reducing the cost and time 
+required to do so.” 
+Third, the currently off-the-shelf private-sector apps could not meet 
+all the needs of transit agencies and riders. Some fare payment apps and 
+trip planning apps serve hundreds or thousands of regions globally, 
+making it hard to do customizations for specific transit agencies. Some 
+private-sector apps consume free-available GTFS/GTFS-RT data for their 
+trip planning functions and end up providing inaccurate information 
+Transit agencies identified by APTA
+(N=295)
+Provide fixed-route bus services 
+to the public
+(N=247)Donotprovide fixed-
+route bus services to  
+the public
+(N=48)
+Provide transit apps
+(N=240)Do notprovide any 
+transit apps
+(N=7)
+Operate at least one agency  
+branded officialtransit app
+(N=115)Provide private sector shared
+transit apps
+(N=125)Fig. 1.State of transit apps in major US transit agencies.  
+Table 1 
+Characteristics of transit apps.  
+Characteristics Frequency 
+(%) Characteristics Frequency 
+(%) 
+Agency-branded 
+transit apps 119 Private sector apps 32 
+App Store Ratings  App Store Ratings  
+iOS 119 iOS 28 
+0–1.99 21 (17.6%) 0–1.99 1 (3.6%) 
+2–2.99 38 (31.9%) 2–2.99 8 (28.6%) 
+3–3.99 22 (18.5%) 3–3.99 4 (14.3%) 
+4–5 38 (31.9%) 4–5 15 (53.6%) 
+Android 114 Android 26 
+0–1.99 2 (1.8%) 0–1.99 0 (0.0%) 
+2–2.99 16 (14.0%) 2–2.99 0 (0.0%) 
+3–3.99 61 (53.5%) 3–3.99 12 (46.2%) 
+4–5 35 (30.7%) 4–5 14 (53.8%) 
+Functionalities  Functionalities  
+Offer more than one 
+function 105 (88.2%) Offer more than one 
+function 28 (87.5%) 
+Fare payment 68 (57.1%) Fare payment 6 (18.8%) 
+Trip planning 53 (44.5%) Trip planning 14 (43.8%) 
+Real-time info 71 (59.7%) Real-time info 25 (78.1%) 
+Favorite 64 (53.8%) Favorite 26 (81.3%) 
+Rider alerts 64 (53.8%) Rider alerts 17 (53.1%) 
+Contact 93 (78.2%) Contact 4 (12.5%)  J. Bian et al.                                                                                                                                                                                                                                     
+
+=== PÁGINA 4 ===
+Journal of Public Transportation 25 (2023) 100052
+4since no contracts were involved to ensure the data quality. One inter-
+viewee complained, “We have no control over [a third-party app]. They 
+scraped the website for data and never updated it.” When resources are 
+available, transit agencies tend to operate a unique customized transit 
+app that has its own branding. As another interviewee said, “being able to 
+communicate with customers in our own voice is important. ” 4.4. Business models 
+Based on interviewees ’ descriptions of how their transit apps were 
+developed and maintained, five business models were identified (Fig. 3): 
+(1) private sector shared app (e.g., Transit App2, Token Transit); (2) 
+white-label app with minor customization (e.g., MTA eTix, CATS Pass); 
+(3) white-label app with major customization (e.g., CharmPass, Muni -
+Mobile); (4) in-house design vendor development (e.g., GoPass, SEPTA); 
+and (5) in-house development (e.g., TAP LA). 
+Private sector shared apps were developed by a single vendor but 
+serve multiple transit agencies in different regions/countries. Users need 
+to zoom into the targeted area or select the agency to find the transit 
+information or purchase the ticket they want. The upfront and opera -
+tional costs would be minimal as these apps involve limited features and 
+little to no branding or tailoring for each transit agency. 
+The white-label app is also known as SaaS (Software-as-a-service) 
+product, which is developed by third-party vendors (e.g., Bytemark, 
+Masabi, Moovel, Unwire, INIT) and subsequently rebranded by transit 
+agencies. The contract amounts varied according to the scope of work 
+and the level of customization. The interviewees reported that for their 
+transit apps, the upfront costs of app development ranged from $0 to 
+$1000,000. The ongoing costs could be an annual lump sum (ranging 
+from $100,000 to $500,000) or a charge per transaction (if it had fare 
+payment functions). According to the interview results, after contract 
+execution, time spent on the initial front-end app development varied 
+from a few weeks to a few years. This model allows agencies to 
+customize and configure the interface and functions of the app without 
+hiring employees with app development skills. Interviewees explained: 
+“We are not app developers. We don’t hire those with that skill set. So we 
+knew from the beginning that we wanted a SaaS [product], the off-the- 
+shelf app, where the app developers were the experts. They have de-
+signers; they have engineers; they’re product managers. ” 
+“One of the biggest benefits [of choosing white-label apps] for us is that 
+we’re not responsible for PCI (Payment Card Industry Data Security 
+Standard) compliance, at least on the platform. ” 
+Six of the transit apps operated by the participating agencies were 
+white-label apps with minor customization. Minor customization 
+included changing the name of the app, color schemes, route informa -
+tion, fare types, etc., as one interviewee described: 
+Fig. 2.Locations of interviewed transit agencies.  
+Table 2 
+Unlinked passenger trips for targeted and interviewed transit agencies.  
+Unlinked passenger trips (2021) Targeted transit agency Interviewed agency 
+below 10.0 M 15 (33.3%) 3 (17.6%) 
+10.0 –49.9 M 20 (44.4%) 10 (58.8%) 
+50.0 M and above 10 (22.2%) 4 (23.5%)  
+Table 3 
+Positions of interviewees and functionalities of transit apps.  
+Position of 
+Interviewees Information & 
+Technology Chief Technology 
+Officer/ Chief 
+Innovation Officer/ 
+Director/ Lead 10 47.6% 
+Project Manager/ 
+Supervisor/ 
+Specialist 3 14.3% 
+Finance/ 
+Accounting/ Fare 
+System Manager/ 
+Executive Officer 5 23.8% 
+Marketing and 
+Communications Director 2 9.5% 
+Specialist 1 4.8% 
+Functionalities/ 
+Features in 
+Transit Apps Fare Payment/Virtual Card /Account 
+Management 16 80.0% 
+Trip Planning 11 55.0% 
+Real-time Vehicle Info (location, next 
+departure/arrival, bike rack availability, 
+crowding) 12 60.0% 
+Favorite Route/Stop 14 70.0% 
+Security Report 4 20.0% 
+Rider Alerts 12 60.0% 
+Contact Information 19 95.0% 
+Offer more than one function 20 100%  J. Bian et al.                                                                                                                                                                                                                                     
+
+=== PÁGINA 5 ===
+Journal of Public Transportation 25 (2023) 100052
+5“If you download the app from other transit agencies that are on the 
+wasabi platform, you’ll go ‘Oh, it looks just like our app, but the colors are 
+different.’ …We did it very quickly. It took us six months after notice to 
+proceed, to configure, and launch the app.” 
+Another three interviewed transit agencies chose to acquire white- 
+label transit apps with major customization. The vendors added new 
+functionalities, reconfigured elements, or integrated with the transit 
+agency’s back-office system or hardware based on the requirements of 
+transit agencies. An interviewee provided an example:“There is a decent 
+bit of customization. Part of that is due to our complex fare structure, with 
+like different zones, different costs. A lot of potential variations and travel 
+patterns.” 
+Before the white-label apps became widely available, some transit 
+agencies collaborated with third-party vendors to build their transit 
+apps. This In-house design vendor development model describes the 
+partnership that transit agencies lead the product management and the 
+feature scoping process, and the third-party vendors develop the soft-
+ware accordingly. With this business model, transit agencies take the 
+role of product managers and own the final products. One transit agency 
+said they sub-licensed their transit app product to other agencies to 
+generate revenue: 
+“We develop new capabilities that those of them rolled out made available 
+to other markets. Because we’re an agency, we are an expertise, we know 
+how things actually need to be implemented, we know the teams that need 
+to be involved in taking something for fruition.” 
+The in-house development model applies to transit apps that are 
+completely designed and developed by the staff at transit agencies. The 
+transit agency hires project managers, designers, and developers, and 
+provides office space and proper support to the team. Compared to other 
+business models, in-house development usually gives transit agencies 
+more control over the branding, configuration, and data. This model also 
+allows transit agencies to implement cutting-edge technologies that 
+have not been widely adopted by the industry. For example, an inter-
+viewee said: 
+“[Our App] will allow you to travel with that tap card now, using the NFC 
+capabilities that’s in the phone. You don’t even have to open the app, you 
+can just drop your phone down, and the reader will take your tap card. 
+[The App] just sits there on the phone, knows what you have on your tap 
+card, and is immediately good. It is pretty cool.” 
+Correspondingly, the time and financial costs of app development 
+are typically higher as the level of control increases. The associated 
+expenses include personnel costs, server costs, and other fees (e.g., li-
+cense fees for JavaScript libraries). 
+The five business models discussed provide a spectrum of choices for 
+transit agencies. Many small- to medium-sized transit agencies with 
+limited resources found that the shared app is the best fit because this 
+model typically takes a short time to launch, requires no upfront pay-
+ments, and charges a percentage of transactions after sales (if the app 
+allows fare payment). Over the past decade, an increasing number of 
+medium and large transit agencies have chosen the white-label app 
+model since the products in this industry have become more mature and 
+standardized. Compared to shared apps, white-label apps allow for 
+additional agency branding and customization. The time frame for 
+launching a white-label app is usually shorter than developing the app in-house. Meanwhile, some large transit agencies still gravitate towards 
+in-house design or development models because these offer more flexi-
+bility and control. The costs of in-house development vary with the 
+scope of work and team structure/management. 
+4.5. Perceived benefits 
+All interviewees agreed that their transit apps were valuable to both 
+the agencies and their customers. Table 4 exhibits the representative 
+interview quotes for perceived benefits of different functionalities in 
+transit apps. 
+Almost half of the transit agencies (eight out of 17) offer an all-in-one 
+place single app for passengers that supports and advertises their 
+multimodal transit operations (e.g., buses, light rail, Bus Rapid Transit, 
+paratransit, on-demand transport, streetcars, and water taxis). By 
+allowing passengers to pay fares, plan trips, contact customer services, 
+and report suspicious activities, these transit apps enhance the digital 
+experience of the riders, which can further encourage their transit use. 
+One interviewee summarized, “[our app] is a one-stop shopping for transit 
+in the palm of your hand.” 
+Most of the reviewed transit apps (16 out of 20) enable riders to 
+purchase tickets and manage their wallets through a password-protected 
+account. This account-based fare collection system empowers transit 
+agencies to implement fare capping programs and run targeted mar-
+keting. One interviewee gave an example, “we can provide a promo code 
+to the members of an upcoming convention. And so then we can isolate to see 
+many passengers we gained from that event.” As a streamlined, contactless, 
+and secure way for transit ticketing, mobile ticketing is widely adopted 
+by passengers. Interviewees mentioned that about 15–50% of their 
+Leve l of control
+Private sector 
+shared appWhite-label app 
+(Minor customizatio n)White-label app 
+(Major customizatio n)In-house design 
+vendor developmentIn-house 
+development
+CostsFig. 3.Characteristics of business models. Note: the shades of darkness reflect the magnitude of characteristics, with the darkest shades representing the highest level 
+of control and the highest costs. The costs of in-house development have some uncertainty and depend on the number of employees and administrative expenses 
+involved in the app development and deployment process. 
+Table 4 
+Interview quotes for perceived benefits of transit apps.  
+Functions/ Features Transit agencies 
+All-in-one place single app  o “Enhance customer experience.”  
+o “Two-way communications with 
+customers.”  
+o “Meet the special needs of the local 
+community.”  
+o “Make more people take transit.”  
+o “Easy to engage new riders.”  
+o “Promote all modes of transit.”  
+o “Assist with advertising campaigns.”  
+o “Integral to operations.” 
+Ticketing/ Account Management/ 
+Mobile Wallet/ Virtual Card  o “Reduce the costs associated with 
+physical (fare) media.”  
+o “Least expensive revenue collection 
+method.”  
+o “Speed up the boarding process and 
+improve our on-time performance.”  
+o “Switch us from card-based accounting 
+to account-based management system.”  
+o “Enable fare capping programs.”  
+o “Give us the ability to run direct 
+promotions.”  
+o “Help us to track usage and revenue.”  
+o “Reduce disputes about fare on buses.”  
+o “Improve the fare compliance.” 
+Trip Planning and Real-time Vehicle 
+Info (location, next departure/ 
+arrival, bike, crowding)  o “The fastest way to keep customers up 
+to date.”  
+o “Build (customer) trust. ”  J. Bian et al.                                                                                                                                                                                                                                     
+
+=== PÁGINA 6 ===
+Journal of Public Transportation 25 (2023) 100052
+6tickets were sold via transit apps. 
+Many interviewees considered the importance of transit apps as a 
+channel to communicate with passengers. Trip planning and real-time 
+vehicle information engage new riders and help existing riders plan 
+their activities based on reliable data. As one interviewee said, 
+“it was incredibly difficult to communicate to riders. You may have an 
+email system that people subscribe to, but it’s not intuitive. So having a 
+method through the mobile app to communicate directly to the customer 
+and engage with them is really important.” 
+Several interviewees highlighted the value of data they got from 
+transit apps. By keeping track of transit users anonymously, transit 
+agencies would be able to improve their services and feed the data back 
+to the users. Collecting data on riders would also make it possible for 
+transit agencies to provide contextually relevant information, such as 
+offers, events, and service alerts, to targeted customers. 
+4.6. Challenges 
+First, choosing and working with third-party vendors can be chal-
+lenging. Given the fact that the software application industry has been 
+evolving rapidly, collaborating with credible and leading-edge vendors 
+is critical for transit agencies. Most of the transit agencies interviewed 
+are constantly updating their transit apps in terms of functions, designs, 
+and service areas. Vendors need to ensure flexibility and scalability 
+while making complex apps intuitive to users. One of the major chal-
+lenges for transit agencies in working with vendors is to ensure that the 
+app is developed within the planned time frame. Prolonged contract 
+negotiations, excessive communication and coordination, and ineffi -
+cient testing process could delay the deployment. Interviewees 
+explained: 
+“When you have a subcontractor that belongs to your prime contract 
+vendor, you can tell the subcontractor what to do, but you have to work 
+with you prime. So that can derive in challenges…there can be a lot of 
+delays, just getting information and feedback.” 
+“The biggest challenge is the need to accelerate the initial functionality 
+delivery. There were project schedule rearrangements, finding testers, 
+getting it tested. Making sure that it was developed within the time frame is 
+challenging.” 
+Second, quality issues with underlying data for app development are 
+common hurdles to getting well-functioning transit apps. Small- and 
+medium-sized transit agencies often find it difficult to hire staff with 
+data management and application development expertise. Inaccurate 
+trip planning and real-time vehicle information based on the poor 
+quality of General Transit Feed Specification (GTFS)/GTFS-RT feed 
+often mislead passengers. Many transit agencies interviewed faced 
+challenges in producing high-quality, up-to-date data. One interviewee 
+explained: 
+“Sometimes the staff did not go through the process of data cleaning and 
+updating; Sometimes the modems and bandwidth on board did not meet 
+the requirements; Sometimes the onboard devices were not configured for 
+the right vehicles.” 
+Third, ineffective cross-department collaborations are common 
+challenges reported by the interviewed agencies. The transit app 
+acquirement, development, and deployment process involve many de-
+partments within or across agencies. An interviewee noted, “making sure 
+everything is moving forward in the same direction at the same time is a huge 
+challenge.” Despite this, interviewees shared their experience, “[A suc-
+cessful transit app project] requires a lot of commitment from the leadership 
+side and the operation side.” “We have to compromise between different 
+stakeholders.” 
+Finally, some interviewees discussed the equity issues related to 
+transit apps and provided their solutions. For instance, in some cities, bankless transit riders can load money into their digital wallets by 
+paying cash at local stores. Most transit agencies (12 out of 17) manage 
+to support multiple languages in their apps. A few transit apps offer 
+voice-over features and a color-blind friendly palette for customers who 
+are blind or color-blind. However, one interviewee mentioned some 
+remaining difficulties, such as logistic challenges of synchronizing in-
+formation on offline schedules after people with limited data plans 
+download them on smartphones. 
+5.Discussion 
+5.1. Emerging trends 
+While our interviews focused on transit agencies with transit apps 
+that exclusively serve their local passengers, there are other types of 
+transit apps. Aggregator apps are app-based platforms that offer multi -
+modal transit information in different regions or countries. Google Maps 
+for Transit provides trip planning and route information in more than 
+100 countries (Google Maps Transit, 2022). The Transit App2 (Transit 
+app, 2022) functions in over 170 metropolitan areas around the world, 
+providing transit navigation, real-time arrival information, and some -
+times fare payment features (Metro, 2022; Pittsburgh Regional Transit, 
+2022). Unlike aggregator apps, regional apps serve transit systems in 
+certain geographic regions. Some transit agencies in proximity join the 
+same app programs to allow passengers to take transit across cities 
+without downloading multiple apps. For example, 26 transit systems in 
+the greater Los Angeles area participated in the TAP LA app project 
+(TAP, 2022). The Clipper app works as a universal transit fare payment 
+tool for 24 transit services in the San Francisco Bay Area (Metropolitan 
+Transportation Commission, 2020). Since a smartphone-based ticketing 
+system does not require infrastructure such as validators, it enables 
+interoperability across agencies. 
+One emerging trend identified from the interviews was that large 
+transit agencies usually favor all-in-one local exclusive transit apps 
+serving all local transit modes and providing all desired functions. Apps 
+with multiple functions can provide a seamless and convenient experi -
+ence for passengers. It underpins the importance of assessing apps as a 
+united information technology. Large agencies believed these local 
+exclusive apps have the potential to serve as efficient tools for two-way 
+communications and data collection. In addition to providing transit 
+information to passengers, 78.2% of agency branded transit apps 
+allowed users to share feedback, ask questions, and contact customer 
+services. Among the interviewed agencies, 95.0% of them offered a way 
+for passengers to contact agencies, and 20.0% of them enabled the se-
+curity report function in their apps. Having a transit app with the most 
+extensive back-end control could assist the transit agency in under -
+standing its passengers. For example, one interviewee stated, “We are 
+always looking at how to improve our coverage, or our frequency of bus 
+routes. So more data helps sort of fine-tune the system.” 
+Many interviewees mentioned if transit agencies had access to peo-
+ple’s travel patterns, they would be able to send passengers contextually 
+relevant information such as serve alerts, offers, and events. Local 
+exclusive apps can be enhanced in many ways to promote public 
+transportation. Studies showed that personalization and user engage -
+ment in smartphone apps are critical for travel mode changes (Durand 
+et al., 2018; Andersson et al., 2018). Incentives and gamification ele-
+ments, such as rewards, coupons, prizes, avatars, badges, leaderboards, 
+competitions, leveling-up, and challenges, are promising features to 
+promote transit use (Shaheen, 2016). For example, Transit apps could 
+encourage transit use by awarding riders credit points that could be used 
+towards their future fare. Transit apps can also visualize the impact of 
+transit use by displaying the calories burned, gas saved, and carbon 
+dioxide emission reduced. 
+In contrast, another notable trend is that small and medium transit 
+operators prefer aggregator apps and would like to provide underlying 
+data to third-party companies instead of acquiring or developing apps by J. Bian et al.                                                                                                                                                                                                                                     
+
+=== PÁGINA 7 ===
+Journal of Public Transportation 25 (2023) 100052
+7themselves. Aggregator apps allow transit providers to improve digital 
+customer experience without large investments. In the future, aggre -
+gator transit apps could be improved by combining public and private 
+transportation services together as Mobility as a Service application. 
+Using APIs and SDKs to integrate fare payment systems for multimodal 
+transportation options (e.g., train, bus, paratransit, bike-sharing, 
+scooter-sharing, Uber) could become an emerging trend (Watkins 
+et al., 2021). A representative from LYNX in Orlando said: 
+“We’re a small city in central Florida. But on the other hand, we have 75 
+million tourists that come every year for theme parks and resorts. We 
+want to meet passengers where they are. A person who comes from 
+London can use the [aggregator transit]app that he already has on his 
+phone without loading a particularly LYNX based application. We want to 
+make sure our data is in each and every one of the different applications 
+so that the passengers can choose what’s the best transportation option for 
+them.” 
+5.2. Improve the quality of underlying data 
+As reported in Section 4.6, interviewees stated that the reliability of 
+underlying data is the key to a high-quality digital customer experience. 
+Our interview results showed that most transit agencies have moved 
+from self-made APIs to standardized GTFS feeds to support trip planning 
+and real-time vehicle information features. However, transit agencies 
+often find it time-consuming and challenging to clean and validate 
+GTFS/GTFS-RT feeds. Although many educational and open-source 
+tools are available (Watkins et al., 2021; MobilityData, 2022), more 
+resources are needed to identify and troubleshoot problems in practice. 
+Results from this study further suggest that reconfiguring the back- 
+office system for real-time information displays on mobile platforms is 
+needed. Standardizing and modernizing the transit data exchange pro-
+tocols are critical for future executions. 
+5.3. Vendor management 
+To support and deploy transit apps, public transit agencies often 
+partner with private-sector vendors for different tasks. For instance, 
+transit operators work with companies like Trapeze (Trapeze Group, 
+2022) for vehicle scheduling and assignment. Some transit agencies 
+outsource vehicle predictions and real-time feed provision to vendors 
+such as Swiftly (Swiftly, 2022). However, transit app technologies and 
+transit services have been rapidly developing and will continue to 
+transform. The fast-evolving nature of transit apps poses challenges in 
+collaborating with vendors. The interview results highlighted the 
+importance of efficient vendor management. 
+The critical components of the vendor management process include 
+vendor selection, contract negotiation, performance evaluation, and risk 
+management (Cleary and McLarney, 2019; Costello, 2013). Practical 
+recommendations for vendor management are discussed and shared by 
+the interviewees. 
+First, since predicting every single feature and function needed on 
+transit apps has become increasingly difficult, an interviewee shared 
+some advice for the RFP (Request for Proposals) writing when selecting 
+vendors: 
+“We actually kept [our RFP] to core technical specs instead of onerous 
+long RFPs with hundreds and hundreds of requirements…so we described 
+what we wanted, not necessarily as many details of what those features 
+had to be, and we had a lot of bids. And I think that worked out really well 
+for us.” 
+Second, when negotiating and renewing contracts with vendors, a 
+robust modification protocol is needed to potentially deal with en-
+hancements of products, adjustments of services, and changes in the law. 
+Since the data generated by transit apps are often desired by transit 
+agencies for operation improvement, terms and conditions about data sharing need to be clarified before procurements. An interviewee re-
+flected on this issue: 
+“I think moving forward, a transit agency needs to think about what ways 
+we can engage vendors to ensure that we get the data that we want. A lot 
+of discussions and thinking about data really has to happen long before 
+you even have a project.” 
+Third, testing and QA/QC by transit agencies or pilot users is critical 
+for the success of transit app projects. The responsibilities of each party 
+should be specified for performance evaluation. An interviewee stated: 
+“I would say even though [QA/QC] did take longer to get the app out the 
+door, it absolutely was worth it. Because the app is rock solid, it works 
+extremely well. And honestly, I would say probably one of the most liked 
+things about our agency.” 
+Considering the level of control and costs, Section 4.4 identified five 
+business models for transit agencies to consider when collaborating with 
+vendors: (1) private sector shared app, (2) white-label app with minor 
+customization, (3) white-label app with major customization (4) in- 
+house design vendor development, and (5) in-house development. The 
+first three business models align well with those raised by Brakewood 
+(Brakewood, 2020) – Shared App, White Label App, and White Label 
+App with Validation Hardware – which describe the mobile fare 
+collection application. The choice of models would depend on the 
+agency’s operational context and available resources, as epitomized by 
+an interviewee, “It really depends, agency by agency, in the comfort level. 
+There are options out there for everyone.” 
+6.Limitation and conclusion 
+This study is subject to the following limitations. First, the in-
+terviewees may have biases toward the values of their apps, for which 
+they serve a leadership role. Their professional experience provided rich 
+information and insights, despite such inevitable selection biases. Sec-
+ond, this study targeted transit agencies that developed their own offi-
+cial branded transit apps. Small-size transit agencies that do not have the 
+capacity to build their own apps were excluded from the interviews. 
+Further studies are needed to investigate the challenges and opportu -
+nities for transit operators under limited resources. Particularly, how 
+smaller transit agencies might collaborate with other agencies and 
+regional/local governments to pool resources and jointly invest in their 
+technological infrastructure. Third, the practice of transit apps has been 
+evolving rapidly in recent years and is likely to continue its fast pace of 
+development in the future, requiring continued efforts to bring up-to- 
+date knowledge to the field. 
+This study reviewed the transit apps provided by 295 transit agencies 
+in the US. As of 2021, the majority of transit agencies provided smart -
+phone transit apps to passengers in their service areas. Most transit apps 
+(88.1%) offered more than one of the following functions: contact in-
+formation, real-time vehicle information, fare payment, trip planning, 
+marking favorites, and rider alerts. We interviewed 21 representatives 
+from 17 transit agencies about their experiences with their agency- 
+branded official transit app projects. Transit industry leaders view 
+transit apps as a critical component of their account-based fare system 
+and an essential means for two-way communications with passengers. 
+Based on the costs and level of control, five business models for devel -
+oping transit apps were identified: private sector shared app, white-label 
+app with minor customization, white-label app with major custom -
+ization, in-house design vendor development, and in-house develop -
+ment. We have also identified two major trends: large transit agencies 
+usually favor local exclusive transit apps, which could be enhanced to 
+better serve their local passengers; and small and medium sized transit 
+providers prefer to join aggregator apps that could serve hundreds of 
+agencies in different regions or countries. By integrating multi-modal 
+transportation information, aggregator transit apps have the potential 
+to grow as Mobility-as-a-Service application platforms. However, to J. Bian et al.                                                                                                                                                                                                                                     
+
+=== PÁGINA 8 ===
+Journal of Public Transportation 25 (2023) 100052
+8deliver high-quality transit apps, transit agencies face numerous chal-
+lenges, such as unreliable underlying data and inefficient vendor man-
+agement. The findings of this study would help researchers and 
+practitioners to better evaluate the advantages and disadvantages of 
+each choice, make informed decisions, and prevent avoidable problems. 
+CRediT authorship contribution statement 
+Jiahe Bian: Conceptualization, Methodology, Project administra -
+tion, Software, Investigation, Writing – original draft. Wei Li: Concep -
+tualization, Supervision, Writing – review & editing. Chanam Lee: 
+Conceptualization, Supervision, Writing – review & editing. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+This research did not receive any specific grant from funding 
+agencies in the public, commercial, or not-for-profit sectors. 
+References 
+American Public Transportation Association, 2019 public transportation fact book. 2019. 
+American Public Transportation Association. APTA Member List 2020; Available from: 
+https://www.aptagateway.com/eWeb/DynamicPage.aspx? 
+WebcodemembList &DesignNo&mbt_key1cba15a5 –74b0 –43c1- 
+ab09 –34fc468cc3ca. 
+Anderson, M.L., 2014. Subways, strikes, and slowdowns: the impacts of public transit on 
+traffic congestion. Am. Econ. Rev. 104 (9), 2763 –2796 . 
+Andersson, A., Winslott Hiselius, L., Adell, E., 2018. Promoting sustainable travel 
+behaviour through the use of smartphone applications: a review and development of 
+a conceptual model. Travel Behav. Soc. 11, 52–61. 
+Apanasevic, T., Markendahl, J., 2018. The value of mobile ticketing from a public 
+transport perspective. J. Paym. Strategy Syst. 11 (4), 292–305. 
+Baum-Snow, N., Kahn, M.E., 2000. The effects of new public projects to expand urban 
+rail transit. J. Public Econ. 77 (2), 241–263. 
+Bian, J., et al., 2021. The end-user benefits of smartphone transit apps: a systematic 
+literature review. Transp. Rev. 1–20. 
+Bian, J., et al., 2022. Perceived risks of transit use during COVID-19: correlates and 
+strategies from a case study in El Paso, Texas. J. Transp. Health 27, 101491 . 
+Brakewood, C., et al., 2020. An evaluation of the benefits of mobile fare payment 
+technology from the user and operator perspectives. Transp. Policy . 
+Brakewood, C., 2020. Business Models for Mobile Fare Apps. The National Academies 
+Press, Washington, DC, p. 108. 
+Brakewood, C., Barbeau, S., Watkins, K., 2014. An experiment evaluating the impacts of 
+real-time transit information on bus riders in Tampa, Florida. Transp. Res. Part A: 
+Policy Pract. 69, 409–422. 
+Brakewood, C., Macfarlane, G.S., Watkins, K., 2015. The impact of real-time information 
+on bus ridership in New York city. Transp. Res. Part C: Emerg. Technol. 53, 59–75. 
+Brown, B.B., Werner, C.M., 2008. Before and after a new light rail stop: resident 
+attitudes, travel behavior, and obesity. J. Am. Plan. Assoc. 75 (1), 5–12. Cleary, S., McLarney, C., 2019. Organizational benefits of an effective vendor 
+management strategy. IUP J. Supply Chain Manag. 16 (4), 50–67. 
+Costello, T., 2013. Vendor management. IT Prof. 15 (6), 72-72 .  
+Durand, A., et al., Mobility-as-a-Service and changes in travel preferences and travel 
+behaviour: a literature review. 2018. 
+Federal Transit Administration, 2021 Data Tables, Federal Transit Administration, 
+Editor. 2021. 
+Federal Transit Administration. 2020 Annual Database Agency Mode Service. 2020; 
+Available from: https://www.transit.dot.gov/ntd/data-product/2020-annual- 
+database-agency-mode-service. 
+Ferris, B., K. Watkins, and A. Borning. OneBusAway: Behavioral and satisfaction changes 
+resulting from providing real-time arrival information for public transit. in 
+Proceedings of the 2011 Transportation research board annual meeting. 2011. 
+Google Maps Transit. Home. 2022 [cited 2022; Available from: https://www.google. 
+com/intl/en/landing/transit/. 
+Gooze, A., Watkins, K.E., Borning, A., 2013. Benefits of real-time transit information and 
+impacts of data accuracy on rider experience. Transp. Res. Rec. 2351 (1), 95–103. 
+Hendricks, S., S. Barbeau, and C. Brakewood, Mobile fare payment technology phase II 
+final report. 2018. 
+Hess, D.B., 2005. Access to employment for adults in poverty in the Buffalo-Niagara 
+region. Urban Stud. 42 (7), 1177 –1200 . 
+Hu, S., Chen, P., 2021. Who left riding transit? Examining socioeconomic disparities in 
+the impact of COVID-19 on ridership. Transp. Res. Part D: Transp. Environ. 90, 
+102654 . 
+Kaplan, S., et al., 2017. The role of information systems in non-routine transit use of 
+university students: evidence from Brazil and Denmark. Transp. Res. Part A: Policy 
+Pract. 95, 34–48. 
+McCord, M.R., Mishalani, R.G., Ettefagh, M., 2015. Effect of real-time passenger 
+information systems on perceptions of transit ’s favorable environmental and traffic 
+reduction roles. Transp. Res. Rec. 2538 (1), 102–109. 
+Mesoraca, J., Brakewood, C., 2018. A synthesis of mobile ticketing applications used by 
+commuter railroads in the United States. J. Public Transp. 21 (2), 6. 
+Metro. Mobile Fares. 2022 [cited 2022; Available from: https://www.metrostlouis.org/ 
+mobilefares/. 
+Metropolitan Transportation Commission. Pay transit fares with your phone! Let’s get 
+started. 2020 [cited 2022; Available from: https://www.clippercard.com/ 
+ClipperWeb/pay-with-phone. 
+MobilityData. GTFS: Making Public Transit Data Universally Accessible. 2022 [cited 
+2022; Available from: https://gtfs.org/. 
+Papangelis, K., et al., 2016. Exploring the rural passenger experience, information needs 
+and decision making during public transport disruption. Res. Transp. Bus. Manag. 
+18, 57–69. 
+Pittsburgh Regional Transit. Mobile ticketing. 2022 [cited 2022; Available from: https:// 
+www.portauthority.org/fares-and-passes/mobileticket/. 
+Shaheen, S., Mobile apps and transportation: A review of smartphone apps and a study of 
+user response to multimodal traveler information. 2016. 
+Swiftly. Proactively manage your public transit network. 2022 [cited 2022; Available 
+from: https://www.goswift.ly/. 
+Tang, L., Thakuriah, P., 2012. Ridership effects of real-time bus information system: a 
+case study in the city of Chicago. Transp. Res. Part C: Emerg. Technol. 22, 146–161. 
+TAP. TAP App. 2022 [cited 2022; Available from: https://www.taptogo.net/articles/en_ 
+US/Website_content/TAP-App. 
+Transit app. Who We Are. 2022 [cited 2022; Available from: https://transitapp.com/. 
+Trapeze Group. Elevate every rider ’s experience. 2022 [cited 2022; Available from: 
+https://www.trapezegroup.com/. 
+Watkins, K., et al., 2021. Handbook of public transport research. Chapter 21: Advances in 
+transit customer information. Edward Elgar Publishing, . 
+Watkins, K.E., et al., 2011. Where is my bus? Impact of mobile real-time information on 
+the perceived and actual wait time of transit riders. Transp. Res. Part A: Policy Pract. 
+45 (8), 839–848. J. Bian et al.                                                                                                                                                                                                                                     
+

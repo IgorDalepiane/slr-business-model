@@ -1,0 +1,1230 @@
+=== PÁGINA 1 ===
+Business models and opportunity creation:
+How IT entrepreneurs create and developbusiness models under uncertainty
+Arto Ojala
+Department of Computer Science and Information Systems, University of Jyväskylä, P .O. Box
+35, Agora 5th ﬂoor, FI-40014 Jyväskylä, Finland, email: Arto.K.Ojala@jyu. ﬁ
+Abstract. How can entrepreneurs develop business models for markets in which
+the technology is constantly changing —or create business models for markets that
+do not exist? These are fundamental questions for information technology (IT)
+entrepreneurs, and for information systems (IS) scholars who seek to develop a
+theoretical understanding of business models. The case study presented in thispaper addressed these questions, demonstrating how a small software ﬁrm devel-
+oped its business model over a 15-year period in cloud gaming markets. Based on
+the empirical ﬁndings, a preliminary theoretical model is presented. The aim of the
+model is to increase scholarly understanding of how business models are created
+and developed in markets in which the future directions of a technology are uncer-
+tain. It demonstrates the ways in which a business model may evolve through reas-
+sessment and development phases, which can be seen as transition elements
+linking old and new business models.
+Keywords: business models, opportunity creation, business model creation, busi-
+ness model evolution, cloud gaming
+INTRODUCTION
+New information technologies provide opportunities for information technology (IT) entrepre-
+neurs. However, it is sometimes hard to predict how the technology will evolve (Adomavicius
+et al., 2007; 2008; Arthur, 2009; Sood et al., 2012). The new technology may turn out to be a
+failure, or it may develop in an unexpected direction (Rosenberg, 1998). Thus, IT entrepreneurs
+have to act under conditions of great uncertainty when they plan their business models. The
+fundamental question here is: How do IT entrepreneurs create and develop their business
+models in an environment in which both the technology and the markets are uncertain and con-
+stantly changing?
+The existing literature provides a rich body of knowledge on various components to be
+included in a business model (e.g. Al-Debei & Avison, 2010; Hedman & Kalling, 2003;
+Osterwalder et al ., 2005; Osterwalder & Pigneur, 2010; Zott et al ., 2011) and on howdoi: 10.1111/isj.12078
+Info Systems J (2016) 26, 451 –476 451
+© 2015 Blackwell Publishing Ltd
+
+=== PÁGINA 2 ===
+entrepreneurs develop their products on the basis of a business model (Blank, 2013; Ries,
+2011). Y et even if these contributions reveal the importance of ‘initial planning ’(Blank, 2013),
+‘vision ’(Ries, 2011), and ‘design ’(Osterwalder & Pigneur, 2010; 2013), they do not give de-
+tailed information on how entrepreneurs create opportunities, or on how these opportunities
+lead to new business models. ‘Lean ’product and business development has been well elabo-
+rated in the works of Blank (2013) and Ries (2011). However, the focus in these studies has
+been on agile product development on the basis of customer feedback and learning, whereas
+other important components of a business model (such as a ﬁrm’s value network, value delivery
+and revenue model) have not been given much attention. Furthermore, most descriptions of
+business models (e.g. Blank, 2013; Osterwalder & Pigneur, 2010; Ojala & Tyrväinen, 2011a;
+Ries, 2011) have been developed mainly for practitioners, with the theoretical underpinnings
+of the concept remaining unformed (Hedman & Kalling, 2003; Zott et al., 2011).
+Inﬁlling these gaps, the aim will be to integrate insights from opportunity creation theory
+(Alvarez & Barney, 2007; 2010; Alvarez et al., 2013) with notions from business model litera-
+ture. In the ﬁeld of entrepreneurship, opportunity creation theory has been applied to the ways
+in which entrepreneurs create and subsequently develop their business under conditions of
+uncertainty. However, opportunity creation theory has not been adequately conceptualized in
+the literature of business model creation and development (cf. Ardichvili et al ., 2003;
+Chesbrough, 2010). An examination of how software entrepreneurs create and develop their
+business models in conditions of uncertainty thus has the potential to contribute to both infor-
+mation systems (IS) and business model literature.
+As its main contribution, this paper presents a preliminary theoretical model explaining (1)
+how IT entrepreneurs create a business model on the basis of an opportunity, and (2) how
+and why the business model evolves over time. In addition, the aim is to develop practitionerliterature (Blank, 2013; Osterwalder & Pigneur, 2010; Ries, 2011) so that it includes theory
+while also contributing to the literature on technological evolution (Adomavicius et al., 2007;
+2008; Arthur, 2009). In pursuing this aim, notions on the evolution of business models are incor-
+porated. Readers may also note that the present paper expands and re ﬁnes (both theoretically
+and temporally) previous studies by Ojala & Tyrväinen (2011a, 2011b).
+The paper is organized as follows: it ﬁrst discusses the theoretical background on business
+models and opportunity creation. Thereafter it presents the research methods, the case study
+ﬁndings and the results of the analysis. Finally, a preliminary theoretical model is presented,
+leading to some concluding thoughts and practical implications.
+BUSINESS MODELS
+There has been a rapid increase in research on business models over the last two decades(Zott et al., 2011). However, in both IS and business literature, the term ‘business model ’has
+tended to be loosely de ﬁned (Hedman & Kalling, 2003; Burkhart et al., 2011; Porter, 2001; Zott
+et al., 2011). In an extensive review, Zott et al. (2011) found that business models have often
+been studied without clear de ﬁnitions of the concept applied. This makes the use of the term
+‘business model ’challenging both in academic literature and in practice. Very generally452 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 3 ===
+speaking, a business model can be regarded as a ‘story ’that explains how a ﬁrm works
+(Magretta, 2002). However, as several studies on business models have suggested, a business
+model should be studied with reference to the ﬁrm’s entire value network, making clear
+how value is created and delivered to customers and partners (Al-Debei & Avison, 2010;
+Osterwalder et al., 2005; Teece, 2010). Osterwalder et al. (2005) provide a comprehensive def-
+inition of their concept of a business model. They de ﬁne a business model as ‘a description of the
+value a company offers to one or several segments of customers and of the architecture of the
+ﬁrm and its network of partners for creating, marketing and delivering this value and relationship
+capital, to generate pro ﬁtable and sustainable revenue streams ’(Osterwalder et al., 2005, 10).
+Using the de ﬁnition provided by Osterwalder and coauthors (2005), and also recent literature
+on business models, this paper conceptualizes the business model as including four main com-
+ponents. These components are: (1) the product/service, (2) the value network, (3) value deliv-
+ery and (4) the revenue model. These four components can be seen as simpli ﬁed versions of
+the business model pillars presented by Osterwalder et al. (2005), and of the business model
+canvas presented by Osterwalder & Pigneur (2010). The aim in proceeding in this way was to
+facilitate the analysis, and to develop the theory. In other words, the endeavor here was not
+to give a ‘God ’se y e ’view of reality, but rather to increase the theoretical understanding of social
+reality —something that is more achievable if one is able to simplify the phenomenon under
+study. Furthermore, the business model canvas (Osterwalder & Pigneur, 2010) situates a given
+business activity in the context of a given organization rather than in the context of an industry.
+In contrast, the business model schematic presented in this paper positions the business activ-
+ity within the structure of the industry, including partners and end users.
+The ﬁrst component refers to a ﬁrm’s product/service and its business logic. This involves
+how the product is related to other technologies in the market (Adomavicius et al ., 2007;
+2008; Arthur, 2009) and how it creates value for the various partners and customers included
+in the model (Al-Debei & Avison, 2010; Amit & Zott, 2001; Osterwalder et al., 2005; Osterwalder
+& Pigneur, 2010). The second component, that of the ﬁrm’s network, refers to the key actors,
+such as partners and customers, within the ﬁrm’s business model. Partners may provide a com-
+ponent or an infrastructure technology for the ﬁrm’s technology, enabling or supporting its activ-
+ities in the market (Adomavicius et al., 2008). According to Al-Debei & Avison (2010) a ﬁrm is
+dependent on the extent of the relationships that it maintains in its business model and indeed
+the relationships between a ﬁrm and its partners are commonly cited as an important compo-
+nent of a business model (Osterwalder et al., 2005; Osterwalder & Pigneur, 2010; Zott et al.,
+2011). The third component, value delivery, covers how value is delivered to the various part-
+ners and customers in the network. This aspect includes the notion that a business model
+should describe how a ﬁrm gets in touch with its customers (Osterwalder et al ., 2005;
+Osterwalder & Pigneur, 2010) and how value is exchanged with the ﬁrm’s partners (Al-Debei
+& Avison, 2010; Osterwalder & Pigneur, 2010; Teece, 2010). The fourth component, the reve-
+nue model, includes how a ﬁrm makes money —in other words, how the value that a ﬁrm offers
+to its end-users or network partners can generate ﬁnancial revenue. One can see from the
+literature that the revenue model has a central role in many de ﬁnitions of business models
+(Morris et al., 2005; Osterwalder et al., 2005; Osterwalder & Pigneur, 2010; Teece, 2010; Zott
+et al., 2011).Business models and opportunity creation 453
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 4 ===
+The notion of a business model may suggest a somewhat static description of a ﬁrm’s activ-
+ities; however, the model can continuously evolve. Hedman & Kalling (2003) emphasize that
+a business model should include a longitudinal process component, in order to cover the dy-
+namics of the business model. In the ﬁeld of IS in particular, there are constant changes in
+the technology and business environment, and these will impact on a ﬁrm’s business model
+(Al-Debei & Avison, 2010; Teece, 2010). With regard to technological change, Adomavicius
+et al. (2008) have noted that when technologies evolve, some new technologies are introduced,
+and some existing technologies become extinct. Arthur (2009) has viewed the process as one
+of evolution; hence novel technologies tend to inherit elements from earlier technologies, and
+new technologies may in part be based on existing technologies. In seeking to understand
+the technological aspects, Adomavicius et al. (2008) divide technology into three different roles:
+(1) components, (2) products and (3) infrastructure. The evolution of one of these technologies
+may impact on the development of the other technologies. Thus, Adomavicius et al. (2008)
+found that infrastructure technology may have either a supporting or an enabling role for prod-
+uct technologies, depending on the evolution of the ecosystem within which the product tech-
+nology is applied. In other words, even when a fully developed business model is successful,
+there is always the possibility that it will need to be modi ﬁed or abandoned because of changing
+technologies or emerging competition (Teece, 2010). Osterwalder et al. (2005) suggest that a
+management team should analyze the current business model ’s correspondence with environ-
+mental changes, and that it should plan, change and implement a new business model in line
+with these changes.
+In a longitudinal case study on business model innovation, Sosna et al. (2010) found that the
+development of a business model was based on a trial-and-error learning process. The impor-
+tance of learning and of continuous customer feedback has also been highlighted in the ‘lean
+startup ’literature (Blank, 2013; Ries, 2011). The studies conducted have incorporated models
+encompassing how startups develop their product on the basis of customer feedback, and how
+they can ‘pivot, ’that is, change their business model, if the ﬁrm is not making progress. The aim
+of these models, given their practical orientation (Blank, 2013; Ries, 2011), has been to mini-
+mize the time used for product development, especially in the IT industry, in which the technol-
+ogy develops rapidly and in uncertain directions. However, the business model literature has
+not adequately explained how business models actually come into existence, nor how the com-
+ponents of a business model evolve in the course of a ﬁrm’s actions and reactions in the market.
+To gain a better understanding of these aspects, the present study sought to integrate insights
+from opportunity creation theory; these would seem to have the potential produce a better un-
+derstanding of business model creation and development as an overall process.
+OPPORTUNITY CREATION THEORY
+In the literature on entrepreneurship, opportunity creation theory (Alvarez & Barney, 2007;2010; Alvarez et al., 2013) has been applied to situations in which entrepreneurs create and de-
+velop their business under conditions of uncertainty. The theory is based on the idea that reality
+is socially constructed, and that opportunities become meaningful when they are enacted as454 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 5 ===
+part of the social reality of entrepreneurs (Alvarez et al., 2013; Berger & Luckmann, 1967;
+Weick, 1979). Hence, there is no opportunity ‘waiting to be recognized ’; instead, opportunities
+are created endogenously by the actions of entrepreneurs who are seeking to explore new
+products or services (Alvarez & Barney, 2007; 2010). Thus, an opportunity does not exist before
+an entrepreneur creates it through a process of enactment (Alvarez et al., 2013). This aspect
+distinguishes the theory from opportunity discovery theory, which regards opportunities as
+existing independently of entrepreneurs, and hence as objective phenomena, waiting to be
+identi ﬁed and exploited (Alvarez & Barney, 2007; Kirzner, 1979; 1997). In other words, opportu-
+nity discovery focuses on active search behavior in which entrepreneurs are searching for new
+solutions for existing needs in the market (Ardichvili et al., 2003; Sarasvathy et al., 2003). By
+contrast, created opportunities are based on entrepreneurial perceptions, imagination and
+social interaction (Alvarez & Barney, 2007; Sarasvathy, 2001). In opportunity discovery, there
+is knowledge of possible outcomes and their probability. Opportunity creation is more uncertain,
+because neither the possible outcomes nor their probability are known (Ardichvili et al., 2003).
+Because the present research focused on the ways in which IT entrepreneurs create and sub-
+sequently develop their business model under conditions of uncertainty, opportunity creation
+theory was used as a theoretical foundation for the study.
+At the start of an opportunity creation process, an initial idea for creating an opportunity can
+be either ‘blind ’or intentional in nature, bearing in mind that in many cases, early efforts have
+myopic characteristics (Alvarez et al., 2013). It often happens that an entrepreneur cannot
+see the end of the process from the beginning, because of the fact that opportunities cannot
+be observed or fully understood before they are enacted via a complex process of action and
+reaction in the market (Alvarez et al., 2013; Weick, 1979). In other words, an entrepreneur ﬁrst
+creates an opportunity and then observes how customers and markets respond to the createdproduct or service. There may turn out to be a mismatch between an entrepreneur ’s idea and
+objective reality, and/or the social constructions of customers (Alvarez et al., 2013; Weick,
+1979). This will require reassessment of how the opportunity corresponds to the market, with
+efforts to ‘test’customers ’perceptions (Alvarez & Barney, 2007; Sarasvathy, 2001; 2008).
+The process is highly uncertain, in so far as there is no current need in the market (Sarasvathy
+et al., 2003). For this reason, an entrepreneur may change the original idea dramatically after
+iterative actions and reactions, or even abandon the idea altogether (Alvarez & Barney,
+2007). During the process, the opportunity evolves toward the needs in the market and
+also changes the beliefs and assumptions of entrepreneurs involved in the opportunity creation
+(Alvarez et al., 2013). The process may also include the involvement of other actors who can
+enable co-evolvement and co-enactment of the opportunity towards market demand (Alvarez
+et al ., 2013; Sarasvathy, 2008). Sarasvathy (2001) noted that an entrepreneur creates the
+market for an opportunity by bringing together various actors who are interested in the
+opportunity.
+In the literature on opportunity creation, little attention has been paid to the development of
+created opportunities. This is mainly because opportunity creation is seen as a longitudinal pro-
+cess in which the created opportunity develops continuously, in relation to changes in the mar-
+ket (Sarasvathy, 2008). Entrepreneurs develop created opportunities by considering the means
+available to them (abilities, knowledge, human resources, social networks, etc.), and they useBusiness models and opportunity creation 455
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 6 ===
+these means to select a possible effect imagined by them (Sarasvathy, 2001). According to
+Sarasvathy (2001; 2008) there should be no ﬁxed goal for opportunity development. Instead,
+opportunities should emerge during the development process, while entrepreneurs interact with
+the market. Here it should also be noted that opportunity development differs from product de-
+velopment, because opportunity development involves an entire ﬁrm, not merely one product
+(Ardichvili et al., 2003; Pavia, 1991).
+In summary, the existing literature offers rich and comprehensive descriptions of business
+models. However, we do not know much about how software entrepreneurs create and develop
+their business models in a constantly changing environment, in which the development of new
+technologies is uncertain. Furthermore, there seem to be very few studies on how entire busi-
+ness models change over time, or on the factors initiating change. Research on entrepreneur-
+ship has provided a valuable theoretical framework to explain how entrepreneurs create new
+opportunities and develop their business ideas under uncertain market circumstances. Never-
+theless, this literature has not been integrated into studies on business models in such a way
+as to explain how created opportunities lead to comprehensive business models. The aim of
+the study reported here was to integrate insights from opportunity creation theory into business
+model research, and to provide a realistic description of how software entrepreneurs create and
+develop their business model in an unstable market environment.
+RESEARCH METHOD
+It was recognized that the research method selected for a study of the type envisaged should
+make it possible to understand social phenomena in their natural settings, enable an in-depth
+investigation of complex phenomena, and capture cause-and-effect relationships. Based on
+these considerations, a case study method was selected (Darke et al., 1998; Pettigrew, 1990;
+Yin, 2009). The single-case method is useful in providing detailed (Edmondson & McManus,
+2007) and empirically rich data (Eisenhardt & Graebner, 2007) connected to a phenomenon.
+A case study also facilitates an examination of changes within a ﬁrm and its environment
+(Eisenhardt, 1989; Pettigrew, 1990). In addition, there has been a call for more case studies
+to examine business models in general (Hedman & Kalling, 2003).
+Data collection
+The case ﬁrm for this study was selected for theoretical reasons, as advised by Eisenhardt
+(1989). The selected ﬁrm complied with the following criteria: (1) the ﬁrm used opportunity cre-
+ation in its innovation process, (2) the ﬁrm had a relatively long history, thus making it possible
+to observe changes in its business model, (3) the ﬁrm was acting in a market segment in which
+rapid technological development and extensive changes were observable and (4) the ﬁrm was
+relatively small, making it easier to observe entrepreneurial actions. The data collection for this
+study incorporated several types of empirical material covering the entire history of the case
+ﬁrm (see Table 1), from 2000 to 2014. The interviews with the employees of the ﬁrm took place
+in 2005, 2010, 2011, 2012, 2013 and 2014. The author conducted all the interviews for the456 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 7 ===
+study. The ﬁrst two interviews focused on the initial business model and international growth
+of the ﬁrm,1whereas later interviews and investigations were mainly related to the develop-
+ment of the business model. Because the case ﬁrm was relatively small, interviews with the
+entrepreneur (referred to hereafter as the founder/CEO) who established the ﬁrm were the
+main source of information. However, to avoid bias from individual opinions (Huber & Power,
+1985), nine other employees with a variety of positions in the ﬁrm were interviewed; thus
+different organizational levels were addressed, ranging from the Software Developer to the
+Chairman of the Board. Furthermore, three employees of the main partner were interviewed
+(see Table 1).
+Altogether, 19 interviews were conducted for this study, with each interview lasting 45 –90 min.
+All the interviews were recorded and transcribed verbatim, using a word processing program.
+Thereafter, the complete transcripts were sent back to the interviewees for review. For the most
+part the interviewees accepted the transcripts in the form in which they were sent. However, in
+some cases, the interviewees gave minor comments related to the misspelling of a partner ’s
+name or to some particular wording. In addition to the face-to-face2interviews, telephone and
+e-mail communication was used to collect further information, and to clarify inconsistent issues
+1The results related to international growth have been reported in studies by Ojala & Tyrväinen (2006)
+and by Ojala (2008; 2009).
+2All the interviews were conducted as face-to-face interviews apart from one interview which was con-
+ducted via Skype because of dif ﬁculties in ﬁnding a time for the face-to-face interview.Table 1. Empirical material used in this study
+Data sourceNumber of interviews
+(or other data sources) Year(s) + number of observation(s) / title of interviewee
+Interviews with the CEO 7 2005 (N = 1), 2010 (N = 2), 2011 (N = 1),
+2012 (N = 1), 2013 (N = 1), 2014 (N = 1)
+Interviews with various other
+employees9 2005 (CEO of Japanese operations)
+2010 (Vice President —software engineering; Software
+Developer; Chairman —board of directors; Executive
+Director —corporate planning; General Manager —
+technical development)
+2013 (Previous CEO; Financial Controller; General
+Manager —technical division)
+Interviews with the employees
+of the main partner in Japan3 2010 (General Manager —global management)
+2013 (General Manager —business and legal affairs;
+Executive Director —home entertainment group)
+Press releases 50 2002 (N = 1), 2003 (N = 1), 2004 (N = 4),
+2005 (N = 15), 2006 (N = 5), 2008 (N = 2),2010 (N = 1), 2011 (N = 2), 2012 (N = 8),2013 (N = 11)
+Brochures 5 2009 (N = 1), 2010 (N = 1), 2013 (N = 3)
+Web-sites 1 2005 –2013
+Private placement memo 1 2000Video advertising material 3 2013 (N = 3)Business models and opportunity creation 457
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 8 ===
+if necessary. These communications were also added to the case-study database. To avoid
+retrospective bias (Huber & Power, 1985; Miller et al., 1997), several different types of early re-
+cords were used to validate the data whenever possible. These early records included the ﬁrm’s
+private placement memo from the year of its establishment, together with press releases from
+theﬁrm’s early days. The interview data were compared with early records. If there were incon-
+sistencies, these were discussed with the persons interviewed. In addition, if an interviewee
+was unsure about an important event, he/she was asked to check his/her e-mails to recall
+how the events progressed. This procedure worked well, as all the interviewees had saved past
+e-mails.
+To ensure the accuracy of the business models, the ﬁrm’s CEO validated these afterwards.
+The author gave the CEO access to the diagrams he had drawn to represent the business
+models; thereafter the author discussed the diagrams with him, making some minor changes
+based the CEO ’s comments and on a common understanding. In the data collection, in addition
+to the actual interviews, many types of secondary information covering the entire history of the
+ﬁrm were used (Table 1), making it possible to form an extensive and detailed historical descrip-
+tion of the ﬁrm, its business model and the changes in the model. Using the secondary informa-
+tion, it was also possible to triangulate the information (Miles & Huberman, 1994), through
+comparison of the interview data with other information gathered on the case ﬁrm.
+Data analysis
+Content analysis was applied in the data coding (see Appendix 1). The author conducted the
+analysis in line with the recommendations of Miles & Huberman (1994). The analysis of the
+case data consisted of three parallel activities: (1) data reduction, (2) data display and (3)
+conclusion-drawing/veri ﬁcation. In the data reduction phase, the complete transcripts from all
+the interviews were simpli ﬁed and summarized by compiling a detailed document covering
+the history of the case ﬁrm. In addition, information from other materials (secondary data)
+was added to the written document. Thereafter, the data were divided into the following catego-ries as they appeared in the document: (1) business model creation and the ﬁrst business
+model (1999 –2000), (2) the second business model (2001 –2005), (3) the third business model
+(2006 –2010) and (4) the fourth business model (2011 –2014). This follows the guidelines by
+Pettigrew (1990), who argued that arranging incoherent aspects in chronological order is
+essential in understanding the causal links between different events.
+In the data display phase, the most important data drawn from the categories were arranged
+in tables and ﬁgures. These tables included quotes from the interview data illustrating the
+important events in the case ﬁrm’s history. The most relevant quotes from the interviews are
+included later in this paper. The ﬁgures created in this phase visualize the business models
+used by the case ﬁrms. The ﬁgures are based on the business model components de ﬁned in
+the literature review section, and they demonstrate the product, the value network, value deliv-
+ery and the revenue model. However, it must be borne in mind that the ﬁgures represent simpli-
+ﬁed views of reality, and that each model is explained in more detail in the accompanying text.
+The ﬁgures also respond to the call by Osterwalder & Pigneur (2013) for better visualization of
+business models.458 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 9 ===
+The phase of conclusion drawing and veri ﬁcation concentrated on identifying the aspects
+that appeared to have signi ﬁcance for this study. In this phase, the regularities, patterns,
+explanations and causalities related to the phenomena were noted. Finally, data from the
+case history of the ﬁrm, together with the considerations presented in the literature review,
+were applied with a view to creating a preliminary theory of business model creation and
+development.
+BACKGROUND OF THE CASE FIRM
+The case ﬁrm,G-cluster , develops interactive cloud gaming platforms and games-on-demand
+services. The business concept of G-cluster was based on what was (in 2000) an entirely
+new way to provide PC and console games to players. Traditionally, games are installed on a
+computer or a game console, which runs the game. In the G-cluster business model, by
+contrast, games are run on a cloud platform. The platform is operated by the game servers
+that transmit the game content as an MPEG stream to the devices of end-users, over the
+broadband network. The client devices receive the stream, display the game and transmit
+users ’commands back to the game servers. Thus, G-cluster ’s gaming platform makes it
+possible to bring games to the cloud environment. G-cluster was established in Finland
+in 2000. Currently G-cluster has its headquarters in Japan, its R&D activities in Finland,
+its sales and marketing subsidiary in the USA and its content acquisition activities in
+France.
+Business model creation and the ﬁrst business model
+At the end of 1999, Erik, founder/CEO of G-cluster met his brother ’s childhood friend,
+Juhani.3Erik’s background was in a software company that developed videoconferencing
+equipment and related software for PCs. Juhani ’s background was in a technology ﬁrm that
+developed physics simulations for game publishers. However, after selling his ﬁrm he started
+to work as a ‘business angel ’for start-ups. The idea for the new product and ﬁrm was created
+by Erik and Juhani in collaboration. They were aware that telecom operators were at that time
+planning to launch third generation (3G) networks and that mobile phone manufacturers were
+developing new mobile phones with better screen resolution for these networks. Erik and
+Juhani realized that the computing power and memory capacities of mobile phones would still
+be relatively low and that there would be several models of mobile phones using different
+operating systems. In addition, the life cycle of mobile phones was becoming very short, with
+new models appearing in the market approximately every six months. All these factors made
+it dif ﬁcult to develop good content for mobile phones. The founder/CEO explained this as
+follows:
+3‘Juhani ’is a pseudonym.Business models and opportunity creation 459
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 10 ===
+‘We started to think that this [software development for mobile phones] should somehow be
+done differently, especially for games, since games are challenging. So we thought that if we
+could start to run games, we could start to run all the other applications as well. ’
+To meet this challenge, Erik and Juhani had the idea of developing a game platform that
+would make it possible to send game content to mobile phones over the 3G network from a cen-
+tral computer, and players ’game commands back to the central computer operating the game.
+The founder/CEO described the market situation in the following way:
+‘We thought that instead of running games on mobile phones, we could run the games on a
+server that would encode the gaming content in real time to an MPEG stream and send it to
+the mobile phone, which would recode and show the game. Thus, it would be enough if a
+mobile phone could encode and recode a bit-stream. ’
+It also became clear, at the end of 1999, that the infrastructure technology needed for the
+platform would soon be ready for the idea, because 3G permits were being granted to network
+operators and the ﬁrst mobile phones with color screens were coming onto the market. How-
+ever, there were many uncertainties related to the infrastructure technology. For instance, there
+was no information on the true speed of data transfer in 3G networks, or on what the cost of
+data transfer would be for the consumer. The founder/CEO explained this as follows:
+‘There were so many open questions related to the technology and how it would develop in
+the future. Would there be 3G networks? What would the cost of data transfer be? Would
+there be enough broadband capacity available in mobile networks? Would the screen reso-
+lution of mobile phones be good enough? ’
+The previous CEO4described the situation as follows:
+‘There was a huge amount of hype regarding 3G networks …Mobile phone manufacturers
+talked about nothing but how 3G was coming and how it would impact on the whole tele-
+com sector. It seemed clear that within a year 3G networks would be fast enough to play
+games. ’
+The ﬁrst business model of the ﬁrm is shown in Figure 1. In this model, G-cluster connected
+content providers (game publishers5) with telecom operators by providing a platform that could
+be used to deliver games over the wireless network. The idea was that G-cluster would license
+game content from content providers (mainly game publishers and other ﬁrms developing
+video or mobile games). Thereafter, G-cluster would port6the licensed source code of the
+4The previous CEO refers here to a person who worked in G-cluster between 2000 and 2002 as CEO,
+before the founder took over as CEO. During 2000 –2002 the founder (and current CEO) worked as CTO
+in G-cluster, and was also involved in all the important decisions related to business development and
+the business model.
+5Game publishers work as third-party application providers that offer games as applications to end-
+users of the platform (Ghazawneh & Henfridsson, 2013).
+6Portrefers to the process by which software (or a game) written for a speci ﬁc platform/operating system
+is moved to another platform/operation system.460 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 11 ===
+game into binary code so that G-cluster could run the game on its platform, operated by tele-
+communication operators with 3G networks. The next stage would be for telecommunication
+operators to encode the gaming content in real time to an MPEG stream and to send it to
+end-user devices that would decode the MPEG stream. End users would be able to play
+games via mobile phones, or via other wireless devices such as PDAs (personal digital assis-
+tants) connected to the 3G network. The model was to be based on revenue sharing between
+the partners.
+Nevertheless, Erik and Juhani fairly quickly realized that the preconceptions regarding the
+infrastructure technology –i.e. 3G networks and their capacity –were far too optimistic. The
+development of 3G networks was not as fast as predicted at the start of 2000, and the 3G
+network was not reliable enough to handle the real-time bit-stream without latency. In addition,
+theﬁrst 3G mobile phones were very expensive for the average user. Hence, they had to ﬁnd an
+alternative way to bring the product to the market, involving changes in the business model. The
+previous CEO explained the situation as follows:
+‘We realized it [the fact that 3G networks would not be fast enough] quite soon. I thought, OK,
+we need to change the strategy and ﬁnd an alternative way. We still believed in the original
+idea…and we understood that there were also other types of networks available. ’
+Development of the second business model
+In 2001, G-cluster started to look for alternative infrastructure technologies for their platform.
+One possibility was to develop their platform for the markets provided by Internet Protocol Tele-
+visions (IPTVs). This opportunity was based on the fact that the gaming platform that had been
+developed for 3G networks would work also in ﬁxed networks. However, they soon realized thatGame 
+publishers3G
+operatorsG-cluster
+Product:
+Gaming 
+platform for 3G 
+operatorsMobile 
+game-
+players
+Source codeRevenue sharing
+Binary code Games-on-
+demandRevenue
+Figure 1. The ﬁrst business model, 2000.Business models and opportunity creation 461
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 12 ===
+the IPTV market was still undeveloped, and that they could not reach enough customers to
+make the business pro ﬁtable. Thus, G-cluster started to offer games-on-demand services for
+PC users over the Internet, in addition to the small number of IPTV operators they worked with.
+The second business model is shown in Figure 2.7
+The basic idea in this business model was the same as in the original one. However, in this
+new model G-cluster used portals and IPTV operators as sales channels to end-users. The
+model involved challenges, as it was dif ﬁcult for such a small ﬁrm to have a contract with large
+telecom operators providing IPTV services, or to acquire game content for its platform from
+game publishers. The global economic situation was also dif ﬁcult at the time (early 2000) and
+this affected G-cluster ’s business. The ﬁrm was unable to make up-front investments, but the
+idea of revenue sharing with partners proved successful. In this revenue model, the income
+was shared among the portals, IPTV operators, G-cluster and game licensors. In practice, this
+was implemented in such a way that the portals and IPTV operators charged the end-users
+(players) and then divided the income between the partners. The previous CEO explained
+the situation as it was in these early days:
+‘It [revenue sharing] was clear to us from the beginning. It was a way to share the risks and
+proﬁts evenly with partners. And it was not possible for us to offer any up-front investments
+because of the dif ﬁcultﬁnancial situation we had initially. ’Portals
+Game 
+publishers
+Set-top box 
+manufacturersIPTV 
+operators
+Middleware  
+software 
+providers Video-on-demand
+service providersG-cluster
+Product:
+Gaming 
+platform for PC 
+players and 
+IPTV operatorsBinary code
+Source 
+code
+Added 
+valueAdded 
+valueAdded 
+value
+Added 
+value
+Added 
+valueAdded 
+valueGames-on-
+demand
+Games-on-
+demandRevenue sharing
+Binary codePC 
+players
+IPTV 
+playersRevenue
+Revenue Revenue sharing
+Figure 2. The second business model, 2005.
+7In reality, there were several smaller changes in the business models; thus, the business model ﬁgures
+shown here illustrate only the major transitions in the models.462 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 13 ===
+He added:
+‘It is worth remembering that it was a very challenging time to do any business, at the start of
+2000. We were continually looking for successful pilot projects, credible partners, and funding …
+It was the time after the IT bubble and all the investors were leaving the market. Once, I had a
+meeting with a venture capital ﬁrm but the ﬁrm was about to go bankrupt. We did go to the
+meeting but there were removal boxes waiting because they were closing their of ﬁce.’
+Because of the uncertainty regarding income, G-cluster had to demonstrate other bene ﬁts
+that would bring value to the game publishers if they started to use G-cluster ’s gaming platform.
+These bene ﬁts included, for instance, (1) avoiding illegal copying, (2) avoiding second-hand
+markets, (3) a more durable market for games and (4) ﬂexible revenue models. In G-cluster ’s
+business model, illegal copying became impossible. This was because of the cloud technology
+used, which allowed the game to be run in the cloud and streamed to end-users. Thus, the end-
+users never got any game code that could be copied. Illegal copying was a major problem in
+games markets, and ﬁnding ways of avoiding this problem motivated game publishers. Virtual
+delivery also helped to cut down second-hand markets, which would be beyond the reach of
+game publishers. Because shelf space was almost free in G-cluster ’s virtual store, games could
+be made available to the end-user for a longer time. This differed from traditional games stores
+in which the time frame for new games was relatively short and subject to intense competition.
+Virtual game delivery made possible a variety of revenue models, such as renting the game for
+a certain time period, or packaging a number of games into an attractive collection. Finally, after
+negotiations with several game publishers, including demonstrations of the bene ﬁts of the plat-
+form, G-cluster was able to license the source code and port it to their platform.
+In addition to game content, G-cluster needed IPTV operators with servers on which the
+G-cluster platform could be operated. For this purpose it was necessary to ﬁnd network opera-
+tors who had a broadband network with the IPTV feature, as it was important to have rapid two-
+way data transfer. Here one can see that broadband capacity played an important role as an
+enabling technology for G-cluster ’s platform. Network operators were observed to have good
+marketing channels and a pre-existing customer base. Furthermore, the IPTV operators offered
+a well-known brand that could be used for marketing purposes. In some cases, the operators
+also motivated game publishers to make their games available for G-cluster ’s platform. These
+factors were all important to G-cluster, because the network operators made available re-
+sources that G-cluster could not acquire otherwise. However, the move towards cooperation
+with large companies such as IPTV operators was not easy. G-cluster needed to demonstrate
+the value of its product to network operators. In addition to monetary bene ﬁts, the G-cluster
+service offered a good opportunity to extend the network operators ’existing product portfolio.
+By using G-cluster ’s game platform, network operators with IPTV capability had more content
+to offer their customers, and were able to differentiate their offering from that of competitors.
+The founder/CEO commented on this as follows:
+‘Globally, most of the operators are in a market situation where they send a letter to cus-
+tomers saying that they have doubled the connection speed of the broadband network, andBusiness models and opportunity creation 463
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 14 ===
+decreased the price of the connection. So, in this kind of situation it is dif ﬁcult to increase rev-
+enue. However, value-adding services such as video-on-demand and our games-on-demand
+services are one way to increase the offering and the revenue. ’
+To get into the market and achieve cooperation with IPTV operators, G-cluster needed help
+from other ﬁrms. These ﬁrms were (1) video-on-demand service providers, (2) set-top box
+manufacturers and (3) middleware software providers. For video-on-demand service providers,
+G-cluster ’s gaming platform made possible a new feature that did not compete with their
+existing services, but which allowed them to offer more content for network operators. In-line,
+set-top box manufacturers needed new functions for their devices (which they could introduce
+to network operators) and G-cluster ’s platform brought extra value for them. Middleware soft-
+ware providers who sold software to IPTV operators bene ﬁted from G-cluster ’s platform, as they
+were able to show that in addition to video-on-demand and other TV channel services, their
+software could also handle games-on-demand services. The cooperation among these three
+different types of ﬁrms was based mainly on various non-monetary mutual bene ﬁts. The
+founder/CEO explained the situation as follows:
+‘For us it was quite an easy situation. We made contacts with all possible ﬁrms who could
+bene ﬁt from our product and we found many ﬁrms who were willing to enter into cooperation
+with us …because our product was so unique. So there were no corresponding products in
+the market. ’
+These ﬁrms already had relationships with IPTV operators; thus they were able to provide
+added value for G-cluster by helping them to achieve a contract with the key decision-makers
+among the operators. In addition, by cooperating with video-on-demand service providers,
+G-cluster gained an invoicing system for their service as a component technology.8The
+founder/CEO explained this:
+‘Video-on-demand service providers have to provide some kind of integration of their invoic-
+ing system for network operators. We liked the fact that the payment would be easy [for the
+end-users], meaning that it was useful if all the services were included in the same invoice
+from the network operator. Thus, we had corresponding requirements in integrating the
+invoicing system for our games service. ’
+The MPEG streaming technology used by the IPTV operators also enabled delivery of the
+games to PC users. In 2005, G-cluster had its own game servers in Japan, and it used Internet
+portals to deliver the game content to PC users. By logging onto a portal ’s website, PC players
+were able to select the games. The portals handled the marketing activities and the charging of
+customers. For the portals, adding G-cluster ’s service was an easy way to gain extra revenue:
+they did not have to make speci ﬁc investments, because the gaming service was easily inte-
+grated with their existing business. The founder/CEO highlighted this as follows:
+8In-line with Adomavicius et al. (2007; 2008), component technology refers here to technologies that
+form subunits or subsystems to other technologies (see also the Business Models section).464 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 15 ===
+‘For the portals, it was very easy to integrate our service with their own without any additional
+investment. They just needed to add a link to their website, and the link gave access to our
+service. ’
+Development of the third business model
+Figure 3 demonstrates the business model of G-cluster in 2010. It shows that several important
+changes had occurred over a ﬁve-year period. These were a consequence of changes in the
+market environment and in G-cluster ’s product. First of all, G-cluster now focused solely
+on IPTV users. They had abandoned PC markets because of increasing competition and
+the fact that simpler PC games had increasingly become free to the players. The situation
+was now such that those players who did wish to play high-end games tended to buy
+games from a game store, and they were willing to invest in games consoles and related
+equipment. In any case, network operators had gr eatly increased their IPTV offering during
+theﬁve-year period, and the customer base with reliable IPTV connections was growing
+rapidly.
+As a second aspect, G-cluster focused on product development by integrating component
+technology with its platform —a technology that had previously been provided by its partners.
+Consequently, they became less dependent on third parties and were able to offer a ready-made
+product for the IPTV operators. G-cluster also s tarted to provide its own software develop-
+ment kit (SDK) to game publishers, allowing the game developers to code their games
+Game 
+publishersIPTV 
+operatorsG-cluster
+Product:
+Gaming 
+platform for 
+IPTV operatorsIPTV 
+playersServer 
+manufacturer
+Source 
+codeRevenue sharing
+Added 
+valueAdded 
+value
+Binary code Games-on-
+demand
+Binary codeQuality 
+assuranceSDKRevenue
+Figure 3. The third business model, 2010.Business models and opportunity creation 465
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 16 ===
+directly for G-cluster ’s platform. This enabled rapid publication of the games and involved
+savings in G-cluster ’s resources, as there was no need to port a licensed source code into
+the binary code required by the platform. In thes e cases, G-cluster merely provided quality as-
+surance for the games coded by the game developers. The founder/CEO described the situa-
+tion as follows:
+‘Now we have an SDK for game developers. They can make games directly for our platform,
+so we can deliver them directly to IPTV operators …Previously we ported all the games we
+licensed for the platform …it took a lot of time and effort. ’
+The vice president of software engineering explained this as follows:
+‘Previously we only gave tools to IPTV operators that they could use when they integrated our
+system with their web-based system …Now we have integrated the whole portal to our prod-
+uct, so it is much easier to sell, as there is much less integration work for operators. ’
+As a result, the bene ﬁts previously provided by video-on-demand service providers, set-top
+box manufacturers, middleware software providers and portals became less important, and
+these ﬁrms were removed from the business model. The development of the product made it
+easier to access IPTV operators without the need for several partners. The marketing efforts
+over a period of ﬁve years also helped G-cluster in making direct contact with the network
+operators. At the same time, portals were excluded from the business model because of the
+change from PC users to IPTV users.
+In 2010, G-cluster established a cooperation agreement with a large and well-known server
+manufacturer. Although there were no actual business activities (i.e. no buyer-customer rela-
+tionship) between the ﬁrms, the collaboration provided mutual bene ﬁts for both ﬁrms.
+Compared to earlier partners, this collaboration brought a more reliable and in ﬂuential partner,
+facilitating negotiations with new IPTV operators. Because the server manufacturer was
+conducting business with network operators around the world, the cooperation increased
+G-cluster ’s marketing and sales resources. It also made it easier to ﬁnd the right contact
+people from the customer side, and added credibility to its business negotiations. Conversely,
+the server manufacturer obtained added value by integrating G-cluster ’s technology within its
+servers. This offered a new feature that the server manufacturer was able to use in marketing
+its servers to IPTV operators. According to the founder/CEO:
+‘Our product is highly bene ﬁcial to ﬁrms that sell servers to network operators. They can tell
+the network operators that by making a small additional investment, they can get an infra-structure that can be used to deliver our games-on-demand services. ’
+Development of the fourth business model
+Because the business model in 2010 was limited only to the infrastructure technology provided
+by IPTV operators, the market coverage in the gaming markets remained relatively small. To466 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 17 ===
+expand its market coverage, G-cluster brought a cloud game console, the ‘G-cluster gam-
+ing machine ’to the market in 2013. The console was a small physical device that enabled
+end-users to gain access to G-cluster ’s game server without having an IPTV connection.
+Thus, the console worked over any wireles s network if the broa dband connecti on was fast
+enough. This expanded G-cluster ’s customer base to players without IPTV services.
+Hence, the business model was no longer tied solely to IPTV providers. To enable market-
+ing of the game console, G-cluster started to cooperate with network operators. However,
+IPTV operators still play an important role in G-cluster ’s business model, because IPTV
+operators have a large customer base, making it possible to reach a large number of
+end-users.
+Another change in the business model was that there was no longer any cooperation with
+the server manufacturer (Figure 4). Because G-cluster now had well-known IPTV operators
+as its reference customers, it did not need the service manufacturer or other third parties
+to reassure operators about its service. The previous CEO explained the present situation
+as follows:
+‘It is very interesting to see that after the fourteen years, the original idea is still alive and that
+it never died, even it was over ten years ahead of its time. And now it ﬁts with current termi-
+nology such as ‘cloud gaming ’…when we started there were no terms such as ‘cloud, ’we
+talked about server solutions. ’
+Game 
+publishersG-cluster
+Product:
+Gaming 
+platform for 
+cloud console 
+players and 
+IPTV operatorsSource 
+code
+Binary code Games-on-
+demand
+Binary codeQuality 
+assuranceSDKGames-on-
+demandCloud 
+console 
+players
+IPTV 
+players
+Revenue sharing RevenueNetwork
+operators
+IPTV 
+operatorsBinary codeRevenue sharing Revenue
+Quality 
+assurance
+Quality assuranceBinary code
+Figure 4. The fourth business model, 2014.Business models and opportunity creation 467
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 18 ===
+TOWARD A THEORY OF BUSINESS MODEL CREATION AND EVOLUTION
+Using opportunity creation theory as a foundation, together with the empirical ﬁndings, and re-
+ferring to previous literature on business models, it is possible to formulate a preliminary theory
+of business model creation and evolution. Figure 5 outlines the theory as including four phases:
+(1) business model creation, (2) a business model, (3) business model reassessment, (4) busi-
+ness model development and (5) business model abandonment. The three phases 2, 3 and 4
+form a cycle in which the business model evolves over the period in question.
+In the business model creation phase, the created opportunity9is based on entrepreneurs ’
+perceptions and assumptions regarding how technological development might produce newIT -based business opportunities (cf. Alvarez & Barney, 2007; Sarasvathy, 2001; Sarasvathy
+et al., 2003). This phase is ﬁrmly based on an entrepreneur ’s abilities, imagination, knowledge
+and social networks (cf. Sarasvathy, 2001; 2008). As the case ﬁndings demonstrate, the co-
+founders of the case ﬁrm used their knowledge and imagination to create a new game platform.
+They started to work on the opportunity, even though the market for the product did not yet exist
+Business model creation
+Business model 
+reassessmentBusiness model 
+developmentBusiness model 1,2,…n
+Value 
+networkValue 
+deliveryRevenue 
+modelProduct/
+service
+Business model
+abandonment-Enactment of the opportunity
+- Reactions to the market’s activities- Actions in the 
+market- Enactment of
+the new business 
+model
+- Abandonment of
+unnecessary elements
+Figure 5. A preliminary theory of business model creation and evolution.
+9In the context of this study, opportunity creation refers to the creation of new markets for a product or
+service through an enactment process (conjoined with imagination and market interaction) at a pointin time when there is no pre-existing demand. This created opportunity is manifested via a business
+model within the emerging markets.468 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 19 ===
+and the infrastructure technology that would enable use of the platform was still under develop-
+ment. However, the entrepreneurs strongly believed that the created opportunity might be used
+in such a way as to overcome the limitations of existing technology. This is in line with
+Sarasvathy et al.’s (2003) notion that created opportunities arise in a context of uncertainty —
+a situation in which a demand does not exist, and in which the future is unknowable. This busi-
+ness model creation phase occurs before any operational business, and through the enactment
+process it leads to the ﬁrst business model .
+The business model is an outcome of the business model creation or the business model
+development phase, and it encompasses the product/service, value network, value delivery
+and the revenue model. In line with the model, the created opportunity is brought to the market
+and taken into commercial use, or at least brought to the point of a trial run. By acting in the
+market, a ﬁrm can experience how the created business model ﬁts market needs. This makes
+it possible to identify the potential partners for the value network, to see how value can be de-
+livered between the partners, and to determine the revenue model to be aimed at. The business
+model will allow the ﬁrm to see how the market reacts to the opportunity. However, it should be
+noted that the ﬁrst model rarely works, because there are likely to be challenges related to the
+partners ’assumptions or to customers ’needs.
+In pursuing the initial business model, the ﬁrm will experience how the created technology
+suits existing component, product and infrastructure technologies in the market (cf. Adomavicius
+et al., 2007, 2008). As the case ﬁndings demonstrate, G-cluster ’sﬁrst business model was very
+simple. The ﬁrm thought of using games publishers as content providers, and 3G operators as a
+delivery channel to the end-users, namely mobile game players. However, this business model
+did not work out, because of the fact that the development of the infrastructure technology was
+slower than predicted. If there is discordance between the business model and the marketexpectations, or between the business model and technological requirements, this will lead to
+the business model reassessment phase.
+In the business model reassessment phase, entrepreneurs evaluate different courses of
+action based on changes in technology, market conditions and interaction with partners in the
+ﬁrm’s network. This is in line with the more general arguments of Alvarez & Barney (2007), to
+the effect that entrepreneurs observe how customers and markets are developing, and envis-
+age certain possibilities based on the changes noted. In the case ﬁrm, the entrepreneurs real-
+ized that the infrastructure technology provided by 3G networks would not be fast enough for
+their product and that they would have to readjust their strategy. This demonstrates how entre-
+preneurs have to ﬁnd constructive ways to address market needs and technological limitations;
+in so doing, they must seek out suitable value networks and technologies that will allow them to
+take the opportunity further. On this basis, a ﬁrm can start to develop the components of its
+business model further. This leads to the business model development phase.
+In the business model development phase, the business model is developed further, in accor-
+dance with market phenomena, such as changed market conditions and/or technology. This
+may require additional development of the product to match technological evolution, with
+changes in market strategy, or segmentation of the product. Furthermore, there may be a need
+toﬁnd new partners or exclude existing partners from the value network, and to reconsider the
+value delivery and revenue model between the partners. In this phase, the business modelBusiness models and opportunity creation 469
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 20 ===
+evolves toward the prevailing needs in the market (cf. Alvarez et al., 2013). As the case ﬁndings
+demonstrate, the original idea for the game platform and for the product itself remained the
+same. Even if platform technology may enable rapid and large-scale adoption (Tilson et al.,
+2013), the case ﬁrm was dependent on the evolution of infrastructure technology, an aspect that
+had hitherto limited market penetration. The crucial point here was that G-cluster was able to
+use its knowledge and the partners available to it in order to take the idea further and into a
+new environment. This implies that the selection criteria for business model development
+should be based on the means available rather than on speci ﬁc or well de ﬁned goals. More
+broadly, it underlines the uncertainty of the entire process (cf. Sarasvathy, 2001).
+Through the enactment process, the business model development phase leads to a more
+reﬁned business model that corresponds to current technological developments in the market
+and satis ﬁes the needs of customers and partners. This cycle can continue until a ﬁrmﬁnds
+a sustainable business model, or else abandons the model (or certain components of it). In
+other words, the opportunity development phase may lead to business model abandonment
+in which the whole model, or some components (e.g. technology or network partners) of the
+earlier business model, are removed as non-pro ﬁtable or unfeasible.
+A new business model may remain in a state of uncertainty, because the developed business
+model may fall below expectations, at which point the ﬁrm will have to rethink its subsequent
+actions (cf. Alvarez & Barney, 2007). As shown in G-cluster ’s second business model, the main
+target group, i.e. PC players, was not very pro ﬁtable, because of ﬁerce competition in the PC
+game markets. In addition, G-cluster was highly dependent on third parties who could provide
+supplementary component technology for its software. This led to a second reassessment
+Table 2. Illustrations of the different phases of the theoretical model
+Phases Theoretical concepts Empirical examplesBusiness model
+creation- The entrepreneur ’s abilities, knowledge,
+imagination and social networks- Creation of something for forthcoming 3G
+technology
+- Limitations in existing technology- Uncertainties in forthcoming technology - Decision-making context uncertain
+Business model - Enactment of the created opportunity - Formation of the business model components:
+- Formation of the components of the
+business model- Product: gaming platform for 3G operators
+- Value network: game publishers, 3G operators,
+mobile game players - Testing the reactions of the market to
+the business model created - Value delivery: sales channel for game publishers,
+supplementary services for 3G operators
+- Revenue model: revenue sharing
+- Pilot tests for the platform
+Business model
+reassessment- Evaluation of different courses of action
+based on market reactions and technology
+evolution- Development of the infrastructure (3G) technology
+was slower than predicted
+- Development of IPTV technology
+Business model
+development- Development of the business model toward
+the prevailing needs in the market, based onthe means available- Focus on alternative infrastructure technologies
+-Entry to IPTV and PC markets
+Business model
+abandonment- Abandonment of the unnecessary
+components of the business model-Abandonment of the platform for 3G networks470 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 21 ===
+phase, and development of the business model. Here one can see a progressive cycle operat-
+ing between business model reassessment, business model development and a new business
+model. Table 2 illustrates the various elements identi ﬁed in the study, using examples from the
+case study.
+CONCLUSIONS
+Theoretical implications
+This study contributes to IS and business model research in several ways. First, using opportu-
+nity creation theory as a foundation, it develops a preliminary theoretical model on business
+model creation and evolution. The model shows how business models can be created on the
+basis of entrepreneurial behavior, and how business models evolve further via business model
+reassessment and business model development. The model developed here has some con-
+nections with more practically oriented ‘lean startup ’models by Ries (2011) and Blank
+(2013). In these models, feedback from the market, continuous development of the product
+and the concept of a ‘pivot ’have important roles. However, the models by Ries (2011) and
+Blank (2013) focus more on rapid and ﬂexible product development, whereas the focus in this
+study was on the evolution of the entire business model. In other words, the model developed
+here sheds light on the importance of the value network, value delivery and the revenue model,
+in addition to the product itself. Furthermore, the change aspect of a business model –i.e. the
+‘pivot ’identi ﬁed by Ries (2011) –is here supported and developed through theoretical insights
+from opportunity creation theory. Altogether, this study gives support to and theoretically ex-
+tends studies which had a practical orientation.
+Second, this study incorporates theoretical insights from the ﬁeld of entrepreneurship, apply-
+ing these to the business model and to IS research. In so doing, it responds to the calls of a
+number of authors for more theoretically grounded studies on business models (Hedman &
+Kalling, 2003; Teece, 2010; Zott et al., 2011). However, this study does not merely incorporate
+relevant entrepreneurship theory in order to enrich and extend IS research; it also contributes to
+opportunity creation theory by conceptualizing the opportunity creation and development pro-
+cess in the context of a small software ﬁrm. The development of opportunities has largely been
+an unexplored area in opportunity creation theory, because the literature has mainly focused on
+the creation of the initial opportunity (Alvarez & Barney, 2007; 2010; Alvarez et al., 2013).
+Third, this study contributes to IS studies by demonstrating the interplay between technology
+evolution (Adomavicius et al., 2007; 2008; Arthur, 2009; Hanseth & Lyytinen, 2010; Henfridsson
+& Bygstad, 2013) and business model evolution, an aspect that has been poorly theorized in
+business model literature (Al-Debei & Avison, 2010; Hedman & Kalling, 2003). The ﬁndings
+here demonstrate how the different roles of technology (components, products and infrastruc-
+ture) introduced by Adomavicius et al. (2007; 2008) impact on business model evolution. In
+addition to the supporting and enabling roles of the infrastructure technology (Adomavicius
+et al ., 2008), the ﬁndings here indicate that infrastructure technology may also have a
+constraining role for the development of product technology, and may thus retard the evolution
+of the business model. In line with Hanseth & Lyytinen (2010), it appears that the infrastructureBusiness models and opportunity creation 471
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 22 ===
+may set limits on what can be designed and implemented at a given moment. However,
+this study demonstrates an additional way in which infrastructure technology can affect
+business model evolution, with entrepreneurs having to ﬁnd alternative ways to bring the
+product to the market. This underlines the fact that technology can have several roles,
+and it demonstrates how essential it can be to learn from quickly-changing situations
+and to analyze new technologies (including both their opportunities and constraints) as
+they emerge (Ciborra, 1996). As noted by Henf ridsson & Bygstad (2013), constricting infra-
+structures may foster creative processes w hich may lead to new ideas and innovations.
+The ﬁndings here build on this, suggesting that constricting infrastructures may also lead
+to new business models.
+Fourth, this study empirically examined a unique and understudied aspect of business
+models, involving creation, change and development. The point here is that although recent lit-
+erature on business models has revealed important components included in a business model
+(Osterwalder & Pigneur, 2010), and factors impacting on the development of the model (Blank,
+2013; Ries, 2011) there has been lack of longitudinal studies investigating how and why busi-
+ness models change and evolve over time (Al-Debei & Avison, 2010; Hedman & Kalling,
+2003; Teece, 2010). The present study demonstrates the ways in which a business model
+may evolve through reassessment and development phases —phases which operate as transi-
+tion elements linking old and new business models. Here it should be noted that even though
+the study does not directly focus on ‘lean ’product development, it gives some empirical support
+to the work of Blank (2013) and Ries (2011).
+Managerial implications
+From a practical point of view, the study has several implications for IT entrepreneurs. In line
+with the study by Blank (2013), the ﬁndings here illustrate and empirically validate the no-
+tion that a successful business does not always r equire a well-formulated business plan.
+Some business models develop via a trial-and-error process (Blank, 2013; Sosna et al .,
+2010), responding to changing conditions in the market. Because IT markets are rapidly
+changing, pre-de ﬁned business plans may not work and may have to be modi ﬁed (cf.
+Ciborra, 1996). However, entrepreneurs do have to follow market developments closely
+and to reassess their business models if necessary. This underlines the importance of de-
+sign as ‘context making ’(Ciborra & Lanzara, 1994), especially in the ﬁeld of IT where tech-
+nologies evolve rapidly and innovations do not always follow a linear or straightforward
+process.
+Second, by expanding the ideas by Blank (2013) and Ries (2011), the ﬁndings here further
+demonstrate that in addition to product and customer development, entrepreneurs should con-
+sider possible changes in the value network and in value delivery. A business model should be
+built in such a way that it presents a valuable and low-risk means of expanding the business of
+network partners. By this means, entrepreneurs can acquire resources that are not otherwise
+attainable. In this study, by cooperating with partners, G-cluster gained both content for its ser-
+vice and marketing resources —resources that would not otherwise have been available for a
+small ﬁrm.472 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 23 ===
+Third, as proposed in supply chain literature (see e.g. Cachon & Lariviere, 2005), revenue
+sharing between key actors may work well. In this case study, revenue sharing offered a good
+means of achieving low-cost market entry without huge upfront investments. The model
+also motivated all the partners in the business model to provide good services to the
+end-users who paid for the service. This appeared likely to work better than a model in
+which each service provider would have a customer-provider relationship with a different
+provider. In the latter case, service providers may be motived to pursue only their own
+advantages, rather than the advantages that can accrue through having an entire service
+delivered to the end-user.
+Fourth, in evaluating the success of G-cluster ’s business model, it can be observed that
+even if the business model progressed slowly, it attracted investments from several organi-
+zations, and well-known partners were found. G-cluster received funding from Broadmedia
+Corporation in 2005, SBI Investment in 2008, Intel Capital in 2011, SFR Development in
+2012, NTT in 2013 and Orange in 2014. G-cluster ’s contracts with game publishers
+include many well-known brands, including Disney, Ubisoft, Warner Bros, Konami and
+Electronic Arts. In addition, G-cluster cu rrently has delivery contracts with Broadmedia,
+SFR, Orange, NTT and FlarePlay. Overall, the study underlines the importance of patience
+when one is developing business models under conditions of uncertainty, bearing in mind that
+the evolution of infrastructure technology may set limitations on the development of product
+technology.
+Limitations of the study
+There are several issues that should be considered in evaluating the ﬁndings of this study. First,
+the research method used here made it possible to gain an in-depth view of the phenomenon.
+However, by its nature, the single-case study method requires caution as to generalization,
+bearing in mind the possibly context-speci ﬁc nature of the ﬁndings. Furthermore, the data were
+collected and analysed by a single author. This could raise concerns in terms of potential biason the part of the author. To avoid this, the entire transcripts were sent back to the interviewees
+for review, and the ﬁrm’s CEO validated the business models afterwards. Second, it has to be
+noted that only a small proportion of software ﬁrms create opportunities for markets that do not
+exist. Nevertheless, if they are successful in the opportunity creation process, they may become
+market leaders in their ﬁeld of business, as one can see in the cases of Apple (Murugesan,
+2011) and Starbucks (Sarasvathy, 2008; Schultz & Yang, 1997). Thirdly, it is dif ﬁcult to say that
+how long a ﬁrm can be regarded as a start-up, or at what point it has moved onto a more mature
+business footing. If we use the de ﬁnition by Blank (2012), to the effect that a start-up is a
+ﬁrm that searches for a repeatable and scalable business model, G-cluster was still in that
+process. However, even large and well-established ﬁrms can use opportunity creation to
+create new and more pro ﬁtable business models (cf . Sarasvathy, 20 08). Fourthly, the busi-
+ness models of the case ﬁrm are presented only for the years 2000, 2005, 2010 and 2014.
+These are the years that cover the main changes in the models, which include smaller,
+gradual changes over time. Not all the changes can be described here because of space
+limitations.Business models and opportunity creation 473
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 24 ===
+ACKNOWLEDGEMENTS
+The author would like to thank William Baber, Sylvie Chetty, Brendan Gray, Eetu Luoma, Mikko
+Siponen, Pasi Tyrväinen, special issue guest editor Jonas Hedman and the anonymous re-
+viewers for their valuable comments and suggestions. Special thanks go to Erik Piehl, CEO
+of G-cluster and to other employees who provided data for this study. Responsibility for the con-
+tents remains solely with the author. The research was partly carried out within the framework of
+the Digital Services research project ﬁnanced by TEKES —the Finnish Founding Agency for
+Technology and Innovation. In addition, the Foundation for Economic Education in Finland
+(Liikesivistysrahasto) provided ﬁnancial support for the research.
+REFERENCES
+Adomavicius, G., Bockstedt, J.C., Gupta, A. & Kauffman,
+R.J. (2007) Technology roles and paths of in ﬂuence in
+an ecosystem model of technology evolution. Informa-
+tion Technology and Management ,8, 185 –202.
+Adomavicius, G., Bockstedt, J.C., Gupta, A. & Kauffman,
+R.J. (2008) Making sense of technology trends in the in-
+formation technology landscape: a design science ap-proach. MIS Quarterly ,32, 779 –809.
+Al-Debei, M.M. & Avison, D. (2010) Developing a uni ﬁed
+framework of the business model concept. European
+Journal of Information Systems ,19, 359 –376.
+Alvarez, S.A. & Barney, J.B. (2007) Discovery and creation:
+alternative theories of entrepreneurial action. Strategic
+Entrepreneurship Journal ,1,1 1–26.
+Alvarez, S.A. & Barney, J.B. (2010) Entrepreneurship and
+epistemology: the philosophical underpinnings of the
+study of entrepreneurial opportunities. The Academy of
+Management Annals ,4, 557 –583.
+Alvarez, S.A., Barney, J.B. & Anderson, P . (2013) Forming
+and exploiting opportunities: the implications of discov-
+ery and creation processes for entrepreneurial and orga-
+nizational research. Organization Science ,24, 301 –317.
+Amit, R. & Zott, C. (2001) Value creation in E-business.
+Strategic Management Journal ,22, 493 –520.
+Ardichvili, A., Cardozo, R. & Ray, S. (2003) A theory of en-
+trepreneurial opportunity identi ﬁcation and development.
+Journal of Business Venturing ,18, 105 –123.
+Arthur, W.B. (2009) The nature of technology: what it is and
+how it evolves . Penguin group, UK.
+Berger, P . & Luckmann, T. (1967) The Social Construction
+of Reality: A Treatise in the Sociology of Knowledge .
+The Penguin Press, UK.
+Blank, S (2012) Search versus execute. http://steveblank.
+com/2012/03/05/search-versus-execute/Blank, S. (2013) Why the lean start-up changes everything.
+Harvard Business Review ,91,6 3–72.
+Burkhart, T., Krumeich, J., Werth, D. & Loos, P . (2011) An-
+alyzing the business model concept —a comprehensive
+classi
+ﬁcation of literature. ICIS 2011 Proceedings .
+Cachon, G.P . & Lariviere, M.A. (2005) Supply chain coordi-
+nation with revenue-sharing contracts: strengths and lim-itations. Management Science ,51,3 0–44.
+Chesbrough, H. (2010) Business model innovation: oppor-
+tunities and barriers. Long Range Planning ,43, 354 –363.
+Ciborra, C.U. (1996) The platform organization: recombining
+strategies, structures, and surprises. Organization Sci-
+ence ,7, 103 –118.
+Ciborra, C.U. & Lanzara, G.F . (1994) Formative contexts
+and information technology: understanding the dynam-
+ics of innovation in organizations. Accounting, Manage-
+ment and Information Technologies ,4,6 1–86.
+Darke, P ., Shanks, G. & Broadbent, M. (1998) Successfully
+completing case study research: combining rigour, rele-vance and pragmatism. Information Systems Journal ,
+8, 273 –289.
+Eisenhardt, K.M. (1989) Building theories from case
+study research. Academy of Management Review ,14,
+532–550.
+Eisenhardt, K.M. & Graebner, M.E. (2007) Theory building
+from cases: opportunities and challenges. Academy of
+Management Journal ,50,2 5–32.
+Edmondson, A.C. & McManus, S.E. (2007) Methodological
+ﬁt in management ﬁeld research. Academy of Manage-
+ment Review ,32, 1155 –1179.
+Ghazawneh, A. & Henfridsson, O. (2013) Balancing plat-
+form control and external contribution in third-party de-velopment: the boundary resources model. Information
+Systems Journal ,23, 173 –192.474 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 25 ===
+Hanseth, O. & Lyytinen, K. (2010) Design theory for dy-
+namic complexity in information infrastructures: the caseof building internet. Journal of Information Technology ,
+25,1–19.
+Hedman, J. & Kalling, T. (2003) The business model con-
+cept: theoretical underpinnings and empirical illustra-
+tions. European Journal of Information Systems ,12,
+49–59.
+Henfridsson, O. & Bygstad, B. (2013) The generative mec-
+hanisms of digital infrastructure evolution. MIS Quarterly ,
+37, 907 –931.
+Huber, G.P . & Power, D.J. (1985) Retrospective reports
+of strategic-level managers: guidelines for increasingtheir accuracy. Strategic Management Journal ,6,
+171–180.
+Kirzner, I.M. (1979) Perception, Opportunity, and Pro ﬁt:
+Studies in the Theory of Entrepreneurship . University of
+Chicago Press, Chicago.
+Kirzner, I.M. (1997) Entrepreneurial discovery and the
+competitive market process: an Austrian approach. Jour-
+nal of Economic Literature ,35,6 0–85.
+Magretta, J. (2002) Why business model matter. Harvard
+Business Review ,80,8 6–93.
+Miles, M.B. & Huberman, A.M. (1994) Qualitative Data
+Analysis: An Expanded Sourcebook . Sage Publications,
+California.
+Miller, C.C., Cardinal, L.B. & Glick, W.H. (1997) Retrospec-
+tive reports in organizational research: a reexaminationof recent evidence. Academy of Management Journal
+40, 189 –204.
+Morris, M., Schindehutte, M. & Allen, J. (2005) The entre-
+preneur ’s business model: toward a uni ﬁed perspective.
+Journal of Business Research ,58, 726 –735.
+Murugesan, S. (2011) What can we learn from Steve Jobs.
+IT-Professional ,13,6–8.
+Ojala, A. (2008) Entry in a psychically distant market:
+Finnish small and medium-sized software ﬁrms in Japan.
+European Management Journal ,26, 135 –144.
+Ojala, A. (2009) Internationalization of knowledge-intensive
+SMEs: the role of network relationships in the entry to a
+psychically distant market. International Business Re-
+view,18,5 0–59.
+Ojala, A. & Tyrväinen, P . (2006) Business models and mar-
+ket entry mode choice of small software ﬁrms. Journal of
+International Entrepreneurship ,4,6 9–81.
+Ojala, A. & Tyrväinen, P . (2011a) Developing cloud busi-
+ness models: a case study on cloud gaming. IEEE Soft-
+ware ,28,4 2–47.
+Ojala, A. & Tyrväinen, P . (2011b) Value networks in
+cloud computing. Journal of Business Strategy ,32,
+40–49.Osterwalder, A., Pigneur, Y. (2013) Designing business
+models and similar strategic objects: the contribution ofIS.Journal of the Association for Information Systems ,
+14, 237 –244.
+Osterwalder, A., Pigneur, Y. (2010) Business Model Gener-
+ation: A Handbook for Visionaries, Game Changers, and
+Challengers . John Wiley & Sons, US.
+Osterwalder, A., Pigneur, Y. & Tucci, C.L. (2005) Clarifying
+business models: origins, present, and future of the con-cept. Communications of the Association for Information
+Systems ,16,1–40.
+Pavia, T.M. (1991) The early stages of new product devel-
+opment in entrepreneurial high-tech ﬁrms. Journal of
+Product Innovation Management ,8,1 8–31.
+Pettigrew, A.M. (1990) Longitudinal ﬁeld research on
+change: theory and practice. Organization Science ,1,
+267–292.
+Porter, M.E. (2001) Strategy and the Internet. Harvard
+Business Review ,79,6 2–78.
+Ries, E. (2011) The Lean Startup: How Today ’s Entrepre-
+neurs Use Continuous Innovation to Create RadicallySuccessful Businesses . Crown Business, NY.
+Rosenberg, N. (1998) Uncertainty and technological
+change. In The Economic Impact of Knowledge ,
+Neef, D., Siesfeld, G.A., Cefola, J. (Eds.), pp. 17
+–34.
+Routledge, US.
+Sarasvathy, S.D. (2001) Causation and effectuation: to-
+wards a theoretical shift from economic inevitability toentrepreneurial contingency. Academy of Management
+Review ,26, 243 –288.
+Sarasvathy, S.D., Dew, N., Velamuri, S.R. & Venkataraman,
+S. (2003) Three views of entrepreneurial opportunity. InHandbook of Entrepreneurship Research , Act, Z.J. &
+Audretsch, D.B. (Eds.), pp. 77 –98. Springer, US.
+Sarasvathy, S.D. (2008) Effectuation: Elements of
+Entrepreneurial Expertise . Edward Elgar Publishing,
+UK.
+Schultz, H. & Yang, D.J. (1997) Pour Your Heart into It: How
+Starbucks Built a Company One Cup at a Time . Hype-
+rion, NY .
+Sood, A., James, G.M., Tellis, G.J. & Zhu, J. (2012)
+Predicting the path of technological innovation: SAWvs. Moore, bass, gompertz, and kryder. Marketing Sci-
+ence ,31, 964 –979.
+Sosna, M., Trevinyo-Rodríguez, R.N. & Velamuri, S.R.
+(2010) Business model innovation through trial-and-error learning: the naturhouse case. Long Range Plan-
+ning,43, 383 –407.
+Teece, D.J. (2010) Business models, business strat-
+egy and innovation. Long Range Planning ,43,
+172–194.Business models and opportunity creation 475
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+=== PÁGINA 26 ===
+Tilson, D., Sorensen, C. & Lyytinen, K. (2013) Platform
+complexity: lessons from the music industry. Proceed-
+ings of 46th Hawaii International Conference on Sys-tem Sciences (HICSS ), 4625 –4634.
+Weick, K.E. (1979) The Social Psychology of Organizing .
+Addison-Wesley Publishing Company, US.
+Yin, R.K. (2009) Case Study Research: Design and
+Methods . SAGE Publications, CA.
+Zott, C., Amit, R. & Massa, L. (2011) The business model:
+recent developments and future research. Journal of
+Management ,37, 1019 –1042.Biography
+Arto Ojala is working as a senior researcher in the Depart-
+ment of Computer Science and Information Systems at the
+University of Jyväskylä, Finland. He is also an Adjunct
+Professor in Software Business at the Tampere Universityof Technology. His research interests include software busi-ness, software entrepreneurship, cloud computing and the
+internationalization of software ﬁrms. Ojala has a PhD in
+economics from the University of Jyväskylä. Contact himat arto.k.ojala@jyu. ﬁ.
+APPENDIX 1: ILLUSTRATION OF THE CONTENT ANALYSIS
+476 A. Ojala
+© 2015 Blackwell Publishing Ltd, Information Systems Journal 26, 451 –476
+ 13652575, 2016, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/isj.12078 by UNIPAMPA-UNIVERSIDAD FED DE PAMPA, Wiley Online Library on [25/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+

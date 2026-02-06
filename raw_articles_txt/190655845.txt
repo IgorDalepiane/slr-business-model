@@ -1,0 +1,892 @@
+=== PÁGINA 1 ===
+Towards a better Understanding of the Dynamics of  
+Platform as a Service Business Models 
+Andrea Giessmann 
+University of Lausanne 
+andrea.giessmann@unil.chPhilipp Kyas 
+University of Jyväskylä 
+philipp.d.kyas@jyu.fiPasi Tyrväinen 
+University of Jyväskylä 
+pasi.tyrvainen@jyu.fiKatarina Stanoevska 
+University St. Gallen 
+katarina.stanoevska@unisg.ch
+Abstract  
+Platform as a Service (PaaS) solutions are changing 
+the way software is produced, distributed, used, and 
+priced. However, there has been little research into 
+understanding the dynamics of PaaS business models 
+and how these business models should be designed to 
+establish a flourishing ecosystem around these 
+platforms. Using design science  research (DSR) we first 
+identified the main design elements of PaaS business 
+models as well as their relatio nships by in vestigating 24 
+PaaS providers. The resultin g classification scheme as 
+well as the qualitative systems  dynamics model (in form 
+of a causal loop diagram (CLD)) facilitates a better 
+understanding of the ado ption dynamics of PaaS 
+business models. By focusi ng on the adoption dynamics 
+of PaaS business models, our research goes beyond 
+previous approaches for studying PaaS.   
+ 
+1 Introduction  
+1.1 Motivation and Problem Scope 
+Platform as a Service (PaaS) solutions are changing 
+the way software is produced, distributed, used, and 
+priced. Unlike Software as a Service (SaaS) or 
+Infrastructure as a Service (IaaS), PaaS allows for value 
+co-creation by offering complementary components and 
+applications that are developed in emerging ecosystems 
+of third-party developers [1] . “A burgeoning body of 
+research has started to theorize about how such 
+ecosystems are formed and their implications for 
+platform owners, complementary providers, and users” 
+[2]. However, despite increasing interest among 
+practitioners and researchers,  there has been little work 
+on understanding the dynamics of PaaS business models 
+and how these business models  should be designed to 
+establish a flourishing ecosystem around these 
+platforms. This is a signif icant gap in understanding 
+such platforms. This paper aims to develop a causal loop 
+diagram (CLD) based on system dynamics according to 
+[3] and [4] that facilitates the understanding of the adoption dynamics of PaaS business models. This 
+project generates two research questions which finally 
+lead to the two artifacts we introduce later. First, what 
+are the essential design elements of PaaS business 
+models? And second, how are the PaaS design elements 
+thus identified interrelated and how do they cause the 
+inherent dynamics in PaaS business models? 
+1.2 Research Approach 
+In order to facilitate a b etter understanding of PaaS 
+business models, we followed the design science 
+research (DSR) approach [5], [6] drawing on the 
+previous literature in the domain of business models and 
+the PaaS paradigm (see following sections) [7]. In 
+chapter three, we have presented related work relevant 
+to the research gap addressed in  this paper. To arrive at 
+rigorous and relevant research results, we draw upon [8] 
+and follow their proposed DSR methodology: The first 
+activity within the design science process is the problem 
+identification and motivation, which we outlined in the 
+first section. The second activity concerns the objective 
+of the solution: Our objective is to address the above-
+mentioned research gap and facilitate a better 
+understanding of the adoption dynamics of PaaS 
+business models. Hence, as part of activity three, we 
+identified the main design elements of PaaS business 
+models through 24 case studies following guidelines of 
+[9] and [10]. We propose a classification scheme 
+illustrating the main design elements of PaaS business 
+models by using a morphological box [11] (cf. Section 
+4). In order to understand the complex dynamics behind 
+PaaS business models, we investigated the relationships 
+between the identified elements developed a qualitative 
+system dynamics model, following the guidelines of [3] 
+and [4] (cf. Section 5). The use of the artifact to solve 
+actual instances of the problem – representing the fourth 
+activity – is demonstrated by applying the first artifact 
+to the set of 24 PaaS providers we investigated (cf. Table 
+1). The evaluation of the artifacts, which represents the 
+fifth activity, is comprised of proof of concept studies, 
+where the artifacts have been demonstrated to work in 
+the context of various PaaS business models. As a result, 
+2014 47th Hawaii International Conference on System Science
+978-1-4799-2504-9/14 $31.00 © 2014 IEEE
+DOI 10.1109/HICSS.2014.127965
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+iterations starting from the third activity had to be 
+performed. One proof of concept study is presented in 
+order to show how our artifacts have been applied (cf. 
+Section 6). The results of our investigation are 
+summarized and discussed at th e end of this paper (cf. 
+Section 7).  
+2 Background  
+2.1 Business Models 
+In recent years, several studies, such as [12], [13], 
+[14], [15], [16], [17], [18], have noted the importance of 
+actively analyzing and designing business models. As a 
+basis for our research, we follow the definition by [17],
+according to whom a business model consists of four 
+interlocking elements – customer value proposition 
+(CVP), profit formula, key resources, and key processes 
+– that, taken together, create and deliver value. Besides 
+the definition of business models, [19] distinguish seven 
+additional areas of bu siness model research: 
+components/ fundamental constructs, taxonomies used 
+for categorizations of business models, conceptual 
+models, design methods and tools, adoption factors, 
+evaluation models, and change methodologies. We aim 
+to develop a classification scheme as well as a CLD for 
+a better understanding of the adoption of PaaS business 
+models. Hence, we focus on the fourth research field –
+design methods and tools – equivalent to “building 
+methods and developing tools for designing business 
+models” [19].  
+2.2. Platform as a Service 
+Platforms in the software industry are defined as “… 
+the extensible codebase of a software-based system that 
+provides core functionality shared by the modules that 
+interoperate with it and the interfaces through which 
+they interoperate” [1]. PaaS refers to software platforms 
+that have primarily been discussed in the context of 
+cloud computing. According to the most cited 
+architectural concepts of cloud computing, PaaS 
+represents the middle layer, connecting the IaaS and 
+SaaS cloud layers [20], [21], [22]. Based on a systematic 
+literature review, [23] descr ibe PaaS as an execution 
+environment in which extern al developers deploy and 
+run their complementary components and applications. 
+PaaS facilitates the development, testing, and 
+management of software components, as well as 
+knowledge exchange between developers. 3 Related Work  
+A considerable amount of literature has been 
+published on multisided platforms (see [24], [25], [26], 
+[27]). However, the following introduced approaches 
+stand out by a very narrow focus on modeling and 
+understanding the dynamics of business models.
+Kiani et al. [28] analyzed the business model 
+ontology (BMO) [29] in order to capture the structure 
+and achieve a better unde rstanding of e-business 
+models. Within this research the concepts of system 
+dynamics [3], [4] were ap plied so as to qualitatively 
+investigate as well as illustrate such e-business models 
+by means of a qualitative model in form of a CLD. 
+Through modeling the BMO as CLD, the dynamics of 
+the system, its feedback structure, underlying 
+assumptions, as well as the interrelations between the 
+BMO elements were revealed and in total six feedback 
+loops have been identified and discussed, viz: (1) 
+prosperity, (2) offering, (3) resource supplement, (4) 
+activity arrangement, (5) channel adjustment, and (6) 
+customer relationship control. For instance the feedback 
+loop offering describes the case  of an increased offering 
+regarding the value proposition at first leading to higher 
+costs, and thereby decreasing the overall profit. 
+However, as indicated by the feedback loop prosperity, 
+the increased offering and value proposition will also 
+lead to a higher customer b ase and will thus increase the 
+revenue and finally the overall profit. Within these two 
+feedback loops all four pillars of the BMO are included. 
+The remaining four feedback loops describe further 
+relationships between BMO elements. At the end of this 
+paper, the authors argue that a better understanding of 
+this kind of business model will finally lead to a higher 
+quality level as well as higher utilization of such 
+business models. 
+Another business model framework regarding 
+ontology – the e-business model framework (eBMF) –
+was created by Ben Lagha et al. [30] in a more technical 
+way by means of the corresponding e-business modeling 
+language (eBML). eBMF enables decision makers to 
+design new business models by asking proper questions 
+such as “what … exactly [is] my value proposition?” 
+[30]. The eBML was developed in order to encode these 
+business models. The eBML is based upon an extensible 
+markup language (XML) and enables a structured 
+approach to modeling and describing business models 
+in a formal and re-usable way. In more detail, the eBML 
+is actually a XML schema by which the structure and 
+the available eBMF elements – namely product 
+innovation, customer relationship, infrastructure 
+management, and financial aspects – are defined in 
+order to support the description of business models at a 
+high level of abstraction. Moreover, as is inherent in 
+XML documents, they can be easily transformed into 
+966
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+other formats or documents, such as business plans, 
+graphical representations, reports for financing, or 
+documents for knowledge sharing. Using this 
+framework (eBMF) in combination with the proposed 
+eBML provides the feature to simulate business models 
+and to enable one to answer certain strategic questions 
+such as “how can we act to alter that future for the 
+better?” proposed by [31]. 
+For the purpose of analyzing business models, Grasl 
+[32] developed a multi-method approach and applied the 
+resulting approach to a small case study in order to show 
+its applicability. According to [32] three different kinds 
+of complexity are inherent in business models: 
+structural, behavioral, as well as dynamical complexity. 
+These need to be investigated using appropriate 
+methods. By applying on the one hand concepts of 
+object-oriented analysis and design (OOAD) in 
+combination with the notation of the unified modeling 
+language (UML), and on the other hand concepts of 
+system dynamics, the above mentioned complexities are 
+analyzed in six successive  activities: (1) initiation, (2) 
+business model inception, (3) business model 
+elaboration, (4) scenario anal ysis, (5) transfer, and (6) 
+transformation. The structural and behavioral 
+complexity is mainly investigated through OOAD 
+concepts and the dynamical complexity by applying 
+system dynamics techniques. These activities result 
+finally in strategic questions, scenarios, 
+recommendations, and most importantly the actual 
+representation of the business model. 
+Existing approaches like [28], [30] and [32] are 
+somewhat generic and do not consider the specifics of 
+PaaS business models, which are at least two-sided or 
+even multi-sided business models. However, we find 
+that prior research on modeli ng and understanding the 
+adoption dynamics of business models provides a 
+suitable theoretical lens to study business models for 
+PaaS. 
+4 Design Elements of PaaS Business 
+Models  
+4.1 Study Design 
+Based on 24 explorative case  studies according to [9] 
+and [10], we elaborated a characteristic-based 
+classification scheme for PaaS business models. This 
+classification scheme is based on  [33] and represents an 
+advanced version of the classification scheme 
+developed there. 
+Characteristic-based classif ication means that each 
+classification object, in this case a PaaS business model, 
+is characterized by sever al characteristics [34]. The 
+classification scheme finally resulting for PaaS business models (cf. Figure 1) consists of five classification 
+criteria (first column), the cardinality of each 
+classification criterion (second column), and the 
+corresponding characteristics. In particular, the 
+introduction of cardinalities is a significant 
+enhancement of the previous model of [33]. In order to 
+classify PaaS business models we propose the following 
+criteria: (1) customer se gment, (2) core value 
+proposition, (3) governance model, (4) technical scope, 
+and (5) revenue stream. In doing so, we have retained 
+three of criteria from [33], adapted the criteria technical 
+value proposition and added governance model. In 
+Figure 1 the classification scheme is illustrated by 
+means of a morphological matrix according to [11]. 
+We applied case study tec hniques according to [9] 
+and [10] to identify these  criteria and characteristics.
+The overall process is known as multi-case, multi-unit 
+case study research [10] and the units of investigation 
+were derived from [1], [17]. By using the approach of a 
+cross-case pattern search according to [9] in 
+combination with [17] we derived three criteria. First, 
+the criterion customer segment was deduced from the 
+business model element CVP [17], in particular from the 
+part target customer. Als o, the second criterion – core 
+value proposition – was based on the CVP; here the 
+offering was the main reason. And finally, the criterion
+revenue stream was derived from the business model 
+element profit formula [17]. The remaining two criteria 
+– governance model and technical scope – were deduced 
+by comparing business models in pairs. Further, these 
+criteria can partly be ascribed to the two business model 
+elements key resources and key processes [17]. Possible 
+differences in the governance model are classified 
+according to [1] and diverse technical capabilities were 
+identified during the proces s of analysis of the case 
+studies. 
+4.2 Design Elements 
+In the following the five criteria and their 
+characteristics are discussed in detail. PaaS business 
+models are at least two-sided or even multi-sided 
+business models [35] and hence, address several 
+customer segments. In contrast to [33] we have 
+identified five typical customer segments: (1) IT 
+startups are dynamic in their early stages and thus will 
+use new technologies and products compared to 
+companies established before them. Thereby, these 
+early adaptors will help to place the platform within the 
+market. (2) Systems integrators (SI) provide 
+complementary services, for instance consulting 
+services. (3) Platform modules [1] – applications, 
+services, components, add-ons, extensions, and custom 
+developments – are provided by independent software 
+vendors (ISV). (4) Platform customers using the 
+967
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+platform internally to develop new applications for 
+services upon it. The last customer segment, (5) 
+application customers, are purchasing ready to use 
+applications built upon the platform.  
+The criterion core value proposition is used to 
+describe the main platform offe r. In addition to the three 
+characteristics alrea dy identified by [33], we added 
+fourth characteristic: (1) Di stribution channel describes 
+the case of a company opening its ecosystem including 
+the customer base to external stakeholders. These 
+stakeholders in turn will provide additional features to 
+the ecosystem’s existing customer base. (2) 
+Application-based integrati on platforms provide 
+features so as to extend SaaS solutions. (3) Platforms 
+dedicated to supporting the en tire application or service 
+development process – including developing, testing, 
+debugging, deploying, and versioning – are denoted 
+simply as development platforms. (4) And finally, 
+integration platforms integrate any combination of on-
+premise and on-demand applications as well as systems, 
+and facilitate for instance the management of complex 
+supply chains. 
+In alignment with [1] the investigated PaaS 
+platforms differ noticeably in the governance model 
+they support. Whereas [1] identified the three areas of 
+decision right partitioning, control mechanisms, and 
+proprietary vs. shared ownership within platform 
+governance models, in our classification scheme a 
+qualitative ordinal scale of three values was chosen: (1) 
+strictly limited, (2) partly limited, and (3) open 
+governance model. By focusing more on these qualitative values, it is possible to support the two 
+classification guidelines of user-friendliness as well as 
+economic efficiency [34]. 
+The technical scope – for instance programming 
+languages, development environments, frameworks, 
+databases, APIs, and protocols – varies remarkably, as 
+well as ranging from simple platforms with (1) limited 
+technical capabilities, to powe rful platforms providing 
+(2) extensive technical capabilities.  
+The last classification criterion revenue stream 
+“defines how the company creates value for itself while 
+providing value to the customer” [17]. (1) In case of 
+subscription, the customer pays a regular subscription 
+fee – commonly a monthly charge – and in return gains 
+the right to use the product for the paid period. (2) 
+Transaction-based pricing mo dels are usage-dependent, 
+for instance time or processing units, but nonetheless 
+paid on a regular basis. (3) Third-party applications and 
+services are charged by the platform provider or the 
+service provider. However, in both cases the revenue is 
+shared between these two parties. (4) A considerable 
+amount of PaaS providers offer additional services at a 
+charge. These services include among other things 
+trainings, certifications, advertisements, advisor 
+services, and onboarding pack ages. (5) Another revenue 
+stream which seems to be present within the PaaS 
+ecosystem is open source software. Even though this 
+revenue stream is mainly non-monetary, there are some 
+open source platforms available on the market. In most 
+cases, the promoting company behind such open source 
+platforms also offers add itional services, designed for
+Figure 1. Classification Scheme of PaaS Business Model Design Elements
+968
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+those platforms which carry a fee. Four of the five 
+characteristics are in line wi th [33]. Variations are that 
+we assigned advertisement to additional services and 
+added open source. 
+The classification scheme just developed was used 
+to assess the business models of the 24 PaaS providers 
+we investigated. Table 1 illustrates how these platforms 
+address the five classification criteria. In addition, this 
+descriptive knowledge [36] provides the bases for the 
+system dynamics model introduced in the following 
+chapter.  
+5 Adoption of PaaS Business Models  
+5.1 Overview 
+In order to gain a better understanding of the 
+essential interdependencies be tween the previously 
+described design elements of  PaaS business models, the 
+elements are placed in context using the concept of 
+system dynamics, more specifically by means of a CLD. 
+System dynamics is an approach to studying complexity 
+through capturing the structure as well as underlying 
+assumptions of complex systems [3], [4].  
+Moreover, identifying critical feedback loops – self-
+reinforcing (R) as we ll as balancing (B) – makes it 
+possible to capture the dynamics of the system under 
+investigation, in this case the PaaS adoption process. 
+Causal relationships between variables are modeled 
+ceteris paribus and a causal variable will increase or 
+decrease the influenced variable above or below what it 
+would otherwise have been. Figure 2 presents the main interactions between the 
+previously identified design elements of PaaS business 
+models in the form of a CLD. Two key areas are 
+presented more precisely in separate CLDs for ease of 
+understanding. First, the CVP represents a crucial 
+element within business models and is therefore 
+modeled in detail (cf. Subsection 5.3). And second, the 
+inherent network effects between the five customer 
+segments are significant concerning the CVP (cf. 
+Subsection 5.4) and thus for the overall platform 
+adoption process. 
+5.2 Adoption Cycles 
+For reasons of clarity, the actual adoption cycles are 
+omitted in Figure 2. The five customer segment 
+variables within Figure 2 signify the adoption cycle as 
+illustrated in Figure 3, whereby the wildcard <customer 
+segment> represents the five customer segments 
+identified earlier. This adop tion cycle is taken from [4] 
+and our CLD is built around this central feedback 
+structure. 
+Figure 3. Adoption Cycle in line with [4]  
+The value of the favorable word of mouth variable 
+will increase in correlation with an increase in the 
+Figure 2. Dynamics of PaaS Business Models –Model Overview
+969
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+<customer segment> population. Similarly, an increase 
+in the value of the word of mouth variable will lead to 
+an increase in the value of the adoption rate <customer 
+segment>. To close this first self-reinforcing cycle 
+(R_1), an increase in the adoption rate <customer 
+segment> will increase the <customer segment> 
+population. 
+If the adoption rate <custo mer segment> increases, 
+the potential <customer segment> variable will decrease 
+and in turn will decrease the variable adoption rate 
+<customer segment>. This cycle represents a balancing 
+feedback loop (B_1) and prev ents the variable adoption 
+rate <customer segment> to grow exponentially. 
+5.3 Customer Value Proposition 
+The adoption rate described above is mainly 
+influenced by the CVP, whereby each customer segment 
+obtains its own, dedicated CVP [17]. In Figure 4 the 
+interdependencies with regard to the CVP are 
+illustrated. We identified six factors influencing the 
+CVP positively: (1.) PaaS offers differ notably in their 
+core value proposition which h as a direct impact on the 
+corresponding CVP. (2.) Which governance model a 
+PaaS provider is using affects the CVP. For instance, 
+presumably an open governance model is more 
+attractive for potential customers. The next two features 
+(3.) technical scope and (4 .) additional services both 
+influence the CVP positively and will gain strength over 
+time through platform improvements. (5.) the platform 
+improvements itself improve the CVP, through 
+capabilities not considered in other influence factors.
+And finally (6.), the market penetration in the form of a 
+company’s brand image and reputation supports the 
+CVP. However this effect occurs with delay. Platform 
+improvement and market penetration are not exactly 
+design elements of PaaS business models, but they are 
+essential to understand the adoption dynamics of 
+platforms, and hence have been added to our model [2]. 
+Figure 4. PaaS Cu stomer Value Proposition 
+Dynamics All the above mentioned factors increase the CVP 
+and thereby the adoption rate,  which in turn increases 
+the customer base. Through the variable customer base, 
+two general impacts are reinforced. First, the market 
+penetration will increase if the customer base increases 
+and thereby another self-reinforcing feedback loop is 
+created (R_5). And second, if the customer base 
+increases, the overall revenue and by association the 
+reinvestments into the platf orm increase which later on 
+will lead to enhanced platform improvements. Thereby 
+three further self-reinforcing feedback loops are created 
+(R_2, R_3, and R_4).  
+5.4 Customer Segments 
+Network effects – same- as well as cross-sided – are 
+inherent within the PaaS domain and produce increased 
+adoption rates [35], [37]. Especially the cross-sided
+network effects are of particular importance for PaaS 
+business models. For reasons of clarity, these 
+relationships are illustrated in Figure 5 in a simplified 
+way.  
+Figure 5. PaaS Custo mer Segment Dynamics 
+Platform modules [1] – applications, services, 
+components, and add-ons – are developed and provided 
+by ISVs and IT startups, subsumed under 
+complementors [38], [39]. These external platform 
+modules are valuable for three customer segments. First, 
+obviously the application cu stomers purchase and use 
+mainly platform modules and therefore an increase in 
+the number of platform modules will increase the CVP 
+for potential application customers. An increasing size 
+of the application customer  population in turn will 
+increase the CVP for the complementors. These cross-
+sided network effects constitute two further self-
+reinforcing feedback loops  (R_8, R_9). Second, even 
+though platform customers are mainly upper small and 
+medium-sized enterprises ( SME) or large enterprises 
+using the platform internally, the number of platform 
+modules is also beneficial for these customers, for 
+instance in form of ready-to-use modules to build 
+applications upon. As with the application customers, 
+the CVP for complementors is positively influenced by 
+the size of the platform customer population and hence 
+970
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 7 ===
+two more self-reinforcing feedback loops based on 
+cross-sided network effects are revealed (R_10, R_11). 
+And finally, flourishing platforms are often associated 
+with numerous platform modules and are attractive for 
+SIs, for the simple reason that they can support 
+implementation projects for application as well as 
+platform customers. Moreover, an increasing number of 
+application and platform customers will subsequently 
+increase the CVP for SIs. This demonstrates the last two 
+self-reinforcing feedback loops in our model (R_6, 
+R_7). 
+Figure 2 illustrates the overall CLD concerning the 
+PaaS business model dynamics. This illustration is 
+composed of the customer value proposition CLD (cf. 
+Figure 4) as well as customer segments 
+interdependencies CLD (cf. Figure 5). Each customer 
+segment is served with their dedicated CVP as 
+highlighted by [17]. 
+6 Evaluation 
+In conformity with the design cycle of [7], our model 
+has been evaluated against the real world by its 
+reapplication in the context of PaaS business models. In 
+this section, we present a proof of concept study using 
+the 4CaaSt platform1. The EU-funded research project 
+4CaaSt aims to create an advanced PaaS cloud platform 
+which supports the optimized and flexible hosting of 
+Internet-scale multi-tier ap plications. Hence, the 4CaaSt 
+platform is a development-focused PaaS solution that 
+mainly focuses on the customer segments IT startups, 
+independent software vendors and platform customers. 
+Although 4CaaSt provides an electronic marketplace for 
+cloud-based services, the potential customer segment of 
+application customers is not in direct focus of 4CaaSt, 
+since most services offered on the marketplace consist
+in software components rather than ready to use 
+applications. This is also in dicated in Figure 6, where 
+the main design elements of the 4CaaSt business model 
+are highlighted. 
+Large parts of the platform are available under open 
+source licenses, hence 4CaaSt pursue an open 
+governance model. 4CaaSt offers extensive technical 
+capabilities by implementing concepts like real 
+application container and bring-your-own-container. As 
+already mentioned, currently large parts of the platform 
+are open source. Nevertheless, a provider of the 4CaaSt 
+platform might charge its customers transaction-based 
+fees. 
+1http://www.4caast.eu/  (Last visited: September 12, 2013)Figure 6. 4CaaSt Business Model Design 
+Elements 
+In the previous section, six factors influencing the 
+CVP have been discussed. (1.) The core value 
+proposition of 4CaaSt, which has a direct impact on the 
+CVP is development-focused. This focus seems 
+appropriate for the first three customer segments 
+addressed, but not necessarily for application customers. 
+(2.) The open governance model as well as (3.)
+extensive technical capabilities might also positively 
+influence the CVP for IT startups, ISVs and platform 
+customers, although this might not have much influence 
+on application customers. (4.) Currently 4CaaSt does 
+not offer any additional services, hence this element will 
+not strengthen the CVP. (5) Platform improvements 
+improve the CVP. However, currently 4CaaSt is free of 
+charge, meaning no revenue is generated that might lead 
+to investments in platform improvements (see self-
+reinforcing feedback lo ops R_2). Nevertheless, 
+improvements of the 4Caast platform might be achieved 
+by developers on an open source basis. However, it 
+could be expected that self -reinforcing feedback loops 
+R_3 and R_4 w ill only be weak. (6.) Finally, the market 
+penetration of 4CaaSt is rather low at present. This 
+might change with an increase of the customer base; see 
+self-reinforcing feedback loop (R_5). 
+Since 4CaaSt does not addr ess SIs, there are fewer 
+interdependencies between 4CaaSt`s customer 
+segments, compare Figure 5 and Figure 7. As a 
+consequence, 4CaaSt will not leverage the two self-
+reinforcing feedback loops  R_6 and R_7. Platform 
+modules are developed and pr ovided by ISVs and IT 
+startups and are valuable mainly for platform and 
+application customers. However, 4CaaSt only offers a 
+few ready to use applications that might be used by 
+application customers. Hence, the self-reinforcing 
+feedback loops R _8, and R_9 will only have weak 
+effect. Platform customers on the other hand are 
+positively influenced by a high number of available 
+software components and services on which they can 
+build on. Consequently, 4CaaSt will be able to leverage 
+971
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 8 ===
+the two self-reinforcing feedback loops R_10 and R_11 
+respectively the cross-sided network effects which are 
+represented by these loops. 
+The application of our developed artifacts in the real 
+world scenario of 4CaaSt clearly identifies two 
+emphases, where 4CaaSt might improve their business 
+model. First, 4CaaSt needs to ensure platform 
+improvements. This could on the one hand be 
+accomplished by the platform providers themselves, or 
+4CaaSt could also create incentives for open source 
+developers. Second, 4CaaSt should definitely improve 
+its value proposition to app lication customers to utilize 
+critical cross-sided network effects. 
+Figure 7. 4CaaSt Customer Segment 
+Dynamics 
+7 Discussion and Conclusion 
+The goal of this paper was to facilitate a better 
+understanding of the dynamics of PaaS business models. 
+In order to address this, a DSR approach was chosen and 
+the resulting artifacts are of  descriptive and prescriptive 
+nature [36]: the classification schema presents the main 
+design elements of PaaS business models and hence, 
+adds descriptive knowledge to the knowledge base. Our
+qualitative system dynamics model, illustrating the 
+complex dynamics of PaaS business models contributes 
+prescriptive knowledge to the knowledge base. The 
+system dynamics model is built upon Sterman’s concept 
+of adoption cycle and highlights two main aspects 
+crucial for the adoption of PaaS business models: First, 
+each addressed customer segment needs a specific 
+customer value proposition, based on its individual 
+needs. Second, the interrelationships between customer 
+segments are decisive for the platform adoption. 
+The results presented in the paper at hand provide a 
+significant scientific and practical contribution. The two 
+artefacts – the classification schema and casual loop 
+diagrams contribute to the knowledge and 
+understanding of PaaS business models. In particular, 
+the casual loop diagram explaining the dynamics of PaaS adoption, enhances ex isting rather structural 
+knowledge about PaaS business models. While other 
+authors named in the related work section focused on 
+explaining the inter-relationships of business model 
+elements, the system dynamics analysis presented in the 
+paper at hand focuses on and explains the impact of 
+inter-relationships of business model components with 
+respect to their adoption. Another contribution of the 
+research presented here is also the analysis and 
+explanation of the inter-relationships among the various 
+target customer segments in n-sided business models. 
+Besides providing a general casual loop model 
+explaining the inter-relationships among adoption 
+processes of involved target customer segments of PaaS, 
+the applicability of system dynamics for the analysis of 
+n-sided business models was illustrated on a concrete 
+example and generalized for practical use.  
+The presented results provide also a contribution 
+with practical relevance. The knowledge about typical 
+balancing and reinforcing feedback loops presented in 
+the generic casual loop diagrams can help PaaS 
+providers to understand the adoption dynamics of their 
+platform and which factors have influence on it. The 
+evaluation example clearly  demonstrates how based on 
+the identified generic feedback loops, potential week 
+features of existing business models can be identified. 
+Despite of the promising results, the study has 
+limitations that might affect the generalizability of the 
+results and that need to be mentioned: even though the 
+classification schema has been evaluated in 24 case 
+studies, the developed qualitative system dynamics 
+model has been evaluated only in two proof of concept 
+studies. This number is sufficient to assure rigor and 
+relevant results, but might limit the generalizability of 
+the CLD. 
+Within this paper the dynamics of PaaS business 
+models has been exhibited and illustrated in form of a 
+CLD (qualitative model). Futu re research might include 
+transforming this CLD into a quantitative model –a
+stock and flow diagram – where the insights gained so 
+far could be further evaluated and manifested. 
+Moreover, such stock and flow models enable the 
+simulation of the PaaS business model dynamics and 
+thereby the identification of detailed high-leverage 
+interventions and policies. Thus, simulation of business 
+models based on the gained knowledge would be 
+interesting further research. 
+8 Acknowledgments 
+The research leading to th ese results has partially 
+received funding from the 4CaaSt project 
+(http://www.4caast.eu) part of the European Union’s 
+Seventh Framework Programme (FP7/2007-2013) 
+972
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 9 ===
+under grant agreement no. 258862. This paper expresses 
+the opinion of the authors and not necessarily the 
+opinion of the European Commission. The European 
+Commission and the authors are not liable for any 
+commercial use that may be made using the information 
+contained in this paper. 
+9 References  
+[1] A. Tiwana, B. Konsynski, and A. A. Bush, “Platform 
+Evolution: Coevolution of Platform Architecture, 
+Governance, and Environmental Dynamics,” Information 
+Systems Research, vol. 21, no. 4, pp. 675 –687, 2010. 
+[2] M. Ceccagnoli, C. Forman, P. Huang, and D. J. Wu, 
+“Cocreation of Value in a Platform Ecosystem: T he Case of 
+Enterprise Software,” MIS Quarterly, vol. 36, no. 1, pp. 263–
+290, 2012. 
+[3] J. D. Sterman, Business Dynamics: Systems Thinking and 
+Modeling for a Complex World. USA: Mcgraw-Hill Higher 
+Education, 2000, p. 982. 
+[4] J. D. Sterman, “System Dynamics  Modeling: Tools for 
+Learning in a Complex World,” California Management 
+Review, vol. 43, no. 4, pp. 8 –25, 2001. 
+[5] A. R. Hevner, S. T. March, J. Park, and S. Ram, “Design 
+Science in Information Systems Research,” MIS Quarterly, 
+vol. 28, no. 1, pp. 75 –105, 2004. 
+[6] S. T. March and G. F. Smith, “Design and natural science 
+research on information technology,” Decision Support 
+Systems, vol. 15, no. 4, pp. 251 –266, Dec. 1995. 
+[7] A. R. Hevner, “A Three Cycle View of Design Science 
+Research,” Scandinavian Jour nal of Information System, vol. 
+19, no. 2, pp. 87 –92, 2007. 
+[8] K. Peffers, T. Tuunanen, M. A. Rothenberger, and S. 
+Chatterjee, “A Design Science Research Methodology for 
+Information Systems Research,” Journal of Management 
+Information Systems, vol. 24, no. 3, pp. 45 –77, 2007. 
+[9] K. Eisenhardt, “Building Theories from Case Study 
+Research,” The Academy of Management Review, vol. 14, no. 
+4, pp. 532 –550, Oct. 1989. 
+[10] R. K. Yin, Case Study Research - Design and Methods, 
+5th ed., vol. 45, no. 1. Thousand Oaks, California: Sage 
+Publications, Inc., 2003. 
+[11] F. Zwicky, Discovery, invention, research through the 
+morphological approach. New York, USA: Macmillan, 1969, 
+p. 276. 
+[12] P. Timmers, “Business Mode ls for Electronic Markets,” 
+Electronic Markets, vol. 8, no. 2, pp. 3 –8, 1998. 
+[13] B. Mahadevan, “Business models for Internet -based E-
+commerce : An anatomy,” California Management Review, 
+vol. 42, no. 4, pp. 55 – 69, 2000. 
+[14] M. Morris, M. Schindehutte, and J. Allen, “The 
+entrepreneur’s business model: to ward a unified perspective,” 
+Journal of Business Research, vol. 58(6), pp. 726 –735, 2005. 
+[15] A. Osterwalder, Y. Pigneur, and C. Tucci, “Clarifying 
+business models: Origins, present, and future of the concept,” 
+Communications of the Association for Information Systems 
+(CAIS), vol. 16, no. 1, pp. 1 –25, 2005. 
+[16] H. Chesbrough, “Business model innovation: it’s not just 
+about technology anymore,” Strategy & Leadership, vol. 35, 
+no. 6, pp. 12 –17, 2007. [17] M. W. Johnson, C. M. Christensen, and H. Kagermann, 
+“Reinventing your business model,” Harvard Business 
+Review, no. December, pp. 51 –59, 2008. 
+[18] C. Zott, R. Amit, and L. Ma ssa, “The Business Model: 
+Recent Developments and Future Research,” Journal of 
+Management, vol. 37, no. 4, pp. 1019 –1042, 2011. 
+[19] A. G. Pateli and G. M. Giaglis, “A research framework 
+for analysing eBusiness m odels,” European Journal of 
+Information Systems, vol. 13, no. 4, pp. 302 –314, Nov. 2004. 
+[20] P. Mell and T. Grance, “The NIST Definition of Cloud 
+Computing,” National Institute of  Standards and Technology, 
+Information Technology Laboratory, Gaithersburg, Maryland, 
+2011. 
+[21] S. Marston, Z. Li, S. Bandyopadhyay, J. Zhang, and A. 
+Ghalsasi, “Cloud computing — The business perspective,” 
+Decision Support Systems, vol. 51, no. 1, pp. 176 –189, Apr. 
+2011. 
+[22] L. M. Vaquero, L. Rodero-Merino, J. Caceres, and M. 
+Lindner, “A Break in the Clouds: Towards a Cloud 
+Definition,” Computer Communication Review, vol. 39, no. 1, 
+pp. 50 –55, 2009. 
+[23] A. Giessmann and K. Stanoevska- Slabeva, “Platform a s
+a Service – A Conjoint Study on Consumers’ Preferences,” in 
+Proceedings of the Thirty Third International Conference on 
+Information Systems, 2012, pp. 1 – 16. 
+[24] N. Economides, “The Economics of networks,” 
+International Journal of Industrial Organization, vol. 14, pp. 
+673–699, 1996. 
+[25] M. Katz and C. Shapiro, “Systems Competition and 
+Network Effects,” The Journal of Economic Perspectives, vol. 
+8, no. 2, pp. 93 –115, 1994. 
+[26] T. Eisenmann, G. Parker, and M. Van Alstyne, 
+“Strategies for Two- Sided Markets,” Havard Business 
+Review, vol. October, pp. 1 – 12, 2006. 
+[27] M. A. Cusumano and A. Gawer, “The Elements of 
+Platform Leadership,” MIT Sloan Management Review, vol. 
+43, no. 3, pp. 51 – 58, 2002. 
+[28] B. Kiani, M. R. Gholamian, and A. Hamz ehei, “Using 
+Causal Loop Diagram to Achieve a Better Understanding of 
+E-Business Models,” Internationa l Journal of Electronic 
+Business Management, vol. 7, no. 3, pp. 159 –167, 2009. 
+[29] A. Osterwalder, The Busi ness Model Ontology -- A
+Proposition in a Design Science Approach. (Doctoral 
+dissertation). University of Lausanne, Switzerland, 2004. 
+[30] S. Ben Lagha, A. Osterwalder, and Y. Pigneur, 
+“Modeling e -business with eBML,” in Proceedings of fifth 
+International Conference on Manage- ment of Networked 
+Enterprises (CIMRE), 2001, pp. 1 –14. 
+[31] K. Warren, “The Dynamics of Strategy,” Business 
+Strategy Review, vol. 10, no. 3, pp. 1 –16, 1999. 
+[32] O. Grasl, “Business Mode l Analysis: A Multi -Method 
+Approach,” in The 2008 International Conference of the 
+System Dynamics Society, 2008, pp. 1 –31. 
+[33] A. Giessmann and K. Stanoevska, “Business Models of 
+Platform as a Service (PaaS) Providers: Current State and 
+Future Directions,” Journal of Information Technology 
+Theory and Application (JITTA), vol. 13, no. 4, pp. 31 –55,
+2012. 
+[34] P. Fettke and P. Loos, “ Classification of reference 
+models: a methodology and its application,” Information 
+973
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 10 ===
+Systems and e-Business Management, vol. 1, no. 1, pp. 35 –53, 
+Jan. 2003. 
+[35] D. Beimborn, T. Miletzki, and S. Wenzel, “Platform as a 
+Service (PaaS),” Business & Information Systems 
+Engineering, vol. 3, no. 6, pp. 381 –384, Oct. 2011. 
+[36] S. Gregor and A. R. Hevner, “Positioning and Presenting 
+Design Science Research for Maximum Impact,” MIS 
+Quarterly, vol. 37, no. 2, pp. 337 –355, 2013. 
+[37] M. Cusumano, “Technology strategy and management -
+The evolution of platform thinking,” Communications of the 
+ACM, vol. 53, no. 1, p. 32, Jan. 2010. [38] H. Chesbrough and R. S. Rosenbloom, “The role of the 
+business model in capturing value from innovation: evidence 
+from Xerox Corporation’s technology spin -off companies,” 
+Industrial and Corporate Change, vol. 11, no. 3, pp. 529 –555, 
+2002. 
+[39] A. Gawer and M. A. Cusumano, “How Companies 
+Become Platform Leaders,” MIT Sloan Management Review, 
+vol. 49, no. 2, pp. 28 – 35, 2008.  
+10. Appendix 
+Table 1. Investigated Platform as a Service Business Models 
+Classification Scheme
+Platform as a Service Providers’Core Value 
+PropositionCustomer 
+SegmentsGover-
+nance
+ModelTech-
+nical
+Scope Revenue StreamsDistribution Channel
+Application-based Integration
+Development
+Integration
+IT Startup
+Systems Integrator
+Independent Software Vendor
+Platform Customer
+Application Customer
+Strictly Limited
+Partly Limited
+Open
+Limited Technical Capabilities
+Extensive Technical Capabilities
+Subscription
+Transaction
+Revenue Sharing
+Additional Services
+Open Source Software
+4CaaSt x x xx(x) x x x x
+AWS Elastic Beanstalk x x x x x
+AWS OpsWorks x x x x x
+Caspio Bridge x x xxx x x xx x
+CloudBees x xxxx x xxxxx
+Compuware Covisint Cloud  Engagement Platform x xxx x x n/a
+Dell Boomi x xxx x xx x
+Facebook Developers x x xxxx x xx
+GigaSpaces Cloudify x x xx xx xx
+Google App Engine x x xxx x xxx
+GXS Trading Grid x xxx x xx
+IBM SmartCloud Application Services x xxxx x xxx x
+LongJump x xxxxx x x xx
+Microsoft Windows Azure x xxxx x xxxx
+NetSuite SuiteCloud x xxxx x x n/a
+Oracle Java Cloud Service x x x x x
+OrangeScape Cloud x x x x n/a
+RightScale MultiCloud Platform x x xxx x x xx x
+Salesforce.com Force.com x xxxxx x xx xx
+SAP HANA Cloud xxxxxx x x x xx
+TIBCO Silver x xxxx x x n/a
+VMware Cloud Foundry x x x x n/a x
+VMware WaveMaker x x xx xx x
+Workday Integration Cloud x xxxx x x n/a
+974
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 14:11:34 UTC from IEEE Xplore.  Restrictions apply. 
+

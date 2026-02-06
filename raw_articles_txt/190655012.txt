@@ -1,0 +1,1887 @@
+=== PÁGINA 1 ===
+J Syst Sci Syst Eng  (Feb 2018) 27(1): 78- 105  ISSN: 1004 -3756 (Paper)  1861- 9576 (Online)  
+DOI: 10.1007/s11518- 017-5342-8  CN11 -2983/N  
+ANALYSIS OF FREEMIUM  BUSINESS MODEL CONSIDERING 
+NETWORK  EXTERNALITIES AND CONSUMER           
+UNCERTAINTY  
+Wuhua  Chen1  Zhongsheng Hua2  Zhe George Zhang3,4  Wenjie Bi1 
+1School of Business, Central South University, Changsha, 410083,  China 
+whchen@csu.edu.cn  (), beenjoy@126.com   
+2School of Management,  Zhejiang University , Hangzhou, 310058, China 
+zshua@zju.edu.cn 
+3Department of Decision Sciences, Western Washington University, Bellingham, WA98225, USA   
+4Beedie School of Business, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada  
+george.zhang@wwu.edu 
+Abstract  
+An emerging business model increasingly used by companies in the online software market is to 
+provide both a free basic version and a paid premium version for  a service or a product to  customers . 
+Such a setting  is often called freemium  model . The existence of the free version can reduce  the 
+customer uncertainty regarding the evaluation of the commercial software and m ake use of network 
+effect to improve the firm’s profit. However, the freemium model may also ha ve the cannibalization 
+effect which can  hurt the profit. Hence, the firm needs to determine the optimal content for the free 
+version and the optimal price for the premium version to maximize its profit. In this paper, first, we 
+obtain the optimal decis ions of the freemium model and their properties. Second, we compare the 
+freemium model with the traditional charge -for-everything model that all content of the produ ct need 
+to be charged in terms of the profit, customer welfare, and social welfare. The results show that when customer underestimates the value of the software significantly and the true value of the software is high enough, the freemium model can generat e higher profit, higher customer welfare, and higher 
+social welfare. Otherwise, the freemium model may not deliver the desired results.   
+Keywords:  Freemium, pricing, network effect, customer uncertainty, software, social welfare  
+ 
+1. Introduction 
+In the online software industry, a new 
+business model is becoming popular under the name of freemium that companies provide a combination of products in which one item is provided for free and the complementary item is sold at a price. For example, the most famous product of Alibaba, a Chinese e-commerce company, is sold in a format of 
+''consumer- to-consumer sales''  via a web portal 
+Taobao.com (it is similar to eBay.com). In Taobao net, customers are free to open a shop 
+ Systems Engineering Society of China and Springer-Verlag GmbH Germany 2018 
+
+=== PÁGINA 2 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci S yst Eng 79 
+but need to charge if  they want to 'decorate'  the 
+online shop such as buying the Taobao 
+WangPu function. Serving a large number of customers, in 2012, Alibaba handled 1.1 trillion yuan ($170 billion) in sales and sought its historic initial public offering (IPO) in the United States on 19 September, 2014. 
+Alibaba's market value was measured as $231 billion and made it the largest IPO in history  
+(Jung et al.  2015). Another representative 
+example is Tencent QQ which is an instant messaging Chinese software developed by Tencent co mpany. QQ offers a variety of 
+services such as online social games and music service. And it provides almost all products via the freemium model.  i.e. Customers can use a 
+basic version of the online service for free, but they need to pay for the entire ser vice. As of 
+August 2014, it had 848 million ac tive QQ 
+accounts (Lee and Phang 2015). A lot of other 
+successful examples of the freemium model include Disney Club Penguin, Evernote, Skype, etc.   
+In the freemium business model, the free 
+basic version is mad e available to everyone 
+who may become a buyer (potential customer) and the premium advanced version can be sold to actual buyer at a price. Customer has an estimated value before purchasing  the product 
+(Niculescu and Wu 2014, Hsu and Lin 2015 , 
+Li et al. 2 013). In the online software industry, 
+as the product is virtual, customers often underestimate or overestimate the value of the product, which is called c ustomer uncertainty 
+(Liu et al.  2012). The existence of the free 
+version can reduce the customer unce rtainty 
+and make use of the network externalities that one user’s good experience about the product can improve its value to other customers. However, the free version may also reduce the amount of content which can be sold, which may worsen the firm’s pro fit. Such a 
+phenomenon is often called the cannibalization effect. Therefore, in this paper, we investigate two important issues about the freemium model as follows:  
+a)What are the optimal free content and
+price decisions of freemium model and their properties?  
+b)When does the freemium model offer
+better profit than the traditional charge- for- 
+everything model (i.e. the firm does not provide any free version in the market.)?  
+It should be noted that there may exist 
+another way that the firm provides product for free in a time limit then charge for it, which may also be called freemium. This paper does not discuss '' free- time'' situation because it 
+needs to consider the time dimension and develop a more complicate model (currently, we are studying such a case in a different paper).   
+Until now the literature about freemium 
+model mostly focuses on qualitative analysis. Semenzin et al . (2012) studies features which 
+should be made available for free by investigating 17 freemium companies. Liu et al. (2012) ex amines the effect of the freemium 
+strategy on Google Play which is an online marketplace for Android mobile applications. They find that the freemium strategy is positively associated with increased sales of the paid mobile apps and offering a quality free app is important in boosting sales of the 
+paid app. Seufert (2013) conducts a comprehensive survey of the freemium 
+
+=== PÁGINA 3 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+80    J Syst Sci Syst Eng   
+business model in software industry and 
+explains how freemium products generate revenue and attract users from economics aspect. Kumar (2014 ) discusses the life cycle 
+of upgrades in freemium companies. Drawing on the Dual Mediation Hypothesis and the Elaboration Likelihood Model, Wagner et al. (2014) shows that freemium model can increase the probability of user conversion by providing a stron g functional fit between their 
+free and premium services. Voigt et al . (2015) 
+investigate three digital freemium companies which sell virtual credits to study what extent initial purchase information can determine the customer’s lifetime value. In this paper, we study the suitability of freemium model in software market from the theoretical aspect.  
+A few researchers conduct the quantitative 
+analysis on the issues of the freemium model. Cheng and Tang (2010) first discuss whether the firm should introduce the free trial product and they also determine the optimal free content and price for the freemium model. However, they do not consider the customer uncertainty issue. Niculescu and Wu (2014) compare the optimal profit and social welfare for the freemium mo del, charge- for-everything 
+model, and seeding model. Although the customer uncertainty is included in their paper, they do not consider the impact of network effect and the optimal free content decision problem. Cheng and Liu (2012) study the optimal time -limited and price decision for the 
+time-limited freemium model by considering 
+both the network effect and customer uncertainty. In their customer choice model, whether the customer purchases the product depends on the estimate value of the entire product (i.e. 
+( ) ˆQs P c θγ+ −− ). But in real ity,
+customer often first uses the free version, then decides whether to purchase the premium version. Thus we provide a new model to describe the customer choice behavior of trying the free version, buying the premium 
+version, and not using any version. We also make the comparisons between the freemium model and traditional  charge -for-everything  
+model. Therefore, this paper can be seen as an extension of Cheng and Tang (2012).  
+The studies on network effect also  are 
+related to our work. Prasad et al . (2010) 
+investigate the impact of network externality and cost on the choice of bundling strategies for some high- tech and Internet -related 
+products. Katona et al . (2011) discusses the 
+diffusion process in an online social network given the individual connections between members. Cabral (2011) studies a dynamic model of competition between two proprietary networks by considering the impact of network externality. Do u et al . (2013) study that how 
+software firms should optimize the strength of network effects by adjusting the amount of embedded social media features in tandem with the right market seeding and pricing strategies. In their study, the network effects are determined by the amount of embedded 
+social media features. In this paper, the network effect of the free version is related to its content or function.  
+Another stream of literature relate to our 
+study is the work on the two- tier public service 
+system such as healthcare systems consisting of both free public service provider and paid private service provider. The common feature is both the two- tier service system and 
+
+=== PÁGINA 4 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci S yst Eng 81 
+freemium model have the free product and toll 
+product in the market. Guo et al . (2014) 
+analyze the two -tier system in which a free 
+system has a fixed service capacity and demonstrate that the social welfare can be maximized under the self -financing condition 
+for the toll system. Hua et al . (2016) consider 
+two-tier public service systems in whic h the 
+government subsidizes the free system by using tax collected from the toll system. Chen et al . (2015) study the effect of another 
+coordination method that the government may encourage customers to use the pay system by offering them a subsidy for reducing the congestion of the free system. Chen et al . 
+(2016) investigates the price competition issues in the two -tier public system. The 
+difference is that these studies mainly consider the waiting time issue and focus on the social welfare maximization pr oblem.  
+Although many researchers have studied 
+the related problems of the freemium model. To the best of our knowledge, this paper is the first to study the freemium model by considering the complete impact of both the network externality and customer unce rtainty.  
+We first analyze the optimal free content 
+and price decisions of the freemium model and obtain some properties of the optimal decisions. Then we compare the freemium model with the traditional charge -for- 
+everything model in terms of the profit, customer welfare, and social welfare.  By the 
+model, we obtain some interesting and useful results. For example, we may intuitively think that if customers underestimate the value of the products significantly then the firm will attract some customers who o nly use the free 
+version to improve the profit. However, our results show that if the network effect is strong enough and the estimate value of the product is low enough then these customers are not valuable for the firm. Another example is we may think that the freemium model will always benefit customers compared to the charge- for-everything model. However, we 
+find that when the true value of the product is low or customer underestimates the value of the software insignificantly, the freemium model often leads to a lower customer welfare than the charge -for-everything model.   
+The balance of the paper is organized as 
+follows. Section 2 provides the basic model. Sections 3 analyzes the optimal decisions of the freemium model. Sections 4 compares the freemiu m model with the charge -for- 
+everything model. Section 5 discusses the impact of the cannibalization effect, marginal cost, and the customers’ learning behavior. Section 6 concludes with a summary. All proofs are provided in the Appendix.   
+2.Preliminaries
+In this section, we first model the customer
+choice behavior and then introduce the profit maximum problem for the firm in the freemium model. Finally, we intro duce the 
+traditional charge -for-everything model for 
+comparison. For convenience of reading, the definition of parameters and variables are summarized in Table 1 as below.
+
+=== PÁGINA 5 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+82    J Syst Sci Syst Eng   
+Table 1 Definition of notations  
+Notation  Definition  
+x The amount of the free content  
+p The  price of the premium version 
+θ The type of customer and it is distributed uniformly in the interval [0, 1]  
+α The marginal benefit of the customer of type 1θ= for the free content  
+β The marginal benefit of the customer of type 1θ= for the premium content  
+γ Customer uncertainty level  
+n The amount of customers using the free version  
+pn The  amount of customers using the premium version  
+µ The network effect intensity  
+φ Customer’s fixed cost  
+C The fixed cost of product division  
+π The profit of the freemium model  
+Cn The  amount of users in charge -for-everything model  
+Cπ The  profit of the charge -for-everything model  
+2.1 Customer Choice 
+Without loss of generality, we assume that 
+the total amount of the content for the full 
+version is measured by 1. When the firm uses the freemium model, it will provide a free version with an amount 
+x of the content, 
+where [0,1]x∈ . x can be seen as the 
+percentage of the software content which is available in the free version. And a larger 
+x 
+represents that the function of the free version  
+is more complete or the free version is more 
+valuable for customers who use it.  The firm 
+will charge a price p for the remain amount 
+1x− of the content. Correspondingly, we call 
+this part of content as the premium version. Specially, when 
+0x=, the model degenerates 
+to be the charge -for-everything model.  
+We assume a normalized mass m  = 1 of 
+consumers with types distri buted uniformly in the interval [0, 1]. The assumption of uniform distribution can make consumers’ willingness to pay for the product heterogeneous. Customer of type 
+θ derives benefit xαθ  
+from using the free version, where parameter 
+α represents the marginal benefit of the 
+customer of type 1θ= for the free content. 
+Before purchase, customer of type θ has an 
+estimate of benefit (1 )x βθ−  for the 
+premium version, where parameter β 
+represents the marginal estimate of benefit for the premium content . For a customer of type 
+θ, because αθ represents the true value of 
+the product and βθ represents the estimate 
+value of it in charge -for-everything model, we 
+call α and β as the true value and the 
+estimate value parameters, respectively. Define the level of customer uncertainty as 
+/ γ βα= , 
+which represents the gap between the estimate 
+
+=== PÁGINA 6 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci S yst Eng 83 
+value and the true value parameters. Similar as 
+Shapiro (1983), the estimate value parameter 
+β can be less ( 1γ<), equal to ( 1γ=) or 
+lager ( 1γ>) than the true value parameter α, 
+which represent customers underestimating, correct estimating and overestimating the value of product, respectively. In online software industry, the customers may feel that they have higher risks of financial information and successful purchase. Hence c ustomers 
+often estimate the value of the product conservatively (Lim  2003). Therefore, we will 
+mainly discuss the 
+1γ<case in this paper. It 
+should be noted that in the basic model we do not consider the customer learning behavior that the users of the free version may adjust 
+their estimate value for the premium version to obtain certain theoretic results. However, in Section 5, we will show that the main results can be extended to the case considering customer learning behavior via numerical simulations.  
+Denote the number of customers using the 
+free version and the premium version by  
+n 
+and pn, respectively. The users of the 
+premium version must use the free basic 
+version. Hence we have p nn≥ . For example, 
+in the online game crossfire , the customers of 
+the premium version who buy the props will 
+play the same game with customers of the free version. Assume that the product has a positive network effect, which means one user of the 
+product has an additional positive benefit of that product to other users. And we assume that the user of the full version has an 
+additional benefit 
+nµ, where µ is the 
+network effect intensity and reflects the increase in willingness to pay when an 
+additional consumer joins the network. Similar as Sun et al . (2004), we assume that there is a 
+positive and linear correlation between the strength of network effect and the amount of content. i.e. The additional benefit of a customer who only uses the free version is
+xnµ .   
+Assume that the customer has a fixed cost 
+φ when he/she uses the software product. For 
+example, to use the software product, customer often needs the necessary hardware support to install it and the time and energy to learn how 
+to use it. We assume that  
+,αβ φ >, which 
+represents that the customer of type 1θ= 
+has an incentive to use the product even 
+without network effect at the beginning. 
+Therefore, if a customer of type θ uses the 
+free version, he/she obtains the net utility 
+(, )fUx θ= x xnαθ µ φ +− . And if he/she 
+continues to purchase the premium version 
+then he/she has the net utility 
+( , , ) (1 )pUx p x x θ αθ β θ = +−+ npµφ−− . 
+Customers choose their optimal decisions among the free version, the premium version 
+or balking. A Customer of type 
+θ will use 
+the free version if and only if (, ) 0fUx θ≥ 
+and he/she will purchase the premium version 
+if and only if (, , ) (, )pfUx p Ux θθ+≥ , where 
+(, )fUx θ+max( ( , ),0)fUx θ = . To simplify the 
+analysis and obtain some theoretical results, 
+we assume that µφ<. This means that even 
+if the full version is free, customers of type 
+0θ=still do not use the product. Thus we 
+always have 1pnn≤<  in this paper. This 
+condition can often be satisfied in reality. For 
+example, a typ e of software products in Apple 
+
+=== PÁGINA 7 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+84    J Syst Sci Syst Eng   
+App Store is that customers can use them 
+freely within a limited time frame then they need to pay for using it. In the limited period, even though the products are available free for customers , some users of Apple App Store  
+still do not use them. Therefore, in the 
+equilibrium, the customer ’s choice behavior 
+results in one of two cases as the following:  
+Case 1 :
+1( , ) 0,fnUx
+θθ
+= −=
+11(, , ) (, ) 0 , .
+pppf pnnUx p Ux nn
+θθθθ
+=−= −= ≥≥   
+(1) 
+Case 1 represents that the free version can 
+attract all users by itself or all users of the free version can obtain a non- negative net utility 
+when only use it. From (1) we can obtain that the amount of the free version customers is 
+()xnxαφ
+αµ−=−, and the amount of the premium 
+version customers is 1()pxnxαφµβα µ−= +−−
+(1 )p
+x β−. 
+Case 2 :
+1(, ) 0fnUx
+θθ
+= −<, 
+1( , , ) 0, .
+pppnUx p nn
+θθ
+= −= =     (2)             
+Case 2 means that some customers use the 
+free version only because they want to use the premium version. Similarly, from (2) we can obtain that the amounts of the free version customers and the premium version customers 
+are 
+[ (1 )]
+[ (1 )]ppx xnnxxφ αβ
+µα β+− + −= =−+−. 
+Remark : n and pn are functions with 
+respect to p and x. For concise, we use 
+and pnto represent (, )nxp  and (, )pn xp if 
+no confusion occurs. When p is high enough, 
+no customer will purchase the premium version (i.e. 
+1(, , ) 0pUx p
+=≤
+θθ and 0pn=). 
+However, in this case, the firm must obtain a 
+negative profit. Hence we can discard this case 
+and only analyze the Case 1 and Case 2 in the following.  
+2.2 Profit Maximization Problem  
+Assume that when the firm uses the 
+freemium model then it needs a fixed cost C  to 
+divide the product. For example, if an online game provider chooses the freemium model, he needs an additional cost to divide the product into two parts in which one part is free and the other part should be charged. For a software product, the margina l cost of adding a 
+new customer is often very small and can be negligible. To obtain some theoretic results, similar as Cheng and Tang (2012), we assume that the marginal cost is zero. However, we will discuss its impact on the freemium model in Section 5.  Thus the profit function of the 
+freemium model is 
+(,)p p x pn Cπ = − . The 
+firm needs to decide its optimal free content and price decisions to maximize the profit. i.e., the optimal problem for the firm is  
+max ( , )
+. . 0 1, 0.p p x pn C
+st x pπ = −
+<≤ ≥  (3) 
+Wh
+ere pn is determined by (1) or (2).  
+2.3 Charge-for-everything Model 
+The firm may also choose the traditional 
+charge- for–everything model. i.e. There is no 
+free version in the market and the customers must  pay for all the content of the product. In 
+this case, we denote the number  of users as 
+cn. In the charge -for–everything model, the 
+customer of type cn predicts that he/she has 
+
+=== PÁGINA 8 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci S yst Eng 85 
+an net utility cnp βθ µ φ+ −−  to purchase 
+the full version and he/she will purchase it 
+only when the net utility is positive. In equilibrium, the customers’  choice behavior 
+results in 
+(1 ) 0ccn np β µφ− + −−= . We can 
+obtain that the number of users is (cn φ= +
+)/( ) pβ µβ−− and the corresponding profit 
+function is  
+()Ccpp pn pφβπµβ+−= =−. 
+Becaus e() 2Cdp p
+dp+−=−π φβ
+µβand 2
+2()Cdp
+dpπ
+20p
+βµ−= <−. We know that ()Cpπ  is a 
+concave function with respect to p. Hence it is 
+easy to verify that the optimal price and the optimal profit of the charge -for–everything 
+model are 
+*
+2pβφ−= and *()Cpπ =
+2()
+4( )βφ
+βµ−
+−, respectively. In Section 4, we will 
+compare the freemium model with the charge- for-everything model in terms of the 
+optimal profit, customers’  welfare, and social 
+welfare.  
+3. The Optimal Decisions and
+Properties of Freemium Model 
+In this section, we first analyze the optimal 
+free content and price decisions of freemium model, and then derive some properties of the optimal decisions.  
+Obviously, if the free content 
+1x= (i.e. 
+the full version is free) we have 0pn= and 
+the profit must be non- positive. Hence we can 
+only discuss the case of 1x< for the optimal 
+free content decision. The following lemma provides several properties of the optimal decisions about the customer choice equilibrium.  
+Lemma 1  When 
+1γ≥, if the free content and 
+price decisions of the freemium model result in the case 2 of customer choice equilibrium then the freemium model must generate a lower profit than the charge -for-everything mode l. 
+When 
+1γ<, the optimal decisions of the 
+freemium model must not be in the case 2 of customer choice equilibrium.  
+The first part of Lemma 1 indicates that 
+when the customers correctly estimate or overestimate the value of the produc t then the 
+freemium model can generate a higher profit than charge -for-everything model only in the 
+case 1 of customer choice equilibrium. The second part of Lemma 1 reveals that when the customers underestimate the value of the product then the optimal free content and price decisions of freemium model should ensure that all users of the free version can obtain a non-negative net utility. This is because if the 
+free version cannot attract customers by itself then the existence of the free version can not only improve the value of the premium version 
+via network effect but also decrease the content of the premium version which can be sold, and hence will reduce customers’ willingness to purchase the premium version. In this case, the firm should increase the  free 
+content to improve the profit.  
+Based on Lemma 1, we can only discuss 
+the optimal profit of the freemium model in the case 1 of customer choice equilibrium. Thus the optimal problem (3) can be written as  
+
+=== PÁGINA 9 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+86    J Syst Sci Syst Eng   
+max ( , ) (1 )
+( ) (1 )
+( )( ). . 1 0,
+( ) (1 )
+1 0;
+( ) (1 )
+0, 0 1,xppx p C
+xx
+xpst
+xx
+xp
+xx
+pxαφπµ
+βα µ β
+βµα φ
+βα µ β
+αφµ
+βα µ β−= + −−
+−−
+−−+ −≥
+−−
+−+ −≥
+−−
+≥ <<
+(4)
+ 
+where the condit ions ( )( )
+()x
+xβ µα φ
+βα µ−−+−
+10(1 )p
+x β−≥−and 1()x
+xαφµβα µ−+−− 
+0(1 )p
+x β≥−represent p nn≥  and 0pn≥, 
+respectively. 
+Denote *x and *p as the optimal 
+decisions. Correspondingly, denote *n and 
+*
+pn as the amount of the free version 
+customers and the premium version customers 
+at the optimal decisions, respectively. Next, we can prove that when the true value parameter 
+α is high enough, the optimal decisions of 
+free content and price have relatively concise formulas.  
+Proposition 1 In freemium model, there exists 
+a lower limit for the 
+α that when αα≥, then 
+**
+pnn<  and the optimal free content and 
+price decisions are 
+22
+* 8( )
+2( )xφµ φ µ µφ αβ αµ βµ
+αβ αµ βµ−+ + + −=+−,  
+*
+222( )(
+8( )pφµ αβ αµ βµ
+αµφµ φ µ µφ αβ αµ βµ+−=−−+ + + −
+21)− , 
+where 
+22
+21([( (2 )( )
+2( )α φ β µβ µ
+µβ µ= − +−
+− 
+2 22 22 () ) 4 () ( ( 2) ()µ β βµ µβµβ φβµ βµ − − − − −+2 1/2 2 2 22 )] 2 ( ) (2 )( )) µβ µββ µ φ β µ β β µ µ − −+ − + −
+and αis increasing in φ. 
+Proposition 1 first shows that when the 
+true value parameter α is no less than a 
+lower bound ( α), the free version will attract 
+some customers who only use it (i.e. **
+pnn<). 
+The reason is mainly because the willingness of customers to choose the free version is positively correlated with the true value parameter 
+α. Proposition 1 also reveals that 
+the lower bound α is increasing in the 
+customer fixed cost , which means that a low fixed cost of the customer is more likely to make the results in Proposition 1 hold. As the 
+expression of the lower bound 
+α is complex, 
+we cannot theoretically analyze its monotonic properties regarding the network effect and the estimate value parameter. Instead, we use numerical method to reveal them as below.  
+Figure 1 (a) and (b) show that 
+α is first  
+decreasing in both the estimate value parameter and the network effect then increasing in both. This means that when 
+β 
+(µ) is small or large the firm is more likely to 
+choose the strategies in Proposition 1. It should be noted that the result of Figure 1 (a) holds only when the network effect is strong enough. If the network effect is weak, 
+α will 
+always be increasing in the estimate value parameter. Similarly, the result of Figure 1 (b) only holds when the estimate value parameter is small enough. And if the estimate value parameter is large enough then 
+α will always 
+be decreasing in the network effect intensity. We delete these results for concise. 
+
+=== PÁGINA 10 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci S yst Eng 87 
+(a)
+ The estimate value parameter case ( 0.78µ= )   (b) The network effect case ( 1.2β= ) 
+Figure 1 Impact of the network effect and the estimate value parameter on the threshold αwith 1φ= 
+The next proposition provides the optimal 
+decisions in another case (i.e. αα<). 
+Proposition 2  When  αα< then **
+pnn= , 
+the optimal price is * **(1 ) (1 ) p xx β= − +− ⋅
+*
+*()
+()x
+xαφµβ
+αµ−−
+−. If =βα  then the 
+optimal free content is*2 /( ) x φαφ= + ; If 
+<βα , there are two subcases for *x: 
+i)when 324 27 0ab−+ ≤ , then
+* 1 332 cos( cos( ))33 2abx araa=−. 
+ii)when 324 27 0ab−+ > , then
+* 1 332 cosh( cosh( ))33 2abx araa= − if a>
+0; * 1 332 sinh( sinh( ))33 2abx araa−= −−−if 
+0a< and * 3xb= −  if 0a=, 
+where ( ( )(2 ) ( ) ) /aφ µ β αφ αµ βφ = − ++ −
+(( ) ),α β µα−22 () / ( () )b φ µ β αβµα = −− . 
+Proposition 2 shows that when the true 
+value parameter a is less than the lower 
+bound α, all customers of the free version 
+will continue to purchase the premium version 
+(i.e. **
+pnn=). As the optimal decisions in this 
+case are very complicate, it is difficult to 
+derive information from them. But the αα< case often occurs when the true value is very 
+low or the estimate value is very low. In the 
+next section, we find that when α is low the 
+charge- for-everything model will generate a 
+higher profit than the freemium model. And in 
+reality the estimate value of the product is often not too low such that the firm can obtain some positive profit even it chooses the charge- for-everything model. Thus we mainly 
+focus on analyzing the properties of the optimal decisions in Proposition 1  and provide 
+several monotonic properties as the following.  
+Proposition 3  When 
+αα≥, the optimal free 
+content *x is decreasing in αand β but 
+increasing in ,φµ ; the optimal profit is 
+increasing in α,β and µ but decreasing 
+in φ. 
+The properties of Proposition 3 are 
+relatively intuitive except that the property of optimal free content about 
+α. When the true 
+value parameter α is increasing, the firm 
+should not increase the free content to attract more free version customers and further utilize the network effect. In contrast, the firm needs to decrease the free content to maximize the profit. This is m ainly because the estimate 
+value parameter 
+β is larger than network 
+
+
+=== PÁGINA 11 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+88    J Syst Sci Syst Eng   
+effect parameter µ. If the free content is 
+increasing in α then the loss of benefit for 
+customers to use the prem ium version will be 
+larger than the increment of benefit via 
+network effect. Hence the firm should reduce the free content to maximize profit when 
+α 
+is increased.   
+In the following, we provide a numerical 
+example to demonstrate the impact of 
+customer uncertainty γ (under the given α) 
+on the freemium model. In Figure 2, γ vary 
+from 0.14 to 0.32 , which corresponds to the 
+estimate value β varying over [1.44, 3.52] 
+as α is a constant. From Figure 2 (a) (b) (c), 
+we can observe that the free content is decreasing in 
+γ but price and profit are 
+increasing in γ. These phenomena are 
+consistent with the results in Proposition 1 to 3. 
+In Figure 2 (d), an interesting phenomenon is 
+that when 0.1545γ< or 0.2955γ>   the amounts of the free version customers and the 
+premium version customers satisfy **=pnn ; 
+otherwise, **<pnn . This is because when the 
+estimate value is small, the firm often sets a 
+low price for the premium version such that all 
+the free version customers will continue to purchase the premium content. And when the 
+estimate value is large enough, the firm often 
+only provides a little free content. Hence the free version cannot attract extra customers 
+who only use it. This phenomenon is 
+consistent with the result of Figure 1(a). It 
+should be noted that this phenomenon occurs 
+only when the network effect is strong enough. 
+The insight is that if the network effect is strong enough then only when the customer 
+uncertainty 
+γ is in a middle range the 
+customers who only use the free version can 
+be valuable to the firm.   
+(a)
+ The opt imal free content       (b) The optimal price 
+   (
+c) The optimal profit   (d) Customers of free and premium versions  
+Figure 2 Impact of customer uncertainty γ on freemium model with 0.8, 11, 1, 0.1 C µ αφ= = = =  0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.320.190.20.210.220.230.240.250.26
+γx*
+0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.320.80.911.11.21.31.41.51.61.71.8
+γP*
+0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.320.450.50.550.60.650.70.750.80.850.9
+γπ*
+0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.320.580.60.620.640.660.680.7
+γCustomersn*
+np*
+
+=== PÁGINA 12 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci S yst Eng 89 
+4.Freemium  Model vs. Charge -for- 
+everything  Model 
+The firm chooses  the business model 
+between the freemium model and 
+charge- for-everything model mainly according 
+to their profits. An important feature of the freemium model is it provides the free version for customers, which is very similar to some  
+public service such as  the healthcare 
+systemthat government often provides the free basic service to improve social welfare  (Guo et 
+al. 2014 , Hua et al . 2016) . So it is also 
+interesting to discuss whether the freemium model can improve the customers ’ welfare or 
+the social welfare. In this sectio n, we will 
+discuss these issues. First, we define R as the 
+difference between the profits of the freemium model and the charge -for-everything model. 
+We can obtain an explicit condition for the freemium model generating a higher profit than charge -for-everything model in the 
+αα≥ case.  
+Proposition 4  When αα≥, the freemium 
+model can make more profit than 
+charge -for-everything model if and only if 
+*3 2
+*4(1 ) ( )04( )xRC
+xφµ β φ
+αµ βµ−−= − −>−−, 
+where *x is defined as shown in Proposition 
+1; and the judgment condition R is 
+increasing in αbut decreasing in C. In 
+other words, there is a x such that the 
+freemium model is better only when *xx<, 
+where x is the unique solution of 
+32
+4(1 ) ( )=( )4( )xC
+xαµ βφ
+φµ β µ− −−+−. 
+The first part of Proposition 4 provides a 
+judgment condition that when the firm should 
+choose the freemium model. It is relatively complex because the optimal decisions of freemium model, as shown in Proposition 1, are complex. The monotonicity of R also 
+reveals that a higher true value parameter 
+α 
+leads to that the firm is more likely to choose the freemium model. This is because when the product’s true value is higher, the free version can attract customers more easily and can improve the value of the premium version 
+significantly by network effect. Hence the freemium model will obtain a higher profit. The implication is that the firm should try its best to improve the true value of the product to utilize the freemium model. The s econd part of 
+Proposition 4 shows that if the firm chooses the freemium model then its optimal free content decision should be less than a threshold value 
+x. This is because if the free 
+content is too much, the cannibalization  effect 
+(we will discuss it in Section 5.1) would be stronger than the network effect. Hence the freemium model will generate a lower profit than the charge -for-everything model. The 
+implication is that in the freemium model the free content should not be too m uch.   
+To compare the social welfare between the 
+freemium model and the charge -for-everything 
+model, we define social welfare as the sum of the consumer surplus and producer surplus  
+(Wen and Wang  2014). Note that in the 
+freemium model, customers ’ welfare c an be 
+shown to be  
+1
+1[]FnCW x xn d αθ µ φ θ
+−= +− +∫
+1
+1[ (1 ) (1 ) ]
+pnx xn pd α θµ θ
+−−+−− ∫ 
+[( / 2) ] [ (1 )nx x n x xµα αφα = − + −+ −⋅ 
+(1 / 2) (1 ) ] .ppn xn pn µ − +−−  
+Thus , the social welfare function of the 
+freemium model , denoted byFSW , is defined 
+
+=== PÁGINA 13 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+90    J Syst Sci Syst Eng   
+as 
+[( / 2) ]FSW x x n x n µα αφ= − +− + 
+[ (1 )(1 / 2) (1 ) ] .pp x n xn pn α µπ− − +−− +  
+Similarly, we can define the customer 
+welfare of th e charge- for-everything model as   
+1
+1[]
+[( / 2) ] .cCcn
+ccCW n p d
+n pnαθ µ φ θ
+µα α φ−= + −−
+= − +−−∫
+An
+d the corresponding social welfare is 
+defined as  
+[( / 2) ]C ccSW n p n L µα α φ= − +−− + . 
+Because the expressions of the optimal 
+decisions of the fre emium model are complex, 
+we can not obtain a concise condition for the 
+comparisons of social welfare and customers 
+welfare. Thus, we will use the numerical simulation method to compare the differences of social welfare (
+FCSW SW − ), profit 
+(FCLL− ), and customers welfare  (FCW −
+CCW ) and obtain some management insights. 
+The Table 2 shows the impact of true value 
+and estimate value parameters on the  comparisons of the two models. In these experiments, 
+αand β are given in the table, 
+other parameters are set as 0.9µ= , 1φ=, 
+0.2C= . 
+From the first and second experiments of  
+the Table 2, we can observe that when the true 
+value is low, the freemium model  generates 
+lower profit, lower customers ’ welfare and 
+lower social welfare than charge -for- 
+everything model.  This is because in this case 
+the fr eemium model cannot attract enough free 
+version customers to utilize the network effect and the existence of the free version will reduce the customers’ willingness to purchase the premium version, which results  in that the 
+freemium model worsens both the firm profit and customers ’ welfare. The insight is when 
+the true value of product is low, both the firm and customers prefer the charge -for-everything 
+model.  
+Table 2 The impact of the true value and estimate value parameters  
+Par
+ameters  freemium Charge-for-everything Rate of Increase  
+π  CW F SW F πC CW C SW C (π-πC)/πC
+×100% (CW F- 
+CW C)/ 
+CW C 
+×100% (SW F- 
+SW C)/ 
+SW C 
+×100% 
+4, 2αβ= =  0.1329 0.8658 0.9987 0.2273 0.9091 1.1364 -41.51% -4.76% -12.11% 
+4, 3αβ= =  0.2771 0.6415 0.9187 0.4762 0.7029 1.1791 -41.80% -8.74% -22.09% 
+20, 5αβ= =  1.0552 6.4283 7.4835 0.9756 6.1273 7.1029 8.16% 4.91% 5.36% 
+20, 18αβ= =  3.9728 2.9483 6.9212 4.2251 2.9708 7.1960 -5.97% -0.76% -3.82% 
+10, 10αβ= =  1.9761 1.1957 3.1718 2.2253 1.2227 3.4480 -11.20% -2.21% -8.01% 
+10, 20αβ= =  3.0018 0.1203 3.1221 3.4752 -0.0176 3.4576 -13.62% 783.19% -9.70% 
+
+=== PÁGINA 14 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci S yst Eng 91 
+From the third experiment, we know that 
+when the true value is high and customers 
+underestimate the value of product significantly, the freemium model makes higher profit, higher customers ’ welfare, and 
+higher social welfare than charge -for- 
+everything model. The reason is in this case the freemium model can attract enough free version customers and increase the customers’ willingness to purchase the premium version via network effect. Hence the freemium model can benefit both the firm and customers. The insight is when the true value is high and customers underestimate the value of product significantly, both the firm and customers prefer the freemium model.   
+The results of the fourth experiment are 
+very similar to the first and second experiments. We can observe that when the true value is high and customers underestimate the value of product insignificantly, the freemium model will make lower profit, lower customers welfare and lower social welfare 
+than charge -for-everything model. This is 
+because in this case the customers have a great willingness to purchase the product even without the free version in the market. Hence the existence of the free version will reduce 
+the customers’ willingness to purchase the premium version and hence worsens the profit. And in freemium model the firm often sets a high price for the premium version, which leads to that only a smaller portion of customers purchase the premium version. Hence the customers ’ welfare also be 
+worsened. The insight is when the true value is high but customers underestimate the value of product insignificantly, both the firm and customers also prefer the charge- for- 
+everything model.  
+The results of the  fifth experiment which 
+represents the case of the customers correct estimating the value of product are very similar to the fourth experiment’s. The sixth experiment shows that when the customers overestimate the value of the product, the freemium model makes lower profit and lower social welfare but generates higher customers welfare than charge -for-everything model. The 
+implication is when the customers overestimate the value of the product, the firm prefers the charge- for-everything model but 
+customers prefer the freemium model.  
+Table  3 The value of 
+maxγ  when the freemium is better under different α  
+α  2 4 6 8 10 12 14 16 18 20 
+maxγ 0.000 0.000 0.350 0.363 0.370 0.383 0.386 0.388 0.389 0.390 
+Ta
+ble 3 shows the maximum customer 
+uncertainty parameter γ (i.e. maxγ ) when the 
+freemium is better under different α. The basic 
+parameters are the same as the Table 2.  
+From Table 3, first, we can observe that when α  is small ( 4≤), no matter how 
+small the γ  is (or 0 γ→ ), the 
+charge- for-everything model will be better 
+than the freemium model. This means that the firm should improve its quality of product to 
+
+=== PÁGINA 15 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+92    J Syst Sci Syst Eng   
+utilize the freemium model. Second, we can 
+find that when α is increasing from 6 to 20, 
+maxγ  is increasing from 0.350 to 0.390, which 
+indicates that the  maximum customer 
+uncertainty parameter γ is not too large and often less than 0.4. It should be noted that this result can hold in a lot of other combinations of parameters. We delete these result s for 
+concise.  
+Table 4 shows the impact of network effect 
+on the freemium model and the charge- for-everything model. In these 
+experiments, 
+µ is given in the Table 4 and 
+other parameters are set as 10,α= 3β=, 
+1φ=, 0.2C= . We can observe that the 
+profit, customers welfare, and social welfare of the two models are increasing in the network effect. Especially, when the network is not strong (
+0.1µ=  or 0.3µ= ), the freemium 
+model obtains a lower profit but providers a higher customers ’ welfare. The reason is that 
+when the network effect is weak, the firm needs to provide more free content to utilize network effect. Hence the firm prefers the 
+charge- for-everything model but customers 
+prefer the freemium model. When the network effect is stronger (
+0.5µ= , 0.7µ=  or 
+0.9µ= ), the freemium model generates  
+higher profit, customers ’ welfare, and social 
+welfare than the charge -for-everything model. 
+And the advantage of the freemium model for firm is increasing in network effect but the advantage of the freemium model for customers is decreasing in network eff ect.  
+Table 4 The impact of network effect 
+Par
+ameter  freemium Charge for everything  Rate of Increase  
+π CW F SW F πC CW C SW C (π-πC)/πC
+×100% (CW F- 
+CW C)/CW C 
+×100% (SW F- 
+SW C)/SW C 
+×100% 
+0.1µ=  0.3257 2.4890 2.8147 0.3448 2.1760 2.5208 -5.56% 14.39% 11.66% 
+0.3µ=  0.3651 2.6140 2.9792 0.3704 2.3182 2.6886 -1.42% 12.76% 10.81% 
+0.5µ=  0.4093 2.7483 3.1576 0.4000 2.4800 2.8800 2.33% 10.82% 9.64% 
+0.7µ=  0.4589 2.8918 3.3507 0.4348 2.6654 3.1002 5.55% 8.49% 8.08% 
+0.9µ=  0.5147 3.0438 3.5585 0.4762 2.8798 3.3560 8.09% 5.69% 6.03% 
+5.Extension
+In this section, we first discuss the
+cannibalization effect in the freemium model, 
+which means the existence of the free version will reduce the amount of the paying customers and worsen the profit. Then,  we extend the 
+model to more general cases that the  product has 
+the marginal cost and customers who can update their estimate value for the premium version after using the free version.  
+5.1 The Cannibalization Effect 
+In the freemium model, the existence of the 
+free version will produce both positive effect and negative effect on the profit of firm. The positive effect is the network effect which can 
+
+=== PÁGINA 16 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci Syst Eng  93 
+improve the customer utility of the product and 
+hence improve the prof it. The factors of the 
+negative effect include the cannibalization effect which will reduce the number of paying 
+customers and hence hurt the profit, and the fixed cost C  to use the freemium model. For 
+better understanding the cannibalization effect, we as sume that the strength of network effect is 
+zero (i.e. we remove the positive effect of the free version on the profit of the freemium model) and C=0. By this method, we can focus on the 
+impact of the cannibalization effect on the profit and analyze it mor e easily. Without this 
+assumption, we cannot separate the cannibalization effect from the comprehensive effect of the free version on the freemium model, and hence we cannot prove its existence especially when the free version has more positive effect than  negative effect on the profit. 
+Hence in this case the net utility of a customer who uses the full version becomes  
+( , , ) (1 )pU x p x x xn p θ α θβ θµ φ = + − + −− . 
+Using the same method, we can show that 
+the customer choice equilibrium is also determined by Case 1 or Case 2, a nd we can 
+prove that the results of Lemma 1 still hold. Hence, we can also only discuss the situation of Case 1.  
+From Case 1, we obtain that 
+=1 ( )pnp φ −+
+/( (1 )) x β−  and the corresponding profit 
+function of the firm is 
+( , ) (1 ( ) / ( (1 )).p p x pn p p x π φβ = = −+ −
+Bec
+ause the decisions should satisfy =pn
+1 ( ) / ( (1 )) 0pxφβ −+ − ≥ , for a given x, we 
+should have (1 ) pxβφ≤ −− . Taking the partial 
+derivative of (,)pxπ  with respect to p, we 
+have  (,) 21(1 )px p
+pxπ φ
+β∂+= −∂−. 
+Lettin g ( , )/ 0px pπ∂ ∂= , we have 
+*= ( 1 )/2 /2pxβφ−− ( (1 )x βφ≤ −− ). Hence, 
+to ensure that *( , )=1 ( (1 ) ) / (2pnpx x β φβ− −+ ⋅
+(1 )) 0x−≥ , we must have (1 )x βφ−≥ (i.e. 
+1/x φβ ≤− ). For a given 1/x φβ ≤− , the profit 
+of firm is 
+2
+* ( (1 ) )( ,)4 (1 )xpxxβφπβ−−=−. 
+Taking the partial derivative of *( ,)pxπ  
+with respect to x, we have *( , )/px xπ∂ ∂=  
+2( (1 ) )( (1 )+ ) / (4 (1 ) ) xx x β φβ φ β− −− − − . It is 
+easy to verify that if 0 1/x φβ < ≤− , we have 
+*( , )/ 0px xπ∂ ∂< . And because *( ,)pxπ  is 
+continuous at =0x, we have  
+** * *
+00 1/(,) s u p (, ) = (, )
+xxpx px px
+φβπ ππ
+=< ≤−<
+2( ) / (4 )βφ β= − . 
+From Section 2.3, we know that the optimal 
+profit of the charge -for–everything model is 
+*()Cpπ =2( ) / (4 4 )βφ β µ−− . And because 
+βφµ>> , we have ** 2( , ) ( )/pxπ βφ<−
+*(4 ) ( )Cp βπ< . That is, in the freemium model
+the free version must produce a negative effect on the profit, which is the cannibalization  effect.  
+In the above analysis, we assume that the 
+free version does  not produce network effect for 
+the premium version, which can separate the cannibalization effect from the comprehensive effect of the free version on the premium version, and hence we can prove the existence of the cannibalization effect. It should be no ted that 
+this assumption is merely needed for the convenience of the proof. In reality, the free version will produce network effect for the premium version. And when the benefit of the 
+
+=== PÁGINA 17 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+94    J Syst Sci Syst Eng   
+network effect from the free version is greater 
+than the total loss of  the cannibalization effect 
+and the fixed cost C , the firm chooses the 
+freemium model, which has been discussed in Proposition 4 and is relatively complex. Therefore, the above method can only prove the existence of the cannibalization effect but cannot analyze the comprehensive effect of the 
+cannibalization and network externality on the freemium model. The existence of the cannibalization effect indicates that if the firm chooses the freemium model then the network effect should be strong enough. 
+5.2 The Marginal Cost 
+The model in Section 2.2 does not consider 
+the marginal cost of the product. This is suitable for the case that the product has a very small marginal cost which can be negligible. However, in some e -commerce businesses such as Taobao 
+web ne t, the company will hire employees to 
+insure the service quality. And every employee keeps touch with a certain number of online sellers to address problems in trading such as problems of product quality and delivery time. Thus , in this situation we need to consider the 
+impact of marginal cost on freemium model. In this subsection, we will discuss this issue.  
+Assume that the firm has a marginal cost 
+c 
+when a customer uses the product. Correspondingly, we assume that the marginal cost for a customer who only uses the free version is 
+cx. Then we can obtain the profit 
+function for the Case 1 of customer choice equilibrium as below.  ( , ) (1 )
+( (1 ))[1()
+].(1 )pp p x pn n c x nxc C
+xpc xx
+pxcCxπ
+αφµβα µ
+αφ
+β αµ= − −− −
+−=−− + −−
+−−−−−  (5)
+Si
+milarly, the profit function for Case 2 is  
+(,)
+[ (1 )]() .[ (1 )]pp p x pn n c
+px xpc C
+xxπ
+φ αβ
+µα β= −
++− + −= −−−+−(6)
+W
+e can verify that results of Lemma 1 can also 
+hold by the s ame method. So , we only need to 
+consider the maximum value of equation (5). 
+Taking the  first and second order derivatives of 
+equation (5) with respect to p, we have 
+( , ) 2 (1 )10( ) (1 )px x p c x
+p xxπ αφµβα µ β∂ − −−= +−=∂ −−
+and22( , ) / 2 / ( (1 )) 0px p x πβ∂ ∂= − − < . Hence 
+we have    
+* (1 ) (1 )( ) (1 )
+2 2( ) 2x xx c xpxβ µ αφ
+αµ− −− −= ++−. 
+However, we can easily verify that 
+( , )/px xπ∂∂  is a five-degree function with 
+respect to x. Thus we cannot obtain the 
+analysis solution for (,)pxπ . Instead, we will 
+use numerical simulation to analyze this case.  
+We can show that the  main results in Section 
+3-4 still hold in the marginal cost case by a lot of 
+numerical examples.  We provide some 
+representative results as the following. In the 
+Figure 3, we can observe that the change trend of optimal decisions is  very similar to Figure 2 
+(a) (b) (d) . It should be noted that if 
+c is large 
+enough then we always have **>p nn  when γ 
+is small. We delete these results for concise.  
+
+=== PÁGINA 18 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci Syst Eng  95 
+  (
+a) The optimal free content (b) The optimal price    (c) Customers of free and premium versions  
+Figure 3 Impact of γ on the optimal decisions of freemium model considering the marginal cost with 
+0.9, 11, 1, 0.1, 0.2 Cc µ αφ= = = = =
+In T
+able 5, we set 0.1c=  0.9µ=  and set 
+all other parameters as the Table 2. We can find 
+that the results in Table 5 are also very similar to Table 2. The main difference is both the profit and customers ’ welfare in Table 5 are less than 
+Table 2’s. This is because when the product has a marginal cost the firm will reduce the free content and raise the price. This results in that both the  number  of users (corresponding with 
+the customers ’ welfare) and profi t decrease 
+significantly. The implication is the existence of marginal cost will worsen the benefit of the freemium model for both the firm and customers.  
+Table 5 The impact of the true value and estimate value considering the marginal cost  
+Parameters  freemium  Charge for everything  Rate of Increase  
+π CW F SW F πC CW C SW C (π-πC)/πC
+×100% (CW F- 
+CW C)/ CW C 
+×100%  (SW F- 
+SW C)/ SW C 
+×100%  
+α=4, β=2 0.0796  0.8276  0.9072  0.2273  0.9091  1.1364  -64.97%  -8.96%  -20.16%  
+α=4, β=3 0.2276  0.6199  0.8475  0.4762  0.7029  1.1791  -52.21%  -11.82%  -28.13%  
+α=20, β=5 0.9995  6.3308  7.3303  0.9756  6.1273  7.1029  2.44%  3.32%  3.20%  
+α=20,β=18 3.9230  2.9197  6.8427  4.2251  2.9708  7.1960  -7.15%  -1.72%  -4.91%  
+5.3 Customer Learning Behavior  
+In this subsection, we will discuss the 
+problem that when the customer has customer learning behavior. i.e., He/she will update his/her estimate value for the premium version after using the free version because he/she knows more about the product now. Ass ume that 
+the updating estimate value is 
+( ββα′= +−
+)mxβ , where m can be 1, 2,By this method, the absolute updating  estimate value or the 
+customer learning behavior is increasing in the amount of the free content and can satisfy that 
+1lim ( )m
+xx
+→′= +− =β β αβ α . And it is clear that 
+the value of updating estimate  is decreasing (if 
+αβ≥) or increasing (if αβ<) in m . As the 
+complex of this new model, we can also not obtain the analysis results for it. Instead, we use numerical simulation to study it.  A lot of 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.40.170.180.190.20.210.220.230.240.250.26
+γx*
+0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.40.811.21.41.61.82
+γP*
+0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.40.520.540.560.580.60.620.640.660.680.70.72
+γCustomers
+ n*
+np*
+
+=== PÁGINA 19 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+96    J Syst Sci Syst Eng   
+numerical experiments show that the main 
+results in Section 3 -4 still hold in this case. We 
+provide some representative results for m =2 
+case as the fol lowing. From Figure 3, we can 
+also observe that the change trend of optimal decisions is  very similar to Figure 2(a) (b) (d). The differences are in Figure 4(c) we always 
+have 
+**>p nn  when γ is small. It should b e 
+noted that if m is large enough then Figure 4(c) 
+is also very similar to Figure 2(d). We delete these results for concise.  
+(a)
+ The optimal free content (b) The optimal price    (c) Customers of free and premium versions  
+Figure 4 Impact of γ on the optimal decisions of freemium model considering customers updating estimate 
+behavior with 0.9, 6, 1, 0.1, 2 Cm µ αφ = = = = =
+In
+ table 6, we set the other parameters as the 
+Table 2. We can also find that the insights in 
+Table 2 still hold in Table 6. The main differences are the profits and customers ’ 
+welfare of the customer learning behavior case are increased and decreased, respectively. The implication is in the freemium model the customer learning behavior will increase the benefit of the firm but worsen the benefit of customers.  
+Table 6 The impact of the true value and estimate value considering customer learning behavior  
+Par
+ameters  freemium Charge for everything  Rate of Increase  
+π CW F SW F πC CW C SW C (π-πC)/πC
+×100% (CW F- 
+CW C)/ 
+CW C 
+×100% (SW F- 
+SW C)/ SW C 
+×100% 
+α=4, β=2 0.1865 0.8175 1.0040 0.2273 0.9091 1.1364 -17.96% -10.07% -11.65% 
+α=4, β=3 0.3022 0.6426 0.9448 0.4762 0.7029 1.1791 -36.54% -8.59% -19.87% 
+α=20, β=5 1.1211 6.3148 7.4359 0.9756 6.1273 7.1029 14.91% 3.06% 4.69% 
+α=20,β=18 3.9770 2.9481 6.9251 4.2251 2.9708 7.1960 -5.87% -0.77% -3.76% 
+6. Conclusion
+In this paper , we study the optimal free 
+content and price decisions of the freemium model and make the comparisons between the freemium model and the charge -for-everything 
+model in terms of firm’s profit, customer benefit, and social welfare. In the freemium model, the  
+firm provides both a free basic version and a 0.2 0.25 0.3 0.35 0.4 0.45 0.50.30.320.340.360.380.40.420.440.46
+γx*
+0.2 0.25 0.3 0.35 0.4 0.45 0.50.70.80.911.11.21.31.4
+γP*
+0.2 0.25 0.3 0.35 0.4 0.45 0.50.580.60.620.640.660.680.70.720.74
+γCustomersn*
+np*
+
+=== PÁGINA 20 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci Syst Eng  97 
+paid premium version for customers. Because of 
+the network effect and the customer uncertainty, the existence of free version can improve the firm’s profit. The results show that when the true value of the pro duct is high and customers 
+underestimate this value significantly, both the firm and customers prefer the freemium model. However, if the true value of the product is low or customers does not underestimate the value of product significantly, both the firm  and 
+customers often prefer the charge -for-everything 
+model. Finally, we discuss the suitability of the main results in more general cases where the product has the marginal cost and customers have learning behavior.  
+The primary contribution of this paper  is 
+providing a new model to describe the customers’ choice behavior among the free version, the premium version, and balking. As the model is relatively complex, we obtained some interesting findings via numerical simulation. In the future, further empiri cal 
+studies are required to verify these results. Another research direction is to study the case when the parameter 
+β is heterogeneous 
+among customers. Finally, some firms such as Online network disk provider SugarSync often first choose the freemium model for marketing, then utilize the charge -for-everything model 
+after the market share has been obtained. Thu s, 
+investig ating the dynamic decisions of the 
+freemium model and the charge -for-everything 
+model would be an interesting future research topic.   
+Appendix  
+Proof of Lemma 1.  
+If 1γ≥ or βα≥, we denote the optimal free content and price decisions of the freemium 
+model as (,)px . Assume that (,)px  belongs 
+to the case 2 of customer equilibrium behavior. 
+Then we have 1(, , ) 0
+ppnUx p
+θθ
+= −=. That is  
+[ (1 )](1 ) 0pp x x n npαβ µ φ + − − + −−=  . 
+If the firm uses the charge- for-everything 
+model, for the given p, the customer ’s choice 
+equilibrium must satisfy  
+(1 ) 0.ccn np β µφ− + −−=   
+Because βα≥, we have  
+(1 ) xx βα β≥+ −  
+and 
+(1 ) 0 [ (1 )](1ccn np x x β µ φ αβ− + −−=≤ + − −    
+) (1 )pp pp n np n np µφ β µφ+ −−≤ − + −− . 
+Hence we have () ()cp cpnn nnβµ −> − . 
+And since βφµ>> , we have cpnn>  and 
+() (,)C cpp pn pn C p xππ = > −=    . i.e. When 
+1γ≥, if the firm chooses the free  content and 
+price decisions which result in the case 2 then it must produce a lower profit than the charge- for-everything model.  
+When 
+1γ< or βα<, if the free content 
+and price decisions (,)px  belongs to the case 2 
+then we have  
+[ (1 )](,)[ (1 )]px xpx p Cxxφ αβπµα β+− + −= −−+−. 
+Denote the domain of (,)px  in the case 2 as 
+1{( , ) | ( , ) 0,
+pfnpx U x
+θθ
+= −Π= <
+[ (1 )], 0 1}[ (1 )]ppx xnxxxφ αβ
+µα β+− + −= <<−+−. 
+We can prove that the optimal decisions 
+must not be in Π by contradiction. Assume 
+that (,)px  are the optimal decisions of the 
+freemium model and (,)px ∈Π . For the given 
+p, taking the derivative of (,)pxπ  with 
+respect to x, we have  
+
+=== PÁGINA 21 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+98    J Syst Sci Syst Eng   
+2( , ) ( )( )
+[ ( (1 ))]px ppx xxπ α βφ µ
+µα β∂ − +−=∂ − +− . 
+Because αβ>and βφµ>> , we have 
+(,)0px
+xπ∂>∂for any  {| 0 1, x xx ′∈Π = < <  
+1[ (1 )]( , ) 0, .[ (1 )] pfpnpx xUx nxxθφ αβθµα β= − +− + −<= −+− 
+Denote the supremum of ′Π as x. Clearly, 
+we can verify that 
+1(1, ) 0
+pfnU
+= −>
+θθ in ′Π. 
+Hence we know that 1x≠ and x is 
+determined by the equation 
+1(,) 0
+pfnUx
+= −=
+θθ , 
+where (, )px  results in the case 1 of customer 
+choice equilibrium. It is easy to verify that 
+(,)pxπ  is continuous at xx=. Thus , we hav e 
+(,) (,)px pxππ <  for any (,)px ∈Π . That is 
+(,) (,)px pxππ <  , which is in contradiction 
+with the assumption that (,)px are the optimal 
+decisions of the freemium model. Therefore, 
+when 1<γ  the optimal decisions of the 
+freemium model must not be in the case 2 of 
+customer choice equilibrium.              ■             
+Proof of Proposition 1.  
+Taking the partial derivative of (,)pxπ  
+with respect to x and p respectively, we have  
+(,) 21 0,( ) (1 )px x p
+p xxπ αφµβα µ β∂−= + −=∂ −− (A1) 
+2
+22(,)0.( ) (1 )px p p
+x xxπφµβα µ β∂= −=∂ −− (A2) 
+From simultaneous equations , we have 
+2( ) 2 0.xx αβ αµ βµ φµ µφ+− + − =   (A3)          
+We can obtain the solutions for quadratic 
+equation (A3) as  
+22
+1,28( )
+2( )xφµ φ µ µφ αβ αµ βµ
+αβ αµ βµ−± + + −=+− . 
+Because ,αβ φ µ >> , it is clear that 10x< . Thus , only 2x can be the optimal free content 
+decision. Letting 2 xx=  and substituting it into 
+(A1) and (A2), we have 
+(1 )(1 )2 ()xxpx−−= +−β αφµβα µ. Next we will 
+prove that (, )xp  is a maximum extreme by 
+Hessian Matrix.  
+Because 
+2
+2(,) 2
+(1 )px
+x pπ
+β∂= −− ∂, 
+2
+22(,) 2
+( ) (1 )px p
+px xxπφµβα µ β∂= −∂∂ −−
+and 
+2
+2 33(,) 2 2( )0
+( ) (1 )px pp
+x xxπφµ
+βα µ β∂−= −=
+∂ −−. 
+The Hessian Matrix at (, )xp  point is  
+22
+2
+22 3322
+(1 ) ( ) (1 )
+22 2
+( ) (1 ) ( ) (1 )H
+p
+x xx
+pp p
+xx xxµφ
+β βα µ β
+µφ φµ
+βα µ β βα µ β=
+−−− −−
+− −−− −− − 
+ 
+
+ . 
+(A4) 
+We have  
+33
+2
+22
+,
+22
+2 3 2 24
+2
+22
+,2 22()(1 ) ( ) (1 )
+2()
+( ) (1 )
+4
+() ( 1 )()
+4.
+( ) (1 )x xp p
+x xp pppHx xx
+p
+xx
+p
+xx x
+p
+xxφµβ βα µ β
+φµ
+βα µ β
+φ φµµ
+βαµ βαµ
+φµ
+βαµ= =
+= =−= − − −− −−
+−
+−−
+=
+−+
+−− −
+−−
+
+(A5) 
+From (A2) we have 
+22
+2 24 2 2 2
+,2
+() () ( 1 )x xp pp
+x xxφ µ φµ
+βαµ βαµ= =−+
+− −−
+22 22
+,2()
+() () ( 1 )x xp pp
+x xxφµ φµ
+βαµ αµ= ==−−
+−−−
+0>. 
+
+=== PÁGINA 22 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci Syst Eng  99 
+And since 20(1 )x β−<−, we have 
+22
+2 3 2 244
+() ( 1 )()pH
+xx xφ φµµ
+βαµ βαµ= −+
+−− −
+2 22
+,40
+( ) (1 )x xp pp
+xxφµ
+βαµ= =>
+−−. 
+That is, the Hessian Matrix is a negative 
+definite matrix. Therefore, we know that (, )xp  
+is the unique maximum extreme point.  
+Next, we will analyze the optimal decisions 
+according to the case that whether (, )xp  is in 
+the domain of definition. First, it is easy to 
+verify that  22[ 8(02( )xφµ φ µ µφ αβ
+αβ αµ βµ−+ + +<<+−
+2 1/2) 16( ) ]12( )αµ βµ αβ αµ βµ
+αβ αµ βµ− + +−=+−. From 
+(A1) we have (, ) 0(1 )ppn xpx−=− βand 
+( , ) [1 ] / 2(1 ) ( )ppxn xpxx−= = +−−αφµβ βα µ. 
+From (A2) we know that 0p> . Hence, we 
+have (, ) 0pn xp > . If (, )xp  satisfies 
+[1 ] / 2() ()
+1(1 ) 0,2( ) 2pxxnnxx
+x
+xαφ αφµβ αµ αµ
+αφ µ
+αµ β−−−=+ −−−
+−= − −≤−
+
+
+
+wh
+ich is equal to (2 )
+[ ( )]xβ µφ
+αβ µ α β−≥−− . Then 
+we know that (, )xp  is in the domain of the 
+optimal problem (4) and it must be the o ptimal 
+decisions of the firm. It is clear that the 
+condition (2 )
+[ ( )]xβ µφ
+αβ µ α β−≥−− is equivalent to 
+s
+ubstituting (2 )
+[ ( )]xβ µφ
+αβ µ α β−=−−into (A3) and 
+s
+atisfying 2 (2 )( )( )[ ( )]β µφαβ αµ βµαβ µ α β−+− +−− (2 )( )2 0[( )]β µφφµ µφαβµ α β−−≤−−. 
+We can rewrite the above inequality as 
+2
+2( )(2 ) (2 )[
+] 2 [ ] 0.αβ αµ βµ β µ φ φµ β µ αβ
+µα µβ µ αβ µα µβ+− − + − −
++ − −+ ≤
+(A
+6) 
+By merging similar items , we can obtain that 
+22 2 2 2
+322 ( ) [2(2 ) ( ) 4
+( )] 2 (2 )( ) 2 0.µ βµ α βµ φ β β µµ µβ
+βµ α β φ µβµ βµ µ β− − + − +− − ⋅
+− − − −− ≤
+(A7) 
+W
+e know that the equation (A7) can have 
+two roots which are  
+2 22
+1,2 2
+2 22 2
+2
+2 32 1/2
+2(2 ) ( ) 2 ( )
+2( )
+[((2 ) ( ) 2 ( ))
+2( )
+4 ( ) ( (2 )( ) 2 )].
+2( )βµ φ β β µµ µ β βµα
+µβ µ
+βµ φ β β µµ µ β βµ
+µβ µ
+µ βµ β φ µβµ βµ µ β
+µβ µ− +− − −= ±
+−
+− +− − − −
+−
+− − −+
+−
+Su
+bstituting αµ=  into (A6), we have 
+22 2(2 ) (2 )(2 ) 2µ βµ φ φ µβµ µ βµ µ − + − −−
+22 22 22(2 ) 2 (2 ) 2 (2 ) 0µβ µ φ µβ µ µ µβ µ−= −− −>
+since φµ>. This means that 12α µα<< . 
+Because αµ> we know that if 2 ≥=ααα  
+the optimal decisions are (, )xp .   ■ 
+Proof of Proposition 2.  
+If <αα  then we know that the optimal 
+decisions will satisfy 1()pxnxαφµβα µ−= +−−
+(1 )p
+x β=− ()xnxαφ
+αµ−=−. For the given x, we 
+have*(1 ) (1 )( )()xp xxxαφβ µβαµ−= − +− −−  and
+*( , ) ( (1 ) (1 )( ) )
+()xpx x x
+xαφπ β µβ
+αµ−= − +− − ⋅
+−
+()xC
+xαφ
+αµ−−
+−. Taking the derivative of *( ,)pxπ  
+with respect to x, we have  
+
+=== PÁGINA 23 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+100    J Syst Sci Syst Eng   
+*
+2
+2
+2( , ) ( ) (1 )( )
+() ()
+(( ) ) .() ()d px x x
+dx x x
+xx
+x xπ µ βφ α φ
+αµ αµ
+α φ φαβ µβαµ αµ− −−= +− −
+−−+−− −
+If =βα then we have 
+*2
+3( , ) (1 )( )
+()d px x x x
+dx xπ α φ φαφ
+αµ− − −+= −
+− 
+32( )
+()x
+xφ αφφ
+αµ−+=
+−.
+Hence we have *2 /( ) x φαφ= + . If βα≠we 
+can easily verify that *( ,)0d px
+dxπ= is 
+equivalent to (1 )( )() (()xx
+xαφµ βφ βαµ−−− ++− 
+2( ) )( ) 0()xxxαφµβ φααµ−− −=−or the cubic 
+function 
+2
+3
+22() ( 2 ) ()( )/( )
+2
+()( ) / ( )0.xxφ µβ αφ µβ αβφ βα
+αµ αµ
+φ µ βαµ β βα
+αµ αµ−+ −− ++ +
+−−
+−− +=
+−−
+(A8) 
+L
+etting 
+( ( )(2 ) ( ) ) / (( ) ),aφ µβ αφ αµ β φ αβ µ α = − ++ − −
+22 () / ( () )b φ µ β αβµα = −− , then the equation 
+(A8) can be rewritten as  
+ 30. x ax b− +=   (A9) 
+From the condition 0()pxnnxαφ
+αµ−= = ≥−, 
+we have / xx φα ≥= . It is easy to verify that 
+*( ,)0
+xxd px
+dxπ
+=>, *
+1( ,)0
+xd px
+dxπ
+=<. 
+Thus , there exists at least one real root for 
+*( ,)0d px
+dxπ= over 1 xx<< . Using the trigonometric method of solving 
+cubic function solution, we analyze the solutions 
+for (A9) depend on two cases:  
+1) When 324 27 0ab ∆=− + ≤ ,
+In this case, we must have 0.a> The 
+equation (9) has three real roots which are  
+1 3 3 2( 1)2 cos( cos( ) )33 2 3i a bix araaπ−= −  , 
+1, 2, 3.i=  
+If αβ>we have 0b<. Because 0a>, 
+we can verify that 1 33cos( ) (0, / 6)32baraaπ ∈−. 
+Thus we have1 3 32cos( )32 3baraaπ−−
+2( ,)32ππ∈− − and 1 3 34cos( )32 3baraaπ−∈−
+47(, )36ππ−− . That is 2,30 x≤  and they must 
+not be the optimal decision. Note that there at 
+least exists a real root over 1 xx<< , we know 
+that 1x must be the unique solution of 
+*( ,)0d px
+dxπ= over 1 xx<<  and we can
+verify that it is a maximum point. Therefore, we 
+have *1xx=.     
+2) When 324 27 0ab ∆=− + > ,
+In this case, the equation (9) has an unique 
+real root. If 0a>  then023ax= −
+1 33cosh( cosh( ))32baraa; If 0a<  then 
+0 1 332 sinh( sinh( ))33 2abx araa−= −−− ; If 0a= 
+we have 0 3xb= − . Note that there at least 
+exists a real root over 1 xx≤≤ , we know that 
+0x is the unique real solution over 1 xx<<  
+and we can verify that it is a maximum point. 
+Therefore, we have *0xx=. ■
+
+=== PÁGINA 24 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci Syst Eng  101 
+Proof of Proposition 3.  
+Taking the derivative of *x=
+228( )
+2( )φµ φ µ µφ αβ αµ βµ
+αβ αµ βµ−+ + + −
++−with respect 
+t
+o α, we have 
+*
+2 22
+22 22
+2 22()
+2() 8 ()
+[4 ( )[
+8
+( )
+8 ( )]]
+()
+2() 8 ()
+[4 ( )[ 8 (
+) 8 ( )]] 0 ,dx
+dβµ
+ααβ αµ βµ φ µ µφ αβ αµ βµ
+µφ αβ αµ βµ φµ
+φ µ µφ αβ αµ βµ φ µ
+µφ αβ αµ βµ
+βµ
+αβ αµ βµ φ µ µφ αβ αµ βµ
+µφ αβ αµ βµ φµ αβ αµ
+βµ µφ αβ αµ βµ+= ⋅
++− + +−
++ − −− ⋅
++ +− + +
++−
++<⋅
++− + +−
++− − − +−
++ +− <
+  (because ,αβφµ>> ). 
+That is, the optimal free content is 
+decreasing in α. 
+Similarly, taking the derivative of *x with 
+respect  to β, we have 
+*
+2
+22
+22
+2 221[4 ( )(
+2( )
+)/ 8 ( )
+( )[ 8 ( )]]
+1
+2() 8 ()
+4 () ( ) () [ 8 (
+)]] 0.dx
+dµφ α µ αβ
+β αβ αµ βµ
+αµ βµ φ µ µφ αβ αµ βµ
+α µ φµ φ µ µφ αβ αµ βµ
+αβ αµ βµ φ µ µφ αβ αµ βµ
+α µ µφ αβ αµ βµ α µ φµ
+αβ αµ βµ= −+
++−
+− + +− −
+− −+ + + −
+<⋅
++− + +−
+− + − −− −
++− <
+Th
+at is, the optimal free content is 
+decreasing in β. 
+Taking the derivative of *x with respect to 
+φ, we have  
+*
+22
+22 21
+2() 8 ()
+8 ( )[
+4 ( )]]dx
+dφ αβ αµ βµ φ µ µφ αβ αµ βµ
+µ φ µ µφ αβ αµ βµ φµ
+µ αβ αµ βµ= ⋅
++− + +−
+− + +− + +
++−22
+21
+2() 8 ()
+( [ 4( )][
+4
+( )]) 0 .αβ αµ βµ φ µ µφ αβ αµ βµ
+µ φµ αβ αµ βµ φµ
+µ αβ αµ βµ>⋅
++− + +−
+− + +− + +
++− =
+Th
+at is, the optimal free content is increasing 
+in φ. 
+Taking the derivative of *x with respect to 
+µ, we have  
+*
+2
+2
+22
+22
+2 22
+22 21([ [ 4 (
+2( )
+2 2 )] / 8 ( )](
+)
+( )[
+8 ( )])
+1
+2() 8 ()
+([ 8 ( ) 4 (
+2 2 )]( )( )[dx
+dφ φ µ φ αβµ αβ αµ βµ
+αµ βµ φ µ µφ αβ αµ βµ
+αβ αµ βµ α β φµ
+φ µ µφ αβ αµ βµ
+αβ αµ βµ φ µ µφ αβ αµ βµ
+φ φ µ µφ αβ αµ βµ φ µ φ
+αβ αµ βµ αβ αµ βµ α β
+φ= ⋅−+ + +
++−
+− + +−
++ − −− −+
++ +−
+>⋅
++− + +−
+− + +− + +
++ − + − −− −
+22 22
+2 22
+22
+2 228 ( )])
+1
+2() 8 ()
+([ 8 ( )
+4 ]( ))
+[ 8 2 4 ]( )
+2() 8 ()
+0.µ φ µ µφ αβ αµ βµ
+αβ αµ βµ φ µ µφ αβ αµ βµ
+φ µ φ µφ αβ αµ βµ φ µ
+φαβ αβ αµ βµ
+φ αβ αβ φαβ αβ αµ βµ
+αβ αµ βµ φ µ µφ αβ αµ βµ+ + +−
+>⋅
++− + +−
+− − +− + +
++−
+− ⋅ + +−>
++− + +−
+=
+That is, *x is increasing in µ. 
+For the optimal profit function **(,)pxπ =
+**
+*
+**(1 )
+( ) (1 )xppC
+xxαφµ
+βα µ β−+ −−
+−−, taking the 
+derivative of **(,)pxπ  with respect to β, we 
+have 
+** ** * ** *
+**(,) (,) (,)d px px x px p
+d xpππ π
+β ββ∂∂ ∂∂=++
+∂∂ ∂∂
+
+=== PÁGINA 25 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+102    J Syst Sci Syst Eng   
+**
+*
+2 *2 *()
+( ) (1 )xpp
+xxαφµ
+βαµ β−−+
+−−. Because **(,)px 
+are the extreme points, we have **
+*(,)px
+xπ∂=
+∂
+**
+*(,)0.px
+pπ∂=
+∂And because *
+2*()x
+xαφµ
+βα µ−−+
+−
+* *
+2*10(1 )pn p
+x β β−= >−we have **(,)d px
+dπ
+β=
+*
+*
+2*(()xpxαφµβα µ−−+−* *
+*
+2*1)0
+(1 )pn pp
+x β β−= >
+−. 
+That is, the optimal profit is increasing in β. 
+Similarly, we can obtain that 
+** * *
+2*(,) ( )0()d px p x
+d x−= >−π µ φµ
+α βα µ,**(,)d px
+dπ
+µ=
+**
+2*()0,
+()px
+xαα φ
+βα µ−>
+−** *
+*(,)0.
+()d px p
+d xπµ
+φ βα µ−= <
+− 
+Thus , the optimal profit is increasing in αand 
+µ but decreasing in φ.                  ■ 
+Proof of Proposition 4.  
+When αα≥, from Proposition 1, the optimal 
+free content and price decisions are 
+22
+* 8( )
+2( )xφµ φ µ µφ αβ αµ βµ
+αβ αµ βµ−+ + + −=+−and 
+*
+222( )(
+8( )pφµ αβ αµ βµ
+αµ φµ φ µ µφ αβ αµ βµ+−=− −+ + + −
+22
+*11) = ( 1)xφµ
+αµ−−−, respectively. Thus the 
+optimal profit of the freemium model is 
+*2 2 2 * 3
+*
+* 2 *4(1 )
+(1 ) ( )pxCC
+xxφµπ
+β βα µ−= −= −
+−−. 
+From Section 2.3, we know that  the optimal 
+profit of the charge -for-everything model is 
+2
+* ()()4( )Cpβφπβµ−=−. Therefore, the freemium 
+model makes a higher profit than 
+charge- for-everything model if and only if  2 2 *3 2
+2 *4(1 ) ( )04( ) ()xRC
+xφµ β φ
+βµ βα µ−−= − −>− −. 
+It is clear that R is increasing in C. From 
+the proof of Proposition 3, we know that the optimal profit of the freemium model is increasing in 
+α. Hence R is also increasing 
+in α.   
+The above inequality can be rewritten as  
+*3 2 2
+*
+*4 22(1 ) ( ) ( )() ( )4()xfx C
+xβα µ β φ
+βµ φµ− −−= >+−. 
+Taking the derivative of ()fx  with 
+respective to x, we have ()fx′= 
+23
+53 (1 ) 4(1 )0xx x
+x− − −−< when 01x<≤ . 
+Hence we know that ()fx  is decreasing in x
+in
+ this interval. And because 
+0lim ( )
+xfx
+→= ∞, 
+(1)=0f . According to the mean value theorem, 
+we know that there is a x such that 
+22
+22( )( )() ( )4( )fx Cβα µ β φ
+βµ φµ−−= +−. Hence, we 
+know that 22
+*
+22( )( )() ( )4( )fx Cβα µ β φ
+βµ φµ−−>+−if 
+a
+nd only if  *xx<. That is, the freemium 
+model makes  a higher profit than 
+charge- for-everything model if and only if 
+*xx<.  ■
+Acknowledgments  
+The authors are grateful to the editor and the 
+anonymous referees for their  constructive 
+comments  which significantly improved the 
+study.  This work is supported by t he Key 
+International Collaboration Project of the National Nature Science Foundation of China (No. 71210003, Research on Electronic 
+Business Based on the Users’ Behavior) and the 
+National Natural Science Foundation of  China 
+
+=== PÁGINA 26 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci Syst Eng  103 
+under granted No. 91646115 , 71371191 . 
+References  
+[1] Cabral, L. ( 2011) . Dynamic price 
+competition with network effects. The 
+Review of Economic Studies , 78(1): 
+83-111. 
+[2] Chen, W., Zhang, Z. G.  & Hua, Z. ( 2015 ). 
+Analysis of two -tier public service systems 
+under a government subsidy policy. Computers & Industrial Engineering, 90: 
+146-157. 
+[3] Chen, W., Zhang, Z. G.  & Hua, Z. ( 2016 ). 
+Analysis of price competition in two -tier 
+service systems. Journal of the Operational Research Society, 67(6 ), 897 -910. 
+[4] Cheng, H. K. & Tang, Q. C. (2010 ). Free 
+trial or no free trial: o ptimal software 
+product design with network effects. European Journal of Operational Research , 
+205(2): 437 -447.  
+[5] Cheng, H. K.  & Liu, Y. (2012) . Optimal 
+software free trial strategy: the impact of 
+network externalities and consumer uncertainty . Information Systems Research , 
+23(2):488 -504. 
+[6] Dou, Y ., Niculescu, M. F.  & Wu, D. J. 
+(2013) . Engineering optimal network 
+effects via social media features and seeding in markets for digital goods and services. Information Systems Research , 
+24(1): 164 -185.  
+[7] Guo, P., Lindsey, R. & Zhang, Z. G. ( 2014 ). 
+On the downs -thomson paradox in a 
+self-financing two- tier queuing system.  
+Manufacturing & Service Operations Management , 16(2): 315 -322.  
+[8] Hua. Z, Chen , W. & Zhang , Z. G . (2016 ). Competition and coordination in two -tier 
+public service systems under government fiscal policy. Production and Operations Management , 25(8):1430- 1448.  
+[9] Hsu, C. L.  & Lin, J. C. C. ( 2015 ). What 
+drives purchase intention for paid mobile apps?  – an expectation confirmation model 
+with perceived value. Electronic Com merce Research and Applications , 
+14(1): 46 -57. 
+[10] Jung, J. C., Ugboma, M. A.  & Liow, A. K. 
+(2015) . Does Alib aba's Magic Work 
+Outside China?  Thunderbird Int ernational 
+Business Review, 57(6): 505 -518. 
+[11] Katona, Z., Zubcsek, P. P. & Sarvary, M. 
+(2011) . Network effects and personal 
+influences: the diffusion of an online social 
+network. Journal of Marketing Research, 48(3): 425 -443. 
+[12] Kumar, V . (2014 ). Making  "freemium" 
+work. Harvard Business R eview , 92(5): 
+27-29. 
+[13] Niculescu, M. & Wu, D. J. (2014) . 
+Economics of free under perpetual licensing: implications for the software industry.  Information Systems Research , 
+25(1): 173 -199. 
+[14] Lee, S. Y . T.  & Phang, C. W. D. ( 2015 ). 
+Leveraging social media for electronic commerce in Asia: r esearch areas and 
+opportunities. Electronic Commerce Research and Applications, 14(3): 145 -149. 
+[15] Li, M., Feng, H., Chen, F.  &
+  Kou, J. (2013) . 
+Optimal versioning strategy for information produc ts with behavior -based 
+utility function of heterogeneous customers. Computers & Operations Research, 40(10): 2374 -2386.  
+
+=== PÁGINA 27 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+104    J Syst Sci Syst Eng   
+[16] Lim, N. ( 2003 ). Consumers’ perceived risk: 
+sources versus consequences. Electronic 
+Com merce Research and Applications , 
+2(3):216 -228.  
+[17]  Liu, C. Z., Au, Y . A.  & Choi, H. S. ( 2014) . 
+Effects of freemium strategy in the mobile app market: an empirical study of google play. Journal of Management Information 
+Systems , 31(3): 326 -354. 
+[18] Parker, G. G.  & Van Alstyne, M. W. (2005) . 
+Two-sided network effects: a theory of 
+information product design. Management Science, 51(10): 1494- 1504.  
+[19] Prasad, A., Venkatesh, R.  & Mahajan, V. 
+(2010) . Optimal bundling of technological 
+products with network externality. Management Science, 56(12): 2224- 2236.  
+[20] Semenzin, D., Meulendijks, E.,  Seele, W . 
+& S Brinkkemper . (2012 ). Differentiation 
+in freemium: where does the line lie? 
+software busin ess. International 
+Conference of Software Business,  114: 
+291-296. 
+[21] Seufert, E. B. ( 2013). Freemium 
+Economics: Leveraging Analytics and User 
+Segmentation to Drive Revenue. Elsevier.  
+[22] Shapiro, C. ( 1983 ). Optimal pricing of 
+experience goods. The Bell Journal of Economics : 497-507.  
+[23] Sun, B., Xie, J.  & Cao, H. H. ( 2004) . 
+Product strategy for innovators in markets with network effects. Marketing Science, 
+23(2): 243 -254. 
+[24] Voigt, D. W. I. S.  & Hinz, O. (2015) . 
+Making digital freemium business models a 
+success: predicting customers’ lifetime value via initial purchase information. Business & Information Systems Engineering, 58(2):107 -118. 
+[25] Wagner, T. M., Benlian, A. & Hess, T. 
+(2014) . Converting freemium customers 
+from free to premium -the role of the 
+perceived premium fit in the case of music as a service. Electronic Markets , 
+24(4):259 -268. 
+[26] Wen, Z.  & Wang, J. (2014 ). B2B market 
+formation and welfare implication in a buyer’s market. Journal of Systems Science and Systems Engineering , 23(4): 404 -414.
+ 
+Wuhu
+a Chen  currently is a  lecturer in School of 
+Business, Central South University. He got his Ph.D.  degree  in management science and 
+engineering from University of Science and 
+Technology of China , Hefei, China , in 2016. He 
+visited Beedie School of Business, Simon Fraser University  for one year. His research interests 
+include  healthcare operation s management , 
+business model , revenue management.  His 
+publication s have appeared in Production and 
+Operations Management,  Journal of the 
+Operational Research Society , Computers & 
+Industrial Engineering , etc. 
+Zho
+ngsheng Hua  currently  is a Professor in the 
+School of Management,  Zhejiang University, 
+Hangzhou, China . He received the Ph.D. degree 
+in computer science from the University of 
+Science and Technology of China, Hefei, China , 
+in 20 00. His current  research interests include 
+service science, production  and operations 
+management, and supply chain  management.  
+Prof.  Hua’s publications have appeared in 
+Production and Operations Management,  
+Journal of Operations Management,  Marketing  
+Science,  IIE Transactions , etc.  
+
+=== PÁGINA 28 ===
+Chen et al. : Analysis of Freemium  Model Considering Network E ffect and Consumer Uncertainty 
+J Syst Sci Syst Eng  105 
+Zhe George Zhang  currently  is a professor  in 
+the Department of Dec ision Sciences, College of 
+Business and Economics at Western Washington 
+University,  USA. He is also an adjunct professor 
+in management science at Simon Fraser 
+University,  Canada.  Prof. Zhang  received the 
+Ph.D. degree in o perations research from the 
+University of Waterloo  in 1993 . Professor 
+Zhang's research interests include queueing theory and applications, stochastic dynamic programming, probability models in reliability, and supply chain management issues in manufacturing and service organizations.  His 
+publications have appeared in journals such as Management Science, Operations Research, Manufacturing & Service Operations Management, Interfaces, Production and Operations Management, Queueing Systems,  
+Journal of Applied Probability, IIE Transactions , IEEE Transactions, Naval Research Logistics, etc. 
+Wen
+jie Bi currently  is a Professor in School of 
+Business, Central South University.  He received 
+the Ph.D. degree in  management science and 
+engineering from the Central South U niversity, 
+Changsha , China , in 2008. He visited School of 
+Business, University of Toronto for more than 
+one year.  Prof. Bi’s current  research interests 
+include behavioral decision theory and methods,  
+big data analysis , behavioral operations 
+management  and revenue management. His  
+publications have appeared in International 
+Journal of Production Research, IEEE Transaction on Industrial Informatics, Knowledge -based Systems, Information 
+Economics and P olicy, Journal of Industrial and 
+Management Optimizatio n, etc. 
+

@@ -1,0 +1,877 @@
+=== PÁGINA 1 ===
+Mobile ticketing services in the Northern Europe 
+Critical business model issues 
+ 
+Tatjana Apanasevic, Jan Markendahl 
+Communication Systems (CoS) department 
+ICT School, KTH Royal Institute of Technology 
+Kista, Sweden 
+tatjanaa@kth.se, janmar@kth.se 
+ 
+  
+Abstract —Started as SMS ticketing, today, mobile ticketing 
+services become a platform for combined mobility solutions that integrate mobile ticketing, bike renting, car sharing, and parking payment services. Mobile ticketing services provide a number of benefits for public transport companies and passengers, however, in some Northern European countries, the share of mobile ticket sales does not exceed 10 percent. In this paper, we analyse business models of three types of mobile ticketing services (SMS, 
+in-app, and “Be-In Be-Out” (BIBO )) in order to identify factors 
+that negatively affect wider penetration of mobile ticketing. In order to do so, we use STOF (Service, Technology, Organisation, and Finance) model. The research reveals that there are a number of challenges related to service, technology, and finance domains of mobile ticketing. Due to this, with the help of price 
+policy, many public transport companies push choices of their 
+customers towards use of plastic travel card.  
+Keywords—mobile ticketing; business model; STOF 
+I.  INTRODUCTION  
+Public transport is an important area that is highly affecting 
+everyday life of citizens. Mobile ticketing services contribute 
+to making public transport smarter and have a potential to 
+reach wide scale penetration, since many people use public 
+transport. Mobile ticketing started as premium SMS services 
+for single tickets. With wider smartphone penetration mobile 
+ticketing applications were introduced. The first apps did offer 
+single tickets only and targeted  non-regular public transport 
+passengers having no travel card. Now, the majority of 
+ticketing apps offers almost a full range of available tickets for 
+all types of passengers. Notable trends in mobile ticketing are 
+introduction of “Be-In Be-Out ” (BIBO) seamless ticketing 
+solutions, contactless payments, and combined mobility 
+solutions that integrate mobile ticketing services, bike renting, 
+car sharing, parking, etc. 
+In some Northern Europe countries mobile ticketing 
+solutions became available starting from 2009 and were 
+commonly used by public transport users. In addition, 
+different types of mobile ticketing and payment solutions have 
+been developed and used in these countries. For this reason, it would be interesting to investigate if this successful 
+application of mobile services may have business model challenges. With exception of a study by Juntunen et al. [1], 
+[2] focused on critical business model issues of Near Field 
+Communication (NFC) based mobile  ticketing in Finland, to 
+the authors knowledge, there were no other studies addressing 
+similar questions. We address this research gap and explore 
+obstacles and challenges associated with business model (or 
+critical business model issues) of mobile ticketing services in 
+five Northern European countries (Sweden, Norway, Estonia, 
+Denmark, and Lithuania). This paper addresses the following 
+research question: What are the factors negatively affecting 
+the penetration of mobile ticketing services? In order to 
+answer this research question, we applied the STOF (Service, 
+Technology, Organisation, and Fi nance) model [25], [27] and 
+analysed issues related w ith each of its elements.  
+The major theoretical contributions of this study are (1) 
+application of the STOF framew ork for analysis of existing 
+business models in order to id entify key challenges of mobile 
+ticketing services and (2) extens ion of knowledge about factors 
+that affect the scale of mobile ticketing penetration. In addition, 
+the research findings might be of interest for practitioners by 
+(1) providing generalised data on mobile ticketing service 
+challenges in a number of countries and (2) limitations of 
+existing mobile ticketing services.  
+Next we present a brief overview of related work. This is 
+followed by description of methodology and mobile ticketing 
+services. Then we present findi ngs and perform a comparative 
+analysis. Finally, we discuss the results, research contributions 
+and limitations.  
+II. R
+ELATED WORK 
+A. Mobile Ticketing 
+Academic literature on mobile ticketing can be divided in 
+three major themes: technology, business, and adoption. The 
+majority of studies covering technology aspects of mobile 
+ticketing are proposals of new system architectures [3] , [4], [5], 
+[6], new system prototypes [7], enhanced solutions of security 
+protocols [8] , [9], and comparison of different technologies 
+(Quick Response (QR) code, NF C, and Bluetooth Low Energy 
+(BLE)) used for mobile ticket validation [10].  
+978-1-5386-3197-3/17/$31.00 
+©2017 IEEE 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:37:36 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+A few studies are focused on the problem of mobile 
+ticketing adoption by customers. Factors that influence the 
+adoption of mobile ticketing solu tions are: the use context, 
+increased service performance related usefulness, and mobility 
+that allows time and place independent service access and 
+reduced queuing [11]. Another study [12] examines difference 
+in adoption of mobile access fo r ticketing information inquires 
+and use of QR code for ticket payments and validation at gates. 
+Research on customer demand for mobile ticketing on 
+commuter rail in Boston estimates that about 26% of customers 
+are likely to adopt the service [13]. Researchers [14] propose a 
+theoretical adoption framework specifically tailored to study 
+specific mobile ticketing adoption factors. 
+There are just a few studies on business aspects  of mobile 
+ticketing. A group of researcher s [1], [2] analyse critical 
+business model issues of NFC-ba sed mobile ticketing services 
+in Finland. One study explores  cooperation issues between 
+different parties involved in C ityzi project in Nice [13]. 
+The literature on business models represent a large number 
+of conceptual and empirical papers . This is discussed below.   
+B. Business Model Concept 
+The business model concept became a highly popular topic 
+of the research interest in the past decade. This can be 
+exemplified by the following figures: more than 1000 papers 
+were dedicated to business model since 1995 [16]. One of the 
+factors explaining popularity of this  topic can be related to the 
+boom of e-commerce [17]. Despite a considerable amount of 
+research in the area, currently , there is no commonly accepted 
+definition of business model. As a consequence, numerous 
+definitions and elements of business model have been 
+proposed. This is discussed below.  
+1) Business Model: Definition 
+A review of literature on business models provides various 
+definitions. For example,  business model is a “ narrative 
+device ” that defines context and links parties across the 
+network [18]. According to another definition, business model 
+interrelates elements of strategy, resource allocation, organizational activities, and architecture [17].  
+A number of business model definitions are related to the 
+question of value provided bot h to consumers and market 
+actors. From a wider perspective, a business model can be 
+defined as “a blueprint for the way a business creates and 
+captures value from new services or products” [19]. In a 
+number of theoretical studies, the question of value creation 
+and proposition is considered as one of the most essential 
+questions any business model should address [20], [21], [22]. 
+For example, a business model is a concept depicting how 
+value is created through transactions [20].  
+In summary, a business model describes value creation and 
+delivery aspects. In addition it incorporates elements of 
+corporate strategy, management  of resource allocation, and 
+organizational management.  
+2) Business Model: The Main Components 
+The majority of business model definitions seek to define 
+its structural components. Diffe rent authors [17], [21], [23], 
+[24], [25] emphasise different components of business model. Most of authors agree that important components are (1) a 
+service or a product and its value proposition; (2) target 
+customers; (3) value network of actors that provide this product 
+or service, relationships w ithin the network, and core 
+competencies of actors; (4) fi nancial aspects that include 
+revenue and cost models. Based on extensive literature review, 
+researchers [26] classify three groups of components: strategic, 
+customer and market, and value creation. Each of these 
+components is divided into three models that address different 
+component’s aspects.  
+C.
+ Theoretical Framework 
+For the purpose of this research, we use the STOF model 
+(Fig. 1) [25], [27]. This mode l is specifically adapted for 
+analysis of mobile services that require collaboration of 
+different actors [25]. The STOF model was used in studies on 
+mobile payments [28], mobile ticketing services [1], [2], 
+location based services [29], and eHealth [30]. Below, we 
+discuss this model and its four components (service, 
+technology, organisation, and fina nce domains) in more details. 
+The analysis of the service domain  is focused on the key 
+service aspects: mobile service offering, value proposition or 
+added value services, and the target market segment. Hence, 
+“value” of a service is the central concept. Value can be 
+defined as “the perceived benefits and total costs (or sacrifice) 
+of (obtaining) a product or serv ice for customers in target 
+markets [27]. For mobile ticketing services, mobility “includes 
+time and place independent service access, reduced queuing, 
+and substituting for other services” [11].  
+The technology domain is focused on “the technical 
+functionality requited to realize the service offering” [25]. 
+Functionality is related to technical systems and architectures, 
+applications, devices, service platforms and required 
+infrastructure, service s ecurity, quality, operability, 
+accessibility by customers [2], [25], [27].  
+The main focus of the  organisation domain  is on resources 
+and capabilities of a firm and value network created for service provision. Other important aspe cts are division of roles among 
+business actors, relations between them, resources and 
+capabilities of actors, and value network governance [25], [27]. 
+ 
+Fig. 1.  The STOF business model [27].  
+Finally, the key aspects of the  finance domain  are related to 
+financial arrangements used in a value network [25]. This 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:37:36 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+includes investment decisions, re venue models, division of cost 
+and revenues, and pricing strategies [25], [27]. 
+III. METODOLOGY  
+A. Research Approach 
+In this study, we apply an expl oratory approach in order to 
+identify challenges related to business models of mobile 
+ticketing services. The research is qualitative. Based on used 
+technology, we specified three types of mobile ticketing 
+services: SMS, in-app, and BIBO. Description of these services 
+is generalised using empiric data  from mobile ticketing cases in 
+five Northern European countries. Use of multiple case studies 
+is more beneficial than single case study because it enables 
+cross-case analysis and more accurate generalization of 
+findings [34], [35]. 
+In order to perform multiple case study research, we 
+developed a case study protocol. The aim of this document is to 
+define general rules and procedures of the research [35]. This 
+allowed a unified approach in data collection.  
+B. Data Collection and Analysis 
+The primary data for case studies was collected using in-
+depth semi-structured interviews  with the representatives of 
+companies, which are involved in  provision of mobile ticketing 
+services. First of all, an interv iew protocol with questions for 
+semi-structured interviews was designed. The questions 
+covered the following interview subjects: (1) the background of 
+the interviewee and the company; (2) the history of the mobile 
+payment ticketing service and service characteristics; (3) 
+description of the main partners and their roles; (4) advantages 
+and challenges of the service; and (5) general feedback from 
+the end-users. Contacted interviewees were middle- or top-
+level managers that are directly involved in mobile ticketing 
+service management. Hence, interviewees’ expertise was 
+relevant to provided detailed information. The duration of 
+interviews was between one and two hours. The interviews 
+were recorded and later transcribed.  
+The interviews were implemented in two phases. In 2010-
+2013, the main research focus was on Sweden. During these 
+years, more than 30 interviews were carried out with different 
+types of actors. This includes:  (1) mobile network operators 
+(Telia and Tre); (2) Swedish major regional public transport 
+companies (SL, UL, Östgötat rafiken, Skånetrafiken, 
+Västtrafik); (3) payment processors (Accumulate, Payair, 
+Nets, PayEx, Seamless, WyWallet); (4) a bank (Swedbank); 
+and (5) providers of mobile ticket technology solutions 
+(UnWire, Mobill, and Samtrafiken). These results were 
+reported in [33]. 
+In 2015-2016, the research was broadened to cover other 
+countries than Sweden. More than 20 interviews were 
+conducted. The list of interviewe d actors involved: (1) mobile 
+network operators (in Lithuani a: Bite Lietuva); (2) public 
+transport companies (in Sweden : SL, UL, Östgötatrafiken, 
+Skånetrafiken, Västtrafik, Blekingetrafiken, Länstrafiken 
+Kronaberg, Karlstadbuss; in Norway: Ruter and Skyss; in 
+Denmark: Copenhagen Metro a nd Movia; in Lithuania: 
+Susisiekimo Paslaugos); (3) pa yment processors (in Sweden: PayEx and WyWallet); (4) banks (in Norway: DNB; in 
+Denmark: Danske Bank); (5) providers of ticketing solution for 
+transport companies (in Estoni a: Jiffi and Ridango); and (6) 
+city administration (in Lithuania: Vilnius city administration).  
+We used secondary data in order to understand the 
+background situation in the market. The main used sources are 
+press releases, market analysis reports, websites, and online 
+publications.  
+As mentioned, descriptions of SMS, in-app, and BIBO 
+ticketing services are supported by empiric data from five 
+Northern European countries . When analysing data, the 
+empirical observations were cla ssified using the STOF model. 
+This is, challenges and issues specified in the interviews were 
+classified into issues speci fically related to service, 
+technology, organisation, and fi nance domains. We performed 
+comparative analysis in order to identify similarities and 
+differences across different mobile ticketing services.  
+IV. MOBILE TICKETING SERVICES  
+There are two main strategies for public transportation 
+ticketing and validation: (i) barrier ticketing, where customers 
+have to provide a ticket to someone or something (e.g. bus 
+driver or ticket reader in the subway), and (ii) an open system, 
+where passengers enter the underground, busses, trams, or 
+boats without validating the ticket, but they need to provide a 
+ticket during random ticket control inspections. Below, we 
+present different mobile  ticketing services.  
+A. SMS ticketing service 
+1) Premium SMS based ticketing service 
+In order to describe the business model of SMS ticketing 
+services, we synthesised data based on interviews with public 
+transport companies operating in Sweden (Bleningetrafiken, 
+Karlstadsbuss, Skånetrafiken, SL, UL, Östgötatrafiken, and 
+Västtrafik) and in Copenhagen area and Zealand in Denmark (a 
+common solution used by Copenhagen Metro and Movia, 
+authority regulating bus serv ice and local trains).  
+SMS ticketing was commercially launched by local public 
+transport companies in Sweden and Copenhagen around 2009. 
+In order to get the ticket cust omers need to send a premium 
+SMS with a service code. The service can be used for both pre-
+paid mobile phone accounts and mobile phone subscriptions. 
+Local mobile network operators include payments for SMS 
+tickets in their customers’ mob ile phone subscription bills. The 
+service is simple and highly popular among public transport 
+passengers. The majority of sold SMS tickets are single tickets. 
+For service provision, two type s of actors are needed: SMS 
+aggregators and ticket providers (e.g. Plusdial, UnWire, 
+Mobill, and IPX in different regions of Sweden, and UnWire in 
+Copenhagen) that provide t echnology solution, and mobile 
+network operators that act as payment processors.  
+In Sweden, SMS ticketing was available until February 
+2013. In Copenhagen, the SMS tickets are still available today. 
+2) “New” SMS ticketing service in Sweden 
+In Sweden, the SMS ticketing service was affected by 
+changes in regulation: (1) a licen se became mandatory in order 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:37:36 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+to handle digital payments, and (2) payment service providers 
+were required to know the identity of persons making 
+payments to prevent “money laundry” [34]. In 2010, the 
+Swedish Financial Inspection warned mobile operators either 
+to stop providing payment services  to customers or to become 
+payment providers. In order to address this challenge, mobile 
+payment providers established a joint venture 4T Sweden 
+providing WyWallet, a mobile pa yment service. The mobile 
+operators expected that WyWallet would take over SMS 
+payments. At the same time, new mobile payment solutions 
+were launched in the market by new actors like Accumulate, 
+iZettle, Infospread, Klarna, Pa yair, PayEx, and Seamless. 
+In 2012, the majority of local public transport companies 
+started the procurement for the “new” SMS tickets that would 
+fit new requirements. Any payment provider could submit a 
+tender. In the result, sets of new actors were awarded the 
+contract. In many cases that were  two types of contracts [33]:  
+• One with technology solution providers and these were 
+the same actors (e.g. Plusdial, UnWire, Mobill, and 
+IPX in different regions of Sweden). 
+• Another with payment solu tion providers. In most 
+cases, 4T Sweden was not involved in the procurement 
+process. This way, new payment service providers 
+replaced mobile operators.  
+The major change related to “new” SMS ticketing solutions 
+was a need for customer to register and open an account with 
+payment service providers. Service users accepted this 
+negatively and volumes of SMS ticket sales dramatically 
+decreased. Possible billing options  were monthly invoices or 
+credit/debit card payments. In a few years, the “new” SMS 
+ticketing got a form of mobile a pp. Majority of public transport 
+companies closed this solution during 2016. 
+B. In-app mobile ticketing service  
+Description of in-app mobile ticketing service is 
+generalised based on interviews with public transport 
+companies operating in Sw eden (Bleningetrafiken, 
+Karlstadsbuss, Länstrafiken Kr onaberg, Skånetrafiken, SL, UL, 
+Östgötatrafiken, and Västtrafik ), Norway (Ruter and Skyss), 
+Copenhagen area and Zealand in Denmark (DOT 
+Mobilbilletter, an app for single tickets, short period tickets, 
+and 10-trips cards, and Mobilperiodekort, an app for long 
+period passes, two common solutions used by Copenhagen 
+Metro and Movia), Estonia (Rida ngo), and Lithuania (mTicket 
+app by Susisiekimo Paslaugos).  
+Around 2013–2014 public transport companies started 
+introduction of mobile ticketing apps. First, only single tickets 
+were available in these apps. Currently (by 2017), the majority 
+of apps offer partial or almost full range of period tickets 
+(Karlsradsbuss, Skånetrafiken, UL, Västtrafik, Ruter, Skyss, 
+DOT Mobilbilletter, Mobilperiode kort, and mTicket), while a 
+few companies (Bleningetrafiken, Länstrafiken Kronaberg, 
+Östgötatrafiken, SL, and Ri dango) still provide only single 
+tickets in the app. Available payment options are card 
+payments, invoices (mainly in  Sweden), mobile network 
+operator billing (Norway, Denmark, and Estonia), mobile 
+payment services (Sweden, Norway, and Denmark), and  online payment solution “Bank Link” offered by local banks 
+(Estonia and Lithuania).  
+Majority of mobile ticketing apps are created for Android 
+and iPhone phones. The segment of Windows phone users is 
+very small, and in the majority of cases this group of 
+customers is not considered. 
+Mobile ticketing allows additional services. Route planning 
+and real-time travel information are the most common. Unique 
+additional services are monthly pass renewal reminder 
+(Mobileperiodekort app), digita l ticket sharing (Västtrafik 
+app), and city map (mTicket).  
+The provision of mobile ticketing requires a technical 
+solution integrated with public transport system and payment 
+service provider. In different c ountries different market actors 
+perform a role of payment service provider. This could be 
+payment processors handling invoice, card, and mobile 
+payment service transactions (Sweden, Norway, and 
+Denmark), mobile operators (Norway, Denmark, and Estonia), 
+and banks (Estonia and Lithuania).  
+In closed public transport sy stems (e.g. Sweden), mobile 
+ticket validation requires optical readers. In open public 
+transport system (in Sweden it is only Gothenburg (operated by 
+Västtrafik), Norway, Denmark, Es tonia, and Lithuania) mobile 
+tickets are validated by ticket inspectors during random ticket 
+control, and no service infrastructure is needed.  
+C. BIBO ticketing service 
+Description of BIBO ticketing service is generalised based 
+on interviews with Ruter in Norway and Jiffi in Estonia. This 
+is as innovative approach to ticketing. It represents an 
+automated fare collection system based on BLE beacons and 
+micro-location technology. Th is technology detects when 
+passengers enter and exit the public transit vehicle and 
+seamlessly starts the ticket on the ticketing app, and stops when 
+the customer leaves the bus. Customer billing happens 
+automatically according to the actual use of the public 
+transport.  
+Ruter runs a pilot tests on one of bus lines in Oslo, and Jiffi 
+pilots are running in Tallinn and Tartu. The major advantage of 
+such system is a clear data a bout passenger travels that would 
+help to improve and optimis e route planning. Another 
+advantage is smarter pricing. 
+V. FINDINGS  
+Findings are generalised based on interviews with all 
+interviewees. This is presented below. 
+A. Business Model challenges: SMS and “new” SMS ticketing 
+1) Service domain.  
+Small mobile ticket assortment . SMS tickets were mainly 
+single tickets (in Sweden and in the beginning in Denmark).  
+SMS tickets are not available for foreigners. SMS tickets 
+can only be bought by people having subscription with local mobile operators. People with mobile phone subscription in 
+other countries (e.g. tourists) cannot buy these tickets.  
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:37:36 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+Inconvenient service . The “new” SMS tickets were 
+complicated for users to sign-up and were not convenient to 
+use. 
+2) Technology domain. 
+Service reliability is high, but not 100 percent . Visitors 
+arriving to Copenhagen can buy a Travel Pass or a City Pass 
+before they arrive. However, sometimes the tourists or the 
+delegates of the congress do not get the SMS ticket.  
+Worse travelling statistics . In both open and closed 
+ticketing systems, SMS ticketing solution does not provide 
+travel data as is some cases they are just shown to the driver 
+when entering a bus, to personnel at gates, or to the ticket 
+inspectors. And travelling statistics is important for public 
+transport companies in order to optimise the routes.  
+Ticket security issues . SMS ticket are easy to falsify. In 
+addition, these tickets look different from phone to phone. 
+3) Organisation domain. 
+Change of value network actors . In Sweden, the unified 
+SMS ticketing solution was provided in collaboration with 
+national mobile network operators , which are large, established 
+market actors. After launch of  “new” SMS ticketing, unified 
+solution was replaced by different scattered solutions, and 
+mobile network operators were replaced by small technology 
+companies. This implies weaker  relationships between business 
+parties.  
+However, in all cases, roles of actors are clearly defined. 
+These actors are contracted through procurement process. 
+4) Financial domain. 
+Service cost . The mobile operators’ service fee is 
+considered as quite high (about  15–30%) and SMS tickets are 
+referred as more expensive compared to the mobile app 
+tickets.  
+B. Business Model challenges: In-app ticketing 
+1) Service domain.  
+Small mobile ticket assortment . In the beginning, majority 
+of mobile ticket apps only allowed purchase of single tickets 
+(e.g. SL, Skånetrafiken, Länstrafiken Kronoberg). This is 
+related to a lack of automatic  mobile ticket validation.  
+With installation of mobile tic ket readers, recently updated 
+apps of some companies (Karlstadbuss, Skånetrafiken, and Västtrafik) started offering longer period tickets, for example, 
+24h and 72h tickets, 30- and 90-day. 
+Some groups of customers can be excluded . The SMS 
+ticketing was accessible for people with both smartphones and 
+feature phones. Customers usi ng feature phones cannot buy an 
+app ticket. Majority of companies do not provide apps for 
+Windows phone users due to small share of these phones in the 
+market.  
+Small market share . In Sweden, after not successful 
+experience of “new” SMS ticketing, the share of mobile 
+ticketing remains rather low, for example, 3% of all sales at 
+SL, 5% at Skånetrafiken, 7% at Västtrafik (in 2016). Due to 
+limited payment options, the market share of mTicket in 
+Lithuania is 3%.  Some groups of customers do not want to use mobile app . 
+Customers may not want to use mobile app due to different 
+reasons. They may not want to change or be afraid that the 
+phone will run out of battery. Additionally, in some countries 
+(e.g. Sweden and Norway) travel cards are not personalised 
+and can be shared between several people. These groups of 
+people want to continue using plastic cards.  
+2) Technology domain. 
+Transaction speed.  The speed of payment validation is 
+critical for transportation in large cities where big numbers of 
+people pass through the subway gates. NFC-enabled travel 
+cards can ensure this speed (it is about 400 milliseconds). 
+Payments taking longer time a nd requiring PIN-code entering 
+are not acceptable at gates.  
+Need for infrastructure. 
+In Sweden, most of the apps only 
+offered single tickets, and some still offer single tickets today 
+(e.g. SL, Bleningetrafiken, Ös tgötatrafiken, Länstrafiken 
+Kronaberg). Due to closed ticketing system, an infrastructure 
+for automatic mobile ticket valida tion is needed. It would also 
+provide statistics on customer tr avels. Companies are installing 
+or have plans to install optical  readers in the near future.  
+Worse travelling statistics . In both open and closed 
+ticketing systems, in-app mob ile ticketing solutions do not 
+provide travel data for the same reasons as SMS tickets. As 
+mentioned, installation of mobile ticket readers will improve 
+the situation. Another option is introduction of buses with 
+passengers’ counting systems (Vilnius City  Councilor). 
+Special challenge for a large cit y (only SL issue ). The 
+ticketing system in Stockholm is closed: a ticket is validated at 
+the gates in the underground or showing a ticket to a driver. 
+Ticketing system based on card is a stable offline system. The mobile ticketing system is based on online connection and it 
+requires a system able to validate the tickets online. It is 
+challenging to build a reliable online system, there might be 
+moment when the system will be offline, payments information 
+will not be handled, and this will result in issues validating the 
+tickets at the gates. At this moment, the company cannot 
+handle large numbers of mobile tickets. This issue will be 
+solves when new validation equipment is installed. 
+Security of user accounts . The ticketing system or its part 
+(e.g. user accounts) can be hacked (as happened to Skyss).  
+Discharging phone battery . One of the biggest 
+disadvantages of mobile ticketing is a quickly discharging 
+battery. This is a reason preventing some people from using in-
+app mobile ticketing (19% according to Ruter’s survey). The 
+public transport companies consider that it is the customer 
+responsibility to have charged phone and to be able to show the 
+ticket. However, in order to help their customers, in some cases 
+ticket control inspectors have portable charges, but their 
+experience shows that the phones are charging too slow and 
+this practice is not successful. One way to solve this problem is 
+to have the opportunity to charge phones on-board.  
+3) Organisation domain. 
+There were no challenges identified. Roles of actors are 
+clearly defined. These act ors are contracted through 
+procurement process. 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:37:36 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+4) Financial domain. 
+Service cost . Some respondents (SL, Skyss, Jiffi) specified 
+mobile tickets in the app as having a higher cost. Generalising, 
+the major sources of costs for in app ticketing are: (i) higher 
+percentage of commissions; and (ii) service fees set by 
+payment service providers and/or  technical solution providers. 
+With the help of price policy, most of public transport 
+companies in Sweden direct the customer choice towards use 
+of pre-paid smart cards (e.g . single ticket in Stockholm bought 
+with a card costs 30 SEK, and 43 SEK with mobile app, 
+Blekingetrafiken and Länstrafiken Kronaberg offer 20% and 
+Skånetrafiken offers 10% discount  if buying single tickets with 
+pre-paid card). Similar approach is in Copenhagen (about 40% 
+discount buying 10 trip card using pre-paid card). It is also 
+considered that customers who have loaded money to the card 
+will be returning public transportation customers. 
+Credit card fraud . Credit card fraud is another problem of 
+mobile ticketing. In some cases 3D card security does not work 
+in the app and public transport companies endure financial 
+risks, which can be rather high in the case of longer period 
+tickets (e.g. 90 days or yearly passes). From this perspective, 
+plastic travel cards have better security and no fraud.  
+C. Business Model challenges: BIBO ticketing 
+1) Service domain.  
+Some groups of customers can be excluded . Currently, 
+BIBO systems are in the phase of pilot tests, however, since 
+they are designed for smartphones, customers using feature 
+phones will not be able to use this system.  
+2) Technology domain.  
+Smartphone characteristics . Smartphones are not under 
+control of public transport companies (e.g. NFC used in 
+iPhone’s can only be used through Apple Pay system). This 
+means that new phones may have systems or settings that cause 
+issues to mobile ticketing. He nce, public transport companies 
+prefer means that they can c ontrol themselves (i.e. NFC or 
+RFID (Radio-Frequency Identif ication) travel cards).  
+3) Organisation domain. 
+There were no challenges identified.   
+4) Financial domain. 
+Service cost . This challenge remains relevant.  
+Summing up, analysis of business model of each type of 
+mobile ticketing reveals a number of factors that have a 
+negative effect on wider penetration of these services. In 
+service domain, small assortment of tickets, exclusion of some 
+groups of customers, and as a re sult, small market share, are 
+the major challenges. A lack of travel statistics, need for 
+infrastructure, security issu es, and discharging smartphone 
+battery are the key issues of technology domain. The major 
+challenges of finance domain are higher cost of mobile tickets 
+and credit card fraud. And this leads to more detailed 
+comparative analysis of key challenges across SMS, in-app, 
+and BIBO ticketing services.  VI. COMPARATIVE ANALYSIS  
+The summary of most common challenges related to 
+business model of different m obile ticketing services is 
+provided in Table I. It is possible to notice some similarities: 
+TABLE I.  SUMMARY OF CHALLENGES  
+Domain SMS ticketing In-app ticketing BIBO 
+ticketin g 
+Service - Small ticket 
+assortment 
+- Some groups 
+are excluded 
+- Inconvenient 
+service (SE only) - Small ticket 
+assortment 
+- Some groups are 
+excluded 
+-Small market 
+share 
+- Some do not 
+want to use it - Some groups 
+are excluded 
+Techno-logy - Not 100% 
+reliable 
+- Worse 
+travelling 
+statistics 
+- Security issues - Transaction 
+speed 
+- Need for 
+infrastructure  
+- Worse travelling 
+statistics 
+- Security issues 
+- Discharging 
+phone batter y - Smartphone 
+characteristics  
+- Lack of 
+common BLE 
+standard 
+Organi-sation - Change of 
+actors (SE only) - -  
+Finance - High service 
+cost - Service cost 
+- Credit card fraud  - Service cost 
+ 
+• When comparing service domain  related challenges, 
+each type of mobile ticketing excludes certain groups 
+of customers. Both SMS and some of in-app mobile tickets offer small assortment of tickets.  
+• Similar challenges related to technology domain  are: a 
+lack of travel statistics when using SMS or in-app 
+tickets and some security issues. In-app ticketing 
+causes more challenges to public transport companies 
+in the case of barrier ticketing system because it 
+requires additional investment in infrastructure.  
+• Major finance domain’s  challenges are high service 
+cost.   
+Each type of mobile ticketing has its specific challenges: 
+• Service domain’s  related challenges of “new” SMS 
+ticketing in Sweden is in convenience. In-app tickets 
+have a small market share in Sweden, Estonia, and 
+Lithuania. In addition, some customers do not want to 
+use it because of different reasons. 
+• Regarding technology , SMS tickets are less reliable 
+than in-app tickets. In-app ticketing systems can be 
+hacked. Another important is sue is quickly discharging 
+smartphone battery. BIBO ticketing is challenged by 
+smartphone characteristics and a lack of common 
+standards. 
+• Organisation challenge is identifies in Sweden, where 
+mobile operators are excluded from provision of SMS 
+and mobile ticketing services. 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:37:36 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 7 ===
+• Major finance domain’s  challenges of in-app ticketing 
+are related to card fraud. In the case of expensive yearly 
+tickets this may be a considerable cost for public 
+transport companies.  
+VII. DISCUSSION AND CONCLUSIONS  
+Mobile ticketing services provide a number of advantages 
+to different service stakeholders . Some examples of advantages 
+for public transport companies are reduced amount of cash, convenient ticketing integrated w ith added value services. In 
+the case of open ticketing system, mobile ticketing is much 
+cheaper to maintain since there is no need for infrastructure. 
+For customers, mobile ticketi ng means a fast and convenient 
+way to get a ticket anytime avoiding queues to ticket vending 
+machines.  
+Despite mentioned advantages, the use of mobile ticketing 
+services sets different challenges for public transport 
+companies. We used the STOF model to analyse key business 
+model elements and to reveal the major challenges associated 
+with service, technology, orga nization, and finance, and 
+affecting penetration of mobile ticketing. Based on empiric 
+data, major factors that are preventing wider spread and use of 
+mobile ticketing are related to service, technology, and 
+finance. Organisation domain cau ses less problems, because 
+there are clearly defined roles for actors in each type of mobile 
+ticketing service. These act ors are contracted through 
+procurement process.  
+A. Business model related challenges 
+With exception of Ruter and S kyss in Norway and mobile 
+tickets used in Copenhagen in Denmark, the use of mobile 
+ticketing in other countries does not exceed 10%. Ruter is 
+extremely successful with mobile ticketing in Oslo. The share 
+of mobile tickets is more th an 40%, and it is constantly 
+growing. However, there still ar e customers who do not want to 
+use mobile ticketing due to one or another reason. However, 
+for public transport companies it is important to provide tickets 
+to all types of passengers. This means that different ticketing 
+systems and payment options mu st be offered in parallel. 
+The major source of hesitation for customers is discharging 
+phone battery. Practices to provide passengers with chargers or 
+“power banks” failed, because phones need time to charge. 
+Public transport companies are looking into new transport 
+vehicles providing phone char ging opportunity on-board.  
+From technology point, SMS and in-app ticketing do not 
+provide travel statistics. Differe nt types of ticketing systems 
+(open or barrier) put different challenges. The use of mobile 
+ticketing is more advantageous in open system, while barrier 
+system requires investment in  infrastructure for mobile 
+ticketing. There are technological limits related to security and 
+use of fraudulent payment cards in the apps. Additionally, it is 
+more expensive to issue mobile tickets.  
+There are a few competing technologies used at the same 
+time. Due to challenges related to mobile ticketing, majority of 
+public transport companies prefer their customers to use plastic 
+travel cards. Cards are perceive d cheaper in use, having higher 
+security, no fraud, and providing a better travel statistics. In the case of barrier ticketing system, needed infrastructure already 
+is in place. Customers who have loaded money to the card are 
+considered to be returning public transportation customers. 
+Finally, bank transaction fee is lower when uploading bigger 
+amount of money to pre-paid wallet on the travel card and later 
+using these money for single trips,  than paying a fixed fee from 
+each micro-transaction for single ticket (e.g. about 7–8% from 
+10 or 30 SEK). With the help of price policy, customer choices 
+are directed towards use of plastic cards. Majority of public 
+transport companies offer disc ounts for tickets bought with the 
+travel card. And these are the key issues negatively affecting 
+penetration of mobile ticketing services. Development of new 
+generation mobile ticketing soluti ons (e.g. BIBO) may help to 
+overcome some technology challenges (i.e. lack of travel 
+statistics) and reduce the cost of ticketing service infrastructure, 
+however, a number of service, technology, and finance 
+domains’ issues remain open.  
+Mobile ticketing is one of use cases of mobile payments. 
+The major obstacles negatively affecting spread of mobile 
+payments in developed countri es are associated with: (1) 
+consumer and merchant behavior  that are selecting between 
+numerous payment instruments; (2) a range of competing 
+technologies; (3) the mobile paym ent ecosystem that is stable 
+and slowly changing, banks remain the main actors that handle 
+transactions, and mobile payment services are linked to bank 
+accounts or bank cards of users; and (4) regulation of financial 
+domain sets certain requirements to payment service providers 
+[35]. It is possible to track si milarities in mobile ticketing: 
+public transport customers can  select different payment 
+options: cash, payment card, m obile payment, invoices. There 
+are different competing ticketi ng solutions running in parallel 
+paper tickets, smart travel cards, mobile tickets (sometimes 
+both SMS and in-app). Customer choice between these options 
+might be directed according to  public transport company’s 
+preferences. Mobile payment eco system mainly relies on card 
+payments, and public transport companies face high transaction 
+cost for single tickets. Finally, due to regulation, there can be a 
+change of business network actors.  
+B. Contribution and limitations 
+The results of this study contribute to academic research. 
+We applied the STOF framework in order to analyse existing 
+business models [1], [2]. However, we specifically focused on 
+key challenges. The STOF model allows structured approach in 
+research and analysis of business models. Secondly, the 
+research results extend knowledge about complexity of 
+interrelated factors that affect the penetration scale of mobile 
+ticketing.  
+The study provides important gui delines for practitioners. 
+The most significant research insight is that plastic smart card 
+currently is a more preferred tic keting solution for a majority of 
+public transport companies. This means that existing mobile 
+ticketing services do not fully address all needs of public 
+transport companies. Hence, the results might be useful for 
+mobile ticketing service developers and providers giving the 
+direction how the service could be  improved. At the same time, 
+some challenges (e.g. high transaction cost, lack of unified 
+standards, smartphone characteris tics) cannot be solved locally 
+and require global agreements.  
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:37:36 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 8 ===
+The major limitation of this research is focus on mobile 
+ticketing services in five countries. Widening the scope of 
+research could provide more reliable and generalisable results. 
+That could be the future research direction.  
+REFERENCES  
+[1] A. Juntunen, S. Luukkainen, and V.K. Tuunainen, “Deploying NFC 
+technology for mobile ticketing services – Identification of critical 
+business model issues,” Proc. 9th International Conference on Mobile 
+Business/9th Global Mobility Roundtable, Jun. 2010, pp.82-90. 
+[2] A. Juntunen, V.K. Tuunainen, and S. Luukkainen, “Critical business 
+model issues in deploying NFC technology for mobile services: Case 
+mobile ticketing,” International Journal of E-Services and Mobile 
+Applications, Vol. 4, 2012, pp. 23-41. 
+[3] J.E. Ekberg and S. Tamrakar, “Mass transit ticketing with NFC mobile 
+phones,” Proc. 3rd International Conference on Trusted Systems 
+(INTRUST), Nov. 2011, pp. 48-65. 
+[4] S.L. Ghiron, S. Sposato, C.M. Medaglia, and A. Moroni, “NFC 
+ticketing: A prototype and usability test of an NFC-based virtual 
+ticketing application,” Proc. 1st First International Workshop on Near 
+Field Communication (NFC), Feb. 2009, pp. 45-50.  
+[5] K.H. Lüke, H. Mügge, M. Eisema nn, and A.Telschow, “Integrated 
+Solutions and Services in Public Transport on Mobile Devices,” Proc. 9th 
+Ninth International Conference on Innovative Internet (I2CS), Jun. 2009, 
+pp. 109-122.  
+[6] H. Rodrigues, R. José, A. Coelho, A.  Melro, M.C. Ferreira, J. Falcão e 
+Cunha, M.P. Monteiro, and C. Ribeir o, “MobiPag: Integrated mobile 
+payment, ticketing and couponing solution based on NFC,” Sensors, 
+Vol. 14, 2014, pp. 13389-13415. 
+[7] R. Widmann, S. Grünberger, B. St adlmann, and J. Langer, “System 
+integration of NFC iicketing into an existing public transport 
+infrastructure”, Proc. 4th International Workshop on Near Field 
+Communication (NFC), Mar. 2012,  pp. 13-18. 
+[8] D. Derler, K. Potzmader, J. Wi nter, and K. Dietrich, “Anonymous 
+ticketing for NFC-enabled mobile phones,” Proc. 3rd International 
+Conference on Trusted Systems (INTRUST), Nov. 2011, pp. 48-65. 
+[9] U.B., Ceipidor, C.M. Medaglia, A. Ma rino, M. Morena, S. Sposato, A. 
+Moroni, P. Di Rollo, and M. La Morgia, “Mobile ticketing with NFC 
+management for transport companies. Problems and solutions,” Proc. 5th 
+International Workshop on Near Field Communication (NFC), Feb. 
+2013, pp. 1-6. 
+[10] J. Leal, R. Couto, P.M. Costa, and T. Galvao, “Exploring ticketing 
+approaches using mobile technologies: QR codes, NFC and BLE,” Proc. 
+18th International Conference on Intelligent Transportation Systems 
+(ITSC), Sept. 2015, pp. 7-12. 
+[11] N. Mallat, M. Rossi, V.K. Tuunainen, and A. Öörni, “The impact of use 
+context on mobile service acceptance: The case of mobile ticketing,” 
+Information and Management, Vol. 46, 2009, pp. 190-195.  
+[12] Y.H. Chen and T.Y. Huang, “High speed rail passengers’ mobile 
+ticketing adoption”, Transportation Res earch Part C, Vol. 30, 2013, pp. 
+143-160. 
+[13] C. Brakewood, F. Rojas, J. Rodin, J. Sion, and S. Jordan, “Forecasting 
+mobile ticketing adoption on commuter rail”, Journal of Public 
+Transportation, Vol. 17, 2014, pp. 1-19. 
+[14] L. Di Pietro, R. Guglielmeti Mugion, G. Mattia, M.F. Renzi, and M. 
+Toni, “The integrated model on m obile payment acceptance (IMMPA): 
+An empirical application to public transport”, Transportation Research 
+Part C, Vol. 56, 2015, pp. 463-479.  
+[15] P. Andersson, J. Markendahl, L.G. Mattsson, and C. Rosenqvist, 
+“Cooperation and competition during evolution of technology based 
+service innovation – The case of development of NFC enabled mobile services in Nice,” Proc. 12th International Conference on Mobile 
+Business (ICMB), Jun. 2013. 
+[16] C. Zott, R. Amit, and L. Massa, “The business model: Recent 
+development and future research” Journal of Management, Vol. 37, 
+2011, pp. 1019–1042.  
+[17] M. Morris, M. Schindehutte, and J. Allen, “The entrepreneur’s business 
+model: toward a unified perspective,” Journal of Business Research, 
+Vol. 58, 2005, pp. 726–735.  
+[18] L. Doganova and M. Eyquem-Renault, “What do business models do? 
+Innovation devices in technology entrepreneurship,” Research Policy, 
+Vol. 38, 2009, pp. 1559–1570.  
+[19] M. de Reuver, H. Bouwman, and T. Haaker, “Mobile business models: 
+organizational and financial design issues that matter,” Electronic 
+Markets,  Vol. 19, 2009, pp. 3–13.  
+[20] R. Amit and C. Zott, “Value creation in e-business,” Strategic 
+Management Journal, Vol. 22, Jun.-Jul. 2011, pp. 493–520.  
+[21] H. Chesbrough and R.S. Rosenbloom, “Role of the business model in 
+capturing value from innovation: Evidence from Xerox Corporation's 
+technology spin-off companies,” Industrial and Corporate Change, Vol. 
+11, 2002, pp. 529–555. 
+[22] J. Magretta, “Why business model matter,” Harward Business Review, 
+May 2002, pp. 86-92.  
+[23] A. Osterwalder and Y. Pigneur, Business Model Generation: A 
+Handbook for Visionaries, Game Changers, and Challengers. Wiley: 
+New Jersey, 2010. 
+[24] A. Osterwalder, Y. Pigneur, a nd C.L. Tucci, “Clarifying business 
+models: Originas, present, and future of the concept”, Commnications of 
+the Associatin of Information Sy stems, Vol. 16, 2005, pp. 1-25.  
+[25] T. Haaker, E. Faber, and H. B ouwman, “Balancing customer and 
+network value in business models for mobile services”, International 
+Journal of Mobile Communications, Vol. 4, 2006, pp. 645-661. 
+[26] B.W. Wirts, A. Pistoia, S. Ullrich, and V. Göttel, “Business models: 
+Origin, development and future research perspectives,” Long Range 
+Planning, Vol. 49, 2016, pp. 36-54.  
+[27] H. Bouwman, T. Haaker, and H. De Vos, Mobile service  innovation 
+and business models. New York: Springer, 2008.  
+[28] J. Guo, S. Nikou, and H. Bouwman,  “Analyzing the business model for 
+mobile payment from banks’ perspective: An empiric study,” Proc. 24th 
+European Regional Conference of the International Telecommunication 
+Society, Oct. 2013. 
+[29] S. Ryschka, J. Tonn, K.H. Ha, M. Bick, “Investigating location-based 
+services from a business model perspective”, Proc. 47th Hawaii 
+International Conference on System Science (HICSS), Jan. 2014, pp. 
+1173-1182.  
+[30] R.A. Menko, S. Visser, R. Jansse n, M. Hettinga, and T. Haaker, 
+“Applying STOF business model framework in eHealth innovations”, 
+Proc. 5th International Conference on eHealth, Telemedicine, and Social 
+Medicine (eTELEMED), Mar. 2013, pp. 108-113 
+[31] K.M. Eisenhardt, “Building theories from case study research,” The 
+Academy of Management Review, Vol. 14, 1989, pp. 532–550. 
+[32] R.K. Yin, Case study research: Design and Methods, 4th ed. Thousand 
+Oach, CA: Sage, 2009. 
+[33] J. Markendahl, “Change of market structure for mobile payments 
+services in Sweden – the case of SMS tickets,” Proc. 12th International 
+Conference on Mobile Business (ICMB), Jun. 2013. 
+[34] European commission, “Directive 2007/64/EC of the European 
+Parliament and of the Council on payment services in the internal 
+market,” 2007, http://eur-lex.europa.eu, retrieved 12 March 2014.  
+[35] T. Dahlberg, H. Bouwman, N. Cerp a, and J. Guo, “M-Payment – How 
+disruptive technologies could change the payment ecosystem,” Proc. 
+International Conference on Elect ronic Commerce (ECIS), May 2015. 
+ 
+ 
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 25,2025 at 18:37:36 UTC from IEEE Xplore.  Restrictions apply. 
+

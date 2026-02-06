@@ -1,0 +1,635 @@
+=== PÁGINA 1 ===
+A Pricing Framework for Software-as-a-Service 
+Shiliang Wu 
+School of management science and engineering 
+Nanjing university of finance and economics 
+Nanjing, China 
+Shiliang.wu@163.com Hans Wortmann   Chee-wee Tan 
+Faulty of economics and business  
+University of Groningen 
+Groningen, Netherlands 
+J.C.Wortmann@rug.nl  c.w.tan@rug.nl 
+Abstract —As an emerging business model, software-as-a- 
+service (SaaS) has proliferated over the past decad e and there are 
+signs to suggest that this growth is likely to conti nue or even 
+accelerate in the near future. By hosting single-ver sioned 
+software coupled with supplementary delivery and ma intenance 
+services, SaaS vendors can effectively differentiat e their product 
+offerings from that of traditional on-premise softw are (TOPS). 
+This paper highlights discrepancies in licensing pra ctices between 
+SaaS and TOPS before developing a three-level pricin g 
+framework that presents a complete inventory of lic ensing 
+options for the former. Next, our proposed framewor k is 
+validated based on content analysis of licensing str ategies 
+adopted by 353 SaaS vendors. In doing so, we identi fy trends that 
+permeate licensing strategies in the SaaS market. A s such, our 
+proposed framework not only offers a comprehensive overview of 
+pricing options that are accessible to SaaS vendors , but it also 
+aids SaaS vendors in constructing lucrative softwar e licenses by 
+bringing forth pricing options which may have been neglected 
+otherwise. 
+Keywords—software as a service; pricing framweork; sof tware 
+licence; price discrimination 
+I. I NTRODUCTION 
+Software-as-a-Service (SaaS), “software deployed as  a 
+hosted service and accessed over the Internet,”  is  an emerging 
+business model that is expected to grow rapidly [1] . According 
+to a study by Gartner, the global SaaS market is ex pected to 
+reach 12.1 billion USD by 2014, reflecting a compou nd annual 
+growth rate of 26%. This rapid growth of the SaaS m arket has 
+had considerable influence on the software market [ 2]. 
+SaaS differs from traditional off-the-shelf softwar e in three 
+aspects. First, SaaS is outsourced software, meanin g that both 
+technology infrastructure and management - hardware , 
+software and professional services - are contracted  out to 
+software vendors. Second, SaaS is remotely hosted, meaning 
+that software are deployed as hosted services to be  accessed 
+by clients from remote locations [3]. Third, SaaS i s single 
+versioned, meaning that there is only one version o f software 
+being accessed by every client at any moment in tim e. The 
+multi-tenant architecture of SaaS benefits both cli ents and 
+vendors alike. For clients, the consumption of inno vation is 
+faster as new capabilities are released simultaneou sly with 
+each service upgrade. For vendors, the complexities  and costs 
+associated with managing and maintaining multiple s oftware 
+versions can be eliminated [4], thereby freeing up resources to focus on functionality enhancements and service inn ovations. 
+As an emergent model of software delivery, SaaS pos es a 
+challenge to contemporary licensing practices [4]. While most 
+would assume SaaS licenses to be rather straightfor ward 
+whereby clients are charged through recurring subsc ription 
+fees on a pay-as-you-go basis, it is not so. For Sa aS licenses to 
+be sustainable, software vendors would have to take  into 
+account not only the costs of hosting and maintaini ng the 
+software, but also the costs associated with the pr ovision of 
+supplementary services (e.g., backup and security),  which may 
+not be applicable to each and every client. As the SaaS market 
+continues to gain momentum, the issue of sustainabl e 
+licensing models becomes increasingly pertinent, es pecially 
+when few studies have managed to shed light on the 
+phenomenon [4]. 
+To this end, this article advances a pricing framew ork for 
+software licensing of SaaS that incorporates its un ique 
+contextual characteristics as highlighted earlier. The pricing 
+framework is then applied to the analysis of contem porary 
+licensing practices of 353 SaaS vendors to glean in sights into 
+trends and shortfalls underlying existing licenses.  Findings 
+suggest that while existing SaaS licenses are gener ally value- 
+based and target broad markets, they tend to be sup erficial in 
+the provision of flexible licensing options within a single 
+market. We conclude the article with recommended me asures 
+that can be leveraged by SaaS vendors to improve th e 
+sustainability of their licensing practices. 
+II. S OFTWARE LICENSING : CONCEPT AND CHALLENGES 
+Traditionally, software license refers to an agreem ent 
+granting a licensee the rights to utilize packaged software or 
+components of that software [5]. Software licenses typically 
+cover the procedures that allow a licensee to purch ase, install 
+and utilize software on a machine or network [6]. I n this sense, 
+the revenue model of software vendors comprises thr ee main 
+sources [7]. First, the upfront usage license fee f or the 
+‘perpetual’ right to utilize the licensed version o f the software 
+and this fee could reach upwards of millions of dol lars 
+depending on the nature of the software and number of 
+licensed users. Second, the ongoing maintenance fee  which is 
+usually based on a separate maintenance agreement a nd priced 
+as a percentage of the retail price of the licensed  software [5]. 
+Third, the service fee for one-off or ongoing servi ces such as 
+software installation, customization, integration a nd user 
+training. 
+This work has been supported by the humanities and social science funds 
+from the ministry of education of China under the g rant 11YJC63022 5 and the 
+philosophy and social science funds from Jiangsu pr ovince of China under the 
+grant 2011SJB630023 .
+978-1-4799-4233-6/14/$31.00 ©2014 IEEE 152 Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 19:18:56 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+The advent of SaaS however presents renewed challen ges 
+to contemporary licensing practices. The first chal lenge stems 
+from clients’ expectations for better service quali ty. Revenue 
+sources for SaaS are different from those of on-pre mise 
+software in that the ‘perpetual’ usage license fee is no longer 
+applicable and clients are charged for only what th ey have 
+utilized, usually on a periodic basis. Additionally , 
+maintenance revenues disappear as well because main tenance 
+activities are now primarily the responsibilities o f SaaS 
+vendors. Loss of revenue from up-front and maintena nce 
+payments therefore place greater financial pressure  on SaaS 
+vendors to secure a constant source of revenue. Yet , given the 
+nature of SaaS as remotely hosted software services , switching 
+is neither expensive nor tedious for clients [8]. T o survive and 
+thrive, SaaS vendors are hence compelled to steadil y improve 
+service quality and price it accordingly in order t o retain a 
+sizeable pool of clients and achieve economies of s cale. 
+The second challenge comes from the diversity of Sa aS 
+clients, among which small and medium enterprises h ave been 
+the most aggressive adopters. Likewise, large corpo rations are 
+equally attracted to the idea of acquiring software  services on 
+demand [9]. Moreover, diversities are also found in  the 
+industries within which SaaS clients are situated. Such 
+diversity translates to conflicting functional requ irements and 
+the need for SaaS vendors to tailor licenses to mat ch these 
+firm-specific requirements. 
+The third challenge resides in clients’ varied usag e of 
+software services. Whereas some clients may exhibit  low- 
+breadth but high-depth usage (i.e., low frequency o f service 
+usage but complicated software modules required), o thers may 
+register the opposite usage pattern (i.e., high fre quency of 
+service usage but simple software modules required)  or 
+demand access to required services at odd times or from 
+obscure locations. Conceivably, SaaS licenses shoul d consist of pricing options that cater to volatility resulti ng from the 
+diversified usage patterns of clients. 
+III. F RAMING SOFTWARE LICENSING FOR SAAS 
+Nowadays, a SaaS vendor typically charges his clien ts who 
+subscribe hosted services a recurring usage fee [3] . From 
+clients’ perspective, such software licenses are gr eatly 
+simplified for the fact that they only pay for thei r use of the 
+subscribed software. Conversely, from SaaS vendors’  
+perspective, the creation of sustainable software l icenses 
+remains a pertinent and yet elusive goal in the nea r term.  
+For SaaS vendors, the most pertinent factors that i nfluence 
+pricing include initial cost, lease period, quality  of service 
+(QoS), age of resources and cost of maintenance [10 ]. In 
+practice, SaaS vendors utilize many pricing options  and 
+approaches. For example, a typical pricing approach  is to pay 
+once for limitless usage, which is rigid and does n ot consider 
+many other factors that affect pricing, such as pri ce fairness. 
+Many SaaS vendors employ “pay-per-use fixed pricing ,” 
+which charges clients according to their overall re source 
+consumption. Pay for resource is another approach, in which 
+clients are charged according to the storage or ban dwidth size 
+required. Pay for functionality is another pricing approach, in 
+which clients subscribe for a fixed price per unit or module for 
+a long periods of time.  
+Though prior categorization of pricing options for SaaS 
+licenses does not exist in extant literature, Lehma nn and 
+Buxmann’s multi-dimensional pricing framework [4] f or off- 
+the-shelf software licenses is relatively comprehen sive in its 
+coverage. We therefore adapt and extend Lehmann and  
+Buxmann’s framework [4] to SaaS by advancing a thre e- 
+layered, multi-dimensional pricing framework for Sa aS 
+licenses as illustrated in Table 1. 
+TABLE I. A  THREE -LEVEL FRAMEWORK FOR SAA S LICENSING 
+Level 1:  
+Orientation Level 2: 
+Category Level 3: Pricing Component 
+Value-based Payment- 
+based Payment Frequency based. Does pricing refer to mult iple frequency of recurring payment (e.g., monthly,  annual, etc.)? 
+Bulk Payment Discount. Does pricing refer to discou nt depending on payment frequency? 
+Product-based Function based. Does pricing refer to  different functionality configurations? 
+Bundling. Does pricing refer to different bundle op tions of components? 
+Organization/Region based. Does pricing refer to di fferent types of organizations or regions? 
+Usage- 
+dependent 
+based Transaction based. Does pricing refer to certain nu mber of transactions processed by software?  
+Time based. Does pricing refer to time (e.g., minut es) of accessing SaaS application?  
+Performance based. Does pricing refer to business p erformance metrics reflecting software usage intens ity (e.g., 
+number of rooms managed in a hotel management servi ce)? 
+Memory/Bandwidth based. Does pricing refer to units  of memory (e.g., GB) or bandwidth (e.g., Kpbs) req uired? 
+Cost-based Usage- 
+independent 
+based Role based. Does pricing refer to a set of pre-defi ned roles (e.g., authoring user or viewing user in a document 
+management application)? 
+User based. Does pricing refer to certain number of  users (e.g., named or concurrent users)? 
+Location based. Does pricing refer to certain locat ion (e.g., particular computers, computer networks,  or other physical 
+devices)? 
+Service-based Helpdesk. Does pricing refer to certa in level of helpdesk support? 
+Backup. Does pricing refer to backup service (e.g. client's data backup)? 
+Security. Does pricing refer to security service (e .g., data encryption)? 
+Setup/Training. Does pricing refer to certain level  of setup/training support? 
+Configuration/Integration. Does pricing refer to ap plication configuration, or customization, or integ ration support? 
+Layer 1 of our pricing framework consists of two ty pes of 
+pricing orientations, namely cost-based and value-b ased. Cost- based pricing implies that price levels of SaaS lic enses are 
+defined through cost accounting [4]: price level eq uals the cost 
+153 Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 19:18:56 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+of delivering software services plus a predetermine d profit 
+margin. Cost-based pricing makes sense for SaaS bec ause the 
+remote hosting of software services culminates in s ignificant 
+variable costs for vendors [4]. As such, cost-based  pricing is 
+dictated by SaaS vendors rather than clients. Conve rsely, 
+value-based pricing of SaaS licenses means that pri ce levels 
+are determined through clients’ assessment of the b usiness 
+value to be extracted from such software services. Value- 
+based pricing is thus in sharp contrast to cost-bas ed pricing in 
+that it is dictated by clients rather than SaaS ven dors. 
+Level 2 comprises five pricing categories, each con sisting 
+of a series of pricing components. Each category is  explained 
+as follows. 
+Payment-based. Monthly subscription fees are the mo st 
+popular pricing model nowadays [11]. To alleviate f inancial 
+pressure, software vendors encourage clients to pre pay their 
+subscriptions. Sometimes software vendors offer som e degree 
+of discount for those bulk payment clients. Payment -based 
+pricing benefits clients by granting them more paym ent 
+freedom. 
+Product-based. Software vendors charge clients base d on 
+product-related considerations. For instance, a ven dor may 
+offer different pricing plans for an application ac cording to 
+certain product-related criteria (e.g., different c ombinations of 
+functionality) and charge clients differently accor ding to the 
+pricing plan selected by clients. Sometimes, vendor s may 
+reconstruct software services into different subgro ups (i.e., 
+sub-products) and each is sold separately or severa l subgroups 
+are bundled up to target niche markets. We ascribe product- 
+based category to value-based orientation because i t is the 
+clients who have freedom to choose from the pricing  plans or 
+bundle solutions offered by SaaS vendors thus affec ting 
+revenues SaaS vendors would receive. 
+Usage-based. In this category, software vendors cha rge 
+clients for what they use, typically relating to pe ak or near- 
+peak levels of usage [4]. Price can be tied to eith er usage- 
+dependent metrics which reflect the usage intensity  of 
+software services, such as transaction quantities p erformed, 
+memory size used, etc., or usage-independent metric s which 
+has no obvious relation with usage intensity, such as number 
+of users (either named or concurrent users), number  of roles, 
+etc. Here we differentiate usage-dependent based ca tegory 
+from usage-independent based one, and ascribe usage -
+dependent based category to value-based orientation , and 
+usage-independent based category to cost-based orie ntation, 
+respectively. The pricing components within usage- 
+independent based category would tend to benefit Sa aS 
+vendors by maximizing licensing fee revenues; meanw hile, 
+since usage intensity of software service is not co nsidered, 
+clients might have to pay for service that may not be used 
+sufficiently to justify the cost. By contrast, pric ing 
+components within usage-dependent based category te nd to 
+benefit clients by maximizing their business values ; clients 
+pay only for what they use, which directly determin es the 
+revenues that software vendors receive. 
+Service-based. In SaaS, some routine services in tr aditional 
+licensing model still exist, such as helpdesk suppo rt, software 
+setup & training, software configuration and integr ation, etc. [12]; while others such as backup and security, whi ch were 
+once regarded as being part of clients’ responsibil ities, are 
+offered as purchasable services from SaaS vendors. We 
+ascribe service-based category to cost-based orient ation 
+because SaaS vendors could dominate pricing level o f such 
+services. 
+IV. M ETHODOLOGY 
+To gain insights into pricing strategies of SaaS ve ndors, 
+we conducted content analysis to investigate the so ftware 
+licensing practices for SaaS. The pricing data sour ce is 
+obtained through our examination of each SaaS vendo r's 
+website according to the vendor list provided by th e New 
+Cloud Computing Showplace website (http://www.saas-
+showplace.com). Based on our knowledge, we tend to believe 
+the SaaS vendor list presented by the prior website  is the most 
+comprehensive one. Besides, this website is regarde d as the 
+vendor-independent, resource center of industrial b est 
+practices in SaaS market. It hence provides us with  the 
+confidence with regards to the reliable and validit y of our 
+content analysis. 
+The data collection work was done on September 1, 2 012, 
+by then there were 1457 records in the SaaS vendor list 
+records. We further excluded redundant records. The n we 
+excluded records with being most likely invalid web site 
+linkages for SaaS vendors that we tried to access t hese 
+linkages several times at different time and each t ime we 
+failed. Finally, we excluded records in which vendo rs did not 
+present detailed price plans. We were eventually le ft with 353 
+data points in our final sample. Table 2 presents t he 
+descriptive statistics for this sample, which is or ganized from 
+three aspects, i.e., age of vendors, country of ven dors,  and 
+industry types, respectively.  
+TABLE II. D ESCRIPTIVE STATISTICS FOR SAA S VENDOR SAMPLE 
+Variable Item % Item % 
+Age of 
+vendors <10 65 21-30 3 
+11-20 30 >30 2 
+Country of 
+vendors 
+(No. of 
+countries: 26) USA 63.2 India 2.8 
+Canada 7.1 New Zealand 2.0 
+UK 6.8 Ireland 1.7 
+Australia 5.4 Others 11 
+Application 
+Types 
+(No. of 
+application 
+types: 45) CRM 8.8 BPM 4.6 
+Collaboration 8.5 Productivity 3.6 
+Project 
+Management 6.2 Content 
+Management 3.3 
+Marketing 5.3 Business 
+Intelligence 2.9 
+Accounting/ 
+Financial 4.9 IT/Application 
+Management 2.8 
+Document 
+Management 4.9 Others 44.2 
+Industry 
+Types 
+(No. of 
+industry 
+types: 32) Professional 
+Services 9.8 Entertainment/ 
+Media 4.7 
+Technology 9.7 Legal 4.5 
+Software 9.2 Manufacturing 4.3 
+Banking/Fina 
+ncial Services 7.3 Education 4.0 
+Healthcare 5.8 Non-Profit 3.4 
+Government 4.8 Others` 32.5 
+154 Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 19:18:56 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+We used pricing components at level 3 in Table 1 to  
+collect pricing data by examining each vendor's web site from 
+the sample. For each vendor, each pricing component  was 
+assigned either zero or one depending on whether it  was 
+reflected in the vendor’s pricing plan or not. For example, if 
+different configurations of SaaS software are price d 
+differently, then the function-based pricing compon ent will be 
+assigned a one; otherwise, a zero will be assigned.  Once the 
+price assignment was completed for every vendor fro m the 
+sample, we performed cluster analyses on these pric ing data in 
+order to gain insights into the SaaS licensing prac tice. Our 
+cluster analyses were divided into three steps. Ste p 1 was 
+aimed at level 1, during which the number and perce ntage 
+composition of clusters were calculated and then br eakdowns 
+of cost-based vs. value-based orientations within e ach cluster 
+were performed. Step 2 and Step 3 were aimed at lev el 2 and 
+level 3 respectively and similar operations were pe rformed as 
+in Step 1, except that the breakdowns in Step 2 wer e based on 
+combinatory of pricing categories (i.e., category p airs) 
+whereas the breakdowns in Step 3 were based on comb inatory 
+of pricing components (i.e., component pairs) withi n each 
+category. 
+V. R ESULTS 
+A. Level 1 
+We got three clusters of SaaS vendors at this level . Fig. 1 
+presents the percentage compositions of clusters. 
+Fig. 1. Percentage compositions of clusters at Level  1 
+Fig. 2 presents the occurrence percentage of value- based 
+vs. cost-based pricing components within each clust er. 
+Fig. 2. Occurrences of value-based vs. cost-based co mponents 
+The largest cluster (C1) makes up 57% of our sample . It 
+represents the percentage of vendors that shows no preference 
+for value-based vs. cost-based orientation; meanwhi le, they 
+consider only a few pricing components from either of the two orientations in software pricing. Further statistic  showed that 
+in C1 63% vendors considered no more than two compo nents 
+and 91% vendors considered no more than three. We c onclude 
+that most SaaS vendors prefer compact licensing mod els 
+because only a small number of pricing components a re 
+utilized in their pricing practices. 
+Cluster two (C2) makes up 28% of our sample. In thi s 
+cluster 80% of the vendors used more than 1/3 value -based 
+pricing components and no more than 1/4 cost-based pricing 
+components in software licensing. This result sugge sts that 
+vendors in C2 attach more importance on value-based  rather 
+than cost-based orientation, i.e., they prefer usin g value-based 
+to cost-based pricing components in their software pricing 
+practices. 
+Cluster three (C3) makes up 15% of our sample. 87% 
+vendors in C3 considered more than 3/8 cost-based 
+components and no more than 1/3 value-based compone nts in 
+software licensing, which suggests that vendors in C3 attach 
+more importance on cost-based rather than value-bas ed 
+orientation, i.e., they prefer using cost-based to value-based 
+pricing components in their software pricing practi ces. 
+B. Level 2 
+We got three clusters of SaaS vendors at this level . Fig. 3 
+presents the percentage compositions of clusters. 
+Fig. 3. Percentage compositions of clusters at Level  2 
+Fig. 4 presents the occurrence percentages of prici ng 
+categories within each cluster. 
+Fig. 4.  Occurrences of categories within clusters 
+Cluster one (C1) that makes up 47% of the sample 
+represent vendors that attached more importance on pricing 
+components from the payment-based and usage-indepen dent 
+based categories than those from other level two ca tegories in 
+software pricing. 55% of the vendors in C1 offered only one 
+type of payment frequency, 41% offered multiple pay ment 
+frequencies and bulk payment discount simultaneousl y, and 
+155 Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 19:18:56 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+70% offered one usage-independent based component i n 
+software pricing. These results indicate that in ge neral, 
+vendors in C1 may prefer simple pricing methods, wh ich is 
+consistent with our findings at level one. It shoul d be noted 
+that a large number of the vendors are also likely to offer 
+flexible payment options and bulk payment discount 
+incentives because the inclusion of usage-independe nt based 
+components generally does not incur extra workload.
+Vendors in Cluster two (C2) that make up 33% of the  
+sample attach more importance on pricing components  from 
+the usage-dependent based category than those from other 
+level 2 categories in software pricing. 97% vendors  in C2 
+offered at least one component from the usage-depen dent 
+based category in software pricing. If only conside ring the 
+categories except the usage-dependent based one, we  find that 
+more than 90% vendors in C2 offered no more than on e 
+component from each of these categories. 
+Vendors in Cluster three (C3) that makes up 20% of the 
+sample attach more importance on pricing components  from 
+the service-based category than those from others. 91% 
+vendors in C3 used two to three pricing components from the 
+service-based category in software pricing; convers ely, more 
+than 77% vendors used zero or one pricing component  from 
+categories other than those from the payment-based category. 
+66% of the vendors offered only a single payment fr equency. 
+Vendors in C3 tend to adopt pricing components from  the 
+various categories hence indicating their preferenc e for 
+complex software license. 
+C. Level 3 
+The findings within each category are summarized as  
+follows. 
+Payment-based . Our statistics indicated that 67.2% of the 
+vendors used single payment frequency, while 30% us ed 
+multiple payment frequency options and complementar y bulk 
+payment discount incentive. The remaining 2.8% of t he 
+vendors used only multiple payment frequency option s. 
+Product-based . In our analysis three clusters emerged in 
+this category. 51% of the sample fall into cluster one (C1), 
+with 38% in cluster two (C2) and 11% in cluster thr ee (C3). 
+For C1, the adoption of each specific pricing compo nent 
+remains below 10%. This could indicate that the ven dors in C1 
+do not seem to attach much emphasis on the product- based 
+pricing components. By contrast, vendors in C2 seem  to prefer 
+the function-based pricing component. In this clust er, 100% of 
+the vendors adopted the function-based pricing comp onent 
+compared to a less than 12% adoption rate of the ot her pricing 
+components. Vendors in C3 seem to prefer the bundle -based 
+pricing component as shown by a 100% adoption rate by 
+vendors as compared to a less than 10% adoption rat e of other 
+pricing components. 
+Usage-dependent based . There are two clusters that 
+emerged in this category. Vendors from cluster one,  which 
+make up 75% in the sample, prefer the memory/bandwi dth 
+based pricing component that has a 38% adoption rat e as 
+compared to a less than 14% adoption rate in the ot her pricing 
+components. By contrast, vendors from cluster two p refer both transaction-based and performance-based pricing com ponents 
+at 43% and 68% adoption rates respectively. Unsurpr isingly 
+the other pricing components have only garnered a l ess than 
+14% adoption rate among the vendors in this cluster . 
+Usage-independent based . Similar to the previous section, 
+there are two clusters that emerged in this categor y. Vendors 
+from cluster one, making up 67% of our sample, pref er the 
+user-based pricing component in software pricing. T he 
+adoption rate of other pricing components remains a t only 7% 
+for the vendors in this cluster. For vendors in clu ster two, the 
+adoption rate of all pricing components in this Usa ge- 
+independent based category is also rather low at a rate of less 
+at 7%. 
+Service-based . There are three clusters in this category. 
+Vendors from cluster one consisting of 69% of our s ample, do 
+not seem to prefer pricing components in this categ ory with a 
+adoption rate of less than 12%. Vendors from cluste r two 
+making up 22% of our sample prefer the helpdesk-bas ed 
+pricing component with a 100% adoption rate as comp ared to 
+an adoption rate of only 26% of the other pricing c omponents. 
+The remaining 9% of the vendors make up cluster thr ee. These 
+vendors prefer both setup-based and configuration/i ntegration- 
+based pricing components with a adoption rate of 97 % 
+respectively as compared to an adoption rate of les s than 42% 
+for other pricing components. 
+VI. D ISCUSSION 
+Our analysis on SaaS vendors' pricing practices pro vides 
+some insights into SaaS licensing which are summari zed 
+below. 
+First, results demonstrate that on the one hand Saa S 
+vendors seem to prefer value-based to cost-based or ientation 
+in software pricing. Value is what clients really w ant to pay 
+for. For SaaS vendors, the focus on value-based ori entation in 
+software pricing will help them in securing sustain able 
+revenue through the offering of high quality SaaS s oftware. 
+On the other hand, our analysis at level 1 also sho ws that 
+majority of SaaS vendors nowadays seem to adopt com pact 
+pricing strategies within which only a few pricing components 
+are referred, which may indicate the simplification  of pricing- 
+related communications between SaaS vendors and cli ents. 
+However, compact pricing strategies may jeopardize SaaS 
+vendor’ profits from clients from niche market beca use it is 
+often difficult to cover a broader markets. 
+Second, SaaS vendors tend to target broad markets t o gain 
+economy of scale. In SaaS, the deployment of a sing le version 
+of software serving various clients with diversifie d 
+requirements eliminates vendors' revenue sources fr om the 
+provision of software maintenance. The recurring su bscription 
+fees from clients substitute vendors' revenue from the 
+traditional up-front payments. To survive and thriv e, vendors 
+are supposed to expand clients base continuously in  order to 
+leverage on economy of scale. Adopting pricing comp onents 
+from different categories could help in accommodati ng diverse 
+client preferences. Accordingly, some SaaS vendors included 
+pricing components from different categories in the ir pricing 
+strategies might demonstrate their endeavor to coll ect extra 
+revenue by targeting clients with customized requir ements. 
+156 Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 19:18:56 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+However, adopting more components in software prici ng will 
+result in complicated pricing solutions, which are often 
+translated to high overheads at the vendors' side, such as extra 
+cost for customer care support. 
+Third, single versioned SaaS software is shared by all 
+clients, which indicates same software will be used  in various 
+ways. One classification of the usage of software s ervices 
+comprises two dimensions. One is usage breadth, whi ch 
+indicates the quantity aspect of using software ser vices (or 
+functional points, or modules). The other is usage depth, 
+which indicates the intensity aspect of using softw are services. 
+In order to meet software licensing challenge from varied 
+usages of clients, usage-based pricing strategies c ould be 
+attached greater importance by SaaS vendors. Our an alysis at 
+level 2 suggests that usage-based pricing strategie s were 
+popular among SaaS vendors because usage-based metr ics 
+reflect both vendors' costs to deliver services and  clients' costs 
+to consume services. The results suggest that usage -
+independent based pricing components were used by a bout 
+half of SaaS vendors while usage-dependent based pr icing 
+components were used by one-third of SaaS vendors i n 
+software pricing. Further statistics indicated that  when usage- 
+independent based components were adopted, vendors usually 
+complement them with discount options for pre-pay o r bulk- 
+pay subscribers. By contrast, when usage-dependent based 
+components were adopted, vendors seldom offered pay ment- 
+based discounts because the usage of software servi ces must 
+be measured and billing price aligned with how the clients 
+perceive value. Because the actual usage cannot be determined 
+in advance, it is natural for SaaS vendors to charg e the client 
+only for what he uses and not what he thinks he wil l use. 
+VII. C ONCLUSION 
+As an emerging business model, SaaS is attracting m ore 
+and more attention from both the software industry and the 
+academia. Compared to traditional on-premise softwa re, SaaS 
+has its unique characteristics that give rise to so ftware 
+licensing challenges that SaaS vendors have to face  up with, 
+among which, the higher demand for software service  quality 
+and the varied usage of the software services. Our 
+investigation showed that software licensing for Sa aS is much 
+more complex than initially assumed. 
+Our work indicates that the licensing practices fro m 
+current SaaS vendors mainly focus on value-based or ientation 
+to deliver more value to clients, targeting at broa d markets to 
+leverage economy of scale, and charging clients for  what they 
+use by fine-tuning usage-based pricing constructs, etc. Our 
+study indicates that SaaS vendors would adopt prici ng 
+components from different categories in software li censing, 
+which reflects their intentions to increase revenue s by 
+expanding client base. We argue this strategy is no t 
+sustainable for SaaS vendors in the long run becaus e it may 
+cause neglect to the importance of the alignment be tween 
+license and client's value. We suggest that it is v ital for SaaS 
+vendors to target at specialized markets in softwar e licensing. 
+Compared to the generalized market orientation, spe cialized market orientation implies that the usage variation s among 
+clients are less and the accumulation of expertise becomes 
+relatively easy to achieve. This benefits vendors b y supporting 
+them to improve the quality of software services an d create 
+and deliver value-added client service. Also, speci alized 
+market orientation benefits SaaS vendors with extra  revenues 
+by allowing them to fine-tune licensing models towa rds varied 
+usages of software services. 
+Our research has both research and practice implica tions. 
+In terms of research, we advanced a novel pricing f ramework 
+that presents a complete landscape of software lice nsing for 
+SaaS. This study also highlighted discrepancies in licensing 
+practices between SaaS and traditional on-premise s oftware 
+(e.g., versioning irrelevant), which provides the b asis for 
+further exploration of license pricing strategy for  SaaS. In 
+terms of practice, this study presented software ve ndors with 
+state-of-the-art knowledge of the licensing practic es for SaaS. 
+Meanwhile, the pricing framework provides a compreh ensive 
+categorization of pricing components that can be le veraged by 
+SaaS vendors in constructing software licenses. Thi s 
+framework should also facilitate the identification  and 
+consideration of previously overlooked pricing comp onents 
+can then be incorporated into contemporary licenses  for SaaS 
+vendors. 
+REFERENCES 
+[1] V. Choudhary, “Comparison of software quality un der perpetual 
+licensing and software as a service,” Journal of Ma nagement 
+Information Systems, vol. 24, pp. 141-165, 2007. 
+[2] S. Lee, S. H. Chae and K. M. Cho, “Drivers and i nhibitors of SaaS 
+adoption in Korea,” International Journal of Inform ation Management, 
+vol. 33, pp. 429-440, 2013. 
+[3] M. Campbell-Kelly, “Historical Reflections: The rise, fall, and 
+resurrection of software as a service,” Comm. ACM, vol. 52, 5, pp. 28- 
+30, 2009. 
+[4] S. Lehmann and P. Buxmann, “Pricing strategies o f software vendors,” 
+Business & Information Systems Engineering, vol. 6 pp. 452-461, 2009.  
+[5] A. M. Konary, S. Graham and L. A. Seymour, “The future of software 
+licensing: software licensing under siege,” Interna tional Data 
+Corporation, Framingham, MA, March 2004. 
+[6] D. Ferrante, “Software licensing models: what's out there?” IT 
+Professional, vol. 8,6, pp. 24-29, 2006. 
+[7] M.A. Cusumano, “The changing labyrinth of softwa re pricing,”. Comm. 
+ACM, vol. 50, 7, pp. 19-22, 2007. 
+[8] M. A. Cusumano, “Cloud Computing and SaaS as New  Computing 
+Platforms,”  Comm. ACM, vol. 53, 4, pp. 27-29, 2010 . 
+[9] M. Dan and A. Seidmann, “The pricing strategy an alysis for the 
+"software-as-a-service" business model,” Grid Econo mics and Business 
+Models, vol. 52, 6 pp. 103-112, 2008. 
+[10] M. Al-Roomi, S. A1-Ebrhim, S. Buqrais and I. Ah mad. “Cloud 
+computing pricing models: a survey,” International Journal of Grid and 
+Distributed Computing, vol. 6, 5, pp. 93-106, 2013.
+[11] M. A. Cusumano, “The changing software business : moving from 
+products to services,” Computer, vol. 41,1, pp. 20- 27, 2008. 
+[12] P. Louridas, “Up in the air: moving your applic ations to the cloud,” 
+IEEE Software, vol. 27,4, pp. 6-11, 2010. 
+157 Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 19:18:56 UTC from IEEE Xplore.  Restrictions apply. 
+

@@ -1,0 +1,687 @@
+=== PÁGINA 1 ===
+ORIGINAL RESEARCH
+Development of service-dominant business model for CAE
+software industry in Greater China: a case study
+Cheng-Yu Hsu1•C. K. Kwong2•Venny Yang3
+Received: 12 March 2020 / Accepted: 15 April 2021 / Published online: 23 May 2021
+/C211Bharati Vidyapeeth’s Institute of Computer Applications and Management 2021
+Abstract A number of service models have been inno-
+vated in the software industry so as to meet customers’
+special demands and preferences. In order to develop aservice-dominant business model, this project researches
+the existing molding simulation software, analyses the
+chosen market and industrial users, deﬁnes technicalrequirements, and then categorizes those demands into
+different priority levels. Although molding simulation
+providers have implemented public cloud services in dif-ferent ways, cloud-based users are not satisﬁed with the
+available services provided. Signiﬁcantly, the research
+ﬁnding shows that tool builders are not willing to adoptpublic cloud services for molding simulation when there is
+a concern about design information protection. To address
+this concern and meet the overall demand for simulationrequirements, this project develops a service-dominant
+business model which involves how to integrate signiﬁcant
+software features and hardware criteria, how to measureservice quality, and what business risks might take place.
+The proposed service model is developed according to theadvice offered by people interviewed, and therefore it is
+possible to be commercialized.
+Keywords Molding simulation /C1Cloud computing /C1
+Service design and delivery /C1Voice of customer /C1Voice of
+engineering /C1Service measurement
+1 Introduction
+Pessoˆa and Trabasso [ 1] have pointed out that the product
+development process deals with problem-solving and
+knowledge-accumulation, and it brings more difﬁcultiesand costs to tackle a problem that occurred at the last stage
+than those in early development stages. Scholars have
+proposed that at early design stages, design for manufac-turing, DMF, can be conducted to evaluate manufactura-
+bility [ 2]. The concept of the DFM generally means that
+designers are better to adjust designs to minimize manu-facturing difﬁculties and costs [ 3]. Wesson Lian revealed
+that the DFM concept has been introduced since 2003
+particularly in cosmetic and structural injected parts (W.Lian, Senior Director, Suzhou Nano Precision, personal
+communication, January 15, 2017). Lena Li explained that
+although a DMF report was not required by all customers,
+it was mostly a request made by foreign customers before
+detailed designs (L. Li, Molding Simulation Supervisor,Coxon, personal communication, January 15, 2017). In
+addition, she revealed that a DFM with molding simulation
+results needed to be available. When the outcome of tooltrials was not successful, it was normally required by
+Japanese customers. Sian-Jhang Jiang pointed out that his
+team has been providing CAE reports to Taiwanese cus-tomers such as ASUS and Acer since 2005, which was a
+strategical approach to enhance customers’ conﬁdence in&Cheng-Yu Hsu
+chengyu.hsu@connect.polyu.hk
+C. K. Kwong
+c.k.kwong@polyu.edu.hk
+Venny Yang
+vennyyang@moldex3d.com
+1Warwick Manufacturing Group, University of Warwick,Coventry CV4 7AL, UK
+2Department of Industrial and Systems Engineering, The
+Hong Kong Polytechnic University, Hung Hom, Kowloon,
+Hong Kong
+3Coretech System Co., Ltd. (Moldex3D), 8F-2, No. 32,Taiyuan St., Zhubei City 302, Hsinchu County, Taiwan
+123Int. j. inf. tecnol. (February 2022) 14(1):5–17
+https://doi.org/10.1007/s41870-021-00678-y
+
+=== PÁGINA 2 ===
+ongoing projects (S.J. Jiang, General Manager, Kunshan
+Wei-Han Electronics, personal communication, January
+15, 2017).
+1.1 Molding simulators
+The necessity of employing CAE, Computer-Aided Engi-
+neering, software throughout a project workﬂow of the
+plastic injection molding process has been understood and
+accepted by product developers and tool designers. CAE
+software can help users to diagnose and develop complex
+injection molding processes [ 4]. If a decision is made by a
+trained simulation analyst with the information provided,
+the likelihood of making a successful decision is achiev-
+able [ 5].
+Cloud computing is deﬁned as computing resources
+which are accessible without restrictions of places and time
+by a normal device which is able to surf the internet [ 6].
+This emerging technology allows users to access applica-
+tions and computing infrastructure by a means of pay-per-
+use or charge-per-use [ 7]. This technique is a suitable so-
+lution to analyze critical problems and design optimization
+with a number of iterations, and companies, as a result, do
+not need to purchase and maintain a high-end computingcluster used for simulation works [ 8].
+Except for SIGMASOFT
+/C210, Autodesk Moldﬂow and
+Moldex3D have both introduced public cloud services tothe market [ 9]. Autodesk A360 is a public cloud which was
+built on industrial-standard best practices, and applicants’
+ﬁles are kept and backed up in the United States [ 10]. In a
+similar way, Moldex3D sells tokens to cloud-based users
+so that they can run simulations on the Amazon Web
+Services [ 11]. This software package has been providing
+enterprise cloud computing service since 2011 [ 12], and its
+parallel computing technology allows users to interconnect
+a multi-node PC cluster when the license is available.
+Despite the advantages mentioned above, Yang and
+Hsieh have pointed out that the conﬁdentiality of design
+information stored in a public cloud seems debatable [ 13].
+Hence, existing running service models need to be
+reviewed and modiﬁed so as to meet real demand in
+practical.
+2 Case study
+This section illustrates how a service model is developedbased on academic approaches through customer analysis,requirements deﬁnition, problem statement, existing solu-
+tions analysis, new service model development, prototype
+development, functional veriﬁcation, service quality mea-surement, and risk analysis.2.1 Customer analysis
+The SIPOC tool is generally used to visualize a service
+process through the service providers to the customers.
+Figure 1shows the process of implementing a benchmark
+for a prospective customer. It is obvious that there is plenty
+of information required prior to the high-level process. A
+simulation report with various graphics and comments willbe given as the output, which is a tangible item for the
+customer to judge the value of the given service and to
+compare with their prejudices and expectations. To makethis report in a practical way, senior engineers and ﬁeld
+experts need to be involved. On the other hand, a customer
+journey map is applied to explore the customer satisfaction.As shown in Fig. 2, the customer’s impressions vary
+through the process. On the ﬁrst day, their expressions are
+formed positively as most of them would be interested andinquisitive in this new technology. Then their impressions
+are toward negative when they are continually kept in
+waiting for the output. During the day three and day four,there is no communication between both sides in general.
+In the due day, the customer would have very different
+impressions which are contingent on the quality of thereport provided. To improve the present status, simulation
+engineers should invite the customer to work together on
+day three, that is value-cocreation. When customers areinvited to discuss the ongoing simulation, their conﬁdence
+would be inspired. Signiﬁcantly, it would be able to acquire
+feedback from the customer so as to reconﬁrm their needsand expectations on this work.
+2.2 Problem statementThere are several hypothesizes proposed according to the
+utilization of cloud computing services.
+•Hypothesis 1 is deﬁned as the service can reduce a huge
+computational time, which is generally archived byexisting solutions.
+•Hypothesis 2 is deﬁned as the cost is relatively
+inexpensive. If heavy users require daily analysis, thecost for running public cloud computing services is not
+as cheaper as what they expect. During an interview
+conducted on April 5, 2018, James Yao, ToolingDesign Manager, Kunshan Wei-Han Electronics,
+claimed that while single simulation cost nothing, the
+accumulative cost would be remarkably higher basedon his annual demand quantity.
+•Hypothesis 3 is defended as cloud participants are able
+to access the cold service anywhere and anytime.Factory employees in mainland China, in general, do
+not have permission to search the internet, and there-
+fore the public cloud seems not a workable solution for6 Int. j. inf. tecnol. (February 2022) 14(1):5–17
+123
+
+=== PÁGINA 3 ===
+most companies in this territory. During an interview
+conducted on April 5, 2018, Allen Hung, SeniorTooling Manager, Foxconn, conﬁrmed this policy
+which the internet was only accessible for a limited
+management team.
+•Hypothesis 4 is deﬁned as cloud participants are
+ofﬁcially not allowed to delivery design information
+to any third parties. It is common sense in the industrythat design information should be kept in secrecy, and
+those data is not allowed to disclose in public based on
+a non-disclosure agreement signed by sellers andbuyers. Dr. Qing Guo revealed that while the perfor-
+mance of running a mesh model on a public cloud was
+great, conﬁdential design information was not allowedto leave the ofﬁce based on their IT policy (Q. Guo,
+CAE Manager, Shanghai Yanfeng Automotive, per-
+sonal communication, April 5, 2018).
+•Hypothesis 5 is deﬁned as bandwidth is not a hurdle for
+users to download ﬁles. However, bandwidth is not
+guaranteed if there are more employees working in thesame place.•Hypothesis 6 is deﬁned as taxation policy is accepted
+by the applicant’s company. Service-related invoice isnot deductible in the Chinese taxation system. As a
+result, the ﬁnancial department of the heavy user would
+require an invoice with value-added tax for a taxrefund.
+•Hypothesis 7 is deﬁned as applicants are required by his
+or her customer to provide a DFM report.
+•Hypothesis 8 is deﬁned as applicants have only limited
+time to deal with ongoing molding problems or
+composing a DFM report.
+In short, the service needs to satisfy heavy users with
+affordable prices, permission for surﬁng the internet, noimpact on conﬁdential documents, no bandwidth restric-
+tion, and consideration of a tax refund. Therefore, this
+study aims to develop an alternative solution for privatecloud services (see Table 1).
+Fig. 1 The SIPOC diagram of benchmark implementation. Source: AuthorInt. j. inf. tecnol. (February 2022) 14(1):5–17 7
+123
+
+=== PÁGINA 4 ===
+2.3 Analysis of the existing solutions or products
+To enable multiple computations, there are two sales
+strategies generally employed. License-oriented sales mean
+salespeople do not consider computer hardware in any kind
+when they deal with potential buyers for simulation in a
+local place. The hardware is chosen based on users’ pref-
+erences or recommended by the salesperson. In addition,this hardware system is purchased and installed by the user.
+On the other hand, hardware issues are ignored when the
+public cloud solution is provided. There are some concernsin terms of this sales strategy.
+1. While network security is not a matter to local-based
+users, it is a big concern to cloud-based users, denoted
+as P1.2. While users can choose a certain hardware system they
+prefer, poor integration between software and hard-
+ware system might happen which will jeopardizecomputation performance, denoted as P2.
+Bundling sales means salespeople promote a package
+solution including license and a reliable hardware systemfor local-based users. Moldex3D bundled the Boxcluster in
+2008 but the ASUS ESC2000 in 2011 which are examples
+of this kind of sales strategy [ 14]. However, there are some
+drawbacks.
+1. These hardware devices are not developed by Mold-
+ex3D. Therefore, it would bring some difﬁculties to the
+salespeople when the hardware system malfunctions.
+In short, not all sales representatives are willing toemploy this strategy, denoted as P3.
+2. While this bundling sales remarkably enhance compu-
+tation performance at the customer’s side, salesmargins are comparatively lower, denoted as P4.
+3. The maintenance fee of the Boxcluster is too expen-
+sive, and it takes a long time to repair the system,denoted as P5.
+4. Because computing hardware systems are replaced in
+the market at a very quick pace, users, in general, are
+unwilling to invest extra equipment for running a
+simulation, denoted as P6.
+Fig. 2 A customer journey map. Source: Author
+Table 1 Hypothesis conﬁrmation of using a public cloud service
+Source: Author
+Hypothesis conﬁrmation H1 H2 H3 H4 H5 H6 H7 H8
+Autodesk Moldﬂow
+Public CloudOXXXXXOO
+Moldex3D
+Public CloudOXXXXXOO8 Int. j. inf. tecnol. (February 2022) 14(1):5–17
+123
+
+=== PÁGINA 5 ===
+2.4 New service development
+The main target is to satisfy existing users who require
+higher computing performance with robust network secu-
+rity. That is new product development to the presentmarket as illustrated in the Ansoff matrix. This new pro-
+duct would need to systematically integrate the software
+and hardware. Therefore, the new product is neitherlicense-oriented sales nor bundling sales. In short, the new
+product could be recognized as a molding simulation sys-
+tem or a private cloud platform. This system is a service-oriented product and involves consulting services. Another
+target is to diversify this service with various license types
+such as perpetual license, leased license, prepaid tokens, ora pay-for-use contract. Table 2illustrates these business
+models in different products.
+To facilitate new service development, a disruptive
+thinking tool is adopted as shown in Fig. 3. It would be
+possible if the existing simulation software product
+becomes tangible by a means of hardware integration. It isno doubt that simulation data is stored in a secureenvironment when simulation work is done locally. In
+addition, simulation software could be provided with
+ﬂexible prices and enhanced computing performance by
+cluster technology.
+•Feedback to the problem statement
+•H2 describes that cost spending on cloud computing
+services is comparatively lower. The molding simula-
+tion system proposed would be able to meet this
+hypothesis based on ﬂexible business models oflicensing.
+•H3 describes that users could access the service without
+the restriction of time zones and locations. This istechnically achievable if users are ofﬁcially allowed to
+log in to the computing server from either internal
+networks or external networks.
+•H4 describes that design information is not allowed to
+disclose to any third party. Because the simulation work
+is done in a local network, the data is secure.
+•H5 describes that bandwidth is not a hurdle for
+downloading ﬁles. It is technically guaranteed whencomputer data is transmitted within a local network.
+Table 2 Business models in different products Source: Author
+Business models Molding simulation software (no hardware) Computing hardware (no license) Molding simulation system
+License ?Hardware
+Permanent Available Available Available
+Monthly lease Available – Available
+Annual lease Available Available AvailablePrepaid tokens Available – AvailablePay-for-use Available – Available
+Fig. 3 A disruptive thinking
+tool, what is and what if.
+Source: AuthorInt. j. inf. tecnol. (February 2022) 14(1):5–17 9
+123
+
+=== PÁGINA 6 ===
+•H6 indicates that a tax refund is expected by Chinese
+customers. Because this molding simulation system istangible equipment, it is ofﬁcially required to issue an
+invoice with value-added tax in terms of the Chinese
+taxation system.
+•In short, the proposed system could meet the above
+hypothesizes.
+•Feedback to the existing problems mentioned
+According to the analysis results of the existing products
+or services, there are six problems mentioned and those
+problems are more likely to be solved by the proposedsystem.
+•P1 indicates that network security is a matter for cloud-
+based users. The proposed system is employed locally
+and therefore network security could be protected.
+•P2 indicates that poor computation performance is
+caused by improper integration with software and
+hardware system. This issue will be solved as the
+proposed system implements functional veriﬁcation.
+•P3 describes that it causes a problem for aftersales
+service when the hardware system malfunctions. It
+would need hardware-based engineers to deal withaftersales service.
+•P4 shows that sales margins gained by bundling sales
+are comparatively lower. It seems not an issue as theproposed system is developed by the company.
+•P5 reveals that the maintenance fee of the Boxcluster is
+too expensive. As the Boxcluster is developed in Japan,relevant costs will be much higher than the one
+assembled in China. In fact, most computer devices
+are manufactured in China and therefore it is morelikely to reduce purchase costs on the hardware system.
+•P6 shows that hardware systems are replaced in the
+market at a very quick pace. This would be a question
+about how to efﬁciently exploit computers embedded in
+the system when it has been used for a certain year. Tomeet customers’ expectation, these computers could be
+upgraded based on price strategies.
+2.5 Building up a prototype
+To build this new system toward customers’ requirements,
+a house of quality diagram is employed, as illustrated in
+Fig. 4. The voice of customer shows what customers might
+need for this simulation system, as illustrated in V1 to V15.The voice of engineering lists important software functions
+and hardware criteria.
+•Voice of customer
+V1: it is able to calculate big mesh models.
+V2: download speed is faster.V3: the network is secure.
+V4: it is easy to be learned and used.
+V5: it looks great.
+V6: it is affordable.V7: it is quiet when the system is running.
+V8: it is easy to be moved and placed in many places.
+V9: it is easy to be maintained particularly when one set
+of a computer server is broken.
+V10: it can reduce computation time.
+V11: it is easy to manage data.
+V12: computing resources are shared with other soft-
+ware applications.
+V13: it has a data backup system to prevent data loss in
+case hard disk crashes.
+V14: the system maximizes computing resources
+automatically.
+V15: the system reschedules simulation tasks based on
+priority levels.
+Scores are assigned in the diagram to show different
+levels of requirements made by a customer. The higher
+score it shows, the higher importance it has at the cus-tomer’s site.
+•Voice of engineering
+There are twenty-two technical functions listed below.
+SW indicates software-related functions, but HW indicates
+hardware related items.
+SW1: account management for different authorized
+users.
+SW2: simulation modes.SW3: license management for checking in and out a
+speciﬁc license.
+SW4: data management with auto backup and antivirus
+protection.
+SW5: operation system.
+SW6: computing resource management.SW7: simulation task management.
+HW1: types of computer servers.
+HW2: CPU capacity.HW3: RAM capacity.
+HW4: hardware capacity.
+HW5: bandwidth.
+HW6: fan speed.
+HW7: locations and quantities of the fan.HW8: the color of the server rack.
+HW9: the height of the server rack.
+HW10: front door quality of the server rack.HW11: the weight of the server rack.
+HW12: wheel types of the server rack.
+HW13: handle of the server rack.HW14: steel thickness and coating types of the server
+rack.
+HW15: quality of Ethernet cable.10 Int. j. inf. tecnol. (February 2022) 14(1):5–17
+123
+
+=== PÁGINA 7 ===
+Fig. 4 The house of quality. Source: AuthorInt. j. inf. tecnol. (February 2022) 14(1):5–17 11
+123
+
+=== PÁGINA 8 ===
+Engineering functions above are considered with
+speciﬁc scores from the voice of customer, and therefore
+rankings of functional importance can be found in terms of
+the outcome of the weighting. The result shows the mostimportant technical speciﬁcations are the types of operating
+systems, computational resources allocation, and computer
+data management respectively.
+A weighted score is a result of two matrices combined,
+where
+a¼score in the voice of customer
+b¼score in the voice of engineering
+For instance, weighting SW1 = 9 99 = 81, and
+weighting SW2 = 8 99?893 = 96.
+2.6 Functional veriﬁcation
+This is a step to evaluate a hardware combination and what
+software performance might achieve. Computation time
+and speed-up ratio are the primary factors to measure theperformance.
+•Hardware information
+CPU: Intel Xeon E5-1620 with 3.6 GHz, 10 MB smart
+cache, and 4 cores.
+RAM: DDR 3 1333 8 GB 94.
+Network speed: 1 Gigabit.
+Computing nodes: single, 2 computers, and 4 computers.
+•Software information
+Operational system: Windows 7 Professional 964.
+Software version: Moldex3D R16RC1.
+Mesh type: solid mixed elements.Mesh size of case 1, deﬁned as Solid 4 M: 4,167,287
+elements.
+Mesh size of case 2, deﬁned as Solid 5 M: 4,813,180
+elements.
+Mesh size of case 3, deﬁned as Solid 8 M: 8,012,986
+elements.
+Analysis type: Solid Flow.
+•Benchmarking outcomes
+The outcomes indicate that it takes 4 h to complete a
+ﬂow analysis with a mesh size of around 4 million, but it
+remarkably needs 14 h to get this analysis work done whenits mesh size is double. Figure 5shows computation time is
+signiﬁcantly reduced based on how many computer
+resources are allocated per a single case. When 4 com-puters are clustered together, computation time is dropped
+from 14 h to less than 5 h. In addition, the speed-up ratio
+achieves 2 times when 2 computers are clustered, but it
+Fig. 5 Benchmarking outcome of computation time. Source: AuthorTable 3 Summary of the benchmarking Source: Author
+Testing cases Case 1 Case 2 Case 3
+Node x CPU x Cores Computing hours Speed-up ratio Computing hours Speed-up ratio Computing hours Speed-up ratio
+191x4 4.1 1.0 5.2 1.0 14.1 1.0
+291x4 2.1 2.0 3.0 1.7 7.6 1.9
+491x4 1.4 3.0 1.9 2.8 4.7 3.0
+12 Int. j. inf. tecnol. (February 2022) 14(1):5–17
+123
+
+=== PÁGINA 9 ===
+achieves 3 times with 4 computers are gathered together to
+run a single case.
+2.7 Service measurement
+After launching this molding simulation system, it is
+important to measure service quality from each transaction.
+This project proposes a questionnaire in terms of the
+SERVQUAL attributes, as shown in Table 4, and cus-
+tomers are expected to answer ﬁve-dimensional measures
+with twenty-two questions. Afterward, the outcome of
+these questionnaires would signiﬁcantly help further ser-vice quality improvement.
+2.8 Risk analysisBusiness risks could jeopardize a running business on
+different scales, and therefore executives are better toidentify these risks and make contingency plans accord-
+ingly. This project summarizes three categories of potential
+risks including quality risks, product risks, and marketrisks, as shown in Table 5.
+•Risk 1 is improper testing, which means a certain
+problem has not been detected before the system isshipped to a buyer. While the probability of this
+occurrence seems lower, it could lead to a customercomplaint and affect project lead time at the customer
+side.
+•Risk 2 is a risk related to simulation software bugs,
+failing to run in a speciﬁc way or to show reliable
+results. This could happen when the customers’ soft-
+ware environment is much different from the developer.
+•Risk 3 is a risk associated with operational system bugs.
+For instance, the Microsoft Windows system might fail
+to run in a speciﬁc way. While it seems inevitable,simulation software developers could take more testing
+runs while the system is developing.
+•Risk 4 is caused by an unqualiﬁed device, meaning that
+a speciﬁc device is not working properly. In general,
+this risk might happen after shipment. As a result, the
+system provider would be better to hold the necessaryspare parts to replace the damaged device. However, to
+hold a necessary inventory level, the company will
+need to spend additional money on the stock.
+•Risk 5 indicates that it does not meet the customer’s
+special expectations. This could happen if a represen-
+tative misunderstands the product position or potentialcustomers overvalue the capacity of this moldingTable 4 The SERVQUAL questionnaire Source: Author
+Dimensions Questions Disappointed Satisﬁed Impression
+Tangibles Q1. facilities of the company is up-to-date – 2 – 1 0 1 2
+Q2. physical facilities at the company are visually appealing – 2 – 1 0 1 2Q3. employees of the company are well-dressed – 2 – 1 0 1 2Q4. training handouts or relevant material provided are visually appealing – 2 – 1 0 1 2
+Reliability Q5. the service is delivered within a promised deadline – 2 – 1 0 1 2
+Q6. the sales representative is sympathetic to a problem you face – 2 – 1 0 1 2Q7. the information you received from the company is dependable – 2 – 1 0 1 2Q8. the company does what services are promised – 2 – 1 0 1 2Q9. the company remains error-free performance – 2 – 1 0 1 2
+Responsiveness Q10. you will be informed exactly when a service is delivered – 2 – 1 0 1 2
+Q11. the sales representative gives you a prompt response – 2 – 1 0 1 2
+Q12. the sales representative express his or her willingness to help you – 2 – 1 0 1 2
+Q13. the sales representative is never too busy to respond to your request – 2 – 1 0 1 2
+Assurance Q14. employees of the company behavior conﬁdently – 2 – 1 0 1 2
+Q15. you feel conﬁdence in the transaction – 2 – 1 0 1 2Q16. employees of the company are courteous – 2 – 1 0 1 2Q17. the sales representative has adequate knowledge to answer your questions – 2 – 1 0 1 2
+Empathy Q18. the company pays individual attention on you – 2 – 1 0 1 2
+Q19. business hours of the company are convenience to all its customers – 2 – 1 0 1 2Q20. employees of the company give you individual attention – 2 – 1 0 1 2Q21. the company has your best interests at heart – 2 – 1 0 1 2Q22. your special needs are understood – 2 – 1 0 1 2Int. j. inf. tecnol. (February 2022) 14(1):5–17 13
+123
+
+=== PÁGINA 10 ===
+simulation system. To prevent this risk, sales training is
+needed.
+•Risk 6 shows a risk occurs when a speciﬁc part is
+delivered too long. Therefore, a customer will lose hisor her passion and make several complaints. However,
+this risk could be eliminated if the safety inventory is
+implemented.
+•Risk 7 means a risk happens when there are not enough
+spare parts. This risk is avoidable when there is a safer
+inventory level.
+•Risk 8 is a risk caused by improper sales forecasting
+giving rise to high purchasing costs and unsatisﬁed lead
+time. In fact, this server rack has minimum manufac-turing quantities required. When the forecast is wrong,
+it might manufacture too many units or fewer units to
+meet ongoing orders.
+•Risk 9 is a risk when a complete hardware system is
+held in the seller’s place for a certain period. This is aﬁnancial risk because hardware functions become
+outdated and market prices of that hardware might
+signiﬁcantly decline. As a consequence, it would bebetter not to hold complete units at the company within
+a week.
+•Risk 10 is a risk of moving up investment costs when
+the interest rate is elevated.
+•Risk 11 is a risk resulted from a higher currency rate.
+This server rack will be manufactured in China andthen shipped to other regions and countries. Therefore,
+when the value of the Renminbi currency is getting
+higher, the manufacturing costs will deﬁnitely go upand then shrink sales margins if the selling price is
+unchanged.
+•Risk 12 is a market risk caused by raising prices on the
+commodity.
+Eventually, the risk mapping matrix, as shown in Fig. 7,
+shows each individual risk level of the risks above, and the
+overall business risk is moderate.
+3 Discussion
+As molding simulation is a niche market, there are merely ahandful of software providers making a great effort in this
+speciﬁc ﬁeld. This research has shown that public cloudcomputing is not an actual demand of the industry because
+of the conﬁdentiality of design information which is not
+allowed to be disclosed. During an interview conducted onApril 7, 2018, Henry Tian, Vice General Manager, Goertek
+Inc., stated that design information for an unreleased pro-
+duct was strictly protected in the company and onlyauthorized employees were allowed to access those dataTable 5 Risk criteria table Source: Author
+Probability of occurrences Impact on the project Risk level
+Numbers Categories Events Probability Leadtime Costs Impact scale
+1 Quality risk Improper testing 10% v Signiﬁcant Low
+2 Software bugs 30% v Signiﬁcant Moderate3 OS bugs 30% v Signiﬁcant Moderate4 Unqualiﬁed device 10% v v Signiﬁcant Low5 Product risk Not meet customer’s special expectation 30% v v Sever Moderate6 Longer leadtime on a certain part 30% v Moderate Low7 Lack of spare parts 10% v Signiﬁcant Low
+8 Improper sales forecast 10% v v Signiﬁcant Low
+9 Market risk A longer holding period 30% v v Sever Moderate10 Higher interesting rate 10% v minor Very low11 Higher currency rate 10% v minor Very low12 Higher commodity prices 50% v Signiﬁcant Moderate
+Fig. 6 Benchmarking outcome of speed-up ratio. Source: Author14 Int. j. inf. tecnol. (February 2022) 14(1):5–17
+123
+
+=== PÁGINA 11 ===
+via their internal network system. In a similar way, Bran-
+don Lee claimed that the entire geometry of a particularcomponent was designed by his customer, and therefore
+they were not allowed to deliver this information to any
+third parties (B. Lee, Vice General Manager, ConcraftHolding Co., Ltd., personal communication, April 11,
+2018). Likewise, Chii-Ming Chen highlighted that it could
+lead to a risk to damage organizational reputation if designinformation of an ongoing smartphone project was dis-
+closed (C.M. Chen, Vice General Manager, Coxon Group,
+personal communication, April 7, 2018). Indeed, based onmanagerial viewpoints, public cloud computing is not a
+feasible solution for the industry. Instead, these managerial
+people interviewed support that private cloud computingwould be more likely to be taken into account providing the
+design information is secure.
+This project has proposed a workﬂow to develop a new
+service system. The case study conducts customer analysis
+in the ﬁrst place and then identiﬁes problem statements and
+problems that occurred by different sales strategiesemployed by the existing solutions. Then, it employs a
+disruptive thinking technique to build up a new service
+system so as to solve the mentioned problems. Turning toprototype development, the study involves how to link the
+voice of customer and the voice of engineering encom-
+passing software-related functions and hardware-relatedquality, how to evaluate molding simulation performance,
+how to measure service quality when it is released, and
+eventually what business risks it might have. In short, thisworkﬂow obviously indicates how to integrate softwareand hardware into a marketable product, which would
+signiﬁcantly enhance the competitive advantage of thecompany. It also has a profound effect on guiding other
+CAE software developers to integrate its system to maxi-
+mize customer satisfaction.
+3.1 Case analysis
+There are several questions which are used to evaluate a
+proposed service system for molding simulation users.
+1. Is this service system marketable to the company?
+2. The proposed service system seems marketable. Based
+on the research outcomes, this innovative servicesystem could meet customers’ requirements with
+robust data security and high-performance computa-
+tion. In other words, it solves a problem of customers,and these customers can be categorized as a speciﬁc
+market segment for the company to work on. Tao Pang
+claimed that it brought advantages to the company ifsoftware developers provided an integrated hardware
+system together with license sold, which also indicated
+a close collaboration between the provider and thebuyer (T. Pang, Tooling Deputy Manager, Kunsan
+Shengmei Precision, personal communication, April 7,
+2018).
+3. Is this innovative service risky for the company?
+4. According to the risk mapping matrix, as shown in
+Fig. 7, the overall business risk on this new product is
+Fig. 7 Risk mapping matrix Source: AuthorInt. j. inf. tecnol. (February 2022) 14(1):5–17 15
+123
+
+=== PÁGINA 12 ===
+moderate. As a result, it is less likely to cause a big
+impact on the company.
+5. Is the selling price of this system affordable for
+potential buyers?
+6. It depends on what prospective customers are targeted.
+If the targeted customer is a heavy simulation user, this
+service system provides him or her an alternative
+solution to run a simulation faster. The price, as aconsequence, will not be a big issue for this kind of
+customer. On the other hand, if the prospective
+customer is price-sensitive, it is important to under-stand what price per task or per hour is more likely to
+be accepted. During an interview conducted on
+January 25, 2017, Dr. Jerry Hsu, the founder of AnnTong Industrial Corporation, revealed that they spent
+approximately 17 euros per component for running a
+ﬂow simulation, conducted by his CAE team in acompany branch in Vietnam, and therefore he would
+be highly interested in reducing this cost by the service
+system proposed.
+7. Is this system reliable and efﬁcient for running a
+simulation?
+8. The proposed system is robust and functionally
+efﬁcient. The voice of engineering technique is applied
+in this research, and thus this service system is
+developed with considerations of signiﬁcant softwareand hardware criteria. Afterward, the simulation per-
+formance is evaluated by a number of benchmarks.
+3.2 Limitations
+1. The molding simulation demand discussed might not
+be feasible for other simulation software as technical
+requirements are signiﬁcantly different.
+2. The Information Technology department might not
+accept this innovative service model as IT engineers
+managed software and hardware vendors separatelyaccording to Roger Hu (R. Hu, Senior Design Man-
+ager, Darfon Electronics Corporation, personal com-
+munication, April 7, 2018). In addition, it has not beenstudied yet if the IT department of a prospective buyer
+will require any kinds of hardware certiﬁcations to
+jeopardize an ongoing purchase.
+3. An important level of the voice of engineering, as
+shown in Fig. 4, could be remarkably different
+depending on the system developer’s background andwork experience.
+4. The proposed hardware system of this molding sim-
+ulation system has not been built up yet at thistimeframe, and therefore underlying problems such as
+unsatisﬁed fan noise or overbudgets caused byspending too much money on hardware system might
+happen.
+4 Conclusion
+While molding simulation providers implement differentservice models, some speciﬁc requirements which arediscussed in this study have not been fully met. In order to
+understand customers’ explicit needs, simulation require-
+ments are speciﬁcally identiﬁed, categorized, and analyzedin this case study. Based on the research conducted, it
+seems public cloud services for molding simulation are not
+widely accepted by industrial users in Greater China.Therefore, it is meaningful for this project to propose a
+service-dominant business model to solve unsolved prob-
+lems and add value to simulation users. This service modelconsiders customers’ needs in data protection particularly
+for new design information, integration of signiﬁcant
+software functions and hardware criteria, service qualitymeasurement, and business risk aversion. Additionally, this
+service model is developed based on the research results
+and suggestions made by people interviewed. Conse-quently, it is more likely to create proﬁtable business value
+by promoting the proposed service system.
+Software service models are signiﬁcantly changed in
+recent years so as to meet customers’ special desires and
+preferences. As investment cost on a perpetual license is
+comparatively higher, the author anticipates that software
+developers might terminate this service model to remove
+the entry barrier caused by ﬁnancial issues. In order tosatisfy various users, alternative service models are inno-
+vated giving rise to ﬂexibility in the way CAE users are
+served and charged. These service models are a leasingcontract, a token-based model, an hour-based model, a
+component-based model, a computing performance-based
+model, or a consulting-based model. The author, as a result,expects that software developers might highly focus on
+service model innovation to gain substantial growth.
+5 Further works
+How to maximize license proﬁtability? Although cloudcomputing services for simulation software are available in
+the market, those prices are logically based on softwarelicense concepts whatever it is a perpetual, leased, or
+token-based service model. Therefore, it would be impor-
+tant to further ﬁnd out what kinds of applications are mostpopular for token-based users. Will it boost proﬁtability if
+the company groups certain licenses together as a token-
+based selling model or separates partial licenses to a16 Int. j. inf. tecnol. (February 2022) 14(1):5–17
+123
+
+=== PÁGINA 13 ===
+perpetual or leased selling model? This answer has not
+been found out yet.
+What is the correlation between selling prices and
+computing speed-up ratio? Cloud-based users generally arecharged by the total amount of utilization in hours, which is
+known as pay-per-use. However, a local-based cloud
+computing service is able to speed up a simulation task. Ifthe speed-up ratio is three times, will the hour-based user
+be willing to spend a triple cost on a simulation? As a
+result, it would need further work to ﬁnd out this
+correlation.
+Will component-based simulation service meet the
+entire customer demand? Practically it would be easier for
+a management team to evaluate a simulation cost per
+component. Eric Chao revealed that Taiwanese ownerswere more likely to spend 850 euros for running a complete
+molding simulation (E. Chao, former Senior Sales Manager
+at Moldex3D Taichung ofﬁce, personal communication,March 7, 2017), yet Chinese owners were willing to pay
+only 250 to 500 euros for a simulation report according to
+Colin Lou (C. Lou, former Technical Manager at Mold-ex3D Suzhou ofﬁce, personal communication, April 11,
+2017). Hence, it would need further work to identify these
+customers’ characteristics and then to determine if thisinnovative service system can make proﬁts in this market
+segment.
+How to make public cloud computing service success-
+fully? In fact, most companies store organizational infor-
+mation on a Gmail server, which is a kind of cloud service
+used widely. Does this public cloud service really protecttheir conﬁdential information? The ﬁndings of this study
+show that tooling companies are reluctant to run a molding
+simulation via public cloud services because they thinkdesign information seems not well protected. Will these
+potential users reconsider this service if geometrical data is
+securely coded during the entire period of simulation? Onthe other hand, design information is not allowed to dis-
+close to any third parties based on a non-disclosure
+agreement. It would be important to know if productdeveloping companies agree their vendors adopt any kinds
+of public cloud services. In addition, it is signiﬁcant to
+further study how to add relevant clauses in the NDA.
+References
+1. Pesso ˆa M, Trabasso L (2017) The lean product design and
+development journey. Springer International Publishing, Cham
+2. Ranjan R, Samant R, Anand S (2017) Integration of design for
+manufacturing methods with topology optimization in additive
+manufacturing. J Manuf Sci Eng 139(6):061007. https://doi.org/
+10.1115/1.4035216
+3. Gibson I, Rosen D, Stucker B (2010) Additive manufacturing
+technologies. Springer, Boston, p 283
+4. Moldex3D (2017) Moldex3D cloud extension, Aug. 7, 2017.
+[Online]. http://www.moldex3d.com/en/moldex3d-cloud-exten
+sion/ . Accessed 23 Mar 2018
+5. Naitove MH (2011) Benchmarking simulation software: how one
+molder did it. Plastics Technol 57(11):34–37 ( 46-47 )
+6. Rajaraman V (2014) Cloud computing. Resonance
+19(3):242–258
+7. Bojanova I, Zhang J, Voas J (2013) Cloud computing. IT Prof
+15(2):12–14. https://doi.org/10.1109/MITP.2013.26
+8. Williams B (2011) Harnessing the cloud for engineering. Mach
+Des 83(9):54–55
+9. Naitove MH (2011) Do ﬂow simulation ’in the cloud. Plast
+Technol 57(11):17
+10. Autodesk (2018) Autodesk A360 Security. [Online]. https://
+knowledge.autodesk.com/customer-service/account-manage
+ment/users-software/cloud-services/cloud-credit-security . Acces-
+sed 23 Mar 2018
+11. Waterman PJ (2017) What injection molding simulation software
+can do for you, Feb. 1, 2017. [Online]. http://www.digitaleng.
+news/de/what-injection-molding-simulation-software-can-do-for-you/. Accessed 20 Mar 2018
+12. Moldex3D (2012) Moldex3D mold ﬁlling simulation technology
+now integrated with Siemens’ NX 8.5 Software, Dec. 10, 2012.
+[Online]. http://www.moldex3d.com/en/news/20121210-2/ .
+Accessed 20 Mar 2018
+13. Yang V, Hsieh S (2017) The latest global trends of Mold ﬁlling
+CAE technology developments. Pop Plast Packag 62(8):31–34
+14. Moldex3D (2008) Marketing news, Sep. 4, 2008. [Online]. http://
+www.moldex3d.com/ch/news/20080904-2/ . Accessed 13 June
+2018Int. j. inf. tecnol. (February 2022) 14(1):5–17 17
+123
+

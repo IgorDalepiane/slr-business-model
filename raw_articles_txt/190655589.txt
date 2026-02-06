@@ -1,0 +1,1187 @@
+=== PÁGINA 1 ===
+Service-Centric Business Model in Cloud Environment
+Tianyang Li, Ting He 
+School of Computer Science and Technology 
+Harbin Institute of Technology 
+Harbin, China 
+{tianyangli, xuantinghe}@ hit.edu.cn Yufeng Zhang 
+Birmingham Business School 
+University of Birmingham 
+Birmingham, United Kingdom 
+zhangys@bham.ac.uk
+Abstract —The development of Cloud Computing drives the 
+change of value creation towards services and creates a new 
+networked economic structure for challenging organizations to 
+adapt their existing business models. Despite agreement on 
+that the transformation of business model is importance to an 
+organization’s success, the evolution of business model enabled 
+by Cloud is still fuzzy and vague within many research fields 
+including both Management Strategy Theory and Information 
+Systems. This paper, following a review of existing works and a
+series of case studies from several typical industries, employs a 
+deductive reasoning method to investigate the influence of 
+cloud computing on business mo del evolution and presents a
+specific service-centric business model. First, the evolution of 
+business model in cloud environment is developed. Second, by 
+analyzing business model innovations on business model nine 
+building blocks in cloud environment, the element of service-
+centric business model is defined. Then, an ontological 
+framework which includes value, service, and business model 
+dimension for service-centric innovative business model is 
+proposed. Finally, several industrial cases validate that this 
+paper provides a comprehensive framework of organization’s 
+business model which can properly reveals an organization’ s
+complex nature of business logic and operation management in 
+cloud environment.  
+Keywords-cloud environment;  business model; innovation; 
+service-oriented; services centric; value;
+I. I NTRODUCTION
+The business model (BM) generally refers to how a firm 
+runs its daily business to produce a proposition of value to 
+customers [1]. Under the influence of technology trends, 
+most importantly cloud computing, current organizational 
+business models (BMs) are being questioned, and companies 
+are faced with the challenge of business model evolution [2].
+As the adoption of cloud services and cloud platforms takes 
+hold, an enterprise tends to run its whole business in the 
+cloud environment [3]. Organizations are gaining profit from 
+not only the potential benefits of cloud computing [4], but 
+the practical opportunities induced from cloud environment 
+to adapt their existing BM for satisfying all the customers ’
+demands. However, how cloud is driving an existing BM 
+innovation and what kind of BM should be adopted in cloud 
+environment by firms rem ain virtually untapped. 
+Having realized the high significance of cloud computing 
+for promoting business model innovations (BMIs), there has 
+been increasing interest in investigating the innovation trend 
+of current BMs and providing further understandings. The 
+majority of research has been referred the cloud technology as an Information Technology (IT) solution to reduce fixed 
+cost, store and share information, efficiently process supply 
+chain integration and collaborati on [5] [6]. Other researchers 
+have discussed that cloud computing is a classic disruptive 
+technology [7] [8] and provides several key technological 
+attributes or cloud business en ablers being used to power 
+BMIs by reinventing customer value propositions, industry 
+value chains [9], and business processes integration [10]. 
+Many studies have demonstrated convenient service-oriented 
+BM of cloud service platforms (such as cloud manufacturing 
+[11], cloud supply chain [12] and cloud business intelligent 
+[13]) in support of firms ’ supply chain operations [14] [15] 
+and resilience [16] [17] to enable lots of transformations in 
+relevant industries [18] for gaining profitability [19] and 
+competitive advantages. Meanwhile, the IBM Institute for 
+Business Value has concluded that inspired by the feature of 
+basic technologies of cloud, financial firms can adapt their 
+existing BMs to cloud enable d BMs with essential features, 
+such as, service standardization, efficient aggregation and 
+sharing of business resource, and information transparency. 
+Despite agreement on cloud computing has the power to 
+accelerate the evolution of firms’  traditional BMs, but it’s
+potentially technological and bus iness capabilities for driving 
+BMIs have not been fully developed. And relative literatures 
+on BM concept and conceptualization [20] [21] [22] reveal 
+that the way of conceptualizing companies BM is not 
+consensus. The BM evolution mechanism and the new BM 
+conceptualization in cloud are still ‘murky’ . This murkiness 
+could be because of the following three main reasons: 
+1)There are unilateral understandings on BM evolution 
+in cloud environment by treating cloud computing as a new 
+business model or an IT technology solution.
+2)Studies on BM innovation of cloud service platform 
+cannot completely reveals the evolution mechanism of BM 
+in a complex business ecosystem in cloud environment.
+3)The conceptualization of BM is not consensus.
+In order to address these issues, this study aims to 
+investigate how the BM evolve s in cloud environment and 
+explores a comprehensive framework to conceptualize the 
+new BM in the cloud. The knowledge of the mechanism of 
+BM evolution is fragmented. Meanwhile, the BMIs on firms 
+traditional or existing BM refer to the BM nine building 
+blocks [23] or nine elements in cloud environment are rarely 
+clarified. Hence, a systematic review on the evolution of BM
+and the BMIs in cloud environment can help to further 
+analyze element of new BM and conceptualize it with a
+comprehensible framework. 
+2015 IEEE International Conference on Services Computing
+978-1-4673-7281-7/15 $31.00 © 2015 IEEE
+DOI 10.1109/SCC.2015.78530
+2015 IEEE International Conference on Services Computing
+978-1-4673-7281-7/15 $31.00 © 2015 IEEE
+DOI 10.1109/SCC.2015.78530
+2015 IEEE International Conference on Services Computing
+978-1-4673-7281-7/15 $31.00 © 2015 IEEE
+DOI 10.1109/SCC.2015.78530
+2015 IEEE International Conference on Services Computing
+978-1-4673-7281-7/15 $31.00 © 2015 IEEE
+DOI 10.1109/SCC.2015.78530
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:59:13 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+The rest of this paper is structured as follows: Section II 
+introduces the evolution mechanism of BM in the cloud 
+environment. A contrastive analysis of the BMIs on its nine 
+components in cloud environmen t is outlined in Section III. 
+A comprehensible ontological framework of cloud enabled 
+BM is shown in Section IV. Section V gives some case 
+studies for verifying the proposed ontological framework and 
+the conclusion is drawn in Section VI. 
+II. T HE EVOLUTION OF BUSINESS MODEL IN CLOUD 
+ENVIRONMENT
+The BM as an enterprise ’s foundation is often used to 
+describe the key components of an existing business [21] and 
+offers efficient way to understand, analyze, and manage 
+strategic-oriented choices among businesses and technology 
+stakeholders on how to gain v alue. The BM also regarded as 
+a tool which uses the transformational approach to address 
+changes and innovations in the logic of business or in the 
+components of model itself [22] . The nature of BM evolution 
+or innovation is a phenomenon of new BM emerge for 
+replacing the old one or adapt an existing BM to a new one 
+under particular technology and market circumstance. In
+order to explore the evolution mechanism of BM in cloud 
+environment, some definitions should be given below. 
+Definition 1 (Business Model): A Business model is a
+simplified and aggregated specification of business logic of 
+an enterprise to produce products/services or create value to 
+customers by means of designing and operating its value-
+added components/elements. Busi ness model can describe as 
+a2-tuple BM=<A ,C>, where Ais a set of business features 
+of BM, Cis a set of building blocks or elements of BM. 
+Definition 2 (Cloud Environment):  Cloud environment is 
+a cloud computing based, cloud services or cloud platforms 
+represented, and multi-technology (value network, Web 
+service, virtualization, servitization, etc.) supported internet 
+commerce environment (hereafter referred to as “cloud ”).
+Definition 3 (Business Model Evolution): Business model 
+evolution describes that an old BM gets obsolete in favor of 
+new BM for some reasons, such as technology disruptions, 
+commoditization, and Competition. Give two BMs BM nand
+BM f. Business model evolution can denote as BME =BM nė
+BM f, which presents BM evolution from the old or existing 
+one BM ntothe new one BM f(see Fig. 1).
+Definition 4 (Cloud Business Model):  Cloud Business 
+Model (short for CBM) is the cloud enabled BM which 
+describes the relatively stable lo gics of enterprises to do their 
+business to create value for both customers and themselves 
+in the new business ecosystem s based on cloud environment.
+When companies decide to adopt a new BM or change an 
+existing one, capturing and visualizing this new mode will 
+help organizations easily impr ove the planning, change and 
+implementation of their core businesses.
+It is much easier to go from one BM to another, when a
+firm can exactly understand, say and describe what elements 
+may change [23]. In this regard, studying both Anand Cnfor 
+how a firm changes over time to the CBM with Af and Cf for 
+obtaining value is the first objective of this research. Hence,
+what features are included in Af is analyzed in the follow . 
+Time
+Tnow TfutureBM n=<A n,Cn> BM f=<A f,Cf>
+DistributerCustomer SupplierCloud
+Information And
+Material flow ManufacturerIntegratorERP/CRM/SCM/MES..Traditional IT environment
+Information flow
+Figure 1. Example of business model evolution. 
+A. Business evolutions enabled by cloud 
+The cloud becomes a mainstream  in current the business 
+ecosystem for organizations not only to enhance internal and 
+external efficiencies and cost reduction, but also to target 
+more strategic business capabilities. From the perspective of 
+the relationship between IT and business operation, cloud 
+has six essential technological advantages or cloud business 
+enablers being used to power business model innovation [9].
+These technological advantages enables firms ’ make several 
+business innovations (see Table I) which are unreal under the 
+limit of traditional IT solutions. 
+TABLE I. B USINESS EVOLUTIONS ENABLED BYCLOUD
+Technological 
+advantages of 
+cloud Business evolutions
+Cost flexibility/g140Optimized cost structure: By utilizing cloud-based IT 
+services , companies can reduce the amount of capital 
+investment they require to operate and to grow.
+Business 
+scalability/g140Efficiently access business capability: Computing 
+capabilities which is needed by an organization to 
+perform core business functions can be elastically 
+provisioned and released, to scale rapidly outward and 
+inward commensurate with demand.
+Market 
+adaptability/g140Quick responce to the change of market demands:
+Companies can create new delivery channels/markets.
+Masked 
+complexity/g140N/A
+Context-
+driven 
+variability/g140Intellectualization information processing: Companies 
+can analyze user behaviors, historical data to find 
+solutions to improving products/services.
+Ecosystem 
+connectivity/g140Realizing multi-party cooperative and collaboration:
+Companies can facilitate collaboration with partners and 
+customers, which can lead to improvements in 
+productivity and increased innovation.
+As table I show, these technological advantages of cloud 
+have already driven BM innovations which mainly in five 
+significant aspects. These innovations can vastly facilitate an
+organization to easily generate additional revenue streams by 
+enhancing, extending and in venting new customer value 
+propositions and industry value chains. 
+B. Opportunities and inspirations derived from cloud 
+As a critical set of enabling technologies with the thought 
+of that everything as a service,  cloud which has five essential 
+characteristics [24] is prominently changing the way that 
+industries and enterprises do their businesses by means of 
+531
+531
+531
+531
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:59:13 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+providing dynamically scalable and virtualized resources as 
+services over the Internet. The emergence of increasingly 
+cloud-based BMs, such as cloud manufacturing platform [11] 
+is inspired by cloud characteristics and the features of the set 
+enabling technologies of cloud. Hence, in order to reveal the 
+complexity of business model evolution of the new business 
+ecosystem in cloud, innovative opportunities and inspirations 
+which derived from cloud characteristics (see Table II) and 
+the features of the set enabling technologies of cloud (see 
+table III), used for adapting companies existing business 
+logic should be detailed analysis. This analysis shows that 
+what innovative inspirations and opportunities inspired by 
+the feature of cloud and its basic technologies can be 
+mentioned to affect existing business logics, as well as what 
+characteristics of the CBM should be contained. 
+Table I, II and table III show that, inspirations and 
+opportunities derived from cloud are expected to drastically 
+break traditional business logic of commercial society, drive 
+BM transformation, reform indust ry value chain and industry 
+resources structure, and optimize revenue structure in the end.
+Meanwhile, with these inspir ations and opportunities, firms’ 
+sale ideas, operation and collaboration patterns, organization 
+structure, resource utilization manners, and profit models can 
+be reinvent. The CBM with several significant features (as 
+shows in Table I to table III) in Af will emerge. 
+TABLE II. O PPORTUNITIES DERIVED FROM CLOUD FEATURES
+Cloud f eatures Innovative Opportunities
+On-demand 
+self-service/g140Self-service: Users are self-help for gaining related 
+services provided by firms as needed automatically.
+Broad network 
+access/g140Immediate service: Services are available at any time
+and any place according to network access.
+/g140Information transparency :Participants and users can
+provide their real-time information for realizing
+collaboration and resource aggregation.
+Resource 
+pooling/g140Efficient aggregation and redistribution of resources:
+All kinds of business resources, such as raw material,
+manufacturing capabilities, half-finished goods and 
+knowledge can be dynamically assigned and reassigned 
+according to consumer demand.
+Rapid elasticity/g140Business elasticity: Resources and capabilities can be 
+elastically provisioned and released to scale rapidly 
+outward and inward commensurate with demand
+Measured 
+service/g140Service monitoring: Service implementation can be 
+monitored, controlled, and reported .Information
+transparency for both the providers and consumers.
+In short, benefiting from cloud technological advantages 
+and business properties, firms ’ existing BMs will be adapted 
+to the CBM. Table I, Table II and table III indicate the 
+essential features of the CBM. The process of organizations’
+existing BM change to the CB M is the evolution mechanism 
+of the CBM, which can be defined as follow.  
+Definition 5 (BM Evolution Mechanism in the cloud):  It 
+is a natural or established process by which organizations use 
+cloud technological advantages, innovative inspirations and 
+opportunities inspired by cloud to constantly adjust their 
+existing BMs for maintaining profit up to the CBM 
+appearance.  
+Table I, Table II and table III also manifest that the CBM 
+is a service centric BM. Firms will provide differentiated services to satisfy user ’s needs by aggregating and utilizing 
+distributed network resources efficiently and conveniently.  
+The aforementioned discusses indicate that the firm ’s
+product-centric BM is transforming into a service-centric, 
+value-oriented, and customer-b ased BM along with the BM 
+evolution in trends of the cloud and servitization application. 
+The CBM accelerates the appearance of the new networked 
+business ecosystem and forces enterprises to redesign their 
+existing business logics to improve their running businesses. 
+By understanding the differences between a firm ’s existing 
+BM and the CBM on the expression of BM, such as the BM 
+nine building blocks, insights on core element, operational 
+logic, and strategical goal of the CBM will be explicit. Based 
+on these insights, the CBM can be conceptualized for 
+helping companies to step into new market with new value 
+propositions, redefine their ex isting industry value chain, and 
+adapt the reconfiguration of resources, products, services, 
+and service composition. Hence, analysis of how the existing 
+BM changes or the CBM innovations on BM nine building 
+blocks can display the real difference between firm s’ existing 
+BM and the CBM. 
+TABLE III. I NSPIRATIONS DERIVED FROM CLOUD BASIC TECHNIQUES
+Basic 
+technologies 
+of cloudInnovative Inspirations
+Virtualization/g140Resource release and optimization: Companies can 
+optimize the use of its internal and external business
+resources to support its daily business, and reallocation
+these business resources through business requirements.     
+Distributed 
+computing/g140efficient aggregation and sharing of Resource: All kinds 
+of distributed business resources, such as raw material,
+manufacturing resources, and knowledge resources ,a r e
+real-time and efficient aggregation and collaboration in a 
+cross-organizational environment.
+Utility 
+computing/g140Variable pricing model: Enterprises and customers can 
+be charged based on consumption - buyers “pay -per-use”
+or “Pay-As-You-Go ”.
+Internet/Web 
+service/g140Multi-organizational coordination: Boundaries among
+organizatio nshad been breaked, firms can efficient ly gain
+the internal/external collaboration, information sharing, 
+and realize distributed co-creation.
+SOA/g140Servitization: Enterprises can provide more services and 
+value -added services in standardized ways , and their sale 
+ideas change from product sales to service dellivery.
+/g140Service standardization: Enterprises can standardize their 
+business , services, and operation process.
+/g140Service composition and scalability: Enterprises can
+leverage different combinations of standardized services
+or business process torapidly expand service ability for 
+address ingbusiness demands and provide more valuable 
+customization services in the plug-and-play approach.
+III. T HE BUILDING BLOCK OF CLOUD BUSINESS MODEL
+The CBM expresses a more ef ficient and flexible way of 
+doing business and can make enterprises create new revenue 
+streams by enhancing and extend ing their value propositions, 
+and improving and transforming  industry value chains, it
+also can enable other BM building blocks innovation and 
+further results in shifting firms ’ whole business logics which 
+refer to who creates value, and how the value is created, 
+delivered and captured. Hence, this is important to deliberate 
+differences between existing BM and the CBM based on BM
+532
+532
+532
+532
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:59:13 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+nine building blocks (see ta ble IV). And then what elements 
+should be contained in the CBM will be discussed. 
+TABLE IV. F EATURES CHANGE ON DIFFERENT BUSINESS MODEL
+Element of 
+BMDifferences
+Previous BM CBM
+Value 
+proposition/g140Products provision
+/g140Sell ownership
+/g140Pursue short- term profit
+/g140Demand -driven 
+/g140Product or utility- oriented/g140Standardized service delivery 
+(everything as a service ) and 
+value-added service 
+/g140Sell right to use
+/g140Pursue long-term value
+/g140Forecast-driven
+/g140Service value-oriented
+Target 
+customer/g140Designated customer
+segments/g140Individuals/groups who can 
+access the cloud
+/g140Competitors , customers and 
+partners interconversion
+Distribution 
+channel/g140Distinct channel/g140Uniform online and offline
+channel based on cloud
+Relationship /g140One-off transaction/g140Long-term interaction with 
+the life cycle of products or 
+services
+Value
+configuration/g140Local resources and 
+capabilities
+/g140Discrete business activities/g140Distributed resources and 
+capabilities
+/g140Well-integrated process
+Core 
+competency/g140Integrative (non-core /core) 
+business competency/g140Core business competency
+specialization
+Partner 
+network/g140Value chain (simple)
+/g140Disunity supply chains
+/g140Fixed roles of firms in
+supply chain
+/g140Run single supply chain
+/g140Inefficient coordination
+/g140Close coupling partnership
+and game mutually
+/g140Relationship-oriented/g140Value network (complex)
+/g140Service supply chain
+/g140Variable roles of firms in 
+supply chain
+/g140Involve various supply chains
+/g140Efficient coordination
+/g140Loose coupling partnership 
+andalliance mutualism 
+/g140Transaction-oriented
+Cost structure /g140Capital expenditure /g140Operational expenditure
+Revenue 
+model/g140Cost-driven /g140Value-driven
+Table IVshows that, the CBM is significantly different 
+from the previous BM with th ese nine elements, especially in 
+value proposition, customer se gments, value configuration, 
+and partner network. In addition to these aforementioned 
+differences, there are lots of invisibly critical discrepancies 
+between the CBM and the previous BM, such as the different 
+meaning of value concept before and after servitization, the 
+different productive processes between products production 
+and services delivery, and different operation ways around 
+supply chains coordination, resources configuration and so 
+on. The conceptualization of the CBM as a profiling tool 
+should describe the essential logic of how firms design value 
+and service and how firms operate to realization value and 
+service delivery. Hence, the building block of the CBM 
+should include value, service, and relevant BM dimension 
+[22]. Based on the BM nine building blocks and the key 
+aspects of the design of a business model [25], the BM 
+dimension of the CBM is identified with four dimensions: 
+value proposition, value configuration, value network, and 
+value architecture. The building block of the CBM can be 
+defined: 
+Cf= <value, Service, BM Dimension> Where value is the goal of an organization to runs their 
+business. The Service  describes the tangible and intangible 
+commodity which a company deliveries to customers. The 
+BM Dimension  generally explains the operational elements 
+included in the CBM to create value and deliver service. 
+Capturing and visualizing the CBM with its elements will 
+help organizations to greatly enhance abilities to understand 
+the complicated business logic and seize the first opportunity 
+to remain growth and strengthen. 
+IV. T HE ONTOLOGICAL FRAMEWORK OF CLOUD 
+BUSINESS MODEL
+ The rise of service-centric BMs which enabled by cloud 
+has transformed the way of enterprises to do works. In this 
+case, organizations offer standard services to the customers 
+for creating value, their target of core logic is the generation 
+of service and by the means of value-oriented operational 
+dimensions to gain value. Striving for value and keeping the 
+promise of services are companies’  main objectives. The 
+conceptualization of the CBM will make organizations to 
+successfully understand value, service, and relative operation 
+elements by detailing how it delivers products and services 
+profitably and how it plans to do so in the long term. In light 
+of the ontology of BM providing a semantic description of 
+BM for participants successfully understanding relevant 
+business logic [22] [23], this paper also adopts ontological 
+framework to conceptualize the CBM. Fig. 2 shows the top 
+level of the CBM ontology.
+What itpursues
+CBM
+BM dimensionServiceValue
+What it delivers
+Howitoperates
+Object Property
+Figure 2. Top level of the CBM ontology. 
+A. Value ontology 
+The value is a term that includes all forms of value that 
+determine the health and well-being of the firm in the long 
+run [26]. It mainly includes firm ’s economic value and 
+customer perceived value in this paper. The creation of value 
+is the core purpose and central process of doing business and 
+economic exchange. However, there is a gap on the concept 
+of value between products sale and service delivery. In 
+previous BM, enterprises ge t economic value by one-off 
+transaction and selling product ’s ownership. The customer 
+perceived value shows in the ass essment of the utility of a 
+product based on perceptions of what is received for what is 
+given. In the CBM, enterprises are not only pursuing the 
+economic value, but also getting more extra benefits from 
+their partners. The customer perceived value is an evaluation 
+in a specific situation of their purchase or use in a real 
+service, Fig. 3 shows the ontology of value in the cloud. The 
+customer perceived value partly depends on a tradeoff of the 
+533
+533
+533
+533
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:59:13 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+salient between give and get. However, customers mostly 
+trend to pursue customizations and good user experiences in 
+the cloud, so the user satisfaction that related to the decision 
+making about service repeated purchase cannot be ignored 
+any more. The perceptions of what is received for what is 
+given must satisfy customer expectation. Hence, the 
+customer perceived value depends on value realization and 
+the overall customer evaluation on its expectation contrast to 
+the value realization which includes customer ’s sacrifice, the 
+quality of service and other attributes what the customer 
+received from a service. The customer perceived value can 
+be formulated as follows:  
+VC=fc (Get, Sacrifice) + s c (Expectation, f c)
+Where  fc is a function which is the tradeoff of get and 
+sacrifice, scis the satisfaction function that is the tradeoff of
+customer ’s expectation and fc. 
+Firm ’s economic value is an economic measure reflecting 
+the market value of a whole business. However, in the 
+analysis of value creation, economic value generally denotes 
+a financial benefit that is realized when the amount of 
+revenue gained from a service exceeds the total cost needed 
+to sustain the service realize. In the CBM, enterprises have a
+relatively complicated value network and get more extra 
+benefits by well working with partners. The knowledge and 
+capability of partners may offer more opportunities for firms 
+to satisfy customer demands or cope with the market 
+fluctuation for gaining more benefits. Meanwhile, customer 
+perceived value impacts the po tential profit by influencing 
+the decision of repetitive purchase or spreading the 
+reputation of the service. Hence, enterprise value is the sum 
+of multiple benefits parts enclosed with the service delivery; 
+its formulation shows as follow:  
+VE=w 1*fe(Revenue, Cost) + w 2* E(b) + w 3* a*V C
+                                 ∑wi=1  ię[1,3] 
+Where  wiare the weight depend on firm ’s attributes. fe is 
+the profit of an organization gains from a business service. 
+E(b) is the extra benefit of an enterprise gains from its
+partners. a*V Cis the potential profit relate to the realization
+of service value and  aę[0,1] is parameter depends on sc.A  
+higher  scleads to a higher a.
+Enterprise Value
+CostProfits Extra Benefit
+CollaborativeDesig
+nhasProfitsCustomer
+Perceived ValueQoSSacrifice Satisfaction
+hasChild
+ValueRevenue
+MonetaryRealized Value
+NonmonetaryhasChild
+hasBenefit
+hasCosthasRevenue
+Knowledge
+RiskSharingCapabilityResponseTime ExecutionDuration
+Reputation
+Compen
+sationRateQualifiedRatehasSacrifice
+hasQ
+ualityhasValue
+hasChidlhasChidlhasSatisfaction
+ObjectProperty DataTypeProperty SuClassProperty
+Figure 3. The sub elements of value ontology. 
+B. Service ontology 
+The services are the main economic goods exchanged in 
+the CBM. It denotes a robust, cost-effective, and web-based 
+virtual service which is virtualized from real world service, 
+capabilities, and other resources by using  the X-as-a-service 
+model [27] and virtualization technology. Conceptualizing aservice can offer an organizational perspective of abstract for 
+the service which enables real world services, resources, and 
+capabilities to be accessed in "plug and play" approach. 
+Inspired by web service ontology, virtual service ontology 
+for virtual service is show in Fig. 4. Service Profile, Service 
+Model, and Service Grounding are three typically subclass of
+service ontology. Each instance of service has the details of 
+profiles, models, and groundings which are the essential 
+characters distinguish one service from another. 
+The service profile is similar to the profile of web service 
+that tells "what the service does", in a way that is suitable for
+a customer or a service-seekin g agent (or matchmaking agent 
+acting on behalf of a service-seeking agent) to determine if
+the function of service satisfy its needs [28]. This form of 
+representation provides the essential information, such as 
+input and output, type, and limitations on service function 
+and applicability for customer or  service-seeking agents to 
+discover a service. But, the difference is that the description 
+of service profile only represents what is done by the service 
+and does not include quality of service. Except the properties 
+of function description, the service profile also includes the 
+historical evaluation of reputation of service supplier. 
+The service model tells a client or an agent how to realize 
+a service, by detailing the outcomes, quality of service, and, 
+where necessary, the step by step subservice, processes and 
+activities which lead to these outcomes. That is, it describes 
+how to carry out a service. This description of service model 
+can be used by a customer or a service-seeking agent in at 
+least four ways: (1) to perform a more in-depth analysis of if 
+a service satisfy its need; (2) to realize a service composition 
+from multiple services to perform a specific service task; (3) 
+during the course of the service action, to coordinate the 
+activities of the different suppliers; and (4) to monitor the 
+execution of the service.  
+The Service grounding specifies the details of how a
+customer or an agent can access a service. This specification 
+mainly includes two parts. One is the details of information 
+system or web service which manage or exchange data for a 
+service. This part specification contents a communication 
+protocol, message formats, and other service-specific details 
+such as port numbers used in contacting the system or web 
+service for exchanging data elements. Another part is the 
+description of service executive, mainly includes the contact 
+information of firms, the contact details of manager, and the 
+way of complaints. 
+C. BM Dimension ontology 
+Having identified the primary operational dimension of 
+the CBM, their constituent elements also need to be figured 
+out for exactly showing that how an organization operates to 
+deliver services. Designing a service that user required 
+should make a balance of different and conflicting design 
+requirements presented within the four dimensions and their 
+sub elements. Fig. 5 gives an ov erview of these dimensions,
+based on value proposition; organizations could determine its 
+targeted value customers as well as their wants and needs in 
+relation to its offerings. The feature of the provided services 
+is highly correlated with the value configuration which is not 
+only dependent on the company ’s internal resources but also 
+534
+534
+534
+534
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:59:13 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+the resources it acquired from its partners. The value network 
+is relative to how a company organizes and keeps its 
+collaboration alliance. And then the value architecture is 
+concerned with all needed financial arrangements regarding 
+the other three dimensional. 
+Service
+Service
+Grounding
+SubServiceProfileTextDescription
+ServiceName
+FunctionalDescriptionOutput
+InputAction
+Object
+Process
+QoS OutcomeActivitySimple
+Process
+ResourceService
+Profile
+Supplier
+ObjectProperty DataTypeProperty SuClassPropertyService
+Model
+Grounding
+IS
+ExecutivehasOutput
+hasInputhasActionObject
+hasActivitysupports
+How to access it
+described
+ByHow it work
+sWhat it doespresent
+comp
+osedBypresentedBy
+hasChildhasChild
+composedBy
+hasGoundinghasQoSuses
+resultInhas ahas adescribesdescribeshas
+a
+Figure 4. The sub elements of service ontology. 
+BM
+DimensionsValue
+Network
+Value
+CofigurationValue
+Proposition
+Value
+ArchitectureCustomer
+ModelMarket
+ModelStrategy
+Modelservice
+CompetitorsGoalNetwork
+ModelProcurement
+Model
+Manufacturing
+ModelCollaboration
+ModelNode
+Revenue
+ModelCost
+ModelPricing
+Model
+Strategy
+modelStructure
+Format
+Activity
+ModelResource
+ModelProcess
+Competent RelationshipChannelSegment
+hasStructure
+has a has ahas a hasNode
+hasFormathasRelationship
+has ahasahas ahas a
+hasahasahas a
+has ahas amanagementunderstandingoperat
+ion
+designhas a has a
+has ahas ahas a
+hasCompet
+itors
+hasChannel
+hasSegment
+ObjectProperty SuClassPropertyhasChild
+Figure 5. The sub elements of BM dimension ontology. 
+The value proposition class w ith four elements describes 
+what the value is delivered by organizations to customers. It 
+implies a description of the services that organizations offer, 
+or will offer, along with their related information about the
+nature of customer and market along with their preferences. 
+This dimension also relates to st rategic changes on customer 
+relationships, target market segments, and products/services 
+design. Changes on each of its four elements may reform an 
+existing value proposition. In cloud, higher uncertainty and 
+customization are the main features of market demands; 
+organizations should provide better service by classier design 
+and better marketing than their competitors, and get value in 
+terms of reduction in cost of development, decreasing time to 
+the market, and improving quality  and customer satisfaction. 
+The value configuration class draws a top-level structural 
+design of an organizational alliance in the resource-based 
+view (RBV) [29] to realize a series of activities of a service. 
+This specification of resources model includes the resources 
+and competent configurations which are comprised of 
+different types of tangible/intangible organizational assets, social and technical resources, or core competencies which 
+are used to sustain a service. The activities model is a 
+structure of core activities that use recourses or competent 
+referred to the resources model. Organizations have to align 
+distributed resources along with its existing resources, and 
+allocate these resources in processes and activities which 
+should be controlled to deliver higher value propositions than 
+their competitors. Hence, organizational alliance design 
+based on RBV is a key enabler of combinative capabilities 
+which are important in produc ing rare, valuable, difficultly
+imitate, and non-substitutable products and services.
+The value network class describes social and technical 
+resources transactions and operations within and between 
+organizations towards the organizational framework in value 
+configuration by a cross-organizational analysis perspective. 
+The network model indicates network of nodes that represent 
+organizations (or roles). The node depicts different position 
+of an organization involved in the main functions relating to 
+the offerings, such as service design, marketing, and delivery. 
+It has relationships with other notes (partners). It includes 
+suppliers, manufacturer, distributors, marketers, customers 
+and even competitors in cloud environment. These nodes are 
+connected by interactions which represent intangible and 
+tangible deliverables (production s, semi-manufactured goods, 
+knowledge or other intangibles and/or financial value). The 
+description of procurement model underlines the details of 
+partners’  transactions includes procurement forms, as well as 
+purchase mechanism. The manufacturing model depicts the 
+roles of different organizations more clearly, and explicitly 
+shows how the value is exchanged or created among partners. 
+The collaboration model mainly describes the way in which 
+transactions with the coordination and collaboration among 
+parties, multiple companies and stakeholders. Based on this 
+view, this model also has a description of mechanism for 
+information sharing and decision synchronization, as well as 
+negotiation and agreement processes. 
+The last recognizable component is the way in which an 
+organization generates revenue and distributes profits with 
+partners. The main purpose of value architecture is strongly 
+connected with the financial design within organizational 
+alliance. The cost model represents how organizations plan 
+cost arrangements around enactment service with respect to 
+the revenue generation. The revenue model is a framework 
+for generating revenues, mainly includes a clear plan of how 
+to generate revenues, a specification of which revenue source 
+to pursue, and the description of target of revenue strategy. 
+The pricing model depicts pricing formats related to profit 
+distribution within partners. The price setting decision is
+extremely complex in a relative complicated value network 
+and also relates to the stabilization of value network, cost 
+arrangements and revenue streams. Hence, the pricing model 
+is the most important element in  this dimension for holding 
+together a long-term and stable collaboration alliance. 
+These four operational dimensions of the CBM along 
+with their constituent elements have been identified. These 
+dimensions are substantially interrelated and interdependent 
+with each other. In short, b ased on these dimensions, an 
+organization could determine its target customers, improve 
+resources configuration, optimize value network structure as 
+535
+535
+535
+535
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:59:13 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 7 ===
+well as adjust their financial plan to provide appropriate 
+service to the appropriate customer for tremendous value.
+V. C ASE STUDY
+In order to illustrate the reasonableness of the proposed 
+framework, companies from different industries in china are 
+selected as the cases to be studied. First one is Webank, the 
+internet banking for individuals and small medium enterprise 
+(SME) with the online process of application, Identification,
+credit assessment, and loan based on cloud. It represents a 
+newly emerging BM in the field of financial world. Different 
+from the present banks, it handles its whole businesses in an 
+online virtual account within seconds without storefronts and 
+bank cards. Second is Haier, one of the biggest electronics product manufacturers, is providing specialized one-stop 
+services and commercial manufacturing solutions recently.
+Last, Suning, which used to be one of the biggest electronics 
+products retailers, has adapted its traditional BM in the cloud. 
+Now, Suning professionally engages in the sale of electronic 
+products, the supply of services and commercial solutions.  
+We analyze these companies’  BM (the CBM) using BM nine 
+building blocks (see Fig.6) to show that many companies 
+from different industries have started to change their 
+traditional BM. And then we offer an example of proposed 
+framework for the Webank ’s SME loans service (a simple 
+case) to prove that the proposed framework is more 
+reasonable than the former (see Fig. 7) on describing the 
+essential business logic for business managers and designers.  
+Company Value configuration RelationshipDistribution
+channelTarget
+customerCore competency Value proposition Partner network Revenue model Cost structure
+Webank1.Rapid deposit and loan business
+(sub-millisecond online service)
+2.Virtual credit card
+3.Financial Solutions1.Monetary resources1.IndividualOnline
+communicationCo-creation1.Business application
+2.Identification
+3.Credit assessment
+4.Loan
+2.Information resourcesRapid service delivery1.Public Security Department
+2.Bank
+3.E-commerce company2.Information costs
+3.Information system
+costs1.Human cost
+InterestsActivities
+Resources2.SME
+Individual
+customers
+SuningService1.One-stop service
+2.New trial
+Manufacture and
+service deliveryOnline To
+Offline
+communication3.Personalized customization
+4.Differentiated service
+5.Price protection
+Com mercial
+solutions1.Central air-conditioning
+2.Washer, Cold cupboard,
+Television , Computer,
+Water Purifier
+3.Biomedical instrumentRetailer
+based region
+customersCo-creationActivities1.Design
+2.Production
+3.Transportation
+4.Install
+5.Maintain
+1.Raw material
+2.Manufacturing capacity
+3.Transport machine
+4.Manpower resource1.Suppliers
+2.OEM
+3.Logistics company
+4.Retailer
+5.Technical staff company1.Manufacturing costs
+2.Warehouse costs
+3.Transportation cost
+4.Installation cost
+5.Maintenance costs1.Profit of sales
+2.Profit of production
+3.Profit of maintenance
+ResourcesHaierIndividual
+customers
+Service2.Extended after service
+3.IT device remote service
+Commercial
+customers1.One-stop service
+4.Solutionds for central air-
+conditioning, washer, cold
+cupboard, Television ,
+Computer, Water Purifier
+1.Solutionds for central air-
+conditioning, washer, cold
+cupboard, television,
+computer, water purifier,
+central heating and dedusting
+system, smart home
+2.Solutionds for lighting system,
+conference system, security
+system, information and
+intelligent systemsStore based
+region
+customersCo-creationOnline To
+Offline
+communication1.Storage
+2.Transportation
+3.Install
+4.Maintain
+1.Warehouse
+2.Transport machine
+3.Manpower resourceService delivery1.Logistics company
+2.Technical staff company1.Warehouse costs
+2.Transportation cost
+3. Installation cost
+4.maintenance costs1.Profit of sales
+2.Profit of installation
+3.Profit of maintenanceActivities
+Resources
+Figure 6. Example of companies new BM. 
+Service
+Service
+GroundingIdentificationProfileMobilebasedservice
+Individual loan service
+On-lineloan originationserviceMoney
+Loan applicationUsers
+Process
+QoS Matchingphotograph
+PhoneService
+Profile
+PSBService
+Model
+Grounding ISExecutivehasActivitysupports How t
+oaccess i
+t describedBy
+HowitworksWhat it doespresent
+hasChildhasChild
+composedBy
+hasQoSuses
+resources has ahas a
+describesdescribeshasaBM
+DimensionsValue
+Network
+Value
+CofigurationValue
+Proposition
+Value
+ArchitectureCustomer
+ModelMarket
+ModelStrategy
+Model
+Ant FinanceGoalNetwork
+Model
+Manufacturing
+ModelSP
+Revenue
+ModelCost
+ModelPricing
+Model
+Strategy
+modelHuman
+cost
+Format
+Activity
+ModelResource
+ModelCredit
+assessment
+Relationship
+Web
+service/AppIndividuals
+/SME
+has a has aHas agoal
+hasNode
+hasFormathasRelat
+ionshi
+p
+hasahas ahasahas a
+has ahas ahasa
+hasahasamanagementunderstanding opera
+tion
+designhas a has a
+has ahasa
+has
+Competi
+tors
+hasChannelhasSegment
+hasOutput
+hasInputhasActionObjectEnterprise Value
+CostProfit Extra BenefithasProfitsCustomers
+Perceived Value QoSTime and
+InterestsSatisfaction
+hasChild
+ValueInterests
+MonetaryRealized Value
+TimehasChild
+hasBenefit
+hasCos
+thasRevenue
+Knowledge
+RiskSharingCapabilityResponseTime
+ExecutionDurationRate of interesthasSacrifice
+hasQual
+ityhasValue
+hasChidlhasChidlhasSa
+tisfaction
+ProfileIdentity
+Image of
+user faceImagehasOutput
+hasInputhasActionObjectCollaboration
+Model
+Procurement
+ModelSI Customer Process
+collaborationInformation
+collaboration
+GrantIdentification
+Information
+cost
+Information
+system cost Interests Information MoneyIdentification
+service
+invocation
+Credit
+assessment
+service
+invocationGrantProfit
+maximization
+Node
+StructureStrategic
+alliancesCost
+optimization
+Benefit
+shares
+mechanism
+Webank BMIndividual
+loan service
+Figure 7. The ontological framework of Webank ’s SME loans service. 
+As Fig. 6 shows, firms offer more professional service 
+and solutions. Some elements, such as value configuration, 
+partner network, and cost structure are relatively complex.
+However, the value system, the details of service, and the 
+complexity partner network aren’t  embodied in the BM nine 
+elements. On the contrary, these details are best illustrated by Fig. 7. As Fig. 7 shows, this framework can well reflect the 
+complex nature of business lo gic and operation processes. In
+part of value, the interests and time are the key elements 
+which determine the customer perceived value. At the same 
+time, the profit of the company also depends on loan 
+interests paid by customers. Hence, how to design the loan 
+536
+536
+536
+536
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:59:13 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 8 ===
+interests and reduce service execution duration is the primary 
+task for the company. In the part of service, the structure and 
+behavior of a service is well described. This part will help 
+designers to understand or define the service more quickly. 
+In the last part, BM dimension can well embody the 
+complicated operation logic of the company. In general, we 
+can conclude that the proposed framework is more 
+reasonable according to the above comparison and analysis. 
+VI. C ONCLUSION
+This paper first gives definitions and then studies the 
+evolution mechanism of BM in  the cloud. Then we analyze 
+the BIMs on BM nine building blocks and summarize the 
+building blocks of the cloud business model. We also 
+provide a complete ontological framework of cloud business 
+model showing that value ontology, service ontology, and 
+BM Dimension ontology. Finally, we use several industrial 
+cases to validate that this ontological framework of the cloud 
+business model can properly reveal the complex nature of 
+business logic. 
+The BM evolution mechanism and the ontological 
+framework of cloud business model discussed in this paper 
+will help stakeholders to improve their existing BMs for 
+adapting the business logics in the cloud environment. 
+ACKNOWLEDGMENT
+This work has been supported in part by the research 
+projects the Seventh Framework Programme of the European 
+Union PIRSES-GA-2011-295130 and National Nature 
+Science Foundation of China 71171066. 
+REFERENCES
+[1] Demil, Benoît, and Xavier Lecocq. "Business model evolution: in 
+search of dynamic consistency." Long Range Planning 43.2 (2010): 
+227-246. 
+[2] Pateli, Adamantia G., and George M. Giaglis. "Technology 
+innovation-induced business model change: a contingency approach." 
+Journal of Organizational Change Management 18.2 (2005): 167-183. 
+[3] Gromoff, Alexander, et al. "Business Transformation Based on Cloud 
+Services." Services Computing (SCC), 2014 IEEE International 
+Conference on. IEEE, 2014. 
+[4] Zhou, Nianjun, Satya Nitta, and Ajay Mohindra. "Causality Analysis 
+of IT Capabilities to Achieve Maximum Business Outcomes." 
+Services Computing (SCC), 2014 IEEE International Conference on. 
+IEEE, 2014. 
+[5] Jun, Chen, and Ma Yan Wei. "The research of supply chain 
+information collaboration based on cloud computing." Procedia 
+Environmental Sciences 10 (2011): 875-880. 
+[6] Tiwari, Animesh, and Megha Jain. "Analysis of Supply Chain 
+Management in Cloud Computing." International Journal of 
+Innovative Technology and Exploring Engineering (IJITEE) (2013). 
+[7] DaSilva, Carlos M., et al. "Disruptive technologies: a business model 
+perspective on cloud computing." Technology Analysis & Strategic 
+Management 25.10 (2013): 1161-1173. 
+[8] Xu, Xun. "From cloud computing to cloud manufacturing." Robotics 
+and computer-integrated manufacturing 28.1 (2012): 75-86. 
+[9] Berman, Saul J., et al. "How cloud computing enables process and 
+business model innovation." Strategy & Leadership 40.4 (2012): 27-
+35. [10] Etro, Federico. "The economic impact of cloud computing on 
+business creation, employment and output in Europe." Review of 
+Business and Economics 54.2 (2009): 179-208. 
+[11] Tao, F., et al. "Cloud manufacturing: a computing and service-
+oriented manufacturing model." Proceedings of the Institution of 
+Mechanical Engineers, Part B: Journal of Engineering Manufacture 
+(2011): 0954405411405575. 
+[12] Leukel, Joerg, Stefan Kirn, and Thomas Schlegel. "Supply chain as a 
+service: a cloud perspective on supply chain systems." Systems 
+Journal, IEEE 5.1 (2011): 16-27. 
+[13] Gurjar, Yuvraj Singh, and Vijay Singh Rathore. "Cloud business 
+intelligence –is what business need today." International Journal of 
+Recent Technology and Engineering 1.6 (2013): 81-86. 
+[14] Cegielski, Casey G., et al. "Adoption of cloud computing 
+technologies in supply chains: An organizational information 
+processing theory approach." The International Journal of Logistics 
+Management 23.2 (2012): 184-211.  
+[15] Schrödl, Holger. "Adoption of cloud computing in supply chain 
+management solutions: a SCOR-Aligned assessment." Web 
+Technologies and Applications. Springer Berlin Heidelberg, 2012. 
+233-244.. 
+[16] Wu, Yun, et al. "Cloud computing in support of supply chain 
+information system infrastructure: understanding when to go to the 
+cloud." Journal of Supply Chain Management 49.3 (2013): 25-41. 
+[17] Lindner, Maik, et al. "The cloud supply chain: A framework for 
+information, monitoring, accounting and billing." 2nd International 
+ICST Conference on Cloud Computing (CloudComp 2010). 2010. 
+[18] Valilai, Omid Fatahi, and Mahmoud Houshmand. "A collaborative 
+and integrated platform to support distributed manufacturing system 
+using a service-oriented approach based on cloud computing 
+paradigm." Robotics and Computer-Integrated Manufacturing 29.1 
+(2013): 110-127. 
+[19] Luo, Yong Liang, et al. "Study on multi-view model for cloud 
+manufacturing." Advanced Materials Research. Vol. 201. 2011. 
+[20] Morris, Michael, Minet Schindehutte, and Jeffrey Allen. "The 
+entrepreneur's business model: toward a unified perspective." Journal 
+of business research 58.6 (2005): 726-735. 
+[21] Hedman, Jonas, and Thomas Kalling. "The business model concept: 
+theoretical underpinnings and empirical illustrations." European 
+Journal of Information Systems 12.1 (2003): 49-59. 
+[22] Al-Debei, Mutaz M., and David Avison. "Developing a unified 
+framework of the business model concept." European Journal of 
+Information Systems 19.3 (2010): 359-376. 
+[23] Osterwalder, Alexander, Yves Pigneur, and Christopher L. Tucci. 
+"Clarifying business models: Origins, present, and future of the 
+concept." Communications of the association for Information Systems 
+16.1 (2005): 1. 
+[24] Mell, Peter, and Tim Grance. "The NIST definition of cloud 
+computing." (2011). 
+[25] Wirtz, Bernd W. "Business model management." Gabler, Wiesbaden 
+(2010). 
+[26] Sirdeshmukh, Deepak, Jagdip Singh, and Barry Sabol. "Consumer 
+trust, value, and loyalty in relational exchanges." Journal of marketing 
+66.1 (2002): 15-37. 
+[27] Wen, Xianhe, and Xiaojun Zhou. "Servitization of manufacturing 
+industries based on cloud-based business model and the down-to-
+earth implementary path." The International Journal of Advanced 
+Manufacturing Technology (2014): 1-18. 
+[28] Cronin, J. Joseph, et al. "A cross-sectional test of the effect and 
+conceptualization of service value." Journal of services Marketing 
+11.6 (1997): 375-391. 
+[29] Wernerfelt, Birger. "A resource ̺based view of the firm." Strategic 
+management journal 5.2 (1984): 171-180. 
+537
+537
+537
+537
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:59:13 UTC from IEEE Xplore.  Restrictions apply. 
+

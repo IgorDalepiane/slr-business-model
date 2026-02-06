@@ -1,0 +1,538 @@
+=== PÁGINA 1 ===
+A Study on a Decentralized SaaS Business Model  
+ 
+Jinyi WU 
+College of Science  
+Central South University of Forestry and Technology  
+Changsha, China 
+wujinyi994@gmail.com Pinata WINOTO 
+Department of Computer Science 
+Kean University, Wenzhou Campus 
+Wenzhou, China 
+pwinoto@wku.edu.cn
+Woojin PAIK 
+Department of Computer Science 
+Konkuk University 
+Chungju, Republic of Korea 
+wjpaik@kku.ac.kr 
+  
+ 
+ 
+ 
+ 
+ 
+Abstract — In this paper, we show our study on a market 
+model of mobile SaaS (Software as a Service) servers in a semi-
+cooperative environment. We propose a decentralized SaaS 
+(Software as a Service) business model and compare it with a 
+common centralized model in cloud computing. First, we 
+define the problem and derive some necessary conditions for 
+the adoption of decentralized model. Then, using periodic user 
+demand, we simulate and analyze the revenue of decentralized 
+servers assuming servers will maximize their revenue. Five 
+different service selection strategies are simulated and their 
+results are analyzed.  
+Keywords- SaaS, decentralized model, selection strategy 
+I.  INTRODUCTION  
+This work is an extension of previous work [1] by 
+considering a different demand pattern. In addition, we 
+further demonstrate the benefit of distributed software as a 
+service (SaaS) business models. In current SaaS business 
+models, customers connect to the service provider’s 
+server(s), use its application(s) and pay it. For a medium- or 
+large-size service provider, it may manage its own data 
+center (applications and database) in order to control its 
+service, maximize its revenue (due to economies of scale), 
+and being less dependent from other intermediary 
+companies. However, for a small provider, it may be more 
+beneficial for it to host its application(s) on top of other 
+PaaS/IaaS provider(s). Regardless where a service provider 
+put its application(s), as a business entity, it directly interacts 
+with its users, as depicted in Figure 1.   
+ 
+ 
+ 
+Figure 1.  Interaction between a provider (shaded area) and its users in a 
+common centralized business model 
+As shown in Figure 1, in a common centralized SaaS 
+business model, the headquarters (HQ) and local servers 
+belong to the same business entity (shaded area), that is, the 
+provider. Local servers, either owned by HQ or outsourced 
+to other companies, are local data centers physically close to 
+users. However, since users only interact with HQ without 
+knowing whether they are accessing data center in HQ or 
+local server(s), they are unaware about the business 
+relationship between HQ and local servers. Hence, when 
+some service errors/troubles occur, users have to contact the 
+HQ for the solution. 
+Two drawbacks of the centralized business model are 
+obvious. First, when a growing mid-size provider broadening 
+its business to global market, it may suffer from many 
+investment and management issues, which are similar to 
+those faced by non-IT companies that resulted in their 
+adoption of a franchise business model. Second, when a 
+provider suffers from a server emergency, such as the 
+incident happened in Amazon AWS [2], or a security attack, 
+such as DDoS, the whole chain of its market will face a 
+serious problem, which is commonly known as the single-
+point-of-failure problem. To avoid either one, we propose 
+and analyze a distributed business model, which could be an 
+alternative here. 
+II. RELATED WORKS  
+Our work, including previous work [1], is closely related 
+to others in Grid computing and multi-agent systems (MAS). 
+2015 International Conference on Network and Information Systems for Computers
+978-1-4799-1843-0/15 $31.00 © 2015 IEEE
+DOI 10.1109/ICNISC.2015.74389
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:54:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+Although Grid computing and cloud computing are not the 
+same, the gap between them has been minimized since Grid 
+computing has attempted to provide more affordable and 
+accessible services.  
+A. Pricing Mechanisms on the Grid 
+In [3], Wolski et al. considered storage capacity and CPU 
+power as resources, where consumers may request a 
+specified amount of them from provider in a market. Their 
+results indicate that using commodities markets outperforms 
+auction mechanisms for controlling Grid resources.  
+Beyond a simple commodity market model, Steur et al. 
+[4] allowed trading and pricing of substitutable goods. Two 
+substitutable goods with different prices are considered in 
+their market: low-end and high-end compute nodes (e.g., 
+‘fast’ or ‘slow’ CPU). In addition, they considered 
+consumers, providers, and the market itself as the basic 
+market elements, where consumers/providers follow 
+different buying/selling strategy. They assumed that network 
+and storage are interchangeable; however, quality of service, 
+available memory, and network bandwidth are ignored in 
+their model. 
+Both Kang et al. [5] and Buccafurri et al. [6] tried to 
+improve the QoS requirement of the market. In [5], the 
+authors proposed an algorithm, Highly Available Job 
+Execution Service (HA-JES), to replicate jobs and assign 
+them to under-utilized and under-priced resources. In [6], the 
+authors provided several QoS frameworks with multiple 
+layers: response time, price, availability, reputation, and data 
+quality timelines, accuracy, and completeness.  
+B. Load balancing in Multi-Agent Systems  
+Chow and Kwok [9] discussed the load-balancing design 
+choices in the area of multi-agent computing. They 
+developed a communication-based load balancing algorithm 
+which works on the basis of the credit value of each agent. 
+They assigned a credit value to agents on the basis of its 
+affinity to a machine, its current workload, its 
+communication behavior, and mobility. Whenever there is 
+load imbalance in the system, the credit value of all the 
+agents are examined and an agent with a lower credit value is 
+shifted to the lightly loaded machine. 
+Bigham and Du [10] describe the cooperative negotiation 
+approach of multi-agent systems for real-time load balancing 
+in mobile cellular networks. They used negotiations based on 
+certain number of possible local hypotheses instead of using 
+a formal negotiation model of alternating offers.  Their 
+system works on the basis of an agreement made between the 
+agents based upon the negotiation. The negotiation in their 
+system is part of the planning layer and agent system 
+resource management in 3G wireless networks. 
+III. PROPOSED DECENTRALIZED MODEL  
+A decentralized business model of SaaS is illustrated in 
+Figure 2.  
+ 
+Figure 2.   Interaction in a decentralized business model, where local 
+servers are belong to independent business entity 
+Similar to that in Figure 1, the shading areas in Figure 2 
+represent independent business entities. In this case, local 
+servers are competing with each other to maximize their own 
+profit; meanwhile, they may provide similar 
+services/applications to their customers. Hereafter, the term 
+“server” refers to a business entity (e.g., a URL) that 
+provides services in the context of decentralized SaaS model. 
+Since servers are not necessarily identical, they may have 
+different capacities, located in different geographical area, 
+have different operational costs, serve different customers, 
+and may provide different services obtained from HQ.  
+We assume the market as a brand-branch reseller and 
+local servers try to maximize their own profit. A benefit for 
+HQ is it can save the connection/traffic cost, use less data 
+center, and concentrate on its product development. Indeed, 
+local servers will get some supports from their HQ and pay 
+license fee according to the number of users or usages. HQ 
+may have some brand products and responsible for their 
+global advertisement, R&D, and training. For example, every 
+local server may be required to provide certain applications 
+(e.g. the brand products), but may opt to serve other 
+applications depending on their market demands. Hence 
+under these settings, local servers may adjust their services 
+according to their local demands in order to maximize profits 
+[1]. Note here, we assume that changing service 
+(installing/uninstalli ng software) does not consume much 
+time/cost. 
+Since HQ also wants to maximize its profit, that is, the 
+total amount of license fee paid by local servers after 
+deducted by its cost, it should consider a flexible pricing of 
+its products and the license fee it will charge. Some factors 
+that it may consider include: the operating cost of local 
+servers may vary depending on their location, the service 
+speed (bandwidth) of local servers may vary, and the demand 
+size from customers to the servers may vary too. Hence, 
+charging a flat rate to customers and local servers may not be 
+an optimal strategy. In the real free market, the pricing 
+mechanism is dynamic and more complicated, that is, prices 
+might go up with an increase in the market demand and go 
+down when the demand from users dropped (this situation is 
+similar to the phenomena in the commodity market). But in 
+our model, we only consider a fixed price, which may be true 
+within a specific time period in an oligopolistic model. 
+390
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:54:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+IV. SIMULATION ANALYSIS  
+Similar to that in [1], we proposed four different 
+strategies for a local server to increase the QoS. Here, the 
+total cost (queue length) and satisfied level (number of 
+satisfied requests) are two dominant factors that affect QoS. 
+For example, if N clients request the same service, which is 
+only provided by a server, then the queue length will be N. 
+But if two servers could provide the same service, the queue 
+length reduced to N/2, which means a better QoS. In our 
+experiment, we assume local servers’ consideration is not 
+only QoS, but also revenue and profit. In principle, the 
+underlying results will be the same, because eventually each 
+server will try to provide services with the highest demand. 
+In the next subsection we will discuss the simulation on the 
+SaaS market in which servers may switch their services. 
+A. Basic Setup 
+We assume there are five local servers {S1, S2, S3, S4, 
+S5} which can provide ten different customized applications 
+denoted by {Item1, Item2, …, Item10}. Since the servers are 
+heterogeneous with respect to their computational capacity, 
+they have different capacities to provide 3, 4, 2, 6, and 1 
+item(s) respectively. We assume there are one hundred 
+clients {C1, C2, …, C100} requesting the applications. The 
+requests in this experiment is to simulate cyclical data, says, 
+on weekly data (more requests on workdays and less on 
+weekend), with some random noise to resemble real data. 
+Figure 3 shows the requests of 100 cycles (weeks) used in 
+the simulation. This request pattern is different from a 
+random request reported in [1]. Finally, we use five different 
+sets of initial server conditions to observe the diverse results.  
+ 
+ 
+Figure 3.   Requests (100 cycles) from 100 clients 
+We apply the following method to all clients and 
+applications (items): if client C1 requests item1 then it will 
+search from S1. If S1 can serve Item1 then C1 will get it 
+from S1. Then, the next request for Item1, say by C4, will be 
+matched to S2 instead of S1, and if S2 can serve Item1, then 
+it will take the item from S2. However, if S2 does not serve 
+Item1, then the client will go through the others server (from 
+S3 to S5) to find Item1. If none of them serve Item1 then it 
+will go back to S1. In this situation, S1 will have a queue 
+with the length of 2 (serving both C1 and C4).  
+The simulation runs for 100 requesting cycles (a 
+hypothetical time period).The clients requests may come at 
+any time and not deterministic. In the reality, a cycle could be a day, or some other period of time, here, according to our 
+generated data, the requesting cycle denotes a week. In every 
+cycle, servers cannot change their applications and we also 
+arrange the requests such that each application has been 
+requested at least once by the clients. Fig. 3 shows the 
+hypothetical requests used in our experiment. 
+The numbers of clients, servers and their capacity, and 
+even cycles in the simulation were set a little limited since 
+the simulation requires quite much processing time. One will 
+extend these numbers in the future when a better computing 
+power is available.  
+Our assumption considers as well that the cost of 
+selecting each application is proportional to the queue length. 
+For example, if two clients are using the same application at 
+the same local server then the cost for each is higher than 
+when there is only one client using the application. Hence, 
+local servers cannot only care about the short term revenue 
+but also should keep the regular clients and servers switch 
+their applications correctly for them to anticipate client 
+requests in an ideal free market mechanism, especially to 
+minimize the public or social cost. It is not only for solving 
+load balancing issue, but also for reducing response time and 
+increasing the availability, which have been considered as 
+major issues in distributed computing. 
+After every cycle, the ratio of the total requests to the 
+total servers providing that application is calculated. This 
+ratio is nothing but the service load, which may be used by a 
+server to decide its future services. For that purpose, we 
+denote t-1 for the ratio of the past cycle, t-2 for that of the 
+previous 2 cycles, and t-3 for the previous 3 cycles. Then, 
+after every 3 cycles the demand factor, d, is calculated using 
+eq. (1): 
+d = 0.3 t -1 + 0.2 t -2 + 0.1 t -3  (1) 
+Eq. (1) represents the service load history in the market. 
+Here, the application having the highest value of d is the one 
+that clients may request the most in the future. Certainly, one 
+may argue to use a different equation in the forecast of future 
+demand. We will leave the variation of it for future work. 
+The following algorithm shows how to select a server for a 
+given request. 
+As mentioned previously, servers switch their 
+applications on the basis of the demand factor d. In this paper 
+five different strategies that may be adopted by servers have 
+been studied, they are: Fixed, All move, Rich move, Poor 
+move, and Poor request-rate move. The characteristics of the 
+first four can be found in [1]. Below we only discuss the 
+characteristic of Poor request-rate move . In this move, those 
+servers whose request rate is less than the average request 
+rate are defined as poor. Here, request rate is calculated after 
+every fixed interval, or in this simulation is calculated after 
+every 3 cycles as follow, 
+For Each Server, 
+Request Rate = Total Requests Received / Server Capability 
+391
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:54:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+Here, server capability is the number of applications a 
+server can serve. The server is not poor if it has a high 
+request rate even if it can only serve very few applications or 
+has very low capability. But a server is considered poor if it 
+receives a low request rate only. So the servers with low 
+request rate are motivated to gain high request by moving 
+their applications to serve the applications with high demand 
+factor. 
+B. Experimental Setup and Metrics 
+In the simulation, all applications will be completely 
+served. We use 10 different initial item conditions (called 
+Trial 1 to Trial 10) for statistical purposes. The diversity of 
+these initial item conditions is purportedly to include the 
+following features: 
+• Some applications will not be served in the initial 
+state. In this case, all servers pick their own initial 
+items. 
+• All applications will be uniformly served at the 
+beginning. In this case, the HQ arranges the initial 
+items so that all items can be provided uniformly. 
+• An application will be served by all the servers 
+initially (trial 9 and 10). In this case, the HQ 
+requests the local servers to provide a brand product 
+at the initial state. 
+Then, we will check performance of all the strategies 
+mentioned above and compare their advantage or 
+disadvantage using three metrics: total costs, total revenue, 
+and satisfaction rate. The total costs depend to the length of 
+queue l, that is, Cost = 0.5 l (l + 1). The total revenue is 
+proportional to the number of satisfied requests or queue 
+length. We assume here that all item prices are equal (= 1). 
+The satisfaction rate refers to the ratio of the number of 
+requests that can be served. This is the concern of HQ, 
+because a higher satisfaction rate means a larger usage or 
+total revenue. Note, all of these metrics related to the local 
+server’s profit, but it is imperative to report them 
+individually since they have some relevancies to the server’s 
+and HQ’s goal.  
+C. Results 
+Table 1 demonstrates the experimental results using the 
+four different strategies from all 100 clients in 100 cycles. 
+The “Sum” columns report the sum of 5 servers’ total costs 
+or revenue. The “Avg” columns report the average value per 
+server (after dividing it with the capacity). We use bold fonts 
+for the highest number within a group (column) and italic 
+fonts for the lowest number. 
+In most cases, the average revenue proportionally aligns 
+with the average costs, that is, higher average revenue for 
+server means higher average cost for users (longer queue). 
+However, some anomalies appear, for example the lowest 
+average revenue in Rich Move  group is for server S5, while 
+the lowest average cost in the same group is for server S2. 
+Next, we will provide some analysis on each strategy. 
+Fixed strategy  is found to be the best method to earn the 
+highest total revenue for all five servers, with the highest 
+satisfaction rate too. Certainly, it also causes the highest 
+average costs for customers. However, the top amount of profit does not mean that every server can get more revenue 
+than the case of using others strategies. For example, S5 
+earned 15154 with Fixed strategy , which is greater than the 
+11042 profit of using Poor-request-rate-move strategy , but 
+S4 shows the contrast (26331 which is a little less than 
+27050). As we previously mentioned, we assume that every 
+server is selfish so servers should not keep holding their 
+applications all the time to indulge competitors; hence, we 
+only consider Fixed strategy  as a benchmark. 
+The Poor-move strategy  and Poor-request-rate-move 
+strategy are similar in some aspects. All servers (S1-S5) 
+show no big differences with respect to their revenue. But 
+note that Poor-move strategy  gave more benefits to the 
+servers with less capability and Poor-request-rate-move  
+strategy  can help the ambitious and competent servers more. 
+Obviously, Rich-move strategy  expressed the worst 
+performance with respect to the revenue and satisfaction rate 
+among all strategies. The reason is, by adopting this strategy 
+all capable/rich servers may move synchronously to serve 
+highly demanded applications; hence, leaving a large fraction 
+of less-demanded applications unsatisfied. However, due to 
+the competition among rich servers, it will bring some 
+benefits for poor servers (S3 and S5), which show a larger 
+average revenue than in other strategies. 
+The experiment here shows the superiority of Fixed 
+strategy  as well. This is not surprising, because under 
+periodic requests, a slow reaction (switch items) may 
+become a lag that penalizes the server; hence, Fixed strategy  
+may be better here. To improve the server revenue (and also 
+the satisfaction rate), a fast learning method or a method that 
+can recognize the periodic pattern should be adopted, which 
+are left for the future work. 
+To further analyze the impact of initialization (HQ 
+strategy), Table 2 shows the satisfaction rate for various 
+initial values. Under some initial items, the servers gain 
+100% satisfaction rate without altering their items (case 5 
+and 8). Hence, altering items may not increase but reduce 
+this rate. However, in some other cases where the initial 
+items will not attain a high rate, altering items may help to 
+improve the satisfaction rate (e.g. in case 1 and 10). 
+D. Limitations of Current Simulation 
+Although we try to make the simulation like the reality 
+experiment, it also has some limitations. The first weakness 
+is that the experiment scale (number of servers and clients) 
+were limited, we took hundred clients and only five servers 
+for reducing the burden of simulation, but it is common for 
+millions of clients generate billions requests for several 
+server clusters in the real application, so it is meaningful to 
+extend the scope of the simulation in the future work. 
+Secondly, in the real world, the item prices of all the 
+applications may be different and servers may have different 
+priorities for different applications from their business 
+viewpoint. However, we assumed they are the same here. 
+Hence, we need to incorporate such strategies to strengthen 
+the simulation in the future. Finally, we also can add some 
+assumptions such as the number of clients may decrease 
+(quit) when they are waiting in the queue which is common 
+in the reality. One may improve the simulation in the future 
+392
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:54:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+if he/she can overcome these limitations and refine the 
+selection strategies (or adopt more strategies) to make the 
+simulation closer to the real world scenario. 
+V. CONCLUSIONS  
+Despite the simulation was carried out with many 
+assumptions, the experimental results demonstrated the 
+various effects caused by different service selection 
+strategies in a semi-cooperative SaaS market, and it has 
+addressed some important research issues in the context of 
+SaaS market. These assumptions are based on the theoretical 
+analysis in [1], in which we assume that the HQ adopts 
+decentralize business model and imposes zero fixed service; 
+hence, allowing all local servers to select the service.  
+In our preliminary simulation [1], some adjustment 
+strategies are better than just providing the same applications 
+all the time ( Fixed strategy ); and we showed that providing 
+the most demanded applications by all the servers is not a 
+good strategy. But in our later simulation Fixed strategy  is 
+better compared to others strategies. The differences are 
+mainly caused by the adoption of periodic requests in our 
+simulation. 
+TABLE I.  EXPERIMENTAL RESULT  
+Strategy Server Capacity Rev. Toral 
+Rev. Avg.rev./
+server 
+Fixed S1 3 65178 
+361438 21726 
+S2 4 88407 22102 
+S3 2 34715 17358 
+S4 6 157984 26331 
+S5 1 15154 15154 
+Poor 
+move S1 3 71244 
+355285 23748 
+S2 4 85269 21317 
+S3 2 30653 15327 
+S4 6 156305 26051 
+S5 1 11814 11814 
+Rich 
+move S1 3 59068 
+315727 19689 
+S2 4 66078 16520 
+S3 2 39404 19702 
+S4 6 134956 22493 
+S5 1 16221 16221 
+Poor 
+request-
+rate 
+move S1 3 70663 
+357261 23554 
+S2 4 85044 21261 
+S3 2 28214 14107 
+S4 6 162298 27050 
+S5 1 11042 11042 
+ 
+ The strategies like Poor Move/ Poor-request-rate-move 
+are definitely better in some way than Fixed  method but the advantages are very limited here. So a question arises here: Is 
+there a better strategy than them when the demand is 
+periodic? We believe the real market situation is more 
+complicated than the current simulation. There are many 
+problems and factors that we should consider before we can 
+derive a strong conclusion or find a best strategy in the semi-
+cooperative SaaS market. For example, maybe some servers 
+have particular preferences on specific applications, and 
+some servers will avoid serving some particular applications 
+at all; or, we should consider that the queue length will 
+decrease over time. Some conditions may change the 
+servers’ objective function in selecting their service(s) over 
+time. For example, if auction between servers and clients are 
+allowed or servers can provide the applications in a bundle 
+instead of providing them in individual applications, then 
+they may increase clients’ loyalty and the revenue. These are 
+some issues that may be pursued in the future. 
+TABLE II.  EXPERIMENTAL RESULTS FOR VARIOUS INITIAL CONDITIONS  
+Init Items Satisfaction rate (%) 
+Fixed Poor 
+move Rich 
+move Poor 
+request-
+rate move 
+1 69.54  76.18  70.63  69.66  
+2 89.92  86.50  86.87  80.08  
+3 89.78  79.89  70.41  88.40  
+4 90.08  90.97  76.58  90.97  
+5 100.00  100.00  66.80  100.00  
+6 89.99  89.99  64.06  89.99  
+7 89.78  89.78  79.68  89.78  
+8 100.00  90.11  83.05  90.11  
+9 79.70  80.58  81.46  80.00  
+10 69.61  69.61  79.87  69.61  
+ACKNOWLEDGMENT  
+This project is partially funded by Hunan Provincial 
+Science & Technology Department (no.2014WK3009) and 
+Konkuk University Research fund. 
+REFERENCES  
+[1] Byanjankar, S., Winoto, P. and Paik, W. (2010). “On the SaaS 
+Servers and their service-selection strategies.” In Proc. 6th Int. Conf. 
+Networked Computing and Advanced Information Management, vol. 
+2, 2010, pp. 440-445. 
+[2] Lohr, S. (2011). “Amazon’s Trouble Raises Cloud Computing 
+Doubts.” The New York Times, April 22, 2011. Retrieved on May 1, 
+2011 from: 
+http://www.nytimes.com/2011/04/23/technology/23cloud.html 
+[3] Wolski, R., Plank, J. S., Brevik, J. and Bryan, T. (2001). “Analyzing 
+market-based resource allocation strategies for the computational 
+grid,” Int. J. High Performance Computing Applications, 15(3), 2001, 
+pp. 258-281.  
+[4] Stuer, G., Vanmechelen, K. and Broeckhove, J. (2007). “A 
+commodity market algorithm for pricing substitutable grid resources,” 
+Future Generation Computer Systems, 23, 2007, pp. 688-701.  
+393
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:54:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+[5] Kang, W., Huang, H. H. and Grimshaw, A. (2007). “A highly 
+available job execution service in computational service market,” in 
+Proc. 8th IEEE/ACM Int. Conf. Grid Computing, Austin, 2007, pp. 
+275-282.  [6] Chow, K. and Kwok, Y. (2002). “On load balancing for distributed 
+multiagent computing,” IEEE Transactions on Parallel and 
+Distributed Systems, 13(8), 2002, pp. 787-801.  
+[7] Bigham, J. and Du, L. (2003). “Cooperative negotiation in a multi-
+agent system for real-time load balancing of a mobile cellular 
+network,” in Proc. AAMAS’03, Melbourne, 2003, pp. 568-575.
+ 
+394
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:54:22 UTC from IEEE Xplore.  Restrictions apply. 
+

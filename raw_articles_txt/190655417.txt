@@ -1,0 +1,505 @@
+=== PÁGINA 1 ===
+eChallenges e-2015 Conference Proceedings
+Paul Cunningham and Miriam Cunningham (Eds)
+IIMC International Information Management Corporation, 2015
+ISBN: 978-1-905824-53-3
+Commercialization of Composite Software 
+Resulting from Collaborative Research
+Katarina STANOEVSKA-SLABEVA1, Rolf FRICKE2
+1MCM University of St. Gallen, Blume nbergplatz 9, St. Gallen, 9010, Switzerland
+Tel: +41 71 2242793, Fax: + +41 71 224 2771, Email: katarina.stanoevska@unisg.ch
+2Condat AG, Alt-Moabit 91D, Berlin, 10559., Germany
+Tel: +49 30 39490, Fax: + 49 30 39491300, Email: rolf.fricke@condat.de
+Abstract: Collaborative research project s dedicated to information and 
+communication technology and supported by the Framework Program s of the 
+European Commission result often in both partnerships among inv olved companies 
+and prototypes of common, composite software products. One prob lem of 
+commercializing these common produ cts is the transition from a project to a 
+commercial setting and the development of a suitable inter-comp any business model. 
+In many cases none of the involved companies is able to take ov er the responsibility 
+for the common product based on approaches involving joined ven tures, binding 
+supplier contracts or buying of licenses from other partners. T hus, flexible business 
+models are required that are based on loose partnerships among involved companies, 
+but still enable a common presence on the market. By drawing fr om and combining 
+aspects from the concepts of value networks and software ecosys tems, this paper 
+provides two results: a design procedure and an overview of des ign options for 
+development of inter-organizational business models for composi te software products 
+based on loose partnerships among involved companies.
+1. Introduction
+The framework programs (FP) of the European Commission (EC) are one important public initiative with an aim to finance collaborative research. Multi ple exemplary past projects have 
+been conducted in the area of information and communication tec hnology (ICT) —the area 
+in which the research presented in the paper at hand evolved. B esides research and 
+development, ICT FP projects are  increasingly dedicated towards  innovation and 
+commercialization of results of collaborative research, typical ly available as prototypes of 
+software products consisting of complementary contributions from multiple project partners.Despite the focus on commercial s uccess, individua l partners of ten rate the results of 
+collaborative projects, in partic ular the commercialisation and  the direct use of their results 
+and related monetary returns, as less successful [1]. Issues to be targeted in this context are 
+the shift from a project to a setting with commercial aims, and  the development of inter-
+company business models suitable for composite software product s comprising 
+complementary components from several independent partners. Spe cific difficulties arise 
+from the fact that at the end of the research projects the comm on product might not be mature 
+yet. Furthermore, in many cases none of the involved companies is able to take over the 
+responsibility for the common product based on approaches invol ving joined ventures, 
+subcontracting or buying of licen ses from other partners. Thus,  in these types of projects, a 
+mutual commercial future is conceivable only if it is possible to define a common commercial 
+setting that, despite being based on loose partnership relation ships among involved software 
+companies, still enables a common presence on the market.
+Copyright © 2015 The Authors www.eChallenges.org Page 1 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+Even though existing literature describes different forms of inter-company business
+models within the software indus try (e.g., [18; 2; 20; 30]), th ere is a lack of guidelines for 
+implementing viable business models that are suitable for the a bove described inter-company 
+setting involving both a composite software product and loose p artnerships among involved 
+software companies. The paper at  hand aims to provide a contrib ution to filling this gap by 
+proposing guidelines for development of inter-company business models suitable for these 
+type of settings. By applying th e design science approach [9], two design artefacts (i.e. 
+guidelines) are provided: a des ign procedure (DP) suggesting a sequence of design decisions 
+that need to be undertaken in the process of business model des ign, and an overview of 
+detailed design options (DOs), i.e. design choices for differen t aspects of the respective 
+business model.
+Deriving from a case study of a FP7 ICT research project, the m ain requirements upon 
+collaborative business models are first identified and synthesi zed to a generic research 
+problem. Then, based on a broad literature review, and by combi ning components from both 
+the concept of value networks (VN) and software ecosystems (SEC O), the two design 
+artefacts for inter-company business models for composite software have been developed. 
+The two design artefacts have been evaluated t hrough their appl ication in order to develop a 
+solution for the chosen FP7 ICT research project.
+The content of the paper is structured as follows: section 2 de scribes the applied 
+methodology; section 3 describes the results of the four design  science phases; section 4 
+provides a summary and discussion of the achieved research resu lts as well as an outlook.
+2. Methodology
+Driven by the specific case of an FP7 ICT project, the research  problem considered in this 
+paper is characterized by a practical nature. Design science re search aims at solving practical 
+and theoretical problems by crea ting and evaluating information  technology related artefacts 
+(i.e. guidelines) intended to solve identified organizational p roblems [9]. Hence, it is 
+considered as a suitable problem-oriented approach [12] for gui ding the research presented 
+in this paper. To come to rigorous and relevant research result s, four phases of the design 
+science research approach have be en applied as proposed by [9]:
+1)Problem Identification and Motivation. In the first phase, the research problem and its 
+practical relevance have been specified. Furthermore, the case study of a FP7 ICT 
+collaborative research project h as been introduced and the clas s of problems represented 
+in it have been identified. Base d on the problem scope, the res earch questions guiding 
+this paper have been derived.
+2)Define the Objectives for a Solution. In the second phase, the object ives for a solution of 
+the problem have been inferred by deducing requirements from th e chosen case and 
+aggregating them to generic requi rements which characterise the  identified class of 
+similar problems.
+3)Design. In the third phase, two design artefacts have been proposed: a design procedure 
+(DP) and an overview of design options (DO) for inter-company b usiness models that 
+offer composite software products. The design guidelines result ed from a broad literature 
+analysis conducted by followi ng the approach proposed by [23]
+4)Demonstration and Evaluation. In the fourth phase, the proposed design artefacts have 
+been applied to form a solution for the FP7 ICT research projec t. The solution is 
+consequently evaluated by the involved research partners.
+The results of each of the four  phases are described in detail in the subsequent sections.
+Copyright © 2015 The Authors www.eChallenges.org Page 2 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+3. Design
+3.1 Problem Identification and Motivation
+The research problem and motivation will be illustrated on the chosen collaborative ICT FP7 
+research project. These types of projects are co-financed by a consortium of public, academic 
+and private partners [21]. The i nvolved partners share a common  research interest, contribute 
+complementary competences, and work across disciplinary, organi sational and national 
+boundaries to create a solution together. The results of these ICT research projects are mainly 
+composite software products consisting of complementary contrib utions of independent 
+software providers partic ipating in the projects.
+The chosen FP7 ICT collaborative research project started in Oc tober 2011 and ended in 
+March 2015. The project was inspi red by recent statistics about  new behavioural patterns of 
+TV audiences. It is becoming a widespread habit to consult a se cond screen, such as a 
+smartphone or tablet while watching TV. One of the most common motives for using a second screen is to search online for additional information re lated to a TV program. Driven 
+by these findings, the project was initiated with the vision of developing an end-to-end composite software solution for au tomated enrichment of audio-v isual content with related 
+online information. To achieve this goal, a research consortium  of independent partners 
+providing necessary complementary competencies and software com ponents was created. 
+These specific competences are: 1) automatic analysis of video material, including the 
+division of vide os into meaningful fragments, the recognition of objects and entities, and the 
+creating of related metadata; 2) creation of a semantic query b ased on the metadata; 3) 
+querying of online sources listed on a white list and linking t he relevant online sources to the 
+video’s metadata; 4) editing, ma nual curation and selection of the collected online 
+information (see Fig. 1). The result of the first four activiti es is a video with enriched metadata 
+that can be stored and further used by the video owner. It can also be used by the fifth 
+component provided by the project—the multiscreen toolkit (c.f.  1) for creating second 
+screen or other types of enric hed video applications. One of th e project partners developed a 
+workflow component (component 6 i n Fig. 1) that orchestrates th e usage of all other involved 
+components.
+Figure 1: The Composite Software Product
+Overall, there were six independe nt companies participating in the final composite 
+software solution: three SMEs, one university, and two applied research centres. In addition, 
+one university was responsible for  the scientific project manag e m e n t .  A  b r o a d  m a r k e t  
+analysis and feedback from potential customers revealed that there is a market potential for the end-to-end solution resulti ng from the project. For that re ason, the project partners 
+decided to commercialize the common, composite software results . Consequently, the main 
+concern became to master the t ransition from a collaborative pr oject to a commercial setting 
+by combining the interests of all parties involved in order to generate value for each of them. 
+An analysis of the investment strategies and possibilities of t he involved partners quickly 
+revealed that a business model based on the following prevailin g commercial solutions would 
+not be possible:
+Copyright © 2015 The Authors www.eChallenges.org Page 3 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+xSolutions were one of the partne rs takes over the responsibility and the risk to bring the 
+common product to the market by way of software subcontracting or buying licenses from 
+other partners;
+xSolutions where several partners take over the responsibility a nd the risk to bring the 
+common product to the market by way of joined ventures, common spin-offs or other 
+forms of common, new organisations (i.e. a common distribution and sales organisation).
+Thus, it was necessary to explore business models that consider  this situation and are based 
+on loose partnerships among the involved companies. The main is sue was the development 
+of an inter-company business model, which defines how the comme rcial relationships of 
+involved partners need to be defined in order to successfully bring to the market the common 
+composite software product.
+Similar issues are often observed in other collaborative ICT re search projects that are 
+dedicated to composite software solutions and are financed with in the EC FPs. On a more 
+generalized level, the same problem emerges whenever complement ary software providers 
+want to collaboratively offer a  composite software solution bas ed on loose market 
+collaboration. Thus, the practic al case at hand can be consider ed as representative for a class 
+of problems, and provides an opportunity for generalization of the findings resulting from the 
+research guided by the following research question: “ How can suitable inter-organization 
+business models for commercialisation of co mposite software products consisting of 
+complementary solutions of independent companies be build?”
+3.2 Objectives of the SolutionIn order to identify the requirements upon the solution an in-d epth analysis and structuring 
+of the practical problem was conducted. Based on this analysis, the starting conditions for 
+developing the inter-company business model can be summarized a s follows:
+5) At the end of the project the  common product was available in  form of a composite 
+software prototype.
+6) In the course of the project, the necessary interfaces among the software components were 
+developed in order to connect each partner’s component to the w orkflow component (c.f. 
+1). Furthermore, each partner improved and adjusted his own sof tware components to 
+suite the compound solution. Thus, the resulting composite soft ware solution is based on 
+a value-network of i nteroperable independe nt software component s and service s (c.f. 1), 
+and in its final version evolved towards a Software-as-a-Service (SaaS) ecosystem (see for example [31]).
+7) The common composite software product (prototype) is provided  by independent 
+companies of different backgrounds: SMEs, universities, and app lied research centres.
+8) None of the involved companies was able to buy or license the software of the others, 
+thus prevailing solutions based on sub-contractin g, joint ventu res and common spin-offs 
+were not acceptable for the involved companies.
+9) The involved partners see a market opportunity for the compos ite software product in the 
+following industries: broadcasting, Web TV and digital video ar chives. Three of the 
+involved companies had an establis hed customer base in the broa dcasting industry.
+These characteristics of the analysed case were then compared t o similar cases and inter-
+company business models in the software industry that have been  described in literature. 
+Existing literature describes different forms of inter-company business models in the software industry, such as software valu e networks (VN) [20]; software e cosystems (SECOs) (e.g., 
+[18]); business models for composite services (e.g., [2]) or pla tform-as-a-service (PaaS) 
+business models (e.g., [30]) in a more or less detailed manner a nd with different foci. 
+However, 
+some of the proposed solutions of inter-company busines s models, such as PaaS 
+Copyright © 2015 The Authors www.eChallenges.org Page 4 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+business models (see for example [32]), require a strong player  providing the platform as well 
+as initiating and organizing the cooperation with the other con tributors. Such business model 
+approaches do not provide a sol ution for groups of independent complementary software 
+providers with equal power. Suita ble business model approaches in such a setting seem to be 
+VN and SECO. In fact, t he specific case can be considered as a new type of SECO based on 
+a common product provided by a loose VN of independent software providers. Given this, 
+and the goal to provide generic design guidelines for the ident ified class of problems, the 
+objective of the research wa s specified as follows: to develop generic de sign artefacts (i.e. 
+guidelines) for development of inter-company business models for co mposite software based 
+on loose partnerships of inde pendent software providers .
+3.3 Design of a Generic Design Procedure and Identification of Design Options
+The design artefacts for creating inter-company business models  for a group of independent 
+software providers aiming to provide common composite software were developed by 
+combining aspects from both VN and SECO. In the first step a br oad literature analysis was 
+conducted according to the approach proposed by [23] and related  to design of VN and SECO 
+in the software industry. With respect to VN the literature ana lysis revealed that there is a 
+small body of literature and only fe w publications related to t he software industry [20]. This 
+is probably due to the fact that VN are rather a new concept th at emerged in the late 90s [29]. 
+However, based on the existing literature it was possible to ge t first insights about the 
+characteristics of value network s [20; 26; 29]. VN are composed  of complementary nodes 
+and links [26; 29]. The crucial defining feature of networks is  the complementarity between 
+the various nodes and links. A service delivered over a VN requires the contribution of two 
+or more network components. Thus , VN can be considered as a set  of relatively autonomous 
+units that can be managed independently but operate together in  a framework of common 
+principles and service level agreements (SLA) in order to deliv er the value to customers [26]. 
+These characteristics of VN match the characteristics of our cas e study and the identified 
+generic class of problems. Therefore, the following concepts ca n be drawn from the definition 
+and concept of VN for design of the specific inter-company busi ness models considered in 
+the paper at hand: specificati on of the contribution of each no de, defining different kinds of 
+relationships among the autonomous nodes of the VN, and definin g the framework of 
+common cooperation principles based on SLAs. However, in litera ture the VN analysis 
+approach is rather used to explore and visualize already existi ng VN. It provides insights 
+what needs to be designed, but it does not provide guidelines h ow to design VN. Thus, 
+existing literature on VN provides only limited support for dev eloping the solution for the 
+class of problems considered in this paper. More detailed design options were identified in 
+the literature related to SECO.
+According to [19], SECOs are defined “….as a set of businesses functioning as a unit and 
+interacting with a shared market  for software and services, tog ether with the relationships 
+among them.” A systematic literature analysis was conducted [23 ] also related to the topic of 
+SECO design. In total, 88 papers were considered. The analysis of the papers quickly revealed 
+that there are no explicit design guidelines for SECOs publishe d yet. The papers either 
+defined or described SECOs in general (e.g., [17]), or concentr ated on specific features of 
+SECOs (e.g., [4; 6; 12]) or on a certain type of SECO (e.g., [2;  13; 22]). However, as the 
+SECO papers focused on different aspects, many of them provided  certain insights and 
+suggestions how to build a SECO. These insights complement the findings stemming from 
+VN literature.
+Overall, given the scattered nature of SECO insights and the va luable complementary 
+comprehensions from VN literature, it was necessary to synthesize and combine the various 
+findings from literature into generic design artefacts before t hey could be applied for the 
+Copyright © 2015 The Authors www.eChallenges.org Page 5 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+design of the inter-company business models for the specific FP 7 project. Thus, based on the 
+literature analysis, a DP (c.f. 2) and DO (c.f. 3) have been co nstructed for building inter-
+company business models for composite software based on loose p artnerships among 
+involved software companies. Th e proposed DP provides both an overview and a logical 
+sequence of decisions that need t o me made in the process of in ter-company business model 
+design. The DO provide an overview of design options for each c omponent of the DP. Both 
+design artefacts were extracted in an iterative manner by clust ering similar statements from 
+the considered VN and SECO literature. The contributions from the VN literature are 
+represented in the light grey parts in Fig. 3. Each DO consists  of dimensions that denote the 
+main design options.
+The DP for inter-company composite software business models base d on loose partnership 
+of involved companies resulted mainly from VN literature [26], [29] and involves three main 
+subsequent steps: 1) identific ation of common product and found ation; 2) identification of 
+the main roles of the involved companies; and (3) definition of  the governance, in particular 
+the technical, service and payment governance.
+Figure 2: The Design Procedure (DP) for Inter-
+Company Business ModelsFigure 3: The Design Guidelines (DO) for Inter-
+Company Business Models
+The DO and their dimensions are summarized within the morpholog ical box illustrated in 
+Fig. 3 and a more detailed descri ption has been given below:
+DO1 – Common foundation: There are different foundations on the basis of which VN 
+and SECOs either emerge or are being built. These foundations c an be set by software 
+platforms [3; 11; 19; 25]; open s ource software [11; 19]; a com mon market [3: 4; 19; 3; 6; 
+30], or VN [20]. The concrete design of an inter-company compos ite software business model 
+varies depending on the common foundation. For example, business  m o d e l s  b a s e d  o n  
+software platforms require a strong platform provider that init iates and leads the SECO 
+emerging around the platform; open source software is based on a developer community; and 
+SECO initiated by a common market  or composite product are ofte n based on a VN.
+DO2 – Roles: Defining the roles can help the creation of templates for speci fic business 
+relationships, by formalizing expected commitments and tasks fo r the organizations that play 
+the role [28] .Thus, the identification of typical roles is an important activ ity when 
+contextualizing an inter-company business model [8]. VN are bas ed on rather product 
+specific roles resulting from the division of tasks among involved companies. More generic 
+roles that are also adopted for the DO in this paper are provid ed by the SECO literature.  Most 
+of the studied SECO articles in the course of the literature an alysis considered two major 
+roles: coordinator and provider. The coordinator is the leading role of a SECO and performs 
+the following tasks:
+1)Technical coordination - involves providing of a common technological platform [6; 15; 
+10, 26]; planning the network ar chitecture and topology; leadin g the development of 
+central technology [10; 11; 30] and eventually offering developm ent tools [13; 3; 22].
+Copyright © 2015 The Authors www.eChallenges.org Page 6 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 7 ===
+2)Service coordination - involves assembling the product from the contributions of part ner 
+companies; combining pre-existing services to form new services [22]; arranging and 
+coordinating with additional services as payment [2]; and shari ng the generated value [7].
+3)Market coordination involves enabling a “one-face-to-the-customer” or a “one-stop-
+shopping” [3]; [29] customer expe rience and coordinating servic e delivery.
+Another important role is played by the remaining SECO or VN co ntributors. These are 
+complementary contributors to the compound product or service t hat the SECO or VN seek 
+to offer [19], and which are mostly referred to as software providers orindependent software 
+providers (ISV) [19]. The main tasks and responsib ilities of the providers are to develop and 
+operate complementarily [14; 19; 30] to create services of valu e [24] that contribute to the 
+central solution [10],  and share t hese results within the SECO  [14;  19; 30]. In essence, ISV 
+work collaboratively to maintai n, improve, or extend their soft ware [27] and the central 
+platform [8], and leverage synergies [14].
+DO3 – Governance or policies [19]. According to [5], “Governance refers to the 
+constitution of relationships between different social group s and the process of decision-
+making through which rights and responsib ilities are established and define d.” “Governance 
+can thus be understood as a spectrum of work ing practices that include both formal and 
+informal working arrangements.” [5]. These working arrangements are basis for 
+coordination and building a coopera tive culture within VN and S ECOs.
+The design of governan ce (DO3) involves two aspects: Firstly, i n order to set in place the 
+policy vision for the inter-company business model, the values and priorities encapsulated by 
+that vision and the compliance of organizations to act in the i nterest of the SECO given 
+promises, need to be embedded in constitutional documents such as a memorandum of 
+understanding, a manifesto, or som e other statements of common purpose [9]. The companies 
+involved in a SECO need to decide on a level at which they woul d like to formalize the 
+SECO’s governance. This design req uirement is considered as the  3rdstep in the DP (c.f. 2).
+Secondly, the concept of governance is a complex construct and involves regulatory, 
+technological, and organizational frameworks that cannot be studied in isolation from eachother [5]. The DOs developed in t his paper consider this requirement by identifying sub-DOs 
+for the various governance aspects. The constituting elements o f governance and a more 
+detailed description of the res pective sub-DOs have been presen ted below (c.f. 3):
+DO3.1 –Technical governance [5] comprises the conglomerate of rules which define and 
+formalize how companies involved in a SECO contribute to the co mposite software product. 
+Different dimensions of this DO might be a common architecture,  common standards, or 
+application programmin g interface (API) [17].
+DO3.2 –Service flow governance aims to establish an efficient value chain that delivers 
+the common product or service to the customer as well as to ver ify activities and roles 
+regarding decisions within the so ftware solutions [7]. To consci ously manage the service 
+flow of a SECO is essential for defining how partners share the  responsibilities of service 
+delivery and how they arrange the flow of service among them. A fter all, the service flow 
+governance is targeted at incr easing the overall SECO productiv ity by simplifying the 
+complex task of connecting network participants and making the creation of new products by 
+third parties more efficient [14; 28; 23].
+DP3.3 –Financial flow governance defines how the VN or SECO generates revenues and 
+how revenues are consequently split among partners. According t o [17], multiple payment 
+and revenue-sharing models can be distinguished, such as service based revenues, up-front license fees, subscription, advertising based revenues, transac tion based revenue sharing, and 
+giving it to customers for free.
+Copyright © 2015 The Authors www.eChallenges.org Page 7 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 8 ===
+3.4 Demonstration and Evaluation
+The developed DP and DOs were evaluated by applying them for th e design of the inter-
+company business model for the considered case. The case specif ic design followed the DP 
+presented in Fig. 2. Each step consisted of in-depth discussion  within the consortium until an 
+agreement was reached. Firstly, the companies determined what t he common product (DO1) 
+of the group was. Secondly, the consortium decided how to distribute the generic roles (DO2) 
+among each other. Thirdly, the governance providing the rules f or the cooperation was 
+determined (DO3).
+According to geographical and customer segmentation of potentia l markets, three distinct 
+products that the network would be possible to offer were ident ified: product 1 (P1) is the 
+end to end video enrichment solution, consisting of a new data format of enriched video; 
+product 2 (P2) is a spec ific end-user applic ation developed wit h the multi-screen toolkit that 
+might also include the solution of P1; and product 3 (P3) consi sts of P1 and P2, but as a 
+solution bundle includes the dist ribution as a representation b efore the customer. The reasons 
+for this differentiation of P3 are differing consistencies in p otential regional markets. All of 
+these bundles of software soluti ons are dependent on complement ary contributions of all 
+involved partners in their common market.
+The partners of the network then proceeded to identify which pa rtners would take over 
+specific roles. In particular, it was necessary to determine a w illing and suited partner to take 
+over the role of the coordinating partner. From the proposed DO 2 related to the tasks and 
+responsibilities of a coordinato r, the consortium selected the following as required: providing 
+a “one-face-to-the-customer”; pr oviding marketing and distribut ion for the composite 
+products; providing a minimum of technical coordination by keep ing up the dialog and 
+notification among partners related to agreed upon APIs and SLA ; coordinating service 
+delivery and distribution of pay ments among partners. Two optio ns were considered for the 
+choice of a coordinator: to identify a coordinator among the in volved partners, who is willing 
+and capable to provide the coordinating activities, or to trans fer all or some coordination 
+activities to a new spin-off created by all partners. The invol ved companies rather selected 
+several coordinators among themselves. The SME providing the wo rkflow component 
+(component 5 in Fig. 1) and having already an established custo mer base in the broadcasting 
+industry was considered as capable to take over the central coo rdinating role including 
+technical, service and market co ordination for P1. Another SME,  providing the multi-screen 
+toolkit took over the market and technical coordinating role fo r P2. A third partner, a 
+university providing t he scientific manager, created a spin-off  that provides the market 
+coordination for P3 specifically  in Austria. The resulting VN i s illustrated in Fig. 4.
+Figure 4: The Case Specific VN
+Copyright © 2015 The Authors www.eChallenges.org Page 8 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 9 ===
+Deciding on the governance structure for the technical, service  and payment flow was the 
+crucial third step. All partners committed themselves to provid e an operating SaaS version of 
+their component with predefined APIs and SLA. Each partner comm itted to maintain the 
+agreed upon APIs developed during the project as well as to pro vide support for and to keep 
+his SaaS component available and running on his own cost for ad ditional 24 months after the 
+end of the research project. Furthermore, a basic SLA was defined related to major aspects 
+of service delivery as response and downtime time. This approac h proved particularly 
+feasible, as first SaaS versions of the components had already been developed and tested 
+during the project. The resulting core of the technical design and governance were 
+complementary software services that are provided as SaaS throu gh the agreed APIs. The 
+elected coordinators were able to organize the service executio n and delivery through the 
+workflow component and defined nece ssary APIs and SLA (c.f. 4).
+The consortium then discussed possible financial governance for ms and decided that the 
+coordinators would collect the pa yment from the customer and di stribute it among involved 
+providers according to their con tribution to the delivered serv ice.
+4. Summary and Conclusion
+Collaborative research in the software industry, in particular supported by public funding as in case of the FPs of the Europ ean Commission, often results in close partnerships among 
+involved companies and composite software products consisting o f complementary 
+contributions from involved partners. The commercialisation of such composite software 
+products requires a common inter-company business model. Howeve r, in many cases none 
+of the companies involved in collaborative research can take over the responsibility and lead for the common product based on approaches involving joined ven tures, binding supplier 
+contracts or by way of buying licenses from other partners. Sta rting from the requirements of 
+a concrete case of an ICT FP7 collaborative project, the aim of  the paper at hand was the 
+extraction of generic guidelines for development of business mo dels for composite software 
+products based on loos partnership s of software providers.
+By following the design science approach and based on a systematic literature analysis, 
+two generic design artefacts we re extracted: a DP and DO for cr eating inter-company 
+composite software business model based on loose partnerships o f complementary but 
+independent software providers. The DP and DO were applied for finding a practical solution 
+for the specific case. The successful application of the design  artefacts to solve a concrete 
+real-world problem has proven their practical applicability for  conceptualising an inter-
+company business model based on lo ose partnerships. However, if  the defined setting will be 
+successful in the future needs to be further evaluated. During the first six months after the 
+project in particular the distribution spin-off created by the scientific coordinator presented 
+the composite product at a major fair and organized presentatio ns at several broadcasters. It 
+can be expected that in case customers can be acquired for the common solutions the loose 
+partnerships might evolve into stronger and more binding partne rships. Thus, the only partly 
+check of the effectiveness of the design guidelines is one majo r limitation of the provided 
+results. Another one is the evaluation based only on the example of one project. Further case studies are required in order to  refine and test the design gui delines. The DP and DO need to 
+be tested also in other settings  with different market and inve stment power distribution among
+involved partners.
+Besides the practical contributi on, the paper also provided a s cientific contribution, by 
+summarizing scattered, descriptiv e design instructions for VN a nd SECO into the two generic 
+design artefacts for design of int er-company composite software business model. 
+Copyright © 2015 The Authors www.eChallenges.org Page 9 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 10 ===
+References
+[1] Adler, N., Elmquist, M., & Norrgren, F. (2009). The Challeng e of Managing Boundary-Spanning Research 
+Activities: Experiences from  the Swedish Context. Research Policy ,38(7), 1136–1149.
+[2] Barros, A. P., & Dum as, M. (2006). The Rise of Web Service E cosystems. IT Professional ,8(5), 31–37.
+[3] Bosch, J., & Bosch-Sijtsema,  P. (2010). Softwares Product Li nes, Global Developm ent and Ecosystems: 
+Collaboration in Software Engineering. In I. Mistrík, J. Grundy , A. Hoek, & J. Whitehead (Eds.), Collaborative 
+Software Engineering (pp. 77–92).
+[4] Boucharas, V., Jansen, S., &  Brinkkemper, S. (2009). Formali zing Software Ecosystem Modeling. In Proceedings 
+of the 1st International Workshop on Op en Component Ecosystems IWOCE 2009 (pp. 41–50).
+[5] Darking, M. (2007). Understandi ng the Role of Governance in the Context of Digital Ecosys tems. In F. Nachira, A. 
+Nicolai, P. Dini, M. Le Louran, & L. R. Leon (Eds.), Digital Business Ecosystems . Luxemburg: Office  for Official 
+Publications of the European Commnuities, 2007.
+[6] Den Hartigh, E., Tol, M., & Visscher, W. (2006). The Health Measurement of a Busin ess Ecosystem. In ECCON 
+2006 Annual Meeting (pp. 1–39).
+[7] Dos Santos, R. P., & Werner, C. M. L. (2010). Revisiting the Concept of Components in Software Engineering from 
+a Software Ecosystem Perspective. In Proceedings of the Fourth European Conference on Softwar e Architecture 
+Companion Volume - ECSA ’10 (p. 135).
+[8] Dos Santos, R. P., & Werner, C. M. L. (2011). A Proposal for  Software Ecosystems Engineering. Proceedings of 
+the Workshop on Software Ecosystems 2011 ,746, 40–51.
+[9] Hevner, A. R.;  March, S.T.; Park, J. and Ram, S. (2004). Design Science in Information Systems Research .MIS 
+Quarterly ,28(1), 75–105.
+[10] Hanssen, G. K. (2012). A Longit udinal Case Study of an Emer ging Software Ecosystem: Implications for Practice 
+and Theory. Journal of Systems and Software ,85(7), 1455–1466.
+[11] Hanssen, G. K., & Dybå, T. (2012). Theoretical Foundations of Software Ecosystems. In Proceedings of IWSECO 
+2012 (pp. 6–17).
+[12] Heistracher, T., Kurz, T., Ma such, C., Ferronato, P., Vidal , M., Corallo, A., Dini, P. (2004). Pervasive Service 
+Architecture for a Digital Business Ecosystem. In: WCAT04 Workshop (ECOOP 2004) . Oslo.
+[13] Hyrynsalmi, S., Mäkilä, T., Järvi, A., Suominen, A., Seppänen, M., & Knuutila, T. (2012). App Store, Marketplace, 
+Play! An Analysis of Multi-Homi ng in Mobile Software Ecosystems . Proceedings of IWSECO 2012 ,879, 59–72 .
+[14] Iansiti, M., & Levien, R.  (2004). Strategy as Ecology. Harvard Business Review ,82(3).
+[15] Jansen, S., Brinkkemper, S., & Finkelstein, A. (2009). Busi ness Network Management as a Survival Strategy: A 
+Tale of Two Software Ecosystems. CEUR Workshop Proceedings ,505(2), 34–48.
+[16] Jansen, S., Brinkkemper, S.,  Souer, J., & Luinenburg, L. (2012). Shades of Gray: Openi ng up a Software Producing 
+Organization with the Open S oftware Enterprise Model. Journal of Systems and Software ,85(7), 1495–1510.
+[17] Jansen, S., & Cusumano, M. (2012). Defining Software Ecosys tems: A Survey of Software  Platforms and Business 
+Network Governance. CEUR Workshop Proceedings ,879, 41–58.
+[18] Jansen, S., Cusumano, M. A., & Brinkkemper, S. (2013). Software Ecosystems: Analyzing and Managing Business 
+Networks in the Software Industry . Cheltenham, UK, and Northampton,  MA, USA: Edward Elgar Publish ing.
+[19] Jansen, S., Finkelstein, A., Brinkkemper, S. (2009). A Sens e of Community: A Research Agenda for Software 
+Ecosystems. In: 31st International Conferen ce on Software Engineering - Companion Volume p2–5.
+[20] Johns, J. (2006). Video Games  Production Networks: Value Ca pture, Power Relations and Embeddedness. Journal 
+of Economic Geography ,6(2), 151–180. http://doi.org/10.1093/jeg/lbi001
+[21] König, B., Diehl, K., Tsch erning, K., & Helming, K. (2013).  A Framework for Structuring Interdisciplinary Research 
+Management. Research Policy ,42(1), 261–272.
+[22] Leimeister, S., Riedl, C.,  Böhm, M., & Krcmar, H. (2010). Th e Business Perspective of Cloud Computing: Actors, 
+Roles, and Value Networks. In Proceedings of 18th European Conference on Information Systems ECIS 2010 (pp. 
+1–12).
+[23] Levy, Y., & Ellis, T. J. (2006). A Systems Approach to Cond uct an Effective Literature Review in Support of 
+Information Systems Research. Informing Science Journal ,9, 181–212.
+[24] Lin, F., Ye, W. (2009). Operatin g System Battle in the Ecos ystem of Smartphone Industry. Proceedings of the 2009 
+International Symposium on Information Engineering and Electronic Commerce pp. 617–621.
+[25] Manikas, K., & Hansen, K. M.  (2013). Software Ecosystems—A Systematic Literature Review. Journal of Systems 
+and Software ,86(5), 1294–1306.
+[26] Peppard, J., Rylander, A. 2006.  From Value Chain to Value Ne twork : Insights for Mobile Operators. In: European 
+Management Journal, 24 (Nov. 2-3), 128-141.
+[27] Syed, S., & Jansen, S. (2013). On Clusters in Open Source E cosystems. In Proceedings of the International 
+Workshop on Software Ecosystems (pp. 13–25).
+[28]
+Telang, P. R., & Singh, M. P.  (2012). Specifying and Verify ing Cross-Organizational Bus iness Models: An Agent-
+Oriented Approach. IEEE Transactions on  Services Computing ,5(3), 305–318.
+Copyright © 2015 The Authors www.eChallenges.org Page 10 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 11 ===
+[29] Tapscott, D., Ticol, D., Lowy,  A. Digital Capital, Harnessi ng the Power of Business Webs. Harvard Business School 
+Press. May 2000
+[30] Xia, R., Rost, M., & Holmqui st, L. E. (2010). Business Mode ls in the Mobile Ecosystem. In 9th International 
+Conference on Mobile Business and 9th Global Mobility Roundtable (ICMB-GMR) .
+[31] Hilkert, D.; Wolf, Ch.M.; Be nlian, A.; & Hess, Th. (2010). The „As-A-Service“-Paradigm and Ist Implications for 
+the Software Industry – Insights from a Comparative Case Study i nCRM Software Ecosystems“. In: Tyrväinen, P.; 
+Jansen, S.;& Cusumano, M.A. (Eds): Proceedings of the First Int ernational Conference on  Software Business, 
+ICSOB 2010, Jyväskylä, Finland, June 21-23.
+[32] Giessmann, A.; & Stanoevska-Slabeva, K. (2012). Business Mo dels of Platform-as-a-Se rvice (PaaS) Providers: 
+Current State and Future Directi ons. Journal of Information Tec hnology Theory and Application, Vol. 13, Issue 4, 
+pp. 31-55.
+Copyright © 2015 The Authors www.eChallenges.org Page 11 of 11
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on July 28,2025 at 13:48:22 UTC from IEEE Xplore.  Restrictions apply. 
+

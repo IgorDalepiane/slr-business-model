@@ -1,0 +1,2656 @@
+=== PÁGINA 1 ===
+This article was downloaded by: [200.132.146.39] On: 22 August 2025, At: 14:08
+Publisher: Institute for Operations Research and the Management Sciences (INFORMS)
+INFORMS is located in Maryland, USA
+Management Science
+Publication details, including instructions for authors and subscription information:
+http://pubsonline.informs.org
+Competition Among Proprietary and Open-Source
+Software Firms: The Role of Licensing in Strategic
+Contribution
+Terrence August,a,b Wei Chen,c Kevin Zhua
+To cite this article:
+Terrence August,a,b Wei Chen,c Kevin Zhua (2021) Competition Among Proprietary and Open-Source Software
+Firms: The Role of Licensing in Strategic Contribution. Management Science 67(5):3041-3066.  https://
+doi.org/10.1287/mnsc.2020.3674
+Full terms and conditions of use: https://pubsonline.informs.org/Publications/Librarians-Portal/PubsOnLine-
+Terms-and-Conditions
+This article may be used only for the purposes of research, teaching, and/or private study. Commercial use or
+systematic downloading (by robots or other automatic processes) is prohibited without explicit Publisher approval,
+unless otherwise noted. For more information, contact permissions@informs.org.
+The Publisher does not warrant or guarantee the article’s accuracy, completeness, merchantability, fitness
+for a particular purpose, or non-infringement. Descriptions of, or references to, products or publications, or
+inclusion of an advertisement in this article, neither constitutes nor implies a guarantee, endorsement, or support
+of claims made of that product, publication, or service.
+Copyright © 2020, INFORMS
+Please scroll down for article—it is on subsequent pages
+With 12,500 members from nearly 90 countries, INFORMS is the largest international association of operations
+research (O.R.) and analytics professionals and students. INFORMS provides unique networking and learning
+opportunities for individual professionals, and organizations of all types and sizes, to better understand and use
+O.R. and analytics tools and methods to transform strategic visions and achieve better outcomes.
+For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org
+
+=== PÁGINA 2 ===
+MANAGEMENT SCIENCE
+http://pubsonline.informs.org/journal/mnsc ISSN 0025-1909 (print), ISSN 1526-5501 (online)
+Competition Among Proprietary and Open-Source Software Firms:
+The Role of Licensing in Strategic Contribution
+Terrence August,a,bWei Chen,cKevin Zhua
+aRady School of Management, University of California, San Diego, La Jolla, California 92093;bKorea University Business School,
+Seoul 136-701, Korea;cEller College of Management, University of Arizona, Tucson, Arizona 85721
+Contact: taugust@ucsd.edu ,https:/ /orcid.org/0000-0002-4085-1147 (TA); weichen@email.arizona.edu ,
+https:/ /orcid.org/0000-0002-0963-7839 (WC); kxzhu@ucsd.edu (KZ)
+Received: August 16, 2016
+Revised: January 25, 2018; June 7, 2019;
+December 8, 2019
+Accepted: February 29, 2020
+Published Online in Articles in Advance:
+October 5, 2020
+https://doi.org/10.1287/mnsc.2020.3674
+Copyright: © 2020 INFORMSAbstract. In enterprise software markets, ﬁrms are increasingly using services -based
+business models built on open-source software (OSS) to compete with established, pro-
+prietary software ﬁrms. Because third-party ﬁrms can also strategically contribute to OSS
+and compete in the services market, the nature of competition between OSS constituents
+and proprietary software ﬁrms can be complex. Moreover, their incentives are likely
+inﬂuenced by the licensing schemes that govern OSS. We study a three-player game and
+examine how open-source licensing affects competition among an open-source originator,
+an open-source contributor, and a proprietor competing in an enterprise software market.
+In this regard, we examine (1) how quality investments and prices are endogenously
+determined in equilibrium, (2) how license restrictiveness impacts equilibrium investments
+and the quality of offerings, and (3) how license restrictiveness affects consumer surplus
+and social welfare. Although some in the open-source community often advocate re-
+strictive licenses such as the GNU General Public License because it is not always in the best
+interest of the originator for the contributor to invest greater development effort, such
+licensing can actually be detrimental to both consumer surplus and social welfare when it
+exacerbates this incentive con ﬂict. We ﬁnd such an outcome in markets characterized by
+software providers with similar development capabilities yet cast in favor of the proprietor.
+In contrast, when these capabilities either become more dispersed or remain similar but tilt
+in favor of open source, a more restrictive license instead encourages greater effort from the
+OSS contributor, leads to higher OSS quality, and provides a larger societal bene ﬁt.
+History: Accepted by Chris Forman, information systems.
+Funding: This work was supported by National Science Foundation [Grant CNS-0954234].
+Supplemental Material: The online appendix is available at https:/ /doi.org/10.1287/mnsc.2020.3674 .
+Keywords: open-source software software competition licensing collaborative development co-creation product quality 
+software services market strategic contributions to open-source software
+1. Introduction
+T h ec o f o u n d e r so fA p a c h eK a f k a ,a no p e n - s o u r c e
+platform for handling real-time data streams, are
+also the cofounders of Con ﬂuent, a ﬁrm that has
+built a business based on “selling management tools
+and services that make it easier to run Kafka ”to
+enterprise customers (Konrad 2015 ). This professional
+open-source business model, where pro ﬁt-motivated
+ﬁrms are driven by revenues stemming from a market
+for professional services, is not a new one. In fact, the
+cofounders of Con ﬂuent are following the path of
+JBoss, which in 1999 succe ssfully built a company on
+top of open-source software (OSS), driven purely by
+the provision of services for its enterprise Java ap-
+plication server product. Watson et al. ( 2008 ,p .4 3 )
+refer to this type of OSS business model as second-
+generation open-source o r OSSg2, characterized by
+ﬁrms that “typically generate the bulk of their reve-
+nues by providing complementary services aroundtheir products ”and“own or tightly control the soft-
+ware code and can exploit their intimate knowledge
+o ft h ec o d et op r o v i d eh i g h e r - q u a l i t ys e r v i c et h a n
+could potential competing service providers. ”
+In this paper, we focus on enterprise software
+markets where OSSg2 business models are viable
+and often observed in practice. Importantly, the eco-
+nomic incentives underlying these business models
+are commonly related to service revenue generation,
+and hence, we study the complex interactions that
+arise among service-oriented ﬁrms competing in a
+services market.1In particular, we study three-way
+competition among a proprietary ﬁrm (proprietor ), an
+OSS originating ﬁrm ( originator ), and an OSS con-
+tributing ﬁrm ( contributor ). The nature of the inter-
+action between an originator and contributor is both
+collaborative and competitive. They collaborate on the
+development and management of enterprise OSS but
+then compete against each other in the services market.
+3041Vol. 67 , No. 5, May 2021, pp. 3041–3066
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 3 ===
+For all practical purposes, OSS-based business models
+typically preclude charging for the software alone.
+However, services are generally required to achieve
+high-quality integrated so ftware solutions. The orig-
+inator and contributor compete for these services
+based on expertise genera ted from their activity on
+the OSS project.2
+These con ﬂicting, collaborative, and competitive
+i n t e r e s t si nt h eO S Sd o m a i nb e c o m ee v e nm o r es a l i e n t
+in the presence of competition from a proprietary
+provider. How competition from a proprietary in-
+cumbent affects the economic incentives of ﬁrms who
+strategically contribute to OSS as part of OSSg2
+business models has yet to be studied in the literature
+but has important and wide- ranging implications on
+the quality and competitiveness of the products that
+emerge in these enterprise software markets. In this
+paper, we study how the existence of a strategic
+contributor affects competition between enterprise
+open-source and proprietar y software offerings. This
+is a unique research contribution because the nature
+of the ﬁrms involved differs fundamentally. In par-
+ticular, the proprietor solely incurs production costs
+but then retains signi ﬁcant pricing power because it
+can charge for the product itself.3In contrast, the OSS
+originator and contributor share production costs,
+cannot charge for an open-source product, and must
+compete for service revenues.4
+In contrast to the belief that open source means free
+of restrictions and liberal in copyright, intellectual
+property (IP) concerns do not disappear in the open-
+source world. In fact, con tributions from the open-
+source community may be substantially affected by IP
+regimes (Wen et al. 2013 ). In the open-source eco-
+system, OSS projects are distributed under various
+l i c e n s es c h e m e sa sam e a n st og o v e r nI P .D i s t i n c t
+licenses each have different restrictions on the use and
+modi ﬁcation of the software as well as its derivatives.
+For example, the GNU General Public License (GPL)
+is a widely employed open-source license that is
+considered to be quite restrictive with regard to
+what a contributor can do with the software. On the
+other end of the spectrum lies the Berkeley Software
+Distribution (BSD) license, which imposes minimal
+restrictions on anyone who uses or extends BSD-
+licensed software (St. Laurent 2004 ).
+It is then critical to exam ine the impact of licensing
+on the economic incentives of ﬁrms to contribute to
+OSS in contexts where contributors are commercial
+ﬁrms extrinsically motivated by service markets. Be-
+cause the strategic development efforts made by these
+ﬁrms largely codetermine the qualities of the fully
+integrated software solutions that emerge, different
+licenses can signi ﬁcantly impact enterprise software
+markets where OSSg2 business models are being
+employed. Moreover, because OSS competes withproprietary counterparts in these markets, licenses
+can greatly in ﬂuence the quality of proprietary of-
+ferings brought to market as well. A second research
+contribution of our paper is that we explore how the
+degree of OSS license restrictiveness affects the col-
+laborative efforts of the OSS providers and thereby
+affects the incentives of the proprietor.
+When one re ﬂects on the open-source movement
+and the ideology behind it, an open question is what
+types of licensing genuinely lead to better outcomes in
+these enterprise services- driven software markets.
+For example, do certain licenses lead to higher-quality
+integrated software solutions in the market? To that
+end, our third research contribution is to characterize
+market conditions under which permissive and re-
+strictive licenses each, respectively, help improve
+consumer surplus associated with deployed soft-
+ware solutions.
+Finally, there is an intimate connection between
+how licensing and other OSS project primitives such
+as the maturity of development processes (e.g., whether
+frameworks such as the capability maturity model are
+used), code architecture (e.g., modularity of design),
+and governance controls (e.g., contributor accredita-
+tion and code acceptance policy) affect the strategic
+interactions that unfold in this competitive setting.
+We discuss the relationships between licensing, these
+other factors, and even the extent to which the ﬂexi-
+bility associated with OSS is valued by the speci ﬁc
+enterprise software market i nq u e s t i o nw i t hr e g a r dt o
+the manner in which they in ﬂuence our ﬁndings.
+2. Literature Review
+Our study is related to the body of literature that
+examines how ﬁrms compete with OSS (Lerner and
+Tirole 2005a ). As a prerequisite to analyzing com-
+petition, researchers have thoroughly studied the
+motivations of open-source developers, which led to a
+stream of literature that c onnects contributions to
+various extrinsic and intrinsic motivations.5Several
+papers consider these diverse motivations to examine
+how a commercial ﬁrm competes with an open-source
+product. This literature can be classi ﬁed into two
+groups depending on whether the open-source in-
+vestments are driven by commercial or noncom-
+mercial interests.
+First, we discuss the noncommercial case where the
+OSS product is generally available at zero price.
+Casadesus-Masanell and Ghemawat ( 2006 )f o r m u l a t e
+a model motivated by competition between Win-
+dows and Linux, where Linux bene ﬁts from superior
+demand-side learning and lower (zero) prices that
+boost market share. Even under these conditions,
+Casadesus-Masanell and Ghemawat show that Win-
+dows can persist in the market. Lee and Mendelson
+(2008 )e x a m i n eam a r k e tc h a r a c t e r i z e db yn e t w o r kAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3042 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 4 ===
+effects and compatibility issues where open-source
+developers maximize a weighted sum of consumer
+surplus and intrinsic bene ﬁt. They ﬁnd that, in some
+cases, a commercial ﬁr mh a si n c e n t i v e st om a k ei t s
+product incompatible with OSS and of higher quality.
+Casadesus-Masanell and Llanes ( 2011 )a l s os t u d y
+compatibility issues when the commercial ﬁrm can
+open part of its codebase and bene ﬁtf r o ma d d i t i o n a l
+effort stemming from the OSS community. Athey and
+Ellison ( 2014 ) model the evolution of OSS when de-
+velopers contribute because of reciprocal altruism
+and study how a proprietary ﬁrm dynamically prices
+its product to compete. Prior work has also examined
+the impact of product heterogeneity (Bitzer 2004 ),
+network effects (Cheng et al. 2011 ), and lock-in strate-
+gies (Zhu and Zhou 2012 ) on competition between
+OSS and proprietary software.
+Our work bene ﬁts from these studies but also
+d i f f e r sf r o mt h e mb yf o c u s i n go np r o ﬁt-maximizing
+commercial open-source ﬁrms and thus is closer to the
+second group of papers that examine commercial
+interests. In particular, we model open-source ﬁrms
+that invest in OSS and compete in the market for
+value-added services. In this portion of the literature,
+several papers study complementary products and
+services. Haruvy et al. ( 2008 ) examine a monopolist ’s
+decision on whether to open the source code when it
+can pro ﬁt from a complementary product. Mustonen
+(2005 )a n dA s u n d ie ta l .( 2012 ) study a proprietary
+ﬁrm’s incentives to support OSS when the ﬁrm can
+beneﬁt either from network effects or from users ’
+preferences on customization. In the context of plat-
+form competition between OSS and proprietary soft-
+ware with two-sided network effects, Economides and
+Katsamakas ( 2006 ) show that a proprietary system
+dominates an OSS platform when the demand po-
+tential for the latter is relatively limited. Kim et al.
+(2006 ) examine competition between proprietary soft-
+ware and OSS, where OSS is offered under either a dual
+licensing scheme or a support model. When the OSS
+ﬁrm uses a support model, Kim et al. ﬁnd that a
+proprietary ﬁrm squeezes the OSS ﬁr mo u to ft h e
+market by pricing at the marginal cost of support. Sen
+(2007 ) studies competition among three vertically
+differentiated offerings, where the qualities of the
+proprietary and base OSS products without services
+areﬁxed, and the focus lies on how the OSS provider
+of support services invests in usability.
+We complement these papers in several ways. First,
+in our model, we have three providers investing
+strategically such that the software qualities are en-
+dogenously determined in equilibrium. Second, we
+include a strategic contributor who helps to improve
+the OSS product (which also can bene ﬁtt h eO S S
+originator) but acts as a competitor in the market for
+services. Different from August et al. ( 2013 ), our workincludes a proprietary ﬁrm in order to study the three-
+way competition that signi ﬁcantly impacts the OSS
+originator ’s investment incentive s. Further, whereas
+August et al. study the decision whether to pursue a
+proprietary or OSS path, we focus on how licensing
+(especially the restrictiveness of licensing) affects
+competition because of its impact on strategic con-
+tributions from the third party.
+Because proprietary software and OSS can be seen
+as two systems of providers competing on quality
+under different cost structures, our work is also re-
+lated to the literature on multi ﬁrm quality competi-
+tion in a broader context (Abbott 1953 ,M o t t a 1993 ,
+Chambers et al. 2006 ). Whereas competitors in this
+literature are homogeneous in their pricing power
+according to quality, our context differs in that the
+proprietor has signi ﬁcantly more control and pricing
+power than its open-source c ounterparts. The closed
+nature of the proprietary software allows the pro-
+prietor to charge both for the product and for the
+s e r v i c e( s e ee n d n o t e3). But the OSS providers can only
+charge for its services because the product itself is
+free, which makes the provider more exposed to in-
+tensiﬁed competition for services. Another unique
+feature of our study is that the OSS originator and
+contributor both collaborate (on the project) and
+compete (for services). Even though the multi ﬁrm
+competition literature has studied ﬁrm collaboration
+in terms of joint ventures (Choi 1993 ), strategic alli-
+ances (Amaldoss et al. 2000 ), and collaborative prod-
+uct development (Bhaskaran and Krishnan 2009 ), the
+collaboration is typically go verned explicitly by con-
+tracts. In our study, the co llaboration and competi-
+tion are strongly in ﬂuenced by the licensing and IP
+schemes, and the interactions are noncontractual. Our
+study focuses on how this licensing affects the in-
+centives of both these OSS participants and a strategic
+proprietor that possesses greater control and com-
+petes in the same market.
+In this respect, our work is also related to the
+emerging literature that explores licensing. Lerner
+and Tirole ( 2005b ) explore the choice of open-source
+licenses as it relates to an OSS originator ’s ability to
+induce contributions from the community and gen-
+erate returns from commercial clients that may prefer
+more permissive licenses. Singh and Phelps ( 2013 )
+examine the relationship between OSS license choice
+and social in ﬂuence. It is noteworthy that often the
+license type can already be predetermined to some
+extent by industry. For example, Polanski ( 2007 )
+s h o w st h a tr e s t r i c t i v el i c e n s e ss u c ha st h eG P Lm a y
+be a rational choice for the ﬁrst innovator in a se-
+quential innovation setting. Firms often have no choice
+but to adhere to certain license restrictions in order to
+make their products compatible with other software
+they intend to leverage. August et al. ( 2017 )s t u d yt h eAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3043 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 5 ===
+policy implications of OSS licensing as it swings a
+software originator ’s decision to go either proprietary
+or open source.
+3. Model
+Three strategic players, a proprietor (denoted with
+subscript p), an OSS originator (denoted with sub-
+script o), and an OSS contributor (denoted with sub-
+script c) ,c o m p e t ei na ne n t e r p r i s es o f t w a r em a r k e t .T o
+make the setting more concrete, one can think of
+Salesforce as the proprietor, SugarCRM as the OSS
+originator, and Synolia as th e OSS contributor. In this
+market, in order to derive value from the enterprise
+software, a consumer6must install it, integrate it with
+existing business systems and processes, and acquire
+support going forward; that is, the consumer needs to
+obtain services from a service provider of the software
+whose expertise determines to what extent this value
+is accessed.7It is clear that the total quality of the solution
+increases when a provider has greater involvement in the
+OSS project and possesses greater expertise on how the
+software should be integrated and utilized.
+For simplicity, we assume that the proprietor is the
+only service provider for its proprietary closed-source
+enterprise software. However, for the open-source
+enterprise software alternative, both the originator
+and the contributor are capable of providing services,
+which ultimately leads to differentiated solution quali-
+ties. We denote the total quality of the software so-
+lution for the proprietor, originator, and contributor
+with Qp,Qo,a n d Qc, respectively.
+There is a continuum of consumers who have
+heterogeneous sensitivities to the total quality of the
+software solution that we model as a uniformly dis-
+tributed type characteristic θ∈Θ/equals[0,1].T h u s ,ac o n -
+sumer with type θderives value θQp,θQo,o r θQc
+depending on whether he or she contracts with the
+proprietor, originator, or contributor, respectively.
+The total qualities are determined by effort invest-
+ments that we describe next. For the proprietary case,
+the proprietor incurs all development costs alone. In
+particular, the proprietor chooses a development
+effort ep∈R+and correspondingly incurs a quadratic,
+convex cost of effort βpe2
+p/2, where βp>0i sam e a s u r e
+of cost ef ﬁciency. Based on this effort investment, the
+proprietor ’s total quality is given by Qp/equalsspep,w h e r e
+sp>0 is a measure of how effectively it translates
+effort into quality.
+Having observed the proprietor ’s effort investment
+and quality, the originator can invest in the design,
+development, and management of a competing OSS
+offering. Analogously, the originator chooses a de-
+velopment effort eo∈R+and incurs a cost of effort
+βoe2
+o/2, where βo>0. Having observed both the pro-
+prietor ’s and originator ’s investments, the contributormay commit effort to be involved with and improve
+the OSS while generating expertise. The contributor
+chooses a development effort ec∈R+and incurs a cost
+of effort βce2
+c/2, where βc>0. We also include an
+outside option for the contributor of value Vc,w h i c h
+accounts for the contributor ’s opportunity cost. The
+parameters βp,βo,a n d βcare generally different be-
+cause of ﬁrms’heterogeneity in cost ef ﬁciency (see,
+e.g., Oi 1983 ).8
+The active involvement of the originator and con-
+tributor in the development, management, and di-
+rection of the OSS leads to their having garnered
+extensive expertise that can be leveraged in the pro-
+vision of services to render higher-total-quality software
+solutions to their consumers.9We model these pro-
+viders as having a quality component due to this
+expertise, similarly propo rtional to their efforts.10
+In addition, the originator ’sa n dc o n t r i b u t o r ’st o t a l
+qualities can be affected by each other ’s investments,
+which lead to cross-effects and capture the collabo-
+rative nature of OSS development, which is an im-
+portant feature of our model. In particular, the con-
+tributor ’s total solution quality bene ﬁts from the
+efforts exerted by the originator toward development
+of the OSS. Similarly, the contributor ’ss u b s e q u e n t
+d e v e l o p m e n t sc a nb eo p e ns o u r c ea n da v a i l a b l et ot h e
+public. Hence, the originator also bene ﬁts from the
+contributor ’s efforts.
+Capturing these collaborative synergies of effort on
+the total quality of the softw are solution provided, we
+model the originator ’s total quality as
+Qo/equalssoeo+socec, (1)
+where soc>0 indicates the cross-effect of the con-
+tributor ’s effort on the originator ’s total quality, and
+so>0 is the direct effect of the originator ’s own effort
+on its own total quality. Similarly, the contributor ’s
+total quality also depends on the originator ’s effort
+through an analogous parameter scoand is given by
+Qc/equalsscec+scoeo, (2)
+where sco>0 represents the cross-effect of the origi-
+nator ’s effort on the contributor ’s total quality, and
+sc>0 represents the direct effect.11
+The magnitudes of the coef ﬁcients sp,so,sc,soc,a n d
+scodepend critically on charac teristics of the partic-
+ular enterprise software market being studied as well
+as both the nature of and relationship between the
+service-providing ﬁrms. In our competitive frame-
+work, these coef ﬁcients carry substantial economic
+and strategic signi ﬁcance. The OSS-related parame-
+ters ( so,sc,soc,a n d sco) capture the collaborative and
+competitive nature of OSS contributions in a parsi-
+monious way. An OSS provider ’s total quality of so-
+lution is ultimately determined by both the magnitudeAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3044 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 6 ===
+of these parameters and the equilibrium efforts of the
+OSS participants, and therefore, the parameters nec-
+essarily capture a host of qu ality-impacting primitive
+f a c t o r s .T h e s ef a c t o r si n c l u d el i c e n s i n g , ﬂexibility as-
+sociated with openness, development processes and
+architecture, and governance controls. Please see Sec-
+tion 5.1for a comprehensive discussion of these
+factors and their relationships with the OSS param-
+eters, which is provided just prior to our main results.
+The parameters strongly in ﬂuence a ﬁrm’si n c e n t i v e
+to invest because having a competing service pro-
+vider who also derives a large bene ﬁt can amplify or
+reduce the ﬁrm’s willingness to invest in quality.
+In Equations ( 1)a n d( 2), it is important to note that
+efforts are additive but not separable. We do not
+include any multiplicative terms (i.e., eoec)o ft h e s e
+efforts on the providers ’qualities, preferring to dem-
+onstrate that even without such strong assumed in-
+teractions, in equilibrium, e∗
+oand e∗
+ccan be either
+strategic complements or substitutes as the providers
+strategically adapt their equilibrium efforts to vary-
+ing license scenarios (Bulow et al. 1985 ). Because of
+the sequential nature of the effort investments (pro-
+prietor, originator, and th en contributor), these ef-
+forts will be intimately related.12
+After effort investments take place, all three service
+providers simultaneously set the prices of their of-
+ferings: pp,po,a n d pc, respectively. These prices rep-
+resent the total price a consumer must pay for the fully
+integrated software solution offered by each pro-
+vider. For simplicity, we assume that the unit cost of
+providing this integration and services work is the
+same for each provider and denoted c≥0.13
+Consumers ’usage decisions are made in the last
+stage. Denoting the net utility to consumer θwith
+V(θ), he or she obtains the following payoffs de-
+pending on his or her provider choice:
+Vθ()/equalsθQp−pp,if contracted with the
+proprietor ,
+θQo−po,if contracted with the
+originator ,
+θQc−pc,if contracted with the
+contributor ,
+0, if not contracted .⎧⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩(3)
+In summary, the timeline for our model is depicted
+in Figure 1.4. Consumer Market
+Equilibrium and Pricing
+4.1. Consumer Market Equilibrium
+We begin by examining the ﬁnal stage of the game, at
+which point each consumer either selects a service
+provider or chooses to remain out of the market. At
+this point, all providers ’effort levels ( ep,eo,a n d ec)a n d
+prices ( pp,po,a n d pc) have already been set. Hence, the
+consumers observe total qualities ( Qp,Qo,a n d Qc)a n d
+prices and make consumption decisions. Each con-
+sumer θ∈Θcan select a strategy from one of four
+options: P(contract with the proprietor), O(contract
+with the originator), C(contract with the contributor),
+orN(no contract with any provider). The resulting
+consumer market equilibrium critically depends on
+the ordering of total qualities in magnitude and is
+indifferent with regard to who provides it. Thus,
+without loss of generality, we characterize this equi-
+librium when Qi>Qj>Qk,w h e r e i,j,k∈{p,o,c}and
+i/negationslash/equalsj/negationslash/equalsk.14
+We highlight the consumer market outcome where
+all three service providers are present in the mar-
+ketplace and service positive masses of consumers.
+This outcome is of particular interest because it is
+commonly observed in the ser vices-driven enterprise
+software markets that are the focus of our study. We
+then obtain the following relevant result.
+Lemma 1. Forﬁxed prices p i,pj, and p kand qualities Q i>
+Qj>Qk, the consumer market has the following threshold
+characterization if p i<Qi,p i−Qi+Qj≤pj<piQj
+Qi, and
+pj−(pi−pj)(Qj−Qk)
+Qi−Qj≤pk<pjQk
+Qjare satis ﬁed:
+a.Consumers with θ∈(θij,1]contract with ﬁrm i,
+b.Consumers with θ∈(θjk,θij]contract with ﬁrm j,
+c.Consumers with θ∈(θk,θjk]contract with ﬁrm k,
+d.Consumers with θ∈[0,θk]do not use the software,
+where θij/equalspi−pj
+Qi−Qj,θjk/equalspj−pk
+Qj−Qk,a n d θk/equalspk
+Qk.15
+Intuitively, this lemma formalizes that the ﬁrms
+service the consumer market in a tiered fashion ac-
+cording to their qualities. Consumers with the lowest
+types ﬁnd it preferable to remain out of the market
+considering the prices of the software solutions and
+the relatively low utility these consumers derive. To
+beneﬁt the mathematical exposition, it is useful to
+denote the equilibrium strategy pro ﬁle in the con-
+sumer market as σ∗(θ|Q,p),w h i c ht a k e sv e c t o r s
+(boldface) of qualities and prices as given and maps
+Figure 1. Sequence of EventsAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3045 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 7 ===
+each consumer ’s type to his or her equilibrium strat-
+egy as prescribed by Lemma 1;s p e c i ﬁcally, Q/equals(Qp,
+Qo,Qc)andp/equals(pp,po,pc). In the following, we char-
+acterize the parameter region on which this consumer
+market outcome obtains in equilibrium and then
+explore diverse behaviors within this region with a
+goal of better understanding how efforts are lever-
+aged in the open-source domain as providers compete
+on the quality of their software solutions.
+4.2. Strategic Pricing of Software Solutions
+Given total qualities and an understanding of how
+prices in ﬂuence the consumer ma rket equilibrium, in
+the second-to-last stage, the three providers compete
+in the software market on prices. In particular, at this
+stage, the service providers consider their initial in-
+vestments as sunk. Thus, the relevant pro ﬁtf u n c t i o n s
+for this stage can be de ﬁned in a straightforward
+manner by
+˜Πppp|po,pc,Q()/equalspp−c()∫
+Θ1σ∗θ|Q,p () /equalsP {}dθ, (4)
+˜Πopo|pp,pc,Q()/equalspo−c()∫
+Θ1σ∗θ|Q,p () /equalsO {}dθ, (5)
+and
+˜Πcpc|pp,po,Q()/equalspc−c()∫
+Θ1σ∗θ|Q,p () /equalsC {}dθ, (6)
+respectively. Each provider maximizes its current-
+stage pro ﬁt function taking the other two providers ’
+prices as given. Intersecting these best-response price
+functions gives rise to the simultaneously set Nash
+equilibrium prices, which we denote by p∗
+p(Q),p∗
+o(Q),
+and p∗
+c(Q).W h e n Q>c, the Nash equilibrium prices
+fall into one of ﬁve regions depending on the level of
+service costs.16As service costs rise, each of the lower-
+quality providers is progressively squeezed out of the
+market by the equilibrium prices of the remaining
+higher-quality providers. Next, we turn our attention
+to the sequential effort sele ction investment problems
+that determine these qualities.
+4.3. Investment and Quality Contribution
+In enterprise software markets, it is commonly ob-
+served that the leading proprietary offering estab-
+lishes itself in the market prior to the leading OSS
+alternative. Typically, a proprietor innovates, invests
+in development, and begins providing its enterprise
+software solution in the market. Subsequently, in the
+OSS domain, an originator introduces an open-source
+alternative after incurring its own investments. Third,
+a contributor to the open-source product may also
+invest and compete in the services market. Given
+epand eo,w e ﬁrst describe the contributor ’se f f o r tinvestment decision problem. If it chooses to invest in
+OSS, its pro ﬁtf u n c t i o na tt h i ss t a g ec a nb ew r i t t e na s
+Πcec|ep,eo()/equalsp∗
+cQec()() −c()
+×∫
+Θ1σ∗θ|Qe c(),p∗Qe c()() () /equalsC {}dθ()
+−βce2
+c/2. (7)
+By maximizing ( 7)o v e r ec∈R+and comparing the
+maximal value to Vc, which is the value of the con-
+tributor ’s outside option, we denote the contributor ’s
+best response to each possible set of proprietor and
+originator efforts with e∗
+c(ep,eo). Rolling back to the
+originator ’s decision problem, we can write its pro ﬁt
+function as
+Πoeo|ep()/equalsp∗
+oQe∗
+ceo(),eo()()−c()
+×∫
+Θ1σ∗θ|Qe∗ceo(),eo () ,p∗Qe∗ceo(),eo ()() () /equalsO {}dθ()
+−βoe2
+o/2, (8)
+and similarly, by maximizing ( 8)o v e r eo∈R+,w e
+denote the originator ’s best response to each possible
+proprietor ’s effort level with e∗
+o(ep).I np a r t i c u l a r ,
+Q(e∗
+c(eo),eo)highlights the strategic interactions be-
+tween the originator ’s and contributor ’se f f o r tc h o i c e s .
+Finally, we examine the initial effort investment de-
+cision faced by the proprietor, whose pro ﬁtf u n c t i o n
+can be written as
+Πpep()/equalsp∗
+pQep()()−c()
+×∫
+Θ1σ∗θ|Qe p() ,p∗Qe p()() () /equalsP {}dθ()
+−βpe2
+p/2,
+(9)
+w h e r ew eu s et h es h o r t h a n dn o t a t i o n Q(ep)/equals
+Q(e∗
+c(ep,e∗
+o(ep)),e∗
+o(ep),ep). Similar to the other pro-
+viders, the proprietor maximizes ( 9)o v e r ep∈R+.
+We denote the equilibrium to this sequential effort-
+selection game with e∗/equals(e∗
+p,e∗
+o,e∗
+c).
+5. Oligopolistic Competition in Enterprise
+Software Markets
+As we laid out in Section 3,ﬁrms are generally het-
+erogeneous with regard to their respective capabil-
+ities and software development ef ﬁciencies. In our
+model, the cost-ef ﬁciency parameters are given by βp,
+βo,a n d βcfor the proprietor, originator, and con-
+tributor, respectively. Diff erences in these parameters
+reﬂect differences in the ﬁrms that produce enterprise
+software; such differences are connected to a variety
+of underlying ﬁrm characteristics. Some factors that
+d i r e c t l yd r i v ec o s t si n c l u d es o f t w a r ed e v e l o p m e n t
+productivity and the availability of and/or access toAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3046 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 8 ===
+information technology (IT) labor resource capacity
+and capital. Higher productivity in development is
+the ability to achieve the same outcome at a lower
+amount of effort (and, hence, cost). Productivity can
+be predicted by (1) level attainment in process-driven
+software development models such as the capability
+maturity model integration (CMMI; see, e.g., Harter
+et al. 2000 ,K r i s h n a ne ta l . 2000 , Harter and Slaughter
+2003 ) and (2) developer talent level and experience
+(Turley and Bieman 1995 ,H u c k m a ne ta l . 2009 ). Thus,
+ﬁrms who recruit in stronger IT labor markets may
+source more productive labor (Tambe 2014 ), and ﬁrms
+leveraging modern human resources analytics strat-
+egies may retain more productive resources. This is
+important because productivity among programmers
+and teams can vary by an order of magnitude (Curtis
+1981 , Scacchi and Hurley 1995 ,M c C o n n e l l 2008 ).
+I no r d e rt oi n v e s tac e r t a i na m o u n to fe f f o r ti n t oa
+project, a ﬁrm must be able to either allocate or
+source a suf ﬁcient number of developers to achieve it.
+Frictions in being able to do so go hand-in-hand with
+increased costs. These frictions include a lack of in-
+ternally quali ﬁed labor resources and having to bring
+externally sourced workers into the ﬁrm and train
+them on ﬁrm-speci ﬁc development processes. Larger,
+established ﬁrms may more easily attract and retain
+labor resources (Idson and Oi 1999 ); for example,
+multinational corporations such as Salesforcewith access
+to worldwide IT labor markets can leverage resources
+in more affordable markets for gains in cost ef ﬁciency.
+Finally, ﬁrms have to fund development, and they
+cannot do so without access to capital. Firms with higher
+free cash ﬂows would face signi ﬁcantly less friction than
+those needing to borrow. Generally, smaller ﬁrms tend to
+face more ﬁnancial constraints (Beck et al. 2005 ), and
+even start-ups can vary subst antially in terms of their
+ﬁnancial resources such as venture capital funding.
+We focus on two parameter regions characterized
+by different cost structures. The ﬁrst region, referred
+to as region H , parameterizes a region where the cost
+efﬁciencies of the three providers are fairly dispersed
+(i.e., high cost dispersion). This region captures a
+setting in which the proprietor is more cost ef ﬁcient
+than the originator, who is, in turn, more cost-ef ﬁcient
+than the contributor. Per the preceding discussion, in
+this case it is more likely that the proprietary ﬁrm has
+more mature development processes, has better ac-
+cess to IT talent, and faces less binding developer
+capacity constraints. Our running example for cus-
+tomer relationship management (CRM) software ﬁts
+this region well.17In terms of modeling, the parameter
+space where βp/lessmuchβo/lessmuchβccharacterizes region H.
+Technically, we prove the existence of bounds such
+that ifβo
+βpandβc
+βoare greater than these bounds, all
+our results in this region hold. In layperson ’st e r m s ,the cost ef ﬁciencies simply need to be suf ﬁ-
+ciently separated.
+The second region of focus, referred to as region L ,
+captures a contrasting scenario in which the cost ef-
+ﬁciencies of the three providers are much less dis-
+persed in the parameter space (i.e., low-cost disper-
+sion). Region L aims to capture settings where the
+proprietary and open-source ﬁrms have similar ca-
+pabilities such that the gap in cost ef ﬁciencies is not
+as substantial as seen in region H. As an example,
+Splunk (proprietor) and Elastic, Inc. (originator), com-
+pete in the log management and analytics market.18In
+terms of modeling, the parameter space where βp∼
+βo∼βc<¯βcharacterizes region L, where we intend to
+convey the meaning that the c ost parameters are of the
+same order in the asymptotic analysis employed in
+this paper and that the ﬁrms are suf ﬁciently cost ef ﬁcient.
+Technically, we prove the existence of an upper and lower
+bound such that ifβo
+βpandβc
+βoare within these bounds and
+βc<¯β, then all our results in this region hold. In
+layperson ’s terms, the cost ef ﬁciencies simply need to
+be suf ﬁciently close, which can be expected when rele-
+vantly connected ﬁrm characteristics are more similar.
+In addition to the characterization of cost ef ﬁciencies
+that de ﬁne regions L and H, our results necessarily
+require conditions re ﬂecting that the cross-effect pa-
+rameters socand scoshould not be too large. For the
+beneﬁt of the exposition, we assume the following
+sufﬁcient conditions hold throughout the paper.
+Assumption 1. We assume that s oc<¯socand s co<¯sco.
+The condition on scoensures that an OSS origina-
+tor’s effort comparatively boosts its own expertise
+and corresponding offerings to a suf ﬁciently greater
+degree than it affects its collaborating OSS contrib-
+utor. This is reasonable to assume because an OSS
+originator determines the g overnance of the project.
+The condition on socsimilarly limits the extent to
+which an originator can leverage the contributor ’s
+effort above and beyond the contributor ’s ability to
+leverage its own efforts. This suf ﬁcient condition
+ensures that the originator cannot simply free-ride on
+the contributor ’s effort, which is important to keeping
+the contributor in the market.19
+For the main analysis in the paper, we examine a
+region where the value of the contributor ’so u t s i d e
+option is initially limited such that the contributor
+ﬁnds it preferable to invest in the OSS project. In
+Section 5.4, we relax this assumption and contrast our
+ﬁndings with the economic outcomes that result
+under a higher opportunity cost for the contributor.
+Assumption 2. We assume that V c<¯V.
+Finally, because of the technical complexity of the
+equilibrium characterization, we employ asymptoticAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3047 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 9 ===
+analysis throughout this paper ’s proofs. Similar to
+other papers using asymptotic analysis techniques,
+our goal is to identify regions under which each of our
+results and their corresponding insights are valid —
+these results are robust and satis ﬁed for wide parameter
+regions.20For region L, we provide some additional
+supporting technical conditions in Lemma A.4 in the
+online appendix for tractability.
+5.1. Effort-to-Quality Parameters
+In this section, we expound on primitive factors that
+inﬂuence the OSS effort-to -quality parameters ( so,sc,
+soc,a n d sco) while particularly highlighting the con-
+nection between licensing and soc. We begin with
+factors that have the broadest impact, in ﬂuencing all
+four of the OSS effort-to-quality parameters. First, the
+ﬂexibility associated with openness in the OSS par-
+adigm (1) enables service providers to fully customize
+their solutions to be closel y aligned with the business
+processes they are designed to support and (2) per-
+mits OSS developers to collaboratively contribute
+code on top of existing code to add new functions, ﬁx
+bugs, improve design, and more. Whereas a propri-
+etor aims to compete similarly with application pro-
+gramming interfaces (APIs), the ﬂexibility provided
+is much more limited than that under the OSS par-
+adigm. In markets where ﬂexibility is highly valued,
+we can expect so,sc,soc,a n d scoall to be positively
+affected because they each have a component that
+reﬂects how the originator ’s and contributor ’se f -
+forts on the codebase impact the shared good that
+is created.
+Second, in addition to impacting productivity, de-
+velopment processes such as CMMI can also posi-
+tively impact quality. As organizations rise up in their
+level of maturity, they can be expected to produce
+software that performs better on quality metrics such
+as defects per thousand lines of code.21To re ﬂect this
+in our model, if an OSS participant such as the
+originator attains higher maturity, then both a higher
+soand scoshould be employed; similarly, if the con-
+tributor attains higher maturity, then scand socare
+also higher. That is, there is a positive relationship
+between a ﬁrm’s (whether originator or contributor)
+development maturity and its own effort-to-quality
+parameters.
+Third, the manner in which an OSS project ’sc o d ei s
+architected can have wide- ranging impacts. A mod-
+ular architecture is associated with a high option
+value in the sense that a developer always has the
+option to adopt new modules or new designs for
+existing modules but need not. In contrast, a mono-
+lithic architecture is more constraining in that contri-
+butions necessitate sweeping changes to the codebase
+(Baldwin and Clark 2006 ). Because of the inher-
+ently reusable nature of components in a modulararchitecture, OSS developers have the ability to in-
+novate more quickly and add functionality with less
+effort, leveraging code reuse (MacCormack et al.
+2006 ). For these reasons, more modular (monolithic)
+designs can be expected to positively (negatively) af-
+fectso,sc,soc,a n d sco.
+N e x t ,w ed i s c u s sf a c t o r st h a th a v ea ni m p a c tt h a ti s
+narrower in scope (tending to in ﬂuence a subset of the
+OSS effort-to-quality parameters), including gover-
+nance controls and licensing (as well as learning
+curves, which are not as speci ﬁc to the OSS para-
+digm22). First, OSS project gov ernance is an important
+aspect typically determined by the originator. Gov-
+ernance speci ﬁes the rules surrounding participation
+in the project. These rules impact the incentives for
+participation and the extent to which the originator
+can bene ﬁt from participation efforts. Consider the
+rules that govern who can contribute code to the OSS
+project (e.g., what requirements must be met for a
+developer to be permitted to commit code). Imposing
+stricter selection criteria may drive higher-quality
+contributions but result in fewer individuals par-
+ticipating. Also, the committed code itself is often
+governed by a set of processe s that determine whether
+a given contribution is accepted into the OSS project or
+rejected. Both of these governance controls, developer
+accreditation and code acceptance, have been shown
+to increase developer inten tions for continued par-
+ticipation in OSS projects in addition to improving
+quality directly (Ho and Rai 2017 ). Therefore, stricter
+(weaker) controls on the contributor should posi-
+tively (negatively) affect the quality associated with
+the contributor ’s efforts; this can be represented by a
+higher (lower) scand socin our model.
+Another control with a different impact is docu-
+mentation. Historically , OSS was associated with
+relatively poor documentation in comparison with its
+proprietary counterparts (Lerner and Tirole 2002 ),
+but the status quo has changed, particularly in en-
+terprise software markets, where OSS offerings are
+increasingly competitive. On the one hand, the act of
+documenting does not immediately bene ﬁtt h eO S S
+project and substitutes effort away from functionality
+contributions. On the other hand, documentation
+enables other developers to more readily understand
+code and thus makes it easier to build on existing
+code. The net impact depends on these trade-offs.
+However, good documentation practices are more
+readily associated with highe r cross-effort-to-quality
+parameters in that the provider who bene ﬁts is less
+exposed to the downside of the trade-offs. Therefore,
+an OSS project prioritizing documentation can be
+expected to positively affect socand sco.
+Second, license restrictiveness is an important fac-
+tor that is focal to this paper. In the open-source
+community, many different licenses are used, someAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3048 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 10 ===
+more commonly than others.23One signi ﬁcant di-
+mension along which open- source licenses vary is the
+degree of restrictiveness with regard to the rights
+granted to the community (including the contributor)
+that works with or uses the OSS in question. The
+degree of restrictiveness primarily involves two ele-
+ments: (1) the copyleft element, which requires source
+code to be made available if the modi ﬁed OSS version
+is distributed, and (2) the viral element, which dictates
+that source code must be shared even if the OSS is
+used only as a component (Singh and Phelps 2013 ).
+Restrictive GPL-style licenses usually demand both
+elements, and permissive BSD-style licenses often
+require neither. Some less restrictive licenses, such
+as the GNU Lesser General Public License (LGPL),
+contain only the copyleft element and thus are of-
+ten adopted by software libraries. As the copyright
+holder of the OSS, the originator can enforce its
+copyright in court should an y entity violate a clause of
+its license.24
+The restrictiveness of a license determines the ex-
+tent to which contributors must share source code
+back to a given OSS communi ty. When contributors
+s h a r em o r e ,t h eb e n e ﬁts to the originator increase
+because it leverages the con tributions and associated
+collaborative exchanges to drive up the total quality
+of its own integrated solu tion to customers. This
+customized solution re ﬂects both the enhanced OSS
+functionality and integration expertise. In our model,
+the parameter socessentially captures this feature. The
+more restrictive the license, the more an originator
+can bene ﬁtf r o ms u b s e q u e n tc o n t r ibutor efforts (i.e.,
+socincreases), which are more forcibly leveraged.
+In contrast, as the copyright holder, the originator ’s
+exposure to license requirements is quite different. It
+is important to recognize that the originator ’sc o p y -
+right enables it to essentially do whatever it wants. If
+it wants to share a lot of its efforts with the community
+under a restrictive license, it may, but if it does not
+want to, it need not. The same is true under a per-
+missive license. In this sense, the originator is much
+less constrained by licensing and can easily make
+license modi ﬁcations to accommodate its own pref-
+erence for sharing. For example, it might use a dual-
+license model when it wants to impose restrictiveness
+on others but not itself (Watson et al. 2008 ).
+At the end of the day, the originator of an OSS
+project already possesses the intent to both share
+and provide visibility into the source code of its
+product —this is why it has chosen an OSS business
+model in the ﬁrst place. Therefore, it is typically the
+case that the originator makes signi ﬁcant shared
+contributions to the community (independent of li-
+censing) in the hopes of engendering excitement and
+follow-on communal contributions. To better re ﬂect
+the freedoms associated with its copyright as well asits open-source intentions, we treat scoas a free pa-
+rameter unaffected by licensing for our main results.
+In this sense, we focus on the more signi ﬁcant rela-
+tionship between license re strictiveness and contrib-
+utor sharing. Throughout this paper, language indi-
+cating an increase in license restrictiveness refers to
+an increase in soc, and all formal results are likewise
+on movements in soc. For robustness, we also examine
+the case where licensing impacts sco. While capturing
+that the degree of restrictiveness has a lesser in ﬂuence
+onscoin comparison with soc, we formally demon-
+strate that our main insights carry over to this re-
+laxed scenario.25
+5.2. High Cost Dispersion
+5.2.1. Efforts and Qualities. In region H, where the
+providers are characterized by larger differences in
+their abilities to invest ef ﬁciently in the development
+of their software offerings, we have fully character-
+ized the equilibrium effort investment levels ( e∗)t h a t
+arise in the sequential investment game that is typi-
+cally found in these markets (see Lemma A.3 in the
+online appendix for the equilibrium effort levels). We
+establish that in equilibrium, the proprietor is a dis-
+tanced quality leader in the market, whereas, because
+of cross-effects, the originator and contributor com-
+pete slightly more aggressively, although the origi-
+nator ’s offering bears a higher quality in equilibrium.
+Because with OSS there exist cross-effects of effort
+investments on the qualities of the open-source of-
+ferings, we aim to explore how the strength of these
+effort interactions affects quality competition among
+the three providers.
+Proposition 1. Under the conditions of region H, if the
+cross-effect of the contributor ’s effort on the originator ’s total
+quality s ocincreases, then the following hold:
+a.The proprietor ’se f f o r te∗
+pdecreases, whereas the
+contributor ’s effort e∗
+cincreases.
+b.The originator ’se f f o r te∗
+odecreases if the contribu-
+tor ’s cost parameter is high. However, if the contributor ’s
+c o s tp a r a m e t e ri sl o w ,t h e ne∗
+oincreases in s ocup to a
+threshold value ˜socand then decreases in s ocbeyond ˜soc.
+Technically, there exists a ¯βc>0such thatde∗
+o
+dsoc<0if
+βc≥¯βc.However, if βc<¯βc, then there exists ˜soc∈(0,¯soc)
+such thatde∗
+o
+dsoc>0for s oc∈(0,˜soc)andde∗
+o
+dsoc<0for s oc∈
+(˜soc,¯soc).26
+c.The proprietor ’sq u a l i t yQ p(e∗)decreases, whereas
+both the originator ’s and contributor ’s qualities Q o(e∗)and
+Qc(e∗),respectively, increase.
+Proposition 1establishes that increases in socre-
+sulting from changes in primitive factors such as
+license restrictiveness, cont ributor accreditation, code
+acceptance, and maturity will intensify competition
+between proprietary and open-source offerings inAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3049 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 11 ===
+markets exhibiting properties consistent with re-
+gion H.27Speciﬁcally, part (c) of Proposition 1dem-
+onstrates that the proprietor ’s quality decreases, whereas
+both the originator ’s and contributor ’s qualities in-
+crease in equilibrium. When socincreases, the con-
+tributor faces a trade-off. Because a higher socserves to
+help the originator better leverage the contributor ’s
+efforts toward its own solution quality, the origina-
+tor may partially substitute contributor efforts for
+its own efforts. This can reduce the contributor ’si n -
+centives to incur these investments. In contrast, the
+contributor may also have an incentive to help the
+originator become a stronger competitor against
+the proprietor. Speci ﬁcally, if the total quality of the
+originator ’s offering becomes higher, then the orig-
+inator also becomes closer i n the quality space to the
+proprietor, creating space at the low end of the
+consumer market. This increased differentiation be-
+tween originator and contrib utor quality relaxes price
+competition between them in the market for services,
+which could be bene ﬁcial to the contributor; it can
+offer a higher-quality offering at the low end where it
+can also charge a higher price.
+It turns out that the latter effect dominates. More
+restrictive licenses that serve to increase socactually
+increase the economic incentive for contributors toinvest effort into OSS, as is stated in part (a) of
+Proposition 1. This result can be better understood by
+examining how the originator reacts to increases
+insoc, which is summarized in part (b) of Proposition 1.
+When the ability of a contributor to increase the
+quality of its own offering is limited because its in-
+vestment cost function is highly convex, that is,
+βc≥¯βc, the originator has an incentive to scale back its
+own effort to induce the contributor to invest more. A
+similar incentive is found when the contributor has
+the ability to cost-ef ﬁciently increase its own quality,
+that is, βc<¯βc, but the originator can strongly le-
+verage that effort toward its own quality offering; that
+is,socis at the high end of the range. Again, in this case,
+the originator scales back effort as socincreases within
+this range to induce the contributor to invest more to
+boost its own quality as well as the originator ’s
+quality. This behavior is illu strated in the right-hand
+p o r t i o no fp a n e l s( b ) ,( c ) ,( e ) ,a n d( f )i nF i g u r e 2.B y
+examining the slope of the curves in panels (e) and (f),
+it becomes clear that greater differentiation of OSS
+solutions is achieved by increasing originator quality
+relatively more than contributor quality.28
+In contrast, when the contributor is cost ef ﬁcient
+(βc<¯βc) and the originator does not bene ﬁta sm u c h
+from the contributor ’s effort (i.e., socis at the low end
+Figure 2. Equilibrium Effort Choices and Resulting Quality Levels Under Region H as Affected by Changes in soc
+Note. The parameter values are sp/equals1,so/equals1,sc/equals1,sco/equals0.3,Vc/equals0.01,c/equals0.01,βp/equals0.002, βo/equals0.004, and βc/equals0.005.August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3050 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 12 ===
+of its range), the originator ’s investment incentive is
+signiﬁcantly altered. In particular, the originator is
+wary of the contributor whose investment bene ﬁts its
+own quality signi ﬁcantly more than it bene ﬁts the
+originator ’s quality. Thus, as socincreases, the con-
+tributor has an incentive to signi ﬁcantly increase its
+own quality and compete more strongly against the
+originator whose quality is marginally higher as a
+result of this higher investment. Because of the con-
+tributor ’s strategic behavior, the originator ﬁnds it
+preferable to also make a larger effort investment
+and increase its own quality to maintain a suf ﬁcient
+quality gap and avoid excessive price competition.
+The left-hand side of panel (b) of Figure 2illustrates
+how the originator shar ply increases effort as socin-
+creases, which leads to a sharp increase in the origi-
+nator ’s quality, as can be seen in the same portion
+of panel (e).
+When the cost functions of the three providers
+exhibit high dispersion (region H), the proprietor is
+signiﬁcantly more cost ef ﬁcient in the development of
+its software offering. However, the open-source mode
+of production enables the originator and contributor
+to still achieve an increased quality in their offerings
+by leveraging the joint investment from both orga-
+nizations, which has a positive effect on quality. In
+fact, the inherent nature of open source helps to
+distribute development costs and enable both con-
+tributing providers to operate on the less convex part
+of their cost functions while still achieving higher
+quality levels through their separate but collabora-
+tive contributions. Recognizing this open-source pro-
+duction advantage, the proprietor leverages its own
+cost ef ﬁciency and ﬁrst-mover advantage to invest
+heavily and bring a high-quality offering to the mar-
+ket. This ensures that even though open-source of-
+ferings bene ﬁt from potentially strong cross-effort
+effects, there will still be suf ﬁcient distance between
+the qualities of software solutions brought to market
+in equilibrium. However, when socfurther increases,
+the proprietor does not generate as signi ﬁcant a
+return on its effort investments in the face of more
+competitive OSS offerings. Therefore, on the margin,
+it scales back its investment, which is illustrated in
+panels (a) and (d) of Figure 2and formalized in
+Proposition 1.
+5.2.2. Consumer Surplus and Social Welfare. Because
+increases in socgreatly impact the incentives of all
+providers to incur investments and compete in an
+enterprise services market, we next turn our attention
+to examining the aggregate effect on the market. In
+particular, we are concerned with how increases in soc
+stemming from increased license restrictiveness affect
+the market overall because of the qualities of the
+software solutions and the respective price competitionthat result. For our model, consumer surplus CSis de-
+ﬁned as
+CS/equals∑
+k∈p,o,c{}∫
+ΘQke∗()θ−p∗
+k()·1σ∗θ|Qe∗() ,p∗() /equalsk {}dθ,
+(10)
+and similarly, social welfare SWcan be measured as
+SW/equals∑
+k∈p,o,c{}Πe∗
+k()+CS. (11)
+The following proposition establishes its impact on
+these measures.
+Proposition 2. Under the conditions of region H, both
+consumer surplus and social welfare increase as the cross-
+effect of the contributor ’s effort on the originator ’s total
+quality s ocincreases.
+Earlier, we saw how the equilibrium quality level of
+the proprietor decreases, whereas the equilibrium
+quality levels of the originator and contributor both
+increase in soc. Because qualities are moving in mixed
+directions and price compet ition is stiffening between
+the proprietor and originator yet weakening between
+the originator and contributor, the overall impact
+on consumer surplus is unclear. In the analysis of
+Proposition 2, we establish that the increased price
+competition between the p roprietor and originator
+more than offsets the impact of having a lower-quality
+proprietary offering. Consumer surplus associated
+with both of their offerings increases in soc.C o n s u m e r
+surplus associated with the contributor ’s offering also
+tends to increase in socbecause of its higher-quality
+solution for most levels of license restrictiveness.
+However, in the upper range of soc,b e c a u s et h ei n -
+crease in contributor quality is only marginal, whereas
+the contributor possesses additional pricing power at
+the low end of the market, c onsumer surplus associ-
+ated with the contributor ’s offering decreases. Ag-
+gregating the impact across all providers, Proposi-
+tion2formally establishes that in regions of high cost
+dispersion, consumer surplus increases with socand
+therefore with increasingl y restrictive licenses that
+govern OSS. Moreover, these effects extend to social
+welfare for the same rationale discussed earlier.
+5.2.3. Transition from Region H to Region L. Part (b) of
+Proposition 1also examines a region where the con-
+tributor becomes more cost ef ﬁcient ( βc<¯βc)a n dt h e
+cross-effect of its effort o n the originator is limited
+(i.e., low soc). In this case, the contributor is intuitively
+a stronger competitor. As βcdecreases, it effectively
+becomes closer to βo, moving from a highly dispersed
+(βo/lessmuchβc) scenario to a less dispersed one in a relative
+sense ( βo<β c). Between regions H and L, which weAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3051 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 13 ===
+study in the next section, there is another parameter
+space that is practically relevant: one in which the
+proprietor is much more ef ﬁcient and the natural
+quality leader, whereas the OSS participants are of
+similar caliber.
+Combining the mathematic al characteristics of re-
+g i o n sHa n dL ,t h i ss p a c ec o u l db ed e s c r i b e da sh a v -
+ing cost parameters satisfying βp/lessmuchβo∼βc.B e c a u s e
+Proposition 1analyzes a subcase where βcbecomes
+smaller, it effectively extends its reach beyond only
+region H; the analysis and insights produced in this
+subcase are likely to be applicable even for this nat-
+ural region of curiosity that lies in between. Intui-
+tively, even if the contributor becomes a much stronger
+competitor, the origin ator continues to have a ﬁrst-
+mover advantage and thus the opportunity to pro-
+tect its quality leadership. The strategic behavior we
+characterized earlier and the associated economic in-
+sights can carry over even as far as the cost parameters
+being equal ( βo/equalsβc) because the originator uses his or
+herﬁrst-mover advantage to effectively manage the
+incentives of this more ef ﬁcient contributor. In fact,
+even if we instead use βo/equalsβc/equals0.004 in Figure 2,a s i d e
+from slight changes in the levels of equilibrium efforts
+and qualities, the qualitative results are essentially
+the same. However, if the proprietor ’sc o s te f ﬁciency
+also becomes close to that of OSS participants, the
+economics differ signi ﬁcantly, which we now turn
+attention toward.
+5.3 Low Cost Dispersion
+In region L where the providers have similar cost
+efﬁciencies, we characteriz e the equilibrium effort
+investment levels that arise in the sequential invest-
+ment game; these are provided in Lemma A.4 in the
+online appendix. Because al lt h r e ep r o v i d e r sh a v e
+similar cost ef ﬁciencies, our results depend critically
+on the relative magnitudes of the effort-to-quality
+parameters. We explore two scenarios in our analy-
+sis. First, we examine the case where the proprietor ’s
+effort-to-quality parameter spis relatively large such
+that it remains the quality leader in equilibrium.
+Contrasting with region H , we demonstrate how the
+strategic interactions differ in region L as a result of
+the reduced cost dispersion. Second, we examine the
+case where the relative strength of the OSS providers ’
+effort-to-quality parameter s favors the originator be-
+coming the quality leader in equilibrium. We discuss
+such outcomes as they relate to OSS factors such as
+customizability, ﬂexibility, and code modularity, which
+can be highly valued in enterprise software markets.
+5.3.1. Proprietor Quality Leadership. We begin by ex-
+amining the case where spis relatively large in com-
+parison with the effort-to -quality parameters thatcharacterize the OSS providers. In this case, we dem-
+onstrate that even if the providers ’cost ef ﬁciencies
+become more homogeneous as in region L, their effort
+choices lead to equilibrium qualities that match the
+same ordering as established under region H, albeit
+with less separation. However, the homogeneity in
+cost ef ﬁciencies that characterize region L lead to
+signiﬁcantly different strategic interactions. Because
+of their changing nature, the impact of socon the
+equilibrium effort investments and resulting qualities
+also varies systematically from region H, which can
+provide an enhanced understanding of how cross-
+effort quality effects intera ct with cost characteristics
+in the services market to determine market outcomes.
+Proposition 3. Under the conditions of region L, if the
+proprietor has a relatively high effort-to-quality effect (s p),
+then as s ocincreases, the following hold:
+a.The proprietor ’s effort e∗
+p,o r i g i n a t o r ’s effort e∗
+o,a n d
+contributor ’s effort e∗
+call decrease in equilibrium.
+b.The proprietor ’s quality Q p(e∗)and contributor ’s
+quality Q c(e∗)both decrease. However, the originator ’s
+quality Q o(e∗)increases and then decreases in s oc.T e c h -
+nically, there exists ˆsoc∈(0,¯soc)such thatdQo(e∗)
+dsoc>0for
+soc∈(0,ˆsoc)anddQo(e∗)
+dsoc<0for s oc∈(ˆsoc,¯soc).29
+c.Similarly, consumer surplu s and social welfare also
+increase and then decrease in s oc.
+Previously, in Section 5.2, we learned that when
+ﬁrm capabilities are charac terized by a high degree of
+cost dispersion (region H), more restrictive licenses
+can actually increase the economic incentives for
+originators and contributors to invest effort into OSS
+by raising soc. In contrast, part (a) of Proposition 3
+establishes that as ﬁrms become more similar in de-
+velopment capability, their incentives to invest in
+development can be substantially and negatively
+altered. As before, the originator has an incentive to
+leverage the contributor ’s efforts, and the contributor
+also has an incentive to drive the originator ’s quality
+up for greater differentiation. However, because of
+the greater similarity in development capabilities in
+region L, the proprietor can strategically limit the
+ability of the OSS ﬁrms from leveraging the com-
+plementarities that stem fr om restrictive licenses.
+In particular, because cost ef ﬁciencies are similar,
+the proprietor is more wary of investing heavily in
+quality. If it does so, the originator can also invest
+efﬁciently and leverage contributor efforts to compete
+intensely and limit the proprietor ’sr e t u r no ni t so w n
+investment. Foreseeing this problem, the proprietor
+invests to a lesser degree and offers a lower-quality
+total solution. Given the proprietor ’s quality, the
+originator can cost ef ﬁciently increase the quality of
+its offering in the market, but in this case, it becomes
+essentially constrained by the prior quality choiceAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3052 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 14 ===
+commitment of the proprietor. Thus, under a stronger
+cross-effect that comes with more restrictive licenses,
+the originator simply has heightened incentives to
+scale back its own investment and substitute it with
+the contributor ’s investment to a greater degree. In a
+sense, the originator does not want its quality offering
+to increase too much because it only leads to more
+severe price competition with the proprietor who has
+strategically selected a lower position in the quality
+space. In this situation, the contributor also no lon-
+ger has incentives to contribute heavily to push the
+originator further up in the quality space; indeed, the
+contributor realizes that in equilibrium the originator
+will strategically not allow it.
+In Figure 3, we show how the equilibrium efforts
+are impacted by socand the consequence on the total
+quality brought to the market. Consistent with part
+( a )o fP r o p o s i t i o n 3, all three providers reduce their
+equilibrium effort investments as socincreases, which
+is illustrated in panels (a) –(c) of Figure 3. The origi-
+nator takes a balanced approach toward managing
+the total quality of its joint offering. As socinitially
+increases, it leverages to a greater degree the con-
+tributor ’s effort while scaling back its own effort,
+which is shown in panel (b) of Figure 3.E v e nt h o u g hthe contributor reduces its effort in response, the
+total contribution to the originator ’s quality from the
+contributor (i.e., soce∗
+c) still leads to a net increase in
+the quality of the originator ’s offering, which is illus-
+trated in the left-hand side of panel (e) of Figure 3.30
+However, as socincreases to the more restrictive end of
+the spectrum, the proprietor is more concerned with
+the ability of the originator to leverage the contrib-
+utor. As a result, the proprietor moves down sharply
+in the quality space, which is re ﬂected in panels (a)
+and (d) of Figure 3. Given the proprietor ’sb e h a v i o r ,
+the originator also reduces its effort more sharply to
+lower the quality of its offering and avoid head-to-
+head competition with the proprietor by creating
+distance in the quality spa ce from above. In turn, the
+contributor ’s quality is also more sharply affected
+negatively, as seen in panel (f) of Figure 3,w h i c ha l s o
+serves to alleviate price competition in the market
+for services.
+Part (c) of Proposition 3highlights an important
+insight into the role open-source licensing should
+play in software markets. In particular, although
+some in the open-source community often advocate
+restrictive licenses such as GPL, such licensing can
+sometimes be detrimental to both consumer surplus
+Figure 3. Equilibrium Effort Choices and Resulting Quality Levels Under Region L as Affected by Changes in soc
+Note. The parameter values are sp/equals1,so/equals1,sc/equals0.3,sco/equals0.3,Vc/equals0.01,c/equals0.01,βp/equals0.002, βo/equals0.002, and βc/equals0.002.August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3053 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 15 ===
+and social welfare. Speci ﬁcally, in markets characterized
+by software providers with similar development ca-
+pabilities, a restrictive license can amplify the incentive
+conﬂicts. Such a license makes OSS a greater threat to
+the proprietor because of how the collaborative nature
+of OSS development can potentially bene ﬁtf r o ms u c h
+licensing. Because of these concerns, the proprietor
+strategically brings to market a purposefully lower-
+quality offering to force the open-source originator
+into a position where it prefers to limit the synergies
+stemming from the open-source cross-effort effects. In
+these circumstances, it is important for less restrictive
+licenses (such as BSD) to be encouraged and supported
+by open-source communities. This insight will extend
+in a natural way to other OS S governance controls
+including developer accreditation, code acceptance
+controls, and documentation, which can positively
+affect cross-effort-to-quality parameters and ultimately
+exacerbate the same incentive con ﬂict.
+Contrasting this implication with Proposition 2,w e
+see that more restrictive licenses seem to bene ﬁts o -
+ciety the most in markets where the characteristics
+among the providers exhibit signi ﬁcant dispersion.
+For example, this might occur when the proprietary
+ﬁrm is a clear and dominant leader, such as in the case
+of Salesforce, SugarCRM, and Synolia, where the
+open-source ﬁrms may face greater resource con-
+straints and lower cost ef ﬁciencies.
+5.3.2. Open-Source Quality Leadership. Particular to
+r e g i o nL ,i tc a ne v e nb et h ec a s et h a ta nO S Sp r o v i d e r
+offers the highest total quality solution in the market
+despite the proprietor possessing a ﬁrst-mover ad-
+vantage. As is discussed in Section 5.1,t h e r ea r es o m e
+factors on which OSS maintains a relative advantage,
+such as on ﬂexibility and custom izability. This ad-
+vantage gets re ﬂected in the effort-to-quality pa-
+rameters, and if it is suf ﬁciently strong, OSS quality
+leadership can emerge. The ability of OSS providers
+to integrate systems tailored to meet customers ’idi-
+osyncratic preferences can be highly valued in en-
+terprise software markets. Parametrically, we capture
+greater ﬂexibility with higher values for so,sc,sco,a n d
+soc. For the last parameter, because our propositions
+are comparative statics on socanyway, an increase in
+ﬂexibility can be interpreted as an increased lower
+bound on the base level of socabove which the
+comparative statics apply. More generally, our formal
+results provide the more complete comparative statics
+results on socand thus inform both cases where the
+base level of socis marginally and heavily impacted by
+increased ﬂexibility.
+We study two cases that lead to OSS quality leader-
+ship. First, we examine a case where the impact of
+ﬂexibility is limited but suf ﬁcient for the originator tobecome the quality leader i n equilibrium. Second, we
+examine a case where the impact of ﬂexibility is
+extensive and leads to both the originator and con-
+tributor ultimately offering higher-total-quality so-
+lutions than the proprietor. We begin with the ﬁrst
+case. It is important to note that because the pro-
+prietor possesses a ﬁrst-mover advantage, it can
+assume quality leadership with a signi ﬁcant invest-
+ment that effectively deters OSS providers. However,
+we establish in part (ii) of Lemma A.4 in the online
+appendix that it is not in the proprietor ’s best interest
+to do so, instead ceding that role to the originator.
+With the originator as the quality leader in equilib-
+rium, the impact of additional gains in socresulting
+from increased license restrictiveness is signi ﬁcantly
+different from what we characterized in Proposition 3.
+This is formalized in the following proposition.
+Proposition 4. Under the conditions of region L, if the
+originator has a relatively high effort-to-quality effect (s o) but
+the contributor ’s own effort-to-quality effect (s c) and cross-
+effect from the originator (s co) remain limited, then as s oc
+increases, the following hold:
+a.T h e p r o p r i e t o r ’se f f o r te∗
+pand contributor ’s effort e∗
+c
+both increase in equilibrium. However, the originator ’s
+effort e∗
+oincreases and then decreases in s oc.Technically,
+there exists ˆsoc∈(0,¯soc)such thatde∗
+o
+dsoc>0for s oc∈(0,ˆsoc)
+andde∗
+o
+dsoc<0for s oc∈(ˆsoc,¯soc).
+b.T h ep r o p r i e t o r ’s quality Q p(e∗)and originator ’s
+quality Q o(e∗)both increase. However, the contributor ’s
+quality Q c(e∗)increases and then decreases in s oc.T e c h -
+nically, there exists ˆsoc∈(0,¯soc)such thatdQc(e∗)
+dsoc>0for
+soc∈(0,ˆsoc)anddQc(e∗)
+dsoc<0for s oc∈(ˆsoc,¯soc).31
+c. Both consumer surplus and social welfare increase.
+Previously, we showed that when the proprietor
+is the quality leader, an increase in socdecreases the
+investment incentives for all three providers. In contrast,
+once the originator ’s effort-to-quality effect becomes
+relatively stronger (in comparison with the proprie-
+tor), in equilibrium the originator makes greater in-
+vestments and becomes the quality leader in the
+market. Once an OSS originator governs the top slot,
+the economic effects of licensing necessarily change.
+Speci ﬁcally, the originator is no longer concerned
+about increased license restrictiveness causing its
+quality to move upward and too close to a proprietary
+offering that is the quality leader. By strategically
+investing to become the quality leader, these shackles
+are removed, and the originator can once again bene ﬁt
+signiﬁcantly from the positive impact of increased
+license restrictiveness on soc.I nP r o p o s i t i o n 4,w ee s -
+tablish that the originator ’s total quality of solution
+once again increases in soc. Moreover, the proprietor
+also increases its effort and hence quality as a result of
+the relaxed pressure from ab ove. The contributor alsoAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3054 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 16 ===
+invests more as socincreases, but the total quality of its
+offering hinges on the extent to which the originator
+substitutes the contributor ’se f f o r t sf o ri t so w n .I nt h e
+upper range of soc, the originator ’s incentive to sub-
+stitute efforts is quite high and ultimately leads to a
+reduction in the quality of the contributor ’so f f e r i n g ;
+this offering suffers from the originator ’s reduced
+investments via the cross-quality effect scoe∗
+o.32Be-
+cause increased license restrictiveness largely leads to
+increased investments and b etter-quality offerings,
+the net impact of consumer surplus and social welfare
+is positive, which is reminiscent of our ﬁndings in
+region H.
+For the second case, we examine a scenario with a
+more extensive impact on the effort-to-quality pa-
+rameters of the OSS participants. In particular, we
+look at a case where ﬂexibility is highly valued in
+the market or when other factors such as modular
+architecture or development maturity greatly en-
+hance both OSS providers ’effort-to-quality param-
+eters. This leads to a much stronger contributor, and
+we formally establish in part (iii) of Lemma A.4 in the
+online appendix that the equilibrium is characterized
+as follows: the originator is the quality leader, the
+contributor now emerges to serve the middle tier of
+the market, and the proprietor serves the lower tier of
+the market. This outcome is consistent with a con-
+ceptualization of OSS ﬂexibility being highly valued
+by the market and re ﬂected by effective integration
+and the total quality provided by OSS participants.
+The following proposition formalizes the impact of
+additional gains in socresulting from increased license
+restrictiveness in this case.
+Proposition 5. Under the conditions of region L, if the
+originator has a relatively high effort-to-quality effect (s o)
+and the contributor ’s own effort-to-quality effect (s c) and
+cross-effect from the originator (sco) become moderate, then
+as s ocincreases, the following hold:
+a.The proprietor ’se f f o r te∗
+pand contributor ’s effort e∗
+c
+both increase in equilibrium. There exists¯kc>0such that
+ifˆkc≥¯kc, then the originator ’s effort e∗
+odecreases in . If
+ˆkc<¯kc, then the originator ’se f f o r te∗
+oincreases in s oc.33
+b.T h e p r o p r i e t o r ’s quality Q p(e∗),o r i g i n a t o r ’sq u a l i t y
+Qo(e∗), and contributor ’sq u a l i t yQ c(e∗)all increase.
+c. Both consumer surplus and s ocial welfare increase.
+By contrasting Propositions 4and5, we see how the
+strength of an underlying primitive construct favor-
+ing OSS such as ﬂexibility, modularity, and maturity
+can lead to different econom ic effects. In particular,
+the strategic interactions between the OSS partici-
+pants and their interpl ay with the proprietor ’si n -
+centives have been altered to some extent. In both
+cases, the originator largely bene ﬁts from an increase
+in the effort-to-quality cross-effect from the contrib-
+utor ( soc). However, in the latter case, the originatormust be more cognizant of the fact that the contrib-
+utor has become inherently a stronger competitor in
+such a market. Although the originator continues to
+leverage the contributor toward increasing its own
+quality (via substituted effort), part (b) of Proposi-
+tion 5demonstrates how the originator strategically
+must increase its own effort as socrises if the con-
+tributor is more ef ﬁcient.
+This behavior highlights the difference between
+having OSS participants adjacent to one another in the
+quality space versus having their interactions inter-
+mediated when the proprietor serves the middle tier
+as in Proposition 4. When adjacent, the competitive
+side of coopetition becomes much more dominant.
+In particular, a more ef ﬁcient contributor (i.e., smaller
+ˆkc) has a strong incentive to exert effort to drive up
+its own quality and be more competitive in the ser-
+vices market. With adjacency, an increase in socfur-
+ther improves the return on effort because not only
+is its own quality improved but it also helps to push
+the originator further up in the quality space, es-
+sentially making it easier for it to extract surplus from
+the middle tier. A stronger contributor who exerts
+greater effort is an even bigger threat to the originator
+(notwithstanding the associated cross-effort bene ﬁts),
+and therefore, the originator must also increase its
+o w ne f f o r t st or e t a i nq u a l i t yl e a d e r s h i pa n dp r e s e r v e
+as u f ﬁcient quality gap to maximize pro ﬁtability.
+In contrast, when the proprietor intermediates com-
+petition by serving the middle tier, the collaborative
+effects of OSS get muted. In this case, the bene ﬁt
+from any boost to the originator ’s quality stemming
+from increased contributor efforts greatly depends
+on the proprietor ’s reaction; its quality sits between
+the two competitors and essentially binds the con-
+tributor ’s behavior. Because the proprietor ’s quality
+is unaffected by contributor efforts, the contribu-
+tor cannot create the same quality spacing. Therefore,
+it increases effort to a more limited extent, which
+again enables substitution by the originator (as in
+Proposition 5).
+5.4. Impact of the Value of the Contributor ’s
+Outside Option
+In Section 3, we modeled the contributor as having an
+outside option value of Vc. For our main results, we
+focused on a region where Vcis not too high such that
+the contributor elects to invest in the OSS project in
+equilibrium; this region is perhaps most pertinent to
+the research questions being posed because we aim to
+better understand the strategic interactions under-
+lying equilibria where all providers are in the market,
+which is an outcome frequently observed in practice.
+In this section, we also examine the impact of having
+al a r g e ro u t s i d eo p t i o n ,w h i c hc a nt h e nb e c o m e
+the contributor ’s preferred choice in equilibrium.August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3055 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 17 ===
+We compare and contrast ou tcomes in this case with
+those characterized earlier under a smaller outside
+option value.
+First, for region H, we establish in Lemma A.3 in the
+online appendix that for a constant outside option
+value Vc,a sl o n ga st h ep r o v i d e r sa r es u f ﬁciently cost
+efﬁcient, the resulting dispersion in the equilibrium
+quality levels enables the contributor ’sp r o ﬁts to be
+higher when involved in the OSS project; in this case,
+it can leverage both its expertise and better quality
+separation to drive larger revenues in the OSS do-
+main. In contrast, for region L, the increased com-
+petitiveness that stems from greater similarity in
+providers ’cost characteristics makes it more dif ﬁ-
+cult for the contributor to generate revenues. As is
+shown in Lemma A.4 in the online appendix, when the
+outside option becomes suf ﬁciently large (i.e., satisfying
+Vc>¯V), the contributor prefers that option to be-
+coming involved with the OSS project. Thus, we use
+region L where the proprietor ’s effort-to-quality ef-
+fect ( sp) is relatively high to explore the impact of varying
+the value of the outside option. In the following prop-
+osition, we compare equilibrium outcomes for two cases:
+under a small outside option Vin
+cand under a large
+outside option Vout
+csuch that the contributor is in and
+o u to ft h eO S Sm a r k e t ,r e s p e c t i v e l y .
+Proposition 6. Under the conditions of region L, if the
+proprietor ’s effort-to-quality effect (s p) is relatively high,
+there exists V and ¯V such that if Vin
+c<V and Vout
+c>¯V, then
+relative to the case of the contributor being in the market
+(i.e., under Vin
+c), when the contributor is out of the market
+(i.e., under Vout
+c), the following hold:
+a. The originator exerts hig her effort in equilibrium
+(i.e., eout
+o>ein
+o).
+b. I ft h ec o n t r i b u t o ri sr e l a t i v e l yc o s te f ﬁcient and the
+restrictiveness of the license is within an intermediate
+range, then both the originator ’s equilibrium quality and
+total consumer surplus are lower (i.e., Q oout<Qoinand
+CSout<CSin); otherwise, both the originator ’sq u a l i t ya n d
+total consumer surplus are higher.
+Proposition 6provides insights into how the at-
+tractiveness of outside options for the contributor
+affects the originator ’s incentives to invest in OSS
+projects as well as the quality of software offerings
+that emerge in these enterprise software markets
+(and thus market competitiveness). Part (a) of Prop-
+osition 6establishes that the originator essentially has
+to make greater effort investments in equilibrium
+when the contributor is no longer involved in the OSS
+project. This behavior can be expected because the
+originator now needs to at lea st partially offset the lost
+investments that would have been made by a strategic
+contributor.
+What is more interesting is the extent to which the
+originator increases its in vestment. This is made clearin part (b) of Proposition 6, where we establish that
+the quality offered by the originator can actually in-
+crease . It is not the case that the quality of its software
+solution necessarily goes down in equilibrium, be-
+cause there exist distinct trade-offs. On the one hand,
+the absence of a strategic contributor makes it more
+costly for the originator to improve the quality of its
+offering. On the other hand, the absence of a strategic
+contributor also relaxes competition in the services
+market for the premium offerings (i.e., ones offered
+byﬁrms that have developed signi ﬁcant expertise
+resulting from their activities with the OSS project).
+We demonstrate that the total quality of the orig-
+inator ’s offering in the absence of a strategic con-
+tributor is only lower if both the contributor is rela-
+tively cost ef ﬁcient and the licensing parameter is
+moderately restrictive. This set of conditions creates
+an incentive for the contributor to make a moderate
+contribution to the OSS project that is bene ﬁcial to the
+originator while not being so large that the proprietor
+aggressively reduces its own quality, thereby causing
+increased competition. As we discussed earlier in
+describing the effects seen in panel (e) of Figure 3,t h e
+relationship between the originator ’s total quality
+and license restrictiveness is nonmonotonic. As the
+license moves from permissive to moderately re-
+strictive, the originator ’s quality increases . However,
+as the license moves from m oderately restrictive to
+very restrictive, the originator ’s quality decreases .
+Therefore, whether the license is permissive or very
+restrictive (i.e., at either end), the originator is in-
+centivized to adjust its own effort to maintain a rel-
+atively lower-quality offering. In this sense, the ab-
+sence of a strategic contributor and the associated
+relaxation of price competition in the market for
+services can lead the originator to offer a higher-
+quality offering than would otherwise be offered.
+Moreover, when the improvement in quality is sub-
+stantial, the total consumer surplus in the market is also
+higher. The impact on consumer surplus is depicted by
+the areas labeled “(I)”and“(III)”in Figure 4.H o w e v e r ,
+for a moderate level of license restrictiveness, the
+equilibrium contribution s from the originator and
+contributor lead to a higher-total-quality offering by
+the contributor, one that it would choose not to match
+if forced to provide such a substantial investment
+independently. In a similar vein, consumer surplus
+can be relatively lower when the market loses the
+contributor ’s investments. The area labeled “(II)”in
+Figure 4illustrates this fact.
+6. Discussion and Conclusions
+In this paper, we study competition among open-
+source and proprietary software ﬁrms while consid-
+ering the strategic interpl ay of open-source contribu-
+t o r sw h oa l s oi n v e s ti nt h ed e v e l o p m e n to fO S Sa n dAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3056 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 18 ===
+compete in the services market. Although prior work
+has mostly focused on a mixed model of duopolistic
+competition, the existence of strategic contributors
+who vie for service revenues can signi ﬁcantly alter
+competitive forces. We add to the literature by ana-
+lyzing a model that includes all three strategic players
+competing in the market and explores the important
+role that OSS governance controls such as licensing
+play in moderating strategic contributions. In partic-
+ular, because the open-source originator and con-
+tributor both collaborate toward developing the OSS
+product and compete against each other and the
+proprietary ﬁrm, the economic incentives associated
+with investment in OSS vary substantially depending
+on the license governing it and the market condi-
+tions. For example, the originator may prefer to le-
+verage the contributor to compete more ﬁercely with
+the proprietor, whereas the contributor faces its own
+dilemma whether to exert more or less investment in
+contributing to the OSS project (i.e., more effort will
+contribute to quality yet allow the originator to reduce
+its own effort). The degree of license restrictiveness
+is a critical attribute that can either amplify or diminish
+such incentives.
+Our model demonstrates that increased license
+restrictiveness often leads to preferable market out-
+comes. As long as the proprietor ’s behavior does not
+inordinately and adversely impact OSS development
+incentives, then restrictiveness tends to be helpful.
+Under high cost dispersion and a quality-leading pro-
+prietor as well as low cost dispersion and a quality-
+leading OSS originator, t he proprietor does notpossess incentives to strategically impede OSS de-
+velopment. Whether being a distal leader or a
+resigned low- to middle-tier provider, the proprietor
+essentially permits increases in license restrictiveness
+(such as with GPL) to positively affect OSS participants
+by increasing quality differe ntiation and relaxing price
+competition. This generally leads to higher contributor
+efforts in equilibrium, which result in higher consumer
+surplus and social welfare. An originator may begin to
+increase free-riding behavio r as license restrictiveness
+becomes severe. However, in a more competitive en-
+vironment characterized by low cost dispersion, a
+quality-leading proprietor has incentives to scale back
+efforts and effectively impede OSS development under
+the threat of increased licen se restrictiveness. The
+proprietor ’s strategic behavior yields lower equilib-
+rium efforts, consumer surplus, and social welfare,
+and therefore, less restrictive licenses (such as BSD)
+w o u l db em o r eb e n e ﬁcial in these more competitive
+environments.
+6.1. Managerial and Policy Implications
+Our results have important implications for OSS
+ﬁrms’licensing strategies. When adopting an open-
+source business model, an OSS ﬁrm should care-
+fully consider its licensing strategy because the role
+that license restrictiveness plays changes signi ﬁ-
+cantly depending on market conditions. First, when
+theﬁrms competing in a particular market (i.e.,
+proprietor, OSS originator, and OSS contributor)
+have disparate capabilities that lie in favor of the
+proprietor, more restrictive licenses are quite bene ﬁcial.Figure 4. Comparing the Difference in Consumer Surplus When the Contributor Is Involved in the OSS Project and When the
+Contributor Instead Elects for Its Outside Alternative
+Note. The parameter values are sp/equals1,so/equals1,sc/equals0.3,sco/equals0.23,Vin
+c/equals0.01,Vout
+c/equals10,βp/equals0.00005, βo/equals0.00005, βc/equals0.00005, and c/equals0.001.August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3057 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 19 ===
+In this case, when facing a more restrictive license (such
+as GPL), the contributor is motivated to invest great-
+er effort, which pushes the originator ’so f f e r i n g
+higher in the quality space (and closer to the pro-
+prietor), enabling the contributor to be more pro ﬁt-
+able while servicing the lower tier of the market.
+In contrast, when the ﬁrms have more homogeneous
+development capabilities but still in favor of the
+proprietary ﬁrm, more permissive licenses (such as
+BSD) are bene ﬁcial. In this case, the proprietor views
+OSS offerings as a threat and strategically limits the
+originator ’s ability to leverage the stronger comple-
+mentarities that stem from restrictive licenses by
+occupying a position in the quality space that serves
+as a deterrent. Lastly, in markets that highly value the
+ﬂexibility associated with OSS, open-source providers
+can actually become quality leaders. In this case, more
+restrictive licenses are bene ﬁcial once again because
+the proprietor loses the ability to strategically limit OSS
+quality. Instead, the OSS ﬁrm can bring to market a
+higher-quality service, charge a higher price, and
+beneﬁtc o n s u m e r s .
+Connected to our main ﬁndings on the role of li-
+censing restrictiveness, OSS ﬁrms can also in ﬂuence
+the cross-effect of the contributor ’s effort on the
+originator ’s total quality ( soc) using a variety of in-
+struments. First, as part of the governance of its OSS
+project, the originator can impose stricter selection
+criteria for developer accreditation as well as higher
+quality standards for code acceptance. Both of these
+actions would positively affect the quality associ-
+ated with the contributor ’s effort and, as we discussed
+earlier, would bene ﬁt the originator in markets char-
+acterized by (1) high quality dispersion in favor of the
+proprietor and (2) low cost dispersion in favor of the
+OSS originator. In these two cases, the positive impact
+to the OSS originator ’s quality would ultimately be
+more pro ﬁtable. A second instrument with a similar
+net impact is for the OSS originator to require higher
+development process maturity from its partners (e.g.,
+resellers and systems integr ators) who are often con-
+tributors to the OSS project.
+The OSS originator can also in ﬂuence the cross-
+effect of its own effort on the contributor ’st o t a l
+quality ( sco) via the underlying primitive factors.
+For example, a more modular software architecture
+would enable the contributor to better understand the
+structure of the OSS project ’s source code and more
+easily make changes. As we formally discuss in Section
+A.3 of the appendix, a modular design enhances OSS
+service qualities as long as, overall, the originator can
+sufﬁciently bene ﬁt from the contributor ’se f f o r tt o
+maintain a leading quality differential. This outcome
+can often be the case because the originator is the
+designer of the software. Also, improved documenta-
+tion has a similar impact in that it enhances thecontributor ’s comprehension of the OSS project and
+code. In markets that highly value the ﬂexibility of
+OSS, the originator may want to make documentation
+a priority, provided that its own efforts can ensure its
+position as quality leader. In this case, better docu-
+mentation can bring forth am o r ei m p a c t f u lc o n t r i b -
+utor that signi ﬁcantly drives up quality and emerges to
+serve the middle tier of the market (rather than the
+lower tier). Speci ﬁcally, the contributor has incentives
+to boost the originator ’sq u a l i t yt oc r e a t em o r es p a c e
+for itself to serve the middle tier, the net result being
+higher qualities of both OSS originator and contrib-
+utor offerings.
+Our results provide important insights and im-
+plications for policymaker s. We show that the impact
+of OSS license restrictiveness ( soc)o nc o n s u m e rs u r -
+plus and social welfare depends heavily on market
+conditions. When ﬁrms have homogeneous devel-
+opment capabilities that lie in slight favor of the
+proprietary ﬁrm, more permissive licenses (such as
+BSD) can lead to higher consumer surplus and social
+welfare. Thus, in software markets that are more
+competitive in nature, policymakers may want to
+encourage the adoption of permissive licenses. In fact,
+the government can exerci se leadership through its
+own OSS adoption decisions by preferring the use
+of products with BSD- and Apache-style licenses
+when such options exist and are on par with other
+alternatives in terms of quality. This recommendation
+highlights an important insight into the role of OSS
+licensing in software markets. Although some in the
+OSS community might universally advocate restric-
+tive licenses such as GPL which have copyleft char-
+acteristics, the right license to employ necessarily
+needs to be more discerning. As we have seen, GPL-
+type license restrictiveness tends to amplify the in-
+centive con ﬂicts in competitive markets where OSS
+ﬁrms are strategically vying for service revenue,
+which ultimately becomes detrimental to both con-
+sumer surplus and social welfare. However, policy-
+makers should be more supportive of GPL licenses in
+less competitive software markets because they can
+be quite helpful.
+Policymakers may also want to positively in ﬂuence
+OSS ﬁrms’p o s i t i o n so np r i m i t i v ef a c t o r ss u c ha sa
+more modular architecture and higher maturity of
+software development processes. For example, in
+software markets where customization and ﬂexibil-
+ity will be highly valued, there are immense social
+beneﬁts to having OSS providers become the quality
+leaders who bring very high-quality and open of-
+ferings to the market. For example, container or-
+chestration platforms such as Kubernetes, which
+cloud computing service providers use to manage
+containers such as Docker, may ﬁt the bill quite well.
+Because enterprises have heterogeneous demands, itAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3058 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 20 ===
+is important to produce modules that are optional and
+pluggable. In software markets such as this, it may be
+helpful for policymakers to encourage standards that
+favor modular and interoperable designs as well as
+development practices that ar e particularly rigorous in
+that the bugs and security vuln erabilities that arise are
+at the infrastructure level. Moreover, in markets where
+OSS has an opportunity to become the leading quality
+solution, the government may even consider subsi-
+dizing documentation efforts in order to springboard
+these outcomes. Because these markets value cus-
+tomizability, better documentation by OSS originators
+will feed forward to provide incentives for OSS con-
+t r i b u t o r st oa l s oe x e r th i g h e re f f o r t s ,w h i c hi na g g r e -
+gate will yield the desirable h igh-quality offerings that
+beneﬁtc o n s u m e r s .O u rm o d e lc a u t i o n st h a ti ft h e
+cross-effect from the originator to the contributor ( sco)
+is too high, the originator m ay dramatically scale back
+its effort and shift to free-riding. Therefore, the in-
+centives described earlier will help but need to be
+properly calibrated.
+6.2. Future Directions
+Although the abstractions we made are ﬁtting to
+answer our primary research questions and reason-
+able, they are not without limitations. We employ a
+m o d e lo fas i n g l e - s h o tg a m ei nw h i c hap r o p r i e t o r
+invests ﬁrst in bringing its offering to market, fol-
+lowed by an OSS originator, followed by an OSS
+contributor. Within our framework, there are three
+notable simpli ﬁcations and chosen areas of focus worth
+discussing: (1) dynamics, (2) sequencing, and (3) pa-
+rameter regimes. First, the focus of our work lies on
+explaining how a proprietor adjusts its effort invest-
+ments in the face of entry of an OSS originator and
+possibly OSS contributor and how license restrictiveness
+impacts the incentives of all players. These initial in-
+vestments to create original software, integration, and
+support solutions are quite substantial and sticky and
+determine the state of the market for an extended
+amount of time. However, once these offerings have
+been produced, all ﬁrms naturally then continue to in-
+novate and release improved versions, which re ﬂects
+that these markets certainly also have a dynamic na-
+ture. Although subsequent dynamics are beyond the
+scope of our study, it would be interesting to explore
+the impact of upgrade cycle lengths, switching costs,
+pricing models (service is a software licensing versus
+on-premises), and other factors relevant to market
+dynamics on the early market strategic interactions
+that we examine in this work.
+Second, as motivated and discussed in Section 4.3,
+in many enterprise software markets, it is typical for a
+proprietor to emerge ﬁrst, followed by an OSS orig-
+inator, and then potentially a strategic contributor
+who becomes involved with the OSS project. Ourassumption on effort investment sequencing matches
+these industry observations. However, there are cer-
+tainly other software markets that exhibit different se-
+quencing. For example, it can be the case that a leading
+OSS provider arises ﬁrst in certain markets. This is not
+commonly the case for enterprise software markets
+driven by services (OSS g2), but it may unfold in
+commercial business models centered on other reve-
+nue sources such as advertisements and even non-
+proﬁt business models focused on altruistic and other
+intrinsic motivations underlying OSS participants. It
+would be a worthwhile endeavor to study OSS and
+proprietary competition in these markets, which are
+governed by incentives diff erent from those explored
+in our paper. For example, one interesting direction for
+f u t u r er e s e a r c hw o u l db et os t u d yt h er o l eo fu n c e r -
+tainty in these markets in that the incentives for
+strategic contributors to b ecome involved are greatly
+affected by the risk of OSS project failure. Also, with
+t h ep e r v a s i v eu s eo fc l o u dc o m p u t i n gi nr e c e n ty e a r s ,
+OSS has become even more relevant to proprietary
+ﬁrms operating as cloud service providers. Amazon
+built its successful Amazon Web Services with the help
+of many OSS products. Other proprietary ﬁrms have
+also increased their participation in OSS, as evidenced
+by Google ’s Kubernetes, Microsoft ’s acquisition of
+Github, and IBM ’s acquisition of RedHat. Another
+interesting direction for future research would be to
+study the open-source strategies of proprietary ﬁrms.
+Third, within our modeling framework, we focus
+on particular parameter regions of interest that give
+rise to equilibria commonly observed in enterprise
+software markets. Because of the generality of the
+model, it is certainly possible to examine other pa-
+rameter regions that lead to different orderings in
+the equilibrium qualities that emerge. Our model can
+be leveraged to study contexts such as those with
+cross-effort-to-quality par ameters that are relatively
+high, thus falling outside our focal area speci ﬁed in
+Assumption 1.I ti sa l s of e a s i b l et of o r m a l l ys t u d y
+comparative statics in the originator-to-contributor
+cross-effect (i.e., sco)a sw e l la sc o n t e x t sw h e r e socand
+scoare more tightly coupled. For the latter, we have
+shown that as long as the primary impact of licensing
+c h a n g e sl i e so n soc, then our results are fairly robust to
+scoalso being partially impacted. This analysis can be
+found in Section A.3 of the appendix. However, if the
+impact on scobecomes comparable or even greater,
+then new analysis is required. We believe that a
+complete study into the role of sco(as in ﬂuenced by a
+particular primitive const ruct whose primary impact
+lies on sco) would be an interesting direction for future
+research. In that the sequencing in our game gives the
+originator a ﬁrst-mover advantage, movements in sco
+may lead to different strategic behavior than char-
+acterized in our work.August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3059 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 21 ===
+Finally, it would also be interesting to explore
+endogenizing the cross-quality effect soc.F r i c t i o n s
+exist that can sometimes limit an originator ’s ability
+to choose soc(e.g., the viral nature of GPL for an OSS
+product attempting to leverage other GPL-licensed
+libraries). However, originators ultimately have some
+degree of freedom in choosing licenses. Although soc
+is a parameter in our model, throughout this paper we
+provide some insights into what an originator might
+prefer in terms of soc, based on computed equilibrium
+measures, to provide the reader with some intuition
+into license choice. However, fully endogenizing soc
+would be quite interesting and lead to new, inter-
+esting insights stemming from the originator ’ss e -
+lection between effort and restrictiveness. Given the
+complexity of this study, we believe that this would
+be an ambitious task, although signi ﬁcant progress
+could be made numerically leveraging the model we
+have put forth.
+6.3. Concluding Remarks
+OSS has become a mainstay for businesses as they
+compete in dynamic environments that reward ﬂexi-
+bility and agility. Provision of value-added services is
+critical in this context and is an essential aspect of the
+commercial OSS business model. By developing a
+better understanding of competition among open-
+source contributors and proprietary ﬁrms, we aim to
+provide both organizations and policymakers with
+insights into how licensing can affect market out-
+comes. These insights can help guide software ﬁrms as
+they determine the appropriate strategy to participatein OSS and in ﬂuence policymakers as they examine
+regulations that govern the in tellectual property rights
+associated with OSS. We hope that the work reported
+in this paper will help stimulate more research efforts
+in this growing area.
+Acknowledgments
+The authors thank the department editor, the associate editor,
+and three anonymous reviewers for their valuable comments.
+Their feedback has greatly improved the work. The authors
+are also grateful to their institutions (University of Cal-
+ifornia, San Diego, and University of Arizona) for supporting
+this research.
+Appendix A. Ranges of Applicability for
+Primary Results
+A.1. Separation Between Regions H and L
+In Sections 5.2and 5.3, we demonstrate the differential
+impact that open-source licensing has with changing market
+characteristics. In particular, we vary the extent to which
+providers ’cost ef ﬁciencies are dispersed. The beginning of
+Section 5provides a discussion of why ﬁrm cost ef ﬁciencies
+can vary and the underlying nature of regions H and L (and
+the subregions). In this section, we illustrate how the
+equilibrium quality of the OSS originator responds to in-
+creasing license restrictiveness over the space of cost ef ﬁ-
+ciencies. This illustration is numerical in nature, but we
+h o p et h a ti tc a nh e l pg i v et h er e a d e ram o r ec o n c r e t ed e -
+piction of the focal regions examined in this study.
+In panel (a) of Figure A.1, we use a region plot to de-
+lineate the portions of the parameter space on which our
+results and insights for regions H and L (for the subregion
+where the proprietor has a larg er effort-to-quality effect,
+i.e., higher sp) remain valid as they relate to Propositions 1
+Figure A.1. The Impact of Increasing License Restrictiveness on the OSS Originator ’s Equilibrium Quality as Determined by
+Cost Dispersion Among Providers
+Notes. The originator ’s cost parameter βoranges from 10% to 100% of βc/equals0.001, the proprietor ’s cost parameter βpranges from 10% to 100% of
+βo, and license restrictiveness socis evaluated from zero to one. Panels (a) and (b) depict scenarios where the proprietor has relatively larger
+(sp/equals1) and smaller ( sp/equals0.8) effort-to-quality effects, respectively. The other parameter values are so/equals1,sc/equals0.1,sco/equals0.2,Vc/equals0.001, and
+c/equals0.001.August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3060 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 22 ===
+and 3. A primary insight in our p aper is that increased
+license restrictiveness will tend to reduce the quality of the
+OSS originator ’s software solution ( Qo)b e c a u s eo fs t r a t e g i c
+interactions if there is l ow dispersion in cost ef ﬁciencies of
+the providers. The x-axis in Figure A.1represents βoas a
+proportion of βc,w h e r e a st h e y-axis represents βpas a
+proportion of βo. Thus, the plot illustrates the region where
+the proprietor is the most cost ef ﬁcient, followed by the
+originator, followed by the contributor.
+The gray-shaded area, labeled “(I),”depicts the range of
+βpand βorelative to βc,w h e r e Qostrictly increases in license
+restrictiveness, which we formally established in Proposition 1
+as being the equilibrium outcome in region H. In particular,
+when the cost dispersion is relatively high ( βprelatively
+small compared with βo,w h i c h ,i nt u r n ,i sr e l a t i v e l ys m a l l
+compared with βc), the equilibrium outcomes are consistent
+with those proven to unfold under region H. In contrast,
+when the differences between the cost ef ﬁciencies decrease
+(βpbecomes closer to βo,w h i c h ,i nt u r n ,i sc l o s e rt o βc), the
+area labeled “(II)”in panel (a) of Figure A.1demonstrates
+that Qoinitially increases and then decreases in license
+restrictiveness. We analytica lly showed this to be the nature
+of the equilibrium outcome in Proposition 3in region L,
+pointing to the negative impact s uch license restrictiveness
+can have on consumer surplus and social welfare.
+In panel (b) of Figure A.1, we further illustrate how the
+parameter space relates to our regions when the originator
+has a relatively high effo rt-to-quality effect ( so). In this
+plot, a third area labeled “(III)”emerges. Subregion (III)
+depicts the range of cost parameters where the originator be-
+comes the quality leader ( Qo>Qp)a n d Qostrictly increases in
+license restrictiveness, whic h we formally established in
+Proposition 4as being the equilibrium outcome in region L
+when the originator has a relatively high effort-to-quality
+effect ( so), but the contributor ’s own effort-to-quality ef-
+fect ( sc) and cross-effect from the originator ( sco)r e m a i n
+limited. Another noteworthy feature from panel (b) isthat subregion (III) becomes larger as the cost-ef ﬁciency
+parameters compress (technically, βpand βobecome closer
+toβc), which is illustrated by the top right-hand side of
+panel (b). As compression occurs (and hence less cost
+dispersion), the proprietor feels greater pressure to relin-
+quish quality leadership bec ause of the increased compe-
+tition, as we establish in Proposition 4.
+Overall, although the charact erization of regions H and L
+(and their subregions) are constructed to support the as-
+ymptotic analysis used in this paper, Figure A.1demon-
+strates that the nature of the i n s i g h t sw eg e n e r a t ee x t e n d st o
+wide regions in the parameter space.
+A.2. Sensitivity of Contributor ’s Outside Option Values
+In support of the numerical illustrations of our primary
+results, it is useful to examine sensitivity to the value of
+the contributor ’s outside option. In particular, how the
+contributor ’s equilibrium pro ﬁts change with respect to soc
+is quite relevant. In Figure A.2,w ep l o tt h ec u r v eo fe q u i -
+librium pro ﬁts for the contributor, which is essentially an
+upper bound on the outside option value for the contributor
+to remain a participant. Panels (a) and (b) of Figure A.2
+depict the contributor ’sp r o ﬁts in regions H and L, corre-
+sponding to Figures 2and 3, respectively. As Figure A.2
+shows, even though equilibrium pro ﬁts shift with license re-
+strictiveness, the magnitude of change is relatively small. As
+long as the value of the outside option is smaller than the lower
+bounds of the contributor ’sp r o ﬁts in these regions, the
+contributor will remain a participant in the OSS project.
+A.3. Licensing Impacting Both Cross-Effects
+In the main text, we focus on moving only a single reduced-
+form parameter ( soc) with license restrictiveness. However,
+it is not the case that our results only obtain when moving a
+single parameter. The major insights presented in this paper
+tend to hinge at a higher level on the extent of the relative
+difference between the strength of these parameters holding a
+Figure A.2. The Impact of License Restrictiveness on the OSS Originator ’s Equilibrium Pro ﬁtsAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3061 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 23 ===
+cost context ﬁxed. In this section, we show that relaxations
+can permit a broader impact of a change in license restric-
+tiveness on more system parameters and still provide thesame qualitative insights. Speci ﬁcally, we show the breadth
+of applicability of our results even if both socand scoare
+affected by license restrictiveness.Figure A.3. Robustness of Comparative Statics Results on Equilibrium Quality Levels (i.e., Qp(e∗),Qo(e∗), and Qc(e∗)) When
+Licensing Can Impact Both socand sco
+Notes. We specify sco/equalsJ+K·socand vary over ( J,K) space while testing whether each outcome matches that under J/equals0.30 and K/equals0a si n
+Figure 2and Proposition 1. The other parameter values are sp/equals1,so/equals1,sc/equals1,Vc/equals0.01,c/equals0.01,βp/equals0.002, βo/equals0.004, and βc/equals0.005, also
+consistent with Figure 2.
+Figure A.4. Robustness of Comparative Statics Results on Equilibrium Consumer Surplus and Social Welfare Levels
+(i.e., CS(e∗)and SW(e∗)) When Licensing Can Impact Both socand sco, Using the Same Speci ﬁcation as in Figure A.3August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3062 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 24 ===
+Proposition A.1. Under the conditions of region H, if both cross-
+effects (s ocand s co) increase and the increase in the cross-effect from
+the contributor to the originator (s oc) is relatively stronger than the
+increase in the cross-effect from the originator to the contributor (s co),
+then the following hold:
+a. The proprietor ’s quality Q p(e∗)decreases, whereas both the
+originator ’s and contributor ’s qualities Q o(e∗)and Q c(e∗), re-
+spectively, increase.
+b. Both consumer surplus (CS) and social welfare (SW) increase.
+Proposition A.1indicates that our main insights on the
+aggregate equilibrium measures of quality levels, con-
+sumer surplus, and social welfare retain the nature of their
+characterization as in Propositions 1and2.A sl o n ga st h e
+aggregate impact on the parameters as in ﬂuenced by license
+restrictiveness maintains the necessary relative quality
+differentials, our primary insights continue to apply.
+To show to what extent key insights continue to hold as
+we take a broader interpretation of the impact of license
+restrictiveness, we visualiz et h er e g i o nw h e r et h ec l a i m si n
+Proposition A.1hold using a speci ﬁcation sco/equalsJ+K·soc.
+Having Kbe zero is the orthogonal r epresentation used to
+demonstrate the formal comparative statics on socthat re-
+side in the paper. Relaxing Kto be a positive constant is akin
+to license restrictiveness impacting both parameters with K
+representing the strength of the impact of license restric-
+tiveness on scorelative to soc.I nF i g u r e s A.3and A.4,w e
+depict the regions in (J,K)space on which these comparative
+statics continuetoapplyunder this relaxationoftheassumption
+on orthogonality. As can be seen, the results are quite robust
+and still obtain under very broad regions on which licensing
+restrictiveness affects both parameters. Similarly, for region L,
+the key insights in Proposition 3are also robust under broad
+regions where licensing affects both parameters.34
+Finally, the main model and equilibrium are suf ﬁciently
+rich to study many other scenarios that go beyond our
+study, which focuses primarily on license restrictiveness.
+For example, our numerical results show that when we get
+outside the robustness regions in Figures A.3andA.4,t h e
+equilibrium quality from the originator ( Qo(e∗))b e g i n st o
+fall because now the contributor can free-ride on the
+originator ’s effort to a large extent. Because of the high
+value of sco, the originator scales back its effort dramatically.
+Consumer surplus and social welfare both decrease as a
+result of the originator ’s change in strategy. Part of the
+intrinsic value of our model and equilibrium character-
+ization is that it is suf ﬁciently general and ﬂexible enough to
+examine other scenarios. Although the analysis itself can be
+complex (as can be seen in the proofs), equilibria can be
+solved numerically for any inte resting case one desires to
+explore; in this sense, one con tribution is our model itself
+that facilitates further study.
+Endnotes
+1Because of our focus on revenue-generating business models, we
+necessarily do not aim to comment generally on the vast OSS
+landscape spanning broadly de ﬁned contexts and governed by a
+wide range of intrinsic and extrinsic motivations for OSS contribu-
+tions. In general, ﬁrm and developer motivations vary drastically
+across software classes (operating systems, platforms, client appli-
+cations, server applications, virtual machines, middleware, and
+more) and individual capabilities (Roberts et al. 2006).2Some examples of strategic originators and contributors include
+Shadow-Soft (JBoss), Synolia (SugarCRM), Bista Solutions (OpenERP),
+and Hortonworks (Hadoop).
+3If there exist third-party agents who offer integration services for the
+proprietary software product, the proprietor would use two pricing
+levers (product and services) and set the product price to exert
+control. The simpli ﬁed view we explore here is that the proprietor is
+not competing on the servicing of its product, unlike the originator,
+who provides services for the same underlying product as the con-
+tributor and therefore has ampli ﬁed interactions.
+4Unlike a typical duopolistic model (Lee and Mendelson 2008, Zhu
+and Zhou 2012, August et al. 2013) or unilaterally strategic model
+(Casadesus-Masanell and Ghemawat 2006, Jaisingh et al. 2008, Athey
+and Ellison 2014) of competition between OSS and proprietary
+software, our model necessarily requires all three players (the pro-
+prietor, originator, and contributor) to be strategic.
+5See, for example, Hars and Ou ( 2002), Iansiti and Richards ( 2006),
+Roberts et al. ( 2006), von Krogh and von Hippel ( 2006 ), and
+August et al. ( 2013 ).
+6In most cases, consumer refers to a ﬁrm that leverages the enterprise
+software as part of business operations.
+7Integration refers to getting software installed on a company ’s
+servers and integrated with business processes and preexisting in-
+formation systems as effectively as possible to increase the overall
+quality of the solution provided. Support refers to ongoing mainte-
+nance of these integrated systems, from troubleshooting bugs that
+arise to ef ﬁciently providing security vulnerability patches and more.
+ITconsulting often refers to the provision of human resources to
+advise, implement, and deploy IT solutions that may include custom-
+built applications that run on top of OSS. Altogether, the integration,
+support, and consulting offerings are generally referred to as services
+(August et al. 2013).
+8Effort in both proprietary and OSS development generally involves
+labor and resources, and in the software industry, ﬁrms exhibit
+signiﬁcant variation in size and worker abilities. Further, for any
+given project, there can be signi ﬁcant differences in resource avail-
+ability and their shadow prices. In light of our central research
+questions, we employ a model of complete information. Also, an
+important feature of OSS projects is that contributions are typically
+public. For example, one can readily see the actual code contributions
+and identities of committers for most of the OSS projects hosted on
+Sourceforge and GitHub. Thus, in the OSS domain, efforts are typ-
+ically observable and re ﬂected that way in our model. For the case of
+the proprietor, the quality of its offering is typically observable and
+sufﬁcient for our analysis.
+9Firm efforts into OSS projects lead to both software being developed
+and service expertise being generated. Because these two are inter-
+twined and ultimately lead to a total quality of solution, we focus on
+that simpler construct that is more relevant to consumers.
+10Firms that invest heavily and take leadership roles can tightly
+control project direction. They have the ability to ensure that the
+project meets the needs of their customers.
+11It is worthwhile to note that a strategic service provider can also
+exist in the proprietary software market, but it is not modeled here for
+several reasons. First, unlike with OSS, a proprietor can always
+charge for its product and thus leverage its pricing power to behave
+like a monopolist, providing a strategic provider with weak incen-
+tives to invest. In many cases, prices would be set to preclude the
+third party from entering the proprietary market. Observationally, we
+may see third-party providers in existence, but proprietors also
+charge for certi ﬁcations, attempting to extract back surplus via tariffs.
+Second, in the case of OSS, a strategic contributor can exert a lot of
+effort in developing the product and gaining expertise and then le-
+verage that intimate knowledge of the code to integrate andAugust, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3063 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 25 ===
+customize solutions for customers; strategic contributors in the OSS
+domain can really stand out in the quality dimension. However, a
+strategic contributor for proprietary software is inherently limited in
+that the codebase is closed, they are con ﬁned to working within the
+rules of the proprietary product and limited API support, and they
+cannot fully customize solutions for customers. In this sense, the concept
+of strategic contribution is quite different under these two paradigms.
+12In our analysis, we show how multiplicative terms eoecarise in the
+maximization problem faced by the ﬁrms and characterize the nature
+of the related best-response function eo(e∗
+c).
+13One can think of this cost representing a ﬁxed number of hours of
+service/integration work. What varies here is the total quality of
+solution that is achieved after that ﬁxed number of hours.
+14Because qualities are endogenous to the model, inclusion of con-
+sumer market equilibria for the cases where either Qi/equalsQjorQj/equalsQk
+is not essential. We formally establish that such outcomes do not arise
+in subsequent analysis of the effort game ’s equilibrium.
+15For all formal statements of lemmas and propositions, the technical
+proofs are provided in the online appendix.
+16Please see Lemma A.2 in the online appendix for complete details
+on the pricing equilibrium.
+17Salesforce is a multinational company with approximately 25,000
+employees, with locations in China, India, Japan, Korea, Australia,
+New Zealand, and Singapore, in addition to being headquartered in
+San Francisco. It has tremendous access to cost-effective worldwide
+IT labor resources as well as some of the top talent in the Bay Area,
+and it also generates $8 billion in revenue and therefore likely has the
+ﬁnancial ability to fund expansive new development. In contrast,
+SugarCRM is a much smaller ﬁrm with approximately 500 em-
+ployees, revenues on the order of $100 million (~1% of Salesforce ’s
+revenues), and a software engineering team located in the United
+States. In short, SugarCRM would encounter signi ﬁcant frictions and
+difﬁculty if it attempted to match the scale of development seen in
+Salesforce; this is the essence of region H. Intuitively, there are many
+examples where the proprietor is a large, mature organization with
+extensive resources enabling it to develop products in a cost-ef ﬁcient
+manner, whereas an open-source originator competing in the same
+market is a smaller, relatively less mature organization facing more
+constrained resources. A similar structure was observed with the large
+proprietor Oracle in the database management systems market,
+MySQL being a leading open-source originator prior to its acquisition,
+and a contributor such as Percona, which leverages its own devel-
+opment expertise to contract with consumers in the same market.
+18Elastic, Inc., is much more similar to Splunk, which re ﬂects com-
+paratively less cost dispersion, as opposed to a comparison between
+SugerCRM and Salesforce. Splunk was founded in 2003, has grown a
+base of over 11,000 enterprise customers, generates approximately
+$1 billion in revenues, and has just fewer than 3,000 employees
+(Beckerman 2016). Elastic, Inc., competes in this space with an OSSg2
+business model, and widespread adoption of Elasticsearch ’s ELK
+stack (Elasticsearch, Logstash, Kibana) is fueling revenue growth and
+making it an increasingly viable competitor to Splunk (Levy 2015).
+There are other examples of enterprise software markets that may
+also bene ﬁt from the insights generated from region L. For example,
+the software development framework market is critical to enterprises
+and yet typically does not involve large-scale development, which
+suggests that the differences between ﬁrms would be less impactful.
+19Without a practical upper bound on soc, implausible cases would
+arise. For example, an equilibrium possibility might have an origi-
+nator that does nothing (i.e., exerts minimal effort), free-rides com-
+pletely on the contributor ’s signi ﬁcant efforts, and yet remains the
+quality leader in the marketplace. Such outcomes are not readily
+observed in practice. Suf ﬁcient bounds ( ¯socand ¯sco) are formally
+provided in the online appendix for each respective region (see
+Lemmas A.3 and A.4 in the online appendix). These bounds are fairlynonrestrictive in the sense that all results being presented hold on
+broad regions of socandsco. We do, however, achieve a better focus on
+the regions of greater practical interest.
+20See, for example, the following papers and references therein: Li et al.
+(1987), Laffont and Tirole ( 1988), MacLeod and Malcomson ( 1993),
+Muller ( 2000), Pesendorfer and Swinkels ( 2000), Wan and Beil (2009),
+and Vereshchagina and Hopenhayn ( 2009).
+21A positive relationship between process maturity and quality has
+been established in the academic literature (Harter et al. 2000, Harter
+and Slaughter 2003). Speci ﬁcally, these studies have shown that for
+the same level of effort, a ﬁrm with a higher CMMI rating creates
+higher-quality code.
+22The qualities of the total integrated solutions offered by the OSS
+service providers re ﬂect the accumulation of knowledge, experience,
+and expertise. Conceptually, this is closely related to learning curves .
+Levy ( 1965) and Dutton and Thomas ( 1984) categorize learning into
+two types: autonomous and induced. Autonomous learning is the
+improvement that automatically results from sustained production
+over a long period of time (Dutton and Thomas 1984); hence, cu-
+mulative production is often used as a proxy for experience (Spence
+1981, Fine 1986). In contrast, induced learning stems from invest-
+ments made by the ﬁrm toward improvement, and therefore, these
+cumulative investments are instead used as a proxy (Arrow 1962,
+Dorroh et al. 1994). Our work is consistent with others in the OSS
+literature where ef ﬁciencies of the OSS providers are a type of induced
+learning that stems from efforts invested into the OSS projects (Sen
+2007, August et al. 2013). Speci ﬁcally, in our model, the impact of
+induced learning on the total quality of the strategic OSS providers can
+also be captured as components of the parameters soand sc.
+23For example, the Open Source Initiative (OSI), which maintains
+the de ﬁnition of what it means to be “open source, ”lists around
+70 different open-source licenses that satisfy its de ﬁnition (OSI 2014)
+and provides detailed information on each license.
+24For example, in Artifex v.Hancom , Artifex, the owner of Ghostscript
+(distributed under the GPL), won a judgment against Hancom, who
+was asserted to have leveraged the OSS without distributing the
+source code of its own modi ﬁcations.
+25In Section A.3 of the appendix, we demonstrate that as long as the
+primary impact of license restrictiveness is on soc, then our results are
+fairly robust to scoalso being partially impacted.
+26In the online appendix, ¯socis formally de ﬁned, and an analytical
+expression for ¯βcis provided.
+27Our results focus on changes in the cross-effort-to-quality parameter
+soc. In cases where factors that can affect multiple parameters such as
+developer accreditation, code acceptance, and maturity are primarily
+impacting soc, the insights from our results will also be applicable.
+28In Section A.2 of the appendix, we illustrate the contributor ’so u t s i d e
+option values under which our results presented in Figure 2hold.
+29Formal de ﬁnitions of ˆsocand¯socare provided in the online appendix.
+30In Section A.1 of the appendix, we numerically illustrate the
+boundary between regions H and L as it relates to the differential
+impact of socon the originator ’s quality. This section demonstrates the
+breadth of applicability of our results from Propositions 1and3in
+terms of ﬁrm cost ef ﬁciencies.
+31A formal de ﬁnition of ¯socis provided in the online appendix.
+32Notably, as we discuss next, if the impact of higher ﬂexibility on sco
+were suf ﬁciently strong, the net impact on the contributor ’s total
+quality would instead be positive.
+33Region L is de ﬁned in Lemma A.4 in the online appendix, where
+βc/equalsˆkcb. Therefore, ˆkccaptures the cost ef ﬁciency of the contributor. A
+formal de ﬁnition of ¯kcis also provided in the online appendix.
+34The related ﬁgures are omitted for brevity.August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3064 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 26 ===
+References
+Abbott L (1953) Vertical equilibrium under pure quality competition.
+Amer. Econom. Rev. 43(5):826 –845.
+Amaldoss W, Meyer RJ, Raju JS, Rapoport A (2000) Collaborating to
+compete. Marketing Sci. 19(2):105 –126.
+Arrow KJ (1962) The economic implications of learning by doing. Rev.
+Econom. Stud. 29(3):155 –173.
+Asundi J, Carare O, Dogan K (2012) Competitive implications of
+software open-sourcing. Decision Support Systems 54(1):153 –163.
+Athey S, Ellison G (2014) Dynamics of open source movements.
+J. Econom. Management Strategy 23(2):294 –316.
+August T, Shin H, Tunca TI (2013) Licensing and competition for
+services in open source software. Inform. Systems Res. 24(4):
+1068–1086.
+August T, Shin H, Tunca TI (2017) Generating value through open
+source: Software service market regulation and licensing policy.
+Inform. Systems Res. 29(1):186 –205.
+Baldwin CY, Clark KB (2006) The architecture of participation: Does
+code architecture mitigate free riding in the open source de-
+velopment model? Management Sci. 52(7):1116 –1127.
+Beck T, Demirg-Kunt A, Maksimovic V (2005) Financial and legal
+constraints to growth: Does ﬁrm size matter? J. Finance 60(1):
+137–177.
+Beckerman J (2016) Splunk tops revenue guidance and boosts
+year view. Wall Street Journal (February 25), https:/ /www
+.wsj.com/articles/splunk-tops-revenue-guidance-and-boosts-year
+-view-1456436585 .
+Bhaskaran SR, Krishnan V (2009) Effort, revenue, and cost sharing
+mechanisms for collaborative new product development. Man-
+agement Sci. 55(7):1152 –1169.
+Bitzer J (2004) Commercial vs. open source software: The role of
+product heterogeneity in competition. Econom. Systems 28(4):
+369–381.
+Bulow JI, Geanakoplos JD, Klemperer PD (1985) Multimarket oli-
+gopoly: Strategic substitutes and complements. J. Political Econom.
+93(3):488 –511.
+Casadesus-Masanell R, Ghemawat P (2006) Dynamic mixed duop-
+oly: A model motivated by Linux vs. Windows. Management Sci.
+52(7):1072 –1084.
+Casadesus-Masanell R, Llanes G (2011) Mixed source. Management
+Sci.57(7):1212 –1230.
+Chambers C, Kouvelis P, Semple J (2006) Quality-based competition,
+proﬁtability, and variable costs. Management Sci. 52(12):1884 –1895.
+Cheng HK, Liu Y, Tang QC (2011) The impact of network externalities
+on the competition between open source and proprietary soft-
+ware. J. Management Inform. Systems 27(4):201 –230.
+Choi JP (1993) Cooperative R&D with product market competition.
+Internat. J. Indust. Organ. 11(4):553 –571.
+Curtis B (1981) Substantiating programmer variability. Proc. IEEE
+69(7):846.
+Dorroh JR, Gulledge TR, Womer NK (1994) Investment in knowl-
+edge: A generalization of learning by experience. Management
+Sci.40(8):947 –958.
+Dutton JM, Thomas A (1984) Treating progress functions as a
+managerial opportunity. Acad. Management Rev. 9(2):235 –247.
+Economides N, Katsamakas E (2006) Two-sided competition of
+proprietary vs. open source technology platforms and the im-
+plications for the software industry. Management Sci. 52(7):
+1057–1071.
+Fine CH (1986) Quality improvement and learning in productive
+systems. Management Sci. 32(10):1301 –1315.
+Hars A, Ou S (2002) Working for free? motivations for participating in
+open-source projects. Internat. J. Electr. Commerce 6(3):25 –39.
+Harter DE, Slaughter SA (2003) Quality improvement and infra-
+structure activity costs in software development: A longitudinal
+analysis. Management Sci. 49(6):784 –800.Harter DE, Krishnan MS, Slaughter SA (2000) Effects of process
+maturity on quality, cycle time, and effort in software product
+development. Management Sci . 46(4):451 –466.
+Haruvy E, Sethi SP, Zhou J (2008) Open source development with a
+commercial complementary product or service. Prod. Oper.
+Management 17(1):29 –43.
+Ho SY, Rai A (2017) Continued voluntary participation intention in
+ﬁrm-participating open source software projects. Inform. Systems
+Res.28(3):603 –625.
+Huckman RS, Staats BR, Upton DM (2009) Team familiarity, role
+experience, and performance: Evidence from Indian software
+services. Management Sci. 55(1):85 –100.
+Iansiti M, Richards GL (2006) The business of free software: Enterprise,
+incentives, investment, and motivation in the open source com-
+munity. Working paper, Harvard Business School, Boston.
+Idson TL, Oi WY (1999) Workers are more productive in large ﬁrms.
+Amer. Econom. Rev. 89(2):104 –108.
+Jaisingh J, See-To EWK, Tam KY (2008) The impact of open source
+software on the strategic choices of ﬁrms developing proprietary
+software. J. Management Inform. Systems 25(3):241 –276.
+Kim BC, Chen P, Mukhopadhyay T (2006) Pricing open source
+software. Twenty Seventh Internat. Conf. Inform. Sys . (International
+Conference on Information Systems, Milwaukee, WI), 341 –366
+Konrad A (2015) Meet con ﬂuent, the big-data startup that has Silicon
+Valley buzzing. Forbes (August 19), https:/ /www.forbes.com/
+sites/alexkonrad/2015/08/19/why-con ﬂuent-data-has-silicon
+-valley-buzzing .
+Krishnan MS, Kriebel CH, Kekre S, Mukhopadhyay T (2000) An
+empirical analysis of productivity and quality in software
+products. Management Sci. 46(6):745 –759.
+Laffont J-J, Tirole J (1988) The dynamics of incentive contracts.
+Econometrica 56(5):1153 –1175.
+Lee D, Mendelson H (2008) Divide and conquer: Competing with free
+technology under network effects. Prod. Oper. Management
+17(1):12 –28.
+Lerner J, Tirole J (2002) Some simple economics of open source.
+J. Indust. Econom. 50(2):197 –234.
+Lerner J, Tirole J (2005a) The economics of technology sharing: Open
+source and beyond. J. Econom. Perspect. 19(2):99 –120.
+Lerner J, Tirole J (2005b) The scope of open source licensing. J. Law
+Econom. Organ. 21(1):20 –56.
+Levy FK (1965) Adaptation in the production process. Management
+Sci.11(6):B136 –B154.
+Levy T (2015) Is open source overtaking Splunk? Infoworld (November
+4),https:/ /www.infoworld.com/article/2998136/is-open-source
+-overtaking-splunk.html .
+Li L, McKelvey RD, Page T (1987) Optimal research for Cournot
+oligopolists. J. Econom. Theory 42(1):140 –166.
+MacCormack A, Rusnak J, Baldwin CY (2006) Exploring the structure
+of complex software designs: An empirical study of open source
+and proprietary code. Management Sci. 52(7):1015 –1030.
+MacLeod WB, Malcomson JM (1993) Investments, holdup, and the
+form of market contracts. Amer. Econom. Rev. 83(4):811 –837.
+McConnell S (2008) Productivity variations among software devel-
+opers and teams: The origin of 10x. Accessed May 25, 2016, http:/ /
+www.construx.com/10x_Software_Development/Productivity
+_Variations_Among_Software_Developers_and_Teams__The
+_Origin_of_10x/ .
+Motta M (1993) Endogenous quality choice: Price vs. quantity
+competition. J. Indust. Econom. 41(2):113 –131.
+Muller HM (2000) Asymptotic ef ﬁciency in dynamic principal-agent
+problems. J. Econom. Theory 91(2):292 –301.
+Mustonen M (2005) When does a ﬁrm support substitute open source
+programming? J. Econom. Management Strategy 14(1):121 –139.
+Oi WY (1983) Heterogeneous ﬁrms and the organization of pro-
+duction. Econom. Inquiry 21(2):147 –171.August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3065 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+
+=== PÁGINA 27 ===
+OSI (2014) Open source licenses. Accessed May 4, 2014, http:/ /
+opensource.org/licenses .
+Pesendorfer W, Swinkels JM (2000) Ef ﬁciency and information ag-
+gregation in auctions. Amer. Econom. Rev. 90(3):499 –525.
+Polanski A (2007) Is the general public licence a rational choice?
+J. Indust. Econom. 55(4):691 –714.
+Roberts JA, Hann IH, Slaughter SA (2006) Understanding the mo-
+tivations, participation, and performance of open source soft-
+ware developers: A longitudinal study of the apache projects.
+Management Sci. 52(7):984 –999.
+Scacchi W, Hurley D (1995) Understanding software productivity.
+Hurley WD, ed. Software Engineering and Knowledge Engineering:
+Trends for the Next Decade , vol. 4 (World Scienti ﬁc, Singapore),
+273–316.
+Sen R (2007) A strategic analysis of competition between open source
+and proprietary software. J. Management Inform. Systems 24(1):233 –257.
+Singh PV, Phelps C (2013) Networks, social in ﬂuence, and the choice
+among competing innovations: Insights from open source soft-
+ware licenses. Inform. Systems Res. 24(3):539 –560.
+Spence AM (1981) The learning curve and competition. Bell J. Econom.
+12(1):49 –70.St. Laurent AM (2004) Understanding Open Source and Free Software
+Licensing (O’Reilly Media, Sebastopol, CA).
+Tambe P (2014) Big data investment, skills, and ﬁrm value. Man-
+agement Sci. 60(6):1452 –1469.
+Turley RT, Bieman JM (1995) Competencies of exceptional and
+nonexceptional software engineers. J. Systems Software 28(1):
+19–38.
+Vereshchagina G, Hopenhayn HA (2009) Risk taking by entrepre-
+neurs. Amer. Econom. Rev. 99(5):1808 –1830.
+von Krogh G, von Hippel E (2006) The promise of research on open
+source software. Management Sci. 52(7):975 –983.
+Wan Z, Beil DR (2009) RFQ auctions with supplier quali ﬁcation
+screening. Oper. Res. 57(4):934 –949.
+Watson RT, Boudreau MC, York PT, Greiner MEJr, Wynn D (2008)
+The business of open source. Commun. ACM 51(4):41 –46.
+Wen W, Forman C, Graham SJH (2013) The impact of intellectual
+property rights enforcement on open source software project
+success. Inform. Systems Res. 24(4):1131 –1146.
+Zhu KX, Zhou ZZ (2012) Lock-in strategy in software competition:
+Open-source software vs. proprietary software. Inform. Systems
+Res.23(2):536 –545.August, Chen, and Zhu: The Role of Licensing in Proprietary and OSS Competition
+3066 Management Science, 2021, vol. 67 , no. 5, pp. 3041–3066, © 2020 INFORMS
+Downloaded from informs.org by [200.132.146.39] on 22 August 2025, at 14:08 . For personal use only, all rights reserved. 
+
+

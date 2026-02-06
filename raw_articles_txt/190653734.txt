@@ -1,0 +1,764 @@
+=== PÁGINA 1 ===
+ Systematic Literature Review of Monetization in 
+Mobile App: Strategies, Trends, Challenges, and 
+Best Practices  
+Heryan Djaruma            
+ Computer Science Department           
+School of Computer Science                         
+Bina Nusantara University Bandung, 
+Indonesia 40181 
+heryan.djaruma@binus.ac.id  Zaki Widyadhana Wirawan  
+Computer Science Department           
+School of Computer Science                     
+Bina Nusantara University Bandung, 
+Indonesia 40181  
+zaki.wirawan@binus.ac.id  Alexander A gung  Santoso  Gunawan   
+Computer Science Department           
+School of Computer Science                        
+Bina Nusantara University Jakarta, 
+Indonesia 11480  
+aagung@binus.edu  
+  
+Karen Etania Saputra     
+Computer Science Department           
+School of Computer Science                    
+Bina Nusantara University Jakarta, 
+Indonesia 11480  
+karen.saputra@binus.edu   
+ 
+Abstract — In the digital age, the concept of monetization has 
+undergone significant transformations, particularly within the 
+mobile app industry. For mobile app developers, the 
+identification of an optimal monetization strategy is crucial for 
+achieving success. Thi s study aims to thoroughly investigate 
+monetization strategies, trends, challenges, and best practices in 
+mobile application development. The ultimate goal is to assist 
+firms in selecting the most suitable revenue stream while 
+ensuring the delivery of high -quality applications to users. To 
+accomplish this, the author conducted a comprehensive 
+systematic literature review encompassing a wide range of 
+topics, including monetization types such as freemium, in -app 
+purchases, and in -app advertising, as well as t he potential 
+challenges and opportunities associated with each strategy. The 
+findings reveal that among the three types of monetization 
+strategies —free, premium, and freemium —the latter proves to 
+be the most advantageous. However, the successful 
+implementa tion of freemium requires careful consideration of 
+various factors. To address this, the author proposed a diagram 
+consisting of six levels of monetization strategies. This diagram 
+serves as a practical tool that enhances firms’ awareness and 
+enables them to make informed decisions when selecting the 
+appropriate strategy for their mobile applications.  
+Keywords — app monetization ; freemium ; mobile application;  
+mobile marketing  
+I. INTRODUCTION  
+ Mobile applications have grown significantly in popularity 
+over the past three decades and have integrated themselves 
+significantly into daily life [21]. They are made up of a 
+collection of apps created especially for mobile devices [20]. 
+Mobile devices have a number of significant benefits, 
+including its portability, which makes it easy for users to 
+manage and carry the device wherever they go. Mobile apps 
+stand out for their usability, user -friendliness, cost, and 
+compatibility with a variety of mobile phones, including entry -
+level and budget -friendly models [20].  
+ According to a Grand View Research analysis, the 
+worldwide mobile market is expected to increase at a 13.8% 
+compound annual growth rate (CAGR) between 2023 and 
+2030, reaching a value of USD 206.85 billion in 2022. 
+According to this growth projection, the mobile market might 
+generate USD 567.19 billion in revenue by 2030. Such trends present lucrative opportunities for firms to strategically 
+position their businesses and capitalize on the potential for 
+substantial revenue generation [22].  
+ The development of a suitable monetization strategy is 
+crucial for businesses, although many firms may 
+underestimate its complexity. Take the case of Vine, a once 
+popular social media platform, which is said to have failed in 
+part due to its lack of a pro per monetization plan. By 2014, 
+Vine had 200 million users and was an extremely well -liked 
+app that let users make and share 6 -second videos. According 
+to a Failory post, Vine's failure as a hyper -growth network 
+effect business was due to its reluctance to  implement a 
+suitable revenue solution following the platform's explosive 
+user growth. This includes Vine's failure to pursue appropriate 
+sponsorship or advertising opportunities, even after Twitter 
+purchased the business [12].  
+ Retention is another crucial aspect to consider when deter - 
+mining a monetization strategy. As pointed out by Bothma, a 
+mere 3% of users continue using an application after 30 days 
+[6]. Consequently, it becomes vital to pay attention to each 
+phase of the user’s journey, starting from installati on, during 
+active usage, and even addressing the potential for 
+uninstallation. Understanding and optimizing these stages are 
+essential for developing an effective monetization strategy.  
+ In this paper, the author provides an in -depth exploration 
+of the various monetization strategies prevalent in the mobile 
+market. This analysis is conducted through an investigation of 
+marketing and technology journals published within the last 
+five years . The findings reveal several commonly employed 
+strategies in the mobile market. Notably, in -app purchases, 
+advertising, and freemium models have emerged as the most 
+prevalent and favored options in today’s market.  Furthermore, 
+a significant literature gap  has been identified regarding the 
+clarity of which monetization strategy should be employed, 
+especially in the context of general applications where 
+multiple strategies could be applicable. In this paper, a 
+comprehensive diagram is proposed to provide a b etter 
+understanding of the best practices for selecting the most 
+appropriate mobile application monetization strategy.  
+979-8-3503-4110-2/23/$31.00 ©2023 IEEE2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)
+5772023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT) | 979-8-3503-4110-2/23/$31.00 ©2023 IEEE | DOI: 10.1109/COMNETSAT59769.2023.10420748
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 20:56:20 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 2 ===
+ The authors establish a distinct target for firms to optimize 
+their monetization strategies and provides explicit guidance on 
+recommended actions and pitfalls to avoid. This research 
+paper serves as a valuable guidebook that can assist in 
+maximizing the be nefits derived from mobile applications. 
+One important note that this research excludes diving deep 
+into the games category, as it is one of the most distinctive 
+markets and deserves to have its own study.  This paper relies 
+on scientific journals as the f oundation for its literature review. 
+However, it also incorporates crucial information concerning 
+real data about popular applications available today, which is 
+sourced from various channels, including research firms, app 
+intelligence platforms, and online  websites.  
+ In the next section, the study review is presented, which 
+serves as an essential backdrop for establishing a solid 
+foundation of knowledge in the field of marketing. 
+Furthermore, two research questions are proposed to delineate 
+a clear focus and objective for this paper. Moving forward, the 
+subsequent chapter delves into a thorough examination of the 
+findings and presents a detailed discussion, culminating in a 
+comprehensive conclusion for this study.  
+II. STUDY REVIEW  
+A. Outlining the Review  
+ The author adopts a systematic approach in selecting a 
+range of popular databases encompassing journals and articles 
+pertaining to the fields of marketing and technology. The 
+literature review process entails retrieving both publicly 
+available papers and t hose obtained through specific requests 
+made to corresponding authors.  
+The literature selection process involved utilizing the 
+criteria outlined in Table I to identify relevant studies from the 
+pool of literature presented in Table II.  
+The author adopts a systematic approach in selecting a 
+range of popular databases encompassing journals and articles 
+pertaining to the fields of marketing and technology. The 
+literature review process entails retrieving both publicly 
+available papers and those obtained through specific requests 
+made to corresponding authors.  
+TABLE III.  DATABASE & SEARCH TERMS  
+Database  Search  Terms  
+Research  Gate  
+Google Scholar   
+Science  Direct  (“mobile”  AND  
+“application”  AND  
+“monetization”) OR   
+(“mobile”  AND   
+“monetization”)  
+(“monetization” AND   
+“strategy”  AND   
+“mobile  app”)  
+“freemium”  
+TABLE IV.  LITERATURE CRITERIA  
+Inclusion  criteria  Exclusion  criteria  
+Internationally recognized 
+literature  Literatures not written in English  
+ 
+Irrelevant literatures, especially 
+in relation to gaming  Literature analyzing mobile 
+market behavior  
+Literature published within the 
+last 5 years (older relevant 
+literatures still included)   RQ1: What types of monetization strategies exist in the  
+mobile  market?  
+ RQ2: What are the key factors influencing the success of  
+mobile  app monetization  strategies?  
+B. Conducting the Review  
+To acquire comprehensive knowledge for this study, the 
+authors employed the Systematic Literature Review (SLR) 
+methodology. Relevant data was gathered from various 
+journals and publicly available sources. Subsequently, the 
+authors conducted thorough litera ture reviews in relation to 
+the two research questions (RQs) formulated for this study.  
+Upon conducting a search for previous studies using the 
+search terms specified in Table II, the authors identified 
+approximately 300 sources. Afterwards, a further selection 
+process was undertaken, employing the criteria outlined in 
+Table I. Careful examin ation of these studies led to the 
+exclusion of certain papers that were deemed irrelevant, 
+resulting in the remaining 26. Two additional papers were 
+retrieved as references for their definitions of mobile 
+marketing. A statistics report from Grand View Rese arch was 
+included as a reference to provide insights into market size.  
+The authors obtain data from SensorTower in addition to 
+the previously stated sources in order to aid in the results' 
+synthesis. The data is a store intelligence data digest for Q4, 
+covering the years 2018 through 2022. It provides analysis on 
+the newest m obile trends, such as the most popular programs 
+downloaded globally. Finally, the authors use data from 
+Business of Apps and Failory to demonstrate the significance 
+of the monetization approach. The PRISMA checklist, shown 
+in Fig. 1, is used by the authors to describe the above indicated 
+selection procedure. This checklist offers a methodical 
+framework for clearly outlining the processes used 
+throughout the book selection process.  
+C. Literature Review  
+ RQ1: What types of monetization strategies exist in the  
+mobile  market?  
+In recent years, studies have traditionally classified mobile 
+app monetization strategies into two distinct categories: free 
+and premium. However, there exists a transition area that 
+exhibits a wide range of revenue generation approaches, 
+commonly referred  to as “freemium” [23]. The phrase 
+"freemium" refers to two different versions of a product: a free 
+version with restricted functionality and a complete version 
+that costs money but has more features and capabilities. It is a 
+mix of the terms “free” and “premium ” [24]. This business 
+model has gained significant traction and prevalence, with a 
+majority of the literature in this field referencing the freemium 
+strategy as their primary focus of study.  Among users, free 
+applications are highly favored, primarily due to their zero -
+cost nature. However, for firms, sustaining an application 
+solely on a free monetization strategy can pose challenges, 
+although it is not entirely impossible. Previous studies h ave 
+highlighted that the concept of “free” does not imply a lack o f 
+exchange. In one paper, Salehudin quotes Milton Friedman, 
+stating that “There’s no such thing as a free lunch” [19]. It has 
+been found that even with a seemingly “free” monetization 
+strategy, firms can still derive benefits from users’ personal 
+data [7].  The same paper also emphasizes that while users may 
+appreciate the appealing aspect of zero cost, they may also 2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)
+578
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 20:56:20 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 3 ===
+perceive it as harmful. This elucidates why only larger 
+developers are able to collect personal data without being 
+viewed as detrimental by users.  
+ 
+Fig. 2.  PRISM A Flowchart  
+ The efficacy of premium applications in attracting and 
+retaining users has been established through prior research. 
+Appel et al. introduced the concept of “stickiness” as a 
+measure of user engagement and revenue generation in the 
+context of premium applica tions [11]. By focusing on the 
+development of premium applications, firms can enhance user 
+stickiness, which positively impacts their business 
+performance. In addition to the aforementioned strategies, 
+implementing one -time purchases and subscription -based 
+models are common practices within the premium app market. 
+Furthermore, offering trial versions of premium apps has been 
+recognized as an effective approach to stimulate sales and 
+attract potential customers [11]. These insights have been 
+derived from th e literature review conducted in this study, 
+underscoring the significance of appropriate treatment and 
+development strategies in optimizing the performance of 
+premium applications.  
+ The freemium monetization strategy has emerged as a 
+prominent and widely studied topic. Scholars have recognized 
+it as a “de facto business model,” wherein firms leverage user 
+demand through inconvenience [1]. Freemium offers 
+extensive benefits and flexib ility, enabling firms to gradually 
+increase sales by adopting a specific monetization approach. 
+A key component of the freemium strategy is providing 
+substantial benefits to users who are willing to pay for 
+enhanced treatment and privileges [10]. This can include 
+leveraging network effects, where users’ purchasing decisions 
+are influenced by the actions and recommendations of their 
+own network [15], [24]. Developers employ various practices 
+to implement freemium strategies, with in -app purchases 
+(IAP) and i n-app advertising being the primary approaches 
+used [4], [26], [27].  
+ In addition to the various monetization strategies discussed 
+above, many firms also employ a hybrid marketing approach. 
+This approach involves offering both a free or sample version 
+of an app, along with a premium version. When implemented 
+effectively, th e presence of a “damaged goods” app, 
+characterized by the inclusion of ads or blocked features, can incentivize users to purchase the premium version [23]. Users 
+often download the sample version to experience a preview of 
+the premium application. The succ ess of this implementation 
+is measured by the “conversion rate” [3], which will be further 
+examined in the analysis of RQ 2 in this study.  
+ The analysis of Research Question 1 regarding the various 
+types of monetization strategies present in the mobile market 
+is summarized in Table III.  
+ RQ2: What are the key factors influencing the success of  
+mobile  app monetization  strategies?  
+ It is important to acknowledge that there is no one -size- 
+fits-all solution for the success of monetization strategies. The 
+effectiveness of these strategies varies based on the type and 
+category of the application, as emphasized by Cecere et al. [7]. 
+Each firm must carefully evaluate and tailor their monetization 
+approach to align with their specific application and business 
+goals.  
+ The presence of free users in the freemium landscape is 
+crucial as it contributes to the overall success of the strategy. 
+It provides a sense of “pride” for paying users, as mentioned 
+in a study [18]. Additionally, the presence of asymmetry in 
+network eff ects plays a significant role in determining the 
+success of freemium applications, as highlighted in another 
+study [4], [10].  
+ Furthermore, the concept of freemium highlights the 
+importance of distinction between the baseline quality of the 
+product for free and paying users. It is crucial for firms to 
+define the maximum features available for free users and the 
+minimum features o ffered to premium users, as this distinction 
+fundamentally plays into the network effects of the strategy. If 
+a firm fails to properly define these boundaries, the freemium 
+strategy may not serve as the most effective monetization 
+strategy [4].  
+ Li offers yet another viewpoint on the difficulties of 
+putting a freemium strategy into practice. According to Li, 
+adopting and concentrating on freemium with in -app 
+purchases can produce the greatest results if the basic service 
+quality is too low and the  premium service quality is too high. 
+On the other hand, it is preferable to adopt and concentrate on 
+the freemium with in -app advertising approach if the basic 
+service quality is too high and the premium service quality is 
+too poor.  In these cases, the f reemium strategy provides a 
+meaningful deal for customers, encouraging them to continue 
+paying for additional features or removing ads. However, if 
+the value proposition is not well -balanced between the basic 
+and premium services, it can result in users no longer paying 
+or even refraining from purchasing in the first place, as there 
+is no significant incentive for them to do so [13] . 
+Monetization type  Common practice  
+Free - No cost for users  
+- Collecting personal data  
+Premium  - One-time purchase  
+- Subscription -based model  
+- Free trial version  
+Freemium  - In-app purchase (IAP)  
+- In-app advertising  
+- Hybrid implementation (sample 
+[commonly with ads and blocked 
+features] and premium version)  TABLE III.  ANALYSIS OF RESEARCH QUESTION 1 
+ 2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)
+579
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 20:56:20 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 4 ===
+ In this research, the author came across three studies that 
+investigate the significance of "uncertainty" in the freemium 
+strategy. These studies suggest that when there is a surprise in 
+the quality of a freemium application, it can lead to higher 
+sales. This phenomenon occurs because when customers 
+underestimate the significance of an app initially and 
+subsequently discover that its v alue is higher than expected, 
+such as through a trial period or a sample app, they are more 
+inclined to generate additional revenue within the freemium 
+model. This is attributed to the concept of "upgrade," where 
+users voluntarily seek to access enhanced f eatures or benefits 
+by making a financial contribution. The studies referenced as 
+sources provide further insights into this topic [3], [9], [11].  
+ A literature indicates that while freemium can be an 
+attractive strategy, it cannot solely be justified based on 
+acquiring a large user base. Too many free users can harm 
+businesses and reduce revenue. When the availability of free 
+services threatens profitability, this process is known as the 
+“cannibalization ” of paying clients. The results of this study 
+demonstrate how providing free goods or services may boost 
+sales but reduce profitability. It is crucial to remember that 
+while providing a free product may enable a market leader to 
+obtain a competitive advantage by accumulating a sizable user 
+base, this advantage does not ensure increasing profitability. 
+In reality, it may dramatically impair the profitability of 
+followers without ensuring larger profits  for the market leader 
+[17].  
+ Measuring the effectiveness of a freemium model can be 
+done through time retention, which serves as a strong indicator 
+of monetization success. Time retention reflects how long 
+users engage with the app over time, and it is considered a 
+significant predic tor of revenue generation [2]. However, it's 
+important to note that time retention may not be applicable in 
+all cases. For instance, in the case of TikTok, time retention is 
+not a crucial factor because its main source of income comes 
+from advertising reve nue and in -app purchases rather than 
+watch time alone [2], [ 28]. Therefore, while time retention can 
+be a valuable metric for assessing the success of a freemium 
+model, it is not universally applicable and must be considered 
+in the context of each specific app and its monetization 
+strategy.  
+ In the instance of user retention, the author locates a 
+research that explains three key points: installation, user 
+retention, and removal. App adoption is influenced during 
+installation by elements including online comfort, the 
+registration procedure, eas e of trust, and clear instructions. 
+User comfort, usability, aesthetics, customer service, 
+credibility, storage, performance, and simplicity of adoption 
+all play a significant part in the user retention phase. However, 
+several elements —such as time consum ption, unmet 
+expectations, app size, reputation, social impact, worries about 
+personal data, and perceived usefulness —can cause an app to 
+be uninstalled [2].  
+ The authors identify two main ideas of digital marketing 
+from Stochhi. Firstly, apps can gain a competitive edge by 
+adopting a digital marketing orientation, utilizing personalized 
+consumer insights and embracing technological advancements 
+to enhance thei r value proposition. Secondly, creating positive 
+customer experiences and journeys is essential, achieved by 
+emphasizing the app's value as a channel for accessing 
+products and services and enabling seamless interactions [29].   After conducting a comprehensive review of the existing 
+literature, the author identified a significant gap in the research 
+regarding the clarity of which monetization strategy should be 
+employed, particularly in the context of general applications 
+where multiple strategies could be applicable. Surprisingly, 
+the author found a lack of literature that provides a 
+comprehensive understanding of the underlying principles and 
+considerations for choosing each monetization strategy, while 
+also acknowledging and m anaging the associated risks. Thus, 
+the author aimed to address these critical issues through this 
+study.  
+III. FINDINGS & DISCUSSION  
+This section presents the results of this study, which 
+focuses on identifying the best monetization strategy for firms 
+to implement. The authors have proposed a diagram in Fig . 2 
+to illustrate the recommended monetization strategy. This 
+diagram serves as a guide for firms to choose the most suitable 
+monetization strategy for their specific needs and goals.  
+In Fig . 2, the authors have illustrated six levels of 
+monetization strategies. These levels represent varying 
+degrees of strategical importance, ranging from 5, where users 
+are required to fully pay for the application, to 0, indicating 
+that users do not need to sp end any money as the application 
+is completely free. The details of the diagram are presented in 
+Table IV. 
+ It is important to note that the diagram in Figure 2 is not 
+intended to depict the exact amount of revenue a firm will 
+generate by implementing a higher level. Instead, its purpose 
+is to provide an illustrative approach that showcases the 
+“degree of paying. ” This concept is meant to demonstrate the 
+varying levels or degrees to which customers may engage in 
+paying for the implemented features or services.  
+A. Freemium as the Best Strategy  
+This research led to the result where freemium stands out 
+as the best strategy to implement. This result is supported by 
+studies that mention freemium can generate a large user base 
+while providing more flexibility in choosing the source of 
+revenue, as the  authors have proposed in the diagram [15], 
+[17].  
+What drives users to pay in freemium is the social prestige 
+associated with using a high -end product. This aspect 
+highlights the fundamental reason why implementing a 
+network within the application is important [15], [17], [25], 
+[30]. However, firms must a lso provide sufficient benefits 
+from the free /sample product without discouraging users 
+from ever using the product again. This emphasizes the 
+importance of establishing a clear distinction between the 
+Fig. 2.  Proposed Monetization Strategy Diagram  2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)
+580
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 20:56:20 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 5 ===
+functionalities of the free aspect and the premium aspect, 
+finding the right balance  [6], [8], [10], [13], [16], [18], [22] . 
+B. On Optimizing Monetization Strategy  
+To create optimal pricing, firms need to assess each 
+feature the application offers. The author suggests 
+considering aspects such as “stickiness” and “uncertainty” 
+[11]. These features may be seen in the trial version with 
+advertisements, where the busines s earns money through 
+advertisements while the trial is in effect. Higher uncertainty 
+might draw users who might not otherwise download the app 
+because they do so when they think the prospective 
+advantages outweigh the early expenses of trying it out [10],  
+[11].  
+Customer retention is a different optimization factor that 
+businesses should take into account. Enhancing user comfort, 
+ease of use, aesthetics, customer service, trust, storage, 
+performance, and simplicity of adoption can help the 
+organization increase re tention [6]. A shorter contract length 
+is also fundamentally linked to a lower termination rate [5].  
+TABLE IV.  DETAIL OF THE PROPOSED DIAGRAM  
+Strategy  Aspect  Description  
+Level  5 – 
+Premium  Definition  A firm implements  an all-inclusive  
+payment  model where users must make a 
+payment before  being  able to fully  enjoy  the 
+service,  gaining  access  to all features.  A 
+trial period  is often  implemented  to attract  
+users.  
+Challenge  A high-quality  base for the services  is 
+essential  to attract  users  and retain  them  on 
+the platform.  
+Level  4 – 
+Semi -
+premium  Definition  A firm implements a partially -inclusive 
+payment  model where users can enjoy a 
+premium application, but with certain 
+exceptional features that  require  an 
+additional  payment.  The benefit  of this 
+approach  is that users  only pay for the basic  
+premium features or what they specifically 
+need,  rather than having to purchase 
+everything for a  full price.  
+Challenge  Similar to premium, a high -quality base 
+product  involves  determining  which  
+services  are included  and which  are 
+required  an additional  payment.  
+Level  3 – 
+In-app 
+advertising  
+& in-app 
+purchases  Definition  The firm implements  a free application  with 
+advertisements. The main objective of this 
+implementation is to encourage users to 
+make pay ments,  either  to remove  the ads and 
+become  semi - premium  users  or to make  in-
+app purchases.  
+Challenge  This strategy presents more complex 
+challenges.  When it comes to 
+advertisements, the frequency  of ads can 
+negatively impact users’ experience,  so it 
+is crucial  to implement  ads in a manner  
+that avoids irritating users. Regarding 
+purchases,  setting the right price is essential 
+to attract users  while  ensuring  it is not so 
+cheap  that it diminishes  the network  effect  
+and discourages  purchases.  
+Level  2 – 
+Sample &  
+premium  Definition  A firm adopts  the development  of two 
+applications. The sample application is 
+intentionally  designed with lower quality to 
+incentivize users  to purchase  its premium  
+version.  This means  that the sample version Strategy  Aspect  Description  
+may include advertisements  and blocked  
+features.  
+Challenge  In this strategy,  “cannibalization”  is the 
+main  concern, where users choose to stick 
+with the  sample version instead of paying 
+for the premium. Therefore, a firm might 
+need to conduct  extensive research to 
+identify a distinctive base - line quality that 
+can effectively attract users to  the premium 
+version. As for free users, they are  not 
+unimportant due to the network effect, but 
+it can still potentially harm the firm if more 
+users  choose  the sample  version  over the 
+paid one. 
+Level  1 – 
+In-app 
+advertising  Definition  A firm adopts  a single  version  of the app, 
+relying  on advertisements as its source of 
+revenue. The  firm may or may not provide 
+a premium version,  but it is worth 
+mentioning that in -app purchases  are not 
+available.  The revenue  is solely  generated  
+through  advertising  from  advertisers.  
+Challenge  The main challenge of this strategy is how 
+the firm can present ads to users without 
+irritating  them,  keeping  a high user 
+stickiness  as advertisements  might  be the 
+primary  source  of revenue.  
+Level  0 – 
+Free Definition  A firm does not implement  any 
+monetization  strategy. However, it can still 
+benefit from obtaining users’ personal data. 
+The free nature of  the service makes it very 
+easy to attract users as  it looks  appealing  to 
+them.  
+Challenge  The main  challenge  of this approach  is 
+that if a firm decides to benefit from gaining 
+personal  data, it can be perceived as 
+harmful and may not  be favored  by many  
+users.  
+C. Market Evidence Supporting the Proposed Diagram and 
+Freemium Model as the Best Strategy to Implement  
+Upon synthesizing the mentioned results, the authors 
+realize the need to validate this outcome. In response to that, 
+an extensive validation is conducted by searching for some 
+facts and trends of mobile applications in Q4 from 2018 -2022 
+report from SensorTower. From these repor ts, there are 9 apps 
+that consistently rank in the top 20 worldwide based on unique 
+download counts  [31]-[35]. The result of analysis for each type 
+of monetization strategy applied by each app is shown in Table 
+V. 
+TABLE V.  ANALYSIS OF 9 APPS RANKED TOP 20 (2018 -2022)  
+Name  Monetization  Type  Detail  
+Amazon  Freemium  Ads, IAP 
+Facebook  Freemium  Ads 
+Instagram  Freemium  Ads 
+Messenger  Freemium  Ads, IAP 
+Netflix  Premium  Subscription  
+Snapchat  Freemium  Ads 
+Spotify  Freemium  Ads, Subscription  
+TikTok  Freemium  Ads, IAP 
+WhatsApp  Free - 
+ 2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)
+581
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 20:56:20 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 6 ===
+ Our key findings reveal that 7 out of the top 9 apps fall 
+within the freemium spectrum, enabling users to access their 
+platforms freely but with certain “drawbacks. ” This validation 
+underscores that implementing the freemium model is the 
+most effective strategy, regardless of the app category, due to 
+its flexibility in attracting a substantial user base and 
+generating significant revenue.  
+ Among these freemium apps, it is evident that the network 
+effect plays a crucial role, as seen in platforms like Instagram, 
+TikTok, Snapchat, and Facebook, where the number of 
+followers leads users to promote themselves and others 
+through each platform. I n the case of Spotify, it confirms the 
+baseline quality of listening to music freely, but with the 
+drawback of occasional interruptions by ads, which eventually 
+encourages users to opt for a subscription purchase. On the 
+other hand, Amazon (not to be confu sed with AWS) stands out 
+by providing services to users solely through ads and 
+purchases made within its platform.  
+ In the case of Netflix, it has managed to secure the top rank 
+due to its ability to provide a high -quality base for its premium 
+service, attracting a substantial number of users who opt for its 
+premium video streaming service.Our latest finding regarding 
+WhatsApp (not to be confused with WhatsApp Business) 
+confirms that it indeed attracts a massive user base, boasting 
+an impressive 2.5 billion users as of 2022. The reason 
+WhatsApp remains in the market without generating revenue 
+is its affiliation with Met a [36].  
+ The market evidence of the 9 apps confirms the 
+effectiveness of the diagram and the freemium model, as it 
+demonstrates why top apps are successful and highlights their 
+unique behaviors that explain or emphasize the capabilities of 
+each monetization strate gy. 
+IV. CONCLUSION & FUTURE RESEARCH  
+In this study, the authors reviewed the literature for the 
+last five years to find common practices in free, premium, and 
+freemium mobile monetization methods. The findings 
+highlight an absence in the research as there are currently no  
+studies that thoroughly describe and compare each 
+monetization method.  To bridge this gap, the authors propose 
+a six-level monetization strategy diagram, ranging from level 
+5 to 0. These tiers are, in order, free, sample & premium (two 
+versions of the program), in -app adverti sing, in -app 
+purchases, semi -premium, premium, and in -app advertising. 
+The authors examine market data from nine top -20 
+applications to verify the usefulness of the suggested diagram. 
+The accompanying evidence enhances the suggested strategy 
+diagram's beli evability. Freemium is also proven to be the 
+best technique to apply in the mobile industry since it is 
+flexible and has the ability to attract a larger user base and 
+generate more income.  
+This research makes a significant contribution to mobile 
+marketing by offering a descriptive methodology and 
+suggesting a monetization diagram to identify various 
+monetization options, which might be a useful tool for 
+businesses as they pick their monetiza tion approach while 
+taking into account the accompanying difficulties.  Future 
+research should focus on several mobile application 
+categories, including gaming, social networking, retail and e -
+commerce, music and entertainment, among others. By doing 
+this, it will be possible to gain a deeper insight of how 
+different app categories monetize their content.  REFERENCES  
+[1] J. Hamari, N. Hanner, and J. Koivisto, "Why pay premium in freemium 
+services? A study on perceived value, continued use and purchase 
+intentions in free -to-play games," Int. J. Inf. Manag., vol. 51, p. 102040, 
+2020.  
+[2] N. Ross, "Customer retention in freemium applications," J. Mark. 
+Anal., vol. 6, pp. 127 -137, 2018.  
+[3] N. Mishra, S. Najafi, S. Najafi Asadolahi, and A. Tsay, "How freemium 
+gets consumers to pay a premium: The role of loss -aversion," SSRN 
+2961548, 2018.  
+[4] S. Sato, "Freemium as optimal menu pricing," Int. J. Ind. Organ., vol. 
+63, pp. 480 -510, 2019.  
+[5] P. Brüggemann and N. Lehmann -Zschunke, "How to reduce 
+termination on freemium platforms —literature review and empirical 
+analysis," J. Mark. Anal., pp. 1 -15, 2023.  
+[6] R. Bothma, "Factors that influence user retention in mobile apps," 
+Doctoral dissertation, Univ. Cape Town, 2022.  
+[7] G. Cecere, F. Le Guel, and V. Lefrere, "Economics of free mobile 
+applications: personal data as a monetization strategy," HAL, Post -
+Print, Sep. 2018.  
+[8] N. Zhu, "Dissertation on Applied Microeconomics of Freemium 
+Pricing Strategies in Mobile App Market," arXiv preprint 
+arXiv:2305.09479, 2023.  
+[9] W. Chen, Z. Hua, Z. G. Zhang, and W. Bi, "Analysis of freemium 
+business model considering network externalities and consumer 
+uncertainty," J. Syst. Sci. Syst. Eng., vol. 27, pp. 78 -105, 2018.  
+[10] Y. Deng, A. Lambrecht, and Y. Liu, "Spillover effects and freemium 
+strategy in the mobile app market," Manag. Sci., 2022.  
+[11] G. Appel, B. Libai, E. Muller, and R. Shachar, "Retention and the 
+Monetization of Apps," Int. J. Res. Mark., vol. 20, p. 79, 2019.  
+[12] "Startup Cemetery: Vine," Retrieved Jul. 24, 2023, from 
+https://www.failory.com/cemetery/vine  
+[13] Z. Li, G. Nan, and M. Li, "Advertising or freemium: The impacts of 
+social effects and service quality on competing platforms," IEEE Trans. 
+Eng. Manag., vol. 67, no. 1, pp. 220 -233, 2018.  
+[14] Y. J. Lee, H. Ghasemkhani, K. Xie, and Y. Tan, "Switching decision, 
+timing, and app performance: An empirical analysis of mobile app 
+developers’ switching behavior between monetization strategies," J. 
+Bus. Res., vol. 127, pp. 332 -345, 2021.  
+[15] K. J. Boudreau, L. B. Jeppesen, and M. Miric, "Competing on 
+freemium: Digital competition with network effects," Strateg. Manag. 
+J., vol. 43, no. 7, pp. 1374 -1401, 2022.  
+[16] J. Cao, P. K. Chintagunta, and S. Li, "From Free to Paid: Monetizing a 
+Non-advertising -based App," SSRN 3783546, 2021.  
+[17] Z. Shi, K. Zhang, and K. Srinivasan, "Freemium as an optimal strategy 
+for market dominant firms," Mark. Sci., vol. 38, no. 1, pp. 150 -169, 
+2019.  
+[18] W. Geng and Z. Chen, "Optimal pricing of virtual goods with 
+conspicuous features in a freemium model," Int. J. Electron. Commer., 
+vol. 23, no. 3, pp. 427 -449, 2019.  
+[19] I. Salehudin and F. Alpert, "No such thing as a free app: A taxonomy 
+of freemium business models and user archetypes in the mobile game 
+market," ASEAN Mark. J., 2021.  
+[20] R. Islam, R. Islam, and T. Mazumder, "Mobile application and its 
+global impact," Int. J. Eng. Technol., vol. 10, no. 6, pp. 72 -78, 2010.  
+[21] G. H. Forman and J. Zahorjan, "The challenges of mobile computing," 
+Comput., vol. 27, no. 4, pp. 38 -47, 1994.  
+[22] Grand View Research, "Mobile Application Market Size, Share, & 
+Trends Analysis Report By Store Type (Google Store, Apple Store, 
+Others), By Application, By Region, And Segment Forecasts, 2023 - 
+2030," Report No. GVR -4-68039 -038-0, 2022, 
+https://www.grandviewresearch.com/industry -analysis/mobile -
+application -market  
+[23] G. Appel, B. Libai, E. Muller, and R. Shachar, "On the monetization of 
+mobile apps," Int. J. Res. Mark., vol. 37, no. 1, pp. 93 -107, 2020.  
+[24] I. V. Osipov, E. Nikulchev, A. A. Volinsky, and A. Y. Prasikova, 
+"Study of gamification effectiveness in online e -learning systems," Int. 
+J. Adv. Comput. Sci. Appl., vol. 6, no. 2, pp. 71 -77, 2015.  
+[25] B. Fang, Z. Zheng, Q. Ye, and P. B. Goes, "Social influence and 
+monetization of freemium social games," J. Manag. Inf. Syst., vol. 36, 
+no. 3, pp. 730 -754, 2019.  2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)
+582
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 20:56:20 UTC from IEEE Xplore.  Restrictions apply. 
+
+=== PÁGINA 7 ===
+[26] A. Ravoniarison and C. Benito, "Mobile games: players’ experiences 
+with in -app purchases," J. Res. Interact. Mark., vol. 13, no. 1, pp. 62 -
+78, 2019.  
+[27] J. Martins, C. Costa, T. Oliveira, R. Gonçalves, and F. Branco, "How 
+smartphone advertising influences consumers’ purchase intention," J. 
+Bus. Res., vol. 94, pp. 378 -387, 2019.  
+[28] M. Mhalla, J. Yun, and A. Nasiri, "Video -sharing apps business 
+models: TikTok case study," Int. J. Innov. Technol. Manag., vol. 17, 
+no. 07, p. 2050050, 2020.  
+[29] L. Stocchi, N. Pourazad, N. Michaelidou, A. Tanusondjaja, and P. 
+Harrigan, "Marketing research on Mobile apps: Past, present and 
+future," J. Acad. Mark. Sci., pp. 1 -31, 2021.  
+[30] J. Runge, J. Levav, and H. S. Nair, "Price promotions and 'freemium' 
+app monetization," Quant. Mark. Econ., vol. 20, no. 2, pp. 101 -139, 
+2022.  [31] "Q4 2018 Store Intelligence Data Digest," Jan. 2018, Retrieved Jul. 24, 
+2023, from https://sensortower.com/blog/top -apps-games -publishers -
+2018  
+[32] "Q4 2019 Store Intelligence Data Digest," Jan. 2019, Retrieved Jul. 24, 
+2023, from https://sensortower.com/blog/top -apps-games -publishers -
+2019  
+[33] "Q4 2020 Store Intelligence Data Digest," Jan. 2020, Retrieved Jul. 24, 
+2023, from https://sensortower.com/blog/q4 -2020 -data-digest  
+[34] "Q4 2021 Store Intelligence Data Digest," Jan. 2021, Retrieved Jul. 24, 
+2023, from https://sensortower.com/blog/q4 -2021 -data-digest  
+[35] "Q4 2022 Store Intelligence Data Digest," Jan. 2022, Retrieved Jul. 24, 
+2023, from https://sensortower.com/blog/q4 -2022 -store -intelligence -
+data-digest   
+[36] M. Iqbal, "WhatsApp Revenue and Usage Statistics (2023)," May 2, 
+2023, Retrieved Jul. 24, 2023, from 
+https://www.businessofapps.com/data/whatsapp -statistics/  
+ 2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)2023 IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)
+583
+Authorized licensed use limited to: Universidade Federal dos Pampas (UNIPAMPA). Downloaded on August 22,2025 at 20:56:20 UTC from IEEE Xplore.  Restrictions apply. 
+

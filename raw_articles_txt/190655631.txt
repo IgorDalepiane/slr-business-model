@@ -1,0 +1,951 @@
+=== PÁGINA 1 ===
+Economic and business perspectives on smartphones
+as multi-sided platforms
+Martin Campbell-Kellya, Daniel Garcia-Swartzb,n, Richard Lamc, Yilei Yangb
+aDepartment of Computer Science, University of Warwick, Coventry, UK
+bCompass Lexecon, 332S. Michigan Avenue, Suite 1300, Chicago, IL 60604, USA
+cUnited Airlines, 233 S. Wacker, 12th Floor, Chicago, IL 60606, USA
+article info
+Available online 7 December 2014
+Keywords:
+SmartphonesConsumer behavior
+Mobile operating systems
+Multi-sided platform marketsabstract
+We interpret mobile operating systems such as iOS and Android as multi-sided platforms
+that serve a variety of “customers, ”including consumers (users), handset makers, network
+operators, app developers, advertisers, and chip manufacturers. After reconstructing the
+history of smartphones, we explore the variety of business models that operating systemowners or sponsors have implemented, and highlight their implications for the relation-
+ships between platform owners/sponsors and customers. Next we focus on those
+dimensions of the smartphone experience that consumers declare they value the most,namely network quality, the features of the operating system itself, and the selection of
+apps available for each platform. We study how different mobile operating-system owners
+or sponsors have managed to innovate in these various dimensions, often by engagingother customer types. In the concluding section we rely on the insights derived frommulti-sided platform theory to analyze the reasons why two mobile platforms —Apple's
+and Google's —have been able to displace various incumbents.
+&2014 Elsevier Ltd. All rights reserved.
+1. Introduction
+In recent years a rich academic literature has developed on markets with multi-sided platforms. These are platforms that
+connect two or more distinct types of customers and that are characterized by the existence of indirect externalities —an
+extra customer on one side generates benefits for customers on the other side. Multi-sided platform models have been
+applied to a wide variety of markets, including real estate brokerage and matchmaking. Among the empirical studies of
+multi-sided platforms are Rysman (2004) on the Yellow Pages directories, Kaiser and Wright (2006) on German magazines,
+Landsman and Stremersch (2011) on game consoles, and Seamans and Zhu (2012) on the impact of Craigslist on newspapers.
+In this study we apply the multi-sided platform model to understand the evolution of the smartphone industry. We focus
+on smartphone operating systems, such as Apple's iOS and Google ’s Android, as multi-sided platforms that connect different
+types of customers that demand the services of the platform, including users, application developers, handset manufac-
+turers, network operators, advertisers, and even chip makers. (We refer to the operating systems that are at the core of our
+study as “mobile operating systems, ”“smartphone operating systems, ”or simply “operating systems. ”)
+Even though by their very nature mobile operating systems connect a variety of customers, their ultimate goal is to
+attract consumers (users). Thus, we focus on the strategies that mobile platforms have resorted to in order to achieve thisContents lists available at ScienceDirect
+URL: www.elsevier.com/locate/telpolTelecommunications Policy
+http://dx.doi.org/10.1016/j.telpol.2014.11.001
+0308-5961/ &2014 Elsevier Ltd. All rights reserved.
+nCorresponding author. Tel.: þ1 312 322 0200
+E-mail address: dgarciaswartz@compasslexecon.com (D. Garcia-Swartz).Telecommunications Policy 39 (2015) 717 –734
+
+=== PÁGINA 2 ===
+objective. We examine how different smartphone operating systems have addressed the chicken-and-egg problem that all
+multi-sided businesses must face —that is, the problem of getting traction at the starting point. We also analyze how they
+have attempted to maintain momentum with consumers. By the very nature of the business, we argue, the owners or
+sponsors of mobile operating systems have had to rely often on the contributions of other customer groups —handset
+manufacturers, network operators, third-party app developers, and even advertisers —to keep users engaged with the
+platform. Thus, in order to grow their user base mobile operating systems have had to develop successful strategies to
+attract other customer types.
+There are a few other studies that apply the multi-sided platform model to the smartphone business. Holzer and Ondrus
+(2011) look at smartphones from the perspective of developers who are considering creating applications for a mobile
+platform, and suggest eight propositions “as starting points for future empirical research. ”Our study goes beyond the Holzer
+and Ondrus (2011) analysis in a number of ways. For one, we provide empirical evidence on mobile app developers that is
+relevant to assess the accuracy of the Holzer –Ondrus predictions. More importantly, Holzer and Ondrus concentrate on
+developers whereas our focus is on users and on how platforms have engaged a wide variety of customers —including app
+developers —in order to continue to attract users.
+Unno and Xu (2013) study the optimal strategies of a platform owner vis-à-vis third-party application providers and end
+users, and derive sufficient conditions for the existence of an optimal revenue-sharing strategy (which affects app providers)
+and an optimal app-purchasing support strategy (which affects end users). Our study is radically different from the Unno
+and Xu (2013) study in that their analysis is fundamentally theoretical, whereas our study attempts to provide a systematic
+empirical examination of the evolution of the smartphone industry within the framework of multi-sided platform theory.
+For the same reasons our study is different from that by Lin, Li, and Whinston (2011) , which provides a theoretical
+examination of a mobile platform owner ’s optimal two-sided pricing strategy taking into consideration the innovation
+decisions of application developers.
+In terms of style our study is more closely related to those of Gawer and Cusumano (2002) ,West and Mace (2010) and
+Kenny and Pon (2011) .Gawer and Cusumano (2002) use the platform concept to study the evolution of the Palm platform,
+which in their view encompassed the PDA device and its operating system. Although our analysis relies on a platform model
+that is closely related to theirs, we examine the smartphone industry as a whole whereas their study concentrates on the
+strategies followed by one player (Palm) in a market that preceded smartphones (PDAs). West and Mace (2010) focus
+specifically on the iPhone: they argue that what explains its success is “Apple ’s conception of the mobile Internet as being
+another modality of the existing wired Internet, and its leveraging of existing system competencies. ”In their view, the
+iPhone quickly gained market share because of Apple ’s capacity to deliver the “real Internet. ”They examine the evolution of
+the iPhone ’s business strategies and present some adoption statistics through 2008 –2009. Kenny and Pon (2011) offer a
+more comprehensive view: using the conceptual framework of platform theory they analyze “the actions and strategies of
+four major competitors, including Apple, Google, Microsoft, Nokia, and, more briefly, Research in Motion and HP/Palm. ”They
+conclude that, at the time when their study was prepared, some competitors were following traditional platform strategiesbut Google and Apple appeared to have departed from some of the key tenets of the theory. They present some historical
+perspectives on the key players and compile market share statistics through 2009.
+How does our study differ from those of West and Mace (2010) andKenny and Pon (2011) ? First, our analysis attempts to
+be more comprehensive than that of West and Mace (2010) since they focus on the iPhone only. Second, whereas both
+studies concentrate on the early period of the smartphone industry, we cover the evolution of smartphones through 2013.
+We attempt to provide insights not only on how various mobile platforms addressed the take-off problem but also on the
+strategies they have adopted to sustain momentum with users —strategies that usually involve interactions with other
+customer types.
+Our paper is organized as follows. Section 2 provides a brief history of smartphones and their operating systems. Section 3
+interprets mobile operating systems as multi-sided platforms, and offers an analysis of their business models and their take-off
+strategies. Since consumer surveys reveal that smartphone users care fundamentally about network quality, operating-system
+features, and the availability of third-party apps, the next three sections concentrate on these issues —that is, on the strategies
+that platform owners or sponsors have adopted to sustain momentum with consumers. Section 4 focuses on innovation in
+hardware and operating-system software, Section 5 on innovation in network technology, and Section 6 on innovation in
+third-party apps. Section 7 considers third-party developers and Section 8 concentrates on advertisers. The final, concluding,
+section addresses the success of Apple ’si P h o n ea n dG o o g l e ’s Android, and their different approaches to the organization of the
+multi-sided mobile platform.
+2. Historical background
+The mobile phone emerged as a consumer item in the early 1990s, in effect riding on the technology and infrastructure
+that had been developed earlier to satisfy the corporate communications market and elite customers. The second half of the
+1990s saw a wave of new single-function consumer devices, such as media players, digital cameras, and GPS systems, and
+infrastructure to support them. For a small increment to manufacturing cost, it became feasible to incorporate audio players
+and digital cameras into the mobile phone, which thus became a “feature phone ”—an integrated bundle of special-purpose
+devices with capabilities that were frozen at the time of manufacture.M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 718
+
+=== PÁGINA 3 ===
+2.1. The smartphone pioneers
+The term “smartphone ”came into use in 1997 and represented a new way of thinking about mobile phones.
+Smartphones were no longer single-purpose or multi-purpose devices, but rather universal handheld computers that
+incorporated a telephone. A key feature of smartphones was the ability to run software programs, later called “apps, ”that
+enabled them to perform tasks that had not been envisaged when the phone was manufactured. Smartphones were, at their
+core, classical universal computers.
+The smartphones that became popular in the 21st century were built on the technology of handheld computers, often
+called Personal Digital Assistants (PDAs), developed within the computer industry. All of the early smartphones had at their
+core software operating systems devised for PDAs. The main ones in the pre-2007 period were Palm OS, Windows CE (later
+called Windows Mobile), Symbian, and BlackBerry OS.
+Palm Computing was founded in 1992 by Jeff Hawkins, who in the early 1990s had created one of the first handheld
+computers, the GRiDPad ( Jackson, 2001 ). After being acquired by U.S. Robotics, in 1996 Palm introduced the PalmPilot 1000
+PDA, which had 128k of memory and a monochrome touchscreen display. Designed to replace paper rather than full-fledged
+computers, the PalmPilot 1000 had four basic functions —calendar, addresses, to-do lists, and memos —and sold more than a
+million units in the first 18 months after introduction. The operating system that controlled the PalmPilot PDA, the Palm OS,
+was first used in a smartphone in 2001.
+The success of the PalmPilot 1000 generated a flurry of entry into the PDA market. Microsoft had started working on an
+operating system for mobile computing devices, codename Pegasus, in late 1994 ( Tilley, 2001 ). By September 1996 it had
+entered into agreements with six hardware partners —Casio, Compaq, HP, LG Electronics (for Hitachi), NEC, and Philips —to
+bring to market PDA-like devices running on the operating system (renamed Windows CE 1.0). These early Windows-based
+handheld computers were not particularly successful. By late 1997 Palm had about two-thirds of the market for handheld
+computing devices, and the Windows mobile OS trailed considerably behind. Smartphones based on Windows CE were not
+introduced until 2002.
+Symbian has its roots in an operating system named Epoc developed by Psion, a British computer company. Psion had
+been founded in 1980 by David Potter, an academic physicist, and in its early years had become a leader in software for
+microcomputers. In 1994 Psion introduced a small handheld computer, the Series 3, which was a hit in the British market
+(Orlowski, 2010 ). After the Series 3 took off, Psion engineers started designing an operating system, called Epoc, which
+would serve as the foundation for the long-term successor to the Series 3. While exploring the possibility of licensing its yet
+unreleased operating system, Psion established a relationship with Nokia, the Finnish conglomerate, which was about to
+introduce the Communicator 9000, a mobile-phone and PDA combo. Negotiations between the companies led to an
+agreement according to which Nokia would use the Epoc operating system on its future line of Communicator devices.
+In the summer of 1997 Psion released the first devices based on the Epoc operating system. Although the Epoc handheld
+computers were widely held to be superior to those running Windows CE, Psion ’s top management was inclined to license
+Windows CE for the Psion computers in order to avoid a David-versus-Goliath confrontation with Microsoft. In this context,
+one of Psion ’s managers suggested the idea of creating a spin-off company that would own the Epoc operating system and
+would be owned by some of the key mobile-phone industry players. The company, named Symbian Ltd., was founded in
+June 1998, and was jointly owned by Nokia, Ericsson, and Motorola. The Symbian operating system was used on a mobile
+phone for the first time in 2001.
+In 1984 two engineering students, Mike Lazaridis and Douglas Fregin, founded Research in Motion (RIM) as an
+electronics and computer-science consulting business in Waterloo, Ontario. Early on the firm specialized in wireless data
+technology, and by 1988 had become the first company outside Scandinavia to develop connectivity products for Mobitex
+data communication networks ( McQueen, 2010 , pp. 19 –77;Sweeney, 2009 , pp. 1 –78).
+In 1996 RIM introduced the first two-way messaging pager, the so-called Inter@ctive Pager, and in 1999 the first product
+in a line that would bring the company international recognition —the BlackBerry, a device that allowed business executives
+to access their corporate email wirelessly from anywhere at any time. RIM ’s first smartphone, the BlackBerry 5810, reached
+the market in 2002. A mobile phone that included enterprise e-mail support, text messaging, and a browser, the 5810 has
+been dubbed “the first truly successful smartphone ”(Ahmad, 2011 , p. 16).
+2.2. Apple ’s iPhone
+The smartphone market changed radically with the arrival of Apple ’s iPhone in June 2007 ( Vogelstein, 2008 ). Apple ’s
+management had started exploring the development of an Apple phone in 2002, soon after the introduction of the iPod MP3
+player. One of the key problems consumers were facing in the early 2000s, and especially after the introduction of the iPod,
+was mobile device proliferation —they were carrying simply too many of them, including a PDA, a phone, an MP3 player, and
+sometimes a digital camera.
+By 2004 the iPod business, which already accounted for 16 percent of Apple ’s revenues, looked promising but also
+vulnerable —mobile phones were becoming increasingly sophisticated and the price of storage was plunging. Further, music
+stores rivaling Apple ’s iTunes, which had opened for business in April 2003, were proliferating. Apple responded with a first
+“music phone, ”the ROKR, jointly developed with Motorola and introduced in 2005. The ROKR —which had an unfriendlyM. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 719
+
+=== PÁGINA 4 ===
+interface, could hold no more than 100 songs and had to be synced with a personal computer to complete a purchase from
+the iTunes store —sold well below expectations despite benefiting from an expensive marketing campaign.
+As the ROKR episode was unfolding, Apple established a business relationship with Cingular, the wireless carrier. Apple
+and Cingular —which was acquired by AT&T in December 2006 —held protracted negotiations that led to a business deal
+centered on the introduction of an Apple phone, internally known as Purple 2. Apple ’s iPhone, developed in an atmosphere
+of complete secrecy during 2005 –2006, was announced by Steve Jobs in January 2007. It became commercially available a
+few months later.
+Jobs presented the iPhone as a “revolutionary mobile phone ”that combined the capabilities of a phone, an iPod, and an
+“Internet communicator ”(Thomas, 2007 ). The entire front surface of the iPhone was a touchscreen and all of its functions
+were activated by touch. It ran the Mac OS X operating system (later rebranded iOS when used on the iPhone), offered a
+radically new and improved Internet access capability, and was able to wirelessly download music and movies from the
+iTunes store.
+In the second quarter of 2007, when the iPhone became commercially available, Symbian was the undisputed leader in
+the world smartphone market with a share of almost 66 percent of all units sold ( Gartner Research, 2008 ;Markoff, 2007 ).
+The iPhone share grew quickly, from less than one percent when it was introduced to 16.13 percent in Q4-2009. The rise of
+the iPhone was accompanied by a steep decline in the shares of both Symbian and Windows CE. The share of the Blackberry
+OS kept on growing through late 2009, mainly because the Blackberry was less of a consumer item and was embedded in
+many organizations.
+2.3. Google ’s Android
+By late 2008 the iPhone was well on its way to becoming an important player in the world smartphone market. Its
+ascent, however, did not remain uncontested for long. In September 2008T-Mobile released the first smartphone running on
+Android, the operating system developed by Google ( Lendino, 2012 ).
+The history of Google ’s Android goes back to Andy Rubin, a computer and electronics hobbyist who had worked for Apple
+and WebTV ( Markoff, 2007 ). In the late 1990s Rubin and a group of engineer friends had founded a start-up in Palo Alto,
+California, named Danger Inc, which in the early 2000s developed the Sidekick, one of the first smartphones to effectively
+combine Web access, email, instant messaging and other applications.
+The Sidekick developed a cult following among hip teenagers but never became a contender in the broader smartphone
+market. Rubin left Danger Inc in 2004 and launched a new startup, Android, whose goal was to design “a free, open source
+mobile platform that any coder could write for and any handset maker could install ”(Roth, 2008 ). The company would
+generate revenues by selling support services for the system. In 2005 Rubin approached Page to obtain Google ’s
+endorsement for Android. Rather than just endorsing the start-up Google acquired it in July 2005 for an estimated $50
+million. This unleashed a flurry of speculation in the technology world about the potential implications of Google ’s turning
+into a smartphone vendor.
+At the time when it acquired Android, Google was reportedly concerned about two facts: first, web surfing had started to
+migrate from personal computers to mobile phones, and second, the Internet capabilities of existing smartphones were
+limited ( Roth, 2008 ). Consumers ’migration toward the mobile web could potentially undermine the foundations of Google ’s
+success precisely because mobile phones were not particularly effective platforms for searching the Internet (and viewing
+Google ’s ads).
+Android ’s acquisition by Google did not turn Google into a smartphone vendor, at least not immediately. Contrary to
+Apple, which sold the iPhone as an integrated and proprietary bundle of hardware and software, Google chose to follow a
+strategy not unlike the one that Microsoft had employed in the 1980s in its relationships with PC makers —Google developed
+an operating system and licensed it to any and all handset makers. The key difference between Google ’s Android and
+Microsoft ’s DOS and Windows was that Android was open-source and cost the handset manufacturers nothing.
+In November 2007, only a few months after the iPhone had reached the market, a group of technology companies that
+included Google, T-Mobile, HTC, Qualcomm, and Motorola announced the formation of the Open Handset Alliance for thedevelopment of the Android operating system ( Schonfeld, 2007 ). The first Android smartphone, introduced in September
+2008 by T-Mobile, was reviewed poorly and did not sell well ( Vogelstein, 2011 ). The first successful Android smartphone
+was Motorola ’s DROID, which reached the market in October 2009 ( McCracken, 2009 ).
+The share of Android in the world smartphone market grew quickly after Q4-2009. By Q1-2011 Android had become the
+leading operating system in the world market with a 35.99 percent share of all units sold, followed by Symbian (27.39
+percent), Apple ’s iOS (16.75 percent), the BlackBerry OS (12.90 percent), and Windows Mobile (3.63 percent).
+2.4. Recent developments
+In recent years the rise of iOS and Android and the corresponding decline of the pioneers (Symbian and the BlackBerry
+OS) have brought about important realignments in the industry. Apple introduced the second-generation iPhone in early
+June 2008. Soon thereafter Nokia, which owned 48 percent of Symbian, announced that it would buy the remaining 52
+percent from the other stakeholders, and would then set up the Symbian Foundation to “unify ”and “open source ”theM. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 720
+
+=== PÁGINA 5 ===
+Symbian operating system for smartphones. The key objective of the foundation was to “drive the development of web
+applications for use by consumers on cell phones ”(Krazit, 2008b ;Skillings, 2008 ).
+The Symbian Foundation —whose founding members included Nokia, Sony Ericsson, Motorola, NTT DOCOMO, AT&T, LG
+Electronics, Samsung Electronics, Texas Instruments STMicroelectronics, and Vodafone —was an attempt by some of the key
+industry players to stop the decline of what had been the leading mobile operating system in the world. In any case, the
+attempt was unsuccessful and by late 2010 the Foundation had become purely a licensing body with no operational
+responsibilities.
+Although Nokia continued, in theory, supporting the development of the Symbian operating system, in practice it
+searched for alternatives to remain relevant in the changing smartphone market, and in February 2011 announced a mobile
+phone partnership with Microsoft. In essence, the agreement called for Nokia to use Microsoft ’s Windows 7 as the “primary ”
+operating system on its mobile phones; but it went beyond that by explicitly announcing the partners ’intent to establish a
+“third ecosystem ”that encompassed app developers and network operators ( Elop & Ballmer, 2011 ;Shankland, 2011 ).
+Research in Motion, the other incumbent in decline, tried a different strategy to stay relevant in the market. It developed
+a new operating system, BlackBerry 10, and unveiled it in early 2013 at the same time that it changed the company ’s name
+itself to BlackBerry ( Reisinger, 2013 ).
+Table 1 tracks worldwide market shares for mobile operating systems between 2007 and 2012 in terms of units shipped.
+The table clearly shows the collapse of Symbian and the rise of iOS first and Android later.
+Table 2 tracks market shares for mobile operating systems in the U.S. between 2009 and 2012 in terms of the installed
+base of users. The table also shows the rise of iOS first and Android later, but in this case the main declining platforms are
+the BlackBerry OS and Windows Mobile, since Symbian never developed a large share in the American market.
+2.5. Changes in consumer behavior
+The introduction of Apple ’s iPhone and Google ’s Android led to dramatic changes in behavior among consumers. When
+Apple ’s iPhone was introduced in mid-2007 about 78 percent of individuals who had a landline in the U.S. also had a mobile
+phone ( PewResearchCenter, 2011 ). We do not have information on the proportion of mobile-phone owners who had a
+smartphone at the time but it is usually assumed that it was extremely limited. By May 2011, 33 percent of mobile phone
+owners had a smartphone and by September 2012 the share had risen to 53 percent —that is, by mid to late 2012 more than
+half of all mobile phone owners in the U.S. owned a smartphone (as opposed to a traditional feature phone)
+(PewResearchCenter, 2012 ,2013 ). Other sources provide further details on mobile phone usage. By mid-2012 about 94
+percent of U.S. consumers had a mobile phone; among them, 53 percent used a smartphone, 38 percent a feature phone,
+and 9 percent a multimedia phone (that is, one that had a touch-screen and a qwerty keypad but not an advanced operating
+system) ( Nielsen, 2013 , p. 9).
+Further, the proportion of mobile phone owners in the U.S. —smartphone, feature phone, and multimedia phone owners
+combined —who used their mobile phones to send or receive email increased from 19 percent to 38 percent between
+Table 1
+Worldwide mobile operating system shares (volume shipped) (percent).Source : Gartner press releases.
+Symbian Android BlackBerry OS Windows Mobile iOS Palm OS
+Q1-2007 63.52 8.34 11.75 1.88
+Q2-2007 65.60 8.87 11.53 0.97 1.66Q3-2007 63.09 9.75 12.76 3.37 1.17Q4-2007 62.29 10.95 11.90 5.24 1.22
+Q1-2008 56.78 13.31 11.90 5.32 2.03
+Q2-2008 57.12 17.36 12.02 2.77 2.31Q3-2008 49.79 15.88 11.10 12.93 2.14Q4-2008 47.06 19.51 12.36 10.69 0.86Q1-2009 48.83 1.58 20.64 10.24 10.54Q2-2009 50.96 1.84 18.99 9.35 13.00Q3-2009 44.57 3.47 20.74 7.93 17.13
+Q4-2009 44.34 7.51 19.53 7.81 16.13
+Q1-2010 44.16 9.59 19.73 6.78 15.34Q2-2010 40.91 17.17 18.74 4.93 14.09Q3-2010 36.61 25.46 14.79 2.79 16.74Q4-2010 32.24 30.47 13.00 3.33 15.81Q1-2011 27.39 35.99 12.90 3.63 16.75Q2-2011 22.14 43.42 11.74 1.60 18.22Q3-2011 16.93 52.52 11.03 1.48 15.02
+Q4-2011 11.71 50.93 8.85 1.85 23.79
+Q1-2012 8.63 56.14 6.88 1.88 22.94Q2-2012 5.90 64.11 5.20 2.66 18.83Q3-2012 2.60 72.40 5.29 2.40 13.92M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 721
+
+=== PÁGINA 6 ===
+December 2007 and May 2011, and the proportion who used them to access the Internet rose from 19 percent to 44 percent
+over the same time period ( PewResearchCenter, 2011 ). Changes in usage among consumers were clearly driven by
+smartphone penetration: in the first half of 2012, 75 percent of smartphone owners used their smartphones to send or
+receive email, and 82 percent used them to browse the Internet ( Nielsen, 2013 , p. 20).
+3. Mobile operating systems as multi-sided platforms
+We view mobile operating systems such as iOS and Android as multi-sided platforms. The multi-sided model has been
+applied to a variety of industries, including real estate brokerage, newspapers and magazines, network television, computer
+operating systems, and electronic payment instruments.
+3.1. Features of multi-sided platforms
+Multi-sided platforms have three fundamental features ( Evans, 2003 , pp. 327 –334).1First, for multi-sided platforms to
+emerge at least two distinct types of customers have to exist. Second, in multi-sided platforms there are indirect
+externalities arising from the interconnection among different customers types. Third, an intermediary is required to
+internalize the externalities flowing from one side of the platform to the other.
+Mobile operating systems are multi-sided platforms that clearly meet these three conditions. First, there are a variety of
+customers, including users, handset makers (such as Samsung and Nokia), network operators (such as AT&T, T-Mobile, and
+Verizon), advertisers, chip makers, and application developers (see Fig. 1 ). Second, there are externalities arising from the
+interconnection among different customer types. The most obvious of such (indirect) externalities are those flowing from
+users to app developers, and reciprocally —a developer that starts creating apps for a mobile operating system makes users
+of the operating system better off, and an additional user of a mobile operating system makes developers engaged in
+creating apps for it better off. Third, the mobile operating system is the platform that mediates the relationships among
+these various customer types.
+Multi-sided platforms have a number of features that make them different from more traditional businesses and
+markets. A key characteristic of every multi-sided platform is that at the starting point it faces a chicken-and-egg problem:
+in a platform with two customer types (say, Type-I and Type-II), Type-I customers do not want to commit to participating in
+the platform until they see enough commitment on the part of Type-II customers, who in turn refuse to join until they see a
+sufficiently large number of Type-I customers on board. Multi-sided platforms have to be creative enough to solve this
+conundrum; if not, they never achieve the kind of scale that allows them to take off.
+The evolution of markets with multi-sided platforms tends to be volatile and unstable. This is so because of the
+interactions between the demands on the various sides of the platform —since demands are interconnected, small changes
+on one side may have important repercussions on other sides.Table 2
+Mobile operating system shares in the U.S. market (number of users), select dates (percent).Source : Comscore press releases.
+Android iOS BlackBerry OS Windows Mobile Symbian Palm OS
+Sep-09 2.50 24.10 42.60 19.00 8.30
+Nov-09 3.80 25.50 40.80 19.10 7.20Jan-10 7.10 25.10 43.00 15.70 5.70
+Mar-10 10.50 25.25 41.60 14.55 5.15
+May-10 13.00 24.40 41.70 13.20 4.80Jul-10 17.00 23.80 39.30 11.80 4.90Aug-10 19.60 24.20 37.60 10.80 4.60Oct-10 23.50 24.60 35.80 9.70 3.90Dec-10 28.70 25.00 31.60 8.40 3.70Feb-11 33.00 25.20 28.90 7.70 2.80Apr-11 36.40 26.00 25.70 6.70 2.30
+Jun-11 40.20 26.60 23.50 5.80 2.00
+Aug-11 43.80 27.30 19.70 5.70 1.80Sep-11 44.80 27.40 18.90 5.60 1.80Nov-11 46.90 28.70 16.60 5.20 1.50Dec-11 47.30 29.60 16.00 4.70 1.40Feb-12 50.10 30.20 13.40 3.90 1.50Apr-12 50.80 31.40 11.60 4.00 1.30Jun-12 51.60 32.40 10.70 3.80 0.90
+Aug-12 52.60 34.30 8.30 3.60 0.70
+1Seminal papers on multi-sided platforms include Rochet and Tirole (2002) ,Schmalensee (2002) , and Caillaud and Jullien (2003) .M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 722
+
+=== PÁGINA 7 ===
+Finally, as in more traditional markets competition between platforms tends to create benefits for all platform customers,
+especially when there is multi-homing at least on one side of the platform, that is, when customers on at least one side are
+active on several competing platforms. The price level declines with multi-homing because the existence of substitutes
+constrains the pricing power of each platform. Further, it is often the case that multi-homing on one side lowers the price for
+customers on the other side —as buyer multi-homing becomes more frequent, for example, sellers may benefit from lower
+prices charged by platforms since they have more options to substitute to ( Evans, 2003 , p. 346).
+3.2. Business models
+Even though all mobile operating systems are multi-sided platforms, not all of them have structured their business
+model in the same way. One of the key distinctions among them is that, in some cases, the creators of the operating system
+have chosen to be the handset makers as well, whereas in others those functions have remained distinct. We identify five
+different business models that have developed historically in the mobile-operating-system market.
+The first model is one in which the mobile operating system is closed-source, and its owner is a corporation that
+functions also as the handset maker. Put differently, the corporation that owns the proprietary operating system sells an
+integrated bundle of software and hardware. This is the approach adopted by RIM for BlackBerry OS, Palm, and Apple
+for iOS.
+The second model —adopted by Microsoft for Windows Mobile —is one in which the mobile operating system is closed-
+source, and its owner is a corporation that licenses it to handset makers for a price. The key distinction here is that the
+operating system ’s owner does not supply the hardware and is thus forced to interact with another set of partners (or
+customers), the handset makers.
+The third model —implemented by Symbian Ltd. —is one in which the mobile operating system is closed-source, and its
+owner is a consortium or joint venture of handset makers that licenses it for a price. This model is somewhere in between
+the first and the second in that some of the owners of the proprietary operating system do supply the hardware as well, but
+at the same time the system is licensed to handset makers other than its co-owners.
+The fourth model —adopted by Google for Android —is one in which the mobile operating system is open-source and is
+licensed to handset makers for free. In addition, its evolution is dictated by an alliance of companies that includes its main
+developer —Google —and a variety of partners (or platform customers) from different areas of the multi-sided platform
+(handset makers, application developers, network operators, and even chip makers).
+The fifth, and final, model is the one adopted by the Symbian Foundation. In this case the operating system is open-
+source and its development is fostered and supervised by a non-profit organization whose founding members include
+handset makers, chip makers, and at least one network operator.
+3.3. Addressing the chicken-and-egg problem
+As pointed out earlier, one of the key problems multi-sided platforms face is how to attract enough customers of
+different types at the starting point ( Caillaud & Jullien, 2003 ). Historical examples of markets with multi-sided platforms
+show that platforms frequently focus on attracting a sufficiently large number of a certain kind of customer in the hope that
+customers on the other side will follow.
+When Bank of America launched its credit card program in California in 1958, for example, every Bank of America
+customer in Fresno, CA, received a card, regardless of creditworthiness. This experiment —a mass-mailing of 60,000 cards in
+a specific location —was the bank ’s approach to solving the chicken-and-egg problem, since merchants in the area were
+reluctant to join the program before seeing enough customers carrying the card ( Evans & Schmalensee, 2005 , p. 57).Mobile
+Operating
+SystemsConsumers/
+Users
+AdvertisersHandset
+ManufacturersNetwork
+Operators
+Chip MakersApp
+Developers
+Fig. 1. The mobile operating system platform.M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 723
+
+=== PÁGINA 8 ===
+As multi-sided platforms, mobile operating systems have faced the chicken-and-egg problem. Apple and BlackBerry, we
+argue, focused on first attracting enough users with features, whereas Google, which entered an already crowded market,
+chose to attract consumers indirectly by first attracting handset manufacturers and network operators. Google also attracted
+app developers by creating an open-source operating system for which it was relatively easy to develop software.
+Both RIM and Apple implemented a business model in which the owner of the operating system is also the handset
+maker. Thus, for them attracting handset makers to the platform at the starting point was never an issue. RIM and Apple
+achieved success by marketing an integrated bundle of hardware and software that, at the starting point, was particularly
+effective at attracting consumers. The key to BlackBerry ’s success was supplying one feature —seamless access to corporate
+email —that drew large numbers of users, especially business users ( Ahmad, 2011 , pp. 13 –18). Similarly, what propelled the
+iPhone ’s lift off was a unique combination of highly innovative features: a touch-screen interface, a mature Internet
+experience through a “real, computer-grade Web browser, ”a full-blown iPod music player, and impressive handset
+hardware that included the largest and highest-resolution screen of any smartphone in the marketplace ( Mossberg &
+Boehret, 2007a ,2007b ;West & Mace, 2010 ). Both RIM and Apple launched their multi-sided platforms by focusing initially
+on getting consumers on board.
+In fact, when Apple introduced the original iPhone in mid-2007 it did so exclusively through one network carrier —
+Cingular, wholly owned by AT&T at the time ( Honan, 2007 ). The fact that Apple did not make agreements to have the iPhone
+available in as many networks as possible reveals the company ’s conviction that it could draw consumers to the iPhone (and
+to the Cingular network) on the basis of the iPhone features only. Further, no third-party applications were present on the
+iPhone until the introduction of the iPhone 3G in mid-2008, which means that no attempt was made to attract consumers
+on the basis of the quantity and quality of applications created by outside developers ( Krazit, 2008a ).
+Apple shipped almost 6 million devices worldwide even before opening the App Store in mid-2008. Shipments declined
+in the second quarter of 2008, right before the introduction of the second-generation iPhone, the iPhone 3G, but
+skyrocketed in the third quarter of 2008, when Apple shipped almost 5 million units worldwide.
+Google, on the other hand, introduced Android in a market already populated by powerful contenders, including
+Symbian, RIM, and Apple. Rather than attracting consumers directly, Google ’s strategy focused on attracting handset makers
+with an operating system licensed to them for free, and attracting third-party developers with an open-source operating
+system for which it was relatively easy to develop applications. The first Android smartphone —the G1, designed mostly by
+Google, manufactured by HTC, and introduced in October 2008 —did not have radically new features vis-à-vis the iPhone and
+could not match the iPhone in terms of design ( Mossberg, 2008b ). As regards features and design, it was only in November
+2009 —when Motorola introduced its Android-based Droid smartphone —that Google ’s Android truly started competing with
+Apple ’s iPhone ( Mossberg, 2009b ).
+In a sense, Google ’s strategy with Android was precisely the opposite of that implemented by Apple with the iPhone. In
+Apple ’s approach there was no role for handset makers, whereas Google attempted to get as many of them as possible on
+board for its multi-sided platform. In Apple ’s approach there was no role for multiple network carriers at the starting point,
+whereas Google again made the operating system available to as many of them as possible.
+3.4. Sustaining momentum: continuing to attract consumers to the platform
+Attracting consumers at the starting point is a necessary condition for take-off. But historical evidence on multi-sided
+platforms reveals that, in high-technology industries, platforms do lose momentum and shrink, sometimes to the point of
+non-existence. The same factors that facilitate take-off once critical mass has been achieved also accelerate the decline when
+platforms fail to continue to attract users.
+What factors have attracted users to specific smartphone platforms? Recent survey evidence from the U.S. and Europe
+reveals that the top dimensions that consumers take into account in the process of choosing a smartphone platform are the
+quality of the network of the mobile service provider, the mobile operating system itself, the selection of apps that is
+available for a specific operating system, and the overall cost of the monthly service ( Comscore, 2012 , pp. 12 –13).2The next
+few sections of this study are organized around these topics: we investigate the way in which smartphone platforms have
+continued to attract users via innovation in hardware and operating-system software, in network technology, and in the
+provision of third-party applications.
+Depending on the way the smartphone platform is organized, innovation in different portions of the platform has been
+carried out by different stakeholders. None of the operating-system owners or sponsors has been directly responsible for
+network-technology innovation —in this area they have relied on the initiatives and cost –benefit considerations of network
+carriers or operators. Similarly, they have relied mostly on hundreds of third-party developers for the supply of applications.
+Apple and RIM have been responsible for innovation in both hardware and mobile operating-system software, since they
+supply an integrated bundle. Microsoft and Google have been essentially responsible for driving innovation in the operating
+2Economic models of the decision by consumers to join multi-sided platforms tend to emphasize at least a subset of those factors. A formal model
+developed by Lee (2013) for video-game consoles, for example, highlights the role of the features offered by the core hardware –software system, prices,
+and the stock of applications available for the platform.M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 724
+
+=== PÁGINA 9 ===
+system —Google with the help of its partners —but they have relied mostly on handset makers to innovate at the hardware
+(handset) level.
+4. Sustaining momentum: attracting consumers with hardware and operating-system software innovation
+In late 2011 consumers purchasing a smartphone in the U.S. ranked the mobile operating system itself as the second
+most important reason for acquiring a specific smartphone, after the quality of the network. In Europe, they ranked the
+operating system third after network quality and overall cost of service ( Comscore, 2012 , pp. 12 –13). Not surprisingly, the
+features of the mobile operating system were considerably more important for smartphone owners than for other mobile
+phone owners.
+Mobile operating-system owners or sponsors have continued to attract consumers to the platform through hardware and
+operating-system software innovation. For space reasons we focus only on innovation on the iPhone platform, but it is
+worth noting that at least a portion of Apple ’s iPhone innovation has been a response to innovative features that Google and
+its handset partners implemented on various Android-based handsets. Tables 3A and 3Bsummarize the evolution of
+innovation on the iPhone ’s hardware and operating-system software.
+The tables highlight various aspects of competition in the mobile multi-sided platform market. First, innovation in
+hardware and operating-system software has been steady. Apple has introduced new software features every year and new
+hardware features almost every other year. Second, even though the original iPhone was truly unique in terms of the
+features it embodied, successive generations of the device have included catch-up features —that is, in later generations of
+the iPhone Apple has responded to innovative features that competitors, including Google and its partners, had already
+implemented on various handsets. Finally, Apple ’s ability to continue to attract consumers depended not only on its own
+innovative activity but also on the innovative activities of two groups of platform customers —network carriers and third-
+party developers. We focus on them next.
+5. Sustaining momentum: attracting consumers with network-technology innovation
+In late 2011 consumers purchasing a smartphone ranked the quality of the network of the mobile service provider as the
+top factor they considered in the purchase process, both in the U.S. and Europe ( Comscore, 2012 , pp. 12 –13). Network quality
+mattered for a number of reasons. For one, the basic phone features of smartphones could be negatively impacted if network
+quality varied dramatically by location, as it has in recent years in the U.S. Equally importantly, smartphone owners have
+increasingly tended to use smartphone features whose performance hinges heavily on network quality. For example, in the
+first half of 2012 about 96 percent of smartphone owners in the U.S. had a data plan ( Nielsen, 2013 , p. 15), and 28 percent
+used their smartphones for watching video and mobile TV ( Nielsen, 2013 , p. 20).Table 3A
+Innovation in hardware and operating-system software: the iPhone, 2007 –2013.
+Source :Mossberg and Boehret (2007a ,2007b) ;Mossberg (2008a ,2009a ,2010 ,2011 ,2012 ,2013) .
+Device Price OS Design New features Catch-up features
+iPhone (June 2007) $499 or $599 OS X Largest and highest-resolution
+screen in marketTouch-screen interface, outstanding
+Internet browser, full-blown iPod player
+iPhone 3G (July 2008) $199 or $299 OS 2.0 No major changes Online store for third-party apps Access to 3G network
+iPhone 3G S (June 2009) $199 or $299 OS 3.0 No major changes More speed, more memory, more
+battery life, video recording, better cameraCopy and paste,
+system-wide search
+Table 3BInnovation in hardware and operating-system software: the iPhone, 2007 –2013 (cont.).
+Source :Mossberg and Boehret (2007a ,2007b) ;Mossberg (2008a ,2009a ,2010 ,2011 ,2012 ,2013) .
+Device Price OS Design New features Catch-up features
+iPhone 4 (June 2010) $199 or
+$299iOS
+4Thinner handset, sharper
+screenFaster processor, more battery life,
+better rear camera, second cameraLimited multi-tasking,
+folders for apps, unifiedinbox
+iPhone 4S (October 2011) iOS
+5No major changes New camera, 4G download speeds, Siri,
+available on multiple network carriers
+iPhone 5 (September 2012) $199,
+$299, or$399iOS
+6Larger screen with six rows
+of icons, lighter and thinnerone of the last smartphones
+to access LTE networks
+iPhone 5S (September 2013) iOS
+7No major changes Fingerprint reader quick-settings Control
+Center ( “took a page from
+Android ”)M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 725
+
+=== PÁGINA 10 ===
+In Europe, the European Commission mandated a single standard for second-generation mobile telecommunications
+services, GSM, and a single standard for third-generation services, WCDMA ( Gandal, Salant, & Waverman, 2003 ). In the U.S.,
+on the contrary, the FCC did not mandate any particular technology or network standard. As a result, different network
+carriers deployed a variety of network technologies with different migration paths. The two main digital technologies used
+in the American market were CDMA and GSM. Table 4A summarizes the CDMA and GSM migration paths and identifies the
+companies that have adopted each technology. Table 4B shows the number of people in the American market that live in
+areas covered by the various technologies.3
+The evolution of network technology is important in connection with mobile-platform competition for a number of
+reasons. First, Apple ’s iPhone worked on one network only, AT&T, for a number of years after launch. Google, on the other
+hand, attempted to make the Android operating system available on as many handsets and networks as possible as early as
+possible. Second, until 2011 AT&T appears to have struggled to keep pace with its rivals in the deployment of 3G and 4G
+network technology ( Goldman, 2012 ). Third, since more advanced network technologies are usually associated with higher
+data upload and download speeds, the fact that the iPhone was exclusively associated with a network that was viewed as a
+laggard may have slowed down its progress in the early years. In fact, trusted analysts identified the iPhone ’s exclusive link
+with the AT&T network in 2007 –2010 as a factor that may have conspired against rapid adoption ( Mossberg & Boehret,
+2007a ,2007b ;Mossberg, 2008a ,2009a ,2010 ).
+The exclusive nature of the agreement between Apple and the AT&T network clearly generated short-term benefits for
+both Apple and AT&T. It gave Apple additional revenues and it added customers to the AT&T network —there is at least
+anecdotal evidence that customers switched to AT&T in order to gain access to the iPhone. In the long run, however, the
+balance of costs and benefits is less clear, particularly when compared with the Google strategy of facilitating adoption by
+engaging multiple network partners. In any case, the facts highlight once again that owners or sponsors of mobile operating
+systems have had to rely on innovation by their partners to sustain momentum with consumers.
+6. Sustaining momentum: attracting consumers with third-party apps and app stores
+Third-party apps are at the essence of smartphones. In late 2011, the selection of apps available for a smartphone
+platform was ranked the third most important factor in determining a smartphone purchase in the U.S. and the fourth in
+Europe ( Comscore, 2012 , pp. 12 –13). In the first half of 2012, for example, 62 percent of smartphone owners in the U.S. used
+apps on their smartphones ( Nielsen, 2013 , p. 20). Among smartphone owners who used apps, 85 percent used social
+networking apps, 65 percent used them to watch video and movies, 84 percent used maps/navigation/search apps, andTable 4A
+Evolution of mobile wireless network technology in the US.Source :FCC (2010 ,2011 ,2013) .
+Companies 2G 2.5G 3G 4G
+Verizon Wireless and Sprint CDMA 1xRTT EV-DO Rev 0 and EV-DO Rev A LTE
+AT&T and T-Mobile GSM/TDMA GPRS and EDGE WCDMA/HSPA and HSPA þ LTE
+Sprint Nextel (Clearwire) WiMAX
+Table 4B
+Mobile wireless network coverage by census block in the US, 2008 –2012, in million people.
+Source :FCC (2008, 2009, 2010, 2011, 2013) .
+2008 2009 2010 2011 2012a2012b
+2G/2.5G
+CDMA Path 279.9 281.7 282.8 282.9 310.2 310.3
+GSM Path 280.4 277.7 279.6 282.1 310.3 310.3
+Total 284.0 283.7 284.0 284.6 312.0 312.0
+3G and 4G
+WCDMA/HDSPA 121.3 153.5 217.4 227.7 291.1 297.9EV-DO/EV-DO Rev A 232.5 262.9 279.2 280.4 309.5 310.0Mobile WiMAX 28.1 50.4 105.1 105.3LTE 210.9 267.5
+Total 233.8 263.1 279.8 281.0 310.5 311.0
+aJanuary 2012.
+bOctober 2012.
+3For technical background on some of the issues see Clarke (2013) , and FCC (2008 ,2009 ,2010 ,2011 , 2013). For a comparison of mobile wireless
+performance in the U.S. and Europe see especially Bohlin, Caves, and Eisenach (2013) .M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 726
+
+=== PÁGINA 11 ===
+74 percent used productivity apps ( Nielsen, 2013 , p. 23). Around the same time smartphone owners were as likely to use the
+mobile web as they were to use apps when watching mobile video ( Nielsen, 2013 , p.25).
+Although at the starting point both the Blackberry and the iPhone managed to take off by offering consumers a feature —
+or a set of features —that was heavily in demand, at some point Apple made a strategic choice that set it apart from RIM and
+all other competitors at the time —it set up an app store that made it extremely easy for consumers to add functionality to
+their mobile devices. At its core, an application store is an auxiliary two-sided platform vis-à-vis the core platform, which is
+the mobile operating system: for the app store to be successful it needs to attract both consumers that demand apps and
+developers that supply them. Here we focus on consumers and study the developers ’behavior in the next section.
+In July 2008 Apple launched the App Store, which featured applications for both the iPhone and the iPod touch. By early
+September 2008, two months after launch, over 3000 apps were available on the App Store and users had already made
+more than 100 million app downloads ( Cohen, 2008 ).
+Google ’s own app store, Android Market, was announced in August 2008 but was not made available to users until
+October of that year; further, support for paid applications was only introduced in February 2009. By early 2009 it had
+become clear that, as one analyst put it, third-party applications were “the future of the smartphone business, ”and all the
+major smartphone manufacturers —including BlackBerry and Microsoft —were either seriously considering or already
+involved in the launch of an app store to compete with Apple ’s(Krazit, 2009 ). BlackBerry launched its app store in April
+2009, Nokia in May 2009, Samsung in September 2009, and Microsoft in October 2010.
+All app stores have had the same objective —supplying apps that make the relevant mobile operating system more
+desirable to consumers —but not all application stores were organized under the same business model. Apple, again,
+attempted to exercise complete control over the applications that were promoted and sold on its store, and over the “billing
+relationship ”with the customer as well —apps for the iPhone are usually acquired through the customers ’iTunes account.
+Other mobile operating system owners or sponsor have been more open to giving handset makers and carriers a more
+active role in the process. Microsoft, for example, announced that it would allow carriers to have their own “store within a
+store ”inside Windows Marketplace for Mobile. Similarly, Symbian announced that its business model for an application
+store was a “mall ”rather than a “store ”—its various partners would have their own storefronts within the Symbian mall to
+sell Symbian-certified applications ( Krazit, 2009 ).
+Table 5 tracks the number of applications available on, and the number of apps downloaded from, Apple ’s App Store and
+Google ’s Android Market (renamed Google Play in March 2012) at various points in time between mid-2008 and early 2013.
+By September 2012 about 700,000 apps were available on Apple ’s App Store and users had made roughly 35 billion app
+downloads. But Google Play was catching up —it had 675,000 apps available and 25 billion app downloads ( Newton, 2012 ;
+Sloan, 2012 ).
+7. Attracting developers
+Although Apple ’s lift-off was based on attracting consumers with features, attracting third-party application developers
+soon became important for the company to maintain its momentum. Economic models of app developer behavior focus on
+the cost and benefits of developing apps on specific operating systems.4Costs are determined fundamentally by how
+difficult it is to create software applications for a given mobile operating system, and benefits are determined by how many
+units of the application developers expect to be able to sell on the platform and at what price. An additional factor of
+significance is the proportion of the price of the app the owner of the app store will retain for itself.
+The predictions derived from such models appear, for the most part, to be borne out by survey data on mobile app
+developers. A developer survey conducted in 2010 found that most developers worked on multiple platforms, on average 2.8
+platforms per developer ( VisionMobile, 2010 , p. 13). In the multi-sided lingo, mobile app developers practice multi-homing.
+This enhances competition among multi-sided platforms, since developers that are already working on multiple platforms
+have already sunk the costs involved in learning to program on multiple operating systems and can switch relatively quickly
+to the one that is attracting more users at a given point in time (or is expected to do so in the near future).
+A similar survey conducted in 2012 asked developers about the main factors driving platform choice. The top five criteria
+identified by developers for adoption of a platform were that the platform have a large installed base of devices (chosen by
+54 percent of respondents), that it facilitate app development at low cost (43 percent), that it be a familiar development
+environment (31 percent), that it offer good revenue potential (30 percent), and that it provide good documentation and
+tech support (30 percent) ( VisionMobile, 2012 , p. 27). Two of the five top adoption criteria were clearly on the revenue side
+(installed base and revenue potential), and the other three on the cost side (low cost development, familiar environment,
+and tech support). Reach —that is, the size of the installed base —was selected consistently as the top adoption criterion for
+developers in surveys conducted between 2010 and 2013 ( VisionMobile, 2010 ,2011 ,2012 ,2013 ).
+The 2010 survey identified a number of channels through which developers took their mobile apps to market —apps were
+sold via app stores, distributed via web portals (developer, third-party, or network operator portals), or preloaded on mobile
+devices by network operators or handset makers. The survey also identified various monetization models, including pay-
+per-download, ad-funded, one-off development fees, support and customization fees, and even per-unit device royalties
+4For one such model see Lee (2013) .M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 727
+
+=== PÁGINA 12 ===
+(VisionMobile, 2010 , pp. 19 –20). Not surprisingly, developers creating apps for iOS and Android chose the application store
+as their primary channel for selling apps —over 70 percent of iOS developers chose the app store, and over 50 percent of
+Android developers did ( VisionMobile, 2010 , p. 16).
+Why were app stores so appealing to developers? The survey found that, beyond their obvious potential for reaching an
+operating system ’s installed base, app stores had radically changed two fundamental parameters of the app monetization
+process: the “time to shelf ”(how long it takes between the time an app is submitted and the time when it is available for
+purchase) and the “time to payment ”(how long it takes from the time an app is purchased to the time when the developer
+gets paid). By 2010 app stores had reduced the average time-to-shelf by two-thirds, from 68 days on average on the
+traditional channels to about 22 days on average via an app store. App stores had also radically reduced the time-to-
+payment parameter, which was crucial particularly for small developers with volatile cash flow: 60 percent of developers
+selling apps via an app store received payment within a month, whereas the average time-to-payment was 69 days when
+preloading an app via a network operator and 168 days when preloading it via a handset manufacturer ( VisionMobile, 2010 ,
+pp. 19 –20).
+The 2010 survey also provided evidence on fixed development costs for various mobile platforms: in 2010 Symbian was
+by far the most difficult platform to learn with a learning curve of 15 months, on average. On the other extreme, Android
+was the easiest at less than 6 months and the iPhone followed at 7 months; Windows Phone (9 months) was somewhere in
+between ( VisionMobile, 2010 , pp. 29 –31).
+Simple economic models of developers ’behavior and the survey evidence on developers ’perceptions of reach, revenue
+potential, and development costs on various mobile platforms suggest that, as the installed base of iOS and Android grew,
+developers should have migrated massively to the new platforms. In fact, they did. Table 6 presents evidence on the
+platforms used by app developers (regardless of main platform) between 2010 and 2012. Already by 2010 Android and iOS
+were dominant with 59 percent and 50 percent of developers using them, respectively. By 2012 the figures had grown to 76
+percent and 66 percent.Table 5
+Apps available on, and app downloads from, the App Store and Google Play, select dates.Source : Multiple articles in the general and trade press (available from the authors upon request).
+App Store Google Play
+Apps available Downloads to date (M) Apps available Downloads to date (M)
+Jul-08 800 10.00
+Jan-09 15,000 500.00Mar-09 25,000 800.00 2300Jun-09 50,000 1000.00Jul-09 65,000 1500.00Nov-09 100,000 2000.00
+Dec-09 16,000
+Mar-10 150,000 3000.00 30,000Apr-10 200,000 4500.00 38,000Aug-10 80,000 1000.00
+Sep-10 250,000 6500.00Oct-10 300,000 7000.00 100,000Jan-11 350,000 10,000.00Jun-11 425,000 14,000.00
+Jul-11 425,000 15,000.00 250,000 6000.00
+Oct-11 500,000 18,000.00 319,000Dec-11 380,297 10,000.00
+Feb-12 500,000 24,000.00 450,000Mar-12 550,000 25,000.00Jun-12 650,000 30,000.00 600,000 20,000.00Sep-12 700,000 35,000.00 675,000 25,000.00Oct-12 700,000
+Jan-13 800,000 40,000.00
+Table 6
+Platforms used by developers regardless of main platform (percent of developers using each platform).Source :VisionMobile (2010 ,2011 ,2012 ,2013 ).
+Android iOS BlackBerry OS Symbian Windows Mobile
+2010 59.00 50.00 40.00 46.00 39.00
+2011 67.00 59.00 45.00 38.00 36.00
+2012 76.00 66.00 34.00 30.00 37.00M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 728
+
+=== PÁGINA 13 ===
+8. Attracting advertisers
+Attracting advertisers has been important for mobile platform owners or sponsors for two reasons. First, ads placed on
+the platform have been a significant source of revenues and profits, considerably more so for Google than for Apple. Second,
+ads have been used by platform owners or sponsors to attract developers. And since developers and apps attract consumers,
+in mobile platforms attracting advertisers is an indirect approach for attracting consumers.
+As a matter of fact, advertisers seek eyeballs. In recent years advertisers have tended to migrate following the eyeballs ’
+migration paths —first from traditional print media to the desktop- and laptop-accessible Internet and then from there to the
+mobile Internet. By 2009 mobile advertising spending in the U.S., estimated at $416 million according to some sources, was
+tiny compared with the corresponding figures for online advertising ($24 billion), newspaper advertising ($38 billion), and
+TV advertising ($51 billion), but the trend was clearly in favor of mobile advertising, which had grown at annual compound
+rates of 28 percent between 2005 and 2009 ( Varaiya, 2010 , p. 22). Mobile advertising revenues reached $3.18 billion in the
+U.S. in 2012 ($9.76 billion worldwide) and were forecast to reach $3.8 billion in the U.S. ($11.4 billion worldwide) in 2013
+(Gartner Research, 2013 ).
+As ads started migrating to mobile devices, a number of multi-sided intermediaries —ad networks —arose to connect
+operators and publishers that own mobile websites, on the one hand, and advertisers, on the other. (Publishers own “space, ”
+such as websites, which they supply and demand ads to be hosted on that space, whereas advertisers supply ads and
+demand space for those ads to be placed in.) This was another interesting example of auxiliary multi-sided platforms (ad
+networks) arising independently from “core ”multi-sided platforms (mobile operating systems), but with the goal of
+exploiting monetization opportunities available on the core platforms.
+According to a categorization, three types of ad networks existed as of 2009. “Blind networks, ”such as AdMob, were the
+largest ones, served ads mainly through independent mobile publishers, provided limited targeting options, and did not
+allow advertisers to choose the website (or application) where their ads would be placed. Their pricing was mostly based on
+cost-per-click (CPC) —advertisers paid publishers (typically a mobile website owner) when their ads were clicked. “Premium
+blind networks, ”such as Quattro Wireless, were medium-sized networks that served a higher proportion of their ads
+through premium publishers, offered more targeting options, and allowed advertisers to select the websites where their ads
+would be shown but at a premium price. They used CPC pricing but also offered some brand advertising based on cost per
+mille (CPM) pricing —the cost of an advertising placement divided by the number of ad impressions, in thousands, it
+generates. “Premium networks, ”finally, such as Microsoft Mobile Advertising, were the smallest ones, served their ads
+through prestige publishers, offered many targeting options, allowed advertisers to choose websites, and rarely relied on
+CPC ( Varaiya, 2010 , p. 8).
+As the mobile advertising market started growing, owners/sponsors of mobile operating systems took steps to improve
+their competitive position in this market. Google had developed the Android mobile operating system precisely because it
+was concerned that eyeballs (and advertisers) were starting to migrate to the mobile web. Because of its background Googledeveloped, from the beginning, a strong presence in mobile search advertising with the approach it had successfully applied
+earlier, that is, by placing text ads linked to searches performed by users on Google ’s (now mobile) website.
+In late 2009 Google took an important step to expand its presence in other segments of the mobile advertising market —it
+acquired AdMob, an ad network that the entrepreneur Omar Hamoui had founded in 2006. AdMob had become particularly
+effective at placing mobile display and text ads in mobile websites and apps. Google viewed the AdMob acquisition as the
+most expeditious way of covering almost the whole spectrum of mobile advertising (search ads, web display ads, and app
+display ads) ( Google, 2010 ;Kincaid, 2009 ).
+The Federal Trade Commission launched an investigation of the acquisition because at the time “the parties were the two
+leading mobile advertising networks. ”The investigation revealed that Google and AdMob viewed “the other as its primary
+competitor, and that each firm made business decisions in direct response to this perceived competitive threat ”(FTC, 2010 ).
+One of the key reasons why the FTC allowed Google ’s Ad Mob acquisition to take place was that, in December 2009,
+Apple responded in kind by acquiring the third largest mobile ad network, Quattro Wireless, and then launching its own
+mobile advertising network under the iAd name. The FTC believed that Apple would quickly become a strong player in the
+mobile advertising market, not only because of its strong relationships with app developers and users, but also because it
+would be able to leverage proprietary data on users of Apple mobile devices to offer highly effective targeted ads. Putdifferently, Apple had all the tools required to confront Google/AdMob in what was their core market —the so-called
+performance mobile advertising segment in which advertisers buy space through auction and pay for ads on a CPC basis
+(FTC, 2010 ).
+Both Google and Apple sought to attract advertisers not only because of the advertising revenue itself but also because
+increasing advertising revenue would provide each one of them with better opportunities to attract developers, which in
+turn would further draw mobile operating system users. When Apple introduced the iPhone 4 in mid-2010, Steve Jobs
+emphasized the role that iAd would play in helping developers monetize their apps. Even developers of free apps would be
+able to earn revenues from their apps on the iOS platform: the iAd network would reach advertisers and would develop an
+inventory of ads, and if app developers agreed to have the ads placed on their apps, they would collect 60 percent of the
+revenues that Apple received for the ads. In fact, according to Jobs the iAd network already had $60 million worth of ad
+inventory sold for 2010, a good portion of that coming from premium brands such as Nissan, GE, Best Buy, and Geico. Jobs
+explicitly emphasized the multi-sided externalities: a large installed base of users attracted advertisers, which in turn gaveM. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 729
+
+=== PÁGINA 14 ===
+developers promising opportunities for monetizing their apps, even if the apps themselves were free on the App Store ( Ogg,
+2010 ).
+As the Android platform became popular with users, advertisers migrated to Android. Table 7 tracks ad impressions in
+the U.S. market for one ad network —Millennial Media —on various platforms between April 2010 and September 2012.
+Although the data combine two types of effects —the differential growth in the installed base of various mobile operating
+systems, on the one hand, and the differential growth of impressions per operating system, on the other —it does show the
+consistent growth of the share of ad impressions on the Android platform and the consequent decline of the ad share on the
+iOS platform.
+The competition for advertisers between iOS and Android intensified as time went by, and it led to lower prices (and/or
+better terms) not only for advertisers but for developers as well. In 2010, for example, brands were required to spend $1
+million just to initiate a campaign on the iOS platform. That amount declined to $400,000 in December 2011 and further to
+$100,000 in February 2012.
+In addition, Apple announced that starting in February 2012 developers on the iOS platform would receive not 60 but 70
+percent of the revenues generated from ads placed within their applications. This was a reflection of the fact that the
+Google/AdMob share of the U.S. mobile advertising market had grown from 19 to 24 percent and the iOS/iAd share had
+declined from 19 percent to 15 percent between 2010 and 2011 ( Reisinger, 2012 ).
+9. Conclusions
+Multi-sided platform theory provides useful insights to understand the economic and business history of smartphones.
+We have interpreted mobile operating systems as forming the core of mobile platforms that serve the needs of a variety of
+customers. The ultimate goal of mobile platforms is, of course, to attract users, but because of their multi-sided nature, they
+need to attract other customer types —handset makers, network carriers, third-party app developers, and even advertisers —
+in order to attract users.
+Multi-sided platform theory also helps us understand why two mobile operating systems —Apple ’s and Google ’s—have
+managed to capture substantial shares of the market, and why Google ’s operating system has caught up with, and
+surpassed, Apple ’s. The iPhone ’s initial success was not due to the variety of third-party apps available for it —there were
+none. Neither was it due to the variety of handset models —there was just one —nor to the variety of networks on which the
+phone operated —it worked only on AT&T. It was due fundamentally to the superior features it embedded in terms of
+handset design and operating-system software, including a mature mobile Internet experience. When it was introduced,
+trusted analysts emphasized the extent to which the iPhone was considerably better than other smartphones in the market
+(Mossberg & Boehret, 2007a ,2007b ).
+Apple did not sustain momentum with users by attracting handset makers or network carriers —in fact, the iPhone
+worked on only one network, AT&T, until 2011, when Sprint and Verizon joined the platform ( Mossberg, 2011 ). It sustained
+momentum with users by, first, innovating steadily in terms of operating-system software and handset design, and, second,
+by attracting third-party developers via the App Store. Although it opened the platform to third-party developers, it keptTable 7
+Mobile operating system share in the US by ad impressions, select dates (percent).Source : MobileMix Mobile Device Index.
+Android iOS Blackberry OS Windows mobile Symbian
+Apr-10 10.00 62.00 17.00 5.00
+May-10 15.00 48.00 19.00 4.00 2.00Jun-10 11.00 56.00 17.00 4.00
+Jul-10 19.00 55.00 16.00 4.00
+Aug-10 26.00 48.00 19.00 3.00Sep-10 29.00 46.00 19.00 2.00Oct-10 37.00 37.00 20.00 2.00 2.00Nov-10 38.00 38.00 19.00 2.00 2.00
+Dec-10 32.00 46.00 16.00 1.00 2.00
+Jan-11 54.00 28.00 14.00 1.00 1.00
+Feb-11 51.00 27.00 17.00 1.00 2.00
+Mar-11 48.00 31.00 18.00 1.00 1.00
+Apr-11 53.00 28.00 16.00 1.00 1.00
+May-11 53.00 27.00 17.00 1.00 2.00
+Jun-11 54.00 26.00 15.00 2.00 3.00
+Jul-11 61.00 21.00 14.00 2.00 2.00
+Aug-11 54.00 28.00 13.00 1.00 1.00
+Oct-11 56.00 28.00 13.00 1.00 1.00
+Nov-11 50.00 30.00 17.00 1.00 1.00
+Sep-12 46.00 34.00 15.00 4.00 1.00M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 730
+
+=== PÁGINA 15 ===
+Table 8
+Entry of network carriers and handset makers into the Android platform in the US market, 2008 –2010.
+Source :German (2011) .
+Year Number of new
+handset modelsNew network
+carriersNew handset makers
+2008 1 T-Mobile
+2009 7 Sprint HTC, Samsung, Motorola
+2010 48 Verizon Wireless, AT&T, Nextel, Boost Mobile, U.S.
+Cellular, Cricket Wireless, Virgin Mobile,Metro PCS, AlltelLG, Garmin, Sony Ericsson,
+Sanyo, Dell, Huawei
+020,000,00040,000,00060,000,00080,000,000100,000,000120,000,000140,000,000160,000,000180,000,000iOS Android
+Fig. 2. iOS and Android world quarterly shipments (in units), 2007 –2013.
+Source : Gartner press releases.
+-10000000-5000000050000001000000015000000200000002500000030000000
+Q1 -2007
+Q2 -2007
+Q3 -2007
+Q4 -2007
+Q1 -2008
+Q2 -2008
+Q3 -2008
+Q4 -2008
+Q1 -2009
+Q2 -2009
+Q3 -2009
+Q4 -2009
+Q1 -2010
+Q2 -2010
+Q3 -2010
+Q4 -2010
+Q1 -2011
+Q2 -2011
+Q3 -2011
+Q4 -2011
+Q1 -2012
+Q2 -2012
+Q3 -2012
+Q4 -2012
+Q1 -2013Android iOS
+Fig. 3. First difference of world quarterly shipments (in units) for iOS and Android, 2007 –2013.
+Source : Authors ’calculations on the basis of Gartner press releases.M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 731
+
+=== PÁGINA 16 ===
+tight control on the evolution of the (proprietary) mobile operating system and on hardware design. It also exercised
+substantial control on the way third-party apps were marketed.
+Google responded with a multi-sided model characterized by considerably more openness. It created an open-source
+operating system and gave its partners —handset makers and even network operators —the ability to modify it to achieve
+product differentiation. It engaged as many handset makers and network carriers as it could from the beginning, and it
+made it extremely easy for third-party developers to create apps for the platform. Table 8 shows the speed with which
+handset makers and network operators joined the Android platform between 2008 and 2010.
+The extent to which the (more open) Google model succeeded can be seen from Figs. 2 and 3 .
+Worldwide Android shipments surpassed iPhone shipments in late 2010 and grew much faster thereafter (Fig. 2). The
+Android platform grew not only faster but also more steadily. The iPhone platform grew in spurts, with shipments declining
+before the introduction of a new model, and exploding immediately thereafter. Android shipments showed less volatility,
+since new versions of the operating system were introduced frequently and new handset models embedding the Android
+operating system were introduced almost every month from 2010 on ( Fig. 3 ).
+Two additional features of the (more open) Android multi-sided model facilitated its faster growth. First, Android
+engaged a variety of network operators before Apple did, and innovation in network technology by the various operators
+facilitated adoption. In fact, one of the key problems of the iPhone in the early years was that it only worked on the AT&T
+network, and the quality of the AT&T network appears to have varied considerably by location ( Mossberg, 2008a ,2009a ,
+2010 ,2011 ). Second, since it engaged a variety of handset makers as well, Android phones quickly became available in an
+extremely wide price range, much more so than the iPhone —Android ’s“budget ”handsets clearly facilitated adoption
+(German, 2011 ).
+The decline of the incumbents —BlackBerry and Symbian —was the mirror image of the rise of the newcomers and can
+also be understood in the context of multi-sided platform theory. The BlackBerry thrived with a focus on one feature, mobile
+access to corporate email, but could not match the bundle of capabilities that the original iPhone offered. Symbian phones
+were no match for the original iPhone either, and by the time the Symbian stakeholders decided to follow an open-source
+strategy it was likely too late —network effects were already propelling the rise of the iPhone. It is clear that early on there
+was some hesitation among network carriers and handset makers regarding whether to support Symbian or Android, but
+once Android started taking off, network effects worked their magic —Android skyrocketed and Symbian collapsed.
+Competition between Apple and Google in the smartphone market brings to the forefront once again the tension that West
+(2003) carefully analyzed in earlier stages of the computer industry: that between “appropriability ”and “adoption. ”To recoup
+the costs of developing the platform, the sponsor must be able to capture at least some portion of the benefits derived from
+the platform. At the same time, in order to obtain any returns at all, the sponsor must foster adoption, which requires sharing a
+portion of the platform ’s returns with various customers (since often customer innovation leads to adoption by users, as we
+have seen in the case of smartphones). Differential emphases on appropriability and adoption have led to different business
+models in the smartphone industry, and we have relied on multi-sided platform theory to shed light on those models.
+References
+Ahmad, M. (2011). Smartphone . North Charleston: CreateSpace .
+Bohlin, E., Caves, K., & Eisenach, J. (2013). Mobile wireless performance in the EU and the US. Navigant economics . May. Available at: 〈http://
+wirelesstechnologyforum.org/wp-content/uploads/2014/03/GSMA_Mobile_Wireless_Performance_May2013.pdf 〉.
+Caillaud, B., & Jullien, B. (2003). Chicken and egg: Competition among intermediation service providers. Rand Journal of Economics ,34(2), 309 –328.
+Clarke, R. (2013). Expanding mobile wireless capacity: The challenges presented by technology and economics. Telecommunications Policy . Available at:
+〈http://www.sciencedirect.com/science/article/pii/S0308596113001900 〉.
+Cohen, P. (2008). App Store downloads top 100 million, games a centerpiece. Macworld. September 9. Available at: 〈http://www.macworld.com/article/
+1135453/appstore.html 〉.
+Comscore (2012). 2012 Mobile future in focus: Key insights from 2011 and what they mean for the coming year . Available at: 〈http://www.iab.net/media/file/
+comScore%2B2012%2BMobile%2BFuture%2Bin%2BFocus.pdf 〉.
+Elop, S., & Ballmer, S. (2011). Open letter from CEO Stephen Elop, Nokia, and CEO Steve Ballmer, Microsoft . Available at: 〈http://conversations.nokia.com/2011/
+02/11/open-letter-from-ceo-stephen-elop-nokia-and-ceo-steve-ballmer-microsoft/ 〉.
+Evans, D. (2003). The antitrust economics of multi-sided platform markets. Yale Journal of Regulation ,20(2), 325 –381.
+Evans, D., & Schmalensee, R. (2005). Paying with plastic: The digital revolution in buying and borrowing . Cambridge, London: The MIT Press .
+FCC (2008). Annual report and analysis of competitive market conditions with respect to commercial mobile services. 12th Report . Available at: 〈http://www.fcc.
+gov/reports/commercial-mobile-radio-services-cmrs-competition-report-12th-annual 〉.
+FCC (2009). Annual report and analysis of competitive market conditions with respect to commercial mobile services. 13threport . Available at: 〈http://www.fcc.
+gov/reports/commercial-mobile-radio-services-cmrs-competition-report-13th-annual 〉.
+FCC (2010). Annual report and analysis of competitive market conditions with respect to mobile wireless, including commercial mobile services. 14threport .
+Available at: 〈http://www.fcc.gov/reports/mobile-wireless-competition-report-14th-annual 〉.
+FCC (2011). Annual report and analysis of competitive market conditions with respect to mobile wireless, including commercial mobile services. 15th report .
+Available at: http://www.fcc.gov/reports/mobile-wireless-competition-report-15th-annual .
+FCC (2013). Annual report and analysis of competitive market conditions with respect to mobile wireless, including commercial mobile services. 16threport .
+Available at: 〈http://www.fcc.gov/reports/mobile-wireless-competition-report-16th-annual 〉.
+FTC (2010). Statement of the Commission concerning Google/AdMob , May 21. Available at: 〈http://www.ftc.gov/os/closings/100521google-admobstmt.pdf 〉.
+Gandal, N., Salant, D., & Waverman, L. (2003). Standards in wireless telephone networks. Telecommunications Policy ,27, 325 –332.
+Gartner Research (2008). Gartner says worldwide Smartphone sales grew 16 per cent in second quarter of 2008 . September 8. Available at: 〈http://www.
+gartner.com/newsroom/id/754112 〉.
+Gartner Research(2013). Gartner says worldwide mobile advertising revenues to reach $11.4 billion in 2013 . January 17. Available at: 〈http://www.gartner.com/
+newsroom/id/2306215 〉.
+Gawer, A., & Cusumano, M. (2002). Platform leadership . Boston, MA: Harvard Business School Press .M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 732
+
+=== PÁGINA 17 ===
+German, K. (2011). A brief history of Android phones, CNET, August 2.
+Goldman, D. (2012). Surprise! AT&T ’s network got very good. CNN Money . January 9. Available at: 〈http://money.cnn.com/2012/01/09/technology/
+att_network_gets_better/ 〉.
+Google (2010). We’ve officially acquired AdMob !Google official blog. May 27. Available at: 〈http://googleblog.blogspot.com/2010/05/weve-officially-acquir
+ed-admob.html 〉.
+Holzer, A., & Ondrus, J. (2011). Mobile application market: A developer ’s perspective. Telematics and Informatics ,28,2 2–31.
+Honan, M. (2007). Apple unveils iPhone, Macworld . January 9. Available at: 〈http://www.macworld.com/article/1054769/iphone.html 〉.
+Jackson, D. (2001). Palm to palm combat. Time . June 24. Available at: 〈http://www.time.com/time/magazine/article/0,9171,987979,00.html 〉.
+Kaiser, U., & Wright, J. (2006). Price structure in two-sided markets: Evidence from the magazine industry. International Journal of Industrial Organization ,2 4.
+Kenny, M., & Pon, B. (2011). Structuring the Smartphone industry: Is the mobile Internet OS platform the key?. Journal of Industry, Competition, and Trade ,11,
+239–261.
+Kincaid, J. (2009). Google acquires AdMob for $750 million. TechCrunch . November 9. Available at: 〈http://techcrunch.com/2009/11/09/google-acquir
+es-admob/ 〉.
+Krazit, T. (2008a). Apple unveils iPhone 2, both the phone and the business. CNET News . June 9. Available at: 〈http://news.cnet.com/apple-unveils-iphone-2/ 〉.
+Krazit, T (2008b). Symbian deal a catalyst for smartphone competition. CNET News. June 24. Available at: 〈http://news.cnet.com/8301-13579_3-9976434-37.html 〉.
+Krazit, T. (2009). The once and future app store. CNET News . April 3. Available at: 〈http://reviews.cnet.com/8301-12261_7-10211188-51.html 〉.
+Landsman, V., & Stremersch, S. (2011). Multi-homing in two-sided markets: An empirical inquiry in the video game console industry. Journal of Marketing ,
+75(6), 39 –54.
+Lee, R. (2013). Vertical integration and exclusivity in platform and two-sided markets . Available at: 〈http://pages.stern.nyu.edu/ /C24rslee/papers/VIExclusivity.pdf 〉.
+Lendino, J. (2012). Happy 4th birthday, Android. PCMag.com . September 20. Available at: 〈http://www.pcmag.com/article2/0,2817,2409863,00.asp 〉.
+Lin, M., Li, S., & Whinston, A. (2011). Innovation and price competition in a two-sided market. Journal of Management Information Systems ,28(2), 171 –202.
+Markoff, J. (2007). I, Robot: The man behind the Google phone. New York Times. November 4. Available at: 〈http://www.nytimes.com/2007/11/04/
+technology/04google.html?pagewanted =all〉.
+McCracken, H. (2009). Verizon ’s Droid targets iPhone. PCWorld. October 18. Available at: http://www.pcworld.com/article/173865/verizons_droid_target
+s_iphone.html .
+McQueen, R (2010). BlackBerry: The inside story of research in motion . Toronto: Key Porter Books .
+Mossberg, W. (2008a). Newer, Faster, Cheaper iPhone 3G. The Wall Street Journal . July 9. Available at: 〈http://allthingsd.com/20080708/newer-faster-ch
+eaper-iphone-3g/ 〉.
+Mossberg, W. (2008b). Google Answers the iPhone. The Wall Street Journal . October 16. Available at: 〈http://online.wsj.com/news/articles/
+SB122411880249138993 〉.
+Mossberg, W. (2009a). Apple iPhone 3GS is better model —or just get OS 3.0. The Wall Street Journal . June 19. Available at: 〈http://online.wsj.com/news/
+articles/SB124525573550923759 〉.
+Mossberg, W. (2009b). Motorola ’s Droid is smart success for Verizon users. The Wall Street Journal . November 4. Available at: 〈http://allthingsd.com/
+20091104/motorolas-droid-is-smart-success-for-verizon-users/ 〉.
+Mossberg, W. (2010). Thinner, faster, smarter iPhone raises the stakes. The Wall Street Journal. June 20. Available at: 〈http://online.wsj.com/news/articles/
+SB10001424052748704853404575322951290405346 〉.
+Mossberg, W. (2011). The iPhone finds its voice. The Wall Street Journa l . October 12. Available at: 〈http://allthingsd.com/20111011/the-iphone-finds-its-
+voice/ 〉.
+Mossberg, W. (2012). The iPhone takes to the big screen. The Wall Street Journal . September 18. Available at: 〈http://online.wsj.com/news/articles/
+SB10000872396390444450004578004370248427736 〉.
+Mossberg, W. (2013). A new touch for iPhone . September 17. Available at: 〈http://allthingsd.com/20130917/a-new-touch-for-iphone/ 〉.
+Mossberg, W., & Boehret, K. (2007a). The iPhone is a breakthrough handheld computer . June 26. Available at: 〈http://allthingsd.com/20070626/
+the-iphone-is-breakthrough-handheld-computer/?mod =ptech_two_decades 〉.
+Mossberg, W., & Boehret, K. (2007b). Testing out the iPhone. The Wall Street Journal . June 27. Available at: 〈http://online.wsj.com/news/articles/
+SB118289311361649057 〉.
+Newton, C. (2012). Google play store hits 25 billion downloads, launches discounts. CNET News . September 26. Available at: 〈http://news.cnet.com/
+8301-1023_3-57520324-93/google-play-store-hits-25-billion-downloads-launches-discounts/ 〉.
+Nielsen (2013). The mobile consumer: A global snapshot. Available at: 〈http://www.nielsen.com/content/dam/corporate/uk/en/documents/Mobile-Consu
+mer-Report-2013.pdf 〉.
+Ogg, E. (2010). Jobs to developers: Stick with the winning team. CNET News . June 7. Available at: 〈http://news.cnet.com/8301-31021_3-20007010-260.html 〉.
+Orlowski, A. (2010). Symbian, the secret history: Dark Star. The Register. November 23. Available at: 〈http://www.theregister.co.uk/2010/11/23/
+symbian_history_part_one_dark_star/ 〉.
+PewResearchCenter (2011). 35% of American adults own a smartphone. July 2011. Available at: 〈http://www.pewinternet.org/2011/07/11/smartphone-a
+doption-and-usage/ 〉.
+PewResearchCenter (2012). Two-thirds of young adults and those with higher income are smartphone owners. September 2012. Available at: 〈http://www.
+pewinternet.org/files/old-media/Files/Reports/2012/PIP_Smartphones_Sept12%209%2010%2012.pdf 〉.
+PewResearchCenter (2013). Smartphone Ownership —2013 Update. June 2013. Available at: http://www.pewinternet.org/2013/06/05/smartphone-owner
+ship-2013/ .
+Reisinger, D. (2012). Apple slashes iAd pricing again as AdMob onslaught continues? CNET News . February 15. Available at: 〈http://news.cnet.com/
+8301-13506_3-57378132-17/apple-slashes-iad-pricing-again-as-admob-onslaught-continues/ 〉.
+Reisinger, D. (2013). RIM sheds old name, becomes BlackBerry. CNET News . January 30. Available at: 〈http://news.cnet.com/8301-1035_3-57566638-94/
+rim-sheds-old-name-becomes-blackberry/ 〉.
+Rochet, J. C., & Tirole, J. (2002). Cooperation among competitors: Some economics of payment card associations. Rand Journal of Economics ,33(4), 549 –570.
+Roth, D. (2008). Google ’s open source Android OS will free the wireless Web. Wired . June 23. Available at: 〈http://www.wired.com/techbiz/media/
+magazine/16-07/ff_android?currentPage =all〉.
+Rysman, M. (2004). Competition between networks: A study of the market for yellow pages. Review of Economic Studies ,7 1.
+Schmalensee, R. (2002). Payment systems and interchange fees. Journal of Industrial Economics ,50,1 0 3 –122.
+Schonfeld, E. (2007). Breaking: Google announces Android and Open Handset alliance. Techcruch . November 5. Available at: 〈http://techcrunch.com/2007/
+11/05/breaking-google-announces-android-and-open-handset-alliance/ 〉.
+Seamans, R., & F. Zhu (2012). Technology shocks in multi-sided markets :The impact of Craigslist on local newspapers . mimeo.
+Shankland, S. (2011). Nokia, Microsoft becoming Windows Phone bedfellows. CNET News . February 11. Available at: 〈http://news.cnet.com/
+8301-30685_3-20031468-264.html 〉.
+Skillings, J. (2008). Nokia to buy Symbian outright, launches app effort. CNET News . June 24. Available at: http://news.cnet.com/8301-10784_3-9975873-7.
+html .
+Sloan, P. (2012). Apple by the numbers: 35B apps downloaded. CNET News. October 23. Available at: 〈http://news.cnet.com/8301-13579_3-57511323-37/
+apple-by-the-numbers-84m-ipads-400m-ios-devices-350m-ipods-sold/ 〉.
+Sweeney, A. (2009). BlackBerry Planet . Mississauga, Ont., Canada: John Wiley & Sons .
+Thomas, O. (2007). Apple: Hello, iPhone. CNNMoney . January 9. Available at: 〈http://money.cnn.com/2007/01/09/technology/apple_jobs/index.htm 〉.
+Tilley, C. (2001). The History of Microsoft Windows CE. Available at 〈http://www.hpcfactor.com/support/windowsce/ 〉.M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 733
+
+=== PÁGINA 18 ===
+Unno, M., & Xu, H. (2013). Optimal platform strategies in the Smartphone market. Electronics and Communications in Japan ,96(7), 1 –10.
+Varaiya, N. (2010). Google Incs. ’s acquisition of AdMob. Mimeo . Department of Finance, San Diego State University, 2010 .
+VisionMobile (2010). Mobile developer economics 2010 and beyond. Available at 〈http://www.visionmobile.com/blog/2010/07/mobile-developer-econo
+mics-2010-the-migration-of-developer-mindshare/ 〉.
+VisionMobile (2011). Developer economics 2011 . Available at: 〈http://www.visionmobile.com/blog/2011/06/developer-economics-2011-winners-and-loser
+s-in-the-platform-race/ 〉.
+VisionMobile (2012). Developer economics 2012 . Available at: http://www.visionmobile.com/product/developer-economics-2012/ .
+VisionMobile (2013). Developer economics 2013 . Available at: http://www.visionmobile.com/product/developer-economics-2013-the-tools-report/ .
+Vogelstein, F. (2008). The untold story: How the iPhone blew up the wireless industry. Wired . January 9. Available at: 〈http://www.wired.com/gadgets/
+wireless/magazine/16-02/ff_iphone?currentPage =all〉.
+Vogelstein, F. (2011). How the Android ecosystem threatens the iPhone. Wired . April 14. Available at: 〈http://www.wired.com/magazine/2011/04/
+mf_android/ 〉.
+West, J. (2003). How open is open enough? Melding proprietary and open source platform strategies. Research Policy ,32(7), 1259 –1285 .
+West, J., & Mace, M. (2010). Browsing as the killer app: Explaining the rapid success of Apple ’s iPhone. Telecommunications Policy ,34, 270 –286.M. Campbell-Kelly et al. / Telecommunications Policy 39 (2015) 717 –734 734
+
