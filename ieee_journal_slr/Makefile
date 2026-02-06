@@ -1,7 +1,10 @@
-# Build IEEE journal article PDF
+# Build IEEE journal article PDF (pdflatex + bibtex for citations)
 .PHONY: pdf clean
 
 pdf:
+	pdflatex -interaction=nonstopmode main.tex
+	bibtex main
+	pdflatex -interaction=nonstopmode main.tex
 	pdflatex -interaction=nonstopmode main.tex
 
 clean:
