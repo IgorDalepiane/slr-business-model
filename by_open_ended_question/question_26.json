@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "26",
     "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
-    "total_articles": 67,
-    "articles_with_response": 67,
+    "total_articles": 63,
+    "articles_with_response": 63,
     "articles_without_response": 0
   },
   "responses_by_article": [
@@ -22,15 +22,22 @@
         "Varied usage patterns of clients (low-breadth/high-depth vs high-breadth/low-depth)",
         "Creating sustainable software licenses remains elusive goal",
         "Balancing compact pricing (simplicity) vs comprehensive pricing (coverage) strategies",
-        "Risk of neglecting alignment between license and client value when targeting broad markets"
+        "Risk of neglecting alignment between license and client value when targeting broad markets",
+        "Higher demand for service quality",
+        "Diverse client requirements",
+        "Varied usage patterns",
+        "Sustainable licensing model creation"
       ],
       "synonyms_found": [
         "challenges",
         "difficulties",
         "pressure",
-        "elusive goal"
+        "elusive goal",
+        "service quality demands",
+        "client diversity",
+        "usage variation"
       ],
-      "source_citation": "Page 2: 'The first challenge stems from clients' expectations for better service quality. Revenue sources for SaaS are different from those of on-premise software in that the 'perpetual' usage license fee is no longer applicable...Loss of revenue from up-front and maintenance payments therefore place greater financial pressure on SaaS vendors to secure a constant source of revenue. Yet, given the nature of SaaS as remotely hosted software services, switching is neither expensive nor tedious for clients' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand. Moreover, diversities are also found in the industries within which SaaS clients are situated. Such diversity translates to conflicting functional requirements and the need for SaaS vendors to tailor licenses to match these firm-specific requirements' | Page 2: 'The third challenge resides in clients' varied usage of software services' | Page 3: 'from SaaS vendors' perspective, the creation of sustainable software licenses remains a pertinent and yet elusive goal in the near term' | Page 6: 'We argue this strategy is not sustainable for SaaS vendors in the long run because it may cause neglect to the importance of the alignment between license and client's value'",
+      "source_citation": "Page 2: 'The first challenge stems from clients' expectations for better service quality. Revenue sources for SaaS are different from those of on-premise software in that the 'perpetual' usage license fee is no longer applicable...Loss of revenue from up-front and maintenance payments therefore place greater financial pressure on SaaS vendors to secure a constant source of revenue. Yet, given the nature of SaaS as remotely hosted software services, switching is neither expensive nor tedious for clients' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand. Moreover, diversities are also found in the industries within which SaaS clients are situated. Such diversity translates to conflicting functional requirements and the need for SaaS vendors to tailor licenses to match these firm-specific requirements' | Page 2: 'The third challenge resides in clients' varied usage of software services' | Page 3: 'from SaaS vendors' perspective, the creation of sustainable software licenses remains a pertinent and yet elusive goal in the near term' | Page 6: 'We argue this strategy is not sustainable for SaaS vendors in the long run because it may cause neglect to the importance of the alignment between license and client's value' | Page 2: 'The first challenge stems from clients' expectations for better service quality... The second challenge comes from the diversity of SaaS clients... The third challenge resides in clients' varied usage of software services'",
       "confidence_level": "high"
     },
     {
@@ -48,16 +55,27 @@
         "Protecting business against low switching costs in SaaS model",
         "Meeting diverse customer needs (security, IT infrastructure, policies) while maintaining profitability",
         "Negotiation and contract monitoring costs offsetting some transaction cost advantages",
-        "Convincing customers with existing IT investments to adopt cloud model"
+        "Convincing customers with existing IT investments to adopt cloud model",
+        "Data security concerns",
+        "Customer IT infrastructure variations",
+        "Switching costs management",
+        "Revenue model selection complexity",
+        "Implementation and maintenance costs",
+        "Customer readiness for new technologies"
       ],
       "synonyms_found": [
         "challenges",
         "difficult",
         "costs",
         "risks",
-        "concerns"
+        "concerns",
+        "security concerns",
+        "IT infrastructure",
+        "switching costs",
+        "implementation costs",
+        "customer readiness"
       ],
-      "source_citation": "Page 1: 'because there are many technical changes to consider, business-related issues are easily overlooked, making it difficult to sustain a profitable revenue stream' | Page 2: 'security threats were the most dominating factor in risk perception' | Page 2: 'SaaS providers may incur significant operating costs due to the fact that they have to invest in service and system capacity in order to guarantee availability of the service' | Page 5: 'in software renting, the negotiation costs and contract monitoring costs related to renting offset the benefits of other transaction cost advantages'",
+      "source_citation": "Page 1: 'because there are many technical changes to consider, business-related issues are easily overlooked, making it difficult to sustain a profitable revenue stream' | Page 2: 'security threats were the most dominating factor in risk perception' | Page 2: 'SaaS providers may incur significant operating costs due to the fact that they have to invest in service and system capacity in order to guarantee availability of the service' | Page 5: 'in software renting, the negotiation costs and contract monitoring costs related to renting offset the benefits of other transaction cost advantages' | Page 3, Section IV: 'not all customers are willing to rent the software through the public cloud, due to security concerns or a low readiness for new technologies' | Page 3, Section IV: 'We do not have low switching costs because the amount of project work needed to get the system to work is so great.' | Page 1, Section I: 'business-related issues are easily overlooked, making it difficult to sustain a profitable revenue stream.'",
       "confidence_level": "high"
     },
     {
@@ -76,10 +94,23 @@
         "Speed of transition - initial attempt to transition too quickly caused panic within organization and across value chain",
         "Customer retention - significantly decreased switching costs in subscription model make it harder to retain customers",
         "Ecosystem stability - risk of ecosystem collapse if stakeholder relationships are not properly managed",
-        "Partner compensation - need to support partners financially during initial years of SaaS sales due to revenue model change"
+        "Partner compensation - need to support partners financially during initial years of SaaS sales due to revenue model change",
+        "Managing ecosystem transition and preventing collapse - changes in one entity trigger responses in others",
+        "Customer uncertainty and trust issues - concerns about support for existing on-premise systems",
+        "Partner resistance and business model disruption - VAR partners fear termination of traditional roles",
+        "Product development difficulties - underestimated efforts in localizing acquired SaaS to local contexts",
+        "Quality management during transition - allocating resources caused on-premise product quality problems",
+        "Revenue model transition - managing shift from upfront fees to continuous subscriptions for both vendor and partners",
+        "Keeping cash flow going - survival depends on customer retention in subscription model",
+        "Speed vs quality trade-off - investor pressure for fast transition vs need for sound implementation",
+        "KPI misalignment - performance indicators conflicted with transition goals initially",
+        "Partner value proposition redefinition - how VAR partners contribute when physical software eliminated",
+        "Customer and partner adoption timing - bringing stakeholders on board at right pace",
+        "Inter-organizational coordination - implementing decisions throughout entire value chain",
+        "Handling co-opetition relationships - partners also work with competitors, requires careful management"
       ],
       "synonyms_found": [],
-      "source_citation": "Page 6, Section 5.2.1: 'ERP Co has realized the difficulties in develop a sound SaaS product. Though they have acquired the SaaS software from US, they under-estimated the efforts in adjusting the product to local rules and contexts' | Page 2, Section 2: 'the key to survival under the new circumstance is to keep the cash flow going, which, in other words, means retaining customers. Financially, this renders as a challenge, as such delivery model is considered to have significantly decreased switching costs for customers.' | Page 6, Section 5.2.1: 'The common reaction from the customers towards ERP Co's strategic transition to cloud-based products is concern: \"Are you not going to support the old product any more?\"' | Page 6, Section 5.2.1: 'a key question that has risen in every partner's mind is \"...given there is nothing to resell, nothing to technically install and no opportunity to provide any kind of logistics, what can a successful SaaS partner contribute?\"' | Page 6, Section 5.2.1: 'the initial struggles from ERP Co were caused by the speed of which they tried to pursue the transition, which resulted in panics both within the organization, and across the value chain to the customers and partners.'",
+      "source_citation": "Page 6, Section 5.2.1: 'ERP Co has realized the difficulties in develop a sound SaaS product. Though they have acquired the SaaS software from US, they under-estimated the efforts in adjusting the product to local rules and contexts' | Page 2, Section 2: 'the key to survival under the new circumstance is to keep the cash flow going, which, in other words, means retaining customers. Financially, this renders as a challenge, as such delivery model is considered to have significantly decreased switching costs for customers.' | Page 6, Section 5.2.1: 'The common reaction from the customers towards ERP Co's strategic transition to cloud-based products is concern: \"Are you not going to support the old product any more?\"' | Page 6, Section 5.2.1: 'a key question that has risen in every partner's mind is \"...given there is nothing to resell, nothing to technically install and no opportunity to provide any kind of logistics, what can a successful SaaS partner contribute?\"' | Page 6, Section 5.2.1: 'the initial struggles from ERP Co were caused by the speed of which they tried to pursue the transition, which resulted in panics both within the organization, and across the value chain to the customers and partners.' | Page 5-6: Detailed discussion of struggles from 2011-2013 including 'ERP Co has realized the difficulties in develop a sound SaaS product', 'the quality of the product became a problem', 'customers and partners show uncertainties', 'partners fear the termination of the partnership' | Page 8: 'Constraining the scale of change within the organization might cause the collapse of the ecosystem, which in turn threatens the survival of the business itself'",
       "confidence_level": "high"
     },
     {
@@ -1067,32 +1098,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "26",
-      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Managing ecosystem transition and preventing collapse - changes in one entity trigger responses in others",
-        "Customer uncertainty and trust issues - concerns about support for existing on-premise systems",
-        "Partner resistance and business model disruption - VAR partners fear termination of traditional roles",
-        "Product development difficulties - underestimated efforts in localizing acquired SaaS to local contexts",
-        "Quality management during transition - allocating resources caused on-premise product quality problems",
-        "Revenue model transition - managing shift from upfront fees to continuous subscriptions for both vendor and partners",
-        "Keeping cash flow going - survival depends on customer retention in subscription model",
-        "Speed vs quality trade-off - investor pressure for fast transition vs need for sound implementation",
-        "KPI misalignment - performance indicators conflicted with transition goals initially",
-        "Partner value proposition redefinition - how VAR partners contribute when physical software eliminated",
-        "Customer and partner adoption timing - bringing stakeholders on board at right pace",
-        "Inter-organizational coordination - implementing decisions throughout entire value chain",
-        "Handling co-opetition relationships - partners also work with competitors, requires careful management"
-      ],
-      "synonyms_found": [],
-      "source_citation": "Page 5-6: Detailed discussion of struggles from 2011-2013 including 'ERP Co has realized the difficulties in develop a sound SaaS product', 'the quality of the product became a problem', 'customers and partners show uncertainties', 'partners fear the termination of the partnership' | Page 8: 'Constraining the scale of change within the organization might cause the collapse of the ecosystem, which in turn threatens the survival of the business itself'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -1210,31 +1215,6 @@
         "demand prediction"
       ],
       "source_citation": "Page 1, Section I: 'when a growing mid-size provider broadening its business to global market, it may suffer from many investment and management issues' | Page 1, Section I: 'when a provider suffers from a server emergency, such as the incident happened in Amazon AWS [2], or a security attack, such as DDoS, the whole chain of its market will face a serious problem, which is commonly known as the single-point-of-failure problem' | Page 3, Section IV: 'It is not only for solving load balancing issue, but also for reducing response time and increasing the availability'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "26",
-      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Data security concerns",
-        "Customer IT infrastructure variations",
-        "Switching costs management",
-        "Revenue model selection complexity",
-        "Implementation and maintenance costs",
-        "Customer readiness for new technologies"
-      ],
-      "synonyms_found": [
-        "security concerns",
-        "IT infrastructure",
-        "switching costs",
-        "implementation costs",
-        "customer readiness"
-      ],
-      "source_citation": "Page 3, Section IV: 'not all customers are willing to rent the software through the public cloud, due to security concerns or a low readiness for new technologies' | Page 3, Section IV: 'We do not have low switching costs because the amount of project work needed to get the system to work is so great.' | Page 1, Section I: 'business-related issues are easily overlooked, making it difficult to sustain a profitable revenue stream.'",
       "confidence_level": "high"
     },
     {
@@ -1365,48 +1345,6 @@
         "incumbent competition"
       ],
       "source_citation": "Page 5: 'the inability of potential OS users to benefit from network externalities is a major obstacle for the development of a lively demand for OS solutions' | Page 5: 'computer users are often scared by potential incompatibility between OS and proprietary standards'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "26",
-      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Higher demand for service quality",
-        "Diverse client requirements",
-        "Varied usage patterns",
-        "Sustainable licensing model creation"
-      ],
-      "synonyms_found": [
-        "service quality demands",
-        "client diversity",
-        "usage variation"
-      ],
-      "source_citation": "Page 2: 'The first challenge stems from clients' expectations for better service quality... The second challenge comes from the diversity of SaaS clients... The third challenge resides in clients' varied usage of software services'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "26",
-      "question_text": "What challenges are identified in implementing the software business model as presented in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Competition with existing ERP systems",
-        "Low awareness of disturbance management needs in some industries",
-        "Different customer segment requirements",
-        "Need for quantitative estimations of cost structure and revenue streams"
-      ],
-      "synonyms_found": [
-        "challenges",
-        "competition",
-        "awareness"
-      ],
-      "source_citation": "Page 5: 'The Competition in this kind of SaaS based service solutions was found to be rather low, although companies' own ERP systems and other applications are competing with the new solution of the company Alfa' | Page 5: 'Further research is needed in creating SaaS based business models for disturbance management. Especially, the quantitative estimations about cost structure and revenue streams are required'",
       "confidence_level": "high"
     },
     {

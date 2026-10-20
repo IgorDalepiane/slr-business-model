@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "23",
     "question_text": "What factors contribute to the success of the software business model as described in the article?",
-    "total_articles": 67,
-    "articles_with_response": 67,
+    "total_articles": 63,
+    "articles_with_response": 63,
     "articles_without_response": 0
   },
   "responses_by_article": [
@@ -22,16 +22,22 @@
         "Steadily improving service quality → retain sizeable pool of clients",
         "Pricing aligned with client value perception → maximize business value for clients",
         "Flexible payment options with bulk discounts → alleviate financial pressure and encourage prepayment",
-        "Accommodating diverse client preferences through multiple pricing components → collect extra revenue from customized requirements"
+        "Accommodating diverse client preferences through multiple pricing components → collect extra revenue from customized requirements",
+        "Value-based pricing → Higher client satisfaction and sustainable revenue",
+        "Economy of scale → Reduced costs per client",
+        "Service quality → Client retention"
       ],
       "synonyms_found": [
         "success",
         "sustainable revenue",
         "economies of scale",
         "quality",
-        "value"
+        "value",
+        "value-based orientation",
+        "economy of scale",
+        "service quality"
       ],
-      "source_citation": "Page 5: 'SaaS vendors seem to prefer value-based to cost-based orientation in software pricing. Value is what clients really want to pay for. For SaaS vendors, the focus on value-based orientation in software pricing will help them in securing sustainable revenue through the offering of high quality SaaS software' | Page 5-6: 'SaaS vendors tend to target broad markets to gain economy of scale...To survive and thrive, vendors are supposed to expand clients base continuously in order to leverage on economy of scale' | Page 2: 'SaaS vendors are hence compelled to steadily improve service quality and price it accordingly in order to retain a sizeable pool of clients and achieve economies of scale' | Page 6: 'usage-based pricing strategies were popular among SaaS vendors because usage-based metrics reflect both vendors' costs to deliver services and clients' costs to consume services' | Page 3: 'Payment-based pricing benefits clients by granting them more payment freedom' | Page 5: 'Adopting pricing components from different categories could help in accommodating diverse client preferences...some SaaS vendors included pricing components from different categories in their pricing strategies might demonstrate their endeavor to collect extra revenue by targeting clients with customized requirements'",
+      "source_citation": "Page 5: 'SaaS vendors seem to prefer value-based to cost-based orientation in software pricing. Value is what clients really want to pay for. For SaaS vendors, the focus on value-based orientation in software pricing will help them in securing sustainable revenue through the offering of high quality SaaS software' | Page 5-6: 'SaaS vendors tend to target broad markets to gain economy of scale...To survive and thrive, vendors are supposed to expand clients base continuously in order to leverage on economy of scale' | Page 2: 'SaaS vendors are hence compelled to steadily improve service quality and price it accordingly in order to retain a sizeable pool of clients and achieve economies of scale' | Page 6: 'usage-based pricing strategies were popular among SaaS vendors because usage-based metrics reflect both vendors' costs to deliver services and clients' costs to consume services' | Page 3: 'Payment-based pricing benefits clients by granting them more payment freedom' | Page 5: 'Adopting pricing components from different categories could help in accommodating diverse client preferences...some SaaS vendors included pricing components from different categories in their pricing strategies might demonstrate their endeavor to collect extra revenue by targeting clients with customized requirements' | Page 5: 'Value is what clients really want to pay for. For SaaS vendors, the focus on value-based orientation in software pricing will help them in securing sustainable revenue through the offering of high quality SaaS software'",
       "confidence_level": "high"
     },
     {
@@ -47,16 +53,23 @@
         "Lower production costs through public cloud → Cost savings in delivery and maintenance → Competitive pricing advantage",
         "Multi-tenant/multi-instance architecture → Efficient resource utilization → Ability to serve both rental and licensing models",
         "Protection against low switching costs (time-based pricing for pure-SaaS, labor-intensive implementation for enterprise-SaaS) → Customer retention → Sustainable revenue",
-        "Ability to offer both rental and licensing models → Meet diverse customer security and IT infrastructure needs → Avoid losing customers with specific requirements"
+        "Ability to offer both rental and licensing models → Meet diverse customer security and IT infrastructure needs → Avoid losing customers with specific requirements",
+        "Flexible pricing → Increased customer attractiveness",
+        "Lower production costs → Competitive pricing",
+        "Customer needs focus → Market alignment",
+        "Dual revenue models → Market coverage",
+        "Security considerations → Customer trust"
       ],
       "synonyms_found": [
         "flexible pricing",
         "customer needs",
         "cost savings",
         "architecture",
-        "switching costs"
+        "switching costs",
+        "production costs",
+        "security"
       ],
-      "source_citation": "Page 6: 'It can be concluded that customers or delivery channels are the main driving force to the selection of the most appropriate pricing and revenue model in the market' | Page 5: 'software firms can use flexible revenue and pricing strategies to make the service more attractive for customers' | Page 5: 'The rental model through the public cloud decreased the production costs of case firms... made it possible to offer the software at a lower price' | Page 5: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs... enterprise-SaaS providers (Firms C and D) seem to protect their business against low switching costs by using separate pricing for the implementation work'",
+      "source_citation": "Page 6: 'It can be concluded that customers or delivery channels are the main driving force to the selection of the most appropriate pricing and revenue model in the market' | Page 5: 'software firms can use flexible revenue and pricing strategies to make the service more attractive for customers' | Page 5: 'The rental model through the public cloud decreased the production costs of case firms... made it possible to offer the software at a lower price' | Page 5: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs... enterprise-SaaS providers (Firms C and D) seem to protect their business against low switching costs by using separate pricing for the implementation work' | Page 5, Section V: 'software firms can use flexible revenue and pricing strategies to make the service more attractive for customers' | Page 5, Section V: 'The technical features of the model consistently brought cost savings to the case firms and made it possible to offer the software at a lower price.' | Page 6, Section VI: 'customers or delivery channels are the main driving force to the selection of the most appropriate pricing and revenue model in the market.'",
       "confidence_level": "high"
     },
     {
@@ -73,10 +86,19 @@
         "Partner collaboration (hand-in-hand approach) → Maintaining ecosystem stability by helping partners adapt their business models",
         "Balanced R&D allocation → 50% each for SaaS and on-premise products to maintain quality on both ends",
         "Managing the whole ecosystem → Taking full consideration of inter-dependencies among stakeholders prevents ecosystem collapse",
-        "Aligned KPIs → Performance indicators that support rather than conflict with the transition strategy"
+        "Aligned KPIs → Performance indicators that support rather than conflict with the transition strategy",
+        "Organizational preparedness → ability to understand and implement decisions throughout value chain",
+        "Hybrid model (balanced approach to SaaS and on-premise) → smooth transition, maintains product quality, provides adaptation time for customers and partners",
+        "Controlled transition with pilot implementations → minimizes negative effects, gains valuable customer feedback, eases customers into change",
+        "Hand-in-hand partnership strategy → maintains ecosystem stability, supports partner adaptation, prevents ecosystem collapse",
+        "Proper ecosystem management → taking inter-dependencies among stakeholders into full consideration",
+        "Aligning KPIs with transition goals → ensures organizational motivation and proper incentives",
+        "Matched changes across business areas → revenue management, sales channels, customer support all adapted together",
+        "Partner compensation mechanisms → higher percentages of subscription fees initially to help partners adapt",
+        "Maintaining existing customer relationships → continued support for on-premise products during transition"
       ],
       "synonyms_found": [],
-      "source_citation": "Page 7, Section 6.2: 'I believe one of the most critical success factors are what you can call organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain.' | Page 7, Section 6.2: 'The later adjustment to a \"hybrid strategy\" led to smoother transition process, as keeping and maintaining on-premise products 1) buys more time for developing new SaaS products without sacrificing existing marketing share due to lack of finished products to sell, and 2) provides a chance for both the customers and partners to gradually adapt to the change.' | Page 6, Section 5.2.2: 'ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers who met the criteria for SaaS implementation... Doing so, ERP Co has gained valuable feedback from the customers for further development and improvement of the SaaS product' | Page 7, Section 5.2.2: 'The strategy is to go \"hand in hand\" with partners to make the transition.'",
+      "source_citation": "Page 7, Section 6.2: 'I believe one of the most critical success factors are what you can call organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain.' | Page 7, Section 6.2: 'The later adjustment to a \"hybrid strategy\" led to smoother transition process, as keeping and maintaining on-premise products 1) buys more time for developing new SaaS products without sacrificing existing marketing share due to lack of finished products to sell, and 2) provides a chance for both the customers and partners to gradually adapt to the change.' | Page 6, Section 5.2.2: 'ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers who met the criteria for SaaS implementation... Doing so, ERP Co has gained valuable feedback from the customers for further development and improvement of the SaaS product' | Page 7, Section 5.2.2: 'The strategy is to go \"hand in hand\" with partners to make the transition.' | Page 8: 'I believe one of the most critical success factors are what you can call organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain' | Page 8: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms... led to smoother transition process' | Page 8: 'transition to cloud needs to be matched with and supported by changes in other parts of the business'",
       "confidence_level": "high"
     },
     {
@@ -1022,28 +1044,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "23",
-      "question_text": "What factors contribute to the success of the software business model as described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Organizational preparedness → ability to understand and implement decisions throughout value chain",
-        "Hybrid model (balanced approach to SaaS and on-premise) → smooth transition, maintains product quality, provides adaptation time for customers and partners",
-        "Controlled transition with pilot implementations → minimizes negative effects, gains valuable customer feedback, eases customers into change",
-        "Hand-in-hand partnership strategy → maintains ecosystem stability, supports partner adaptation, prevents ecosystem collapse",
-        "Proper ecosystem management → taking inter-dependencies among stakeholders into full consideration",
-        "Aligning KPIs with transition goals → ensures organizational motivation and proper incentives",
-        "Matched changes across business areas → revenue management, sales channels, customer support all adapted together",
-        "Partner compensation mechanisms → higher percentages of subscription fees initially to help partners adapt",
-        "Maintaining existing customer relationships → continued support for on-premise products during transition"
-      ],
-      "synonyms_found": [],
-      "source_citation": "Page 8: 'I believe one of the most critical success factors are what you can call organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain' | Page 8: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms... led to smoother transition process' | Page 8: 'transition to cloud needs to be matched with and supported by changes in other parts of the business'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -1157,29 +1157,6 @@
         "load balancing"
       ],
       "source_citation": "Page 4, Section IV: 'Fixed strategy is found to be the best method to earn the highest total revenue for all five servers, with the highest satisfaction rate too.' | Page 3, Section IV: 'It is not only for solving load balancing issue, but also for reducing response time and increasing the availability, which have been considered as major issues in distributed computing.'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "23",
-      "question_text": "What factors contribute to the success of the software business model as described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Flexible pricing → Increased customer attractiveness",
-        "Lower production costs → Competitive pricing",
-        "Customer needs focus → Market alignment",
-        "Dual revenue models → Market coverage",
-        "Security considerations → Customer trust"
-      ],
-      "synonyms_found": [
-        "flexible pricing",
-        "production costs",
-        "customer needs",
-        "security"
-      ],
-      "source_citation": "Page 5, Section V: 'software firms can use flexible revenue and pricing strategies to make the service more attractive for customers' | Page 5, Section V: 'The technical features of the model consistently brought cost savings to the case firms and made it possible to offer the software at a lower price.' | Page 6, Section VI: 'customers or delivery channels are the main driving force to the selection of the most appropriate pricing and revenue model in the market.'",
       "confidence_level": "high"
     },
     {
@@ -1308,48 +1285,6 @@
         "compatibility"
       ],
       "source_citation": "Page 15: 'the degree of openness chosen by the entrant in equilibrium increases with the network externalities and the competitive advantage of the incumbent' | Page 5: 'compatible applications'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "23",
-      "question_text": "What factors contribute to the success of the software business model as described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Value-based pricing → Higher client satisfaction and sustainable revenue",
-        "Economy of scale → Reduced costs per client",
-        "Service quality → Client retention"
-      ],
-      "synonyms_found": [
-        "value-based orientation",
-        "economy of scale",
-        "service quality"
-      ],
-      "source_citation": "Page 5: 'Value is what clients really want to pay for. For SaaS vendors, the focus on value-based orientation in software pricing will help them in securing sustainable revenue through the offering of high quality SaaS software'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "23",
-      "question_text": "What factors contribute to the success of the software business model as described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Cost and time savings → Increased operational efficiency",
-        "Customer satisfaction and reputation → Enhanced company reputation",
-        "Prevention of disturbances → Reduced number of disturbances",
-        "Transparent reporting → Better stakeholder relationships",
-        "Comprehensive analysis → Better decision making"
-      ],
-      "synonyms_found": [
-        "benefits",
-        "success factors",
-        "competitive advantage"
-      ],
-      "source_citation": "Page 4: 'The transparent systems for disturbance management and analysis could e.g. enhance the reputation of a company, make operations more fluent, increase quality, create customer satisfaction, help to avoid disappointed customers, create competitive advantage, and enable information to be available anytime and for those who need it' | Page 4: 'Increased operational efficiency and costs saving are seen both as benefits and also as prerequisites for the management system in all customer segments'",
       "confidence_level": "high"
     },
     {

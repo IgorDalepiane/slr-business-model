@@ -1,5 +1,7 @@
 # Open-Ended Questions Context
 
+> **Note (2026-10-19):** the numbers in this file were written for the original corpus of 67 records. After the R08 correction the corpus has 63 primary studies; see `../analysis/corpus-correction-r08.md` for the before/after numbers. The source files (`by_closed_ended_question/`, `by_open_ended_question/analysis/`) hold the current values.
+
 ## Overview
 
 21 open-ended questions with qualitative textual responses. Data extracted from 67 papers, stored as JSON files with quotes and classifications.

@@ -3,8 +3,12 @@
 		{
 			"article_id": "190638760",
 			"article_title": "A Pricing Framework for Software-as-a-Service",
-			"quote": "Age of vendors <10 65, 11-20 30, 21-30 3, >30 2",
-			"assigned_codes": ["Startup company focus", "Emerging business model"],
+			"quote": "Age of vendors <10 65%... 11-20 30%... 21-30 3%... >30 2%",
+			"assigned_codes": [
+				"Startup company focus",
+				"Emerging business model",
+				"SaaS (Software as a Service)"
+			],
 			"justification": "65% of SaaS vendors are less than 10 years old, indicating predominance of young companies and startups in this emerging business model."
 		},
 		{
@@ -18,7 +22,10 @@
 			"article_id": "190638781",
 			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
 			"quote": "Firm C was launched in 2008 as a spin-off from a software service firm",
-			"assigned_codes": ["Startup company focus"],
+			"assigned_codes": [
+				"Startup company focus",
+				"SaaS (Software as a Service)"
+			],
 			"justification": "Spin-off companies representing new ventures entering the SaaS market."
 		},
 		{
@@ -34,10 +41,11 @@
 		{
 			"article_id": "190638871",
 			"article_title": "Transition to the Cloud: A Vendor Perspective",
-			"quote": "In 2014, ERP Co has 6,000 employees",
+			"quote": "In 2014, ERP Co has 6,000 employees, and achieved 800 million NOK in revenue",
 			"assigned_codes": [
 				"Enterprise market focus",
-				"Established vendor transition"
+				"Established vendor transition",
+				"Cloud delivery model"
 			],
 			"justification": "Large technology corporation with thousands of employees representing enterprise-scale operations."
 		},
@@ -470,17 +478,6 @@
 			"justification": "Medium-sized software providers representing SME segment in cloud transition."
 		},
 		{
-			"article_id": "190655386",
-			"article_title": "Transition to the Cloud: A Vendor Perspective",
-			"quote": "In 2014, ERP Co has 6,000 employees, and achieved 800 million NOK in revenue",
-			"assigned_codes": [
-				"Cloud delivery model",
-				"Enterprise market focus",
-				"Established vendor transition"
-			],
-			"justification": "Large established ERP vendor with significant revenue transitioning to cloud business model."
-		},
-		{
 			"article_id": "190655389",
 			"article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
 			"quote": "it was difficult for such a small firm to have a contract with large telecom operators",
@@ -561,16 +558,6 @@
 			"justification": "Small SaaS providers leveraging existing platforms for cost efficiency."
 		},
 		{
-			"article_id": "190655555",
-			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-			"quote": "Firm C was launched in 2008 as a spin-off from a software service firm",
-			"assigned_codes": [
-				"SaaS (Software as a Service)",
-				"Startup company focus"
-			],
-			"justification": "Small to medium software firms and spin-offs entering SaaS market."
-		},
-		{
 			"article_id": "190655702",
 			"article_title": "Network Externalities, Incumbent's Competitive Advantage and the Degree of Openness of Software Start-Ups",
 			"quote": "analyzes the degree of openness chosen by start-ups when entering the software industry",
@@ -580,17 +567,6 @@
 				"Open source business model"
 			],
 			"justification": "Software startups making strategic decisions about openness when competing with incumbents."
-		},
-		{
-			"article_id": "190655721",
-			"article_title": "A Pricing Framework for Software-as-a-Service",
-			"quote": "Age of vendors <10 65%... 11-20 30%... 21-30 3%... >30 2%",
-			"assigned_codes": [
-				"SaaS (Software as a Service)",
-				"Startup company focus",
-				"Emerging business model"
-			],
-			"justification": "Predominance of young SaaS vendors under 10 years (65%) indicates emerging business model with startup focus."
 		},
 		{
 			"article_id": "190655750",

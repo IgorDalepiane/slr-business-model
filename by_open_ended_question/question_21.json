@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "21",
     "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
-    "total_articles": 67,
-    "articles_with_response": 67,
+    "total_articles": 63,
+    "articles_with_response": 63,
     "articles_without_response": 0
   },
   "responses_by_article": [
@@ -26,7 +26,8 @@
           "Role": "Subscribe to and use hosted software services",
           "Interaction_with_offering_company": "Pay recurring subscription fees, consume software services remotely",
           "Interaction_with_other_actors": "End users of the service with varied usage patterns"
-        }
+        },
+        "SaaS vendors | Service provider | Provide hosted software services | Clients subscribe and pay for services"
       ],
       "synonyms_found": [
         "SaaS vendors",
@@ -36,7 +37,7 @@
         "small and medium enterprises",
         "large corporations"
       ],
-      "source_citation": "Page 1: 'SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand' | Page 1: 'clients are charged through recurring subscription fees on a pay-as-you-go basis'",
+      "source_citation": "Page 1: 'SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand' | Page 1: 'clients are charged through recurring subscription fees on a pay-as-you-go basis' | Page 1: 'SaaS vendors can effectively differentiate their product offerings from that of traditional on-premise software' and Page 2: 'Nowadays, a SaaS vendor typically charges his clients who subscribe hosted services a recurring usage fee'",
       "confidence_level": "medium"
     },
     {
@@ -76,7 +77,8 @@
           "Role": "Provide underlying IaaS and PaaS",
           "Interaction with offering company": "Provide computation, storage capacity, and platform services for hosting SaaS applications",
           "Interaction with other actors": "Enable multi-tenant/multi-instance architectures for SaaS providers"
-        }
+        },
+        "Software firms | Service provision | Develop and offer SaaS solutions | Compete in software market | Customers | Service consumption | Choose between renting and licensing | Have varying IT capabilities and security needs | Network operators | Service delivery | Deliver services to end users | Work with content owners and portals"
       ],
       "synonyms_found": [
         "customers",
@@ -84,9 +86,11 @@
         "content owners",
         "partners",
         "vendors",
-        "providers"
+        "providers",
+        "software firms",
+        "portals"
       ],
-      "source_citation": "Page 3-4: 'The network operators operate the platform and deliver games to players' set-top boxes or to PCs through their broadband network... It is based on revenue sharing between three players, the content owner, a portal, and ourselves –all sharing the content revenue. If the content is [equivalent to] five dollars, we share it so that there are two dollars for the portal, and two dollars for the content owner, and one for us' | Page 1: 'Cloud computing can be divided roughly into three service layers... (i) Infrastructure as a Service (IaaS), which provides computation and storage capacity, (ii) Platform as a Service (PaaS), which provides software development tools plus an application execution environment, and (iii) Software as a Service (SaaS), which provides applications on top of PaaS and IaaS'",
+      "source_citation": "Page 3-4: 'The network operators operate the platform and deliver games to players' set-top boxes or to PCs through their broadband network... It is based on revenue sharing between three players, the content owner, a portal, and ourselves –all sharing the content revenue. If the content is [equivalent to] five dollars, we share it so that there are two dollars for the portal, and two dollars for the content owner, and one for us' | Page 1: 'Cloud computing can be divided roughly into three service layers... (i) Infrastructure as a Service (IaaS), which provides computation and storage capacity, (ii) Platform as a Service (PaaS), which provides software development tools plus an application execution environment, and (iii) Software as a Service (SaaS), which provides applications on top of PaaS and IaaS' | Page 3, Section IV: 'The network operators operate the platform and deliver games to players' set-top boxes or to PCs through their broadband network' | Page 3, Section IV: 'It is based on revenue sharing between three players, the content owner, a portal, and ourselves –all sharing the content revenue.'",
       "confidence_level": "high"
     },
     {
@@ -144,7 +148,15 @@
           "role": "Technology infrastructure provider owned by ERP Co",
           "interaction_with_offering_company": "Internal supplier relationship",
           "interaction_with_other_actors": "Provides IT infrastructure support"
-        }
+        },
+        "ERP Co (Vendor) | Software provider and ecosystem orchestrator | Develops standardized products, sells directly to micro businesses, manages partner relationships | Controls key resources, sets strategic direction, coordinates ecosystem transition",
+        "Platinum VAR Partners | Exclusive resellers and service providers | Work solely with ERP Co, build services around products, provide tailored systems | Achieve synergistic integration with vendor, co-create value, heavily dependent on ERP Co",
+        "Gold VAR Partners | Primary resellers with other engagements | Mainly work with ERP Co but engage with competitors, sell and customize products | Co-opetition relationship with vendor and other partners, moderate dependency",
+        "Smaller VAR Partners/Resellers | Local/micro market representatives | Represent ERP Co products in local markets, basic reselling | Addition/exchange type collaboration, lower dependency, co-opetition with vendor",
+        "Customers - Micro businesses | End users of standardized products | Purchase out-of-box products directly from ERP Co, use online helpdesk | Direct relationship with vendor, no partner intermediation",
+        "Customers - Small-medium businesses (<1000 employees) | Main customer segment for tailored solutions | Purchase through VAR partners, obtain customized systems | Indirect relationship mediated by VAR, largest segment",
+        "Customers - Bigger SMB | Enterprise customers requiring intensive consulting | Engage with partners for complex implementations | Currently not main focus, indirect relationship",
+        "Suppliers (ERP Co IT, Microsoft) | Technology and component providers | Provide infrastructure and development tools | Simple upstream relationship, vendor develops most in-house"
       ],
       "synonyms_found": [
         "VAR",
@@ -155,7 +167,7 @@
         "gold partners",
         "smaller partners"
       ],
-      "source_citation": "Page 5, Section 5.1: 'The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners, all what they refer to as value added resellers. Here, all the sales go through ERP Co partners, which could be platinum partners that only work for ERP Co and build their services around ERP Co products, or gold partners that mainly work with ERP Co but also engage with other businesses, or smaller partners and resellers that represent ERP Co or their products in micro markets and local markets around the country.' | Page 5: 'up to 50% of the initial ERP Co license fees do go to VAR' | Page 7, Section 6.1: 'the platinum partners collaborate with ERP Co to achieve \"synergistic integration,\" in which new products and services are developed by the partners based on the ERP Co system, and both sides reinforce each other and achieve value co-creation, whereas gold partners and smaller partners might mainly engage in \"addition\" or \"exchange\" type of collaboration with ERP Co' | Page 7, Section 6.1: 'This is also true for the main vendor – Microsoft - who sells competing software on global scale.' | Page 5: 'their major providers include ERP Co IT (a company owned by ERP Co) and Microsoft.'",
+      "source_citation": "Page 5, Section 5.1: 'The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners, all what they refer to as value added resellers. Here, all the sales go through ERP Co partners, which could be platinum partners that only work for ERP Co and build their services around ERP Co products, or gold partners that mainly work with ERP Co but also engage with other businesses, or smaller partners and resellers that represent ERP Co or their products in micro markets and local markets around the country.' | Page 5: 'up to 50% of the initial ERP Co license fees do go to VAR' | Page 7, Section 6.1: 'the platinum partners collaborate with ERP Co to achieve \"synergistic integration,\" in which new products and services are developed by the partners based on the ERP Co system, and both sides reinforce each other and achieve value co-creation, whereas gold partners and smaller partners might mainly engage in \"addition\" or \"exchange\" type of collaboration with ERP Co' | Page 7, Section 6.1: 'This is also true for the main vendor – Microsoft - who sells competing software on global scale.' | Page 5: 'their major providers include ERP Co IT (a company owned by ERP Co) and Microsoft.' | Page 5, Figure 1 and accompanying text: 'The main stakeholders here include the three groups of customers and three types of partners' | Page 5: 'VAR is a critical part of ERP Co's business ecosystem... these partners/resellers heavily depend on ERP Co, some more so than others' | Page 7: 'The division of partners into three categories shows different types of stakeholder relationships and corresponding collaboration modes'",
       "confidence_level": "high"
     },
     {
@@ -1292,27 +1304,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "21",
-      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
-      "response_found": true,
-      "extracted_value": [
-        "ERP Co (Vendor) | Software provider and ecosystem orchestrator | Develops standardized products, sells directly to micro businesses, manages partner relationships | Controls key resources, sets strategic direction, coordinates ecosystem transition",
-        "Platinum VAR Partners | Exclusive resellers and service providers | Work solely with ERP Co, build services around products, provide tailored systems | Achieve synergistic integration with vendor, co-create value, heavily dependent on ERP Co",
-        "Gold VAR Partners | Primary resellers with other engagements | Mainly work with ERP Co but engage with competitors, sell and customize products | Co-opetition relationship with vendor and other partners, moderate dependency",
-        "Smaller VAR Partners/Resellers | Local/micro market representatives | Represent ERP Co products in local markets, basic reselling | Addition/exchange type collaboration, lower dependency, co-opetition with vendor",
-        "Customers - Micro businesses | End users of standardized products | Purchase out-of-box products directly from ERP Co, use online helpdesk | Direct relationship with vendor, no partner intermediation",
-        "Customers - Small-medium businesses (<1000 employees) | Main customer segment for tailored solutions | Purchase through VAR partners, obtain customized systems | Indirect relationship mediated by VAR, largest segment",
-        "Customers - Bigger SMB | Enterprise customers requiring intensive consulting | Engage with partners for complex implementations | Currently not main focus, indirect relationship",
-        "Suppliers (ERP Co IT, Microsoft) | Technology and component providers | Provide infrastructure and development tools | Simple upstream relationship, vendor develops most in-house"
-      ],
-      "synonyms_found": [],
-      "source_citation": "Page 5, Figure 1 and accompanying text: 'The main stakeholders here include the three groups of customers and three types of partners' | Page 5: 'VAR is a critical part of ERP Co's business ecosystem... these partners/resellers heavily depend on ERP Co, some more so than others' | Page 7: 'The division of partners into three categories shows different types of stakeholder relationships and corresponding collaboration modes'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -1439,24 +1430,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "21",
-      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
-      "response_found": true,
-      "extracted_value": "Software firms | Service provision | Develop and offer SaaS solutions | Compete in software market | Customers | Service consumption | Choose between renting and licensing | Have varying IT capabilities and security needs | Network operators | Service delivery | Deliver services to end users | Work with content owners and portals",
-      "synonyms_found": [
-        "software firms",
-        "customers",
-        "network operators",
-        "content owners",
-        "portals"
-      ],
-      "source_citation": "Page 3, Section IV: 'The network operators operate the platform and deliver games to players' set-top boxes or to PCs through their broadband network' | Page 3, Section IV: 'It is based on revenue sharing between three players, the content owner, a portal, and ourselves –all sharing the content revenue.'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655589",
       "article_title": "Service-Centric Business Model in Cloud Environment",
       "extraction_date": "2025-01-27",
@@ -1566,45 +1539,6 @@
         "firm E"
       ],
       "source_citation": "Page 7: 'firm I (the incumbent) and firm E (the entrant), each offering a bundle of goods' | Page 7: 'Firm I sells all goods composing the package in \"proprietary\" format, while firm E may decide to offer some goods of the package in an \"open source\" format'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "21",
-      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
-      "response_found": true,
-      "extracted_value": "SaaS vendors | Service provider | Provide hosted software services | Clients subscribe and pay for services",
-      "synonyms_found": [
-        "SaaS vendors",
-        "clients",
-        "software vendors"
-      ],
-      "source_citation": "Page 1: 'SaaS vendors can effectively differentiate their product offerings from that of traditional on-premise software' and Page 2: 'Nowadays, a SaaS vendor typically charges his clients who subscribe hosted services a recurring usage fee'",
-      "confidence_level": "medium"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "21",
-      "question_text": "Which actors participate in the ecosystem of the software business model presented in the article and how do they interact?",
-      "response_found": true,
-      "extracted_value": [
-        "Company Alfa | Solution provider | Develops and offers service entity | Provides disturbance management solution",
-        "Cargo owners | Customers | Use service for transport disturbance analysis | Interact with logistic operators",
-        "Logistic operators | Customers | Use service for competitive advantage | Serve cargo owners",
-        "Transport companies | Stakeholders | Subject of disturbance analysis | Compensate for disturbances"
-      ],
-      "synonyms_found": [
-        "solution provider",
-        "cargo owners",
-        "logistic operators",
-        "transport companies",
-        "stakeholders"
-      ],
-      "source_citation": "Page 3: 'Our research takes the perspective of a solution provider, a company Alfa, which develops and offers a service entity to logistic-intensive companies' | Page 4: 'three different types of customer segments for the new service for the management and analysis of transport disturbances can be identified; 1) Owners of the cargo (low value of transported goods), 2) Owners of the cargo (high value of transported goods) and 3) logistic operators' | Page 4: 'Usually disturbances, caused by transport companies are compensated by transport companies (liability of the carrier)'",
       "confidence_level": "high"
     },
     {

@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "25",
     "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
-    "total_articles": 67,
-    "articles_with_response": 67,
+    "total_articles": 63,
+    "articles_with_response": 63,
     "articles_without_response": 0
   },
   "responses_by_article": [
@@ -20,14 +20,20 @@
         "Low switching costs for clients → easy for clients to switch vendors, creating retention pressure",
         "Single-version requirement → cannot maintain multiple software versions for different clients",
         "Compact pricing strategies may limit niche market profitability → difficult to cover broader markets with few pricing components",
-        "Complex pricing increases overhead costs → extra costs for customer care support with multiple pricing components"
+        "Complex pricing increases overhead costs → extra costs for customer care support with multiple pricing components",
+        "Client switching costs → Reduced vendor lock-in",
+        "Revenue model changes → Financial pressure on vendors",
+        "Single version constraint → Limited customization"
       ],
       "synonyms_found": [
         "challenges",
         "restrictions",
         "limitations",
         "no longer applicable",
-        "eliminated"
+        "eliminated",
+        "switching costs",
+        "revenue pressure",
+        "version constraints"
       ],
       "source_citation": "Page 2: 'Revenue sources for SaaS are different from those of on-premise software in that the 'perpetual' usage license fee is no longer applicable and clients are charged for only what they have utilized, usually on a periodic basis. Additionally, maintenance revenues disappear as well because maintenance activities are now primarily the responsibilities of SaaS vendors' | Page 2: 'given the nature of SaaS as remotely hosted software services, switching is neither expensive nor tedious for clients' | Page 1: 'SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time' | Page 5: 'compact pricing strategies may jeopardize SaaS vendor' profits from clients from niche market because it is often difficult to cover a broader markets' | Page 6: 'adopting more components in software pricing will result in complicated pricing solutions, which are often translated to high overheads at the vendors' side, such as extra cost for customer care support'",
       "confidence_level": "high"
@@ -45,15 +51,22 @@
         "IT policies restricting external installations → Some customers cannot install software outside internal data center → Must offer on-premises option",
         "Lack of network connectivity → Prevents SaaS usage in certain scenarios (e.g., building new telecom networks) → Requires traditional licensing alternative",
         "Customer readiness for new technologies → Low readiness limits SaaS adoption → Necessitates parallel licensing model",
-        "Network operator control → In B2B2C scenarios, network operators determine revenue model used → Limits provider's pricing flexibility"
+        "Network operator control → In B2B2C scenarios, network operators determine revenue model used → Limits provider's pricing flexibility",
+        "Security concerns → SaaS adoption limitations",
+        "IT infrastructure investments → Licensing preference",
+        "Data center policies → Revenue model restrictions",
+        "Switching costs → Short-term rental challenges"
       ],
       "synonyms_found": [
         "security concerns",
         "IT policies",
         "restrictions",
-        "limitations"
+        "limitations",
+        "IT infrastructure",
+        "data center policies",
+        "switching costs"
       ],
-      "source_citation": "Page 3: 'However, not all customers are willing to rent the software through the public cloud, due to security concerns or a low readiness for new technologies. For these customers, Firm A makes available a traditional licensing model' | Page 4: 'some customers had an IT policy that did not allow installation of any software outside their own internal data center' | Page 3: 'Another reason to sell a traditional license for internal use was a lack of network connections, in certain cases where a customer was in the process of building a new telecom network' | Page 5: 'customers who had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice' | Page 3-4: 'network operators have become accustomed to using rental models and that is why we have to use one too'",
+      "source_citation": "Page 3: 'However, not all customers are willing to rent the software through the public cloud, due to security concerns or a low readiness for new technologies. For these customers, Firm A makes available a traditional licensing model' | Page 4: 'some customers had an IT policy that did not allow installation of any software outside their own internal data center' | Page 3: 'Another reason to sell a traditional license for internal use was a lack of network connections, in certain cases where a customer was in the process of building a new telecom network' | Page 5: 'customers who had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice' | Page 3-4: 'network operators have become accustomed to using rental models and that is why we have to use one too' | Page 3, Section IV: 'not all customers are willing to rent the software through the public cloud, due to security concerns or a low readiness for new technologies' | Page 3, Section IV: 'some customers had an IT policy that did not allow installation of any software outside their own internal data center' | Page 3, Section IV: 'We do not have low switching costs because the amount of project work needed to get the system to work is so great.'",
       "confidence_level": "high"
     },
     {
@@ -68,10 +81,20 @@
         "Disintermediation nature of SaaS → Threatens traditional VAR business model where partners handle installation and logistics",
         "Decreased switching costs in subscription model → Makes it harder to retain customers compared to perpetual license model",
         "R&D resource allocation conflicts → Initial 80/20 split toward SaaS caused quality drop in on-premise products, creating customer concerns",
-        "Geographic/regulatory variations → SaaS products developed in one region require significant adaptation for other markets"
+        "Geographic/regulatory variations → SaaS products developed in one region require significant adaptation for other markets",
+        "Stickiness of on-premise products → customers resistant to change, fear lack of support for existing systems",
+        "Disintermediation threat to VAR partners → nature of SaaS eliminates traditional reseller and installation roles ('nothing to resell, nothing to technically install')",
+        "Revenue stream volatility → periodic subscriptions less predictable than upfront license fees, creates financial challenges",
+        "Decreased switching costs for customers → makes customer retention more difficult",
+        "Localization challenges → difficulties adjusting US-based SaaS products to Nordic local rules and contexts",
+        "Partner co-opetition tensions → gold and smaller partners also sell competing products, sensitive relationships",
+        "Short-term cash flow loss for partners → shift from upfront fees to flowing subscriptions reduces immediate revenue",
+        "KPI misalignment → metrics based on on-premise sales conflicted with cloud transition initially",
+        "Quality trade-offs during transition → allocating R&D heavily to SaaS (80/20) caused on-premise product quality drop",
+        "Partner uncertainty and resistance → fear of business model termination and loss of value proposition"
       ],
       "synonyms_found": [],
-      "source_citation": "Page 6, Section 5.2.1: 'the KPIs (key performance indicator) at the same were based on the sales of on-premise products, and rendered as a conflict to the transition to cloud.' | Page 6, Section 5.2.1: 'a key question that has risen in every partner's mind is \"...given there is nothing to resell, nothing to technically install and no opportunity to provide any kind of logistics, what can a successful SaaS partner contribute?\"' | Page 2, Section 2: 'Financially, this renders as a challenge, as such delivery model is considered to have significantly decreased switching costs for customers.' | Page 6, Section 5.2.1: 'due to the decrease in R&D allocation for on-premise software, the quality of the product became a problem subsequently.'",
+      "source_citation": "Page 6, Section 5.2.1: 'the KPIs (key performance indicator) at the same were based on the sales of on-premise products, and rendered as a conflict to the transition to cloud.' | Page 6, Section 5.2.1: 'a key question that has risen in every partner's mind is \"...given there is nothing to resell, nothing to technically install and no opportunity to provide any kind of logistics, what can a successful SaaS partner contribute?\"' | Page 2, Section 2: 'Financially, this renders as a challenge, as such delivery model is considered to have significantly decreased switching costs for customers.' | Page 6, Section 5.2.1: 'due to the decrease in R&D allocation for on-premise software, the quality of the product became a problem subsequently.' | Page 6: 'ERP Co admitted the underestimation of the \"stickiness\" of on-premise products' | Page 6: 'a key question that has risen in every partner's mind is \"…given there is nothing to resell, nothing to technically install and no opportunity to provide any kind of logistics, what can a successful SaaS partner contribute?\"' | Page 2: 'such delivery model is considered to have significantly decreased switching costs for customers' | Page 6: 'due to the decrease in R&D allocation for on-premise software, the quality of the product became a problem'",
       "confidence_level": "high"
     },
     {
@@ -940,29 +963,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "25",
-      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
-      "response_found": true,
-      "extracted_value": [
-        "Stickiness of on-premise products → customers resistant to change, fear lack of support for existing systems",
-        "Disintermediation threat to VAR partners → nature of SaaS eliminates traditional reseller and installation roles ('nothing to resell, nothing to technically install')",
-        "Revenue stream volatility → periodic subscriptions less predictable than upfront license fees, creates financial challenges",
-        "Decreased switching costs for customers → makes customer retention more difficult",
-        "Localization challenges → difficulties adjusting US-based SaaS products to Nordic local rules and contexts",
-        "Partner co-opetition tensions → gold and smaller partners also sell competing products, sensitive relationships",
-        "Short-term cash flow loss for partners → shift from upfront fees to flowing subscriptions reduces immediate revenue",
-        "KPI misalignment → metrics based on on-premise sales conflicted with cloud transition initially",
-        "Quality trade-offs during transition → allocating R&D heavily to SaaS (80/20) caused on-premise product quality drop",
-        "Partner uncertainty and resistance → fear of business model termination and loss of value proposition"
-      ],
-      "synonyms_found": [],
-      "source_citation": "Page 6: 'ERP Co admitted the underestimation of the \"stickiness\" of on-premise products' | Page 6: 'a key question that has risen in every partner's mind is \"…given there is nothing to resell, nothing to technically install and no opportunity to provide any kind of logistics, what can a successful SaaS partner contribute?\"' | Page 2: 'such delivery model is considered to have significantly decreased switching costs for customers' | Page 6: 'due to the decrease in R&D allocation for on-premise software, the quality of the product became a problem'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -1072,28 +1072,6 @@
         "equal prices"
       ],
       "source_citation": "Page 2, Section III: 'But in our model, we only consider a fixed price, which may be true within a specific time period in an oligopolistic model.' | Page 4, Section IV: 'The first weakness is that the experiment scale (number of servers and clients) were limited' | Page 4, Section IV: 'in the real world, the item prices of all the applications may be different and servers may have different priorities for different applications from their business viewpoint. However, we assumed they are the same here.'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "25",
-      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
-      "response_found": true,
-      "extracted_value": [
-        "Security concerns → SaaS adoption limitations",
-        "IT infrastructure investments → Licensing preference",
-        "Data center policies → Revenue model restrictions",
-        "Switching costs → Short-term rental challenges"
-      ],
-      "synonyms_found": [
-        "security concerns",
-        "IT infrastructure",
-        "data center policies",
-        "switching costs"
-      ],
-      "source_citation": "Page 3, Section IV: 'not all customers are willing to rent the software through the public cloud, due to security concerns or a low readiness for new technologies' | Page 3, Section IV: 'some customers had an IT policy that did not allow installation of any software outside their own internal data center' | Page 3, Section IV: 'We do not have low switching costs because the amount of project work needed to get the system to work is so great.'",
       "confidence_level": "high"
     },
     {
@@ -1216,46 +1194,6 @@
         "technical incompatibility"
       ],
       "source_citation": "Page 5: 'computer users are often scared by potential incompatibility between OS and proprietary standards' | Page 5: 'juridical openness may be associated with technical incompatibility, which renders it impossible for a brand new OS solution A to work with the widely-spread proprietary software solution B'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "25",
-      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
-      "response_found": true,
-      "extracted_value": [
-        "Client switching costs → Reduced vendor lock-in",
-        "Revenue model changes → Financial pressure on vendors",
-        "Single version constraint → Limited customization"
-      ],
-      "synonyms_found": [
-        "switching costs",
-        "revenue pressure",
-        "version constraints"
-      ],
-      "source_citation": "Page 2: 'given the nature of SaaS as remotely hosted software services, switching is neither expensive nor tedious for clients' and 'Loss of revenue from up-front and maintenance payments therefore place greater financial pressure on SaaS vendors'",
-      "confidence_level": "medium"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "25",
-      "question_text": "What restrictions or incompatibilities are mentioned in the article about the software business model?",
-      "response_found": true,
-      "extracted_value": [
-        "Competition with companies' own ERP systems → Market positioning challenges",
-        "Low awareness in some industries → Limited market penetration",
-        "Different industry characteristics → Need for segment-specific solutions"
-      ],
-      "synonyms_found": [
-        "competition",
-        "restrictions",
-        "challenges"
-      ],
-      "source_citation": "Page 5: 'The Competition in this kind of SaaS based service solutions was found to be rather low, although companies' own ERP systems and other applications are competing with the new solution of the company Alfa' | Page 4: 'The research shows that in these industries the need for management and analysis of disturbances is at the moment relatively small, but when the awareness of disturbances increases, also these industries are interested to develop their operations'",
       "confidence_level": "high"
     },
     {

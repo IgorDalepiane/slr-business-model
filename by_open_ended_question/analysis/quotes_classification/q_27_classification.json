@@ -22,7 +22,11 @@
 			"article_id": "190638760",
 			"article_title": "A Pricing Framework for Software-as-a-Service",
 			"quote": "We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing. Compared to the generalized market orientation, specialized market orientation implies that the usage variations among clients are less and the accumulation of expertise becomes relatively easy to achieve",
-			"assigned_codes": ["Service quality improvement", "Market expansion"],
+			"assigned_codes": [
+				"Service quality improvement",
+				"Market expansion",
+				"SaaS (Software as a Service)"
+			],
 			"justification": "Specialized market targeting enables quality improvement through expertise accumulation and represents a strategic growth approach."
 		},
 		{
@@ -47,6 +51,15 @@
 			"justification": "The passage explicitly describes using multi-instance architecture to enable customer-specific customization."
 		},
 		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "We have different ways to offer the product to customers. We can sell it as SaaS, using software renting. The second option is to sell it via a traditional software license",
+			"assigned_codes": [
+				"Hybrid model adoption"
+			],
+			"justification": "Offering both SaaS and traditional licensing represents hybrid business model approach."
+		},
+		{
 			"article_id": "190638871",
 			"article_title": "Transition to the Cloud: A Vendor Perspective",
 			"quote": "The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms. The distribution of R&D resources was adjusted to 50% each",
@@ -66,6 +79,15 @@
 			"quote": "ERP Co is looking to compensate some of the partners (especially the ones that solely rely on ERP Co) for the initial years for the sales of SaaS products",
 			"assigned_codes": ["Partner compensation", "Ecosystem management"],
 			"justification": "Financial support for partners during transition addresses ecosystem disruption and maintains relationships."
+		},
+		{
+			"article_id": "190638871",
+			"article_title": "Transition to the Cloud: A Vendor Perspective",
+			"quote": "A solution arrived in 2014 when the management recognized the issues in rushing towards cloud and making transitions overnight, and hence fell back on the on-premise model and started to take things slowly",
+			"assigned_codes": [
+				"Hybrid model adoption"
+			],
+			"justification": "Maintaining both on-premise and cloud models during transition represents hybrid model strategy."
 		},
 		{
 			"article_id": "190638976",
@@ -486,13 +508,6 @@
 			"justification": "Structural separation for SaaS exploration reflects organizational preparedness during vendor transition to new models."
 		},
 		{
-			"article_id": "190655386",
-			"article_title": "Transition to the Cloud: A Vendor Perspective",
-			"quote": "A solution arrived in 2014 when the management recognized the issues in rushing towards cloud and making transitions overnight, and hence fell back on the on-premise model and started to take things slowly",
-			"assigned_codes": ["Hybrid model adoption"],
-			"justification": "Maintaining both on-premise and cloud models during transition represents hybrid model strategy."
-		},
-		{
 			"article_id": "190655389",
 			"article_title": "Business models and opportunity creation",
 			"quote": "In the business model reassessment phase, entrepreneurs evaluate different courses of action based on changes in technology, market conditions",
@@ -569,13 +584,6 @@
 			"justification": "Decentralized approach to SaaS delivery represents architectural variation in SaaS business models."
 		},
 		{
-			"article_id": "190655555",
-			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-			"quote": "We have different ways to offer the product to customers. We can sell it as SaaS, using software renting. The second option is to sell it via a traditional software license",
-			"assigned_codes": ["Hybrid model adoption"],
-			"justification": "Offering both SaaS and traditional licensing represents hybrid business model approach."
-		},
-		{
 			"article_id": "190655589",
 			"article_title": "Service-Centric Business Model in Cloud Environment",
 			"quote": "The conceptualization of the CBM will make organizations to successfully understand value, service, and relative operation elements",
@@ -629,20 +637,6 @@
 			"quote": "we focus on a single, but crucial dimension of a start-up's degree of openness: the share of OS software solutions",
 			"assigned_codes": ["Open source business model", "Startup company focus"],
 			"justification": "Strategic openness decisions for startups relate to open source business model choices."
-		},
-		{
-			"article_id": "190655721",
-			"article_title": "A Pricing Framework for Software-as-a-Service",
-			"quote": "We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing",
-			"assigned_codes": ["SaaS (Software as a Service)", "Market expansion"],
-			"justification": "Specialized market targeting for SaaS represents strategic market positioning approach."
-		},
-		{
-			"article_id": "190655747",
-			"article_title": "Clarifying the Value Elements of Business Models for Disturbance Management",
-			"quote": "Also other SaaS business characteristics (e.g. easy to deploy and deliver, online purchase and support, low price, high volume)",
-			"assigned_codes": ["SaaS (Software as a Service)", "Economies of scale"],
-			"justification": "SaaS characteristics emphasizing low price and high volume reflect economies of scale in SaaS models."
 		},
 		{
 			"article_id": "190655750",

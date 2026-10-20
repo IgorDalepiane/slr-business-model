@@ -1,7 +1,9 @@
 # Estatísticas de Extração - Questões Fechadas
 
-**Total de artigos analisados:** 67  
-**Última atualização:** 2025-10-11 (Questão 30 adicionada)
+**Total de artigos analisados:** 63  
+**Última atualização:** 2026-10-19 (tabelas regeneradas a partir dos CSVs por `generate_distributions.py`)
+
+> **Correção do corpus (R08, 2026-10-19):** três registros duplicados e um estudo fora da janela temporal foram removidos (67 → 63 artigos); ver `context/analysis/corpus-correction-r08.md`. As estatísticas e tabelas de distribuição abaixo foram regeneradas a partir dos CSVs. As observações narrativas, exemplos e contagens citadas dentro do texto de cada seção foram escritas para o corpus original de 67 registros e não foram reescritas. Até esta correção, algumas tabelas deste arquivo divergiam dos CSVs (por exemplo, Enterprise 5 contra 12 e Advertising 13 contra 17); os CSVs são a fonte de verdade.
 
 ---
 
@@ -12,22 +14,22 @@
 **Tipo:** Single selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 67 (100.0%)
+- Total de artigos: 63
+- Artigos com resposta: 63 (100.0%)
 - Artigos sem resposta: 0 (0.0%)
-- Artigos com valores identificados: 67 (100.0%)
+- Artigos com valores identificados: 63 (100.0%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| B2B | 36 | 53.7% |
-| B2C | 28 | 41.8% |
-| B2B SMB | 24 | 35.8% |
-| Mid-market | 6 | 9.0% |
-| Enterprise | 5 | 7.5% |
-| Developers/Dev-tools | 5 | 7.5% |
-| Government | 3 | 4.5% |
-| Others | 1 | 1.5% |
+| B2B | 32 | 50.8% |
+| B2C | 28 | 44.4% |
+| B2B SMB | 20 | 31.7% |
+| Enterprise | 12 | 19.0% |
+| Mid-market | 5 | 7.9% |
+| Government | 4 | 6.3% |
+| Others | 3 | 4.8% |
+| Developers/Dev-tools | 2 | 3.2% |
 
 **Nota:** Muitos artigos mencionam múltiplos tipos de clientes (ex: B2B e B2C simultaneamente).
 
@@ -40,22 +42,22 @@
 **Tipo:** Multiple selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 67 (100.0%)
+- Total de artigos: 63
+- Artigos com resposta: 63 (100.0%)
 - Artigos sem resposta: 0 (0.0%)
-- Artigos com valores identificados: 67 (100.0%)
+- Artigos com valores identificados: 63 (100.0%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| Application | 60 | 89.6% |
-| Platform | 53 | 79.1% |
-| Managed Service | 24 | 35.8% |
-| Infrastructure | 9 | 13.4% |
-| Data | 7 | 10.4% |
-| API | 5 | 7.5% |
-| SDK | 3 | 4.5% |
-| Others | 1 | 1.5% |
+| Application | 56 | 88.9% |
+| Platform | 51 | 81.0% |
+| Managed Service | 22 | 34.9% |
+| API | 8 | 12.7% |
+| Data | 6 | 9.5% |
+| Infrastructure | 4 | 6.3% |
+| Others | 1 | 1.6% |
+| SDK | 1 | 1.6% |
 
 **Observação:** A maioria dos modelos combina múltiplos tipos, especialmente Application + Platform.
 
@@ -68,21 +70,20 @@
 **Tipo:** Multiple selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 64 (95.5%)
-- Artigos sem resposta: 3 (4.5%)
-- Artigos com valores identificados: 64 (95.5%)
+- Total de artigos: 63
+- Artigos com resposta: 60 (95.2%)
+- Artigos sem resposta: 3 (4.8%)
+- Artigos com valores identificados: 60 (95.2%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| Multi-tenant SaaS | 48 | 71.6% |
-| Mobile | 27 | 40.3% |
-| On-premises | 18 | 26.9% |
-| Desktop | 11 | 16.4% |
-| Single-tenant cloud | 6 | 9.0% |
-| Edge | 1 | 1.5% |
-| Others | 1 | 1.5% |
+| Multi-tenant SaaS | 44 | 69.8% |
+| Mobile | 27 | 42.9% |
+| On-premises | 16 | 25.4% |
+| Desktop | 9 | 14.3% |
+| Single-tenant cloud | 8 | 12.7% |
+| Others | 1 | 1.6% |
 
 **Observação:** Multi-tenant SaaS é claramente dominante, com Mobile sendo comum em modelos B2C.
 
@@ -95,20 +96,21 @@
 **Tipo:** Single selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 34 (50.7%)
-- Artigos sem resposta: 33 (49.3%)
-- Artigos com valores identificados: 34 (50.7%)
+- Total de artigos: 63
+- Artigos com resposta: 33 (52.4%)
+- Artigos sem resposta: 30 (47.6%)
+- Artigos com valores identificados: 33 (52.4%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| Proprietary | 25 | 37.3% |
-| Permissive Open Source | 5 | 7.5% |
-| Dual License | 3 | 4.5% |
-| Open Core | 3 | 4.5% |
-| Copyleft | 2 | 3.0% |
-| Others | 1 | 1.5% |
+| Proprietary | 24 | 38.1% |
+| Permissive Open Source | 5 | 7.9% |
+| Dual License | 3 | 4.8% |
+| Open Source | 3 | 4.8% |
+| Open Core | 2 | 3.2% |
+| Copyleft | 1 | 1.6% |
+| Others | 1 | 1.6% |
 
 **Nota:** Quase metade dos artigos não especificam explicitamente o regime de propriedade intelectual. Quando especificado, Proprietary é predominante.
 
@@ -121,24 +123,24 @@
 **Tipo:** Multiple selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 64 (95.5%)
-- Artigos sem resposta: 3 (4.5%)
-- Artigos com valores identificados: 64 (95.5%)
+- Total de artigos: 63
+- Artigos com resposta: 60 (95.2%)
+- Artigos sem resposta: 3 (4.8%)
+- Artigos com valores identificados: 60 (95.2%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| Subscription | 51 | 76.1% |
-| Usage/consumption | 28 | 41.8% |
-| Transaction | 22 | 32.8% |
-| Advertising | 13 | 19.4% |
-| Perpetual license | 11 | 16.4% |
-| Support | 9 | 13.4% |
-| Others | 7 | 10.4% |
-| Marketplace fees | 4 | 6.0% |
-| Open core | 3 | 4.5% |
-| Dual licensing | 2 | 3.0% |
+| Subscription | 47 | 74.6% |
+| Usage/consumption | 26 | 41.3% |
+| Transaction | 21 | 33.3% |
+| Support | 20 | 31.7% |
+| Advertising | 17 | 27.0% |
+| Perpetual license | 9 | 14.3% |
+| Others | 8 | 12.7% |
+| Marketplace fees | 4 | 6.3% |
+| Open core | 3 | 4.8% |
+| Dual licensing | 2 | 3.2% |
 
 **Observação:** Subscription é claramente a fonte de receita dominante em modelos SaaS/Cloud. Muitos artigos combinam múltiplas fontes.
 
@@ -151,22 +153,22 @@
 **Tipo:** Single selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 55 (82.1%)
-- Artigos sem resposta: 12 (17.9%)
-- Artigos com valores identificados: 53 (79.1%)
+- Total de artigos: 63
+- Artigos com resposta: 52 (82.5%)
+- Artigos sem resposta: 11 (17.5%)
+- Artigos com valores identificados: 50 (79.4%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| User/seat | 22 | 32.8% |
-| Others | 18 | 26.9% |
-| Transactions | 13 | 19.4% |
-| Computing time | 9 | 13.4% |
-| Revenue sharing | 4 | 6.0% |
-| Storage | 3 | 4.5% |
-| API calls | 3 | 4.5% |
-| Devices | 1 | 1.5% |
+| User/seat | 19 | 30.2% |
+| Others | 17 | 27.0% |
+| Transactions | 12 | 19.0% |
+| Computing time | 8 | 12.7% |
+| Revenue sharing | 4 | 6.3% |
+| API calls | 3 | 4.8% |
+| Storage | 2 | 3.2% |
+| Devices | 1 | 1.6% |
 
 **Observações importantes:**
 
@@ -196,22 +198,21 @@
 **Tipo:** Multiple selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 59 (88.1%)
-- Artigos sem resposta: 8 (11.9%)
-- Artigos com valores identificados: 55 (82.1%)
+- Total de artigos: 63
+- Artigos com resposta: 55 (87.3%)
+- Artigos sem resposta: 8 (12.7%)
+- Artigos com valores identificados: 51 (81.0%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| Freemium | 29 | 52.7% |
-| Tiers/Plans | 23 | 41.8% |
-| Pay-as-you-go | 23 | 41.8% |
-| Custom negotiation | 21 | 38.2% |
-| Annual contract | 13 | 23.6% |
-| Trial | 10 | 18.2% |
-| Prepaid credits | 7 | 12.7% |
-| Others | 0 | 0.0% |
+| Freemium | 29 | 46.0% |
+| Pay-as-you-go | 20 | 31.7% |
+| Tiers/Plans | 20 | 31.7% |
+| Custom negotiation | 19 | 30.2% |
+| Annual contract | 12 | 19.0% |
+| Trial | 10 | 15.9% |
+| Prepaid credits | 7 | 11.1% |
 
 **Observação:** A maioria dos modelos combina múltiplas estruturas de apresentação de preço simultaneamente. Freemium é a estrutura mais comum, seguida por Tiers/Plans e Pay-as-you-go.
 
@@ -246,20 +247,20 @@
 **Tipo:** Single selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 67 (100.0%)
+- Total de artigos: 63
+- Artigos com resposta: 63 (100.0%)
 - Artigos sem resposta: 0 (0.0%)
-- Artigos com valores identificados: 67 (100.0%)
+- Artigos com valores identificados: 63 (100.0%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| Standalone product | 33 | 49.3% |
-| Two-sided platform | 31 | 46.3% |
-| Marketplace | 9 | 13.4% |
-| Plugin/Complement | 3 | 4.5% |
-| OEM component | 3 | 4.5% |
-| Others | 1 | 1.5% |
+| Two-sided platform | 31 | 49.2% |
+| Standalone product | 29 | 46.0% |
+| Marketplace | 9 | 14.3% |
+| OEM component | 3 | 4.8% |
+| Plugin/Complement | 3 | 4.8% |
+| Others | 1 | 1.6% |
 
 **Observação:** Esta questão tem distribuição quase equilibrada entre Standalone product (49.3%) e Two-sided platform (46.3%), refletindo a dualidade do mercado de software atual entre produtos tradicionais standalone e modelos de plataforma. Muitos artigos mencionam múltiplos papéis simultaneamente (ex: Standalone product que também funciona como Plugin/Complement).
 
@@ -321,19 +322,19 @@
 **Tipo:** Single selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 55 (82.1%)
-- Artigos sem resposta: 12 (17.9%)
-- Artigos com valores identificados: 51 (76.1%)
+- Total de artigos: 63
+- Artigos com resposta: 48 (76.2%)
+- Artigos sem resposta: 15 (23.8%)
+- Artigos com valores identificados: 48 (76.2%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| Direct (more users = more value) | 24 | 35.8% |
-| Cross-sided (distinct groups benefit) | 21 | 31.3% |
-| Data (more data = better product) | 15 | 22.4% |
-| None | 3 | 4.5% |
-| Others | 2 | 3.0% |
+| Direct (more users = more value) | 22 | 34.9% |
+| Cross-sided (distinct groups benefit) | 21 | 33.3% |
+| Data (more data = better product) | 15 | 23.8% |
+| None | 2 | 3.2% |
+| Others | 2 | 3.2% |
 
 **Observação:** Esta questão apresenta boa cobertura (82.1% com resposta, 76.1% com valores identificados). A distribuição mostra predominância de efeitos de rede diretos (35.8%) e cross-sided (31.3%), refletindo a natureza das plataformas de software modernas. Efeitos de rede baseados em dados aparecem em 22.4% dos casos, evidenciando a crescente importância de machine learning e melhorias baseadas em feedback de usuários.
 
@@ -427,21 +428,21 @@ Artigos onde `response_found=yes` mas `values_inside_scope` ficou vazio:
 **Tipo:** Multiple selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 62 (92.5%)
-- Artigos sem resposta: 5 (7.5%)
-- Artigos com valores identificados: 62 (92.5%)
+- Total de artigos: 63
+- Artigos com resposta: 58 (92.1%)
+- Artigos sem resposta: 5 (7.9%)
+- Artigos com valores identificados: 58 (92.1%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| Direct sales | 32 | 47.8% |
-| Product-led Growth | 28 | 41.8% |
-| Partners/channels | 26 | 38.8% |
-| Digital marketing | 25 | 37.3% |
-| Marketplaces | 15 | 22.4% |
-| Referral | 9 | 13.4% |
-| Others | 2 | 3.0% |
+| Direct sales | 28 | 44.4% |
+| Product-led Growth | 28 | 44.4% |
+| Digital marketing | 25 | 39.7% |
+| Partners/channels | 25 | 39.7% |
+| Marketplaces | 15 | 23.8% |
+| Referral | 9 | 14.3% |
+| Others | 2 | 3.2% |
 
 **Nota:** Esta é uma questão de múltipla seleção. Muitos modelos de negócio utilizam múltiplos canais simultaneamente.
 
@@ -571,23 +572,23 @@ Artigos onde `response_found=yes` mas `values_inside_scope` ficou vazio:
 **⚠️ ESCOPO EXPANDIDO (2025-10-11):** Originalmente focava apenas em enterprise cloud marketplaces (AWS, Azure, etc.). Expandido para incluir mobile app stores, gaming platforms e outros marketplaces de distribuição de software.
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 37 (55.2%)
-- Artigos sem resposta: 30 (44.8%)
-- Artigos com marketplaces/platforms identificados: 29 (43.3%)
+- Total de artigos: 63
+- Artigos com resposta: 36 (57.1%)
+- Artigos sem resposta: 27 (42.9%)
+- Artigos com marketplaces/platforms identificados: 28 (44.4%)
 
 ### Distribuição de Valores
 | Valor | Quantidade | Percentual |
 |-------|------------|------------|
-| Apple App Store | 14 | 20.9% |
-| Others | 14 | 20.9% |
-| Google Play Store | 13 | 19.4% |
-| AWS Marketplace | 2 | 3.0% |
-| Azure Marketplace | 2 | 3.0% |
-| Google Cloud Marketplace | 2 | 3.0% |
-| Atlassian Marketplace | 1 | 1.5% |
-| Salesforce AppExchange | 1 | 1.5% |
-| Steam | 1 | 1.5% |
+| Apple App Store | 16 | 25.4% |
+| Google Play Store | 13 | 20.6% |
+| Others | 13 | 20.6% |
+| AWS Marketplace | 2 | 3.2% |
+| Azure Marketplace | 2 | 3.2% |
+| Google Cloud Marketplace | 2 | 3.2% |
+| Atlassian Marketplace | 1 | 1.6% |
+| Salesforce AppExchange | 1 | 1.6% |
+| Steam | 1 | 1.6% |
 
 **Nota:** Percentuais são calculados sobre o total de 67 artigos. Como artigos podem mencionar múltiplos marketplaces, a soma excede 100%.
 
@@ -725,23 +726,23 @@ Inclui:
 **Tipo:** Single selection
 
 ### Estatísticas
-- Total de artigos: 67
-- Artigos com resposta: 67 (100.0%)
+- Total de artigos: 63
+- Artigos com resposta: 63 (100.0%)
 - Artigos sem resposta: 0 (0.0%)
-- Artigos com valores identificados: 67 (100.0%)
+- Artigos com valores identificados: 63 (100.0%)
 
 ### Distribuição de Valores
 
 | Tipo de Evidência | Quantidade | Percentual |
 |-------------------|------------|------------|
-| Multiple cases | 34 | 50.7% |
-| Single case study | 14 | 20.9% |
-| Secondary data analysis | 11 | 16.4% |
-| Literature review | 9 | 13.4% |
-| Expert opinion | 5 | 7.5% |
-| Survey | 5 | 7.5% |
-| Experiment | 2 | 3.0% |
-| Others | 1 | 1.5% |
+| Multiple cases | 32 | 50.8% |
+| Single case study | 12 | 19.0% |
+| Secondary data analysis | 10 | 15.9% |
+| Literature review | 8 | 12.7% |
+| Expert opinion | 5 | 7.9% |
+| Survey | 5 | 7.9% |
+| Experiment | 2 | 3.2% |
+| Others | 1 | 1.6% |
 
 **Nota:** Como alguns artigos combinam múltiplas metodologias, a soma dos percentuais pode exceder 100%.
 
@@ -877,14 +878,14 @@ Inclui:
 | Q08 | 100.0% | Todos especificam tipo de produto/serviço |
 | Q16 | 100.0% | Todos especificam papel no ecossistema |
 | Q30 | 100.0% | Todos especificam tipo de evidência/metodologia |
-| Q09 | 95.5% | Quase todos especificam modelo de entrega |
-| Q12 | 95.5% | Quase todos especificam fontes de receita |
-| Q18 | 92.5% | Maioria especifica canais de aquisição |
-| Q14 | 88.1% | Maioria especifica estrutura de apresentação de preço |
-| Q13 | 82.1% | Maioria especifica unidade de precificação |
-| Q17 | 82.1% | Maioria especifica tipo de efeito de rede |
-| Q19 | 55.2% | Metade menciona marketplaces/platforms (mobile app stores comuns, cloud marketplaces raros: 6%) |
-| Q10 | 50.7% | Metade não especifica regime de IP explicitamente |
+| Q09 | 95.2% | Quase todos especificam modelo de entrega |
+| Q12 | 95.2% | Quase todos especificam fontes de receita |
+| Q18 | 92.1% | Maioria especifica canais de aquisição |
+| Q14 | 87.3% | Maioria especifica estrutura de apresentação de preço |
+| Q13 | 82.5% | Maioria especifica unidade de precificação |
+| Q17 | 76.2% | Maioria especifica tipo de efeito de rede |
+| Q19 | 57.1% | Metade menciona marketplaces/platforms (mobile app stores comuns, cloud marketplaces raros: 6%) |
+| Q10 | 52.4% | Metade não especifica regime de IP explicitamente |
 
 ### Padrões Identificados
 

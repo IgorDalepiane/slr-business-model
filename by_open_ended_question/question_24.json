@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "24",
     "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
-    "total_articles": 67,
-    "articles_with_response": 67,
+    "total_articles": 63,
+    "articles_with_response": 63,
     "articles_without_response": 0
   },
   "responses_by_article": [
@@ -20,16 +20,22 @@
         "Internet connectivity → enable access to hosted services",
         "Technology infrastructure management capability → manage hardware, software and professional services",
         "Ability to provide supplementary services → backup, security, helpdesk, setup/training, configuration/integration",
-        "Sizeable client pool → achieve economies of scale necessary for sustainability"
+        "Sizeable client pool → achieve economies of scale necessary for sustainability",
+        "Internet connectivity → Software access",
+        "Multi-tenant architecture → Cost efficiency",
+        "Hosting infrastructure → Service delivery"
       ],
       "synonyms_found": [
         "infrastructure",
         "multi-tenant",
         "hosting",
         "technology",
-        "services"
+        "services",
+        "internet access",
+        "multi-tenant architecture",
+        "hosting infrastructure"
       ],
-      "source_citation": "Page 1: 'SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors. Second, SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations. Third, SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time. The multi-tenant architecture of SaaS benefits both clients and vendors alike' | Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet\"' | Page 1-2: 'software vendors would have to take into account not only the costs of hosting and maintaining the software, but also the costs associated with the provision of supplementary services (e.g., backup and security)' | Page 2: 'in order to retain a sizeable pool of clients and achieve economies of scale'",
+      "source_citation": "Page 1: 'SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors. Second, SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations. Third, SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time. The multi-tenant architecture of SaaS benefits both clients and vendors alike' | Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet\"' | Page 1-2: 'software vendors would have to take into account not only the costs of hosting and maintaining the software, but also the costs associated with the provision of supplementary services (e.g., backup and security)' | Page 2: 'in order to retain a sizeable pool of clients and achieve economies of scale' | Page 1: 'SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations' and 'The multi-tenant architecture of SaaS benefits both clients and vendors alike'",
       "confidence_level": "high"
     },
     {
@@ -45,16 +51,24 @@
         "Network connectivity → Enable access to software through public cloud",
         "Customer readiness for cloud technology → Adoption of SaaS model",
         "For enterprise-SaaS: labor-intensive implementation capabilities → Enable integration with customer IT systems and create switching costs",
-        "For gaming platform: partnerships with network operators and content owners → Enable revenue sharing model"
+        "For gaming platform: partnerships with network operators and content owners → Enable revenue sharing model",
+        "Software architecture compatibility → Dual revenue model support",
+        "Customer IT capabilities → Revenue model selection",
+        "Security requirements → SaaS vs licensing choice",
+        "Implementation work → Switching cost protection"
       ],
       "synonyms_found": [
         "architecture",
         "infrastructure",
         "network",
         "partnerships",
-        "implementation"
+        "implementation",
+        "software architecture",
+        "IT capabilities",
+        "security requirements",
+        "implementation work"
       ],
-      "source_citation": "Page 1: 'Cloud computing can be divided roughly into three service layers... (i) Infrastructure as a Service (IaaS)... (ii) Platform as a Service (PaaS)... and (iii) Software as a Service (SaaS), which provides applications on top of PaaS and IaaS' | Page 3: 'From the outset, the software architecture was designed to be compatible with both software renting and software licensing' | Page 3: 'Another reason to sell a traditional license for internal use was a lack of network connections' | Page 3-4: 'Because the content is delivered through network operators to game players, the network operator determines the revenue model used'",
+      "source_citation": "Page 1: 'Cloud computing can be divided roughly into three service layers... (i) Infrastructure as a Service (IaaS)... (ii) Platform as a Service (PaaS)... and (iii) Software as a Service (SaaS), which provides applications on top of PaaS and IaaS' | Page 3: 'From the outset, the software architecture was designed to be compatible with both software renting and software licensing' | Page 3: 'Another reason to sell a traditional license for internal use was a lack of network connections' | Page 3-4: 'Because the content is delivered through network operators to game players, the network operator determines the revenue model used' | Page 3, Section IV: 'From the outset, the software architecture was designed to be compatible with both software renting and software licensing, depending on the customers' needs.' | Page 5, Section V: 'If customers had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice.'",
       "confidence_level": "high"
     },
     {
@@ -69,10 +83,19 @@
         "Product localization → Adjustment of SaaS products to local rules and contexts (financial procedures, regulations)",
         "Partner capability transformation → VAR ability to shift from technical consulting to business process consulting",
         "Mature cloud infrastructure → Underlying technology and network capabilities for reliable service delivery",
-        "Customer trust maintenance → Assurance of continued support for existing on-premise systems during transition"
+        "Customer trust maintenance → Assurance of continued support for existing on-premise systems during transition",
+        "Technological maturity → necessary for successful cloud implementation and market readiness",
+        "Market demands and customer readiness → macro environment needs to support adoption",
+        "Organizational preparedness → deep ability to understand and implement throughout value chain",
+        "Partner network readiness → VAR partners need to be cloud-ready and willing to adapt",
+        "Product localization capabilities → ability to adjust SaaS products to local rules and contexts",
+        "Sound SaaS product development → partners won't sell unfinished products, quality is critical",
+        "New skill sets and competencies → development tools and skills needed for cloud-based services",
+        "Changes in multiple business areas → revenue management, sales channels, customer support, KPIs all need alignment",
+        "Customer trust maintenance → ensuring support for existing systems during transition"
       ],
       "synonyms_found": [],
-      "source_citation": "Page 6, Section 5.2.2: 'ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers who met the criteria for SaaS implementation (in terms of organizational readiness for SaaS).' | Page 6, Section 5.2.1: 'Though they have acquired the SaaS software from US, they under-estimated the efforts in adjusting the product to local rules and contexts (e.g., certain financial procedures are very different in the US than in the Nordic countries).' | Page 7, Section 5.2.2: 'the services offered by partners should be shifted away from technical consulting towards business process consulting.'",
+      "source_citation": "Page 6, Section 5.2.2: 'ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers who met the criteria for SaaS implementation (in terms of organizational readiness for SaaS).' | Page 6, Section 5.2.1: 'Though they have acquired the SaaS software from US, they under-estimated the efforts in adjusting the product to local rules and contexts (e.g., certain financial procedures are very different in the US than in the Nordic countries).' | Page 7, Section 5.2.2: 'the services offered by partners should be shifted away from technical consulting towards business process consulting.' | Page 5: 'The decision for the transition was on the one hand partially triggered by the macro environment with increasing market demands and technological maturity' | Page 8: 'organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain' | Page 6: 'partners will not sell unfinished products, and therefore, they will not be bought in unless the SaaS product from ERP Co is fully developed' | Page 7: 'It really is a challenge to get our existing partner network cloud-ready'",
       "confidence_level": "high"
     },
     {
@@ -986,28 +1009,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "24",
-      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Technological maturity → necessary for successful cloud implementation and market readiness",
-        "Market demands and customer readiness → macro environment needs to support adoption",
-        "Organizational preparedness → deep ability to understand and implement throughout value chain",
-        "Partner network readiness → VAR partners need to be cloud-ready and willing to adapt",
-        "Product localization capabilities → ability to adjust SaaS products to local rules and contexts",
-        "Sound SaaS product development → partners won't sell unfinished products, quality is critical",
-        "New skill sets and competencies → development tools and skills needed for cloud-based services",
-        "Changes in multiple business areas → revenue management, sales channels, customer support, KPIs all need alignment",
-        "Customer trust maintenance → ensuring support for existing systems during transition"
-      ],
-      "synonyms_found": [],
-      "source_citation": "Page 5: 'The decision for the transition was on the one hand partially triggered by the macro environment with increasing market demands and technological maturity' | Page 8: 'organizational preparedness, since this goes so deep in our ability to understand and implement decisions throughout the value chain' | Page 6: 'partners will not sell unfinished products, and therefore, they will not be bought in unless the SaaS product from ERP Co is fully developed' | Page 7: 'It really is a challenge to get our existing partner network cloud-ready'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -1123,28 +1124,6 @@
         "service switching"
       ],
       "source_citation": "Page 2, Section III: 'local servers are belong to independent business entity' | Page 2, Section III: 'every local server may be required to provide certain applications (e.g. the brand products)' | Page 2, Section III: 'we assume that changing service (installing/uninstalling software) does not consume much time/cost.'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "24",
-      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Software architecture compatibility → Dual revenue model support",
-        "Customer IT capabilities → Revenue model selection",
-        "Security requirements → SaaS vs licensing choice",
-        "Implementation work → Switching cost protection"
-      ],
-      "synonyms_found": [
-        "software architecture",
-        "IT capabilities",
-        "security requirements",
-        "implementation work"
-      ],
-      "source_citation": "Page 3, Section IV: 'From the outset, the software architecture was designed to be compatible with both software renting and software licensing, depending on the customers' needs.' | Page 5, Section V: 'If customers had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice.'",
       "confidence_level": "high"
     },
     {
@@ -1271,47 +1250,6 @@
         "non-hostile customers"
       ],
       "source_citation": "Page 3: 'For sake of simplicity, we assume that customers are not hostile to OS solutions' | Page 13: 'A necessary condition for non-maximal openness is that e ≥ e*'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "24",
-      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Internet connectivity → Software access",
-        "Multi-tenant architecture → Cost efficiency",
-        "Hosting infrastructure → Service delivery"
-      ],
-      "synonyms_found": [
-        "internet access",
-        "multi-tenant architecture",
-        "hosting infrastructure"
-      ],
-      "source_citation": "Page 1: 'SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations' and 'The multi-tenant architecture of SaaS benefits both clients and vendors alike'",
-      "confidence_level": "medium"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "24",
-      "question_text": "What prerequisites or conditions are necessary for the software business model as described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Internet technology access → SaaS delivery model",
-        "Systematic information collection → Database-based service",
-        "Customer awareness of disturbances → Market demand",
-        "Compatibility with ERP systems → Integration requirements"
-      ],
-      "synonyms_found": [
-        "prerequisites",
-        "conditions",
-        "requirements"
-      ],
-      "source_citation": "Page 3: 'The solution is planned to work with Software as a Service (SaaS) principles (used and delivered through internet technology)' | Page 3: 'The basic principle behind the service is to collect systemically information about customer's transport disturbances to the information system' | Page 4: 'Need for systems that are compatible with the ERP-systems of a company'",
       "confidence_level": "high"
     },
     {

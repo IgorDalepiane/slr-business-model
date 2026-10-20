@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "31",
     "question_text": "Which companies or products are cited as examples of the software business model in the article?",
-    "total_articles": 67,
-    "articles_with_response": 64,
+    "total_articles": 63,
+    "articles_with_response": 60,
     "articles_without_response": 3
   },
   "responses_by_article": [
@@ -13,20 +13,11 @@
       "extraction_date": "2025-10-07",
       "question_id": "31",
       "question_text": "Which companies or products are cited as examples of the software business model in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "New Cloud Computing Showplace (www.saas-showplace.com) → Vendor-independent resource center providing comprehensive SaaS vendor list, source of 353 vendor sample",
-        "Generic application categories cited: CRM (8.8%), Collaboration (8.5%), Project Management (6.2%), Marketing (5.3%), Accounting/Financial (4.9%), Document Management (4.9%), BPM (4.6%), others",
-        "Generic industry examples: Professional Services (9.8%), Technology (9.7%), Software (9.2%), Banking/Financial Services (7.3%), Healthcare (5.8%), Government (4.8%), others"
-      ],
-      "synonyms_found": [
-        "SaaS vendors",
-        "Cloud Computing Showplace",
-        "application types",
-        "industry types"
-      ],
-      "source_citation": "Page 3: 'The pricing data source is obtained through our examination of each SaaS vendor's website according to the vendor list provided by the New Cloud Computing Showplace website (http://www.saas-showplace.com). Based on our knowledge, we tend to believe the SaaS vendor list presented by the prior website is the most comprehensive one. Besides, this website is regarded as the vendor-independent, resource center of industrial best practices in SaaS market' | Page 3, Table II: 'Application Types (No. of application types: 45) CRM 8.8, Collaboration 8.5, Project Management 6.2, Marketing 5.3, Accounting/Financial 4.9, Document Management 4.9, BPM 4.6, Productivity 3.6, Content Management 3.3, Business Intelligence 2.9, IT/Application Management 2.8, Others 44.2' | Page 3, Table II: 'Industry Types (No. of industry types: 32) Professional Services 9.8, Technology 9.7, Software 9.2, Banking/Financial Services 7.3, Healthcare 5.8, Government 4.8, Entertainment/Media 4.7, Legal 4.5, Manufacturing 4.3, Education 4.0, Non-Profit 3.4, Others 32.5'",
-      "confidence_level": "medium"
+      "response_found": false,
+      "extracted_value": "not reported",
+      "synonyms_found": [],
+      "source_citation": "information not found in text",
+      "confidence_level": "high"
     },
     {
       "article_id": "190638781",
@@ -39,7 +30,11 @@
         "Firm A → Anonymous telecom planning and optimization software provider, established 1998, offers both SaaS rental and traditional licensing with multi-instance architecture",
         "Firm B → Anonymous interactive gaming platform provider, established 2000, provides games-on-demand with multi-tenant architecture using revenue sharing model",
         "Firm C → Anonymous enterprise-SaaS provider for access rights management, launched 2008 as spin-off, serves financial institutions and government with both rental and licensing options",
-        "Firm D → Anonymous 3D modeling software provider for furniture industry, established 2006 as spin-off, uses pure rental model with multi-instance architecture, 90% customers prefer cloud"
+        "Firm D → Anonymous 3D modeling software provider for furniture industry, established 2006 as spin-off, uses pure rental model with multi-instance architecture, 90% customers prefer cloud",
+        "Firm A → Planning and optimization software for telecom operators",
+        "Firm B → Interactive gaming platforms and games-on-demand services",
+        "Firm C → Enterprise-SaaS for access rights management",
+        "Firm D → 3D modeling software for furniture manufacturers"
       ],
       "synonyms_found": [
         "Firm A",
@@ -48,7 +43,7 @@
         "Firm D",
         "case firms"
       ],
-      "source_citation": "Page 3: 'Firm A develops planning and optimization software for telecom operators. The firm, established in 1998, acted purely as a service firm until 2009' | Page 3: 'Firm B, established in 2000, provides interactive gaming platforms and games-on-demand services, using multi-tenant software architecture' | Page 4: 'Firm C was launched in 2008 as a spin-off from a software service firm that provides consulting services related to identity management. Currently, Firm C develops enterprise-SaaS for access rights management' | Page 4: 'Firm D was established in 2006 as a spin-off from a larger software firm. It develops 3D modeling software for furniture manufacturers and furniture retailers as enterprise-SaaS'",
+      "source_citation": "Page 3: 'Firm A develops planning and optimization software for telecom operators. The firm, established in 1998, acted purely as a service firm until 2009' | Page 3: 'Firm B, established in 2000, provides interactive gaming platforms and games-on-demand services, using multi-tenant software architecture' | Page 4: 'Firm C was launched in 2008 as a spin-off from a software service firm that provides consulting services related to identity management. Currently, Firm C develops enterprise-SaaS for access rights management' | Page 4: 'Firm D was established in 2006 as a spin-off from a larger software firm. It develops 3D modeling software for furniture manufacturers and furniture retailers as enterprise-SaaS' | Page 3, Section IV: 'Firm A develops planning and optimization software for telecom operators' | Page 3, Section IV: 'Firm B provides interactive gaming platforms and games-on-demand services' | Page 3, Section IV: 'Firm C develops enterprise-SaaS for access rights management' | Page 4, Section IV: 'Firm D develops 3D modeling software for furniture manufacturers and furniture retailers'",
       "confidence_level": "high"
     },
     {
@@ -67,10 +62,19 @@
         "EMC → Provider of raw computing and data storage services at IaaS level",
         "AT&T → Provider of raw computing and data storage services at IaaS level",
         "IBM → Provider of platform services at PaaS level",
-        "ERP Co → Main case study subject - Nordic ERP vendor transitioning from on-premise to cloud-based SaaS business model for SME market"
+        "ERP Co → Main case study subject - Nordic ERP vendor transitioning from on-premise to cloud-based SaaS business model for SME market",
+        "ERP Co (pseudonym) → Main case study subject, Nordic ERP vendor for SMEs transitioning from on-premise to SaaS, 6000 employees, 800M NOK revenue",
+        "Salesforce.com → Example of cloud-based CRM SaaS provider, mentioned as new player with first-mover advantage",
+        "Amazon → Example of new player in IaaS (Amazon Web Service), providing raw computing and data storage services",
+        "Microsoft → Traditional software vendor making transition to cloud with 'cloud-first design' strategy, also mentioned as supplier/competitor to ERP Co, operates at all three levels (SaaS, PaaS, IaaS)",
+        "SAP → Traditional software vendor transitioning through acquisition and partnerships, provides applications and enterprise systems in cloud",
+        "Google → Provides PaaS (Google's App Engine) and platform services",
+        "IBM → Provides platform services at PaaS level",
+        "EMC → Provides raw computing and data storage services at IaaS level",
+        "AT&T → Provides infrastructure services at IaaS level"
       ],
       "synonyms_found": [],
-      "source_citation": "Page 1, Section 1: 'Over the recent years, we have seen new players, such as Salesforce.com and Amazon, introducing the new business models and obtaining first-mover advantages. In parallel, traditional software vendors, such as Microsoft and SAP, are also making the transition to cloud-based business models' | Page 1, Section 1: 'software-as-a service (SaaS) (e.g. Salesforce.com cloud-based customer relationship management software delivered over the Internet), platform-as-a-service (PaaS) (e.g. Google's App Engine upon which various application can be developed, distributed and hosted), and infrastructure-as-a-service (IaaS) (e.g. Amazon Web Service that offers remote computing services)' | Page 1, Section 1: 'with a comprehensive strategy focusing on \"cloud-first design,\" Microsoft is going full force with the transition to cloud on SaaS, PaaS and IaaS levels; whereas SAP managed the shift towards offering their software on cloud through buying and partnering with other vendors at other levels' | Page 2, Section 2: 'Amazon, EMC, and AT&T in providing raw computing and data storage services, IBM, Google, and Microsoft in providing platform services, and finally Salesforce.com and SAP in providing applications and enterprise systems'",
+      "source_citation": "Page 1, Section 1: 'Over the recent years, we have seen new players, such as Salesforce.com and Amazon, introducing the new business models and obtaining first-mover advantages. In parallel, traditional software vendors, such as Microsoft and SAP, are also making the transition to cloud-based business models' | Page 1, Section 1: 'software-as-a service (SaaS) (e.g. Salesforce.com cloud-based customer relationship management software delivered over the Internet), platform-as-a-service (PaaS) (e.g. Google's App Engine upon which various application can be developed, distributed and hosted), and infrastructure-as-a-service (IaaS) (e.g. Amazon Web Service that offers remote computing services)' | Page 1, Section 1: 'with a comprehensive strategy focusing on \"cloud-first design,\" Microsoft is going full force with the transition to cloud on SaaS, PaaS and IaaS levels; whereas SAP managed the shift towards offering their software on cloud through buying and partnering with other vendors at other levels' | Page 2, Section 2: 'Amazon, EMC, and AT&T in providing raw computing and data storage services, IBM, Google, and Microsoft in providing platform services, and finally Salesforce.com and SAP in providing applications and enterprise systems' | Page 1-2: 'Salesforce.com cloud-based customer relationship management software', 'new players, such as Salesforce.com and Amazon, introducing the new business models', 'traditional software vendors, such as Microsoft and SAP, are also making the transition' | Page 2: 'Amazon, EMC, and AT&T in providing raw computing and data storage services, IBM, Google, and Microsoft in providing platform services, and finally Salesforce.com and SAP in providing applications and enterprise systems' | Page 4: Description of ERP Co as main case",
       "confidence_level": "high"
     },
     {
@@ -1158,28 +1162,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "31",
-      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "ERP Co (pseudonym) → Main case study subject, Nordic ERP vendor for SMEs transitioning from on-premise to SaaS, 6000 employees, 800M NOK revenue",
-        "Salesforce.com → Example of cloud-based CRM SaaS provider, mentioned as new player with first-mover advantage",
-        "Amazon → Example of new player in IaaS (Amazon Web Service), providing raw computing and data storage services",
-        "Microsoft → Traditional software vendor making transition to cloud with 'cloud-first design' strategy, also mentioned as supplier/competitor to ERP Co, operates at all three levels (SaaS, PaaS, IaaS)",
-        "SAP → Traditional software vendor transitioning through acquisition and partnerships, provides applications and enterprise systems in cloud",
-        "Google → Provides PaaS (Google's App Engine) and platform services",
-        "IBM → Provides platform services at PaaS level",
-        "EMC → Provides raw computing and data storage services at IaaS level",
-        "AT&T → Provides infrastructure services at IaaS level"
-      ],
-      "synonyms_found": [],
-      "source_citation": "Page 1-2: 'Salesforce.com cloud-based customer relationship management software', 'new players, such as Salesforce.com and Amazon, introducing the new business models', 'traditional software vendors, such as Microsoft and SAP, are also making the transition' | Page 2: 'Amazon, EMC, and AT&T in providing raw computing and data storage services, IBM, Google, and Microsoft in providing platform services, and finally Salesforce.com and SAP in providing applications and enterprise systems' | Page 4: Description of ERP Co as main case",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -1296,28 +1278,6 @@
         "Amazon AWS"
       ],
       "source_citation": "Page 1, Section I: 'when a provider suffers from a server emergency, such as the incident happened in Amazon AWS [2]'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "31",
-      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Firm A → Planning and optimization software for telecom operators",
-        "Firm B → Interactive gaming platforms and games-on-demand services",
-        "Firm C → Enterprise-SaaS for access rights management",
-        "Firm D → 3D modeling software for furniture manufacturers"
-      ],
-      "synonyms_found": [
-        "Firm A",
-        "Firm B",
-        "Firm C",
-        "Firm D"
-      ],
-      "source_citation": "Page 3, Section IV: 'Firm A develops planning and optimization software for telecom operators' | Page 3, Section IV: 'Firm B provides interactive gaming platforms and games-on-demand services' | Page 3, Section IV: 'Firm C develops enterprise-SaaS for access rights management' | Page 4, Section IV: 'Firm D develops 3D modeling software for furniture manufacturers and furniture retailers'",
       "confidence_level": "high"
     },
     {
@@ -1445,36 +1405,6 @@
         "Sun Microsystem"
       ],
       "source_citation": "Page 3: 'several OS products (such as the Linux operating system or the Apache Web server) are currently adopted by numerous private and commercial users' | Page 7: 'even some large incumbents, like IBM, Oracle and Sun Microsystem, have embraced open source and promoted it'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "31",
-      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
-      "response_found": false,
-      "extracted_value": "not reported",
-      "synonyms_found": [],
-      "source_citation": "information not found in text",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "31",
-      "question_text": "Which companies or products are cited as examples of the software business model in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Company Alfa → Solution provider developing disturbance management service",
-        "ERP systems → Competing solutions mentioned as alternatives"
-      ],
-      "synonyms_found": [
-        "Company Alfa",
-        "ERP systems"
-      ],
-      "source_citation": "Page 3: 'Our research takes the perspective of a solution provider, a company Alfa, which develops and offers a service entity to logistic-intensive companies' | Page 5: 'The Competition in this kind of SaaS based service solutions was found to be rather low, although companies' own ERP systems and other applications are competing with the new solution of the company Alfa'",
       "confidence_level": "high"
     },
     {

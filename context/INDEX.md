@@ -55,17 +55,18 @@ Quick reference guide to all context files organized by topic.
 
 ## Analysis and Findings
 
+- **`analysis/corpus-correction-r08.md`** - Corpus correction R08 (67 records to 63 studies): duplicates, out-of-window study, decisions, before/after numbers
 - **`analysis/key_findings.md`** - Consolidated key findings
 - **`analysis/methodology_summary.md`** - SLR methodology summary
 - **`analysis/correlations.md`** - Cross-question patterns and correlations
 
 ## Quick Stats Reference
 
-- **67 papers** analyzed (2014-2024)
+- **63 primary studies** analyzed (2014-2024), after the R08 corpus correction (see `analysis/corpus-correction-r08.md`)
 - **10 research questions** (RQ01-RQ10)
 - **33 extraction questions** (12 closed, 21 open)
 - **61 codes** in 9 classes, 35 subclasses
-- **4,630 quote classifications**
+- **4,515 quote classifications** (1,807 classified quotes)
 
 ## Usage Tips
 

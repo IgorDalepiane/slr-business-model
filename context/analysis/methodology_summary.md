@@ -1,5 +1,7 @@
 # SLR Methodology Summary
 
+> **Note (2026-10-19):** the numbers in this file were written for the original corpus of 67 records. After the R08 correction the corpus has 63 primary studies; see `corpus-correction-r08.md` for the before/after numbers. The source files (`by_closed_ended_question/`, `by_open_ended_question/analysis/`) hold the current values.
+
 ## Study Scope
 
 - **Time period**: 2014-2024 (10 years)

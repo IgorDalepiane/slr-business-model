@@ -49,6 +49,14 @@ from generate_stats import analyze_question
 stats = analyze_question('13')
 ```
 
+#### `generate_distributions.py`
+Regenera `analysis/q_XX_distribution.json` e as tabelas de `STATISTICS.md` a partir dos CSVs (fonte de verdade).
+
+**Uso:**
+```bash
+python3 generate_distributions.py
+```
+
 ## Formato dos Dados
 
 ### Campo `values_inside_scope`
@@ -76,7 +84,7 @@ Ver arquivo `../prompts/prompt_closed_ended_extraction.md` para lista completa d
 ## Qualidade dos Dados
 
 ### Verificações Aplicadas
-- ✅ Todos os 67 artigos processados
+- ✅ Todos os artigos processados (63 após a correção R08)
 - ✅ Valores correspondem exatamente aos JSONs originais
 - ✅ `values_inside_scope` ⊆ `extracted_value`
 - ✅ Formato CSV consistente
@@ -127,3 +135,8 @@ Se correções forem necessárias:
   - Total: 67 artigos
   - Arquivo STATISTICS.md criado com dados consolidados
 
+- **2026-10-19**: Correção do corpus (R08)
+  - Removidos 3 registros duplicados e 1 estudo de 2013 (fora da janela 2014 a 2024): 67 → 63 artigos
+  - Extração revisada única para cada estudo duplicado; correção de transcrição em 3 linhas do Q17 ("Data")
+  - `STATISTICS.md` e distribuições regeneradas por `generate_distributions.py`
+  - Detalhes: `context/analysis/corpus-correction-r08.md`

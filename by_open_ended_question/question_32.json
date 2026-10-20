@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "32",
     "question_text": "Are there variations or subtypes of the software business model described in the article?",
-    "total_articles": 67,
-    "articles_with_response": 67,
+    "total_articles": 63,
+    "articles_with_response": 63,
     "articles_without_response": 0
   },
   "responses_by_article": [
@@ -22,16 +22,24 @@
         "Cost-focused models (15% of vendors) → Prefer cost-based over value-based components",
         "Payment-focus models (47% of vendors) → Emphasize payment-based and usage-independent pricing",
         "Usage-dependent models (33% of vendors) → Focus on usage-dependent pricing",
-        "Service-based models (20% of vendors) → Emphasize service-based pricing with complex licenses"
+        "Service-based models (20% of vendors) → Emphasize service-based pricing with complex licenses",
+        "Value-based pricing → Client-dictated pricing based on business value",
+        "Cost-based pricing → Vendor-dictated pricing based on cost accounting",
+        "Usage-dependent pricing → Pricing based on actual usage intensity",
+        "Usage-independent pricing → Pricing based on fixed metrics like user count"
       ],
       "synonyms_found": [
         "orientation",
         "categories",
         "clusters",
         "models",
-        "pricing strategies"
+        "pricing strategies",
+        "value-based",
+        "cost-based",
+        "usage-dependent",
+        "usage-independent"
       ],
-      "source_citation": "Page 3: 'Layer 1 of our pricing framework consists of two types of pricing orientations, namely cost-based and value-based. Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting...cost-based pricing is dictated by SaaS vendors rather than clients. Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value to be extracted from such software services. Value-based pricing is thus in sharp contrast to cost-based pricing in that it is dictated by clients rather than SaaS vendors' | Page 4: 'The largest cluster (C1) makes up 57% of our sample...most SaaS vendors prefer compact licensing models' | Page 4: 'Cluster two (C2) makes up 28% of our sample...vendors in C2 attach more importance on value-based rather than cost-based orientation' | Page 4: 'Cluster three (C3) makes up 15% of our sample...vendors in C3 attach more importance on cost-based rather than value-based orientation' | Page 4-5: 'Cluster one (C1) that makes up 47% of the sample represent vendors that attached more importance on pricing components from the payment-based and usage-independent based categories' | Page 5: 'Vendors in Cluster two (C2) that make up 33% of the sample attach more importance on pricing components from the usage-dependent based category' | Page 5: 'Vendors in Cluster three (C3) that makes up 20% of the sample attach more importance on pricing components from the service-based category'",
+      "source_citation": "Page 3: 'Layer 1 of our pricing framework consists of two types of pricing orientations, namely cost-based and value-based. Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting...cost-based pricing is dictated by SaaS vendors rather than clients. Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value to be extracted from such software services. Value-based pricing is thus in sharp contrast to cost-based pricing in that it is dictated by clients rather than SaaS vendors' | Page 4: 'The largest cluster (C1) makes up 57% of our sample...most SaaS vendors prefer compact licensing models' | Page 4: 'Cluster two (C2) makes up 28% of our sample...vendors in C2 attach more importance on value-based rather than cost-based orientation' | Page 4: 'Cluster three (C3) makes up 15% of our sample...vendors in C3 attach more importance on cost-based rather than value-based orientation' | Page 4-5: 'Cluster one (C1) that makes up 47% of the sample represent vendors that attached more importance on pricing components from the payment-based and usage-independent based categories' | Page 5: 'Vendors in Cluster two (C2) that make up 33% of the sample attach more importance on pricing components from the usage-dependent based category' | Page 5: 'Vendors in Cluster three (C3) that makes up 20% of the sample attach more importance on pricing components from the service-based category' | Page 3: 'Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting... Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value'",
       "confidence_level": "high"
     },
     {
@@ -48,7 +56,12 @@
         "Traditional Software Licensing → Perpetual license with full ownership rights for internal data center deployment; one-time purchase or concern license for unlimited internal use",
         "Hybrid Model → Offering both rental and licensing options from same software architecture based on customer needs",
         "Multi-tenant Architecture → Single instance serving multiple customers (tenants) on shared server",
-        "Multi-instance Architecture → Separate instances for each customer within shared hardware; enables customization in meta-data layer"
+        "Multi-instance Architecture → Separate instances for each customer within shared hardware; enables customization in meta-data layer",
+        "Pure-SaaS → Simple to use, low customization requirements, lower strategic significance",
+        "Enterprise-SaaS → More complex, requires support and integration, higher strategic significance",
+        "Software renting → Flexible pricing, lower initial costs",
+        "Traditional licensing → Perpetual license, higher initial costs",
+        "Dual revenue models → Both renting and licensing options available"
       ],
       "synonyms_found": [
         "pure-SaaS",
@@ -56,9 +69,10 @@
         "software renting",
         "traditional licensing",
         "multi-tenant",
-        "multi-instance"
+        "multi-instance",
+        "dual revenue models"
       ],
-      "source_citation": "Page 2: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes. Pure SaaS refers to software that is simple to use and has low or no requirements for customization... pure-SaaS products also have lower strategic significance in a customer's business processes compared to enterprise-SaaS products... Enterprise-SaaS, on the other hand, refers to software which is more complex and which may require support, involving integration with customers' existing IT systems' | Page 2: 'SaaS has multi-tenant or multi-instance architecture; the former refers to the situation in which a vendor hosts a single instance on a server that serves multiple customers (tenants), whereas the latter is related to the model in which a vendor hosts separate instances for each customer within shared hardware' | Page 5: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs... enterprise-SaaS providers (Firms C and D) seem to protect their business against low switching costs by using separate pricing for the implementation work'",
+      "source_citation": "Page 2: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes. Pure SaaS refers to software that is simple to use and has low or no requirements for customization... pure-SaaS products also have lower strategic significance in a customer's business processes compared to enterprise-SaaS products... Enterprise-SaaS, on the other hand, refers to software which is more complex and which may require support, involving integration with customers' existing IT systems' | Page 2: 'SaaS has multi-tenant or multi-instance architecture; the former refers to the situation in which a vendor hosts a single instance on a server that serves multiple customers (tenants), whereas the latter is related to the model in which a vendor hosts separate instances for each customer within shared hardware' | Page 5: 'Pure-SaaS providers (Firms A and B) seem to use time-based price discrimination to protect their business against low switching costs... enterprise-SaaS providers (Firms C and D) seem to protect their business against low switching costs by using separate pricing for the implementation work' | Page 2, Section II: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes [14]. Pure SaaS refers to software that is simple to use and has low or no requirements for customization [15].' | Page 2, Section II: 'Enterprise-SaaS, on the other hand, refers to software which is more complex and which may require support, involving integration with customers' existing IT systems [15].'",
       "confidence_level": "high"
     },
     {
@@ -71,7 +85,12 @@
       "extracted_value": [
         "Pure cloud/SaaS model → Initial approach focusing heavily (80%) on SaaS development with minimal on-premise maintenance; rapid transition strategy",
         "Hybrid model → Balanced approach with 50/50 R&D allocation between SaaS and on-premise products; controlled transition allowing gradual adaptation",
-        "Three cloud delivery model levels → SaaS (software applications), PaaS (platform for development), IaaS (infrastructure and computing resources)"
+        "Three cloud delivery model levels → SaaS (software applications), PaaS (platform for development), IaaS (infrastructure and computing resources)",
+        "Hybrid model → Balanced approach maintaining both SaaS-based and on-premise products in equal terms (50/50 R&D allocation), allows gradual transition while supporting existing customer base",
+        "Pure SaaS model → Full transition to cloud-based delivery, initially attempted with 80/20 R&D allocation favoring SaaS",
+        "SaaS-based add-ons model → Offering cloud-based additional functionalities to customers with on-premise core systems",
+        "Three delivery models by customer segment → 1) Direct standardized out-of-box SaaS to micro businesses, 2) VAR-mediated tailored SaaS for small-medium businesses, 3) Intensive consulting-based for bigger SMBs",
+        "Controlled transition approach → Pilot implementation with limited approved customers (50) to minimize risks before full rollout"
       ],
       "synonyms_found": [
         "hybrid model",
@@ -80,7 +99,7 @@
         "PaaS",
         "IaaS"
       ],
-      "source_citation": "Page 1, Section 1: 'There are three commonly recognized delivery models of cloud computing, namely software-as-a service (SaaS)... platform-as-a-service (PaaS)... and infrastructure-as-a-service (IaaS)' | Page 6, Section 5.2.1: 'ERP Co adjusted their research and development resources to 80% in SaaS and 20% in on-premise, as an attempt to facilitate the development of the SaaS products' | Page 6, Section 5.2.2: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms. The distribution of R&D resources was adjusted to 50% each for SaaS products and on-premise products.' | Page 6, Section 5.2.2: 'The hybrid strategy led to so-called \"controlled transition\" towards cloud'",
+      "source_citation": "Page 1, Section 1: 'There are three commonly recognized delivery models of cloud computing, namely software-as-a service (SaaS)... platform-as-a-service (PaaS)... and infrastructure-as-a-service (IaaS)' | Page 6, Section 5.2.1: 'ERP Co adjusted their research and development resources to 80% in SaaS and 20% in on-premise, as an attempt to facilitate the development of the SaaS products' | Page 6, Section 5.2.2: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms. The distribution of R&D resources was adjusted to 50% each for SaaS products and on-premise products.' | Page 6, Section 5.2.2: 'The hybrid strategy led to so-called \"controlled transition\" towards cloud' | Page 6: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms. The distribution of R&D resources was adjusted to 50% each for SaaS products and on-premise products' | Page 6: 'As for other customers who have on-premise core systems, ERP Co will on the one hand keep maintaining and supporting the on-premise product, and one the other hand selling SaaS-based add-ons' | Page 6: 'ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers'",
       "confidence_level": "high"
     },
     {
@@ -960,24 +979,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "32",
-      "question_text": "Are there variations or subtypes of the software business model described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Hybrid model → Balanced approach maintaining both SaaS-based and on-premise products in equal terms (50/50 R&D allocation), allows gradual transition while supporting existing customer base",
-        "Pure SaaS model → Full transition to cloud-based delivery, initially attempted with 80/20 R&D allocation favoring SaaS",
-        "SaaS-based add-ons model → Offering cloud-based additional functionalities to customers with on-premise core systems",
-        "Three delivery models by customer segment → 1) Direct standardized out-of-box SaaS to micro businesses, 2) VAR-mediated tailored SaaS for small-medium businesses, 3) Intensive consulting-based for bigger SMBs",
-        "Controlled transition approach → Pilot implementation with limited approved customers (50) to minimize risks before full rollout"
-      ],
-      "synonyms_found": [],
-      "source_citation": "Page 6: 'The resulting strategy is to pursue the so-called hybrid model where both ends (SaaS-based and on-premise products) were handled in equal terms. The distribution of R&D resources was adjusted to 50% each for SaaS products and on-premise products' | Page 6: 'As for other customers who have on-premise core systems, ERP Co will on the one hand keep maintaining and supporting the on-premise product, and one the other hand selling SaaS-based add-ons' | Page 6: 'ERP Co conducted a round of pilot implementation by selling 50 SaaS product to approved customers'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -1086,30 +1087,6 @@
         "All move"
       ],
       "source_citation": "Page 3, Section IV: 'five different strategies that may be adopted by servers have been studied, they are: Fixed, All move, Rich move, Poor move, and Poor request-rate move' | Page 3, Section IV: 'In this move, those servers whose request rate is less than the average request rate are defined as poor.'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "32",
-      "question_text": "Are there variations or subtypes of the software business model described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Pure-SaaS → Simple to use, low customization requirements, lower strategic significance",
-        "Enterprise-SaaS → More complex, requires support and integration, higher strategic significance",
-        "Software renting → Flexible pricing, lower initial costs",
-        "Traditional licensing → Perpetual license, higher initial costs",
-        "Dual revenue models → Both renting and licensing options available"
-      ],
-      "synonyms_found": [
-        "Pure-SaaS",
-        "Enterprise-SaaS",
-        "software renting",
-        "traditional licensing",
-        "dual revenue models"
-      ],
-      "source_citation": "Page 2, Section II: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes [14]. Pure SaaS refers to software that is simple to use and has low or no requirements for customization [15].' | Page 2, Section II: 'Enterprise-SaaS, on the other hand, refers to software which is more complex and which may require support, involving integration with customers' existing IT systems [15].'",
       "confidence_level": "high"
     },
     {
@@ -1241,47 +1218,6 @@
         "minimal openness"
       ],
       "source_citation": "Page 3: 'the entrant is price-setter, and competes with the incumbent on prices' | Page 3: 'the entrant mimics the price set by the incumbent, thus being a price-taker' | Page 13: 'maximal openness' | Page 13: 'partial openness (hybrid business model)' | Page 13: 'minimal openness'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "32",
-      "question_text": "Are there variations or subtypes of the software business model described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Value-based pricing → Client-dictated pricing based on business value",
-        "Cost-based pricing → Vendor-dictated pricing based on cost accounting",
-        "Usage-dependent pricing → Pricing based on actual usage intensity",
-        "Usage-independent pricing → Pricing based on fixed metrics like user count"
-      ],
-      "synonyms_found": [
-        "value-based",
-        "cost-based",
-        "usage-dependent",
-        "usage-independent"
-      ],
-      "source_citation": "Page 3: 'Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting... Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "32",
-      "question_text": "Are there variations or subtypes of the software business model described in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Segment-specific value propositions → Different approaches for cargo owners vs logistic operators",
-        "Industry-specific implementations → Variations based on transported goods value"
-      ],
-      "synonyms_found": [
-        "variations",
-        "subtypes",
-        "segments"
-      ],
-      "source_citation": "Page 5: 'The value proposition will vary depending on the customer segment and their products to which the new solution will be provided' | Page 4: 'According to our study, the customer needs related to the analysis and management of disturbances vary between different industries, because they have different characteristics and thus the vulnerability to disturbances varies'",
       "confidence_level": "high"
     },
     {

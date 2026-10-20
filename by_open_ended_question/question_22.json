@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "22",
     "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
-    "total_articles": 67,
-    "articles_with_response": 67,
+    "total_articles": 63,
+    "articles_with_response": 63,
     "articles_without_response": 0
   },
   "responses_by_article": [
@@ -22,15 +22,22 @@
         "For vendors: Eliminate complexities and costs of managing multiple software versions",
         "For vendors: Free up resources to focus on functionality enhancements and service innovations",
         "For vendors: Achieve economies of scale through multi-tenant architecture",
-        "Market growth opportunity (26% compound annual growth rate expected)"
+        "Market growth opportunity (26% compound annual growth rate expected)",
+        "Elimination of upfront licensing costs",
+        "Simplified software management",
+        "Faster access to innovation",
+        "Reduced maintenance responsibilities"
       ],
       "synonyms_found": [
         "benefits",
         "advantages",
         "growth",
-        "innovation"
+        "innovation",
+        "cost reduction",
+        "simplified licensing",
+        "innovation access"
       ],
-      "source_citation": "Page 1: 'The multi-tenant architecture of SaaS benefits both clients and vendors alike. For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated, thereby freeing up resources to focus on functionality enhancements and service innovations' | Page 1: 'the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' | Page 3: 'From clients' perspective, such software licenses are greatly simplified for the fact that they only pay for their use of the subscribed software' | Page 2: 'clients are charged for only what they have utilized, usually on a periodic basis'",
+      "source_citation": "Page 1: 'The multi-tenant architecture of SaaS benefits both clients and vendors alike. For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated, thereby freeing up resources to focus on functionality enhancements and service innovations' | Page 1: 'the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' | Page 3: 'From clients' perspective, such software licenses are greatly simplified for the fact that they only pay for their use of the subscribed software' | Page 2: 'clients are charged for only what they have utilized, usually on a periodic basis' | Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated'",
       "confidence_level": "high"
     },
     {
@@ -50,16 +57,25 @@
         "Protection against low switching costs through pricing strategies",
         "Cost advantages and strategic benefits for customers",
         "Reduced price competition and differentiation from traditional software providers",
-        "Ability to deliver updates immediately to all customers"
+        "Ability to deliver updates immediately to all customers",
+        "Flexible pricing models",
+        "Lower production costs",
+        "Cost savings in implementation and maintenance",
+        "Accessibility for smaller customers",
+        "Faster delivery and updates",
+        "Customer needs and preferences"
       ],
       "synonyms_found": [
         "cost savings",
         "flexibility",
         "accessibility",
         "lower costs",
-        "strategic benefits"
+        "strategic benefits",
+        "flexible pricing",
+        "production costs",
+        "customer needs"
       ],
-      "source_citation": "Page 3: 'Firm A prefers software renting on the grounds that it brings cost savings by decreasing production costs. These cost savings are related in particular to the traveling costs for installation, implementation, maintenance, and after-sales support within customers' premises' | Page 3: 'the rental model also made the software attractive for the customer as it was possible to have more flexible pricing models than in software licensing' | Page 2: 'opportunities related to the cost advantages of SaaS were the strongest driver for SaaS adoption' | Page 2: 'the adoption of SaaS is more related to strategic benefits than to economic benefits' | Page 5: 'Low initial costs in software renting enabled to expand the customer base from large-sized customers toward small and medium-sized customers'",
+      "source_citation": "Page 3: 'Firm A prefers software renting on the grounds that it brings cost savings by decreasing production costs. These cost savings are related in particular to the traveling costs for installation, implementation, maintenance, and after-sales support within customers' premises' | Page 3: 'the rental model also made the software attractive for the customer as it was possible to have more flexible pricing models than in software licensing' | Page 2: 'opportunities related to the cost advantages of SaaS were the strongest driver for SaaS adoption' | Page 2: 'the adoption of SaaS is more related to strategic benefits than to economic benefits' | Page 5: 'Low initial costs in software renting enabled to expand the customer base from large-sized customers toward small and medium-sized customers' | Page 5, Section V: 'software renting enabled flexible pricing (firms A, B, and C) based on the number of users, the functionalities used, and so on' | Page 5, Section V: 'The rental model through the public cloud decreased the production costs of case firms A and C' | Page 1, Abstract: 'customers' needs were the main driving force to the selection of the most appropriate pricing and revenue model in the market.'",
       "confidence_level": "high"
     },
     {
@@ -75,10 +91,18 @@
         "Pressure from investors to increase company value through cloud transition",
         "Cost efficiency and low entry costs for customers",
         "Greater flexibility and scalability for customers",
-        "Competitive pressure from new cloud players (Salesforce, Amazon) and transitioning incumbents (Microsoft, SAP)"
+        "Competitive pressure from new cloud players (Salesforce, Amazon) and transitioning incumbents (Microsoft, SAP)",
+        "Cost efficiency - pay-as-you-go model liberates from upfront capital investment, significantly lowers entry barrier for smaller organizations",
+        "Low/minimal entry costs for acquiring IT resources",
+        "Great flexibility and scalability - capability to scale up and down IT resources",
+        "Productivity boost and innovation potential for all organizations",
+        "Decreased demand for IT skills or expertise as operations are outsourced",
+        "Market demands and technological maturity driving adoption",
+        "Competitive pressure - need to adapt as competitors offer cloud solutions",
+        "Leveled playing field for small and medium organizations with less resources"
       ],
       "synonyms_found": [],
-      "source_citation": "Page 5, Section 5.2.1: 'The decision for the transition was on the one hand partially triggered by the macro environment with increasing market demands and technological maturity, and on the other hand pressured by the investor at the time as transition to cloud is likely to increase the value of the company.' | Page 1, Section 1: 'Over the recent years, we have seen new players, such as Salesforce.com and Amazon, introducing the new business models and obtaining first-mover advantages. In parallel, traditional software vendors, such as Microsoft and SAP, are also making the transition to cloud-based business models' | Page 1, Section 2: 'The advantages provided by this new way of consuming computing resources, such as low/minimal entry costs, pay-as-you-go mode, and great flexibility and scalability'",
+      "source_citation": "Page 5, Section 5.2.1: 'The decision for the transition was on the one hand partially triggered by the macro environment with increasing market demands and technological maturity, and on the other hand pressured by the investor at the time as transition to cloud is likely to increase the value of the company.' | Page 1, Section 1: 'Over the recent years, we have seen new players, such as Salesforce.com and Amazon, introducing the new business models and obtaining first-mover advantages. In parallel, traditional software vendors, such as Microsoft and SAP, are also making the transition to cloud-based business models' | Page 1, Section 2: 'The advantages provided by this new way of consuming computing resources, such as low/minimal entry costs, pay-as-you-go mode, and great flexibility and scalability' | Page 1: 'The advantages provided by this new way of consuming computing resources, such as low/minimal entry costs, pay-as-you-go mode, and great flexibility and scalability, have on the one hand levelled the playing field for small and medium organizations with less resources, and on the other hand provided productivity boost, cost efficiency, and innovation potential for all organizations' | Page 2: 'the pay-as-you-go or subscription-based payment model has liberated organizations from upfront capital investment... and hence significantly lowered the entry barrier' | Page 5: 'The decision for the transition was on the one hand partially triggered by the macro environment with increasing market demands and technological maturity, and on the other hand pressured by the investor'",
       "confidence_level": "high"
     },
     {
@@ -1039,28 +1063,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "22",
-      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Cost efficiency - pay-as-you-go model liberates from upfront capital investment, significantly lowers entry barrier for smaller organizations",
-        "Low/minimal entry costs for acquiring IT resources",
-        "Great flexibility and scalability - capability to scale up and down IT resources",
-        "Productivity boost and innovation potential for all organizations",
-        "Decreased demand for IT skills or expertise as operations are outsourced",
-        "Market demands and technological maturity driving adoption",
-        "Pressure from investors to increase company value through cloud transition",
-        "Competitive pressure - need to adapt as competitors offer cloud solutions",
-        "Leveled playing field for small and medium organizations with less resources"
-      ],
-      "synonyms_found": [],
-      "source_citation": "Page 1: 'The advantages provided by this new way of consuming computing resources, such as low/minimal entry costs, pay-as-you-go mode, and great flexibility and scalability, have on the one hand levelled the playing field for small and medium organizations with less resources, and on the other hand provided productivity boost, cost efficiency, and innovation potential for all organizations' | Page 2: 'the pay-as-you-go or subscription-based payment model has liberated organizations from upfront capital investment... and hence significantly lowered the entry barrier' | Page 5: 'The decision for the transition was on the one hand partially triggered by the macro environment with increasing market demands and technological maturity, and on the other hand pressured by the investor'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -1175,30 +1177,6 @@
         "cost savings"
       ],
       "source_citation": "Page 1, Section I: 'when a growing mid-size provider broadening its business to global market, it may suffer from many investment and management issues' | Page 1, Section I: 'when a provider suffers from a server emergency, such as the incident happened in Amazon AWS [2], or a security attack, such as DDoS, the whole chain of its market will face a serious problem, which is commonly known as the single-point-of-failure problem' | Page 2, Section III: 'A benefit for HQ is it can save the connection/traffic cost, use less data center, and concentrate on its product development.'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "22",
-      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Flexible pricing models",
-        "Lower production costs",
-        "Cost savings in implementation and maintenance",
-        "Accessibility for smaller customers",
-        "Faster delivery and updates",
-        "Customer needs and preferences"
-      ],
-      "synonyms_found": [
-        "flexible pricing",
-        "cost savings",
-        "production costs",
-        "customer needs"
-      ],
-      "source_citation": "Page 5, Section V: 'software renting enabled flexible pricing (firms A, B, and C) based on the number of users, the functionalities used, and so on' | Page 5, Section V: 'The rental model through the public cloud decreased the production costs of case firms A and C' | Page 1, Abstract: 'customers' needs were the main driving force to the selection of the most appropriate pricing and revenue model in the market.'",
       "confidence_level": "high"
     },
     {
@@ -1328,52 +1306,6 @@
         "independence from incumbents"
       ],
       "source_citation": "Page 6: 'many start-ups consider the adoption of an OS business model as a 'secret weapon' to enter market segments traditionally dominated by incumbent proprietary firms' | Page 6: 'Thus, \"going open source\" and offering OS solutions may allow start-ups to capture a residual demand which is not fully covered by proprietary incumbents' | Page 6: 'view the offering of OS solutions as a way to be independent from the pricing and license strategies of large proprietary incumbents'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "22",
-      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Elimination of upfront licensing costs",
-        "Simplified software management",
-        "Faster access to innovation",
-        "Reduced maintenance responsibilities"
-      ],
-      "synonyms_found": [
-        "cost reduction",
-        "simplified licensing",
-        "innovation access"
-      ],
-      "source_citation": "Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "22",
-      "question_text": "What motivations lead to the adoption of the software business model presented in the article?",
-      "response_found": true,
-      "extracted_value": [
-        "Need for information about transport disturbances and their costs",
-        "Minimizing high costs of quality",
-        "Systematic compilation of statistics on disturbances",
-        "Transparent reporting of disturbances",
-        "Comprehensive analysis of disturbance causes",
-        "Centralized systems for following company's situation",
-        "Improving operational efficiency and cost savings"
-      ],
-      "synonyms_found": [
-        "customer needs",
-        "benefits",
-        "costs",
-        "efficiency"
-      ],
-      "source_citation": "Page 4: 'According to our study, the customer needs related to the analysis and management of disturbances vary between different industries' | Page 4: 'The results of the study show that there are clear needs for the development of solutions for disturbance management and analysis in supply chains' | Page 4: 'Need for information about the success of total transportations; what kind of disturbances happen and what are their costs'",
       "confidence_level": "high"
     },
     {

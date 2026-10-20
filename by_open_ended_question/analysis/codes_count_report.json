@@ -3,22 +3,15 @@
     "total_codes": 61,
     "codes_with_quotes": 61,
     "codes_without_quotes": 0,
-    "total_classifications": 4630
+    "total_classifications": 4515
   },
   "results": [
     {
       "code": "Platform business model",
-      "count": 391,
+      "count": 389,
       "class": "Business model characteristics",
       "subclass": "Value creation",
       "description": "Business model creating value through ecosystem of external connections and data"
-    },
-    {
-      "code": "SaaS (Software as a Service)",
-      "count": 289,
-      "class": "Business model characteristics",
-      "subclass": "Delivery model",
-      "description": "Software delivered as hosted service accessed over the Internet"
     },
     {
       "code": "Mobile app market",
@@ -26,6 +19,13 @@
       "class": "Market positioning",
       "subclass": "Industry focus",
       "description": "Business models specifically designed for mobile application distribution"
+    },
+    {
+      "code": "SaaS (Software as a Service)",
+      "count": 266,
+      "class": "Business model characteristics",
+      "subclass": "Delivery model",
+      "description": "Software delivered as hosted service accessed over the Internet"
     },
     {
       "code": "Freemium model",
@@ -43,35 +43,35 @@
     },
     {
       "code": "B2B business model",
-      "count": 161,
+      "count": 149,
       "class": "Market positioning",
       "subclass": "Customer type",
       "description": "Business-to-business model targeting organizational customers"
     },
     {
       "code": "Subscription-based pricing",
-      "count": 153,
+      "count": 149,
       "class": "Business model characteristics",
       "subclass": "Pricing strategy",
       "description": "Recurring payment model for software access with monthly/annual billing"
     },
     {
       "code": "Cloud delivery model",
-      "count": 152,
+      "count": 147,
       "class": "Business model characteristics",
       "subclass": "Delivery model",
       "description": "Software distribution through cloud infrastructure and remote hosting"
     },
     {
       "code": "Service-oriented model",
-      "count": 144,
+      "count": 140,
       "class": "Business model characteristics",
       "subclass": "Value proposition",
       "description": "Business model emphasizing service delivery over product sales"
     },
     {
       "code": "Ecosystem management",
-      "count": 138,
+      "count": 137,
       "class": "Success factors",
       "subclass": "Relationship management",
       "description": "Managing relationships with partners and stakeholders during transitions"
@@ -85,14 +85,14 @@
     },
     {
       "code": "Startup company focus",
-      "count": 127,
+      "count": 125,
       "class": "Company characteristics",
       "subclass": "Company size",
       "description": "Business models typically adopted by young, emerging companies"
     },
     {
       "code": "Data-driven monetization",
-      "count": 108,
+      "count": 105,
       "class": "Business model characteristics",
       "subclass": "Revenue model",
       "description": "Business model generating revenue from user data and analytics"
@@ -106,45 +106,31 @@
     },
     {
       "code": "Cloud computing infrastructure",
-      "count": 95,
+      "count": 94,
       "class": "Technical architecture",
       "subclass": "Infrastructure",
       "description": "Technical infrastructure enabling cloud-based software delivery"
     },
     {
       "code": "Gaming industry focus",
-      "count": 95,
+      "count": 94,
       "class": "Market positioning",
       "subclass": "Industry focus",
       "description": "Business models targeting the video game and gaming industry"
     },
     {
       "code": "Established vendor transition",
-      "count": 94,
+      "count": 89,
       "class": "Company characteristics",
       "subclass": "Company maturity",
       "description": "Traditional software vendors transitioning to new business models"
     },
     {
       "code": "Enterprise market focus",
-      "count": 91,
+      "count": 85,
       "class": "Market positioning",
       "subclass": "Customer segments",
       "description": "Business model targeting large organizations and enterprises"
-    },
-    {
-      "code": "Growing business model",
-      "count": 85,
-      "class": "Model maturity",
-      "subclass": "Maturity level",
-      "description": "Business model experiencing increasing market adoption and maturity"
-    },
-    {
-      "code": "Market expansion",
-      "count": 84,
-      "class": "Success factors",
-      "subclass": "Growth strategy",
-      "description": "Strategy of expanding customer base to achieve economies of scale"
     },
     {
       "code": "Technology evolution",
@@ -154,39 +140,46 @@
       "description": "Ongoing technological changes affecting business model development"
     },
     {
-      "code": "Emerging business model",
+      "code": "Market expansion",
+      "count": 82,
+      "class": "Success factors",
+      "subclass": "Growth strategy",
+      "description": "Strategy of expanding customer base to achieve economies of scale"
+    },
+    {
+      "code": "Growing business model",
       "count": 80,
+      "class": "Model maturity",
+      "subclass": "Maturity level",
+      "description": "Business model experiencing increasing market adoption and maturity"
+    },
+    {
+      "code": "Emerging business model",
+      "count": 77,
       "class": "Model maturity",
       "subclass": "Maturity level",
       "description": "New or developing business model in early stages of adoption"
     },
     {
       "code": "Hybrid business model",
-      "count": 77,
+      "count": 74,
       "class": "Business model characteristics",
       "subclass": "Model type",
       "description": "Business model combining multiple approaches (e.g., both SaaS and traditional licensing)"
     },
     {
       "code": "Cross-industry applications",
-      "count": 72,
+      "count": 67,
       "class": "Market positioning",
       "subclass": "Industry focus",
       "description": "Software business models applicable across multiple industry verticals"
     },
     {
       "code": "Global market presence",
-      "count": 66,
+      "count": 65,
       "class": "Market positioning",
       "subclass": "Geographic scope",
       "description": "Business models with international or worldwide market reach"
-    },
-    {
-      "code": "Organizational preparedness",
-      "count": 64,
-      "class": "Success factors",
-      "subclass": "Organizational capability",
-      "description": "Company's readiness to implement business model changes"
     },
     {
       "code": "Marketplace model",
@@ -196,22 +189,29 @@
       "description": "Business model facilitating transactions between multiple parties"
     },
     {
-      "code": "SME market focus",
-      "count": 60,
-      "class": "Market positioning",
-      "subclass": "Customer segments",
-      "description": "Business model targeting small and medium enterprises"
+      "code": "Organizational preparedness",
+      "count": 63,
+      "class": "Success factors",
+      "subclass": "Organizational capability",
+      "description": "Company's readiness to implement business model changes"
     },
     {
       "code": "Flexible pricing strategies",
-      "count": 58,
+      "count": 57,
       "class": "Mitigation strategies",
       "subclass": "Pricing solutions",
       "description": "Pricing approaches that accommodate diverse customer needs"
     },
     {
+      "code": "SME market focus",
+      "count": 57,
+      "class": "Market positioning",
+      "subclass": "Customer segments",
+      "description": "Business model targeting small and medium enterprises"
+    },
+    {
       "code": "Economies of scale",
-      "count": 53,
+      "count": 51,
       "class": "Business model characteristics",
       "subclass": "Cost structure",
       "description": "Business model advantage from serving large customer base"
@@ -224,18 +224,18 @@
       "description": "Business models focused on healthcare and medical technology applications"
     },
     {
-      "code": "Future growth potential",
-      "count": 49,
-      "class": "Future trends",
-      "subclass": "Growth expectations",
-      "description": "Expected continued expansion and development of business model"
-    },
-    {
       "code": "Digital transformation",
       "count": 46,
       "class": "Business model characteristics",
       "subclass": "Value proposition",
       "description": "Business model enabling digital transformation of traditional industries"
+    },
+    {
+      "code": "Future growth potential",
+      "count": 46,
+      "class": "Future trends",
+      "subclass": "Growth expectations",
+      "description": "Expected continued expansion and development of business model"
     },
     {
       "code": "API-based business model",
@@ -245,13 +245,6 @@
       "description": "Business model providing value through application programming interfaces"
     },
     {
-      "code": "Security concerns",
-      "count": 41,
-      "class": "Implementation challenges",
-      "subclass": "Customer barriers",
-      "description": "Customer concerns about data security in cloud-based models"
-    },
-    {
       "code": "Pay-as-you-go pricing",
       "count": 40,
       "class": "Business model characteristics",
@@ -259,39 +252,39 @@
       "description": "Usage-based pricing model where customers pay for what they consume"
     },
     {
+      "code": "Security concerns",
+      "count": 40,
+      "class": "Implementation challenges",
+      "subclass": "Customer barriers",
+      "description": "Customer concerns about data security in cloud-based models"
+    },
+    {
       "code": "Revenue stream transformation",
-      "count": 38,
+      "count": 37,
       "class": "Implementation challenges",
       "subclass": "Financial impact",
       "description": "Shift from upfront payments to recurring revenue models"
     },
     {
       "code": "Service quality improvement",
-      "count": 36,
+      "count": 35,
       "class": "Success factors",
       "subclass": "Quality management",
       "description": "Continuous enhancement of service quality to retain customers"
     },
     {
       "code": "Value-based orientation",
-      "count": 36,
+      "count": 35,
       "class": "Success factors",
       "subclass": "Strategic approach",
       "description": "Business strategy focusing on delivering customer value"
     },
     {
       "code": "Low switching costs",
-      "count": 35,
+      "count": 34,
       "class": "Business model characteristics",
       "subclass": "Customer retention",
       "description": "Business model characteristic where customers can easily change providers"
-    },
-    {
-      "code": "Value-based pricing",
-      "count": 33,
-      "class": "Business model characteristics",
-      "subclass": "Pricing strategy",
-      "description": "Pricing strategy based on customer-perceived value rather than cost"
     },
     {
       "code": "Sustainability focus",
@@ -301,18 +294,11 @@
       "description": "Business model integrating ecological sustainability into core operations"
     },
     {
-      "code": "Multi-tenant architecture",
-      "count": 24,
-      "class": "Technical architecture",
-      "subclass": "Infrastructure",
-      "description": "Single software instance serving multiple customers on shared infrastructure"
-    },
-    {
-      "code": "On-demand access",
-      "count": 24,
-      "class": "Technical architecture",
-      "subclass": "Access model",
-      "description": "Software access available immediately when needed by customers"
+      "code": "Value-based pricing",
+      "count": 30,
+      "class": "Business model characteristics",
+      "subclass": "Pricing strategy",
+      "description": "Pricing strategy based on customer-perceived value rather than cost"
     },
     {
       "code": "Consolidated business model",
@@ -322,22 +308,36 @@
       "description": "Established business model with widespread market adoption"
     },
     {
-      "code": "Organizational readiness",
+      "code": "On-demand access",
       "count": 23,
+      "class": "Technical architecture",
+      "subclass": "Access model",
+      "description": "Software access available immediately when needed by customers"
+    },
+    {
+      "code": "Multi-tenant architecture",
+      "count": 22,
+      "class": "Technical architecture",
+      "subclass": "Infrastructure",
+      "description": "Single software instance serving multiple customers on shared infrastructure"
+    },
+    {
+      "code": "Organizational readiness",
+      "count": 22,
       "class": "Implementation challenges",
       "subclass": "Customer barriers",
       "description": "Customer organization's capability to adopt new business models"
     },
     {
       "code": "Partner ecosystem disruption",
-      "count": 23,
+      "count": 22,
       "class": "Implementation challenges",
       "subclass": "Ecosystem impact",
       "description": "Business model changes affecting partner and vendor relationships"
     },
     {
       "code": "Internet connectivity requirement",
-      "count": 21,
+      "count": 20,
       "class": "Technical architecture",
       "subclass": "Infrastructure",
       "description": "Business model requiring internet connection for software access"
@@ -350,13 +350,6 @@
       "description": "Challenge of maintaining customer confidence during business model transitions"
     },
     {
-      "code": "Remote hosting",
-      "count": 18,
-      "class": "Technical architecture",
-      "subclass": "Infrastructure",
-      "description": "Software hosted on external servers rather than customer premises"
-    },
-    {
       "code": "High switching costs",
       "count": 17,
       "class": "Business model characteristics",
@@ -364,18 +357,11 @@
       "description": "Business model characteristic where customers face barriers to changing providers"
     },
     {
-      "code": "USA-dominant market",
-      "count": 16,
-      "class": "Market positioning",
-      "subclass": "Geographic scope",
-      "description": "Business models with primary focus on United States market"
-    },
-    {
-      "code": "Cost-based pricing",
-      "count": 15,
-      "class": "Business model characteristics",
-      "subclass": "Pricing strategy",
-      "description": "Pricing strategy based on vendor costs and cost accounting"
+      "code": "Remote hosting",
+      "count": 17,
+      "class": "Technical architecture",
+      "subclass": "Infrastructure",
+      "description": "Software hosted on external servers rather than customer premises"
     },
     {
       "code": "Quality management",
@@ -383,6 +369,20 @@
       "class": "Implementation challenges",
       "subclass": "Operational impact",
       "description": "Challenge of maintaining software quality during business model changes"
+    },
+    {
+      "code": "USA-dominant market",
+      "count": 15,
+      "class": "Market positioning",
+      "subclass": "Geographic scope",
+      "description": "Business models with primary focus on United States market"
+    },
+    {
+      "code": "Cost-based pricing",
+      "count": 14,
+      "class": "Business model characteristics",
+      "subclass": "Pricing strategy",
+      "description": "Pricing strategy based on vendor costs and cost accounting"
     },
     {
       "code": "Perpetual licensing",

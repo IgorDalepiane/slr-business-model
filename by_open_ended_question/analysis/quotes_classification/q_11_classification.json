@@ -299,28 +299,6 @@
 			"justification": "Taxa de licença baseada em número de usuários ou uso representa modelo de precificação recorrente típico de SaaS."
 		},
 		{
-			"article_id": "190655555",
-			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-			"quote": "not all customers are willing to rent the software through the public cloud, due to security concerns or a low readiness for new technologies",
-			"assigned_codes": [
-				"Security concerns",
-				"Organizational readiness",
-				"SaaS (Software as a Service)"
-			],
-			"justification": "Preocupações de segurança e baixa prontidão tecnológica são barreiras para adoção de SaaS em nuvem pública."
-		},
-		{
-			"article_id": "190655555",
-			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-			"quote": "some customers had an IT policy that did not allow installation of any software outside their own internal data center",
-			"assigned_codes": [
-				"Security concerns",
-				"Enterprise market focus",
-				"Organizational readiness"
-			],
-			"justification": "Políticas de TI restritivas em empresas criam requisitos específicos que afetam modelos de deployment e receita."
-		},
-		{
 			"article_id": "190655631",
 			"article_title": "Economic and business perspectives on smartphones as multi-sided platforms",
 			"quote": "Google chose to follow a strategy not unlike the one that Microsoft had employed in the 1980s in its relationships with PC makers — Google developed an operating system and licensed it to any and all handset makers. The key difference between Google's Android and Microsoft's DOS and Windows was that Android was open-source and cost the handset manufacturers nothing.",
@@ -383,6 +361,28 @@
 				"Platform business model"
 			],
 			"justification": "Plataformas open source com serviços adicionais pagos representam modelo híbrido de monetização em PaaS."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "not all customers are willing to rent the software through the public cloud, due to security concerns or a low readiness for new technologies",
+			"assigned_codes": [
+				"Security concerns",
+				"Organizational readiness",
+				"SaaS (Software as a Service)"
+			],
+			"justification": "Preocupações de segurança e baixa prontidão tecnológica são barreiras para adoção de SaaS em nuvem pública."
+		},
+		{
+			"article_id": "190638781",
+			"article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
+			"quote": "some customers had an IT policy that did not allow installation of any software outside their own internal data center",
+			"assigned_codes": [
+				"Security concerns",
+				"Enterprise market focus",
+				"Organizational readiness"
+			],
+			"justification": "Políticas de TI restritivas em empresas criam requisitos específicos que afetam modelos de deployment e receita."
 		}
 	]
 }

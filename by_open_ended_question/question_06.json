@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "6",
     "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
-    "total_articles": 67,
-    "articles_with_response": 65,
+    "total_articles": 63,
+    "articles_with_response": 61,
     "articles_without_response": 2
   },
   "responses_by_article": [
@@ -14,7 +14,7 @@
       "question_id": "6",
       "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
       "response_found": true,
-      "extracted_value": "Global study with predominance of USA (63.2%), followed by Canada (7.1%), UK (6.8%), Australia (5.4%), India (2.8%), New Zealand (2.0%), Ireland (1.7%), and 22 other countries (11%). Total of 26 countries represented.",
+      "extracted_value": "Global study with predominance of USA (63.2%), followed by Canada (7.1%), UK (6.8%), Australia (5.4%), India (2.8%), New Zealand (2.0%), Ireland (1.7%), and 22 other countries (11%). Total of 26 countries represented. | North America (primarily USA)",
       "synonyms_found": [
         "countries",
         "USA",
@@ -23,9 +23,11 @@
         "Australia",
         "India",
         "New Zealand",
-        "Ireland"
+        "Ireland",
+        "North America",
+        "United States"
       ],
-      "source_citation": "Page 3, Table II: 'Country of vendors (No. of countries: 26) USA 63.2, Canada 7.1, UK 6.8, Australia 5.4, India 2.8, New Zealand 2.0, Ireland 1.7, Others 11'",
+      "source_citation": "Page 3, Table II: 'Country of vendors (No. of countries: 26) USA 63.2, Canada 7.1, UK 6.8, Australia 5.4, India 2.8, New Zealand 2.0, Ireland 1.7, Others 11' | Page 4: 'Country of vendors (No. of countries: 26) USA 63.2%... Canada 7.1%'",
       "confidence_level": "high"
     },
     {
@@ -35,14 +37,14 @@
       "question_id": "6",
       "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
       "response_found": true,
-      "extracted_value": "Finland and Europe",
+      "extracted_value": "Finland and Europe | Finland",
       "synonyms_found": [
         "Finland",
         "Finnish",
         "University of Jyväskylä",
         "Finland funding agencies"
       ],
-      "source_citation": "Page 1: 'Arto Ojala, Department of Computer Science and Information Systems, University of Jyväskylä, Jyväskylä, Finland' | Page 6: 'The research reported here was carried out within the framework of the Digital Services research project financed by TEKES -the Finnish Founding Agency for Technology and Innovation. In addition, the Foundation for Economic Education in Finland (Liikesivistysrahasto) provided financial support for this study.'",
+      "source_citation": "Page 1: 'Arto Ojala, Department of Computer Science and Information Systems, University of Jyväskylä, Jyväskylä, Finland' | Page 6: 'The research reported here was carried out within the framework of the Digital Services research project financed by TEKES -the Finnish Founding Agency for Technology and Innovation. In addition, the Foundation for Economic Education in Finland (Liikesivistysrahasto) provided financial support for this study.' | Page 1, Author affiliation: 'University of Jyväskylä, Jyväskylä, Finland' | Page 6, Acknowledgements: 'The research reported here was carried out within the framework of the Digital Services research project financed by TEKES -the Finnish Founding Agency for Technology and Innovation.'",
       "confidence_level": "high"
     },
     {
@@ -52,13 +54,15 @@
       "question_id": "6",
       "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
       "response_found": true,
-      "extracted_value": "Europe / Nordic countries",
+      "extracted_value": "Europe / Nordic countries | Nordic region / European market",
       "synonyms_found": [
         "European market",
         "Nordic",
-        "Nordic countries"
+        "Nordic countries",
+        "European",
+        "Europe"
       ],
-      "source_citation": "Page 2, Section 2: 'We use a revelatory case study by focusing on a Nordic ERP vendor' | Page 4, Section 4.2: 'ERP Co is a leading vendor of enterprise resource planning (ERP), customer relationship management (CRM), and human resource management (HRM) systems in the European market for small and medium sized enterprises (SME).' | Page 6, Section 5.2.1: 'Though they have acquired the SaaS software from US, they under-estimated the efforts in adjusting the product to local rules and contexts (e.g., certain financial procedures are very different in the US than in the Nordic countries).'",
+      "source_citation": "Page 2, Section 2: 'We use a revelatory case study by focusing on a Nordic ERP vendor' | Page 4, Section 4.2: 'ERP Co is a leading vendor of enterprise resource planning (ERP), customer relationship management (CRM), and human resource management (HRM) systems in the European market for small and medium sized enterprises (SME).' | Page 6, Section 5.2.1: 'Though they have acquired the SaaS software from US, they under-estimated the efforts in adjusting the product to local rules and contexts (e.g., certain financial procedures are very different in the US than in the Nordic countries).' | Page 2: 'We use a revelatory case study by focusing on a Nordic ERP vendor and its transition towards a SaaS-based cloud model' | Page 4: 'ERP Co is a leading vendor of enterprise resource planning (ERP), customer relationship management (CRM), and human resource management (HRM) systems in the European market for small and medium sized enterprises (SME)' | Page 6: 'certain financial procedures are very different in the US than in the Nordic countries'",
       "confidence_level": "high"
     },
     {
@@ -718,22 +722,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "6",
-      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
-      "response_found": true,
-      "extracted_value": "Nordic region / European market",
-      "synonyms_found": [
-        "Nordic",
-        "European",
-        "Europe"
-      ],
-      "source_citation": "Page 2: 'We use a revelatory case study by focusing on a Nordic ERP vendor and its transition towards a SaaS-based cloud model' | Page 4: 'ERP Co is a leading vendor of enterprise resource planning (ERP), customer relationship management (CRM), and human resource management (HRM) systems in the European market for small and medium sized enterprises (SME)' | Page 6: 'certain financial procedures are very different in the US than in the Nordic countries'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -844,21 +832,6 @@
       "confidence_level": "medium"
     },
     {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "6",
-      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
-      "response_found": true,
-      "extracted_value": "Finland",
-      "synonyms_found": [
-        "Finland",
-        "Finnish"
-      ],
-      "source_citation": "Page 1, Author affiliation: 'University of Jyväskylä, Jyväskylä, Finland' | Page 6, Acknowledgements: 'The research reported here was carried out within the framework of the Digital Services research project financed by TEKES -the Finnish Founding Agency for Technology and Innovation.'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655589",
       "article_title": "Service-Centric Business Model in Cloud Environment",
       "extraction_date": "2025-01-27",
@@ -948,36 +921,6 @@
         "European countries"
       ],
       "source_citation": "Page 18: 'An empirical test run on a sample of European start-ups in the software industry' | Page 19: 'located in five European countries (Finland, Germany, Italy, Portugal, and Spain)'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "6",
-      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
-      "response_found": true,
-      "extracted_value": "North America (primarily USA)",
-      "synonyms_found": [
-        "USA",
-        "North America",
-        "United States"
-      ],
-      "source_citation": "Page 4: 'Country of vendors (No. of countries: 26) USA 63.2%... Canada 7.1%'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "6",
-      "question_text": "In which geographic region was the software business model presented in the article studied or applied?",
-      "response_found": true,
-      "extracted_value": "Finland",
-      "synonyms_found": [
-        "Finland"
-      ],
-      "source_citation": "Page 3: 'The data of customer needs for the study was gathered by conducting semi-structured interviews in 14 logistic-intensive companies all around Finland'",
       "confidence_level": "high"
     },
     {

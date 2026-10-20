@@ -2,14 +2,49 @@
 	"extraction_metadata": {
 		"article_title": "A Pricing Framework for Software-as-a-Service",
 		"extraction_date": "2025-10-07",
-		"note": "This article presents a three-level pricing framework for SaaS business model with analysis of 353 SaaS vendors"
+		"note": "This article presents a three-level pricing framework for SaaS business model with analysis of 353 SaaS vendors",
+		"revision": {
+			"date": "2026-10-19",
+			"reference": "context/analysis/corpus-correction-r08.md",
+			"merged_from_duplicate_record": "190655721",
+			"description": "Single revised extraction for a publication imported twice. Closed-ended divergences were resolved by re-reading the full text; open-ended answers are the union of both extractions, without repeated content, after verification against the article.",
+			"questions_changed": [
+				"1",
+				"2",
+				"3",
+				"4",
+				"5",
+				"6",
+				"7",
+				"10",
+				"12",
+				"13",
+				"14",
+				"15",
+				"17",
+				"20",
+				"21",
+				"22",
+				"23",
+				"24",
+				"25",
+				"26",
+				"27",
+				"28",
+				"29",
+				"30",
+				"31",
+				"32",
+				"33"
+			]
+		}
 	},
 	"extracted_data": [
 		{
 			"question_id": "1",
 			"question_text": "What is the name and definition of the software business model presented in the article?",
 			"response_found": true,
-			"extracted_value": "Software-as-a-Service (SaaS): A business model where software is deployed as a hosted service and accessed over the Internet. It involves hosting single-versioned software coupled with supplementary delivery and maintenance services, where clients are charged through recurring subscription fees on a pay-as-you-go basis. SaaS is outsourced software where both technology infrastructure and management (hardware, software and professional services) are contracted out to software vendors and accessed remotely.",
+			"extracted_value": "Software-as-a-Service (SaaS): A business model where software is deployed as a hosted service and accessed over the Internet. It involves hosting single-versioned software coupled with supplementary delivery and maintenance services, where clients are charged through recurring subscription fees on a pay-as-you-go basis. SaaS is outsourced software where both technology infrastructure and management (hardware, software and professional services) are contracted out to software vendors and accessed remotely. | Software-as-a-Service (SaaS) - software deployed as a hosted service and accessed over the Internet",
 			"synonyms_found": [
 				"SaaS",
 				"software-as-a-service",
@@ -25,7 +60,14 @@
 			"question_id": "2",
 			"question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
 			"response_found": true,
-			"extracted_value": "Hosted service, remotely hosted software services, software as a service, emerging business model, outsourced software, single-versioned software",
+			"extracted_value": [
+				"Hosted service, remotely hosted software services, software as a service, emerging business model, outsourced software, single-versioned software",
+				"SaaS",
+				"software-as-a-service",
+				"hosted service",
+				"remotely hosted software services",
+				"outsourced software"
+			],
 			"synonyms_found": [
 				"SaaS",
 				"software-as-a-service",
@@ -34,30 +76,37 @@
 				"remotely hosted",
 				"outsourced software",
 				"emerging business model",
-				"single-versioned software"
+				"single-versioned software",
+				"remotely hosted software services"
 			],
-			"source_citation": "Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet,\" is an emerging business model' | Page 1: 'SaaS is outsourced software' | Page 1: 'SaaS is remotely hosted, meaning that software are deployed as hosted services' | Page 1: 'SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time'",
+			"source_citation": "Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet,\" is an emerging business model' | Page 1: 'SaaS is outsourced software' | Page 1: 'SaaS is remotely hosted, meaning that software are deployed as hosted services' | Page 1: 'SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time' | Page 1: 'SaaS differs from traditional off-the-shelf software in three aspects. First, SaaS is outsourced software... Second, SaaS is remotely hosted, meaning that software are deployed as hosted services'",
 			"confidence_level": "high"
 		},
 		{
 			"question_id": "3",
 			"question_text": "What is the main vertical segment or industry where the software business model presented in the article is applied?",
 			"response_found": true,
-			"extracted_value": "Cross-industry SaaS applications including CRM, Collaboration, Project Management, Marketing, Accounting/Financial, Document Management, BPM, Productivity, Content Management, Business Intelligence, and IT/Application Management across multiple industries",
+			"extracted_value": "Cross-industry SaaS applications including CRM, Collaboration, Project Management, Marketing, Accounting/Financial, Document Management, BPM, Productivity, Content Management, Business Intelligence, and IT/Application Management across multiple industries | Technology and Professional Services",
 			"synonyms_found": [
 				"software market",
 				"SaaS market",
 				"application types",
-				"industry types"
+				"industry types",
+				"Technology",
+				"Professional Services",
+				"CRM",
+				"Collaboration",
+				"Project Management",
+				"Marketing"
 			],
-			"source_citation": "Page 3, Table II: 'Application Types (No. of application types: 45) CRM 8.8, Collaboration 8.5, Project Management 6.2, Marketing 5.3, Accounting/Financial 4.9, Document Management 4.9, BPM 4.6, Productivity 3.6, Content Management 3.3, Business Intelligence 2.9, IT/Application Management 2.8, Others 44.2' | Page 3, Table II: 'Industry Types (No. of industry types: 32) Professional Services 9.8, Technology 9.7, Software 9.2, Banking/Financial Services 7.3, Healthcare 5.8, Government 4.8, Entertainment/Media 4.7, Legal 4.5, Manufacturing 4.3, Education 4.0, Non-Profit 3.4, Others 32.5'",
+			"source_citation": "Page 3, Table II: 'Application Types (No. of application types: 45) CRM 8.8, Collaboration 8.5, Project Management 6.2, Marketing 5.3, Accounting/Financial 4.9, Document Management 4.9, BPM 4.6, Productivity 3.6, Content Management 3.3, Business Intelligence 2.9, IT/Application Management 2.8, Others 44.2' | Page 3, Table II: 'Industry Types (No. of industry types: 32) Professional Services 9.8, Technology 9.7, Software 9.2, Banking/Financial Services 7.3, Healthcare 5.8, Government 4.8, Entertainment/Media 4.7, Legal 4.5, Manufacturing 4.3, Education 4.0, Non-Profit 3.4, Others 32.5' | Page 4: 'Application Types (No. of application types: 45) CRM 8.8... Collaboration 8.5... Project Management 6.2... Marketing 5.3' and 'Industry Types... Technology 9.7... Professional Services 9.8'",
 			"confidence_level": "high"
 		},
 		{
 			"question_id": "4",
 			"question_text": "What is the target customer type of the software business model presented in the article?",
 			"response_found": true,
-			"extracted_value": "B2B (mixed: B2B SMB, Mid-market, and Enterprise). Small and medium enterprises have been the most aggressive adopters, and large corporations are equally attracted to acquiring software services on demand.",
+			"extracted_value": "B2B (B2B SMB and Enterprise): small and medium enterprises have been the most aggressive adopters, and large corporations are equally attracted to acquiring software services on demand.",
 			"synonyms_found": [
 				"clients",
 				"small and medium enterprises",
@@ -66,22 +115,29 @@
 				"diversified clients"
 			],
 			"source_citation": "Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand'",
-			"confidence_level": "high"
+			"confidence_level": "medium"
 		},
 		{
 			"question_id": "5",
 			"question_text": "What is the typical size of offering companies that adopt this software business model as described in the article?",
 			"response_found": true,
-			"extracted_value": "Predominantly young companies: 65% less than 10 years old, 30% between 11-20 years, 3% between 21-30 years, and only 2% over 30 years",
-			"synonyms_found": ["SaaS vendors", "vendors", "software vendors"],
-			"source_citation": "Page 3, Table II: 'Age of vendors <10 65, 11-20 30, 21-30 3, >30 2'",
+			"extracted_value": "Predominantly young companies: 65% less than 10 years old, 30% between 11-20 years, 3% between 21-30 years, and only 2% over 30 years | Young companies with most under 10 years old",
+			"synonyms_found": [
+				"SaaS vendors",
+				"vendors",
+				"software vendors",
+				"young vendors",
+				"startups",
+				"emerging companies"
+			],
+			"source_citation": "Page 3, Table II: 'Age of vendors <10 65, 11-20 30, 21-30 3, >30 2' | Page 4: 'Age of vendors <10 65%... 11-20 30%... 21-30 3%... >30 2%'",
 			"confidence_level": "high"
 		},
 		{
 			"question_id": "6",
 			"question_text": "In which geographic region was the software business model presented in the article studied or applied?",
 			"response_found": true,
-			"extracted_value": "Global study with predominance of USA (63.2%), followed by Canada (7.1%), UK (6.8%), Australia (5.4%), India (2.8%), New Zealand (2.0%), Ireland (1.7%), and 22 other countries (11%). Total of 26 countries represented.",
+			"extracted_value": "Global study with predominance of USA (63.2%), followed by Canada (7.1%), UK (6.8%), Australia (5.4%), India (2.8%), New Zealand (2.0%), Ireland (1.7%), and 22 other countries (11%). Total of 26 countries represented. | North America (primarily USA)",
 			"synonyms_found": [
 				"countries",
 				"USA",
@@ -90,23 +146,27 @@
 				"Australia",
 				"India",
 				"New Zealand",
-				"Ireland"
+				"Ireland",
+				"North America",
+				"United States"
 			],
-			"source_citation": "Page 3, Table II: 'Country of vendors (No. of countries: 26) USA 63.2, Canada 7.1, UK 6.8, Australia 5.4, India 2.8, New Zealand 2.0, Ireland 1.7, Others 11'",
+			"source_citation": "Page 3, Table II: 'Country of vendors (No. of countries: 26) USA 63.2, Canada 7.1, UK 6.8, Australia 5.4, India 2.8, New Zealand 2.0, Ireland 1.7, Others 11' | Page 4: 'Country of vendors (No. of countries: 26) USA 63.2%... Canada 7.1%'",
 			"confidence_level": "high"
 		},
 		{
 			"question_id": "7",
 			"question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
 			"response_found": true,
-			"extracted_value": "Diverse client segments with varied usage patterns: (1) Low-breadth but high-depth usage clients (low frequency but complicated modules), (2) High-breadth but low-depth usage clients (high frequency but simple modules), and (3) Clients demanding access from odd times or obscure locations",
+			"extracted_value": "Diverse client segments with varied usage patterns: (1) Low-breadth but high-depth usage clients (low frequency but complicated modules), (2) High-breadth but low-depth usage clients (high frequency but simple modules), and (3) Clients demanding access from odd times or obscure locations | Small and medium enterprises (SMEs)",
 			"synonyms_found": [
 				"clients",
 				"SaaS clients",
 				"usage patterns",
-				"diversified clients"
+				"diversified clients",
+				"small and medium enterprises",
+				"SMEs"
 			],
-			"source_citation": "Page 2: 'The third challenge resides in clients' varied usage of software services. Whereas some clients may exhibit low-breadth but high-depth usage (i.e., low frequency of service usage but complicated software modules required), others may register the opposite usage pattern (i.e., high frequency of service usage but simple software modules required) or demand access to required services at odd times or from obscure locations'",
+			"source_citation": "Page 2: 'The third challenge resides in clients' varied usage of software services. Whereas some clients may exhibit low-breadth but high-depth usage (i.e., low frequency of service usage but complicated software modules required), others may register the opposite usage pattern (i.e., high frequency of service usage but simple software modules required) or demand access to required services at odd times or from obscure locations' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters'",
 			"confidence_level": "high"
 		},
 		{
@@ -148,11 +208,11 @@
 		{
 			"question_id": "10",
 			"question_text": "What is the intellectual property regime adopted by the software business model presented in the article?",
-			"response_found": false,
-			"extracted_value": "not reported",
+			"response_found": true,
+			"extracted_value": "Proprietary",
 			"synonyms_found": [],
-			"source_citation": "information not found in text",
-			"confidence_level": "high"
+			"source_citation": "Page 1: 'Traditionally, software license refers to an agreement granting a licensee the rights to utilize packaged software or components of that software' | Page 6: 'the pricing framework provides a comprehensive categorization of pricing components that can be leveraged by SaaS vendors in constructing software licenses'",
+			"confidence_level": "medium"
 		},
 		{
 			"question_id": "11",
@@ -174,10 +234,10 @@
 			"question_text": "What are the revenue sources of the software business model presented in the article?",
 			"response_found": true,
 			"extracted_value": [
-				"Subscription (recurring usage fees, monthly/annual subscriptions)",
-				"Support (helpdesk, setup/training, configuration/integration)",
-				"Usage/consumption (pay-per-use, resource consumption, transactions)",
-				"Others (backup services, security services)"
+				"Subscription (recurring monthly subscription fees)",
+				"Usage/consumption (pay-per-use, usage-dependent pricing)",
+				"Support (helpdesk, setup/training, configuration/integration services)",
+				"Others (backup and security services sold as add-ons)"
 			],
 			"synonyms_found": [
 				"recurring subscription fees",
@@ -186,14 +246,14 @@
 				"pay-as-you-go",
 				"service fee"
 			],
-			"source_citation": "Page 1: 'clients are charged through recurring subscription fees on a pay-as-you-go basis' | Page 3: 'Nowadays, a SaaS vendor typically charges his clients who subscribe hosted services a recurring usage fee' | Page 3: 'Monthly subscription fees are the most popular pricing model nowadays' | Page 2: 'The revenue model of software vendors comprises three main sources. First, the upfront usage license fee for the 'perpetual' right to utilize the licensed version of the software...Second, the ongoing maintenance fee...Third, the service fee for one-off or ongoing services such as software installation, customization, integration and user training' | Page 3, Table I: Service-based pricing includes 'Helpdesk...Backup...Security...Setup/Training...Configuration/Integration'",
+			"source_citation": "Page 1: 'clients are charged through recurring subscription fees on a pay-as-you-go basis' | Page 3: 'Monthly subscription fees are the most popular pricing model nowadays' | Page 3: 'Usage-based. In this category, software vendors charge clients for what they use' | Page 3: 'In SaaS, some routine services in traditional licensing model still exist, such as helpdesk support, software setup & training, software configuration and integration, etc.; while others such as backup and security, which were once regarded as being part of clients' responsibilities, are offered as purchasable services from SaaS vendors'",
 			"confidence_level": "high"
 		},
 		{
 			"question_id": "13",
 			"question_text": "What is the base unit for pricing of the software business model presented in the article?",
 			"response_found": true,
-			"extracted_value": "Multiple pricing units: User/seat (named or concurrent users), Transactions, Computing time (time-based access), Storage (memory/bandwidth in GB or Kbps), Role-based, Location-based, Performance metrics (business performance reflecting usage intensity)",
+			"extracted_value": "User/seat",
 			"synonyms_found": [
 				"user based",
 				"transaction based",
@@ -203,18 +263,17 @@
 				"role based",
 				"location based"
 			],
-			"source_citation": "Page 2-3, Table I: 'User based. Does pricing refer to certain number of users (e.g., named or concurrent users)? | Transaction based. Does pricing refer to certain number of transactions processed by software? | Time based. Does pricing refer to time (e.g., minutes) of accessing SaaS application? | Performance based. Does pricing refer to business performance metrics reflecting software usage intensity (e.g., number of rooms managed in a hotel management service)? | Memory/Bandwidth based. Does pricing refer to units of memory (e.g., GB) or bandwidth (e.g., Kpbs) required? | Role based. Does pricing refer to a set of pre-defined roles (e.g., authoring user or viewing user in a document management application)? | Location based. Does pricing refer to certain location (e.g., particular computers, computer networks, or other physical devices)?'",
-			"confidence_level": "high"
+			"source_citation": "Page 5: 'Vendors from cluster one, making up 67% of our sample, prefer the user-based pricing component in software pricing' | Page 6: 'usage-independent based pricing components were used by about half of SaaS vendors while usage-dependent based pricing components were used by one-third of SaaS vendors'",
+			"confidence_level": "medium"
 		},
 		{
 			"question_id": "14",
 			"question_text": "What is the price presentation structure of the software business model described in the article?",
 			"response_found": true,
 			"extracted_value": [
-				"Tiers/Plans (function-based configurations, different pricing plans)",
-				"Prepaid credits (bulk payment with discount)",
+				"Tiers/Plans (different pricing plans by functionality configuration)",
 				"Pay-as-you-go (usage-dependent pricing)",
-				"Custom negotiation (organization/region based, bundling options)"
+				"Prepaid credits (prepaid subscriptions with bulk payment discount)"
 			],
 			"synonyms_found": [
 				"pricing plans",
@@ -224,14 +283,14 @@
 				"bundling",
 				"organization/region based"
 			],
-			"source_citation": "Page 2-3, Table I: 'Payment Frequency based. Does pricing refer to multiple frequency of recurring payment (e.g., monthly, annual, etc.)? | Bulk Payment Discount. Does pricing refer to discount depending on payment frequency? | Function based. Does pricing refer to different functionality configurations? | Bundling. Does pricing refer to different bundle options of components? | Organization/Region based. Does pricing refer to different types of organizations or regions?' | Page 3: 'a vendor may offer different pricing plans for an application according to certain product-related criteria (e.g., different combinations of functionality) and charge clients differently according to the pricing plan selected by clients'",
-			"confidence_level": "high"
+			"source_citation": "Page 3: 'a vendor may offer different pricing plans for an application according to certain product-related criteria (e.g., different combinations of functionality)' | Page 3: 'software vendors encourage clients to prepay their subscriptions. Sometimes software vendors offer some degree of discount for those bulk payment clients' | Page 6: 'it is natural for SaaS vendors to charge the client only for what he uses'",
+			"confidence_level": "medium"
 		},
 		{
 			"question_id": "15",
 			"question_text": "What currency and billing periodicity are used in the software business model as described in the article?",
 			"response_found": true,
-			"extracted_value": "USD currency. Billing periodicity: monthly is most popular, with options for annual and multiple payment frequencies. 67.2% use single payment frequency, 30% use multiple frequencies with bulk payment discounts.",
+			"extracted_value": "USD currency. Billing periodicity: monthly is most popular, with options for annual and multiple payment frequencies. 67.2% use single payment frequency, 30% use multiple frequencies with bulk payment discounts. | USD, monthly/annual",
 			"synonyms_found": [
 				"monthly",
 				"annual",
@@ -239,7 +298,7 @@
 				"periodic basis",
 				"recurring"
 			],
-			"source_citation": "Page 1: 'the global SaaS market is expected to reach 12.1 billion USD by 2014' | Page 3: 'Monthly subscription fees are the most popular pricing model nowadays' | Page 2, Table I: 'Payment Frequency based. Does pricing refer to multiple frequency of recurring payment (e.g., monthly, annual, etc.)?' | Page 2: 'clients are charged for only what they have utilized, usually on a periodic basis' | Page 5: '67.2% of the vendors used single payment frequency, while 30% used multiple payment frequency options and complementary bulk payment discount incentive'",
+			"source_citation": "Page 1: 'the global SaaS market is expected to reach 12.1 billion USD by 2014' | Page 3: 'Monthly subscription fees are the most popular pricing model nowadays' | Page 2, Table I: 'Payment Frequency based. Does pricing refer to multiple frequency of recurring payment (e.g., monthly, annual, etc.)?' | Page 2: 'clients are charged for only what they have utilized, usually on a periodic basis' | Page 5: '67.2% of the vendors used single payment frequency, while 30% used multiple payment frequency options and complementary bulk payment discount incentive' | Page 3: 'Payment-based. Monthly subscription fees are the most popular pricing model nowadays... software vendors encourage clients to prepay their subscriptions'",
 			"confidence_level": "high"
 		},
 		{
@@ -259,15 +318,10 @@
 		{
 			"question_id": "17",
 			"question_text": "What type of network effect is present in the software business model presented in the article?",
-			"response_found": true,
-			"extracted_value": "Direct network effects (economies of scale through expanding client base - vendors need sizeable pool of clients to achieve economies of scale with single-versioned multi-tenant architecture)",
-			"synonyms_found": [
-				"economies of scale",
-				"economy of scale",
-				"client base",
-				"broad markets"
-			],
-			"source_citation": "Page 2: 'SaaS vendors are hence compelled to steadily improve service quality and price it accordingly in order to retain a sizeable pool of clients and achieve economies of scale' | Page 5-6: 'SaaS vendors tend to target broad markets to gain economy of scale. In SaaS, the deployment of a single version of software serving various clients with diversified requirements eliminates vendors' revenue sources from the provision of software maintenance. The recurring subscription fees from clients substitute vendors' revenue from the traditional up-front payments. To survive and thrive, vendors are supposed to expand clients base continuously in order to leverage on economy of scale'",
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
 			"confidence_level": "high"
 		},
 		{
@@ -298,10 +352,22 @@
 				"Revenue Streams: Recurring subscription fees (pay-as-you-go), usage fees, service fees (helpdesk, backup, security, setup/training, configuration/integration)",
 				"Key Resources: Single-versioned multi-tenant software architecture, hosting infrastructure",
 				"Key Activities: Hosting and maintaining software, provision of supplementary services (backup, security), functionality enhancements and service innovations",
-				"Cost Structure: Hosting and maintenance costs, provision of supplementary services, significant variable costs from remote hosting"
+				"Cost Structure: Hosting and maintenance costs, provision of supplementary services, significant variable costs from remote hosting",
+				"Revenue Streams: recurring subscription fees, pay-per-use pricing, service fees",
+				"Cost Structure: hosting costs, maintenance costs, service provision costs",
+				"Value Proposition: faster innovation consumption, simplified software licensing, remote access"
 			],
-			"synonyms_found": ["value", "clients", "revenue", "costs", "services"],
-			"source_citation": "Page 1: 'By hosting single-versioned software coupled with supplementary delivery and maintenance services, SaaS vendors can effectively differentiate their product offerings from that of traditional on-premise software (TOPS)' | Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated, thereby freeing up resources to focus on functionality enhancements and service innovations' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand' | Page 1-2: 'clients are charged through recurring subscription fees on a pay-as-you-go basis...For SaaS licenses to be sustainable, software vendors would have to take into account not only the costs of hosting and maintaining the software, but also the costs associated with the provision of supplementary services (e.g., backup and security)' | Page 3: 'Cost-based pricing makes sense for SaaS because the remote hosting of software services culminates in significant variable costs for vendors'",
+			"synonyms_found": [
+				"value",
+				"clients",
+				"revenue",
+				"costs",
+				"services",
+				"revenue sources",
+				"pricing strategies",
+				"value delivery"
+			],
+			"source_citation": "Page 1: 'By hosting single-versioned software coupled with supplementary delivery and maintenance services, SaaS vendors can effectively differentiate their product offerings from that of traditional on-premise software (TOPS)' | Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated, thereby freeing up resources to focus on functionality enhancements and service innovations' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand' | Page 1-2: 'clients are charged through recurring subscription fees on a pay-as-you-go basis...For SaaS licenses to be sustainable, software vendors would have to take into account not only the costs of hosting and maintaining the software, but also the costs associated with the provision of supplementary services (e.g., backup and security)' | Page 3: 'Cost-based pricing makes sense for SaaS because the remote hosting of software services culminates in significant variable costs for vendors' | Page 2: 'Revenue sources for SaaS are different from those of on-premise software... clients are charged for only what they have utilized' and Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously'",
 			"confidence_level": "high"
 		},
 		{
@@ -320,7 +386,8 @@
 					"Role": "Subscribe to and use hosted software services",
 					"Interaction_with_offering_company": "Pay recurring subscription fees, consume software services remotely",
 					"Interaction_with_other_actors": "End users of the service with varied usage patterns"
-				}
+				},
+				"SaaS vendors | Service provider | Provide hosted software services | Clients subscribe and pay for services"
 			],
 			"synonyms_found": [
 				"SaaS vendors",
@@ -330,7 +397,7 @@
 				"small and medium enterprises",
 				"large corporations"
 			],
-			"source_citation": "Page 1: 'SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand' | Page 1: 'clients are charged through recurring subscription fees on a pay-as-you-go basis'",
+			"source_citation": "Page 1: 'SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand' | Page 1: 'clients are charged through recurring subscription fees on a pay-as-you-go basis' | Page 1: 'SaaS vendors can effectively differentiate their product offerings from that of traditional on-premise software' and Page 2: 'Nowadays, a SaaS vendor typically charges his clients who subscribe hosted services a recurring usage fee'",
 			"confidence_level": "medium"
 		},
 		{
@@ -345,10 +412,22 @@
 				"For vendors: Eliminate complexities and costs of managing multiple software versions",
 				"For vendors: Free up resources to focus on functionality enhancements and service innovations",
 				"For vendors: Achieve economies of scale through multi-tenant architecture",
-				"Market growth opportunity (26% compound annual growth rate expected)"
+				"Market growth opportunity (26% compound annual growth rate expected)",
+				"Elimination of upfront licensing costs",
+				"Simplified software management",
+				"Faster access to innovation",
+				"Reduced maintenance responsibilities"
 			],
-			"synonyms_found": ["benefits", "advantages", "growth", "innovation"],
-			"source_citation": "Page 1: 'The multi-tenant architecture of SaaS benefits both clients and vendors alike. For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated, thereby freeing up resources to focus on functionality enhancements and service innovations' | Page 1: 'the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' | Page 3: 'From clients' perspective, such software licenses are greatly simplified for the fact that they only pay for their use of the subscribed software' | Page 2: 'clients are charged for only what they have utilized, usually on a periodic basis'",
+			"synonyms_found": [
+				"benefits",
+				"advantages",
+				"growth",
+				"innovation",
+				"cost reduction",
+				"simplified licensing",
+				"innovation access"
+			],
+			"source_citation": "Page 1: 'The multi-tenant architecture of SaaS benefits both clients and vendors alike. For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated, thereby freeing up resources to focus on functionality enhancements and service innovations' | Page 1: 'the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' | Page 3: 'From clients' perspective, such software licenses are greatly simplified for the fact that they only pay for their use of the subscribed software' | Page 2: 'clients are charged for only what they have utilized, usually on a periodic basis' | Page 1: 'For clients, the consumption of innovation is faster as new capabilities are released simultaneously with each service upgrade. For vendors, the complexities and costs associated with managing and maintaining multiple software versions can be eliminated'",
 			"confidence_level": "high"
 		},
 		{
@@ -363,16 +442,22 @@
 				"Steadily improving service quality → retain sizeable pool of clients",
 				"Pricing aligned with client value perception → maximize business value for clients",
 				"Flexible payment options with bulk discounts → alleviate financial pressure and encourage prepayment",
-				"Accommodating diverse client preferences through multiple pricing components → collect extra revenue from customized requirements"
+				"Accommodating diverse client preferences through multiple pricing components → collect extra revenue from customized requirements",
+				"Value-based pricing → Higher client satisfaction and sustainable revenue",
+				"Economy of scale → Reduced costs per client",
+				"Service quality → Client retention"
 			],
 			"synonyms_found": [
 				"success",
 				"sustainable revenue",
 				"economies of scale",
 				"quality",
-				"value"
+				"value",
+				"value-based orientation",
+				"economy of scale",
+				"service quality"
 			],
-			"source_citation": "Page 5: 'SaaS vendors seem to prefer value-based to cost-based orientation in software pricing. Value is what clients really want to pay for. For SaaS vendors, the focus on value-based orientation in software pricing will help them in securing sustainable revenue through the offering of high quality SaaS software' | Page 5-6: 'SaaS vendors tend to target broad markets to gain economy of scale...To survive and thrive, vendors are supposed to expand clients base continuously in order to leverage on economy of scale' | Page 2: 'SaaS vendors are hence compelled to steadily improve service quality and price it accordingly in order to retain a sizeable pool of clients and achieve economies of scale' | Page 6: 'usage-based pricing strategies were popular among SaaS vendors because usage-based metrics reflect both vendors' costs to deliver services and clients' costs to consume services' | Page 3: 'Payment-based pricing benefits clients by granting them more payment freedom' | Page 5: 'Adopting pricing components from different categories could help in accommodating diverse client preferences...some SaaS vendors included pricing components from different categories in their pricing strategies might demonstrate their endeavor to collect extra revenue by targeting clients with customized requirements'",
+			"source_citation": "Page 5: 'SaaS vendors seem to prefer value-based to cost-based orientation in software pricing. Value is what clients really want to pay for. For SaaS vendors, the focus on value-based orientation in software pricing will help them in securing sustainable revenue through the offering of high quality SaaS software' | Page 5-6: 'SaaS vendors tend to target broad markets to gain economy of scale...To survive and thrive, vendors are supposed to expand clients base continuously in order to leverage on economy of scale' | Page 2: 'SaaS vendors are hence compelled to steadily improve service quality and price it accordingly in order to retain a sizeable pool of clients and achieve economies of scale' | Page 6: 'usage-based pricing strategies were popular among SaaS vendors because usage-based metrics reflect both vendors' costs to deliver services and clients' costs to consume services' | Page 3: 'Payment-based pricing benefits clients by granting them more payment freedom' | Page 5: 'Adopting pricing components from different categories could help in accommodating diverse client preferences...some SaaS vendors included pricing components from different categories in their pricing strategies might demonstrate their endeavor to collect extra revenue by targeting clients with customized requirements' | Page 5: 'Value is what clients really want to pay for. For SaaS vendors, the focus on value-based orientation in software pricing will help them in securing sustainable revenue through the offering of high quality SaaS software'",
 			"confidence_level": "high"
 		},
 		{
@@ -385,16 +470,22 @@
 				"Internet connectivity → enable access to hosted services",
 				"Technology infrastructure management capability → manage hardware, software and professional services",
 				"Ability to provide supplementary services → backup, security, helpdesk, setup/training, configuration/integration",
-				"Sizeable client pool → achieve economies of scale necessary for sustainability"
+				"Sizeable client pool → achieve economies of scale necessary for sustainability",
+				"Internet connectivity → Software access",
+				"Multi-tenant architecture → Cost efficiency",
+				"Hosting infrastructure → Service delivery"
 			],
 			"synonyms_found": [
 				"infrastructure",
 				"multi-tenant",
 				"hosting",
 				"technology",
-				"services"
+				"services",
+				"internet access",
+				"multi-tenant architecture",
+				"hosting infrastructure"
 			],
-			"source_citation": "Page 1: 'SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors. Second, SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations. Third, SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time. The multi-tenant architecture of SaaS benefits both clients and vendors alike' | Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet\"' | Page 1-2: 'software vendors would have to take into account not only the costs of hosting and maintaining the software, but also the costs associated with the provision of supplementary services (e.g., backup and security)' | Page 2: 'in order to retain a sizeable pool of clients and achieve economies of scale'",
+			"source_citation": "Page 1: 'SaaS is outsourced software, meaning that both technology infrastructure and management - hardware, software and professional services - are contracted out to software vendors. Second, SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations. Third, SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time. The multi-tenant architecture of SaaS benefits both clients and vendors alike' | Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet\"' | Page 1-2: 'software vendors would have to take into account not only the costs of hosting and maintaining the software, but also the costs associated with the provision of supplementary services (e.g., backup and security)' | Page 2: 'in order to retain a sizeable pool of clients and achieve economies of scale' | Page 1: 'SaaS is remotely hosted, meaning that software are deployed as hosted services to be accessed by clients from remote locations' and 'The multi-tenant architecture of SaaS benefits both clients and vendors alike'",
 			"confidence_level": "high"
 		},
 		{
@@ -407,14 +498,20 @@
 				"Low switching costs for clients → easy for clients to switch vendors, creating retention pressure",
 				"Single-version requirement → cannot maintain multiple software versions for different clients",
 				"Compact pricing strategies may limit niche market profitability → difficult to cover broader markets with few pricing components",
-				"Complex pricing increases overhead costs → extra costs for customer care support with multiple pricing components"
+				"Complex pricing increases overhead costs → extra costs for customer care support with multiple pricing components",
+				"Client switching costs → Reduced vendor lock-in",
+				"Revenue model changes → Financial pressure on vendors",
+				"Single version constraint → Limited customization"
 			],
 			"synonyms_found": [
 				"challenges",
 				"restrictions",
 				"limitations",
 				"no longer applicable",
-				"eliminated"
+				"eliminated",
+				"switching costs",
+				"revenue pressure",
+				"version constraints"
 			],
 			"source_citation": "Page 2: 'Revenue sources for SaaS are different from those of on-premise software in that the 'perpetual' usage license fee is no longer applicable and clients are charged for only what they have utilized, usually on a periodic basis. Additionally, maintenance revenues disappear as well because maintenance activities are now primarily the responsibilities of SaaS vendors' | Page 2: 'given the nature of SaaS as remotely hosted software services, switching is neither expensive nor tedious for clients' | Page 1: 'SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time' | Page 5: 'compact pricing strategies may jeopardize SaaS vendor' profits from clients from niche market because it is often difficult to cover a broader markets' | Page 6: 'adopting more components in software pricing will result in complicated pricing solutions, which are often translated to high overheads at the vendors' side, such as extra cost for customer care support'",
 			"confidence_level": "high"
@@ -431,15 +528,22 @@
 				"Varied usage patterns of clients (low-breadth/high-depth vs high-breadth/low-depth)",
 				"Creating sustainable software licenses remains elusive goal",
 				"Balancing compact pricing (simplicity) vs comprehensive pricing (coverage) strategies",
-				"Risk of neglecting alignment between license and client value when targeting broad markets"
+				"Risk of neglecting alignment between license and client value when targeting broad markets",
+				"Higher demand for service quality",
+				"Diverse client requirements",
+				"Varied usage patterns",
+				"Sustainable licensing model creation"
 			],
 			"synonyms_found": [
 				"challenges",
 				"difficulties",
 				"pressure",
-				"elusive goal"
+				"elusive goal",
+				"service quality demands",
+				"client diversity",
+				"usage variation"
 			],
-			"source_citation": "Page 2: 'The first challenge stems from clients' expectations for better service quality. Revenue sources for SaaS are different from those of on-premise software in that the 'perpetual' usage license fee is no longer applicable...Loss of revenue from up-front and maintenance payments therefore place greater financial pressure on SaaS vendors to secure a constant source of revenue. Yet, given the nature of SaaS as remotely hosted software services, switching is neither expensive nor tedious for clients' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand. Moreover, diversities are also found in the industries within which SaaS clients are situated. Such diversity translates to conflicting functional requirements and the need for SaaS vendors to tailor licenses to match these firm-specific requirements' | Page 2: 'The third challenge resides in clients' varied usage of software services' | Page 3: 'from SaaS vendors' perspective, the creation of sustainable software licenses remains a pertinent and yet elusive goal in the near term' | Page 6: 'We argue this strategy is not sustainable for SaaS vendors in the long run because it may cause neglect to the importance of the alignment between license and client's value'",
+			"source_citation": "Page 2: 'The first challenge stems from clients' expectations for better service quality. Revenue sources for SaaS are different from those of on-premise software in that the 'perpetual' usage license fee is no longer applicable...Loss of revenue from up-front and maintenance payments therefore place greater financial pressure on SaaS vendors to secure a constant source of revenue. Yet, given the nature of SaaS as remotely hosted software services, switching is neither expensive nor tedious for clients' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters. Likewise, large corporations are equally attracted to the idea of acquiring software services on demand. Moreover, diversities are also found in the industries within which SaaS clients are situated. Such diversity translates to conflicting functional requirements and the need for SaaS vendors to tailor licenses to match these firm-specific requirements' | Page 2: 'The third challenge resides in clients' varied usage of software services' | Page 3: 'from SaaS vendors' perspective, the creation of sustainable software licenses remains a pertinent and yet elusive goal in the near term' | Page 6: 'We argue this strategy is not sustainable for SaaS vendors in the long run because it may cause neglect to the importance of the alignment between license and client's value' | Page 2: 'The first challenge stems from clients' expectations for better service quality... The second challenge comes from the diversity of SaaS clients... The third challenge resides in clients' varied usage of software services'",
 			"confidence_level": "high"
 		},
 		{
@@ -454,9 +558,20 @@
 				"Multiple pricing components across categories → accommodate diverse preferences → increase revenues",
 				"Specialized market targeting (recommended) → reduce usage variations → easier expertise accumulation → improve service quality",
 				"Fine-tuning licensing models toward varied usages → specialized market approach → extra revenues",
-				"Complementing usage-independent pricing with payment discounts → maximize revenues while offering flexibility"
+				"Complementing usage-independent pricing with payment discounts → maximize revenues while offering flexibility",
+				"Value-based pricing → Addresses client value perception → Higher satisfaction",
+				"Usage-based pricing → Accommodates varied usage → Fair billing",
+				"Specialized market targeting → Reduces complexity → Better service quality"
 			],
-			"synonyms_found": ["practices", "strategies", "approaches", "solutions"],
+			"synonyms_found": [
+				"practices",
+				"strategies",
+				"approaches",
+				"solutions",
+				"value-based pricing",
+				"usage-based pricing",
+				"market specialization"
+			],
 			"source_citation": "Page 6: 'Our work indicates that the licensing practices from current SaaS vendors mainly focus on value-based orientation to deliver more value to clients, targeting at broad markets to leverage economy of scale, and charging clients for what they use by fine-tuning usage-based pricing constructs' | Page 3: 'To alleviate financial pressure, software vendors encourage clients to prepay their subscriptions. Sometimes software vendors offer some degree of discount for those bulk payment clients' | Page 5: 'Adopting pricing components from different categories could help in accommodating diverse client preferences...some SaaS vendors included pricing components from different categories in their pricing strategies might demonstrate their endeavor to collect extra revenue by targeting clients with customized requirements' | Page 6: 'We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing. Compared to the generalized market orientation, specialized market orientation implies that the usage variations among clients are less and the accumulation of expertise becomes relatively easy to achieve. This benefits vendors by supporting them to improve the quality of software services and create and deliver value-added client service. Also, specialized market orientation benefits SaaS vendors with extra revenues by allowing them to fine-tune licensing models towards varied usages of software services' | Page 6: 'when usage-independent based components were adopted, vendors usually complement them with discount options for pre-pay or bulk-pay subscribers'",
 			"confidence_level": "high"
 		},
@@ -568,14 +683,16 @@
 					"Period": "2012 study",
 					"Method": "Cluster analysis",
 					"Source": "Study results"
-				}
+				},
+				"Market size: 12.1 billion USD by 2014; Growth rate: 26% CAGR; Sample size: 353 SaaS vendors; Geographic distribution: USA 63.2%, Canada 7.1%, UK 6.8%; Company age: <10 years 65%, 11-20 years 30%"
 			],
 			"synonyms_found": [
 				"market size",
 				"growth rate",
 				"percentage",
 				"statistics",
-				"metrics"
+				"metrics",
+				"sample size"
 			],
 			"source_citation": "Page 1: 'According to a study by Gartner, the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' | Page 4: 'The largest cluster (C1) makes up 57% of our sample...in C1 63% vendors considered no more than two components and 91% vendors considered no more than three' | Page 4: 'Cluster two (C2) makes up 28% of our sample' | Page 4: 'Cluster three (C3) makes up 15% of our sample' | Page 5: '67.2% of the vendors used single payment frequency, while 30% used multiple payment frequency options and complementary bulk payment discount incentive' | Page 3, Table II: 'Age of vendors <10 65' | Page 3, Table II: 'USA 63.2' | Page 5: '100% of the vendors adopted the function-based pricing component' | Page 5: 'Vendors from cluster one, making up 67% of our sample, prefer the user-based pricing component'",
 			"confidence_level": "high"
@@ -584,22 +701,24 @@
 			"question_id": "29",
 			"question_text": "What is the temporal period and maturity of the software business model as presented in the article?",
 			"response_found": true,
-			"extracted_value": "Observed period: Data collected September 1, 2012 from 353 SaaS vendors, with market forecasts to 2014. Article published 2014. Maturity status: Growing (SaaS has proliferated over past decade with signs of continued/accelerated growth; described as 'emerging business model' but with established practices)",
+			"extracted_value": "Observed period: Data collected September 1, 2012 from 353 SaaS vendors, with market forecasts to 2014. Article published 2014. Maturity status: Growing (SaaS has proliferated over past decade with signs of continued/accelerated growth; described as 'emerging business model' but with established practices) | 2012-2014, Growing",
 			"synonyms_found": [
 				"emerging",
 				"growth",
 				"proliferated",
 				"decade",
-				"expected to grow"
+				"expected to grow",
+				"growing",
+				"proliferating"
 			],
-			"source_citation": "Page 1: 'software-as-a-service (SaaS) has proliferated over the past decade and there are signs to suggest that this growth is likely to continue or even accelerate in the near future' | Page 1: 'Software-as-a-Service (SaaS)...is an emerging business model that is expected to grow rapidly' | Page 3: 'The data collection work was done on September 1, 2012' | Page 1: '©2014 IEEE' | Page 6: 'As an emerging business model, SaaS is attracting more and more attention from both the software industry and the academia'",
+			"source_citation": "Page 1: 'software-as-a-service (SaaS) has proliferated over the past decade and there are signs to suggest that this growth is likely to continue or even accelerate in the near future' | Page 1: 'Software-as-a-Service (SaaS)...is an emerging business model that is expected to grow rapidly' | Page 3: 'The data collection work was done on September 1, 2012' | Page 1: '©2014 IEEE' | Page 6: 'As an emerging business model, SaaS is attracting more and more attention from both the software industry and the academia' | Page 1: 'As an emerging business model, software-as-a-service (SaaS) has proliferated over the past decade and there are signs to suggest that this growth is likely to continue or even accelerate in the near future'",
 			"confidence_level": "high"
 		},
 		{
 			"question_id": "30",
 			"question_text": "What is the type of evidence presented in the article about the software business model?",
 			"response_found": true,
-			"extracted_value": "Multiple cases (content analysis of 353 SaaS vendors) combined with secondary data analysis (market studies, literature review)",
+			"extracted_value": "Secondary data analysis",
 			"synonyms_found": [
 				"content analysis",
 				"cluster analysis",
@@ -607,26 +726,17 @@
 				"study",
 				"empirical analysis"
 			],
-			"source_citation": "Page 3: 'To gain insights into pricing strategies of SaaS vendors, we conducted content analysis to investigate the software licensing practices for SaaS' | Page 3: 'We were eventually left with 353 data points in our final sample' | Page 4: 'we performed cluster analyses on these pricing data in order to gain insights into the SaaS licensing practice' | Page 3: 'The pricing data source is obtained through our examination of each SaaS vendor's website according to the vendor list provided by the New Cloud Computing Showplace website'",
+			"source_citation": "Page 3: 'To gain insights into pricing strategies of SaaS vendors, we conducted content analysis to investigate the software licensing practices for SaaS. The pricing data source is obtained through our examination of each SaaS vendor's website' | Page 4: 'we performed cluster analyses on these pricing data in order to gain insights into the SaaS licensing practice'",
 			"confidence_level": "high"
 		},
 		{
 			"question_id": "31",
 			"question_text": "Which companies or products are cited as examples of the software business model in the article?",
-			"response_found": true,
-			"extracted_value": [
-				"New Cloud Computing Showplace (www.saas-showplace.com) → Vendor-independent resource center providing comprehensive SaaS vendor list, source of 353 vendor sample",
-				"Generic application categories cited: CRM (8.8%), Collaboration (8.5%), Project Management (6.2%), Marketing (5.3%), Accounting/Financial (4.9%), Document Management (4.9%), BPM (4.6%), others",
-				"Generic industry examples: Professional Services (9.8%), Technology (9.7%), Software (9.2%), Banking/Financial Services (7.3%), Healthcare (5.8%), Government (4.8%), others"
-			],
-			"synonyms_found": [
-				"SaaS vendors",
-				"Cloud Computing Showplace",
-				"application types",
-				"industry types"
-			],
-			"source_citation": "Page 3: 'The pricing data source is obtained through our examination of each SaaS vendor's website according to the vendor list provided by the New Cloud Computing Showplace website (http://www.saas-showplace.com). Based on our knowledge, we tend to believe the SaaS vendor list presented by the prior website is the most comprehensive one. Besides, this website is regarded as the vendor-independent, resource center of industrial best practices in SaaS market' | Page 3, Table II: 'Application Types (No. of application types: 45) CRM 8.8, Collaboration 8.5, Project Management 6.2, Marketing 5.3, Accounting/Financial 4.9, Document Management 4.9, BPM 4.6, Productivity 3.6, Content Management 3.3, Business Intelligence 2.9, IT/Application Management 2.8, Others 44.2' | Page 3, Table II: 'Industry Types (No. of industry types: 32) Professional Services 9.8, Technology 9.7, Software 9.2, Banking/Financial Services 7.3, Healthcare 5.8, Government 4.8, Entertainment/Media 4.7, Legal 4.5, Manufacturing 4.3, Education 4.0, Non-Profit 3.4, Others 32.5'",
-			"confidence_level": "medium"
+			"response_found": false,
+			"extracted_value": "not reported",
+			"synonyms_found": [],
+			"source_citation": "information not found in text",
+			"confidence_level": "high"
 		},
 		{
 			"question_id": "32",
@@ -640,16 +750,24 @@
 				"Cost-focused models (15% of vendors) → Prefer cost-based over value-based components",
 				"Payment-focus models (47% of vendors) → Emphasize payment-based and usage-independent pricing",
 				"Usage-dependent models (33% of vendors) → Focus on usage-dependent pricing",
-				"Service-based models (20% of vendors) → Emphasize service-based pricing with complex licenses"
+				"Service-based models (20% of vendors) → Emphasize service-based pricing with complex licenses",
+				"Value-based pricing → Client-dictated pricing based on business value",
+				"Cost-based pricing → Vendor-dictated pricing based on cost accounting",
+				"Usage-dependent pricing → Pricing based on actual usage intensity",
+				"Usage-independent pricing → Pricing based on fixed metrics like user count"
 			],
 			"synonyms_found": [
 				"orientation",
 				"categories",
 				"clusters",
 				"models",
-				"pricing strategies"
+				"pricing strategies",
+				"value-based",
+				"cost-based",
+				"usage-dependent",
+				"usage-independent"
 			],
-			"source_citation": "Page 3: 'Layer 1 of our pricing framework consists of two types of pricing orientations, namely cost-based and value-based. Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting...cost-based pricing is dictated by SaaS vendors rather than clients. Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value to be extracted from such software services. Value-based pricing is thus in sharp contrast to cost-based pricing in that it is dictated by clients rather than SaaS vendors' | Page 4: 'The largest cluster (C1) makes up 57% of our sample...most SaaS vendors prefer compact licensing models' | Page 4: 'Cluster two (C2) makes up 28% of our sample...vendors in C2 attach more importance on value-based rather than cost-based orientation' | Page 4: 'Cluster three (C3) makes up 15% of our sample...vendors in C3 attach more importance on cost-based rather than value-based orientation' | Page 4-5: 'Cluster one (C1) that makes up 47% of the sample represent vendors that attached more importance on pricing components from the payment-based and usage-independent based categories' | Page 5: 'Vendors in Cluster two (C2) that make up 33% of the sample attach more importance on pricing components from the usage-dependent based category' | Page 5: 'Vendors in Cluster three (C3) that makes up 20% of the sample attach more importance on pricing components from the service-based category'",
+			"source_citation": "Page 3: 'Layer 1 of our pricing framework consists of two types of pricing orientations, namely cost-based and value-based. Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting...cost-based pricing is dictated by SaaS vendors rather than clients. Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value to be extracted from such software services. Value-based pricing is thus in sharp contrast to cost-based pricing in that it is dictated by clients rather than SaaS vendors' | Page 4: 'The largest cluster (C1) makes up 57% of our sample...most SaaS vendors prefer compact licensing models' | Page 4: 'Cluster two (C2) makes up 28% of our sample...vendors in C2 attach more importance on value-based rather than cost-based orientation' | Page 4: 'Cluster three (C3) makes up 15% of our sample...vendors in C3 attach more importance on cost-based rather than value-based orientation' | Page 4-5: 'Cluster one (C1) that makes up 47% of the sample represent vendors that attached more importance on pricing components from the payment-based and usage-independent based categories' | Page 5: 'Vendors in Cluster two (C2) that make up 33% of the sample attach more importance on pricing components from the usage-dependent based category' | Page 5: 'Vendors in Cluster three (C3) that makes up 20% of the sample attach more importance on pricing components from the service-based category' | Page 3: 'Cost-based pricing implies that price levels of SaaS licenses are defined through cost accounting... Conversely, value-based pricing of SaaS licenses means that price levels are determined through clients' assessment of the business value'",
 			"confidence_level": "high"
 		},
 		{
@@ -663,7 +781,10 @@
 				"Evolution toward more sophisticated pricing frameworks → incorporation of previously overlooked pricing components",
 				"Increasing importance of value-based pricing → focus on delivering value to clients",
 				"Greater emphasis on usage-based pricing strategies → better reflection of vendor costs and client value",
-				"Need for improved alignment between license design and client value → sustainable competitive advantage"
+				"Need for improved alignment between license design and client value → sustainable competitive advantage",
+				"Continued growth and acceleration of SaaS market",
+				"Move toward specialized market targeting",
+				"Increased focus on value-based pricing strategies"
 			],
 			"synonyms_found": [
 				"expected",
@@ -671,9 +792,12 @@
 				"continue",
 				"accelerate",
 				"evolution",
-				"trend"
+				"trend",
+				"market growth",
+				"specialization",
+				"value orientation"
 			],
-			"source_citation": "Page 1: 'software-as-a-service (SaaS) has proliferated over the past decade and there are signs to suggest that this growth is likely to continue or even accelerate in the near future' | Page 1: 'the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' | Page 6: 'We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing. Compared to the generalized market orientation, specialized market orientation implies that the usage variations among clients are less and the accumulation of expertise becomes relatively easy to achieve' | Page 6: 'This framework should also facilitate the identification and consideration of previously overlooked pricing components can then be incorporated into contemporary licenses for SaaS vendors' | Page 5: 'SaaS vendors seem to prefer value-based to cost-based orientation in software pricing...the focus on value-based orientation in software pricing will help them in securing sustainable revenue' | Page 6: 'usage-based pricing strategies could be attached greater importance by SaaS vendors'",
+			"source_citation": "Page 1: 'software-as-a-service (SaaS) has proliferated over the past decade and there are signs to suggest that this growth is likely to continue or even accelerate in the near future' | Page 1: 'the global SaaS market is expected to reach 12.1 billion USD by 2014, reflecting a compound annual growth rate of 26%' | Page 6: 'We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing. Compared to the generalized market orientation, specialized market orientation implies that the usage variations among clients are less and the accumulation of expertise becomes relatively easy to achieve' | Page 6: 'This framework should also facilitate the identification and consideration of previously overlooked pricing components can then be incorporated into contemporary licenses for SaaS vendors' | Page 5: 'SaaS vendors seem to prefer value-based to cost-based orientation in software pricing...the focus on value-based orientation in software pricing will help them in securing sustainable revenue' | Page 6: 'usage-based pricing strategies could be attached greater importance by SaaS vendors' | Page 1: 'there are signs to suggest that this growth is likely to continue or even accelerate in the near future' and Page 6: 'We suggest that it is vital for SaaS vendors to target at specialized markets in software licensing'",
 			"confidence_level": "high"
 		}
 	]

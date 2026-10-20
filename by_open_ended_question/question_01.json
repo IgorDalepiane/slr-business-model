@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "1",
     "question_text": "What is the name and definition of the software business model presented in the article?",
-    "total_articles": 67,
-    "articles_with_response": 67,
+    "total_articles": 63,
+    "articles_with_response": 63,
     "articles_without_response": 0
   },
   "responses_by_article": [
@@ -14,7 +14,7 @@
       "question_id": "1",
       "question_text": "What is the name and definition of the software business model presented in the article?",
       "response_found": true,
-      "extracted_value": "Software-as-a-Service (SaaS): A business model where software is deployed as a hosted service and accessed over the Internet. It involves hosting single-versioned software coupled with supplementary delivery and maintenance services, where clients are charged through recurring subscription fees on a pay-as-you-go basis. SaaS is outsourced software where both technology infrastructure and management (hardware, software and professional services) are contracted out to software vendors and accessed remotely.",
+      "extracted_value": "Software-as-a-Service (SaaS): A business model where software is deployed as a hosted service and accessed over the Internet. It involves hosting single-versioned software coupled with supplementary delivery and maintenance services, where clients are charged through recurring subscription fees on a pay-as-you-go basis. SaaS is outsourced software where both technology infrastructure and management (hardware, software and professional services) are contracted out to software vendors and accessed remotely. | Software-as-a-Service (SaaS) - software deployed as a hosted service and accessed over the Internet",
       "synonyms_found": [
         "SaaS",
         "software-as-a-service",
@@ -33,7 +33,7 @@
       "question_id": "1",
       "question_text": "What is the name and definition of the software business model presented in the article?",
       "response_found": true,
-      "extracted_value": "Software as a Service (SaaS) Business Model - A cloud computing service model that provides applications on top of PaaS and IaaS, where software is delivered via the Internet as a service with multi-tenant or multi-instance architecture, enabling software renting as an alternative to traditional perpetual licensing.",
+      "extracted_value": "Software as a Service (SaaS) Business Model - A cloud computing service model that provides applications on top of PaaS and IaaS, where software is delivered via the Internet as a service with multi-tenant or multi-instance architecture, enabling software renting as an alternative to traditional perpetual licensing. | SaaS Revenue and Pricing Models - Software as a Service business models that facilitate various revenue and pricing approaches, including software renting through cloud delivery, enabling flexible pricing strategies and multiple payment options for customers.",
       "synonyms_found": [
         "SaaS",
         "Software as a Service",
@@ -41,9 +41,11 @@
         "cloud computing",
         "rental model",
         "pure-SaaS",
-        "enterprise-SaaS"
+        "enterprise-SaaS",
+        "revenue models",
+        "pricing models"
       ],
-      "source_citation": "Page 1: 'Software as a Service (SaaS), which provides applications on top of PaaS and IaaS' | Page 1: 'When the software is sold through the software as a service (SaaS) model, it facilitates a number of revenue and pricing models.' | Page 1: 'a number of studies have suggested that software renting is becoming more frequent in the new era of computing, in which software is delivered via the SaaS model' | Page 2: 'SaaS has multi-tenant or multi-instance architecture; the former refers to the situation in which a vendor hosts a single instance on a server that serves multiple customers (tenants), whereas the latter is related to the model in which a vendor hosts separate instances for each customer within shared hardware'",
+      "source_citation": "Page 1: 'Software as a Service (SaaS), which provides applications on top of PaaS and IaaS' | Page 1: 'When the software is sold through the software as a service (SaaS) model, it facilitates a number of revenue and pricing models.' | Page 1: 'a number of studies have suggested that software renting is becoming more frequent in the new era of computing, in which software is delivered via the SaaS model' | Page 2: 'SaaS has multi-tenant or multi-instance architecture; the former refers to the situation in which a vendor hosts a single instance on a server that serves multiple customers (tenants), whereas the latter is related to the model in which a vendor hosts separate instances for each customer within shared hardware' | Page 1, Abstract: 'Recent research on software revenue and pricing models has revealed important ways in which firms can benefit from software renting. However, it is still unclear how SaaS providers select a proper revenue and pricing model to make their services attractive for customers.' | Page 1, Section I: 'When the software is sold through the software as a service (SaaS) model, it facilitates a number of revenue and pricing models.'",
       "confidence_level": "high"
     },
     {
@@ -53,16 +55,18 @@
       "question_id": "1",
       "question_text": "What is the name and definition of the software business model presented in the article?",
       "response_found": true,
-      "extracted_value": "Cloud-based business model / SaaS-based business model. Definition: A model for enabling convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort, delivered as software-as-a-service over the Internet with subscription-based payment model.",
+      "extracted_value": "Cloud-based business model / SaaS-based business model. Definition: A model for enabling convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort, delivered as software-as-a-service over the Internet with subscription-based payment model. | Cloud computing / Software-as-a-Service (SaaS). Definition: A model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (networks, servers, storage, applications, services) that can be rapidly provisioned and released with minimal management effort. Cloud-based customer relationship management software delivered over the Internet, with pay-as-you-go or subscription-based payment model.",
       "synonyms_found": [
         "cloud computing",
         "SaaS",
         "software-as-a-service",
         "cloud-based business model",
         "SaaS-based business model",
-        "utility-like way to deliver and consume IT resources"
+        "utility-like way to deliver and consume IT resources",
+        "SaaS-based cloud model",
+        "cloud-based IT solutions"
       ],
-      "source_citation": "Page 1, Abstract: 'In this paper, we present a case study of an ERP vendor for SMB (small and medium-size business) in making a transition towards a cloud-based business model.' | Page 1, Section 1: 'The National Institute of Standards and Technology (NIST) defines cloud computing as \"a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (for example, networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service-provider interaction\"' | Page 2, Section 2: 'the business model of cloud computing implies a different revenue stream: instead of relying on upfront license fee, IT vendors are now collecting periodic subscription fee'",
+      "source_citation": "Page 1, Abstract: 'In this paper, we present a case study of an ERP vendor for SMB (small and medium-size business) in making a transition towards a cloud-based business model.' | Page 1, Section 1: 'The National Institute of Standards and Technology (NIST) defines cloud computing as \"a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (for example, networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service-provider interaction\"' | Page 2, Section 2: 'the business model of cloud computing implies a different revenue stream: instead of relying on upfront license fee, IT vendors are now collecting periodic subscription fee' | Page 1: 'The National Institute of Standards and Technology (NIST) defines cloud computing as \"a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (for example, networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service-provider interaction\"' | Page 1: 'software-as-a service (SaaS) (e.g. Salesforce.com cloud-based customer relationship management software delivered over the Internet)' | Page 2: 'the pay-as-you-go or subscription-based payment model'",
       "confidence_level": "high"
     },
     {
@@ -806,25 +810,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "1",
-      "question_text": "What is the name and definition of the software business model presented in the article?",
-      "response_found": true,
-      "extracted_value": "Cloud computing / Software-as-a-Service (SaaS). Definition: A model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (networks, servers, storage, applications, services) that can be rapidly provisioned and released with minimal management effort. Cloud-based customer relationship management software delivered over the Internet, with pay-as-you-go or subscription-based payment model.",
-      "synonyms_found": [
-        "cloud computing",
-        "SaaS",
-        "software-as-a-service",
-        "cloud-based business model",
-        "SaaS-based cloud model",
-        "cloud-based IT solutions"
-      ],
-      "source_citation": "Page 1: 'The National Institute of Standards and Technology (NIST) defines cloud computing as \"a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources (for example, networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service-provider interaction\"' | Page 1: 'software-as-a service (SaaS) (e.g. Salesforce.com cloud-based customer relationship management software delivered over the Internet)' | Page 2: 'the pay-as-you-go or subscription-based payment model'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -942,25 +927,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "1",
-      "question_text": "What is the name and definition of the software business model presented in the article?",
-      "response_found": true,
-      "extracted_value": "SaaS Revenue and Pricing Models - Software as a Service business models that facilitate various revenue and pricing approaches, including software renting through cloud delivery, enabling flexible pricing strategies and multiple payment options for customers.",
-      "synonyms_found": [
-        "SaaS",
-        "Software as a Service",
-        "software renting",
-        "cloud computing",
-        "revenue models",
-        "pricing models"
-      ],
-      "source_citation": "Page 1, Abstract: 'Recent research on software revenue and pricing models has revealed important ways in which firms can benefit from software renting. However, it is still unclear how SaaS providers select a proper revenue and pricing model to make their services attractive for customers.' | Page 1, Section I: 'When the software is sold through the software as a service (SaaS) model, it facilitates a number of revenue and pricing models.'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655589",
       "article_title": "Service-Centric Business Model in Cloud Environment",
       "extraction_date": "2025-01-27",
@@ -1055,39 +1021,6 @@
         "degree of openness"
       ],
       "source_citation": "Page 1: 'we derive the necessary condition(s) in terms of the strength of network externalities for observing the adoption of a business model that comprises the offering of both proprietary and OS solutions by the entrant (i.e., hybrid business model)' | Page 2: 'we label as degree of openness the extent to which software start-ups mix open source (OS) and proprietary solutions in the portfolio of software products they offer'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "1",
-      "question_text": "What is the name and definition of the software business model presented in the article?",
-      "response_found": true,
-      "extracted_value": "Software-as-a-Service (SaaS) - software deployed as a hosted service and accessed over the Internet",
-      "synonyms_found": [
-        "SaaS",
-        "software-as-a-service",
-        "hosted service"
-      ],
-      "source_citation": "Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet,\" is an emerging business model that is expected to grow rapidly'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "1",
-      "question_text": "What is the name and definition of the software business model presented in the article?",
-      "response_found": true,
-      "extracted_value": "SaaS-based disturbance management and analysis solution for supply chains. A database-based service solution that aims to provide a tool for companies to analyze and manage transport disturbances, and thus provide companies an opportunity to develop proactive risk management.",
-      "synonyms_found": [
-        "SaaS based service entity",
-        "Software as a Service principles",
-        "cloud-based service",
-        "database-based service solution"
-      ],
-      "source_citation": "Page 3: 'The new service is a database-based service solution that aims to provide a tool for companies to analyze and manage transport disturbances, and thus provide companies an opportunity to develop proactive risk management. The solution is planned to work with Software as a Service (SaaS) principles (used and delivered through internet technology)'",
       "confidence_level": "high"
     },
     {

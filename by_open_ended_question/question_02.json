@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "2",
     "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
-    "total_articles": 67,
-    "articles_with_response": 67,
+    "total_articles": 63,
+    "articles_with_response": 63,
     "articles_without_response": 0
   },
   "responses_by_article": [
@@ -14,7 +14,14 @@
       "question_id": "2",
       "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
       "response_found": true,
-      "extracted_value": "Hosted service, remotely hosted software services, software as a service, emerging business model, outsourced software, single-versioned software",
+      "extracted_value": [
+        "Hosted service, remotely hosted software services, software as a service, emerging business model, outsourced software, single-versioned software",
+        "SaaS",
+        "software-as-a-service",
+        "hosted service",
+        "remotely hosted software services",
+        "outsourced software"
+      ],
       "synonyms_found": [
         "SaaS",
         "software-as-a-service",
@@ -23,9 +30,10 @@
         "remotely hosted",
         "outsourced software",
         "emerging business model",
-        "single-versioned software"
+        "single-versioned software",
+        "remotely hosted software services"
       ],
-      "source_citation": "Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet,\" is an emerging business model' | Page 1: 'SaaS is outsourced software' | Page 1: 'SaaS is remotely hosted, meaning that software are deployed as hosted services' | Page 1: 'SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time'",
+      "source_citation": "Page 1: 'Software-as-a-Service (SaaS), \"software deployed as a hosted service and accessed over the Internet,\" is an emerging business model' | Page 1: 'SaaS is outsourced software' | Page 1: 'SaaS is remotely hosted, meaning that software are deployed as hosted services' | Page 1: 'SaaS is single versioned, meaning that there is only one version of software being accessed by every client at any moment in time' | Page 1: 'SaaS differs from traditional off-the-shelf software in three aspects. First, SaaS is outsourced software... Second, SaaS is remotely hosted, meaning that software are deployed as hosted services'",
       "confidence_level": "high"
     },
     {
@@ -44,15 +52,23 @@
         "pure-SaaS",
         "enterprise-SaaS",
         "multi-tenant architecture",
-        "multi-instance architecture"
+        "multi-instance architecture",
+        "cloud computing",
+        "revenue models",
+        "pricing models"
       ],
       "synonyms_found": [
         "SaaS",
         "software renting",
         "rental model",
-        "cloud model"
+        "cloud model",
+        "cloud computing",
+        "revenue models",
+        "pricing models",
+        "pure-SaaS",
+        "enterprise-SaaS"
       ],
-      "source_citation": "Page 1: 'software as a service (SaaS) model' | Page 1: 'software renting is becoming more frequent in the new era of computing, in which software is delivered via the SaaS model' | Page 2: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes' | Page 3: 'We can sell it as SaaS, using software renting' | Page 3: 'cloud model and software renting'",
+      "source_citation": "Page 1: 'software as a service (SaaS) model' | Page 1: 'software renting is becoming more frequent in the new era of computing, in which software is delivered via the SaaS model' | Page 2: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes' | Page 3: 'We can sell it as SaaS, using software renting' | Page 3: 'cloud model and software renting' | Page 1, Section I: 'software renting is becoming more frequent in the new era of computing, in which software is delivered via the SaaS model' | Page 2, Section II: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes'",
       "confidence_level": "high"
     },
     {
@@ -71,7 +87,8 @@
         "cloud-based IT solutions",
         "SaaS products",
         "utility-like way to deliver and consume IT resources",
-        "cloud world"
+        "cloud world",
+        "SaaS-based cloud model"
       ],
       "synonyms_found": [
         "cloud computing",
@@ -82,9 +99,11 @@
         "cloud-based IT solutions",
         "SaaS products",
         "utility-like way to deliver and consume IT resources",
-        "cloud world"
+        "cloud world",
+        "SaaS-based cloud model",
+        "cloud-based products"
       ],
-      "source_citation": "Page 1: 'Nowadays, it has been increasingly more widely accepted such utility-like way to deliver and consume IT recourses.' | Page 1: 'transition of traditional make-to-shelf software vendor to a cloud world' | Page 2: 'We use a revelatory case study by focusing on a Nordic ERP vendor and its transition towards a SaaS-based cloud model.'",
+      "source_citation": "Page 1: 'Nowadays, it has been increasingly more widely accepted such utility-like way to deliver and consume IT recourses.' | Page 1: 'transition of traditional make-to-shelf software vendor to a cloud world' | Page 2: 'We use a revelatory case study by focusing on a Nordic ERP vendor and its transition towards a SaaS-based cloud model.' | Page 1: 'software-as-a service (SaaS)' | Page 2: 'a case study of an ERP vendor for SMB (small and medium-size business) in making a transition towards a cloud-based business model' | Page 2: 'a Nordic ERP vendor and its transition towards a SaaS-based cloud model'",
       "confidence_level": "high"
     },
     {
@@ -1072,33 +1091,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "2",
-      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
-      "response_found": true,
-      "extracted_value": [
-        "Software-as-a-Service",
-        "SaaS",
-        "cloud-based business model",
-        "SaaS-based cloud model",
-        "cloud-based IT solutions"
-      ],
-      "synonyms_found": [
-        "cloud computing",
-        "SaaS",
-        "software-as-a-service",
-        "cloud-based business model",
-        "SaaS-based cloud model",
-        "cloud-based IT solutions",
-        "SaaS products",
-        "cloud-based products"
-      ],
-      "source_citation": "Page 1: 'software-as-a service (SaaS)' | Page 2: 'a case study of an ERP vendor for SMB (small and medium-size business) in making a transition towards a cloud-based business model' | Page 2: 'a Nordic ERP vendor and its transition towards a SaaS-based cloud model'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -1234,32 +1226,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "2",
-      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
-      "response_found": true,
-      "extracted_value": [
-        "software renting",
-        "cloud computing",
-        "revenue models",
-        "pricing models",
-        "pure-SaaS",
-        "enterprise-SaaS"
-      ],
-      "synonyms_found": [
-        "software renting",
-        "cloud computing",
-        "revenue models",
-        "pricing models",
-        "pure-SaaS",
-        "enterprise-SaaS"
-      ],
-      "source_citation": "Page 1, Section I: 'software renting is becoming more frequent in the new era of computing, in which software is delivered via the SaaS model' | Page 2, Section II: 'SaaS providers can be classified into \"pure-SaaS\" and \"enterprise-SaaS\" business archetypes'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655589",
       "article_title": "Service-Centric Business Model in Cloud Environment",
       "extraction_date": "2025-01-27",
@@ -1386,55 +1352,6 @@
         "mixed business model"
       ],
       "source_citation": "Page 2: 'The authors have referred to these firms as hybrid firms (i.e., firms that adopt a hybrid business model)' | Page 3: 'they have empirically analysed the determinants of their degree of openness' | Page 25: 'a business model that mixes the offering of the two types of software (i.e. hybrid business model)'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "2",
-      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
-      "response_found": true,
-      "extracted_value": [
-        "SaaS",
-        "software-as-a-service",
-        "hosted service",
-        "remotely hosted software services",
-        "outsourced software"
-      ],
-      "synonyms_found": [
-        "SaaS",
-        "software-as-a-service",
-        "hosted service",
-        "remotely hosted software services",
-        "outsourced software",
-        "single-versioned software"
-      ],
-      "source_citation": "Page 1: 'SaaS differs from traditional off-the-shelf software in three aspects. First, SaaS is outsourced software... Second, SaaS is remotely hosted, meaning that software are deployed as hosted services'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "2",
-      "question_text": "What synonyms or alternative terms are used in the article to refer to this software business model?",
-      "response_found": true,
-      "extracted_value": [
-        "SaaS based service entity",
-        "Software as a Service principles",
-        "cloud-based service",
-        "database-based service solution",
-        "disturbance management and analysis solution"
-      ],
-      "synonyms_found": [
-        "SaaS based service entity",
-        "Software as a Service principles",
-        "cloud-based service",
-        "database-based service solution",
-        "disturbance management and analysis solution"
-      ],
-      "source_citation": "Page 3: 'The solution is planned to work with Software as a Service (SaaS) principles' | Page 5: 'SaaS based service entity' | Page 3: 'database-based service solution'",
       "confidence_level": "high"
     },
     {

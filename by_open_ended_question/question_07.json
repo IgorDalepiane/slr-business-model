@@ -2,8 +2,8 @@
   "question_metadata": {
     "question_id": "7",
     "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
-    "total_articles": 67,
-    "articles_with_response": 66,
+    "total_articles": 63,
+    "articles_with_response": 62,
     "articles_without_response": 1
   },
   "responses_by_article": [
@@ -14,14 +14,16 @@
       "question_id": "7",
       "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
       "response_found": true,
-      "extracted_value": "Diverse client segments with varied usage patterns: (1) Low-breadth but high-depth usage clients (low frequency but complicated modules), (2) High-breadth but low-depth usage clients (high frequency but simple modules), and (3) Clients demanding access from odd times or obscure locations",
+      "extracted_value": "Diverse client segments with varied usage patterns: (1) Low-breadth but high-depth usage clients (low frequency but complicated modules), (2) High-breadth but low-depth usage clients (high frequency but simple modules), and (3) Clients demanding access from odd times or obscure locations | Small and medium enterprises (SMEs)",
       "synonyms_found": [
         "clients",
         "SaaS clients",
         "usage patterns",
-        "diversified clients"
+        "diversified clients",
+        "small and medium enterprises",
+        "SMEs"
       ],
-      "source_citation": "Page 2: 'The third challenge resides in clients' varied usage of software services. Whereas some clients may exhibit low-breadth but high-depth usage (i.e., low frequency of service usage but complicated software modules required), others may register the opposite usage pattern (i.e., high frequency of service usage but simple software modules required) or demand access to required services at odd times or from obscure locations'",
+      "source_citation": "Page 2: 'The third challenge resides in clients' varied usage of software services. Whereas some clients may exhibit low-breadth but high-depth usage (i.e., low frequency of service usage but complicated software modules required), others may register the opposite usage pattern (i.e., high frequency of service usage but simple software modules required) or demand access to required services at odd times or from obscure locations' | Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters'",
       "confidence_level": "high"
     },
     {
@@ -31,15 +33,17 @@
       "question_id": "7",
       "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
       "response_found": true,
-      "extracted_value": "B2B organizations with varying IT capabilities and security requirements - ranging from small-medium sized customers without IT infrastructure to large organizations with existing IT departments and internal data centers",
+      "extracted_value": "B2B organizations with varying IT capabilities and security requirements - ranging from small-medium sized customers without IT infrastructure to large organizations with existing IT departments and internal data centers | Organizations with different IT capabilities and security requirements",
       "synonyms_found": [
         "customers",
         "organizations",
         "customers with IT infrastructure",
         "customers with IT department",
-        "smaller customers"
+        "smaller customers",
+        "financial institutions",
+        "government organizations"
       ],
-      "source_citation": "Page 4: 'within the first six months we realized that this does not work with smaller customers who do not have servers in the firm. It became clear that 90 percent of our customers wanted to use this through a public cloud' | Page 5: 'Low initial costs in software renting enabled to expand the customer base from large-sized customers toward small and medium-sized customers (Firm D)' | Page 5: 'customers who had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice'",
+      "source_citation": "Page 4: 'within the first six months we realized that this does not work with smaller customers who do not have servers in the firm. It became clear that 90 percent of our customers wanted to use this through a public cloud' | Page 5: 'Low initial costs in software renting enabled to expand the customer base from large-sized customers toward small and medium-sized customers (Firm D)' | Page 5: 'customers who had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice' | Page 3, Section IV: 'The software can be used in many different types of organizations, including financial institutions and government organizations.' | Page 5, Section V: 'If customers had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice.'",
       "confidence_level": "high"
     },
     {
@@ -49,13 +53,15 @@
       "question_id": "7",
       "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
       "response_found": true,
-      "extracted_value": "Small and medium size businesses with less than 1000 employees, served through Value-added-Resellers (VAR) who provide customized products and services. This segment represents the largest customer base where ERP Co works closely with partners.",
+      "extracted_value": "Small and medium size businesses with less than 1000 employees, served through Value-added-Resellers (VAR) who provide customized products and services. This segment represents the largest customer base where ERP Co works closely with partners. | Small and medium size businesses with less than 1000 employees, where vendor works closely with Value-Added Resellers (VAR) partners for tailored systems based on standard products",
       "synonyms_found": [
         "small and medium size business",
         "SMB",
-        "SME"
+        "SME",
+        "SMEs",
+        "micro business"
       ],
-      "source_citation": "Page 5, Section 5.1: 'The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners, all what they refer to as value added resellers. Here, all the sales go through ERP Co partners, which could be platinum partners that only work for ERP Co and build their services around ERP Co products, or gold partners that mainly work with ERP Co but also engage with other businesses, or smaller partners and resellers that represent ERP Co or their products in micro markets and local markets around the country.' | Page 5: 'VAR is a critical part of ERP Co's business ecosystem, as they are in direct charge of selling to the largest customer segment, the small and medium size businesses.'",
+      "source_citation": "Page 5, Section 5.1: 'The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners, all what they refer to as value added resellers. Here, all the sales go through ERP Co partners, which could be platinum partners that only work for ERP Co and build their services around ERP Co products, or gold partners that mainly work with ERP Co but also engage with other businesses, or smaller partners and resellers that represent ERP Co or their products in micro markets and local markets around the country.' | Page 5: 'VAR is a critical part of ERP Co's business ecosystem, as they are in direct charge of selling to the largest customer segment, the small and medium size businesses.' | Page 4: 'The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners, all what they refer to as value added resellers. Here, all the sales go through ERP Co partners... Customers in this segment can obtain tailor made system based on standard ERP Co product through ERP Co partners'",
       "confidence_level": "high"
     },
     {
@@ -750,23 +756,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655386",
-      "article_title": "Transition to the Cloud: A Vendor Perspective",
-      "extraction_date": "2025-10-07",
-      "question_id": "7",
-      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
-      "response_found": true,
-      "extracted_value": "Small and medium size businesses with less than 1000 employees, where vendor works closely with Value-Added Resellers (VAR) partners for tailored systems based on standard products",
-      "synonyms_found": [
-        "small and medium size business",
-        "SMEs",
-        "SMB",
-        "micro business"
-      ],
-      "source_citation": "Page 4: 'The second segment is small and medium size business with less than 1000 employees, where ERP Co works closely with their partners, all what they refer to as value added resellers. Here, all the sales go through ERP Co partners... Customers in this segment can obtain tailor made system based on standard ERP Co product through ERP Co partners' | Page 5: 'VAR is a critical part of ERP Co's business ecosystem, as they are in direct charge of selling to the largest customer segment, the small and medium size businesses'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655389",
       "article_title": "Business models and opportunity creation: How IT entrepreneurs create and develop business models under uncertainty",
       "extraction_date": "2025-10-07",
@@ -884,23 +873,6 @@
       "confidence_level": "high"
     },
     {
-      "article_id": "190655555",
-      "article_title": "Selection of the Proper Revenue and Pricing Model for SaaS",
-      "extraction_date": "2025-01-27",
-      "question_id": "7",
-      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
-      "response_found": true,
-      "extracted_value": "Organizations with different IT capabilities and security requirements",
-      "synonyms_found": [
-        "organizations",
-        "customers",
-        "financial institutions",
-        "government organizations"
-      ],
-      "source_citation": "Page 3, Section IV: 'The software can be used in many different types of organizations, including financial institutions and government organizations.' | Page 5, Section V: 'If customers had already invested in IT infrastructure and their own IT personnel, they saw traditional software licensing as a more attractive choice.'",
-      "confidence_level": "high"
-    },
-    {
       "article_id": "190655589",
       "article_title": "Service-Centric Business Model in Cloud Environment",
       "extraction_date": "2025-01-27",
@@ -995,36 +967,6 @@
         "software start-ups aged less than four years"
       ],
       "source_citation": "Page 6: 'Above 70 % of them consider the diffusion of incompatible proprietary solutions as the main barrier for the diffusion of OS solutions' | Page 6: 'relatively new entrants (software start-ups aged less than four years)'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655721",
-      "article_title": "A Pricing Framework for Software-as-a-Service",
-      "extraction_date": "2024-12-19",
-      "question_id": "7",
-      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
-      "response_found": true,
-      "extracted_value": "Small and medium enterprises (SMEs)",
-      "synonyms_found": [
-        "small and medium enterprises",
-        "SMEs"
-      ],
-      "source_citation": "Page 2: 'The second challenge comes from the diversity of SaaS clients, among which small and medium enterprises have been the most aggressive adopters'",
-      "confidence_level": "high"
-    },
-    {
-      "article_id": "190655747",
-      "article_title": "Clarifying the Value Elements of Business Models for Disturbance Management in Supply Chains",
-      "extraction_date": "2025-01-27",
-      "question_id": "7",
-      "question_text": "What specific customer segment is most detailed in the article regarding the software business model?",
-      "response_found": true,
-      "extracted_value": "Logistic operators",
-      "synonyms_found": [
-        "logistic operators",
-        "logistic operators"
-      ],
-      "source_citation": "Page 4: '3) Logistic operators Among logistic operators the need for management and analysis of transport problems is already identified, and it is an important part of companies' operations. In the logistic industry the companies search for competitive advantage especially with cost-effectiveness and quality, and thus the disturbance management is seen as a consequential action'",
       "confidence_level": "high"
     },
     {
