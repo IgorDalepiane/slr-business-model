@@ -411,7 +411,9 @@ IP codes appear only in the appendix table and in `primary_studies.bib` comments
 
 ### 9.2 Reports between 312 and 138
 
-There is no record, in any repository, of the reason why 174 of the 312 potentially relevant reports were not assessed in full text. The annotation "full-text availability" in the former selection figure had no documented source and was removed. The PRISMA diagram now says "Reports not assessed in full text (n = 174)", without a reason, and Chapter 5 states no reason either.
+There is no per-report record, in any repository, of why 174 of the 312 potentially relevant reports were not assessed in full text. The annotation "full-text availability" in the former selection figure had no documented source and was first replaced by the neutral label "Reports not assessed in full text (n = 174)".
+
+**Update (2026-10-20):** the reason follows from the protocol itself (Chapter 5, Section 5.1.3). These 174 reports were never read in full, so they can only have been excluded by the criteria that can be checked without the full text: access (IC1, "fully accessible for analysis"; EC1, "restricted access") and document length or type (IC2, "at least six pages"; EC1, "extended abstracts, presentations, or posters"; EC2, "fewer than six pages"). The PRISMA box now reads "Reports excluded: not accessible or below minimum length (IC1–IC2, EC1–EC2) (n = 174)". The count is not split by reason, because no record says how many reports fell under each criterion. Chapter 5 (External Validity) adds that exclusions for unavailable full text may have favored studies from publishers to which the institution has access.
 
 **Note for future recovery:** the reason for these 174 exclusions may be recoverable from the SMS records in Thoth (the selection tool used for the study) or in the SMS Google Sheets spreadsheet. If it is recovered, the PRISMA box can state it and, if needed, split it by reason.
 
